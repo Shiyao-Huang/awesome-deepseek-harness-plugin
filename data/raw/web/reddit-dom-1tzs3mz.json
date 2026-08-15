@@ -1,0 +1,85 @@
+{
+ "title": "Harness Question with v4 Pro",
+ "author": "avidianity",
+ "score": "4",
+ "commentCount": "33",
+ "created": "2026-06-07T23:59:26.616000+0000",
+ "permalink": "/r/DeepSeek/comments/1tzs3mz/harness_question_with_v4_pro/",
+ "flair": null,
+ "upvoteRatio": "0.8333333333333334",
+ "selftext": "What harness do you guys use for v4 pro when coding?\n\nMy project was planned using grill-with-docs, it has docs planned out for every single feature then I started the project with Claude Code (Opus 4.8) and Codex (GPT-5.5).\n\nThen halfway through the project, I was curious about DeepSeek because there’s so many claims that it’s very cheap to use. So I used the DeepSeek API and loaded 2$ and used Opencode as my harness. I was excited because I thought it would be as good as GPT-5.5 or Opus 4.8 but it’s far from that. There were a lot of times where I have to spoonfeed DeepSeek even with all the codebase structured properly and with docs.\n\nIs DeepSeek not that good for coding yet or am I doing something wrong? I’ve used like 160M tokens for like $1. It’s incredibly cheap but not that useful for my project. Maybe it’s my prompts that are wrong?",
+ "comments": [
+  {
+   "author": "Corythebeast7",
+   "score": "8",
+   "depth": "0",
+   "text": "It's normal for non-frontier models to be less capable of one shotting ambiguous tasks like Opus or gpt5.5 can do. It's incredibly cheap, but in my experience it's about as capable as sonnet 4.6 or maybe a little better than sonnet. Maybe a GPT 5.3 codex. Regardless, you have to guide it.\n\nDisclaimer: All thoughts expressed here are my own and are not in any way representative of the community at large"
+  },
+  {
+   "author": "orvillewilbur",
+   "score": "2",
+   "depth": "0",
+   "text": "I've used OpenCode and Reasonix when my OC Go and/or Zen allotment runs out. I use Flash more than pro because on the vast majority of things it does really well and the creativity of pro can be a liability.\n\nFor reasoning about code, both Flash and pro have been excellent. Debugging in particular is amazing even with Flash.\n\nFor knowledge about real-world web UI programming, they have not been so great. For example: DS v4 pro set videos to autoplay, which is blocked by almost every single brows"
+  },
+  {
+   "author": "avidianity",
+   "score": "1",
+   "depth": "1",
+   "text": "I see. My complain is about web UI too. I did notice that DS4 Pro works mostly fine when working on backend stuff."
+  },
+  {
+   "author": "orvillewilbur",
+   "score": "1",
+   "depth": "2",
+   "text": "Most of these coding benchmark tests seem to be with python and other backend code. I don't think I've seen one that looked at real-world front end coding unless it was like one shotting a website."
+  },
+  {
+   "author": "funstuie",
+   "score": "2",
+   "depth": "0",
+   "text": "Claude code - https://api-docs.deepseek.com/quick_start/agent_integrations/claude_code seems to be working quite well."
+  },
+  {
+   "author": "Sea_Anteater_3270",
+   "score": "1",
+   "depth": "1",
+   "text": "What’s the cost like compared to reasonix"
+  },
+  {
+   "author": "funstuie",
+   "score": "1",
+   "depth": "2",
+   "text": "Never used reasonix so I’ve no comparison I’m afraid."
+  },
+  {
+   "author": "Sea_Anteater_3270",
+   "score": "1",
+   "depth": "3",
+   "text": "deleted my other reply as it was totally wrong. I’m getting nearly 800m tokens for $1 with reasonix. Huge cache hits at 97%"
+  },
+  {
+   "author": "funstuie",
+   "score": "2",
+   "depth": "4",
+   "text": "I should check out reasonix it seems. Thanks for the rec."
+  },
+  {
+   "author": "[已删除]",
+   "score": null,
+   "depth": "3",
+   "text": ""
+  },
+  {
+   "author": "funstuie",
+   "score": "1",
+   "depth": "4",
+   "text": ""
+  },
+  {
+   "author": "Sea_Anteater_3270",
+   "score": "1",
+   "depth": "5",
+   "text": ""
+  }
+ ]
+}

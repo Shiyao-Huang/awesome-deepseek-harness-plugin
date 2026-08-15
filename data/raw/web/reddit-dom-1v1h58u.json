@@ -1,0 +1,85 @@
+{
+ "title": "Best harness for DeepSeek V4?",
+ "author": "spicyfiremelon",
+ "score": "35",
+ "commentCount": "54",
+ "created": "2026-07-20T10:00:23.495000+0000",
+ "permalink": "/r/DeepSeek/comments/1v1h58u/best_harness_for_deepseek_v4/",
+ "flair": null,
+ "upvoteRatio": "0.972972972972973",
+ "selftext": "Earlier I'm using Claude Code as the harness for DeepSeek. Then I subscribed to OpenCode and started using OpenCode CLI and OpenChamber, but I started to think whether both tools are good for DS?\nThen I stumbled upon Reasonix, but I haven't given it a try due to I'm worried that many skills or MCP doesn't work with Reasonix.\nWhat do you guys think? What are the pros and cons of Reasonix?",
+ "comments": [
+  {
+   "author": "HourWorking2839",
+   "score": "20",
+   "depth": "0",
+   "text": "Please criticize me as harsh as you will, but why is no one using Hermes?"
+  },
+  {
+   "author": "Ithron_Morn",
+   "score": "9",
+   "depth": "1",
+   "text": "I can't believe I had to scroll thos far to see Hermes mentioned."
+  },
+  {
+   "author": "n4x1n",
+   "score": "1",
+   "depth": "2",
+   "text": "Hi, could you tell us about your experience? I’d love to, but I’d like to hear about other people’s experiences first."
+  },
+  {
+   "author": "Ithron_Morn",
+   "score": "8",
+   "depth": "3",
+   "text": "My experince with Hermes? It's been going great. It's built a few android apps for me and controls my linux system for me. But, the real fun is that I just created a multi-agent work flow for maintaining a library of scientific journals/articles. It has an agent that maintains the library, gives relevant articles or journals to the other agents that ask for them, and intergrates and catalogs incoming articles. He's able to request new articles to my Agent who specializes in downloading from shad"
+  },
+  {
+   "author": "KDLGates",
+   "score": "2",
+   "depth": "4",
+   "text": "It's nice to see another Hermes user. I do find Hermes just obliterates any token allowance (OpenClaw did too), and I don't think it was my using flawed usage patterns, or at least I never found a solution. If I had unlimited budget I'd stick with it but it hit my wallet too hard and I fell through to Claude Code, which is not as liberated or robust.\n\nI am hoping that DeepSeek V4 GA is close enough to frontier and affordable enough to return to Hermes."
+  },
+  {
+   "author": "Ithron_Morn",
+   "score": "1",
+   "depth": "5",
+   "text": "Obliterates is an under statement. DS Flash is the only reason I can afford to use Hermes. My context window to just send one message starts at 20K. I blew through about 60% of my weekly GPT allowence with their Oauth in one evening."
+  },
+  {
+   "author": "KDLGates",
+   "score": "1",
+   "depth": "6",
+   "text": "I commiserate with you. Hermes is so fun to use but goodbye wallet."
+  },
+  {
+   "author": "DietBloodbath",
+   "score": "7",
+   "depth": "1",
+   "text": "Hermes not good for coding. Its more for agents doing cron jobs"
+  },
+  {
+   "author": "Positive_Resident_86",
+   "score": "2",
+   "depth": "1",
+   "text": "Is Hermes good as a coding agent?"
+  },
+  {
+   "author": "Zealousideal-Tap-152",
+   "score": "1",
+   "depth": "1",
+   "text": "I'm using Hermes now. Moved from vs code just over a week now, and I'm feeling it's more productive and maybe cheaper but I'm not able to analyse the cache rate etc."
+  },
+  {
+   "author": "CommunicationFuzzy45",
+   "score": "2",
+   "depth": "2",
+   "text": "In session: /usage\n\nAcross sessions: hermes insights --days 7\n\nFor a real cache rate percentage: install ccusage, it reads state.db directly.\n\npip install ccusage\nccusage --since \"7 days ago\"\n\nThat gives you cache hit rate %, token breakdown per session, cost estimates per session, proper cache reads vs writes split."
+  },
+  {
+   "author": "Delicious_Ease2595",
+   "score": "1",
+   "depth": "1",
+   "text": "I use it daily, but DS is not the only model I use with Hermes."
+  }
+ ]
+}

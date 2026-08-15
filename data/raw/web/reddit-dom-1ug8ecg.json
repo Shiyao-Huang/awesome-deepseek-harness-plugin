@@ -1,0 +1,85 @@
+{
+ "title": "Harness and tools for deepseek",
+ "author": "AccordingAd6520",
+ "score": "23",
+ "commentCount": "36",
+ "created": "2026-06-26T14:28:17.579000+0000",
+ "permalink": "/r/DeepSeek/comments/1ug8ecg/harness_and_tools_for_deepseek/",
+ "flair": null,
+ "upvoteRatio": "0.96",
+ "selftext": "Hi I have been running into a question of mine, I have tried multiple harnesses for for deepseek but they were all just lacking something and I honestly don't know what is the smartest choice. I have used the following:\n\nAider: did not like the UI at all and was a pain to install\n\nCline/roocode: was nice, was very fast, but not a lot of settings i could set (like reasoning missing) and also it was breaking very often where it got stuck\n\nReasonix cli/desktop: desktop had a really nice ui and was pretty easy to use but the quality of the code was just absolute trash and i don't know if i was doing something wrong here but still\n\nClaude code: this one has nice quality of code, a lot of customization i like, but it is hard to not have a seperate app for my claude sub vs my deepseek api and besides its built for anthropic models not deepseek, so deepseek cant be fully utilized\n\nGithub copilot chat: this was absolute garbage; very slow, very inefficient, absolute ass quality and a lot of hallucinating\n\nOpencode: code quality was okay it kept giving me so much badly written code and repeatedly trying to fix errors and just kept on giving more errors\n\nCodewhale: feels a bit like opencode b",
+ "comments": [
+  {
+   "author": "ChemistryMost4957",
+   "score": "8",
+   "depth": "0",
+   "text": "None of these tools are \"bad\", of course they're not. However, the fact that you're not getting the code you expect, from any of them, suggests you're either not using them correctly, your expectations are wrong, or you're just not prompting them correctly"
+  },
+  {
+   "author": "Individual_Aside7554",
+   "score": "1",
+   "depth": "1",
+   "text": "Its not necessarily the case of not using the harnesses correctly or not giving the right prompts - the model has own limits too - not all models perform the same"
+  },
+  {
+   "author": "AccordingAd6520",
+   "score": "0",
+   "depth": "1",
+   "text": "how can i try to use them better?"
+  },
+  {
+   "author": "meditatingwizard",
+   "score": "1",
+   "depth": "2",
+   "text": "Yeah, I learned that prompting has a lot to do with how you are steering the agent, some need more steering and context than others to pull of the one shots one would expect. Being as descriptive as you can, while also giving examples is few shot prompting and works much better. Plans, can also help the AI see more context before executing but also not always needed if you are prompting properly. Plans, help with bigger features but a good prompt can steer the agent to close to how you are imagi"
+  },
+  {
+   "author": "ChemistryMost4957",
+   "score": "0",
+   "depth": "2",
+   "text": "What are you trying to achieve?"
+  },
+  {
+   "author": "RaisinImpressive3749",
+   "score": "3",
+   "depth": "0",
+   "text": "Models intelligence are not always consistent.\n\nEventually You would want to rely on a better workflow instead of expecting consistently good result from any model.\n\nGenerally a good workflow involves planning, specifications, test driven development, review.\n\nCheck out things like Matt Pocock skills or Superpowers"
+  },
+  {
+   "author": "AccordingAd6520",
+   "score": "0",
+   "depth": "1",
+   "text": "Yes i’ve been using superpowers, but nonetheless the quality is just still bad and i don’t know what to exactly know what to do to improve the workflow besides"
+  },
+  {
+   "author": "RaisinImpressive3749",
+   "score": "0",
+   "depth": "2",
+   "text": "I'm currently using matt pocock skills in oh my opencode slim with opencode go preset. It also would took a few rounds of review and fixes until the codes are acceptable.\n\nNot sure about you but I definitely don't expect immediately good result from any AI in 1 round"
+  },
+  {
+   "author": "Fit_Constant1335",
+   "score": "1",
+   "depth": "0",
+   "text": "you can use my tool with claudecode, quickly switch deepseek/claude in browser, and it show the cost、agent working status、your prompt info and save it, so you can quickly review your works in browser."
+  },
+  {
+   "author": "This-You-2737",
+   "score": "1",
+   "depth": "0",
+   "text": "Have you tried kilo? It Understands our current project really well and there new auto complete very good at Understanding our next move , you must give a try"
+  },
+  {
+   "author": "fbarcelo2",
+   "score": "1",
+   "depth": "0",
+   "text": "Try claude code with Gentle Ai https://github.com/Gentleman-Programming/gentle-ai It implements sdd driven subagents with the exact context they need, I use DeepSeek pro for the govern and deepseek free for the implementers, audit and rest of the agents, cheap and really efficient"
+  },
+  {
+   "author": "Human_Parsnip6811",
+   "score": "1",
+   "depth": "0",
+   "text": "Personally my favourite as of now is Mux Coder, although it's not optimized for DS cache.\nI have been playing around with Reasonix for the past week doing mostly verification and refactoring and it's really great, my token spendings are 1/3th to 1/4th as compared to other tools.\nPi gets a lot of praise, I haven't tried it yet but it's on the scope."
+  }
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "title": "Deepseek Harness is on whole different level",
+ "author": "VEHICOULE_",
+ "score": "209",
+ "commentCount": "65",
+ "created": "2026-08-13T16:40:44.575000+0000",
+ "permalink": "/r/DeepSeek/comments/1vnfz2l/deepseek_harness_is_on_whole_different_level/",
+ "flair": null,
+ "upvoteRatio": "0.9644444444444444",
+ "selftext": "DSH works really well, UI is excellent and im in love with their code mode\n\nNow sub agents sucks as it has lot of issues and errors, but it's excepted as it's a pre release\n\nMight be my favorite Harness, and will soon to replace zcode when sub agents get fixed\n\n🫪",
+ "comments": [
+  {
+   "author": "Linkpharm2",
+   "score": "116",
+   "depth": "0",
+   "text": "cache hit 100%, they knew your messages before you sent them"
+  },
+  {
+   "author": "victoryposition",
+   "score": "48",
+   "depth": "1",
+   "text": "You thought your message was unique, but someone already did it."
+  },
+  {
+   "author": "Linkpharm2",
+   "score": "8",
+   "depth": "2",
+   "text": "Yep, same with the exact reasoning and tool outputs too"
+  },
+  {
+   "author": "fabricio3g",
+   "score": "21",
+   "depth": "1",
+   "text": "So DeepSeek invented time travel?"
+  },
+  {
+   "author": "VIDGuide",
+   "score": "12",
+   "depth": "2",
+   "text": "“No paradoxes please”"
+  },
+  {
+   "author": "SeLKi84",
+   "score": "1",
+   "depth": "3",
+   "text": "Time paradox! Multiverse!\n"
+  },
+  {
+   "author": "pcgnlebobo",
+   "score": "4",
+   "depth": "2",
+   "text": "Turns out, probability may be finite or repeatable?"
+  },
+  {
+   "author": "LulzTigre",
+   "score": "1",
+   "depth": "1",
+   "text": "Can someone eli5 cache hit and miss for me?"
+  },
+  {
+   "author": "Linkpharm2",
+   "score": "1",
+   "depth": "2",
+   "text": "sending text takes time to process, but if you send the same text you can just reuse the processing from last time. So it's cheaper and faster for them to send at least some text back identically. Which makes sense unless for some reason you never send a second message in a conversation. The llm sees the whole conversation, you send the whole conversation each request. The part that repeats is the part that is cached, making that part cheaper and faster."
+  },
+  {
+   "author": "garlic-silo-fanta",
+   "score": "1",
+   "depth": "3",
+   "text": "Lemme try it.\n\n“Can someone eli5 cache hit and miss for me?” 100% cache hit?"
+  },
+  {
+   "author": "Linkpharm2",
+   "score": "1",
+   "depth": "4",
+   "text": "?"
+  },
+  {
+   "author": "Professional_Price89",
+   "score": "35",
+   "depth": "0",
+   "text": "The harness is good, unlike other harness, it wont stop or wait for user input, it even catch all errors during runtime, decide to stop the app and debug it. It also ask me to click the accept button for it to work with. The downside is very bad model."
+  }
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "title": "What harness do you guys use for DeepSeek?",
+ "author": "Prestigious_Sky_9829",
+ "score": "65",
+ "commentCount": "81",
+ "created": "2026-07-09T13:29:32.884000+0000",
+ "permalink": "/r/DeepSeek/comments/1urqcm3/what_harness_do_you_guys_use_for_deepseek/",
+ "flair": null,
+ "upvoteRatio": "0.9333333333333333",
+ "selftext": "I was using a Claude CLI with a subscription, but realized my work doesn't really need Fable/Opus capabilities (though Opus is still great for security). I switched to the DeepSeek API since it's dirt cheap.\n\nUsing the DeepSeek API with pro model is fine, but the flash ones tend to ignore the harness, or maybe have tô many bloat in it for flash lol. I still really enjoy the Claude harness workflow though.\n\nWhat are you guys using? Looking for CLI tool preferences.",
+ "comments": [
+  {
+   "author": "Potential_Top_4669",
+   "score": "31",
+   "depth": "0",
+   "text": "Pi"
+  },
+  {
+   "author": "Mean-Sprinkles3157",
+   "score": "10",
+   "depth": "0",
+   "text": "reasonix"
+  },
+  {
+   "author": "baschny",
+   "score": "16",
+   "depth": "0",
+   "text": "OpenCode (App for Mac)."
+  },
+  {
+   "author": "Maximum-Face9536",
+   "score": "8",
+   "depth": "1",
+   "text": "I love OpenCode, the UI is so clean and it's the closest thing to being as good as Claude Code interface imo"
+  },
+  {
+   "author": "baschny",
+   "score": "3",
+   "depth": "2",
+   "text": "I think its \"clean\" but there is still much way to go to be \"really good\". It is noticeable that its open source and not a professional product. But it keeps getting better and better."
+  },
+  {
+   "author": "meerestier",
+   "score": "3",
+   "depth": "3",
+   "text": "I would not discount it as amateur, with the Opencode Zen and Go, there is a viable business model"
+  },
+  {
+   "author": "VolkswagenFeature",
+   "score": "1",
+   "depth": "1",
+   "text": "I keep getting this thing where deepseek is done planning, has a plan ready but opencode hides it collapsed under \"thinking\"\nhave you seen that? I know where to look for it now, but it's still annoying when it happens."
+  },
+  {
+   "author": "baschny",
+   "score": "1",
+   "depth": "2",
+   "text": "I havent had that in a while now (maybe an update fixed it? do you have it up-to-date?) - but I remember seeing things like that. Usually doing another prompt made the content \"appear\" suddenly (i.e. \"go on\" or something)."
+  },
+  {
+   "author": "VolkswagenFeature",
+   "score": "1",
+   "depth": "3",
+   "text": "ah let me update opencode and see again. thanks"
+  },
+  {
+   "author": "Aressito",
+   "score": "1",
+   "depth": "1",
+   "text": "Same opencode desktop app but on windows . What I hate is that there is no option to un hide archived conversations"
+  },
+  {
+   "author": "HoangMaiLinh",
+   "score": "9",
+   "depth": "0",
+   "text": "reasonix"
+  },
+  {
+   "author": "fenchai",
+   "score": "3",
+   "depth": "0",
+   "text": "am i the only one using byok in vscode? xD"
+  }
+ ]
+}

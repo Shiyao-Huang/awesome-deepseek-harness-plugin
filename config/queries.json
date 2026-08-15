@@ -1,0 +1,22 @@
+{
+  "github": [
+    "topic:dsh-plugin",
+    "topic:deepseek-harness",
+    "deepseek-harness-plugin in:name,description,readme"
+  ],
+  "hacker_news": [
+    "deepseek harness plugin",
+    "deepseek harness",
+    "dsh plugin"
+  ],
+  "manual_browser": [
+    "deepseek-harness-plugin",
+    "DeepSeek Harness plugin",
+    "DeepSeek Harness"
+  ],
+  "limits": {
+    "github_per_query": 50,
+    "hacker_news_per_query": 50
+  }
+}
+

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="254" viewBox="0 0 920 254">
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#253237} .muted{fill:#6b7a80;font-size:13px}</style>
+<rect width="100%" height="100%" rx="18" fill="#fbfaf7"/>
+<text x="28" y="36" font-size="21" font-weight="700">Media kinds</text>
+<text x="28" y="82" font-size="14">none</text>
+<rect x="245" y="67" width="620" height="20" rx="10" fill="#e8e2d6"/>
+<rect x="245" y="67" width="620" height="20" rx="10" fill="#ef8354"/>
+<text x="878" y="82" text-anchor="end" font-size="14" font-weight="700">487</text>
+<text x="28" y="124" font-size="14">link</text>
+<rect x="245" y="109" width="620" height="20" rx="10" fill="#e8e2d6"/>
+<rect x="245" y="109" width="47" height="20" rx="10" fill="#4f6d7a"/>
+<text x="878" y="124" text-anchor="end" font-size="14" font-weight="700">37</text>
+<text x="28" y="166" font-size="14">image</text>
+<rect x="245" y="151" width="620" height="20" rx="10" fill="#e8e2d6"/>
+<rect x="245" y="151" width="45" height="20" rx="10" fill="#5da399"/>
+<text x="878" y="166" text-anchor="end" font-size="14" font-weight="700">36</text>
+<text x="28" y="208" font-size="14">video</text>
+<rect x="245" y="193" width="620" height="20" rx="10" fill="#e8e2d6"/>
+<rect x="245" y="193" width="26" height="20" rx="10" fill="#d4a373"/>
+<text x="878" y="208" text-anchor="end" font-size="14" font-weight="700">21</text>
+</svg>

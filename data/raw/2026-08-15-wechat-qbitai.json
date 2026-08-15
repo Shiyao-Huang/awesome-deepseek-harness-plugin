@@ -1,0 +1,98 @@
+{
+  "collected_at": "2026-08-15T06:28:00Z",
+  "collector": "ego-browser / ego-lite",
+  "observations": [
+    {
+      "platform": "wechat",
+      "query": "direct article URL",
+      "source_url": "https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw",
+      "collected_at": "2026-08-15T06:28:00Z",
+      "collector": "ego-browser",
+      "method": "visible DOM extraction",
+      "status": "ok",
+      "result_count": 1,
+      "notes": "正文可访问；页面显示赞、分享、推荐、留言按钮，但未显示数值互动计数。仅保存外部图片 URL，不镜像图片文件。",
+      "items": [
+        {
+          "platform": "wechat",
+          "external_id": "O6u4JsV-cFl9mKF9t5SJqw",
+          "url": "https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw",
+          "item_type": "article",
+          "title": "DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了",
+          "author": "梦瑶 / 量子位",
+          "published_at": "2026-08-15T05:30:00Z",
+          "published_label": "2026年8月15日 13:30 北京",
+          "content_text": "量子位文章盘点 DeepSeek Harness 社区插件生态，覆盖 Agent 团队、侧边栏工作台、@文件、长期记忆、Claude 迁移、视觉、TUI、电子宠物、广告 UI、小游戏和礼貌插件。文章列出 GitHub 主题页与四个社区参考入口。",
+          "body_paragraphs": [
+            "梦瑶 发自 凹非寺",
+            "量子位 | 公众号 QbitAI",
+            "忒忒忒忒火爆！！",
+            "DeepSeek Harness这下真快被网友「插成万物」了。",
+            "小黑鲸上线还没多久，单单在GitHub上打着dsh-plugin标签的公开仓库，就已经冲到了700+个？？？",
+            "有人给它装浏览器、长期记忆、数据库和任务管理；有人嫌DeepSeek不会看图，现场接了个视觉模型进去。",
+            "再往下翻，画风直接开始放飞——",
+            "电子宠物、像素鲸鱼、18款小游戏，网友大神统统给小鲸鱼安排上，真·赛博装修队连夜进场啊我说？",
+            "更神的还在后面。",
+            "2005年中文网站风格广告UI，这玩意儿居然也有人专门做了插件？？",
+            "DeepSeek前脚喊出：Everything is a Plugin！",
+            "网友后脚的理解大概就是：懂咧，那我可什么都往里塞了哈～",
+            "行，那既然都玩成这样了——咱就瞅瞅这波社区开发者到底把DeepSeek Harness《盘》成啥样了。。。",
+            "700+个仓库，大家已经给DeepSeek装上了啥",
+            "DeepSeek Harness本身是一套开源Agent Harness，它整个架构最核心的一句话就是：Everything is a Plugin.（万物皆插件）",
+            "前脚DeepSeek Harness一发布，后脚网友就开始大测特测，那边GitHub也跟开闸了一样，各种插件哗哗往外冒。。。",
+            "目前各社区维护的Awesome DeepSeek Harness Plugins精选目录，已经收录了无数个插件。开发工具、Agent编排、效率协作、数据研究、DevOps、AI设计与媒体，全都有人做。",
+            "dsh-agent-teams 能在 Harness 里拉起多 Agent 团队，拆任务、设依赖、互相发消息，Web 界面还能实时查看团队状态。",
+            "DSH Better Sidebar 将文件管理、代码编辑、终端、Git 面板、后台任务和子 Agent 塞进同一块侧边栏，形成迷你 IDE 工作台。",
+            "dsh-at-file 给 DSH 补上类似 Codex 的 @file 能力，可以搜索工作区文件并把指定内容放进 Prompt。",
+            "dsh-memory-evolve 提供跨会话长期记忆，可以保存项目约定、架构决策、踩过的坑和当前进度，也能感知 Git 分支并做 Skill 演化。",
+            "dsh-plugin-claude-bridge 可以把 Claude Code 的记忆、Skill 和配置带进 DeepSeek Harness；dsh-claude-move 进一步迁移旧会话。",
+            "ModLens 为文本模型补上视觉能力，把图片中的文字、布局、实体和语义整理成结构化证据，再交给 DeepSeek 推理。",
+            "文章还提到 dsh-github-connector、context-vista、dsh-undo、dsh-record-replay、dsh-obsidian-export 和 dsh-share。",
+            "dsh-TUI 提供 Claude Code 风格的全屏终端、状态行、思考流、回滚、上下文进度条和 TPS 仪表。",
+            "dsh-web-ui 提供任务看板、Git 图谱、右侧面板、移动端远程、实时 Token 统计、皮肤中心和电子宠物。",
+            "dsh-ads 给 DSH Web UI 增加 2005 年中文互联网风格广告，包括侧栏广告、对话内信息流和角落弹窗。",
+            "dsh-minigames 提供 18 款小游戏，包括俄罗斯方块、坦克大战、消消乐、华容道、贪吃蛇、2048、扫雷、五子棋、黑白棋、数独和吃豆人。",
+            "deepseek-manners 的功能是每次 AI 回复结束后自动补一句：谢谢你，鲸鱼大人。文章将其概括为 Everything is a plugin, including politeness.",
+            "参考链接：[1] https://github.com/topics/dsh-plugin；[2] https://github.com/Dominic789654/awesome-deepseek-harness；[3] https://github.com/omdsh-dev；[4] https://github.com/Alex-Yanggg/awesome-DSH-plugin",
+            "一键三连「点赞」「转发」「小心心」。欢迎在评论区留下你的想法！",
+            "— 完 —"
+          ],
+          "media_kind": "image",
+          "thumbnail_url": "https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGGwFLbk37eok7XWVPo1QCM2U27jkZjibpocbBibbJrWDbeic6mgDwvtnxJRx2owuVWShpltrl3SWVOITic8j9WcuiceEqZtiaWQSMRCo/0?wx_fmt=jpeg",
+          "media": [
+            {"kind":"image","url":"https://mmbiz.qpic.cn/mmbiz_png/A6fTew8FFGGSLmV2gCsm8sp4r5ZYX1b29600TvCjVHTR6f6U9TVW4PXOpJic9Wdx8oG0aKYzPdTCzD7cDkB9ichwicdjnsY7RwA7H7VR96Llrg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0","alt_text":"正文图片 0","rights_note":"WeChat-hosted external image; link only."},
+            {"kind":"image","url":"https://mmbiz.qpic.cn/mmbiz_png/A6fTew8FFGGBe9gLPxc0zoWnZtu8zjOPIdTQHiavr81Yc5gpUT8Fqqp98PsLzwL5GuTvLYvQsloickmricGpAFc064wp9X729EmuDwes1ibH3ro/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1","alt_text":"正文图片 1","rights_note":"WeChat-hosted external image; link only."},
+            {"kind":"image","url":"https://mmbiz.qpic.cn/mmbiz_png/A6fTew8FFGHYNNjvB1gw3mGol5U2GLgXZrdbYT4ZyHXYreXVr2uVEv2G07b07TgkgWZzXCM7h50fBXudnXnUn33V2WaOs9zV9LMVqbZy8mI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2","alt_text":"正文图片 2","rights_note":"WeChat-hosted external image; link only."},
+            {"kind":"image","url":"https://mmbiz.qpic.cn/sz_mmbiz_jpg/A6fTew8FFGEkxWvjaaYs3P6OXBceWz8l27COnfaJqfwo0LnfWtgVdNG95Qialj0FAfHgp6svqT9HvOmc9yUKRQV0CT3v4ZboFjdD24tKOYxM/640?wx_fmt=jpeg&watermark=1#imgIndex=3","alt_text":"正文图片 3","rights_note":"WeChat-hosted external image; link only."},
+            {"kind":"image","url":"https://mmbiz.qpic.cn/sz_mmbiz_png/A6fTew8FFGE2ooP3CAicrc0yvCia569BfXMmuibaEzpibkia4I6NQcYFfuCC5UO6ficthX6QibvvLujsxOQeIgbhAcCez7vnhxD8Vkdz2lWr3aW5ZI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4","alt_text":"正文图片 4","rights_note":"WeChat-hosted external image; link only."},
+            {"kind":"image","url":"https://mmbiz.qpic.cn/mmbiz_gif/A6fTew8FFGFjDQGwbyT4TAYxys4czhjo8c30kicpRibS2plzL4goGW0eNP9eoGBcoFM3GicD3ISy4DH7xsOQuGVOC9cXBs1vh9WhWMMx41pvNM/640?wx_fmt=gif&from=appmsg#imgIndex=5","alt_text":"正文动图 5","rights_note":"WeChat-hosted external image; link only."},
+            {"kind":"image","url":"https://mmbiz.qpic.cn/mmbiz_png/A6fTew8FFGGlwmUHn3sP8s4f300UknyibUqhs2Ez1UpDCpa5SHgH6lZMPia5ZYfdFLLTXVdFQlY2l9OgfsH3r1Hjo76mWqMUicnJX6c3RudnK0/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6","alt_text":"正文图片 6","rights_note":"WeChat-hosted external image; link only."},
+            {"kind":"image","url":"https://mmbiz.qpic.cn/sz_mmbiz_png/A6fTew8FFGJmSadDyGBfe8l0mtcyWDH17wkYwEuKQBfJIpgTSmOic6ELcrCJx9rkKyljqjCVp0ZwIR4LFj3sqpj3cficyXusKHsu9XnA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7","alt_text":"正文图片 7","rights_note":"WeChat-hosted external image; link only."},
+            {"kind":"image","url":"https://mmbiz.qpic.cn/mmbiz_png/A6fTew8FFGGBlKKngsVI6XM8BsIhOEp29eAHjADn0M25JOHKc6gRO8vVFIfjoZkSDAHOvMBL3xsjfAkSzaVhaUujCCA5V6lJK9zFOnQYzRU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=8","alt_text":"正文图片 8","rights_note":"WeChat-hosted external image; link only."},
+            {"kind":"image","url":"https://mmbiz.qpic.cn/mmbiz_png/A6fTew8FFGE9UDC7aTaeEsg7iaCame5K13ia7xpFSwWEQn88Xx64nad1mK0Hoeibx0QfG7tD8jdkdo8KdeygmsFlnShlyBaoxWfHkNjh9LVeWI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=9","alt_text":"正文图片 9","rights_note":"WeChat-hosted external image; link only."},
+            {"kind":"image","url":"https://mmbiz.qpic.cn/sz_mmbiz_jpg/A6fTew8FFGEbxiaO4IibbY27BSvwMQaiaHm1wmzy0Ctd3UWBQMxic4ZuiaIaKXzG2UPqVUBCBx2Ox5MfgJwbUSP78Bn6C3kguq8tvaweTz2dGpfU/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=10","alt_text":"正文图片 10","rights_note":"WeChat-hosted external image; link only."},
+            {"kind":"image","url":"https://mmbiz.qpic.cn/sz_mmbiz_png/A6fTew8FFGEKtVade3BaRmwQey0wonL6dpEqsu8d7jPKvWtpjRMLNxffticQxiaaGndErt9rwgRT5UyN2VkaKMnBREZyubVEzAf1qOjQPYOkI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=11","alt_text":"正文图片 11","rights_note":"WeChat-hosted external image; link only."},
+            {"kind":"image","url":"https://mmbiz.qpic.cn/sz_mmbiz_png/A6fTew8FFGHTnznDuL7aNqXJ3SpRqYHV6V9kn9XqkicicB8TlicvKSU9UWjWr4icMy6OLzDH2QoueDdfVBiaeb39XxBIyU5L0SrZ2yPg92TkWicLk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=12","alt_text":"正文图片 12","rights_note":"WeChat-hosted external image; link only."},
+            {"kind":"image","url":"https://mmbiz.qpic.cn/sz_mmbiz_png/A6fTew8FFGHd3uJRWUrRa9jdPmYS07iaJycriciaVOeu00yUYoQClibFtyicC9mibKT1cJOAPnaniciaTLicTOic5Dmk3222mc2jauTpCyR288kM92B2Q/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=13","alt_text":"正文图片 13","rights_note":"WeChat-hosted external image; link only."},
+            {"kind":"image","url":"https://mmbiz.qpic.cn/mmbiz_png/A6fTew8FFGGuk7voibdfe5gLibPFqPKhgn6m6ibzpAtiaHF6EovWcKwZibcZlHTwpmiahOL6MqlROapsdPD6z1icJiasJkgPHDf0YGpF46epNAtGtNw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=14","alt_text":"正文图片 14","rights_note":"WeChat-hosted external image; link only."},
+            {"kind":"image","url":"https://mmbiz.qpic.cn/sz_mmbiz_png/A6fTew8FFGEfGJjPsV2N9GwgEtgqQ9TwYjB0bytcGXxOMmEqqhdicEG7zwNZr7hpApaxdwYFnOXSibwEtc2gWx9hABia2OdfumGka5D26gAjMc/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=15","alt_text":"正文图片 15","rights_note":"WeChat-hosted external image; link only."}
+          ],
+          "links": [
+            "https://github.com/topics/dsh-plugin",
+            "https://github.com/Dominic789654/awesome-deepseek-harness",
+            "https://github.com/omdsh-dev",
+            "https://github.com/Alex-Yanggg/awesome-DSH-plugin"
+          ],
+          "engagement": {
+            "like_button_visible": true,
+            "share_button_visible": true,
+            "recommend_button_visible": true,
+            "comment_button_visible": true,
+            "numeric_counts_visible": false
+          },
+          "tags": ["wechat-article","media-roundup","plugin-list","community","qbitai"]
+        }
+      ]
+    }
+  ]
+}

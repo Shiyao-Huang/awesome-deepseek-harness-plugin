@@ -1,0 +1,11 @@
+{
+ "pageUrl": "https://www.firecat-web.com/daily-news/14103",
+ "title": "DeepSeek Harness开源实测：插件化架构面向自进化，长任务能力亮眼 | 每日 AI 资讯",
+ "ogTitle": "DeepSeek Harness开源实测：插件化架构面向自进化，长任务能力亮眼 | 每日 AI 资讯",
+ "ogDesc": "DeepSeek Harness正式开源。作为围绕DeepSeek模型的Agent框架，它采用Cordis插件化架构，内置100多个插件，模型、工具、策略、存储、上下文管理均可替换；实测中长任务完成度明显优于Codex，但UI细节仍有差距。官方计划8月17日调整API价格，缓存相关费用涨幅明显。",
+ "ogImage": "https://www.firecat-web.com/_next/image?url=%2Flogo-color.png&w=1200&q=75",
+ "published": null,
+ "h1": "DeepSeek Harness开源实测：插件化架构面向自进化，长任务能力亮眼",
+ "sample": "火猫 AI. 定制开发 AI 应用 案例资讯 关于火猫 每日 AI 资讯 联系我们 首页 每日 AI 资讯 DeepSeek Harness开源实测：插件化架构面向自进化，长任务能力亮眼 DeepSeek Harness开源实测：插件化架构面向自进化，长任务能力亮眼 2026/08/14 00:03 阅读量 34 DeepSeek Harness正式开源。作为围绕DeepSeek模型的Agent框架，它采用Cordis插件化架构，内置100多个插件，模型、工具、策略、存储、上下文管理均可替换；实测中长任务完成度明显优于Codex，但UI细节仍有差距。官方计划8月17日调整API价格，缓存相关费用涨幅明显。 事件概述 DeepSeek Harness（文中昵称“黑鲸”）正式发布并开源。体验者在使用近半个月后给出的评价是：这是一套为“自进化”和“DIY”而设计的Agent框架，模型、工具、策略、存储、上下文管理均以插件形式存在，可替换、可自定义，官方已内置100多个插件。 安装与使用 快速启动：npx @deepseek-ai/dsh web 源码安装：git clone https://",
+ "ogImageSaved": "media/images/og-firecat.png"
+}

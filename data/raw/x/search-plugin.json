@@ -1,0 +1,55 @@
+{
+ "query": "deepseek harness plugin",
+ "harvestedAt": "2026-08-15T06:16:44.410Z",
+ "tweets": [
+  {
+   "user": "ℏεsam @Hesamation · Aug 13",
+   "text": "ℏεsam | @Hesamation | · | Aug 13 | DeepSeek published their harness. 24K stars already. it’s a React web app with everything designed to be a plugin: from agent loops, models, tools, to even sessions. | what does it mean? HIGH MODULARITY. you can swap any component with another one rather than edit the source code | Show more | Quote | DeepSeek | @deepseek_ai | · | Aug 13 |  DeepSeek Harness v0.1 ",
+   "aria": "25 replies, 156 reposts, 2391 likes, 1748 bookmarks, 269721 views",
+   "time": "2026-08-13T14:59:40.000Z",
+   "link": "https://x.com/Hesamation/status/2087917006448173519"
+  },
+  {
+   "user": "CyrilXBT @cyrilXBT · 3h",
+   "text": "CyrilXBT | @cyrilXBT | · | 3h | this can’t be allowed | i dropped my $200/mo Claude plan for deepseek harness and it feels like it costs nothing | it runs on a single obsession: plugins all the way down | [setup is a 3 minute speedrun, here’s the playbook] | 1. grab the repo called deepseek-harness | 2. skim the | Show more | Quote | CyrilXBT | @cyrilXBT | · | Aug 14 |  Article | How to Become a G",
+   "aria": "7 replies, 9 reposts, 77 likes, 26 bookmarks, 5881 views",
+   "time": "2026-08-15T02:48:00.000Z",
+   "link": "https://x.com/cyrilXBT/status/2088457650623205393"
+  },
+  {
+   "user": "陈成 @chenchengpro · 20h",
+   "text": "陈成 | @chenchengpro | · | 20h | 看了会 DeepSeek Harness，说下个人感受。 | 整体感受，dsh 更像一份「harness 该怎么写」的参考实现，不太像一个要抢 Claude Code 用户的产品。体验上目前还有点粗糙，架构上比较“激进”。 | 1\\ 上手只要 npx  | @deepseek | -ai/dsh@latest web，它还会自动从环境变量里找 DEEPSEEK_API_KEY | Show more | 5 | 11 | 116 | 14K",
+   "aria": "5 replies, 11 reposts, 116 likes, 63 bookmarks, 14519 views",
+   "time": "2026-08-14T09:51:53.000Z",
+   "link": "https://x.com/chenchengpro/status/2088201936072024253"
+  },
+  {
+   "user": "Xudong Han @Xudong07452910 · 6m",
+   "text": "Xudong Han | @Xudong07452910 | · | 6m | 这个博客讲 Agent Harness 自进化中比较重要的一个问题： | Harness 跑分提高了，到底哪里真的变好了？ | 作者提出 Harness-Delta Attribution，把一次提升拆成三部分：过拟合、更多 test-time compute，以及最后真正能泛化的改进。 | 结果是在 ALFWorld 和 LiveMath 上，大量提升其实来自 Harness | Show more | 1 | 28",
+   "aria": "1 like, 28 views",
+   "time": "2026-08-15T06:10:00.000Z",
+   "link": "https://x.com/Xudong07452910/status/2088508485713678421"
+  },
+  {
+   "user": "Hasan Toor @hasantoxr · 12h",
+   "text": "Hasan Toor | @hasantoxr | · | 12h | DeepSeek just did it again. | They open-sourced their own agent harness that goes straight against Claude Code and Codex. | Every coding harness today ships as a monolith. The prompt, the tools, the memory, the UI, all baked into a single binary. | If you want to swap the model | Show more | 10 | 2 | 52 | 10K",
+   "aria": "10 replies, 2 reposts, 52 likes, 43 bookmarks, 10245 views",
+   "time": "2026-08-14T17:29:16.000Z",
+   "link": "https://x.com/hasantoxr/status/2088317043741491699"
+  },
+  {
+   "user": "思维怪怪 @0xLogicrw · 15m",
+   "text": "思维怪怪 | @0xLogicrw | · | 15m | DeepSeek Harness 开源约 42 小时后，GitHub Star 正式突破 10 万！ | 截至目前，官方仓库已有约 10.1 万 Star、9500 次 Fork。GitHub 显示仓库创建于北京时间 8 月 13 日 19:56，到 8 月 15 日突破 10 万，只用了不到两天。 | DeepSeek Harness 两天不到的 Star 数，已经快追上 DeepSeek-V3 目前约 10.4 | Show more | Quote | 思维怪怪 | @0xLogicrw | · | Aug 13 | DeepSeek 正式上线首款 Agent 产品 DeepSeek Harness，软件包已经发布至 npm。此前 V4-Flash 的公开 Code Agent 评测，用的就是 Harness 内置的极简模式",
+   "aria": "1 like, 63 views",
+   "time": "2026-08-15T06:01:23.000Z",
+   "link": "https://x.com/0xLogicrw/status/2088506318676193667"
+  },
+  {
+   "user": "歸藏(guizang.ai) @op7418 · 20h",
+   "text": "歸藏(guizang.ai) | @op7418 | · | 20h | 15 张数据图帮你了解 DeepSeek Harness | 昨天 DeepSeek Harness 发布，于是就想着让 Codex 分析一下，找到了一个很好的角度，就是从一些数据上向大家介绍这个产品。 | 确实也发现了一些很有意思的东西： | 插件系统与 Koishi 高度相似： 他们主打的插件系统与 Koishi 的插件平台相似度高达 | Show more | 30 | 8 | 77 | 12K",
+   "aria": "30 replies, 8 reposts, 77 likes, 79 bookmarks, 12357 views",
+   "time": "2026-08-14T09:40:27.000Z",
+   "link": "https://x.com/op7418/status/2088199058313957734"
+  }
+ ]
+}

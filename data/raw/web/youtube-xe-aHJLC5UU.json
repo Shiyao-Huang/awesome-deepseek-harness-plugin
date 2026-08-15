@@ -1,0 +1,8 @@
+{
+ "curated": true,
+ "harvest_method": "search-snippet",
+ "url": "https://www.youtube.com/watch?v=xe-aHJLC5UU",
+ "title": "Deepseek Harness: Everything is a plugin",
+ "channel_hint": "dev walkthrough",
+ "snippet": "DeepSeek Harness (dsh) is an open-source agent harness, It uses an architecture where everything is a plugin, and is powered by Cordis repo:"
+}

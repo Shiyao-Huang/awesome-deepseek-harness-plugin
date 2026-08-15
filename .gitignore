@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+*.sqlite3-shm
+*.sqlite3-wal
+data/raw/auto/
+.gitnexus/

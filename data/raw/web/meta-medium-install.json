@@ -1,0 +1,11 @@
+{
+ "curated": true,
+ "harvest_method": "search-snippet",
+ "pageUrl": "https://medium.com/@techlatest.net/how-to-install-deepseek-harness-a-step-by-step-setup-guide-for-developers-9bedadfb584d",
+ "title": "How to Install DeepSeek Harness: A Step-by-Step Setup Guide for Developers",
+ "ogDesc": "walk you through setting it up locally using Ollama (or OpenRouter) in under 10 minutes",
+ "ogImage": null,
+ "published": null,
+ "h1": null,
+ "sample": "Direct fetch blocked (HTTP 403); recorded from search snippet. In this guide, I will walk you through setting up DeepSeek Harness locally using Ollama (or OpenRouter) in under 10 minutes."
+}

@@ -1,0 +1,41 @@
+{
+ "harvestedAt": "2026-08-15T06:17:20.447Z",
+ "tweets": [
+  {
+   "text": "Pinned | Tianyi Cui | @tianyi | · | Aug 13 | DeepSeek Harness was just released with MIT license. The current 0.1.0 version is a developer preview, and may still have many rough edges. Feedback is welcome!  | DeepSeek Harness | Show more | GitHub - deepseek-ai/deepseek-harness: DeepSeek Harness: Everything is a Plugin. | From github.com | 236 | 271 | 2.3K | 332K",
+   "aria": "236 replies, 271 reposts, 2381 likes, 293 bookmarks, 332346 views",
+   "time": "2026-08-13T13:04:46.000Z",
+   "link": "https://x.com/tianyi/status/2087888089759015218"
+  },
+  {
+   "text": "Tianyi Cui | @tianyi | · | 13h | Thank you! Pi is many DeepSeek researchers and developers favorite daily drive. | DSH reused Pi's LLM adaptor package for connecting to non-DeepSeek models and it was a great experience that just work. | Excited to join the global Open Source agent harness community! | Quote | Armin Ronacher ⇌ | @mitsuhiko | · | 21h | I don't think the DeepSeek Harness is perfect b",
+   "aria": "40 replies, 91 reposts, 1755 likes, 326 bookmarks, 145784 views",
+   "time": "2026-08-14T16:45:58.000Z",
+   "link": "https://x.com/tianyi/status/2088306143772946499"
+  },
+  {
+   "text": "Tianyi Cui | @tianyi | · | 13h | 如果你人在杭州或周边，想给 DeepSeek Harness 组投简历看机会，请联系我。 | DeepSeek Harness 组招聘深度学习研究员、研发工程师、产品经理、设计师、开发者关系、社区运营、项目经理，都热招中，全职实习都招。 | 158 | 89 | 955 | 150K",
+   "aria": "158 replies, 89 reposts, 955 likes, 251 bookmarks, 150573 views",
+   "time": "2026-08-14T16:37:39.000Z",
+   "link": "https://x.com/tianyi/status/2088304053193421218"
+  },
+  {
+   "text": "Tianyi Cui | @tianyi | · | Aug 5 | 如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。 | Show more | 848 | 161 | 1.5K | 260K",
+   "aria": "848 replies, 161 reposts, 1555 likes, 612 bookmarks, 260691 views",
+   "time": "2026-08-04T17:29:53.000Z",
+   "link": "https://x.com/tianyi/status/2084693319188439211"
+  },
+  {
+   "text": "Tianyi Cui | @tianyi | · | Aug 1 | 如果你是 Agent Harness 相关开源项目的开发者，希望参加 DeepSeek Harness 的内测，可以回复或私信联系我。请附上 GitHub id 以及开源代表作。 | 1.2K | 517 | 3K | 981K",
+   "aria": "1218 replies, 517 reposts, 3071 likes, 1889 bookmarks, 981358 views",
+   "time": "2026-08-01T11:46:58.000Z",
+   "link": "https://x.com/tianyi/status/2083519855203078320"
+  },
+  {
+   "text": "Tianyi Cui | @tianyi | · | Jul 7 | Harness 方向的自进化，与模型方向的自进化（包括训练和推理）一样都是非常有可能出成果的方向。 | 之前类似于自己给自己总结 skills 之类的工作可以看成 Harness 方向的自进化中比较初级的一种形式：从 prompt 层面进行自进化。 | Quote | Lilian Weng | @lilianweng | · | Jul 7 | new post on harness engineering for AI self-improvement:  | https:// | lilianweng.github.io/posts/2026-07- | 04-harness/ | … | It is hard to forecast how much the future of RSI will rely on ",
+   "aria": "60 replies, 36 reposts, 323 likes, 160 bookmarks, 95040 views",
+   "time": "2026-07-07T12:46:40.000Z",
+   "link": "https://x.com/tianyi/status/2074475185957380379"
+  }
+ ]
+}

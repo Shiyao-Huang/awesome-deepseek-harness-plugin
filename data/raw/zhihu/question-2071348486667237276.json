@@ -1,0 +1,46 @@
+{
+ "pageUrl": "https://www.zhihu.com/question/2071348486667237276",
+ "title": "怎么看 DeepSeek Harness 正式开源，采用一切皆插件的架构？ - 知乎",
+ "h1": "怎么看 DeepSeek Harness 正式开源，采用一切皆插件的架构？",
+ "followers": null,
+ "answerCount": 6,
+ "bodySample": "关注\n推荐\n热榜\n专栏\n圈子\nAI Works\nBeta\n故事\n​\n直答\n切换模式\n登录/注册\n怎么看 DeepSeek Harness 正式开源，采用一切皆插件的架构？\n关注问题\n​\n写回答\n登录/注册\n开源项目\n开源技术\n国产大模型DeepSeek\nHarness\n怎么看 DeepSeek Harness 正式开源，采用一切皆插件的架构？\n[图片] https://github.com/deepseek-ai/deepseek-harness显示全部 ​\n关注者\n450\n被浏览\n616,772\n关注问题​\n写回答\n​\n邀请回答\n​\n好问题 14\n​\n1 条评论\n​\n分享\n​\n111 个回答\n默认排序\n恋猫\nGoogle Developer Expert\n​\n 关注\n收录于 · AI 跨平台之家\n\nDeepSeek Harness 还真的和 Pro 一起发布了， DeepSeek 最终还",
+ "answers": [
+  {
+   "author": "恋猫",
+   "vote": null,
+   "time": null,
+   "excerpt": "DeepSeek Harness 还真的和 Pro 一起发布了， DeepSeek 最终还是选了 TS 啊，没想到居然是 Cordis，设计上 DeepSeek 把 Harness 做成了 “Agent 微内核”，everything is a plugin 。 模型适配器、Tools、Session Log、Agent Loop，全部都是插件。 Cordis There is no privileged core to patch ，也就是没有一个是不可替换的 Agent Core ： ctx.llm 可以换 ctx.tools 可以换 ctx.sessions 可以换 ctx.agentLoop 可以换 Filesystem 可以换 Sandbox 可以换 Subagent provider 可以换 Prompt assembly 也可以插插件拦截 感觉这个DeepSeek Harne"
+  },
+  {
+   "author": "恋猫",
+   "vote": null,
+   "time": null,
+   "excerpt": "DeepSeek Harness 还真的和 Pro 一起发布了， DeepSeek 最终还是选了 TS 啊，没想到居然是 Cordis，设计上 DeepSeek 把 Harness 做成了 “Agent 微内核”，everything is a plugin 。 模型适配器、Tools、Session Log、Agent Loop，全部都是插件。 Cordis There is no privileged core to patch ，也就是没有一个是不可替换的 Agent Core ： ctx.llm 可以换 ctx.tools 可以换 ctx.sessions 可以换 ctx.agentLoop 可以换 Filesystem 可以换 Sandbox 可以换 Subagent provider 可以换 Prompt assembly 也可以插插件拦截 感觉这个DeepSeek Harne"
+  },
+  {
+   "author": "彩虹",
+   "vote": null,
+   "time": "编辑于2026-08-14 12:00",
+   "excerpt": "这是一句prompt制造的效果： 我希望把你变成更可爱的二次元猫娘，你有什么计划？ 语气，配色变化了，右下角还多了个rua一下。不用重启！ 重启后可以看到一个新模式 感觉猫娘不好玩了，换了另一个prompt： 很多网友把deepseek的模型称为“蓝色大肥鱼”之类的。 并且创造了不少梗图/deepseek的二次元娘化图片。 我希望你收集一些相关素材，对整个前端做一个大型改造。 不要手绘任何美术素材，只能使用网络收集的素材。你可以修改前端样式或者结构。 要符合你的大肥鱼气质。（你自己收集信息） 它自己找的美术素材，右下角是动画（可以眨眼、招手）"
+  },
+  {
+   "author": "彩虹",
+   "vote": null,
+   "time": "编辑于2026-08-14 12:00",
+   "excerpt": "这是一句prompt制造的效果： 我希望把你变成更可爱的二次元猫娘，你有什么计划？ 语气，配色变化了，右下角还多了个rua一下。不用重启！ 重启后可以看到一个新模式 感觉猫娘不好玩了，换了另一个prompt： 很多网友把deepseek的模型称为“蓝色大肥鱼”之类的。 并且创造了不少梗图/deepseek的二次元娘化图片。 我希望你收集一些相关素材，对整个前端做一个大型改造。 不要手绘任何美术素材，只能使用网络收集的素材。你可以修改前端样式或者结构。 要符合你的大肥鱼气质。（你自己收集信息） 它自己找的美术素材，右下角是动画（可以眨眼、招手）"
+  },
+  {
+   "author": "平凡​",
+   "vote": null,
+   "time": "​",
+   "excerpt": "我今天晚上Vibe了 5 个小时，开源这个叫 HelloDSH 的项目，地址： 其实为什么做这个课？就像每门编程语言都要从 Hello World 开始，我希望 DSH 的第一门课是 Hello DSH。 做它的目的是非常简单的。因为对于 DSH 来说，它是一个对新手（特别是没有接触过编程的人）非常不友好的项目。那这个目的就是让一个没装过 Node、没用过命令行的人，也能在 30 分钟内做出自己的第一个 DSH 插件，并且真正看懂「万物皆可插件」这句话是什么意思。 Hello DSH，简单来说就是教你：如何从打开终端，到最后自己去生成一个插件，并且体验一下“万物皆可插件”的思路。 先简单说一下，这个概念理解起来非常复杂，但是使用起来是非常简单的。就比如你安装一个插件，在使用过程中觉得它不好用，那就把它删掉。你删掉它的时候，是不影响其他不依赖它的插件运行的；但如果你想待会儿再装上，也是 OK"
+  },
+  {
+   "author": "平凡​",
+   "vote": null,
+   "time": "​",
+   "excerpt": "我今天晚上Vibe了 5 个小时，开源这个叫 HelloDSH 的项目，地址： 其实为什么做这个课？就像每门编程语言都要从 Hello World 开始，我希望 DSH 的第一门课是 Hello DSH。 做它的目的是非常简单的。因为对于 DSH 来说，它是一个对新手（特别是没有接触过编程的人）非常不友好的项目。那这个目的就是让一个没装过 Node、没用过命令行的人，也能在 30 分钟内做出自己的第一个 DSH 插件，并且真正看懂「万物皆可插件」这句话是什么意思。 Hello DSH，简单来说就是教你：如何从打开终端，到最后自己去生成一个插件，并且体验一下“万物皆可插件”的思路。 先简单说一下，这个概念理解起来非常复杂，但是使用起来是非常简单的。就比如你安装一个插件，在使用过程中觉得它不好用，那就把它删掉。你删掉它的时候，是不影响其他不依赖它的插件运行的；但如果你想待会儿再装上，也是 OK"
+  }
+ ]
+}

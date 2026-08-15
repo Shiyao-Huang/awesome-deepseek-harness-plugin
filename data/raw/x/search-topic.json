@@ -1,0 +1,90 @@
+{
+ "query": "dsh-plugin",
+ "harvestedAt": "2026-08-15T06:17:09.301Z",
+ "tweets": [
+  {
+   "user": "Zevorn(Chao Liu) @zevorn86488 · Aug 13",
+   "text": "Zevorn(Chao Liu) | @zevorn86488 | · | Aug 13 | 按我的感受，DeepSeek Harness 最大的特色是「Everything is Plugin」，这也是 Agent 自我进化能力的基础。 | 什么是「Everything is Plugin」？ | 简单讲，dsh 基于 Cordis 实现了插件的动态加载与销毁的机制，并且做到了资源安全。 | 具体思路可以概括为：从 plugin load | Show more | 9 | 21 | 4.2K",
+   "aria": "9 replies, 21 likes, 8 bookmarks, 4236 views",
+   "time": "2026-08-13T13:08:37.000Z",
+   "link": "https://x.com/zevorn86488/status/2087889058056065414"
+  },
+  {
+   "user": "林亦LYi @linyiLYi · 14h",
+   "text": "林亦LYi | @linyiLYi | · | 14h | 骂它的拿着一把“今天就得能用”的尺子，夸它的拿着一把“明天怎么组装”的尺子。 |  Article | 聊聊 DeepSeek Harness 争议 | DeepSeek Harness... | 13 | 3 | 45 | 7.8K",
+   "aria": "13 replies, 3 reposts, 45 likes, 40 bookmarks, 7887 views",
+   "time": "2026-08-14T15:59:33.000Z",
+   "link": "https://x.com/linyiLYi/status/2088294463676522625"
+  },
+  {
+   "user": "陈成 @chenchengpro · 20h",
+   "text": "陈成 | @chenchengpro | · | 20h | 看了会 DeepSeek Harness，说下个人感受。 | 整体感受，dsh 更像一份「harness 该怎么写」的参考实现，不太像一个要抢 Claude Code 用户的产品。体验上目前还有点粗糙，架构上比较“激进”。 | 1\\ 上手只要 npx  | @deepseek | -ai/dsh@latest web，它还会自动从环境变量里找 DEEPSEEK_API_KEY | Show more | 5 | 11 | 116 | 14K",
+   "aria": "5 replies, 11 reposts, 116 likes, 63 bookmarks, 14521 views",
+   "time": "2026-08-14T09:51:53.000Z",
+   "link": "https://x.com/chenchengpro/status/2088201936072024253"
+  },
+  {
+   "user": "歸藏(guizang.ai) @op7418 · 20h",
+   "text": "歸藏(guizang.ai) | @op7418 | · | 20h | 15 张数据图帮你了解 DeepSeek Harness | 昨天 DeepSeek Harness 发布，于是就想着让 Codex 分析一下，找到了一个很好的角度，就是从一些数据上向大家介绍这个产品。 | 确实也发现了一些很有意思的东西： | 插件系统与 Koishi 高度相似： 他们主打的插件系统与 Koishi 的插件平台相似度高达 | Show more | 1:36 | 30 | 8 | 77 | 12K",
+   "aria": "30 replies, 8 reposts, 77 likes, 79 bookmarks, 12359 views",
+   "time": "2026-08-14T09:40:27.000Z",
+   "link": "https://x.com/op7418/status/2088199058313957734"
+  },
+  {
+   "user": "frogtian @frogtian1 · 12h",
+   "text": "frogtian | @frogtian1 | · | 12h |  Article | 别人还在研究 DeepSeek Harness，我已经连夜在自己网站上线了dsh插件舱 | 30 天开发挑战继续。 | 今天发布 AI蛙兄说 V2。 | 这一版新增了一个我最近很感兴趣的方向 |  DeepSeek Harness 插件舱。 | DeepSeek Harness 的核心理念是 |  Everything is a Plugin。... | 4 | 6 | 241",
+   "aria": "4 replies, 6 likes, 241 views",
+   "time": "2026-08-14T18:08:40.000Z",
+   "link": "https://x.com/frogtian1/status/2088326956232417695"
+  },
+  {
+   "user": "Granite @Granite0x · 10h",
+   "text": "Granite | @Granite0x | · | 10h |  365 plugins for a coding harness that's 24 hours old. | deepseek shipped dsh yesterday. the community didn't wait. | the awesome-list already has 365 plugins, 11 categories, 220 forks. | 100+ contributors. the org that maintains it didn't exist yesterday either. | 8 worth | Show more | 0:22 | Quote | Granite | @Granite0x | · | Jul 24 |  Article | A Graph of Loops:",
+   "aria": "3 replies, 15 likes, 14 bookmarks, 741 views",
+   "time": "2026-08-14T19:58:25.000Z",
+   "link": "https://x.com/Granite0x/status/2088354578584449411"
+  },
+  {
+   "user": "Zephyr @zephyr_z9 · Aug 13",
+   "text": "Zephyr | @zephyr_z9 | · | Aug 13 | \"Taking it one step further, this actually has a bit of the prototype for “self-evolving software.” DSH can now let an Agent inspect its own runtime, write a plugin on the spot and mount it, then directly use that newly acquired capability in subsequent tasks.  Of | Show more | Quote | Jiayuan (JY) Zhang | @jiayuan_jy | · | Aug 13 | 有幸一个月前就被 @tianyi 拉进了仓库。当时 DSH ",
+   "aria": "5 replies, 16 reposts, 187 likes, 54 bookmarks, 44493 views",
+   "time": "2026-08-13T15:39:19.000Z",
+   "link": "https://x.com/zephyr_z9/status/2087926984437637490"
+  },
+  {
+   "user": "Yaowei Zheng @code_hiyouga · Aug 14",
+   "text": "Yaowei Zheng | @code_hiyouga | · | Aug 14 | DeepSeek Harness (dsh) launched today, and reactions have been pretty mixed. I figured I'd share a few thoughts of my own. These are just personal opinions, so please don't read too much into them. | I've been working on LLM training frameworks since 2023. You may have heard of | Show more | 11 | 31 | 290 | 19K",
+   "aria": "11 replies, 31 reposts, 290 likes, 271 bookmarks, 19365 views",
+   "time": "2026-08-13T17:23:25.000Z",
+   "link": "https://x.com/code_hiyouga/status/2087953180281954594"
+  },
+  {
+   "user": "Hasan Toor @hasantoxr · 12h",
+   "text": "Hasan Toor | @hasantoxr | · | 12h | DeepSeek just did it again. | They open-sourced their own agent harness that goes straight against Claude Code and Codex. | Every coding harness today ships as a monolith. The prompt, the tools, the memory, the UI, all baked into a single binary. | If you want to swap the model | Show more | 10 | 2 | 52 | 10K",
+   "aria": "10 replies, 2 reposts, 52 likes, 43 bookmarks, 10245 views",
+   "time": "2026-08-14T17:29:16.000Z",
+   "link": "https://x.com/hasantoxr/status/2088317043741491699"
+  },
+  {
+   "user": "Akshay  @akshay_pachaar · Aug 14",
+   "text": "Akshay  | @akshay_pachaar | · | Aug 14 | DeepSeek has open-sourced DeepSeek Harness. | (crossed 35k stars in a few hours) | it is built around one core idea: everything is a plugin | let me explain what that means: | the model adapter, the tool registry, the session log, and the agent loop itself are all plugins in DeepSeek | Show more | Quote | Akshay  | @akshay_pachaar | · | Apr 6 |  Article | T",
+   "aria": "36 replies, 142 reposts, 939 likes, 1173 bookmarks, 128090 views",
+   "time": "2026-08-13T18:25:27.000Z",
+   "link": "https://x.com/akshay_pachaar/status/2087968793637343514"
+  },
+  {
+   "user": "Ruiteng Huang @huangruiteng · 13h",
+   "text": "Ruiteng Huang | @huangruiteng | · | 13h | DeepSeek 的 Harness 战术非常激进，打的是一张 plugin scaling 的明牌：不和 CC/Codex 打绝对的完备能力，而打生态可拓展性、打长期效益。持续吸收好的 plugin——数据层训进模型、code 层蒸馏进 DSH，自身只打磨 core kernel。plugin 相比 kernel 更能 scale，只需在 kernel 吸收 plugin | Show more | Quote | 鸭哥 | @grapeot | · | Aug 14 | DeepSeek 开源的第一个 agent harness DSH，论文里堆满了范畴论符号，很容易让人觉得又是研究员在真空里搞出来的理论产物。但在仔细读完源码并与 Codex 逐行对照后，我的工程判断很明确：对绝大多数日常写代码的开发者",
+   "aria": "1 reply, 16 likes, 10 bookmarks, 3605 views",
+   "time": "2026-08-14T16:45:49.000Z",
+   "link": "https://x.com/huangruiteng/status/2088306107332833559"
+  },
+  {
+   "user": "Yuu @QuantumTransf · 19h",
+   "text": "Yuu | @QuantumTransf | · | 19h | 工具层不直接碰外部环境，而是通过一组被封装的能力层（也即原推提到的接缝层）去访问 | 这和 pi agent 的架构是相同的，不过 dsh 做的更深，访问外部环境的每种能力应当是受限的，且可以被独立于工具抽象重写 / 替换的，因为是一组没有耦合的 plugin | 我喜欢这个解耦的 story | Quote | LimboAI | @limbopeng | · | Aug 13 | 读了 DeepSeek Harness 里 web_search 的实现，有个设计值得拆解：模型面对的搜索工具，本身不联网。 | 它被拆成三层： | 工具层（dsh-tool-web）—— 只做参数校验、结果格式化和数量上限（默认 8 条、30s 超时），不碰网络。 | 接缝层（ctx.web / WebRuntime）—— 维护一个 prov",
+   "aria": "21 replies, 2 reposts, 28 likes, 3 bookmarks, 2859 views",
+   "time": "2026-08-14T11:05:35.000Z",
+   "link": "https://x.com/QuantumTransf/status/2088220485674783199"
+  }
+ ]
+}
