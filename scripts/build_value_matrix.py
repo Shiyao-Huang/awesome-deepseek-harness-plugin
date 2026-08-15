@@ -148,7 +148,7 @@ def rows_for_scoring(connection: sqlite3.Connection) -> list[sqlite3.Row]:
                    SUM(CASE WHEN entry_kind = 'plugin-candidate' THEN 1 ELSE 0 END) AS plugin_count,
                    SUM(CASE WHEN install_hint IS NOT NULL AND TRIM(install_hint) <> '' THEN 1 ELSE 0 END) AS install_count
             FROM upstream_entries
-            WHERE item_id IS NOT NULL
+            WHERE item_id IS NOT NULL AND active = 1
             GROUP BY item_id
         )
         SELECT i.id, i.platform, i.external_id, i.canonical_url, i.item_type, i.title,

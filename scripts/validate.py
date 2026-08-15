@@ -3,10 +3,13 @@
 
 from __future__ import annotations
 
-import json
 import hashlib
+import json
 import sqlite3
 from pathlib import Path
+from typing import Any
+
+import build_market_registry
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -16,6 +19,17 @@ RAW_DIR = ROOT / "data" / "raw"
 INDEX_PATH = ROOT / "index" / "records.jsonl"
 VALUE_MATRIX_PATH = ROOT / "index" / "value-matrix.jsonl"
 FORK_INDEX_PATH = ROOT / "docs" / "data" / "forks.json"
+COMMUNITY_REGISTRY_PATH = ROOT / "registry" / "plugins.json"
+MARKET_REGISTRY_PATHS = (
+    ROOT / "index" / "market-registry.json",
+    ROOT / "docs" / "data" / "market-registry.json",
+    ROOT / "plugin" / "data" / "market-registry.json",
+)
+MARKET_SCHEMA_PATHS = (
+    ROOT / "index" / "market-registry.schema.json",
+    ROOT / "docs" / "data" / "market-registry.schema.json",
+    ROOT / "plugin" / "data" / "market-registry.schema.json",
+)
 INDEX_FIELDS = {
     "id", "summary", "url", "repo", "context", "picture", "comment", "favor",
     "views", "refs", "rank", "stars", "dataset_version", "first_seen_at", "last_seen_at",
@@ -26,7 +40,7 @@ VALUE_MATRIX_FIELDS = {
     "value_score", "confidence_score", "value_band", "evidence_count", "source_count", "risk_flags",
 }
 PUBLIC_DB_MAX_BYTES = 95 * 1024 * 1024
-PUBLIC_PROJECTION_VERSION = 2
+PUBLIC_PROJECTION_VERSION = 3
 PUBLIC_STRIPPED_JSON_COLUMNS = (
     ("raw_snapshots", "payload_json"),
     ("items", "raw_json"),
@@ -35,7 +49,96 @@ PUBLIC_STRIPPED_JSON_COLUMNS = (
     ("fork_file_changes", "raw_json"),
     ("fork_commits", "raw_json"),
     ("fork_rankings", "components_json"),
+    ("upstream_entries", "source_json"),
 )
+
+
+def identical_json(paths: tuple[Path, ...]) -> dict[str, Any]:
+    """Load byte-identical generated JSON mirrors."""
+
+    contents = [path.read_bytes() for path in paths]
+    assert all(content == contents[0] for content in contents[1:]), paths
+    decoded = json.loads(contents[0])
+    assert isinstance(decoded, dict), paths[0]
+    return decoded
+
+
+def validate_market_registry() -> int:
+    """Validate generated Market registry identity, safety, and mirror invariants."""
+
+    registry = identical_json(MARKET_REGISTRY_PATHS)
+    schema = identical_json(MARKET_SCHEMA_PATHS)
+    assert registry["version"] == 2
+    assert schema["$id"] == "https://deeplugin.store/data/market-registry.schema.json"
+    assert schema["properties"]["version"]["const"] == registry["version"]
+    plugins = registry["plugins"]
+    assert isinstance(plugins, list)
+    assert registry["count"] == len(plugins)
+    assert registry["verifiedCount"] == sum(plugin["verified"] is True for plugin in plugins)
+    required_fields = set(schema["$defs"]["plugin"]["required"])
+    ids: set[str] = set()
+    install_specs: set[str] = set()
+    for plugin in plugins:
+        assert isinstance(plugin, dict)
+        assert required_fields <= set(plugin)
+        plugin_id = plugin["id"]
+        install = plugin["install"]
+        assert isinstance(plugin_id, str)
+        assert isinstance(install, dict)
+        target = install["target"]
+        spec = install["spec"]
+        normalized = build_market_registry.normalize_install_spec(spec)
+        assert normalized == (target, spec), (plugin_id, spec)
+        assert plugin_id == build_market_registry.stable_plugin_id(spec)
+        assert plugin_id not in ids
+        assert spec not in install_specs
+        assert plugin["category"] in registry["categories"]
+        assert isinstance(plugin["sources"], list) and plugin["sources"]
+        if plugin["verified"] is True:
+            assert plugin["version"]
+        ids.add(plugin_id)
+        install_specs.add(spec)
+    return len(plugins)
+
+
+def validate_community_registry() -> int:
+    """Validate source-local community Listings before scheduled ingestion."""
+
+    registry = json.loads(COMMUNITY_REGISTRY_PATH.read_text(encoding="utf-8"))
+    assert isinstance(registry, dict)
+    assert registry["version"] == 2
+    plugins = registry["plugins"]
+    assert isinstance(plugins, list)
+    assert registry["count"] == len(plugins)
+    required_fields = {
+        "id", "name", "author", "category", "description", "description_zh",
+        "install", "version", "homepage", "verified", "stars", "tags", "source",
+    }
+    ids: set[str] = set()
+    install_specs: set[str] = set()
+    for plugin in plugins:
+        assert isinstance(plugin, dict)
+        assert required_fields <= set(plugin)
+        assert plugin["verified"] is False
+        plugin_id = plugin["id"]
+        install = plugin["install"]
+        assert isinstance(plugin_id, str) and plugin_id
+        assert isinstance(install, dict)
+        target = install["target"]
+        spec = install["spec"]
+        assert build_market_registry.normalize_install_spec(spec) == (target, spec)
+        assert plugin_id not in ids
+        assert spec not in install_specs
+        assert plugin["stars"] is None or (
+            isinstance(plugin["stars"], int)
+            and not isinstance(plugin["stars"], bool)
+            and plugin["stars"] >= 0
+        )
+        assert isinstance(plugin["source"], dict)
+        assert plugin["source"].get("name") and plugin["source"].get("url")
+        ids.add(plugin_id)
+        install_specs.add(spec)
+    return len(plugins)
 
 
 def main() -> None:
@@ -68,7 +171,7 @@ def main() -> None:
             f"{table}.{column}" for table, column in PUBLIC_STRIPPED_JSON_COLUMNS
         ]
         assert set(projection_policy["retention"]) == {
-            "fork_rankings", "fork_snapshots", "value_assessments",
+            "fork_rankings", "fork_snapshots", "upstream_entry_observations", "value_assessments",
         }
         assert FULL_ARCHIVE_PATH.is_file() and FULL_ARCHIVE_PATH.stat().st_size > 0
         assert DB_PATH.stat().st_size <= PUBLIC_DB_MAX_BYTES
@@ -145,12 +248,14 @@ def main() -> None:
     assert all(set(record) == VALUE_MATRIX_FIELDS for record in value_records)
     assert all(record["value_band"] in {"A", "B", "C", "D"} for record in value_records)
     assert all(0 <= record[key] <= 100 for record in value_records for key in ("utility", "evidence", "traction", "ecosystem", "freshness", "reviewability", "value_score", "confidence_score"))
+    community_listings = validate_community_registry()
+    market_plugins = validate_market_registry()
     platforms = connection.execute("SELECT COUNT(DISTINCT platform) FROM items").fetchone()[0]
     metrics = connection.execute("SELECT COUNT(*) FROM metrics").fetchone()[0]
     media = connection.execute("SELECT COUNT(*) FROM media_assets").fetchone()[0]
     snapshots = connection.execute("SELECT COUNT(*) FROM raw_snapshots").fetchone()[0]
     latest_version = connection.execute("SELECT dataset_version FROM collection_runs WHERE trigger <> 'legacy-migration' ORDER BY id DESC LIMIT 1").fetchone()[0]
-    print(f"validated {len(raw_paths)} raw files/{snapshots} snapshots; latest {latest_version}; {items} items; {platforms} platforms; {metrics} metrics; {media} media assets; {len(index_records)} index records")
+    print(f"validated {len(raw_paths)} raw files/{snapshots} snapshots; latest {latest_version}; {items} items; {platforms} platforms; {metrics} metrics; {media} media assets; {len(index_records)} index records; {community_listings} community Listings; {market_plugins} market plugins")
 
 
 if __name__ == "__main__":

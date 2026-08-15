@@ -129,6 +129,19 @@ class DeepScanQueueTests(unittest.TestCase):
 
 
 class ForkProjectionTests(unittest.TestCase):
+    def test_fork_page_links_back_to_store_root(self) -> None:
+        coverage = {
+            "observed": 0,
+            "audited": 0,
+            "coverage_percent": 0,
+            "estimated_backfill_days": 0,
+        }
+
+        page = build_fork_index.render_fork_page("v-test", [], coverage, [])
+
+        self.assertIn('class="brand" href="./"', page)
+        self.assertIn('class="breadcrumbs"><a href="./"', page)
+
     def test_star_rank_is_separate_from_composite_rank(self) -> None:
         records = [
             {"full_name": "owner/influential", "stars": 2, "forks": 1, "rank": 1},

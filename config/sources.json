@@ -14,11 +14,24 @@
     },
     {
       "repo": "awesome-dsh-plugin/awesome-dsh-plugin",
-      "files": ["README.md"]
+      "files": ["README.md"],
+      "registry_url": "https://awesome-dsh-plugin.com/plugins.json"
     },
     {
       "repo": "AdamPlatin123/awesome-dsh-plugins",
       "files": ["README.md"]
+    },
+    {
+      "repo": "dsh-market/dsh-market",
+      "files": ["README.md", "data/registry-snapshot.json"]
+    },
+    {
+      "repo": "zoahdev/dsh-subscribe",
+      "files": ["README.md", "registry.json"]
+    },
+    {
+      "repo": "Shiyao-Huang/awesome-deepseek-harness-plugin",
+      "files": ["README.md", "registry/plugins.json"]
     }
   ],
   "wechat_articles": [

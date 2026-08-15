@@ -7,7 +7,7 @@ DeepSeek Harness / DSH 插件生态的公开资料聚合 repo：把 GitHub 仓�
 <!-- landing:start -->
 ## Start here — the DSH signal desk
 
-> 这里不是又一份静态 Awesome List，而是一张持续更新的 DeepSeek Harness 生态地图：先看最值得点开的仓库、帖子和视频，再沿着 raw、SQLite、时间轴回到证据。当前批次 **v20260815T223846Z**（2026-08-15）：**12,747** 条去重记录、**14** 个平台、**873** 个媒体引用。
+> 这里不是又一份静态 Awesome List，而是一张持续更新的 DeepSeek Harness 生态地图：先看最值得点开的仓库、帖子和视频，再沿着 raw、SQLite、时间轴回到证据。当前批次 **v20260815T232500Z-2**（2026-08-15）：**12,773** 条去重记录、**14** 个平台、**873** 个媒体引用。
 
 [打开 dsh store](docs/index.html) · [看价值矩阵](docs/value-matrix.md) · [看趋势](docs/trends.md) · [下载查询 SQLite](https://github.com/Shiyao-Huang/awesome-deepseek-harness-plugin/releases/download/dataset-latest/aggregator.sqlite3)
 
@@ -17,8 +17,8 @@ DeepSeek Harness / DSH 插件生态的公开资料聚合 repo：把 GitHub 仓�
 
 | 入口 | 为什么值得看 | 当前信号 |
 | --- | --- | ---: |
-| [官方核心 · deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | DSH 的源头仓库；所有插件和能力最终回到这里核验。 | ★ stars 114,678 |
-| [高关注插件 · zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 真实可见的 UI / 桌面扩展，适合从“能不能直接用”开始。 | ★ stars 2,694 |
+| [官方核心 · deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | DSH 的源头仓库；所有插件和能力最终回到这里核验。 | ★ stars 114,880 |
+| [高关注插件 · zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 真实可见的 UI / 桌面扩展，适合从“能不能直接用”开始。 | ★ stars 2,699 |
 | [新文章 · 如何用 GLM 5.3，开发 DeepSeek Harness 插件](https://mp.weixin.qq.com/s/HrOgdg7ZBKQlvGM-xPeKtw) | 一篇文章串起模型接入、插件契约、skill、附件和 inspector；8 image · 1 video。 | counters NULL |
 
 ### 新：一篇文章与一项社区补充
@@ -51,7 +51,7 @@ dsh plugin --profile web add dsh-skills dsh-attachments dsh-inspector
 
 ### 官方 Fork network：把分叉当作生态信号
 
-沿 `deepseek-ai/deepseek-harness` 的公开分页，本批次登记 **11,117** 个 Fork（v20260815T214302Z）；按 **0+ stars** 进入排序的 **11,117** 个，深度盘点成功 **317** 个。它是公开信号和变体线索，不是质量、安全或诚信背书。
+沿 `deepseek-ai/deepseek-harness` 的公开分页，本批次登记 **11,117** 个 Fork（v20260815T232120Z）；按 **0+ stars** 进入排序的 **11,117** 个，深度盘点成功 **317** 个。它是公开信号和变体线索，不是质量、安全或诚信背书。
 
 [打开 Fork 检索页](docs/forks.html) · [看 Fork 数据报告](docs/forks.md) · [下载完整压缩 SQLite 快照](https://github.com/Shiyao-Huang/awesome-deepseek-harness-plugin/releases/download/dataset-latest/aggregator-full.sqlite3.zst) · [看完整 JSONL 索引](index/forks.jsonl)
 
@@ -63,18 +63,18 @@ dsh plugin --profile web add dsh-skills dsh-attachments dsh-inspector
 | 4 | [bojieli/deepseek-harness](https://github.com/bojieli/deepseek-harness) | 1 | 81.4 (observed) | 25.918 | 48.108 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
 | 5 | [alexdolbun/deepseek-harness](https://github.com/alexdolbun/deepseek-harness) | 1 | 80.0 (observed) | 25.918 | 47.566 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness”。 |
 
-> 价值档当前分布：**B 184 · C 1,213 · D 11,350**。分数只用于安排复核优先级；不同平台的 stars、likes、views、points 不相加，缺失互动数不补零。
+> 价值档当前分布：**B 272 · C 1,117 · D 11,384**。分数只用于安排复核优先级；不同平台的 stars、likes、views、points 不相加，缺失互动数不补零。
 
 <!-- landing:end -->
 
 ## 当前快照
 
 <!-- snapshot:start -->
-公开查询 SQLite 当前包含 **12,747 条去重记录**、**14 个来源平台**、**95,865 条指标历史**、**873 个媒体资产引用**、**306 条详情记录**和 **814 个去重 raw provenance**。当前批次 **v20260815T223846Z** 于 **2026-08-15T22:38:50Z** 完成；价值矩阵为当前批次的 12,747 条记录提供六维评分。完整原始 JSON 位于压缩权威 SQLite；公开查询库保留 raw SHA-256、路径、字节数、采集时间和批次，并去除可由 `data/raw/` 或完整库恢复的重复 JSON blob。
+公开查询 SQLite 当前包含 **12,773 条去重记录**、**14 个来源平台**、**93,153 条指标历史**、**873 个媒体资产引用**、**306 条详情记录**和 **818 个去重 raw provenance**。当前批次 **v20260815T232500Z-2** 于 **2026-08-15T23:25:00Z** 完成；价值矩阵为当前批次的 12,773 条记录提供六维评分。完整原始 JSON 位于压缩权威 SQLite；公开查询库保留 raw SHA-256、路径、字节数、采集时间和批次，并去除可由 `data/raw/` 或完整库恢复的重复 JSON blob。
 
 | 来源 | 去重记录 | 采集内容 |
 | --- | ---: | --- |
-| GitHub | 12,408 | 官方仓库、topic、社区索引候选和 stars/forks/issues |
+| GitHub | 12,434 | 官方仓库、topic、社区索引候选和 stars/forks/issues |
 | Hacker News | 101 | 精确短语搜索、points/comments 和讨论链接 |
 | X | 77 | 公开帖子、图片/视频链接和 replies/reposts/likes/views |
 | 小红书 | 51 | 搜索卡片、作者、点赞、缩略图和详情文本 |
@@ -117,6 +117,18 @@ collection_runs ──< raw_snapshots
 ## Workspace 登记规则
 
 原始证据位于 `data/raw/`，不可改写；登记索引位于 [index/records.jsonl](index/records.jsonl)，字段规范位于 [index/schema.json](index/schema.json)。索引的一条记录对应 SQLite 的 `index_records` 一行，使用 `id` 追溯到 `items`、`observations`、`raw_snapshots` 和原始文件。索引由 `python3 scripts/build_index.py` 生成，不手工编辑。
+
+## Agent 市场注册表
+
+公开 Market 数据可从 [线上 JSON](https://deeplugin.store/data/market-registry.json)、[JSON Schema](https://deeplugin.store/data/market-registry.schema.json) 或仓库内的 [index 镜像](index/market-registry.json) 读取；三份运行时镜像和三份 Schema 由 SQLite 统一生成并保持字节一致。人类提交说明见 [docs/register.md](docs/register.md)，Agent 提交流程见 [docs/register-agent.md](docs/register-agent.md)。
+
+把市场搜索工具安装到 DSH：
+
+```sh
+dsh plugin --profile web add github:Shiyao-Huang/awesome-deepseek-harness-plugin#path:/plugin
+```
+
+`verified=true` 只表示某个具名 Registry Source 声明了带版本的有限验证，不是 deeplugin.store 对安全性、兼容性、质量或官方身份的背书。`deeplugin_install_plan` 只生成可审查命令，始终要求用户明确确认，不会自动安装。
 
 ## 图文与视频
 

@@ -17,7 +17,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DB = ROOT / "data" / "aggregator.sqlite3"
 DEFAULT_FULL_ARCHIVE = ROOT / "data" / "aggregator-full.sqlite3.zst"
-PROJECTION_VERSION = 2
+PROJECTION_VERSION = 3
 STRIPPED_JSON_COLUMNS = (
     ("raw_snapshots", "payload_json"),
     ("items", "raw_json"),
@@ -26,6 +26,7 @@ STRIPPED_JSON_COLUMNS = (
     ("fork_file_changes", "raw_json"),
     ("fork_commits", "raw_json"),
     ("fork_rankings", "components_json"),
+    ("upstream_entries", "source_json"),
 )
 FORK_SNAPSHOT_RETENTION = """
     fork_snapshots.id = (
@@ -40,6 +41,15 @@ FORK_SNAPSHOT_RETENTION = """
     OR EXISTS (
         SELECT 1 FROM fork_file_changes
         WHERE fork_file_changes.snapshot_id = fork_snapshots.id
+    )
+"""
+UPSTREAM_ENTRY_OBSERVATION_RETENTION = """
+    upstream_entry_observations.id = (
+        SELECT latest.id
+        FROM upstream_entry_observations AS latest
+        WHERE latest.entry_id = upstream_entry_observations.entry_id
+        ORDER BY latest.collection_run_id DESC, latest.id DESC
+        LIMIT 1
     )
 """
 
@@ -165,6 +175,7 @@ def project_database(path: Path, source_sha256: str, archive_label: str) -> int:
         required_tables = {table for table, _ in STRIPPED_JSON_COLUMNS} | {
             "collection_runs",
             "fork_snapshots",
+            "upstream_entry_observations",
             "value_assessments",
         }
         missing = sorted(required_tables - tables)
@@ -191,6 +202,9 @@ def project_database(path: Path, source_sha256: str, archive_label: str) -> int:
         )
         connection.execute(
             f"DELETE FROM fork_snapshots WHERE NOT ({FORK_SNAPSHOT_RETENTION})"
+        )
+        connection.execute(
+            f"DELETE FROM upstream_entry_observations WHERE NOT ({UPSTREAM_ENTRY_OBSERVATION_RETENTION})"
         )
         connection.execute(
             """
@@ -226,6 +240,7 @@ def project_database(path: Path, source_sha256: str, archive_label: str) -> int:
                         "retention": {
                             "fork_rankings": "latest collection run",
                             "fork_snapshots": "latest per Fork plus commit/file-evidence snapshots",
+                            "upstream_entry_observations": "latest per Registry Listing",
                             "value_assessments": "latest complete collection run",
                         },
                     },
@@ -284,6 +299,12 @@ def verify_projection(
                         f"SELECT COUNT(*) FROM fork_snapshots WHERE {FORK_SNAPSHOT_RETENTION}"
                     ).fetchone()[0]
                 )
+            elif table == "upstream_entry_observations":
+                expected = int(
+                    source_connection.execute(
+                        f"SELECT COUNT(*) FROM upstream_entry_observations WHERE {UPSTREAM_ENTRY_OBSERVATION_RETENTION}"
+                    ).fetchone()[0]
+                )
             actual = output_counts.get(table)
             if actual != expected:
                 raise RuntimeError(f"row-count mismatch for {table}: {actual} != {expected}")
@@ -320,6 +341,7 @@ def verify_projection(
             "items": output_counts["items"],
             "metrics": output_counts["metrics"],
             "raw_snapshots": output_counts["raw_snapshots"],
+            "listing_observations": output_counts["upstream_entry_observations"],
             "value_assessments": output_counts["value_assessments"],
             "bytes": output_bytes,
             "integrity": integrity,

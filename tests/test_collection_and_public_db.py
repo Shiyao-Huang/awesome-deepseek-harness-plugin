@@ -226,6 +226,12 @@ class PublicDatabaseTests(unittest.TestCase):
             CREATE TABLE raw_snapshots(raw_sha256 TEXT, payload_json TEXT);
             CREATE TABLE metrics(raw_json TEXT);
             CREATE TABLE github_user_profiles(raw_json TEXT);
+            CREATE TABLE upstream_entries(source_json TEXT);
+            CREATE TABLE upstream_entry_observations(
+                id INTEGER PRIMARY KEY,
+                entry_id INTEGER,
+                collection_run_id INTEGER
+            );
             CREATE TABLE fork_snapshots(
                 id INTEGER PRIMARY KEY,
                 fork_id INTEGER,
@@ -252,6 +258,12 @@ class PublicDatabaseTests(unittest.TestCase):
             INSERT INTO raw_snapshots VALUES ('sha-1', '{"raw": 1}');
             INSERT INTO metrics VALUES ('{"raw": 1}');
             INSERT INTO github_user_profiles VALUES ('{"raw": 1}');
+            INSERT INTO upstream_entries VALUES ('{"raw": 1}');
+            INSERT INTO upstream_entry_observations VALUES
+                (1, 1, 1),
+                (2, 1, 2),
+                (3, 2, 1),
+                (4, 2, 2);
             INSERT INTO fork_snapshots VALUES
                 (1, 1, 1),
                 (2, 1, 2),
@@ -284,6 +296,11 @@ class PublicDatabaseTests(unittest.TestCase):
             self.assertEqual(run_id, 2)
             for table, column in build_public_db.STRIPPED_JSON_COLUMNS:
                 self.assertEqual(connection.execute(f'SELECT DISTINCT "{column}" FROM "{table}"').fetchall(), [("{}",)])
+            self.assertEqual(connection.execute("SELECT source_json FROM upstream_entries").fetchall(), [("{}",)])
+            self.assertEqual(
+                connection.execute("SELECT id FROM upstream_entry_observations ORDER BY id").fetchall(),
+                [(2,), (4,)],
+            )
             self.assertEqual(connection.execute("SELECT collection_run_id FROM value_assessments").fetchall(), [(2,), (2,)])
             self.assertEqual(connection.execute("SELECT DISTINCT collection_run_id FROM fork_rankings").fetchall(), [(2,)])
             self.assertEqual(connection.execute("SELECT DISTINCT components_json FROM fork_rankings").fetchall(), [("{}",)])

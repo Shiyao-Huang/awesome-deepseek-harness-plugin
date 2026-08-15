@@ -143,6 +143,12 @@ def build_payload(capture: dict[str, Any], token: str | None, enrich_limit: int)
         "status": "ok",
         "entry_count": len(entries),
         "metadata_enriched": enriched,
+        "entry_sources": [{
+            "source_ref": "README.md",
+            "kind": "markdown",
+            "status": "ok",
+            "entry_count": len(entries),
+        }],
         "files": {"README.md": browser_capture.get("article_text") or ""},
         "tree": [],
         "entries": entries,
@@ -200,7 +206,13 @@ def main() -> int:
         run_id, version, _ = collect.begin_collection_run(connection, "ego-browser-source-capture")
         stats = collect.ImportStats(raw_files_seen=1)
         try:
-            stats = collect.import_payload(connection, payload, run_id, normalized_path)
+            monitor_sources.reconcile_listing_item_collisions(connection)
+            stats = collect.import_payload(
+                connection,
+                monitor_sources.payload_for_item_import(connection, payload),
+                run_id,
+                normalized_path,
+            )
             original_raw_id, _sha, _new = collect.store_raw_snapshot(connection, args.raw, run_id, payload["collected_at"])
             record_upstream_repositories(connection, payload, original_raw_id)
             stats.raw_files_seen = 2
@@ -214,57 +226,9 @@ def main() -> int:
 
 
 def record_upstream_repositories(connection: sqlite3.Connection, payload: dict[str, Any], raw_snapshot_id: int) -> None:
-    """Persist source metadata and replace its dated README relationships."""
+    """Persist browser-captured Listings through the shared history writer."""
 
-    for descriptor in payload.get("repositories", []):
-        connection.execute(
-            """
-            INSERT INTO upstream_repositories(
-                full_name, source_url, default_branch, description, license_spdx, stars, forks,
-                open_issues, pushed_at, last_checked_at, readme_path, readme_sha,
-                source_kind, status, raw_snapshot_id
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-            ON CONFLICT(full_name) DO UPDATE SET
-                source_url=excluded.source_url, default_branch=excluded.default_branch,
-                description=excluded.description, license_spdx=excluded.license_spdx,
-                stars=excluded.stars, forks=excluded.forks, open_issues=excluded.open_issues,
-                pushed_at=excluded.pushed_at, last_checked_at=excluded.last_checked_at,
-                readme_path=excluded.readme_path, readme_sha=excluded.readme_sha,
-                source_kind=excluded.source_kind, status=excluded.status, raw_snapshot_id=excluded.raw_snapshot_id
-            """,
-            (
-                descriptor["full_name"], descriptor["html_url"], descriptor["default_branch"],
-                descriptor.get("description"), descriptor.get("license_spdx"), descriptor.get("stars"),
-                descriptor.get("forks"), descriptor.get("open_issues"), descriptor.get("pushed_at"),
-                descriptor["last_checked_at"], descriptor.get("readme_path"), descriptor.get("readme_sha"),
-                descriptor.get("source_kind", "community-index"), descriptor.get("status", "ok"), raw_snapshot_id,
-            ),
-        )
-        repo_id = int(connection.execute("SELECT id FROM upstream_repositories WHERE full_name = ?", (descriptor["full_name"],)).fetchone()[0])
-        connection.execute("DELETE FROM upstream_entries WHERE repository_id = ?", (repo_id,))
-        for entry in descriptor.get("entries", []):
-            source_url = str(entry.get("source_url") or entry.get("url") or "")
-            canonical = collect.canonical_url(str(entry.get("url") or source_url))
-            item_row = connection.execute("SELECT id FROM items WHERE canonical_url = ?", (canonical,)).fetchone()
-            connection.execute(
-                """
-                INSERT INTO upstream_entries(
-                    repository_id, item_id, entry_name, entry_url, entry_kind, category,
-                    description, install_hint, source_path, source_line, first_seen_at, last_seen_at
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-                ON CONFLICT(repository_id, entry_url, category) DO UPDATE SET
-                    item_id=excluded.item_id, entry_name=excluded.entry_name, entry_kind=excluded.entry_kind,
-                    description=excluded.description, install_hint=excluded.install_hint,
-                    source_path=excluded.source_path, source_line=excluded.source_line,
-                    last_seen_at=excluded.last_seen_at
-                """,
-                (
-                    repo_id, int(item_row[0]) if item_row else None, entry.get("name") or source_url,
-                    source_url, entry.get("entry_kind", "candidate"), entry.get("category"),
-                    entry.get("description"), entry.get("install"), entry.get("source_path"),
-                    entry.get("source_line"), descriptor["last_checked_at"], descriptor["last_checked_at"],
-                ),
-            )
+    monitor_sources.record_upstream_repositories(connection, payload, raw_snapshot_id)
 
 
 if __name__ == "__main__":

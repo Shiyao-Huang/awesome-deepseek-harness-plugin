@@ -415,9 +415,9 @@ def render_fork_page(
     ).replace("{ASSET_PREFIX}", "")
     initial_rows = "".join(fork_row_html(record) for record in star_order[:100])
     return f"""{head}<body class="fork-page">
-{build_site.nav_html()}
+{build_site.nav_html("./")}
 <main class="site-main table-main">
-  <div class="breadcrumbs"><a href="">store</a><span>/</span><span>Forks</span></div>
+  <div class="breadcrumbs"><a href="./">store</a><span>/</span><span>Forks</span></div>
   <section class="page-intro fork-intro"><p class="kicker">PUBLIC FORK NETWORK · {html.escape(dataset_version)}</p><h1>DeepSeek Harness Forks</h1><p>公开 Fork 全量登记、原生影响力顺序与逐仓库变更证据。</p></section>
   <section class="fork-stats" aria-label="Fork audit coverage">
     <div><strong>{int(coverage['observed']):,}</strong><span>public Forks</span></div>
