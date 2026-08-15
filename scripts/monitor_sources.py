@@ -32,6 +32,11 @@ CONFIG_PATH = ROOT / "config" / "sources.json"
 RAW_DIR = ROOT / "data" / "raw"
 MAX_FILE_BYTES = 5_000_000
 RESERVED_GITHUB_PATHS = {"topics", "orgs", "search", "sponsors", "settings", "marketplace"}
+SOURCE_COLLECTORS = {"scripts/monitor_sources.py", "scripts/import_ego_source.py"}
+LISTING_METRIC_SOURCES = {
+    "GitHub repository API via upstream index",
+    "GitHub repository API via ego-browser source capture",
+}
 
 
 def utc_now() -> str:
@@ -619,6 +624,190 @@ def payload_for_item_import(connection: Any, payload: dict[str, Any]) -> dict[st
     return {**payload, "observations": observations}
 
 
+def normalized_raw_payload(raw_path: str, collected_at: str, payload_json: str) -> dict[str, Any] | None:
+    """Return the shared payload represented by one preserved raw snapshot."""
+
+    if payload_json == "{}":
+        return None
+    data = json.loads(payload_json)
+    if isinstance(data, dict) and isinstance(data.get("observations"), list):
+        return data
+    if not isinstance(data, dict):
+        return None
+    dated_data = dict(data)
+    dated_data.setdefault("collected_at", collected_at)
+    path = Path(raw_path)
+    if not path.is_absolute():
+        path = ROOT / path
+    try:
+        return collect.legacy_payload(path, dated_data)
+    except (OSError, ValueError):
+        return None
+
+
+def reconcile_listing_item_collisions(connection: Any) -> dict[str, int]:
+    """Restore source-native item fields and remove legacy Listing-to-item writes."""
+
+    target_rows = connection.execute(
+        """
+        SELECT DISTINCT i.id, i.canonical_url
+        FROM items AS i
+        WHERE json_type(i.raw_json, '$.source_entry') IS NOT NULL
+          AND EXISTS (
+              SELECT 1
+              FROM item_observations AS io
+              JOIN observations AS o ON o.id = io.observation_id
+              WHERE io.item_id = i.id
+                AND (
+                    o.collector NOT IN (?, ?)
+                    OR EXISTS (
+                        SELECT 1
+                        FROM upstream_repositories AS ur
+                        WHERE o.query = 'upstream:' || ur.full_name
+                          AND i.canonical_url = ur.source_url
+                    )
+                )
+          )
+        """,
+        tuple(sorted(SOURCE_COLLECTORS)),
+    ).fetchall()
+    targets = {int(row[0]): str(row[1]) for row in target_rows}
+    target_by_url = {url: item_id for item_id, url in targets.items()}
+    snapshot_targets: dict[int, set[str]] = {}
+    snapshot_rows: dict[int, Any] = {}
+    for item_id, url in targets.items():
+        rows = connection.execute(
+            """
+            SELECT DISTINCT rs.id, rs.raw_path, rs.collected_at, rs.payload_json,
+                            rs.collection_run_id
+            FROM raw_snapshots AS rs
+            JOIN observations AS o ON o.raw_snapshot_id = rs.id
+            JOIN item_observations AS io ON io.observation_id = o.id
+            WHERE io.item_id = ? AND rs.payload_json <> '{}'
+            """,
+            (item_id,),
+        ).fetchall()
+        for row in rows:
+            snapshot_id = int(row[0])
+            snapshot_rows[snapshot_id] = row
+            snapshot_targets.setdefault(snapshot_id, set()).add(url)
+
+    candidates: dict[int, tuple[tuple[str, int, int], dict[str, Any], str, int | None]] = {}
+    for snapshot_id in sorted(snapshot_rows):
+        row = snapshot_rows[snapshot_id]
+        payload = normalized_raw_payload(str(row[1]), str(row[2]), str(row[3]))
+        if payload is None:
+            continue
+        run_id = int(row[4]) if row[4] is not None else None
+        for observation_index, observation in enumerate(payload.get("observations", [])):
+            observed_at = str(observation.get("collected_at") or payload.get("collected_at") or row[2])
+            for item in observation.get("items", []):
+                if not isinstance(item, dict) or item.get("source_entry") is not None:
+                    continue
+                canonical = collect.canonical_url(str(item.get("url") or item.get("canonical_url") or ""))
+                if canonical not in snapshot_targets[snapshot_id]:
+                    continue
+                item_id = target_by_url[canonical]
+                key = (observed_at, snapshot_id, observation_index)
+                previous = candidates.get(item_id)
+                if previous is None or key > previous[0]:
+                    candidates[item_id] = (key, item, observed_at, run_id)
+
+    missing = sorted(set(targets) - set(candidates))
+    if missing:
+        raise RuntimeError(
+            "full raw payloads are required to reconcile "
+            f"{len(missing)} Listing-overwritten item(s)"
+        )
+
+    restored = 0
+    for item_id, (_key, item, observed_at, run_id) in candidates.items():
+        category, relevance, _tags = collect.classify(item)
+        title = str(item.get("title") or "").strip() or None
+        content_text = str(item.get("content_text") or item.get("description") or "").strip() or None
+        connection.execute(
+            """
+            UPDATE items
+            SET platform = ?,
+                title = COALESCE(?, title),
+                author = COALESCE(?, author),
+                author_url = COALESCE(?, author_url),
+                published_at = COALESCE(?, published_at),
+                published_label = COALESCE(?, published_label),
+                content_text = COALESCE(?, content_text),
+                language = COALESCE(?, language),
+                category = ?, relevance = ?,
+                media_kind = CASE
+                    WHEN ? = 'video' OR media_kind = 'video' THEN 'video'
+                    ELSE ?
+                END,
+                last_seen_at = ?, last_seen_run_id = COALESCE(?, last_seen_run_id),
+                raw_json = ?
+            WHERE id = ?
+            """,
+            (
+                str(item.get("platform") or item.get("source") or "unknown"),
+                title,
+                item.get("author"),
+                item.get("author_url"),
+                item.get("published_at"),
+                item.get("published_label"),
+                content_text,
+                item.get("language"),
+                str(item.get("category") or category),
+                str(item.get("relevance") or relevance),
+                str(item.get("media_kind") or "none"),
+                str(item.get("media_kind") or "none"),
+                observed_at,
+                run_id,
+                json.dumps(item, ensure_ascii=False, sort_keys=True),
+                item_id,
+            ),
+        )
+        restored += 1
+
+    metric_cursor = connection.execute(
+        """
+        DELETE FROM metrics
+        WHERE metric_source IN (?, ?)
+          AND collection_run_id IS NOT (SELECT first_seen_run_id FROM items WHERE id = metrics.item_id)
+          AND NOT (
+              metric_source = 'GitHub repository API via ego-browser source capture'
+              AND EXISTS (
+                  SELECT 1 FROM upstream_repositories
+                  WHERE source_url = (SELECT canonical_url FROM items WHERE id = metrics.item_id)
+              )
+          )
+        """,
+        tuple(sorted(LISTING_METRIC_SOURCES)),
+    )
+    link_cursor = connection.execute(
+        """
+        DELETE FROM item_observations
+        WHERE EXISTS (
+            SELECT 1
+            FROM observations AS o
+            JOIN items AS i ON i.id = item_observations.item_id
+            WHERE o.id = item_observations.observation_id
+              AND o.collector IN (?, ?)
+              AND o.collection_run_id IS NOT i.first_seen_run_id
+              AND NOT EXISTS (
+                  SELECT 1
+                  FROM upstream_repositories AS ur
+                  WHERE o.query = 'upstream:' || ur.full_name
+                    AND i.canonical_url = ur.source_url
+              )
+        )
+        """,
+        tuple(sorted(SOURCE_COLLECTORS)),
+    )
+    return {
+        "restored_items": restored,
+        "removed_metrics": max(0, metric_cursor.rowcount),
+        "removed_item_observations": max(0, link_cursor.rowcount),
+    }
+
+
 def record_upstream_repositories(connection: Any, payload: dict[str, Any], raw_snapshot_id: int) -> None:
     """Persist source repositories and link their entries to normalized items."""
 
@@ -825,6 +1014,7 @@ def main() -> int:
         run_id, version, _ = collect.begin_collection_run(connection, "source-monitor")
         stats = collect.ImportStats(raw_files_seen=1)
         try:
+            reconciliation = reconcile_listing_item_collisions(connection)
             stats = collect.import_payload(
                 connection,
                 payload_for_item_import(connection, payload),
@@ -840,7 +1030,13 @@ def main() -> int:
             collect.finish_collection_run(connection, run_id, stats, "failed", str(error))
             connection.commit()
             raise
-    print(f"monitored {len(payload.get('repositories', []))} upstream repositories in {version}; raw snapshot: {args.raw_output}")
+    print(
+        f"monitored {len(payload.get('repositories', []))} upstream repositories in {version}; "
+        f"reconciled {reconciliation['restored_items']} item(s), "
+        f"{reconciliation['removed_metrics']} metric(s), and "
+        f"{reconciliation['removed_item_observations']} item-observation link(s); "
+        f"raw snapshot: {args.raw_output}"
+    )
     return 0
 
 

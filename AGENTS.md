@@ -68,6 +68,7 @@ The SQLite table `index_records` mirrors these fields. The `raw_snapshots`, `obs
 - A Registry Source is an attributed public catalog, not an official or trusted registry. Preserve each selected registry file inside the dated upstream raw snapshot before normalizing its Listings.
 - Direct community submissions live in `registry/plugins.json`; human and Agent procedures live in `docs/register.md` and `docs/register-agent.md`. Keep their schema rules aligned with `index/market-registry.schema.json`.
 - A Listing is source-local and stable by declared registry id, then exact install spec, then canonical URL/category. Distinct monorepo install specs remain distinct Listings even when they share one GitHub homepage.
+- Registry and Ego source imports may create a normalized item only when its canonical URL is absent. An existing item's platform fields, raw JSON, tags, dates, and metrics remain source-native; preserve every Listing and its dated raw evidence in `upstream_entries` and `upstream_entry_observations`, link it to the existing item, and reconcile legacy collisions only from the immutable full raw archive without deleting Listing history.
 - A public Market Plugin is deduplicated by its normalized install spec. Its stable id is `deeplugin-` plus the first 20 lowercase hexadecimal characters of that spec's SHA-256; names, URLs, rankings, and source-local ids never define Market Plugin identity.
 - A successful repository-tree observation that proves a configured registry path is absent deactivates its prior active Listings. Network, parse, validation, CAPTCHA, login, or access failures never deactivate the last successful state.
 - GitHub credentials may be sent only to GitHub API/raw hosts. Never forward a GitHub token to an external registry domain.
@@ -110,7 +111,7 @@ Never use a destructive database reset or delete raw evidence to make a check pa
 <!-- gitnexus:start -->
 # GitNexus — Code Intelligence
 
-This project is indexed by GitNexus as **awesome-deepseek-harness-plugin** (13818 symbols, 15019 relationships, 80 execution flows). Use the GitNexus MCP tools to understand code, assess impact, and navigate safely.
+This project is indexed by GitNexus as **awesome-deepseek-harness-plugin** (13826 symbols, 15049 relationships, 81 execution flows). Use the GitNexus MCP tools to understand code, assess impact, and navigate safely.
 
 > Index stale? Run `node .gitnexus/run.cjs analyze` from the project root — it auto-selects an available runner. No `.gitnexus/run.cjs` yet? `npx gitnexus analyze` (npm 11 crash → `npm i -g gitnexus`; #1939).
 

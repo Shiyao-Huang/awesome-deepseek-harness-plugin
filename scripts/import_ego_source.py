@@ -206,6 +206,7 @@ def main() -> int:
         run_id, version, _ = collect.begin_collection_run(connection, "ego-browser-source-capture")
         stats = collect.ImportStats(raw_files_seen=1)
         try:
+            monitor_sources.reconcile_listing_item_collisions(connection)
             stats = collect.import_payload(
                 connection,
                 monitor_sources.payload_for_item_import(connection, payload),

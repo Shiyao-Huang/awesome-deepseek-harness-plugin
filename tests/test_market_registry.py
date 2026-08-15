@@ -351,6 +351,125 @@ class StructuredRegistryTests(unittest.TestCase):
 
 
 class RegistryPersistenceTests(unittest.TestCase):
+    def test_reconcile_restores_native_item_without_deleting_listing_evidence(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            database = Path(directory) / "registry.sqlite3"
+            native_raw = Path(directory) / "native.json"
+            listing_raw = Path(directory) / "listing.json"
+            collect.init_db(database)
+            native_payload = {
+                "collected_at": "2026-08-16T00:00:00Z",
+                "collector": "scripts/collect.py",
+                "observations": [{
+                    "platform": "github",
+                    "query": "owner/existing",
+                    "source_url": "https://github.com/owner/existing",
+                    "collected_at": "2026-08-16T00:00:00Z",
+                    "collector": "scripts/collect.py",
+                    "method": "GitHub REST API",
+                    "status": "ok",
+                    "result_count": 1,
+                    "notes": "Native fixture.",
+                    "items": [{
+                        "platform": "github",
+                        "external_id": "owner/existing",
+                        "url": "https://github.com/owner/existing",
+                        "item_type": "repository",
+                        "title": "owner/existing",
+                        "author": "owner",
+                        "content_text": "Native GitHub description.",
+                        "category": "repository",
+                        "relevance": "direct",
+                        "media_kind": "none",
+                        "metrics": {
+                            "stars": 900,
+                            "metric_source": "github REST API",
+                            "observed_at": "2026-08-16T00:00:00Z",
+                        },
+                    }],
+                }],
+            }
+            collect.dump_json(native_raw, native_payload)
+            with collect.connect(database) as connection:
+                connection.execute(
+                    "INSERT INTO collection_runs(id, dataset_version, started_at, trigger, status) "
+                    "VALUES (1, 'v20260816T000000Z', '2026-08-16T00:00:00Z', 'scheduled', 'succeeded')"
+                )
+                collect.import_payload(connection, native_payload, 1, native_raw)
+                connection.execute(
+                    "INSERT INTO collection_runs(id, dataset_version, started_at, trigger, status) "
+                    "VALUES (2, 'v20260816T020000Z', '2026-08-16T02:00:00Z', 'source-monitor', 'succeeded')"
+                )
+                descriptor = self.descriptor("2026-08-16T02:00:00Z")
+                listing = descriptor["entries"][0]
+                listing["url"] = "https://github.com/owner/existing"
+                listing["name"] = "官方核心 · owner/existing"
+                listing["metrics"] = {
+                    "stars": 7,
+                    "metric_source": "GitHub repository API via upstream index",
+                    "observed_at": "2026-08-16T02:00:00Z",
+                }
+                listing_payload = {
+                    "collected_at": "2026-08-16T02:00:00Z",
+                    "collector": "scripts/monitor_sources.py",
+                    "repositories": [descriptor],
+                    "observations": [{
+                        "platform": "github",
+                        "query": "upstream:owner/registry",
+                        "source_url": "https://github.com/owner/registry",
+                        "collected_at": "2026-08-16T02:00:00Z",
+                        "collector": "scripts/monitor_sources.py",
+                        "method": "registry fixture",
+                        "status": "ok",
+                        "result_count": 1,
+                        "notes": "Legacy collision fixture.",
+                        "items": [monitor_sources.item_for_entry(
+                            listing, "2026-08-16T02:00:00Z", "owner/registry"
+                        )],
+                    }],
+                }
+                collect.dump_json(listing_raw, listing_payload)
+                collect.import_payload(connection, listing_payload, 2, listing_raw)
+                listing_snapshot_id = int(connection.execute(
+                    "SELECT id FROM raw_snapshots WHERE raw_sha256 = ?",
+                    (collect.sha256_file(listing_raw),),
+                ).fetchone()[0])
+                monitor_sources.record_upstream_repositories(
+                    connection, listing_payload, listing_snapshot_id
+                )
+                self.assertEqual(
+                    connection.execute("SELECT title FROM items").fetchone()[0],
+                    "官方核心 · owner/existing",
+                )
+
+                report = monitor_sources.reconcile_listing_item_collisions(connection)
+
+                item = connection.execute(
+                    "SELECT title, content_text, category, last_seen_run_id, raw_json FROM items"
+                ).fetchone()
+                self.assertEqual(item["title"], "owner/existing")
+                self.assertEqual(item["content_text"], "Native GitHub description.")
+                self.assertEqual(item["category"], "repository")
+                self.assertEqual(item["last_seen_run_id"], 1)
+                self.assertNotIn("source_entry", json.loads(item["raw_json"]))
+                self.assertEqual(report, {
+                    "restored_items": 1,
+                    "removed_metrics": 1,
+                    "removed_item_observations": 1,
+                })
+                self.assertEqual(
+                    [tuple(row) for row in connection.execute(
+                        "SELECT stars, metric_source FROM metrics ORDER BY id"
+                    )],
+                    [(900, "github REST API")],
+                )
+                self.assertEqual(connection.execute("SELECT COUNT(*) FROM raw_snapshots").fetchone()[0], 2)
+                self.assertEqual(connection.execute("SELECT COUNT(*) FROM upstream_entries").fetchone()[0], 1)
+                self.assertEqual(
+                    connection.execute("SELECT COUNT(*) FROM upstream_entry_observations").fetchone()[0],
+                    1,
+                )
+
     def test_listing_import_preserves_existing_item_and_keeps_complete_evidence(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             database = Path(directory) / "registry.sqlite3"
