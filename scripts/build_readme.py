@@ -4,12 +4,14 @@
 from __future__ import annotations
 
 import html
+import json
 import sqlite3
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
 DB_PATH = ROOT / "data" / "aggregator.sqlite3"
+FORK_INDEX_PATH = ROOT / "docs" / "data" / "forks.json"
 README_PATH = ROOT / "README.md"
 START = "<!-- landing:start -->"
 END = "<!-- landing:end -->"
@@ -202,6 +204,14 @@ def landing_block(connection: sqlite3.Connection) -> str:
     )
     plugin_rows = [record for record in records if record["canonical_url"] in plugin_urls]
     attention = attention_rows(records)
+    fork_records: list[dict[str, object]] = []
+    if FORK_INDEX_PATH.exists():
+        try:
+            fork_payload = json.loads(FORK_INDEX_PATH.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            fork_payload = {}
+        if isinstance(fork_payload, dict) and isinstance(fork_payload.get("records"), list):
+            fork_records = [row for row in fork_payload["records"] if isinstance(row, dict)]
     band_text = " · ".join(f"{row['value_band']} {row['n']:,}" for row in bands)
     assessed = str(run["assessed_at"] or "")[:10] if run else "unknown"
     article_media = connection.execute(
@@ -250,6 +260,28 @@ def landing_block(connection: sqlite3.Connection) -> str:
     lines.extend(["", "### 三个社区目录，是发现入口，不是质量背书", "", "| 上游目录 | 收录条目 |", "| --- | ---: |"])
     for row in upstreams:
         lines.append(f"| {link(row['full_name'], row['source_url'])} · {number(row['stars'])} stars | {row['entries']:,} |")
+    if fork_records:
+        fork_version = str(fork_records[0].get("dataset_version") or "unknown")
+        deep_count = sum(row.get("detail_status") == "ok" for row in fork_records)
+        lines.extend([
+            "",
+            "### 官方 Fork network：把分叉当作生态信号",
+            "",
+            f"沿 `deepseek-ai/deepseek-harness` 的公开分页，本批次登记 **{len(fork_records):,}** 个 Fork（{fork_version}）；深度盘点成功 **{deep_count:,}** 个。它是影响力和变体线索，不是质量或安全背书。",
+            "",
+            "[看 Fork 价值排序](docs/forks.md) · [下载完整压缩 SQLite 快照](data/aggregator-full.sqlite3.zst) · [看完整 JSONL 索引](index/forks.jsonl)",
+            "",
+            "| Rank | Fork | stars | influence score | deep status |",
+            "| ---: | --- | ---: | ---: | --- |",
+        ])
+        for row in fork_records[:5]:
+            owner = row.get("full_name") or "unknown"
+            influence = row.get("influence") if isinstance(row.get("influence"), dict) else {}
+            score = influence.get("score") if isinstance(influence, dict) else None
+            score_text = f"{float(score):.3f}" if isinstance(score, (int, float)) else "—"
+            stars = row.get("stars")
+            stars_text = number(stars)
+            lines.append(f"| {row.get('rank', '—')} | [{clean(owner)}]({html.escape(str(row.get('url') or ''), quote=True)}) | {stars_text} | {score_text} | {clean(row.get('detail_status') or 'unknown')} |")
     lines.extend(["", f"> 价值档当前分布：**{band_text}**。分数只用于安排复核优先级；不同平台的 stars、likes、views、points 不相加，缺失互动数不补零。", "", "<!-- landing:end -->"])
     return "\n".join(lines)
 

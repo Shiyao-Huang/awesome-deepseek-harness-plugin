@@ -2,7 +2,7 @@
 
 > 一个可重复更新的公开资料聚合体：仓库、插件、索引、文章、帖子、图片缩略图和视频链接。原始观测保留在 `data/raw/`，SQLite 是可查询的派生索引。
 
-当前数据集版本：**v20260815T092217Z**，完成时间：**2026-08-15T09:22:18Z**。共 **922** 条去重记录，覆盖 **14** 个平台，外部媒体资产 **665** 条。
+当前数据集版本：**v20260815T102745Z**，完成时间：**2026-08-15T10:27:45Z**。共 **941** 条去重记录，覆盖 **14** 个平台，外部媒体资产 **672** 条。
 
 ## 三句话结论
 
@@ -24,8 +24,8 @@
 
 | 平台 | 去重记录 | 采集方式 |
 | --- | ---: | --- |
-| github | 693 | public REST API |
-| hacker_news | 89 | Algolia public search API |
+| github | 702 | public REST API |
+| hacker_news | 99 | Algolia public search API |
 | x | 53 | ego-browser visible DOM |
 | xiaohongshu | 30 | ego-browser visible DOM |
 | web | 21 | public page metadata |
@@ -43,12 +43,12 @@
 
 | 分类 | 记录 | 带媒体 |
 | --- | ---: | ---: |
-| core-and-ecosystem | 572 | 72 |
-| index-and-marketplace | 117 | 20 |
-| ui-and-desktop | 98 | 3 |
-| operations-and-safety | 55 | 1 |
+| core-and-ecosystem | 586 | 72 |
+| index-and-marketplace | 120 | 20 |
+| ui-and-desktop | 97 | 3 |
+| operations-and-safety | 57 | 1 |
 | multimedia-and-vision | 37 | 3 |
-| docs-and-learning | 26 | 5 |
+| docs-and-learning | 27 | 5 |
 | agents-and-orchestration | 17 | 2 |
 
 ## 价值衡量摘要
@@ -57,16 +57,16 @@
 
 | 平台 | 记录 | value | band | confidence | 分类 |
 | --- | --- | ---: | :---: | ---: | --- |
-| github | [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 78.16 | B | 100.00 | ui-and-desktop |
-| github | [liustack/modlens](https://github.com/liustack/modlens) | 77.52 | B | 100.00 | multimedia-and-vision |
+| github | [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 78.15 | B | 100.00 | ui-and-desktop |
+| github | [liustack/modlens](https://github.com/liustack/modlens) | 77.51 | B | 100.00 | multimedia-and-vision |
 | github | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 77.00 | B | 100.00 | core-and-ecosystem |
-| github | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 76.74 | B | 100.00 | ui-and-desktop |
+| github | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 76.73 | B | 100.00 | ui-and-desktop |
 | github | [vlln/whale-girl](https://github.com/vlln/whale-girl) | 75.21 | B | 100.00 | index-and-marketplace |
 | github | [Lum1104/dsh-browser](https://github.com/Lum1104/dsh-browser) | 74.77 | B | 100.00 | ui-and-desktop |
 | github | [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | 74.39 | B | 100.00 | ui-and-desktop |
-| github | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | 74.19 | B | 100.00 | core-and-ecosystem |
+| github | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | 74.18 | B | 100.00 | core-and-ecosystem |
 | github | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 74.17 | B | 100.00 | ui-and-desktop |
-| github | [NanmiCoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) | 73.77 | B | 100.00 | core-and-ecosystem |
+| github | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | 73.83 | B | 100.00 | core-and-ecosystem |
 
 ## 高互动/高关注记录
 

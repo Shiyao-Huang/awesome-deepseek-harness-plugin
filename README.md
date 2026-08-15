@@ -7,7 +7,7 @@ DeepSeek Harness / DSH 插件生态的公开资料聚合 repo：把 GitHub 仓�
 <!-- landing:start -->
 ## Start here — the DSH signal desk
 
-> 这里不是又一份静态 Awesome List，而是一张持续更新的 DeepSeek Harness 生态地图：先看最值得点开的仓库、帖子和视频，再沿着 raw、SQLite、时间轴回到证据。当前批次 **v20260815T092217Z**（2026-08-15）：**922** 条去重记录、**14** 个平台、**665** 个媒体引用。
+> 这里不是又一份静态 Awesome List，而是一张持续更新的 DeepSeek Harness 生态地图：先看最值得点开的仓库、帖子和视频，再沿着 raw、SQLite、时间轴回到证据。当前批次 **v20260815T102745Z**（2026-08-15）：**941** 条去重记录、**14** 个平台、**672** 个媒体引用。
 
 [打开 dsh store](docs/index.html) · [看价值矩阵](docs/value-matrix.md) · [看趋势](docs/trends.md) · [查 SQLite](data/aggregator.sqlite3)
 
@@ -51,23 +51,37 @@ dsh plugin --profile web add dsh-skills dsh-attachments dsh-inspector
 
 | 上游目录 | 收录条目 |
 | --- | ---: |
-| [Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins](https://github.com/Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins) · 55 stars | 140 |
-| [beancookie/awesome-dsh-plugin](https://github.com/beancookie/awesome-dsh-plugin) · 18 stars | 275 |
+| [Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins](https://github.com/Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins) · 56 stars | 181 |
+| [beancookie/awesome-dsh-plugin](https://github.com/beancookie/awesome-dsh-plugin) · 20 stars | 276 |
 | [walkinglabs/awesome-deepseek-harness-plugins](https://github.com/walkinglabs/awesome-deepseek-harness-plugins) · 4 stars | 114 |
 
-> 价值档当前分布：**B 119 · C 587 · D 216**。分数只用于安排复核优先级；不同平台的 stars、likes、views、points 不相加，缺失互动数不补零。
+### 官方 Fork network：把分叉当作生态信号
+
+沿 `deepseek-ai/deepseek-harness` 的公开分页，本批次登记 **10,138** 个 Fork（v20260815T102307Z）；深度盘点成功 **5** 个。它是影响力和变体线索，不是质量或安全背书。
+
+[看 Fork 价值排序](docs/forks.md) · [下载完整压缩 SQLite 快照](data/aggregator-full.sqlite3.zst) · [看完整 JSONL 索引](index/forks.jsonl)
+
+| Rank | Fork | stars | influence score | deep status |
+| ---: | --- | ---: | ---: | --- |
+| 1 | [salathleizhang/deepseek-harness-desktop](https://github.com/salathleizhang/deepseek-harness-desktop) | 90 | 84.999 | ok |
+| 2 | [Sakana-yuyu/deepseek-harness-desktop](https://github.com/Sakana-yuyu/deepseek-harness-desktop) | 18 | 61.127 | ok |
+| 3 | [Skyearn/deepseek-harness-app](https://github.com/Skyearn/deepseek-harness-app) | 12 | 59.211 | ok |
+| 4 | [G36maid/deepseek-harness](https://github.com/G36maid/deepseek-harness) | 9 | 48.777 | ok |
+| 5 | [happylin0x29a/deepseek-harness-desktop](https://github.com/happylin0x29a/deepseek-harness-desktop) | 4 | 41.708 | ok |
+
+> 价值档当前分布：**B 127 · C 596 · D 218**。分数只用于安排复核优先级；不同平台的 stars、likes、views、points 不相加，缺失互动数不补零。
 
 <!-- landing:end -->
 
 ## 当前快照
 
 <!-- snapshot:start -->
-本地 SQLite 当前包含 **922 条去重记录**、**14 个来源平台**、**1,341 条指标历史**、**665 个媒体资产引用**、**309 条详情记录**和 **89 个去重 raw snapshot**。当前批次 **v20260815T092217Z** 于 **2026-08-15T09:22:18Z** 完成；价值矩阵为当前批次的 922 条记录提供六维评分。raw snapshot 不是摘要：`raw_snapshots.payload_json` 保存原始 JSON 文本本身，并同时保存 SHA-256、原始路径、字节数、采集时间和采集批次。
+本地 SQLite 当前包含 **941 条去重记录**、**14 个来源平台**、**1,763 条指标历史**、**672 个媒体资产引用**、**306 条详情记录**和 **93 个去重 raw snapshot**。当前批次 **v20260815T102745Z** 于 **2026-08-15T10:27:45Z** 完成；价值矩阵为当前批次的 941 条记录提供六维评分。raw snapshot 不是摘要：`raw_snapshots.payload_json` 保存原始 JSON 文本本身，并同时保存 SHA-256、原始路径、字节数、采集时间和采集批次。
 
 | 来源 | 去重记录 | 采集内容 |
 | --- | ---: | --- |
-| GitHub | 693 | 官方仓库、topic、社区索引候选和 stars/forks/issues |
-| Hacker News | 89 | 精确短语搜索、points/comments 和讨论链接 |
+| GitHub | 702 | 官方仓库、topic、社区索引候选和 stars/forks/issues |
+| Hacker News | 99 | 精确短语搜索、points/comments 和讨论链接 |
 | X | 53 | 公开帖子、图片/视频链接和 replies/reposts/likes/views |
 | 小红书 | 30 | 搜索卡片、作者、点赞、缩略图和详情文本 |
 | 开放网页 | 21 | 文章、教程和报道的公开元数据与摘要 |
@@ -102,6 +116,8 @@ collection_runs ──< raw_snapshots
 - `item_details`：按 item 幂等保存的详情文本和 blocked/thin/failed provenance。
 - `value_assessments`：按 collection run 和 scoring version 保存的六维价值矩阵；`v_current_value_matrix` 是当前批次视图。
 - `upstream_repositories` / `upstream_entries`：三个社区 Awesome 目录的版本化元数据、插件链接、分类、安装提示和与去重 item 的关系。
+- `fork_networks` / `fork_repositories` / `fork_snapshots`：官方仓库的公开 Fork 网络、日期指标、分页 raw 和深度盘点状态；完整 Fork-inclusive SQLite 在 [data/aggregator-full.sqlite3.zst](data/aggregator-full.sqlite3.zst)。
+- `fork_commits` / `fork_file_changes` / `fork_rankings`：已观察提交、文件变更分类和版本化影响力排序；轻量清单见 [index/forks.jsonl](index/forks.jsonl)，报告见 [docs/forks.md](docs/forks.md)。
 - `index_records`：与 `index/records.jsonl` 同构的登记层，保存 `id/url/repo/context/picture/comment/favor/views/refs/rank/stars` 以及版本和日期字段。
 
 权威数据库是 [data/aggregator.sqlite3](data/aggregator.sqlite3)，schema 在 [src/schema.sql](src/schema.sql)。
@@ -151,9 +167,11 @@ python3 scripts/build_views.py
 
 ```sh
 python3 scripts/collect_forks.py
-python3 scripts/build_index.py
-python3 scripts/build_views.py
+python3 scripts/build_fork_index.py
+zstd -q -T0 -19 -f data/aggregator.sqlite3 -o data/aggregator-full.sqlite3.zst
 ```
+
+Fork collector 的完整数据库会超过普通 Git 文件限制，因此公开提交保留压缩 SQLite 快照；主 `data/aggregator.sqlite3` 是可直接查询的轻量生态库。解压完整快照：`zstd -d data/aggregator-full.sqlite3.zst -o aggregator-full.sqlite3`。
 
 计算价值矩阵并刷新全部派生视图：
 

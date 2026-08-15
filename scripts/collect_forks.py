@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import argparse
 import base64
+from concurrent.futures import ThreadPoolExecutor
 import hashlib
 import json
 import math
@@ -150,28 +151,49 @@ def fetch_fork_pages(
     upstream: str,
     page_size: int,
     token: str | None,
+    sort: str = "oldest",
 ) -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
-    """Fetch every public fork page until GitHub stops returning a next link."""
+    """Fetch every public fork page in ordered concurrent batches."""
 
     pages: list[dict[str, Any]] = []
     forks: list[dict[str, Any]] = []
     errors: list[dict[str, Any]] = []
     page_number = 1
+    batch_size = 8
     while page_number <= 1000:
-        url = f"https://api.github.com/repos/{upstream}/forks?{urlencode({'sort': 'stargazers', 'direction': 'desc', 'per_page': page_size, 'page': page_number})}"
-        page = api_call(url, token)
-        pages.append(page)
-        if error_response(page):
-            errors.append({"stage": "fork-list", "url": url, "error": page})
+        page_numbers = list(range(page_number, page_number + batch_size))
+        with ThreadPoolExecutor(max_workers=batch_size) as executor:
+            responses = list(executor.map(
+                lambda number: api_call(
+                    f"https://api.github.com/repos/{upstream}/forks?{urlencode({'sort': sort, 'direction': 'asc' if sort == 'oldest' else 'desc', 'per_page': page_size, 'page': number})}",
+                    token,
+                ),
+                page_numbers,
+            ))
+        stop_after = False
+        for page in responses:
+            pages.append(page)
+            url = page.get("url")
+            if error_response(page):
+                errors.append({"stage": "fork-list", "url": url, "error": page})
+                stop_after = True
+                break
+            response = page.get("response")
+            if not isinstance(response, list):
+                errors.append({"stage": "fork-list", "url": url, "error": "GitHub returned a non-list response"})
+                stop_after = True
+                break
+            existing = {full_name(row) for row in forks}
+            forks.extend(
+                row for row in response
+                if isinstance(row, dict) and full_name(row) and full_name(row) not in existing
+            )
+            if len(response) < page_size:
+                stop_after = True
+                break
+        if stop_after:
             break
-        response = page.get("response")
-        if not isinstance(response, list):
-            errors.append({"stage": "fork-list", "url": url, "error": "GitHub returned a non-list response"})
-            break
-        forks.extend(row for row in response if isinstance(row, dict))
-        if len(response) < page_size:
-            break
-        page_number += 1
+        page_number += batch_size
     return pages, forks, errors
 
 
@@ -341,7 +363,9 @@ def deep_scan_fork(
     branch = str(row.get("default_branch") or "main")
     detail = api_call(f"https://api.github.com/repos/{slug}", token)
     detail_value = detail.get("response") if detail.get("status") == "ok" and isinstance(detail.get("response"), dict) else None
-    compare_path = f"/repos/{upstream}/compare/{quote(upstream_branch, safe='')}...{quote(branch, safe='')}"
+    owner = str((row.get("owner") or {}).get("login") or slug.split("/", 1)[0])
+    compare_ref = f"{upstream_branch}...{owner}:{branch}"
+    compare_path = f"/repos/{upstream}/compare/{quote(compare_ref, safe=':.')}"
     compare = api_call(f"https://api.github.com{compare_path}", token)
     commits_url = f"https://api.github.com/repos/{slug}/commits?{urlencode({'sha': branch, 'per_page': int(config.get('recent_commits', 10))})}"
     commits = api_call(commits_url, token)
@@ -349,24 +373,34 @@ def deep_scan_fork(
     files, categories = changed_files(compare, int(config.get("max_file_changes", 300)))
     commit = latest_commit(commits)
     readme_response = readme.get("response") if readme.get("status") == "ok" else None
+    compare_response = compare.get("response") if isinstance(compare.get("response"), dict) else {}
+    changed_file_count = compare_response.get("changed_files")
+    additions = compare_response.get("additions")
+    deletions = compare_response.get("deletions")
+    if changed_file_count is None:
+        changed_file_count = len(files)
+    if additions is None:
+        additions = sum(int(file.get("additions") or 0) for file in files)
+    if deletions is None:
+        deletions = sum(int(file.get("deletions") or 0) for file in files)
     normalized = repository_metadata(row, detail_value, str(config["collected_at"]), True)
     normalized.update({
         "latest_commit": commit,
         "readme_sha": readme_response.get("sha") if isinstance(readme_response, dict) else None,
-        "compare_status": (compare.get("response") or {}).get("status") if isinstance(compare.get("response"), dict) else None,
-        "ahead_by": (compare.get("response") or {}).get("ahead_by") if isinstance(compare.get("response"), dict) else None,
-        "behind_by": (compare.get("response") or {}).get("behind_by") if isinstance(compare.get("response"), dict) else None,
-        "total_commits": (compare.get("response") or {}).get("total_commits") if isinstance(compare.get("response"), dict) else None,
-        "changed_files": (compare.get("response") or {}).get("changed_files") if isinstance(compare.get("response"), dict) else len(files),
-        "additions": (compare.get("response") or {}).get("additions") if isinstance(compare.get("response"), dict) else None,
-        "deletions": (compare.get("response") or {}).get("deletions") if isinstance(compare.get("response"), dict) else None,
+        "compare_status": compare_response.get("status"),
+        "ahead_by": compare_response.get("ahead_by"),
+        "behind_by": compare_response.get("behind_by"),
+        "total_commits": compare_response.get("total_commits"),
+        "changed_files": changed_file_count,
+        "additions": additions,
+        "deletions": deletions,
         "modification_categories": categories,
         "deep_scanned_at": str(config["collected_at"]),
         "detail_status": "ok" if not any(error_response(value) for value in (detail, compare, commits, readme)) else "partial",
     })
     return {
         "normalized": normalized,
-        "repository": row,
+        "repository": None,
         "repository_detail": detail,
         "compare": compare,
         "commits": commits,
@@ -410,6 +444,7 @@ def select_deep_forks(
     rows: list[dict[str, Any]],
     limit: int,
     deep_scan_all: bool,
+    recheck_deep: bool,
 ) -> set[str]:
     """Select never-scanned or stalest forks, prioritizing public influence."""
 
@@ -418,6 +453,16 @@ def select_deep_forks(
     names = [full_name(row) for row in rows if full_name(row)]
     if not names or limit <= 0:
         return set()
+    if recheck_deep:
+        ordered = sorted(
+            rows,
+            key=lambda row: (
+                -int(row.get("stargazers_count") or 0),
+                -int(row.get("forks_count") or 0),
+                full_name(row),
+            ),
+        )
+        return {full_name(row) for row in ordered[:limit]}
     placeholders = ",".join("?" for _ in names)
     prior = {
         row["full_name"]: row
@@ -470,6 +515,46 @@ def build_item(descriptor: dict[str, Any], observed_at: str) -> dict[str, Any]:
         },
         "tags": tags,
     }
+
+
+def deduplicate_payload(payload: dict[str, Any]) -> dict[str, Any]:
+    """Keep the first normalized record for each public Fork full name."""
+
+    seen: set[str] = set()
+    forks: list[dict[str, Any]] = []
+    for descriptor in payload.get("forks", []):
+        name = str((descriptor.get("normalized") or {}).get("full_name") or "")
+        if not name or name in seen:
+            continue
+        seen.add(name)
+        forks.append(descriptor)
+    payload["forks"] = forks
+    ranking_seen: set[str] = set()
+    rankings: list[dict[str, Any]] = []
+    for row in payload.get("rankings", []):
+        name = str(row.get("full_name") or "")
+        if not name or name in ranking_seen:
+            continue
+        ranking_seen.add(name)
+        rankings.append(row)
+    for rank, row in enumerate(rankings, 1):
+        row["rank"] = rank
+    payload["rankings"] = rankings
+    observations = payload.get("observations") or []
+    if observations:
+        item_seen: set[str] = set()
+        items: list[dict[str, Any]] = []
+        for item in observations[0].get("items", []):
+            name = str(item.get("external_id") or "")
+            if not name or name in item_seen:
+                continue
+            item_seen.add(name)
+            items.append(item)
+        observations[0]["items"] = items
+        observations[0]["result_count"] = len(items)
+    if isinstance(payload.get("fork_list"), dict):
+        payload["fork_list"]["normalized_fork_count"] = len(forks)
+    return payload
 
 
 def parse_time(value: str | None) -> datetime | None:
@@ -554,6 +639,7 @@ def fetch_payload(
     token: str | None,
     deep_scan_all: bool,
     deep_limit: int,
+    recheck_deep: bool,
 ) -> dict[str, Any]:
     """Fetch the upstream, every fork page, and the bounded deep-scan set."""
 
@@ -563,8 +649,10 @@ def fetch_payload(
     upstream_response = upstream_record.get("response") if upstream_record.get("status") == "ok" else {}
     upstream_response = upstream_response if isinstance(upstream_response, dict) else {}
     upstream_branch = str(upstream_response.get("default_branch") or "main")
-    pages, rows, errors = fetch_fork_pages(config["upstream"], int(config.get("list_page_size", 100)), token)
-    selected = select_deep_forks(connection, rows, deep_limit, deep_scan_all)
+    pages, rows, errors = fetch_fork_pages(
+        config["upstream"], int(config.get("list_page_size", 100)), token, str(config.get("list_sort", "oldest"))
+    )
+    selected = select_deep_forks(connection, rows, deep_limit, deep_scan_all, recheck_deep)
     descriptors: list[dict[str, Any]] = []
     for row in rows:
         slug = full_name(row)
@@ -627,15 +715,24 @@ def fetch_payload(
     }
 
 
-def write_page_raw_files(payload: dict[str, Any], root: Path) -> list[Path]:
+def write_page_raw_files(payload: dict[str, Any], root: Path) -> tuple[list[Path], list[dict[str, Any]]]:
     """Write each raw fork-list page as its own immutable dated evidence file."""
 
     paths: list[Path] = []
+    references: list[dict[str, Any]] = []
     for index, page in enumerate(payload.get("fork_list", {}).get("pages", []), 1):
         path = root / f"page-{index:03d}.json"
         collect.dump_json(path, page)
         paths.append(path)
-    return paths
+        response = page.get("response") if isinstance(page, dict) else None
+        references.append({
+            "raw_path": str(path.relative_to(ROOT)),
+            "raw_sha256": collect.sha256_file(path),
+            "url": page.get("url") if isinstance(page, dict) else None,
+            "status": page.get("status") if isinstance(page, dict) else None,
+            "row_count": len(response) if isinstance(response, list) else 0,
+        })
+    return paths, references
 
 
 def raw_snapshot_id(connection: Any, raw_sha: str) -> int:
@@ -715,7 +812,7 @@ def persist_forks(
                 latest_commit_message, latest_commit_at, readme_sha, status,
                 raw_snapshot_id, first_seen_run_id, last_seen_run_id, last_deep_checked_at,
                 detail_status, first_seen_at, last_seen_at
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             ON CONFLICT(full_name) DO UPDATE SET
                 network_id=excluded.network_id, item_id=COALESCE(excluded.item_id, fork_repositories.item_id),
                 html_url=excluded.html_url, api_url=excluded.api_url, node_id=excluded.node_id,
@@ -942,7 +1039,9 @@ def main() -> int:
     parser.add_argument("--raw-output", type=Path, help="manifest path; defaults to data/raw/forks/<timestamp>/manifest.json")
     parser.add_argument("--deep-limit", type=int, help="deep scans per run; defaults to config")
     parser.add_argument("--deep-scan-all", action="store_true", help="deep-scan every public fork returned by GitHub")
+    parser.add_argument("--recheck-deep", action="store_true", help="recheck highest-influence Forks even if previously scanned")
     parser.add_argument("--no-token", action="store_true", help="do not read GH_TOKEN, GITHUB_TOKEN, or gh auth token")
+    parser.add_argument("--raw-input", type=Path, help="re-import an existing manifest without making API requests")
     args = parser.parse_args()
     config = read_config(args.config)
     deep_limit = max(0, int(args.deep_limit if args.deep_limit is not None else config.get("deep_scan_limit", 100)))
@@ -960,9 +1059,16 @@ def main() -> int:
         run_id, version, _ = collect.begin_collection_run(connection, "forks", utc_now())
         stats = collect.ImportStats()
         try:
-            payload = fetch_payload(connection, config, token, args.deep_scan_all, deep_limit)
-            collect.dump_json(manifest_path, payload)
-            page_paths = write_page_raw_files(payload, manifest_path.parent)
+            if args.raw_input:
+                input_path = args.raw_input if args.raw_input.is_absolute() else ROOT / args.raw_input
+                payload = deduplicate_payload(collect.load_json(input_path))
+                manifest_path = input_path
+                page_paths = sorted(input_path.parent.glob("page-*.json"))
+            else:
+                payload = fetch_payload(connection, config, token, args.deep_scan_all, deep_limit, args.recheck_deep)
+                page_paths, page_references = write_page_raw_files(payload, manifest_path.parent)
+                payload["fork_list"]["pages"] = page_references
+                collect.dump_json(manifest_path, payload)
             stats, _, raw_count = import_payload(connection, payload, manifest_path, page_paths, run_id, version)
             stats.raw_files_seen = raw_count
             collect.finish_collection_run(connection, run_id, stats)

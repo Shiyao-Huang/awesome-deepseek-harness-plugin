@@ -1,6 +1,7 @@
 {
   "upstream": "deepseek-ai/deepseek-harness",
   "api_base": "https://api.github.com",
+  "list_sort": "oldest",
   "list_page_size": 100,
   "recent_commits": 10,
   "deep_scan_limit": 100,

@@ -276,6 +276,96 @@ def record_image(record: dict[str, object]) -> str | None:
     return None
 
 
+def install_command(record: dict[str, object]) -> str | None:
+    """Return the documented DSH install command for a clearly named plugin repo."""
+
+    if record["platform"] != "github" or not record["repo"]:
+        return None
+    repository = str(record["repo"])
+    package_name = repository.rsplit("/", 1)[-1]
+    return f"dsh plugin --profile web add {package_name}" if package_name.startswith("dsh-") else None
+
+
+def primary_signal(record: dict[str, object]) -> str:
+    """Format one platform-native signal without combining unrelated counters."""
+
+    metrics = record["metrics"]
+    assert isinstance(metrics, dict)
+    preferred = {
+        "github": ("stars", "★"),
+        "hacker_news": ("points", "points"),
+        "x": ("likes", "♥"),
+        "xiaohongshu": ("likes", "♥"),
+        "youtube": ("views", "views"),
+        "bilibili": ("views", "views"),
+    }.get(str(record["platform"]))
+    fields = [preferred] if preferred else []
+    fields.extend((field, label) for field, label in METRIC_FIELDS if not preferred or field != preferred[0])
+    for field, label in fields:
+        if field in metrics:
+            return f"{label} {format_number(metrics[field])}"
+    return "NULL"
+
+
+def primary_value(record: dict[str, object]) -> int:
+    """Return the platform-native value shown in a hot-table row."""
+
+    metrics = record["metrics"]
+    assert isinstance(metrics, dict)
+    preferred = {
+        "github": "stars",
+        "hacker_news": "points",
+        "x": "likes",
+        "xiaohongshu": "likes",
+        "youtube": "views",
+        "bilibili": "views",
+    }.get(str(record["platform"]))
+    fields = [preferred] if preferred else []
+    fields.extend(field for field, _label in METRIC_FIELDS if not preferred or field != preferred)
+    for field in fields:
+        if field in metrics:
+            return int(metrics[field])
+    return 0
+
+
+def hot_records(records: list[dict[str, object]], platform: str | None = None) -> list[dict[str, object]]:
+    """Select direct plugin-system signals for the two homepage hot tables."""
+
+    candidates = [
+        record for record in records
+        if record["relevance"] == "direct"
+        and (record["platform"] == platform if platform else record["platform"] != "github")
+        and (record["item_type"] == "repository" if platform == "github" else record["item_type"] != "repository")
+        and primary_value(record) > 0
+    ]
+    candidates.sort(key=lambda record: (-primary_value(record), int(record["rank"])))
+    return candidates[:10]
+
+
+def signal_table(records: list[dict[str, object]], title: str, kicker: str, description: str, action_label: str) -> str:
+    """Render a ranked signal table with a direct detail or install action."""
+
+    rows = []
+    for position, record in enumerate(records, 1):
+        details_url = f"skills/{record['id']}.html"
+        command = install_command(record)
+        action = (
+            f'<button class="table-action copy-install" type="button" data-install="{esc(command, attribute=True)}" aria-label="Use {esc(record["title"], attribute=True)}">Use</button>'
+            if command
+            else f'<a class="table-action" href="{esc(record["url"], attribute=True)}" rel="noreferrer">{action_label}</a>'
+        )
+        rows.append(
+            f'<tr><td class="signal-rank">{position:02d}</td>'
+            f'<td><a class="signal-title" href="{details_url}">{esc(record["title"])}</a>'
+            f'<small>{esc(record["platform_label"])} · {esc(record["category_label"])} · {esc(record["author"] or record["repo"] or "—")}</small></td>'
+            f'<td class="signal-count"><strong>{esc(primary_signal(record))}</strong><small>{esc(record["item_type"])}</small></td>'
+            f'<td class="signal-action">{action}</td></tr>'
+        )
+    if not rows:
+        rows.append('<tr><td colspan="4" class="signal-empty">No public counter captured yet.</td></tr>')
+    return f'<section class="signal-panel"><div class="signal-heading"><div><p class="kicker">{esc(kicker)}</p><h2>{esc(title)}</h2></div><p>{esc(description)}</p></div><div class="signal-scroll"><table class="signal-table"><thead><tr><th>#</th><th>Record</th><th>Native signal</th><th>Action</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div></section>'
+
+
 def card_html(record: dict[str, object], prefix: str = "") -> str:
     """Render one store card with search and sort metadata."""
 
@@ -289,6 +379,12 @@ def card_html(record: dict[str, object], prefix: str = "") -> str:
     details_url = f"{prefix}skills/{record['id']}.html"
     author = record["author"] or record["repo"] or record["platform_label"]
     relevance = "direct" if record["relevance"] == "direct" else "related"
+    command = install_command(record)
+    action = (
+        f'<button class="card-use copy-install" type="button" data-install="{esc(command, attribute=True)}" aria-label="Use {esc(title, attribute=True)}">Use</button>'
+        if command
+        else f'<a class="card-use" href="{esc(record["url"], attribute=True)}" rel="noreferrer">Open ↗</a>'
+    )
     return f"""<article class="skill-card" data-platform="{esc(record['platform'], attribute=True)}" data-category="{esc(record['category'], attribute=True)}" data-relevance="{relevance}" data-title="{esc(title.lower(), attribute=True)}" data-rank="{record['rank']}" data-score="{record['metric_score']}" data-seen="{esc(record['last_seen_at'], attribute=True)}">
   <a class="card-cover" href="{esc(details_url, attribute=True)}" aria-label="Open {esc(title, attribute=True)}">{cover}<span class="cover-type">{esc(record['item_type'])}</span></a>
   <div class="card-body">
@@ -296,6 +392,7 @@ def card_html(record: dict[str, object], prefix: str = "") -> str:
     <h3><a href="{esc(details_url, attribute=True)}">{esc(title)}</a></h3>
     <p class="card-description">{esc(record['description'])}</p>
     <div class="card-footer"><span>{esc(str(author))}</span><span class="card-metrics">{card_metrics(record)}</span></div>
+    <div class="card-actions"><a class="card-view" href="{esc(details_url, attribute=True)}">Details</a>{action}</div>
   </div>
 </article>"""
 
@@ -373,7 +470,7 @@ def page_head(title: str, description: str, canonical: str, image: str, config: 
 def nav_html(prefix: str = "") -> str:
     """Render the store navigation used by all static pages."""
 
-    return f"""<header class="site-header"><a class="brand" href="{prefix}"><span class="brand-mark">dsh</span><span>store</span></a><nav><a class="nav-active" href="{prefix}">Directory</a><a href="{prefix}timeline.html">Timeline</a><a href="{prefix}report.html">Report</a><a href="{prefix}sources.html">Sources</a></nav><a class="header-source" href="https://github.com/Shiyao-Huang/awesome-deepseek-harness-plugin">GitHub <span aria-hidden="true">↗</span></a></header>"""
+    return f"""<header class="site-header"><a class="brand" href="{prefix}"><span class="brand-mark">dsh</span><span>store</span></a><nav><a class="nav-active" href="{prefix}">Directory</a><a href="{prefix}#hot">Hot</a><a href="{prefix}timeline.html">Timeline</a><a href="{prefix}sources.html">Sources</a></nav><a class="header-source" href="https://github.com/Shiyao-Huang/awesome-deepseek-harness-plugin">GitHub <span aria-hidden="true">↗</span></a></header>"""
 
 
 def footer_html(prefix: str = "", *, readme_path: str | None = None, data_path: str | None = None, seo_path: str | None = None) -> str:
@@ -414,14 +511,18 @@ def render_home(records: list[dict[str, object]], dataset_version: str, generate
         f'<span><b>{row["count"]:,}</b> {esc(PLATFORM_LABELS.get(str(row["platform"]), row["platform"]))}</span>'
         for row in platform_counts[:6]
     )
+    projects = hot_records(records, "github")
+    posts = hot_records(records)
+    hot_tables = signal_table(projects, "GitHub projects people are using", "PROJECTS · STARS", "插件系统内的仓库按 GitHub stars 排序；Use 只对明确的 dsh-* 仓库提供安装命令。", "Open") + signal_table(posts, "Posts and videos people are sharing", "POSTS · NATIVE SIGNAL", "帖子、文章和视频按各自平台的公开指标排序；数字不跨平台相加。", "Open")
     return f"""{head}<body data-page="home">
 {nav_html()}
 <main class="site-main">
   <section class="hero-store">
-    <div class="hero-copy"><p class="kicker">PUBLIC ECOSYSTEM DIRECTORY · {esc(dataset_version)}</p><h1>Find the tools around<br><em>DeepSeek Harness.</em></h1><p class="hero-lede">一个按来源、日期和原始证据组织的插件商店。浏览仓库、工具、教程、帖子与视频，回到每一条公开来源核验。</p><div class="hero-actions"><a class="button button-primary" href="#directory">Browse directory <span aria-hidden="true">↓</span></a><a class="button button-quiet" href="{esc(config['repository_url'], attribute=True)}">View the repo <span aria-hidden="true">↗</span></a></div></div>
-    <div class="hero-panel"><div class="panel-label">LATEST SNAPSHOT</div><strong>{esc(date_label(generated_at))}</strong><p>Collected every two hours when permitted. Missing metrics remain NULL.</p><div class="signal-line"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div>
+    <div class="hero-copy"><p class="kicker">DSH PLUGIN SIGNALS · {esc(dataset_version)}</p><h1>See what is hot.<br><em>Use what works.</em></h1><p class="hero-lede">当前插件系统里的热门 GitHub 项目、帖子和视频。每条记录都能回到源头，明确的 dsh 插件可以直接复制安装命令。</p><div class="hero-actions"><a class="button button-primary" href="#hot">View hot signals <span aria-hidden="true">↓</span></a><a class="button button-quiet" href="#directory">Browse all <span aria-hidden="true">↓</span></a></div></div>
+    <div class="hero-panel"><div class="panel-label">LATEST SNAPSHOT</div><strong>{esc(date_label(generated_at))}</strong><p>Native counters only. Missing values stay NULL.</p><div class="signal-line"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div>
   </section>
   <section class="stats-row" aria-label="Dataset statistics"><div><strong>{stats['records']:,}</strong><span>records</span></div><div><strong>{stats['direct']:,}</strong><span>direct signals</span></div><div><strong>{stats['platforms']}</strong><span>platforms</span></div><div><strong>{stats['media']:,}</strong><span>with media</span></div></section>
+  <section class="hot-signals" id="hot"><div class="section-heading"><div><p class="kicker">HOT NOW</p><h2>What the plugin system is pulling forward</h2></div><p>项目看 stars，内容看各自平台的原生互动信号。</p></div><div class="hot-grid">{hot_tables}</div></section>
   <section class="spotlight"><div class="section-heading"><div><p class="kicker">EDITOR'S CUT</p><h2>What is moving now</h2></div><p>按平台原生指标排序；不同平台不混算。</p></div><div class="spotlight-grid">{spotlight_html(records)}</div></section>
   <section class="directory-layout" id="directory">
     <aside class="filters"><div class="filter-mobile-head"><span>Browse</span><button id="clear-filters" class="text-button">Clear</button></div><div class="filter-group"><p class="filter-label">BROWSE</p><button class="filter-option is-selected" data-filter-type="all" data-filter-value="all"><span>All records</span><em>{stats['records']}</em></button><button class="filter-option" data-filter-type="relevance" data-filter-value="direct"><span>Direct signals</span><em>{stats['direct']}</em></button></div><div class="filter-group"><p class="filter-label">TOPICS</p>{category_html}</div><div class="filter-group"><p class="filter-label">SOURCES</p>{platform_html}</div><div class="filter-note"><strong>Provenance first</strong><p>Every card points to an independent detail page with dates, native counts, media references, and a source URL.</p></div></aside>
@@ -469,10 +570,11 @@ def render_detail(record: dict[str, object], dataset_version: str, generated_at:
         if refs_html
         else ""
     )
+    command = install_command(record)
     source_action = (
-        f'<code>git clone {esc(record["url"], attribute=True)}.git</code>'
-        if record["repo"]
-        else '<span>Open the public source page to inspect the original context.</span>'
+        f'<div class="install-command"><code>{esc(command)}</code><button class="copy-install" type="button" data-install="{esc(command, attribute=True)}" aria-label="Copy install command">Copy</button></div>'
+        if command
+        else f'<a class="source-entry" href="{esc(record["url"], attribute=True)}" rel="noreferrer">Open the public source page ↗</a>'
     )
     author = record["author"] or record["repo"] or record["platform_label"]
     return f"""{head}<body data-page="detail">

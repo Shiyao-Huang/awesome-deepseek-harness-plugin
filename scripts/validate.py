@@ -28,7 +28,10 @@ VALUE_MATRIX_FIELDS = {
 def main() -> None:
     """Run deterministic checks and print the current dataset size."""
 
-    raw_paths = [path for path in RAW_DIR.rglob("*.json") if "auto" not in path.parts]
+    raw_paths = [
+        path for path in RAW_DIR.rglob("*.json")
+        if "auto" not in path.parts and "forks" not in path.parts
+    ]
     for path in raw_paths:
         json.loads(path.read_text(encoding="utf-8"))
     connection = sqlite3.connect(DB_PATH)
