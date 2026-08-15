@@ -6,6 +6,10 @@
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
 | 2026-08-15T14:18:44+08:00 | web | article | [玩了一夜DeepSeek Harness，我发现它在用《我的世界》的方式干掉Claude Code-36氪](https://www.36kr.com/p/3938774780263814) |  | core-and-ecosystem |
+| 2026-08-15 | github | plugin | [dsh-deepread](https://github.com/xiehuan123/dsh-deepread) | xiehuan123 | core-and-ecosystem |
+| 2026-08-15 | github | plugin | [dsh-deepseek-balance](https://github.com/lancecheney/dsh-plugins) | lancecheney | operations-and-safety |
+| 2026-08-15 | github | plugin | [dsh-harmony](https://github.com/CH4ACKO3/dsh-harmony) | CH4ACKO3 | core-and-ecosystem |
+| 2026-08-15 | github | plugin | [dsh-plugin-anydoc](https://github.com/beancookie/dsh-plugin-anydoc) | beancookie | index-and-marketplace |
 | 2026-08-15T08:44:59Z | github | ecosystem-reference | [DSHA](https://github.com/qiannianhuanxiang/DSHA) | qiannianhuanxiang | core-and-ecosystem |
 | 2026-08-15T08:44:59Z | github | ecosystem-reference | [deepseek-harness-android](https://github.com/FunnelCakes/deepseek-harness-android) | FunnelCakes | core-and-ecosystem |
 | 2026-08-15T08:44:59Z | github | ecosystem-reference | [deepseek-peak](https://github.com/YMRYMR/deepseek-peak) | YMRYMR | core-and-ecosystem |
@@ -809,6 +813,7 @@
 | 2026-05-01T11:26:20Z | hacker_news | story | [Show HN: BetterClaw – Compile a paragraph into a workflow that gates agent tools](https://news.ycombinator.com/item?id=47973502) | infamous-oven | index-and-marketplace |
 | 2026-04-30T17:40:49Z | github | repository | [GanyuanRan/Aegis](https://github.com/GanyuanRan/Aegis) | GanyuanRan | docs-and-learning |
 | 2026-04-30T12:36:33Z | github | repository | [dqsjqian/Aria](https://github.com/dqsjqian/Aria) | dqsjqian | core-and-ecosystem |
+| 2026-04-29T15:16:22Z | github | repository | [Ikalus1988/MisakaNet](https://github.com/Ikalus1988/MisakaNet) | Ikalus1988 | core-and-ecosystem |
 | 2026-04-28T04:25:20Z | github | repository | [nexu-io/open-design](https://github.com/nexu-io/open-design) | nexu-io | ui-and-desktop |
 | 2026-04-27T07:37:37Z | github | repository | [phoenixlucky/zerotoken-skill](https://github.com/phoenixlucky/zerotoken-skill) | phoenixlucky | operations-and-safety |
 | 2026-04-27T06:37:38Z | github | repository | [deepseek-ai/awesome-deepseek-agent](https://github.com/deepseek-ai/awesome-deepseek-agent) | deepseek-ai | index-and-marketplace |
@@ -818,6 +823,7 @@
 | 2026-04-14T00:51:32Z | github | repository | [morluto/rea](https://github.com/morluto/rea) | morluto | core-and-ecosystem |
 | 2026-04-10T03:03:36Z | github | repository | [openma-ai/open-managed-agents](https://github.com/openma-ai/open-managed-agents) | openma-ai | core-and-ecosystem |
 | 2026-04-07T10:08:59Z | github | repository | [TencentCloud/tencentmeeting-cli](https://github.com/TencentCloud/tencentmeeting-cli) | TencentCloud | core-and-ecosystem |
+| 2026-04-07T06:34:26Z | github | repository | [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | TencentCloud | index-and-marketplace |
 | 2026-04-06T10:33:23Z | github | repository | [YunTaiHua/illusion-agent](https://github.com/YunTaiHua/illusion-agent) | YunTaiHua | core-and-ecosystem |
 | 2026-04-05T12:02:23Z | github | repository | [xiufengsun/TokenTracker](https://github.com/xiufengsun/TokenTracker) | xiufengsun | operations-and-safety |
 | 2026-04-03T15:49:07Z | github | repository | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | Graphify-Labs | core-and-ecosystem |
@@ -870,6 +876,7 @@
 | 2026-02-02T18:10:31Z | github | repository | [Minara-AI/minara-skills](https://github.com/Minara-AI/minara-skills) | Minara-AI | core-and-ecosystem |
 | 2026-02-01T13:53:31Z | github | repository | [yuukiLike/zeromd](https://github.com/yuukiLike/zeromd) | yuukiLike | index-and-marketplace |
 | 2026-01-31T08:15:39Z | github | repository | [Leslie-SSS/seeWxapkg](https://github.com/Leslie-SSS/seeWxapkg) | Leslie-SSS | core-and-ecosystem |
+| 2026-01-24T03:29:18Z | github | repository | [XiaoMaColtAI/math-modeling-skill](https://github.com/XiaoMaColtAI/math-modeling-skill) | XiaoMaColtAI | core-and-ecosystem |
 | 2026-01-21T20:26:04Z | github | repository | [superdesigndev/superdesign-skill](https://github.com/superdesigndev/superdesign-skill) | superdesigndev | core-and-ecosystem |
 | 2026-01-19T14:06:37Z | github | repository | [isomoes/ikanban](https://github.com/isomoes/ikanban) | isomoes | agents-and-orchestration |
 | 2026-01-15T18:45:08Z | github | repository | [alvinunreal/oh-my-opencode-slim](https://github.com/alvinunreal/oh-my-opencode-slim) | alvinunreal | core-and-ecosystem |

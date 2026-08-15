@@ -4,9 +4,9 @@
 
 | 源仓库 | stars | forks | 开放 issue | 当前条目 | 插件候选 | 最近检查 |
 | --- | ---: | ---: | ---: | ---: | ---: | --- |
-| [Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins](https://github.com/Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins) | 56 | 6 | 2 | 181 | 98 | 2026-08-15T08:44:59Z · [raw](../data/raw/upstreams/20260815T084458Z.json) |
-| [beancookie/awesome-dsh-plugin](https://github.com/beancookie/awesome-dsh-plugin) | 20 | 10 | 4 | 276 | 276 | 2026-08-15T08:44:59Z · [raw](../data/raw/upstreams/20260815T084458Z.json) |
-| [walkinglabs/awesome-deepseek-harness-plugins](https://github.com/walkinglabs/awesome-deepseek-harness-plugins) | 4 | 7 | 1 | 114 | 91 | 2026-08-15T08:44:59Z · [raw](../data/raw/upstreams/20260815T084458Z.json) |
+| [Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins](https://github.com/Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins) | 58 | 9 | 4 | 181 | 98 | 2026-08-15T10:38:39Z · [raw](../data/raw/upstreams/20260815T103838Z.json) |
+| [beancookie/awesome-dsh-plugin](https://github.com/beancookie/awesome-dsh-plugin) | 21 | 10 | 2 | 280 | 280 | 2026-08-15T10:38:39Z · [raw](../data/raw/upstreams/20260815T103838Z.json) |
+| [walkinglabs/awesome-deepseek-harness-plugins](https://github.com/walkinglabs/awesome-deepseek-harness-plugins) | 4 | 7 | 2 | 114 | 91 | 2026-08-15T10:38:39Z · [raw](../data/raw/upstreams/20260815T103838Z.json) |
 
 ## Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins
 
@@ -58,13 +58,13 @@ Awesome DeepSeek Harness (DSH) Plugin
 | [dsh-git-identity](https://github.com/LoserFox/dsh-git-identity) | dev | git 提交固定使用环境自身作者身份，环境变量注入压过一切 `git config` 设置。 | `dsh plugin --profile web add github:LoserFox/dsh-git-identity` |
 | [dsh-gitflow](https://github.com/lonelymoon87/dsh-gitflow) | dev | 增加需要审批的 Git 状态、diff、日志、提交、分支和可选检查点工具。 | `dsh plugin --profile web add github:lonelymoon87/dsh-gitflow` |
 | [dsh-guardian](https://github.com/lonelymoon87/dsh-guardian) | dev | 增加危险操作策略检查、输出脱敏和安全审查工作流。 | `dsh plugin --profile web add github:lonelymoon87/dsh-guardian` |
+| [dsh-harmony](https://github.com/CH4ACKO3/dsh-harmony) | dev | 让一个 DSH 插件在运行时修改另一个插件的代码，并提供 Patch 排序、冲突检查和热重载。 | `dsh plugin --profile web add dsh-harmony` |
 | [dsh-lan-access](https://github.com/Leon0555/dsh-lan-access) | dev | 局域网访问：Web GUI 绑定 0.0.0.0 + crypto.randomUUID polyfill（修复非安全上下文下 RPC 崩溃）。 | `dsh plugin --profile web add dsh-lan-access` |
 | [dsh-mcp-manager](https://github.com/hyqhyq3/dsh-mcp-manager) | dev | MCP 服务器管理器：OAuth 或静态 token 认证 + 设置页。 | `dsh plugin --profile web add github:hyqhyq3/dsh-mcp-manager` |
 | [dsh-mcp-panel](https://github.com/PerryLink/dsh-mcp-panel) | dev | 官方 MCP 客户端（dsh-mcp-client）的只读运行时管理面板：/mcp 命令与设置页 MCP 页签展示连接状态、已注册工具、错误与重连计数，脱敏展示并提供启停 patch 建议。 | `dsh plugin --profile web add github:PerryLink/dsh-mcp-panel` |
 | [dsh-multica-runtime](https://github.com/forrestchang/dsh-multica-runtime) | dev | 让 dsh 运行时跑在 Multica 上。 | `dsh plugin --profile web add github:forrestchang/dsh-multica-runtime` |
 | [dsh-pain-point-check](https://github.com/ICCuse/dsh-pain-point-check) | dev | 强制痛点检查：同一问题连续 2 个实验未收敛后注入三问、拦截非调查类工具调用直到答出、阻止同方向重试。 | `dsh plugin --profile web add github:ICCuse/dsh-pain-point-check` |
 | [dsh-passwords](https://github.com/slywalker2006/dsh-passwords) | dev | DSH Web UI 登录网关：首次配置、bcrypt + 静态加密（AES-256-GCM/HMAC）、防爆破、审计日志、TLS 1.2+ 与 80→443 跳转、CSRF 与防嵌框。 | `dsh plugin --profile web add github:slywalker2006/dsh-passwords` |
-| [dsh-plugin-check](https://github.com/omdsh-dev/dsh-plugin-check) | dev | 插件健康检查：扫描清单协议/patch 格式/构建陷阱，零依赖只读。 | `dsh plugin --profile web add github:omdsh-dev/dsh-plugin-check` |
 
 ## walkinglabs/awesome-deepseek-harness-plugins
 

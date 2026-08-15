@@ -7,7 +7,7 @@ DeepSeek Harness / DSH 插件生态的公开资料聚合 repo：把 GitHub 仓�
 <!-- landing:start -->
 ## Start here — the DSH signal desk
 
-> 这里不是又一份静态 Awesome List，而是一张持续更新的 DeepSeek Harness 生态地图：先看最值得点开的仓库、帖子和视频，再沿着 raw、SQLite、时间轴回到证据。当前批次 **v20260815T102745Z**（2026-08-15）：**941** 条去重记录、**14** 个平台、**672** 个媒体引用。
+> 这里不是又一份静态 Awesome List，而是一张持续更新的 DeepSeek Harness 生态地图：先看最值得点开的仓库、帖子和视频，再沿着 raw、SQLite、时间轴回到证据。当前批次 **v20260815T103842Z-2**（2026-08-15）：**948** 条去重记录、**14** 个平台、**675** 个媒体引用。
 
 [打开 dsh store](docs/index.html) · [看价值矩阵](docs/value-matrix.md) · [看趋势](docs/trends.md) · [查 SQLite](data/aggregator.sqlite3)
 
@@ -17,8 +17,8 @@ DeepSeek Harness / DSH 插件生态的公开资料聚合 repo：把 GitHub 仓�
 
 | 入口 | 为什么值得看 | 当前信号 |
 | --- | --- | ---: |
-| [官方核心 · deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | DSH 的源头仓库；所有插件和能力最终回到这里核验。 | ★ stars 104,848 |
-| [高关注插件 · zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 真实可见的 UI / 桌面扩展，适合从“能不能直接用”开始。 | ★ stars 2,263 |
+| [官方核心 · deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | DSH 的源头仓库；所有插件和能力最终回到这里核验。 | ★ stars 106,113 |
+| [高关注插件 · zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 真实可见的 UI / 桌面扩展，适合从“能不能直接用”开始。 | ★ stars 2,326 |
 | [新文章 · 如何用 GLM 5.3，开发 DeepSeek Harness 插件](https://mp.weixin.qq.com/s/HrOgdg7ZBKQlvGM-xPeKtw) | 一篇文章串起模型接入、插件契约、skill、附件和 inspector；8 image · 1 video。 | counters NULL |
 
 ### 新：一篇文章，三个可以立即追踪的插件
@@ -28,7 +28,7 @@ DeepSeek Harness / DSH 插件生态的公开资料聚合 repo：把 GitHub 仓�
 | 插件 | 用途 |
 | --- | --- |
 | [CocoSgt/dsh-skills](https://github.com/CocoSgt/dsh-skills) | 索引和加载项目里的 skill，支持完整 `.skill` 文件。 · ★ stars 2 |
-| [CocoSgt/dsh-attachments](https://github.com/CocoSgt/dsh-attachments) | 为 DSH 增加文件/图片附件与继续引用能力。 · ★ stars 2 |
+| [CocoSgt/dsh-attachments](https://github.com/CocoSgt/dsh-attachments) | 为 DSH 增加文件/图片附件与继续引用能力。 · ★ stars 3 |
 | [CocoSgt/dsh-inspector](https://github.com/CocoSgt/dsh-inspector) | 查看生效的约束文件和当前被索引的 skill。 · ★ stars 2 |
 
 安装提示（文章原文）：
@@ -51,8 +51,8 @@ dsh plugin --profile web add dsh-skills dsh-attachments dsh-inspector
 
 | 上游目录 | 收录条目 |
 | --- | ---: |
-| [Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins](https://github.com/Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins) · 56 stars | 181 |
-| [beancookie/awesome-dsh-plugin](https://github.com/beancookie/awesome-dsh-plugin) · 20 stars | 276 |
+| [Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins](https://github.com/Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins) · 58 stars | 181 |
+| [beancookie/awesome-dsh-plugin](https://github.com/beancookie/awesome-dsh-plugin) · 21 stars | 280 |
 | [walkinglabs/awesome-deepseek-harness-plugins](https://github.com/walkinglabs/awesome-deepseek-harness-plugins) · 4 stars | 114 |
 
 ### 官方 Fork network：把分叉当作生态信号
@@ -69,18 +69,18 @@ dsh plugin --profile web add dsh-skills dsh-attachments dsh-inspector
 | 4 | [G36maid/deepseek-harness](https://github.com/G36maid/deepseek-harness) | 9 | 48.777 | ok |
 | 5 | [happylin0x29a/deepseek-harness-desktop](https://github.com/happylin0x29a/deepseek-harness-desktop) | 4 | 41.708 | ok |
 
-> 价值档当前分布：**B 127 · C 596 · D 218**。分数只用于安排复核优先级；不同平台的 stars、likes、views、points 不相加，缺失互动数不补零。
+> 价值档当前分布：**B 127 · C 614 · D 207**。分数只用于安排复核优先级；不同平台的 stars、likes、views、points 不相加，缺失互动数不补零。
 
 <!-- landing:end -->
 
 ## 当前快照
 
 <!-- snapshot:start -->
-本地 SQLite 当前包含 **941 条去重记录**、**14 个来源平台**、**1,763 条指标历史**、**672 个媒体资产引用**、**306 条详情记录**和 **93 个去重 raw snapshot**。当前批次 **v20260815T102745Z** 于 **2026-08-15T10:27:45Z** 完成；价值矩阵为当前批次的 941 条记录提供六维评分。raw snapshot 不是摘要：`raw_snapshots.payload_json` 保存原始 JSON 文本本身，并同时保存 SHA-256、原始路径、字节数、采集时间和采集批次。
+本地 SQLite 当前包含 **948 条去重记录**、**14 个来源平台**、**1,975 条指标历史**、**675 个媒体资产引用**、**306 条详情记录**和 **95 个去重 raw snapshot**。当前批次 **v20260815T103842Z-2** 于 **2026-08-15T10:38:46Z** 完成；价值矩阵为当前批次的 948 条记录提供六维评分。raw snapshot 不是摘要：`raw_snapshots.payload_json` 保存原始 JSON 文本本身，并同时保存 SHA-256、原始路径、字节数、采集时间和采集批次。
 
 | 来源 | 去重记录 | 采集内容 |
 | --- | ---: | --- |
-| GitHub | 702 | 官方仓库、topic、社区索引候选和 stars/forks/issues |
+| GitHub | 709 | 官方仓库、topic、社区索引候选和 stars/forks/issues |
 | Hacker News | 99 | 精确短语搜索、points/comments 和讨论链接 |
 | X | 53 | 公开帖子、图片/视频链接和 replies/reposts/likes/views |
 | 小红书 | 30 | 搜索卡片、作者、点赞、缩略图和详情文本 |
