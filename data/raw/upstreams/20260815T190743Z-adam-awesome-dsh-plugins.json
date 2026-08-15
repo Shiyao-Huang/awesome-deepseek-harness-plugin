@@ -1,0 +1,2482 @@
+{
+  "collected_at": "2026-08-15T19:07:58Z",
+  "collector": "scripts/monitor_sources.py",
+  "repositories": [
+    {
+      "full_name": "AdamPlatin123/awesome-dsh-plugins",
+      "html_url": "https://github.com/AdamPlatin123/awesome-dsh-plugins",
+      "default_branch": "main",
+      "description": "前部索引仓库（Radar）：自动扫描发现的所有 dsh 插件候选；经测试合格的将移入后序精选目录仓库",
+      "license_spdx": "MIT",
+      "stars": 966,
+      "forks": 84,
+      "open_issues": 8,
+      "pushed_at": "2026-08-15T19:00:33Z",
+      "last_checked_at": "2026-08-15T19:07:58Z",
+      "readme_path": "README.md",
+      "readme_sha": "d7f26f018214f3f1f380ffa8a97edb4e431b981c",
+      "source_kind": "community-index",
+      "status": "ok",
+      "entry_count": 21,
+      "tree_file_count": 88,
+      "files": {
+        "README.md": "# Awesome DSH Plugins\n\n<p align=\"center\">\n  <img src=\"assets/banner-entertainment.jpg\" width=\"440\" alt=\"Awesome DSH Plugins banner\"><br>\n  <img src=\"assets/stickers/04-fish-philosophy.png\" width=\"76\" alt=\"鱼哲学\">\n  <img src=\"assets/stickers/06-server-busy.png\" width=\"76\" alt=\"服务器繁忙\">\n  <img src=\"assets/stickers/12-restart-myself.png\" width=\"76\" alt=\"重启我自己\">\n  <img src=\"assets/stickers/17-memory-alive.png\" width=\"76\" alt=\"记忆还活着\">\n  <img src=\"assets/stickers/21-tests-passed.png\" width=\"76\" alt=\"测试通过\">\n  <img src=\"assets/stickers/24-fixed-review.png\" width=\"76\" alt=\"修好了求审\">\n</p>\n\n**自动发现、证据验证的 DeepSeek Harness 插件生态雷达。自动发现 2800+ 候选、逐个 k8s 实测**\n\n安装前就知道哪个能用，不用自己踩坑。\n\n[![confirmed](https://img.shields.io/badge/confirmed-130-blue)](#-热门插件star-top-20) [![scan](https://img.shields.io/badge/scan-every_6h-green)](#当前生态快照) [![tested](https://img.shields.io/badge/tested-68-orange)](#本仓库如何判定) [![dshfind](https://dshfind.com/api/badge/AdamPlatin123/awesome-dsh-plugins?lang=zh)](https://dshfind.com/zh/plugins/AdamPlatin123/awesome-dsh-plugins?ref=badge) [![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)\n\n[![✅ 运行级可用](https://img.shields.io/badge/✅_运行级可用-379-brightgreen)](#2-看懂状态统一四档口径) [![❌ 运行级不兼容](https://img.shields.io/badge/❌_运行级不兼容-155-red)](#2-看懂状态统一四档口径) [![⚠️ 待定](https://img.shields.io/badge/⚠️_待定-14-yellow)](#2-看懂状态统一四档口径) [![未测](https://img.shields.io/badge/·_未测-0-lightgrey)](#2-看懂状态统一四档口径)\n\n简体中文 | [English](README.en-US.md)\n\n---\n\n> 收录 1253 个 DSH 插件仓库（索引到2823个repos ，正由专用K8s集群，动态在DSH最新版本下验证可用性，目前高速迭代中）。\n\n## 工作原理\n\n> 📌 数据截至快照 `20260815T151237Z`（2026-08-15 23:12:37 UTC+8 · 分类器 unified-v2-bridge）\n\n<!-- AUTO:pipeline:START -->\n```mermaid\nflowchart TB\n    subgraph Discovery[\"🔍 发现（每 6 小时 · probe 每 15 分钟 巡检触发）\"]\n        A1[\"GitHub Search<br/>topic ×2 + keyword ×3<br/>候选 2823 · 龄 208m\"]\n        A2[\"本地库补全 · 去重 repo id\"]\n        A3[\"🚫 私有 org 仓排除<br/>35s 错峰 · 403 退避 · dshow 黑名单\"]\n    end\n    subgraph Validation[\"📋 验证（driver 20s 流式循环）\"]\n        B1{\"package.json<br/>name + main/exports/dsh?\"}\n    end\n    B1 -->|\"插件 1253\"| C1[\"k8s 运行级测试<br/>一插件一 pod · 并发 10<br/>dsh agent + Qwen（de-stream）\"]\n    B1 -->|\"非插件（累计删 1064）\"| B3[\"❌ 即删省空间\"]\n    C1 --> D1{\"判定 · 总 548\"}\n    D1 -->|\"✅ 379 / ❌ 155\"| E1[\"聚合 + README 分类统计\"]\n    D1 -->|\"⚠️ 14 环境类重试\"| C1\n    E1 --> E2[\"cadence 交付<br/>本周期增量 —/100<br/>双仓 bot PR（幂等 supersede）\"]\n    S[\"⚖️ 静态四维轨（每日 02:00）\"] -.-> E1\n    M[\"🛡 radar-probe 每 15 分钟 自愈<br/>7 指标流 × 60s · 完成累计 0\"] -.-> A1\n    M -.-> C1\n```\n<!-- AUTO:pipeline:END -->\n\n## 快速导航\n\n| 你的目标 | 跳转入口 |\n|---|---|\n| 看热门插件 | [🔥 Star Top 20](#-热门插件star-top-20) |\n| 按用途找一个插件 | [📋 分类目录](#分类目录) · [PLUGINS.md](PLUGINS.md) — 9 大功能领域 + 兼容性状态 |\n| 浏览自动发现的全部仓库 | [📊 当前生态快照](#当前生态快照) — 日期化兼容矩阵 |\n| 了解最近发生了什么 | [📝 CHANGELOG](CHANGELOG.md) |\n| 登记或提交插件 | [🔧 给插件开发者](#给插件开发者) · 加 `dsh-plugin` topic → 8h 自动收录 · [PR 模板](.github/PULL_REQUEST_TEMPLATE.md) |\n| 维护本雷达 | [⚙️ 自动化 SOP](docs/SOP.md) |\n| 给插件使用者指南 | [📖 给插件使用者](#给插件使用者) |\n| 本仓库如何判定兼容性 | [🔍 本仓库如何判定](#本仓库如何判定) |\n| 加入社群交流 | [💬 DSH 学习社区](#-dsh-学习社区-dshfindcom) · [社区讨论群](#社区讨论群) |\n\n> [!IMPORTANT]\n> **收录不等于兼容，静态检查不等于运行可用，运行可用也不等于安全审计。**\n> 本仓库提供可追溯的筛选信号，不代表 DSH 官方背书。安装第三方插件前，请检查插件源码、权限、依赖、许可证及测试日期。\n\n## 🔥 热门插件（Star Top 20）\n\n<!-- AUTO:featured:START -->\n\n> 按 GitHub star 数排序，每 20 分钟自动刷新。数据截至 2026-08-16 02:50（UTC+8）。\n\n| # | 插件 | ⭐ | 说明 |\n|---|---|---|---|\n| 1 | [dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 2662 | Plugin and skin collection for DeepSeek Harness (DSH) W… |\n| 2 | [modlens](https://github.com/liustack/modlens) | 1871 | The first vision plugin for DeepSeek Harness, and the v… |\n| 3 | [TokenTracker](https://github.com/xiufengsun/TokenTracker) | 1322 | Local-first AI token usage & cost tracker for 31 coding… |\n| 4 | [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | 1243 | 解决DSH 官方尚无终端 TUI 痛点的补位之作，献给偏爱cli的各位极客：Claude Code 风格全屏交… |\n| 5 | [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 1234 | 一个侧边栏的完整工作台，支持三方拓展注册新侧边栏页面。内置文件渲染编辑/终端/Git/子代理 |\n| 6 | [PicGo-Core](https://github.com/PicGo/PicGo-Core) | 972 | :zap:The ultimate image uploading engine. Both CLI & AP… |\n| 7 | [sandbase-harness](https://github.com/sandbaseai/sandbase-harness) | 590 | Open-source CMA-compatible agent runtime for any model,… |\n| 8 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 429 | 让纯文本模型更好地做视觉任务的DeepSeek Harness插件：带意图的图片问答、长截图 OCR、UI 还… |\n| 9 | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | 407 | 把 DSH 变成 2005 年门户网站｜Parody ads, fake games, and popups … |\n| 10 | [dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) | 331 | AgentTeams plugin for DeepSeek Harness |\n| 11 | [Abu-Cowork](https://github.com/PM-Shawn/Abu-Cowork) | 329 | Open-source alternative to Claude Cowork — a local-firs… |\n| 12 | [dsh-at-file](https://github.com/omdsh-dev/dsh-at-file) | 218 | Codex-style @file mentions for DeepSeek Harness: search… |\n| 13 | [Bigfish](https://github.com/turtle2209/Bigfish) | 211 | Bigfish —— DeepSeek Harness 的第三方桌面端，内置 Node 运行时，双击即用，附带… |\n| 14 | [oh-dsh](https://github.com/hust-open-atom-club/oh-dsh) | 193 | 一套 DSH runtime，Desktop、Web 与 TUI 三种开发体验。 |\n| 15 | [whale-girl](https://github.com/vlln/whale-girl) | 169 | DSH Web GUI 桌面宠物插件（QQ 宠物形态）：右下角悬浮、可拖拽/投喂/玩耍的积累型伙伴。 |\n| 16 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | 168 | dsh-tianshu-tui — DeepSeek Harness terminal UI +harness… |\n| 17 | [dsh-browser](https://github.com/Lum1104/dsh-browser) | 158 | dsh plugin: Chrome sidebar extension that lets DSH oper… |\n| 18 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | 138 | Eyes for text-only DeepSeek Harness agents: built-in fr… |\n| 19 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | 117 | 在 DSH 对话中生成交互式可视化｜Render model-generated interactive ca… |\n| 20 | [deepseek-harness-desktop-app](https://github.com/vibeinging/deepseek-harness-desktop-app) | 115 | DeepSeek Harness Desktop App: a local AI desktop worksp… |\n\n<!-- AUTO:featured:END -->\n\n## 分类目录\n\n<!-- AUTO:catalog:START -->\n\n逐插件明细（判定 · 定位 · 星标）见 **[PLUGINS-ALL.md](PLUGINS-ALL.md)**。\n\n- **🔌 Web UI 增强**（326）— 可用 181 · 不兼容 42 · 待定 16 · 未测 74 · 监测 13 — [明细](PLUGINS-ALL.md#-web-ui-增强326)\n- **🤖 Agent 能力**（277）— 可用 140 · 不兼容 31 · 待定 12 · 未测 77 · 监测 17 — [明细](PLUGINS-ALL.md#-agent-能力277)\n- **💻 编码开发**（314）— 可用 148 · 不兼容 28 · 待定 10 · 未测 109 · 监测 19 — [明细](PLUGINS-ALL.md#-编码开发314)\n- **📡 消息通讯**（110）— 可用 63 · 不兼容 11 · 待定 3 · 未测 29 · 监测 4 — [明细](PLUGINS-ALL.md#-消息通讯110)\n- **🗂 文件数据**（77）— 可用 32 · 不兼容 15 · 待定 6 · 未测 19 · 监测 5 — [明细](PLUGINS-ALL.md#-文件数据77)\n- **🎮 娱乐生活**（51）— 可用 32 · 不兼容 4 · 待定 1 · 未测 9 · 监测 5 — [明细](PLUGINS-ALL.md#-娱乐生活51)\n- **🛠 基建部署**（125）— 可用 59 · 不兼容 30 · 待定 4 · 未测 24 · 监测 8 — [明细](PLUGINS-ALL.md#-基建部署125)\n- **📚 学习研究**（13）— 可用 7 · 不兼容 4 · 待定 0 · 未测 1 · 监测 1 — [明细](PLUGINS-ALL.md#-学习研究13)\n- **❓ 其他**（855）— 可用 414 · 不兼容 118 · 待定 26 · 未测 219 · 监测 78 — [明细](PLUGINS-ALL.md#-其他855)\n\n<!-- AUTO:catalog:END -->\n\n## 🌐 DSH 学习社区 dshfind.com\n\n[dshfind.com](https://dshfind.com) — DSH 原理学习、插件市场与最佳实践社区：从 Cordis 论文逐章精读到插件自动聚合市场。\n\n<a href=\"https://dshfind.com\"><img src=\"assets/dshfind-zh.png\" width=\"600\" alt=\"dshfind.com — DSH 学习与分享社区\"></a>\n\n[🌐 dshfind.com](https://dshfind.com) · [GitHub](https://github.com/hikariming/dshfind)\n\n## 社区讨论群\n\nDSH 插件社区讨论群（微信群）：插件作者、维护者与使用者都在这里，讨论插件开发、兼容性问题与新插件发布。\n\n<img src=\"assets/community-discussion.jpg\" width=\"350\" alt=\"DSH 插件社区讨论群\">\n\n> 二维码 7 天内有效（2026-08-21 前）。\n\n## 给插件使用者\n\n### 1. 找到候选插件\n\n- 优先从 [PLUGINS.md](PLUGINS.md) 选择已有人工分类和说明的插件。\n- 若分类目录没有，再从[当前生态快照](#当前生态快照)进入当日完整索引，搜索仓库名或关键词。\n- 仓库无法公开访问、没有 README、没有许可证或长期无维护时，把它视为高风险候选，而不是“已验证插件”。\n\n### 2. 看懂状态（统一四档口径）\n\n全部条目使用**单一运行级口径**（k8s 容器实测，测试版本见下），四档互斥：\n\n| 状态 | 它说明什么 | 它不说明什么 |\n|---|---|---|\n| ✅ 运行级可用 | 在记录的测试版本下真实加载并完成验证任务 | 不是完整功能测试、性能测试或安全审计 |\n| ❌ 运行级不兼容 | 依赖装不上、只读沙箱、缺内部包等硬失败（3 次重试全败） | 不代表永远不可用；作者可能已在新版本修复 |\n| ⚠️ 待定 | 测试环境故障，未完成判定 | **不是部分兼容**，待重测 |\n| · 未测 | 尚未派发运行级测试 | 不应推断为兼容或不兼容 |\n\n> [!NOTE]\n> **测试版本**：dsh（容器内 agent）+ Qwen3.6-35B 驱动（经 de-stream 代理）· k8s 5 分片 · 以快照 `run_id` 锚定具体轮次（当前 `20260815T151237Z`）。DSH 的 npm 版本号未随快照记录，以 run_id 与 `reports/agent-test/` 日期交叉核对。\n> **口径提示**：徽章与统计中的「已测 N」是单轮运行口径；分类目录与全量清单是跨轮累积口径，两者数字不同属正常。\n\n每个结论都应同时看四项：**插件 commit、mainline commit、测试日期、测试层级**。缺少其中任一项时，降低对结果的信任等级。\n\n### 3. 安装、验证和回滚\n\n本目录不是包管理器，也没有被本仓库验证过的统一安装命令。请以插件自身 README 的安装方式为准，并建议按以下顺序操作：\n\n1. 阅读插件的安装、配置、权限和卸载说明。\n2. 固定插件版本或 commit，不直接依赖会漂移的默认分支。\n3. 先在隔离 profile 或测试环境加载，不提供生产密钥和敏感数据。\n4. 执行一个最小功能任务，记录 DSH 版本、插件版本和日志。\n5. 保留原配置与锁文件；失败时能移除插件并恢复环境。\n\n若插件安装或功能本身出错，请优先在插件仓库反馈；若目录链接、分类或状态证据有误，请在本仓库提交 issue 或 PR。\n\n## 给插件开发者\n\n### 最低收录条件\n\n公开目录建议只列出普通访问者能够打开的仓库。自动发现候选至少应满足：\n\n- 仓库公开可访问，并添加 `dsh-plugin` topic；\n- 根目录存在合法的 `package.json` 和非空 `name`；\n- 提供 `main`、`exports` 或明确的 `dsh` 集成入口；\n- README 说明插件做什么、如何安装、如何卸载以及最小使用示例；\n- 所有运行时依赖在 `dependencies` / `peerDependencies` 中显式声明；\n- 声明支持的 DSH 版本、快照或已验证 commit；\n- 提供许可证，并避免把密钥、个人信息或私有仓库内容提交到公开目录。\n\n包名应使用你有权控制的命名空间。只有获得 `dsh-external` 维护权限的项目才应使用 `@dsh-external/*`；不要占用不属于你的组织或官方保留命名空间。\n\n### 一个合格的插件 README 至少包含\n\n| 章节 | 应回答的问题 |\n|---|---|\n| Overview | 插件解决什么问题？适合谁？ |\n| Compatibility | 支持哪些 DSH 版本或 mainline commit？最后验证日期是什么？ |\n| Install / Uninstall | 如何安装、升级、禁用和彻底移除？ |\n| Quick start | 最小配置和一个可复现示例是什么？ |\n| Configuration | 配置项、默认值、环境变量和敏感项有哪些？ |\n| Permissions & data | 会访问哪些文件、网络、凭据或用户数据？ |\n| Troubleshooting | 常见错误、日志位置和回滚方式是什么？ |\n| Development | 如何构建、测试和贡献？ |\n| License & security | 使用什么许可证？安全问题如何私下报告？ |\n\n### 提交插件\n\n1. 给插件仓库添加 `dsh-plugin` topic，等待下一次扫描。\n2. 在 [PLUGINS.md](PLUGINS.md) 的合适分类追加插件名、仓库链接和一句话说明。\n3. 对照上面的最低条件完成自检。\n4. 使用 [PR 模板](.github/PULL_REQUEST_TEMPLATE.md) 提交变更，并附上测试环境与结果。\n\n仅修正链接、分类、描述或状态证据时，也欢迎直接提交小型 PR。请不要在目录 PR 中复制私有 issue、密钥、成员信息或大段第三方内容。\n\n## 本仓库如何判定\n\n| 层级 | 当前检查 | 合理结论 |\n|---|---|---|\n| L0 发现 | topic、仓库可见性、基本元数据 | 这是一个候选仓库 |\n| L1 清单 | `package.json`、名称、入口字段 | 它“看起来可安装”，但还未证明能加载 |\n| L2 静态兼容 | 补丁、扩展点（seam）、依赖版本范围 | 发现已知漂移信号，或暂未发现阻断信号 |\n| L3 编译实验 | 在指定 workspace 中执行类型或语法检查 | 仅对该构建环境有效；缺依赖和环境问题需与真实 API 漂移分开 |\n| L4 运行实测 | 安装、加载、最小任务或工具调用 | 在记录的环境和 commit 上观察到成功或失败 |\n\n> [!NOTE]\n> 首页不把以上层级合并成一个模糊的“兼容率”。静态通过、编译通过和运行通过使用不同字段与分母；完整证据保留在日期化报告中。\n\n### 已知边界\n\n- mainline 和插件都在快速变化，旧结论可能很快失效。\n- 静态未发现问题不代表真实运行一定成功。\n- 编译失败可能来自测试环境、缺失依赖或配置错误，不应自动等同于 API 不兼容。\n- 运行成功只覆盖报告中的最小任务，不代表全部功能、平台和配置。\n- 自动生成的 LLM 摘要只用于导航，不能替代原始矩阵和日志。\n\n## 仓库结构\n\n| 路径 | 内容 |\n|---|---|\n| `PLUGINS.md` | 人工分类和登记的精选入口 |\n| `reports/<YYYY-MM-DD>/index.md` | 指定日期的完整扫描索引 |\n| `reports/<YYYY-MM-DD>/mainline-compat.md` | 指定日期的静态兼容性矩阵 |\n| `reports/<YYYY-MM-DD>/compile-compat.md` | 指定日期的编译与语法实验结果 |\n| `reports/<YYYY-MM-DD>/runtime-test.md` | 指定日期的运行级测试结果 |\n| `CHANGELOG.md` | 日期化生态变更摘要 |\n| `docs/SOP.md` | 自动化、构建与报告维护说明 |\n| `scripts/` | 发现、检查、测试和渲染脚本 |\n\n<details>\n<summary>维护者：README 自动生成约定</summary>\n\n- 人工内容放在自动标记块之外；生成器只替换 `AUTO:ecosystem` 块。\n- 首页只输出汇总和报告链接，不输出完整仓库表。\n- 新增/修改项最多显示 10 条，其余链接到 `CHANGELOG.md`。\n- 仓库链接必须使用扫描结果中的完整 `owner/name`，不得硬编码组织名。\n- 自动块使用真实日期路径；另生成普通文件 `reports/LATEST.md` 作为可验证的稳定入口，不依赖目录符号链接。\n- 报告缺失、为空或数字校验失败时显示“数据暂不可用”，不得沿用旧值或生成强结论。\n- 运行结果与静态结果使用不同字段、不同分母，并展示测试覆盖数。\n\n</details>\n\n## 当前生态快照\n\n<!-- AUTO:ecosystem:START -->\n> 渲染于快照 20260815T151237Z（2026-08-15 23:12 UTC+8）· 数据源 data/snapshots/（渲染即对齐）\n\n| 证据层 | 当前结果 |\n|---|---:|\n| 自动收录 | 1253 个仓库 |\n| 静态综合判定 | 277 / 286 兼容，9 需适配（静态轨 2026-08-13 · 经快照入仓） |\n| 证据不足 | 94 待调研 |\n| 其他 | 0 占位 · 0 不适用 · 0 已删除 |\n| 运行级实测 | ✅379 可用 · 155 不兼容 · 14 待定（共 548 个，k8s agent 口径）|\n| 正在跟踪的 PR | 2（快照 deliver 口径） |\n\n[完整索引](reports/2026-08-15/index.md) · [静态矩阵](reports/2026-08-15/mainline-compat.md) · [编译实验](reports/2026-08-15/compile-compat.md) · [运行实测](reports/2026-08-15/agent-test.md)\n\n<details><summary>插件状态明细（按判定分群 · 与上方分类目录互补 · 默认折叠）</summary>\n\n**🐙 正在跟踪的 open PR**\n\n| 仓库 | PR | 标题 | 更新 |\n|---|---|---|---|\n| （暂无公开可访问的 open PR） | | | |\n\n</details>\n\n<!-- AUTO:ecosystem:END -->\n\n\n## 项目边界与致谢\n\n本仓库维护目录、检测规则和证据报告，不托管第三方插件代码。感谢所有提交插件、复现问题、修正元数据和维护测试链路的贡献者。\n\n当前仓库尚未声明许可证；在复制、修改或再分发目录内容与脚本前，请先向维护者确认授权。维护者应在公开推广前补充明确的 `LICENSE`。\n\n非常感谢各位一起参与内测的小伙伴们（合照仅为部分名单，还有更多朋友一起在内测中贡献力量）！\n\n![DSH 内测群合照](assets/dsh-miji-heying.png)\n\nLet's keep deep diving！\n"
+      },
+      "tree": [
+        {
+          "path": ".github",
+          "sha": "46c63ba932f6ac9759f0904ca200a7523f743630",
+          "type": "tree"
+        },
+        {
+          "path": ".github/PULL_REQUEST_TEMPLATE.md",
+          "sha": "a39c122ccbeebdfe0a8b0a5a73dbc525a0debd8c",
+          "type": "blob"
+        },
+        {
+          "path": ".github/workflows",
+          "sha": "398e6eeeda92230b3b33931e8c5d1eaf5eab925d",
+          "type": "tree"
+        },
+        {
+          "path": ".github/workflows/readme-render.yml",
+          "sha": "065dd8e633c0d570b472622f9541e5e9e2d1e049",
+          "type": "blob"
+        },
+        {
+          "path": ".github/workflows/refresh-featured.yml",
+          "sha": "08fa7263166356170d56cb3e09c0a63bfc45559f",
+          "type": "blob"
+        },
+        {
+          "path": ".gitignore",
+          "sha": "6ed3b8c21ee2b4295c418757e1b1b78a42dedbed",
+          "type": "blob"
+        },
+        {
+          "path": "CHANGELOG.md",
+          "sha": "7e77df0e771c3661c9d89a916344ff18c4d49034",
+          "type": "blob"
+        },
+        {
+          "path": "LICENSE",
+          "sha": "656b635cdb01cf69b62c2d4be6274d75c5431a5c",
+          "type": "blob"
+        },
+        {
+          "path": "PLUGINS-ALL.example.md",
+          "sha": "9ac7c20933a5a36ca6d8d8cd83854ce17adc5513",
+          "type": "blob"
+        },
+        {
+          "path": "PLUGINS-ALL.md",
+          "sha": "845937f021eb266b96fc182f55135314ed2b58ae",
+          "type": "blob"
+        },
+        {
+          "path": "PLUGINS.md",
+          "sha": "ed3b1727b597f0904378c62003e0fed3b839c1c8",
+          "type": "blob"
+        },
+        {
+          "path": "README.en-US.md",
+          "sha": "78a6cd83b5aafa12fe0919f3596fea804df645da",
+          "type": "blob"
+        },
+        {
+          "path": "README.md",
+          "sha": "d7f26f018214f3f1f380ffa8a97edb4e431b981c",
+          "type": "blob"
+        },
+        {
+          "path": "assets",
+          "sha": "4847d7a7687e464df0b1b7cd132d963f6e9e3c41",
+          "type": "tree"
+        },
+        {
+          "path": "assets/banner-entertainment.jpg",
+          "sha": "e88c7b0c8cda9a088bfb30b14789ae70200bab4b",
+          "type": "blob"
+        },
+        {
+          "path": "assets/community-discussion.jpg",
+          "sha": "64f84c34646bde6654ddcd5b2a38762e6e055549",
+          "type": "blob"
+        },
+        {
+          "path": "assets/community-photo.png",
+          "sha": "a528f1fa6b05524b348be52e9e1049a175fb997d",
+          "type": "blob"
+        },
+        {
+          "path": "assets/dsh-group-photo.webp",
+          "sha": "11fd669b31433c4ffbd52b735538eb659136b213",
+          "type": "blob"
+        },
+        {
+          "path": "assets/dsh-miji-heying.png",
+          "sha": "cf1d2bf69f4c7c37d083b70a5a4b9f27b0df034b",
+          "type": "blob"
+        },
+        {
+          "path": "assets/dshfind-en.png",
+          "sha": "aba1f23ae46ff9cf32b01245e6c816f7ecdc2067",
+          "type": "blob"
+        },
+        {
+          "path": "assets/dshfind-screenshot.png",
+          "sha": "3f98fccec2532199a1cd0d945323228faa9f3426",
+          "type": "blob"
+        },
+        {
+          "path": "assets/dshfind-zh.png",
+          "sha": "f6c74edfcad7f7b99532ad03b02ecfdbca9e84c3",
+          "type": "blob"
+        },
+        {
+          "path": "assets/stickers",
+          "sha": "819d752245af5e2592d5168351c24d6b5129d512",
+          "type": "tree"
+        },
+        {
+          "path": "assets/stickers/04-fish-philosophy.png",
+          "sha": "bc5b746e3a3d80090943045b0e61ec767af27f0a",
+          "type": "blob"
+        },
+        {
+          "path": "assets/stickers/06-server-busy.png",
+          "sha": "ddefab0f88f3b8e8e3d310dcb9b15a51f1e63824",
+          "type": "blob"
+        },
+        {
+          "path": "assets/stickers/12-restart-myself.png",
+          "sha": "2abc6801413ac53ecfe3f58f31972e5139fd2f9c",
+          "type": "blob"
+        },
+        {
+          "path": "assets/stickers/17-memory-alive.png",
+          "sha": "6afab1cf377a6b7b9d0639f8131139cd35e629be",
+          "type": "blob"
+        },
+        {
+          "path": "assets/stickers/21-tests-passed.png",
+          "sha": "9a337800350b51a8512ab052241bda9eeafbec43",
+          "type": "blob"
+        },
+        {
+          "path": "assets/stickers/24-fixed-review.png",
+          "sha": "e761994415bf0b611871faea2be14f32f4f6744c",
+          "type": "blob"
+        },
+        {
+          "path": "assets/wechat-group-qr.png",
+          "sha": "15b13f58d952b7b997e0e46688f101337e532f7e",
+          "type": "blob"
+        },
+        {
+          "path": "catalog",
+          "sha": "d6120f7c90f2e9f0daf002880db49f13aeecd013",
+          "type": "tree"
+        },
+        {
+          "path": "catalog/plugins",
+          "sha": "215f532144e8b4d9c3f13a476e7b96f8b8a62a60",
+          "type": "tree"
+        },
+        {
+          "path": "catalog/plugins/1323134652.json",
+          "sha": "159476fceeaafda113c0e699e5bb7c33d581080a",
+          "type": "blob"
+        },
+        {
+          "path": "catalog/plugins/1323137354.json",
+          "sha": "2c34703be6a9daa2d7e3a3b3f713d657178b29c6",
+          "type": "blob"
+        },
+        {
+          "path": "catalog/plugins/1323139686.json",
+          "sha": "c1a75561a433ff338a4c27bb57fa9f63fd96a255",
+          "type": "blob"
+        },
+        {
+          "path": "catalog/plugins/1323384072.json",
+          "sha": "6ec46a9120696f18d1689a9789aac2bfce54a8f2",
+          "type": "blob"
+        },
+        {
+          "path": "catalog/plugins/1323387669.json",
+          "sha": "dc314681a30886f4af4904285c62e612271ca77c",
+          "type": "blob"
+        },
+        {
+          "path": "catalog/plugins/1323526209.json",
+          "sha": "2fcb1a7887e4fba42e64e5cec8ac75c49516f09c",
+          "type": "blob"
+        },
+        {
+          "path": "catalog/plugins/1323590109.json",
+          "sha": "7777ec5640051e648f26cc6293e4ee4d7ba5c9d7",
+          "type": "blob"
+        },
+        {
+          "path": "catalog/plugins/1323618624.json",
+          "sha": "a7971405ed341b691f4bc9077295906f0c3e9849",
+          "type": "blob"
+        },
+        {
+          "path": "catalog/plugins/1323731026.json",
+          "sha": "0a72caeeb92d7c0a0cb663e5af81ff30230b36a1",
+          "type": "blob"
+        },
+        {
+          "path": "catalog/plugins/1323764750.json",
+          "sha": "da7ee9078b9e2721ac44238cd4e58c8fe50260f0",
+          "type": "blob"
+        },
+        {
+          "path": "catalog/plugins/1324174801.json",
+          "sha": "d587872233ed0a1dc35acdf7ed129d59028920dc",
+          "type": "blob"
+        },
+        {
+          "path": "catalog/plugins/1324517730.json",
+          "sha": "59966e681430b25396e49dad7b55adb2ab7fcbf9",
+          "type": "blob"
+        },
+        {
+          "path": "catalog/plugins/1324638821.json",
+          "sha": "e4b6b27b8d1fbda07ce996c1c9deaececdc9f2b8",
+          "type": "blob"
+        },
+        {
+          "path": "catalog/plugins/1324638838.json",
+          "sha": "7288105e4eff0226e737a6032cc06c23d3f6c340",
+          "type": "blob"
+        },
+        {
+          "path": "catalog/plugins/1329348569.json",
+          "sha": "f03a0f14dd92ca65c92a26bcbf354501531139ad",
+          "type": "blob"
+        },
+        {
+          "path": "catalog/plugins/1330791921.json",
+          "sha": "7cd83295ec86129b8ab3b4159efad78a5e1eaf59",
+          "type": "blob"
+        },
+        {
+          "path": "catalog/plugins/1333111893.json",
+          "sha": "d335056c35ec1a5c225a944ef74c064e3c0b5aa3",
+          "type": "blob"
+        },
+        {
+          "path": "catalog/plugins/1333130816.json",
+          "sha": "a5c3e1f6caa87d62b9f953f0857502cd0885bf49",
+          "type": "blob"
+        },
+        {
+          "path": "catalog/plugins/1333130893.json",
+          "sha": "4593bdb3d6d60122b456c19baff8ba54076a3db2",
+          "type": "blob"
+        },
+        {
+          "path": "catalog/plugins/1333137021.json",
+          "sha": "f193f36ce2bb3b7210039cf6634203d32dad68e2",
+          "type": "blob"
+        },
+        {
+          "path": "catalog/plugins/1333244632.json",
+          "sha": "7f79dd85db02aca02f6c28d1098cdb6c248abf2e",
+          "type": "blob"
+        },
+        {
+          "path": "catalog/plugins/1333255693.json",
+          "sha": "8259ae4fdaf0523742de3ace01354ef871025c1b",
+          "type": "blob"
+        },
+        {
+          "path": "catalog/plugins/1333256260.json",
+          "sha": "b1d6e2cd9a6d24f6698c1b59373120ad2d4c6b8c",
+          "type": "blob"
+        },
+        {
+          "path": "catalog/policy.json",
+          "sha": "7bf93d1c104b45a7b5fffe1da343a4a7eca78762",
+          "type": "blob"
+        },
+        {
+          "path": "catalog/tombstones.json",
+          "sha": "af13fd893ec24c2430d50eb37a9b8ca663b29d52",
+          "type": "blob"
+        },
+        {
+          "path": "data",
+          "sha": "d1868dfd48f8a14880a0fe40d265849d383f298e",
+          "type": "tree"
+        },
+        {
+          "path": "data/locate-cache.json",
+          "sha": "a2418bb6595e6269fde9e9531a6a458c8c9d3071",
+          "type": "blob"
+        },
+        {
+          "path": "data/snapshots",
+          "sha": "b99656f424f6b341cb1dfb4af2840d6c1284af4f",
+          "type": "tree"
+        },
+        {
+          "path": "data/snapshots/20260814T203350Z.json",
+          "sha": "2661c944e6c762c939d86ee206911b497a649aa2",
+          "type": "blob"
+        },
+        {
+          "path": "data/snapshots/20260814T211526Z.json",
+          "sha": "5f951ab73f5553ad4496f1c89b31c9d4cc55904d",
+          "type": "blob"
+        },
+        {
+          "path": "data/snapshots/20260814T213619Z.json",
+          "sha": "3aefd74fee9eabd0362bcbb66a991a6b9b83324e",
+          "type": "blob"
+        },
+        {
+          "path": "data/snapshots/20260815T060038Z.json",
+          "sha": "415b54295b97a413efe398679b294cfdd6ccffef",
+          "type": "blob"
+        },
+        {
+          "path": "data/snapshots/20260815T071537Z.json",
+          "sha": "1a6d79db5943491c945bb684674a018df0089570",
+          "type": "blob"
+        },
+        {
+          "path": "data/snapshots/20260815T071634Z.json",
+          "sha": "d8f6ac2eb7bee6cdc7526c94cddd72556c62cae6",
+          "type": "blob"
+        },
+        {
+          "path": "data/snapshots/20260815T125358Z.json",
+          "sha": "e60d17d1f92470fb557079464629b7d85f236e5c",
+          "type": "blob"
+        },
+        {
+          "path": "data/snapshots/20260815T151237Z.json",
+          "sha": "8954743184c1757869297fccf0a32434251eaa55",
+          "type": "blob"
+        },
+        {
+          "path": "generated",
+          "sha": "2aea38c5d918a56b45512f9659dc2f9ac33c9d38",
+          "type": "tree"
+        },
+        {
+          "path": "generated/plugins-md-repos.json",
+          "sha": "bc6431cd61d97e02420e15ec7029b6afcffc619e",
+          "type": "blob"
+        },
+        {
+          "path": "reports",
+          "sha": "7b42ddd33106a5b2cb8f2ac30715c324a53d4951",
+          "type": "tree"
+        },
+        {
+          "path": "reports/agent-test",
+          "sha": "bb3473ef04ead5350ea23aee8c7108e8663669d2",
+          "type": "tree"
+        },
+        {
+          "path": "reports/agent-test/2026-08-14-diff-audit.md",
+          "sha": "2cdda917953974dae8ea5638f354b587e61e0649",
+          "type": "blob"
+        },
+        {
+          "path": "reports/agent-test/2026-08-14-todo-fill.md",
+          "sha": "b6d7f64678331986f766b14fe177479564fe5caa",
+          "type": "blob"
+        },
+        {
+          "path": "reports/agent-test/2026-08-14.md",
+          "sha": "ef34a37a34e927e134f6697d848dcca74b28f320",
+          "type": "blob"
+        },
+        {
+          "path": "schema",
+          "sha": "94781ca34ae2927e7f960941b523a20f421ff9bd",
+          "type": "tree"
+        },
+        {
+          "path": "schema/observation.schema.json",
+          "sha": "5ccd56f29e6372bb13d4b3fba63ca9aab4816401",
+          "type": "blob"
+        },
+        {
+          "path": "schema/plugin.schema.json",
+          "sha": "f80ea4e1cf440a1e766e6a75dcc80c654a00db0f",
+          "type": "blob"
+        },
+        {
+          "path": "schema/summary.schema.json",
+          "sha": "dd7de5be1a9efb324d99b7d762fd6998043716d6",
+          "type": "blob"
+        },
+        {
+          "path": "scripts",
+          "sha": "5840f41b75aa475366703565ada985fadeaebc94",
+          "type": "tree"
+        },
+        {
+          "path": "scripts/export-plugins-md.py",
+          "sha": "71be93daf3843913809bfeba7bd9dcafc99ecad8",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/gen-pipeline-diagram.py",
+          "sha": "80a7c0b1de50e3835c2629d63f354026e8f4ac2a",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/gen_plugins_all.py",
+          "sha": "9a9568cf41e6378fe7c962a16f803be9beca7e14",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/reconcile_catalog.py",
+          "sha": "fee405d8a3835c95bdc7ef8035e3ed71fd9b4141",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/refresh-featured.py",
+          "sha": "159f205eaed6f247f9df6ceb2620a29b1db56e32",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/render-readme-from-snapshot.py",
+          "sha": "271cd3f5a685ca1842e06706d9e103028ba0b6c7",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/resolve_placeholders.py",
+          "sha": "278c6c7ee5370bd57c908d0de0b8e11f38645fb6",
+          "type": "blob"
+        },
+        {
+          "path": "scripts/sync-runtime.py",
+          "sha": "be778c6120620a62e55d272420956b148545cd21",
+          "type": "blob"
+        }
+      ],
+      "entries": [
+        {
+          "name": "dsh-web-ui",
+          "owner": "zhu1090093659",
+          "url": "https://github.com/zhu1090093659/dsh-web-ui",
+          "source_url": "https://github.com/zhu1090093659/dsh-web-ui",
+          "category": "🔥 热门插件（Star Top 20）",
+          "description": "1",
+          "install": null,
+          "source_path": "README.md",
+          "source_line": 80,
+          "entry_kind": "plugin-candidate",
+          "repository_metadata": {
+            "full_name": "zhu1090093659/dsh-web-ui",
+            "html_url": "https://github.com/zhu1090093659/dsh-web-ui",
+            "default_branch": "main",
+            "description": "Plugin and skin collection for DeepSeek Harness (DSH) Web UI - task board, git graph, right-side panel, remote mobile UI, pet, live token stats, and skin center.",
+            "license_spdx": "Apache-2.0",
+            "stars": 2667,
+            "forks": 148,
+            "open_issues": 51,
+            "pushed_at": "2026-08-15T15:36:41Z",
+            "last_checked_at": "2026-08-15T19:07:58Z",
+            "readme_path": null,
+            "readme_sha": null,
+            "source_kind": "community-index",
+            "status": "ok"
+          },
+          "metrics": {
+            "stars": 2667,
+            "forks": 148,
+            "open_issues": 51,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          }
+        },
+        {
+          "name": "modlens",
+          "owner": "liustack",
+          "url": "https://github.com/liustack/modlens",
+          "source_url": "https://github.com/liustack/modlens",
+          "category": "🔥 热门插件（Star Top 20）",
+          "description": "2",
+          "install": null,
+          "source_path": "README.md",
+          "source_line": 81,
+          "entry_kind": "candidate",
+          "repository_metadata": {
+            "full_name": "liustack/modlens",
+            "html_url": "https://github.com/liustack/modlens",
+            "default_branch": "main",
+            "description": "The first vision plugin for DeepSeek Harness, and the vision bridge for every text-only coding agent. Paste an image, get structured JSON evidence (OCR, layout, semantics). | 全网第一个 DeepSeek Harness 视觉插件，为 DeepSeek、GLM 等纯文本模型外挂视觉能力，粘贴图片即得结构化 JSON 证据（OCR、版面、语义）。",
+            "license_spdx": "MIT",
+            "stars": 1873,
+            "forks": 49,
+            "open_issues": 7,
+            "pushed_at": "2026-08-15T15:28:00Z",
+            "last_checked_at": "2026-08-15T19:07:58Z",
+            "readme_path": null,
+            "readme_sha": null,
+            "source_kind": "community-index",
+            "status": "ok"
+          },
+          "metrics": {
+            "stars": 1873,
+            "forks": 49,
+            "open_issues": 7,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          }
+        },
+        {
+          "name": "TokenTracker",
+          "owner": "xiufengsun",
+          "url": "https://github.com/xiufengsun/TokenTracker",
+          "source_url": "https://github.com/xiufengsun/TokenTracker",
+          "category": "🔥 热门插件（Star Top 20）",
+          "description": "3",
+          "install": null,
+          "source_path": "README.md",
+          "source_line": 82,
+          "entry_kind": "candidate",
+          "repository_metadata": {
+            "full_name": "xiufengsun/TokenTracker",
+            "html_url": "https://github.com/xiufengsun/TokenTracker",
+            "default_branch": "main",
+            "description": "Local-first AI token usage & cost tracker for 31 coding tools incl. Claude Code, Codex, Cursor, Gemini & DeepSeek Harness—with native apps. Never reads prompts.",
+            "license_spdx": "MIT",
+            "stars": 1322,
+            "forks": 134,
+            "open_issues": 10,
+            "pushed_at": "2026-08-15T14:34:26Z",
+            "last_checked_at": "2026-08-15T19:07:58Z",
+            "readme_path": null,
+            "readme_sha": null,
+            "source_kind": "community-index",
+            "status": "ok"
+          },
+          "metrics": {
+            "stars": 1322,
+            "forks": 134,
+            "open_issues": 10,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          }
+        },
+        {
+          "name": "dsh-TUI",
+          "owner": "ccch1mneyyy",
+          "url": "https://github.com/ccch1mneyyy/dsh-TUI",
+          "source_url": "https://github.com/ccch1mneyyy/dsh-TUI",
+          "category": "🔥 热门插件（Star Top 20）",
+          "description": "4",
+          "install": null,
+          "source_path": "README.md",
+          "source_line": 83,
+          "entry_kind": "plugin-candidate",
+          "repository_metadata": {
+            "full_name": "ccch1mneyyy/dsh-TUI",
+            "html_url": "https://github.com/ccch1mneyyy/dsh-TUI",
+            "default_branch": "main",
+            "description": "解决DSH 官方尚无终端 TUI 痛点的补位之作，献给偏爱cli的各位极客：Claude Code 风格全屏交互终端插件——像素鲸鱼顶栏、实时工作状态行、思考流式展开、双击 Esc 回滚、上下文进度条 + TPS 仪表。npm 一键安装。",
+            "license_spdx": "MIT",
+            "stars": 1243,
+            "forks": 54,
+            "open_issues": 37,
+            "pushed_at": "2026-08-15T18:53:03Z",
+            "last_checked_at": "2026-08-15T19:07:58Z",
+            "readme_path": null,
+            "readme_sha": null,
+            "source_kind": "community-index",
+            "status": "ok"
+          },
+          "metrics": {
+            "stars": 1243,
+            "forks": 54,
+            "open_issues": 37,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          }
+        },
+        {
+          "name": "DSH-better-sidebar",
+          "owner": "omdsh-dev",
+          "url": "https://github.com/omdsh-dev/DSH-better-sidebar",
+          "source_url": "https://github.com/omdsh-dev/DSH-better-sidebar",
+          "category": "🔥 热门插件（Star Top 20）",
+          "description": "5",
+          "install": null,
+          "source_path": "README.md",
+          "source_line": 84,
+          "entry_kind": "plugin-candidate",
+          "repository_metadata": {
+            "full_name": "omdsh-dev/DSH-better-sidebar",
+            "html_url": "https://github.com/omdsh-dev/DSH-better-sidebar",
+            "default_branch": "main",
+            "description": "一个侧边栏的完整工作台，支持三方拓展注册新侧边栏页面。内置文件渲染编辑/终端/Git/子代理",
+            "license_spdx": "MIT",
+            "stars": 1237,
+            "forks": 76,
+            "open_issues": 50,
+            "pushed_at": "2026-08-15T15:37:06Z",
+            "last_checked_at": "2026-08-15T19:07:58Z",
+            "readme_path": null,
+            "readme_sha": null,
+            "source_kind": "community-index",
+            "status": "ok"
+          },
+          "metrics": {
+            "stars": 1237,
+            "forks": 76,
+            "open_issues": 50,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          }
+        },
+        {
+          "name": "PicGo-Core",
+          "owner": "PicGo",
+          "url": "https://github.com/PicGo/PicGo-Core",
+          "source_url": "https://github.com/PicGo/PicGo-Core",
+          "category": "🔥 热门插件（Star Top 20）",
+          "description": "6",
+          "install": null,
+          "source_path": "README.md",
+          "source_line": 85,
+          "entry_kind": "candidate",
+          "repository_metadata": {
+            "full_name": "PicGo/PicGo-Core",
+            "html_url": "https://github.com/PicGo/PicGo-Core",
+            "default_branch": "dev",
+            "description": ":zap:The ultimate image uploading engine. Both CLI & API supports.",
+            "license_spdx": "MIT",
+            "stars": 972,
+            "forks": 99,
+            "open_issues": 14,
+            "pushed_at": "2026-07-12T02:57:43Z",
+            "last_checked_at": "2026-08-15T19:07:58Z",
+            "readme_path": null,
+            "readme_sha": null,
+            "source_kind": "community-index",
+            "status": "ok"
+          },
+          "metrics": {
+            "stars": 972,
+            "forks": 99,
+            "open_issues": 14,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          }
+        },
+        {
+          "name": "sandbase-harness",
+          "owner": "sandbaseai",
+          "url": "https://github.com/sandbaseai/sandbase-harness",
+          "source_url": "https://github.com/sandbaseai/sandbase-harness",
+          "category": "🔥 热门插件（Star Top 20）",
+          "description": "7",
+          "install": null,
+          "source_path": "README.md",
+          "source_line": 86,
+          "entry_kind": "candidate",
+          "repository_metadata": {
+            "full_name": "sandbaseai/sandbase-harness",
+            "html_url": "https://github.com/sandbaseai/sandbase-harness",
+            "default_branch": "main",
+            "description": "Open-source CMA-compatible agent runtime for any model, with MCP tools, sandboxed sessions, audit, replay, and a local console. Includes a native DeepSeek Harness bundle over stdio MCP.",
+            "license_spdx": "Apache-2.0",
+            "stars": 590,
+            "forks": 56,
+            "open_issues": 4,
+            "pushed_at": "2026-08-15T12:10:33Z",
+            "last_checked_at": "2026-08-15T19:07:58Z",
+            "readme_path": null,
+            "readme_sha": null,
+            "source_kind": "community-index",
+            "status": "ok"
+          },
+          "metrics": {
+            "stars": 590,
+            "forks": 56,
+            "open_issues": 4,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          }
+        },
+        {
+          "name": "dsh-vision-toolkit",
+          "owner": "Anionex",
+          "url": "https://github.com/Anionex/dsh-vision-toolkit",
+          "source_url": "https://github.com/Anionex/dsh-vision-toolkit",
+          "category": "🔥 热门插件（Star Top 20）",
+          "description": "8",
+          "install": null,
+          "source_path": "README.md",
+          "source_line": 87,
+          "entry_kind": "plugin-candidate",
+          "repository_metadata": {
+            "full_name": "Anionex/dsh-vision-toolkit",
+            "html_url": "https://github.com/Anionex/dsh-vision-toolkit",
+            "default_branch": "main",
+            "description": "让纯文本模型更好地做视觉任务的DeepSeek Harness插件：带意图的图片问答、长截图 OCR、UI 还原等｜DeepSeek Harness-native integration for agent-vision-toolkit: image Q&A, long-screenshot OCR, UI restoration, grounding, pixel diff, Artifacts, and Web UI.",
+            "license_spdx": "MIT",
+            "stars": 429,
+            "forks": 21,
+            "open_issues": 3,
+            "pushed_at": "2026-08-15T18:08:38Z",
+            "last_checked_at": "2026-08-15T19:07:58Z",
+            "readme_path": null,
+            "readme_sha": null,
+            "source_kind": "community-index",
+            "status": "ok"
+          },
+          "metrics": {
+            "stars": 429,
+            "forks": 21,
+            "open_issues": 3,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          }
+        },
+        {
+          "name": "dsh-ads",
+          "owner": "Nagi-ovo",
+          "url": "https://github.com/Nagi-ovo/dsh-ads",
+          "source_url": "https://github.com/Nagi-ovo/dsh-ads",
+          "category": "🔥 热门插件（Star Top 20）",
+          "description": "9",
+          "install": null,
+          "source_path": "README.md",
+          "source_line": 88,
+          "entry_kind": "plugin-candidate",
+          "repository_metadata": {
+            "full_name": "Nagi-ovo/dsh-ads",
+            "html_url": "https://github.com/Nagi-ovo/dsh-ads",
+            "default_branch": "main",
+            "description": "把 DSH 变成 2005 年门户网站｜Parody ads, fake games, and popups for the DSH Web UI",
+            "license_spdx": "BSD-3-Clause",
+            "stars": 407,
+            "forks": 2,
+            "open_issues": 10,
+            "pushed_at": "2026-08-15T15:58:19Z",
+            "last_checked_at": "2026-08-15T19:07:58Z",
+            "readme_path": null,
+            "readme_sha": null,
+            "source_kind": "community-index",
+            "status": "ok"
+          },
+          "metrics": {
+            "stars": 407,
+            "forks": 2,
+            "open_issues": 10,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          }
+        },
+        {
+          "name": "dsh-agent-teams",
+          "owner": "NanmiCoder",
+          "url": "https://github.com/NanmiCoder/dsh-agent-teams",
+          "source_url": "https://github.com/NanmiCoder/dsh-agent-teams",
+          "category": "🔥 热门插件（Star Top 20）",
+          "description": "10",
+          "install": null,
+          "source_path": "README.md",
+          "source_line": 89,
+          "entry_kind": "plugin-candidate",
+          "repository_metadata": {
+            "full_name": "NanmiCoder/dsh-agent-teams",
+            "html_url": "https://github.com/NanmiCoder/dsh-agent-teams",
+            "default_branch": "main",
+            "description": "AgentTeams plugin for DeepSeek Harness",
+            "license_spdx": "MIT",
+            "stars": 332,
+            "forks": 30,
+            "open_issues": 7,
+            "pushed_at": "2026-08-15T15:05:18Z",
+            "last_checked_at": "2026-08-15T19:07:58Z",
+            "readme_path": null,
+            "readme_sha": null,
+            "source_kind": "community-index",
+            "status": "ok"
+          },
+          "metrics": {
+            "stars": 332,
+            "forks": 30,
+            "open_issues": 7,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          }
+        },
+        {
+          "name": "Abu-Cowork",
+          "owner": "PM-Shawn",
+          "url": "https://github.com/PM-Shawn/Abu-Cowork",
+          "source_url": "https://github.com/PM-Shawn/Abu-Cowork",
+          "category": "🔥 热门插件（Star Top 20）",
+          "description": "11",
+          "install": null,
+          "source_path": "README.md",
+          "source_line": 90,
+          "entry_kind": "candidate",
+          "repository_metadata": {
+            "full_name": "PM-Shawn/Abu-Cowork",
+            "html_url": "https://github.com/PM-Shawn/Abu-Cowork",
+            "default_branch": "main",
+            "description": "Open-source alternative to Claude Cowork — a local-first AI agent desktop app · multi-model · self-evolving skills · privacy-first · multi-Harness roadmap · DeepSeek Harness integration in progress",
+            "license_spdx": "NOASSERTION",
+            "stars": 329,
+            "forks": 77,
+            "open_issues": 20,
+            "pushed_at": "2026-08-14T07:01:17Z",
+            "last_checked_at": "2026-08-15T19:07:58Z",
+            "readme_path": null,
+            "readme_sha": null,
+            "source_kind": "community-index",
+            "status": "ok"
+          },
+          "metrics": {
+            "stars": 329,
+            "forks": 77,
+            "open_issues": 20,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          }
+        },
+        {
+          "name": "dsh-at-file",
+          "owner": "omdsh-dev",
+          "url": "https://github.com/omdsh-dev/dsh-at-file",
+          "source_url": "https://github.com/omdsh-dev/dsh-at-file",
+          "category": "🔥 热门插件（Star Top 20）",
+          "description": "12",
+          "install": null,
+          "source_path": "README.md",
+          "source_line": 91,
+          "entry_kind": "plugin-candidate",
+          "repository_metadata": {
+            "full_name": "omdsh-dev/dsh-at-file",
+            "html_url": "https://github.com/omdsh-dev/dsh-at-file",
+            "default_branch": "main",
+            "description": "Codex-style @file mentions for DeepSeek Harness: search workspace files in the composer and attach their contents to prompts.",
+            "license_spdx": "MIT",
+            "stars": 218,
+            "forks": 8,
+            "open_issues": 0,
+            "pushed_at": "2026-08-14T16:15:06Z",
+            "last_checked_at": "2026-08-15T19:07:58Z",
+            "readme_path": null,
+            "readme_sha": null,
+            "source_kind": "community-index",
+            "status": "ok"
+          },
+          "metrics": {
+            "stars": 218,
+            "forks": 8,
+            "open_issues": 0,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          }
+        },
+        {
+          "name": "Bigfish",
+          "owner": "turtle2209",
+          "url": "https://github.com/turtle2209/Bigfish",
+          "source_url": "https://github.com/turtle2209/Bigfish",
+          "category": "🔥 热门插件（Star Top 20）",
+          "description": "13",
+          "install": null,
+          "source_path": "README.md",
+          "source_line": 92,
+          "entry_kind": "candidate",
+          "repository_metadata": {
+            "full_name": "turtle2209/Bigfish",
+            "html_url": "https://github.com/turtle2209/Bigfish",
+            "default_branch": "main",
+            "description": "Bigfish —— DeepSeek Harness 的第三方桌面端，内置 Node 运行时，双击即用，附带桌面萌宠。",
+            "license_spdx": "MIT",
+            "stars": 211,
+            "forks": 9,
+            "open_issues": 4,
+            "pushed_at": "2026-08-15T04:12:23Z",
+            "last_checked_at": "2026-08-15T19:07:58Z",
+            "readme_path": null,
+            "readme_sha": null,
+            "source_kind": "community-index",
+            "status": "ok"
+          },
+          "metrics": {
+            "stars": 211,
+            "forks": 9,
+            "open_issues": 4,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          }
+        },
+        {
+          "name": "oh-dsh",
+          "owner": "hust-open-atom-club",
+          "url": "https://github.com/hust-open-atom-club/oh-dsh",
+          "source_url": "https://github.com/hust-open-atom-club/oh-dsh",
+          "category": "🔥 热门插件（Star Top 20）",
+          "description": "14",
+          "install": null,
+          "source_path": "README.md",
+          "source_line": 93,
+          "entry_kind": "candidate",
+          "repository_metadata": {
+            "full_name": "hust-open-atom-club/oh-dsh",
+            "html_url": "https://github.com/hust-open-atom-club/oh-dsh",
+            "default_branch": "main",
+            "description": " 一套 DSH runtime，Desktop、Web 与 TUI 三种开发体验。",
+            "license_spdx": "MIT",
+            "stars": 193,
+            "forks": 15,
+            "open_issues": 13,
+            "pushed_at": "2026-08-15T19:07:27Z",
+            "last_checked_at": "2026-08-15T19:07:58Z",
+            "readme_path": null,
+            "readme_sha": null,
+            "source_kind": "community-index",
+            "status": "ok"
+          },
+          "metrics": {
+            "stars": 193,
+            "forks": 15,
+            "open_issues": 13,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          }
+        },
+        {
+          "name": "whale-girl",
+          "owner": "vlln",
+          "url": "https://github.com/vlln/whale-girl",
+          "source_url": "https://github.com/vlln/whale-girl",
+          "category": "🔥 热门插件（Star Top 20）",
+          "description": "15",
+          "install": null,
+          "source_path": "README.md",
+          "source_line": 94,
+          "entry_kind": "candidate",
+          "repository_metadata": {
+            "full_name": "vlln/whale-girl",
+            "html_url": "https://github.com/vlln/whale-girl",
+            "default_branch": "main",
+            "description": "DSH Web GUI 桌面宠物插件（QQ 宠物形态）：右下角悬浮、可拖拽/投喂/玩耍的积累型伙伴。",
+            "license_spdx": "MIT",
+            "stars": 169,
+            "forks": 8,
+            "open_issues": 3,
+            "pushed_at": "2026-08-15T15:15:20Z",
+            "last_checked_at": "2026-08-15T19:07:58Z",
+            "readme_path": null,
+            "readme_sha": null,
+            "source_kind": "community-index",
+            "status": "ok"
+          },
+          "metrics": {
+            "stars": 169,
+            "forks": 8,
+            "open_issues": 3,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          }
+        },
+        {
+          "name": "dsh-tianshu-tui",
+          "owner": "huiliyi37",
+          "url": "https://github.com/huiliyi37/dsh-tianshu-tui",
+          "source_url": "https://github.com/huiliyi37/dsh-tianshu-tui",
+          "category": "🔥 热门插件（Star Top 20）",
+          "description": "16",
+          "install": null,
+          "source_path": "README.md",
+          "source_line": 95,
+          "entry_kind": "plugin-candidate",
+          "repository_metadata": {
+            "full_name": "huiliyi37/dsh-tianshu-tui",
+            "html_url": "https://github.com/huiliyi37/dsh-tianshu-tui",
+            "default_branch": "main",
+            "description": "dsh-tianshu-tui — DeepSeek Harness terminal UI +harness workflow。是官方 DeepSeek Harness 上的交互式终端 UI 插件。渲染核心从本仓库自研的harness agent  Tianshu-Tui 演进而来，在官方的基础上增加了TDD、证据门、视觉图像模块等工作流。",
+            "license_spdx": "Apache-2.0",
+            "stars": 169,
+            "forks": 6,
+            "open_issues": 2,
+            "pushed_at": "2026-08-15T17:34:51Z",
+            "last_checked_at": "2026-08-15T19:07:58Z",
+            "readme_path": null,
+            "readme_sha": null,
+            "source_kind": "community-index",
+            "status": "ok"
+          },
+          "metrics": {
+            "stars": 169,
+            "forks": 6,
+            "open_issues": 2,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          }
+        },
+        {
+          "name": "dsh-browser",
+          "owner": "Lum1104",
+          "url": "https://github.com/Lum1104/dsh-browser",
+          "source_url": "https://github.com/Lum1104/dsh-browser",
+          "category": "🔥 热门插件（Star Top 20）",
+          "description": "17",
+          "install": null,
+          "source_path": "README.md",
+          "source_line": 96,
+          "entry_kind": "plugin-candidate",
+          "repository_metadata": {
+            "full_name": "Lum1104/dsh-browser",
+            "html_url": "https://github.com/Lum1104/dsh-browser",
+            "default_branch": "main",
+            "description": "dsh plugin: Chrome sidebar extension that lets DSH operate your browser directly—no vision capabilities required. dsh 插件：一款 Chrome 侧边栏扩展程序，可让 DSH 直接操控您的浏览器——无需视觉能力。",
+            "license_spdx": "MIT",
+            "stars": 159,
+            "forks": 11,
+            "open_issues": 2,
+            "pushed_at": "2026-08-15T16:16:37Z",
+            "last_checked_at": "2026-08-15T19:07:58Z",
+            "readme_path": null,
+            "readme_sha": null,
+            "source_kind": "community-index",
+            "status": "ok"
+          },
+          "metrics": {
+            "stars": 159,
+            "forks": 11,
+            "open_issues": 2,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          }
+        },
+        {
+          "name": "dsh-vision-router",
+          "owner": "ysr666",
+          "url": "https://github.com/ysr666/dsh-vision-router",
+          "source_url": "https://github.com/ysr666/dsh-vision-router",
+          "category": "🔥 热门插件（Star Top 20）",
+          "description": "18",
+          "install": null,
+          "source_path": "README.md",
+          "source_line": 97,
+          "entry_kind": "plugin-candidate",
+          "repository_metadata": {
+            "full_name": "ysr666/dsh-vision-router",
+            "html_url": "https://github.com/ysr666/dsh-vision-router",
+            "default_branch": "main",
+            "description": "Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools (Q&A, grounding, crop, pixel diff, colors, OCR, SVG trace, cutout, screenshots). One-command install, no Python, image turns work like ordinary tool-calling turns.",
+            "license_spdx": "MIT",
+            "stars": 138,
+            "forks": 12,
+            "open_issues": 4,
+            "pushed_at": "2026-08-15T18:43:43Z",
+            "last_checked_at": "2026-08-15T19:07:58Z",
+            "readme_path": null,
+            "readme_sha": null,
+            "source_kind": "community-index",
+            "status": "ok"
+          },
+          "metrics": {
+            "stars": 138,
+            "forks": 12,
+            "open_issues": 4,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          }
+        },
+        {
+          "name": "dsh-visualize",
+          "owner": "Nagi-ovo",
+          "url": "https://github.com/Nagi-ovo/dsh-visualize",
+          "source_url": "https://github.com/Nagi-ovo/dsh-visualize",
+          "category": "🔥 热门插件（Star Top 20）",
+          "description": "19",
+          "install": null,
+          "source_path": "README.md",
+          "source_line": 98,
+          "entry_kind": "plugin-candidate",
+          "repository_metadata": {
+            "full_name": "Nagi-ovo/dsh-visualize",
+            "html_url": "https://github.com/Nagi-ovo/dsh-visualize",
+            "default_branch": "main",
+            "description": "在 DSH 对话中生成交互式可视化｜Render model-generated interactive cards inside DSH conversations",
+            "license_spdx": "BSD-3-Clause",
+            "stars": 117,
+            "forks": 3,
+            "open_issues": 2,
+            "pushed_at": "2026-08-15T15:58:20Z",
+            "last_checked_at": "2026-08-15T19:07:58Z",
+            "readme_path": null,
+            "readme_sha": null,
+            "source_kind": "community-index",
+            "status": "ok"
+          },
+          "metrics": {
+            "stars": 117,
+            "forks": 3,
+            "open_issues": 2,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          }
+        },
+        {
+          "name": "deepseek-harness-desktop-app",
+          "owner": "vibeinging",
+          "url": "https://github.com/vibeinging/deepseek-harness-desktop-app",
+          "source_url": "https://github.com/vibeinging/deepseek-harness-desktop-app",
+          "category": "🔥 热门插件（Star Top 20）",
+          "description": "20",
+          "install": null,
+          "source_path": "README.md",
+          "source_line": 99,
+          "entry_kind": "plugin-candidate",
+          "repository_metadata": {
+            "full_name": "vibeinging/deepseek-harness-desktop-app",
+            "html_url": "https://github.com/vibeinging/deepseek-harness-desktop-app",
+            "default_branch": "dev",
+            "description": "DeepSeek Harness Desktop App: a local AI desktop workspace for DSH Sessions, projects, files, web research, plugins, and Office artifacts.",
+            "license_spdx": "MIT",
+            "stars": 115,
+            "forks": 4,
+            "open_issues": 4,
+            "pushed_at": "2026-08-15T08:56:28Z",
+            "last_checked_at": "2026-08-15T19:07:58Z",
+            "readme_path": null,
+            "readme_sha": null,
+            "source_kind": "community-index",
+            "status": "ok"
+          },
+          "metrics": {
+            "stars": 115,
+            "forks": 4,
+            "open_issues": 4,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          }
+        },
+        {
+          "name": "GitHub",
+          "owner": "hikariming",
+          "url": "https://github.com/hikariming/dshfind",
+          "source_url": "https://github.com/hikariming/dshfind",
+          "category": "🌐 DSH 学习社区 dshfind.com",
+          "description": null,
+          "install": null,
+          "source_path": "README.md",
+          "source_line": 127,
+          "entry_kind": "candidate",
+          "repository_metadata": {
+            "full_name": "hikariming/dshfind",
+            "html_url": "https://github.com/hikariming/dshfind",
+            "default_branch": "main",
+            "description": "DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices",
+            "license_spdx": null,
+            "stars": 84,
+            "forks": 2,
+            "open_issues": 1,
+            "pushed_at": "2026-08-15T19:05:04Z",
+            "last_checked_at": "2026-08-15T19:07:58Z",
+            "readme_path": null,
+            "readme_sha": null,
+            "source_kind": "community-index",
+            "status": "ok"
+          },
+          "metrics": {
+            "stars": 84,
+            "forks": 2,
+            "open_issues": 1,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          }
+        }
+      ]
+    }
+  ],
+  "observations": [
+    {
+      "platform": "github",
+      "query": "upstream:AdamPlatin123/awesome-dsh-plugins",
+      "source_url": "https://github.com/AdamPlatin123/awesome-dsh-plugins",
+      "collected_at": "2026-08-15T19:07:58Z",
+      "collector": "scripts/monitor_sources.py",
+      "method": "GitHub repository API + public raw files",
+      "status": "ok",
+      "result_count": 21,
+      "notes": "Entries are upstream references; repository source remains authoritative.",
+      "items": [
+        {
+          "platform": "github",
+          "external_id": "AdamPlatin123/awesome-dsh-plugins",
+          "url": "https://github.com/AdamPlatin123/awesome-dsh-plugins",
+          "item_type": "source-repository",
+          "title": "AdamPlatin123/awesome-dsh-plugins",
+          "author": "AdamPlatin123",
+          "content_text": "前部索引仓库（Radar）：自动扫描发现的所有 dsh 插件候选；经测试合格的将移入后序精选目录仓库",
+          "media_kind": "none",
+          "metrics": {
+            "stars": 966,
+            "forks": 84,
+            "open_issues": 8,
+            "metric_source": "GitHub repository API",
+            "observed_at": "2026-08-15T19:07:58Z"
+          },
+          "tags": [
+            "upstream-index",
+            "source-repository",
+            "community-index"
+          ]
+        },
+        {
+          "platform": "github",
+          "external_id": "zhu1090093659/dsh-web-ui",
+          "url": "https://github.com/zhu1090093659/dsh-web-ui",
+          "item_type": "plugin",
+          "title": "dsh-web-ui",
+          "author": "zhu1090093659",
+          "content_text": "1",
+          "published_label": null,
+          "media_kind": "none",
+          "metrics": {
+            "stars": 2667,
+            "forks": 148,
+            "open_issues": 51,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          },
+          "tags": [
+            "upstream-index",
+            "AdamPlatin123/awesome-dsh-plugins",
+            "🔥 热门插件（Star Top 20）",
+            "plugin-candidate"
+          ],
+          "source_entry": {
+            "name": "dsh-web-ui",
+            "owner": "zhu1090093659",
+            "url": "https://github.com/zhu1090093659/dsh-web-ui",
+            "source_url": "https://github.com/zhu1090093659/dsh-web-ui",
+            "category": "🔥 热门插件（Star Top 20）",
+            "description": "1",
+            "install": null,
+            "source_path": "README.md",
+            "source_line": 80,
+            "entry_kind": "plugin-candidate",
+            "repository_metadata": {
+              "full_name": "zhu1090093659/dsh-web-ui",
+              "html_url": "https://github.com/zhu1090093659/dsh-web-ui",
+              "default_branch": "main",
+              "description": "Plugin and skin collection for DeepSeek Harness (DSH) Web UI - task board, git graph, right-side panel, remote mobile UI, pet, live token stats, and skin center.",
+              "license_spdx": "Apache-2.0",
+              "stars": 2667,
+              "forks": 148,
+              "open_issues": 51,
+              "pushed_at": "2026-08-15T15:36:41Z",
+              "last_checked_at": "2026-08-15T19:07:58Z",
+              "readme_path": null,
+              "readme_sha": null,
+              "source_kind": "community-index",
+              "status": "ok"
+            },
+            "metrics": {
+              "stars": 2667,
+              "forks": 148,
+              "open_issues": 51,
+              "metric_source": "GitHub repository API via upstream index",
+              "observed_at": "2026-08-15T19:07:58Z"
+            }
+          }
+        },
+        {
+          "platform": "github",
+          "external_id": "liustack/modlens",
+          "url": "https://github.com/liustack/modlens",
+          "item_type": "ecosystem-reference",
+          "title": "modlens",
+          "author": "liustack",
+          "content_text": "2",
+          "published_label": null,
+          "media_kind": "none",
+          "metrics": {
+            "stars": 1873,
+            "forks": 49,
+            "open_issues": 7,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          },
+          "tags": [
+            "upstream-index",
+            "AdamPlatin123/awesome-dsh-plugins",
+            "🔥 热门插件（Star Top 20）",
+            "candidate"
+          ],
+          "source_entry": {
+            "name": "modlens",
+            "owner": "liustack",
+            "url": "https://github.com/liustack/modlens",
+            "source_url": "https://github.com/liustack/modlens",
+            "category": "🔥 热门插件（Star Top 20）",
+            "description": "2",
+            "install": null,
+            "source_path": "README.md",
+            "source_line": 81,
+            "entry_kind": "candidate",
+            "repository_metadata": {
+              "full_name": "liustack/modlens",
+              "html_url": "https://github.com/liustack/modlens",
+              "default_branch": "main",
+              "description": "The first vision plugin for DeepSeek Harness, and the vision bridge for every text-only coding agent. Paste an image, get structured JSON evidence (OCR, layout, semantics). | 全网第一个 DeepSeek Harness 视觉插件，为 DeepSeek、GLM 等纯文本模型外挂视觉能力，粘贴图片即得结构化 JSON 证据（OCR、版面、语义）。",
+              "license_spdx": "MIT",
+              "stars": 1873,
+              "forks": 49,
+              "open_issues": 7,
+              "pushed_at": "2026-08-15T15:28:00Z",
+              "last_checked_at": "2026-08-15T19:07:58Z",
+              "readme_path": null,
+              "readme_sha": null,
+              "source_kind": "community-index",
+              "status": "ok"
+            },
+            "metrics": {
+              "stars": 1873,
+              "forks": 49,
+              "open_issues": 7,
+              "metric_source": "GitHub repository API via upstream index",
+              "observed_at": "2026-08-15T19:07:58Z"
+            }
+          }
+        },
+        {
+          "platform": "github",
+          "external_id": "xiufengsun/TokenTracker",
+          "url": "https://github.com/xiufengsun/TokenTracker",
+          "item_type": "ecosystem-reference",
+          "title": "TokenTracker",
+          "author": "xiufengsun",
+          "content_text": "3",
+          "published_label": null,
+          "media_kind": "none",
+          "metrics": {
+            "stars": 1322,
+            "forks": 134,
+            "open_issues": 10,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          },
+          "tags": [
+            "upstream-index",
+            "AdamPlatin123/awesome-dsh-plugins",
+            "🔥 热门插件（Star Top 20）",
+            "candidate"
+          ],
+          "source_entry": {
+            "name": "TokenTracker",
+            "owner": "xiufengsun",
+            "url": "https://github.com/xiufengsun/TokenTracker",
+            "source_url": "https://github.com/xiufengsun/TokenTracker",
+            "category": "🔥 热门插件（Star Top 20）",
+            "description": "3",
+            "install": null,
+            "source_path": "README.md",
+            "source_line": 82,
+            "entry_kind": "candidate",
+            "repository_metadata": {
+              "full_name": "xiufengsun/TokenTracker",
+              "html_url": "https://github.com/xiufengsun/TokenTracker",
+              "default_branch": "main",
+              "description": "Local-first AI token usage & cost tracker for 31 coding tools incl. Claude Code, Codex, Cursor, Gemini & DeepSeek Harness—with native apps. Never reads prompts.",
+              "license_spdx": "MIT",
+              "stars": 1322,
+              "forks": 134,
+              "open_issues": 10,
+              "pushed_at": "2026-08-15T14:34:26Z",
+              "last_checked_at": "2026-08-15T19:07:58Z",
+              "readme_path": null,
+              "readme_sha": null,
+              "source_kind": "community-index",
+              "status": "ok"
+            },
+            "metrics": {
+              "stars": 1322,
+              "forks": 134,
+              "open_issues": 10,
+              "metric_source": "GitHub repository API via upstream index",
+              "observed_at": "2026-08-15T19:07:58Z"
+            }
+          }
+        },
+        {
+          "platform": "github",
+          "external_id": "ccch1mneyyy/dsh-TUI",
+          "url": "https://github.com/ccch1mneyyy/dsh-TUI",
+          "item_type": "plugin",
+          "title": "dsh-TUI",
+          "author": "ccch1mneyyy",
+          "content_text": "4",
+          "published_label": null,
+          "media_kind": "none",
+          "metrics": {
+            "stars": 1243,
+            "forks": 54,
+            "open_issues": 37,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          },
+          "tags": [
+            "upstream-index",
+            "AdamPlatin123/awesome-dsh-plugins",
+            "🔥 热门插件（Star Top 20）",
+            "plugin-candidate"
+          ],
+          "source_entry": {
+            "name": "dsh-TUI",
+            "owner": "ccch1mneyyy",
+            "url": "https://github.com/ccch1mneyyy/dsh-TUI",
+            "source_url": "https://github.com/ccch1mneyyy/dsh-TUI",
+            "category": "🔥 热门插件（Star Top 20）",
+            "description": "4",
+            "install": null,
+            "source_path": "README.md",
+            "source_line": 83,
+            "entry_kind": "plugin-candidate",
+            "repository_metadata": {
+              "full_name": "ccch1mneyyy/dsh-TUI",
+              "html_url": "https://github.com/ccch1mneyyy/dsh-TUI",
+              "default_branch": "main",
+              "description": "解决DSH 官方尚无终端 TUI 痛点的补位之作，献给偏爱cli的各位极客：Claude Code 风格全屏交互终端插件——像素鲸鱼顶栏、实时工作状态行、思考流式展开、双击 Esc 回滚、上下文进度条 + TPS 仪表。npm 一键安装。",
+              "license_spdx": "MIT",
+              "stars": 1243,
+              "forks": 54,
+              "open_issues": 37,
+              "pushed_at": "2026-08-15T18:53:03Z",
+              "last_checked_at": "2026-08-15T19:07:58Z",
+              "readme_path": null,
+              "readme_sha": null,
+              "source_kind": "community-index",
+              "status": "ok"
+            },
+            "metrics": {
+              "stars": 1243,
+              "forks": 54,
+              "open_issues": 37,
+              "metric_source": "GitHub repository API via upstream index",
+              "observed_at": "2026-08-15T19:07:58Z"
+            }
+          }
+        },
+        {
+          "platform": "github",
+          "external_id": "omdsh-dev/DSH-better-sidebar",
+          "url": "https://github.com/omdsh-dev/DSH-better-sidebar",
+          "item_type": "plugin",
+          "title": "DSH-better-sidebar",
+          "author": "omdsh-dev",
+          "content_text": "5",
+          "published_label": null,
+          "media_kind": "none",
+          "metrics": {
+            "stars": 1237,
+            "forks": 76,
+            "open_issues": 50,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          },
+          "tags": [
+            "upstream-index",
+            "AdamPlatin123/awesome-dsh-plugins",
+            "🔥 热门插件（Star Top 20）",
+            "plugin-candidate"
+          ],
+          "source_entry": {
+            "name": "DSH-better-sidebar",
+            "owner": "omdsh-dev",
+            "url": "https://github.com/omdsh-dev/DSH-better-sidebar",
+            "source_url": "https://github.com/omdsh-dev/DSH-better-sidebar",
+            "category": "🔥 热门插件（Star Top 20）",
+            "description": "5",
+            "install": null,
+            "source_path": "README.md",
+            "source_line": 84,
+            "entry_kind": "plugin-candidate",
+            "repository_metadata": {
+              "full_name": "omdsh-dev/DSH-better-sidebar",
+              "html_url": "https://github.com/omdsh-dev/DSH-better-sidebar",
+              "default_branch": "main",
+              "description": "一个侧边栏的完整工作台，支持三方拓展注册新侧边栏页面。内置文件渲染编辑/终端/Git/子代理",
+              "license_spdx": "MIT",
+              "stars": 1237,
+              "forks": 76,
+              "open_issues": 50,
+              "pushed_at": "2026-08-15T15:37:06Z",
+              "last_checked_at": "2026-08-15T19:07:58Z",
+              "readme_path": null,
+              "readme_sha": null,
+              "source_kind": "community-index",
+              "status": "ok"
+            },
+            "metrics": {
+              "stars": 1237,
+              "forks": 76,
+              "open_issues": 50,
+              "metric_source": "GitHub repository API via upstream index",
+              "observed_at": "2026-08-15T19:07:58Z"
+            }
+          }
+        },
+        {
+          "platform": "github",
+          "external_id": "PicGo/PicGo-Core",
+          "url": "https://github.com/PicGo/PicGo-Core",
+          "item_type": "ecosystem-reference",
+          "title": "PicGo-Core",
+          "author": "PicGo",
+          "content_text": "6",
+          "published_label": null,
+          "media_kind": "none",
+          "metrics": {
+            "stars": 972,
+            "forks": 99,
+            "open_issues": 14,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          },
+          "tags": [
+            "upstream-index",
+            "AdamPlatin123/awesome-dsh-plugins",
+            "🔥 热门插件（Star Top 20）",
+            "candidate"
+          ],
+          "source_entry": {
+            "name": "PicGo-Core",
+            "owner": "PicGo",
+            "url": "https://github.com/PicGo/PicGo-Core",
+            "source_url": "https://github.com/PicGo/PicGo-Core",
+            "category": "🔥 热门插件（Star Top 20）",
+            "description": "6",
+            "install": null,
+            "source_path": "README.md",
+            "source_line": 85,
+            "entry_kind": "candidate",
+            "repository_metadata": {
+              "full_name": "PicGo/PicGo-Core",
+              "html_url": "https://github.com/PicGo/PicGo-Core",
+              "default_branch": "dev",
+              "description": ":zap:The ultimate image uploading engine. Both CLI & API supports.",
+              "license_spdx": "MIT",
+              "stars": 972,
+              "forks": 99,
+              "open_issues": 14,
+              "pushed_at": "2026-07-12T02:57:43Z",
+              "last_checked_at": "2026-08-15T19:07:58Z",
+              "readme_path": null,
+              "readme_sha": null,
+              "source_kind": "community-index",
+              "status": "ok"
+            },
+            "metrics": {
+              "stars": 972,
+              "forks": 99,
+              "open_issues": 14,
+              "metric_source": "GitHub repository API via upstream index",
+              "observed_at": "2026-08-15T19:07:58Z"
+            }
+          }
+        },
+        {
+          "platform": "github",
+          "external_id": "sandbaseai/sandbase-harness",
+          "url": "https://github.com/sandbaseai/sandbase-harness",
+          "item_type": "ecosystem-reference",
+          "title": "sandbase-harness",
+          "author": "sandbaseai",
+          "content_text": "7",
+          "published_label": null,
+          "media_kind": "none",
+          "metrics": {
+            "stars": 590,
+            "forks": 56,
+            "open_issues": 4,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          },
+          "tags": [
+            "upstream-index",
+            "AdamPlatin123/awesome-dsh-plugins",
+            "🔥 热门插件（Star Top 20）",
+            "candidate"
+          ],
+          "source_entry": {
+            "name": "sandbase-harness",
+            "owner": "sandbaseai",
+            "url": "https://github.com/sandbaseai/sandbase-harness",
+            "source_url": "https://github.com/sandbaseai/sandbase-harness",
+            "category": "🔥 热门插件（Star Top 20）",
+            "description": "7",
+            "install": null,
+            "source_path": "README.md",
+            "source_line": 86,
+            "entry_kind": "candidate",
+            "repository_metadata": {
+              "full_name": "sandbaseai/sandbase-harness",
+              "html_url": "https://github.com/sandbaseai/sandbase-harness",
+              "default_branch": "main",
+              "description": "Open-source CMA-compatible agent runtime for any model, with MCP tools, sandboxed sessions, audit, replay, and a local console. Includes a native DeepSeek Harness bundle over stdio MCP.",
+              "license_spdx": "Apache-2.0",
+              "stars": 590,
+              "forks": 56,
+              "open_issues": 4,
+              "pushed_at": "2026-08-15T12:10:33Z",
+              "last_checked_at": "2026-08-15T19:07:58Z",
+              "readme_path": null,
+              "readme_sha": null,
+              "source_kind": "community-index",
+              "status": "ok"
+            },
+            "metrics": {
+              "stars": 590,
+              "forks": 56,
+              "open_issues": 4,
+              "metric_source": "GitHub repository API via upstream index",
+              "observed_at": "2026-08-15T19:07:58Z"
+            }
+          }
+        },
+        {
+          "platform": "github",
+          "external_id": "Anionex/dsh-vision-toolkit",
+          "url": "https://github.com/Anionex/dsh-vision-toolkit",
+          "item_type": "plugin",
+          "title": "dsh-vision-toolkit",
+          "author": "Anionex",
+          "content_text": "8",
+          "published_label": null,
+          "media_kind": "none",
+          "metrics": {
+            "stars": 429,
+            "forks": 21,
+            "open_issues": 3,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          },
+          "tags": [
+            "upstream-index",
+            "AdamPlatin123/awesome-dsh-plugins",
+            "🔥 热门插件（Star Top 20）",
+            "plugin-candidate"
+          ],
+          "source_entry": {
+            "name": "dsh-vision-toolkit",
+            "owner": "Anionex",
+            "url": "https://github.com/Anionex/dsh-vision-toolkit",
+            "source_url": "https://github.com/Anionex/dsh-vision-toolkit",
+            "category": "🔥 热门插件（Star Top 20）",
+            "description": "8",
+            "install": null,
+            "source_path": "README.md",
+            "source_line": 87,
+            "entry_kind": "plugin-candidate",
+            "repository_metadata": {
+              "full_name": "Anionex/dsh-vision-toolkit",
+              "html_url": "https://github.com/Anionex/dsh-vision-toolkit",
+              "default_branch": "main",
+              "description": "让纯文本模型更好地做视觉任务的DeepSeek Harness插件：带意图的图片问答、长截图 OCR、UI 还原等｜DeepSeek Harness-native integration for agent-vision-toolkit: image Q&A, long-screenshot OCR, UI restoration, grounding, pixel diff, Artifacts, and Web UI.",
+              "license_spdx": "MIT",
+              "stars": 429,
+              "forks": 21,
+              "open_issues": 3,
+              "pushed_at": "2026-08-15T18:08:38Z",
+              "last_checked_at": "2026-08-15T19:07:58Z",
+              "readme_path": null,
+              "readme_sha": null,
+              "source_kind": "community-index",
+              "status": "ok"
+            },
+            "metrics": {
+              "stars": 429,
+              "forks": 21,
+              "open_issues": 3,
+              "metric_source": "GitHub repository API via upstream index",
+              "observed_at": "2026-08-15T19:07:58Z"
+            }
+          }
+        },
+        {
+          "platform": "github",
+          "external_id": "Nagi-ovo/dsh-ads",
+          "url": "https://github.com/Nagi-ovo/dsh-ads",
+          "item_type": "plugin",
+          "title": "dsh-ads",
+          "author": "Nagi-ovo",
+          "content_text": "9",
+          "published_label": null,
+          "media_kind": "none",
+          "metrics": {
+            "stars": 407,
+            "forks": 2,
+            "open_issues": 10,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          },
+          "tags": [
+            "upstream-index",
+            "AdamPlatin123/awesome-dsh-plugins",
+            "🔥 热门插件（Star Top 20）",
+            "plugin-candidate"
+          ],
+          "source_entry": {
+            "name": "dsh-ads",
+            "owner": "Nagi-ovo",
+            "url": "https://github.com/Nagi-ovo/dsh-ads",
+            "source_url": "https://github.com/Nagi-ovo/dsh-ads",
+            "category": "🔥 热门插件（Star Top 20）",
+            "description": "9",
+            "install": null,
+            "source_path": "README.md",
+            "source_line": 88,
+            "entry_kind": "plugin-candidate",
+            "repository_metadata": {
+              "full_name": "Nagi-ovo/dsh-ads",
+              "html_url": "https://github.com/Nagi-ovo/dsh-ads",
+              "default_branch": "main",
+              "description": "把 DSH 变成 2005 年门户网站｜Parody ads, fake games, and popups for the DSH Web UI",
+              "license_spdx": "BSD-3-Clause",
+              "stars": 407,
+              "forks": 2,
+              "open_issues": 10,
+              "pushed_at": "2026-08-15T15:58:19Z",
+              "last_checked_at": "2026-08-15T19:07:58Z",
+              "readme_path": null,
+              "readme_sha": null,
+              "source_kind": "community-index",
+              "status": "ok"
+            },
+            "metrics": {
+              "stars": 407,
+              "forks": 2,
+              "open_issues": 10,
+              "metric_source": "GitHub repository API via upstream index",
+              "observed_at": "2026-08-15T19:07:58Z"
+            }
+          }
+        },
+        {
+          "platform": "github",
+          "external_id": "NanmiCoder/dsh-agent-teams",
+          "url": "https://github.com/NanmiCoder/dsh-agent-teams",
+          "item_type": "plugin",
+          "title": "dsh-agent-teams",
+          "author": "NanmiCoder",
+          "content_text": "10",
+          "published_label": null,
+          "media_kind": "none",
+          "metrics": {
+            "stars": 332,
+            "forks": 30,
+            "open_issues": 7,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          },
+          "tags": [
+            "upstream-index",
+            "AdamPlatin123/awesome-dsh-plugins",
+            "🔥 热门插件（Star Top 20）",
+            "plugin-candidate"
+          ],
+          "source_entry": {
+            "name": "dsh-agent-teams",
+            "owner": "NanmiCoder",
+            "url": "https://github.com/NanmiCoder/dsh-agent-teams",
+            "source_url": "https://github.com/NanmiCoder/dsh-agent-teams",
+            "category": "🔥 热门插件（Star Top 20）",
+            "description": "10",
+            "install": null,
+            "source_path": "README.md",
+            "source_line": 89,
+            "entry_kind": "plugin-candidate",
+            "repository_metadata": {
+              "full_name": "NanmiCoder/dsh-agent-teams",
+              "html_url": "https://github.com/NanmiCoder/dsh-agent-teams",
+              "default_branch": "main",
+              "description": "AgentTeams plugin for DeepSeek Harness",
+              "license_spdx": "MIT",
+              "stars": 332,
+              "forks": 30,
+              "open_issues": 7,
+              "pushed_at": "2026-08-15T15:05:18Z",
+              "last_checked_at": "2026-08-15T19:07:58Z",
+              "readme_path": null,
+              "readme_sha": null,
+              "source_kind": "community-index",
+              "status": "ok"
+            },
+            "metrics": {
+              "stars": 332,
+              "forks": 30,
+              "open_issues": 7,
+              "metric_source": "GitHub repository API via upstream index",
+              "observed_at": "2026-08-15T19:07:58Z"
+            }
+          }
+        },
+        {
+          "platform": "github",
+          "external_id": "PM-Shawn/Abu-Cowork",
+          "url": "https://github.com/PM-Shawn/Abu-Cowork",
+          "item_type": "ecosystem-reference",
+          "title": "Abu-Cowork",
+          "author": "PM-Shawn",
+          "content_text": "11",
+          "published_label": null,
+          "media_kind": "none",
+          "metrics": {
+            "stars": 329,
+            "forks": 77,
+            "open_issues": 20,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          },
+          "tags": [
+            "upstream-index",
+            "AdamPlatin123/awesome-dsh-plugins",
+            "🔥 热门插件（Star Top 20）",
+            "candidate"
+          ],
+          "source_entry": {
+            "name": "Abu-Cowork",
+            "owner": "PM-Shawn",
+            "url": "https://github.com/PM-Shawn/Abu-Cowork",
+            "source_url": "https://github.com/PM-Shawn/Abu-Cowork",
+            "category": "🔥 热门插件（Star Top 20）",
+            "description": "11",
+            "install": null,
+            "source_path": "README.md",
+            "source_line": 90,
+            "entry_kind": "candidate",
+            "repository_metadata": {
+              "full_name": "PM-Shawn/Abu-Cowork",
+              "html_url": "https://github.com/PM-Shawn/Abu-Cowork",
+              "default_branch": "main",
+              "description": "Open-source alternative to Claude Cowork — a local-first AI agent desktop app · multi-model · self-evolving skills · privacy-first · multi-Harness roadmap · DeepSeek Harness integration in progress",
+              "license_spdx": "NOASSERTION",
+              "stars": 329,
+              "forks": 77,
+              "open_issues": 20,
+              "pushed_at": "2026-08-14T07:01:17Z",
+              "last_checked_at": "2026-08-15T19:07:58Z",
+              "readme_path": null,
+              "readme_sha": null,
+              "source_kind": "community-index",
+              "status": "ok"
+            },
+            "metrics": {
+              "stars": 329,
+              "forks": 77,
+              "open_issues": 20,
+              "metric_source": "GitHub repository API via upstream index",
+              "observed_at": "2026-08-15T19:07:58Z"
+            }
+          }
+        },
+        {
+          "platform": "github",
+          "external_id": "omdsh-dev/dsh-at-file",
+          "url": "https://github.com/omdsh-dev/dsh-at-file",
+          "item_type": "plugin",
+          "title": "dsh-at-file",
+          "author": "omdsh-dev",
+          "content_text": "12",
+          "published_label": null,
+          "media_kind": "none",
+          "metrics": {
+            "stars": 218,
+            "forks": 8,
+            "open_issues": 0,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          },
+          "tags": [
+            "upstream-index",
+            "AdamPlatin123/awesome-dsh-plugins",
+            "🔥 热门插件（Star Top 20）",
+            "plugin-candidate"
+          ],
+          "source_entry": {
+            "name": "dsh-at-file",
+            "owner": "omdsh-dev",
+            "url": "https://github.com/omdsh-dev/dsh-at-file",
+            "source_url": "https://github.com/omdsh-dev/dsh-at-file",
+            "category": "🔥 热门插件（Star Top 20）",
+            "description": "12",
+            "install": null,
+            "source_path": "README.md",
+            "source_line": 91,
+            "entry_kind": "plugin-candidate",
+            "repository_metadata": {
+              "full_name": "omdsh-dev/dsh-at-file",
+              "html_url": "https://github.com/omdsh-dev/dsh-at-file",
+              "default_branch": "main",
+              "description": "Codex-style @file mentions for DeepSeek Harness: search workspace files in the composer and attach their contents to prompts.",
+              "license_spdx": "MIT",
+              "stars": 218,
+              "forks": 8,
+              "open_issues": 0,
+              "pushed_at": "2026-08-14T16:15:06Z",
+              "last_checked_at": "2026-08-15T19:07:58Z",
+              "readme_path": null,
+              "readme_sha": null,
+              "source_kind": "community-index",
+              "status": "ok"
+            },
+            "metrics": {
+              "stars": 218,
+              "forks": 8,
+              "open_issues": 0,
+              "metric_source": "GitHub repository API via upstream index",
+              "observed_at": "2026-08-15T19:07:58Z"
+            }
+          }
+        },
+        {
+          "platform": "github",
+          "external_id": "turtle2209/Bigfish",
+          "url": "https://github.com/turtle2209/Bigfish",
+          "item_type": "ecosystem-reference",
+          "title": "Bigfish",
+          "author": "turtle2209",
+          "content_text": "13",
+          "published_label": null,
+          "media_kind": "none",
+          "metrics": {
+            "stars": 211,
+            "forks": 9,
+            "open_issues": 4,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          },
+          "tags": [
+            "upstream-index",
+            "AdamPlatin123/awesome-dsh-plugins",
+            "🔥 热门插件（Star Top 20）",
+            "candidate"
+          ],
+          "source_entry": {
+            "name": "Bigfish",
+            "owner": "turtle2209",
+            "url": "https://github.com/turtle2209/Bigfish",
+            "source_url": "https://github.com/turtle2209/Bigfish",
+            "category": "🔥 热门插件（Star Top 20）",
+            "description": "13",
+            "install": null,
+            "source_path": "README.md",
+            "source_line": 92,
+            "entry_kind": "candidate",
+            "repository_metadata": {
+              "full_name": "turtle2209/Bigfish",
+              "html_url": "https://github.com/turtle2209/Bigfish",
+              "default_branch": "main",
+              "description": "Bigfish —— DeepSeek Harness 的第三方桌面端，内置 Node 运行时，双击即用，附带桌面萌宠。",
+              "license_spdx": "MIT",
+              "stars": 211,
+              "forks": 9,
+              "open_issues": 4,
+              "pushed_at": "2026-08-15T04:12:23Z",
+              "last_checked_at": "2026-08-15T19:07:58Z",
+              "readme_path": null,
+              "readme_sha": null,
+              "source_kind": "community-index",
+              "status": "ok"
+            },
+            "metrics": {
+              "stars": 211,
+              "forks": 9,
+              "open_issues": 4,
+              "metric_source": "GitHub repository API via upstream index",
+              "observed_at": "2026-08-15T19:07:58Z"
+            }
+          }
+        },
+        {
+          "platform": "github",
+          "external_id": "hust-open-atom-club/oh-dsh",
+          "url": "https://github.com/hust-open-atom-club/oh-dsh",
+          "item_type": "ecosystem-reference",
+          "title": "oh-dsh",
+          "author": "hust-open-atom-club",
+          "content_text": "14",
+          "published_label": null,
+          "media_kind": "none",
+          "metrics": {
+            "stars": 193,
+            "forks": 15,
+            "open_issues": 13,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          },
+          "tags": [
+            "upstream-index",
+            "AdamPlatin123/awesome-dsh-plugins",
+            "🔥 热门插件（Star Top 20）",
+            "candidate"
+          ],
+          "source_entry": {
+            "name": "oh-dsh",
+            "owner": "hust-open-atom-club",
+            "url": "https://github.com/hust-open-atom-club/oh-dsh",
+            "source_url": "https://github.com/hust-open-atom-club/oh-dsh",
+            "category": "🔥 热门插件（Star Top 20）",
+            "description": "14",
+            "install": null,
+            "source_path": "README.md",
+            "source_line": 93,
+            "entry_kind": "candidate",
+            "repository_metadata": {
+              "full_name": "hust-open-atom-club/oh-dsh",
+              "html_url": "https://github.com/hust-open-atom-club/oh-dsh",
+              "default_branch": "main",
+              "description": " 一套 DSH runtime，Desktop、Web 与 TUI 三种开发体验。",
+              "license_spdx": "MIT",
+              "stars": 193,
+              "forks": 15,
+              "open_issues": 13,
+              "pushed_at": "2026-08-15T19:07:27Z",
+              "last_checked_at": "2026-08-15T19:07:58Z",
+              "readme_path": null,
+              "readme_sha": null,
+              "source_kind": "community-index",
+              "status": "ok"
+            },
+            "metrics": {
+              "stars": 193,
+              "forks": 15,
+              "open_issues": 13,
+              "metric_source": "GitHub repository API via upstream index",
+              "observed_at": "2026-08-15T19:07:58Z"
+            }
+          }
+        },
+        {
+          "platform": "github",
+          "external_id": "vlln/whale-girl",
+          "url": "https://github.com/vlln/whale-girl",
+          "item_type": "ecosystem-reference",
+          "title": "whale-girl",
+          "author": "vlln",
+          "content_text": "15",
+          "published_label": null,
+          "media_kind": "none",
+          "metrics": {
+            "stars": 169,
+            "forks": 8,
+            "open_issues": 3,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          },
+          "tags": [
+            "upstream-index",
+            "AdamPlatin123/awesome-dsh-plugins",
+            "🔥 热门插件（Star Top 20）",
+            "candidate"
+          ],
+          "source_entry": {
+            "name": "whale-girl",
+            "owner": "vlln",
+            "url": "https://github.com/vlln/whale-girl",
+            "source_url": "https://github.com/vlln/whale-girl",
+            "category": "🔥 热门插件（Star Top 20）",
+            "description": "15",
+            "install": null,
+            "source_path": "README.md",
+            "source_line": 94,
+            "entry_kind": "candidate",
+            "repository_metadata": {
+              "full_name": "vlln/whale-girl",
+              "html_url": "https://github.com/vlln/whale-girl",
+              "default_branch": "main",
+              "description": "DSH Web GUI 桌面宠物插件（QQ 宠物形态）：右下角悬浮、可拖拽/投喂/玩耍的积累型伙伴。",
+              "license_spdx": "MIT",
+              "stars": 169,
+              "forks": 8,
+              "open_issues": 3,
+              "pushed_at": "2026-08-15T15:15:20Z",
+              "last_checked_at": "2026-08-15T19:07:58Z",
+              "readme_path": null,
+              "readme_sha": null,
+              "source_kind": "community-index",
+              "status": "ok"
+            },
+            "metrics": {
+              "stars": 169,
+              "forks": 8,
+              "open_issues": 3,
+              "metric_source": "GitHub repository API via upstream index",
+              "observed_at": "2026-08-15T19:07:58Z"
+            }
+          }
+        },
+        {
+          "platform": "github",
+          "external_id": "huiliyi37/dsh-tianshu-tui",
+          "url": "https://github.com/huiliyi37/dsh-tianshu-tui",
+          "item_type": "plugin",
+          "title": "dsh-tianshu-tui",
+          "author": "huiliyi37",
+          "content_text": "16",
+          "published_label": null,
+          "media_kind": "none",
+          "metrics": {
+            "stars": 169,
+            "forks": 6,
+            "open_issues": 2,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          },
+          "tags": [
+            "upstream-index",
+            "AdamPlatin123/awesome-dsh-plugins",
+            "🔥 热门插件（Star Top 20）",
+            "plugin-candidate"
+          ],
+          "source_entry": {
+            "name": "dsh-tianshu-tui",
+            "owner": "huiliyi37",
+            "url": "https://github.com/huiliyi37/dsh-tianshu-tui",
+            "source_url": "https://github.com/huiliyi37/dsh-tianshu-tui",
+            "category": "🔥 热门插件（Star Top 20）",
+            "description": "16",
+            "install": null,
+            "source_path": "README.md",
+            "source_line": 95,
+            "entry_kind": "plugin-candidate",
+            "repository_metadata": {
+              "full_name": "huiliyi37/dsh-tianshu-tui",
+              "html_url": "https://github.com/huiliyi37/dsh-tianshu-tui",
+              "default_branch": "main",
+              "description": "dsh-tianshu-tui — DeepSeek Harness terminal UI +harness workflow。是官方 DeepSeek Harness 上的交互式终端 UI 插件。渲染核心从本仓库自研的harness agent  Tianshu-Tui 演进而来，在官方的基础上增加了TDD、证据门、视觉图像模块等工作流。",
+              "license_spdx": "Apache-2.0",
+              "stars": 169,
+              "forks": 6,
+              "open_issues": 2,
+              "pushed_at": "2026-08-15T17:34:51Z",
+              "last_checked_at": "2026-08-15T19:07:58Z",
+              "readme_path": null,
+              "readme_sha": null,
+              "source_kind": "community-index",
+              "status": "ok"
+            },
+            "metrics": {
+              "stars": 169,
+              "forks": 6,
+              "open_issues": 2,
+              "metric_source": "GitHub repository API via upstream index",
+              "observed_at": "2026-08-15T19:07:58Z"
+            }
+          }
+        },
+        {
+          "platform": "github",
+          "external_id": "Lum1104/dsh-browser",
+          "url": "https://github.com/Lum1104/dsh-browser",
+          "item_type": "plugin",
+          "title": "dsh-browser",
+          "author": "Lum1104",
+          "content_text": "17",
+          "published_label": null,
+          "media_kind": "none",
+          "metrics": {
+            "stars": 159,
+            "forks": 11,
+            "open_issues": 2,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          },
+          "tags": [
+            "upstream-index",
+            "AdamPlatin123/awesome-dsh-plugins",
+            "🔥 热门插件（Star Top 20）",
+            "plugin-candidate"
+          ],
+          "source_entry": {
+            "name": "dsh-browser",
+            "owner": "Lum1104",
+            "url": "https://github.com/Lum1104/dsh-browser",
+            "source_url": "https://github.com/Lum1104/dsh-browser",
+            "category": "🔥 热门插件（Star Top 20）",
+            "description": "17",
+            "install": null,
+            "source_path": "README.md",
+            "source_line": 96,
+            "entry_kind": "plugin-candidate",
+            "repository_metadata": {
+              "full_name": "Lum1104/dsh-browser",
+              "html_url": "https://github.com/Lum1104/dsh-browser",
+              "default_branch": "main",
+              "description": "dsh plugin: Chrome sidebar extension that lets DSH operate your browser directly—no vision capabilities required. dsh 插件：一款 Chrome 侧边栏扩展程序，可让 DSH 直接操控您的浏览器——无需视觉能力。",
+              "license_spdx": "MIT",
+              "stars": 159,
+              "forks": 11,
+              "open_issues": 2,
+              "pushed_at": "2026-08-15T16:16:37Z",
+              "last_checked_at": "2026-08-15T19:07:58Z",
+              "readme_path": null,
+              "readme_sha": null,
+              "source_kind": "community-index",
+              "status": "ok"
+            },
+            "metrics": {
+              "stars": 159,
+              "forks": 11,
+              "open_issues": 2,
+              "metric_source": "GitHub repository API via upstream index",
+              "observed_at": "2026-08-15T19:07:58Z"
+            }
+          }
+        },
+        {
+          "platform": "github",
+          "external_id": "ysr666/dsh-vision-router",
+          "url": "https://github.com/ysr666/dsh-vision-router",
+          "item_type": "plugin",
+          "title": "dsh-vision-router",
+          "author": "ysr666",
+          "content_text": "18",
+          "published_label": null,
+          "media_kind": "none",
+          "metrics": {
+            "stars": 138,
+            "forks": 12,
+            "open_issues": 4,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          },
+          "tags": [
+            "upstream-index",
+            "AdamPlatin123/awesome-dsh-plugins",
+            "🔥 热门插件（Star Top 20）",
+            "plugin-candidate"
+          ],
+          "source_entry": {
+            "name": "dsh-vision-router",
+            "owner": "ysr666",
+            "url": "https://github.com/ysr666/dsh-vision-router",
+            "source_url": "https://github.com/ysr666/dsh-vision-router",
+            "category": "🔥 热门插件（Star Top 20）",
+            "description": "18",
+            "install": null,
+            "source_path": "README.md",
+            "source_line": 97,
+            "entry_kind": "plugin-candidate",
+            "repository_metadata": {
+              "full_name": "ysr666/dsh-vision-router",
+              "html_url": "https://github.com/ysr666/dsh-vision-router",
+              "default_branch": "main",
+              "description": "Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools (Q&A, grounding, crop, pixel diff, colors, OCR, SVG trace, cutout, screenshots). One-command install, no Python, image turns work like ordinary tool-calling turns.",
+              "license_spdx": "MIT",
+              "stars": 138,
+              "forks": 12,
+              "open_issues": 4,
+              "pushed_at": "2026-08-15T18:43:43Z",
+              "last_checked_at": "2026-08-15T19:07:58Z",
+              "readme_path": null,
+              "readme_sha": null,
+              "source_kind": "community-index",
+              "status": "ok"
+            },
+            "metrics": {
+              "stars": 138,
+              "forks": 12,
+              "open_issues": 4,
+              "metric_source": "GitHub repository API via upstream index",
+              "observed_at": "2026-08-15T19:07:58Z"
+            }
+          }
+        },
+        {
+          "platform": "github",
+          "external_id": "Nagi-ovo/dsh-visualize",
+          "url": "https://github.com/Nagi-ovo/dsh-visualize",
+          "item_type": "plugin",
+          "title": "dsh-visualize",
+          "author": "Nagi-ovo",
+          "content_text": "19",
+          "published_label": null,
+          "media_kind": "none",
+          "metrics": {
+            "stars": 117,
+            "forks": 3,
+            "open_issues": 2,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          },
+          "tags": [
+            "upstream-index",
+            "AdamPlatin123/awesome-dsh-plugins",
+            "🔥 热门插件（Star Top 20）",
+            "plugin-candidate"
+          ],
+          "source_entry": {
+            "name": "dsh-visualize",
+            "owner": "Nagi-ovo",
+            "url": "https://github.com/Nagi-ovo/dsh-visualize",
+            "source_url": "https://github.com/Nagi-ovo/dsh-visualize",
+            "category": "🔥 热门插件（Star Top 20）",
+            "description": "19",
+            "install": null,
+            "source_path": "README.md",
+            "source_line": 98,
+            "entry_kind": "plugin-candidate",
+            "repository_metadata": {
+              "full_name": "Nagi-ovo/dsh-visualize",
+              "html_url": "https://github.com/Nagi-ovo/dsh-visualize",
+              "default_branch": "main",
+              "description": "在 DSH 对话中生成交互式可视化｜Render model-generated interactive cards inside DSH conversations",
+              "license_spdx": "BSD-3-Clause",
+              "stars": 117,
+              "forks": 3,
+              "open_issues": 2,
+              "pushed_at": "2026-08-15T15:58:20Z",
+              "last_checked_at": "2026-08-15T19:07:58Z",
+              "readme_path": null,
+              "readme_sha": null,
+              "source_kind": "community-index",
+              "status": "ok"
+            },
+            "metrics": {
+              "stars": 117,
+              "forks": 3,
+              "open_issues": 2,
+              "metric_source": "GitHub repository API via upstream index",
+              "observed_at": "2026-08-15T19:07:58Z"
+            }
+          }
+        },
+        {
+          "platform": "github",
+          "external_id": "vibeinging/deepseek-harness-desktop-app",
+          "url": "https://github.com/vibeinging/deepseek-harness-desktop-app",
+          "item_type": "plugin",
+          "title": "deepseek-harness-desktop-app",
+          "author": "vibeinging",
+          "content_text": "20",
+          "published_label": null,
+          "media_kind": "none",
+          "metrics": {
+            "stars": 115,
+            "forks": 4,
+            "open_issues": 4,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          },
+          "tags": [
+            "upstream-index",
+            "AdamPlatin123/awesome-dsh-plugins",
+            "🔥 热门插件（Star Top 20）",
+            "plugin-candidate"
+          ],
+          "source_entry": {
+            "name": "deepseek-harness-desktop-app",
+            "owner": "vibeinging",
+            "url": "https://github.com/vibeinging/deepseek-harness-desktop-app",
+            "source_url": "https://github.com/vibeinging/deepseek-harness-desktop-app",
+            "category": "🔥 热门插件（Star Top 20）",
+            "description": "20",
+            "install": null,
+            "source_path": "README.md",
+            "source_line": 99,
+            "entry_kind": "plugin-candidate",
+            "repository_metadata": {
+              "full_name": "vibeinging/deepseek-harness-desktop-app",
+              "html_url": "https://github.com/vibeinging/deepseek-harness-desktop-app",
+              "default_branch": "dev",
+              "description": "DeepSeek Harness Desktop App: a local AI desktop workspace for DSH Sessions, projects, files, web research, plugins, and Office artifacts.",
+              "license_spdx": "MIT",
+              "stars": 115,
+              "forks": 4,
+              "open_issues": 4,
+              "pushed_at": "2026-08-15T08:56:28Z",
+              "last_checked_at": "2026-08-15T19:07:58Z",
+              "readme_path": null,
+              "readme_sha": null,
+              "source_kind": "community-index",
+              "status": "ok"
+            },
+            "metrics": {
+              "stars": 115,
+              "forks": 4,
+              "open_issues": 4,
+              "metric_source": "GitHub repository API via upstream index",
+              "observed_at": "2026-08-15T19:07:58Z"
+            }
+          }
+        },
+        {
+          "platform": "github",
+          "external_id": "hikariming/dshfind",
+          "url": "https://github.com/hikariming/dshfind",
+          "item_type": "ecosystem-reference",
+          "title": "GitHub",
+          "author": "hikariming",
+          "content_text": "DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices",
+          "published_label": null,
+          "media_kind": "none",
+          "metrics": {
+            "stars": 84,
+            "forks": 2,
+            "open_issues": 1,
+            "metric_source": "GitHub repository API via upstream index",
+            "observed_at": "2026-08-15T19:07:58Z"
+          },
+          "tags": [
+            "upstream-index",
+            "AdamPlatin123/awesome-dsh-plugins",
+            "🌐 DSH 学习社区 dshfind.com",
+            "candidate"
+          ],
+          "source_entry": {
+            "name": "GitHub",
+            "owner": "hikariming",
+            "url": "https://github.com/hikariming/dshfind",
+            "source_url": "https://github.com/hikariming/dshfind",
+            "category": "🌐 DSH 学习社区 dshfind.com",
+            "description": null,
+            "install": null,
+            "source_path": "README.md",
+            "source_line": 127,
+            "entry_kind": "candidate",
+            "repository_metadata": {
+              "full_name": "hikariming/dshfind",
+              "html_url": "https://github.com/hikariming/dshfind",
+              "default_branch": "main",
+              "description": "DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices",
+              "license_spdx": null,
+              "stars": 84,
+              "forks": 2,
+              "open_issues": 1,
+              "pushed_at": "2026-08-15T19:05:04Z",
+              "last_checked_at": "2026-08-15T19:07:58Z",
+              "readme_path": null,
+              "readme_sha": null,
+              "source_kind": "community-index",
+              "status": "ok"
+            },
+            "metrics": {
+              "stars": 84,
+              "forks": 2,
+              "open_issues": 1,
+              "metric_source": "GitHub repository API via upstream index",
+              "observed_at": "2026-08-15T19:07:58Z"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

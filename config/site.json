@@ -3,5 +3,7 @@
   "site_url": "https://deeplugin.store",
   "pages_url": "https://shiyao-huang.github.io/awesome-deepseek-harness-plugin/",
   "repository_url": "https://github.com/Shiyao-Huang/awesome-deepseek-harness-plugin",
+  "public_database_url": "https://github.com/Shiyao-Huang/awesome-deepseek-harness-plugin/releases/download/dataset-latest/aggregator.sqlite3",
+  "full_database_url": "https://github.com/Shiyao-Huang/awesome-deepseek-harness-plugin/releases/download/dataset-latest/aggregator-full.sqlite3.zst",
   "description": "DeepSeek Harness plugin ecosystem directory with public evidence, native metrics, media references, and dated observations."
 }

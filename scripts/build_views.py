@@ -101,7 +101,6 @@ def write_index(connection: sqlite3.Connection, generated_at: str, dataset_versi
         "",
         "- [按来源浏览](timeline.md)",
         "- [按主题归类](categories.md)",
-        "- [上游源仓库与插件关系](sources.md)",
         "- [价值衡量矩阵](value-matrix.md)",
         "- [可视化报告](report.html)",
         "- [趋势与增速](trends.md)",
@@ -139,54 +138,33 @@ def write_index(connection: sqlite3.Connection, generated_at: str, dataset_versi
     (DOCS / "index.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
-def write_sources(connection: sqlite3.Connection) -> None:
-    """Write monitored community indexes and their current plugin references."""
+def write_directories(connection: sqlite3.Connection) -> None:
+    """Write a public list of aggregation projects and discovery sites."""
 
-    repositories = connection.execute(
-        """
-        SELECT u.*, r.raw_path,
-               COUNT(e.id) AS entry_count,
-               COUNT(e.id) FILTER (WHERE e.entry_kind = 'plugin-candidate') AS plugin_count
-        FROM upstream_repositories AS u
-        LEFT JOIN raw_snapshots AS r ON r.id = u.raw_snapshot_id
-        LEFT JOIN upstream_entries AS e ON e.repository_id = u.id
-        GROUP BY u.id
-        ORDER BY u.full_name
-        """
-    ).fetchall()
+    from build_site import directory_records, load_records
+
+    records = directory_records(load_records(connection))
     lines = [
-        "# Monitored upstream indexes",
+        "# Other directories & sites",
         "",
-        "这些仓库是聚合器的源，不等同于项目质量背书。每次监测保存 README/结构化目录 raw，并把公开条目链接到 SQLite 中的去重 item；安装前仍应回到插件仓库审查代码、权限和兼容性。",
+        "社区维护的插件目录、市场、发现工具与网站。这里按普通公开记录展示，不包含本站内部采集关系。",
         "",
-        "| 源仓库 | stars | forks | 开放 issue | 当前条目 | 插件候选 | 最近检查 |",
-        "| --- | ---: | ---: | ---: | ---: | ---: | --- |",
+        "| 项目或网站 | 平台 | 公开指标 | 简介 |",
+        "| --- | --- | ---: | --- |",
     ]
-    for row in repositories:
-        raw_link = f"[raw]({('../' + row['raw_path']) if row['raw_path'] else '#'})"
-        lines.append(
-            f"| [{esc(row['full_name'])}]({row['source_url']}) | {row['stars'] if row['stars'] is not None else '—'} | "
-            f"{row['forks'] if row['forks'] is not None else '—'} | {row['open_issues'] if row['open_issues'] is not None else '—'} | "
-            f"{row['entry_count']:,} | {row['plugin_count']:,} | {esc(row['last_checked_at'])} · {raw_link} |"
-        )
-    for repository in repositories:
-        lines.extend(["", f"## {esc(repository['full_name'])}", "", f"{esc(repository['description'])}", ""])
-        entries = connection.execute(
-            """
-            SELECT entry_name, entry_url, entry_kind, category, description, install_hint
-            FROM upstream_entries
-            WHERE repository_id = ? AND entry_kind = 'plugin-candidate'
-            ORDER BY category, entry_name
-            LIMIT 20
-            """,
-            (repository["id"],),
-        ).fetchall()
-        lines.extend(["展示前 20 个插件候选；完整目录在 `upstream_entries` 表和对应 raw 中。", "", "| 插件 | 类别 | 描述 | 安装提示 |", "| --- | --- | --- | --- |"])
-        for entry in entries:
-            description = (entry["description"] or "").replace("|", "\\|")
-            install = (entry["install_hint"] or "—").replace("|", "\\|")
-            lines.append(f"| [{esc(entry['entry_name'])}]({entry['entry_url']}) | {esc(entry['category'])} | {esc(description)} | `{esc(install)}` |")
-    (DOCS / "sources.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    for record in records:
+        metrics = record["metrics"]
+        assert isinstance(metrics, dict)
+        if metrics.get("stars") is not None:
+            signal = f'{int(metrics["stars"]):,} stars'
+        elif metrics.get("views") is not None:
+            signal = f'{int(metrics["views"]):,} views'
+        else:
+            signal = "—"
+        description = str(record["description"] or "").replace("|", "\\|")
+        lines.append(f'| [{record["title"]}]({record["url"]}) | {record["platform_label"]} | {signal} | {description} |')
+    (DOCS / "directories.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    (DOCS / "sources.md").unlink(missing_ok=True)
 
 
 def write_timeline(connection: sqlite3.Connection) -> None:
@@ -327,9 +305,9 @@ def main() -> None:
         else:
             dataset_version, generated_at = str(run[0]), str(run[1])
         write_index(connection, generated_at, dataset_version)
+        write_directories(connection)
         write_timeline(connection)
         write_categories(connection)
-        write_sources(connection)
         write_report(connection, f"{dataset_version} · {generated_at}")
         from build_site import write_store_site
 

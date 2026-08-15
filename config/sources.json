@@ -11,6 +11,14 @@
     {
       "repo": "walkinglabs/awesome-deepseek-harness-plugins",
       "files": ["README.md"]
+    },
+    {
+      "repo": "awesome-dsh-plugin/awesome-dsh-plugin",
+      "files": ["README.md"]
+    },
+    {
+      "repo": "AdamPlatin123/awesome-dsh-plugins",
+      "files": ["README.md"]
     }
   ],
   "wechat_articles": [

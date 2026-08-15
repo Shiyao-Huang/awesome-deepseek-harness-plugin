@@ -2,6 +2,7 @@ name: Refresh public ecosystem index
 
 on:
   schedule:
+    # Every two hours at :17 UTC; Asia/Shanghai is UTC+8.
     - cron: "17 */2 * * *"
   workflow_dispatch:
 
@@ -26,27 +27,23 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Monitor community index sources
+      - name: Restore the latest complete SQLite database
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          stamp="$(date -u +%Y%m%dT%H%M%SZ)"
-          python3 scripts/monitor_sources.py --raw-output "data/raw/upstreams/${stamp}.json"
+          if gh release view dataset-latest >/dev/null 2>&1; then
+            gh release download dataset-latest --pattern aggregator-full.sqlite3.zst --dir data --clobber
+          fi
+          make restore-full
 
-      - name: Collect public APIs and rebuild versioned raw archive
-        run: |
-          stamp="$(date -u +%Y%m%dT%H%M%SZ)"
-          python3 scripts/collect.py update --trigger scheduled --raw-output "data/raw/api/${stamp}.json"
-          python3 scripts/build_value_matrix.py
-          python3 scripts/build_index.py
-          python3 scripts/build_views.py
-          python3 scripts/build_trends.py
-          python3 scripts/build_readme.py
-          python3 scripts/validate.py
+      - name: Refresh versioned core dataset
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: make core-refresh
 
       - name: Commit refreshed index
         run: |
-          git add data/raw/api data/raw/upstreams data/aggregator.sqlite3 index docs README.md
+          git add data/raw/api data/raw/upstreams index docs README.md
           if git diff --cached --quiet; then
             echo "No public-index changes"
             exit 0
@@ -55,3 +52,15 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "data: refresh public ecosystem index"
           git push origin HEAD:main
+
+      - name: Publish stable latest SQLite assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          note="Updated from the versioned collection run at $(date -u +%Y-%m-%dT%H:%M:%SZ). The full archive retains raw JSON; aggregator.sqlite3 is the lightweight query projection."
+          if gh release view dataset-latest >/dev/null 2>&1; then
+            gh release upload dataset-latest data/aggregator.sqlite3 data/aggregator-full.sqlite3.zst --clobber
+            gh release edit dataset-latest --title "Latest DeepSeek Harness ecosystem dataset" --notes "$note" --latest
+          else
+            gh release create dataset-latest data/aggregator.sqlite3 data/aggregator-full.sqlite3.zst --target main --title "Latest DeepSeek Harness ecosystem dataset" --notes "$note" --latest
+          fi

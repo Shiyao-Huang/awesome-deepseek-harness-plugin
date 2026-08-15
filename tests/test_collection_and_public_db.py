@@ -1,0 +1,174 @@
+from __future__ import annotations
+
+import argparse
+import json
+import sqlite3
+import sys
+import tempfile
+import unittest
+from pathlib import Path
+from unittest import mock
+
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "scripts"))
+
+import build_public_db
+import collect
+
+
+class EgoGitHubAdapterTests(unittest.TestCase):
+    def test_visible_search_keeps_dom_and_native_stars(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            raw = root / "data" / "raw" / "ego" / "github.json"
+            raw.parent.mkdir(parents=True)
+            raw.write_text("{}", encoding="utf-8")
+            data = {
+                "collected_at": "2026-08-15T19:17:51Z",
+                "source": {
+                    "platform": "github",
+                    "query": '"deepseek-harness" plugin',
+                    "url": "https://github.com/search?q=deepseek-harness",
+                    "visible_result_count": 1,
+                },
+                "capture": {
+                    "items": [{
+                        "external_id": "owner/plugin",
+                        "url": "https://github.com/owner/plugin",
+                        "title": "owner/plugin",
+                        "stars": 7,
+                        "language": "TypeScript",
+                        "visible_dom": "<article>exact visible evidence</article>",
+                    }]
+                },
+            }
+
+            with mock.patch.object(collect, "ROOT", root):
+                payload = collect.legacy_payload(raw, data)
+
+        self.assertIsNotNone(payload)
+        observation = payload["observations"][0]
+        item = observation["items"][0]
+        self.assertEqual(observation["result_count"], 1)
+        self.assertEqual(item["metrics"]["stars"], 7)
+        self.assertEqual(item["raw_capture"]["visible_dom"], "<article>exact visible evidence</article>")
+
+    def test_repository_api_keeps_full_payload_and_subscribers(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            raw = root / "data" / "raw" / "ego" / "repository.json"
+            raw.parent.mkdir(parents=True)
+            raw.write_text("{}", encoding="utf-8")
+            repository = {
+                "full_name": "owner/plugin",
+                "html_url": "https://github.com/owner/plugin",
+                "owner": {"login": "owner", "html_url": "https://github.com/owner"},
+                "stargazers_count": 3,
+                "forks_count": 2,
+                "open_issues_count": 1,
+                "subscribers_count": 4,
+            }
+            data = {
+                "capture_kind": "ego-lite-github-repository-api",
+                "captured_at": "2026-08-15T19:21:19Z",
+                "source_url": "https://api.github.com/repos/owner/plugin",
+                "repository": "owner/plugin",
+                "payload": repository,
+            }
+
+            with mock.patch.object(collect, "ROOT", root):
+                payload = collect.legacy_payload(raw, data)
+
+        self.assertIsNotNone(payload)
+        observation = payload["observations"][0]
+        item = observation["items"][0]
+        self.assertEqual(observation["collected_at"], data["captured_at"])
+        self.assertEqual(item["metrics"]["subscribers"], 4)
+        self.assertEqual(item["raw_capture"], repository)
+
+
+class SeedSelectionTests(unittest.TestCase):
+    def test_default_seed_excludes_auto_and_fork_manifests(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            raw_dir = Path(directory)
+            included = raw_dir / "ego" / "capture.json"
+            excluded_auto = raw_dir / "auto" / "capture.json"
+            excluded_fork = raw_dir / "forks" / "capture.json"
+            for path in (included, excluded_auto, excluded_fork):
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text("{}", encoding="utf-8")
+            connection = mock.MagicMock()
+            connection.__enter__.return_value = connection
+            import_result = collect.ImportStats()
+            args = argparse.Namespace(db=Path(directory) / "db.sqlite3", raw=None)
+            with (
+                mock.patch.object(collect, "RAW_DIR", raw_dir),
+                mock.patch.object(collect, "init_db"),
+                mock.patch.object(collect, "connect", return_value=connection),
+                mock.patch.object(collect, "begin_collection_run", return_value=(1, "v-test", "now")),
+                mock.patch.object(collect, "finish_collection_run"),
+                mock.patch.object(collect, "import_files", return_value=import_result) as import_files,
+            ):
+                collect.command_seed(args)
+
+        selected = import_files.call_args.args[1]
+        self.assertEqual(selected, [included])
+
+
+class PublicDatabaseTests(unittest.TestCase):
+    @staticmethod
+    def create_database(path: Path) -> None:
+        connection = sqlite3.connect(path)
+        connection.executescript(
+            """
+            CREATE TABLE collection_runs(id INTEGER PRIMARY KEY, trigger TEXT);
+            CREATE TABLE items(id INTEGER PRIMARY KEY, canonical_url TEXT, platform TEXT, external_id TEXT, raw_json TEXT);
+            CREATE TABLE raw_snapshots(raw_sha256 TEXT, payload_json TEXT);
+            CREATE TABLE metrics(raw_json TEXT);
+            CREATE TABLE github_user_profiles(raw_json TEXT);
+            CREATE TABLE fork_file_changes(raw_json TEXT);
+            CREATE TABLE fork_commits(raw_json TEXT);
+            CREATE TABLE value_assessments(collection_run_id INTEGER);
+            INSERT INTO collection_runs VALUES (1, 'seed'), (2, 'scheduled');
+            INSERT INTO items VALUES
+                (1, 'https://example.com/1', 'web', '1', '{"raw": 1}'),
+                (2, 'https://example.com/2', 'web', '2', '{"raw": 2}');
+            INSERT INTO raw_snapshots VALUES ('sha-1', '{"raw": 1}');
+            INSERT INTO metrics VALUES ('{"raw": 1}');
+            INSERT INTO github_user_profiles VALUES ('{"raw": 1}');
+            INSERT INTO fork_file_changes VALUES ('{"raw": 1}');
+            INSERT INTO fork_commits VALUES ('{"raw": 1}');
+            INSERT INTO value_assessments VALUES (1), (1), (2), (2);
+            """
+        )
+        connection.close()
+
+    def test_projection_strips_only_raw_blobs_and_old_assessments(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "public.sqlite3"
+            self.create_database(path)
+
+            run_id = build_public_db.project_database(path, "a" * 64, "aggregator-full.sqlite3.zst")
+
+            connection = sqlite3.connect(path)
+            self.assertEqual(run_id, 2)
+            for table, column in build_public_db.RAW_JSON_COLUMNS:
+                self.assertEqual(connection.execute(f'SELECT DISTINCT "{column}" FROM "{table}"').fetchall(), [("{}",)])
+            self.assertEqual(connection.execute("SELECT collection_run_id FROM value_assessments").fetchall(), [(2,), (2,)])
+            self.assertEqual(connection.execute("SELECT source_sha256 FROM public_projection_metadata").fetchone()[0], "a" * 64)
+            connection.close()
+
+    def test_archive_mismatch_blocks_projection(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            source = Path(directory) / "source.sqlite3"
+            archive = Path(directory) / "source.sqlite3.zst"
+            source.write_bytes(b"database")
+            archive.write_bytes(b"archive")
+            with mock.patch.object(build_public_db, "sha256_zstd_payload", return_value="b" * 64):
+                with self.assertRaisesRegex(RuntimeError, "does not match"):
+                    build_public_db.verify_archive(source, archive)
+
+
+if __name__ == "__main__":
+    unittest.main()

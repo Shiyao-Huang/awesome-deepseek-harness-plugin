@@ -1,233 +1,342 @@
 # DeepSeek Harness Fork Network
 
-- Dataset version: `v20260815T102307Z`
-- Public Fork records: **10,138**
-- Deep-scanned in this snapshot: **5**; compare responses: **5**
+- Dataset version: `v20260815T200645Z`
+- Public Fork records: **11,068**
+- Ranking filter: **0+ stars**; observed Fork identities: **11,068**; filtered out of ranking: **0**.
+- Ever deep-scanned: **117 / 11,068** (1.06%); pending: **10,951**; conservative backfill ETA: **69 daily runs**.
+- Deep-scanned successfully in the current projection: **117**; compare responses retained: **117**
+- Fork rows with public owner reputation observed: **200**; the current ranking pool applies a configurable minimum-Star filter.
 - Scope: public Forks returned by GitHub REST API pagination for `deepseek-ai/deepseek-harness`.
-- Raw evidence is collected under `data/raw/forks/`; the compressed SQLite snapshot `data/aggregator-full.sqlite3.zst` includes the fork tables and raw JSON payloads. Unpack it with `zstd -d data/aggregator-full.sqlite3.zst -o aggregator-full.sqlite3`.
-- Complete machine-readable ranking: `index/forks.jsonl`.
-- The score is an ordering aid, not a quality or security claim. Stars, forks, watchers, activity, divergence, and changed-file counts remain separate.
+- Raw evidence is collected under `data/raw/forks/`; the [latest compressed SQLite snapshot](https://github.com/Shiyao-Huang/awesome-deepseek-harness-plugin/releases/download/dataset-latest/aggregator-full.sqlite3.zst) includes the fork tables and raw JSON payloads. Unpack it with `zstd -d aggregator-full.sqlite3.zst -o aggregator-full.sqlite3`.
+- Searchable browser: `docs/forks.html`; compact catalog: `docs/data/fork-catalog.json`; complete machine-readable ranking: `index/forks.jsonl`.
+- `overall score = repository influence 60% + public-account reputation 40%` when the profile is observed; missing profile signals are not treated as zero. This is a public-signal ordering aid, not a quality, safety, integrity, or endorsement claim.
+
+## GitHub star order
+
+| Star rank | Fork | Stars | Composite rank | Audit | Evidence |
+| ---: | --- | ---: | ---: | --- | --- |
+| 1 | [salathleizhang/deepseek-harness-desktop](https://github.com/salathleizhang/deepseek-harness-desktop) | 96 | 1 | audited | 新增约 42 个提交并修改 300 个文件，主要涉及 配置、文档、CI/构建、依赖；目标线索是“Native desktop app for DeepSeek Harness — an Electron shell that runs the harness locally and hosts the official Web GUI unchanged”。 |
+| 2 | [Sakana-yuyu/deepseek-harness-desktop](https://github.com/Sakana-yuyu/deepseek-harness-desktop) | 21 | 3 | audited | 新增约 14 个提交并修改 81 个文件，主要涉及 配置、文档、CI/构建、UI/应用层；目标线索是“Rust构建的客户端，体积更小，更方便，Mac，win，linux已完成”。 |
+| 3 | [G36maid/deepseek-harness](https://github.com/G36maid/deepseek-harness) | 12 | 2 | audited | 新增约 19 个提交并修改 300 个文件，主要涉及 配置、文档；目标线索是“DeepSeek Harness 繁體中文版 (zh-TW) — Everything is a Plugin”。 |
+| 4 | [Skyearn/deepseek-harness-app](https://github.com/Skyearn/deepseek-harness-app) | 11 | 4 | audited | 新增约 24 个提交并修改 31 个文件，主要涉及 配置、文档、CI/构建、其他文件；目标线索是“DeepSeek Harness Desktop”。 |
+| 5 | [rpmalouin/deepseek-harness](https://github.com/rpmalouin/deepseek-harness) | 7 | 13 | audited | 新增约 4 个提交并修改 31 个文件，主要涉及 文档、其他文件；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 6 | [yx54hego-cloud/deepseek-harness](https://github.com/yx54hego-cloud/deepseek-harness) | 7 | 180 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 7 | [Ajwyunsx/deepseek-harness-mobile](https://github.com/Ajwyunsx/deepseek-harness-mobile) | 4 | 5 | audited | 新增约 7 个提交并修改 40 个文件，主要涉及 文档、其他文件；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 8 | [happylin0x29a/deepseek-harness-desktop](https://github.com/happylin0x29a/deepseek-harness-desktop) | 4 | 21 | audited | 未观察到相对 upstream 的文件修改；目标线索是“deepseek-harness desktop base on tauri”。 |
+| 9 | [luolangaga/deepseek-harness](https://github.com/luolangaga/deepseek-harness) | 4 | 30 | audited | 新增约 11 个提交并修改 54 个文件，主要涉及 配置、文档、CI/构建、其他文件；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 10 | [puppywang/deepseek-harness](https://github.com/puppywang/deepseek-harness) | 4 | 15 | audited | 新增约 10 个提交并修改 300 个文件，主要涉及 配置、文档、CI/构建、其他文件；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 11 | [sdkwork-ai/deepseek-harness-desktop](https://github.com/sdkwork-ai/deepseek-harness-desktop) | 4 | 12 | audited | 新增约 43 个提交并修改 300 个文件，主要涉及 配置、文档、其他文件、CI/构建；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 12 | [yazzang-homelab/deepseek-harness](https://github.com/yazzang-homelab/deepseek-harness) | 2 | 62 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 13 | [FSMargoo/deepseek-harness](https://github.com/FSMargoo/deepseek-harness) | 2 | 27 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness”。 |
+| 14 | [huiliyi37/deepseek-harness](https://github.com/huiliyi37/deepseek-harness) | 2 | 72 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 15 | [Kiowx/deepseek-harness](https://github.com/Kiowx/deepseek-harness) | 2 | 73 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 16 | [MarceloClaro/deepseek-harness](https://github.com/MarceloClaro/deepseek-harness) | 2 | 23 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 17 | [stophobia/deepseek-harness](https://github.com/stophobia/deepseek-harness) | 2 | 8 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 18 | [suiyuebaobao/deepseek-harness-gui](https://github.com/suiyuebaobao/deepseek-harness-gui) | 2 | 195 | audited | 新增约 2 个提交并修改 52 个文件，主要涉及 配置、文档、依赖、UI/应用层；目标线索是“Windows desktop fork of DeepSeek Harness, packaged with Tauri while preserving the full Web profile and plugin runtime”。 |
+| 19 | [Yihong89/deepseek-harness](https://github.com/Yihong89/deepseek-harness) | 2 | 42 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness”。 |
+| 20 | [srwang0506/deepseek-harness](https://github.com/srwang0506/deepseek-harness) | 1 | 55 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 21 | [xiaosenho/deepseek-harness](https://github.com/xiaosenho/deepseek-harness) | 1 | 81 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 22 | [007M7/deepseek-harness](https://github.com/007M7/deepseek-harness) | 1 | 197 | audited | 未观察到相对 upstream 的文件修改；目标线索是“我永远喜欢deepseek！！！”。 |
+| 23 | [123prompt/deepseek-harness](https://github.com/123prompt/deepseek-harness) | 1 | 227 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 24 | [1486482143/deepseek-harness](https://github.com/1486482143/deepseek-harness) | 1 | 231 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 25 | [18217778896/deepseek-harness](https://github.com/18217778896/deepseek-harness) | 1 | 183 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 26 | [2404589803/deepseek-harness](https://github.com/2404589803/deepseek-harness) | 1 | 40 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 27 | [485524097/deepseek-harness](https://github.com/485524097/deepseek-harness) | 1 | 240 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 28 | [4evour/deepseek-harness](https://github.com/4evour/deepseek-harness) | 1 | 88 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 29 | [a907781273-a11y/deepseek-harness](https://github.com/a907781273-a11y/deepseek-harness) | 1 | 108 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 30 | [achristofaro/deepseek-harness](https://github.com/achristofaro/deepseek-harness) | 1 | 41 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 31 | [AI-1-TOP/deepseek-harness](https://github.com/AI-1-TOP/deepseek-harness) | 1 | 11068 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 32 | [aimierbear/TinyWhale](https://github.com/aimierbear/TinyWhale) | 1 | 214 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“TinyWhale — desktop-oriented MIT fork of DeepSeek Harness, with an Electron shell in desktop/”，修改面待下一轮 compare/README 深扫。 |
+| 33 | [alexdeweb/deepseek-harness](https://github.com/alexdeweb/deepseek-harness) | 1 | 58 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 34 | [alexdolbun/deepseek-harness](https://github.com/alexdolbun/deepseek-harness) | 1 | 7 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“未从 Fork 列表元数据观察到”，修改面待下一轮 compare/README 深扫。 |
+| 35 | [Alsdara/deepseek-harness](https://github.com/Alsdara/deepseek-harness) | 1 | 11045 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 36 | [Anyaoha/deepseek-harness](https://github.com/Anyaoha/deepseek-harness) | 1 | 39 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 37 | [Ashveil1/deepseek-harness-ares](https://github.com/Ashveil1/deepseek-harness-ares) | 1 | 219 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek harness for pentesting”。 |
+| 38 | [athif23/deepseek-harness](https://github.com/athif23/deepseek-harness) | 1 | 26 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 39 | [ayushare/deepseek-harness](https://github.com/ayushare/deepseek-harness) | 1 | 11029 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“未从 Fork 列表元数据观察到”，修改面待下一轮 compare/README 深扫。 |
+| 40 | [b3nk-x1/deepseek-harness](https://github.com/b3nk-x1/deepseek-harness) | 1 | 11055 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 41 | [badestgod/deepseek-harness](https://github.com/badestgod/deepseek-harness) | 1 | 63 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 42 | [Beam-wi/deepseek-harness](https://github.com/Beam-wi/deepseek-harness) | 1 | 192 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 43 | [ben-vargas/ai-deepseek-harness](https://github.com/ben-vargas/ai-deepseek-harness) | 1 | 17 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 44 | [biyan113/deepseek-harness](https://github.com/biyan113/deepseek-harness) | 1 | 80 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 45 | [BlackRosePetals/deepseek-harness](https://github.com/BlackRosePetals/deepseek-harness) | 1 | 83 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 46 | [BobcGn/deepseek-harness-app](https://github.com/BobcGn/deepseek-harness-app) | 1 | 29 | audited | 新增约 14 个提交并修改 31 个文件，主要涉及 配置、文档、CI/构建、其他文件；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 47 | [bojieli/deepseek-harness](https://github.com/bojieli/deepseek-harness) | 1 | 6 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 48 | [boktoday/deepseek-harness](https://github.com/boktoday/deepseek-harness) | 1 | 38 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 49 | [BurtonQin/deepseek-harness](https://github.com/BurtonQin/deepseek-harness) | 1 | 20 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 50 | [CatchCatOoO/deepseek-harness](https://github.com/CatchCatOoO/deepseek-harness) | 1 | 36 | audited | 新增约 4 个提交并修改 300 个文件，主要涉及 文档、配置、agent/skill 能力；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 51 | [cFqr-lang/deepseek-harness](https://github.com/cFqr-lang/deepseek-harness) | 1 | 11050 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 52 | [CH-HGod/deepseek-harness](https://github.com/CH-HGod/deepseek-harness) | 1 | 11038 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 53 | [chiekoschamburek-dev/deepseek-harness](https://github.com/chiekoschamburek-dev/deepseek-harness) | 1 | 11047 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 54 | [China-MY/deepseek-harness](https://github.com/China-MY/deepseek-harness) | 1 | 68 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 55 | [chyl00/deepseek-harness](https://github.com/chyl00/deepseek-harness) | 1 | 210 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 56 | [cioerp/deepseek-harness](https://github.com/cioerp/deepseek-harness) | 1 | 11065 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 57 | [codelife2020/deepseek-harness](https://github.com/codelife2020/deepseek-harness) | 1 | 205 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 58 | [coder-v0/deepseek-harness](https://github.com/coder-v0/deepseek-harness) | 1 | 59 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 59 | [cq2021-coder/deepseek-harness-desktop](https://github.com/cq2021-coder/deepseek-harness-desktop) | 1 | 66 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“使用 tauri 为 DeepSeek Harness 生态打造的现代化桌面端应用”，修改面待下一轮 compare/README 深扫。 |
+| 60 | [criapa/deepseek-harness](https://github.com/criapa/deepseek-harness) | 1 | 34 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 61 | [Cute-chen/deepseek-harness-app](https://github.com/Cute-chen/deepseek-harness-app) | 1 | 89 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 62 | [Cyenoch/deepseek-harness](https://github.com/Cyenoch/deepseek-harness) | 1 | 9 | audited | 新增约 13 个提交并修改 300 个文件，主要涉及 配置、文档、agent/skill 能力、CI/构建；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 63 | [cyh7777/deepseek-harness](https://github.com/cyh7777/deepseek-harness) | 1 | 11039 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 64 | [dailin3/deepseek-harness](https://github.com/dailin3/deepseek-harness) | 1 | 79 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 65 | [DailyR/deepseek-harness](https://github.com/DailyR/deepseek-harness) | 1 | 90 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 66 | [ddd666j/deepseek-harness](https://github.com/ddd666j/deepseek-harness) | 1 | 11060 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 67 | [DeepThinkingZhouLiu/Deepseek-Harness-RSI](https://github.com/DeepThinkingZhouLiu/Deepseek-Harness-RSI) | 1 | 47 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 68 | [deveuper/deepseek-harness](https://github.com/deveuper/deepseek-harness) | 1 | 181 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 69 | [devin2255/deepseek-harness-desktop](https://github.com/devin2255/deepseek-harness-desktop) | 1 | 60 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 70 | [djhh555/deepseek-sightline](https://github.com/djhh555/deepseek-sightline) | 1 | 11043 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 71 | [DogeJian/deepseek-harness](https://github.com/DogeJian/deepseek-harness) | 1 | 91 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 72 | [donstang/deepseek-harness](https://github.com/donstang/deepseek-harness) | 1 | 31 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 73 | [dorucioclea/deepseek-harness](https://github.com/dorucioclea/deepseek-harness) | 1 | 11 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 74 | [drscrewdriver/deepseek-harness](https://github.com/drscrewdriver/deepseek-harness) | 1 | 46 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 75 | [duliangkuan/deepseek-harness](https://github.com/duliangkuan/deepseek-harness) | 1 | 190 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“未从 Fork 列表元数据观察到”，修改面待下一轮 compare/README 深扫。 |
+| 76 | [EdwardXIE6666/deepseek-harness](https://github.com/EdwardXIE6666/deepseek-harness) | 1 | 92 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 77 | [enbideren/deepseek-harness](https://github.com/enbideren/deepseek-harness) | 1 | 50 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 78 | [equable66/deepseek-harness](https://github.com/equable66/deepseek-harness) | 1 | 897 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 79 | [Erichy777/deepseek-harness](https://github.com/Erichy777/deepseek-harness) | 1 | 93 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 80 | [Ericsongyl/deepseek-harness](https://github.com/Ericsongyl/deepseek-harness) | 1 | 94 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 81 | [ermao009/deepseek-harness](https://github.com/ermao009/deepseek-harness) | 1 | 236 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 82 | [exposir/deepseek-harness](https://github.com/exposir/deepseek-harness) | 1 | 25 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“未从 Fork 列表元数据观察到”，修改面待下一轮 compare/README 深扫。 |
+| 83 | [fage45029704-lgtm/deepseek-harness](https://github.com/fage45029704-lgtm/deepseek-harness) | 1 | 11052 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 84 | [faguangdeyueliang/deepseek-harness](https://github.com/faguangdeyueliang/deepseek-harness) | 1 | 220 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 85 | [fendouai/deepseek-harness-desktop](https://github.com/fendouai/deepseek-harness-desktop) | 1 | 10 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 86 | [fisher158163/deepseek-harness](https://github.com/fisher158163/deepseek-harness) | 1 | 24 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 87 | [flaqai/open-deepseek-harness-desktop](https://github.com/flaqai/open-deepseek-harness-desktop) | 1 | 198 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“Open Source Desktop for DeepSeek Harness. DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 88 | [flowersea302/deepseek-harness](https://github.com/flowersea302/deepseek-harness) | 1 | 238 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 89 | [FlyingSama/deepseek-harness](https://github.com/FlyingSama/deepseek-harness) | 1 | 95 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 90 | [GavinDong-plaud/deepseek-harness](https://github.com/GavinDong-plaud/deepseek-harness) | 1 | 97 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 91 | [GetSayAll/deepseek-harness-app](https://github.com/GetSayAll/deepseek-harness-app) | 1 | 53 | audited | 新增约 25 个提交并修改 118 个文件，主要涉及 配置、文档、依赖、UI/应用层；目标线索是“DeepSeek Harness”。 |
+| 92 | [ghthh/deepseek-harness](https://github.com/ghthh/deepseek-harness) | 1 | 11028 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 93 | [GTC2080/deepseek-harness](https://github.com/GTC2080/deepseek-harness) | 1 | 196 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness 桌面端：基于 Tauri，支持 macOS 与 Windows；源码位于 desktop 分支”。 |
+| 94 | [guihuatu2022/deepseek-harness](https://github.com/guihuatu2022/deepseek-harness) | 1 | 206 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 95 | [GZZ-523/deepseek-harness](https://github.com/GZZ-523/deepseek-harness) | 1 | 96 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 96 | [hanfengchiyi/deepseek-harness](https://github.com/hanfengchiyi/deepseek-harness) | 1 | 222 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 97 | [hanqi9622-eng/deepseek-harness](https://github.com/hanqi9622-eng/deepseek-harness) | 1 | 11059 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 98 | [HaoyanZhang123/deepseek-harness-live-preset-switch](https://github.com/HaoyanZhang123/deepseek-harness-live-preset-switch) | 1 | 87 | audited | 新增约 2 个提交并修改 81 个文件，主要涉及 文档、agent/skill 能力、UI/应用层、Harness 核心能力；目标线索是“DeepSeek Harness with live agent-preset switching at turn boundaries”。 |
+| 99 | [heleileimail-cmyk/deepseek-harness](https://github.com/heleileimail-cmyk/deepseek-harness) | 1 | 11046 | pending | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 100 | [HelloNicoo/deepseek-harness](https://github.com/HelloNicoo/deepseek-harness) | 1 | 99 | audited | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
 
 ## Modification categories
 
 | Category | Changed paths |
 | --- | ---: |
-| docs | 261 |
-| dependencies | 219 |
-| configuration | 123 |
-| ui-and-apps | 77 |
-| harness-core | 14 |
-| tests | 8 |
-| ci-and-build | 5 |
-| other | 3 |
-| tools-and-scripts | 2 |
+| docs | 1,053 |
+| dependencies | 546 |
+| configuration | 513 |
+| ui-and-apps | 359 |
+| harness-core | 346 |
+| tests | 234 |
+| other | 90 |
+| ci-and-build | 40 |
+| tools-and-scripts | 26 |
+| agents-and-skills | 17 |
 
 ## Influence order
 
-| Rank | Fork | Stars | Forks | Ahead | Changed files | Deep status | Score |
-| ---: | --- | ---: | ---: | ---: | ---: | --- | ---: |
-| 1 | [salathleizhang/deepseek-harness-desktop](https://github.com/salathleizhang/deepseek-harness-desktop) | 90 | 3 | 35 | — | ok | 84.999 |
-| 2 | [Sakana-yuyu/deepseek-harness-desktop](https://github.com/Sakana-yuyu/deepseek-harness-desktop) | 18 | 1 | 14 | — | ok | 61.127 |
-| 3 | [Skyearn/deepseek-harness-app](https://github.com/Skyearn/deepseek-harness-app) | 12 | 1 | 24 | — | ok | 59.211 |
-| 4 | [G36maid/deepseek-harness](https://github.com/G36maid/deepseek-harness) | 9 | 0 | 19 | — | ok | 48.777 |
-| 5 | [happylin0x29a/deepseek-harness-desktop](https://github.com/happylin0x29a/deepseek-harness-desktop) | 4 | 1 | 0 | — | ok | 41.708 |
-| 6 | [yazzang-homelab/deepseek-harness](https://github.com/yazzang-homelab/deepseek-harness) | 2 | 1 | — | — | metadata-only | 37.139 |
-| 7 | [sdkwork-ai/deepseek-harness-desktop](https://github.com/sdkwork-ai/deepseek-harness-desktop) | 4 | 0 | — | — | metadata-only | 34.271 |
-| 8 | [luolangaga/deepseek-harness](https://github.com/luolangaga/deepseek-harness) | 4 | 0 | — | — | metadata-only | 34.213 |
-| 9 | [srwang0506/deepseek-harness](https://github.com/srwang0506/deepseek-harness) | 1 | 1 | — | — | metadata-only | 33.645 |
-| 10 | [xiaosenho/deepseek-harness](https://github.com/xiaosenho/deepseek-harness) | 1 | 1 | — | — | metadata-only | 33.598 |
-| 11 | [Ajwyunsx/deepseek-harness-mobile](https://github.com/Ajwyunsx/deepseek-harness-mobile) | 3 | 0 | — | — | metadata-only | 32.293 |
-| 12 | [rpmalouin/deepseek-harness](https://github.com/rpmalouin/deepseek-harness) | 3 | 0 | — | — | metadata-only | 32.270 |
-| 13 | [puppywang/deepseek-harness](https://github.com/puppywang/deepseek-harness) | 3 | 0 | — | — | metadata-only | 32.263 |
-| 14 | [yx54hego-cloud/deepseek-harness](https://github.com/yx54hego-cloud/deepseek-harness) | 2 | 0 | — | — | metadata-only | 29.735 |
-| 15 | [Kiowx/deepseek-harness](https://github.com/Kiowx/deepseek-harness) | 2 | 0 | — | — | metadata-only | 29.681 |
-| 16 | [suiyuebaobao/deepseek-harness-gui](https://github.com/suiyuebaobao/deepseek-harness-gui) | 2 | 0 | — | — | metadata-only | 29.675 |
-| 17 | [Yihong89/deepseek-harness](https://github.com/Yihong89/deepseek-harness) | 2 | 0 | — | — | metadata-only | 29.639 |
-| 18 | [stophobia/deepseek-harness](https://github.com/stophobia/deepseek-harness) | 2 | 0 | — | — | metadata-only | 29.639 |
-| 19 | [FSMargoo/deepseek-harness](https://github.com/FSMargoo/deepseek-harness) | 2 | 0 | — | — | metadata-only | 29.638 |
-| 20 | [warm-maple/deepseek-harness_exe](https://github.com/warm-maple/deepseek-harness_exe) | 0 | 1 | — | — | metadata-only | 27.481 |
-| 21 | [porarrirr/deepseek-harness-japanese](https://github.com/porarrirr/deepseek-harness-japanese) | 0 | 1 | — | — | metadata-only | 27.419 |
-| 22 | [BJTU-Netcomm/deepseek-harness-aiops](https://github.com/BJTU-Netcomm/deepseek-harness-aiops) | 0 | 1 | — | — | metadata-only | 27.397 |
-| 23 | [DreamShepherd2006/deepseek-harness](https://github.com/DreamShepherd2006/deepseek-harness) | 0 | 1 | — | — | metadata-only | 27.397 |
-| 24 | [SmuzyHi/deepseek-harness-harmonypc](https://github.com/SmuzyHi/deepseek-harness-harmonypc) | 1 | 0 | — | — | metadata-only | 26.146 |
-| 25 | [fendouai/deepseek-harness-desktop](https://github.com/fendouai/deepseek-harness-desktop) | 1 | 0 | — | — | metadata-only | 26.146 |
-| 26 | [cFqr-lang/deepseek-harness](https://github.com/cFqr-lang/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.145 |
-| 27 | [HaoyanZhang123/deepseek-harness-live-preset-switch](https://github.com/HaoyanZhang123/deepseek-harness-live-preset-switch) | 1 | 0 | — | — | metadata-only | 26.144 |
-| 28 | [BobcGn/deepseek-harness-app](https://github.com/BobcGn/deepseek-harness-app) | 1 | 0 | — | — | metadata-only | 26.143 |
-| 29 | [Cyenoch/deepseek-harness](https://github.com/Cyenoch/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.142 |
-| 30 | [BenHuHuan/dhscode-tui](https://github.com/BenHuHuan/dhscode-tui) | 1 | 0 | — | — | metadata-only | 26.142 |
-| 31 | [zchuhui/deepseek-harness](https://github.com/zchuhui/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.141 |
-| 32 | [himomohi/deepseek-harness](https://github.com/himomohi/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.141 |
-| 33 | [qweqwe12382/deepseek-harness](https://github.com/qweqwe12382/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.140 |
-| 34 | [aimierbear/TinyWhale](https://github.com/aimierbear/TinyWhale) | 1 | 0 | — | — | metadata-only | 26.137 |
-| 35 | [flowersea302/deepseek-harness](https://github.com/flowersea302/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.136 |
-| 36 | [shijiejintoulwh/deepseek-harness](https://github.com/shijiejintoulwh/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.136 |
-| 37 | [ligaoc/deepseek-harness](https://github.com/ligaoc/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.134 |
-| 38 | [heleileimail-cmyk/deepseek-harness](https://github.com/heleileimail-cmyk/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.130 |
-| 39 | [GTC2080/deepseek-harness](https://github.com/GTC2080/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.130 |
-| 40 | [jackma5477001/deepseek-harness-desktop](https://github.com/jackma5477001/deepseek-harness-desktop) | 1 | 0 | — | — | metadata-only | 26.128 |
-| 41 | [HHHHH-GIT/Deepseek-HPD-Harness](https://github.com/HHHHH-GIT/Deepseek-HPD-Harness) | 1 | 0 | — | — | metadata-only | 26.127 |
-| 42 | [lamost423/dsh-codex-experience](https://github.com/lamost423/dsh-codex-experience) | 1 | 0 | — | — | metadata-only | 26.126 |
-| 43 | [monikalnbo/deepseek-harness](https://github.com/monikalnbo/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.125 |
-| 44 | [JimmypageLedz/deepseek-harness](https://github.com/JimmypageLedz/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.119 |
-| 45 | [youshen2/deepseek-harness](https://github.com/youshen2/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.110 |
-| 46 | [cq2021-coder/deepseek-harness-desktop](https://github.com/cq2021-coder/deepseek-harness-desktop) | 1 | 0 | — | — | metadata-only | 26.108 |
-| 47 | [wangleiqwe/deepseek-harness](https://github.com/wangleiqwe/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.107 |
-| 48 | [liyuera/deepseek-harness](https://github.com/liyuera/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.105 |
-| 49 | [nostalgia296/deepseek-harness-termux](https://github.com/nostalgia296/deepseek-harness-termux) | 1 | 0 | — | — | metadata-only | 26.104 |
-| 50 | [Limoumou121/deepseek-harness-desktop-test](https://github.com/Limoumou121/deepseek-harness-desktop-test) | 1 | 0 | — | — | metadata-only | 26.102 |
-| 51 | [lscatfish/deepseek-harness](https://github.com/lscatfish/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.101 |
-| 52 | [shdeng/deepseek-harness-app](https://github.com/shdeng/deepseek-harness-app) | 1 | 0 | — | — | metadata-only | 26.098 |
-| 53 | [liwuli/deepseek-harness-desktop](https://github.com/liwuli/deepseek-harness-desktop) | 1 | 0 | — | — | metadata-only | 26.097 |
-| 54 | [Menger-8/deepseek-harness](https://github.com/Menger-8/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.094 |
-| 55 | [zhonghui5207/deepseek-harness-desktop](https://github.com/zhonghui5207/deepseek-harness-desktop) | 1 | 0 | — | — | metadata-only | 26.093 |
-| 56 | [xiaolangde/deepseek-harness](https://github.com/xiaolangde/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.093 |
-| 57 | [PerryLink/deepseek-harness](https://github.com/PerryLink/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.091 |
-| 58 | [exposir/deepseek-harness](https://github.com/exposir/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.087 |
-| 59 | [GetSayAll/deepseek-harness-app](https://github.com/GetSayAll/deepseek-harness-app) | 1 | 0 | — | — | metadata-only | 26.084 |
-| 60 | [tzy168/deepseek-harness](https://github.com/tzy168/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.084 |
-| 61 | [biyan113/deepseek-harness](https://github.com/biyan113/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.083 |
-| 62 | [Hyz0831/deepseek-harness](https://github.com/Hyz0831/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.082 |
-| 63 | [ouyangyipeng/dsh-desktop-upstream-archive](https://github.com/ouyangyipeng/dsh-desktop-upstream-archive) | 1 | 0 | — | — | metadata-only | 26.081 |
-| 64 | [realchenwenqiao/dash-fork](https://github.com/realchenwenqiao/dash-fork) | 1 | 0 | — | — | metadata-only | 26.080 |
-| 65 | [Zn070515/deepseek-harness](https://github.com/Zn070515/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.080 |
-| 66 | [SpxZhu/deepseek-harness](https://github.com/SpxZhu/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.079 |
-| 67 | [Vitaminaq/deepseek-harness](https://github.com/Vitaminaq/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.077 |
-| 68 | [znxiaoqi275/deepseek-harness](https://github.com/znxiaoqi275/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.070 |
-| 69 | [wuyuanjiang1/dsh2wechat_plugin](https://github.com/wuyuanjiang1/dsh2wechat_plugin) | 1 | 0 | — | — | metadata-only | 26.055 |
-| 70 | [deveuper/deepseek-harness](https://github.com/deveuper/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.055 |
-| 71 | [CatchCatOoO/deepseek-harness](https://github.com/CatchCatOoO/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.052 |
-| 72 | [KarlOfLaw/deepseek-harness](https://github.com/KarlOfLaw/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.052 |
-| 73 | [Yuan-lai-ru-ci/deepseek-harness-desktop](https://github.com/Yuan-lai-ru-ci/deepseek-harness-desktop) | 1 | 0 | — | — | metadata-only | 26.049 |
-| 74 | [007M7/deepseek-harness](https://github.com/007M7/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 75 | [123prompt/deepseek-harness](https://github.com/123prompt/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 76 | [18217778896/deepseek-harness](https://github.com/18217778896/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 77 | [2404589803/deepseek-harness](https://github.com/2404589803/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 78 | [485524097/deepseek-harness](https://github.com/485524097/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 79 | [AI-1-TOP/deepseek-harness](https://github.com/AI-1-TOP/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 80 | [Alsdara/deepseek-harness](https://github.com/Alsdara/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 81 | [Beam-wi/deepseek-harness](https://github.com/Beam-wi/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 82 | [BurtonQin/deepseek-harness](https://github.com/BurtonQin/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 83 | [CH-HGod/deepseek-harness](https://github.com/CH-HGod/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 84 | [China-MY/deepseek-harness](https://github.com/China-MY/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 85 | [Cute-chen/deepseek-harness-app](https://github.com/Cute-chen/deepseek-harness-app) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 86 | [DailyR/deepseek-harness](https://github.com/DailyR/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 87 | [DogeJian/deepseek-harness](https://github.com/DogeJian/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 88 | [EdwardXIE6666/deepseek-harness](https://github.com/EdwardXIE6666/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 89 | [Erichy777/deepseek-harness](https://github.com/Erichy777/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 90 | [Ericsongyl/deepseek-harness](https://github.com/Ericsongyl/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 91 | [FlyingSama/deepseek-harness](https://github.com/FlyingSama/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 92 | [GZZ-523/deepseek-harness](https://github.com/GZZ-523/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 93 | [GavinDong-plaud/deepseek-harness](https://github.com/GavinDong-plaud/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 94 | [HTree-ZX/deepseek-harness](https://github.com/HTree-ZX/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 95 | [HelloNicoo/deepseek-harness](https://github.com/HelloNicoo/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 96 | [Helpless5699/deepseek-harness](https://github.com/Helpless5699/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 97 | [Hina-0219-X/deepseek-harness](https://github.com/Hina-0219-X/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 98 | [HugoluizMTB/deepseek-harness](https://github.com/HugoluizMTB/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 99 | [HybridMAS/deepseek-harness](https://github.com/HybridMAS/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 100 | [ITMAXOS/deepseek-harness](https://github.com/ITMAXOS/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 101 | [JACK5920/deepseek-harness](https://github.com/JACK5920/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 102 | [JR-JR07/deepseek-harness](https://github.com/JR-JR07/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 103 | [JayTing511/deepseek-harness](https://github.com/JayTing511/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 104 | [JbBom/deepseek-harness](https://github.com/JbBom/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 105 | [KevinSCUTer/deepseek-harness](https://github.com/KevinSCUTer/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 106 | [KieranHoward646/deepseek-harness](https://github.com/KieranHoward646/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 107 | [Kite1ui/deepseek-harness](https://github.com/Kite1ui/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 108 | [LeiDellTech/deepseek-harness](https://github.com/LeiDellTech/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 109 | [Linmoqian/deepseek-harness-cli](https://github.com/Linmoqian/deepseek-harness-cli) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 110 | [Linyiwei895178/deepseek-harness](https://github.com/Linyiwei895178/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 111 | [Lorien-LAB/deepseek-harness-quant-version](https://github.com/Lorien-LAB/deepseek-harness-quant-version) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 112 | [Lostsoul-namespace/deepseek-harness](https://github.com/Lostsoul-namespace/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 113 | [Lyowisee/deepseek-harness](https://github.com/Lyowisee/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 114 | [MK6657/deepseek-harness](https://github.com/MK6657/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 115 | [MarsResearcher/deepseek-harness](https://github.com/MarsResearcher/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 116 | [MasterToycode/deepseek-harness](https://github.com/MasterToycode/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 117 | [Mike-7777777/deepseek-harness](https://github.com/Mike-7777777/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 118 | [MinerBin/deepseek-harness](https://github.com/MinerBin/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 119 | [MixGeeker/deepseek-harness](https://github.com/MixGeeker/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 120 | [MoRiv447/deepseek-harness](https://github.com/MoRiv447/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 121 | [MrGXxx/deepseek-harness](https://github.com/MrGXxx/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 122 | [MrNQC/deepseek-harness](https://github.com/MrNQC/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 123 | [NE1L-C/deepseek-harness](https://github.com/NE1L-C/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 124 | [NJHHBJSJKAsjdsasa/deepseek-harness](https://github.com/NJHHBJSJKAsjdsasa/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 125 | [NewMFF/deepseek-harness](https://github.com/NewMFF/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 126 | [Peter1Griffen/deepseek-harness](https://github.com/Peter1Griffen/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 127 | [QingGeLaiYe/deepseek-harness](https://github.com/QingGeLaiYe/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 128 | [Razor87/deepseek-harness](https://github.com/Razor87/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 129 | [Sailfishc/deepseek-harness](https://github.com/Sailfishc/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 130 | [SamboHassan/deepseek-harness](https://github.com/SamboHassan/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 131 | [SunWay0573/deepseek-harness](https://github.com/SunWay0573/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 132 | [TKaxv-7S/deepseek-harness](https://github.com/TKaxv-7S/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 133 | [TomYang1024/deepseek-harness](https://github.com/TomYang1024/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 134 | [Trystan-Talen/deepseek-harness](https://github.com/Trystan-Talen/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 135 | [Tyler-R-Kendrick/deepseek-harness](https://github.com/Tyler-R-Kendrick/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 136 | [Vindy7551/deepseek-harness](https://github.com/Vindy7551/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 137 | [WithDonny/deepseek-harness](https://github.com/WithDonny/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 138 | [WuJunNan-fjy/deepseek-harness](https://github.com/WuJunNan-fjy/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 139 | [XXLxhPLMM/deepseek-harness](https://github.com/XXLxhPLMM/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 140 | [XinghangGou/deepseek-harness](https://github.com/XinghangGou/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 141 | [Yuan227719/deepseek-harness](https://github.com/Yuan227719/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 142 | [Yuen-999/deepseek-harness](https://github.com/Yuen-999/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 143 | [Zguigo00/deepseek-harness](https://github.com/Zguigo00/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 144 | [achristofaro/deepseek-harness](https://github.com/achristofaro/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 145 | [alexdeweb/deepseek-harness](https://github.com/alexdeweb/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 146 | [alexdolbun/deepseek-harness](https://github.com/alexdolbun/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 147 | [athif23/deepseek-harness](https://github.com/athif23/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 148 | [ayushare/deepseek-harness](https://github.com/ayushare/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 149 | [b3nk-x1/deepseek-harness](https://github.com/b3nk-x1/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 150 | [badestgod/deepseek-harness](https://github.com/badestgod/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 151 | [ben-vargas/ai-deepseek-harness](https://github.com/ben-vargas/ai-deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 152 | [bojieli/deepseek-harness](https://github.com/bojieli/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 153 | [boktoday/deepseek-harness](https://github.com/boktoday/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 154 | [chiekoschamburek-dev/deepseek-harness](https://github.com/chiekoschamburek-dev/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 155 | [chyl00/deepseek-harness](https://github.com/chyl00/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 156 | [cioerp/deepseek-harness](https://github.com/cioerp/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 157 | [codelife2020/deepseek-harness](https://github.com/codelife2020/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 158 | [coder-v0/deepseek-harness](https://github.com/coder-v0/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 159 | [criapa/deepseek-harness](https://github.com/criapa/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 160 | [cyh7777/deepseek-harness](https://github.com/cyh7777/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 161 | [dailin3/deepseek-harness](https://github.com/dailin3/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 162 | [ddd666j/deepseek-harness](https://github.com/ddd666j/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 163 | [devin2255/deepseek-harness-desktop](https://github.com/devin2255/deepseek-harness-desktop) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 164 | [donstang/deepseek-harness](https://github.com/donstang/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 165 | [dorucioclea/deepseek-harness](https://github.com/dorucioclea/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 166 | [drscrewdriver/deepseek-harness](https://github.com/drscrewdriver/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 167 | [duliangkuan/deepseek-harness](https://github.com/duliangkuan/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 168 | [enbideren/deepseek-harness](https://github.com/enbideren/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 169 | [equable66/deepseek-harness](https://github.com/equable66/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 170 | [ermao009/deepseek-harness](https://github.com/ermao009/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 171 | [fage45029704-lgtm/deepseek-harness](https://github.com/fage45029704-lgtm/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 172 | [faguangdeyueliang/deepseek-harness](https://github.com/faguangdeyueliang/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 173 | [fisher158163/deepseek-harness](https://github.com/fisher158163/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 174 | [flaqai/open-deepseek-harness-desktop](https://github.com/flaqai/open-deepseek-harness-desktop) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 175 | [ghthh/deepseek-harness](https://github.com/ghthh/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 176 | [guihuatu2022/deepseek-harness](https://github.com/guihuatu2022/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 177 | [hanfengchiyi/deepseek-harness](https://github.com/hanfengchiyi/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 178 | [hanqi9622-eng/deepseek-harness](https://github.com/hanqi9622-eng/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 179 | [helsinke2002/deepseek-harness](https://github.com/helsinke2002/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 180 | [houkang/deepseek-harness](https://github.com/houkang/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 181 | [huangkick-tech/deepseek-harness](https://github.com/huangkick-tech/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 182 | [iKing/deepseek-harness](https://github.com/iKing/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 183 | [imhieu/deepseek-harness](https://github.com/imhieu/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 184 | [jinchao-bst/deepseek-harness](https://github.com/jinchao-bst/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 185 | [kanla8/deepseek-harness](https://github.com/kanla8/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 186 | [karos37/deepseek-harness](https://github.com/karos37/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 187 | [kumaran2008/deepseek-harness](https://github.com/kumaran2008/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 188 | [leixiaochenShen/deepseek-harness](https://github.com/leixiaochenShen/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 189 | [lihaidog/deepseek-harness](https://github.com/lihaidog/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 190 | [linfunss/deepseek-harness](https://github.com/linfunss/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 191 | [ling0zero0/deepseek-harness](https://github.com/ling0zero0/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 192 | [lingwoohanger/deepseek-harness](https://github.com/lingwoohanger/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 193 | [liumengchen0815/deepseek-harness](https://github.com/liumengchen0815/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 194 | [lixun910/deepseek-harness](https://github.com/lixun910/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 195 | [lkngin/deepseek-harness](https://github.com/lkngin/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 196 | [longman888/deepseek-harness](https://github.com/longman888/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 197 | [lucasclark7699-bot/deepseek-harness](https://github.com/lucasclark7699-bot/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 198 | [lucy971326/deepseek-harness](https://github.com/lucy971326/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 199 | [maigadohcrypto/deepseek-harness](https://github.com/maigadohcrypto/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
-| 200 | [manuelapetsi/deepseek-harness](https://github.com/manuelapetsi/deepseek-harness) | 1 | 0 | — | — | metadata-only | 26.043 |
+| Rank | Fork | Stars | Owner reputation | Repo influence | Overall | Ahead | Changed files | Deep status | One-sentence evidence |
+| ---: | --- | ---: | --- | ---: | ---: | ---: | ---: | --- | --- |
+| 1 | [salathleizhang/deepseek-harness-desktop](https://github.com/salathleizhang/deepseek-harness-desktop) | 96 | 36.0 (observed) | 98.601 | 73.560 | 42 | 300 | ok | 新增约 42 个提交并修改 300 个文件，主要涉及 配置、文档、CI/构建、依赖；目标线索是“Native desktop app for DeepSeek Harness — an Electron shell that runs the harness locally and hosts the official Web GUI unchanged”。 |
+| 2 | [G36maid/deepseek-harness](https://github.com/G36maid/deepseek-harness) | 12 | 54.4 (observed) | 64.260 | 60.332 | 19 | 300 | ok | 新增约 19 个提交并修改 300 个文件，主要涉及 配置、文档；目标线索是“DeepSeek Harness 繁體中文版 (zh-TW) — Everything is a Plugin”。 |
+| 3 | [Sakana-yuyu/deepseek-harness-desktop](https://github.com/Sakana-yuyu/deepseek-harness-desktop) | 21 | 35.5 (observed) | 72.246 | 57.552 | 14 | 81 | ok | 新增约 14 个提交并修改 81 个文件，主要涉及 配置、文档、CI/构建、UI/应用层；目标线索是“Rust构建的客户端，体积更小，更方便，Mac，win，linux已完成”。 |
+| 4 | [Skyearn/deepseek-harness-app](https://github.com/Skyearn/deepseek-harness-app) | 11 | 34.3 (observed) | 65.665 | 53.127 | 24 | 31 | ok | 新增约 24 个提交并修改 31 个文件，主要涉及 配置、文档、CI/构建、其他文件；目标线索是“DeepSeek Harness Desktop”。 |
+| 5 | [Ajwyunsx/deepseek-harness-mobile](https://github.com/Ajwyunsx/deepseek-harness-mobile) | 4 | 36.6 (observed) | 56.090 | 48.285 | 7 | 40 | ok | 新增约 7 个提交并修改 40 个文件，主要涉及 文档、其他文件；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 6 | [bojieli/deepseek-harness](https://github.com/bojieli/deepseek-harness) | 1 | 81.4 (observed) | 25.935 | 48.119 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 7 | [alexdolbun/deepseek-harness](https://github.com/alexdolbun/deepseek-harness) | 1 | 80.0 (observed) | 25.935 | 47.576 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“未从 Fork 列表元数据观察到”，修改面待下一轮 compare/README 深扫。 |
+| 8 | [stophobia/deepseek-harness](https://github.com/stophobia/deepseek-harness) | 2 | 70.7 (observed) | 29.481 | 45.952 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 9 | [Cyenoch/deepseek-harness](https://github.com/Cyenoch/deepseek-harness) | 1 | 41.4 (observed) | 47.074 | 44.804 | 13 | 300 | ok | 新增约 13 个提交并修改 300 个文件，主要涉及 配置、文档、agent/skill 能力、CI/构建；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 10 | [fendouai/deepseek-harness-desktop](https://github.com/fendouai/deepseek-harness-desktop) | 1 | 72.1 (observed) | 26.038 | 44.456 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 11 | [dorucioclea/deepseek-harness](https://github.com/dorucioclea/deepseek-harness) | 1 | 71.8 (observed) | 25.935 | 44.263 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 12 | [sdkwork-ai/deepseek-harness-desktop](https://github.com/sdkwork-ai/deepseek-harness-desktop) | 4 | 17.9 (observed) | 57.725 | 41.799 | 43 | 300 | ok | 新增约 43 个提交并修改 300 个文件，主要涉及 配置、文档、其他文件、CI/构建；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 13 | [rpmalouin/deepseek-harness](https://github.com/rpmalouin/deepseek-harness) | 7 | 34.9 (observed) | 45.637 | 41.342 | 4 | 31 | ok | 新增约 4 个提交并修改 31 个文件，主要涉及 文档、其他文件；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 14 | [lixun910/deepseek-harness](https://github.com/lixun910/deepseek-harness) | 1 | 64.0 (observed) | 25.935 | 41.152 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 15 | [puppywang/deepseek-harness](https://github.com/puppywang/deepseek-harness) | 4 | 49.7 (observed) | 34.020 | 40.307 | 10 | 300 | ok | 新增约 10 个提交并修改 300 个文件，主要涉及 配置、文档、CI/构建、其他文件；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 16 | [Sailfishc/deepseek-harness](https://github.com/Sailfishc/deepseek-harness) | 1 | 61.2 (observed) | 25.935 | 40.046 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 17 | [ben-vargas/ai-deepseek-harness](https://github.com/ben-vargas/ai-deepseek-harness) | 1 | 59.6 (observed) | 25.935 | 39.413 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 18 | [TKaxv-7S/deepseek-harness](https://github.com/TKaxv-7S/deepseek-harness) | 1 | 59.4 (observed) | 25.935 | 39.307 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 19 | [Octo-o-o-o/deepseek-harness-desktop](https://github.com/Octo-o-o-o/deepseek-harness-desktop) | 1 | 21.8 (observed) | 50.932 | 39.264 | 78 | 286 | ok | 新增约 78 个提交并修改 286 个文件，主要涉及 配置、文档、CI/构建、依赖；目标线索是“非官方桌面版 · Unofficial desktop shell for DeepSeek Harness — double-click, no Node, no terminal. Signed & notarized on macOS. Tauri shell, official MIT core untouched”。 |
+| 20 | [BurtonQin/deepseek-harness](https://github.com/BurtonQin/deepseek-harness) | 1 | 58.2 (observed) | 25.935 | 38.847 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 21 | [happylin0x29a/deepseek-harness-desktop](https://github.com/happylin0x29a/deepseek-harness-desktop) | 4 | 34.6 (observed) | 41.487 | 38.748 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“deepseek-harness desktop base on tauri”。 |
+| 22 | [WyrdWerk/deepseek-harness](https://github.com/WyrdWerk/deepseek-harness) | 1 | 25.1 (observed) | 46.841 | 38.130 | 13 | 272 | ok | 新增约 13 个提交并修改 272 个文件，主要涉及 配置、文档、CI/构建、UI/应用层；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 23 | [MarceloClaro/deepseek-harness](https://github.com/MarceloClaro/deepseek-harness) | 2 | 50.6 (observed) | 29.481 | 37.919 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 24 | [fisher158163/deepseek-harness](https://github.com/fisher158163/deepseek-harness) | 1 | 54.9 (observed) | 25.935 | 37.541 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 25 | [exposir/deepseek-harness](https://github.com/exposir/deepseek-harness) | 1 | 52.3 (observed) | 25.979 | 36.499 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“未从 Fork 列表元数据观察到”，修改面待下一轮 compare/README 深扫。 |
+| 26 | [athif23/deepseek-harness](https://github.com/athif23/deepseek-harness) | 1 | 51.7 (observed) | 25.935 | 36.230 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 27 | [FSMargoo/deepseek-harness](https://github.com/FSMargoo/deepseek-harness) | 2 | 46.1 (observed) | 29.480 | 36.135 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness”。 |
+| 28 | [zchuhui/deepseek-harness](https://github.com/zchuhui/deepseek-harness) | 1 | 48.7 (observed) | 26.033 | 35.114 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 29 | [BobcGn/deepseek-harness-app](https://github.com/BobcGn/deepseek-harness-app) | 1 | 25.7 (observed) | 41.342 | 35.077 | 14 | 31 | ok | 新增约 14 个提交并修改 31 个文件，主要涉及 配置、文档、CI/构建、其他文件；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 30 | [luolangaga/deepseek-harness](https://github.com/luolangaga/deepseek-harness) | 4 | 36.4 (observed) | 33.992 | 34.943 | 11 | 54 | ok | 新增约 11 个提交并修改 54 个文件，主要涉及 配置、文档、CI/构建、其他文件；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 31 | [donstang/deepseek-harness](https://github.com/donstang/deepseek-harness) | 1 | 48.0 (observed) | 25.935 | 34.767 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 32 | [Razor87/deepseek-harness](https://github.com/Razor87/deepseek-harness) | 1 | 47.6 (observed) | 25.935 | 34.620 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 33 | [lkngin/deepseek-harness](https://github.com/lkngin/deepseek-harness) | 1 | 47.5 (observed) | 25.935 | 34.542 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 34 | [criapa/deepseek-harness](https://github.com/criapa/deepseek-harness) | 1 | 47.3 (observed) | 25.935 | 34.491 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 35 | [himomohi/deepseek-harness](https://github.com/himomohi/deepseek-harness) | 1 | 46.5 (observed) | 26.040 | 34.232 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 36 | [CatchCatOoO/deepseek-harness](https://github.com/CatchCatOoO/deepseek-harness) | 1 | 18.4 (observed) | 44.628 | 34.153 | 4 | 300 | ok | 新增约 4 个提交并修改 300 个文件，主要涉及 文档、配置、agent/skill 能力；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 37 | [HHHHH-GIT/Deepseek-HPD-Harness](https://github.com/HHHHH-GIT/Deepseek-HPD-Harness) | 1 | 22.4 (observed) | 41.406 | 33.809 | 2 | 133 | ok | 新增约 2 个提交并修改 133 个文件，主要涉及 配置、文档、依赖、UI/应用层；目标线索是“DeepSeek HPD Harness: Everything is a Plugin. A more powerful Harness with HPD architecture”。 |
+| 38 | [boktoday/deepseek-harness](https://github.com/boktoday/deepseek-harness) | 1 | 44.2 (observed) | 25.935 | 33.223 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 39 | [Anyaoha/deepseek-harness](https://github.com/Anyaoha/deepseek-harness) | 1 | 44.0 (observed) | 25.935 | 33.144 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 40 | [2404589803/deepseek-harness](https://github.com/2404589803/deepseek-harness) | 1 | 43.8 (observed) | 25.935 | 33.080 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 41 | [achristofaro/deepseek-harness](https://github.com/achristofaro/deepseek-harness) | 1 | 42.6 (observed) | 25.935 | 32.601 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 42 | [Yihong89/deepseek-harness](https://github.com/Yihong89/deepseek-harness) | 2 | 36.3 (observed) | 29.481 | 32.202 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness”。 |
+| 43 | [BJTU-Netcomm/deepseek-harness-aiops](https://github.com/BJTU-Netcomm/deepseek-harness-aiops) | 0 | 39.4 (observed) | 27.375 | 32.201 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness for aiops: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 44 | [Mike-7777777/deepseek-harness](https://github.com/Mike-7777777/deepseek-harness) | 1 | 40.6 (observed) | 25.935 | 31.812 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 45 | [xiaolangde/deepseek-harness](https://github.com/xiaolangde/deepseek-harness) | 1 | 39.7 (observed) | 25.985 | 31.458 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 46 | [drscrewdriver/deepseek-harness](https://github.com/drscrewdriver/deepseek-harness) | 1 | 38.7 (observed) | 25.935 | 31.031 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 47 | [DeepThinkingZhouLiu/Deepseek-Harness-RSI](https://github.com/DeepThinkingZhouLiu/Deepseek-Harness-RSI) | 1 | 38.3 (observed) | 26.055 | 30.933 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 48 | [Vitaminaq/deepseek-harness](https://github.com/Vitaminaq/deepseek-harness) | 1 | 38.0 (observed) | 25.969 | 30.762 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 49 | [Tyler-R-Kendrick/deepseek-harness](https://github.com/Tyler-R-Kendrick/deepseek-harness) | 1 | 38.0 (observed) | 25.935 | 30.746 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 50 | [enbideren/deepseek-harness](https://github.com/enbideren/deepseek-harness) | 1 | 37.8 (observed) | 25.935 | 30.697 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 51 | [realchenwenqiao/dash-fork](https://github.com/realchenwenqiao/dash-fork) | 1 | 37.1 (observed) | 25.972 | 30.428 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DASH — terminal-native TUI for DeepSeek Harness: Claude Code-style full-screen interface, multi-model switching, behavior-ledger rewind”，修改面待下一轮 compare/README 深扫。 |
+| 52 | [v2hoping/deepseek-harness-desktop](https://github.com/v2hoping/deepseek-harness-desktop) | 1 | 36.4 (observed) | 26.055 | 30.187 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin. Supports desktop installation and DeepSeek account login”，修改面待下一轮 compare/README 深扫。 |
+| 53 | [GetSayAll/deepseek-harness-app](https://github.com/GetSayAll/deepseek-harness-app) | 1 | 6.2 (observed) | 45.994 | 30.057 | 25 | 118 | ok | 新增约 25 个提交并修改 118 个文件，主要涉及 配置、文档、依赖、UI/应用层；目标线索是“DeepSeek Harness”。 |
+| 54 | [Linmoqian/deepseek-harness-cli](https://github.com/Linmoqian/deepseek-harness-cli) | 1 | 36.2 (observed) | 25.935 | 30.042 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“deepseek-harness-cli版本”。 |
+| 55 | [srwang0506/deepseek-harness](https://github.com/srwang0506/deepseek-harness) | 1 | 24.3 (observed) | 33.559 | 29.838 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 56 | [SamboHassan/deepseek-harness](https://github.com/SamboHassan/deepseek-harness) | 1 | 35.5 (observed) | 25.935 | 29.746 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 57 | [ouyangyipeng/dsh-desktop-upstream-archive](https://github.com/ouyangyipeng/dsh-desktop-upstream-archive) | 1 | 35.3 (observed) | 25.973 | 29.722 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“Archived upstream fork that preceded the independent DS-Harness Desktop repository”，修改面待下一轮 compare/README 深扫。 |
+| 58 | [alexdeweb/deepseek-harness](https://github.com/alexdeweb/deepseek-harness) | 1 | 35.0 (observed) | 25.935 | 29.547 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 59 | [coder-v0/deepseek-harness](https://github.com/coder-v0/deepseek-harness) | 1 | 34.9 (observed) | 25.935 | 29.533 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 60 | [devin2255/deepseek-harness-desktop](https://github.com/devin2255/deepseek-harness-desktop) | 1 | 34.6 (observed) | 25.935 | 29.419 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 61 | [JayTing511/deepseek-harness](https://github.com/JayTing511/deepseek-harness) | 1 | 34.3 (observed) | 25.935 | 29.289 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 62 | [yazzang-homelab/deepseek-harness](https://github.com/yazzang-homelab/deepseek-harness) | 2 | 16.5 (observed) | 36.981 | 28.797 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 63 | [badestgod/deepseek-harness](https://github.com/badestgod/deepseek-harness) | 1 | 33.0 (observed) | 25.935 | 28.777 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 64 | [SmuzyHi/deepseek-harness-harmonypc](https://github.com/SmuzyHi/deepseek-harness-harmonypc) | 1 | 1.5 (observed) | 46.869 | 28.726 | 44 | 99 | ok | 新增约 44 个提交并修改 99 个文件，主要涉及 CI/构建、文档、UI/应用层、依赖；目标线索是“DeepSeek Harness: Everything is a Plugin, working on harmonyos”。 |
+| 65 | [houkang/deepseek-harness](https://github.com/houkang/deepseek-harness) | 1 | 32.8 (observed) | 25.935 | 28.699 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“deepseek-harness”，修改面待下一轮 compare/README 深扫。 |
+| 66 | [cq2021-coder/deepseek-harness-desktop](https://github.com/cq2021-coder/deepseek-harness-desktop) | 1 | 32.7 (observed) | 26.001 | 28.685 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“使用 tauri 为 DeepSeek Harness 生态打造的现代化桌面端应用”，修改面待下一轮 compare/README 深扫。 |
+| 67 | [SpxZhu/deepseek-harness](https://github.com/SpxZhu/deepseek-harness) | 1 | 16.1 (observed) | 36.946 | 28.623 | 2 | 24 | ok | 新增约 2 个提交并修改 24 个文件，主要涉及 CI/构建、UI/应用层、文档、配置；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 68 | [China-MY/deepseek-harness](https://github.com/China-MY/deepseek-harness) | 1 | 32.6 (observed) | 25.935 | 28.589 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 69 | [youshen2/deepseek-harness](https://github.com/youshen2/deepseek-harness) | 1 | 31.8 (observed) | 26.003 | 28.332 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 70 | [MasterToycode/deepseek-harness](https://github.com/MasterToycode/deepseek-harness) | 1 | 31.9 (observed) | 25.935 | 28.303 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 71 | [shdeng/deepseek-harness-app](https://github.com/shdeng/deepseek-harness-app) | 1 | 31.3 (observed) | 26.047 | 28.129 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 72 | [huiliyi37/deepseek-harness](https://github.com/huiliyi37/deepseek-harness) | 2 | 25.1 (observed) | 29.481 | 27.738 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 73 | [Kiowx/deepseek-harness](https://github.com/Kiowx/deepseek-harness) | 2 | 24.6 (observed) | 29.523 | 27.542 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 74 | [Menger-8/deepseek-harness](https://github.com/Menger-8/deepseek-harness) | 1 | 6.1 (observed) | 41.371 | 27.264 | 7 | 56 | ok | 新增约 7 个提交并修改 56 个文件，主要涉及 配置、文档、依赖、Harness 核心能力；目标线索是“DeepSeek Harness fork: any third-party OpenAI-compatible gateway works out of the box — gateway compat presets + adoption-time capability probing”。 |
+| 75 | [zhonghui5207/deepseek-harness-desktop](https://github.com/zhonghui5207/deepseek-harness-desktop) | 1 | 29.0 (observed) | 26.047 | 27.241 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DSH Desktop — an installable desktop distribution of DeepSeek Harness for macOS, Windows, and Linux”，修改面待下一轮 compare/README 深扫。 |
+| 76 | [NewMFF/deepseek-harness](https://github.com/NewMFF/deepseek-harness) | 1 | 29.1 (observed) | 25.935 | 27.203 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 77 | [TomYang1024/deepseek-harness](https://github.com/TomYang1024/deepseek-harness) | 1 | 28.8 (observed) | 25.935 | 27.069 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 78 | [linfunss/deepseek-harness](https://github.com/linfunss/deepseek-harness) | 1 | 28.4 (observed) | 25.935 | 26.931 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 79 | [dailin3/deepseek-harness](https://github.com/dailin3/deepseek-harness) | 1 | 28.2 (observed) | 25.935 | 26.844 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 80 | [biyan113/deepseek-harness](https://github.com/biyan113/deepseek-harness) | 1 | 28.1 (observed) | 25.976 | 26.842 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 81 | [xiaosenho/deepseek-harness](https://github.com/xiaosenho/deepseek-harness) | 1 | 16.3 (observed) | 33.490 | 26.620 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 82 | [iKing/deepseek-harness](https://github.com/iKing/deepseek-harness) | 1 | 27.5 (observed) | 25.935 | 26.543 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 83 | [BlackRosePetals/deepseek-harness](https://github.com/BlackRosePetals/deepseek-harness) | 1 | 27.3 (observed) | 25.935 | 26.475 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 84 | [Limoumou121/deepseek-harness-desktop-test](https://github.com/Limoumou121/deepseek-harness-desktop-test) | 1 | 4.2 (observed) | 41.330 | 26.468 | 12 | 35 | ok | 新增约 12 个提交并修改 35 个文件，主要涉及 其他文件、文档、依赖、UI/应用层；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 85 | [t479842598/deepseek-harness](https://github.com/t479842598/deepseek-harness) | 1 | 26.7 (observed) | 26.044 | 26.324 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 86 | [imhieu/deepseek-harness](https://github.com/imhieu/deepseek-harness) | 1 | 26.7 (observed) | 25.935 | 26.257 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 87 | [HaoyanZhang123/deepseek-harness-live-preset-switch](https://github.com/HaoyanZhang123/deepseek-harness-live-preset-switch) | 1 | 5.4 (observed) | 40.133 | 26.251 | 2 | 81 | ok | 新增约 2 个提交并修改 81 个文件，主要涉及 文档、agent/skill 能力、UI/应用层、Harness 核心能力；目标线索是“DeepSeek Harness with live agent-preset switching at turn boundaries”。 |
+| 88 | [4evour/deepseek-harness](https://github.com/4evour/deepseek-harness) | 1 | 26.5 (observed) | 25.935 | 26.147 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 89 | [Cute-chen/deepseek-harness-app](https://github.com/Cute-chen/deepseek-harness-app) | 1 | — (unobserved) | 25.935 | 25.935 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 90 | [DailyR/deepseek-harness](https://github.com/DailyR/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 91 | [DogeJian/deepseek-harness](https://github.com/DogeJian/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 92 | [EdwardXIE6666/deepseek-harness](https://github.com/EdwardXIE6666/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 93 | [Erichy777/deepseek-harness](https://github.com/Erichy777/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 94 | [Ericsongyl/deepseek-harness](https://github.com/Ericsongyl/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 95 | [FlyingSama/deepseek-harness](https://github.com/FlyingSama/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 96 | [GZZ-523/deepseek-harness](https://github.com/GZZ-523/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 97 | [GavinDong-plaud/deepseek-harness](https://github.com/GavinDong-plaud/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 98 | [HTree-ZX/deepseek-harness](https://github.com/HTree-ZX/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 99 | [HelloNicoo/deepseek-harness](https://github.com/HelloNicoo/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 100 | [Helpless5699/deepseek-harness](https://github.com/Helpless5699/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 101 | [Hina-0219-X/deepseek-harness](https://github.com/Hina-0219-X/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 102 | [HugoluizMTB/deepseek-harness](https://github.com/HugoluizMTB/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 103 | [HybridMAS/deepseek-harness](https://github.com/HybridMAS/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 104 | [JingMox/deepseek-harness](https://github.com/JingMox/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 105 | [KinomotoMio/deepseek-harness](https://github.com/KinomotoMio/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 106 | [Luo-shi/deepseek-harness](https://github.com/Luo-shi/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 107 | [Oasis-AI-Lab/deepseek-harness](https://github.com/Oasis-AI-Lab/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 108 | [a907781273-a11y/deepseek-harness](https://github.com/a907781273-a11y/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 109 | [lucasclark7699-bot/deepseek-harness](https://github.com/lucasclark7699-bot/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 110 | [lucy971326/deepseek-harness](https://github.com/lucy971326/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 111 | [luoxunhao/deepseek-harness](https://github.com/luoxunhao/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 112 | [maigadohcrypto/deepseek-harness](https://github.com/maigadohcrypto/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“未从 Fork 列表元数据观察到”，修改面待下一轮 compare/README 深扫。 |
+| 113 | [mallocxw/deepseek-harness](https://github.com/mallocxw/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 114 | [manuelapetsi/deepseek-harness](https://github.com/manuelapetsi/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 115 | [markisaac/deepseek-harness](https://github.com/markisaac/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 116 | [marskong411-code/deepseek-harness](https://github.com/marskong411-code/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“未从 Fork 列表元数据观察到”，修改面待下一轮 compare/README 深扫。 |
+| 117 | [melkharbili/deepseek-harness](https://github.com/melkharbili/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 118 | [mengyj123/deepseek-harness](https://github.com/mengyj123/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 119 | [mgrillo75/deepseek-harness](https://github.com/mgrillo75/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 120 | [misshehe/deepseek-harness](https://github.com/misshehe/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 121 | [missuzhang/deepseek-harness](https://github.com/missuzhang/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 122 | [mnky4a6/deepseek-harness](https://github.com/mnky4a6/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 123 | [moton16/deepseek-harness](https://github.com/moton16/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“未从 Fork 列表元数据观察到”，修改面待下一轮 compare/README 深扫。 |
+| 124 | [nj186/deepseek-harness](https://github.com/nj186/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 125 | [noino5989-prog/deepseek-harness](https://github.com/noino5989-prog/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 126 | [nydia/deepseek-harness](https://github.com/nydia/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 127 | [odonzyk/deepseek-harness](https://github.com/odonzyk/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 128 | [oscarlius/deepseek-harness](https://github.com/oscarlius/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“未从 Fork 列表元数据观察到”，修改面待下一轮 compare/README 深扫。 |
+| 129 | [ousers/deepseek-harness](https://github.com/ousers/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 130 | [payammasroori-crypto/deepseek-harness](https://github.com/payammasroori-crypto/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 131 | [peter13990/deepseek-harness](https://github.com/peter13990/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 132 | [phong711/deepseek-harness](https://github.com/phong711/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 133 | [playboy662/deepseek-harness](https://github.com/playboy662/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“未从 Fork 列表元数据观察到”，修改面待下一轮 compare/README 深扫。 |
+| 134 | [qingxuanCC/deepseek-harness666](https://github.com/qingxuanCC/deepseek-harness666) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 135 | [qym-ll/deepseek-harness](https://github.com/qym-ll/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 136 | [refengSGL/deepseek-harness](https://github.com/refengSGL/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 137 | [rferrari/deepseek-harness](https://github.com/rferrari/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 138 | [roadlittledawn/deepseek-harness](https://github.com/roadlittledawn/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 139 | [rvndnishad-work/deepseek-harness](https://github.com/rvndnishad-work/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 140 | [santrizoscarmella-cloud/deepseek-harness](https://github.com/santrizoscarmella-cloud/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 141 | [scuer-ls/deepseek-harness](https://github.com/scuer-ls/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 142 | [shenyimings/deepseek-harness](https://github.com/shenyimings/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 143 | [shr123456/deepseek-harness](https://github.com/shr123456/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 144 | [skxby/deepseek-harness](https://github.com/skxby/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“skxb的分支”，修改面待下一轮 compare/README 深扫。 |
+| 145 | [slamsmart/deepseek-harness](https://github.com/slamsmart/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 146 | [studioburnside/deepseek-harness-internal](https://github.com/studioburnside/deepseek-harness-internal) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 147 | [supersyh-sss/deepseek-harness](https://github.com/supersyh-sss/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 148 | [tensix-16/deepseek-harness](https://github.com/tensix-16/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 149 | [tinhocdaimo2015/deepseek-harness](https://github.com/tinhocdaimo2015/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 150 | [tomchon/deepseek-harness](https://github.com/tomchon/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“未从 Fork 列表元数据观察到”，修改面待下一轮 compare/README 深扫。 |
+| 151 | [tranvantrung95/deepseek-harness](https://github.com/tranvantrung95/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 152 | [valentinshenfeld/deepseek-harness](https://github.com/valentinshenfeld/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 153 | [vkn129/deepseek-harness](https://github.com/vkn129/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 154 | [w74srm/deepseek-harness](https://github.com/w74srm/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 155 | [wellfuture/deepseek-harness](https://github.com/wellfuture/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 156 | [wingthedream/deepseek-harness](https://github.com/wingthedream/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 157 | [x1095907352/deepseek-harness](https://github.com/x1095907352/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 158 | [xbzhangyq/deepseek-harness](https://github.com/xbzhangyq/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 159 | [xiansheng888/deepseek-harness](https://github.com/xiansheng888/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 160 | [xiaofeng930415/deepseek-harness](https://github.com/xiaofeng930415/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“未从 Fork 列表元数据观察到”，修改面待下一轮 compare/README 深扫。 |
+| 161 | [xuehezhou/deepseek-harness](https://github.com/xuehezhou/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 162 | [y2649050261-wq/deepseek-harness](https://github.com/y2649050261-wq/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 163 | [yangzhb-cn/deepseek-harness](https://github.com/yangzhb-cn/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 164 | [yatosomama/deepseek-harness](https://github.com/yatosomama/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 165 | [yomaser/deepseek-harness](https://github.com/yomaser/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 166 | [yueyucaotian/deepseek-harness](https://github.com/yueyucaotian/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 167 | [yuzih888/deepseek-harness](https://github.com/yuzih888/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 168 | [yvixiin/deepseek-harness](https://github.com/yvixiin/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 169 | [zdy-ai/deepseek-harness](https://github.com/zdy-ai/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 170 | [zenghuan/deepseek-harness](https://github.com/zenghuan/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 171 | [zhanggoodbao/deepseek-harness](https://github.com/zhanggoodbao/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 172 | [zilaliang/deepseek-harness](https://github.com/zilaliang/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 173 | [zkh11123/deepseek-harness](https://github.com/zkh11123/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 174 | [zng8418/deepseek-harness](https://github.com/zng8418/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 175 | [zy220/deepseek-harness](https://github.com/zy220/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“zy的ds-harness个人仓”，修改面待下一轮 compare/README 深扫。 |
+| 176 | [LCYLYM/deepseek-harness](https://github.com/LCYLYM/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness”。 |
+| 177 | [lemonhub-io/deepseek-harness](https://github.com/lemonhub-io/deepseek-harness) | 1 | — (unobserved) | 25.935 | 25.935 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“未从 Fork 列表元数据观察到”，修改面待下一轮 compare/README 深扫。 |
+| 178 | [KevinSCUTer/deepseek-harness](https://github.com/KevinSCUTer/deepseek-harness) | 1 | 25.8 (observed) | 25.935 | 25.897 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 179 | [QingGeLaiYe/deepseek-harness](https://github.com/QingGeLaiYe/deepseek-harness) | 1 | 25.6 (observed) | 25.935 | 25.786 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness”。 |
+| 180 | [yx54hego-cloud/deepseek-harness](https://github.com/yx54hego-cloud/deepseek-harness) | 7 | 7.0 (observed) | 38.153 | 25.697 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 181 | [deveuper/deepseek-harness](https://github.com/deveuper/deepseek-harness) | 1 | 25.0 (observed) | 25.947 | 25.580 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 182 | [MinerBin/deepseek-harness](https://github.com/MinerBin/deepseek-harness) | 1 | 24.5 (observed) | 25.935 | 25.364 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 183 | [18217778896/deepseek-harness](https://github.com/18217778896/deepseek-harness) | 1 | 24.2 (observed) | 25.935 | 25.252 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 184 | [leixiaochenShen/deepseek-harness](https://github.com/leixiaochenShen/deepseek-harness) | 1 | 24.0 (observed) | 25.935 | 25.166 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 185 | [liwuli/deepseek-harness-desktop](https://github.com/liwuli/deepseek-harness-desktop) | 1 | 23.9 (observed) | 25.990 | 25.141 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness desktop”，修改面待下一轮 compare/README 深扫。 |
+| 186 | [tzy168/deepseek-harness](https://github.com/tzy168/deepseek-harness) | 1 | 23.8 (observed) | 25.976 | 25.087 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 187 | [nostalgia296/deepseek-harness-termux](https://github.com/nostalgia296/deepseek-harness-termux) | 1 | 23.6 (observed) | 25.997 | 25.035 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 188 | [lihaidog/deepseek-harness](https://github.com/lihaidog/deepseek-harness) | 1 | 23.1 (observed) | 25.935 | 24.782 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 189 | [longman888/deepseek-harness](https://github.com/longman888/deepseek-harness) | 1 | 22.5 (observed) | 25.935 | 24.559 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 190 | [duliangkuan/deepseek-harness](https://github.com/duliangkuan/deepseek-harness) | 1 | 22.2 (observed) | 25.935 | 24.439 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“未从 Fork 列表元数据观察到”，修改面待下一轮 compare/README 深扫。 |
+| 191 | [MixGeeker/deepseek-harness](https://github.com/MixGeeker/deepseek-harness) | 1 | 22.1 (observed) | 25.935 | 24.415 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 192 | [Beam-wi/deepseek-harness](https://github.com/Beam-wi/deepseek-harness) | 1 | 22.0 (observed) | 25.935 | 24.374 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 193 | [Linyiwei895178/deepseek-harness](https://github.com/Linyiwei895178/deepseek-harness) | 1 | 21.7 (observed) | 25.935 | 24.236 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 194 | [porarrirr/deepseek-harness-japanese](https://github.com/porarrirr/deepseek-harness-japanese) | 0 | 19.3 (observed) | 27.397 | 24.168 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“未从 Fork 列表元数据观察到”，修改面待下一轮 compare/README 深扫。 |
+| 195 | [suiyuebaobao/deepseek-harness-gui](https://github.com/suiyuebaobao/deepseek-harness-gui) | 2 | 16.1 (observed) | 29.517 | 24.133 | 2 | 52 | ok | 新增约 2 个提交并修改 52 个文件，主要涉及 配置、文档、依赖、UI/应用层；目标线索是“Windows desktop fork of DeepSeek Harness, packaged with Tauri while preserving the full Web profile and plugin runtime”。 |
+| 196 | [GTC2080/deepseek-harness](https://github.com/GTC2080/deepseek-harness) | 1 | 21.2 (observed) | 26.022 | 24.081 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness 桌面端：基于 Tauri，支持 macOS 与 Windows；源码位于 desktop 分支”。 |
+| 197 | [007M7/deepseek-harness](https://github.com/007M7/deepseek-harness) | 1 | 20.4 (observed) | 25.935 | 23.728 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“我永远喜欢deepseek！！！”。 |
+| 198 | [flaqai/open-deepseek-harness-desktop](https://github.com/flaqai/open-deepseek-harness-desktop) | 1 | 20.4 (observed) | 25.935 | 23.723 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“Open Source Desktop for DeepSeek Harness. DeepSeek Harness: Everything is a Plugin”，修改面待下一轮 compare/README 深扫。 |
+| 199 | [Zguigo00/deepseek-harness](https://github.com/Zguigo00/deepseek-harness) | 1 | 19.2 (observed) | 25.935 | 23.241 | — | — | metadata-only | 当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“未从 Fork 列表元数据观察到”，修改面待下一轮 compare/README 深扫。 |
+| 200 | [MrGXxx/deepseek-harness](https://github.com/MrGXxx/deepseek-harness) | 1 | 19.2 (observed) | 25.935 | 23.238 | 0 | 0 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
 
-> Showing the first 200 rows here; `10,138` rows are preserved in `index/forks.jsonl` and `docs/data/forks.json`.
+> Showing the first 200 rows here; `11,068` rows are preserved in `index/forks.jsonl` and `docs/data/forks.json`.
 
 ## Interpretation
 

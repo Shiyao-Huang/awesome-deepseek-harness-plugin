@@ -176,6 +176,7 @@ def markdown_entries(text: str, path: str, source_repo: str) -> list[dict[str, A
                 "name": name or slug.rsplit("/", 1)[-1],
                 "owner": slug.split("/", 1)[0],
                 "url": github_url(slug),
+                "source_url": match.group(2),
                 "category": category,
                 "description": description[:1200] or None,
                 "install": install_match.group(1) if install_match else None,
@@ -213,13 +214,13 @@ def structured_entries(value: dict[str, Any], path: str) -> list[dict[str, Any]]
 
 
 def dedupe_entries(entries: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    """Keep the first source location for each repository/category pair."""
+    """Keep the first occurrence of each source URL/category pair."""
 
     result: list[dict[str, Any]] = []
     seen: set[tuple[str, str]] = set()
     for entry in entries:
-        slug = github_repo(str(entry.get("url") or ""))
-        key = (slug or str(entry.get("url")), str(entry.get("category") or "uncategorized"))
+        source_url = str(entry.get("source_url") or entry.get("url") or "")
+        key = (source_url, str(entry.get("category") or "uncategorized"))
         if key in seen:
             continue
         seen.add(key)
@@ -258,7 +259,7 @@ def compact_repo_meta(meta: dict[str, Any], checked_at: str, readme_path: str | 
 
 
 def monitor_repository(repo: str, configured_paths: list[str], token: str | None, checked_at: str, metadata_limit: int) -> dict[str, Any]:
-    """Fetch one source repository and normalize its public entries."""
+    """Fetch one source repository; a non-positive metadata limit enriches every entry."""
 
     meta = api_json(f"https://api.github.com/repos/{repo}", token)
     branch = str(meta.get("default_branch") or "main")
@@ -300,7 +301,7 @@ def monitor_repository(repo: str, configured_paths: list[str], token: str | None
         }
         return entry
 
-    candidates = entries[:metadata_limit]
+    candidates = entries if metadata_limit <= 0 else entries[:metadata_limit]
     if candidates:
         with ThreadPoolExecutor(max_workers=8) as executor:
             futures = [executor.submit(enrich, entry) for entry in candidates]
@@ -396,8 +397,9 @@ def record_upstream_repositories(connection: Any, payload: dict[str, Any], raw_s
         repo_id = int(connection.execute("SELECT id FROM upstream_repositories WHERE full_name = ?", (descriptor["full_name"],)).fetchone()[0])
         connection.execute("DELETE FROM upstream_entries WHERE repository_id = ?", (repo_id,))
         for entry in descriptor.get("entries", []):
-            entry_url = collect.canonical_url(str(entry.get("url") or ""))
-            item_row = connection.execute("SELECT id FROM items WHERE canonical_url = ?", (entry_url,)).fetchone()
+            source_url = str(entry.get("source_url") or entry.get("url") or "")
+            canonical = collect.canonical_url(str(entry.get("url") or source_url))
+            item_row = connection.execute("SELECT id FROM items WHERE canonical_url = ?", (canonical,)).fetchone()
             connection.execute(
                 """
                 INSERT INTO upstream_entries(
@@ -410,7 +412,7 @@ def record_upstream_repositories(connection: Any, payload: dict[str, Any], raw_s
                     source_path=excluded.source_path, source_line=excluded.source_line,
                     last_seen_at=excluded.last_seen_at
                 """,
-                (repo_id, int(item_row[0]) if item_row else None, entry.get("name") or entry_url, entry_url, entry.get("entry_kind", "candidate"), entry.get("category"), entry.get("description"), entry.get("install"), entry.get("source_path"), entry.get("source_line"), descriptor["last_checked_at"], descriptor["last_checked_at"]),
+                (repo_id, int(item_row[0]) if item_row else None, entry.get("name") or source_url, source_url, entry.get("entry_kind", "candidate"), entry.get("category"), entry.get("description"), entry.get("install"), entry.get("source_path"), entry.get("source_line"), descriptor["last_checked_at"], descriptor["last_checked_at"]),
             )
 
 

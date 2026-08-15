@@ -4,6 +4,16 @@ on:
   schedule:
     - cron: "37 3 * * *"
   workflow_dispatch:
+    inputs:
+      deep_limit:
+        description: "Forks to deep-scan in this run"
+        required: false
+        default: "200"
+      recheck_deep:
+        description: "Recheck the highest-impact Forks instead of the rotating queue"
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -26,32 +36,40 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Collect all public fork metadata and rotate deep scans
+      - name: Restore the latest complete SQLite database
         env:
           GH_TOKEN: ${{ github.token }}
-        run: python3 scripts/collect_forks.py
+        run: |
+          if gh release view dataset-latest >/dev/null 2>&1; then
+            gh release download dataset-latest --pattern aggregator-full.sqlite3.zst --dir data --clobber
+          fi
+          make restore-full
 
-      - name: Compress the complete Fork-inclusive SQLite snapshot
-        run: zstd -q -T0 -19 -f data/aggregator.sqlite3 -o data/aggregator-full.sqlite3.zst
+      - name: Collect all public fork metadata, owner signals, and rotate deep scans
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DEEP_LIMIT: ${{ inputs.deep_limit || '200' }}
+          RECHECK_DEEP: ${{ inputs.recheck_deep || 'false' }}
+        run: |
+          args=(--deep-limit "$DEEP_LIMIT")
+          if [[ "$RECHECK_DEEP" == "true" ]]; then
+            args+=(--recheck-deep)
+          fi
+          python3 scripts/collect_forks.py "${args[@]}"
 
       - name: Build Fork projection from the complete database
         run: python3 scripts/build_fork_index.py
 
-      - name: Restore the lightweight public SQLite database
-        run: git restore --source=HEAD --worktree -- data/aggregator.sqlite3
-
-      - name: Rebuild ecosystem projections from the lightweight database
+      - name: Rebuild projections and database assets
         run: |
-          python3 scripts/build_value_matrix.py
-          python3 scripts/build_index.py
-          python3 scripts/build_views.py
-          python3 scripts/build_trends.py
-          python3 scripts/build_readme.py
+          make build
+          make archive-full
+          make public-db
           python3 scripts/validate.py
 
       - name: Commit refreshed Fork index
         run: |
-          git add data/aggregator-full.sqlite3.zst index docs README.md
+          git add index docs README.md
           if git diff --cached --quiet; then
             echo "No Fork-index changes"
             exit 0
@@ -60,3 +78,15 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "data: refresh DeepSeek Harness fork network"
           git push origin HEAD:main
+
+      - name: Publish stable latest SQLite assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          note="Updated from the versioned Fork collection run at $(date -u +%Y-%m-%dT%H:%M:%SZ). The full archive retains raw JSON; aggregator.sqlite3 is the lightweight query projection."
+          if gh release view dataset-latest >/dev/null 2>&1; then
+            gh release upload dataset-latest data/aggregator.sqlite3 data/aggregator-full.sqlite3.zst --clobber
+            gh release edit dataset-latest --title "Latest DeepSeek Harness ecosystem dataset" --notes "$note" --latest
+          else
+            gh release create dataset-latest data/aggregator.sqlite3 data/aggregator-full.sqlite3.zst --target main --title "Latest DeepSeek Harness ecosystem dataset" --notes "$note" --latest
+          fi

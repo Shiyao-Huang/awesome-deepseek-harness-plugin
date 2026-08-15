@@ -150,7 +150,13 @@ def load_records(db: sqlite3.Connection) -> list[dict[str, object]]:
             ir.refs AS registry_refs, ir.picture AS registry_picture,
             vm.likes, vm.replies, vm.reposts, vm.comments, vm.bookmarks,
             vm.views, vm.points, vm.stars, vm.forks, vm.open_issues,
-            vm.favorites, vm.shares, vm.coins, vm.danmaku, vm.upvote_ratio
+            vm.favorites, vm.shares, vm.coins, vm.danmaku, vm.upvote_ratio,
+            vm.observed_at AS metric_observed_at,
+            (SELECT m.metric_source
+             FROM metrics AS m
+             WHERE m.item_id = i.id
+             ORDER BY m.observed_at DESC, m.id DESC
+             LIMIT 1) AS metric_source
         FROM items AS i
         LEFT JOIN index_records AS ir ON ir.item_id = i.id
         LEFT JOIN v_latest_metrics AS vm ON vm.item_id = i.id
@@ -222,6 +228,8 @@ def load_records(db: sqlite3.Connection) -> list[dict[str, object]]:
                 "relevance": row["relevance"],
                 "media_kind": row["media_kind"],
                 "metrics": metrics,
+                "metric_observed_at": row["metric_observed_at"],
+                "metric_source": row["metric_source"],
                 "metric_score": metric_score(metrics),
                 "media": media,
                 "rank": int(row["rank"] or 999999),
@@ -261,6 +269,25 @@ def card_metrics(record: dict[str, object]) -> str:
         if len(parts) == 3:
             break
     return "".join(parts) or '<span class="muted">No public count</span>'
+
+
+def metric_summary(record: dict[str, object]) -> str:
+    """Render every observed native counter for a comparison table."""
+
+    metrics = record["metrics"]
+    assert isinstance(metrics, dict)
+    labels = {
+        "stars": "stars", "likes": "likes", "views": "views", "points": "points",
+        "comments": "comments", "replies": "replies", "favorites": "favorites",
+        "shares": "shares", "coins": "coins", "danmaku": "danmaku", "forks": "forks",
+        "open_issues": "open issues", "bookmarks": "bookmarks", "reposts": "reposts",
+    }
+    parts = [
+        f"{labels[field]} {format_number(metrics[field])}"
+        for field in labels
+        if field in metrics
+    ]
+    return " · ".join(parts) or "NULL"
 
 
 def record_image(record: dict[str, object]) -> str | None:
@@ -359,11 +386,13 @@ def signal_table(records: list[dict[str, object]], title: str, kicker: str, desc
             f'<td><a class="signal-title" href="{details_url}">{esc(record["title"])}</a>'
             f'<small>{esc(record["platform_label"])} · {esc(record["category_label"])} · {esc(record["author"] or record["repo"] or "—")}</small></td>'
             f'<td class="signal-count"><strong>{esc(primary_signal(record))}</strong><small>{esc(record["item_type"])}</small></td>'
+            f'<td class="signal-metrics"><span>{esc(metric_summary(record))}</span><small>snapshot {esc(date_label(record["metric_observed_at"]) or "NULL")}</small></td>'
+            f'<td class="signal-source"><a href="{esc(record["url"], attribute=True)}" rel="noreferrer">Source ↗</a><small>{esc(record["metric_source"] or "metric source unreported")}</small></td>'
             f'<td class="signal-action">{action}</td></tr>'
         )
     if not rows:
-        rows.append('<tr><td colspan="4" class="signal-empty">No public counter captured yet.</td></tr>')
-    return f'<section class="signal-panel"><div class="signal-heading"><div><p class="kicker">{esc(kicker)}</p><h2>{esc(title)}</h2></div><p>{esc(description)}</p></div><div class="signal-scroll"><table class="signal-table"><thead><tr><th>#</th><th>Record</th><th>Native signal</th><th>Action</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div></section>'
+        rows.append('<tr><td colspan="6" class="signal-empty">No public counter captured yet.</td></tr>')
+    return f'<section class="signal-panel"><div class="signal-heading"><div><p class="kicker">{esc(kicker)}</p><h2>{esc(title)}</h2></div><p>{esc(description)}</p></div><div class="signal-scroll"><table class="signal-table"><thead><tr><th>#</th><th>Record</th><th>Rank signal</th><th>Platform metrics</th><th>Evidence source</th><th>Action</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div></section>'
 
 
 def card_html(record: dict[str, object], prefix: str = "") -> str:
@@ -470,14 +499,13 @@ def page_head(title: str, description: str, canonical: str, image: str, config: 
 def nav_html(prefix: str = "") -> str:
     """Render the store navigation used by all static pages."""
 
-    return f"""<header class="site-header"><a class="brand" href="{prefix}"><span class="brand-mark">dsh</span><span>store</span></a><nav><a class="nav-active" href="{prefix}">Directory</a><a href="{prefix}#hot">Hot</a><a href="{prefix}timeline.html">Timeline</a><a href="{prefix}sources.html">Sources</a></nav><a class="header-source" href="https://github.com/Shiyao-Huang/awesome-deepseek-harness-plugin">GitHub <span aria-hidden="true">↗</span></a></header>"""
+    return f"""<header class="site-header"><a class="brand" href="{prefix}"><span class="brand-mark">dsh</span><span>store</span></a><nav><a class="nav-active" href="{prefix}">Directory</a><a href="{prefix}#hot">Hot</a><a href="{prefix}timeline.html">Timeline</a><a href="{prefix}directories.html">Directories</a></nav><a class="header-source" href="https://github.com/Shiyao-Huang/awesome-deepseek-harness-plugin">GitHub <span aria-hidden="true">↗</span></a></header>"""
 
 
-def footer_html(prefix: str = "", *, readme_path: str | None = None, data_path: str | None = None, seo_path: str | None = None) -> str:
+def footer_html(prefix: str = "", *, data_path: str, readme_path: str | None = None, seo_path: str | None = None) -> str:
     """Render the provenance and deployment footer."""
 
     readme_path = readme_path or ("../README.md" if not prefix else "../../README.md")
-    data_path = data_path or ("../data/aggregator.sqlite3" if not prefix else "../../data/aggregator.sqlite3")
     seo_path = seo_path or ("seo.md" if not prefix else "../seo.md")
     return f"""<footer class="site-footer"><div><strong>dsh store</strong><p>A public, dated directory for the DeepSeek Harness plugin ecosystem.</p></div><div><a href="{readme_path}">Collection rules</a><a href="{data_path}">SQLite</a><a href="{seo_path}">SEO notes</a></div><p class="footer-note">Public metadata only. Platform counts stay native and are never added together.</p></footer>"""
 
@@ -525,12 +553,12 @@ def render_home(records: list[dict[str, object]], dataset_version: str, generate
   <section class="hot-signals" id="hot"><div class="section-heading"><div><p class="kicker">HOT NOW</p><h2>What the plugin system is pulling forward</h2></div><p>项目看 stars，内容看各自平台的原生互动信号。</p></div><div class="hot-grid">{hot_tables}</div></section>
   <section class="spotlight"><div class="section-heading"><div><p class="kicker">EDITOR'S CUT</p><h2>What is moving now</h2></div><p>按平台原生指标排序；不同平台不混算。</p></div><div class="spotlight-grid">{spotlight_html(records)}</div></section>
   <section class="directory-layout" id="directory">
-    <aside class="filters"><div class="filter-mobile-head"><span>Browse</span><button id="clear-filters" class="text-button">Clear</button></div><div class="filter-group"><p class="filter-label">BROWSE</p><button class="filter-option is-selected" data-filter-type="all" data-filter-value="all"><span>All records</span><em>{stats['records']}</em></button><button class="filter-option" data-filter-type="relevance" data-filter-value="direct"><span>Direct signals</span><em>{stats['direct']}</em></button></div><div class="filter-group"><p class="filter-label">TOPICS</p>{category_html}</div><div class="filter-group"><p class="filter-label">SOURCES</p>{platform_html}</div><div class="filter-note"><strong>Provenance first</strong><p>Every card points to an independent detail page with dates, native counts, media references, and a source URL.</p></div></aside>
+    <aside class="filters"><div class="filter-mobile-head"><span>Browse</span><button id="clear-filters" class="text-button">Clear</button></div><div class="filter-group"><p class="filter-label">BROWSE</p><button class="filter-option is-selected" data-filter-type="all" data-filter-value="all"><span>All records</span><em>{stats['records']}</em></button><button class="filter-option" data-filter-type="relevance" data-filter-value="direct"><span>Direct signals</span><em>{stats['direct']}</em></button></div><div class="filter-group"><p class="filter-label">TOPICS</p>{category_html}</div><div class="filter-group"><p class="filter-label">PLATFORMS</p>{platform_html}</div><div class="filter-note"><strong>Provenance first</strong><p>Every card points to an independent detail page with dates, native counts, media references, and a source URL.</p></div></aside>
     <div class="directory-content"><div class="directory-toolbar"><div><p class="kicker">THE DIRECTORY</p><h2>Discover ecosystem records</h2><p id="result-summary">Showing {stats['records']:,} records</p></div><div class="toolbar-controls"><label class="search-field"><span aria-hidden="true">⌕</span><input id="search-input" type="search" placeholder="Search repositories, topics, authors..." autocomplete="off"><kbd>/</kbd></label><label class="sort-field"><span>Sort</span><select id="sort-select"><option value="rank">Curated rank</option><option value="score">Highest native count</option><option value="latest">Recently observed</option><option value="title">Title A–Z</option></select></label></div></div><div class="platform-summary">{platform_summary}</div><div class="catalog-grid" id="catalog-grid">{cards}</div><p class="no-results" id="no-results" hidden>No records match this search. Clear a filter or try another phrase.</p></div>
   </section>
   <section class="method-band"><div><p class="kicker">HOW THIS DIRECTORY WORKS</p><h2>Collected, dated, and reviewable.</h2></div><div class="method-items"><p><strong>01</strong><span>Raw captures live in <code>data/raw/</code>.</span></p><p><strong>02</strong><span>SQLite stores versions and metric history.</span></p><p><strong>03</strong><span>Every two-hour run rebuilds this static store.</span></p></div></section>
 </main>
-{footer_html()}
+{footer_html(data_path=config["public_database_url"])}
 <script src="assets/store.js" defer></script>
 </body></html>"""
 
@@ -582,12 +610,12 @@ def render_detail(record: dict[str, object], dataset_version: str, generated_at:
 <main class="site-main detail-main">
   <div class="breadcrumbs"><a href="../">store</a><span>/</span><span>{esc(record['platform_label'])}</span><span>/</span><span>{esc(record['id'])}</span></div>
   <section class="detail-heading"><div><p class="kicker">{esc(record['platform_label'])} · {esc(record['category_label'])}</p><h1>{esc(record['title'])}</h1><p class="detail-author">{esc(str(author))} · {esc(record['item_type'])} · {esc('direct signal' if record['relevance'] == 'direct' else 'related signal')}</p></div><a class="button button-primary" href="{esc(record['url'], attribute=True)}" rel="noreferrer">Open source <span aria-hidden="true">↗</span></a></section>
-  <section class="detail-grid"><div class="detail-primary"><p class="detail-description">{esc(record['description'])}</p><div class="install-panel"><p class="filter-label">SOURCE ENTRY</p>{source_action}</div><div class="detail-media"><div class="section-heading"><div><p class="kicker">MEDIA REFERENCES</p><h2>Captured in public view</h2></div><span>External URLs only</span></div><div class="media-gallery">{gallery}</div></div></div><aside class="detail-sidebar"><div class="metric-grid">{metric_items}</div><div class="evidence-panel"><p class="filter-label">EVIDENCE</p><dl><div><dt>Registry ID</dt><dd>{esc(record['id'])}</dd></div><div><dt>Dataset</dt><dd>{esc(dataset_version)}</dd></div><div><dt>First seen</dt><dd>{esc(date_label(record['first_seen_at']))}</dd></div><div><dt>Last seen</dt><dd>{esc(date_label(record['last_seen_at']))}</dd></div></dl></div><div class="evidence-panel"><p class="filter-label">PUBLIC URL</p><a class="break-link" href="{esc(record['url'], attribute=True)}" rel="noreferrer">{esc(record['url'])}</a></div></aside></section>
+  <section class="detail-grid"><div class="detail-primary"><p class="detail-description">{esc(record['description'])}</p><div class="install-panel"><p class="filter-label">SOURCE ENTRY</p>{source_action}</div><div class="detail-media"><div class="section-heading"><div><p class="kicker">MEDIA REFERENCES</p><h2>Captured in public view</h2></div><span>External URLs only</span></div><div class="media-gallery">{gallery}</div></div></div><aside class="detail-sidebar"><div class="metric-grid">{metric_items}</div><div class="evidence-panel"><p class="filter-label">EVIDENCE</p><dl><div><dt>Registry ID</dt><dd>{esc(record['id'])}</dd></div><div><dt>Dataset</dt><dd>{esc(dataset_version)}</dd></div><div><dt>First seen</dt><dd>{esc(date_label(record['first_seen_at']))}</dd></div><div><dt>Last seen</dt><dd>{esc(date_label(record['last_seen_at']))}</dd></div><div><dt>Metric source</dt><dd>{esc(record['metric_source'] or 'unreported')}</dd></div><div><dt>Metric observed</dt><dd>{esc(record['metric_observed_at'] or 'NULL')}</dd></div></dl></div><div class="evidence-panel"><p class="filter-label">PUBLIC URL</p><a class="break-link" href="{esc(record['url'], attribute=True)}" rel="noreferrer">{esc(record['url'])}</a></div></aside></section>
   <section class="detail-context"><div><p class="kicker">CONTEXT</p><h2>Why it is here</h2></div><p>{esc(record['description'])}</p></section>
 {references_section}
-  <p class="detail-footnote">Observed {esc(generated_at)}. Interaction numbers are platform-native snapshots; NULL means the public page did not expose a number at collection time.</p>
+  <p class="detail-footnote">Page generated {esc(generated_at)}. Interaction numbers are platform-native snapshots; the evidence panel records the metric source and observation time. NULL means the public page did not expose a number at collection time.</p>
 </main>
-{footer_html('../')}
+{footer_html('../', data_path=config["public_database_url"])}
 </body></html>"""
 
 
@@ -600,7 +628,7 @@ def table_page(title: str, heading: str, intro: str, body: str, config: dict[str
     return f"""{head}<body>
 {nav_html(prefix)}
 <main class="site-main table-main"><div class="breadcrumbs"><a href="{prefix}">store</a><span>/</span><span>{esc(heading)}</span></div><section class="page-intro"><p class="kicker">PUBLIC PROJECTION · GENERATED FROM SQLITE</p><h1>{esc(heading)}</h1><p>{esc(intro)}</p></section>{body}</main>
-{footer_html(prefix)}
+{footer_html(prefix, data_path=config["public_database_url"])}
 </body></html>"""
 
 
@@ -636,26 +664,34 @@ def render_categories_page(records: list[dict[str, object]], config: dict[str, s
     return table_page("categories", "Topics", "启发式分类用于浏览，不是质量背书；每条记录仍回到公开来源核验。", "".join(sections), config)
 
 
-def render_sources_page(db: sqlite3.Connection, config: dict[str, str]) -> str:
-    """Render monitored upstream repositories and their current counts."""
+def directory_records(records: list[dict[str, object]]) -> list[dict[str, object]]:
+    """Select public aggregation, marketplace, and discovery records."""
 
-    rows = db.execute(
-        """
-        SELECT u.full_name, u.source_url, u.stars, u.forks, u.last_checked_at,
-               COUNT(e.id) AS entries,
-               COUNT(e.id) FILTER (WHERE e.entry_kind = 'plugin-candidate') AS plugins
-        FROM upstream_repositories AS u
-        LEFT JOIN upstream_entries AS e ON e.repository_id = u.id
-        GROUP BY u.id
-        ORDER BY u.full_name
-        """
-    ).fetchall()
-    body_rows = "".join(
-        f'<tr><td><a href="{esc(row["source_url"], attribute=True)}" rel="noreferrer">{esc(row["full_name"])}</a></td><td>{esc(row["stars"] if row["stars"] is not None else "—")}</td><td>{esc(row["forks"] if row["forks"] is not None else "—")}</td><td>{esc(row["entries"])}</td><td>{esc(row["plugins"])}</td><td>{esc(str(row["last_checked_at"] or "")[:10])}</td></tr>'
-        for row in rows
-    )
-    body = f'<section class="table-section"><div class="table-caption"><strong>{len(rows):,}</strong> monitored upstream repositories</div><div class="table-scroll"><table class="data-table"><thead><tr><th>Repository</th><th>Stars</th><th>Forks</th><th>Entries</th><th>Plugin candidates</th><th>Checked</th></tr></thead><tbody>{body_rows}</tbody></table></div></section>'
-    return table_page("sources", "Sources", "社区 Awesome 目录是发现入口，不是安全或质量背书；raw 与 SQLite 保存版本化来源关系。", body, config)
+    terms = ("awesome", "market", "store", "hub", "find", "directory", "registry", "catalog", "index")
+    result = []
+    for record in records:
+        item_type = str(record["item_type"])
+        is_repository = record["platform"] == "github" and item_type in {"repository", "source-repository"}
+        is_website = record["platform"] in {"web", "official"} and item_type in {"website", "directory", "marketplace", "index"}
+        public_label = f'{record["title"]} {urlparse(str(record["url"])).path}'.lower()
+        if (
+            record["category"] == "index-and-marketplace"
+            and record["relevance"] == "direct"
+            and (is_repository or is_website)
+            and any(term in public_label for term in terms)
+        ):
+            result.append(record)
+    result.sort(key=lambda record: (-int(record["metric_score"]), int(record["rank"])))
+    return result
+
+
+def render_directories_page(records: list[dict[str, object]], config: dict[str, str]) -> str:
+    """Render other public aggregation projects and discovery sites."""
+
+    directories = directory_records(records)
+    cards = "".join(card_html(record) for record in directories)
+    body = f'<section class="category-shelf"><div class="section-heading"><div><p class="kicker">COMMUNITY PROJECTS</p><h2>GitHub directories, markets, and discovery tools</h2></div><span>{len(directories):,} records</span></div><div class="catalog-grid">{cards}</div></section>'
+    return table_page("directories", "Other directories & sites", "浏览社区维护的插件目录、市场、发现工具与网站；每个项目和站内其他记录一样展示公开指标、简介和访问入口。", body, config)
 
 
 def write_store_site(db: sqlite3.Connection, dataset_version: str, generated_at: str) -> None:
@@ -684,11 +720,13 @@ def write_store_site(db: sqlite3.Connection, dataset_version: str, generated_at:
     (DOCS / "index.html").write_text(render_home(records, dataset_version, generated_at, config, platform_counts, category_counts), encoding="utf-8")
     (DOCS / "timeline.html").write_text(render_timeline_page(db, dataset_version, config), encoding="utf-8")
     (DOCS / "categories.html").write_text(render_categories_page(records, config), encoding="utf-8")
-    (DOCS / "sources.html").write_text(render_sources_page(db, config), encoding="utf-8")
+    (DOCS / "directories.html").write_text(render_directories_page(records, config), encoding="utf-8")
+    (DOCS / "sources.html").unlink(missing_ok=True)
+    (DOCS / "sources.md").unlink(missing_ok=True)
     for record in records:
         (SKILLS / f"{record['id']}.html").write_text(render_detail(record, dataset_version, generated_at, config), encoding="utf-8")
     site_url = config["site_url"].rstrip("/")
-    sitemap_paths = ["/", "/report.html", "/timeline.html", "/categories.html", "/sources.html"] + [f"/skills/{record['id']}.html" for record in records]
+    sitemap_paths = ["/", "/report.html", "/timeline.html", "/categories.html", "/directories.html", "/forks.html"] + [f"/skills/{record['id']}.html" for record in records]
     sitemap = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n" + "\n".join(
         f"  <url><loc>{html.escape(site_url + path)}</loc></url>" for path in sitemap_paths
     ) + "\n</urlset>\n"

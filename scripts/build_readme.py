@@ -13,10 +13,14 @@ ROOT = Path(__file__).resolve().parents[1]
 DB_PATH = ROOT / "data" / "aggregator.sqlite3"
 FORK_INDEX_PATH = ROOT / "docs" / "data" / "forks.json"
 README_PATH = ROOT / "README.md"
+CONFIG_PATH = ROOT / "config" / "site.json"
 START = "<!-- landing:start -->"
 END = "<!-- landing:end -->"
 SNAPSHOT_START = "<!-- snapshot:start -->"
 SNAPSHOT_END = "<!-- snapshot:end -->"
+SITE_CONFIG = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
+PUBLIC_DATABASE_URL = str(SITE_CONFIG["public_database_url"])
+FULL_DATABASE_URL = str(SITE_CONFIG["full_database_url"])
 
 PLATFORM_LABELS = {
     "github": "GitHub",
@@ -158,7 +162,7 @@ def snapshot_block(connection: sqlite3.Connection) -> str:
     ).fetchall()
     lines = [
         SNAPSHOT_START,
-        f"本地 SQLite 当前包含 **{counts['items']:,} 条去重记录**、**{counts['platforms']} 个来源平台**、**{metrics:,} 条指标历史**、**{media:,} 个媒体资产引用**、**{details:,} 条详情记录**和 **{raw:,} 个去重 raw snapshot**。当前批次 **{clean(run['dataset_version'] if run else 'unknown')}** 于 **{clean(run['assessed_at'] if run else 'unknown')}** 完成；价值矩阵为当前批次的 {counts['items']:,} 条记录提供六维评分。raw snapshot 不是摘要：`raw_snapshots.payload_json` 保存原始 JSON 文本本身，并同时保存 SHA-256、原始路径、字节数、采集时间和采集批次。",
+        f"公开查询 SQLite 当前包含 **{counts['items']:,} 条去重记录**、**{counts['platforms']} 个来源平台**、**{metrics:,} 条指标历史**、**{media:,} 个媒体资产引用**、**{details:,} 条详情记录**和 **{raw:,} 个去重 raw provenance**。当前批次 **{clean(run['dataset_version'] if run else 'unknown')}** 于 **{clean(run['assessed_at'] if run else 'unknown')}** 完成；价值矩阵为当前批次的 {counts['items']:,} 条记录提供六维评分。完整原始 JSON 位于压缩权威 SQLite；公开查询库保留 raw SHA-256、路径、字节数、采集时间和批次，并去除可由 `data/raw/` 或完整库恢复的重复 JSON blob。",
         "",
         "| 来源 | 去重记录 | 采集内容 |",
         "| --- | ---: | --- |",
@@ -185,19 +189,12 @@ def landing_block(connection: sqlite3.Connection) -> str:
     bands = connection.execute(
         "SELECT value_band, COUNT(*) AS n FROM v_current_value_matrix GROUP BY value_band ORDER BY value_band"
     ).fetchall()
-    upstreams = connection.execute(
-        """
-        SELECT u.full_name, u.source_url, u.stars, COUNT(e.id) AS entries
-        FROM upstream_repositories AS u LEFT JOIN upstream_entries AS e ON e.repository_id = u.id
-        GROUP BY u.id ORDER BY u.full_name
-        """
-    ).fetchall()
-
     official = find_record(records, "https://github.com/deepseek-ai/deepseek-harness")
     web_ui = find_record(records, "https://github.com/zhu1090093659/dsh-web-ui")
     article = find_record(records, "https://mp.weixin.qq.com/s/HrOgdg7ZBKQlvGM-xPeKtw")
     related_article = find_record(records, "https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw")
     plugin_urls = (
+        "https://github.com/CocoSgt/dsh-nsfw",
         "https://github.com/CocoSgt/dsh-skills",
         "https://github.com/CocoSgt/dsh-attachments",
         "https://github.com/CocoSgt/dsh-inspector",
@@ -205,6 +202,7 @@ def landing_block(connection: sqlite3.Connection) -> str:
     plugin_rows = [record for record in records if record["canonical_url"] in plugin_urls]
     attention = attention_rows(records)
     fork_records: list[dict[str, object]] = []
+    fork_payload: object = {}
     if FORK_INDEX_PATH.exists():
         try:
             fork_payload = json.loads(FORK_INDEX_PATH.read_text(encoding="utf-8"))
@@ -212,6 +210,7 @@ def landing_block(connection: sqlite3.Connection) -> str:
             fork_payload = {}
         if isinstance(fork_payload, dict) and isinstance(fork_payload.get("records"), list):
             fork_records = [row for row in fork_payload["records"] if isinstance(row, dict)]
+    fork_filter = fork_payload.get("star_filter", {}) if isinstance(fork_payload, dict) else {}
     band_text = " · ".join(f"{row['value_band']} {row['n']:,}" for row in bands)
     assessed = str(run["assessed_at"] or "")[:10] if run else "unknown"
     article_media = connection.execute(
@@ -226,7 +225,7 @@ def landing_block(connection: sqlite3.Connection) -> str:
         "",
         f"> 这里不是又一份静态 Awesome List，而是一张持续更新的 DeepSeek Harness 生态地图：先看最值得点开的仓库、帖子和视频，再沿着 raw、SQLite、时间轴回到证据。当前批次 **{clean(run['dataset_version'] if run else 'unknown')}**（{assessed}）：**{counts['items']:,}** 条去重记录、**{counts['platforms']}** 个平台、**{media_count:,}** 个媒体引用。",
         "",
-        "[打开 dsh store](docs/index.html) · [看价值矩阵](docs/value-matrix.md) · [看趋势](docs/trends.md) · [查 SQLite](data/aggregator.sqlite3)",
+        f"[打开 dsh store](docs/index.html) · [看价值矩阵](docs/value-matrix.md) · [看趋势](docs/trends.md) · [下载查询 SQLite]({PUBLIC_DATABASE_URL})",
         "",
         "![DeepSeek Harness official preview](media/screenshots/official.png)",
         "",
@@ -240,12 +239,14 @@ def landing_block(connection: sqlite3.Connection) -> str:
     if web_ui:
         lines.append(f"| {link('高关注插件 · ' + str(web_ui['title']), web_ui['canonical_url'])} | 真实可见的 UI / 桌面扩展，适合从“能不能直接用”开始。 | {metric_text(web_ui)} |")
     lines.append(f"| [新文章 · 如何用 GLM 5.3，开发 DeepSeek Harness 插件](https://mp.weixin.qq.com/s/HrOgdg7ZBKQlvGM-xPeKtw) | 一篇文章串起模型接入、插件契约、skill、附件和 inspector；{media_text}。 | counters NULL |")
-    lines.extend(["", "### 新：一篇文章，三个可以立即追踪的插件", ""])
+    lines.extend(["", "### 新：一篇文章与一项社区补充", ""])
     if article:
         related = f"相关历史报道：{link(related_article['title'], related_article['canonical_url'])}。" if related_article else ""
         lines.append(f"> [如何用 GLM 5.3，开发 DeepSeek Harness 插件](https://mp.weixin.qq.com/s/HrOgdg7ZBKQlvGM-xPeKtw) · {clean(article['author'])} · {clean(article['published_label'])}。文章报告作者用 GLM 5.3 为 DSH 补上 skill 索引、文件附件和约束/skill 检查能力；互动计数未公开，保持 `NULL`。{related}")
+    lines.append("> 另从 GitHub 的公开贡献记录补入 [CocoSgt/dsh-nsfw](https://github.com/CocoSgt/dsh-nsfw)：一个由仓库驱动的 DeepSeek 鲸鱼娘全年龄漫画收藏与分享站；当前 GitHub 快照为 10 stars、3 forks，详情以仓库 README 和 raw 记录为准。")
     lines.extend(["", "| 插件 | 用途 |", "| --- | --- |"])
     descriptions = {
+        "dsh-nsfw": "由仓库驱动的 DeepSeek 鲸鱼娘全年龄漫画收藏与分享站。",
         "dsh-skills": "索引和加载项目里的 skill，支持完整 `.skill` 文件。",
         "dsh-attachments": "为 DSH 增加文件/图片附件与继续引用能力。",
         "dsh-inspector": "查看生效的约束文件和当前被索引的 skill。",
@@ -253,13 +254,10 @@ def landing_block(connection: sqlite3.Connection) -> str:
     for row in plugin_rows:
         name = str(row["title"]).split("/", 1)[-1]
         lines.append(f"| {link(str(row['title']), row['canonical_url'])} | {descriptions.get(name, '文章中公开的 DSH 插件。')} · {metric_text(row)} |")
-    lines.extend(["", "安装提示（文章原文）：", "", "```sh", "dsh plugin --profile web add dsh-skills dsh-attachments dsh-inspector", "```", "", "### 大家正在关注什么", "", "| 平台 | 记录 | 平台原生信号 | 为什么在首页 |", "| --- | --- | ---: | --- |"])
+    lines.extend(["", "安装提示（文章原文，三个插件）：", "", "```sh", "dsh plugin --profile web add dsh-skills dsh-attachments dsh-inspector", "```", "", "### 大家正在关注什么", "", "| 平台 | 记录 | 平台原生信号 | 为什么在首页 |", "| --- | --- | ---: | --- |"])
     reasons = {"x": "官方发布与开发者传播", "youtube": "长视频实测/解读", "bilibili": "中文教程与体验", "hacker_news": "开发者讨论", "xiaohongshu": "中文入门与教程"}
     for row in attention:
         lines.append(f"| {PLATFORM_LABELS.get(str(row['platform']), row['platform'])} | {link(row['title'], row['canonical_url'])} | {metric_text(row)} | {reasons.get(str(row['platform']), '公开生态信号')} |")
-    lines.extend(["", "### 三个社区目录，是发现入口，不是质量背书", "", "| 上游目录 | 收录条目 |", "| --- | ---: |"])
-    for row in upstreams:
-        lines.append(f"| {link(row['full_name'], row['source_url'])} · {number(row['stars'])} stars | {row['entries']:,} |")
     if fork_records:
         fork_version = str(fork_records[0].get("dataset_version") or "unknown")
         deep_count = sum(row.get("detail_status") == "ok" for row in fork_records)
@@ -267,21 +265,26 @@ def landing_block(connection: sqlite3.Connection) -> str:
             "",
             "### 官方 Fork network：把分叉当作生态信号",
             "",
-            f"沿 `deepseek-ai/deepseek-harness` 的公开分页，本批次登记 **{len(fork_records):,}** 个 Fork（{fork_version}）；深度盘点成功 **{deep_count:,}** 个。它是影响力和变体线索，不是质量或安全背书。",
+            f"沿 `deepseek-ai/deepseek-harness` 的公开分页，本批次登记 **{fork_filter.get('observed_forks', len(fork_records)):,}** 个 Fork（{fork_version}）；按 **{fork_filter.get('minimum_stars', 0):,}+ stars** 进入排序的 **{len(fork_records):,}** 个，深度盘点成功 **{deep_count:,}** 个。它是公开信号和变体线索，不是质量、安全或诚信背书。",
             "",
-            "[看 Fork 价值排序](docs/forks.md) · [下载完整压缩 SQLite 快照](data/aggregator-full.sqlite3.zst) · [看完整 JSONL 索引](index/forks.jsonl)",
+            f"[打开 Fork 检索页](docs/forks.html) · [看 Fork 数据报告](docs/forks.md) · [下载完整压缩 SQLite 快照]({FULL_DATABASE_URL}) · [看完整 JSONL 索引](index/forks.jsonl)",
             "",
-            "| Rank | Fork | stars | influence score | deep status |",
-            "| ---: | --- | ---: | ---: | --- |",
+            "| Rank | Fork | stars | owner reputation | repo influence | overall | deep status | one-sentence evidence |",
+            "| ---: | --- | ---: | --- | ---: | ---: | --- | --- |",
         ])
         for row in fork_records[:5]:
             owner = row.get("full_name") or "unknown"
             influence = row.get("influence") if isinstance(row.get("influence"), dict) else {}
             score = influence.get("score") if isinstance(influence, dict) else None
             score_text = f"{float(score):.3f}" if isinstance(score, (int, float)) else "—"
+            reputation = influence.get("reputation_score") if isinstance(influence, dict) else None
+            reputation_status = influence.get("reputation_status", "unobserved") if isinstance(influence, dict) else "unobserved"
+            reputation_text = f"{float(reputation):.1f} ({reputation_status})" if isinstance(reputation, (int, float)) else f"— ({reputation_status})"
+            repository_score = influence.get("repository_influence_score") if isinstance(influence, dict) else None
+            repository_text = f"{float(repository_score):.3f}" if isinstance(repository_score, (int, float)) else "—"
             stars = row.get("stars")
             stars_text = number(stars)
-            lines.append(f"| {row.get('rank', '—')} | [{clean(owner)}]({html.escape(str(row.get('url') or ''), quote=True)}) | {stars_text} | {score_text} | {clean(row.get('detail_status') or 'unknown')} |")
+            lines.append(f"| {row.get('rank', '—')} | [{clean(owner)}]({html.escape(str(row.get('url') or ''), quote=True)}) | {stars_text} | {reputation_text} | {repository_text} | {score_text} | {clean(row.get('detail_status') or 'unknown')} | {clean(row.get('change_summary') or '—')} |")
     lines.extend(["", f"> 价值档当前分布：**{band_text}**。分数只用于安排复核优先级；不同平台的 stars、likes、views、points 不相加，缺失互动数不补零。", "", "<!-- landing:end -->"])
     return "\n".join(lines)
 

@@ -24,7 +24,7 @@ DB_PATH = ROOT / "data" / "aggregator.sqlite3"
 SCHEMA_PATH = ROOT / "src" / "schema.sql"
 CONFIG_PATH = ROOT / "config" / "queries.json"
 RAW_DIR = ROOT / "data" / "raw"
-SCHEMA_VERSION = 3
+SCHEMA_VERSION = 4
 
 
 @dataclass
@@ -314,17 +314,40 @@ def init_db(path: Path = DB_PATH) -> None:
             ensure_column(connection, "items", "first_seen_run_id", "INTEGER REFERENCES collection_runs(id)")
             ensure_column(connection, "items", "last_seen_run_id", "INTEGER REFERENCES collection_runs(id)")
             ensure_column(connection, "metrics", "collection_run_id", "INTEGER REFERENCES collection_runs(id)")
+            for name, sql_type in (
+                ("last_deep_checked_at", "TEXT"),
+                ("detail_status", "TEXT NOT NULL DEFAULT 'metadata-only'"),
+                ("owner_profile_id", "INTEGER REFERENCES github_user_profiles(id)"),
+                ("owner_profile_status", "TEXT NOT NULL DEFAULT 'unobserved'"),
+                ("owner_profile_checked_at", "TEXT"),
+                ("change_summary", "TEXT"),
+            ):
+                ensure_column(connection, "fork_repositories", name, sql_type)
+            ensure_column(connection, "fork_snapshots", "change_summary", "TEXT")
+            for name, sql_type in (
+                ("overall_score", "REAL NOT NULL DEFAULT 0"),
+                ("reputation_score", "REAL"),
+                ("reputation_coverage", "REAL NOT NULL DEFAULT 0"),
+                ("reputation_status", "TEXT NOT NULL DEFAULT 'unobserved'"),
+                ("reputation_followers_component", "REAL"),
+                ("reputation_repos_component", "REAL"),
+                ("reputation_age_component", "REAL"),
+                ("reputation_gists_component", "REAL"),
+                ("reputation_following_component", "REAL"),
+                ("repository_weight", "REAL NOT NULL DEFAULT 0.6"),
+                ("reputation_weight", "REAL NOT NULL DEFAULT 0.4"),
+            ):
+                ensure_column(connection, "fork_rankings", name, sql_type)
         connection.executescript(schema)
         for name, sql_type in (
             ("favorites", "INTEGER"), ("shares", "INTEGER"), ("coins", "INTEGER"),
             ("danmaku", "INTEGER"), ("upvote_ratio", "REAL"),
         ):
             ensure_column(connection, "metrics", name, sql_type)
-        for name, sql_type in (
-            ("last_deep_checked_at", "TEXT"),
-            ("detail_status", "TEXT NOT NULL DEFAULT 'metadata-only'"),
-        ):
-            ensure_column(connection, "fork_repositories", name, sql_type)
+        connection.execute(
+            "UPDATE fork_rankings SET overall_score = influence_score "
+            "WHERE reputation_status = 'unobserved' AND overall_score = 0"
+        )
         backfill_collection_runs(connection)
         connection.execute(f"PRAGMA user_version = {SCHEMA_VERSION}")
         connection.execute("CREATE UNIQUE INDEX IF NOT EXISTS idx_metrics_dedupe ON metrics(item_id, observed_at, metric_source)")
@@ -809,6 +832,7 @@ def github_item(hit: dict[str, Any], observed_at: str) -> dict[str, Any]:
             "stars": hit.get("stargazers_count"),
             "forks": hit.get("forks_count"),
             "open_issues": hit.get("open_issues_count"),
+            "subscribers": hit.get("subscribers_count"),
             "metric_source": "github REST API",
             "observed_at": observed_at,
         },
@@ -930,7 +954,9 @@ def legacy_payload(path: Path, data: Any) -> dict[str, Any] | None:
         return data
     if not isinstance(data, dict):
         return None
-    observed_at = str(data.get("harvestedAt") or data.get("collected_at") or file_timestamp(path))
+    observed_at = str(
+        data.get("captured_at") or data.get("harvestedAt") or data.get("collected_at") or file_timestamp(path)
+    )
     relative = str(path.relative_to(ROOT))
     stem = path.stem
 
@@ -956,6 +982,60 @@ def legacy_payload(path: Path, data: Any) -> dict[str, Any] | None:
             "items": items,
         }]}
 
+    if data.get("capture_kind") == "ego-lite-github-repository-api" and isinstance(data.get("payload"), dict):
+        repository = data["payload"]
+        item = github_item(repository, observed_at)
+        item["raw_capture"] = repository
+        return observation(
+            "github",
+            str(data.get("repository") or repository.get("full_name") or stem),
+            str(data.get("source_url") or repository.get("html_url") or "https://api.github.com"),
+            [item],
+            1,
+            "ego-lite GitHub repository REST capture",
+        )
+    source = data.get("source")
+    capture = data.get("capture")
+    if (
+        isinstance(source, dict)
+        and source.get("platform") == "github"
+        and isinstance(capture, dict)
+        and isinstance(capture.get("items"), list)
+    ):
+        items = []
+        for hit in capture["items"]:
+            if not isinstance(hit, dict) or not hit.get("url"):
+                continue
+            repository = str(hit.get("external_id") or hit.get("title") or "")
+            owner = repository.split("/", 1)[0] if "/" in repository else None
+            items.append({
+                "platform": "github",
+                "external_id": repository,
+                "url": hit["url"],
+                "item_type": "repository",
+                "title": hit.get("title") or repository,
+                "author": owner,
+                "author_url": f"https://github.com/{owner}" if owner else None,
+                "published_label": hit.get("updated_label"),
+                "content_text": hit.get("description") or hit.get("visible_text"),
+                "language": hit.get("language"),
+                "tags": hit.get("topics") or [],
+                "media": ([{"kind": "avatar", "url": f"https://github.com/{owner}.png?size=80"}] if owner else []),
+                "metrics": {
+                    "stars": hit.get("stars"),
+                    "metric_source": "GitHub visible DOM",
+                    "observed_at": observed_at,
+                },
+                "raw_capture": hit,
+            })
+        return observation(
+            "github",
+            str(source.get("query") or stem),
+            str(source.get("url") or "https://github.com/search"),
+            items,
+            source.get("visible_result_count", len(items)),
+            "ego-lite GitHub repository search visible DOM capture",
+        )
     if "tweets" in data:
         query = str(data.get("query") or stem)
         tweets = [x_item(tweet, observed_at, query) for tweet in data.get("tweets", []) if isinstance(tweet, dict)]
@@ -1214,7 +1294,11 @@ def command_seed(args: argparse.Namespace) -> None:
     if args.raw:
         paths = [path for path in args.raw if path.exists()]
     else:
-        paths = [path for path in sorted(RAW_DIR.rglob("*.json")) if "auto" not in path.parts]
+        paths = [
+            path
+            for path in sorted(RAW_DIR.rglob("*.json"))
+            if "auto" not in path.parts and "forks" not in path.parts
+        ]
     with connect(args.db) as connection:
         run_id, version, _ = begin_collection_run(connection, "seed")
         stats = ImportStats()

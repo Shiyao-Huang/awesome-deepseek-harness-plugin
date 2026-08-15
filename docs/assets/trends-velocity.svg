@@ -2,64 +2,64 @@
 <style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#253237} .muted{fill:#6b7a80;font-size:12px}</style>
 <rect width="100%" height="100%" rx="18" fill="#fbfaf7"/>
 <text x="28" y="34" font-size="20" font-weight="700">Engagement velocity — signal per day since publication (top 15)</text>
-<text x="28" y="91" font-size="13">deepseek-ai/deepseek-harness [github]</text>
+<text x="28" y="91" font-size="13">deepseek-harness [github]</text>
 <rect x="470" y="73" width="380" height="22" rx="11" fill="#e8e2d6"/>
 <rect x="470" y="73" width="380" height="22" rx="11" fill="#e07a5f"/>
-<text x="900" y="91" text-anchor="end" font-size="13" font-weight="700">64,427/day</text>
+<text x="900" y="91" text-anchor="end" font-size="13" font-weight="700">54,417/day</text>
 <text x="28" y="135" font-size="13">【热门AI鉴定】DeepSeek Harness是什么？强在哪里？Harness实测效果 [bilibili]</text>
 <rect x="470" y="117" width="380" height="22" rx="11" fill="#e8e2d6"/>
-<rect x="470" y="117" width="94" height="22" rx="11" fill="#e07a5f"/>
-<text x="900" y="135" text-anchor="end" font-size="13" font-weight="700">15,976/day</text>
+<rect x="470" y="117" width="85" height="22" rx="11" fill="#e07a5f"/>
+<text x="900" y="135" text-anchor="end" font-size="13" font-weight="700">12,253/day</text>
 <text x="28" y="179" font-size="13">DeepSeek @deepseek_ai DeepSeek Harness v0.1  [x]</text>
 <rect x="470" y="161" width="380" height="22" rx="11" fill="#e8e2d6"/>
-<rect x="470" y="161" width="80" height="22" rx="11" fill="#e07a5f"/>
-<text x="900" y="179" text-anchor="end" font-size="13" font-weight="700">13,732/day</text>
+<rect x="470" y="161" width="79" height="22" rx="11" fill="#e07a5f"/>
+<text x="900" y="179" text-anchor="end" font-size="13" font-weight="700">11,325/day</text>
 <text x="28" y="223" font-size="13">一个视频带你了解 DeepSeek新模型 + Harness ！｜ 赛博赵云，七进七出救 [bilibili]</text>
 <rect x="470" y="205" width="380" height="22" rx="11" fill="#e8e2d6"/>
-<rect x="470" y="205" width="18" height="22" rx="11" fill="#e07a5f"/>
-<text x="900" y="223" text-anchor="end" font-size="13" font-weight="700">3,213/day</text>
-<text x="28" y="267" font-size="13">Tianyi Cui @tianyi · 13h Thank you! Pi is ma [x]</text>
+<rect x="470" y="205" width="17" height="22" rx="11" fill="#e07a5f"/>
+<text x="900" y="223" text-anchor="end" font-size="13" font-weight="700">2,551/day</text>
+<text x="28" y="267" font-size="13">anywhere-labs/deepseek-harness-desktop [github]</text>
 <rect x="470" y="249" width="380" height="22" rx="11" fill="#e8e2d6"/>
-<rect x="470" y="249" width="15" height="22" rx="11" fill="#e07a5f"/>
-<text x="900" y="267" text-anchor="end" font-size="13" font-weight="700">2,647/day</text>
-<text x="28" y="311" font-size="13">anywhere-labs/deepseek-harness-desktop [github]</text>
+<rect x="470" y="249" width="12" height="22" rx="11" fill="#e07a5f"/>
+<text x="900" y="267" text-anchor="end" font-size="13" font-weight="700">1,860/day</text>
+<text x="28" y="311" font-size="13">Tianyi Cui @tianyi · 13h Thank you! Pi is ma [x]</text>
 <rect x="470" y="293" width="380" height="22" rx="11" fill="#e8e2d6"/>
-<rect x="470" y="293" width="13" height="22" rx="11" fill="#e07a5f"/>
-<text x="900" y="311" text-anchor="end" font-size="13" font-weight="700">2,288/day</text>
-<text x="28" y="355" font-size="13">Armin Ronacher ⇌ @mitsuhiko · 21h I don&#x27;t th [x]</text>
+<rect x="470" y="293" width="11" height="22" rx="11" fill="#e07a5f"/>
+<text x="900" y="311" text-anchor="end" font-size="13" font-weight="700">1,713/day</text>
+<text x="28" y="355" font-size="13">awesome-dsh-plugin/awesome-dsh-plugin [github]</text>
 <rect x="470" y="337" width="380" height="22" rx="11" fill="#e8e2d6"/>
-<rect x="470" y="337" width="10" height="22" rx="11" fill="#e07a5f"/>
-<text x="900" y="355" text-anchor="end" font-size="13" font-weight="700">1,842/day</text>
-<text x="28" y="399" font-size="13">xiaobright/dsh-anchored-standard [github]</text>
+<rect x="470" y="337" width="9" height="22" rx="11" fill="#e07a5f"/>
+<text x="900" y="355" text-anchor="end" font-size="13" font-weight="700">1,368/day</text>
+<text x="28" y="399" font-size="13">Armin Ronacher ⇌ @mitsuhiko · 21h I don&#x27;t th [x]</text>
 <rect x="470" y="381" width="380" height="22" rx="11" fill="#e8e2d6"/>
-<rect x="470" y="381" width="10" height="22" rx="11" fill="#e07a5f"/>
-<text x="900" y="399" text-anchor="end" font-size="13" font-weight="700">1,718/day</text>
+<rect x="470" y="381" width="9" height="22" rx="11" fill="#e07a5f"/>
+<text x="900" y="399" text-anchor="end" font-size="13" font-weight="700">1,335/day</text>
 <text x="28" y="443" font-size="13">Pinned Tianyi Cui @tianyi · Aug 13 DeepSeek  [x]</text>
 <rect x="470" y="425" width="380" height="22" rx="11" fill="#e8e2d6"/>
 <rect x="470" y="425" width="9" height="22" rx="11" fill="#e07a5f"/>
-<text x="900" y="443" text-anchor="end" font-size="13" font-weight="700">1,563/day</text>
-<text x="28" y="487" font-size="13">Tianyi Cui @tianyi · 13h 如果你人在杭州或周边，想给 DeepS [x]</text>
+<text x="900" y="443" text-anchor="end" font-size="13" font-weight="700">1,289/day</text>
+<text x="28" y="487" font-size="13">ℏεsam @Hesamation · Aug 13 DeepSeek publishe [x]</text>
 <rect x="470" y="469" width="380" height="22" rx="11" fill="#e8e2d6"/>
-<rect x="470" y="469" width="9" height="22" rx="11" fill="#e07a5f"/>
-<text x="900" y="487" text-anchor="end" font-size="13" font-weight="700">1,545/day</text>
-<text x="28" y="531" font-size="13">awesome-dsh-plugin/awesome-dsh-plugin [github]</text>
+<rect x="470" y="469" width="8" height="22" rx="11" fill="#e07a5f"/>
+<text x="900" y="487" text-anchor="end" font-size="13" font-weight="700">1,233/day</text>
+<text x="28" y="531" font-size="13">xiaobright/dsh-anchored-standard [github]</text>
 <rect x="470" y="513" width="380" height="22" rx="11" fill="#e8e2d6"/>
 <rect x="470" y="513" width="8" height="22" rx="11" fill="#e07a5f"/>
-<text x="900" y="531" text-anchor="end" font-size="13" font-weight="700">1,508/day</text>
-<text x="28" y="575" font-size="13">ℏεsam @Hesamation · Aug 13 DeepSeek publishe [x]</text>
+<text x="900" y="531" text-anchor="end" font-size="13" font-weight="700">1,165/day</text>
+<text x="28" y="575" font-size="13">🚀实测DeepSeek Harness从基础到高级用法！WebUI远程控制、多模型接入、 [bilibili]</text>
 <rect x="470" y="557" width="380" height="22" rx="11" fill="#e8e2d6"/>
-<rect x="470" y="557" width="8" height="22" rx="11" fill="#e07a5f"/>
-<text x="900" y="575" text-anchor="end" font-size="13" font-weight="700">1,507/day</text>
-<text x="28" y="619" font-size="13">🚀实测DeepSeek Harness从基础到高级用法！WebUI远程控制、多模型接入、 [bilibili]</text>
+<rect x="470" y="557" width="7" height="22" rx="11" fill="#e07a5f"/>
+<text x="900" y="575" text-anchor="end" font-size="13" font-weight="700">1,005/day</text>
+<text x="28" y="619" font-size="13">Tianyi Cui @tianyi · 13h 如果你人在杭州或周边，想给 DeepS [x]</text>
 <rect x="470" y="601" width="380" height="22" rx="11" fill="#e8e2d6"/>
-<rect x="470" y="601" width="8" height="22" rx="11" fill="#e07a5f"/>
-<text x="900" y="619" text-anchor="end" font-size="13" font-weight="700">1,398/day</text>
-<text x="28" y="663" font-size="13">Max For AI @MaxForAI · Aug 14 鉴于V4-Pro-0813和 [x]</text>
+<rect x="470" y="601" width="6" height="22" rx="11" fill="#e07a5f"/>
+<text x="900" y="619" text-anchor="end" font-size="13" font-weight="700">1,002/day</text>
+<text x="28" y="663" font-size="13">nexu-io/open-design [github]</text>
 <rect x="470" y="645" width="380" height="22" rx="11" fill="#e8e2d6"/>
 <rect x="470" y="645" width="6" height="22" rx="11" fill="#e07a5f"/>
-<text x="900" y="663" text-anchor="end" font-size="13" font-weight="700">1,050/day</text>
-<text x="28" y="707" font-size="13">nexu-io/open-design [github]</text>
+<text x="900" y="663" text-anchor="end" font-size="13" font-weight="700">974/day</text>
+<text x="28" y="707" font-size="13">Graphify-Labs/graphify [github]</text>
 <rect x="470" y="689" width="380" height="22" rx="11" fill="#e8e2d6"/>
-<rect x="470" y="689" width="5" height="22" rx="11" fill="#e07a5f"/>
-<text x="900" y="707" text-anchor="end" font-size="13" font-weight="700">977/day</text>
+<rect x="470" y="689" width="6" height="22" rx="11" fill="#e07a5f"/>
+<text x="900" y="707" text-anchor="end" font-size="13" font-weight="700">948/day</text>
 </svg>

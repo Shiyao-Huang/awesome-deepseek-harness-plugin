@@ -14,13 +14,13 @@ media/          locally stored screenshots or thumbnails with rights notes
 config/         source lists and collection limits
 ```
 
-`data/raw/` is the physical raw namespace. The short name `raw` in issue descriptions and collection notes refers to this directory. `index/` is the registration namespace described below. `data/aggregator.sqlite3` is the queryable database and must contain the same registration fields as `index/records.jsonl`.
+`data/raw/` is the physical raw namespace. The short name `raw` in issue descriptions and collection notes refers to this directory. `index/` is the registration namespace described below. The release asset `aggregator.sqlite3` is the queryable public projection and must contain the same registration fields as `index/records.jsonl`; `aggregator-full.sqlite3.zst` is the compressed authoritative database.
 
 ## Raw Evidence
 
 - A raw file is the original public response or visible DOM capture, not a rewritten summary.
 - Raw files are immutable after import. A changed page creates a new dated file.
-- Every raw file must have a UTC collection time, source URL, collector, method, status, and SHA-256 recorded in SQLite.
+- Every raw file must have a UTC collection time, source URL, collector, method, status, and SHA-256 recorded in SQLite. The full archive retains its exact UTF-8 JSON in `raw_snapshots.payload_json`; the public projection retains SHA/path/date provenance and replaces duplicated JSON blobs with `{}`.
 - The same raw SHA-256 is imported once. Re-running a command must not create another raw snapshot or another item observation for that exact file.
 - Public-only collection is allowed. Do not bypass login, CAPTCHA, QR code, paywalls, rate limits, robots controls, or platform access restrictions.
 - Store external media URLs and rights notes by default. Do not mirror third-party media without permission.
@@ -64,13 +64,13 @@ The SQLite table `index_records` mirrors these fields. The `raw_snapshots`, `obs
 
 ## Schedule
 
-The public GitHub Actions workflow runs every two hours at minute 17 UTC. It collects sources that expose a permitted public API, writes a dated raw snapshot, imports it, rebuilds the index and docs, validates the database, and commits only the resulting data changes. Browser-only sources such as X, Xiaohongshu, Reddit, and WeChat require a fresh permitted ego-browser capture and are imported with `--raw`.
+The public GitHub Actions workflow runs every two hours at minute 17 UTC. It restores the latest full database, calls `make core-refresh` to collect sources that expose a permitted public API, writes dated raw snapshots, imports them, rebuilds the value matrix, index, site, trends, and README, validates both database forms, and commits only incremental raw and generated text/site changes. It overwrites the stable `dataset-latest` GitHub Release assets instead of committing a new 60+ MiB SQLite binary every two hours. Browser-only sources such as X, Xiaohongshu, Reddit, and WeChat are never collected by this unattended job; they require a fresh permitted ego-browser capture and an explicit `--raw` import.
 
-The DeepSeek Harness Fork network has a separate daily workflow at `.github/workflows/refresh-forks.yml`. It enumerates every public page from `https://api.github.com/repos/deepseek-ai/deepseek-harness/forks`, stores each page under `data/raw/forks/<UTC timestamp>/`, and upserts the public Fork identities into `fork_repositories`. The complete list is the observable GitHub API result at collection time; private, deleted, or inaccessible repositories are outside the dataset.
+The DeepSeek Harness Fork network has a separate daily workflow at `.github/workflows/refresh-forks.yml`. It enumerates every public page from `https://api.github.com/repos/deepseek-ai/deepseek-harness/forks`, stores each page under `data/raw/forks/<UTC timestamp>/`, rotates a bounded, owner-deduplicated set of public `GET /users/{login}` profiles, and upserts the public Fork identities into `fork_repositories`. The complete list is the observable GitHub API result at collection time; private, deleted, or inaccessible repositories are outside the dataset.
 
-Fork metadata and native metrics are historical in `fork_snapshots`. Deep compare results, recent commits, README metadata, and changed-file categories are rotated by the configured deep-scan budget and remain `NULL` or `metadata-only` until that Fork is selected. `--deep-scan-all` is available for a sufficiently provisioned authenticated run, but a missing compare response must never be interpreted as no code change.
+Fork metadata and native metrics are historical in `fork_snapshots`. Deep compare results, recent commits, README metadata, and changed-file categories are rotated by the configured deep-scan budget and remain `NULL` or `metadata-only` until that Fork is selected. The daily queue reserves at most `changed_recheck_fraction` for previously scanned Forks pushed after their last deep scan, then spends the remaining budget on never-scanned Forks in native GitHub influence order before rotating through stale records. `--deep-scan-all` is available for a sufficiently provisioned authenticated run, but a missing compare response must never be interpreted as no code change.
 
-Fork influence ranking is deterministic and versioned in `fork_rankings`. The current scoring configuration is `config/forks.json`; raw GitHub values are preserved separately from the score, and the score is not a quality, security, compatibility, or official-endorsement claim. Rebuild `index/forks.jsonl` and `docs/forks.md` with `python3 scripts/build_fork_index.py` after importing a Fork snapshot.
+Fork ranking is deterministic and versioned in `fork_rankings`: repository influence and public-account reputation remain separate, then combine only when a profile signal is observed; `min_stars`/`--min-stars` filters the ranking pool without deleting raw Fork records. The current scoring configuration is `config/forks.json`; raw GitHub values are preserved separately from the score, and the score is not a quality, security, integrity, compatibility, or official-endorsement claim. `change_summary` is an evidence-qualified one-sentence description of observed changes and goal clues, not inferred author intent. Rebuild `index/forks.jsonl` and `docs/forks.md` with `python3 scripts/build_fork_index.py` after importing a Fork snapshot.
 
 ## Required Checks
 
@@ -86,8 +86,8 @@ Never use a destructive database reset or delete raw evidence to make a check pa
 
 ## Store Website
 
-- `config/site.json` is the single deployment configuration for the public store. The current canonical URL is `https://deeplugin.store` and the GitHub Pages source is `main:/docs`.
-- `docs/index.html`, `docs/skills/`, `docs/data/catalog.json`, `docs/timeline.html`, `docs/categories.html`, `docs/sources.html`, `docs/robots.txt`, `docs/sitemap.xml`, and `docs/CNAME` are generated projections. Run `python3 scripts/build_views.py`; `README.md` landing and snapshot blocks are generated by `python3 scripts/build_readme.py`; do not hand-edit generated HTML, catalog data, or marked README blocks.
+- `config/site.json` is the single deployment configuration for the public store, canonical URL, and stable public/full database download URLs. The current canonical URL is `https://deeplugin.store` and the GitHub Pages source is `main:/docs`.
+- `docs/index.html`, `docs/skills/`, `docs/data/catalog.json`, `docs/timeline.html`, `docs/categories.html`, `docs/directories.html`, `docs/robots.txt`, `docs/sitemap.xml`, and `docs/CNAME` are generated projections. `directories.html` lists ordinary public aggregation and discovery records; it must never expose which repositories are internally monitored or query `upstream_repositories`/`upstream_entries`. Run `python3 scripts/build_views.py`; `README.md` landing and snapshot blocks are generated by `python3 scripts/build_readme.py`; do not hand-edit generated HTML, catalog data, or marked README blocks.
 - A store detail page uses the stable registry id (`skills/id-<n>.html`) and must display its dataset version, first/last seen dates, native platform metrics, public source URL, and media rights note when available.
 - Third-party media remains an external URL reference unless permission is recorded. The site must never present missing interaction values as zero or combine metrics from different platforms.
 - Hostinger only supplies DNS for `deeplugin.store`; GitHub Pages hosts the static files. Google Search Console verification and sitemap submission are manual account actions documented in `docs/seo.md`.
@@ -95,7 +95,7 @@ Never use a destructive database reset or delete raw evidence to make a check pa
 <!-- gitnexus:start -->
 # GitNexus — Code Intelligence
 
-This project is indexed by GitNexus as **awesome-deepseek-harness-plugin** (11687 symbols, 12356 relationships, 49 execution flows). Use the GitNexus MCP tools to understand code, assess impact, and navigate safely.
+This project is indexed by GitNexus as **awesome-deepseek-harness-plugin** (12157 symbols, 12906 relationships, 51 execution flows). Use the GitNexus MCP tools to understand code, assess impact, and navigate safely.
 
 > Index stale? Run `node .gitnexus/run.cjs analyze` from the project root — it auto-selects an available runner. No `.gitnexus/run.cjs` yet? `npx gitnexus analyze` (npm 11 crash → `npm i -g gitnexus`; #1939).
 

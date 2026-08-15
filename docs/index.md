@@ -2,7 +2,7 @@
 
 > 一个可重复更新的公开资料聚合体：仓库、插件、索引、文章、帖子、图片缩略图和视频链接。原始观测保留在 `data/raw/`，SQLite 是可查询的派生索引。
 
-当前数据集版本：**v20260815T102745Z**，完成时间：**2026-08-15T10:27:45Z**。共 **941** 条去重记录，覆盖 **14** 个平台，外部媒体资产 **672** 条。
+当前数据集版本：**v20260815T200645Z**，完成时间：**2026-08-15T20:06:51Z**。共 **12,458** 条去重记录，覆盖 **14** 个平台，外部媒体资产 **861** 条。
 
 ## 三句话结论
 
@@ -14,7 +14,6 @@
 
 - [按来源浏览](timeline.md)
 - [按主题归类](categories.md)
-- [上游源仓库与插件关系](sources.md)
 - [价值衡量矩阵](value-matrix.md)
 - [可视化报告](report.html)
 - [趋势与增速](trends.md)
@@ -24,14 +23,14 @@
 
 | 平台 | 去重记录 | 采集方式 |
 | --- | ---: | --- |
-| github | 702 | public REST API |
+| github | 12,121 | public REST API |
 | hacker_news | 99 | Algolia public search API |
-| x | 53 | ego-browser visible DOM |
-| xiaohongshu | 30 | ego-browser visible DOM |
+| x | 77 | ego-browser visible DOM |
+| xiaohongshu | 51 | ego-browser visible DOM |
+| reddit | 35 | ego-browser visible DOM |
+| youtube | 28 | ego-browser visible DOM |
 | web | 21 | public page metadata |
-| youtube | 17 | ego-browser visible DOM |
-| bilibili | 6 | public web metadata API |
-| reddit | 5 | ego-browser visible DOM |
+| bilibili | 18 | public web metadata API |
 | linuxdo | 2 | ego-browser visible DOM |
 | wechat | 2 | ego-browser visible DOM |
 | official | 1 | ego-browser visible DOM |
@@ -43,13 +42,14 @@
 
 | 分类 | 记录 | 带媒体 |
 | --- | ---: | ---: |
-| core-and-ecosystem | 586 | 72 |
-| index-and-marketplace | 120 | 20 |
-| ui-and-desktop | 97 | 3 |
-| operations-and-safety | 57 | 1 |
-| multimedia-and-vision | 37 | 3 |
-| docs-and-learning | 27 | 5 |
-| agents-and-orchestration | 17 | 2 |
+| deepseek-harness-forks | 11,093 | 0 |
+| core-and-ecosystem | 824 | 135 |
+| index-and-marketplace | 159 | 34 |
+| ui-and-desktop | 157 | 4 |
+| operations-and-safety | 92 | 1 |
+| multimedia-and-vision | 64 | 6 |
+| docs-and-learning | 38 | 7 |
+| agents-and-orchestration | 31 | 3 |
 
 ## 价值衡量摘要
 
@@ -57,24 +57,24 @@
 
 | 平台 | 记录 | value | band | confidence | 分类 |
 | --- | --- | ---: | :---: | ---: | --- |
-| github | [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 78.15 | B | 100.00 | ui-and-desktop |
-| github | [liustack/modlens](https://github.com/liustack/modlens) | 77.51 | B | 100.00 | multimedia-and-vision |
-| github | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 77.00 | B | 100.00 | core-and-ecosystem |
-| github | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 76.73 | B | 100.00 | ui-and-desktop |
-| github | [vlln/whale-girl](https://github.com/vlln/whale-girl) | 75.21 | B | 100.00 | index-and-marketplace |
-| github | [Lum1104/dsh-browser](https://github.com/Lum1104/dsh-browser) | 74.77 | B | 100.00 | ui-and-desktop |
-| github | [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | 74.39 | B | 100.00 | ui-and-desktop |
-| github | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | 74.18 | B | 100.00 | core-and-ecosystem |
-| github | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 74.17 | B | 100.00 | ui-and-desktop |
-| github | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | 73.83 | B | 100.00 | core-and-ecosystem |
+| github | [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 86.00 | A | 100.00 | core-and-ecosystem |
+| github | [dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 77.43 | B | 100.00 | core-and-ecosystem |
+| github | [modlens](https://github.com/liustack/modlens) | 76.84 | B | 100.00 | core-and-ecosystem |
+| github | [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | 76.17 | B | 100.00 | ui-and-desktop |
+| github | [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 76.16 | B | 100.00 | ui-and-desktop |
+| github | [dsh-market](https://github.com/dsh-market/dsh-market) | 75.55 | B | 100.00 | core-and-ecosystem |
+| github | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | 75.38 | B | 100.00 | ui-and-desktop |
+| github | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 74.41 | B | 100.00 | multimedia-and-vision |
+| github | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | 74.32 | B | 100.00 | core-and-ecosystem |
+| github | [omdsh-dev/dsh-genui](https://github.com/omdsh-dev/dsh-genui) | 74.32 | B | 100.00 | core-and-ecosystem |
 
 ## 高互动/高关注记录
 
 | 平台 | 标题 | 作者 | 指标 | 分类 |
 | --- | --- | --- | --- | --- |
 | github | [ollama/ollama](https://github.com/ollama/ollama) | ollama | 178,537 ★, 17,409 forks | core-and-ecosystem |
+| github | [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-ai | 106,871 ★, 10,248 forks | core-and-ecosystem |
 | github | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | Graphify-Labs | 106,471 ★, 10,362 forks | core-and-ecosystem |
-| github | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-ai | 104,848 ★, 10,017 forks | core-and-ecosystem |
 | github | [nexu-io/open-design](https://github.com/nexu-io/open-design) | nexu-io | 86,590 ★, 10,092 forks | ui-and-desktop |
 | github | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | bytedance | 80,032 ★, 10,952 forks | agents-and-orchestration |
 | github | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | shareAI-lab | 74,276 ★, 12,028 forks | core-and-ecosystem |
@@ -91,4 +91,4 @@
 | github | [Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) | Hannibal046 | 27,264 ★, 2,671 forks | index-and-marketplace |
 | github | [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) | rohitg00 | 27,028 ★, 2,307 forks | core-and-ecosystem |
 | github | [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | OthmanAdi | 26,171 ★, 2,188 forks | index-and-marketplace |
-| github | [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) | can1357 | 24,901 ★, 2,389 forks | agents-and-orchestration |
+| youtube | [🚀实测DeepSeek Harness从基础到高级用法！WebUI远程控制、多模型接入、执行轨迹、插件系统、任务分支、游戏开发、代码仓库issues和pr分析！竟然比Claude Code更强？](https://www.youtube.com/watch?v=Aqn7EP8shJw) | AI超元域 | 25,000 views | core-and-ecosystem |

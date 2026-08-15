@@ -1,0 +1,1045 @@
+{
+  "schema_version": 1,
+  "collected_at": "2026-08-15T19:54:47.882Z",
+  "collector": "ego-browser task-space 6",
+  "source": {
+    "platform": "xiaohongshu",
+    "query": "DeepSeek Harness plugin",
+    "url": "https://www.xiaohongshu.com/search_result?keyword=DeepSeek+Harness+plugin",
+    "title": "DeepSeek Harness plugin - 小红书搜索",
+    "profile_id": "Profile 1",
+    "profile_name": "hsyhsy",
+    "authenticated": true,
+    "visible_result_count": 26,
+    "token_policy": "XHS xsec_token values are redacted before version control."
+  },
+  "observations": [
+    {
+      "platform": "xiaohongshu",
+      "query": "DeepSeek Harness plugin",
+      "source_url": "https://www.xiaohongshu.com/search_result?keyword=DeepSeek%20Harness%20plugin&type=51",
+      "collected_at": "2026-08-15T19:54:47.882Z",
+      "collector": "ego-browser task-space 6",
+      "method": "authenticated visible search-card DOM capture",
+      "status": "ok",
+      "result_count": 26,
+      "notes": "Public search cards, native like counts, thumbnails, author and relative publication labels. Ephemeral xsec_token values redacted.",
+      "items": [
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a802523000000002403d50a",
+          "url": "https://www.xiaohongshu.com/explore/6a802523000000002403d50a",
+          "item_type": "note",
+          "title": "Cordis: DeepSeek Harness的底层插件框架",
+          "author": "源点PI",
+          "author_url": "https://www.xiaohongshu.com/user/profile/5c192d780000000006022d36",
+          "published_label": "昨天 20:18",
+          "content_text": "Cordis: DeepSeek Harness的底层插件框架\n源点PI\n昨天 20:18\n37",
+          "media_kind": "image",
+          "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160350/a11f0650e8ffd4ac5684ebe2ad983659/spectrum/1040g0k0323sqd8qf72005n0p5ls1kb9m7ltvg90!nc_n_webp_mw_1",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608160350/a11f0650e8ffd4ac5684ebe2ad983659/spectrum/1040g0k0323sqd8qf72005n0p5ls1kb9m7ltvg90!nc_n_webp_mw_1",
+              "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160350/a11f0650e8ffd4ac5684ebe2ad983659/spectrum/1040g0k0323sqd8qf72005n0p5ls1kb9m7ltvg90!nc_n_webp_mw_1"
+            },
+            {
+              "kind": "avatar",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31v1djsm5ia005n0p5ls1kb9mtidml58?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            }
+          ],
+          "metrics": {
+            "likes": 37,
+            "metric_source": "XHS authenticated visible search card",
+            "observed_at": "2026-08-15T19:54:47.882Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "search-card",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "Cordis: DeepSeek Harness的底层插件框架\n源点PI\n昨天 20:18\n37",
+            "visible_dom": "<section data-v-eafabe54=\"\" data-v-150c1cde=\"\" class=\"note-item\" data-width=\"1440\" data-height=\"1920\" data-index=\"13\" data-note-id=\"6a802523000000002403d50a\" style=\"--3e2ba87e: 288.3333333333333px; --17f24bf1: 16px; --54f74eca: blur(42.5px); transform: translate(312.333px, 1807.21px);\"><div data-v-eafabe54=\"\"><a data-v-eafabe54=\"\" href=\"/explore/6a802523000000002403d50a\" style=\"display: none;\"></a><a data-v-eafabe54=\"\" class=\"cover mask ld\" target=\"_self\" href=\"/search_result/6a802523000000002403d50a?xsec_token=REDACTED&amp;xsec_source=REDACTED\" style=\"height: 384px;\"><img data-v-eafabe54=\"\" src=\"https://sns-webpic-qc.xhscdn.com/202608160350/a11f0650e8ffd4ac5684ebe2ad983659/spectrum/1040g0k0323sqd8qf72005n0p5ls1kb9m7ltvg90!nc_n_webp_mw_1\" fetchpriority=\"auto\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" style=\"width: 100%; height: 100%; object-fit: cover;\"><span data-v-eafabe54=\"\" class=\"play-icon\"><svg data-v-55b36ac6=\"\" data-v-eafabe54=\"\" class=\"reds-icon\" width=\"11\" height=\"11\"><use data-v-55b36ac6=\"\" xlink:href=\"#play-s\"></use></svg></span><!----><!----></a><div data-v-eafabe54=\"\" class=\"footer\"><!----><a data-v-eafabe54=\"\" href=\"/search_result/6a802523000000002403d50a?xsec_token=REDACTED&amp;xsec_source=REDACTED\" target=\"_self\" class=\"title\"><span data-v-51ec0135=\"\" data-v-eafabe54=\"\">Cordis: DeepSeek Harness的底层插件框架</span></a><div data-v-212156b8=\"\" data-v-150c1cde=\"\" data-v-eafabe54-s=\"\" class=\"card-bottom-wrapper\"><a data-v-212156b8=\"\" href=\"/user/profile/5c192d780000000006022d36?channel_type=web_search_result_notes&amp;parent_page_channel_type=web_profile_board&amp;xsec_token=REDACTED&amp;xsec_source=REDACTED\" class=\"author\" target=\"_blank\"><img data-v-212156b8=\"\" src=\"https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31v1djsm5ia005n0p5ls1kb9mtidml58?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip\" fetchpriority=\"auto\" width=\"24\" height=\"24\" crossorigin=\"anonymous\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" class=\"author-avatar\"><div data-v-212156b8=\"\" class=\"name-time-wrapper\"><div data-v-212156b8=\"\" class=\"name\">源点PI</div><div data-v-212156b8=\"\" class=\"time\">昨天 20:18</div></div></a><span data-v-752eec30=\"\" data-v-212156b8=\"\" class=\"like-wrapper like-active\"><span data-v-752eec30=\"\" class=\"like-lottie\" style=\"width: 16px; height: 16px;\"></span><svg data-v-55b36ac6=\"\" data-v-752eec30=\"\" class=\"reds-icon like-icon\" width=\"16\" height=\"16\"><use data-v-55b36ac6=\"\" xlink:href=\"#like\"></use></svg><span data-v-752eec30=\"\" class=\"count\" selected-disabled-search=\"\">37</span></span></div></div></div></section>"
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a7e0cc6000000002402d6ae",
+          "url": "https://www.xiaohongshu.com/explore/6a7e0cc6000000002402d6ae",
+          "item_type": "note",
+          "title": "[转自X]怒喷Deepseek Harness",
+          "author": "Agent好文推荐",
+          "author_url": "https://www.xiaohongshu.com/user/profile/6549bce00000000030032553",
+          "published_label": "1天前",
+          "content_text": "[转自X]怒喷Deepseek Harness\nAgent好文推荐\n1天前\n462",
+          "media_kind": "image",
+          "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160350/f09907ff52ec9e03448a73a26122312e/spectrum/1040g34o323qp8284mu305pa9njgc69aj1iv7400!nc_n_webp_mw_1",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608160350/f09907ff52ec9e03448a73a26122312e/spectrum/1040g34o323qp8284mu305pa9njgc69aj1iv7400!nc_n_webp_mw_1",
+              "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160350/f09907ff52ec9e03448a73a26122312e/spectrum/1040g34o323qp8284mu305pa9njgc69aj1iv7400!nc_n_webp_mw_1"
+            },
+            {
+              "kind": "avatar",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31qam492l6u005pa9njgc69ajbfe0nl8?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            }
+          ],
+          "metrics": {
+            "likes": 462,
+            "metric_source": "XHS authenticated visible search card",
+            "observed_at": "2026-08-15T19:54:47.882Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "search-card",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "[转自X]怒喷Deepseek Harness\nAgent好文推荐\n1天前\n462",
+            "visible_dom": "<section data-v-eafabe54=\"\" data-v-150c1cde=\"\" class=\"note-item\" data-width=\"1440\" data-height=\"1920\" data-index=\"14\" data-note-id=\"6a7e0cc6000000002402d6ae\" style=\"--3e2ba87e: 288.3333333333333px; --17f24bf1: 16px; --54f74eca: blur(42.5px); transform: translate(624.667px, 1849.41px);\"><div data-v-eafabe54=\"\"><a data-v-eafabe54=\"\" href=\"/explore/6a7e0cc6000000002402d6ae\" style=\"display: none;\"></a><a data-v-eafabe54=\"\" class=\"cover mask ld\" target=\"_self\" href=\"/search_result/6a7e0cc6000000002402d6ae?xsec_token=REDACTED&amp;xsec_source=REDACTED\" style=\"height: 384px;\"><img data-v-eafabe54=\"\" src=\"https://sns-webpic-qc.xhscdn.com/202608160350/f09907ff52ec9e03448a73a26122312e/spectrum/1040g34o323qp8284mu305pa9njgc69aj1iv7400!nc_n_webp_mw_1\" fetchpriority=\"auto\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" style=\"width: 100%; height: 100%; object-fit: cover;\"><!----><!----><!----></a><div data-v-eafabe54=\"\" class=\"footer\"><!----><a data-v-eafabe54=\"\" href=\"/search_result/6a7e0cc6000000002402d6ae?xsec_token=REDACTED&amp;xsec_source=REDACTED\" target=\"_self\" class=\"title\"><span data-v-51ec0135=\"\" data-v-eafabe54=\"\">[转自X]怒喷Deepseek Harness</span></a><div data-v-212156b8=\"\" data-v-150c1cde=\"\" data-v-eafabe54-s=\"\" class=\"card-bottom-wrapper\"><a data-v-212156b8=\"\" href=\"/user/profile/6549bce00000000030032553?channel_type=web_search_result_notes&amp;parent_page_channel_type=web_profile_board&amp;xsec_token=REDACTED&amp;xsec_source=REDACTED\" class=\"author\" target=\"_blank\"><img data-v-212156b8=\"\" src=\"https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31qam492l6u005pa9njgc69ajbfe0nl8?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip\" fetchpriority=\"auto\" width=\"24\" height=\"24\" crossorigin=\"anonymous\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" class=\"author-avatar\"><div data-v-212156b8=\"\" class=\"name-time-wrapper\"><div data-v-212156b8=\"\" class=\"name\">Agent好文推荐</div><div data-v-212156b8=\"\" class=\"time\">1天前</div></div></a><span data-v-752eec30=\"\" data-v-212156b8=\"\" class=\"like-wrapper like-active\"><span data-v-752eec30=\"\" class=\"like-lottie\" style=\"width: 16px; height: 16px;\"></span><svg data-v-55b36ac6=\"\" data-v-752eec30=\"\" class=\"reds-icon like-icon\" width=\"16\" height=\"16\"><use data-v-55b36ac6=\"\" xlink:href=\"#like\"></use></svg><span data-v-752eec30=\"\" class=\"count\" selected-disabled-search=\"\">462</span></span></div></div></div></section>"
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a7ef32c000000002402e0b2",
+          "url": "https://www.xiaohongshu.com/explore/6a7ef32c000000002402e0b2",
+          "item_type": "note",
+          "title": "我给 Harness 做了一只会看状态的鲸鱼🐋",
+          "author": "koko",
+          "author_url": "https://www.xiaohongshu.com/user/profile/67b52bfb0000000007001c0d",
+          "published_label": "1天前",
+          "content_text": "我给 Harness 做了一只会看状态的鲸鱼🐋\nkoko\n1天前\n14",
+          "media_kind": "image",
+          "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160350/2109c877bc8b5163e8ec23e52d3ead56/spectrum/1040g34o323rl983dn40g5ptl5ftho70d1vedcl0!nc_n_webp_mw_1",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608160350/2109c877bc8b5163e8ec23e52d3ead56/spectrum/1040g34o323rl983dn40g5ptl5ftho70d1vedcl0!nc_n_webp_mw_1",
+              "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160350/2109c877bc8b5163e8ec23e52d3ead56/spectrum/1040g34o323rl983dn40g5ptl5ftho70d1vedcl0!nc_n_webp_mw_1"
+            },
+            {
+              "kind": "avatar",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31qv1ci5eng505ptl5ftho70dedo8ogg?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            }
+          ],
+          "metrics": {
+            "likes": 14,
+            "metric_source": "XHS authenticated visible search card",
+            "observed_at": "2026-08-15T19:54:47.882Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "search-card",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "我给 Harness 做了一只会看状态的鲸鱼🐋\nkoko\n1天前\n14",
+            "visible_dom": "<section data-v-eafabe54=\"\" data-v-150c1cde=\"\" class=\"note-item\" data-width=\"1440\" data-height=\"1920\" data-index=\"15\" data-note-id=\"6a7ef32c000000002402e0b2\" style=\"--3e2ba87e: 288.3333333333333px; --17f24bf1: 16px; --54f74eca: blur(42.5px); transform: translate(0px, 1977.21px);\"><div data-v-eafabe54=\"\"><a data-v-eafabe54=\"\" href=\"/explore/6a7ef32c000000002402e0b2\" style=\"display: none;\"></a><a data-v-eafabe54=\"\" class=\"cover mask ld\" target=\"_self\" href=\"/search_result/6a7ef32c000000002402e0b2?xsec_token=REDACTED&amp;xsec_source=REDACTED\" style=\"height: 384px;\"><img data-v-eafabe54=\"\" src=\"https://sns-webpic-qc.xhscdn.com/202608160350/2109c877bc8b5163e8ec23e52d3ead56/spectrum/1040g34o323rl983dn40g5ptl5ftho70d1vedcl0!nc_n_webp_mw_1\" fetchpriority=\"auto\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" style=\"width: 100%; height: 100%; object-fit: cover;\"><!----><!----><!----></a><div data-v-eafabe54=\"\" class=\"footer\"><!----><a data-v-eafabe54=\"\" href=\"/search_result/6a7ef32c000000002402e0b2?xsec_token=REDACTED&amp;xsec_source=REDACTED\" target=\"_self\" class=\"title\"><span data-v-51ec0135=\"\" data-v-eafabe54=\"\">我给  Harness 做了一只会看状态的鲸鱼🐋</span></a><div data-v-212156b8=\"\" data-v-150c1cde=\"\" data-v-eafabe54-s=\"\" class=\"card-bottom-wrapper\"><a data-v-212156b8=\"\" href=\"/user/profile/67b52bfb0000000007001c0d?channel_type=web_search_result_notes&amp;parent_page_channel_type=web_profile_board&amp;xsec_token=REDACTED&amp;xsec_source=REDACTED\" class=\"author\" target=\"_blank\"><img data-v-212156b8=\"\" src=\"https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31qv1ci5eng505ptl5ftho70dedo8ogg?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip\" fetchpriority=\"auto\" width=\"24\" height=\"24\" crossorigin=\"anonymous\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" class=\"author-avatar\"><div data-v-212156b8=\"\" class=\"name-time-wrapper\"><div data-v-212156b8=\"\" class=\"name\">koko</div><div data-v-212156b8=\"\" class=\"time\">1天前</div></div></a><span data-v-752eec30=\"\" data-v-212156b8=\"\" class=\"like-wrapper like-active\"><span data-v-752eec30=\"\" class=\"like-lottie\" style=\"width: 16px; height: 16px;\"></span><svg data-v-55b36ac6=\"\" data-v-752eec30=\"\" class=\"reds-icon like-icon\" width=\"16\" height=\"16\"><use data-v-55b36ac6=\"\" xlink:href=\"#like\"></use></svg><span data-v-752eec30=\"\" class=\"count\" selected-disabled-search=\"\">14</span></span></div></div></div></section>"
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a7e6b100000000029032f61",
+          "url": "https://www.xiaohongshu.com/explore/6a7e6b100000000029032f61",
+          "item_type": "note",
+          "title": "从0开始成为DeepSeek Harness高手",
+          "author": "野生AI研究员",
+          "author_url": "https://www.xiaohongshu.com/user/profile/69902d490000000024013732",
+          "published_label": "1天前",
+          "content_text": "从0开始成为DeepSeek Harness高手\n野生AI研究员\n1天前\n2060",
+          "media_kind": "image",
+          "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160350/823350df29731b8a7477880a9342a70a/notes_pre_post/1040g3k0323r4oo4h72005qcg5l4p2dpin8l4t48!nc_n_webp_mw_1",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608160350/823350df29731b8a7477880a9342a70a/notes_pre_post/1040g3k0323r4oo4h72005qcg5l4p2dpin8l4t48!nc_n_webp_mw_1",
+              "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160350/823350df29731b8a7477880a9342a70a/notes_pre_post/1040g3k0323r4oo4h72005qcg5l4p2dpin8l4t48!nc_n_webp_mw_1"
+            },
+            {
+              "kind": "avatar",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo3215ekdv8ms005qcg5l4p2dpi2d72bqg?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            }
+          ],
+          "metrics": {
+            "likes": 2060,
+            "metric_source": "XHS authenticated visible search card",
+            "observed_at": "2026-08-15T19:54:47.882Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "search-card",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "从0开始成为DeepSeek Harness高手\n野生AI研究员\n1天前\n2060",
+            "visible_dom": "<section data-v-eafabe54=\"\" data-v-150c1cde=\"\" class=\"note-item\" data-width=\"1243\" data-height=\"1656\" data-index=\"17\" data-note-id=\"6a7e6b100000000029032f61\" style=\"--3e2ba87e: 288.3333333333333px; --17f24bf1: 16px; --54f74eca: blur(42.5px); transform: translate(624.667px, 2329.01px);\"><div data-v-eafabe54=\"\"><a data-v-eafabe54=\"\" href=\"/explore/6a7e6b100000000029032f61\" style=\"display: none;\"></a><a data-v-eafabe54=\"\" class=\"cover mask ld\" target=\"_self\" href=\"/search_result/6a7e6b100000000029032f61?xsec_token=REDACTED&amp;xsec_source=REDACTED\" style=\"height: 384px;\"><img data-v-eafabe54=\"\" src=\"https://sns-webpic-qc.xhscdn.com/202608160350/823350df29731b8a7477880a9342a70a/notes_pre_post/1040g3k0323r4oo4h72005qcg5l4p2dpin8l4t48!nc_n_webp_mw_1\" fetchpriority=\"auto\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" style=\"width: 100%; height: 100%; object-fit: cover;\" elementtiming=\"card-exposed\"><!----><!----><!----></a><div data-v-eafabe54=\"\" class=\"footer\"><!----><a data-v-eafabe54=\"\" href=\"/search_result/6a7e6b100000000029032f61?xsec_token=REDACTED&amp;xsec_source=REDACTED\" target=\"_self\" class=\"title\"><span data-v-51ec0135=\"\" data-v-eafabe54=\"\">从0开始成为DeepSeek Harness高手</span></a><div data-v-212156b8=\"\" data-v-150c1cde=\"\" data-v-eafabe54-s=\"\" class=\"card-bottom-wrapper\"><a data-v-212156b8=\"\" href=\"/user/profile/69902d490000000024013732?channel_type=web_search_result_notes&amp;parent_page_channel_type=web_profile_board&amp;xsec_token=REDACTED&amp;xsec_source=REDACTED\" class=\"author\" target=\"_blank\"><img data-v-212156b8=\"\" src=\"https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo3215ekdv8ms005qcg5l4p2dpi2d72bqg?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip\" fetchpriority=\"auto\" width=\"24\" height=\"24\" crossorigin=\"anonymous\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" class=\"author-avatar\"><div data-v-212156b8=\"\" class=\"name-time-wrapper\"><div data-v-212156b8=\"\" class=\"name\">野生AI研究员</div><div data-v-212156b8=\"\" class=\"time\">1天前</div></div></a><span data-v-752eec30=\"\" data-v-212156b8=\"\" class=\"like-wrapper like-active\"><span data-v-752eec30=\"\" class=\"like-lottie\" style=\"width: 16px; height: 16px;\"></span><svg data-v-55b36ac6=\"\" data-v-752eec30=\"\" class=\"reds-icon like-icon\" width=\"16\" height=\"16\"><use data-v-55b36ac6=\"\" xlink:href=\"#like\"></use></svg><span data-v-752eec30=\"\" class=\"count\" selected-disabled-search=\"\">2060</span></span></div></div></div></section>"
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a80027d0000000032032dde",
+          "url": "https://www.xiaohongshu.com/explore/6a80027d0000000032032dde",
+          "item_type": "note",
+          "title": "DeepSeek Harness完美嵌入Obsidian侧边栏",
+          "author": "Blank[[ ]]",
+          "author_url": "https://www.xiaohongshu.com/user/profile/5caf454f0000000011000ca3",
+          "published_label": "昨天 19:02",
+          "content_text": "DeepSeek Harness完美嵌入Obsidian侧边栏\nBlank[[ ]]\n昨天 19:02\n38",
+          "media_kind": "image",
+          "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160350/2482196f389fad3445c1b0745df21ed8/spectrum/1040g0k0323sma71un0005n5f8l7k8353omq6l6g!nc_n_webp_mw_1",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608160350/2482196f389fad3445c1b0745df21ed8/spectrum/1040g0k0323sma71un0005n5f8l7k8353omq6l6g!nc_n_webp_mw_1",
+              "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160350/2482196f389fad3445c1b0745df21ed8/spectrum/1040g0k0323sma71un0005n5f8l7k8353omq6l6g!nc_n_webp_mw_1"
+            },
+            {
+              "kind": "avatar",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo323rt7m9n7u6g5n5f8l7k83531ddt98o?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            }
+          ],
+          "metrics": {
+            "likes": 38,
+            "metric_source": "XHS authenticated visible search card",
+            "observed_at": "2026-08-15T19:54:47.882Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "search-card",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "DeepSeek Harness完美嵌入Obsidian侧边栏\nBlank[[ ]]\n昨天 19:02\n38",
+            "visible_dom": "<section data-v-eafabe54=\"\" data-v-150c1cde=\"\" class=\"note-item\" data-width=\"2250\" data-height=\"3000\" data-index=\"18\" data-note-id=\"6a80027d0000000032032dde\" style=\"--3e2ba87e: 288.3333333333333px; --17f24bf1: 16px; --54f74eca: blur(42.5px); transform: translate(0px, 2456.81px);\"><div data-v-eafabe54=\"\"><a data-v-eafabe54=\"\" href=\"/explore/6a80027d0000000032032dde\" style=\"display: none;\"></a><a data-v-eafabe54=\"\" class=\"cover mask ld\" target=\"_self\" href=\"/search_result/6a80027d0000000032032dde?xsec_token=REDACTED&amp;xsec_source=REDACTED\" style=\"height: 384px;\"><img data-v-eafabe54=\"\" src=\"https://sns-webpic-qc.xhscdn.com/202608160350/2482196f389fad3445c1b0745df21ed8/spectrum/1040g0k0323sma71un0005n5f8l7k8353omq6l6g!nc_n_webp_mw_1\" fetchpriority=\"auto\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" style=\"width: 100%; height: 100%; object-fit: cover;\" elementtiming=\"card-exposed\"><!----><!----><!----></a><div data-v-eafabe54=\"\" class=\"footer\"><!----><a data-v-eafabe54=\"\" href=\"/search_result/6a80027d0000000032032dde?xsec_token=REDACTED&amp;xsec_source=REDACTED\" target=\"_self\" class=\"title\"><span data-v-51ec0135=\"\" data-v-eafabe54=\"\">DeepSeek Harness完美嵌入Obsidian侧边栏</span></a><div data-v-212156b8=\"\" data-v-150c1cde=\"\" data-v-eafabe54-s=\"\" class=\"card-bottom-wrapper\"><a data-v-212156b8=\"\" href=\"/user/profile/5caf454f0000000011000ca3?channel_type=web_search_result_notes&amp;parent_page_channel_type=web_profile_board&amp;xsec_token=REDACTED&amp;xsec_source=REDACTED\" class=\"author\" target=\"_blank\"><img data-v-212156b8=\"\" src=\"https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo323rt7m9n7u6g5n5f8l7k83531ddt98o?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip\" fetchpriority=\"auto\" width=\"24\" height=\"24\" crossorigin=\"anonymous\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" class=\"author-avatar\"><div data-v-212156b8=\"\" class=\"name-time-wrapper\"><div data-v-212156b8=\"\" class=\"name\">Blank[[ ]]</div><div data-v-212156b8=\"\" class=\"time\">昨天 19:02</div></div></a><span data-v-752eec30=\"\" data-v-212156b8=\"\" class=\"like-wrapper like-active\"><span data-v-752eec30=\"\" class=\"like-lottie\" style=\"width: 16px; height: 16px;\"></span><svg data-v-55b36ac6=\"\" data-v-752eec30=\"\" class=\"reds-icon like-icon\" width=\"16\" height=\"16\"><use data-v-55b36ac6=\"\" xlink:href=\"#like\"></use></svg><span data-v-752eec30=\"\" class=\"count\" selected-disabled-search=\"\">38</span></span></div></div></div></section>"
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a7dcb5900000000320216e8",
+          "url": "https://www.xiaohongshu.com/explore/6a7dcb5900000000320216e8",
+          "item_type": "note",
+          "title": "deepseek harness 终于来了!!",
+          "author": "Jemini",
+          "author_url": "https://www.xiaohongshu.com/user/profile/5f62e0580000000001009e1e",
+          "published_label": "2天前",
+          "content_text": "deepseek harness 终于来了!!\nJemini\n2天前\n58",
+          "media_kind": "image",
+          "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160350/ee8811ed1697757239176b32dcce71c3/notes_pre_post/1040g3k0323qh7reo6u705nr2s1c097guui87i3o!nc_n_webp_mw_1",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608160350/ee8811ed1697757239176b32dcce71c3/notes_pre_post/1040g3k0323qh7reo6u705nr2s1c097guui87i3o!nc_n_webp_mw_1",
+              "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160350/ee8811ed1697757239176b32dcce71c3/notes_pre_post/1040g3k0323qh7reo6u705nr2s1c097guui87i3o!nc_n_webp_mw_1"
+            },
+            {
+              "kind": "avatar",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31nu3u7bal0605nr2s1c097gui10qi3o?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            }
+          ],
+          "metrics": {
+            "likes": 58,
+            "metric_source": "XHS authenticated visible search card",
+            "observed_at": "2026-08-15T19:54:47.882Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "search-card",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "deepseek harness 终于来了!!\nJemini\n2天前\n58",
+            "visible_dom": "<section data-v-eafabe54=\"\" data-v-150c1cde=\"\" class=\"note-item\" data-width=\"1086\" data-height=\"1448\" data-index=\"19\" data-note-id=\"6a7dcb5900000000320216e8\" style=\"--3e2ba87e: 288.3333333333333px; --17f24bf1: 16px; --54f74eca: blur(42.5px); transform: translate(312.333px, 2542.41px);\"><div data-v-eafabe54=\"\"><a data-v-eafabe54=\"\" href=\"/explore/6a7dcb5900000000320216e8\" style=\"display: none;\"></a><a data-v-eafabe54=\"\" class=\"cover mask ld\" target=\"_self\" href=\"/search_result/6a7dcb5900000000320216e8?xsec_token=REDACTED&amp;xsec_source=REDACTED\" style=\"height: 384px;\"><img data-v-eafabe54=\"\" src=\"https://sns-webpic-qc.xhscdn.com/202608160350/ee8811ed1697757239176b32dcce71c3/notes_pre_post/1040g3k0323qh7reo6u705nr2s1c097guui87i3o!nc_n_webp_mw_1\" fetchpriority=\"auto\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" style=\"width: 100%; height: 100%; object-fit: cover;\" elementtiming=\"card-exposed\"><!----><!----><!----></a><div data-v-eafabe54=\"\" class=\"footer\"><!----><a data-v-eafabe54=\"\" href=\"/search_result/6a7dcb5900000000320216e8?xsec_token=REDACTED&amp;xsec_source=REDACTED\" target=\"_self\" class=\"title\"><span data-v-51ec0135=\"\" data-v-eafabe54=\"\">deepseek harness 终于来了!!</span></a><div data-v-212156b8=\"\" data-v-150c1cde=\"\" data-v-eafabe54-s=\"\" class=\"card-bottom-wrapper\"><a data-v-212156b8=\"\" href=\"/user/profile/5f62e0580000000001009e1e?channel_type=web_search_result_notes&amp;parent_page_channel_type=web_profile_board&amp;xsec_token=REDACTED&amp;xsec_source=REDACTED\" class=\"author\" target=\"_blank\"><img data-v-212156b8=\"\" src=\"https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31nu3u7bal0605nr2s1c097gui10qi3o?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip\" fetchpriority=\"auto\" width=\"24\" height=\"24\" crossorigin=\"anonymous\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" class=\"author-avatar\"><div data-v-212156b8=\"\" class=\"name-time-wrapper\"><div data-v-212156b8=\"\" class=\"name\">Jemini</div><div data-v-212156b8=\"\" class=\"time\">2天前</div></div></a><span data-v-752eec30=\"\" data-v-212156b8=\"\" class=\"like-wrapper like-active\"><span data-v-752eec30=\"\" class=\"like-lottie\" style=\"width: 16px; height: 16px;\"></span><svg data-v-55b36ac6=\"\" data-v-752eec30=\"\" class=\"reds-icon like-icon\" width=\"16\" height=\"16\"><use data-v-55b36ac6=\"\" xlink:href=\"#like\"></use></svg><span data-v-752eec30=\"\" class=\"count\" selected-disabled-search=\"\">58</span></span></div></div></div></section>"
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a7f2d13000000002c002923",
+          "url": "https://www.xiaohongshu.com/explore/6a7f2d13000000002c002923",
+          "item_type": "note",
+          "title": "DeepSeek Harness开发被曝大量使用 Codex",
+          "author": "硅基处长",
+          "author_url": "https://www.xiaohongshu.com/user/profile/67c83961000000000e01c2d4",
+          "published_label": "1天前",
+          "content_text": "DeepSeek Harness开发被曝大量使用 Codex\n硅基处长\n1天前\n302",
+          "media_kind": "image",
+          "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160350/e7707af79b3d282202101589b13e875c/spectrum/1040g0k0323rsf50b72005pu875gjjgmkb3g9o2g!nc_n_webp_mw_1",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608160350/e7707af79b3d282202101589b13e875c/spectrum/1040g0k0323rsf50b72005pu875gjjgmkb3g9o2g!nc_n_webp_mw_1",
+              "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160350/e7707af79b3d282202101589b13e875c/spectrum/1040g0k0323rsf50b72005pu875gjjgmkb3g9o2g!nc_n_webp_mw_1"
+            },
+            {
+              "kind": "avatar",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo323sdot10n0005pu875gjjgmkc53tp1g?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            }
+          ],
+          "metrics": {
+            "likes": 302,
+            "metric_source": "XHS authenticated visible search card",
+            "observed_at": "2026-08-15T19:54:47.882Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "search-card",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "DeepSeek Harness开发被曝大量使用 Codex\n硅基处长\n1天前\n302",
+            "visible_dom": "<section data-v-eafabe54=\"\" data-v-150c1cde=\"\" class=\"note-item\" data-width=\"1440\" data-height=\"1920\" data-index=\"20\" data-note-id=\"6a7f2d13000000002c002923\" style=\"--3e2ba87e: 288.3333333333333px; --17f24bf1: 16px; --54f74eca: blur(42.5px); transform: translate(624.667px, 2808.61px);\"><div data-v-eafabe54=\"\"><a data-v-eafabe54=\"\" href=\"/explore/6a7f2d13000000002c002923\" style=\"display: none;\"></a><a data-v-eafabe54=\"\" class=\"cover mask ld\" target=\"_self\" href=\"/search_result/6a7f2d13000000002c002923?xsec_token=REDACTED&amp;xsec_source=REDACTED\" style=\"height: 384px;\"><img data-v-eafabe54=\"\" src=\"https://sns-webpic-qc.xhscdn.com/202608160350/e7707af79b3d282202101589b13e875c/spectrum/1040g0k0323rsf50b72005pu875gjjgmkb3g9o2g!nc_n_webp_mw_1\" fetchpriority=\"auto\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" style=\"width: 100%; height: 100%; object-fit: cover;\"><!----><!----><!----></a><div data-v-eafabe54=\"\" class=\"footer\"><!----><a data-v-eafabe54=\"\" href=\"/search_result/6a7f2d13000000002c002923?xsec_token=REDACTED&amp;xsec_source=REDACTED\" target=\"_self\" class=\"title\"><span data-v-51ec0135=\"\" data-v-eafabe54=\"\">DeepSeek Harness开发被曝大量使用 Codex</span></a><div data-v-212156b8=\"\" data-v-150c1cde=\"\" data-v-eafabe54-s=\"\" class=\"card-bottom-wrapper\"><a data-v-212156b8=\"\" href=\"/user/profile/67c83961000000000e01c2d4?channel_type=web_search_result_notes&amp;parent_page_channel_type=web_profile_board&amp;xsec_token=REDACTED&amp;xsec_source=REDACTED\" class=\"author\" target=\"_blank\"><img data-v-212156b8=\"\" src=\"https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo323sdot10n0005pu875gjjgmkc53tp1g?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip\" fetchpriority=\"auto\" width=\"24\" height=\"24\" crossorigin=\"anonymous\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" class=\"author-avatar\"><div data-v-212156b8=\"\" class=\"name-time-wrapper\"><div data-v-212156b8=\"\" class=\"name\">硅基处长</div><div data-v-212156b8=\"\" class=\"time\">1天前</div></div></a><span data-v-752eec30=\"\" data-v-212156b8=\"\" class=\"like-wrapper like-active\"><span data-v-752eec30=\"\" class=\"like-lottie\" style=\"width: 16px; height: 16px;\"></span><svg data-v-55b36ac6=\"\" data-v-752eec30=\"\" class=\"reds-icon like-icon\" width=\"16\" height=\"16\"><use data-v-55b36ac6=\"\" xlink:href=\"#like\"></use></svg><span data-v-752eec30=\"\" class=\"count\" selected-disabled-search=\"\">302</span></span></div></div></div></section>"
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a0e8448000000003701c08a",
+          "url": "https://www.xiaohongshu.com/explore/6a0e8448000000003701c08a",
+          "item_type": "note",
+          "title": "DeepSeek，不如你把这个人直接招了吧！",
+          "author": "量子位",
+          "author_url": "https://www.xiaohongshu.com/user/profile/6228870a0000000010008e88",
+          "published_label": "05-21",
+          "content_text": "DeepSeek，不如你把这个人直接招了吧！\n量子位\n05-21\n447",
+          "media_kind": "image",
+          "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160350/d77ee9986fe79668a832a41318bfeea5/spectrum/1040g0k0320drrt6l6k005oh8gs5413k8mh10nqg!nc_n_webp_mw_1",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608160350/d77ee9986fe79668a832a41318bfeea5/spectrum/1040g0k0320drrt6l6k005oh8gs5413k8mh10nqg!nc_n_webp_mw_1",
+              "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160350/d77ee9986fe79668a832a41318bfeea5/spectrum/1040g0k0320drrt6l6k005oh8gs5413k8mh10nqg!nc_n_webp_mw_1"
+            },
+            {
+              "kind": "avatar",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/622887c64f1c23567e524733.jpg?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            }
+          ],
+          "metrics": {
+            "likes": 447,
+            "metric_source": "XHS authenticated visible search card",
+            "observed_at": "2026-08-15T19:54:47.882Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "search-card",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "DeepSeek，不如你把这个人直接招了吧！\n量子位\n05-21\n447",
+            "visible_dom": "<section data-v-eafabe54=\"\" data-v-150c1cde=\"\" class=\"note-item\" data-width=\"880\" data-height=\"1172\" data-index=\"21\" data-note-id=\"6a0e8448000000003701c08a\" style=\"--3e2ba87e: 288.3333333333333px; --17f24bf1: 16px; --54f74eca: blur(42.5px); transform: translate(0px, 2956.02px);\"><div data-v-eafabe54=\"\"><a data-v-eafabe54=\"\" href=\"/explore/6a0e8448000000003701c08a\" style=\"display: none;\"></a><a data-v-eafabe54=\"\" class=\"cover mask ld\" target=\"_self\" href=\"/search_result/6a0e8448000000003701c08a?xsec_token=REDACTED&amp;xsec_source=REDACTED\" style=\"height: 384px;\"><img data-v-eafabe54=\"\" src=\"https://sns-webpic-qc.xhscdn.com/202608160350/d77ee9986fe79668a832a41318bfeea5/spectrum/1040g0k0320drrt6l6k005oh8gs5413k8mh10nqg!nc_n_webp_mw_1\" fetchpriority=\"auto\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" style=\"width: 100%; height: 100%; object-fit: cover;\"><!----><!----><!----></a><div data-v-eafabe54=\"\" class=\"footer\"><!----><a data-v-eafabe54=\"\" href=\"/search_result/6a0e8448000000003701c08a?xsec_token=REDACTED&amp;xsec_source=REDACTED\" target=\"_self\" class=\"title\"><span data-v-51ec0135=\"\" data-v-eafabe54=\"\">DeepSeek，不如你把这个人直接招了吧！</span></a><div data-v-212156b8=\"\" data-v-150c1cde=\"\" data-v-eafabe54-s=\"\" class=\"card-bottom-wrapper\"><a data-v-212156b8=\"\" href=\"/user/profile/6228870a0000000010008e88?channel_type=web_search_result_notes&amp;parent_page_channel_type=web_profile_board&amp;xsec_token=REDACTED&amp;xsec_source=REDACTED\" class=\"author\" target=\"_blank\"><img data-v-212156b8=\"\" src=\"https://sns-avatar-qc.xhscdn.com/avatar/622887c64f1c23567e524733.jpg?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip\" fetchpriority=\"auto\" width=\"24\" height=\"24\" crossorigin=\"anonymous\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" class=\"author-avatar\"><div data-v-212156b8=\"\" class=\"name-time-wrapper\"><div data-v-212156b8=\"\" class=\"name\">量子位</div><div data-v-212156b8=\"\" class=\"time\">05-21</div></div></a><span data-v-752eec30=\"\" data-v-212156b8=\"\" class=\"like-wrapper like-active\"><span data-v-752eec30=\"\" class=\"like-lottie\" style=\"width: 16px; height: 16px;\"></span><svg data-v-55b36ac6=\"\" data-v-752eec30=\"\" class=\"reds-icon like-icon\" width=\"16\" height=\"16\"><use data-v-55b36ac6=\"\" xlink:href=\"#like\"></use></svg><span data-v-752eec30=\"\" class=\"count\" selected-disabled-search=\"\">447</span></span></div></div></div></section>"
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a7e99f700000000320326d3",
+          "url": "https://www.xiaohongshu.com/explore/6a7e99f700000000320326d3",
+          "item_type": "note",
+          "title": "dsh到底在解决什么问题？",
+          "author": "404",
+          "author_url": "https://www.xiaohongshu.com/user/profile/60840788000000000101e546",
+          "published_label": "1天前",
+          "content_text": "dsh到底在解决什么问题？\n404\n1天前\n539",
+          "media_kind": "image",
+          "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160354/88c16a082ce047cd823d1cde9a5ffcd5/1040g008323ra9664n0005o440u40bpa6otu95fo!nc_n_webp_prv_1",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608160354/88c16a082ce047cd823d1cde9a5ffcd5/1040g008323ra9664n0005o440u40bpa6otu95fo!nc_n_webp_prv_1",
+              "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160354/88c16a082ce047cd823d1cde9a5ffcd5/1040g008323ra9664n0005o440u40bpa6otu95fo!nc_n_webp_prv_1"
+            },
+            {
+              "kind": "avatar",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo322l7lt0mmu005o440u40bpa6snemp6o?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            }
+          ],
+          "metrics": {
+            "likes": 539,
+            "metric_source": "XHS authenticated visible search card",
+            "observed_at": "2026-08-15T19:54:47.882Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "search-card",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "dsh到底在解决什么问题？\n404\n1天前\n539",
+            "visible_dom": "<section data-v-eafabe54=\"\" data-v-150c1cde=\"\" class=\"note-item\" data-width=\"1208\" data-height=\"1608\" data-index=\"22\" data-note-id=\"6a7e99f700000000320326d3\" style=\"--3e2ba87e: 288.3333333333333px; --17f24bf1: 16px; --54f74eca: blur(42.5px); transform: translate(312.333px, 3022.02px);\"><div data-v-eafabe54=\"\"><a data-v-eafabe54=\"\" href=\"/explore/6a7e99f700000000320326d3\" style=\"display: none;\"></a><a data-v-eafabe54=\"\" class=\"cover mask\" target=\"_self\" href=\"/search_result/6a7e99f700000000320326d3?xsec_token=REDACTED&amp;xsec_source=REDACTED\" style=\"height: 384px;\"><img data-v-eafabe54=\"\" src=\"https://sns-webpic-qc.xhscdn.com/202608160354/88c16a082ce047cd823d1cde9a5ffcd5/1040g008323ra9664n0005o440u40bpa6otu95fo!nc_n_webp_prv_1\" fetchpriority=\"auto\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" style=\"width: 100%; height: 100%; object-fit: cover;\"><span data-v-eafabe54=\"\" class=\"play-icon\"><svg data-v-55b36ac6=\"\" data-v-eafabe54=\"\" class=\"reds-icon\" width=\"11\" height=\"11\"><use data-v-55b36ac6=\"\" xlink:href=\"#play-s\"></use></svg></span><!----><!----></a><div data-v-eafabe54=\"\" class=\"footer\"><!----><a data-v-eafabe54=\"\" href=\"/search_result/6a7e99f700000000320326d3?xsec_token=REDACTED&amp;xsec_source=REDACTED\" target=\"_self\" class=\"title\"><span data-v-51ec0135=\"\" data-v-eafabe54=\"\">dsh到底在解决什么问题？</span></a><div data-v-212156b8=\"\" data-v-150c1cde=\"\" data-v-eafabe54-s=\"\" class=\"card-bottom-wrapper\"><a data-v-212156b8=\"\" href=\"/user/profile/60840788000000000101e546?channel_type=web_search_result_notes&amp;parent_page_channel_type=web_profile_board&amp;xsec_token=REDACTED&amp;xsec_source=REDACTED\" class=\"author\" target=\"_blank\"><img data-v-212156b8=\"\" src=\"https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo322l7lt0mmu005o440u40bpa6snemp6o?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip\" fetchpriority=\"auto\" width=\"24\" height=\"24\" crossorigin=\"anonymous\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" class=\"author-avatar\"><div data-v-212156b8=\"\" class=\"name-time-wrapper\"><div data-v-212156b8=\"\" class=\"name\">404</div><div data-v-212156b8=\"\" class=\"time\">1天前</div></div></a><span data-v-752eec30=\"\" data-v-212156b8=\"\" class=\"like-wrapper like-active\"><span data-v-752eec30=\"\" class=\"like-lottie\" style=\"width: 16px; height: 16px;\"></span><svg data-v-55b36ac6=\"\" data-v-752eec30=\"\" class=\"reds-icon like-icon\" width=\"16\" height=\"16\"><use data-v-55b36ac6=\"\" xlink:href=\"#like\"></use></svg><span data-v-752eec30=\"\" class=\"count\" selected-disabled-search=\"\">539</span></span></div></div></div></section>"
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a7e65b30000000032032cf6",
+          "url": "https://www.xiaohongshu.com/explore/6a7e65b30000000032032cf6",
+          "item_type": "note",
+          "title": "手机上安装运行Deepseek harness",
+          "author": "Jemini",
+          "author_url": "https://www.xiaohongshu.com/user/profile/5f62e0580000000001009e1e",
+          "published_label": "1天前",
+          "content_text": "手机上安装运行Deepseek harness\nJemini\n1天前\n157",
+          "media_kind": "image",
+          "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160354/5662f476274928486222b4f8d86263f9/1040g2sg323r3ujal72k05nr2s1c097gu63gr9v8!nc_n_webp_prv_1",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608160354/5662f476274928486222b4f8d86263f9/1040g2sg323r3ujal72k05nr2s1c097gu63gr9v8!nc_n_webp_prv_1",
+              "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160354/5662f476274928486222b4f8d86263f9/1040g2sg323r3ujal72k05nr2s1c097gu63gr9v8!nc_n_webp_prv_1"
+            },
+            {
+              "kind": "avatar",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31nu3u7bal0605nr2s1c097gui10qi3o?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            }
+          ],
+          "metrics": {
+            "likes": 157,
+            "metric_source": "XHS authenticated visible search card",
+            "observed_at": "2026-08-15T19:54:47.882Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "search-card",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "手机上安装运行Deepseek harness\nJemini\n1天前\n157",
+            "visible_dom": "<section data-v-eafabe54=\"\" data-v-150c1cde=\"\" class=\"note-item\" data-width=\"1440\" data-height=\"1920\" data-index=\"23\" data-note-id=\"6a7e65b30000000032032cf6\" style=\"--3e2ba87e: 288.3333333333333px; --17f24bf1: 16px; --54f74eca: blur(42.5px); transform: translate(624.667px, 3307.81px);\"><div data-v-eafabe54=\"\"><a data-v-eafabe54=\"\" href=\"/explore/6a7e65b30000000032032cf6\" style=\"display: none;\"></a><a data-v-eafabe54=\"\" class=\"cover mask\" target=\"_self\" href=\"/search_result/6a7e65b30000000032032cf6?xsec_token=REDACTED&amp;xsec_source=REDACTED\" style=\"height: 384px;\"><img data-v-eafabe54=\"\" src=\"https://sns-webpic-qc.xhscdn.com/202608160354/5662f476274928486222b4f8d86263f9/1040g2sg323r3ujal72k05nr2s1c097gu63gr9v8!nc_n_webp_prv_1\" fetchpriority=\"auto\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" style=\"width: 100%; height: 100%; object-fit: cover;\"><span data-v-eafabe54=\"\" class=\"play-icon\"><svg data-v-55b36ac6=\"\" data-v-eafabe54=\"\" class=\"reds-icon\" width=\"11\" height=\"11\"><use data-v-55b36ac6=\"\" xlink:href=\"#play-s\"></use></svg></span><!----><!----></a><div data-v-eafabe54=\"\" class=\"footer\"><!----><a data-v-eafabe54=\"\" href=\"/search_result/6a7e65b30000000032032cf6?xsec_token=REDACTED&amp;xsec_source=REDACTED\" target=\"_self\" class=\"title\"><span data-v-51ec0135=\"\" data-v-eafabe54=\"\">手机上安装运行Deepseek harness</span></a><div data-v-212156b8=\"\" data-v-150c1cde=\"\" data-v-eafabe54-s=\"\" class=\"card-bottom-wrapper\"><a data-v-212156b8=\"\" href=\"/user/profile/5f62e0580000000001009e1e?channel_type=web_search_result_notes&amp;parent_page_channel_type=web_profile_board&amp;xsec_token=REDACTED&amp;xsec_source=REDACTED\" class=\"author\" target=\"_blank\"><img data-v-212156b8=\"\" src=\"https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31nu3u7bal0605nr2s1c097gui10qi3o?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip\" fetchpriority=\"auto\" width=\"24\" height=\"24\" crossorigin=\"anonymous\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" class=\"author-avatar\"><div data-v-212156b8=\"\" class=\"name-time-wrapper\"><div data-v-212156b8=\"\" class=\"name\">Jemini</div><div data-v-212156b8=\"\" class=\"time\">1天前</div></div></a><span data-v-752eec30=\"\" data-v-212156b8=\"\" class=\"like-wrapper like-active\"><span data-v-752eec30=\"\" class=\"like-lottie\" style=\"width: 16px; height: 16px;\"></span><svg data-v-55b36ac6=\"\" data-v-752eec30=\"\" class=\"reds-icon like-icon\" width=\"16\" height=\"16\"><use data-v-55b36ac6=\"\" xlink:href=\"#like\"></use></svg><span data-v-752eec30=\"\" class=\"count\" selected-disabled-search=\"\">157</span></span></div></div></div></section>"
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a7de59b0000000028008dbd",
+          "url": "https://www.xiaohongshu.com/explore/6a7de59b0000000028008dbd",
+          "item_type": "note",
+          "title": "dsh创造github历史了，收集目前较火dsh插件",
+          "author": "豆奶与程序猫",
+          "author_url": "https://www.xiaohongshu.com/user/profile/619b77a300000000210204d1",
+          "published_label": "1天前",
+          "content_text": "dsh创造github历史了，收集目前较火dsh插件\n豆奶与程序猫\n1天前\n106",
+          "media_kind": "image",
+          "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160354/8356a77267e1e0de42023c5b77abe21e/1040g2sg323qkbu6m7ujg5ocreuhoc16hojahk9g!nc_n_webp_prv_1",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608160354/8356a77267e1e0de42023c5b77abe21e/1040g2sg323qkbu6m7ujg5ocreuhoc16hojahk9g!nc_n_webp_prv_1",
+              "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160354/8356a77267e1e0de42023c5b77abe21e/1040g2sg323qkbu6m7ujg5ocreuhoc16hojahk9g!nc_n_webp_prv_1"
+            },
+            {
+              "kind": "avatar",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31b1ftnpsna505ocreuhoc16hq1sd5vg?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            }
+          ],
+          "metrics": {
+            "likes": 106,
+            "metric_source": "XHS authenticated visible search card",
+            "observed_at": "2026-08-15T19:54:47.882Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "search-card",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "dsh创造github历史了，收集目前较火dsh插件\n豆奶与程序猫\n1天前\n106",
+            "visible_dom": "<section data-v-eafabe54=\"\" data-v-150c1cde=\"\" class=\"note-item\" data-width=\"1920\" data-height=\"1440\" data-index=\"24\" data-note-id=\"6a7de59b0000000028008dbd\" style=\"--3e2ba87e: 288.3333333333333px; --17f24bf1: 16px; --54f74eca: blur(42.5px); transform: translate(0px, 3455.22px);\"><div data-v-eafabe54=\"\"><a data-v-eafabe54=\"\" href=\"/explore/6a7de59b0000000028008dbd\" style=\"display: none;\"></a><a data-v-eafabe54=\"\" class=\"cover mask\" target=\"_self\" href=\"/search_result/6a7de59b0000000028008dbd?xsec_token=REDACTED&amp;xsec_source=REDACTED\" style=\"height: 216px;\"><img data-v-eafabe54=\"\" src=\"https://sns-webpic-qc.xhscdn.com/202608160354/8356a77267e1e0de42023c5b77abe21e/1040g2sg323qkbu6m7ujg5ocreuhoc16hojahk9g!nc_n_webp_prv_1\" fetchpriority=\"auto\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" style=\"width: 100%; height: 100%; object-fit: cover;\"><!----><!----><!----></a><div data-v-eafabe54=\"\" class=\"footer\"><!----><a data-v-eafabe54=\"\" href=\"/search_result/6a7de59b0000000028008dbd?xsec_token=REDACTED&amp;xsec_source=REDACTED\" target=\"_self\" class=\"title\"><span data-v-51ec0135=\"\" data-v-eafabe54=\"\">dsh创造github历史了，收集目前较火dsh插件</span></a><div data-v-212156b8=\"\" data-v-150c1cde=\"\" data-v-eafabe54-s=\"\" class=\"card-bottom-wrapper\"><a data-v-212156b8=\"\" href=\"/user/profile/619b77a300000000210204d1?channel_type=web_search_result_notes&amp;parent_page_channel_type=web_profile_board&amp;xsec_token=REDACTED&amp;xsec_source=REDACTED\" class=\"author\" target=\"_blank\"><img data-v-212156b8=\"\" src=\"https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31b1ftnpsna505ocreuhoc16hq1sd5vg?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip\" fetchpriority=\"auto\" width=\"24\" height=\"24\" crossorigin=\"anonymous\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" class=\"author-avatar\"><div data-v-212156b8=\"\" class=\"name-time-wrapper\"><div data-v-212156b8=\"\" class=\"name\">豆奶与程序猫</div><div data-v-212156b8=\"\" class=\"time\">1天前</div></div></a><span data-v-752eec30=\"\" data-v-212156b8=\"\" class=\"like-wrapper like-active\"><span data-v-752eec30=\"\" class=\"like-lottie\" style=\"width: 16px; height: 16px;\"></span><svg data-v-55b36ac6=\"\" data-v-752eec30=\"\" class=\"reds-icon like-icon\" width=\"16\" height=\"16\"><use data-v-55b36ac6=\"\" xlink:href=\"#like\"></use></svg><span data-v-752eec30=\"\" class=\"count\" selected-disabled-search=\"\">106</span></span></div></div></div></section>"
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a7ec5be000000000502afa1",
+          "url": "https://www.xiaohongshu.com/explore/6a7ec5be000000000502afa1",
+          "item_type": "note",
+          "title": "怒花500，DeepSeek Harness普通人要不要试",
+          "author": "南鸢",
+          "author_url": "https://www.xiaohongshu.com/user/profile/68bed904000000001901aaf2",
+          "published_label": "1天前",
+          "content_text": "怒花500，DeepSeek Harness普通人要不要试\n南鸢\n1天前\n12",
+          "media_kind": "image",
+          "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160354/286f57be0493523da7b6d3ea145c0687/spectrum/1040g0k0323rfgvpqn0005q5ur426bani0s2vmo0!nc_n_webp_mw_1",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608160354/286f57be0493523da7b6d3ea145c0687/spectrum/1040g0k0323rfgvpqn0005q5ur426bani0s2vmo0!nc_n_webp_mw_1",
+              "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160354/286f57be0493523da7b6d3ea145c0687/spectrum/1040g0k0323rfgvpqn0005q5ur426bani0s2vmo0!nc_n_webp_mw_1"
+            },
+            {
+              "kind": "avatar",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31uikfdcj2gdg5q5ur426bani9j36t0o?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            }
+          ],
+          "metrics": {
+            "likes": 12,
+            "metric_source": "XHS authenticated visible search card",
+            "observed_at": "2026-08-15T19:54:47.882Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "search-card",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "怒花500，DeepSeek Harness普通人要不要试\n南鸢\n1天前\n12",
+            "visible_dom": "<section data-v-eafabe54=\"\" data-v-150c1cde=\"\" class=\"note-item\" data-width=\"1080\" data-height=\"1440\" data-index=\"25\" data-note-id=\"6a7ec5be000000000502afa1\" style=\"--3e2ba87e: 288.3333333333333px; --17f24bf1: 16px; --54f74eca: blur(42.5px); transform: translate(312.333px, 3501.62px);\"><div data-v-eafabe54=\"\"><a data-v-eafabe54=\"\" href=\"/explore/6a7ec5be000000000502afa1\" style=\"display: none;\"></a><a data-v-eafabe54=\"\" class=\"cover mask ld\" target=\"_self\" href=\"/search_result/6a7ec5be000000000502afa1?xsec_token=REDACTED&amp;xsec_source=REDACTED\" style=\"height: 384px;\"><img data-v-eafabe54=\"\" src=\"https://sns-webpic-qc.xhscdn.com/202608160354/286f57be0493523da7b6d3ea145c0687/spectrum/1040g0k0323rfgvpqn0005q5ur426bani0s2vmo0!nc_n_webp_mw_1\" fetchpriority=\"auto\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" style=\"width: 100%; height: 100%; object-fit: cover;\"><!----><!----><!----></a><div data-v-eafabe54=\"\" class=\"footer\"><!----><a data-v-eafabe54=\"\" href=\"/search_result/6a7ec5be000000000502afa1?xsec_token=REDACTED&amp;xsec_source=REDACTED\" target=\"_self\" class=\"title\"><span data-v-51ec0135=\"\" data-v-eafabe54=\"\">怒花500，DeepSeek Harness普通人要不要试</span></a><div data-v-212156b8=\"\" data-v-150c1cde=\"\" data-v-eafabe54-s=\"\" class=\"card-bottom-wrapper\"><a data-v-212156b8=\"\" href=\"/user/profile/68bed904000000001901aaf2?channel_type=web_search_result_notes&amp;parent_page_channel_type=web_profile_board&amp;xsec_token=REDACTED&amp;xsec_source=REDACTED\" class=\"author\" target=\"_blank\"><img data-v-212156b8=\"\" src=\"https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31uikfdcj2gdg5q5ur426bani9j36t0o?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip\" fetchpriority=\"auto\" width=\"24\" height=\"24\" crossorigin=\"anonymous\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" class=\"author-avatar\"><div data-v-212156b8=\"\" class=\"name-time-wrapper\"><div data-v-212156b8=\"\" class=\"name\">南鸢</div><div data-v-212156b8=\"\" class=\"time\">1天前</div></div></a><span data-v-752eec30=\"\" data-v-212156b8=\"\" class=\"like-wrapper like-active\"><span data-v-752eec30=\"\" class=\"like-lottie\" style=\"width: 16px; height: 16px;\"></span><svg data-v-55b36ac6=\"\" data-v-752eec30=\"\" class=\"reds-icon like-icon\" width=\"16\" height=\"16\"><use data-v-55b36ac6=\"\" xlink:href=\"#like\"></use></svg><span data-v-752eec30=\"\" class=\"count\" selected-disabled-search=\"\">12</span></span></div></div></div></section>"
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a7ea5430000000006006ce6",
+          "url": "https://www.xiaohongshu.com/explore/6a7ea5430000000006006ce6",
+          "item_type": "note",
+          "title": "7分钟解读DeepSeek Harness",
+          "author": "晓辉博士",
+          "author_url": "https://www.xiaohongshu.com/user/profile/5ede282b00000000010014bf",
+          "published_label": "1天前",
+          "content_text": "7分钟解读DeepSeek Harness\n晓辉博士\n1天前\n1888",
+          "media_kind": "image",
+          "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160354/5950ce84a39222d8d501d95df99f55c1/1040g2sg323rbpq54nk005nmu50lg855v0970j90!nc_n_webp_prv_1",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608160354/5950ce84a39222d8d501d95df99f55c1/1040g2sg323rbpq54nk005nmu50lg855v0970j90!nc_n_webp_prv_1",
+              "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160354/5950ce84a39222d8d501d95df99f55c1/1040g2sg323rbpq54nk005nmu50lg855v0970j90!nc_n_webp_prv_1"
+            },
+            {
+              "kind": "avatar",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo311md9jeuni005nmu50lg855vmrhi640?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            }
+          ],
+          "metrics": {
+            "likes": 1888,
+            "metric_source": "XHS authenticated visible search card",
+            "observed_at": "2026-08-15T19:54:47.882Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "search-card",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "7分钟解读DeepSeek Harness\n晓辉博士\n1天前\n1888",
+            "visible_dom": "<section data-v-eafabe54=\"\" data-v-150c1cde=\"\" class=\"note-item\" data-width=\"1440\" data-height=\"1920\" data-index=\"26\" data-note-id=\"6a7ea5430000000006006ce6\" style=\"--3e2ba87e: 288.3333333333333px; --17f24bf1: 16px; --54f74eca: blur(42.5px); transform: translate(0px, 3786.42px);\"><div data-v-eafabe54=\"\"><a data-v-eafabe54=\"\" href=\"/explore/6a7ea5430000000006006ce6\" style=\"display: none;\"></a><a data-v-eafabe54=\"\" class=\"cover mask\" target=\"_self\" href=\"/search_result/6a7ea5430000000006006ce6?xsec_token=REDACTED&amp;xsec_source=REDACTED\" style=\"height: 384px;\"><img data-v-eafabe54=\"\" src=\"https://sns-webpic-qc.xhscdn.com/202608160354/5950ce84a39222d8d501d95df99f55c1/1040g2sg323rbpq54nk005nmu50lg855v0970j90!nc_n_webp_prv_1\" fetchpriority=\"auto\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" style=\"width: 100%; height: 100%; object-fit: cover;\"><span data-v-eafabe54=\"\" class=\"play-icon\"><svg data-v-55b36ac6=\"\" data-v-eafabe54=\"\" class=\"reds-icon\" width=\"11\" height=\"11\"><use data-v-55b36ac6=\"\" xlink:href=\"#play-s\"></use></svg></span><!----><!----></a><div data-v-eafabe54=\"\" class=\"footer\"><!----><a data-v-eafabe54=\"\" href=\"/search_result/6a7ea5430000000006006ce6?xsec_token=REDACTED&amp;xsec_source=REDACTED\" target=\"_self\" class=\"title\"><span data-v-51ec0135=\"\" data-v-eafabe54=\"\">7分钟解读DeepSeek Harness</span></a><div data-v-212156b8=\"\" data-v-150c1cde=\"\" data-v-eafabe54-s=\"\" class=\"card-bottom-wrapper\"><a data-v-212156b8=\"\" href=\"/user/profile/5ede282b00000000010014bf?channel_type=web_search_result_notes&amp;parent_page_channel_type=web_profile_board&amp;xsec_token=REDACTED&amp;xsec_source=REDACTED\" class=\"author\" target=\"_blank\"><img data-v-212156b8=\"\" src=\"https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo311md9jeuni005nmu50lg855vmrhi640?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip\" fetchpriority=\"auto\" width=\"24\" height=\"24\" crossorigin=\"anonymous\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" class=\"author-avatar\"><div data-v-212156b8=\"\" class=\"name-time-wrapper\"><div data-v-212156b8=\"\" class=\"name\">晓辉博士</div><div data-v-212156b8=\"\" class=\"time\">1天前</div></div></a><span data-v-752eec30=\"\" data-v-212156b8=\"\" class=\"like-wrapper like-active\"><span data-v-752eec30=\"\" class=\"like-lottie\" style=\"width: 16px; height: 16px;\"></span><svg data-v-55b36ac6=\"\" data-v-752eec30=\"\" class=\"reds-icon like-icon\" width=\"16\" height=\"16\"><use data-v-55b36ac6=\"\" xlink:href=\"#like\"></use></svg><span data-v-752eec30=\"\" class=\"count\" selected-disabled-search=\"\">1888</span></span></div></div></div></section>"
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a7fe0840000000022032f5e",
+          "url": "https://www.xiaohongshu.com/explore/6a7fe0840000000022032f5e",
+          "item_type": "note",
+          "title": "QQ Bot，支持接入 DeepSeek Harness",
+          "author": "QQ",
+          "author_url": "https://www.xiaohongshu.com/user/profile/5f23e19c00000000010015b2",
+          "published_label": "昨天 11:44",
+          "content_text": "QQ Bot，支持接入 DeepSeek Harness\nQQ\n昨天 11:44\n160",
+          "media_kind": "image",
+          "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160354/419458fccc11c345126ec091e635937a/notes_pre_post/1040g3k0323seips8na105np3s6e085ditgmdpb8!nc_n_webp_mw_1",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608160354/419458fccc11c345126ec091e635937a/notes_pre_post/1040g3k0323seips8na105np3s6e085ditgmdpb8!nc_n_webp_mw_1",
+              "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160354/419458fccc11c345126ec091e635937a/notes_pre_post/1040g3k0323seips8na105np3s6e085ditgmdpb8!nc_n_webp_mw_1"
+            },
+            {
+              "kind": "avatar",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/63a162782ec6b60001ec7350.jpg?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            }
+          ],
+          "metrics": {
+            "likes": 160,
+            "metric_source": "XHS authenticated visible search card",
+            "observed_at": "2026-08-15T19:54:47.882Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "search-card",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "QQ Bot，支持接入 DeepSeek Harness\nQQ\n昨天 11:44\n160",
+            "visible_dom": "<section data-v-eafabe54=\"\" data-v-150c1cde=\"\" class=\"note-item\" data-width=\"720\" data-height=\"951\" data-index=\"27\" data-note-id=\"6a7fe0840000000022032f5e\" style=\"--3e2ba87e: 288.3333333333333px; --17f24bf1: 16px; --54f74eca: blur(42.5px); transform: translate(624.667px, 3787.41px);\"><div data-v-eafabe54=\"\"><a data-v-eafabe54=\"\" href=\"/explore/6a7fe0840000000022032f5e\" style=\"display: none;\"></a><a data-v-eafabe54=\"\" class=\"cover mask ld\" target=\"_self\" href=\"/search_result/6a7fe0840000000022032f5e?xsec_token=REDACTED&amp;xsec_source=REDACTED\" style=\"height: 381px;\"><img data-v-eafabe54=\"\" src=\"https://sns-webpic-qc.xhscdn.com/202608160354/419458fccc11c345126ec091e635937a/notes_pre_post/1040g3k0323seips8na105np3s6e085ditgmdpb8!nc_n_webp_mw_1\" fetchpriority=\"auto\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" style=\"width: 100%; height: 100%; object-fit: cover;\"><!----><!----><!----></a><div data-v-eafabe54=\"\" class=\"footer\"><!----><a data-v-eafabe54=\"\" href=\"/search_result/6a7fe0840000000022032f5e?xsec_token=REDACTED&amp;xsec_source=REDACTED\" target=\"_self\" class=\"title\"><span data-v-51ec0135=\"\" data-v-eafabe54=\"\">QQ Bot，支持接入 DeepSeek Harness</span></a><div data-v-212156b8=\"\" data-v-150c1cde=\"\" data-v-eafabe54-s=\"\" class=\"card-bottom-wrapper\"><a data-v-212156b8=\"\" href=\"/user/profile/5f23e19c00000000010015b2?channel_type=web_search_result_notes&amp;parent_page_channel_type=web_profile_board&amp;xsec_token=REDACTED&amp;xsec_source=REDACTED\" class=\"author\" target=\"_blank\"><img data-v-212156b8=\"\" src=\"https://sns-avatar-qc.xhscdn.com/avatar/63a162782ec6b60001ec7350.jpg?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip\" fetchpriority=\"auto\" width=\"24\" height=\"24\" crossorigin=\"anonymous\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" class=\"author-avatar\"><div data-v-212156b8=\"\" class=\"name-time-wrapper\"><div data-v-212156b8=\"\" class=\"name\">QQ</div><div data-v-212156b8=\"\" class=\"time\">昨天 11:44</div></div></a><span data-v-752eec30=\"\" data-v-212156b8=\"\" class=\"like-wrapper like-active\"><span data-v-752eec30=\"\" class=\"like-lottie\" style=\"width: 16px; height: 16px;\"></span><svg data-v-55b36ac6=\"\" data-v-752eec30=\"\" class=\"reds-icon like-icon\" width=\"16\" height=\"16\"><use data-v-55b36ac6=\"\" xlink:href=\"#like\"></use></svg><span data-v-752eec30=\"\" class=\"count\" selected-disabled-search=\"\">160</span></span></div></div></div></section>"
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a7e7cf20000000035016891",
+          "url": "https://www.xiaohongshu.com/explore/6a7e7cf20000000035016891",
+          "item_type": "note",
+          "title": "DeepSeek Harness 把一切做成 Plugin",
+          "author": "犹在镜中",
+          "author_url": "https://www.xiaohongshu.com/user/profile/6393024c0000000026013845",
+          "published_label": "1天前",
+          "content_text": "DeepSeek Harness 把一切做成 Plugin\n犹在镜中\n1天前\n5",
+          "media_kind": "image",
+          "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160354/75afe574307b2442caa9565c5369d0e8/spectrum/1040g34o323r6umkc72805osj0969ie252v9oh2o!nc_n_webp_prv_1",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608160354/75afe574307b2442caa9565c5369d0e8/spectrum/1040g34o323r6umkc72805osj0969ie252v9oh2o!nc_n_webp_prv_1",
+              "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160354/75afe574307b2442caa9565c5369d0e8/spectrum/1040g34o323r6umkc72805osj0969ie252v9oh2o!nc_n_webp_prv_1"
+            },
+            {
+              "kind": "avatar",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/6393024c0000000026013845.jpg?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            }
+          ],
+          "metrics": {
+            "likes": 5,
+            "metric_source": "XHS authenticated visible search card",
+            "observed_at": "2026-08-15T19:54:47.882Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "search-card",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "DeepSeek Harness 把一切做成 Plugin\n犹在镜中\n1天前\n5",
+            "visible_dom": "<section data-v-eafabe54=\"\" data-v-150c1cde=\"\" class=\"note-item\" data-width=\"1080\" data-height=\"1440\" data-index=\"29\" data-note-id=\"6a7e7cf20000000035016891\" style=\"--3e2ba87e: 288.3333333333333px; --17f24bf1: 16px; --54f74eca: blur(42.5px); transform: translate(624.667px, 4264.02px);\"><div data-v-eafabe54=\"\"><a data-v-eafabe54=\"\" href=\"/explore/6a7e7cf20000000035016891\" style=\"display: none;\"></a><a data-v-eafabe54=\"\" class=\"cover mask\" target=\"_self\" href=\"/search_result/6a7e7cf20000000035016891?xsec_token=REDACTED&amp;xsec_source=REDACTED\" style=\"height: 384px;\"><img data-v-eafabe54=\"\" src=\"https://sns-webpic-qc.xhscdn.com/202608160354/75afe574307b2442caa9565c5369d0e8/spectrum/1040g34o323r6umkc72805osj0969ie252v9oh2o!nc_n_webp_prv_1\" fetchpriority=\"auto\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" style=\"width: 100%; height: 100%; object-fit: cover;\"><!----><!----><!----></a><div data-v-eafabe54=\"\" class=\"footer\"><!----><a data-v-eafabe54=\"\" href=\"/search_result/6a7e7cf20000000035016891?xsec_token=REDACTED&amp;xsec_source=REDACTED\" target=\"_self\" class=\"title\"><span data-v-51ec0135=\"\" data-v-eafabe54=\"\">DeepSeek Harness 把一切做成 Plugin</span></a><div data-v-212156b8=\"\" data-v-150c1cde=\"\" data-v-eafabe54-s=\"\" class=\"card-bottom-wrapper\"><a data-v-212156b8=\"\" href=\"/user/profile/6393024c0000000026013845?channel_type=web_search_result_notes&amp;parent_page_channel_type=web_profile_board&amp;xsec_token=REDACTED&amp;xsec_source=REDACTED\" class=\"author\" target=\"_blank\"><img data-v-212156b8=\"\" src=\"https://sns-avatar-qc.xhscdn.com/avatar/6393024c0000000026013845.jpg?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip\" fetchpriority=\"auto\" width=\"24\" height=\"24\" crossorigin=\"anonymous\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" class=\"author-avatar\"><div data-v-212156b8=\"\" class=\"name-time-wrapper\"><div data-v-212156b8=\"\" class=\"name\">犹在镜中</div><div data-v-212156b8=\"\" class=\"time\">1天前</div></div></a><span data-v-752eec30=\"\" data-v-212156b8=\"\" class=\"like-wrapper like-active\"><span data-v-752eec30=\"\" class=\"like-lottie\" style=\"width: 16px; height: 16px;\"></span><svg data-v-55b36ac6=\"\" data-v-752eec30=\"\" class=\"reds-icon like-icon\" width=\"16\" height=\"16\"><use data-v-55b36ac6=\"\" xlink:href=\"#like\"></use></svg><span data-v-752eec30=\"\" class=\"count\" selected-disabled-search=\"\">5</span></span></div></div></div></section>"
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a7eb71f0000000021021060",
+          "url": "https://www.xiaohongshu.com/explore/6a7eb71f0000000021021060",
+          "item_type": "note",
+          "title": "DeepSeek Harness很好，但不适合大多数人",
+          "author": "吃太饱骑士",
+          "author_url": "https://www.xiaohongshu.com/user/profile/61225e83000000000101e60e",
+          "published_label": "1天前",
+          "content_text": "DeepSeek Harness很好，但不适合大多数人\n吃太饱骑士\n1天前\n72",
+          "media_kind": "image",
+          "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160354/99d49e71695481c00c5bc6a288654c77/spectrum/1040g34o323rdscfj0m105o92bq1gbpgeqra89pg!nc_n_webp_prv_1",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608160354/99d49e71695481c00c5bc6a288654c77/spectrum/1040g34o323rdscfj0m105o92bq1gbpgeqra89pg!nc_n_webp_prv_1",
+              "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160354/99d49e71695481c00c5bc6a288654c77/spectrum/1040g34o323rdscfj0m105o92bq1gbpgeqra89pg!nc_n_webp_prv_1"
+            },
+            {
+              "kind": "avatar",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo3238f9esm026g5o92bq1gbpgebb62r70?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            }
+          ],
+          "metrics": {
+            "likes": 72,
+            "metric_source": "XHS authenticated visible search card",
+            "observed_at": "2026-08-15T19:54:47.882Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "search-card",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "DeepSeek Harness很好，但不适合大多数人\n吃太饱骑士\n1天前\n72",
+            "visible_dom": "<section data-v-eafabe54=\"\" data-v-150c1cde=\"\" class=\"note-item\" data-width=\"1440\" data-height=\"1920\" data-index=\"30\" data-note-id=\"6a7eb71f0000000021021060\" style=\"--3e2ba87e: 288.3333333333333px; --17f24bf1: 16px; --54f74eca: blur(42.5px); transform: translate(0px, 4266.02px);\"><div data-v-eafabe54=\"\"><a data-v-eafabe54=\"\" href=\"/explore/6a7eb71f0000000021021060\" style=\"display: none;\"></a><a data-v-eafabe54=\"\" class=\"cover mask\" target=\"_self\" href=\"/search_result/6a7eb71f0000000021021060?xsec_token=REDACTED&amp;xsec_source=REDACTED\" style=\"height: 384px;\"><img data-v-eafabe54=\"\" src=\"https://sns-webpic-qc.xhscdn.com/202608160354/99d49e71695481c00c5bc6a288654c77/spectrum/1040g34o323rdscfj0m105o92bq1gbpgeqra89pg!nc_n_webp_prv_1\" fetchpriority=\"auto\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" style=\"width: 100%; height: 100%; object-fit: cover;\"><!----><!----><!----></a><div data-v-eafabe54=\"\" class=\"footer\"><!----><a data-v-eafabe54=\"\" href=\"/search_result/6a7eb71f0000000021021060?xsec_token=REDACTED&amp;xsec_source=REDACTED\" target=\"_self\" class=\"title\"><span data-v-51ec0135=\"\" data-v-eafabe54=\"\">DeepSeek Harness很好，但不适合大多数人</span></a><div data-v-212156b8=\"\" data-v-150c1cde=\"\" data-v-eafabe54-s=\"\" class=\"card-bottom-wrapper\"><a data-v-212156b8=\"\" href=\"/user/profile/61225e83000000000101e60e?channel_type=web_search_result_notes&amp;parent_page_channel_type=web_profile_board&amp;xsec_token=REDACTED&amp;xsec_source=REDACTED\" class=\"author\" target=\"_blank\"><img data-v-212156b8=\"\" src=\"https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo3238f9esm026g5o92bq1gbpgebb62r70?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip\" fetchpriority=\"auto\" width=\"24\" height=\"24\" crossorigin=\"anonymous\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" class=\"author-avatar\"><div data-v-212156b8=\"\" class=\"name-time-wrapper\"><div data-v-212156b8=\"\" class=\"name\">吃太饱骑士</div><div data-v-212156b8=\"\" class=\"time\">1天前</div></div></a><span data-v-752eec30=\"\" data-v-212156b8=\"\" class=\"like-wrapper like-active\"><span data-v-752eec30=\"\" class=\"like-lottie\" style=\"width: 16px; height: 16px;\"></span><svg data-v-55b36ac6=\"\" data-v-752eec30=\"\" class=\"reds-icon like-icon\" width=\"16\" height=\"16\"><use data-v-55b36ac6=\"\" xlink:href=\"#like\"></use></svg><span data-v-752eec30=\"\" class=\"count\" selected-disabled-search=\"\">72</span></span></div></div></div></section>"
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a7dd42b000000002403fa6e",
+          "url": "https://www.xiaohongshu.com/explore/6a7dd42b000000002403fa6e",
+          "item_type": "note",
+          "title": "v4 pro+harness，距离fable5 仍有一定差距",
+          "author": "Amor.",
+          "author_url": "https://www.xiaohongshu.com/user/profile/646372af00000000100251b5",
+          "published_label": "1天前",
+          "content_text": "v4 pro+harness，距离fable5 仍有一定差距\nAmor.\n1天前\n285",
+          "media_kind": "image",
+          "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160354/dca25a2fb30ba11f7578a5a926636d66/1040g008323qfnkocna4g5p33eank4kdlpm7i5dg!nc_n_webp_prv_1",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608160354/dca25a2fb30ba11f7578a5a926636d66/1040g008323qfnkocna4g5p33eank4kdlpm7i5dg!nc_n_webp_prv_1",
+              "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160354/dca25a2fb30ba11f7578a5a926636d66/1040g008323qfnkocna4g5p33eank4kdlpm7i5dg!nc_n_webp_prv_1"
+            },
+            {
+              "kind": "avatar",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31s8jfnqa626g5p33eank4kdl15tta0g?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            }
+          ],
+          "metrics": {
+            "likes": 285,
+            "metric_source": "XHS authenticated visible search card",
+            "observed_at": "2026-08-15T19:54:47.882Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "search-card",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "v4 pro+harness，距离fable5 仍有一定差距\nAmor.\n1天前\n285",
+            "visible_dom": "<section data-v-eafabe54=\"\" data-v-150c1cde=\"\" class=\"note-item\" data-width=\"1920\" data-height=\"1440\" data-index=\"31\" data-note-id=\"6a7dd42b000000002403fa6e\" style=\"--3e2ba87e: 288.3333333333333px; --17f24bf1: 16px; --54f74eca: blur(42.5px); transform: translate(312.333px, 4300.82px);\"><div data-v-eafabe54=\"\"><a data-v-eafabe54=\"\" href=\"/explore/6a7dd42b000000002403fa6e\" style=\"display: none;\"></a><a data-v-eafabe54=\"\" class=\"cover mask\" target=\"_self\" href=\"/search_result/6a7dd42b000000002403fa6e?xsec_token=REDACTED&amp;xsec_source=REDACTED\" style=\"height: 216px;\"><img data-v-eafabe54=\"\" src=\"https://sns-webpic-qc.xhscdn.com/202608160354/dca25a2fb30ba11f7578a5a926636d66/1040g008323qfnkocna4g5p33eank4kdlpm7i5dg!nc_n_webp_prv_1\" fetchpriority=\"auto\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" style=\"width: 100%; height: 100%; object-fit: cover;\"><!----><!----><!----></a><div data-v-eafabe54=\"\" class=\"footer\"><!----><a data-v-eafabe54=\"\" href=\"/search_result/6a7dd42b000000002403fa6e?xsec_token=REDACTED&amp;xsec_source=REDACTED\" target=\"_self\" class=\"title\"><span data-v-51ec0135=\"\" data-v-eafabe54=\"\">v4 pro+harness，距离fable5 仍有一定差距</span></a><div data-v-212156b8=\"\" data-v-150c1cde=\"\" data-v-eafabe54-s=\"\" class=\"card-bottom-wrapper\"><a data-v-212156b8=\"\" href=\"/user/profile/646372af00000000100251b5?channel_type=web_search_result_notes&amp;parent_page_channel_type=web_profile_board&amp;xsec_token=REDACTED&amp;xsec_source=REDACTED\" class=\"author\" target=\"_blank\"><img data-v-212156b8=\"\" src=\"https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31s8jfnqa626g5p33eank4kdl15tta0g?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip\" fetchpriority=\"auto\" width=\"24\" height=\"24\" crossorigin=\"anonymous\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" class=\"author-avatar\"><div data-v-212156b8=\"\" class=\"name-time-wrapper\"><div data-v-212156b8=\"\" class=\"name\">Amor.</div><div data-v-212156b8=\"\" class=\"time\">1天前</div></div></a><span data-v-752eec30=\"\" data-v-212156b8=\"\" class=\"like-wrapper like-active\"><span data-v-752eec30=\"\" class=\"like-lottie\" style=\"width: 16px; height: 16px;\"></span><svg data-v-55b36ac6=\"\" data-v-752eec30=\"\" class=\"reds-icon like-icon\" width=\"16\" height=\"16\"><use data-v-55b36ac6=\"\" xlink:href=\"#like\"></use></svg><span data-v-752eec30=\"\" class=\"count\" selected-disabled-search=\"\">285</span></span></div></div></div></section>"
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a7fb6be000000003400ca9e",
+          "url": "https://www.xiaohongshu.com/explore/6a7fb6be000000003400ca9e",
+          "item_type": "note",
+          "title": "Deepseek harness配置，远程及插件管理",
+          "author": "好多鱼",
+          "author_url": "https://www.xiaohongshu.com/user/profile/565a4f1382718c7c17da8f68",
+          "published_label": "昨天 14:54",
+          "content_text": "Deepseek harness配置，远程及插件管理\n好多鱼\n昨天 14:54\n17",
+          "media_kind": "image",
+          "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160354/6f732fb392fa6b7435dfe6a1c37aa0f8/notes_pre_post/1040g3k8323sd1oo0nu0g43fkdk7h73r8vita32g!nc_n_webp_prv_1",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608160354/6f732fb392fa6b7435dfe6a1c37aa0f8/notes_pre_post/1040g3k8323sd1oo0nu0g43fkdk7h73r8vita32g!nc_n_webp_prv_1",
+              "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160354/6f732fb392fa6b7435dfe6a1c37aa0f8/notes_pre_post/1040g3k8323sd1oo0nu0g43fkdk7h73r8vita32g!nc_n_webp_prv_1"
+            },
+            {
+              "kind": "avatar",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/60b79f06b1f5ae00014ffe3e.jpg?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            }
+          ],
+          "metrics": {
+            "likes": 17,
+            "metric_source": "XHS authenticated visible search card",
+            "observed_at": "2026-08-15T19:54:47.882Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "search-card",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "Deepseek harness配置，远程及插件管理\n好多鱼\n昨天 14:54\n17",
+            "visible_dom": "<section data-v-eafabe54=\"\" data-v-150c1cde=\"\" class=\"note-item\" data-width=\"1856\" data-height=\"2160\" data-index=\"32\" data-note-id=\"6a7fb6be000000003400ca9e\" style=\"--3e2ba87e: 288.3333333333333px; --17f24bf1: 16px; --54f74eca: blur(42.5px); transform: translate(312.333px, 4632.02px);\"><div data-v-eafabe54=\"\"><a data-v-eafabe54=\"\" href=\"/explore/6a7fb6be000000003400ca9e\" style=\"display: none;\"></a><a data-v-eafabe54=\"\" class=\"cover mask\" target=\"_self\" href=\"/search_result/6a7fb6be000000003400ca9e?xsec_token=REDACTED&amp;xsec_source=REDACTED\" style=\"height: 336px;\"><img data-v-eafabe54=\"\" src=\"https://sns-webpic-qc.xhscdn.com/202608160354/6f732fb392fa6b7435dfe6a1c37aa0f8/notes_pre_post/1040g3k8323sd1oo0nu0g43fkdk7h73r8vita32g!nc_n_webp_prv_1\" fetchpriority=\"auto\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" style=\"width: 100%; height: 100%; object-fit: cover;\"><!----><!----><!----></a><div data-v-eafabe54=\"\" class=\"footer\"><!----><a data-v-eafabe54=\"\" href=\"/search_result/6a7fb6be000000003400ca9e?xsec_token=REDACTED&amp;xsec_source=REDACTED\" target=\"_self\" class=\"title\"><span data-v-51ec0135=\"\" data-v-eafabe54=\"\">Deepseek harness配置，远程及插件管理</span></a><div data-v-212156b8=\"\" data-v-150c1cde=\"\" data-v-eafabe54-s=\"\" class=\"card-bottom-wrapper\"><a data-v-212156b8=\"\" href=\"/user/profile/565a4f1382718c7c17da8f68?channel_type=web_search_result_notes&amp;parent_page_channel_type=web_profile_board&amp;xsec_token=REDACTED&amp;xsec_source=REDACTED\" class=\"author\" target=\"_blank\"><img data-v-212156b8=\"\" src=\"https://sns-avatar-qc.xhscdn.com/avatar/60b79f06b1f5ae00014ffe3e.jpg?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip\" fetchpriority=\"auto\" width=\"24\" height=\"24\" crossorigin=\"anonymous\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" class=\"author-avatar\"><div data-v-212156b8=\"\" class=\"name-time-wrapper\"><div data-v-212156b8=\"\" class=\"name\">好多鱼</div><div data-v-212156b8=\"\" class=\"time\">昨天 14:54</div></div></a><span data-v-752eec30=\"\" data-v-212156b8=\"\" class=\"like-wrapper like-active\"><span data-v-752eec30=\"\" class=\"like-lottie\" style=\"width: 16px; height: 16px;\"></span><svg data-v-55b36ac6=\"\" data-v-752eec30=\"\" class=\"reds-icon like-icon\" width=\"16\" height=\"16\"><use data-v-55b36ac6=\"\" xlink:href=\"#like\"></use></svg><span data-v-752eec30=\"\" class=\"count\" selected-disabled-search=\"\">17</span></span></div></div></div></section>"
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a802dfb0000000022011f68",
+          "url": "https://www.xiaohongshu.com/explore/6a802dfb0000000022011f68",
+          "item_type": "note",
+          "title": "DeepSeek Harness保姆级上手｜安装避坑",
+          "author": "做不来设计",
+          "author_url": "https://www.xiaohongshu.com/user/profile/5f5d75730000000001006b6e",
+          "published_label": "昨天 22:11",
+          "content_text": "DeepSeek Harness保姆级上手｜安装避坑\n做不来设计\n昨天 22:11\n21",
+          "media_kind": "image",
+          "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160354/1fa92a5ff606b3848d328e9bc30f6107/spectrum/1040g34o323srovnj0m105nqtelpg8qre8rt43b0!nc_n_webp_prv_1",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608160354/1fa92a5ff606b3848d328e9bc30f6107/spectrum/1040g34o323srovnj0m105nqtelpg8qre8rt43b0!nc_n_webp_prv_1",
+              "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160354/1fa92a5ff606b3848d328e9bc30f6107/spectrum/1040g34o323srovnj0m105nqtelpg8qre8rt43b0!nc_n_webp_prv_1"
+            },
+            {
+              "kind": "avatar",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31j6ljrrs2a5g5nqtelpg8qrecgk4s6o?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            }
+          ],
+          "metrics": {
+            "likes": 21,
+            "metric_source": "XHS authenticated visible search card",
+            "observed_at": "2026-08-15T19:54:47.882Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "search-card",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "DeepSeek Harness保姆级上手｜安装避坑\n做不来设计\n昨天 22:11\n21",
+            "visible_dom": "<section data-v-eafabe54=\"\" data-v-150c1cde=\"\" class=\"note-item\" data-width=\"1440\" data-height=\"1920\" data-index=\"33\" data-note-id=\"6a802dfb0000000022011f68\" style=\"--3e2ba87e: 288.3333333333333px; --17f24bf1: 16px; --54f74eca: blur(42.5px); transform: translate(624.667px, 4743.62px);\"><div data-v-eafabe54=\"\"><a data-v-eafabe54=\"\" href=\"/explore/6a802dfb0000000022011f68\" style=\"display: none;\"></a><a data-v-eafabe54=\"\" class=\"cover mask\" target=\"_self\" href=\"/search_result/6a802dfb0000000022011f68?xsec_token=REDACTED&amp;xsec_source=REDACTED\" style=\"height: 384px;\"><img data-v-eafabe54=\"\" src=\"https://sns-webpic-qc.xhscdn.com/202608160354/1fa92a5ff606b3848d328e9bc30f6107/spectrum/1040g34o323srovnj0m105nqtelpg8qre8rt43b0!nc_n_webp_prv_1\" fetchpriority=\"auto\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" style=\"width: 100%; height: 100%; object-fit: cover;\"><span data-v-eafabe54=\"\" class=\"play-icon\"><svg data-v-55b36ac6=\"\" data-v-eafabe54=\"\" class=\"reds-icon\" width=\"11\" height=\"11\"><use data-v-55b36ac6=\"\" xlink:href=\"#play-s\"></use></svg></span><!----><!----></a><div data-v-eafabe54=\"\" class=\"footer\"><!----><a data-v-eafabe54=\"\" href=\"/search_result/6a802dfb0000000022011f68?xsec_token=REDACTED&amp;xsec_source=REDACTED\" target=\"_self\" class=\"title\"><span data-v-51ec0135=\"\" data-v-eafabe54=\"\">DeepSeek Harness保姆级上手｜安装避坑</span></a><div data-v-212156b8=\"\" data-v-150c1cde=\"\" data-v-eafabe54-s=\"\" class=\"card-bottom-wrapper\"><a data-v-212156b8=\"\" href=\"/user/profile/5f5d75730000000001006b6e?channel_type=web_search_result_notes&amp;parent_page_channel_type=web_profile_board&amp;xsec_token=REDACTED&amp;xsec_source=REDACTED\" class=\"author\" target=\"_blank\"><img data-v-212156b8=\"\" src=\"https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31j6ljrrs2a5g5nqtelpg8qrecgk4s6o?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip\" fetchpriority=\"auto\" width=\"24\" height=\"24\" crossorigin=\"anonymous\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" class=\"author-avatar\"><div data-v-212156b8=\"\" class=\"name-time-wrapper\"><div data-v-212156b8=\"\" class=\"name\">做不来设计</div><div data-v-212156b8=\"\" class=\"time\">昨天 22:11</div></div></a><span data-v-752eec30=\"\" data-v-212156b8=\"\" class=\"like-wrapper like-active\"><span data-v-752eec30=\"\" class=\"like-lottie\" style=\"width: 16px; height: 16px;\"></span><svg data-v-55b36ac6=\"\" data-v-752eec30=\"\" class=\"reds-icon like-icon\" width=\"16\" height=\"16\"><use data-v-55b36ac6=\"\" xlink:href=\"#like\"></use></svg><span data-v-752eec30=\"\" class=\"count\" selected-disabled-search=\"\">21</span></span></div></div></div></section>"
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a7d424a000000002402dfaa",
+          "url": "https://www.xiaohongshu.com/explore/6a7d424a000000002402dfaa",
+          "item_type": "note",
+          "title": "DeepSeek最适合的Harness来了",
+          "author": "量子位",
+          "author_url": "https://www.xiaohongshu.com/user/profile/6228870a0000000010008e88",
+          "published_label": "2天前",
+          "content_text": "DeepSeek最适合的Harness来了\n量子位\n2天前\n404",
+          "media_kind": "image",
+          "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160354/ac8056f8a70edbefeb53295976652402/spectrum/1040g34o323q0g2630m105oh8gs5413k83b3h93o!nc_n_webp_prv_1",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608160354/ac8056f8a70edbefeb53295976652402/spectrum/1040g34o323q0g2630m105oh8gs5413k83b3h93o!nc_n_webp_prv_1",
+              "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160354/ac8056f8a70edbefeb53295976652402/spectrum/1040g34o323q0g2630m105oh8gs5413k83b3h93o!nc_n_webp_prv_1"
+            },
+            {
+              "kind": "avatar",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/622887c64f1c23567e524733.jpg?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            }
+          ],
+          "metrics": {
+            "likes": 404,
+            "metric_source": "XHS authenticated visible search card",
+            "observed_at": "2026-08-15T19:54:47.882Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "search-card",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "DeepSeek最适合的Harness来了\n量子位\n2天前\n404",
+            "visible_dom": "<section data-v-eafabe54=\"\" data-v-150c1cde=\"\" class=\"note-item\" data-width=\"1440\" data-height=\"1920\" data-index=\"34\" data-note-id=\"6a7d424a000000002402dfaa\" style=\"--3e2ba87e: 288.3333333333333px; --17f24bf1: 16px; --54f74eca: blur(42.5px); transform: translate(0px, 4765.23px);\"><div data-v-eafabe54=\"\"><a data-v-eafabe54=\"\" href=\"/explore/6a7d424a000000002402dfaa\" style=\"display: none;\"></a><a data-v-eafabe54=\"\" class=\"cover mask\" target=\"_self\" href=\"/search_result/6a7d424a000000002402dfaa?xsec_token=REDACTED&amp;xsec_source=REDACTED\" style=\"height: 384px;\"><img data-v-eafabe54=\"\" src=\"https://sns-webpic-qc.xhscdn.com/202608160354/ac8056f8a70edbefeb53295976652402/spectrum/1040g34o323q0g2630m105oh8gs5413k83b3h93o!nc_n_webp_prv_1\" fetchpriority=\"auto\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" style=\"width: 100%; height: 100%; object-fit: cover;\"><span data-v-eafabe54=\"\" class=\"play-icon\"><svg data-v-55b36ac6=\"\" data-v-eafabe54=\"\" class=\"reds-icon\" width=\"11\" height=\"11\"><use data-v-55b36ac6=\"\" xlink:href=\"#play-s\"></use></svg></span><!----><!----></a><div data-v-eafabe54=\"\" class=\"footer\"><!----><a data-v-eafabe54=\"\" href=\"/search_result/6a7d424a000000002402dfaa?xsec_token=REDACTED&amp;xsec_source=REDACTED\" target=\"_self\" class=\"title\"><span data-v-51ec0135=\"\" data-v-eafabe54=\"\">DeepSeek最适合的Harness来了</span></a><div data-v-212156b8=\"\" data-v-150c1cde=\"\" data-v-eafabe54-s=\"\" class=\"card-bottom-wrapper\"><a data-v-212156b8=\"\" href=\"/user/profile/6228870a0000000010008e88?channel_type=web_search_result_notes&amp;parent_page_channel_type=web_profile_board&amp;xsec_token=REDACTED&amp;xsec_source=REDACTED\" class=\"author\" target=\"_blank\"><img data-v-212156b8=\"\" src=\"https://sns-avatar-qc.xhscdn.com/avatar/622887c64f1c23567e524733.jpg?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip\" fetchpriority=\"auto\" width=\"24\" height=\"24\" crossorigin=\"anonymous\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" class=\"author-avatar\"><div data-v-212156b8=\"\" class=\"name-time-wrapper\"><div data-v-212156b8=\"\" class=\"name\">量子位</div><div data-v-212156b8=\"\" class=\"time\">2天前</div></div></a><span data-v-752eec30=\"\" data-v-212156b8=\"\" class=\"like-wrapper like-active\"><span data-v-752eec30=\"\" class=\"like-lottie\" style=\"width: 16px; height: 16px;\"></span><svg data-v-55b36ac6=\"\" data-v-752eec30=\"\" class=\"reds-icon like-icon\" width=\"16\" height=\"16\"><use data-v-55b36ac6=\"\" xlink:href=\"#like\"></use></svg><span data-v-752eec30=\"\" class=\"count\" selected-disabled-search=\"\">404</span></span></div></div></div></section>"
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a803c0700000000060042a8",
+          "url": "https://www.xiaohongshu.com/explore/6a803c0700000000060042a8",
+          "item_type": "note",
+          "title": "DeepSeek Harness MCP 可视化插件",
+          "author": "等一个狗子",
+          "author_url": "https://www.xiaohongshu.com/user/profile/61a9f7d90000000010006517",
+          "published_label": "昨天 18:14",
+          "content_text": "DeepSeek Harness MCP 可视化插件\n等一个狗子\n昨天 18:14\n7",
+          "media_kind": "image",
+          "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160354/6c39b201994a0aa7361dd200e67d6e92/spectrum/1040g34o323stfd9372105od9uvck0p8n6dkomk0!nc_n_webp_prv_1",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608160354/6c39b201994a0aa7361dd200e67d6e92/spectrum/1040g34o323stfd9372105od9uvck0p8n6dkomk0!nc_n_webp_prv_1",
+              "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160354/6c39b201994a0aa7361dd200e67d6e92/spectrum/1040g34o323stfd9372105od9uvck0p8n6dkomk0!nc_n_webp_prv_1"
+            },
+            {
+              "kind": "avatar",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo30v6isds15e6g5od9uvck0p8nhph04m0?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            }
+          ],
+          "metrics": {
+            "likes": 7,
+            "metric_source": "XHS authenticated visible search card",
+            "observed_at": "2026-08-15T19:54:47.882Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "search-card",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "DeepSeek Harness MCP 可视化插件\n等一个狗子\n昨天 18:14\n7",
+            "visible_dom": "<section data-v-eafabe54=\"\" data-v-150c1cde=\"\" class=\"note-item\" data-width=\"1592\" data-height=\"1194\" data-index=\"36\" data-note-id=\"6a803c0700000000060042a8\" style=\"--3e2ba87e: 288.3333333333333px; --17f24bf1: 16px; --54f74eca: blur(42.5px); transform: translate(624.667px, 5242.82px);\"><div data-v-eafabe54=\"\"><a data-v-eafabe54=\"\" href=\"/explore/6a803c0700000000060042a8\" style=\"display: none;\"></a><a data-v-eafabe54=\"\" class=\"cover mask\" target=\"_self\" href=\"/search_result/6a803c0700000000060042a8?xsec_token=REDACTED&amp;xsec_source=REDACTED\" style=\"height: 216px;\"><img data-v-eafabe54=\"\" src=\"https://sns-webpic-qc.xhscdn.com/202608160354/6c39b201994a0aa7361dd200e67d6e92/spectrum/1040g34o323stfd9372105od9uvck0p8n6dkomk0!nc_n_webp_prv_1\" fetchpriority=\"auto\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" style=\"width: 100%; height: 100%; object-fit: cover;\"><!----><!----><!----></a><div data-v-eafabe54=\"\" class=\"footer\"><!----><a data-v-eafabe54=\"\" href=\"/search_result/6a803c0700000000060042a8?xsec_token=REDACTED&amp;xsec_source=REDACTED\" target=\"_self\" class=\"title\"><span data-v-51ec0135=\"\" data-v-eafabe54=\"\">DeepSeek Harness MCP 可视化插件</span></a><div data-v-212156b8=\"\" data-v-150c1cde=\"\" data-v-eafabe54-s=\"\" class=\"card-bottom-wrapper\"><a data-v-212156b8=\"\" href=\"/user/profile/61a9f7d90000000010006517?channel_type=web_search_result_notes&amp;parent_page_channel_type=web_profile_board&amp;xsec_token=REDACTED&amp;xsec_source=REDACTED\" class=\"author\" target=\"_blank\"><img data-v-212156b8=\"\" src=\"https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo30v6isds15e6g5od9uvck0p8nhph04m0?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip\" fetchpriority=\"auto\" width=\"24\" height=\"24\" crossorigin=\"anonymous\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" class=\"author-avatar\"><div data-v-212156b8=\"\" class=\"name-time-wrapper\"><div data-v-212156b8=\"\" class=\"name\">等一个狗子</div><div data-v-212156b8=\"\" class=\"time\">昨天 18:14</div></div></a><span data-v-752eec30=\"\" data-v-212156b8=\"\" class=\"like-wrapper like-active\"><span data-v-752eec30=\"\" class=\"like-lottie\" style=\"width: 16px; height: 16px;\"></span><svg data-v-55b36ac6=\"\" data-v-752eec30=\"\" class=\"reds-icon like-icon\" width=\"16\" height=\"16\"><use data-v-55b36ac6=\"\" xlink:href=\"#like\"></use></svg><span data-v-752eec30=\"\" class=\"count\" selected-disabled-search=\"\">7</span></span></div></div></div></section>"
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a7f0dcb000000002803163c",
+          "url": "https://www.xiaohongshu.com/explore/6a7f0dcb000000002803163c",
+          "item_type": "note",
+          "title": "DeepSeek Harness 插件装不上？",
+          "author": "dirtyfancy",
+          "author_url": "https://www.xiaohongshu.com/user/profile/6785aae1000000000601c6a4",
+          "published_label": "1天前",
+          "content_text": "DeepSeek Harness 插件装不上？\ndirtyfancy\n1天前\n赞",
+          "media_kind": "image",
+          "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160354/a4dc68907f88d5e1723d2d28c7fdcaf7/spectrum/1040g0k0323rojfrun4005ps5lbghjhl4sjocii8!nc_n_webp_prv_1",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608160354/a4dc68907f88d5e1723d2d28c7fdcaf7/spectrum/1040g0k0323rojfrun4005ps5lbghjhl4sjocii8!nc_n_webp_prv_1",
+              "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160354/a4dc68907f88d5e1723d2d28c7fdcaf7/spectrum/1040g0k0323rojfrun4005ps5lbghjhl4sjocii8!nc_n_webp_prv_1"
+            },
+            {
+              "kind": "avatar",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/seller_6a6b3d9d25b873000103e1ce?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            }
+          ],
+          "metrics": {
+            "likes": null,
+            "metric_source": "XHS authenticated visible search card",
+            "observed_at": "2026-08-15T19:54:47.882Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "search-card",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "DeepSeek Harness 插件装不上？\ndirtyfancy\n1天前\n赞",
+            "visible_dom": "<section data-v-eafabe54=\"\" data-v-150c1cde=\"\" class=\"note-item\" data-width=\"1080\" data-height=\"1440\" data-index=\"37\" data-note-id=\"6a7f0dcb000000002803163c\" style=\"--3e2ba87e: 288.3333333333333px; --17f24bf1: 16px; --54f74eca: blur(42.5px); transform: translate(0px, 5244.83px);\"><div data-v-eafabe54=\"\"><a data-v-eafabe54=\"\" href=\"/explore/6a7f0dcb000000002803163c\" style=\"display: none;\"></a><a data-v-eafabe54=\"\" class=\"cover mask\" target=\"_self\" href=\"/search_result/6a7f0dcb000000002803163c?xsec_token=REDACTED&amp;xsec_source=REDACTED\" style=\"height: 384px;\"><img data-v-eafabe54=\"\" src=\"https://sns-webpic-qc.xhscdn.com/202608160354/a4dc68907f88d5e1723d2d28c7fdcaf7/spectrum/1040g0k0323rojfrun4005ps5lbghjhl4sjocii8!nc_n_webp_prv_1\" fetchpriority=\"auto\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" style=\"width: 100%; height: 100%; object-fit: cover;\"><!----><!----><!----></a><div data-v-eafabe54=\"\" class=\"footer\"><!----><a data-v-eafabe54=\"\" href=\"/search_result/6a7f0dcb000000002803163c?xsec_token=REDACTED&amp;xsec_source=REDACTED\" target=\"_self\" class=\"title\"><span data-v-51ec0135=\"\" data-v-eafabe54=\"\">DeepSeek Harness 插件装不上？</span></a><div data-v-212156b8=\"\" data-v-150c1cde=\"\" data-v-eafabe54-s=\"\" class=\"card-bottom-wrapper\"><a data-v-212156b8=\"\" href=\"/user/profile/6785aae1000000000601c6a4?channel_type=web_search_result_notes&amp;parent_page_channel_type=web_profile_board&amp;xsec_token=REDACTED&amp;xsec_source=REDACTED\" class=\"author\" target=\"_blank\"><img data-v-212156b8=\"\" src=\"https://sns-avatar-qc.xhscdn.com/avatar/seller_6a6b3d9d25b873000103e1ce?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip\" fetchpriority=\"auto\" width=\"24\" height=\"24\" crossorigin=\"anonymous\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" class=\"author-avatar\"><div data-v-212156b8=\"\" class=\"name-time-wrapper\"><div data-v-212156b8=\"\" class=\"name\">dirtyfancy</div><div data-v-212156b8=\"\" class=\"time\">1天前</div></div></a><span data-v-752eec30=\"\" data-v-212156b8=\"\" class=\"like-wrapper like-active\"><span data-v-752eec30=\"\" class=\"like-lottie\" style=\"width: 16px; height: 16px;\"></span><svg data-v-55b36ac6=\"\" data-v-752eec30=\"\" class=\"reds-icon like-icon\" width=\"16\" height=\"16\"><use data-v-55b36ac6=\"\" xlink:href=\"#like\"></use></svg><span data-v-752eec30=\"\" class=\"count\" selected-disabled-search=\"\">赞</span></span></div></div></div></section>"
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a806aca000000002403e2cd",
+          "url": "https://www.xiaohongshu.com/explore/6a806aca000000002403e2cd",
+          "item_type": "note",
+          "title": "DeepSeek Harness上手指南，普通人也能玩",
+          "author": "汐汐的数码日记",
+          "author_url": "https://www.xiaohongshu.com/user/profile/64b95974000000001403afbd",
+          "published_label": "昨天 21:34",
+          "content_text": "DeepSeek Harness上手指南，普通人也能玩\n汐汐的数码日记\n昨天 21:34\n38",
+          "media_kind": "image",
+          "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160354/e1c333b970f05bd0c81b8415ecb17f66/1040g008323stkg067k305p5pb5q57bttkr7ri8o!nc_n_webp_prv_1",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608160354/e1c333b970f05bd0c81b8415ecb17f66/1040g008323stkg067k305p5pb5q57bttkr7ri8o!nc_n_webp_prv_1",
+              "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160354/e1c333b970f05bd0c81b8415ecb17f66/1040g008323stkg067k305p5pb5q57bttkr7ri8o!nc_n_webp_prv_1"
+            },
+            {
+              "kind": "avatar",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31sdi75095m605p5pb5q57bttl30p728?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            }
+          ],
+          "metrics": {
+            "likes": 38,
+            "metric_source": "XHS authenticated visible search card",
+            "observed_at": "2026-08-15T19:54:47.882Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "search-card",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "DeepSeek Harness上手指南，普通人也能玩\n汐汐的数码日记\n昨天 21:34\n38",
+            "visible_dom": "<section data-v-eafabe54=\"\" data-v-150c1cde=\"\" class=\"note-item\" data-width=\"1086\" data-height=\"1448\" data-index=\"39\" data-note-id=\"6a806aca000000002403e2cd\" style=\"--3e2ba87e: 288.3333333333333px; --17f24bf1: 16px; --54f74eca: blur(42.5px); transform: translate(624.667px, 5554.42px);\"><div data-v-eafabe54=\"\"><a data-v-eafabe54=\"\" href=\"/explore/6a806aca000000002403e2cd\" style=\"display: none;\"></a><a data-v-eafabe54=\"\" class=\"cover mask\" target=\"_self\" href=\"/search_result/6a806aca000000002403e2cd?xsec_token=REDACTED&amp;xsec_source=REDACTED\" style=\"height: 384px;\"><img data-v-eafabe54=\"\" src=\"https://sns-webpic-qc.xhscdn.com/202608160354/e1c333b970f05bd0c81b8415ecb17f66/1040g008323stkg067k305p5pb5q57bttkr7ri8o!nc_n_webp_prv_1\" fetchpriority=\"auto\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" style=\"width: 100%; height: 100%; object-fit: cover;\"><span data-v-eafabe54=\"\" class=\"play-icon\"><svg data-v-55b36ac6=\"\" data-v-eafabe54=\"\" class=\"reds-icon\" width=\"11\" height=\"11\"><use data-v-55b36ac6=\"\" xlink:href=\"#play-s\"></use></svg></span><!----><!----></a><div data-v-eafabe54=\"\" class=\"footer\"><!----><a data-v-eafabe54=\"\" href=\"/search_result/6a806aca000000002403e2cd?xsec_token=REDACTED&amp;xsec_source=REDACTED\" target=\"_self\" class=\"title\"><span data-v-51ec0135=\"\" data-v-eafabe54=\"\">DeepSeek Harness上手指南，普通人也能玩</span></a><div data-v-212156b8=\"\" data-v-150c1cde=\"\" data-v-eafabe54-s=\"\" class=\"card-bottom-wrapper\"><a data-v-212156b8=\"\" href=\"/user/profile/64b95974000000001403afbd?channel_type=web_search_result_notes&amp;parent_page_channel_type=web_profile_board&amp;xsec_token=REDACTED&amp;xsec_source=REDACTED\" class=\"author\" target=\"_blank\"><img data-v-212156b8=\"\" src=\"https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31sdi75095m605p5pb5q57bttl30p728?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip\" fetchpriority=\"auto\" width=\"24\" height=\"24\" crossorigin=\"anonymous\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" class=\"author-avatar\"><div data-v-212156b8=\"\" class=\"name-time-wrapper\"><div data-v-212156b8=\"\" class=\"name\">汐汐的数码日记</div><div data-v-212156b8=\"\" class=\"time\">昨天 21:34</div></div></a><span data-v-752eec30=\"\" data-v-212156b8=\"\" class=\"like-wrapper like-active\"><span data-v-752eec30=\"\" class=\"like-lottie\" style=\"width: 16px; height: 16px;\"></span><svg data-v-55b36ac6=\"\" data-v-752eec30=\"\" class=\"reds-icon like-icon\" width=\"16\" height=\"16\"><use data-v-55b36ac6=\"\" xlink:href=\"#like\"></use></svg><span data-v-752eec30=\"\" class=\"count\" selected-disabled-search=\"\">38</span></span></div></div></div></section>"
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a3913ae000000000f01dea3",
+          "url": "https://www.xiaohongshu.com/explore/6a3913ae000000000f01dea3",
+          "item_type": "note",
+          "title": "DeepSeek大佬贴小广告，究竟发生了什么",
+          "author": "大厂显微镜",
+          "author_url": "https://www.xiaohongshu.com/user/profile/55b5c206e4b1cf19f937778e",
+          "published_label": "06-23",
+          "content_text": "DeepSeek大佬贴小广告，究竟发生了什么\n大厂显微镜\n06-23\n80",
+          "media_kind": "image",
+          "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160354/790ad08edbbf518bcc45508151e2f436/1040g008321ncg7nv6u30410jd710ctse12sqnro!nc_n_webp_prv_1",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608160354/790ad08edbbf518bcc45508151e2f436/1040g008321ncg7nv6u30410jd710ctse12sqnro!nc_n_webp_prv_1",
+              "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160354/790ad08edbbf518bcc45508151e2f436/1040g008321ncg7nv6u30410jd710ctse12sqnro!nc_n_webp_prv_1"
+            },
+            {
+              "kind": "avatar",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31gggv8284200410jd710ctse7l6c9lo?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            }
+          ],
+          "metrics": {
+            "likes": 80,
+            "metric_source": "XHS authenticated visible search card",
+            "observed_at": "2026-08-15T19:54:47.882Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "search-card",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "DeepSeek大佬贴小广告，究竟发生了什么\n大厂显微镜\n06-23\n80",
+            "visible_dom": "<section data-v-eafabe54=\"\" data-v-150c1cde=\"\" class=\"note-item\" data-width=\"1440\" data-height=\"1920\" data-index=\"40\" data-note-id=\"6a3913ae000000000f01dea3\" style=\"--3e2ba87e: 288.3333333333333px; --17f24bf1: 16px; --54f74eca: blur(42.5px); transform: translate(312.333px, 5603.23px);\"><div data-v-eafabe54=\"\"><a data-v-eafabe54=\"\" href=\"/explore/6a3913ae000000000f01dea3\" style=\"display: none;\"></a><a data-v-eafabe54=\"\" class=\"cover mask\" target=\"_self\" href=\"/search_result/6a3913ae000000000f01dea3?xsec_token=REDACTED&amp;xsec_source=REDACTED\" style=\"height: 384px;\"><img data-v-eafabe54=\"\" src=\"https://sns-webpic-qc.xhscdn.com/202608160354/790ad08edbbf518bcc45508151e2f436/1040g008321ncg7nv6u30410jd710ctse12sqnro!nc_n_webp_prv_1\" fetchpriority=\"auto\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" style=\"width: 100%; height: 100%; object-fit: cover;\"><span data-v-eafabe54=\"\" class=\"play-icon\"><svg data-v-55b36ac6=\"\" data-v-eafabe54=\"\" class=\"reds-icon\" width=\"11\" height=\"11\"><use data-v-55b36ac6=\"\" xlink:href=\"#play-s\"></use></svg></span><!----><!----></a><div data-v-eafabe54=\"\" class=\"footer\"><!----><a data-v-eafabe54=\"\" href=\"/search_result/6a3913ae000000000f01dea3?xsec_token=REDACTED&amp;xsec_source=REDACTED\" target=\"_self\" class=\"title\"><span data-v-51ec0135=\"\" data-v-eafabe54=\"\">DeepSeek大佬贴小广告，究竟发生了什么</span></a><div data-v-212156b8=\"\" data-v-150c1cde=\"\" data-v-eafabe54-s=\"\" class=\"card-bottom-wrapper\"><a data-v-212156b8=\"\" href=\"/user/profile/55b5c206e4b1cf19f937778e?channel_type=web_search_result_notes&amp;parent_page_channel_type=web_profile_board&amp;xsec_token=REDACTED&amp;xsec_source=REDACTED\" class=\"author\" target=\"_blank\"><img data-v-212156b8=\"\" src=\"https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31gggv8284200410jd710ctse7l6c9lo?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip\" fetchpriority=\"auto\" width=\"24\" height=\"24\" crossorigin=\"anonymous\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" class=\"author-avatar\"><div data-v-212156b8=\"\" class=\"name-time-wrapper\"><div data-v-212156b8=\"\" class=\"name\">大厂显微镜</div><div data-v-212156b8=\"\" class=\"time\">06-23</div></div></a><span data-v-752eec30=\"\" data-v-212156b8=\"\" class=\"like-wrapper like-active\"><span data-v-752eec30=\"\" class=\"like-lottie\" style=\"width: 16px; height: 16px;\"></span><svg data-v-55b36ac6=\"\" data-v-752eec30=\"\" class=\"reds-icon like-icon\" width=\"16\" height=\"16\"><use data-v-55b36ac6=\"\" xlink:href=\"#like\"></use></svg><span data-v-752eec30=\"\" class=\"count\" selected-disabled-search=\"\">80</span></span></div></div></div></section>"
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a7deaee00000000260379a2",
+          "url": "https://www.xiaohongshu.com/explore/6a7deaee00000000260379a2",
+          "item_type": "note",
+          "title": "浅测DeepSeek Harness（用户向）",
+          "author": "善良兄",
+          "author_url": "https://www.xiaohongshu.com/user/profile/5e1089ab0000000001002120",
+          "published_label": "昨天 13:34",
+          "content_text": "浅测DeepSeek Harness（用户向）\n善良兄\n昨天 13:34\n17",
+          "media_kind": "image",
+          "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160354/4e7c736e5d4597b6bbf7b9c5bcc50594/notes_pre_post/1040g3k8323ql36fs74005nggh6lg88905rqr5ho!nc_n_webp_prv_1",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608160354/4e7c736e5d4597b6bbf7b9c5bcc50594/notes_pre_post/1040g3k8323ql36fs74005nggh6lg88905rqr5ho!nc_n_webp_prv_1",
+              "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160354/4e7c736e5d4597b6bbf7b9c5bcc50594/notes_pre_post/1040g3k8323ql36fs74005nggh6lg88905rqr5ho!nc_n_webp_prv_1"
+            },
+            {
+              "kind": "avatar",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31gjs1n7f3c005nggh6lg8890flbu3so?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            }
+          ],
+          "metrics": {
+            "likes": 17,
+            "metric_source": "XHS authenticated visible search card",
+            "observed_at": "2026-08-15T19:54:47.882Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "search-card",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "浅测DeepSeek Harness（用户向）\n善良兄\n昨天 13:34\n17",
+            "visible_dom": "<section data-v-eafabe54=\"\" data-v-150c1cde=\"\" class=\"note-item\" data-width=\"1440\" data-height=\"1920\" data-index=\"41\" data-note-id=\"6a7deaee00000000260379a2\" style=\"--3e2ba87e: 288.3333333333333px; --17f24bf1: 16px; --54f74eca: blur(42.5px); transform: translate(0px, 5724.43px);\"><div data-v-eafabe54=\"\"><a data-v-eafabe54=\"\" href=\"/explore/6a7deaee00000000260379a2\" style=\"display: none;\"></a><a data-v-eafabe54=\"\" class=\"cover mask\" target=\"_self\" href=\"/search_result/6a7deaee00000000260379a2?xsec_token=REDACTED&amp;xsec_source=REDACTED\" style=\"height: 384px;\"><img data-v-eafabe54=\"\" src=\"https://sns-webpic-qc.xhscdn.com/202608160354/4e7c736e5d4597b6bbf7b9c5bcc50594/notes_pre_post/1040g3k8323ql36fs74005nggh6lg88905rqr5ho!nc_n_webp_prv_1\" fetchpriority=\"auto\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" style=\"width: 100%; height: 100%; object-fit: cover;\"><!----><!----><!----></a><div data-v-eafabe54=\"\" class=\"footer\"><!----><a data-v-eafabe54=\"\" href=\"/search_result/6a7deaee00000000260379a2?xsec_token=REDACTED&amp;xsec_source=REDACTED\" target=\"_self\" class=\"title\"><span data-v-51ec0135=\"\" data-v-eafabe54=\"\">浅测DeepSeek Harness（用户向）</span></a><div data-v-212156b8=\"\" data-v-150c1cde=\"\" data-v-eafabe54-s=\"\" class=\"card-bottom-wrapper\"><a data-v-212156b8=\"\" href=\"/user/profile/5e1089ab0000000001002120?channel_type=web_search_result_notes&amp;parent_page_channel_type=web_profile_board&amp;xsec_token=REDACTED&amp;xsec_source=REDACTED\" class=\"author\" target=\"_blank\"><img data-v-212156b8=\"\" src=\"https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31gjs1n7f3c005nggh6lg8890flbu3so?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip\" fetchpriority=\"auto\" width=\"24\" height=\"24\" crossorigin=\"anonymous\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" class=\"author-avatar\"><div data-v-212156b8=\"\" class=\"name-time-wrapper\"><div data-v-212156b8=\"\" class=\"name\">善良兄</div><div data-v-212156b8=\"\" class=\"time\">昨天 13:34</div></div></a><span data-v-752eec30=\"\" data-v-212156b8=\"\" class=\"like-wrapper like-active\"><span data-v-752eec30=\"\" class=\"like-lottie\" style=\"width: 16px; height: 16px;\"></span><svg data-v-55b36ac6=\"\" data-v-752eec30=\"\" class=\"reds-icon like-icon\" width=\"16\" height=\"16\"><use data-v-55b36ac6=\"\" xlink:href=\"#like\"></use></svg><span data-v-752eec30=\"\" class=\"count\" selected-disabled-search=\"\">17</span></span></div></div></div></section>"
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a7dd2be000000003302d268",
+          "url": "https://www.xiaohongshu.com/explore/6a7dd2be000000003302d268",
+          "item_type": "note",
+          "title": "DeepSeek Harness 开源了，竟用 TS + Node",
+          "author": "五月君",
+          "author_url": "https://www.xiaohongshu.com/user/profile/60e18f260000000001004f9b",
+          "published_label": "2天前",
+          "content_text": "DeepSeek Harness 开源了，竟用 TS + Node\n五月君\n2天前\n7",
+          "media_kind": "image",
+          "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160354/585b6a0dec88a81d00f0fca10505f9b7/spectrum/1040g0k0323qi6jqt0m005o71hsj08jsr7n4gkbg!nc_n_webp_prv_1",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608160354/585b6a0dec88a81d00f0fca10505f9b7/spectrum/1040g0k0323qi6jqt0m005o71hsj08jsr7n4gkbg!nc_n_webp_prv_1",
+              "thumbnail_url": "https://sns-webpic-qc.xhscdn.com/202608160354/585b6a0dec88a81d00f0fca10505f9b7/spectrum/1040g0k0323qi6jqt0m005o71hsj08jsr7n4gkbg!nc_n_webp_prv_1"
+            },
+            {
+              "kind": "avatar",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31tiqdokg6k605o71hsj08jsr4blh6lg?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            }
+          ],
+          "metrics": {
+            "likes": 7,
+            "metric_source": "XHS authenticated visible search card",
+            "observed_at": "2026-08-15T19:54:47.882Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "search-card",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "DeepSeek Harness 开源了，竟用 TS + Node\n五月君\n2天前\n7",
+            "visible_dom": "<section data-v-eafabe54=\"\" data-v-150c1cde=\"\" class=\"note-item\" data-width=\"1440\" data-height=\"1920\" data-index=\"42\" data-note-id=\"6a7dd2be000000003302d268\" style=\"--3e2ba87e: 288.3333333333333px; --17f24bf1: 16px; --54f74eca: blur(42.5px); transform: translate(0px, 6204.03px);\"><div data-v-eafabe54=\"\"><a data-v-eafabe54=\"\" href=\"/explore/6a7dd2be000000003302d268\" style=\"display: none;\"></a><a data-v-eafabe54=\"\" class=\"cover mask\" target=\"_self\" href=\"/search_result/6a7dd2be000000003302d268?xsec_token=REDACTED&amp;xsec_source=REDACTED\" style=\"height: 384px;\"><img data-v-eafabe54=\"\" src=\"https://sns-webpic-qc.xhscdn.com/202608160354/585b6a0dec88a81d00f0fca10505f9b7/spectrum/1040g0k0323qi6jqt0m005o71hsj08jsr7n4gkbg!nc_n_webp_prv_1\" fetchpriority=\"auto\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" style=\"width: 100%; height: 100%; object-fit: cover;\"><!----><!----><!----></a><div data-v-eafabe54=\"\" class=\"footer\"><!----><a data-v-eafabe54=\"\" href=\"/search_result/6a7dd2be000000003302d268?xsec_token=REDACTED&amp;xsec_source=REDACTED\" target=\"_self\" class=\"title\"><span data-v-51ec0135=\"\" data-v-eafabe54=\"\">DeepSeek Harness 开源了，竟用 TS + Node</span></a><div data-v-212156b8=\"\" data-v-150c1cde=\"\" data-v-eafabe54-s=\"\" class=\"card-bottom-wrapper\"><a data-v-212156b8=\"\" href=\"/user/profile/60e18f260000000001004f9b?channel_type=web_search_result_notes&amp;parent_page_channel_type=web_profile_board&amp;xsec_token=REDACTED&amp;xsec_source=REDACTED\" class=\"author\" target=\"_blank\"><img data-v-212156b8=\"\" src=\"https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31tiqdokg6k605o71hsj08jsr4blh6lg?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip\" fetchpriority=\"auto\" width=\"24\" height=\"24\" crossorigin=\"anonymous\" loading=\"lazy\" decoding=\"async\" data-xhs-img=\"\" class=\"author-avatar\"><div data-v-212156b8=\"\" class=\"name-time-wrapper\"><div data-v-212156b8=\"\" class=\"name\">五月君</div><div data-v-212156b8=\"\" class=\"time\">2天前</div></div></a><span data-v-752eec30=\"\" data-v-212156b8=\"\" class=\"like-wrapper like-active\"><span data-v-752eec30=\"\" class=\"like-lottie\" style=\"width: 16px; height: 16px;\"></span><svg data-v-55b36ac6=\"\" data-v-752eec30=\"\" class=\"reds-icon like-icon\" width=\"16\" height=\"16\"><use data-v-55b36ac6=\"\" xlink:href=\"#like\"></use></svg><span data-v-752eec30=\"\" class=\"count\" selected-disabled-search=\"\">7</span></span></div></div></div></section>"
+          }
+        }
+      ]
+    }
+  ]
+}

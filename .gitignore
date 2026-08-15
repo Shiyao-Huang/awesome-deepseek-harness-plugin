@@ -7,3 +7,5 @@ __pycache__/
 data/raw/auto/
 data/raw/forks/
 .gitnexus/
+data/*.sqlite3.pre-*
+data/index.sqlite

@@ -62,29 +62,6 @@ def github_token() -> str | None:
 
 def api_request(url: str, token: str | None) -> tuple[Any, dict[str, str]]:
     """Fetch and decode one public GitHub JSON response."""
-
-    if token:
-        try:
-            result = subprocess.run(
-                [
-                    "curl", "--fail", "--silent", "--show-error", "--location",
-                    "--connect-timeout", "10", "--max-time", "20", url,
-                    "-H", "Accept: application/vnd.github+json",
-                    "-H", "X-GitHub-Api-Version: 2022-11-28",
-                    "-H", f"Authorization: Bearer {token}",
-                    "-H", f"User-Agent: {USER_AGENT}",
-                ],
-                capture_output=True,
-                text=True,
-                timeout=25,
-            )
-        except (OSError, subprocess.SubprocessError):
-            result = None
-        if result is not None and result.returncode == 0:
-            return json.loads(result.stdout), {}
-        if result is not None and result.stderr:
-            raise URLError(result.stderr.strip())
-
     headers = {
         "Accept": "application/vnd.github+json",
         "X-GitHub-Api-Version": "2022-11-28",
@@ -350,6 +327,188 @@ def latest_commit(commits: dict[str, Any]) -> dict[str, Any]:
     }
 
 
+CATEGORY_LABELS = {
+    "harness-core": "Harness 核心能力",
+    "agents-and-skills": "agent/skill 能力",
+    "ui-and-apps": "UI/应用层",
+    "tools-and-scripts": "工具与脚本",
+    "docs": "文档",
+    "ci-and-build": "CI/构建",
+    "tests": "测试",
+    "configuration": "配置",
+    "dependencies": "依赖",
+    "other": "其他文件",
+}
+
+
+def compact_public_text(value: Any, limit: int = 180) -> str:
+    """Collapse public repository text for a one-sentence evidence note."""
+
+    text = " ".join(str(value or "").split())
+    text = text.replace("|", " ").replace("`", "")
+    return text[:limit].rstrip(" .。；;")
+
+
+def readme_goal(readme_text: str) -> str:
+    """Extract a conservative goal clue from the first useful README line."""
+
+    for line in readme_text.splitlines():
+        candidate = line.strip().lstrip("#>-* ")
+        if not candidate or candidate.startswith(("[", "!", "<", "```")):
+            continue
+        candidate = compact_public_text(candidate)
+        if len(candidate) >= 12:
+            return candidate
+    return "目标线索尚未从 README 观察到"
+
+
+def change_summary(normalized: dict[str, Any], readme_text: str = "") -> str:
+    """Describe observed changes and the stated goal in one evidence-qualified sentence."""
+
+    if normalized.get("detail_status") == "metadata-only":
+        goal = compact_public_text(normalized.get("description")) or "未从 Fork 列表元数据观察到"
+        return f"当前仅确认这是 upstream 的公开 Fork；公开描述目标线索是“{goal}”，修改面待下一轮 compare/README 深扫。"
+    changed = normalized.get("changed_files")
+    ahead = normalized.get("ahead_by")
+    categories = normalized.get("modification_categories") or {}
+    labels = [CATEGORY_LABELS.get(str(key), str(key)) for key in categories]
+    if changed is None:
+        change_text = "compare 未返回修改文件数"
+    elif int(changed) == 0:
+        change_text = "未观察到相对 upstream 的文件修改"
+    else:
+        commit_text = f"新增约 {int(ahead)} 个提交并" if ahead is not None else ""
+        category_text = "、".join(labels[:4]) or "未分类文件"
+        change_text = f"{commit_text}修改 {int(changed)} 个文件，主要涉及 {category_text}"
+    goal = compact_public_text(normalized.get("description")) or readme_goal(readme_text)
+    return f"{change_text}；目标线索是“{goal}”。"
+
+
+def profile_from_api(call: dict[str, Any], login: str, fetched_at: str) -> dict[str, Any]:
+    """Normalize one public GitHub user response without retaining private fields."""
+
+    response = call.get("response") if call.get("status") == "ok" else None
+    value = response if isinstance(response, dict) else {}
+    return {
+        "login": str(value.get("login") or login),
+        "html_url": value.get("html_url") or f"https://github.com/{login}",
+        "api_url": value.get("url") or f"https://api.github.com/users/{login}",
+        "node_id": value.get("node_id"),
+        "type": value.get("type"),
+        "public_repos": value.get("public_repos"),
+        "public_gists": value.get("public_gists"),
+        "followers": value.get("followers"),
+        "following": value.get("following"),
+        "created_at": value.get("created_at"),
+        "updated_at": value.get("updated_at"),
+        "fetched_at": fetched_at,
+        "status": "ok" if call.get("status") == "ok" and isinstance(response, dict) else "error",
+        "raw_json": json.dumps(call, ensure_ascii=False, sort_keys=True),
+        "from_cache": False,
+    }
+
+
+def cached_profile(row: Any) -> dict[str, Any]:
+    """Convert a cached SQLite user profile into the ranking input format."""
+
+    return {
+        "login": row["login"],
+        "html_url": row["html_url"],
+        "api_url": row["api_url"],
+        "node_id": row["node_id"],
+        "type": row["type"],
+        "public_repos": row["public_repos"],
+        "public_gists": row["public_gists"],
+        "followers": row["followers"],
+        "following": row["following"],
+        "created_at": row["created_at"],
+        "updated_at": row["updated_at"],
+        "fetched_at": row["fetched_at"],
+        "status": row["status"],
+        "raw_json": row["raw_json"],
+        "from_cache": True,
+    }
+
+
+def profile_is_fresh(profile: dict[str, Any], observed_at: str, stale_days: int) -> bool:
+    """Return whether a cached profile is recent enough for this run."""
+
+    fetched = parse_time(str(profile.get("fetched_at") or ""))
+    observed = parse_time(observed_at)
+    if fetched is None or observed is None or stale_days < 0:
+        return False
+    return profile.get("status") == "ok" and (observed - fetched).total_seconds() <= stale_days * 86_400
+
+
+def load_cached_profiles(connection: Any, logins: set[str]) -> dict[str, dict[str, Any]]:
+    """Load public user profiles already cached in SQLite."""
+
+    if not logins:
+        return {}
+    placeholders = ",".join("?" for _ in logins)
+    rows = connection.execute(
+        f"SELECT login, html_url, api_url, node_id, type, public_repos, public_gists, followers, following, created_at, updated_at, fetched_at, status, raw_json FROM github_user_profiles WHERE login IN ({placeholders})",
+        sorted(logins),
+    ).fetchall()
+    return {str(row["login"]): cached_profile(row) for row in rows}
+
+
+def select_profile_logins(
+    descriptors: list[dict[str, Any]],
+    repository_rankings: list[dict[str, Any]],
+    cached: dict[str, dict[str, Any]],
+    limit: int,
+    observed_at: str,
+    stale_days: int,
+) -> list[str]:
+    """Select unique high-influence owners whose public profiles need observation."""
+
+    rank_by_name = {row["full_name"]: row for row in repository_rankings}
+    candidates: dict[str, tuple[float, str, bool]] = {}
+    for descriptor in descriptors:
+        value = descriptor["normalized"]
+        login = str(value.get("owner_login") or "").strip()
+        name = str(value.get("full_name") or "")
+        if not login or not name:
+            continue
+        profile = cached.get(login)
+        needs_fetch = not profile or not profile_is_fresh(profile, observed_at, stale_days)
+        rank = rank_by_name.get(name) or {}
+        score = float(rank.get("score") or 0)
+        previous = candidates.get(login)
+        if previous is None or (needs_fetch and not previous[2]) or score > previous[0]:
+            candidates[login] = (score, name, needs_fetch)
+    ordered = sorted(candidates.items(), key=lambda pair: (-pair[1][0], pair[0]))
+    return [login for login, (_, _, needs_fetch) in ordered if needs_fetch][:max(0, limit)]
+
+
+def fetch_owner_profiles(
+    connection: Any,
+    descriptors: list[dict[str, Any]],
+    repository_rankings: list[dict[str, Any]],
+    observed_at: str,
+    token: str | None,
+    config: dict[str, Any],
+) -> dict[str, dict[str, Any]]:
+    """Reuse fresh public user profiles and fetch a bounded stale-owner rotation."""
+
+    logins = {str(d["normalized"].get("owner_login") or "").strip() for d in descriptors}
+    logins.discard("")
+    cached = load_cached_profiles(connection, logins)
+    selected = select_profile_logins(
+        descriptors,
+        repository_rankings,
+        cached,
+        int(config.get("owner_profile_limit", 100)),
+        observed_at,
+        int(config.get("owner_profile_stale_days", 30)),
+    )
+    profiles = dict(cached)
+    for login in selected:
+        profiles[login] = profile_from_api(api_call(f"https://api.github.com/users/{quote(login)}", token), login, observed_at)
+    return profiles
+
+
 def deep_scan_fork(
     row: dict[str, Any],
     upstream: str,
@@ -398,6 +557,7 @@ def deep_scan_fork(
         "deep_scanned_at": str(config["collected_at"]),
         "detail_status": "ok" if not any(error_response(value) for value in (detail, compare, commits, readme)) else "partial",
     })
+    normalized["change_summary"] = change_summary(normalized, decode_readme(readme))
     return {
         "normalized": normalized,
         "repository": None,
@@ -413,22 +573,24 @@ def deep_scan_fork(
 def metadata_only_fork(row: dict[str, Any], checked_at: str) -> dict[str, Any]:
     """Normalize a fork that was observed in the complete list but not deep-scanned."""
 
+    normalized = {
+        **repository_metadata(row, row, checked_at, False),
+        "readme_sha": None,
+        "deep_scanned_at": None,
+        "detail_status": "metadata-only",
+        "compare_status": None,
+        "ahead_by": None,
+        "behind_by": None,
+        "total_commits": None,
+        "changed_files": None,
+        "additions": None,
+        "deletions": None,
+        "modification_categories": {},
+        "latest_commit": {},
+    }
+    normalized["change_summary"] = change_summary(normalized)
     return {
-        "normalized": {
-            **repository_metadata(row, row, checked_at, False),
-            "readme_sha": None,
-            "deep_scanned_at": None,
-            "detail_status": "metadata-only",
-            "compare_status": None,
-            "ahead_by": None,
-            "behind_by": None,
-            "total_commits": None,
-            "changed_files": None,
-            "additions": None,
-            "deletions": None,
-            "modification_categories": {},
-            "latest_commit": {},
-        },
+        "normalized": normalized,
         "repository": row,
         "repository_detail": None,
         "compare": None,
@@ -445,8 +607,9 @@ def select_deep_forks(
     limit: int,
     deep_scan_all: bool,
     recheck_deep: bool,
+    changed_recheck_fraction: float = 0.2,
 ) -> set[str]:
-    """Select never-scanned or stalest forks, prioritizing public influence."""
+    """Select changed, never-scanned, then stale forks without starving backfill."""
 
     if deep_scan_all:
         return {full_name(row) for row in rows if full_name(row)}
@@ -467,7 +630,7 @@ def select_deep_forks(
     prior = {
         row["full_name"]: row
         for row in connection.execute(
-            f"SELECT full_name, last_deep_checked_at, stars, forks FROM fork_repositories WHERE full_name IN ({placeholders})",
+            f"SELECT full_name, last_deep_checked_at, pushed_at, stars, forks FROM fork_repositories WHERE full_name IN ({placeholders})",
             names,
         )
     }
@@ -475,15 +638,38 @@ def select_deep_forks(
         row = prior.get(slug)
         return row[key] if row is not None else None
 
-    ordered = sorted(
-        rows,
+    def influence_key(row: dict[str, Any]) -> tuple[int, int, str]:
+        return (
+            -int(row.get("stargazers_count") or 0),
+            -int(row.get("forks_count") or 0),
+            full_name(row),
+        )
+
+    changed: list[dict[str, Any]] = []
+    never_scanned: list[dict[str, Any]] = []
+    stale: list[dict[str, Any]] = []
+    for row in rows:
+        slug = full_name(row)
+        last_deep = parse_time(prior_value(slug, "last_deep_checked_at"))
+        pushed = parse_time(str(row.get("pushed_at") or ""))
+        if last_deep is None:
+            never_scanned.append(row)
+        elif pushed is not None and pushed > last_deep:
+            changed.append(row)
+        else:
+            stale.append(row)
+
+    changed.sort(key=influence_key)
+    never_scanned.sort(key=influence_key)
+    stale.sort(
         key=lambda row: (
             prior_value(full_name(row), "last_deep_checked_at") or "",
-            -(int(row.get("stargazers_count") or 0)),
-            -(int(row.get("forks_count") or 0)),
-            full_name(row),
-        ),
+            *influence_key(row),
+        )
     )
+    fraction = min(1.0, max(0.0, float(changed_recheck_fraction)))
+    changed_limit = min(len(changed), int(limit * fraction)) if never_scanned else min(len(changed), limit)
+    ordered = changed[:changed_limit] + never_scanned + stale + changed[changed_limit:]
     return {full_name(row) for row in ordered[:limit]}
 
 
@@ -502,7 +688,7 @@ def build_item(descriptor: dict[str, Any], observed_at: str) -> dict[str, Any]:
         "title": normalized["full_name"],
         "author": normalized.get("owner_login"),
         "published_at": normalized.get("created_at"),
-        "content_text": normalized.get("description"),
+        "content_text": normalized.get("change_summary") or normalized.get("description"),
         "category": "deepseek-harness-forks",
         "relevance": "direct",
         "media_kind": "none",
@@ -513,6 +699,8 @@ def build_item(descriptor: dict[str, Any], observed_at: str) -> dict[str, Any]:
             "metric_source": "GitHub fork network API",
             "observed_at": observed_at,
         },
+        "description": normalized.get("description"),
+        "change_summary": normalized.get("change_summary"),
         "tags": tags,
     }
 
@@ -590,21 +778,57 @@ def activity_ratio(value: str | None, now: datetime, horizon_days: int) -> float
     return max(0.0, 1.0 - age / horizon_days)
 
 
-def rank_forks(descriptors: list[dict[str, Any]], config: dict[str, Any], observed_at: str) -> list[dict[str, Any]]:
-    """Calculate a transparent influence ranking from native GitHub metrics."""
+def account_age_ratio(value: str | None, observed_at: str, cap_days: int) -> float:
+    """Normalize public GitHub account age with a configurable upper bound."""
 
+    created = parse_time(value)
+    observed = parse_time(observed_at)
+    if created is None or observed is None or cap_days <= 0:
+        return 0.0
+    age_days = max(0.0, (observed - created).total_seconds() / 86_400)
+    return min(1.0, age_days / cap_days)
+
+
+def reputation_maxima(profiles: dict[str, dict[str, Any]]) -> dict[str, float]:
+    """Build log-normalization ceilings from observed public profile values."""
+
+    return {
+        field: max(1.0, max((float(profile.get(field) or 0) for profile in profiles.values() if profile.get("status") == "ok"), default=0.0))
+        for field in ("followers", "public_repos", "public_gists", "following")
+    }
+
+
+def rank_forks(
+    descriptors: list[dict[str, Any]],
+    config: dict[str, Any],
+    observed_at: str,
+    profiles: dict[str, dict[str, Any]] | None = None,
+) -> list[dict[str, Any]]:
+    """Rank eligible Forks by repository influence and observed public-account signals."""
+
+    profiles = profiles or {}
     weights = {key: float(value) for key, value in (config.get("weights") or {}).items()}
+    reputation_weights = {key: float(value) for key, value in (config.get("reputation_weights") or {}).items()}
+    repository_weight = max(0.0, float(config.get("repository_weight", 0.6)))
+    reputation_weight = max(0.0, float(config.get("reputation_weight", 0.4)))
+    min_stars = max(0, int(config.get("min_stars", 0)))
     now = parse_time(observed_at) or datetime.now(timezone.utc)
     horizon = int(config.get("activity_horizon_days", 365))
     maxima: dict[str, float] = {}
+    eligible = [
+        descriptor for descriptor in descriptors
+        if descriptor["normalized"].get("stars") is not None
+        and int(descriptor["normalized"].get("stars") or 0) >= min_stars
+    ]
     for key in ("stars", "forks", "watchers"):
-        maxima[key] = max((float(d["normalized"].get(key) or 0) for d in descriptors), default=0.0)
-    maxima["ahead"] = max((float(d["normalized"].get("ahead_by") or 0) for d in descriptors), default=0.0)
-    maxima["changed"] = max((float(d["normalized"].get("changed_files") or 0) for d in descriptors), default=0.0)
+        maxima[key] = max((float(d["normalized"].get(key) or 0) for d in eligible), default=0.0)
+    maxima["ahead"] = max((float(d["normalized"].get("ahead_by") or 0) for d in eligible), default=0.0)
+    maxima["changed"] = max((float(d["normalized"].get("changed_files") or 0) for d in eligible), default=0.0)
+    profile_maxima = reputation_maxima(profiles)
     ranked: list[dict[str, Any]] = []
-    for descriptor in descriptors:
+    for descriptor in eligible:
         value = descriptor["normalized"]
-        components = {
+        repository_components = {
             "stars": weights.get("stars", 0) * normalized_log(value.get("stars"), maxima["stars"]),
             "forks": weights.get("forks", 0) * normalized_log(value.get("forks"), maxima["forks"]),
             "watchers": weights.get("watchers", 0) * normalized_log(value.get("watchers"), maxima["watchers"]),
@@ -612,13 +836,55 @@ def rank_forks(descriptors: list[dict[str, Any]], config: dict[str, Any], observ
             "divergence": weights.get("divergence", 0) * normalized_log(value.get("ahead_by"), maxima["ahead"]),
             "changes": weights.get("changes", 0) * normalized_log(value.get("changed_files"), maxima["changed"]),
         }
-        score = round(sum(components.values()), 6)
+        repository_score = round(sum(repository_components.values()), 6)
+        profile = profiles.get(str(value.get("owner_login") or ""))
+        profile_components: dict[str, float] = {}
+        profile_values = {
+            "followers": profile.get("followers") if profile else None,
+            "public_repos": profile.get("public_repos") if profile else None,
+            "account_age": account_age_ratio(profile.get("created_at") if profile else None, observed_at, int(config.get("reputation_account_age_cap_days", 5475))),
+            "public_gists": profile.get("public_gists") if profile else None,
+            "following": profile.get("following") if profile else None,
+        }
+        profile_maximums = {**profile_maxima, "account_age": 1.0}
+        profile_fields = {"followers": "followers", "public_repos": "public_repos", "account_age": "account_age", "public_gists": "public_gists", "following": "following"}
+        available_weight = 0.0
+        total_profile_weight = sum(reputation_weights.values())
+        if profile and profile.get("status") == "ok":
+            for key, field in profile_fields.items():
+                if key != "account_age" and profile_values[key] is None:
+                    continue
+                available_weight += reputation_weights.get(key, 0.0)
+                ratio = profile_values[key] if key == "account_age" else normalized_log(profile_values[key], profile_maximums[field])
+                profile_components[key] = reputation_weights.get(key, 0.0) * ratio
+        reputation_coverage = available_weight / total_profile_weight if total_profile_weight > 0 else 0.0
+        reputation_score = round(100 * sum(profile_components.values()) / available_weight, 6) if available_weight > 0 else None
+        profile_status = "unobserved"
+        if profile:
+            profile_status = "observed" if reputation_score is not None and reputation_coverage >= 0.999 else ("partial" if reputation_score is not None else "error")
+        denominator = repository_weight + reputation_weight * reputation_coverage
+        overall_score = repository_score if denominator <= 0 else round(
+            (repository_weight * repository_score + reputation_weight * (reputation_score or 0) * reputation_coverage) / denominator,
+            6,
+        )
+        components = {**repository_components, **profile_components}
         ranked.append({
             "full_name": value["full_name"],
-            "score": score,
+            "score": overall_score,
+            "repository_influence_score": repository_score,
+            "reputation_score": reputation_score,
+            "reputation_coverage": round(reputation_coverage, 6),
+            "reputation_status": profile_status,
+            "repository_weight": repository_weight,
+            "reputation_weight": reputation_weight,
             "components": components,
-            "raw_metrics": {key: value.get(key) for key in ("stars", "forks", "watchers", "open_issues", "pushed_at", "ahead_by", "behind_by", "changed_files", "additions", "deletions")},
-            "rationale": "stars 35%, forks 15%, watchers 5%, recent activity 20%, upstream divergence 10%, changed files 15%; raw GitHub metrics remain separate.",
+            "raw_metrics": {
+                key: value.get(key) for key in ("stars", "forks", "watchers", "open_issues", "pushed_at", "ahead_by", "behind_by", "changed_files", "additions", "deletions")
+            } | {
+                "owner_login": value.get("owner_login"),
+                "owner_profile": {key: profile.get(key) for key in ("followers", "public_repos", "public_gists", "following", "created_at", "fetched_at")} if profile else None,
+            },
+            "rationale": f"repository influence {repository_weight:.0%} + public-account reputation {reputation_weight:.0%}; repository metrics keep stars/forks/watchers/activity/divergence/changes separate, and missing profile signals are not treated as zero.",
         })
     ranked.sort(
         key=lambda row: (
@@ -652,30 +918,60 @@ def fetch_payload(
     pages, rows, errors = fetch_fork_pages(
         config["upstream"], int(config.get("list_page_size", 100)), token, str(config.get("list_sort", "oldest"))
     )
-    selected = select_deep_forks(connection, rows, deep_limit, deep_scan_all, recheck_deep)
+    selected = select_deep_forks(
+        connection,
+        rows,
+        deep_limit,
+        deep_scan_all,
+        recheck_deep,
+        float(config.get("changed_recheck_fraction", 0.2)),
+    )
+    selected_rows = [row for row in rows if full_name(row) in selected]
+    workers = max(1, min(32, int(config.get("deep_scan_workers", 16))))
+
+    def scan_selected(row: dict[str, Any]) -> tuple[str, dict[str, Any], dict[str, Any] | None]:
+        slug = full_name(row)
+        try:
+            return slug, deep_scan_fork(row, config["upstream"], upstream_branch, token, config), None
+        except (HTTPError, URLError, TimeoutError, json.JSONDecodeError, KeyError, TypeError) as error:
+            descriptor = metadata_only_fork(row, collected_at)
+            descriptor["deep_scan_error"] = api_error(error)
+            return slug, descriptor, {"stage": "fork-deep-scan", "full_name": slug, "error": str(error)}
+
+    scanned: dict[str, dict[str, Any]] = {}
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        for slug, descriptor, error in executor.map(scan_selected, selected_rows):
+            scanned[slug] = descriptor
+            if error is not None:
+                errors.append(error)
     descriptors: list[dict[str, Any]] = []
     for row in rows:
         slug = full_name(row)
         if not slug:
             continue
         if slug in selected:
-            try:
-                descriptor = deep_scan_fork(row, config["upstream"], upstream_branch, token, config)
-            except (HTTPError, URLError, TimeoutError, json.JSONDecodeError, KeyError, TypeError) as error:
-                descriptor = metadata_only_fork(row, collected_at)
-                descriptor["deep_scan_error"] = api_error(error)
-                errors.append({"stage": "fork-deep-scan", "full_name": slug, "error": str(error)})
+            descriptor = scanned[slug]
         else:
             descriptor = metadata_only_fork(row, collected_at)
         descriptors.append(descriptor)
-    rankings = rank_forks(descriptors, config, collected_at)
+    repository_rankings = rank_forks(descriptors, {**config, "reputation_weight": 0}, collected_at)
+    profiles = fetch_owner_profiles(connection, descriptors, repository_rankings, collected_at, token, config)
+    for descriptor in descriptors:
+        value = descriptor["normalized"]
+        profile = profiles.get(str(value.get("owner_login") or ""))
+        value["owner_profile_status"] = profile.get("status") if profile else "unobserved"
+        value["owner_profile_checked_at"] = profile.get("fetched_at") if profile else None
+    rankings = rank_forks(descriptors, config, collected_at, profiles)
     rank_by_name = {row["full_name"]: row for row in rankings}
     items = [build_item(descriptor, collected_at) for descriptor in descriptors]
     for item in items:
-        ranking = rank_by_name[item["external_id"]]
-        item["tags"].append(f"influence-rank-{ranking['rank']}")
+        ranking = rank_by_name.get(item["external_id"])
+        if ranking:
+            item["tags"].append(f"fork-rank-{ranking['rank']}")
+        else:
+            item["tags"].append("fork-filtered-out")
     return {
-        "schema_version": 1,
+        "schema_version": 2,
         "collected_at": collected_at,
         "collector": "scripts/collect_forks.py",
         "method": "GitHub public REST API; no third-party code executed",
@@ -697,9 +993,23 @@ def fetch_payload(
         "fork_list": {"page_count": len(pages), "fork_count": len(rows), "pages": pages},
         "forks": descriptors,
         "rankings": rankings,
-        "ranking_version": config.get("ranking_version", "fork-influence-v1"),
+        "owner_profiles": [profile for profile in profiles.values() if not profile.get("from_cache")],
+        "ranking_version": config.get("ranking_version", "fork-influence-reputation-v1"),
+        "star_filter": {
+            "minimum_stars": max(0, int(config.get("min_stars", 0))),
+            "observed_forks": len(descriptors),
+            "eligible_forks": len(rankings),
+            "filtered_out": len(descriptors) - len(rankings),
+        },
         "errors": errors,
-        "deep_scan": {"selected_count": len(selected), "limit": deep_limit, "all": deep_scan_all},
+        "deep_scan": {
+            "selected_count": len(selected),
+            "selected_forks": sorted(selected),
+            "limit": deep_limit,
+            "all": deep_scan_all,
+            "workers": workers,
+            "changed_recheck_fraction": float(config.get("changed_recheck_fraction", 0.2)),
+        },
         "observations": [{
             "platform": "github",
             "query": f"forks:{config['upstream']}",
@@ -741,6 +1051,44 @@ def raw_snapshot_id(connection: Any, raw_sha: str) -> int:
     row = connection.execute("SELECT id FROM raw_snapshots WHERE raw_sha256 = ?", (raw_sha,)).fetchone()
     if row is None:
         raise RuntimeError(f"raw snapshot was not stored: {raw_sha}")
+    return int(row[0])
+
+
+def upsert_github_user_profile(connection: Any, profile: dict[str, Any], raw_id: int) -> int:
+    """Persist one public GitHub user profile and its raw API response."""
+
+    connection.execute(
+        """
+        INSERT INTO github_user_profiles(
+            login, html_url, api_url, node_id, type, public_repos, public_gists,
+            followers, following, created_at, updated_at, fetched_at, status,
+            raw_snapshot_id, raw_json
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        ON CONFLICT(login) DO UPDATE SET
+            html_url=COALESCE(excluded.html_url, github_user_profiles.html_url),
+            api_url=COALESCE(excluded.api_url, github_user_profiles.api_url),
+            node_id=COALESCE(excluded.node_id, github_user_profiles.node_id),
+            type=COALESCE(excluded.type, github_user_profiles.type),
+            public_repos=COALESCE(excluded.public_repos, github_user_profiles.public_repos),
+            public_gists=COALESCE(excluded.public_gists, github_user_profiles.public_gists),
+            followers=COALESCE(excluded.followers, github_user_profiles.followers),
+            following=COALESCE(excluded.following, github_user_profiles.following),
+            created_at=COALESCE(excluded.created_at, github_user_profiles.created_at),
+            updated_at=COALESCE(excluded.updated_at, github_user_profiles.updated_at),
+            fetched_at=excluded.fetched_at, status=excluded.status,
+            raw_snapshot_id=excluded.raw_snapshot_id, raw_json=excluded.raw_json
+        """,
+        (
+            profile["login"], profile.get("html_url"), profile.get("api_url"), profile.get("node_id"),
+            profile.get("type"), profile.get("public_repos"), profile.get("public_gists"),
+            profile.get("followers"), profile.get("following"), profile.get("created_at"),
+            profile.get("updated_at"), profile.get("fetched_at") or utc_now(), profile.get("status", "error"),
+            raw_id, profile.get("raw_json") or "{}",
+        ),
+    )
+    row = connection.execute("SELECT id FROM github_user_profiles WHERE login = ?", (profile["login"],)).fetchone()
+    if row is None:
+        raise RuntimeError(f"profile insert did not return an id: {profile['login']}")
     return int(row[0])
 
 
@@ -792,6 +1140,10 @@ def persist_forks(
     """Persist fork identities, snapshots, files, commits, and rankings."""
 
     network_id = upsert_network(connection, payload, raw_id, checked_at)
+    profile_ids: dict[str, int] = {}
+    for profile in payload.get("owner_profiles", []):
+        if isinstance(profile, dict) and profile.get("login"):
+            profile_ids[str(profile["login"])] = upsert_github_user_profile(connection, profile, raw_id)
     item_ids: dict[str, int] = {}
     for item in payload["observations"][0]["items"]:
         row = connection.execute("SELECT id FROM items WHERE canonical_url = ?", (collect.canonical_url(str(item["url"])),)).fetchone()
@@ -799,24 +1151,70 @@ def persist_forks(
             item_ids[str(item["external_id"])] = int(row[0])
     for descriptor in payload.get("forks", []):
         value = descriptor["normalized"]
+        existing_summary = str(value.get("change_summary") or "")
+        if not existing_summary or (
+            value.get("detail_status") == "metadata-only"
+            and existing_summary.startswith("当前仅确认这是 upstream 的公开 Fork")
+        ):
+            value["change_summary"] = change_summary(value, str(descriptor.get("readme_text_for_analysis") or ""))
         full = value["full_name"]
+        owner_login = str(value.get("owner_login") or "")
+        if owner_login and owner_login not in profile_ids:
+            profile_row = connection.execute("SELECT id FROM github_user_profiles WHERE login = ?", (owner_login,)).fetchone()
+            if profile_row is not None:
+                profile_ids[owner_login] = int(profile_row[0])
         commit = value.get("latest_commit") or {}
+        existing_fork = connection.execute(
+            "SELECT id FROM fork_repositories WHERE full_name = ?",
+            (full,),
+        ).fetchone()
+        prior_deep = None
+        if existing_fork is not None:
+            prior_deep = connection.execute(
+                """
+                SELECT compare_status, ahead_by, behind_by, total_commits, changed_files,
+                       additions, deletions, modification_categories, change_summary,
+                       latest_commit_sha, latest_commit_message, latest_commit_at, readme_sha
+                FROM fork_snapshots
+                WHERE fork_id = ? AND status IN ('ok', 'partial')
+                ORDER BY observed_at DESC, id DESC
+                LIMIT 1
+                """,
+                (int(existing_fork[0]),),
+            ).fetchone()
+        retained_deep_fields = (
+            "compare_status", "ahead_by", "behind_by", "total_commits", "changed_files",
+            "additions", "deletions", "latest_commit_sha", "latest_commit_message",
+            "latest_commit_at", "readme_sha",
+        )
+        if value.get("detail_status") == "metadata-only" and prior_deep is not None:
+            for field in retained_deep_fields:
+                if value.get(field) is None and prior_deep[field] is not None:
+                    value[field] = prior_deep[field]
+            if not value.get("modification_categories") and prior_deep["modification_categories"]:
+                value["modification_categories"] = json.loads(str(prior_deep["modification_categories"]))
+            if not value.get("change_summary") or value["change_summary"] == change_summary(value):
+                value["change_summary"] = prior_deep["change_summary"] or value["change_summary"]
         connection.execute(
             """
             INSERT INTO fork_repositories(
                 network_id, item_id, full_name, html_url, api_url, node_id, owner_login,
-                owner_type, parent_full_name, source_full_name, default_branch, description,
+                owner_type, owner_profile_id, owner_profile_status, owner_profile_checked_at,
+                parent_full_name, source_full_name, default_branch, description,
                 license_spdx, visibility, is_fork, archived, disabled, stars, forks,
                 open_issues, watchers, subscribers, size_kb, forked_at, created_at,
                 updated_at, pushed_at, last_checked_at, latest_commit_sha,
-                latest_commit_message, latest_commit_at, readme_sha, status,
+                latest_commit_message, latest_commit_at, readme_sha, change_summary, status,
                 raw_snapshot_id, first_seen_run_id, last_seen_run_id, last_deep_checked_at,
                 detail_status, first_seen_at, last_seen_at
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             ON CONFLICT(full_name) DO UPDATE SET
                 network_id=excluded.network_id, item_id=COALESCE(excluded.item_id, fork_repositories.item_id),
                 html_url=excluded.html_url, api_url=excluded.api_url, node_id=excluded.node_id,
                 owner_login=excluded.owner_login, owner_type=excluded.owner_type,
+                owner_profile_id=COALESCE(excluded.owner_profile_id, fork_repositories.owner_profile_id),
+                owner_profile_status=excluded.owner_profile_status,
+                owner_profile_checked_at=excluded.owner_profile_checked_at,
                 parent_full_name=excluded.parent_full_name, source_full_name=excluded.source_full_name,
                 default_branch=excluded.default_branch, description=excluded.description,
                 license_spdx=excluded.license_spdx, visibility=excluded.visibility,
@@ -829,6 +1227,7 @@ def persist_forks(
                 latest_commit_message=COALESCE(excluded.latest_commit_message, fork_repositories.latest_commit_message),
                 latest_commit_at=COALESCE(excluded.latest_commit_at, fork_repositories.latest_commit_at),
                 readme_sha=COALESCE(excluded.readme_sha, fork_repositories.readme_sha),
+                change_summary=COALESCE(excluded.change_summary, fork_repositories.change_summary),
                 status=excluded.status, raw_snapshot_id=excluded.raw_snapshot_id,
                 last_seen_run_id=excluded.last_seen_run_id,
                 last_deep_checked_at=COALESCE(excluded.last_deep_checked_at, fork_repositories.last_deep_checked_at),
@@ -837,14 +1236,15 @@ def persist_forks(
             """,
             (
                 network_id, item_ids.get(full), full, value.get("html_url"), value.get("api_url"),
-                value.get("node_id"), value.get("owner_login"), value.get("owner_type"),
+                value.get("node_id"), value.get("owner_login"), value.get("owner_type"), profile_ids.get(owner_login),
+                value.get("owner_profile_status", "unobserved"), value.get("owner_profile_checked_at"),
                 value.get("parent_full_name"), value.get("source_full_name"), value.get("default_branch"),
                 value.get("description"), value.get("license_spdx"), value.get("visibility"),
                 value.get("is_fork", 1), value.get("archived", 0), value.get("disabled", 0),
                 value.get("stars"), value.get("forks"), value.get("open_issues"), value.get("watchers"),
                 value.get("subscribers"), value.get("size_kb"), value.get("forked_at"), value.get("created_at"),
                 value.get("updated_at"), value.get("pushed_at"), checked_at, commit.get("sha"),
-                commit.get("message"), commit.get("committed_at"), value.get("readme_sha"),
+                commit.get("message"), commit.get("committed_at"), value.get("readme_sha"), value.get("change_summary"),
                 value.get("status", "ok"), raw_id, collection_run_id, collection_run_id,
                 value.get("deep_scanned_at"), value.get("detail_status", "metadata-only"), checked_at, checked_at,
             ),
@@ -871,13 +1271,18 @@ def persist_forks(
             "additions": value.get("additions"),
             "deletions": value.get("deletions"),
             "modification_categories": json.dumps(value.get("modification_categories") or {}, sort_keys=True),
+            "change_summary": value.get("change_summary"),
             "latest_commit_sha": commit.get("sha"),
             "latest_commit_message": commit.get("message"),
             "latest_commit_at": commit.get("committed_at"),
             "readme_sha": value.get("readme_sha"),
             "tree_sha": None,
             "status": value.get("detail_status", "metadata-only"),
-            "notes": "Complete fork metadata captured; deep fields are NULL when this run did not select the fork.",
+            "notes": (
+                "Complete fork metadata captured; deep fields are retained from the latest deep observation."
+                if value.get("detail_status") == "metadata-only" and prior_deep is not None
+                else "Complete fork metadata captured; deep fields are NULL when this run did not select the fork."
+            ),
         }
         connection.execute(
             """
@@ -885,9 +1290,9 @@ def persist_forks(
                 fork_id, collection_run_id, raw_snapshot_id, dataset_version, observed_at,
                 stars, forks, open_issues, watchers, subscribers, pushed_at, updated_at,
                 compare_status, ahead_by, behind_by, total_commits, changed_files,
-                additions, deletions, modification_categories, latest_commit_sha,
+                additions, deletions, modification_categories, change_summary, latest_commit_sha,
                 latest_commit_message, latest_commit_at, readme_sha, tree_sha, status, notes
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             ON CONFLICT(fork_id, collection_run_id) DO UPDATE SET
                 raw_snapshot_id=excluded.raw_snapshot_id, dataset_version=excluded.dataset_version,
                 observed_at=excluded.observed_at, stars=excluded.stars, forks=excluded.forks,
@@ -895,7 +1300,8 @@ def persist_forks(
                 pushed_at=excluded.pushed_at, updated_at=excluded.updated_at, compare_status=excluded.compare_status,
                 ahead_by=excluded.ahead_by, behind_by=excluded.behind_by, total_commits=excluded.total_commits,
                 changed_files=excluded.changed_files, additions=excluded.additions, deletions=excluded.deletions,
-                modification_categories=excluded.modification_categories, latest_commit_sha=excluded.latest_commit_sha,
+                modification_categories=excluded.modification_categories, change_summary=excluded.change_summary,
+                latest_commit_sha=excluded.latest_commit_sha,
                 latest_commit_message=excluded.latest_commit_message, latest_commit_at=excluded.latest_commit_at,
                 readme_sha=excluded.readme_sha, status=excluded.status, notes=excluded.notes
             """,
@@ -961,24 +1367,41 @@ def persist_forks(
             """
             INSERT INTO fork_rankings(
                 fork_id, collection_run_id, ranking_version, observed_at, rank,
-                influence_score, stars_component, forks_component, watchers_component,
+                influence_score, overall_score, reputation_score, reputation_coverage, reputation_status,
+                stars_component, forks_component, watchers_component,
                 activity_component, divergence_component, change_component, rationale,
-                components_json
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                reputation_followers_component, reputation_repos_component, reputation_age_component,
+                reputation_gists_component, reputation_following_component, repository_weight,
+                reputation_weight, components_json
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             ON CONFLICT(fork_id, collection_run_id, ranking_version) DO UPDATE SET
                 observed_at=excluded.observed_at, rank=excluded.rank, influence_score=excluded.influence_score,
+                overall_score=excluded.overall_score, reputation_score=excluded.reputation_score,
+                reputation_coverage=excluded.reputation_coverage, reputation_status=excluded.reputation_status,
                 stars_component=excluded.stars_component, forks_component=excluded.forks_component,
                 watchers_component=excluded.watchers_component, activity_component=excluded.activity_component,
                 divergence_component=excluded.divergence_component, change_component=excluded.change_component,
+                reputation_followers_component=excluded.reputation_followers_component,
+                reputation_repos_component=excluded.reputation_repos_component,
+                reputation_age_component=excluded.reputation_age_component,
+                reputation_gists_component=excluded.reputation_gists_component,
+                reputation_following_component=excluded.reputation_following_component,
+                repository_weight=excluded.repository_weight, reputation_weight=excluded.reputation_weight,
                 rationale=excluded.rationale, components_json=excluded.components_json
             """,
             (
                 fork_id, collection_run_id, str(payload.get("ranking_version") or "fork-influence-v1"), checked_at,
-                ranking["rank"], ranking["score"], ranking["components"].get("stars", 0),
+                ranking["rank"], ranking.get("repository_influence_score", ranking["score"]), ranking["score"],
+                ranking.get("reputation_score"), ranking.get("reputation_coverage", 0), ranking.get("reputation_status", "unobserved"),
+                ranking["components"].get("stars", 0),
                 ranking["components"].get("forks", 0), ranking["components"].get("watchers", 0),
                 ranking["components"].get("activity", 0), ranking["components"].get("divergence", 0),
                 ranking["components"].get("changes", 0), ranking["rationale"],
-                json.dumps({"components": ranking["components"], "raw_metrics": ranking["raw_metrics"]}, sort_keys=True),
+                ranking["components"].get("followers"), ranking["components"].get("public_repos"),
+                ranking["components"].get("account_age"), ranking["components"].get("public_gists"),
+                ranking["components"].get("following"), ranking.get("repository_weight", 0.6),
+                ranking.get("reputation_weight", 0.4),
+                json.dumps({"components": ranking["components"], "raw_metrics": ranking["raw_metrics"], "reputation_status": ranking.get("reputation_status")}, sort_keys=True),
             ),
         )
 
@@ -1038,12 +1461,15 @@ def main() -> int:
     parser.add_argument("--config", type=Path, default=CONFIG_PATH)
     parser.add_argument("--raw-output", type=Path, help="manifest path; defaults to data/raw/forks/<timestamp>/manifest.json")
     parser.add_argument("--deep-limit", type=int, help="deep scans per run; defaults to config")
+    parser.add_argument("--min-stars", type=int, help="minimum Fork stars included in the ranking; all observed Forks remain in raw/SQLite")
     parser.add_argument("--deep-scan-all", action="store_true", help="deep-scan every public fork returned by GitHub")
     parser.add_argument("--recheck-deep", action="store_true", help="recheck highest-influence Forks even if previously scanned")
     parser.add_argument("--no-token", action="store_true", help="do not read GH_TOKEN, GITHUB_TOKEN, or gh auth token")
     parser.add_argument("--raw-input", type=Path, help="re-import an existing manifest without making API requests")
     args = parser.parse_args()
     config = read_config(args.config)
+    if args.min_stars is not None:
+        config["min_stars"] = max(0, args.min_stars)
     deep_limit = max(0, int(args.deep_limit if args.deep_limit is not None else config.get("deep_scan_limit", 100)))
     token = None if args.no_token else github_token()
     stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
@@ -1062,10 +1488,43 @@ def main() -> int:
             if args.raw_input:
                 input_path = args.raw_input if args.raw_input.is_absolute() else ROOT / args.raw_input
                 payload = deduplicate_payload(collect.load_json(input_path))
+                observed_at = str(payload.get("collected_at") or utc_now())
+                logins = {
+                    str(descriptor["normalized"].get("owner_login") or "").strip()
+                    for descriptor in payload.get("forks", [])
+                }
+                profiles = load_cached_profiles(connection, logins - {""})
+                profiles.update({
+                    str(profile["login"]): profile
+                    for profile in payload.get("owner_profiles", [])
+                    if isinstance(profile, dict) and profile.get("login")
+                })
+                for descriptor in payload.get("forks", []):
+                    value = descriptor["normalized"]
+                    profile = profiles.get(str(value.get("owner_login") or ""))
+                    value["owner_profile_status"] = profile.get("status") if profile else "unobserved"
+                    value["owner_profile_checked_at"] = profile.get("fetched_at") if profile else None
+                payload["rankings"] = rank_forks(payload.get("forks", []), config, observed_at, profiles)
+                rank_by_name = {row["full_name"]: row for row in payload["rankings"]}
+                for item in (payload.get("observations") or [{}])[0].get("items", []):
+                    item["tags"] = [
+                        tag for tag in item.get("tags", [])
+                        if not str(tag).startswith("fork-rank-") and tag != "fork-filtered-out"
+                    ]
+                    ranking = rank_by_name.get(str(item.get("external_id") or ""))
+                    item["tags"].append(f"fork-rank-{ranking['rank']}" if ranking else "fork-filtered-out")
+                payload["star_filter"] = {
+                    "minimum_stars": max(0, int(config.get("min_stars", 0))),
+                    "observed_forks": len(payload.get("forks", [])),
+                    "eligible_forks": len(payload["rankings"]),
+                    "filtered_out": len(payload.get("forks", [])) - len(payload["rankings"]),
+                }
                 manifest_path = input_path
                 page_paths = sorted(input_path.parent.glob("page-*.json"))
             else:
-                payload = fetch_payload(connection, config, token, args.deep_scan_all, deep_limit, args.recheck_deep)
+                payload = deduplicate_payload(
+                    fetch_payload(connection, config, token, args.deep_scan_all, deep_limit, args.recheck_deep)
+                )
                 page_paths, page_references = write_page_raw_files(payload, manifest_path.parent)
                 payload["fork_list"]["pages"] = page_references
                 collect.dump_json(manifest_path, payload)

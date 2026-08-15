@@ -1,5 +1,5 @@
 PRAGMA foreign_keys = ON;
-PRAGMA user_version = 3;
+PRAGMA user_version = 4;
 
 CREATE TABLE IF NOT EXISTS sources (
     id INTEGER PRIMARY KEY,
@@ -99,6 +99,25 @@ CREATE TABLE IF NOT EXISTS fork_networks (
     last_seen_at TEXT NOT NULL
 );
 
+CREATE TABLE IF NOT EXISTS github_user_profiles (
+    id INTEGER PRIMARY KEY,
+    login TEXT NOT NULL UNIQUE,
+    html_url TEXT,
+    api_url TEXT,
+    node_id TEXT,
+    type TEXT,
+    public_repos INTEGER,
+    public_gists INTEGER,
+    followers INTEGER,
+    following INTEGER,
+    created_at TEXT,
+    updated_at TEXT,
+    fetched_at TEXT NOT NULL,
+    status TEXT NOT NULL DEFAULT 'unobserved',
+    raw_snapshot_id INTEGER REFERENCES raw_snapshots(id),
+    raw_json TEXT NOT NULL DEFAULT '{}'
+);
+
 CREATE TABLE IF NOT EXISTS fork_repositories (
     id INTEGER PRIMARY KEY,
     network_id INTEGER NOT NULL REFERENCES fork_networks(id) ON DELETE CASCADE,
@@ -109,6 +128,9 @@ CREATE TABLE IF NOT EXISTS fork_repositories (
     node_id TEXT,
     owner_login TEXT NOT NULL,
     owner_type TEXT,
+    owner_profile_id INTEGER REFERENCES github_user_profiles(id),
+    owner_profile_status TEXT NOT NULL DEFAULT 'unobserved',
+    owner_profile_checked_at TEXT,
     parent_full_name TEXT,
     source_full_name TEXT,
     default_branch TEXT NOT NULL,
@@ -133,6 +155,7 @@ CREATE TABLE IF NOT EXISTS fork_repositories (
     latest_commit_message TEXT,
     latest_commit_at TEXT,
     readme_sha TEXT,
+    change_summary TEXT,
     status TEXT NOT NULL DEFAULT 'ok',
     raw_snapshot_id INTEGER REFERENCES raw_snapshots(id),
     first_seen_run_id INTEGER REFERENCES collection_runs(id),
@@ -165,6 +188,7 @@ CREATE TABLE IF NOT EXISTS fork_snapshots (
     additions INTEGER,
     deletions INTEGER,
     modification_categories TEXT NOT NULL,
+    change_summary TEXT,
     latest_commit_sha TEXT,
     latest_commit_message TEXT,
     latest_commit_at TEXT,
@@ -216,12 +240,23 @@ CREATE TABLE IF NOT EXISTS fork_rankings (
     observed_at TEXT NOT NULL,
     rank INTEGER NOT NULL,
     influence_score REAL NOT NULL,
+    overall_score REAL NOT NULL DEFAULT 0,
+    reputation_score REAL,
+    reputation_coverage REAL NOT NULL DEFAULT 0,
+    reputation_status TEXT NOT NULL DEFAULT 'unobserved',
     stars_component REAL NOT NULL,
     forks_component REAL NOT NULL,
     watchers_component REAL NOT NULL,
     activity_component REAL NOT NULL,
     divergence_component REAL NOT NULL,
     change_component REAL NOT NULL,
+    reputation_followers_component REAL,
+    reputation_repos_component REAL,
+    reputation_age_component REAL,
+    reputation_gists_component REAL,
+    reputation_following_component REAL,
+    repository_weight REAL NOT NULL DEFAULT 0.6,
+    reputation_weight REAL NOT NULL DEFAULT 0.4,
     rationale TEXT NOT NULL,
     components_json TEXT NOT NULL,
     PRIMARY KEY(fork_id, collection_run_id, ranking_version)
@@ -387,6 +422,9 @@ CREATE INDEX IF NOT EXISTS idx_items_last_seen_run ON items(last_seen_run_id);
 CREATE INDEX IF NOT EXISTS idx_observations_run ON observations(collection_run_id);
 CREATE INDEX IF NOT EXISTS idx_observations_raw_hash ON observations(raw_sha256);
 CREATE INDEX IF NOT EXISTS idx_raw_snapshots_collected ON raw_snapshots(collected_at);
+CREATE INDEX IF NOT EXISTS idx_github_user_profiles_fetched ON github_user_profiles(fetched_at);
+CREATE INDEX IF NOT EXISTS idx_fork_repositories_owner_profile ON fork_repositories(owner_profile_id);
+CREATE INDEX IF NOT EXISTS idx_fork_rankings_overall ON fork_rankings(collection_run_id, overall_score DESC);
 CREATE INDEX IF NOT EXISTS idx_upstream_entries_repo ON upstream_entries(repository_id);
 CREATE INDEX IF NOT EXISTS idx_upstream_entries_item ON upstream_entries(item_id);
 CREATE INDEX IF NOT EXISTS idx_upstream_entries_kind ON upstream_entries(entry_kind);

@@ -1,0 +1,920 @@
+{
+  "schema_version": 1,
+  "collected_at": "2026-08-15T19:58:26.912Z",
+  "collector": "ego-browser task-space 6",
+  "source": {
+    "platform": "youtube",
+    "query": "\"DeepSeek Harness\" plugin",
+    "url": "https://www.youtube.com/results?search_query=%22DeepSeek+Harness%22+plugin",
+    "title": "\"DeepSeek Harness\" plugin - YouTube",
+    "profile_id": "Profile 1",
+    "profile_name": "hsyhsy",
+    "authenticated": true,
+    "visible_result_count": 20
+  },
+  "observations": [
+    {
+      "platform": "youtube",
+      "query": "\"DeepSeek Harness\" plugin",
+      "source_url": "https://www.youtube.com/results?search_query=%22DeepSeek+Harness%22+plugin",
+      "collected_at": "2026-08-15T19:58:26.912Z",
+      "collector": "ego-browser task-space 6",
+      "method": "authenticated visible search-result DOM capture",
+      "status": "ok",
+      "result_count": 20,
+      "notes": "Public video results excluding ad renderers, with native view labels, channel, publication labels, thumbnails and exact visible evidence nodes.",
+      "items": [
+        {
+          "platform": "youtube",
+          "external_id": "Aqn7EP8shJw",
+          "url": "https://www.youtube.com/watch?v=Aqn7EP8shJw",
+          "item_type": "video",
+          "title": "🚀实测DeepSeek Harness从基础到高级用法！WebUI远程控制、多模型接入、执行轨迹、插件系统、任务分支、游戏开发、代码仓库issues和pr分析！竟然比Claude Code更强？",
+          "author": "AI超元域",
+          "author_url": "https://www.youtube.com/@AIsuperdomain",
+          "published_label": "1天前",
+          "content_text": null,
+          "media_kind": "video",
+          "media_url": "https://www.youtube.com/watch?v=Aqn7EP8shJw",
+          "thumbnail_url": "https://i.ytimg.com/vi/Aqn7EP8shJw/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLACj5PvZpvBQM-y3nEDhG10c0J_xg",
+          "media": [
+            {
+              "kind": "thumbnail",
+              "url": "https://i.ytimg.com/vi/Aqn7EP8shJw/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLACj5PvZpvBQM-y3nEDhG10c0J_xg",
+              "thumbnail_url": "https://i.ytimg.com/vi/Aqn7EP8shJw/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLACj5PvZpvBQM-y3nEDhG10c0J_xg"
+            },
+            {
+              "kind": "video",
+              "url": "https://www.youtube.com/watch?v=Aqn7EP8shJw"
+            }
+          ],
+          "metrics": {
+            "views": 25000,
+            "metric_source": "YouTube authenticated visible search card",
+            "observed_at": "2026-08-15T19:58:26.912Z"
+          },
+          "tags": [
+            "youtube",
+            "video",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "12:54\n正在播放\n🚀实测DeepSeek Harness从基础到高级用法！WebUI远程控制、多模型接入、执行轨迹、插件系统、任务分支、游戏开发、代码仓库issues和pr分析！竟然比Claude Code更强？\n2.5万次观看\n1天前\nAI超元域\n视频简介： ✓DeepSeek突然开源Harness！一切皆插件+Web UI+多模型，我实测后发现它真可能挑战Claude Code和Codex ...\n最新\n4K\n12 个章节\nDeepSeek Harness突然发布 | 从零安装DeepSeek Harness | Web UI远程控制与ngrok | 四种Agent模式介绍 | DeepSeek V4 Pro游戏实测 | Agent执行轨迹与透明度 | 接入OpenRouter等第三方模型 | 插件系统与斜杠命令 | 实测分析GitHub Issue与PR | 分支会话并行解决同一问题 | 游戏完成，对比Claude Code效果 | Codex远程调用DeepSeek Harness",
+            "visible_dom": "<img class=\"ytCoreImageHost ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspectFill ytCoreImageLoaded\" alt=\"true\" style=\"background-color: transparent;\" src=\"https://i.ytimg.com/vi/Aqn7EP8shJw/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&amp;rs=AOn4CLACj5PvZpvBQM-y3nEDhG10c0J_xg\">\n<a id=\"video-title\" class=\"yt-simple-endpoint style-scope ytd-video-renderer\" title=\"🚀实测DeepSeek Harness从基础到高级用法！WebUI远程控制、多模型接入、执行轨迹、插件系统、任务分支、游戏开发、代码仓库issues和pr分析！竟然比Claude Code更强？\" aria-label=\"🚀实测DeepSeek Harness从基础到高级用法！WebUI远程控制、多模型接入、执行轨迹、插件系统、任务分支、游戏开发、代码仓库issues和pr分析！竟然比Claude Code更强？ 12分钟54秒钟\" href=\"/watch?v=Aqn7EP8shJw&amp;pp=ygUZIkRlZXBTZWVrIEhhcm5lc3MiIHBsdWdpbg%3D%3D\">\n            <yt-icon id=\"inline-title-icon\" class=\"style-scope ytd-video-renderer\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--></yt-icon>\n            <yt-formatted-string class=\"style-scope ytd-video-renderer\" aria-label=\"🚀实测DeepSeek Harness从基础到高级用法！WebUI远程控制、多模型接入、执行轨迹、插件系统、任务分支、游戏开发、代码仓库issues和pr分析！竟然比Claude Code更强？ 12分钟54秒钟\">🚀实测DeepSeek Harness从基础到高级用法！WebUI远程控制、多模型接入、执行轨迹、插件系统、任务分支、游戏开发、代码仓库issues和pr分析！竟然比Claude Code更强？</yt-formatted-string>\n          </a>\n<div id=\"metadata-line\" class=\"style-scope ytd-video-meta-block\">\n    \n    <ytd-badge-supported-renderer class=\"inline-metadata-badge style-scope ytd-video-meta-block\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"ytBadgeSupportedRendererHost\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n    <div id=\"separator\" class=\"style-scope ytd-video-meta-block\" hidden=\"\">•</div>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">2.5万次观看</span>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">1天前</span>\n    <dom-repeat strip-whitespace=\"\" class=\"style-scope ytd-video-meta-block\"><template is=\"dom-repeat\"></template></dom-repeat>\n  </div>\n<ytd-channel-name id=\"channel-name\" class=\" style-scope ytd-video-meta-block style-scope ytd-video-meta-block\"><!--css-build:shady--><!--css_build_scope:ytd-channel-name--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><div id=\"container\" class=\"style-scope ytd-channel-name\">\n  <div id=\"text-container\" class=\"style-scope ytd-channel-name\">\n    <yt-formatted-string id=\"text\" link-inherit-color=\"\" respect-lang-dir=\"\" title=\"AI超元域\" class=\"style-scope ytd-channel-name complex-string\" ellipsis-truncate=\"\" ellipsis-truncate-styling=\"\" dir=\"auto\" has-link-only_=\"\" style=\"text-align: left;\"><a class=\"yt-simple-endpoint style-scope yt-formatted-string\" spellcheck=\"false\" href=\"/@AIsuperdomain\">AI超元域</a></yt-formatted-string>\n  </div>\n  <tp-yt-paper-tooltip aria-hidden=\"true\" fit-to-visible-bounds=\"\" class=\"style-scope ytd-channel-name\" role=\"tooltip\" tabindex=\"-1\" aria-label=\"tooltip\"><!--css-build:shady--><!--css_build_scope:tp-yt-paper-tooltip--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,third_party.javascript.youtube_components.tp_yt_paper_tooltip.tp.yt.paper.tooltip.css.js--><div id=\"tooltip\" class=\"hidden style-scope tp-yt-paper-tooltip\" style-target=\"tooltip\">\n  \n    AI超元域\n  \n</div>\n</tp-yt-paper-tooltip>\n</div>\n<ytd-badge-supported-renderer class=\"style-scope ytd-channel-name\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n</ytd-channel-name>\n<yt-formatted-string id=\"description-text\" class=\"style-scope ytd-video-renderer\" is-empty=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-formatted-string--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.ui.yt_formatted_string.yt.formatted.string.css.js--><yt-attributed-string class=\"style-scope yt-formatted-string\"></yt-attributed-string></yt-formatted-string>\n<ytd-thumbnail-overlay-time-status-renderer class=\"style-scope ytd-thumbnail\" hide-time-status=\"\" overlay-style=\"DEFAULT\"><!--css-build:shady--><!--css_build_scope:ytd-thumbnail-overlay-time-status-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><ytd-badge-supported-renderer is-thumbnail-badge=\"\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" system-icons=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer><div class=\"thumbnail-overlay-badge-shape style-scope ytd-thumbnail-overlay-time-status-renderer\"><badge-shape class=\"ytBadgeShapeHost ytBadgeShapeThumbnailDefault ytBadgeShapeThumbnailBadge ytBadgeShapeTypography\" role=\"img\" aria-label=\"12分钟54秒钟\"><div class=\"ytBadgeShapeText\">12:54</div></badge-shape></div><div id=\"time-status\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" hidden=\"\"><yt-icon class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" disable-upgrade=\"\" hidden=\"\"></yt-icon><span id=\"text\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" aria-label=\"12分钟54秒钟\">\n    12:54\n  </span></div></ytd-thumbnail-overlay-time-status-renderer>",
+            "metadata_labels": [
+              "2.5万次观看",
+              "1天前"
+            ],
+            "duration_label": "12:54",
+            "evidence_scope": "Exact title, thumbnail, metadata, channel, description and duration nodes from the visible result card."
+          }
+        },
+        {
+          "platform": "youtube",
+          "external_id": "Ykn3aQi7x7o",
+          "url": "https://www.youtube.com/watch?v=Ykn3aQi7x7o",
+          "item_type": "video",
+          "title": "DeepSeek Harness 快速上手：本地安装与运行",
+          "author": "01Coder",
+          "author_url": "https://www.youtube.com/@01coder30",
+          "published_label": "1天前",
+          "content_text": null,
+          "media_kind": "video",
+          "media_url": "https://www.youtube.com/watch?v=Ykn3aQi7x7o",
+          "thumbnail_url": null,
+          "media": [
+            {
+              "kind": "video",
+              "url": "https://www.youtube.com/watch?v=Ykn3aQi7x7o"
+            }
+          ],
+          "metrics": {
+            "views": 3318,
+            "metric_source": "YouTube authenticated visible search card",
+            "observed_at": "2026-08-15T19:58:26.912Z"
+          },
+          "tags": [
+            "youtube",
+            "video",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "DeepSeek Harness 快速上手：本地安装与运行\n3318次观看\n1天前\n01Coder\n如果您想支持我的视频创作，可以考虑加入“SmallWoods” 油管会员，会员福利如下： - 忠实粉丝徽章- 表情符号- 会员贴和状态更新- ...\n最新\n字幕\n匹配章节\n0:00 DeepSeek Harness 到底是什么？",
+            "visible_dom": "<img class=\"ytCoreImageHost ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspectFill\" alt=\"true\" style=\"background-color: transparent;\">\n<a id=\"video-title\" class=\"yt-simple-endpoint style-scope ytd-video-renderer\" title=\"DeepSeek Harness 快速上手：本地安装与运行\" aria-label=\"DeepSeek Harness 快速上手：本地安装与运行 7分钟\" href=\"/watch?v=Ykn3aQi7x7o&amp;pp=ygUZIkRlZXBTZWVrIEhhcm5lc3MiIHBsdWdpbg%3D%3D\">\n            <yt-icon id=\"inline-title-icon\" class=\"style-scope ytd-video-renderer\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--></yt-icon>\n            <yt-formatted-string class=\"style-scope ytd-video-renderer\" aria-label=\"DeepSeek Harness 快速上手：本地安装与运行 7分钟\">DeepSeek Harness 快速上手：本地安装与运行</yt-formatted-string>\n          </a>\n<div id=\"metadata-line\" class=\"style-scope ytd-video-meta-block\">\n    \n    <ytd-badge-supported-renderer class=\"inline-metadata-badge style-scope ytd-video-meta-block\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"ytBadgeSupportedRendererHost\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n    <div id=\"separator\" class=\"style-scope ytd-video-meta-block\" hidden=\"\">•</div>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">3318次观看</span>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">1天前</span>\n    <dom-repeat strip-whitespace=\"\" class=\"style-scope ytd-video-meta-block\"><template is=\"dom-repeat\"></template></dom-repeat>\n  </div>\n<ytd-channel-name id=\"channel-name\" class=\" style-scope ytd-video-meta-block style-scope ytd-video-meta-block\"><!--css-build:shady--><!--css_build_scope:ytd-channel-name--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><div id=\"container\" class=\"style-scope ytd-channel-name\">\n  <div id=\"text-container\" class=\"style-scope ytd-channel-name\">\n    <yt-formatted-string id=\"text\" link-inherit-color=\"\" respect-lang-dir=\"\" title=\"01Coder\" class=\"style-scope ytd-channel-name complex-string\" ellipsis-truncate=\"\" ellipsis-truncate-styling=\"\" dir=\"auto\" style=\"text-align: left;\" has-link-only_=\"\"><a class=\"yt-simple-endpoint style-scope yt-formatted-string\" spellcheck=\"false\" href=\"/@01coder30\">01Coder</a></yt-formatted-string>\n  </div>\n  <tp-yt-paper-tooltip aria-hidden=\"true\" fit-to-visible-bounds=\"\" class=\"style-scope ytd-channel-name\" role=\"tooltip\" tabindex=\"-1\" aria-label=\"tooltip\"><!--css-build:shady--><!--css_build_scope:tp-yt-paper-tooltip--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,third_party.javascript.youtube_components.tp_yt_paper_tooltip.tp.yt.paper.tooltip.css.js--><div id=\"tooltip\" class=\"hidden style-scope tp-yt-paper-tooltip\" style-target=\"tooltip\">\n  \n    01Coder\n  \n</div>\n</tp-yt-paper-tooltip>\n</div>\n<ytd-badge-supported-renderer class=\"style-scope ytd-channel-name\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n</ytd-channel-name>\n<yt-formatted-string id=\"description-text\" class=\"style-scope ytd-video-renderer\" is-empty=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-formatted-string--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.ui.yt_formatted_string.yt.formatted.string.css.js--><yt-attributed-string class=\"style-scope yt-formatted-string\"></yt-attributed-string></yt-formatted-string>\n<ytd-thumbnail-overlay-time-status-renderer class=\"style-scope ytd-thumbnail\" hide-time-status=\"\" overlay-style=\"DEFAULT\"><!--css-build:shady--><!--css_build_scope:ytd-thumbnail-overlay-time-status-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><ytd-badge-supported-renderer is-thumbnail-badge=\"\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" system-icons=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer><div class=\"thumbnail-overlay-badge-shape style-scope ytd-thumbnail-overlay-time-status-renderer\"><badge-shape class=\"ytBadgeShapeHost ytBadgeShapeThumbnailDefault ytBadgeShapeThumbnailBadge ytBadgeShapeTypography\" role=\"img\" aria-label=\"7分钟\"><div class=\"ytBadgeShapeText\">7:00</div></badge-shape></div><div id=\"time-status\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" hidden=\"\"><yt-icon class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" disable-upgrade=\"\" hidden=\"\"></yt-icon><span id=\"text\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" aria-label=\"7分钟\">\n    7:00\n  </span></div></ytd-thumbnail-overlay-time-status-renderer>",
+            "metadata_labels": [
+              "3318次观看",
+              "1天前"
+            ],
+            "duration_label": "7:00\n    7:00",
+            "evidence_scope": "Exact title, thumbnail, metadata, channel, description and duration nodes from the visible result card."
+          }
+        },
+        {
+          "platform": "youtube",
+          "external_id": "uag_fnGyh10",
+          "url": "https://www.youtube.com/watch?v=uag_fnGyh10",
+          "item_type": "video",
+          "title": "DeepSeek's New AI Harness Changes Everything",
+          "author": "Julian Goldie SEO",
+          "author_url": "https://www.youtube.com/@JulianGoldieSEO",
+          "published_label": "18小时前",
+          "content_text": null,
+          "media_kind": "video",
+          "media_url": "https://www.youtube.com/watch?v=uag_fnGyh10",
+          "thumbnail_url": "https://i.ytimg.com/vi/uag_fnGyh10/hq720_custom_1.jpg?sqp=CJSIg9QG-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCps_4Ym95IBH_trnCz7uNBwyy5kQ",
+          "media": [
+            {
+              "kind": "thumbnail",
+              "url": "https://i.ytimg.com/vi/uag_fnGyh10/hq720_custom_1.jpg?sqp=CJSIg9QG-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCps_4Ym95IBH_trnCz7uNBwyy5kQ",
+              "thumbnail_url": "https://i.ytimg.com/vi/uag_fnGyh10/hq720_custom_1.jpg?sqp=CJSIg9QG-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCps_4Ym95IBH_trnCz7uNBwyy5kQ"
+            },
+            {
+              "kind": "video",
+              "url": "https://www.youtube.com/watch?v=uag_fnGyh10"
+            }
+          ],
+          "metrics": {
+            "views": 10000,
+            "metric_source": "YouTube authenticated visible search card",
+            "observed_at": "2026-08-15T19:58:26.912Z"
+          },
+          "tags": [
+            "youtube",
+            "video",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "12:23\n正在播放\nDeepSeek's New AI Harness Changes Everything\n1万次观看\n18小时前\nJulian Goldie SEO\nGet the Agent OS & DeepSeek Harness Masterclass https://www.skool.com/ai-profit-lab-7462/about Want to make money and ...\n最新\n8 个章节\nIntro: DeepSeek's Viral Launch | What is an AI Harness? | The Plugin Everything Model | Growth Stats and Community Tools | How to Run it Locally | DeepSeek V4 Pro & API News | Building an Agent Operating System | The Future of Modular AI",
+            "visible_dom": "<img class=\"ytCoreImageHost ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspectFill ytCoreImageLoaded\" alt=\"true\" style=\"background-color: transparent;\" src=\"https://i.ytimg.com/vi/uag_fnGyh10/hq720_custom_1.jpg?sqp=CJSIg9QG-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&amp;rs=AOn4CLCps_4Ym95IBH_trnCz7uNBwyy5kQ\">\n<a id=\"video-title\" class=\"yt-simple-endpoint style-scope ytd-video-renderer\" title=\"DeepSeek's New AI Harness Changes Everything\" aria-label=\"DeepSeek's New AI Harness Changes Everything 12分钟23秒钟\" href=\"/watch?v=uag_fnGyh10&amp;pp=ygUZIkRlZXBTZWVrIEhhcm5lc3MiIHBsdWdpbg%3D%3D\">\n            <yt-icon id=\"inline-title-icon\" class=\"style-scope ytd-video-renderer\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--></yt-icon>\n            <yt-formatted-string class=\"style-scope ytd-video-renderer\" aria-label=\"DeepSeek's New AI Harness Changes Everything 12分钟23秒钟\">DeepSeek's New AI Harness Changes Everything</yt-formatted-string>\n          </a>\n<div id=\"metadata-line\" class=\"style-scope ytd-video-meta-block\">\n    \n    <ytd-badge-supported-renderer class=\"inline-metadata-badge style-scope ytd-video-meta-block\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"ytBadgeSupportedRendererHost\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n    <div id=\"separator\" class=\"style-scope ytd-video-meta-block\" hidden=\"\">•</div>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">1万次观看</span>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">18小时前</span>\n    <dom-repeat strip-whitespace=\"\" class=\"style-scope ytd-video-meta-block\"><template is=\"dom-repeat\"></template></dom-repeat>\n  </div>\n<ytd-channel-name id=\"channel-name\" class=\" style-scope ytd-video-meta-block style-scope ytd-video-meta-block\"><!--css-build:shady--><!--css_build_scope:ytd-channel-name--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><div id=\"container\" class=\"style-scope ytd-channel-name\">\n  <div id=\"text-container\" class=\"style-scope ytd-channel-name\">\n    <yt-formatted-string id=\"text\" link-inherit-color=\"\" respect-lang-dir=\"\" title=\"Julian Goldie SEO\" class=\"style-scope ytd-channel-name complex-string\" ellipsis-truncate=\"\" ellipsis-truncate-styling=\"\" dir=\"auto\" style=\"text-align: left;\" has-link-only_=\"\"><a class=\"yt-simple-endpoint style-scope yt-formatted-string\" spellcheck=\"false\" href=\"/@JulianGoldieSEO\">Julian Goldie SEO</a></yt-formatted-string>\n  </div>\n  <tp-yt-paper-tooltip aria-hidden=\"true\" fit-to-visible-bounds=\"\" class=\"style-scope ytd-channel-name\" role=\"tooltip\" tabindex=\"-1\" aria-label=\"tooltip\"><!--css-build:shady--><!--css_build_scope:tp-yt-paper-tooltip--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,third_party.javascript.youtube_components.tp_yt_paper_tooltip.tp.yt.paper.tooltip.css.js--><div id=\"tooltip\" class=\"hidden style-scope tp-yt-paper-tooltip\" style-target=\"tooltip\">\n  \n    Julian Goldie SEO\n  \n</div>\n</tp-yt-paper-tooltip>\n</div>\n<ytd-badge-supported-renderer class=\"style-scope ytd-channel-name\" system-icons=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"ytBadgeSupportedRendererHost\"><div class=\"badge-shape ytBadgeSupportedRendererBadgeShape ytBadgeSupportedRendererBadgeShapeStyleTypeVerifiedArtist\"><yt-metadata-badge-renderer class=\"ytMetadataBadgeRendererHost\"><badge-shape class=\"ytBadgeShapeHost ytBadgeShapeDefault ytBadgeShapeNoText ytBadgeShapeModern ytBadgeShapeTypography\" role=\"img\" aria-label=\"已验证\"><div class=\"ytBadgeShapeIcon\"><span class=\"yt-icon-shape ytSpecIconShapeHost\"><div style=\"width: 24px; height: 24px; display: block; fill: currentcolor;\"><svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24\" viewBox=\"0 0 24 24\" width=\"24\" focusable=\"false\" aria-hidden=\"true\" style=\"pointer-events: none; display: inherit; width: 100%; height: 100%;\"><path d=\"M12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1Zm5.707 7.293a1 1 0 010 1.414L10 17.414l-3.707-3.707a1 1 0 111.414-1.414L10 14.586l6.293-6.293a1 1 0 011.414 0Z\"></path></svg></div></span></div><div class=\"ytBadgeShapeText\"></div></badge-shape></yt-metadata-badge-renderer></div></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n</ytd-channel-name>\n<yt-formatted-string id=\"description-text\" class=\"style-scope ytd-video-renderer\" is-empty=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-formatted-string--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.ui.yt_formatted_string.yt.formatted.string.css.js--><yt-attributed-string class=\"style-scope yt-formatted-string\"></yt-attributed-string></yt-formatted-string>\n<ytd-thumbnail-overlay-time-status-renderer class=\"style-scope ytd-thumbnail\" hide-time-status=\"\" overlay-style=\"DEFAULT\"><!--css-build:shady--><!--css_build_scope:ytd-thumbnail-overlay-time-status-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><ytd-badge-supported-renderer is-thumbnail-badge=\"\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" system-icons=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer><div class=\"thumbnail-overlay-badge-shape style-scope ytd-thumbnail-overlay-time-status-renderer\"><badge-shape class=\"ytBadgeShapeHost ytBadgeShapeThumbnailDefault ytBadgeShapeThumbnailBadge ytBadgeShapeTypography\" role=\"img\" aria-label=\"12分钟23秒钟\"><div class=\"ytBadgeShapeText\">12:23</div></badge-shape></div><div id=\"time-status\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" hidden=\"\"><yt-icon class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" disable-upgrade=\"\" hidden=\"\"></yt-icon><span id=\"text\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" aria-label=\"12分钟23秒钟\">\n    12:23\n  </span></div></ytd-thumbnail-overlay-time-status-renderer>",
+            "metadata_labels": [
+              "1万次观看",
+              "18小时前"
+            ],
+            "duration_label": "12:23",
+            "evidence_scope": "Exact title, thumbnail, metadata, channel, description and duration nodes from the visible result card."
+          }
+        },
+        {
+          "platform": "youtube",
+          "external_id": "GZsULMq1Y9E",
+          "url": "https://www.youtube.com/watch?v=GZsULMq1Y9E",
+          "item_type": "video",
+          "title": "7分钟解读DeepSeek Harness",
+          "author": "晓辉博士",
+          "author_url": "https://www.youtube.com/@Dr.Xiaohui",
+          "published_label": "21小时前",
+          "content_text": null,
+          "media_kind": "video",
+          "media_url": "https://www.youtube.com/watch?v=GZsULMq1Y9E",
+          "thumbnail_url": null,
+          "media": [
+            {
+              "kind": "video",
+              "url": "https://www.youtube.com/watch?v=GZsULMq1Y9E"
+            }
+          ],
+          "metrics": {
+            "views": 4461,
+            "metric_source": "YouTube authenticated visible search card",
+            "observed_at": "2026-08-15T19:58:26.912Z"
+          },
+          "tags": [
+            "youtube",
+            "video",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "7分钟解读DeepSeek Harness\n4461次观看\n21小时前\n晓辉博士\n上午跟新西兰本地的几个朋友聊到AI落地，我推荐他们去看看DeepSeek这两天发布的DeepSeek Harness开源框架，本着一切皆 ...\n最新",
+            "visible_dom": "<img class=\"ytCoreImageHost ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspectFill\" alt=\"true\" style=\"background-color: transparent;\">\n<a id=\"video-title\" class=\"yt-simple-endpoint style-scope ytd-video-renderer\" title=\"7分钟解读DeepSeek Harness\" aria-label=\"7分钟解读DeepSeek Harness 7分钟37秒钟\" href=\"/watch?v=GZsULMq1Y9E&amp;pp=ygUZIkRlZXBTZWVrIEhhcm5lc3MiIHBsdWdpbg%3D%3D\">\n            <yt-icon id=\"inline-title-icon\" class=\"style-scope ytd-video-renderer\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--></yt-icon>\n            <yt-formatted-string class=\"style-scope ytd-video-renderer\" aria-label=\"7分钟解读DeepSeek Harness 7分钟37秒钟\">7分钟解读DeepSeek Harness</yt-formatted-string>\n          </a>\n<div id=\"metadata-line\" class=\"style-scope ytd-video-meta-block\">\n    \n    <ytd-badge-supported-renderer class=\"inline-metadata-badge style-scope ytd-video-meta-block\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"ytBadgeSupportedRendererHost\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n    <div id=\"separator\" class=\"style-scope ytd-video-meta-block\" hidden=\"\">•</div>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">4461次观看</span>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">21小时前</span>\n    <dom-repeat strip-whitespace=\"\" class=\"style-scope ytd-video-meta-block\"><template is=\"dom-repeat\"></template></dom-repeat>\n  </div>\n<ytd-channel-name id=\"channel-name\" class=\" style-scope ytd-video-meta-block style-scope ytd-video-meta-block\"><!--css-build:shady--><!--css_build_scope:ytd-channel-name--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><div id=\"container\" class=\"style-scope ytd-channel-name\">\n  <div id=\"text-container\" class=\"style-scope ytd-channel-name\">\n    <yt-formatted-string id=\"text\" link-inherit-color=\"\" respect-lang-dir=\"\" title=\"晓辉博士\" class=\"style-scope ytd-channel-name complex-string\" ellipsis-truncate=\"\" ellipsis-truncate-styling=\"\" dir=\"auto\" style=\"text-align: left;\" has-link-only_=\"\"><a class=\"yt-simple-endpoint style-scope yt-formatted-string\" spellcheck=\"false\" href=\"/@Dr.Xiaohui\">晓辉博士</a></yt-formatted-string>\n  </div>\n  <tp-yt-paper-tooltip aria-hidden=\"true\" fit-to-visible-bounds=\"\" class=\"style-scope ytd-channel-name\" role=\"tooltip\" tabindex=\"-1\" aria-label=\"tooltip\"><!--css-build:shady--><!--css_build_scope:tp-yt-paper-tooltip--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,third_party.javascript.youtube_components.tp_yt_paper_tooltip.tp.yt.paper.tooltip.css.js--><div id=\"tooltip\" class=\"hidden style-scope tp-yt-paper-tooltip\" style-target=\"tooltip\">\n  \n    晓辉博士\n  \n</div>\n</tp-yt-paper-tooltip>\n</div>\n<ytd-badge-supported-renderer class=\"style-scope ytd-channel-name\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n</ytd-channel-name>\n<yt-formatted-string id=\"description-text\" class=\"style-scope ytd-video-renderer\" is-empty=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-formatted-string--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.ui.yt_formatted_string.yt.formatted.string.css.js--><yt-attributed-string class=\"style-scope yt-formatted-string\"></yt-attributed-string></yt-formatted-string>\n<ytd-thumbnail-overlay-time-status-renderer class=\"style-scope ytd-thumbnail\" hide-time-status=\"\" overlay-style=\"DEFAULT\"><!--css-build:shady--><!--css_build_scope:ytd-thumbnail-overlay-time-status-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><ytd-badge-supported-renderer is-thumbnail-badge=\"\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" system-icons=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer><div class=\"thumbnail-overlay-badge-shape style-scope ytd-thumbnail-overlay-time-status-renderer\"><badge-shape class=\"ytBadgeShapeHost ytBadgeShapeThumbnailDefault ytBadgeShapeThumbnailBadge ytBadgeShapeTypography\" role=\"img\" aria-label=\"7分钟37秒钟\"><div class=\"ytBadgeShapeText\">7:37</div></badge-shape></div><div id=\"time-status\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" hidden=\"\"><yt-icon class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" disable-upgrade=\"\" hidden=\"\"></yt-icon><span id=\"text\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" aria-label=\"7分钟37秒钟\">\n    7:37\n  </span></div></ytd-thumbnail-overlay-time-status-renderer>",
+            "metadata_labels": [
+              "4461次观看",
+              "21小时前"
+            ],
+            "duration_label": "7:37\n    7:37",
+            "evidence_scope": "Exact title, thumbnail, metadata, channel, description and duration nodes from the visible result card."
+          }
+        },
+        {
+          "platform": "youtube",
+          "external_id": "iieUVcoPjlI",
+          "url": "https://www.youtube.com/watch?v=iieUVcoPjlI",
+          "item_type": "video",
+          "title": "How to Develop a DeepSeek Harness Plugin?",
+          "author": "01Coder",
+          "author_url": "https://www.youtube.com/@01coder30",
+          "published_label": "18小时前",
+          "content_text": null,
+          "media_kind": "video",
+          "media_url": "https://www.youtube.com/watch?v=iieUVcoPjlI",
+          "thumbnail_url": "https://i.ytimg.com/vi/iieUVcoPjlI/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBHDSBdjVB2fGO8K4N1BsyYxI8aHg",
+          "media": [
+            {
+              "kind": "thumbnail",
+              "url": "https://i.ytimg.com/vi/iieUVcoPjlI/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBHDSBdjVB2fGO8K4N1BsyYxI8aHg",
+              "thumbnail_url": "https://i.ytimg.com/vi/iieUVcoPjlI/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBHDSBdjVB2fGO8K4N1BsyYxI8aHg"
+            },
+            {
+              "kind": "video",
+              "url": "https://www.youtube.com/watch?v=iieUVcoPjlI"
+            }
+          ],
+          "metrics": {
+            "views": 1172,
+            "metric_source": "YouTube authenticated visible search card",
+            "observed_at": "2026-08-15T19:58:26.912Z"
+          },
+          "tags": [
+            "youtube",
+            "video",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "7:10\n正在播放\nHow to Develop a DeepSeek Harness Plugin?\n1172次观看\n18小时前\n01Coder\nIf you'd like to support my video creations, consider subscribing to \"SmallWoods\" YouTube channel. Membership benefits include ...\n最新\n4K\n7 个章节\n开场：从本地运行继续往下 | DeepSeek Harness 插件是什么 | 用真实项目拆解插件结构 | 为什么选择 MCP Apps | MCP Apps 插件架构 | 安装配置与 2048 演示 | 总结",
+            "visible_dom": "<img class=\"ytCoreImageHost ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspectFill ytCoreImageLoaded\" alt=\"true\" style=\"background-color: transparent;\" src=\"https://i.ytimg.com/vi/iieUVcoPjlI/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&amp;rs=AOn4CLBHDSBdjVB2fGO8K4N1BsyYxI8aHg\">\n<a id=\"video-title\" class=\"yt-simple-endpoint style-scope ytd-video-renderer\" title=\"How to Develop a DeepSeek Harness Plugin?\" aria-label=\"How to Develop a DeepSeek Harness Plugin? 7分钟10秒钟\" href=\"/watch?v=iieUVcoPjlI&amp;pp=ygUZIkRlZXBTZWVrIEhhcm5lc3MiIHBsdWdpbg%3D%3D\">\n            <yt-icon id=\"inline-title-icon\" class=\"style-scope ytd-video-renderer\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--></yt-icon>\n            <yt-formatted-string class=\"style-scope ytd-video-renderer\" aria-label=\"How to Develop a DeepSeek Harness Plugin? 7分钟10秒钟\">How to Develop a DeepSeek Harness Plugin?</yt-formatted-string>\n          </a>\n<div id=\"metadata-line\" class=\"style-scope ytd-video-meta-block\">\n    \n    <ytd-badge-supported-renderer class=\"inline-metadata-badge style-scope ytd-video-meta-block\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"ytBadgeSupportedRendererHost\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n    <div id=\"separator\" class=\"style-scope ytd-video-meta-block\" hidden=\"\">•</div>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">1172次观看</span>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">18小时前</span>\n    <dom-repeat strip-whitespace=\"\" class=\"style-scope ytd-video-meta-block\"><template is=\"dom-repeat\"></template></dom-repeat>\n  </div>\n<ytd-channel-name id=\"channel-name\" class=\" style-scope ytd-video-meta-block style-scope ytd-video-meta-block\"><!--css-build:shady--><!--css_build_scope:ytd-channel-name--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><div id=\"container\" class=\"style-scope ytd-channel-name\">\n  <div id=\"text-container\" class=\"style-scope ytd-channel-name\">\n    <yt-formatted-string id=\"text\" link-inherit-color=\"\" respect-lang-dir=\"\" title=\"01Coder\" class=\"style-scope ytd-channel-name complex-string\" ellipsis-truncate=\"\" ellipsis-truncate-styling=\"\" dir=\"auto\" style=\"text-align: left;\" has-link-only_=\"\"><a class=\"yt-simple-endpoint style-scope yt-formatted-string\" spellcheck=\"false\" href=\"/@01coder30\">01Coder</a></yt-formatted-string>\n  </div>\n  <tp-yt-paper-tooltip aria-hidden=\"true\" fit-to-visible-bounds=\"\" class=\"style-scope ytd-channel-name\" role=\"tooltip\" tabindex=\"-1\" aria-label=\"tooltip\"><!--css-build:shady--><!--css_build_scope:tp-yt-paper-tooltip--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,third_party.javascript.youtube_components.tp_yt_paper_tooltip.tp.yt.paper.tooltip.css.js--><div id=\"tooltip\" class=\"hidden style-scope tp-yt-paper-tooltip\" style-target=\"tooltip\">\n  \n    01Coder\n  \n</div>\n</tp-yt-paper-tooltip>\n</div>\n<ytd-badge-supported-renderer class=\"style-scope ytd-channel-name\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n</ytd-channel-name>\n<yt-formatted-string id=\"description-text\" class=\"style-scope ytd-video-renderer\" is-empty=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-formatted-string--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.ui.yt_formatted_string.yt.formatted.string.css.js--><yt-attributed-string class=\"style-scope yt-formatted-string\"></yt-attributed-string></yt-formatted-string>\n<ytd-thumbnail-overlay-time-status-renderer class=\"style-scope ytd-thumbnail\" hide-time-status=\"\" overlay-style=\"DEFAULT\"><!--css-build:shady--><!--css_build_scope:ytd-thumbnail-overlay-time-status-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><ytd-badge-supported-renderer is-thumbnail-badge=\"\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" system-icons=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer><div class=\"thumbnail-overlay-badge-shape style-scope ytd-thumbnail-overlay-time-status-renderer\"><badge-shape class=\"ytBadgeShapeHost ytBadgeShapeThumbnailDefault ytBadgeShapeThumbnailBadge ytBadgeShapeTypography\" role=\"img\" aria-label=\"7分钟10秒钟\"><div class=\"ytBadgeShapeText\">7:10</div></badge-shape></div><div id=\"time-status\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" hidden=\"\"><yt-icon class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" disable-upgrade=\"\" hidden=\"\"></yt-icon><span id=\"text\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" aria-label=\"7分钟10秒钟\">\n    7:10\n  </span></div></ytd-thumbnail-overlay-time-status-renderer>",
+            "metadata_labels": [
+              "1172次观看",
+              "18小时前"
+            ],
+            "duration_label": "7:10",
+            "evidence_scope": "Exact title, thumbnail, metadata, channel, description and duration nodes from the visible result card."
+          }
+        },
+        {
+          "platform": "youtube",
+          "external_id": "CAb1PaVBCEM",
+          "url": "https://www.youtube.com/watch?v=CAb1PaVBCEM",
+          "item_type": "video",
+          "title": "[DeepSeek's Latest Open-Source Project] DeepSeek Harness Is Officially Here! In-Depth Analysis of...",
+          "author": "鲲鹏Talk",
+          "author_url": "https://www.youtube.com/@KunpengTalk",
+          "published_label": "2天前",
+          "content_text": null,
+          "media_kind": "video",
+          "media_url": "https://www.youtube.com/watch?v=CAb1PaVBCEM",
+          "thumbnail_url": "https://i.ytimg.com/vi/CAb1PaVBCEM/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AHUCIAC0AWKAgwIABABGFkgYChlMA8=&rs=AOn4CLDGwLAtMR2Mi3qN63ofqL1nIg0DUA",
+          "media": [
+            {
+              "kind": "thumbnail",
+              "url": "https://i.ytimg.com/vi/CAb1PaVBCEM/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AHUCIAC0AWKAgwIABABGFkgYChlMA8=&rs=AOn4CLDGwLAtMR2Mi3qN63ofqL1nIg0DUA",
+              "thumbnail_url": "https://i.ytimg.com/vi/CAb1PaVBCEM/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AHUCIAC0AWKAgwIABABGFkgYChlMA8=&rs=AOn4CLDGwLAtMR2Mi3qN63ofqL1nIg0DUA"
+            },
+            {
+              "kind": "video",
+              "url": "https://www.youtube.com/watch?v=CAb1PaVBCEM"
+            }
+          ],
+          "metrics": {
+            "views": 3335,
+            "metric_source": "YouTube authenticated visible search card",
+            "observed_at": "2026-08-15T19:58:26.912Z"
+          },
+          "tags": [
+            "youtube",
+            "video",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "9:13\n正在播放\n[DeepSeek's Latest Open-Source Project] DeepSeek Harness Is Officially Here! In-Depth Analysis of...\n3335次观看\n2天前\n鲲鹏Talk\nDeepSeek's latest open-source project, DeepSeek Harness (dsh), is here! This is the official open-source Agent Harness ...\n最新",
+            "visible_dom": "<img class=\"ytCoreImageHost ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspectFill ytCoreImageLoaded\" alt=\"true\" style=\"background-color: transparent;\" src=\"https://i.ytimg.com/vi/CAb1PaVBCEM/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AHUCIAC0AWKAgwIABABGFkgYChlMA8=&amp;rs=AOn4CLDGwLAtMR2Mi3qN63ofqL1nIg0DUA\">\n<a id=\"video-title\" class=\"yt-simple-endpoint style-scope ytd-video-renderer\" title=\"[DeepSeek's Latest Open-Source Project] DeepSeek Harness Is Officially Here! In-Depth Analysis of...\" aria-label=\"[DeepSeek's Latest Open-Source Project] DeepSeek Harness Is Officially Here! In-Depth Analysis of... 9分钟13秒钟\" href=\"/watch?v=CAb1PaVBCEM&amp;pp=ygUZIkRlZXBTZWVrIEhhcm5lc3MiIHBsdWdpbg%3D%3D\">\n            <yt-icon id=\"inline-title-icon\" class=\"style-scope ytd-video-renderer\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--></yt-icon>\n            <yt-formatted-string class=\"style-scope ytd-video-renderer\" aria-label=\"[DeepSeek's Latest Open-Source Project] DeepSeek Harness Is Officially Here! In-Depth Analysis of... 9分钟13秒钟\">[DeepSeek's Latest Open-Source Project] DeepSeek Harness Is Officially Here! In-Depth Analysis of...</yt-formatted-string>\n          </a>\n<div id=\"metadata-line\" class=\"style-scope ytd-video-meta-block\">\n    \n    <ytd-badge-supported-renderer class=\"inline-metadata-badge style-scope ytd-video-meta-block\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"ytBadgeSupportedRendererHost\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n    <div id=\"separator\" class=\"style-scope ytd-video-meta-block\" hidden=\"\">•</div>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">3335次观看</span>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">2天前</span>\n    <dom-repeat strip-whitespace=\"\" class=\"style-scope ytd-video-meta-block\"><template is=\"dom-repeat\"></template></dom-repeat>\n  </div>\n<ytd-channel-name id=\"channel-name\" class=\" style-scope ytd-video-meta-block style-scope ytd-video-meta-block\"><!--css-build:shady--><!--css_build_scope:ytd-channel-name--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><div id=\"container\" class=\"style-scope ytd-channel-name\">\n  <div id=\"text-container\" class=\"style-scope ytd-channel-name\">\n    <yt-formatted-string id=\"text\" link-inherit-color=\"\" respect-lang-dir=\"\" title=\"鲲鹏Talk\" class=\"style-scope ytd-channel-name complex-string\" ellipsis-truncate=\"\" ellipsis-truncate-styling=\"\" dir=\"auto\" style=\"text-align: left;\" has-link-only_=\"\"><a class=\"yt-simple-endpoint style-scope yt-formatted-string\" spellcheck=\"false\" href=\"/@KunpengTalk\">鲲鹏Talk</a></yt-formatted-string>\n  </div>\n  <tp-yt-paper-tooltip aria-hidden=\"true\" fit-to-visible-bounds=\"\" class=\"style-scope ytd-channel-name\" role=\"tooltip\" tabindex=\"-1\" aria-label=\"tooltip\"><!--css-build:shady--><!--css_build_scope:tp-yt-paper-tooltip--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,third_party.javascript.youtube_components.tp_yt_paper_tooltip.tp.yt.paper.tooltip.css.js--><div id=\"tooltip\" class=\"hidden style-scope tp-yt-paper-tooltip\" style-target=\"tooltip\">\n  \n    鲲鹏Talk\n  \n</div>\n</tp-yt-paper-tooltip>\n</div>\n<ytd-badge-supported-renderer class=\"style-scope ytd-channel-name\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n</ytd-channel-name>\n<yt-formatted-string id=\"description-text\" class=\"style-scope ytd-video-renderer\" is-empty=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-formatted-string--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.ui.yt_formatted_string.yt.formatted.string.css.js--><yt-attributed-string class=\"style-scope yt-formatted-string\"></yt-attributed-string></yt-formatted-string>\n<ytd-thumbnail-overlay-time-status-renderer class=\"style-scope ytd-thumbnail\" hide-time-status=\"\" overlay-style=\"DEFAULT\"><!--css-build:shady--><!--css_build_scope:ytd-thumbnail-overlay-time-status-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><ytd-badge-supported-renderer is-thumbnail-badge=\"\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" system-icons=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer><div class=\"thumbnail-overlay-badge-shape style-scope ytd-thumbnail-overlay-time-status-renderer\"><badge-shape class=\"ytBadgeShapeHost ytBadgeShapeThumbnailDefault ytBadgeShapeThumbnailBadge ytBadgeShapeTypography\" role=\"img\" aria-label=\"9分钟13秒钟\"><div class=\"ytBadgeShapeText\">9:13</div></badge-shape></div><div id=\"time-status\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" hidden=\"\"><yt-icon class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" disable-upgrade=\"\" hidden=\"\"></yt-icon><span id=\"text\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" aria-label=\"9分钟13秒钟\">\n    9:13\n  </span></div></ytd-thumbnail-overlay-time-status-renderer>",
+            "metadata_labels": [
+              "3335次观看",
+              "2天前"
+            ],
+            "duration_label": "9:13",
+            "evidence_scope": "Exact title, thumbnail, metadata, channel, description and duration nodes from the visible result card."
+          }
+        },
+        {
+          "platform": "youtube",
+          "external_id": "LAOLbK_KH9g",
+          "url": "https://www.youtube.com/watch?v=LAOLbK_KH9g",
+          "item_type": "video",
+          "title": "发布 24 小时冲 6 万 star！DeepSeek  Harness 从 0 开始 快速上手 ｜ 一切皆插件 ｜ 3必装插件分享",
+          "author": "傅云飞飞",
+          "author_url": "https://www.youtube.com/@yunfeifei-k5h",
+          "published_label": "11小时前",
+          "content_text": null,
+          "media_kind": "video",
+          "media_url": "https://www.youtube.com/watch?v=LAOLbK_KH9g",
+          "thumbnail_url": null,
+          "media": [
+            {
+              "kind": "video",
+              "url": "https://www.youtube.com/watch?v=LAOLbK_KH9g"
+            }
+          ],
+          "metrics": {
+            "views": 2594,
+            "metric_source": "YouTube authenticated visible search card",
+            "observed_at": "2026-08-15T19:58:26.912Z"
+          },
+          "tags": [
+            "youtube",
+            "video",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "发布 24 小时冲 6 万 star！DeepSeek Harness 从 0 开始 快速上手 ｜ 一切皆插件 ｜ 3必装插件分享\n2594次观看\n11小时前\n傅云飞飞\n相关资源 完整图文教程（所有链接、步骤、避坑点都在这） https://feifei.537393.xyz/posts/deepseek-harness-dsh-guide/ 相关 ...\n最新\n4K\n5 个章节\n开场 · 什么是 DeepSeek Harness | 安装 · 从 0 装到启动 | 上手 · 基础功能实测 | 三大必装插件 | 避坑提醒",
+            "visible_dom": "<img class=\"ytCoreImageHost ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspectFill\" alt=\"true\" style=\"background-color: transparent;\">\n<a id=\"video-title\" class=\"yt-simple-endpoint style-scope ytd-video-renderer\" title=\"发布 24 小时冲 6 万 star！DeepSeek  Harness 从 0 开始 快速上手 ｜ 一切皆插件 ｜ 3必装插件分享\" aria-label=\"发布 24 小时冲 6 万 star！DeepSeek  Harness 从 0 开始 快速上手 ｜ 一切皆插件 ｜ 3必装插件分享 7分钟8秒钟\" href=\"/watch?v=LAOLbK_KH9g&amp;pp=ygUZIkRlZXBTZWVrIEhhcm5lc3MiIHBsdWdpbg%3D%3D\">\n            <yt-icon id=\"inline-title-icon\" class=\"style-scope ytd-video-renderer\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--></yt-icon>\n            <yt-formatted-string class=\"style-scope ytd-video-renderer\" aria-label=\"发布 24 小时冲 6 万 star！DeepSeek  Harness 从 0 开始 快速上手 ｜ 一切皆插件 ｜ 3必装插件分享 7分钟8秒钟\">发布 24 小时冲 6 万 star！DeepSeek  Harness 从 0 开始 快速上手 ｜ 一切皆插件 ｜ 3必装插件分享</yt-formatted-string>\n          </a>\n<div id=\"metadata-line\" class=\"style-scope ytd-video-meta-block\">\n    \n    <ytd-badge-supported-renderer class=\"inline-metadata-badge style-scope ytd-video-meta-block\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"ytBadgeSupportedRendererHost\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n    <div id=\"separator\" class=\"style-scope ytd-video-meta-block\" hidden=\"\">•</div>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">2594次观看</span>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">11小时前</span>\n    <dom-repeat strip-whitespace=\"\" class=\"style-scope ytd-video-meta-block\"><template is=\"dom-repeat\"></template></dom-repeat>\n  </div>\n<ytd-channel-name id=\"channel-name\" class=\" style-scope ytd-video-meta-block style-scope ytd-video-meta-block\"><!--css-build:shady--><!--css_build_scope:ytd-channel-name--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><div id=\"container\" class=\"style-scope ytd-channel-name\">\n  <div id=\"text-container\" class=\"style-scope ytd-channel-name\">\n    <yt-formatted-string id=\"text\" link-inherit-color=\"\" respect-lang-dir=\"\" title=\"傅云飞飞\" class=\"style-scope ytd-channel-name complex-string\" ellipsis-truncate=\"\" ellipsis-truncate-styling=\"\" dir=\"auto\" has-link-only_=\"\" style=\"text-align: left;\"><a class=\"yt-simple-endpoint style-scope yt-formatted-string\" spellcheck=\"false\" href=\"/@yunfeifei-k5h\">傅云飞飞</a></yt-formatted-string>\n  </div>\n  <tp-yt-paper-tooltip aria-hidden=\"true\" fit-to-visible-bounds=\"\" class=\"style-scope ytd-channel-name\" role=\"tooltip\" tabindex=\"-1\" aria-label=\"tooltip\"><!--css-build:shady--><!--css_build_scope:tp-yt-paper-tooltip--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,third_party.javascript.youtube_components.tp_yt_paper_tooltip.tp.yt.paper.tooltip.css.js--><div id=\"tooltip\" class=\"hidden style-scope tp-yt-paper-tooltip\" style-target=\"tooltip\">\n  \n    傅云飞飞\n  \n</div>\n</tp-yt-paper-tooltip>\n</div>\n<ytd-badge-supported-renderer class=\"style-scope ytd-channel-name\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n</ytd-channel-name>\n<yt-formatted-string id=\"description-text\" class=\"style-scope ytd-video-renderer\" is-empty=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-formatted-string--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.ui.yt_formatted_string.yt.formatted.string.css.js--><yt-attributed-string class=\"style-scope yt-formatted-string\"></yt-attributed-string></yt-formatted-string>\n<ytd-thumbnail-overlay-time-status-renderer class=\"style-scope ytd-thumbnail\" hide-time-status=\"\" overlay-style=\"DEFAULT\"><!--css-build:shady--><!--css_build_scope:ytd-thumbnail-overlay-time-status-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><ytd-badge-supported-renderer is-thumbnail-badge=\"\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" system-icons=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer><div class=\"thumbnail-overlay-badge-shape style-scope ytd-thumbnail-overlay-time-status-renderer\"><badge-shape class=\"ytBadgeShapeHost ytBadgeShapeThumbnailDefault ytBadgeShapeThumbnailBadge ytBadgeShapeTypography\" role=\"img\" aria-label=\"7分钟8秒钟\"><div class=\"ytBadgeShapeText\">7:08</div></badge-shape></div><div id=\"time-status\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" hidden=\"\"><yt-icon class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" disable-upgrade=\"\" hidden=\"\"></yt-icon><span id=\"text\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" aria-label=\"7分钟8秒钟\">\n    7:08\n  </span></div></ytd-thumbnail-overlay-time-status-renderer>",
+            "metadata_labels": [
+              "2594次观看",
+              "11小时前"
+            ],
+            "duration_label": "7:08\n    7:08",
+            "evidence_scope": "Exact title, thumbnail, metadata, channel, description and duration nodes from the visible result card."
+          }
+        },
+        {
+          "platform": "youtube",
+          "external_id": "Gjhy9FyMvv4",
+          "url": "https://www.youtube.com/watch?v=Gjhy9FyMvv4",
+          "item_type": "video",
+          "title": "一切皆插件？我实测开源的 DeepSeek Harness 到底能有多震撼？",
+          "author": "AI Toolbox",
+          "author_url": "https://www.youtube.com/@dingkunpeng",
+          "published_label": "13小时前",
+          "content_text": null,
+          "media_kind": "video",
+          "media_url": "https://www.youtube.com/watch?v=Gjhy9FyMvv4",
+          "thumbnail_url": "https://i.ytimg.com/vi/Gjhy9FyMvv4/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAbJ5JGEm4VynXQRvX7jaZ4rFXhOw",
+          "media": [
+            {
+              "kind": "thumbnail",
+              "url": "https://i.ytimg.com/vi/Gjhy9FyMvv4/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAbJ5JGEm4VynXQRvX7jaZ4rFXhOw",
+              "thumbnail_url": "https://i.ytimg.com/vi/Gjhy9FyMvv4/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAbJ5JGEm4VynXQRvX7jaZ4rFXhOw"
+            },
+            {
+              "kind": "video",
+              "url": "https://www.youtube.com/watch?v=Gjhy9FyMvv4"
+            }
+          ],
+          "metrics": {
+            "views": 109,
+            "metric_source": "YouTube authenticated visible search card",
+            "observed_at": "2026-08-15T19:58:26.912Z"
+          },
+          "tags": [
+            "youtube",
+            "video",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "11:53\n正在播放\n一切皆插件？我实测开源的 DeepSeek Harness 到底能有多震撼？\n109次观看\n13小时前\nAI Toolbox\n在本期视频中，我将带大家深度体验正式开源的DeepSeek Harness v0.1，从核心理念“everything is a plugin”出发，完整演示环境 ...\n最新\n字幕\n6 个章节\n概念介绍 | 环境安装 | 实战排错 | 过程追踪 | 四种模式 | 插件开发",
+            "visible_dom": "<img class=\"ytCoreImageHost ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspectFill ytCoreImageLoaded\" alt=\"true\" style=\"background-color: transparent;\" src=\"https://i.ytimg.com/vi/Gjhy9FyMvv4/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&amp;rs=AOn4CLAbJ5JGEm4VynXQRvX7jaZ4rFXhOw\">\n<a id=\"video-title\" class=\"yt-simple-endpoint style-scope ytd-video-renderer\" title=\"一切皆插件？我实测开源的 DeepSeek Harness 到底能有多震撼？\" aria-label=\"一切皆插件？我实测开源的 DeepSeek Harness 到底能有多震撼？ 11分钟53秒钟\" href=\"/watch?v=Gjhy9FyMvv4&amp;pp=ygUZIkRlZXBTZWVrIEhhcm5lc3MiIHBsdWdpbg%3D%3D\">\n            <yt-icon id=\"inline-title-icon\" class=\"style-scope ytd-video-renderer\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--></yt-icon>\n            <yt-formatted-string class=\"style-scope ytd-video-renderer\" aria-label=\"一切皆插件？我实测开源的 DeepSeek Harness 到底能有多震撼？ 11分钟53秒钟\">一切皆插件？我实测开源的 DeepSeek Harness 到底能有多震撼？</yt-formatted-string>\n          </a>\n<div id=\"metadata-line\" class=\"style-scope ytd-video-meta-block\">\n    \n    <ytd-badge-supported-renderer class=\"inline-metadata-badge style-scope ytd-video-meta-block\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"ytBadgeSupportedRendererHost\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n    <div id=\"separator\" class=\"style-scope ytd-video-meta-block\" hidden=\"\">•</div>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">109次观看</span>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">13小时前</span>\n    <dom-repeat strip-whitespace=\"\" class=\"style-scope ytd-video-meta-block\"><template is=\"dom-repeat\"></template></dom-repeat>\n  </div>\n<ytd-channel-name id=\"channel-name\" class=\" style-scope ytd-video-meta-block style-scope ytd-video-meta-block\"><!--css-build:shady--><!--css_build_scope:ytd-channel-name--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><div id=\"container\" class=\"style-scope ytd-channel-name\">\n  <div id=\"text-container\" class=\"style-scope ytd-channel-name\">\n    <yt-formatted-string id=\"text\" link-inherit-color=\"\" respect-lang-dir=\"\" title=\"AI Toolbox\" class=\"style-scope ytd-channel-name complex-string\" ellipsis-truncate=\"\" ellipsis-truncate-styling=\"\" dir=\"auto\" has-link-only_=\"\" style=\"text-align: left;\"><a class=\"yt-simple-endpoint style-scope yt-formatted-string\" spellcheck=\"false\" href=\"/@dingkunpeng\">AI Toolbox</a></yt-formatted-string>\n  </div>\n  <tp-yt-paper-tooltip aria-hidden=\"true\" fit-to-visible-bounds=\"\" class=\"style-scope ytd-channel-name\" role=\"tooltip\" tabindex=\"-1\" aria-label=\"tooltip\"><!--css-build:shady--><!--css_build_scope:tp-yt-paper-tooltip--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,third_party.javascript.youtube_components.tp_yt_paper_tooltip.tp.yt.paper.tooltip.css.js--><div id=\"tooltip\" class=\"hidden style-scope tp-yt-paper-tooltip\" style-target=\"tooltip\">\n  \n    AI Toolbox\n  \n</div>\n</tp-yt-paper-tooltip>\n</div>\n<ytd-badge-supported-renderer class=\"style-scope ytd-channel-name\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n</ytd-channel-name>\n<yt-formatted-string id=\"description-text\" class=\"style-scope ytd-video-renderer\" is-empty=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-formatted-string--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.ui.yt_formatted_string.yt.formatted.string.css.js--><yt-attributed-string class=\"style-scope yt-formatted-string\"></yt-attributed-string></yt-formatted-string>\n<ytd-thumbnail-overlay-time-status-renderer class=\"style-scope ytd-thumbnail\" hide-time-status=\"\" overlay-style=\"DEFAULT\"><!--css-build:shady--><!--css_build_scope:ytd-thumbnail-overlay-time-status-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><ytd-badge-supported-renderer is-thumbnail-badge=\"\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" system-icons=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer><div class=\"thumbnail-overlay-badge-shape style-scope ytd-thumbnail-overlay-time-status-renderer\"><badge-shape class=\"ytBadgeShapeHost ytBadgeShapeThumbnailDefault ytBadgeShapeThumbnailBadge ytBadgeShapeTypography\" role=\"img\" aria-label=\"11分钟53秒钟\"><div class=\"ytBadgeShapeText\">11:53</div></badge-shape></div><div id=\"time-status\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" hidden=\"\"><yt-icon class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" disable-upgrade=\"\" hidden=\"\"></yt-icon><span id=\"text\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" aria-label=\"11分钟53秒钟\">\n    11:53\n  </span></div></ytd-thumbnail-overlay-time-status-renderer>",
+            "metadata_labels": [
+              "109次观看",
+              "13小时前"
+            ],
+            "duration_label": "11:53",
+            "evidence_scope": "Exact title, thumbnail, metadata, channel, description and duration nodes from the visible result card."
+          }
+        },
+        {
+          "platform": "youtube",
+          "external_id": "BUPHZkOwhXE",
+          "url": "https://www.youtube.com/watch?v=BUPHZkOwhXE",
+          "item_type": "video",
+          "title": "deepseek harness发布，评论两极分化？保姆级使用教程",
+          "author": "AI随风",
+          "author_url": "https://www.youtube.com/@AI%E9%9A%8F%E9%A3%8E",
+          "published_label": "1天前",
+          "content_text": null,
+          "media_kind": "video",
+          "media_url": "https://www.youtube.com/watch?v=BUPHZkOwhXE",
+          "thumbnail_url": "https://i.ytimg.com/vi/BUPHZkOwhXE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDCGTgwFQTawTYIfPqmLNNiS5JsTw",
+          "media": [
+            {
+              "kind": "thumbnail",
+              "url": "https://i.ytimg.com/vi/BUPHZkOwhXE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDCGTgwFQTawTYIfPqmLNNiS5JsTw",
+              "thumbnail_url": "https://i.ytimg.com/vi/BUPHZkOwhXE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDCGTgwFQTawTYIfPqmLNNiS5JsTw"
+            },
+            {
+              "kind": "video",
+              "url": "https://www.youtube.com/watch?v=BUPHZkOwhXE"
+            }
+          ],
+          "metrics": {
+            "views": 3269,
+            "metric_source": "YouTube authenticated visible search card",
+            "observed_at": "2026-08-15T19:58:26.912Z"
+          },
+          "tags": [
+            "youtube",
+            "video",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "13:40\n正在播放\ndeepseek harness发布，评论两极分化？保姆级使用教程\n3269次观看\n1天前\nAI随风\nDeepSeek 终于有自己的Harness 了。 但发布之后网上的评价非常两极分化： 一边认为它可能代表了一种新的Agent 形态； 另一边 ...\n最新\n5 个章节\n介绍 | dsh体验 | dsh 插件 | 网上观点和我的看法 | dsh代码统计",
+            "visible_dom": "<img class=\"ytCoreImageHost ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspectFill ytCoreImageLoaded\" alt=\"true\" style=\"background-color: transparent;\" src=\"https://i.ytimg.com/vi/BUPHZkOwhXE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&amp;rs=AOn4CLDCGTgwFQTawTYIfPqmLNNiS5JsTw\">\n<a id=\"video-title\" class=\"yt-simple-endpoint style-scope ytd-video-renderer\" title=\"deepseek harness发布，评论两极分化？保姆级使用教程\" aria-label=\"deepseek harness发布，评论两极分化？保姆级使用教程 13分钟40秒钟\" href=\"/watch?v=BUPHZkOwhXE&amp;pp=ygUZIkRlZXBTZWVrIEhhcm5lc3MiIHBsdWdpbg%3D%3D\">\n            <yt-icon id=\"inline-title-icon\" class=\"style-scope ytd-video-renderer\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--></yt-icon>\n            <yt-formatted-string class=\"style-scope ytd-video-renderer\" aria-label=\"deepseek harness发布，评论两极分化？保姆级使用教程 13分钟40秒钟\">deepseek harness发布，评论两极分化？保姆级使用教程</yt-formatted-string>\n          </a>\n<div id=\"metadata-line\" class=\"style-scope ytd-video-meta-block\">\n    \n    <ytd-badge-supported-renderer class=\"inline-metadata-badge style-scope ytd-video-meta-block\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"ytBadgeSupportedRendererHost\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n    <div id=\"separator\" class=\"style-scope ytd-video-meta-block\" hidden=\"\">•</div>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">3269次观看</span>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">1天前</span>\n    <dom-repeat strip-whitespace=\"\" class=\"style-scope ytd-video-meta-block\"><template is=\"dom-repeat\"></template></dom-repeat>\n  </div>\n<ytd-channel-name id=\"channel-name\" class=\" style-scope ytd-video-meta-block style-scope ytd-video-meta-block\"><!--css-build:shady--><!--css_build_scope:ytd-channel-name--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><div id=\"container\" class=\"style-scope ytd-channel-name\">\n  <div id=\"text-container\" class=\"style-scope ytd-channel-name\">\n    <yt-formatted-string id=\"text\" link-inherit-color=\"\" respect-lang-dir=\"\" title=\"AI随风\" class=\"style-scope ytd-channel-name complex-string\" ellipsis-truncate=\"\" ellipsis-truncate-styling=\"\" dir=\"auto\" style=\"text-align: left;\" has-link-only_=\"\"><a class=\"yt-simple-endpoint style-scope yt-formatted-string\" spellcheck=\"false\" href=\"/@AI%E9%9A%8F%E9%A3%8E\">AI随风</a></yt-formatted-string>\n  </div>\n  <tp-yt-paper-tooltip aria-hidden=\"true\" fit-to-visible-bounds=\"\" class=\"style-scope ytd-channel-name\" role=\"tooltip\" tabindex=\"-1\" aria-label=\"tooltip\"><!--css-build:shady--><!--css_build_scope:tp-yt-paper-tooltip--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,third_party.javascript.youtube_components.tp_yt_paper_tooltip.tp.yt.paper.tooltip.css.js--><div id=\"tooltip\" class=\"hidden style-scope tp-yt-paper-tooltip\" style-target=\"tooltip\">\n  \n    AI随风\n  \n</div>\n</tp-yt-paper-tooltip>\n</div>\n<ytd-badge-supported-renderer class=\"style-scope ytd-channel-name\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n</ytd-channel-name>\n<yt-formatted-string id=\"description-text\" class=\"style-scope ytd-video-renderer\" is-empty=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-formatted-string--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.ui.yt_formatted_string.yt.formatted.string.css.js--><yt-attributed-string class=\"style-scope yt-formatted-string\"></yt-attributed-string></yt-formatted-string>\n<ytd-thumbnail-overlay-time-status-renderer class=\"style-scope ytd-thumbnail\" hide-time-status=\"\" overlay-style=\"DEFAULT\"><!--css-build:shady--><!--css_build_scope:ytd-thumbnail-overlay-time-status-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><ytd-badge-supported-renderer is-thumbnail-badge=\"\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" system-icons=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer><div class=\"thumbnail-overlay-badge-shape style-scope ytd-thumbnail-overlay-time-status-renderer\"><badge-shape class=\"ytBadgeShapeHost ytBadgeShapeThumbnailDefault ytBadgeShapeThumbnailBadge ytBadgeShapeTypography\" role=\"img\" aria-label=\"13分钟40秒钟\"><div class=\"ytBadgeShapeText\">13:40</div></badge-shape></div><div id=\"time-status\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" hidden=\"\"><yt-icon class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" disable-upgrade=\"\" hidden=\"\"></yt-icon><span id=\"text\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" aria-label=\"13分钟40秒钟\">\n    13:40\n  </span></div></ytd-thumbnail-overlay-time-status-renderer>",
+            "metadata_labels": [
+              "3269次观看",
+              "1天前"
+            ],
+            "duration_label": "13:40",
+            "evidence_scope": "Exact title, thumbnail, metadata, channel, description and duration nodes from the visible result card."
+          }
+        },
+        {
+          "platform": "youtube",
+          "external_id": "xe-aHJLC5UU",
+          "url": "https://www.youtube.com/watch?v=xe-aHJLC5UU",
+          "item_type": "video",
+          "title": "Deepseek Harness: Everything is a plugin",
+          "author": "DevsKingdom",
+          "author_url": "https://www.youtube.com/@DevsKingdom",
+          "published_label": "2天前",
+          "content_text": null,
+          "media_kind": "video",
+          "media_url": "https://www.youtube.com/watch?v=xe-aHJLC5UU",
+          "thumbnail_url": null,
+          "media": [
+            {
+              "kind": "video",
+              "url": "https://www.youtube.com/watch?v=xe-aHJLC5UU"
+            }
+          ],
+          "metrics": {
+            "views": 5442,
+            "metric_source": "YouTube authenticated visible search card",
+            "observed_at": "2026-08-15T19:58:26.912Z"
+          },
+          "tags": [
+            "youtube",
+            "video",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "Deepseek Harness: Everything is a plugin\n5442次观看\n2天前\nDevsKingdom\nDeepSeek Harness (dsh) is an open-source agent harness, It uses an architecture where everything is a plugin, and is powered ...\n最新\n摘要\nDevsKingdom demonstrates how to set up and configure the DeepSeek Harness platform, including connecting custom models via API. The walkthrough covers workspace management, using the agent to build functional web projects, and utilizing the platform's unique session trajectory features to track and debug development processes.",
+            "visible_dom": "<img class=\"ytCoreImageHost ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspectFill\" alt=\"true\" style=\"background-color: transparent;\">\n<a id=\"video-title\" class=\"yt-simple-endpoint style-scope ytd-video-renderer\" title=\"Deepseek Harness: Everything is a plugin\" aria-label=\"Deepseek Harness: Everything is a plugin 12分钟21秒钟\" href=\"/watch?v=xe-aHJLC5UU&amp;pp=ygUZIkRlZXBTZWVrIEhhcm5lc3MiIHBsdWdpbg%3D%3D\">\n            <yt-icon id=\"inline-title-icon\" class=\"style-scope ytd-video-renderer\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--></yt-icon>\n            <yt-formatted-string class=\"style-scope ytd-video-renderer\" aria-label=\"Deepseek Harness: Everything is a plugin 12分钟21秒钟\">Deepseek Harness: Everything is a plugin</yt-formatted-string>\n          </a>\n<div id=\"metadata-line\" class=\"style-scope ytd-video-meta-block\">\n    \n    <ytd-badge-supported-renderer class=\"inline-metadata-badge style-scope ytd-video-meta-block\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"ytBadgeSupportedRendererHost\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n    <div id=\"separator\" class=\"style-scope ytd-video-meta-block\" hidden=\"\">•</div>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">5442次观看</span>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">2天前</span>\n    <dom-repeat strip-whitespace=\"\" class=\"style-scope ytd-video-meta-block\"><template is=\"dom-repeat\"></template></dom-repeat>\n  </div>\n<ytd-channel-name id=\"channel-name\" class=\" style-scope ytd-video-meta-block style-scope ytd-video-meta-block\"><!--css-build:shady--><!--css_build_scope:ytd-channel-name--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><div id=\"container\" class=\"style-scope ytd-channel-name\">\n  <div id=\"text-container\" class=\"style-scope ytd-channel-name\">\n    <yt-formatted-string id=\"text\" link-inherit-color=\"\" respect-lang-dir=\"\" title=\"DevsKingdom\" class=\"style-scope ytd-channel-name complex-string\" ellipsis-truncate=\"\" ellipsis-truncate-styling=\"\" dir=\"auto\" style=\"text-align: left;\" has-link-only_=\"\"><a class=\"yt-simple-endpoint style-scope yt-formatted-string\" spellcheck=\"false\" href=\"/@DevsKingdom\">DevsKingdom</a></yt-formatted-string>\n  </div>\n  <tp-yt-paper-tooltip aria-hidden=\"true\" fit-to-visible-bounds=\"\" class=\"style-scope ytd-channel-name\" role=\"tooltip\" tabindex=\"-1\" aria-label=\"tooltip\"><!--css-build:shady--><!--css_build_scope:tp-yt-paper-tooltip--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,third_party.javascript.youtube_components.tp_yt_paper_tooltip.tp.yt.paper.tooltip.css.js--><div id=\"tooltip\" class=\"hidden style-scope tp-yt-paper-tooltip\" style-target=\"tooltip\">\n  \n    DevsKingdom\n  \n</div>\n</tp-yt-paper-tooltip>\n</div>\n<ytd-badge-supported-renderer class=\"style-scope ytd-channel-name\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n</ytd-channel-name>\n<yt-formatted-string id=\"description-text\" class=\"style-scope ytd-video-renderer\" is-empty=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-formatted-string--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.ui.yt_formatted_string.yt.formatted.string.css.js--><yt-attributed-string class=\"style-scope yt-formatted-string\"></yt-attributed-string></yt-formatted-string>\n<ytd-thumbnail-overlay-time-status-renderer class=\"style-scope ytd-thumbnail\" hide-time-status=\"\" overlay-style=\"DEFAULT\"><!--css-build:shady--><!--css_build_scope:ytd-thumbnail-overlay-time-status-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><ytd-badge-supported-renderer is-thumbnail-badge=\"\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" system-icons=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer><div class=\"thumbnail-overlay-badge-shape style-scope ytd-thumbnail-overlay-time-status-renderer\"><badge-shape class=\"ytBadgeShapeHost ytBadgeShapeThumbnailDefault ytBadgeShapeThumbnailBadge ytBadgeShapeTypography\" role=\"img\" aria-label=\"12分钟21秒钟\"><div class=\"ytBadgeShapeText\">12:21</div></badge-shape></div><div id=\"time-status\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" hidden=\"\"><yt-icon class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" disable-upgrade=\"\" hidden=\"\"></yt-icon><span id=\"text\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" aria-label=\"12分钟21秒钟\">\n    12:21\n  </span></div></ytd-thumbnail-overlay-time-status-renderer>",
+            "metadata_labels": [
+              "5442次观看",
+              "2天前"
+            ],
+            "duration_label": "12:21\n    12:21",
+            "evidence_scope": "Exact title, thumbnail, metadata, channel, description and duration nodes from the visible result card."
+          }
+        },
+        {
+          "platform": "youtube",
+          "external_id": "iuhaneiDhKw",
+          "url": "https://www.youtube.com/watch?v=iuhaneiDhKw",
+          "item_type": "video",
+          "title": "DeepSeek harness 插件爆发，ai coding 从  “模型时代” 进入 “组装时代”？",
+          "author": "三少科技",
+          "author_url": "https://www.youtube.com/@san-shao",
+          "published_label": "4小时前",
+          "content_text": null,
+          "media_kind": "video",
+          "media_url": "https://www.youtube.com/watch?v=iuhaneiDhKw",
+          "thumbnail_url": null,
+          "media": [
+            {
+              "kind": "video",
+              "url": "https://www.youtube.com/watch?v=iuhaneiDhKw"
+            }
+          ],
+          "metrics": {
+            "views": 219,
+            "metric_source": "YouTube authenticated visible search card",
+            "observed_at": "2026-08-15T19:58:26.912Z"
+          },
+          "tags": [
+            "youtube",
+            "video",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "DeepSeek harness 插件爆发，ai coding 从 “模型时代” 进入 “组装时代”？\n219次观看\n4小时前\n三少科技\ncc，cx企业开发专用：https://www.claude-code.top 莱卡云： https://www.lcayun.com/aff/GEYCYCZE.\n最新",
+            "visible_dom": "<img class=\"ytCoreImageHost ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspectFill\" alt=\"true\" style=\"background-color: transparent;\">\n<a id=\"video-title\" class=\"yt-simple-endpoint style-scope ytd-video-renderer\" title=\"DeepSeek harness 插件爆发，ai coding 从  “模型时代” 进入 “组装时代”？\" aria-label=\"DeepSeek harness 插件爆发，ai coding 从  “模型时代” 进入 “组装时代”？ 8分钟15秒钟\" href=\"/watch?v=iuhaneiDhKw&amp;pp=ygUZIkRlZXBTZWVrIEhhcm5lc3MiIHBsdWdpbg%3D%3D\">\n            <yt-icon id=\"inline-title-icon\" class=\"style-scope ytd-video-renderer\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--></yt-icon>\n            <yt-formatted-string class=\"style-scope ytd-video-renderer\" aria-label=\"DeepSeek harness 插件爆发，ai coding 从  “模型时代” 进入 “组装时代”？ 8分钟15秒钟\">DeepSeek harness 插件爆发，ai coding 从  “模型时代” 进入 “组装时代”？</yt-formatted-string>\n          </a>\n<div id=\"metadata-line\" class=\"style-scope ytd-video-meta-block\">\n    \n    <ytd-badge-supported-renderer class=\"inline-metadata-badge style-scope ytd-video-meta-block\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"ytBadgeSupportedRendererHost\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n    <div id=\"separator\" class=\"style-scope ytd-video-meta-block\" hidden=\"\">•</div>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">219次观看</span>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">4小时前</span>\n    <dom-repeat strip-whitespace=\"\" class=\"style-scope ytd-video-meta-block\"><template is=\"dom-repeat\"></template></dom-repeat>\n  </div>\n<ytd-channel-name id=\"channel-name\" class=\" style-scope ytd-video-meta-block style-scope ytd-video-meta-block\"><!--css-build:shady--><!--css_build_scope:ytd-channel-name--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><div id=\"container\" class=\"style-scope ytd-channel-name\">\n  <div id=\"text-container\" class=\"style-scope ytd-channel-name\">\n    <yt-formatted-string id=\"text\" link-inherit-color=\"\" respect-lang-dir=\"\" title=\"三少科技\" class=\"style-scope ytd-channel-name complex-string\" ellipsis-truncate=\"\" ellipsis-truncate-styling=\"\" dir=\"auto\" style=\"text-align: left;\" has-link-only_=\"\"><a class=\"yt-simple-endpoint style-scope yt-formatted-string\" spellcheck=\"false\" href=\"/@san-shao\">三少科技</a></yt-formatted-string>\n  </div>\n  <tp-yt-paper-tooltip aria-hidden=\"true\" fit-to-visible-bounds=\"\" class=\"style-scope ytd-channel-name\" role=\"tooltip\" tabindex=\"-1\" aria-label=\"tooltip\"><!--css-build:shady--><!--css_build_scope:tp-yt-paper-tooltip--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,third_party.javascript.youtube_components.tp_yt_paper_tooltip.tp.yt.paper.tooltip.css.js--><div id=\"tooltip\" class=\"hidden style-scope tp-yt-paper-tooltip\" style-target=\"tooltip\">\n  \n    三少科技\n  \n</div>\n</tp-yt-paper-tooltip>\n</div>\n<ytd-badge-supported-renderer class=\"style-scope ytd-channel-name\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n</ytd-channel-name>\n<yt-formatted-string id=\"description-text\" class=\"style-scope ytd-video-renderer\" is-empty=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-formatted-string--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.ui.yt_formatted_string.yt.formatted.string.css.js--><yt-attributed-string class=\"style-scope yt-formatted-string\"></yt-attributed-string></yt-formatted-string>\n<ytd-thumbnail-overlay-time-status-renderer class=\"style-scope ytd-thumbnail\" hide-time-status=\"\" overlay-style=\"DEFAULT\"><!--css-build:shady--><!--css_build_scope:ytd-thumbnail-overlay-time-status-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><ytd-badge-supported-renderer is-thumbnail-badge=\"\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" system-icons=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer><div class=\"thumbnail-overlay-badge-shape style-scope ytd-thumbnail-overlay-time-status-renderer\"><badge-shape class=\"ytBadgeShapeHost ytBadgeShapeThumbnailDefault ytBadgeShapeThumbnailBadge ytBadgeShapeTypography\" role=\"img\" aria-label=\"8分钟15秒钟\"><div class=\"ytBadgeShapeText\">8:15</div></badge-shape></div><div id=\"time-status\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" hidden=\"\"><yt-icon class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" disable-upgrade=\"\" hidden=\"\"></yt-icon><span id=\"text\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" aria-label=\"8分钟15秒钟\">\n    8:15\n  </span></div></ytd-thumbnail-overlay-time-status-renderer>",
+            "metadata_labels": [
+              "219次观看",
+              "4小时前"
+            ],
+            "duration_label": "8:15\n    8:15",
+            "evidence_scope": "Exact title, thumbnail, metadata, channel, description and duration nodes from the visible result card."
+          }
+        },
+        {
+          "platform": "youtube",
+          "external_id": "1NyOG9z9RT0",
+          "url": "https://www.youtube.com/watch?v=1NyOG9z9RT0",
+          "item_type": "video",
+          "title": "DeepSeek Harness Architecture: Insane Software Engineering Behind It",
+          "author": "Cloud Codes",
+          "author_url": "https://www.youtube.com/@Cloud-Codes",
+          "published_label": "7小时前",
+          "content_text": null,
+          "media_kind": "video",
+          "media_url": "https://www.youtube.com/watch?v=1NyOG9z9RT0",
+          "thumbnail_url": "https://i.ytimg.com/vi/1NyOG9z9RT0/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAG_z8PVs6HDOM72kUzvGDytY61aw",
+          "media": [
+            {
+              "kind": "thumbnail",
+              "url": "https://i.ytimg.com/vi/1NyOG9z9RT0/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAG_z8PVs6HDOM72kUzvGDytY61aw",
+              "thumbnail_url": "https://i.ytimg.com/vi/1NyOG9z9RT0/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAG_z8PVs6HDOM72kUzvGDytY61aw"
+            },
+            {
+              "kind": "video",
+              "url": "https://www.youtube.com/watch?v=1NyOG9z9RT0"
+            }
+          ],
+          "metrics": {
+            "views": 9180,
+            "metric_source": "YouTube authenticated visible search card",
+            "observed_at": "2026-08-15T19:58:26.912Z"
+          },
+          "tags": [
+            "youtube",
+            "video",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "21:27\n正在播放\n15:08\n21:27\nDeepSeek Harness Architecture: Insane Software Engineering Behind It\n9180次观看\n7小时前\nCloud Codes\nWhy did 72000 developers star DeepSeek Harness in less than 24 hours, and what is the single golden engineering rule that ...\n最新\n匹配章节\n15:08 ... Claude Code & Codex Inside DeepSeek Harness ...",
+            "visible_dom": "<img class=\"ytCoreImageHost ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspectFill ytCoreImageLoaded\" alt=\"true\" style=\"background-color: transparent;\" src=\"https://i.ytimg.com/vi/1NyOG9z9RT0/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&amp;rs=AOn4CLAG_z8PVs6HDOM72kUzvGDytY61aw\">\n<a id=\"video-title\" class=\"yt-simple-endpoint style-scope ytd-video-renderer\" title=\"DeepSeek Harness Architecture: Insane Software Engineering Behind It\" aria-label=\"DeepSeek Harness Architecture: Insane Software Engineering Behind It 21分钟\" href=\"/watch?v=1NyOG9z9RT0&amp;t=908s&amp;pp=ygUZIkRlZXBTZWVrIEhhcm5lc3MiIHBsdWdpbg%3D%3D\">\n            <yt-icon id=\"inline-title-icon\" class=\"style-scope ytd-video-renderer\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--></yt-icon>\n            <yt-formatted-string class=\"style-scope ytd-video-renderer\" aria-label=\"DeepSeek Harness Architecture: Insane Software Engineering Behind It 21分钟\">DeepSeek Harness Architecture: Insane Software Engineering Behind It</yt-formatted-string>\n          </a>\n<div id=\"metadata-line\" class=\"style-scope ytd-video-meta-block\">\n    \n    <ytd-badge-supported-renderer class=\"inline-metadata-badge style-scope ytd-video-meta-block\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"ytBadgeSupportedRendererHost\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n    <div id=\"separator\" class=\"style-scope ytd-video-meta-block\" hidden=\"\">•</div>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">9180次观看</span>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">7小时前</span>\n    <dom-repeat strip-whitespace=\"\" class=\"style-scope ytd-video-meta-block\"><template is=\"dom-repeat\"></template></dom-repeat>\n  </div>\n<ytd-channel-name id=\"channel-name\" class=\" style-scope ytd-video-meta-block style-scope ytd-video-meta-block\"><!--css-build:shady--><!--css_build_scope:ytd-channel-name--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><div id=\"container\" class=\"style-scope ytd-channel-name\">\n  <div id=\"text-container\" class=\"style-scope ytd-channel-name\">\n    <yt-formatted-string id=\"text\" link-inherit-color=\"\" respect-lang-dir=\"\" title=\"Cloud Codes\" class=\"style-scope ytd-channel-name complex-string\" ellipsis-truncate=\"\" ellipsis-truncate-styling=\"\" dir=\"auto\" has-link-only_=\"\" style=\"text-align: left;\"><a class=\"yt-simple-endpoint style-scope yt-formatted-string\" spellcheck=\"false\" href=\"/@Cloud-Codes\">Cloud Codes</a></yt-formatted-string>\n  </div>\n  <tp-yt-paper-tooltip aria-hidden=\"true\" fit-to-visible-bounds=\"\" class=\"style-scope ytd-channel-name\" role=\"tooltip\" tabindex=\"-1\" aria-label=\"tooltip\"><!--css-build:shady--><!--css_build_scope:tp-yt-paper-tooltip--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,third_party.javascript.youtube_components.tp_yt_paper_tooltip.tp.yt.paper.tooltip.css.js--><div id=\"tooltip\" class=\"hidden style-scope tp-yt-paper-tooltip\" style-target=\"tooltip\">\n  \n    Cloud Codes\n  \n</div>\n</tp-yt-paper-tooltip>\n</div>\n<ytd-badge-supported-renderer class=\"style-scope ytd-channel-name\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n</ytd-channel-name>\n<yt-formatted-string id=\"description-text\" class=\"style-scope ytd-video-renderer\" is-empty=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-formatted-string--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.ui.yt_formatted_string.yt.formatted.string.css.js--><yt-attributed-string class=\"style-scope yt-formatted-string\"></yt-attributed-string></yt-formatted-string>\n<ytd-thumbnail-overlay-time-status-renderer class=\"style-scope ytd-thumbnail\" hide-time-status=\"\" overlay-style=\"DEFAULT\"><!--css-build:shady--><!--css_build_scope:ytd-thumbnail-overlay-time-status-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><ytd-badge-supported-renderer is-thumbnail-badge=\"\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" system-icons=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer><div class=\"thumbnail-overlay-badge-shape style-scope ytd-thumbnail-overlay-time-status-renderer\"><badge-shape class=\"ytBadgeShapeHost ytBadgeShapeThumbnailDefault ytBadgeShapeThumbnailBadge ytBadgeShapeTypography\" role=\"img\" aria-label=\"21分钟27秒钟\"><div class=\"ytBadgeShapeText\">21:27</div></badge-shape></div><div id=\"time-status\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" hidden=\"\"><yt-icon class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" disable-upgrade=\"\" hidden=\"\"></yt-icon><span id=\"text\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" aria-label=\"21分钟27秒钟\">\n    21:27\n  </span></div></ytd-thumbnail-overlay-time-status-renderer>",
+            "metadata_labels": [
+              "9180次观看",
+              "7小时前"
+            ],
+            "duration_label": "21:27",
+            "evidence_scope": "Exact title, thumbnail, metadata, channel, description and duration nodes from the visible result card."
+          }
+        },
+        {
+          "platform": "youtube",
+          "external_id": "PzFQUF0KTig",
+          "url": "https://www.youtube.com/watch?v=PzFQUF0KTig",
+          "item_type": "video",
+          "title": "深度体验DeepSeek Harness四大功能：前端开发，代码纠错，论文编写，agent插件开发",
+          "author": "荒野全栈AI",
+          "author_url": "https://www.youtube.com/@wangliao3305",
+          "published_label": "17小时前",
+          "content_text": null,
+          "media_kind": "video",
+          "media_url": "https://www.youtube.com/watch?v=PzFQUF0KTig",
+          "thumbnail_url": "https://i.ytimg.com/vi/PzFQUF0KTig/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLClqT3CMgEAS2N4XogeJkrO8dE8jQ",
+          "media": [
+            {
+              "kind": "thumbnail",
+              "url": "https://i.ytimg.com/vi/PzFQUF0KTig/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLClqT3CMgEAS2N4XogeJkrO8dE8jQ",
+              "thumbnail_url": "https://i.ytimg.com/vi/PzFQUF0KTig/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLClqT3CMgEAS2N4XogeJkrO8dE8jQ"
+            },
+            {
+              "kind": "video",
+              "url": "https://www.youtube.com/watch?v=PzFQUF0KTig"
+            }
+          ],
+          "metrics": {
+            "views": 17,
+            "metric_source": "YouTube authenticated visible search card",
+            "observed_at": "2026-08-15T19:58:26.912Z"
+          },
+          "tags": [
+            "youtube",
+            "video",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "36:44\n正在播放\n深度体验DeepSeek Harness四大功能：前端开发，代码纠错，论文编写，agent插件开发\n17次观看\n17小时前\n荒野全栈AI\n这期不聊参数，也不只看Benchmark，我直接把DeepSeek Harness放进真实任务里测试。 我选了四类完全不同的任务：从零开发 ...\n最新\n4K",
+            "visible_dom": "<img class=\"ytCoreImageHost ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspectFill ytCoreImageLoaded\" alt=\"true\" style=\"background-color: transparent;\" src=\"https://i.ytimg.com/vi/PzFQUF0KTig/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&amp;rs=AOn4CLClqT3CMgEAS2N4XogeJkrO8dE8jQ\">\n<a id=\"video-title\" class=\"yt-simple-endpoint style-scope ytd-video-renderer\" title=\"深度体验DeepSeek Harness四大功能：前端开发，代码纠错，论文编写，agent插件开发\" aria-label=\"深度体验DeepSeek Harness四大功能：前端开发，代码纠错，论文编写，agent插件开发 36分钟\" href=\"/watch?v=PzFQUF0KTig&amp;pp=ygUZIkRlZXBTZWVrIEhhcm5lc3MiIHBsdWdpbg%3D%3D\">\n            <yt-icon id=\"inline-title-icon\" class=\"style-scope ytd-video-renderer\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--></yt-icon>\n            <yt-formatted-string class=\"style-scope ytd-video-renderer\" aria-label=\"深度体验DeepSeek Harness四大功能：前端开发，代码纠错，论文编写，agent插件开发 36分钟\">深度体验DeepSeek Harness四大功能：前端开发，代码纠错，论文编写，agent插件开发</yt-formatted-string>\n          </a>\n<div id=\"metadata-line\" class=\"style-scope ytd-video-meta-block\">\n    \n    <ytd-badge-supported-renderer class=\"inline-metadata-badge style-scope ytd-video-meta-block\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"ytBadgeSupportedRendererHost\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n    <div id=\"separator\" class=\"style-scope ytd-video-meta-block\" hidden=\"\">•</div>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">17次观看</span>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">17小时前</span>\n    <dom-repeat strip-whitespace=\"\" class=\"style-scope ytd-video-meta-block\"><template is=\"dom-repeat\"></template></dom-repeat>\n  </div>\n<ytd-channel-name id=\"channel-name\" class=\" style-scope ytd-video-meta-block style-scope ytd-video-meta-block\"><!--css-build:shady--><!--css_build_scope:ytd-channel-name--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><div id=\"container\" class=\"style-scope ytd-channel-name\">\n  <div id=\"text-container\" class=\"style-scope ytd-channel-name\">\n    <yt-formatted-string id=\"text\" link-inherit-color=\"\" respect-lang-dir=\"\" title=\"荒野全栈AI\" class=\"style-scope ytd-channel-name complex-string\" ellipsis-truncate=\"\" ellipsis-truncate-styling=\"\" dir=\"auto\" style=\"text-align: left;\" has-link-only_=\"\"><a class=\"yt-simple-endpoint style-scope yt-formatted-string\" spellcheck=\"false\" href=\"/@wangliao3305\">荒野全栈AI</a></yt-formatted-string>\n  </div>\n  <tp-yt-paper-tooltip aria-hidden=\"true\" fit-to-visible-bounds=\"\" class=\"style-scope ytd-channel-name\" role=\"tooltip\" tabindex=\"-1\" aria-label=\"tooltip\"><!--css-build:shady--><!--css_build_scope:tp-yt-paper-tooltip--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,third_party.javascript.youtube_components.tp_yt_paper_tooltip.tp.yt.paper.tooltip.css.js--><div id=\"tooltip\" class=\"hidden style-scope tp-yt-paper-tooltip\" style-target=\"tooltip\">\n  \n    荒野全栈AI\n  \n</div>\n</tp-yt-paper-tooltip>\n</div>\n<ytd-badge-supported-renderer class=\"style-scope ytd-channel-name\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n</ytd-channel-name>\n<yt-formatted-string id=\"description-text\" class=\"style-scope ytd-video-renderer\" is-empty=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-formatted-string--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.ui.yt_formatted_string.yt.formatted.string.css.js--><yt-attributed-string class=\"style-scope yt-formatted-string\"></yt-attributed-string></yt-formatted-string>\n<ytd-thumbnail-overlay-time-status-renderer class=\"style-scope ytd-thumbnail\" hide-time-status=\"\" overlay-style=\"DEFAULT\"><!--css-build:shady--><!--css_build_scope:ytd-thumbnail-overlay-time-status-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><ytd-badge-supported-renderer is-thumbnail-badge=\"\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" system-icons=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer><div class=\"thumbnail-overlay-badge-shape style-scope ytd-thumbnail-overlay-time-status-renderer\"><badge-shape class=\"ytBadgeShapeHost ytBadgeShapeThumbnailDefault ytBadgeShapeThumbnailBadge ytBadgeShapeTypography\" role=\"img\" aria-label=\"36分钟44秒钟\"><div class=\"ytBadgeShapeText\">36:44</div></badge-shape></div><div id=\"time-status\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" hidden=\"\"><yt-icon class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" disable-upgrade=\"\" hidden=\"\"></yt-icon><span id=\"text\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" aria-label=\"36分钟44秒钟\">\n    36:44\n  </span></div></ytd-thumbnail-overlay-time-status-renderer>",
+            "metadata_labels": [
+              "17次观看",
+              "17小时前"
+            ],
+            "duration_label": "36:44",
+            "evidence_scope": "Exact title, thumbnail, metadata, channel, description and duration nodes from the visible result card."
+          }
+        },
+        {
+          "platform": "youtube",
+          "external_id": "6ZlihLNQoHM",
+          "url": "https://www.youtube.com/watch?v=6ZlihLNQoHM",
+          "item_type": "video",
+          "title": "DeepSeek 的 Agent，能拆？！",
+          "author": "KunKun的折腾手记",
+          "author_url": "https://www.youtube.com/@AI-KUN-zt",
+          "published_label": "7小时前",
+          "content_text": null,
+          "media_kind": "video",
+          "media_url": "https://www.youtube.com/watch?v=6ZlihLNQoHM",
+          "thumbnail_url": "https://i.ytimg.com/vi/6ZlihLNQoHM/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB0zkal1HjTZahBXeVH5XMy7eix4Q",
+          "media": [
+            {
+              "kind": "thumbnail",
+              "url": "https://i.ytimg.com/vi/6ZlihLNQoHM/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB0zkal1HjTZahBXeVH5XMy7eix4Q",
+              "thumbnail_url": "https://i.ytimg.com/vi/6ZlihLNQoHM/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB0zkal1HjTZahBXeVH5XMy7eix4Q"
+            },
+            {
+              "kind": "video",
+              "url": "https://www.youtube.com/watch?v=6ZlihLNQoHM"
+            }
+          ],
+          "metrics": {
+            "views": 2,
+            "metric_source": "YouTube authenticated visible search card",
+            "observed_at": "2026-08-15T19:58:26.912Z"
+          },
+          "tags": [
+            "youtube",
+            "video",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "9:29\n正在播放\nDeepSeek 的 Agent，能拆？！\n2次观看\n7小时前\nKunKun的折腾手记\nDeepSeek Harness 里有一套挺有意思的Agent 设计。 这期我从四种preset 讲起：标准、PTC、极简和创造。重点拆了PTC 如何让 ...\n最新\n字幕\n5 个章节\n开场 | 四种模式 | Cordis底座 | 插件架构 | 总结",
+            "visible_dom": "<img class=\"ytCoreImageHost ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspectFill ytCoreImageLoaded\" alt=\"true\" style=\"background-color: transparent;\" src=\"https://i.ytimg.com/vi/6ZlihLNQoHM/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&amp;rs=AOn4CLB0zkal1HjTZahBXeVH5XMy7eix4Q\">\n<a id=\"video-title\" class=\"yt-simple-endpoint style-scope ytd-video-renderer\" title=\"DeepSeek 的 Agent，能拆？！\" aria-label=\"DeepSeek 的 Agent，能拆？！ 9分钟29秒钟\" href=\"/watch?v=6ZlihLNQoHM&amp;pp=ygUZIkRlZXBTZWVrIEhhcm5lc3MiIHBsdWdpbg%3D%3D\">\n            <yt-icon id=\"inline-title-icon\" class=\"style-scope ytd-video-renderer\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--></yt-icon>\n            <yt-formatted-string class=\"style-scope ytd-video-renderer\" aria-label=\"DeepSeek 的 Agent，能拆？！ 9分钟29秒钟\">DeepSeek 的 Agent，能拆？！</yt-formatted-string>\n          </a>\n<div id=\"metadata-line\" class=\"style-scope ytd-video-meta-block\">\n    \n    <ytd-badge-supported-renderer class=\"inline-metadata-badge style-scope ytd-video-meta-block\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"ytBadgeSupportedRendererHost\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n    <div id=\"separator\" class=\"style-scope ytd-video-meta-block\" hidden=\"\">•</div>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">2次观看</span>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">7小时前</span>\n    <dom-repeat strip-whitespace=\"\" class=\"style-scope ytd-video-meta-block\"><template is=\"dom-repeat\"></template></dom-repeat>\n  </div>\n<ytd-channel-name id=\"channel-name\" class=\" style-scope ytd-video-meta-block style-scope ytd-video-meta-block\"><!--css-build:shady--><!--css_build_scope:ytd-channel-name--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><div id=\"container\" class=\"style-scope ytd-channel-name\">\n  <div id=\"text-container\" class=\"style-scope ytd-channel-name\">\n    <yt-formatted-string id=\"text\" link-inherit-color=\"\" respect-lang-dir=\"\" title=\"KunKun的折腾手记\" class=\"style-scope ytd-channel-name complex-string\" ellipsis-truncate=\"\" ellipsis-truncate-styling=\"\" dir=\"auto\" style=\"text-align: left;\" has-link-only_=\"\"><a class=\"yt-simple-endpoint style-scope yt-formatted-string\" spellcheck=\"false\" href=\"/@AI-KUN-zt\">KunKun的折腾手记</a></yt-formatted-string>\n  </div>\n  <tp-yt-paper-tooltip aria-hidden=\"true\" fit-to-visible-bounds=\"\" class=\"style-scope ytd-channel-name\" role=\"tooltip\" tabindex=\"-1\" aria-label=\"tooltip\"><!--css-build:shady--><!--css_build_scope:tp-yt-paper-tooltip--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,third_party.javascript.youtube_components.tp_yt_paper_tooltip.tp.yt.paper.tooltip.css.js--><div id=\"tooltip\" class=\"hidden style-scope tp-yt-paper-tooltip\" style-target=\"tooltip\">\n  \n    KunKun的折腾手记\n  \n</div>\n</tp-yt-paper-tooltip>\n</div>\n<ytd-badge-supported-renderer class=\"style-scope ytd-channel-name\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n</ytd-channel-name>\n<yt-formatted-string id=\"description-text\" class=\"style-scope ytd-video-renderer\" is-empty=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-formatted-string--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.ui.yt_formatted_string.yt.formatted.string.css.js--><yt-attributed-string class=\"style-scope yt-formatted-string\"></yt-attributed-string></yt-formatted-string>\n<ytd-thumbnail-overlay-time-status-renderer class=\"style-scope ytd-thumbnail\" hide-time-status=\"\" overlay-style=\"DEFAULT\"><!--css-build:shady--><!--css_build_scope:ytd-thumbnail-overlay-time-status-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><ytd-badge-supported-renderer is-thumbnail-badge=\"\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" system-icons=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer><div class=\"thumbnail-overlay-badge-shape style-scope ytd-thumbnail-overlay-time-status-renderer\"><badge-shape class=\"ytBadgeShapeHost ytBadgeShapeThumbnailDefault ytBadgeShapeThumbnailBadge ytBadgeShapeTypography\" role=\"img\" aria-label=\"9分钟29秒钟\"><div class=\"ytBadgeShapeText\">9:29</div></badge-shape></div><div id=\"time-status\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" hidden=\"\"><yt-icon class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" disable-upgrade=\"\" hidden=\"\"></yt-icon><span id=\"text\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" aria-label=\"9分钟29秒钟\">\n    9:29\n  </span></div></ytd-thumbnail-overlay-time-status-renderer>",
+            "metadata_labels": [
+              "2次观看",
+              "7小时前"
+            ],
+            "duration_label": "9:29",
+            "evidence_scope": "Exact title, thumbnail, metadata, channel, description and duration nodes from the visible result card."
+          }
+        },
+        {
+          "platform": "youtube",
+          "external_id": "jYDVr-K6HY0",
+          "url": "https://www.youtube.com/watch?v=jYDVr-K6HY0",
+          "item_type": "video",
+          "title": "The Black Whale Is Coming for Claude Code — DeepSeek Harness",
+          "author": "Morgans Code",
+          "author_url": "https://www.youtube.com/@MorgansCode",
+          "published_label": "20小时前",
+          "content_text": null,
+          "media_kind": "video",
+          "media_url": "https://www.youtube.com/watch?v=jYDVr-K6HY0",
+          "thumbnail_url": null,
+          "media": [
+            {
+              "kind": "video",
+              "url": "https://www.youtube.com/watch?v=jYDVr-K6HY0"
+            }
+          ],
+          "metrics": {
+            "views": 915,
+            "metric_source": "YouTube authenticated visible search card",
+            "observed_at": "2026-08-15T19:58:26.912Z"
+          },
+          "tags": [
+            "youtube",
+            "video",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "The Black Whale Is Coming for Claude Code — DeepSeek Harness\n915次观看\n20小时前\nMorgans Code\nDeepSeek Harness is DeepSeek's new MIT-licensed open-source coding agent — and it could become one of the most important ...\n最新\n字幕\n匹配章节\n0:00 DeepSeek Harness: The Open-Source Coding Agent",
+            "visible_dom": "<img class=\"ytCoreImageHost ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspectFill\" alt=\"true\" style=\"background-color: transparent;\">\n<a id=\"video-title\" class=\"yt-simple-endpoint style-scope ytd-video-renderer\" title=\"The Black Whale Is Coming for Claude Code — DeepSeek Harness\" aria-label=\"The Black Whale Is Coming for Claude Code — DeepSeek Harness 9分钟53秒钟\" href=\"/watch?v=jYDVr-K6HY0&amp;pp=ygUZIkRlZXBTZWVrIEhhcm5lc3MiIHBsdWdpbg%3D%3D\">\n            <yt-icon id=\"inline-title-icon\" class=\"style-scope ytd-video-renderer\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--></yt-icon>\n            <yt-formatted-string class=\"style-scope ytd-video-renderer\" aria-label=\"The Black Whale Is Coming for Claude Code — DeepSeek Harness 9分钟53秒钟\">The Black Whale Is Coming for Claude Code — DeepSeek Harness</yt-formatted-string>\n          </a>\n<div id=\"metadata-line\" class=\"style-scope ytd-video-meta-block\">\n    \n    <ytd-badge-supported-renderer class=\"inline-metadata-badge style-scope ytd-video-meta-block\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"ytBadgeSupportedRendererHost\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n    <div id=\"separator\" class=\"style-scope ytd-video-meta-block\" hidden=\"\">•</div>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">915次观看</span>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">20小时前</span>\n    <dom-repeat strip-whitespace=\"\" class=\"style-scope ytd-video-meta-block\"><template is=\"dom-repeat\"></template></dom-repeat>\n  </div>\n<ytd-channel-name id=\"channel-name\" class=\" style-scope ytd-video-meta-block style-scope ytd-video-meta-block\"><!--css-build:shady--><!--css_build_scope:ytd-channel-name--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><div id=\"container\" class=\"style-scope ytd-channel-name\">\n  <div id=\"text-container\" class=\"style-scope ytd-channel-name\">\n    <yt-formatted-string id=\"text\" link-inherit-color=\"\" respect-lang-dir=\"\" title=\"Morgans Code\" class=\"style-scope ytd-channel-name complex-string\" ellipsis-truncate=\"\" ellipsis-truncate-styling=\"\" dir=\"auto\" style=\"text-align: left;\" has-link-only_=\"\"><a class=\"yt-simple-endpoint style-scope yt-formatted-string\" spellcheck=\"false\" href=\"/@MorgansCode\">Morgans Code</a></yt-formatted-string>\n  </div>\n  <tp-yt-paper-tooltip aria-hidden=\"true\" fit-to-visible-bounds=\"\" class=\"style-scope ytd-channel-name\" role=\"tooltip\" tabindex=\"-1\" aria-label=\"tooltip\"><!--css-build:shady--><!--css_build_scope:tp-yt-paper-tooltip--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,third_party.javascript.youtube_components.tp_yt_paper_tooltip.tp.yt.paper.tooltip.css.js--><div id=\"tooltip\" class=\"hidden style-scope tp-yt-paper-tooltip\" style-target=\"tooltip\">\n  \n    Morgans Code\n  \n</div>\n</tp-yt-paper-tooltip>\n</div>\n<ytd-badge-supported-renderer class=\"style-scope ytd-channel-name\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n</ytd-channel-name>\n<yt-formatted-string id=\"description-text\" class=\"style-scope ytd-video-renderer\" is-empty=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-formatted-string--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.ui.yt_formatted_string.yt.formatted.string.css.js--><yt-attributed-string class=\"style-scope yt-formatted-string\"></yt-attributed-string></yt-formatted-string>\n<ytd-thumbnail-overlay-time-status-renderer class=\"style-scope ytd-thumbnail\" hide-time-status=\"\" overlay-style=\"DEFAULT\"><!--css-build:shady--><!--css_build_scope:ytd-thumbnail-overlay-time-status-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><ytd-badge-supported-renderer is-thumbnail-badge=\"\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" system-icons=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer><div class=\"thumbnail-overlay-badge-shape style-scope ytd-thumbnail-overlay-time-status-renderer\"><badge-shape class=\"ytBadgeShapeHost ytBadgeShapeThumbnailDefault ytBadgeShapeThumbnailBadge ytBadgeShapeTypography\" role=\"img\" aria-label=\"9分钟53秒钟\"><div class=\"ytBadgeShapeText\">9:53</div></badge-shape></div><div id=\"time-status\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" hidden=\"\"><yt-icon class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" disable-upgrade=\"\" hidden=\"\"></yt-icon><span id=\"text\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" aria-label=\"9分钟53秒钟\">\n    9:53\n  </span></div></ytd-thumbnail-overlay-time-status-renderer>",
+            "metadata_labels": [
+              "915次观看",
+              "20小时前"
+            ],
+            "duration_label": "9:53\n    9:53",
+            "evidence_scope": "Exact title, thumbnail, metadata, channel, description and duration nodes from the visible result card."
+          }
+        },
+        {
+          "platform": "youtube",
+          "external_id": "X3Weqs85B0g",
+          "url": "https://www.youtube.com/watch?v=X3Weqs85B0g",
+          "item_type": "video",
+          "title": "DeepSeek Harness桌面版！一键安装免环境配置，开源智能体Agent客户端",
+          "author": "shang peng",
+          "author_url": "https://www.youtube.com/@shangpeng4254",
+          "published_label": "14小时前",
+          "content_text": null,
+          "media_kind": "video",
+          "media_url": "https://www.youtube.com/watch?v=X3Weqs85B0g",
+          "thumbnail_url": "https://i.ytimg.com/vi/X3Weqs85B0g/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAkBkUpWLeMuX0zaaiKkSz0FdvwUA",
+          "media": [
+            {
+              "kind": "thumbnail",
+              "url": "https://i.ytimg.com/vi/X3Weqs85B0g/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAkBkUpWLeMuX0zaaiKkSz0FdvwUA",
+              "thumbnail_url": "https://i.ytimg.com/vi/X3Weqs85B0g/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAkBkUpWLeMuX0zaaiKkSz0FdvwUA"
+            },
+            {
+              "kind": "video",
+              "url": "https://www.youtube.com/watch?v=X3Weqs85B0g"
+            }
+          ],
+          "metrics": {
+            "views": 39,
+            "metric_source": "YouTube authenticated visible search card",
+            "observed_at": "2026-08-15T19:58:26.912Z"
+          },
+          "tags": [
+            "youtube",
+            "video",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "4:44\n正在播放\nDeepSeek Harness桌面版！一键安装免环境配置，开源智能体Agent客户端\n39次观看\n14小时前\nshang peng\n本期分享的DeepSeek Harness桌面智能体客户端，完整独立安装包及使用教程链接已经放在置顶评论区了，大家可以自取。\n最新\n字幕\n10 个章节\n痛点引入：命令行配置繁琐与环境冲突 | 混剪效果：桌面原生窗口秒开与托盘常驻 | 安装方式：Win与Mac独立安装包选择 | 实操安装：双击一键安装与免配置指引 | 镜头演示1：原生窗口展开与托盘极速唤醒 | 镜头演示2：模型配置与多Provider无缝切换 | 镜头演示3：Agent交互实操与Tool工具管道 | 镜头演示4：插件管理生态与一键按需扩展 | 总结功能：本地隐私安全与全能工作台 | 频道三连：免费获取双端原生安装包",
+            "visible_dom": "<img class=\"ytCoreImageHost ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspectFill ytCoreImageLoaded\" alt=\"true\" style=\"background-color: transparent;\" src=\"https://i.ytimg.com/vi/X3Weqs85B0g/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&amp;rs=AOn4CLAkBkUpWLeMuX0zaaiKkSz0FdvwUA\">\n<a id=\"video-title\" class=\"yt-simple-endpoint style-scope ytd-video-renderer\" title=\"DeepSeek Harness桌面版！一键安装免环境配置，开源智能体Agent客户端\" aria-label=\"DeepSeek Harness桌面版！一键安装免环境配置，开源智能体Agent客户端 4分钟44秒钟\" href=\"/watch?v=X3Weqs85B0g&amp;pp=ygUZIkRlZXBTZWVrIEhhcm5lc3MiIHBsdWdpbg%3D%3D\">\n            <yt-icon id=\"inline-title-icon\" class=\"style-scope ytd-video-renderer\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--></yt-icon>\n            <yt-formatted-string class=\"style-scope ytd-video-renderer\" aria-label=\"DeepSeek Harness桌面版！一键安装免环境配置，开源智能体Agent客户端 4分钟44秒钟\">DeepSeek Harness桌面版！一键安装免环境配置，开源智能体Agent客户端</yt-formatted-string>\n          </a>\n<div id=\"metadata-line\" class=\"style-scope ytd-video-meta-block\">\n    \n    <ytd-badge-supported-renderer class=\"inline-metadata-badge style-scope ytd-video-meta-block\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"ytBadgeSupportedRendererHost\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n    <div id=\"separator\" class=\"style-scope ytd-video-meta-block\" hidden=\"\">•</div>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">39次观看</span>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">14小时前</span>\n    <dom-repeat strip-whitespace=\"\" class=\"style-scope ytd-video-meta-block\"><template is=\"dom-repeat\"></template></dom-repeat>\n  </div>\n<ytd-channel-name id=\"channel-name\" class=\" style-scope ytd-video-meta-block style-scope ytd-video-meta-block\"><!--css-build:shady--><!--css_build_scope:ytd-channel-name--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><div id=\"container\" class=\"style-scope ytd-channel-name\">\n  <div id=\"text-container\" class=\"style-scope ytd-channel-name\">\n    <yt-formatted-string id=\"text\" link-inherit-color=\"\" respect-lang-dir=\"\" title=\"shang peng\" class=\"style-scope ytd-channel-name complex-string\" ellipsis-truncate=\"\" ellipsis-truncate-styling=\"\" dir=\"auto\" style=\"text-align: left;\" has-link-only_=\"\"><a class=\"yt-simple-endpoint style-scope yt-formatted-string\" spellcheck=\"false\" href=\"/@shangpeng4254\">shang peng</a></yt-formatted-string>\n  </div>\n  <tp-yt-paper-tooltip aria-hidden=\"true\" fit-to-visible-bounds=\"\" class=\"style-scope ytd-channel-name\" role=\"tooltip\" tabindex=\"-1\" aria-label=\"tooltip\"><!--css-build:shady--><!--css_build_scope:tp-yt-paper-tooltip--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,third_party.javascript.youtube_components.tp_yt_paper_tooltip.tp.yt.paper.tooltip.css.js--><div id=\"tooltip\" class=\"hidden style-scope tp-yt-paper-tooltip\" style-target=\"tooltip\">\n  \n    shang peng\n  \n</div>\n</tp-yt-paper-tooltip>\n</div>\n<ytd-badge-supported-renderer class=\"style-scope ytd-channel-name\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n</ytd-channel-name>\n<yt-formatted-string id=\"description-text\" class=\"style-scope ytd-video-renderer\" is-empty=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-formatted-string--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.ui.yt_formatted_string.yt.formatted.string.css.js--><yt-attributed-string class=\"style-scope yt-formatted-string\"></yt-attributed-string></yt-formatted-string>\n<ytd-thumbnail-overlay-time-status-renderer class=\"style-scope ytd-thumbnail\" hide-time-status=\"\" overlay-style=\"DEFAULT\"><!--css-build:shady--><!--css_build_scope:ytd-thumbnail-overlay-time-status-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><ytd-badge-supported-renderer is-thumbnail-badge=\"\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" system-icons=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer><div class=\"thumbnail-overlay-badge-shape style-scope ytd-thumbnail-overlay-time-status-renderer\"><badge-shape class=\"ytBadgeShapeHost ytBadgeShapeThumbnailDefault ytBadgeShapeThumbnailBadge ytBadgeShapeTypography\" role=\"img\" aria-label=\"4分钟44秒钟\"><div class=\"ytBadgeShapeText\">4:44</div></badge-shape></div><div id=\"time-status\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" hidden=\"\"><yt-icon class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" disable-upgrade=\"\" hidden=\"\"></yt-icon><span id=\"text\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" aria-label=\"4分钟44秒钟\">\n    4:44\n  </span></div></ytd-thumbnail-overlay-time-status-renderer>",
+            "metadata_labels": [
+              "39次观看",
+              "14小时前"
+            ],
+            "duration_label": "4:44",
+            "evidence_scope": "Exact title, thumbnail, metadata, channel, description and duration nodes from the visible result card."
+          }
+        },
+        {
+          "platform": "youtube",
+          "external_id": "6u5wah0BpBE",
+          "url": "https://www.youtube.com/watch?v=6u5wah0BpBE",
+          "item_type": "video",
+          "title": "DeepSeek Harness 首发实测 + 入门教程，夯爆了！梁神我错了",
+          "author": "程序员鱼皮",
+          "author_url": "https://www.youtube.com/@coder_yupi",
+          "published_label": "1天前",
+          "content_text": null,
+          "media_kind": "video",
+          "media_url": "https://www.youtube.com/watch?v=6u5wah0BpBE",
+          "thumbnail_url": "https://i.ytimg.com/vi/6u5wah0BpBE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBmy4GcVCOzVHBIl0fbhrmLVwbklQ",
+          "media": [
+            {
+              "kind": "thumbnail",
+              "url": "https://i.ytimg.com/vi/6u5wah0BpBE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBmy4GcVCOzVHBIl0fbhrmLVwbklQ",
+              "thumbnail_url": "https://i.ytimg.com/vi/6u5wah0BpBE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBmy4GcVCOzVHBIl0fbhrmLVwbklQ"
+            },
+            {
+              "kind": "video",
+              "url": "https://www.youtube.com/watch?v=6u5wah0BpBE"
+            }
+          ],
+          "metrics": {
+            "views": 11000,
+            "metric_source": "YouTube authenticated visible search card",
+            "observed_at": "2026-08-15T19:58:26.912Z"
+          },
+          "tags": [
+            "youtube",
+            "video",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "16:33\n正在播放\nDeepSeek Harness 首发实测 + 入门教程，夯爆了！梁神我错了\n1.1万次观看\n1天前\n程序员鱼皮\nDeepSeek Harness 保姆级教程，1个视频带你从安装到实战玩转DeepSeek 最新开源的AI 编程工具，小白也能学会，看完就知道《 ...\n最新\n4K",
+            "visible_dom": "<img class=\"ytCoreImageHost ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspectFill ytCoreImageLoaded\" alt=\"true\" style=\"background-color: transparent;\" src=\"https://i.ytimg.com/vi/6u5wah0BpBE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&amp;rs=AOn4CLBmy4GcVCOzVHBIl0fbhrmLVwbklQ\">\n<a id=\"video-title\" class=\"yt-simple-endpoint style-scope ytd-video-renderer\" title=\"DeepSeek Harness 首发实测 + 入门教程，夯爆了！梁神我错了\" aria-label=\"DeepSeek Harness 首发实测 + 入门教程，夯爆了！梁神我错了 16分钟\" href=\"/watch?v=6u5wah0BpBE&amp;pp=ygUZIkRlZXBTZWVrIEhhcm5lc3MiIHBsdWdpbg%3D%3D\">\n            <yt-icon id=\"inline-title-icon\" class=\"style-scope ytd-video-renderer\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--></yt-icon>\n            <yt-formatted-string class=\"style-scope ytd-video-renderer\" aria-label=\"DeepSeek Harness 首发实测 + 入门教程，夯爆了！梁神我错了 16分钟\">DeepSeek Harness 首发实测 + 入门教程，夯爆了！梁神我错了</yt-formatted-string>\n          </a>\n<div id=\"metadata-line\" class=\"style-scope ytd-video-meta-block\">\n    \n    <ytd-badge-supported-renderer class=\"inline-metadata-badge style-scope ytd-video-meta-block\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"ytBadgeSupportedRendererHost\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n    <div id=\"separator\" class=\"style-scope ytd-video-meta-block\" hidden=\"\">•</div>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">1.1万次观看</span>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">1天前</span>\n    <dom-repeat strip-whitespace=\"\" class=\"style-scope ytd-video-meta-block\"><template is=\"dom-repeat\"></template></dom-repeat>\n  </div>\n<ytd-channel-name id=\"channel-name\" class=\" style-scope ytd-video-meta-block style-scope ytd-video-meta-block\"><!--css-build:shady--><!--css_build_scope:ytd-channel-name--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><div id=\"container\" class=\"style-scope ytd-channel-name\">\n  <div id=\"text-container\" class=\"style-scope ytd-channel-name\">\n    <yt-formatted-string id=\"text\" link-inherit-color=\"\" respect-lang-dir=\"\" title=\"程序员鱼皮\" class=\"style-scope ytd-channel-name complex-string\" ellipsis-truncate=\"\" ellipsis-truncate-styling=\"\" dir=\"auto\" has-link-only_=\"\" style=\"text-align: left;\"><a class=\"yt-simple-endpoint style-scope yt-formatted-string\" spellcheck=\"false\" href=\"/@coder_yupi\">程序员鱼皮</a></yt-formatted-string>\n  </div>\n  <tp-yt-paper-tooltip aria-hidden=\"true\" fit-to-visible-bounds=\"\" class=\"style-scope ytd-channel-name\" role=\"tooltip\" tabindex=\"-1\" aria-label=\"tooltip\"><!--css-build:shady--><!--css_build_scope:tp-yt-paper-tooltip--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,third_party.javascript.youtube_components.tp_yt_paper_tooltip.tp.yt.paper.tooltip.css.js--><div id=\"tooltip\" class=\"hidden style-scope tp-yt-paper-tooltip\" style-target=\"tooltip\">\n  \n    程序员鱼皮\n  \n</div>\n</tp-yt-paper-tooltip>\n</div>\n<ytd-badge-supported-renderer class=\"style-scope ytd-channel-name\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n</ytd-channel-name>\n<yt-formatted-string id=\"description-text\" class=\"style-scope ytd-video-renderer\" is-empty=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-formatted-string--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.ui.yt_formatted_string.yt.formatted.string.css.js--><yt-attributed-string class=\"style-scope yt-formatted-string\"></yt-attributed-string></yt-formatted-string>\n<ytd-thumbnail-overlay-time-status-renderer class=\"style-scope ytd-thumbnail\" hide-time-status=\"\" overlay-style=\"DEFAULT\"><!--css-build:shady--><!--css_build_scope:ytd-thumbnail-overlay-time-status-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><ytd-badge-supported-renderer is-thumbnail-badge=\"\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" system-icons=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer><div class=\"thumbnail-overlay-badge-shape style-scope ytd-thumbnail-overlay-time-status-renderer\"><badge-shape class=\"ytBadgeShapeHost ytBadgeShapeThumbnailDefault ytBadgeShapeThumbnailBadge ytBadgeShapeTypography\" role=\"img\" aria-label=\"16分钟33秒钟\"><div class=\"ytBadgeShapeText\">16:33</div></badge-shape></div><div id=\"time-status\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" hidden=\"\"><yt-icon class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" disable-upgrade=\"\" hidden=\"\"></yt-icon><span id=\"text\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" aria-label=\"16分钟33秒钟\">\n    16:33\n  </span></div></ytd-thumbnail-overlay-time-status-renderer>",
+            "metadata_labels": [
+              "1.1万次观看",
+              "1天前"
+            ],
+            "duration_label": "16:33",
+            "evidence_scope": "Exact title, thumbnail, metadata, channel, description and duration nodes from the visible result card."
+          }
+        },
+        {
+          "platform": "youtube",
+          "external_id": "k2hi16y67Jo",
+          "url": "https://www.youtube.com/watch?v=k2hi16y67Jo",
+          "item_type": "video",
+          "title": "DeepSeek Harness: Free Claude Code Rival Hits 24k Stars Day 1",
+          "author": "Prism Labs",
+          "author_url": "https://www.youtube.com/@prismlabsai",
+          "published_label": "2天前",
+          "content_text": null,
+          "media_kind": "video",
+          "media_url": "https://www.youtube.com/watch?v=k2hi16y67Jo",
+          "thumbnail_url": "https://i.ytimg.com/vi/k2hi16y67Jo/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAnCT1J2JI-YZ9hBeyQEFQur-cYjg",
+          "media": [
+            {
+              "kind": "thumbnail",
+              "url": "https://i.ytimg.com/vi/k2hi16y67Jo/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAnCT1J2JI-YZ9hBeyQEFQur-cYjg",
+              "thumbnail_url": "https://i.ytimg.com/vi/k2hi16y67Jo/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAnCT1J2JI-YZ9hBeyQEFQur-cYjg"
+            },
+            {
+              "kind": "video",
+              "url": "https://www.youtube.com/watch?v=k2hi16y67Jo"
+            }
+          ],
+          "metrics": {
+            "views": 3772,
+            "metric_source": "YouTube authenticated visible search card",
+            "observed_at": "2026-08-15T19:58:26.912Z"
+          },
+          "tags": [
+            "youtube",
+            "video",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "7:27\n正在播放\n0:25\n7:27\nDeepSeek Harness: Free Claude Code Rival Hits 24k Stars Day 1\n3772次观看\n2天前\nPrism Labs\nDeepSeek open-sourced its agent framework this morning — 24700 GitHub stars within hours, MIT licensed, and everything is a ...\n最新\n匹配章节\n0:25 What Is DeepSeek Harness?",
+            "visible_dom": "<img class=\"ytCoreImageHost ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspectFill ytCoreImageLoaded\" alt=\"true\" style=\"background-color: transparent;\" src=\"https://i.ytimg.com/vi/k2hi16y67Jo/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&amp;rs=AOn4CLAnCT1J2JI-YZ9hBeyQEFQur-cYjg\">\n<a id=\"video-title\" class=\"yt-simple-endpoint style-scope ytd-video-renderer\" title=\"DeepSeek Harness: Free Claude Code Rival Hits 24k Stars Day 1\" aria-label=\"DeepSeek Harness: Free Claude Code Rival Hits 24k Stars Day 1 7分钟27秒钟\" href=\"/watch?v=k2hi16y67Jo&amp;t=25s&amp;pp=ygUZIkRlZXBTZWVrIEhhcm5lc3MiIHBsdWdpbg%3D%3D\">\n            <yt-icon id=\"inline-title-icon\" class=\"style-scope ytd-video-renderer\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--></yt-icon>\n            <yt-formatted-string class=\"style-scope ytd-video-renderer\" aria-label=\"DeepSeek Harness: Free Claude Code Rival Hits 24k Stars Day 1 7分钟27秒钟\">DeepSeek Harness: Free Claude Code Rival Hits 24k Stars Day 1</yt-formatted-string>\n          </a>\n<div id=\"metadata-line\" class=\"style-scope ytd-video-meta-block\">\n    \n    <ytd-badge-supported-renderer class=\"inline-metadata-badge style-scope ytd-video-meta-block\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"ytBadgeSupportedRendererHost\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n    <div id=\"separator\" class=\"style-scope ytd-video-meta-block\" hidden=\"\">•</div>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">3772次观看</span>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">2天前</span>\n    <dom-repeat strip-whitespace=\"\" class=\"style-scope ytd-video-meta-block\"><template is=\"dom-repeat\"></template></dom-repeat>\n  </div>\n<ytd-channel-name id=\"channel-name\" class=\" style-scope ytd-video-meta-block style-scope ytd-video-meta-block\"><!--css-build:shady--><!--css_build_scope:ytd-channel-name--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><div id=\"container\" class=\"style-scope ytd-channel-name\">\n  <div id=\"text-container\" class=\"style-scope ytd-channel-name\">\n    <yt-formatted-string id=\"text\" link-inherit-color=\"\" respect-lang-dir=\"\" title=\"Prism Labs\" class=\"style-scope ytd-channel-name complex-string\" ellipsis-truncate=\"\" ellipsis-truncate-styling=\"\" dir=\"auto\" has-link-only_=\"\" style=\"text-align: left;\"><a class=\"yt-simple-endpoint style-scope yt-formatted-string\" spellcheck=\"false\" href=\"/@prismlabsai\">Prism Labs</a></yt-formatted-string>\n  </div>\n  <tp-yt-paper-tooltip aria-hidden=\"true\" fit-to-visible-bounds=\"\" class=\"style-scope ytd-channel-name\" role=\"tooltip\" tabindex=\"-1\" aria-label=\"tooltip\"><!--css-build:shady--><!--css_build_scope:tp-yt-paper-tooltip--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,third_party.javascript.youtube_components.tp_yt_paper_tooltip.tp.yt.paper.tooltip.css.js--><div id=\"tooltip\" class=\"hidden style-scope tp-yt-paper-tooltip\" style-target=\"tooltip\">\n  \n    Prism Labs\n  \n</div>\n</tp-yt-paper-tooltip>\n</div>\n<ytd-badge-supported-renderer class=\"style-scope ytd-channel-name\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n</ytd-channel-name>\n<yt-formatted-string id=\"description-text\" class=\"style-scope ytd-video-renderer\" is-empty=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-formatted-string--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.ui.yt_formatted_string.yt.formatted.string.css.js--><yt-attributed-string class=\"style-scope yt-formatted-string\"></yt-attributed-string></yt-formatted-string>\n<ytd-thumbnail-overlay-time-status-renderer class=\"style-scope ytd-thumbnail\" hide-time-status=\"\" overlay-style=\"DEFAULT\"><!--css-build:shady--><!--css_build_scope:ytd-thumbnail-overlay-time-status-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><ytd-badge-supported-renderer is-thumbnail-badge=\"\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" system-icons=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer><div class=\"thumbnail-overlay-badge-shape style-scope ytd-thumbnail-overlay-time-status-renderer\"><badge-shape class=\"ytBadgeShapeHost ytBadgeShapeThumbnailDefault ytBadgeShapeThumbnailBadge ytBadgeShapeTypography\" role=\"img\" aria-label=\"7分钟27秒钟\"><div class=\"ytBadgeShapeText\">7:27</div></badge-shape></div><div id=\"time-status\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" hidden=\"\"><yt-icon class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" disable-upgrade=\"\" hidden=\"\"></yt-icon><span id=\"text\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" aria-label=\"7分钟27秒钟\">\n    7:27\n  </span></div></ytd-thumbnail-overlay-time-status-renderer>",
+            "metadata_labels": [
+              "3772次观看",
+              "2天前"
+            ],
+            "duration_label": "7:27",
+            "evidence_scope": "Exact title, thumbnail, metadata, channel, description and duration nodes from the visible result card."
+          }
+        },
+        {
+          "platform": "youtube",
+          "external_id": "HptJuM5rpik",
+          "url": "https://www.youtube.com/watch?v=HptJuM5rpik",
+          "item_type": "video",
+          "title": "DeepSeek Harness零基础最快安装教程",
+          "author": "Double讲AI",
+          "author_url": "https://www.youtube.com/@AI%E5%8A%A9%E6%89%8B%E6%8C%87%E5%8D%97",
+          "published_label": "1天前",
+          "content_text": null,
+          "media_kind": "video",
+          "media_url": "https://www.youtube.com/watch?v=HptJuM5rpik",
+          "thumbnail_url": "https://i.ytimg.com/vi/HptJuM5rpik/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC5HyFwzsC1h0rwpsTIsa7G0loF6Q",
+          "media": [
+            {
+              "kind": "thumbnail",
+              "url": "https://i.ytimg.com/vi/HptJuM5rpik/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC5HyFwzsC1h0rwpsTIsa7G0loF6Q",
+              "thumbnail_url": "https://i.ytimg.com/vi/HptJuM5rpik/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC5HyFwzsC1h0rwpsTIsa7G0loF6Q"
+            },
+            {
+              "kind": "video",
+              "url": "https://www.youtube.com/watch?v=HptJuM5rpik"
+            }
+          ],
+          "metrics": {
+            "views": 28,
+            "metric_source": "YouTube authenticated visible search card",
+            "observed_at": "2026-08-15T19:58:26.912Z"
+          },
+          "tags": [
+            "youtube",
+            "video",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "2:15\n正在播放\nDeepSeek Harness零基础最快安装教程\n28次观看\n1天前\nDouble讲AI\n不会代码，也能装好DeepSeek Harness！本期从下载安装到成功运行，全程一步一步演示，带你认识这个本地优先、插件化的AI ...\n最新",
+            "visible_dom": "<img class=\"ytCoreImageHost ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspectFill ytCoreImageLoaded\" alt=\"true\" style=\"background-color: transparent;\" src=\"https://i.ytimg.com/vi/HptJuM5rpik/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&amp;rs=AOn4CLC5HyFwzsC1h0rwpsTIsa7G0loF6Q\">\n<a id=\"video-title\" class=\"yt-simple-endpoint style-scope ytd-video-renderer\" title=\"DeepSeek Harness零基础最快安装教程\" aria-label=\"DeepSeek Harness零基础最快安装教程 2分钟15秒钟\" href=\"/watch?v=HptJuM5rpik&amp;pp=ygUZIkRlZXBTZWVrIEhhcm5lc3MiIHBsdWdpbg%3D%3D\">\n            <yt-icon id=\"inline-title-icon\" class=\"style-scope ytd-video-renderer\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--></yt-icon>\n            <yt-formatted-string class=\"style-scope ytd-video-renderer\" aria-label=\"DeepSeek Harness零基础最快安装教程 2分钟15秒钟\">DeepSeek Harness零基础最快安装教程</yt-formatted-string>\n          </a>\n<div id=\"metadata-line\" class=\"style-scope ytd-video-meta-block\">\n    \n    <ytd-badge-supported-renderer class=\"inline-metadata-badge style-scope ytd-video-meta-block\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"ytBadgeSupportedRendererHost\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n    <div id=\"separator\" class=\"style-scope ytd-video-meta-block\" hidden=\"\">•</div>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">28次观看</span>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">1天前</span>\n    <dom-repeat strip-whitespace=\"\" class=\"style-scope ytd-video-meta-block\"><template is=\"dom-repeat\"></template></dom-repeat>\n  </div>\n<ytd-channel-name id=\"channel-name\" class=\" style-scope ytd-video-meta-block style-scope ytd-video-meta-block\"><!--css-build:shady--><!--css_build_scope:ytd-channel-name--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><div id=\"container\" class=\"style-scope ytd-channel-name\">\n  <div id=\"text-container\" class=\"style-scope ytd-channel-name\">\n    <yt-formatted-string id=\"text\" link-inherit-color=\"\" respect-lang-dir=\"\" title=\"Double讲AI\" class=\"style-scope ytd-channel-name complex-string\" ellipsis-truncate=\"\" ellipsis-truncate-styling=\"\" dir=\"auto\" has-link-only_=\"\" style=\"text-align: left;\"><a class=\"yt-simple-endpoint style-scope yt-formatted-string\" spellcheck=\"false\" href=\"/@AI%E5%8A%A9%E6%89%8B%E6%8C%87%E5%8D%97\">Double讲AI</a></yt-formatted-string>\n  </div>\n  <tp-yt-paper-tooltip aria-hidden=\"true\" fit-to-visible-bounds=\"\" class=\"style-scope ytd-channel-name\" role=\"tooltip\" tabindex=\"-1\" aria-label=\"tooltip\"><!--css-build:shady--><!--css_build_scope:tp-yt-paper-tooltip--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,third_party.javascript.youtube_components.tp_yt_paper_tooltip.tp.yt.paper.tooltip.css.js--><div id=\"tooltip\" class=\"hidden style-scope tp-yt-paper-tooltip\" style-target=\"tooltip\">\n  \n    Double讲AI\n  \n</div>\n</tp-yt-paper-tooltip>\n</div>\n<ytd-badge-supported-renderer class=\"style-scope ytd-channel-name\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n</ytd-channel-name>\n<yt-formatted-string id=\"description-text\" class=\"style-scope ytd-video-renderer\" is-empty=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-formatted-string--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.ui.yt_formatted_string.yt.formatted.string.css.js--><yt-attributed-string class=\"style-scope yt-formatted-string\"></yt-attributed-string></yt-formatted-string>\n<ytd-thumbnail-overlay-time-status-renderer class=\"style-scope ytd-thumbnail\" hide-time-status=\"\" overlay-style=\"DEFAULT\"><!--css-build:shady--><!--css_build_scope:ytd-thumbnail-overlay-time-status-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><ytd-badge-supported-renderer is-thumbnail-badge=\"\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" system-icons=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer><div class=\"thumbnail-overlay-badge-shape style-scope ytd-thumbnail-overlay-time-status-renderer\"><badge-shape class=\"ytBadgeShapeHost ytBadgeShapeThumbnailDefault ytBadgeShapeThumbnailBadge ytBadgeShapeTypography\" role=\"img\" aria-label=\"2分钟15秒钟\"><div class=\"ytBadgeShapeText\">2:15</div></badge-shape></div><div id=\"time-status\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" hidden=\"\"><yt-icon class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" disable-upgrade=\"\" hidden=\"\"></yt-icon><span id=\"text\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" aria-label=\"2分钟15秒钟\">\n    2:15\n  </span></div></ytd-thumbnail-overlay-time-status-renderer>",
+            "metadata_labels": [
+              "28次观看",
+              "1天前"
+            ],
+            "duration_label": "2:15",
+            "evidence_scope": "Exact title, thumbnail, metadata, channel, description and duration nodes from the visible result card."
+          }
+        },
+        {
+          "platform": "youtube",
+          "external_id": "ZR3WH6XwtV4",
+          "url": "https://www.youtube.com/watch?v=ZR3WH6XwtV4",
+          "item_type": "video",
+          "title": "DeepSeek Harness，一切皆插件！ 详细介绍",
+          "author": "Magic奈文摩尔",
+          "author_url": "https://www.youtube.com/@MagicNeverMore",
+          "published_label": "8小时前",
+          "content_text": null,
+          "media_kind": "video",
+          "media_url": "https://www.youtube.com/watch?v=ZR3WH6XwtV4",
+          "thumbnail_url": "https://i.ytimg.com/vi/ZR3WH6XwtV4/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBkKqB2MGSsSZmcQqBx4s-FLYr65A",
+          "media": [
+            {
+              "kind": "thumbnail",
+              "url": "https://i.ytimg.com/vi/ZR3WH6XwtV4/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBkKqB2MGSsSZmcQqBx4s-FLYr65A",
+              "thumbnail_url": "https://i.ytimg.com/vi/ZR3WH6XwtV4/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBkKqB2MGSsSZmcQqBx4s-FLYr65A"
+            },
+            {
+              "kind": "video",
+              "url": "https://www.youtube.com/watch?v=ZR3WH6XwtV4"
+            }
+          ],
+          "metrics": {
+            "views": 28,
+            "metric_source": "YouTube authenticated visible search card",
+            "observed_at": "2026-08-15T19:58:26.912Z"
+          },
+          "tags": [
+            "youtube",
+            "video",
+            "deepseek-harness",
+            "plugin"
+          ],
+          "raw_capture": {
+            "visible_text": "11:31\n正在播放\nDeepSeek Harness，一切皆插件！ 详细介绍\n28次观看\n8小时前\nMagic奈文摩尔\n关于 MagicNeverMore： 如果你也想少听一点概念营销，多看一点真实世界里的 AI 变化，欢迎订阅这个频道。\n最新",
+            "visible_dom": "<img class=\"ytCoreImageHost ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspectFill ytCoreImageLoaded\" alt=\"true\" style=\"background-color: transparent;\" src=\"https://i.ytimg.com/vi/ZR3WH6XwtV4/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&amp;rs=AOn4CLBkKqB2MGSsSZmcQqBx4s-FLYr65A\">\n<a id=\"video-title\" class=\"yt-simple-endpoint style-scope ytd-video-renderer\" title=\"DeepSeek Harness，一切皆插件！ 详细介绍\" aria-label=\"DeepSeek Harness，一切皆插件！ 详细介绍 11分钟31秒钟\" href=\"/watch?v=ZR3WH6XwtV4&amp;pp=ygUZIkRlZXBTZWVrIEhhcm5lc3MiIHBsdWdpbg%3D%3D\">\n            <yt-icon id=\"inline-title-icon\" class=\"style-scope ytd-video-renderer\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--></yt-icon>\n            <yt-formatted-string class=\"style-scope ytd-video-renderer\" aria-label=\"DeepSeek Harness，一切皆插件！ 详细介绍 11分钟31秒钟\">DeepSeek Harness，一切皆插件！ 详细介绍</yt-formatted-string>\n          </a>\n<div id=\"metadata-line\" class=\"style-scope ytd-video-meta-block\">\n    \n    <ytd-badge-supported-renderer class=\"inline-metadata-badge style-scope ytd-video-meta-block\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"ytBadgeSupportedRendererHost\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n    <div id=\"separator\" class=\"style-scope ytd-video-meta-block\" hidden=\"\">•</div>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">28次观看</span>\n    \n      <span class=\"inline-metadata-item style-scope ytd-video-meta-block\" style=\"\">8小时前</span>\n    <dom-repeat strip-whitespace=\"\" class=\"style-scope ytd-video-meta-block\"><template is=\"dom-repeat\"></template></dom-repeat>\n  </div>\n<ytd-channel-name id=\"channel-name\" class=\" style-scope ytd-video-meta-block style-scope ytd-video-meta-block\"><!--css-build:shady--><!--css_build_scope:ytd-channel-name--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><div id=\"container\" class=\"style-scope ytd-channel-name\">\n  <div id=\"text-container\" class=\"style-scope ytd-channel-name\">\n    <yt-formatted-string id=\"text\" link-inherit-color=\"\" respect-lang-dir=\"\" title=\"Magic奈文摩尔\" class=\"style-scope ytd-channel-name complex-string\" ellipsis-truncate=\"\" ellipsis-truncate-styling=\"\" dir=\"auto\" has-link-only_=\"\" style=\"text-align: left;\"><a class=\"yt-simple-endpoint style-scope yt-formatted-string\" spellcheck=\"false\" href=\"/@MagicNeverMore\">Magic奈文摩尔</a></yt-formatted-string>\n  </div>\n  <tp-yt-paper-tooltip aria-hidden=\"true\" fit-to-visible-bounds=\"\" class=\"style-scope ytd-channel-name\" role=\"tooltip\" tabindex=\"-1\" aria-label=\"tooltip\"><!--css-build:shady--><!--css_build_scope:tp-yt-paper-tooltip--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,third_party.javascript.youtube_components.tp_yt_paper_tooltip.tp.yt.paper.tooltip.css.js--><div id=\"tooltip\" class=\"hidden style-scope tp-yt-paper-tooltip\" style-target=\"tooltip\">\n  \n    Magic奈文摩尔\n  \n</div>\n</tp-yt-paper-tooltip>\n</div>\n<ytd-badge-supported-renderer class=\"style-scope ytd-channel-name\" system-icons=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer>\n</ytd-channel-name>\n<yt-formatted-string id=\"description-text\" class=\"style-scope ytd-video-renderer\" is-empty=\"\" hidden=\"\"><!--css-build:shady--><!--css_build_scope:yt-formatted-string--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.ui.yt_formatted_string.yt.formatted.string.css.js--><yt-attributed-string class=\"style-scope yt-formatted-string\"></yt-attributed-string></yt-formatted-string>\n<ytd-thumbnail-overlay-time-status-renderer class=\"style-scope ytd-thumbnail\" hide-time-status=\"\" overlay-style=\"DEFAULT\"><!--css-build:shady--><!--css_build_scope:ytd-thumbnail-overlay-time-status-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><ytd-badge-supported-renderer is-thumbnail-badge=\"\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" system-icons=\"\"><!--css-build:shady--><!--css_build_scope:ytd-badge-supported-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><dom-repeat id=\"repeat\" as=\"badge\" class=\"style-scope ytd-badge-supported-renderer\"><template is=\"dom-repeat\"></template></dom-repeat><yt-badge-supported-renderer class=\"style-scope ytd-badge-supported-renderer\"></yt-badge-supported-renderer></ytd-badge-supported-renderer><div class=\"thumbnail-overlay-badge-shape style-scope ytd-thumbnail-overlay-time-status-renderer\"><badge-shape class=\"ytBadgeShapeHost ytBadgeShapeThumbnailDefault ytBadgeShapeThumbnailBadge ytBadgeShapeTypography\" role=\"img\" aria-label=\"11分钟31秒钟\"><div class=\"ytBadgeShapeText\">11:31</div></badge-shape></div><div id=\"time-status\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" hidden=\"\"><yt-icon class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" disable-upgrade=\"\" hidden=\"\"></yt-icon><span id=\"text\" class=\"style-scope ytd-thumbnail-overlay-time-status-renderer\" aria-label=\"11分钟31秒钟\">\n    11:31\n  </span></div></ytd-thumbnail-overlay-time-status-renderer>",
+            "metadata_labels": [
+              "28次观看",
+              "8小时前"
+            ],
+            "duration_label": "11:31",
+            "evidence_scope": "Exact title, thumbnail, metadata, channel, description and duration nodes from the visible result card."
+          }
+        }
+      ]
+    }
+  ]
+}

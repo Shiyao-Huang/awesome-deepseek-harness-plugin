@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "collected_at": "2026-08-15T19:50:20.164Z",
+  "collector": "ego-browser task-space 6",
+  "observations": [
+    {
+      "platform": "reddit",
+      "query": "\"DeepSeek Harness\"",
+      "source_url": "https://www.reddit.com/search/?q=%22DeepSeek%20Harness%22&type=posts&sort=new",
+      "collected_at": "2026-08-15T19:50:20.164Z",
+      "collector": "ego-browser task-space 6",
+      "method": "public visible DOM",
+      "status": "blocked",
+      "result_count": null,
+      "notes": "Reddit exposed a Prove your humanity reCAPTCHA interstitial; no challenge was completed and no result claim was made.",
+      "items": [],
+      "raw_capture": {
+        "page_info": {
+          "url": "https://www.reddit.com/search/?q=%22DeepSeek%20Harness%22&type=posts&sort=new",
+          "title": "Reddit - Prove your humanity",
+          "w": 1141,
+          "h": 698,
+          "sx": 0,
+          "sy": 0,
+          "pw": 1141,
+          "ph": 698
+        },
+        "title": "Reddit - Prove your humanity",
+        "body_text": "Prove your humanity\n\nWe’re committed to safety and security. But not for bots. Complete the challenge below and let us know you’re a real person.\n\nReddit, Inc. © \"2026\". All rights reserved.\nUser Agreement\nPrivacy Policy\nContent Policy\nHelp",
+        "challenge_dom": "<form method=\"POST\" action=\"/search/?q=%22DeepSeek%20Harness%22&amp;type=posts&amp;sort=new&amp;captcha=1\">\n          <div class=\"g-recaptcha\" data-sitekey=\"6LeTlV4oAAAAAGioktuFt-KvUtwKRJRfc8A7UJws\" data-action=\"edge\" data-callback=\"submit\"><div style=\"width: 304px; height: 78px;\"><div><iframe title=\"reCAPTCHA\" width=\"304\" height=\"78\" role=\"presentation\" name=\"a-l8snukak9pkc\" frameborder=\"0\" scrolling=\"no\" sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation\" src=\"https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LeTlV4oAAAAAGioktuFt-KvUtwKRJRfc8A7UJws&amp;co=aHR0cHM6Ly93d3cucmVkZGl0LmNvbTo0NDM.&amp;hl=zh-CN&amp;v=XOqlk8PL_yVx6IdpLbpXdiLy&amp;size=normal&amp;sa=edge&amp;anchor-ms=20000&amp;execute-ms=30000&amp;cb=ezlnml2gzf0l\"></iframe></div><textarea id=\"g-recaptcha-response\" name=\"g-recaptcha-response\" class=\"g-recaptcha-response\" style=\"width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;\"></textarea></div><iframe style=\"display: none;\"></iframe></div>\n      </form>"
+      }
+    }
+  ]
+}
