@@ -24,7 +24,7 @@ DB_PATH = ROOT / "data" / "aggregator.sqlite3"
 SCHEMA_PATH = ROOT / "src" / "schema.sql"
 CONFIG_PATH = ROOT / "config" / "queries.json"
 RAW_DIR = ROOT / "data" / "raw"
-SCHEMA_VERSION = 4
+SCHEMA_VERSION = 6
 
 
 @dataclass
@@ -209,6 +209,130 @@ def ensure_column(connection: sqlite3.Connection, table: str, name: str, sql_typ
         connection.execute(f"ALTER TABLE {table} ADD COLUMN {name} {sql_type}")
 
 
+def schema_table_statement(schema: str, table: str) -> str:
+    """Extract one CREATE TABLE statement from the canonical schema."""
+
+    marker = f"CREATE TABLE IF NOT EXISTS {table}"
+    start = schema.index(marker)
+    end = schema.find("\n\nCREATE TABLE IF NOT EXISTS ", start)
+    return schema[start:] if end < 0 else schema[start:end]
+
+
+def migrate_upstream_entries(connection: sqlite3.Connection, schema: str) -> None:
+    """Replace the legacy Listing key while preserving current and historical rows."""
+
+    table = connection.execute(
+        "SELECT sql FROM sqlite_master WHERE type = 'table' AND name = 'upstream_entries'"
+    ).fetchone()
+    if table is None:
+        return
+    parent_columns = {str(row[1]) for row in connection.execute("PRAGMA table_info(upstream_entries)")}
+    if "listing_key" in parent_columns:
+        return
+
+    parent_rows = connection.execute("SELECT * FROM upstream_entries ORDER BY id").fetchall()
+    child_exists = bool(connection.execute(
+        "SELECT 1 FROM sqlite_master WHERE type = 'table' AND name = 'upstream_entry_observations'"
+    ).fetchone())
+    child_rows = (
+        connection.execute("SELECT * FROM upstream_entry_observations ORDER BY id").fetchall()
+        if child_exists
+        else []
+    )
+    child_columns = (
+        {str(row[1]) for row in connection.execute("PRAGMA table_info(upstream_entry_observations)")}
+        if child_exists
+        else set()
+    )
+    grouped_rows: dict[tuple[int, str], list[sqlite3.Row]] = {}
+    base_keys: dict[int, str] = {}
+    for row in parent_rows:
+        row_id = int(row["id"])
+        base_key = upstream_listing_key(
+            str(row["entry_url"]),
+            row["category"],
+            row["install_spec"] if "install_spec" in parent_columns else None,
+            row["registry_id"] if "registry_id" in parent_columns else None,
+        )
+        base_keys[row_id] = base_key
+        grouped_rows.setdefault((int(row["repository_id"]), base_key), []).append(row)
+    canonical_ids = {
+        int(max(rows, key=lambda row: (str(row["last_seen_at"]), int(row["id"])))["id"])
+        for rows in grouped_rows.values()
+    }
+    listing_keys = {
+        row_id: base_key if row_id in canonical_ids else f"legacy-row:{row_id}|{base_key}"
+        for row_id, base_key in base_keys.items()
+    }
+
+    connection.commit()
+    connection.execute("PRAGMA foreign_keys = OFF")
+    try:
+        connection.execute("BEGIN IMMEDIATE")
+        if child_exists:
+            connection.execute(
+                "ALTER TABLE upstream_entry_observations RENAME TO upstream_entry_observations_legacy"
+            )
+        connection.execute("ALTER TABLE upstream_entries RENAME TO upstream_entries_legacy")
+        connection.execute(schema_table_statement(schema, "upstream_entries"))
+
+        new_parent_columns = [str(row[1]) for row in connection.execute("PRAGMA table_info(upstream_entries)")]
+        copied_parent_columns = [
+            name
+            for name in new_parent_columns
+            if name in parent_columns or name in {"listing_key", "active"}
+        ]
+        placeholders = ",".join("?" for _ in copied_parent_columns)
+        column_sql = ",".join(copied_parent_columns)
+        for row in parent_rows:
+            row_id = int(row["id"])
+            values = [
+                listing_keys[row_id]
+                if name == "listing_key"
+                else (
+                    int(row["active"]) if "active" in parent_columns else 1
+                ) if name == "active" and row_id in canonical_ids
+                else 0 if name == "active"
+                else row[name]
+                for name in copied_parent_columns
+            ]
+            connection.execute(
+                f"INSERT INTO upstream_entries({column_sql}) VALUES ({placeholders})",
+                values,
+            )
+
+        if child_exists:
+            connection.execute(schema_table_statement(schema, "upstream_entry_observations"))
+            new_child_columns = [
+                str(row[1]) for row in connection.execute("PRAGMA table_info(upstream_entry_observations)")
+            ]
+            copied_child_columns = [
+                name for name in new_child_columns if name in child_columns or name == "listing_key"
+            ]
+            child_placeholders = ",".join("?" for _ in copied_child_columns)
+            child_column_sql = ",".join(copied_child_columns)
+            for row in child_rows:
+                values = [
+                    listing_keys[int(row["entry_id"])] if name == "listing_key" else row[name]
+                    for name in copied_child_columns
+                ]
+                connection.execute(
+                    f"INSERT INTO upstream_entry_observations({child_column_sql}) VALUES ({child_placeholders})",
+                    values,
+                )
+            connection.execute("DROP TABLE upstream_entry_observations_legacy")
+        connection.execute("DROP TABLE upstream_entries_legacy")
+        connection.commit()
+    except Exception:
+        connection.rollback()
+        raise
+    finally:
+        connection.execute("PRAGMA foreign_keys = ON")
+    foreign_key_errors = connection.execute("PRAGMA foreign_key_check").fetchall()
+    if foreign_key_errors:
+        raise RuntimeError(f"upstream Listing migration created {len(foreign_key_errors)} foreign-key error(s)")
+
+
 def backfill_collection_runs(connection: sqlite3.Connection) -> None:
     """Attach legacy observations, metrics, raw files, and items to dated runs."""
 
@@ -307,6 +431,9 @@ def init_db(path: Path = DB_PATH) -> None:
         schema = SCHEMA_PATH.read_text(encoding="utf-8")
         has_observations = bool(connection.execute("SELECT 1 FROM sqlite_master WHERE type = 'table' AND name = 'observations'").fetchone())
         if has_observations:
+            pre_upstream_entries = schema.split("CREATE TABLE IF NOT EXISTS upstream_entries", 1)[0]
+            connection.executescript(pre_upstream_entries)
+            migrate_upstream_entries(connection, schema)
             prefix = schema.split("CREATE TABLE IF NOT EXISTS observations", 1)[0]
             connection.executescript(prefix)
             ensure_column(connection, "observations", "collection_run_id", "INTEGER REFERENCES collection_runs(id)")
@@ -338,6 +465,27 @@ def init_db(path: Path = DB_PATH) -> None:
                 ("reputation_weight", "REAL NOT NULL DEFAULT 0.4"),
             ):
                 ensure_column(connection, "fork_rankings", name, sql_type)
+            for name, sql_type in (
+                ("owner", "TEXT"),
+                ("page_url", "TEXT"),
+                ("registry_id", "TEXT"),
+                ("description_i18n", "TEXT NOT NULL DEFAULT '{}'"),
+                ("npm_package", "TEXT"),
+                ("stars", "INTEGER"),
+                ("install_spec", "TEXT"),
+                ("install_target", "TEXT"),
+                ("plugin_version", "TEXT"),
+                ("verified", "INTEGER"),
+                ("tags_json", "TEXT NOT NULL DEFAULT '[]'"),
+                ("registry_source_json", "TEXT NOT NULL DEFAULT '{}'"),
+                ("added_at", "TEXT"),
+                ("source_json", "TEXT NOT NULL DEFAULT '{}'"),
+                ("raw_snapshot_id", "INTEGER REFERENCES raw_snapshots(id)"),
+                ("first_seen_run_id", "INTEGER REFERENCES collection_runs(id)"),
+                ("last_seen_run_id", "INTEGER REFERENCES collection_runs(id)"),
+                ("active", "INTEGER NOT NULL DEFAULT 1"),
+            ):
+                ensure_column(connection, "upstream_entries", name, sql_type)
         connection.executescript(schema)
         for name, sql_type in (
             ("favorites", "INTEGER"), ("shares", "INTEGER"), ("coins", "INTEGER"),
@@ -428,6 +576,24 @@ def canonical_url(url: str) -> str:
     if host.endswith("github.com"):
         return urlunsplit(("https", host, path, "", ""))
     return urlunsplit((parts.scheme or "https", parts.netloc, path, parts.query, ""))
+
+
+def upstream_listing_key(
+    entry_url: str,
+    category: Any,
+    install_spec: Any = None,
+    registry_id: Any = None,
+) -> str:
+    """Return a source-local stable key for one Registry Listing."""
+
+    normalized_registry_id = str(registry_id or "").strip()
+    if normalized_registry_id:
+        return f"registry:{normalized_registry_id}"
+    normalized_install_spec = str(install_spec or "").strip()
+    if normalized_install_spec:
+        return f"install:{normalized_install_spec}"
+    normalized_category = str(category or "uncategorized").strip() or "uncategorized"
+    return f"url:{canonical_url(entry_url)}|category:{normalized_category}"
 
 
 def metric_int(value: Any) -> int | None:

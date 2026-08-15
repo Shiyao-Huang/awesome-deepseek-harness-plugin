@@ -53,5 +53,80 @@ class SourcesPageTests(unittest.TestCase):
         db.close()
 
 
+class StoreListingEvidenceTests(unittest.TestCase):
+    def test_install_command_requires_source_declared_evidence(self) -> None:
+        guessed_record = {
+            "platform": "github",
+            "repo": "owner/dsh-guessed",
+            "listings": [],
+        }
+        declared_record = {
+            "platform": "github",
+            "repo": "owner/monorepo",
+            "listings": [{
+                "install_hint": "dsh plugin --profile web add github:owner/monorepo#path:/plugin",
+            }],
+        }
+
+        self.assertIsNone(build_site.install_command(guessed_record))
+        self.assertEqual(
+            build_site.install_command(declared_record),
+            "dsh plugin --profile web add github:owner/monorepo#path:/plugin",
+        )
+
+    def test_listing_evidence_names_source_and_limits_verified_claim(self) -> None:
+        record = {
+            "listings": [{
+                "source_repository": "owner/registry",
+                "source_repository_url": "https://github.com/owner/registry",
+                "source_path": "registry.json",
+                "page_url": "https://registry.example/plugins/example",
+                "install_spec": "github:owner/monorepo#path:/plugin",
+                "install_target": "git",
+                "version": "1.2.3",
+                "verified_claim": True,
+                "first_seen_at": "2026-08-16T00:00:00Z",
+                "last_seen_at": "2026-08-16T02:00:00Z",
+                "raw_snapshot_id": 7,
+            }],
+        }
+
+        page = build_site.render_listing_evidence(record)
+
+        self.assertIn("owner/registry · registry.json", page)
+        self.assertIn("github:owner/monorepo#path:/plugin", page)
+        self.assertIn("source claims verified", page)
+        self.assertIn("not a security, compatibility, quality, or official-endorsement claim", page)
+
+
+class MarketAccessPageTests(unittest.TestCase):
+    def setUp(self) -> None:
+        self.config = {
+            "site_name": "dsh store",
+            "site_url": "https://deeplugin.store",
+            "description": "Test directory",
+            "public_database_url": "https://example.com/aggregator.sqlite3",
+        }
+
+    def test_home_links_registry_schema_guides_and_market_plugin(self) -> None:
+        page = build_site.render_home([], "v-test", "2026-08-16T00:00:00Z", self.config, [], [])
+
+        self.assertIn('href="register.html"', page)
+        self.assertIn('href="register-agent.html"', page)
+        self.assertIn('href="data/market-registry.json"', page)
+        self.assertIn('href="data/market-registry.schema.json"', page)
+        self.assertIn("github:Shiyao-Huang/awesome-deepseek-harness-plugin#path:/plugin", page)
+        self.assertIn("Every install requires explicit confirmation", page)
+
+    def test_registration_pages_link_one_normative_guide(self) -> None:
+        human = build_site.render_register_page(self.config)
+        agent = build_site.render_register_agent_page(self.config)
+
+        self.assertIn("docs/register.md", human)
+        self.assertIn("market-registry.schema.json", human)
+        self.assertIn("docs/register.md", agent)
+        self.assertIn("Registration never authorizes installation", agent)
+
+
 if __name__ == "__main__":
     unittest.main()

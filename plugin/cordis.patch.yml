@@ -1,0 +1,4 @@
+# Insert the deeplugin.store market tools into the selected DSH profile.
+- insert:
+    - id: deeplugin-market
+      name: deeplugin-market

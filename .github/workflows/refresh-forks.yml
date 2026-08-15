@@ -69,7 +69,7 @@ jobs:
 
       - name: Commit refreshed Fork index
         run: |
-          git add index docs README.md
+          git add index docs plugin/data README.md
           if git diff --cached --quiet; then
             echo "No Fork-index changes"
             exit 0

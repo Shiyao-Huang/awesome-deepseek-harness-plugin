@@ -1,5 +1,5 @@
 PRAGMA foreign_keys = ON;
-PRAGMA user_version = 4;
+PRAGMA user_version = 6;
 
 CREATE TABLE IF NOT EXISTS sources (
     id INTEGER PRIMARY KEY,
@@ -64,17 +64,85 @@ CREATE TABLE IF NOT EXISTS upstream_entries (
     id INTEGER PRIMARY KEY,
     repository_id INTEGER NOT NULL REFERENCES upstream_repositories(id) ON DELETE CASCADE,
     item_id INTEGER REFERENCES items(id) ON DELETE SET NULL,
+    listing_key TEXT NOT NULL,
     entry_name TEXT NOT NULL,
     entry_url TEXT NOT NULL,
+    registry_id TEXT,
+    owner TEXT,
+    page_url TEXT,
     entry_kind TEXT NOT NULL DEFAULT 'candidate',
     category TEXT,
     description TEXT,
+    description_i18n TEXT NOT NULL DEFAULT '{}',
+    npm_package TEXT,
+    stars INTEGER,
     install_hint TEXT,
+    install_spec TEXT,
+    install_target TEXT,
+    plugin_version TEXT,
+    verified INTEGER CHECK (verified IN (0, 1)),
+    tags_json TEXT NOT NULL DEFAULT '[]',
+    registry_source_json TEXT NOT NULL DEFAULT '{}',
+    added_at TEXT,
     source_path TEXT,
     source_line INTEGER,
+    source_json TEXT NOT NULL DEFAULT '{}',
+    raw_snapshot_id INTEGER REFERENCES raw_snapshots(id),
+    first_seen_run_id INTEGER REFERENCES collection_runs(id),
+    last_seen_run_id INTEGER REFERENCES collection_runs(id),
+    active INTEGER NOT NULL DEFAULT 1,
     first_seen_at TEXT NOT NULL,
     last_seen_at TEXT NOT NULL,
-    UNIQUE(repository_id, entry_url, category)
+    UNIQUE(repository_id, listing_key)
+);
+
+CREATE TABLE IF NOT EXISTS upstream_registry_snapshots (
+    id INTEGER PRIMARY KEY,
+    repository_id INTEGER NOT NULL REFERENCES upstream_repositories(id) ON DELETE CASCADE,
+    collection_run_id INTEGER NOT NULL REFERENCES collection_runs(id) ON DELETE CASCADE,
+    raw_snapshot_id INTEGER NOT NULL REFERENCES raw_snapshots(id) ON DELETE CASCADE,
+    source_ref TEXT NOT NULL,
+    observed_at TEXT NOT NULL,
+    status TEXT NOT NULL,
+    format_version INTEGER,
+    declared_count INTEGER,
+    actual_count INTEGER,
+    registry_updated_at TEXT,
+    metadata_json TEXT NOT NULL DEFAULT '{}',
+    error_message TEXT,
+    UNIQUE(repository_id, collection_run_id, source_ref)
+);
+
+CREATE TABLE IF NOT EXISTS upstream_entry_observations (
+    id INTEGER PRIMARY KEY,
+    entry_id INTEGER NOT NULL REFERENCES upstream_entries(id) ON DELETE CASCADE,
+    collection_run_id INTEGER NOT NULL REFERENCES collection_runs(id) ON DELETE CASCADE,
+    raw_snapshot_id INTEGER NOT NULL REFERENCES raw_snapshots(id) ON DELETE CASCADE,
+    observed_at TEXT NOT NULL,
+    active INTEGER NOT NULL CHECK (active IN (0, 1)),
+    listing_key TEXT NOT NULL,
+    registry_id TEXT,
+    entry_name TEXT NOT NULL,
+    entry_url TEXT NOT NULL,
+    owner TEXT,
+    page_url TEXT,
+    entry_kind TEXT NOT NULL,
+    category TEXT,
+    description TEXT,
+    description_i18n TEXT NOT NULL,
+    npm_package TEXT,
+    stars INTEGER,
+    install_hint TEXT,
+    install_spec TEXT,
+    install_target TEXT,
+    plugin_version TEXT,
+    verified INTEGER CHECK (verified IN (0, 1)),
+    tags_json TEXT NOT NULL,
+    registry_source_json TEXT NOT NULL,
+    added_at TEXT,
+    source_path TEXT,
+    source_line INTEGER,
+    UNIQUE(entry_id, collection_run_id)
 );
 
 CREATE TABLE IF NOT EXISTS fork_networks (
@@ -413,6 +481,9 @@ CREATE TABLE IF NOT EXISTS item_tags (
 CREATE INDEX IF NOT EXISTS idx_items_platform ON items(platform);
 CREATE INDEX IF NOT EXISTS idx_items_category ON items(category);
 CREATE INDEX IF NOT EXISTS idx_items_last_seen ON items(last_seen_at);
+CREATE INDEX IF NOT EXISTS idx_upstream_entries_current ON upstream_entries(repository_id, active, entry_kind);
+CREATE INDEX IF NOT EXISTS idx_upstream_registry_snapshots_run ON upstream_registry_snapshots(collection_run_id, repository_id);
+CREATE INDEX IF NOT EXISTS idx_upstream_entry_observations_run ON upstream_entry_observations(collection_run_id, entry_id);
 CREATE INDEX IF NOT EXISTS idx_index_records_item ON index_records(item_id);
 CREATE INDEX IF NOT EXISTS idx_index_records_rank ON index_records(rank);
 CREATE INDEX IF NOT EXISTS idx_details_status ON item_details(status);

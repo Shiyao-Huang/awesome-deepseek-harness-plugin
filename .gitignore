@@ -11,3 +11,4 @@ data/*.sqlite3.pre-*
 data/index.sqlite
 data/aggregator.sqlite3
 data/aggregator-full.sqlite3.zst
+plugin/node_modules/

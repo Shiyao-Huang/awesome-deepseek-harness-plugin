@@ -1,0 +1,256 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://deeplugin.store/data/market-registry.schema.json",
+  "title": "deeplugin.store DeepSeek Harness market registry v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "updated",
+    "count",
+    "verifiedCount",
+    "note",
+    "categories",
+    "plugins"
+  ],
+  "properties": {
+    "$schema": {
+      "const": "https://deeplugin.store/data/market-registry.schema.json"
+    },
+    "version": {
+      "const": 2
+    },
+    "updated": {
+      "type": "string",
+      "format": "date"
+    },
+    "generatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "datasetVersion": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "verifiedCount": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "note": {
+      "type": "string",
+      "minLength": 1
+    },
+    "categories": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/$defs/category"
+      }
+    },
+    "plugins": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/plugin"
+      }
+    }
+  },
+  "$defs": {
+    "category": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "en",
+        "zh"
+      ],
+      "properties": {
+        "en": {
+          "type": "string"
+        },
+        "zh": {
+          "type": "string"
+        }
+      }
+    },
+    "install": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "target",
+        "spec"
+      ],
+      "properties": {
+        "target": {
+          "enum": [
+            "git",
+            "npm"
+          ]
+        },
+        "spec": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "registry",
+        "registryUrl",
+        "sourceRef",
+        "entryUrl",
+        "verified",
+        "observedAt"
+      ],
+      "properties": {
+        "registry": {
+          "type": "string"
+        },
+        "registryUrl": {
+          "type": "string",
+          "format": "uri"
+        },
+        "sourceRef": {
+          "type": "string"
+        },
+        "listingId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "entryUrl": {
+          "type": "string",
+          "format": "uri"
+        },
+        "page": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "verified": {
+          "type": "boolean"
+        },
+        "version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "observedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "declaredSource": {
+          "type": "object"
+        }
+      }
+    },
+    "plugin": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "author",
+        "category",
+        "description",
+        "description_zh",
+        "install",
+        "version",
+        "homepage",
+        "verified",
+        "stars",
+        "tags",
+        "source",
+        "sources"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^deeplugin-[0-9a-f]{20}$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "author": {
+          "type": "string",
+          "minLength": 1
+        },
+        "category": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description_zh": {
+          "type": "string",
+          "minLength": 1
+        },
+        "install": {
+          "$ref": "#/$defs/install"
+        },
+        "version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "homepage": {
+          "type": "string",
+          "format": "uri"
+        },
+        "verified": {
+          "type": "boolean"
+        },
+        "stars": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "source": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "name",
+            "url"
+          ],
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "url": {
+              "type": "string",
+              "format": "uri"
+            }
+          }
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/source"
+          }
+        }
+      }
+    }
+  }
+}

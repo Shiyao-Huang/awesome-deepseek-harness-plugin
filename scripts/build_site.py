@@ -184,6 +184,54 @@ def load_records(db: sqlite3.Connection) -> list[dict[str, object]]:
                 "rights_note": media["rights_note"],
             }
         )
+    listing_rows = db.execute(
+        """
+        SELECT ue.item_id, ue.listing_key, ue.entry_name, ue.entry_url,
+               ue.registry_id, ue.owner, ue.page_url, ue.category,
+               ue.install_hint, ue.install_spec, ue.install_target,
+               ue.plugin_version, ue.verified, ue.tags_json,
+               ue.source_path, ue.raw_snapshot_id,
+               ue.first_seen_at, ue.last_seen_at,
+               ur.full_name AS source_repository,
+               ur.source_url AS source_repository_url
+        FROM upstream_entries AS ue
+        JOIN upstream_repositories AS ur ON ur.id = ue.repository_id
+        WHERE ue.active = 1 AND ue.item_id IS NOT NULL
+        ORDER BY ue.item_id,
+                 ue.install_hint IS NULL,
+                 ue.registry_id IS NULL,
+                 ue.last_seen_at DESC,
+                 ur.full_name,
+                 ue.listing_key
+        """
+    ).fetchall()
+    listings_by_item: dict[int, list[dict[str, object]]] = {}
+    for listing in listing_rows:
+        try:
+            tags = json.loads(listing["tags_json"] or "[]")
+        except (TypeError, json.JSONDecodeError):
+            tags = []
+        listings_by_item.setdefault(int(listing["item_id"]), []).append({
+            "listing_key": listing["listing_key"],
+            "name": listing["entry_name"],
+            "url": listing["entry_url"],
+            "registry_id": listing["registry_id"],
+            "owner": listing["owner"],
+            "page_url": listing["page_url"] if valid_url(listing["page_url"]) else None,
+            "category": listing["category"],
+            "install_hint": listing["install_hint"],
+            "install_spec": listing["install_spec"],
+            "install_target": listing["install_target"],
+            "version": listing["plugin_version"],
+            "verified_claim": None if listing["verified"] is None else bool(listing["verified"]),
+            "tags": tags if isinstance(tags, list) else [],
+            "source_path": listing["source_path"],
+            "raw_snapshot_id": listing["raw_snapshot_id"],
+            "first_seen_at": listing["first_seen_at"],
+            "last_seen_at": listing["last_seen_at"],
+            "source_repository": listing["source_repository"],
+            "source_repository_url": listing["source_repository_url"],
+        })
 
     records: list[dict[str, object]] = []
     for row in rows:
@@ -237,6 +285,7 @@ def load_records(db: sqlite3.Connection) -> list[dict[str, object]]:
                 "last_seen_at": row["last_seen_at"],
                 "dataset_version": None,
                 "refs": [ref for ref in refs if valid_url(ref)],
+                "listings": listings_by_item.get(int(row["id"]), []),
             }
         )
     return records
@@ -304,13 +353,18 @@ def record_image(record: dict[str, object]) -> str | None:
 
 
 def install_command(record: dict[str, object]) -> str | None:
-    """Return the documented DSH install command for a clearly named plugin repo."""
+    """Return a source-declared DSH install command without guessing a package name."""
 
-    if record["platform"] != "github" or not record["repo"]:
+    listings = record.get("listings")
+    if not isinstance(listings, list):
         return None
-    repository = str(record["repo"])
-    package_name = repository.rsplit("/", 1)[-1]
-    return f"dsh plugin --profile web add {package_name}" if package_name.startswith("dsh-") else None
+    for listing in listings:
+        if not isinstance(listing, dict):
+            continue
+        command = str(listing.get("install_hint") or "").strip()
+        if command:
+            return command
+    return None
 
 
 def primary_signal(record: dict[str, object]) -> str:
@@ -550,6 +604,7 @@ def render_home(records: list[dict[str, object]], dataset_version: str, generate
     <div class="hero-panel"><div class="panel-label">LATEST SNAPSHOT</div><strong>{esc(date_label(generated_at))}</strong><p>Native counters only. Missing values stay NULL.</p><div class="signal-line"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div>
   </section>
   <section class="stats-row" aria-label="Dataset statistics"><div><strong>{stats['records']:,}</strong><span>records</span></div><div><strong>{stats['direct']:,}</strong><span>direct signals</span></div><div><strong>{stats['platforms']}</strong><span>platforms</span></div><div><strong>{stats['media']:,}</strong><span>with media</span></div></section>
+  <section class="market-band" aria-labelledby="market-heading"><div class="market-copy"><p class="kicker">AGENT-NATIVE MARKET</p><h2 id="market-heading">One registry for people and Agents.</h2><p>搜索带来源归因的 DeepSeek Harness 插件，读取稳定 JSON API，或用 DSH 插件生成需要明确确认的安装计划。</p><div class="market-links"><a class="button button-primary" href="register.html">Register a plugin</a><a class="button button-quiet" href="register-agent.html">Agent guide</a><a class="market-text-link" href="data/market-registry.json">Registry JSON ↗</a><a class="market-text-link" href="data/market-registry.schema.json">JSON Schema ↗</a></div></div><div class="market-install"><span>DSH MARKET PLUGIN</span><code>dsh plugin --profile web add github:Shiyao-Huang/awesome-deepseek-harness-plugin#path:/plugin</code><button class="copy-install" type="button" data-install="dsh plugin --profile web add github:Shiyao-Huang/awesome-deepseek-harness-plugin#path:/plugin" aria-label="Copy market plugin install command">Copy</button><small>Search and install planning only. Every install requires explicit confirmation.</small></div></section>
   <section class="hot-signals" id="hot"><div class="section-heading"><div><p class="kicker">HOT NOW</p><h2>What the plugin system is pulling forward</h2></div><p>项目看 stars，内容看各自平台的原生互动信号。</p></div><div class="hot-grid">{hot_tables}</div></section>
   <section class="spotlight"><div class="section-heading"><div><p class="kicker">EDITOR'S CUT</p><h2>What is moving now</h2></div><p>按平台原生指标排序；不同平台不混算。</p></div><div class="spotlight-grid">{spotlight_html(records)}</div></section>
   <section class="directory-layout" id="directory">
@@ -561,6 +616,57 @@ def render_home(records: list[dict[str, object]], dataset_version: str, generate
 {footer_html(data_path=config["public_database_url"])}
 <script src="assets/store.js" defer></script>
 </body></html>"""
+
+
+def render_listing_evidence(record: dict[str, object]) -> str:
+    """Render active source-attributed Registry Listings for one item."""
+
+    listings = record.get("listings")
+    if not isinstance(listings, list) or not listings:
+        return ""
+    rows = []
+    for listing in listings:
+        if not isinstance(listing, dict):
+            continue
+        source_repository = str(listing.get("source_repository") or "unknown registry")
+        source_path = str(listing.get("source_path") or "unknown source")
+        source_url = listing.get("page_url") or listing.get("source_repository_url")
+        source_label = f"{source_repository} · {source_path}"
+        source_html = (
+            f'<a href="{esc(source_url, attribute=True)}" rel="noreferrer">{esc(source_label)}</a>'
+            if valid_url(source_url)
+            else esc(source_label)
+        )
+        install_spec = str(listing.get("install_spec") or "").strip()
+        install_target = str(listing.get("install_target") or "").strip()
+        install_html = f"<code>{esc(install_spec)}</code>" if install_spec else "—"
+        if install_target:
+            install_html += f"<br><small>{esc(install_target)}</small>"
+        verified_claim = listing.get("verified_claim")
+        if verified_claim is True:
+            verification = "source claims verified"
+        elif verified_claim is False:
+            verification = "source does not claim verified"
+        else:
+            verification = "unreported"
+        rows.append(
+            f'<tr><td>{source_html}</td><td>{install_html}</td>'
+            f'<td>{esc(listing.get("version") or "—")}</td><td>{esc(verification)}</td>'
+            f'<td>{esc(date_label(listing.get("first_seen_at")))} → {esc(date_label(listing.get("last_seen_at")))}</td>'
+            f'<td>{esc(listing.get("raw_snapshot_id") or "—")}</td></tr>'
+        )
+    if not rows:
+        return ""
+    return (
+        '<section class="detail-context"><div><p class="kicker">REGISTRY LISTINGS</p>'
+        '<h2>Source-attributed install evidence</h2></div>'
+        '<div class="table-scroll"><table class="data-table"><thead><tr>'
+        '<th>Registry source</th><th>Install spec</th><th>Version</th>'
+        '<th>Verification claim</th><th>Observed</th><th>Raw snapshot</th>'
+        f'</tr></thead><tbody>{"".join(rows)}</tbody></table></div>'
+        '<p class="detail-footnote">Verification is a claim made by the named Registry Source; '
+        'it is not a security, compatibility, quality, or official-endorsement claim by this site.</p></section>'
+    )
 
 
 def render_detail(record: dict[str, object], dataset_version: str, generated_at: str, config: dict[str, str]) -> str:
@@ -598,9 +704,10 @@ def render_detail(record: dict[str, object], dataset_version: str, generated_at:
         if refs_html
         else ""
     )
+    listing_section = render_listing_evidence(record)
     command = install_command(record)
     source_action = (
-        f'<div class="install-command"><code>{esc(command)}</code><button class="copy-install" type="button" data-install="{esc(command, attribute=True)}" aria-label="Copy install command">Copy</button></div>'
+        f'<div class="install-command"><code>{esc(command)}</code><button class="copy-install" type="button" data-install="{esc(command, attribute=True)}" aria-label="Copy install command">Copy</button></div><p class="detail-footnote">Source-declared command. Review the package and Registry Listing before running it.</p>'
         if command
         else f'<a class="source-entry" href="{esc(record["url"], attribute=True)}" rel="noreferrer">Open the public source page ↗</a>'
     )
@@ -610,7 +717,8 @@ def render_detail(record: dict[str, object], dataset_version: str, generated_at:
 <main class="site-main detail-main">
   <div class="breadcrumbs"><a href="../">store</a><span>/</span><span>{esc(record['platform_label'])}</span><span>/</span><span>{esc(record['id'])}</span></div>
   <section class="detail-heading"><div><p class="kicker">{esc(record['platform_label'])} · {esc(record['category_label'])}</p><h1>{esc(record['title'])}</h1><p class="detail-author">{esc(str(author))} · {esc(record['item_type'])} · {esc('direct signal' if record['relevance'] == 'direct' else 'related signal')}</p></div><a class="button button-primary" href="{esc(record['url'], attribute=True)}" rel="noreferrer">Open source <span aria-hidden="true">↗</span></a></section>
-  <section class="detail-grid"><div class="detail-primary"><p class="detail-description">{esc(record['description'])}</p><div class="install-panel"><p class="filter-label">SOURCE ENTRY</p>{source_action}</div><div class="detail-media"><div class="section-heading"><div><p class="kicker">MEDIA REFERENCES</p><h2>Captured in public view</h2></div><span>External URLs only</span></div><div class="media-gallery">{gallery}</div></div></div><aside class="detail-sidebar"><div class="metric-grid">{metric_items}</div><div class="evidence-panel"><p class="filter-label">EVIDENCE</p><dl><div><dt>Registry ID</dt><dd>{esc(record['id'])}</dd></div><div><dt>Dataset</dt><dd>{esc(dataset_version)}</dd></div><div><dt>First seen</dt><dd>{esc(date_label(record['first_seen_at']))}</dd></div><div><dt>Last seen</dt><dd>{esc(date_label(record['last_seen_at']))}</dd></div><div><dt>Metric source</dt><dd>{esc(record['metric_source'] or 'unreported')}</dd></div><div><dt>Metric observed</dt><dd>{esc(record['metric_observed_at'] or 'NULL')}</dd></div></dl></div><div class="evidence-panel"><p class="filter-label">PUBLIC URL</p><a class="break-link" href="{esc(record['url'], attribute=True)}" rel="noreferrer">{esc(record['url'])}</a></div></aside></section>
+  <section class="detail-grid"><div class="detail-primary"><p class="detail-description">{esc(record['description'])}</p><div class="install-panel"><p class="filter-label">SOURCE-DECLARED INSTALL</p>{source_action}</div><div class="detail-media"><div class="section-heading"><div><p class="kicker">MEDIA REFERENCES</p><h2>Captured in public view</h2></div><span>External URLs only</span></div><div class="media-gallery">{gallery}</div></div></div><aside class="detail-sidebar"><div class="metric-grid">{metric_items}</div><div class="evidence-panel"><p class="filter-label">EVIDENCE</p><dl><div><dt>Registry ID</dt><dd>{esc(record['id'])}</dd></div><div><dt>Dataset</dt><dd>{esc(dataset_version)}</dd></div><div><dt>First seen</dt><dd>{esc(date_label(record['first_seen_at']))}</dd></div><div><dt>Last seen</dt><dd>{esc(date_label(record['last_seen_at']))}</dd></div><div><dt>Metric source</dt><dd>{esc(record['metric_source'] or 'unreported')}</dd></div><div><dt>Metric observed</dt><dd>{esc(record['metric_observed_at'] or 'NULL')}</dd></div></dl></div><div class="evidence-panel"><p class="filter-label">PUBLIC URL</p><a class="break-link" href="{esc(record['url'], attribute=True)}" rel="noreferrer">{esc(record['url'])}</a></div></aside></section>
+{listing_section}
   <section class="detail-context"><div><p class="kicker">CONTEXT</p><h2>Why it is here</h2></div><p>{esc(record['description'])}</p></section>
 {references_section}
   <p class="detail-footnote">Page generated {esc(generated_at)}. Interaction numbers are platform-native snapshots; the evidence panel records the metric source and observation time. NULL means the public page did not expose a number at collection time.</p>
@@ -723,6 +831,34 @@ def render_sources_page(db: sqlite3.Connection, config: dict[str, str]) -> str:
     return table_page("sources", "Sources & provenance", "公开展示来源平台、允许的采集方式、记录量、原始快照量和最近观测时间；不公开本站内部监控仓库或查询目标。", body, config)
 
 
+def render_register_page(config: dict[str, str]) -> str:
+    """Render the public human registration entry point."""
+
+    repository = "https://github.com/Shiyao-Huang/awesome-deepseek-harness-plugin"
+    body = f'''<section class="guide-section"><div class="guide-primary"><p class="kicker">TWO REGISTRATION ROUTES</p><h2>Add one plugin or connect a public registry</h2><ol class="guide-steps"><li><strong>One plugin</strong><span>Add a contract-v2 Listing to <a href="{repository}/blob/main/registry/plugins.json">registry/plugins.json ↗</a>.</span></li><li><strong>Another registry</strong><span>Add its public repository and selected registry path or HTTPS URL to <a href="{repository}/blob/main/config/sources.json">config/sources.json ↗</a>.</span></li><li><strong>Next observation</strong><span>After merge, the next successful two-hour run preserves raw evidence, writes SQLite history, and rebuilds the market.</span></li></ol></div><aside class="guide-aside"><p class="filter-label">AUTHORITATIVE REFERENCES</p><a href="{repository}/blob/main/docs/register.md">Human field guide ↗</a><a href="data/market-registry.schema.json">Contract-v2 JSON Schema ↗</a><a href="data/market-registry.json">Current public registry ↗</a><a href="{repository}/compare">Open a pull request ↗</a></aside></section><section class="guide-rules"><p><strong>Identity</strong><span>Normalized install spec, not name or homepage.</span></p><p><strong>Missing data</strong><span>Use NULL; never estimate stars, versions, or metrics.</span></p><p><strong>Verification</strong><span>Source-attributed claim, never a security endorsement.</span></p><p><strong>Installation</strong><span>Plans require explicit user confirmation.</span></p></section>'''
+    return table_page(
+        "register",
+        "Register a plugin",
+        "提交可追溯、可验证、可去重的 DeepSeek Harness 插件 Listing；单个插件和第三方 registry 都有明确入口。",
+        body,
+        config,
+    )
+
+
+def render_register_agent_page(config: dict[str, str]) -> str:
+    """Render the public Agent registration workflow."""
+
+    repository = "https://github.com/Shiyao-Huang/awesome-deepseek-harness-plugin"
+    body = f'''<section class="guide-section"><div class="guide-primary"><p class="kicker">AGENT PROTOCOL</p><h2>Inspect, deduplicate, validate, then ask.</h2><ol class="guide-steps"><li><strong>Inspect evidence</strong><span>Read package metadata, release/version evidence, exact install documentation, and the public repository.</span></li><li><strong>Resolve identity</strong><span>Search the current registry by normalized npm or GitHub install spec before creating a Listing.</span></li><li><strong>Record facts</strong><span>Use public attributed values, keep missing values NULL, and set contributor verification to false.</span></li><li><strong>Validate</strong><span>Update source count/date, run repository checks, and inspect the generated diff.</span></li><li><strong>Request authority</strong><span>Show the Listing and evidence before opening a pull request. Registration never authorizes installation.</span></li></ol></div><aside class="guide-aside"><p class="filter-label">AGENT INPUTS</p><a href="{repository}/blob/main/docs/register-agent.md">Complete Agent protocol ↗</a><a href="{repository}/blob/main/docs/register.md">Normative field guide ↗</a><a href="data/market-registry.schema.json">JSON Schema ↗</a><a href="data/market-registry.json">Deduplication registry ↗</a></aside></section><section class="guide-rules"><p><strong>Allowed specs</strong><span>npm package or github:owner/repository#path:/plugin.</span></p><p><strong>Rejected specs</strong><span>Commands, flags, branches, URLs, and local paths.</span></p><p><strong>Pull requests</strong><span>External writes require explicit user authorization.</span></p><p><strong>Install plans</strong><span>Known registry ids only; requiresConfirmation is always true.</span></p></section>'''
+    return table_page(
+        "register-agent",
+        "Agent registration protocol",
+        "Agent 应先核验来源和安装身份，再构造 Listing；创建 PR 与执行安装是两个独立且都需要授权的动作。",
+        body,
+        config,
+    )
+
+
 def write_store_site(db: sqlite3.Connection, dataset_version: str, generated_at: str) -> None:
     """Write the homepage, detail pages, catalog JSON, and SEO files."""
 
@@ -751,10 +887,12 @@ def write_store_site(db: sqlite3.Connection, dataset_version: str, generated_at:
     (DOCS / "categories.html").write_text(render_categories_page(records, config), encoding="utf-8")
     (DOCS / "directories.html").write_text(render_directories_page(records, config), encoding="utf-8")
     (DOCS / "sources.html").write_text(render_sources_page(db, config), encoding="utf-8")
+    (DOCS / "register.html").write_text(render_register_page(config), encoding="utf-8")
+    (DOCS / "register-agent.html").write_text(render_register_agent_page(config), encoding="utf-8")
     for record in records:
         (SKILLS / f"{record['id']}.html").write_text(render_detail(record, dataset_version, generated_at, config), encoding="utf-8")
     site_url = config["site_url"].rstrip("/")
-    sitemap_paths = ["/", "/report.html", "/timeline.html", "/categories.html", "/directories.html", "/sources.html", "/forks.html"] + [f"/skills/{record['id']}.html" for record in records]
+    sitemap_paths = ["/", "/report.html", "/timeline.html", "/categories.html", "/directories.html", "/sources.html", "/forks.html", "/register.html", "/register-agent.html"] + [f"/skills/{record['id']}.html" for record in records]
     sitemap = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n" + "\n".join(
         f"  <url><loc>{html.escape(site_url + path)}</loc></url>" for path in sitemap_paths
     ) + "\n</urlset>\n"

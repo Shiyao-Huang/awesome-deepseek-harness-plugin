@@ -118,6 +118,18 @@ collection_runs ──< raw_snapshots
 
 原始证据位于 `data/raw/`，不可改写；登记索引位于 [index/records.jsonl](index/records.jsonl)，字段规范位于 [index/schema.json](index/schema.json)。索引的一条记录对应 SQLite 的 `index_records` 一行，使用 `id` 追溯到 `items`、`observations`、`raw_snapshots` 和原始文件。索引由 `python3 scripts/build_index.py` 生成，不手工编辑。
 
+## Agent 市场注册表
+
+公开 Market 数据可从 [线上 JSON](https://deeplugin.store/data/market-registry.json)、[JSON Schema](https://deeplugin.store/data/market-registry.schema.json) 或仓库内的 [index 镜像](index/market-registry.json) 读取；三份运行时镜像和三份 Schema 由 SQLite 统一生成并保持字节一致。人类提交说明见 [docs/register.md](docs/register.md)，Agent 提交流程见 [docs/register-agent.md](docs/register-agent.md)。
+
+把市场搜索工具安装到 DSH：
+
+```sh
+dsh plugin --profile web add github:Shiyao-Huang/awesome-deepseek-harness-plugin#path:/plugin
+```
+
+`verified=true` 只表示某个具名 Registry Source 声明了带版本的有限验证，不是 deeplugin.store 对安全性、兼容性、质量或官方身份的背书。`deeplugin_install_plan` 只生成可审查命令，始终要求用户明确确认，不会自动安装。
+
 ## 图文与视频
 
 首轮公开页面截图放在 `media/screenshots/`，可用于人工复核；外部图片/视频/缩略图 URL 和媒体权利说明在 SQLite 的 `media_assets` 中。示例：

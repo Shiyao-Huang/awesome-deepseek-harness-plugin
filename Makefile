@@ -1,6 +1,6 @@
 PYTHON ?= python3
 
-.PHONY: init seed update sources forks forks-filtered fork-index restore-full archive-full public-db value index build test check core-refresh schedule trends enrich readme
+.PHONY: init seed update sources forks forks-filtered fork-index restore-full archive-full public-db value market index build test check core-refresh schedule trends enrich readme
 
 init:
 	$(PYTHON) scripts/collect.py init
@@ -62,9 +62,13 @@ public-db:
 value:
 	$(PYTHON) scripts/build_value_matrix.py
 
+market:
+	$(PYTHON) scripts/build_market_registry.py
+
 build:
 	$(PYTHON) scripts/build_value_matrix.py
 	$(PYTHON) scripts/build_index.py
+	$(PYTHON) scripts/build_market_registry.py
 	$(PYTHON) scripts/build_views.py
 	$(PYTHON) scripts/build_trends.py
 	$(PYTHON) scripts/build_readme.py
@@ -74,8 +78,9 @@ readme:
 
 test:
 	$(PYTHON) -m unittest discover -s tests -p 'test_*.py'
+	pnpm --dir plugin test
 
 check: test
 	$(PYTHON) -m json.tool data/raw/2026-08-15-egolite.json >/dev/null
-	$(PYTHON) -m py_compile scripts/collect.py scripts/build_public_db.py scripts/build_index.py scripts/build_fork_index.py scripts/build_views.py scripts/build_trends.py scripts/build_readme.py scripts/build_value_matrix.py scripts/monitor_sources.py scripts/collect_forks.py scripts/enrich_content.py scripts/materialize_raw_snapshots.py scripts/score.py
+	$(PYTHON) -m py_compile scripts/collect.py scripts/build_public_db.py scripts/build_index.py scripts/build_fork_index.py scripts/build_views.py scripts/build_trends.py scripts/build_readme.py scripts/build_value_matrix.py scripts/build_market_registry.py scripts/monitor_sources.py scripts/collect_forks.py scripts/enrich_content.py scripts/materialize_raw_snapshots.py scripts/score.py
 	$(PYTHON) scripts/validate.py
