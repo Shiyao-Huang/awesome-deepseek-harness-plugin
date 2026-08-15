@@ -8,7 +8,9 @@ The registration projection is `../index/records.jsonl`, with its normative fiel
 
 `collection_runs` is the append-only dataset version log. Each run has a sortable `dataset_version`, UTC start/end dates, optional scheduled time, trigger, status, and import counters.
 
-In the full archive, `raw_snapshots` stores the exact UTF-8 JSON file content in `payload_json`, plus its SHA-256, relative path, byte size, collection date, and run id. The public projection keeps those provenance fields but sets `payload_json` and other redundant raw JSON columns to `{}`. `observations` links platform observations back to the raw snapshot in both forms.
+In the full archive, `raw_snapshots` stores the exact UTF-8 JSON file content in `payload_json`, plus its SHA-256, relative path, byte size, collection date, and run id. The public projection keeps those provenance fields but sets `payload_json`, redundant raw JSON columns, and the column-redundant `fork_rankings.components_json` value to `{}`. `observations` links platform observations back to the raw snapshot in both forms.
+
+The full archive retains every historical Fork snapshot, ranking, and value assessment. To remain directly downloadable and queryable, projection version 2 keeps the latest Fork ranking run, each Fork's latest snapshot, any older snapshot referenced by retained commit or changed-file evidence, and the latest complete value-assessment run. `collection_runs` and normalized current records remain available in both databases. `public_projection_metadata.stripped_fields_json` records these retention rules and the stripped fields.
 
 `item_details` stores optional full-text enrichment from checked-in raw captures or permitted public endpoints. A successful detail row is idempotent on `item_id`; blocked, thin, and failed rows remain as provenance instead of being retried as new items.
 

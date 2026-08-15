@@ -127,8 +127,24 @@ class PublicDatabaseTests(unittest.TestCase):
             CREATE TABLE raw_snapshots(raw_sha256 TEXT, payload_json TEXT);
             CREATE TABLE metrics(raw_json TEXT);
             CREATE TABLE github_user_profiles(raw_json TEXT);
-            CREATE TABLE fork_file_changes(raw_json TEXT);
-            CREATE TABLE fork_commits(raw_json TEXT);
+            CREATE TABLE fork_snapshots(
+                id INTEGER PRIMARY KEY,
+                fork_id INTEGER,
+                collection_run_id INTEGER
+            );
+            CREATE TABLE fork_file_changes(
+                snapshot_id INTEGER REFERENCES fork_snapshots(id) ON DELETE CASCADE,
+                raw_json TEXT
+            );
+            CREATE TABLE fork_commits(
+                snapshot_id INTEGER REFERENCES fork_snapshots(id) ON DELETE CASCADE,
+                raw_json TEXT
+            );
+            CREATE TABLE fork_rankings(
+                fork_id INTEGER,
+                collection_run_id INTEGER,
+                components_json TEXT
+            );
             CREATE TABLE value_assessments(collection_run_id INTEGER);
             INSERT INTO collection_runs VALUES (1, 'seed'), (2, 'scheduled');
             INSERT INTO items VALUES
@@ -137,14 +153,28 @@ class PublicDatabaseTests(unittest.TestCase):
             INSERT INTO raw_snapshots VALUES ('sha-1', '{"raw": 1}');
             INSERT INTO metrics VALUES ('{"raw": 1}');
             INSERT INTO github_user_profiles VALUES ('{"raw": 1}');
-            INSERT INTO fork_file_changes VALUES ('{"raw": 1}');
-            INSERT INTO fork_commits VALUES ('{"raw": 1}');
+            INSERT INTO fork_snapshots VALUES
+                (1, 1, 1),
+                (2, 1, 2),
+                (3, 2, 1),
+                (4, 2, 2),
+                (5, 3, 1),
+                (6, 3, 2);
+            INSERT INTO fork_file_changes VALUES (5, '{"raw": 1}');
+            INSERT INTO fork_commits VALUES (1, '{"raw": 1}');
+            INSERT INTO fork_rankings VALUES
+                (1, 1, '{"score": 1}'),
+                (2, 1, '{"score": 1}'),
+                (3, 1, '{"score": 1}'),
+                (1, 2, '{"score": 2}'),
+                (2, 2, '{"score": 2}'),
+                (3, 2, '{"score": 2}');
             INSERT INTO value_assessments VALUES (1), (1), (2), (2);
             """
         )
         connection.close()
 
-    def test_projection_strips_only_raw_blobs_and_old_assessments(self) -> None:
+    def test_projection_strips_blobs_and_prunes_superseded_derived_rows(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "public.sqlite3"
             self.create_database(path)
@@ -153,9 +183,14 @@ class PublicDatabaseTests(unittest.TestCase):
 
             connection = sqlite3.connect(path)
             self.assertEqual(run_id, 2)
-            for table, column in build_public_db.RAW_JSON_COLUMNS:
+            for table, column in build_public_db.STRIPPED_JSON_COLUMNS:
                 self.assertEqual(connection.execute(f'SELECT DISTINCT "{column}" FROM "{table}"').fetchall(), [("{}",)])
             self.assertEqual(connection.execute("SELECT collection_run_id FROM value_assessments").fetchall(), [(2,), (2,)])
+            self.assertEqual(connection.execute("SELECT DISTINCT collection_run_id FROM fork_rankings").fetchall(), [(2,)])
+            self.assertEqual(connection.execute("SELECT DISTINCT components_json FROM fork_rankings").fetchall(), [("{}",)])
+            self.assertEqual(connection.execute("SELECT id FROM fork_snapshots ORDER BY id").fetchall(), [(1,), (2,), (4,), (5,), (6,)])
+            self.assertEqual(connection.execute("SELECT snapshot_id FROM fork_commits").fetchall(), [(1,)])
+            self.assertEqual(connection.execute("SELECT snapshot_id FROM fork_file_changes").fetchall(), [(5,)])
             self.assertEqual(connection.execute("SELECT source_sha256 FROM public_projection_metadata").fetchone()[0], "a" * 64)
             connection.close()
 

@@ -17,15 +17,31 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DB = ROOT / "data" / "aggregator.sqlite3"
 DEFAULT_FULL_ARCHIVE = ROOT / "data" / "aggregator-full.sqlite3.zst"
-PROJECTION_VERSION = 1
-RAW_JSON_COLUMNS = (
+PROJECTION_VERSION = 2
+STRIPPED_JSON_COLUMNS = (
     ("raw_snapshots", "payload_json"),
     ("items", "raw_json"),
     ("metrics", "raw_json"),
     ("github_user_profiles", "raw_json"),
     ("fork_file_changes", "raw_json"),
     ("fork_commits", "raw_json"),
+    ("fork_rankings", "components_json"),
 )
+FORK_SNAPSHOT_RETENTION = """
+    fork_snapshots.id = (
+        SELECT MAX(latest.id)
+        FROM fork_snapshots AS latest
+        WHERE latest.fork_id = fork_snapshots.fork_id
+    )
+    OR EXISTS (
+        SELECT 1 FROM fork_commits
+        WHERE fork_commits.snapshot_id = fork_snapshots.id
+    )
+    OR EXISTS (
+        SELECT 1 FROM fork_file_changes
+        WHERE fork_file_changes.snapshot_id = fork_snapshots.id
+    )
+"""
 
 
 def utc_now() -> str:
@@ -140,18 +156,22 @@ def latest_complete_value_run(connection: sqlite3.Connection) -> int:
 
 
 def project_database(path: Path, source_sha256: str, archive_label: str) -> int:
-    """Remove duplicated raw blobs and superseded derived assessments from a copy."""
+    """Remove duplicated blobs and superseded derived rows from a copy."""
 
     connection = sqlite3.connect(path)
     try:
         connection.execute("PRAGMA foreign_keys = ON")
         tables = user_tables(connection)
-        required_tables = {table for table, _ in RAW_JSON_COLUMNS} | {"value_assessments", "collection_runs"}
+        required_tables = {table for table, _ in STRIPPED_JSON_COLUMNS} | {
+            "collection_runs",
+            "fork_snapshots",
+            "value_assessments",
+        }
         missing = sorted(required_tables - tables)
         if missing:
             raise RuntimeError(f"database is missing required tables: {', '.join(missing)}")
         latest_value_run_id = latest_complete_value_run(connection)
-        for table, column in RAW_JSON_COLUMNS:
+        for table, column in STRIPPED_JSON_COLUMNS:
             columns = {str(row[1]) for row in connection.execute(f'PRAGMA table_info("{table}")')}
             if column not in columns:
                 raise RuntimeError(f"database is missing required column: {table}.{column}")
@@ -159,6 +179,18 @@ def project_database(path: Path, source_sha256: str, archive_label: str) -> int:
         connection.execute(
             "DELETE FROM value_assessments WHERE collection_run_id <> ?",
             (latest_value_run_id,),
+        )
+        latest_fork_ranking_run = connection.execute(
+            "SELECT MAX(collection_run_id) FROM fork_rankings"
+        ).fetchone()[0]
+        if latest_fork_ranking_run is None:
+            raise RuntimeError("no Fork ranking run is available for the public projection")
+        connection.execute(
+            "DELETE FROM fork_rankings WHERE collection_run_id <> ?",
+            (int(latest_fork_ranking_run),),
+        )
+        connection.execute(
+            f"DELETE FROM fork_snapshots WHERE NOT ({FORK_SNAPSHOT_RETENTION})"
         )
         connection.execute(
             """
@@ -186,7 +218,19 @@ def project_database(path: Path, source_sha256: str, archive_label: str) -> int:
                 source_sha256,
                 archive_label,
                 latest_value_run_id,
-                json.dumps([f"{table}.{column}" for table, column in RAW_JSON_COLUMNS]),
+                json.dumps(
+                    {
+                        "stripped_fields": [
+                            f"{table}.{column}" for table, column in STRIPPED_JSON_COLUMNS
+                        ],
+                        "retention": {
+                            "fork_rankings": "latest collection run",
+                            "fork_snapshots": "latest per Fork plus commit/file-evidence snapshots",
+                            "value_assessments": "latest complete collection run",
+                        },
+                    },
+                    sort_keys=True,
+                ),
             ),
         )
         connection.commit()
@@ -224,10 +268,26 @@ def verify_projection(
                         (latest_value_run_id,),
                     ).fetchone()[0]
                 )
+            elif table == "fork_rankings":
+                expected = int(
+                    source_connection.execute(
+                        """
+                        SELECT COUNT(*)
+                        FROM fork_rankings
+                        WHERE collection_run_id = (SELECT MAX(collection_run_id) FROM fork_rankings)
+                        """
+                    ).fetchone()[0]
+                )
+            elif table == "fork_snapshots":
+                expected = int(
+                    source_connection.execute(
+                        f"SELECT COUNT(*) FROM fork_snapshots WHERE {FORK_SNAPSHOT_RETENTION}"
+                    ).fetchone()[0]
+                )
             actual = output_counts.get(table)
             if actual != expected:
                 raise RuntimeError(f"row-count mismatch for {table}: {actual} != {expected}")
-        for table, column in RAW_JSON_COLUMNS:
+        for table, column in STRIPPED_JSON_COLUMNS:
             nonempty_raw = int(
                 output_connection.execute(
                     f'SELECT COUNT(*) FROM "{table}" WHERE "{column}" <> ?',

@@ -26,13 +26,15 @@ VALUE_MATRIX_FIELDS = {
     "value_score", "confidence_score", "value_band", "evidence_count", "source_count", "risk_flags",
 }
 PUBLIC_DB_MAX_BYTES = 95 * 1024 * 1024
-PUBLIC_RAW_JSON_COLUMNS = (
+PUBLIC_PROJECTION_VERSION = 2
+PUBLIC_STRIPPED_JSON_COLUMNS = (
     ("raw_snapshots", "payload_json"),
     ("items", "raw_json"),
     ("metrics", "raw_json"),
     ("github_user_profiles", "raw_json"),
     ("fork_file_changes", "raw_json"),
     ("fork_commits", "raw_json"),
+    ("fork_rankings", "components_json"),
 )
 
 
@@ -53,16 +55,24 @@ def main() -> None:
     ).fetchone() is not None
     if is_public_projection:
         projection = connection.execute(
-            "SELECT projection_version, source_sha256, authoritative_archive, latest_value_run_id "
+            "SELECT projection_version, source_sha256, authoritative_archive, latest_value_run_id, "
+            "stripped_fields_json "
             "FROM public_projection_metadata"
         ).fetchall()
         assert len(projection) == 1
-        assert projection[0][0] == 1
+        assert projection[0][0] == PUBLIC_PROJECTION_VERSION
         assert len(projection[0][1]) == 64
         assert projection[0][2]
+        projection_policy = json.loads(projection[0][4])
+        assert projection_policy["stripped_fields"] == [
+            f"{table}.{column}" for table, column in PUBLIC_STRIPPED_JSON_COLUMNS
+        ]
+        assert set(projection_policy["retention"]) == {
+            "fork_rankings", "fork_snapshots", "value_assessments",
+        }
         assert FULL_ARCHIVE_PATH.is_file() and FULL_ARCHIVE_PATH.stat().st_size > 0
         assert DB_PATH.stat().st_size <= PUBLIC_DB_MAX_BYTES
-        for table, column in PUBLIC_RAW_JSON_COLUMNS:
+        for table, column in PUBLIC_STRIPPED_JSON_COLUMNS:
             assert connection.execute(
                 f'SELECT COUNT(*) FROM "{table}" WHERE "{column}" <> ?', ("{}",)
             ).fetchone()[0] == 0
