@@ -5,10 +5,10 @@
 <text x="28" y="82" font-size="14">github</text>
 <rect x="245" y="67" width="620" height="20" rx="10" fill="#e8e2d6"/>
 <rect x="245" y="67" width="620" height="20" rx="10" fill="#ef8354"/>
-<text x="878" y="82" text-anchor="end" font-size="14" font-weight="700">687</text>
+<text x="878" y="82" text-anchor="end" font-size="14" font-weight="700">693</text>
 <text x="28" y="124" font-size="14">hacker_news</text>
 <rect x="245" y="109" width="620" height="20" rx="10" fill="#e8e2d6"/>
-<rect x="245" y="109" width="80" height="20" rx="10" fill="#4f6d7a"/>
+<rect x="245" y="109" width="79" height="20" rx="10" fill="#4f6d7a"/>
 <text x="878" y="124" text-anchor="end" font-size="14" font-weight="700">89</text>
 <text x="28" y="166" font-size="14">x</text>
 <rect x="245" y="151" width="620" height="20" rx="10" fill="#e8e2d6"/>
@@ -16,7 +16,7 @@
 <text x="878" y="166" text-anchor="end" font-size="14" font-weight="700">53</text>
 <text x="28" y="208" font-size="14">xiaohongshu</text>
 <rect x="245" y="193" width="620" height="20" rx="10" fill="#e8e2d6"/>
-<rect x="245" y="193" width="27" height="20" rx="10" fill="#d4a373"/>
+<rect x="245" y="193" width="26" height="20" rx="10" fill="#d4a373"/>
 <text x="878" y="208" text-anchor="end" font-size="14" font-weight="700">30</text>
 <text x="28" y="250" font-size="14">web</text>
 <rect x="245" y="235" width="620" height="20" rx="10" fill="#e8e2d6"/>
@@ -38,15 +38,15 @@
 <rect x="245" y="403" width="620" height="20" rx="10" fill="#e8e2d6"/>
 <rect x="245" y="403" width="1" height="20" rx="10" fill="#4f6d7a"/>
 <text x="878" y="418" text-anchor="end" font-size="14" font-weight="700">2</text>
-<text x="28" y="460" font-size="14">official</text>
+<text x="28" y="460" font-size="14">wechat</text>
 <rect x="245" y="445" width="620" height="20" rx="10" fill="#e8e2d6"/>
-<rect x="245" y="445" width="0" height="20" rx="10" fill="#5da399"/>
-<text x="878" y="460" text-anchor="end" font-size="14" font-weight="700">1</text>
-<text x="28" y="502" font-size="14">v2ex</text>
+<rect x="245" y="445" width="1" height="20" rx="10" fill="#5da399"/>
+<text x="878" y="460" text-anchor="end" font-size="14" font-weight="700">2</text>
+<text x="28" y="502" font-size="14">official</text>
 <rect x="245" y="487" width="620" height="20" rx="10" fill="#e8e2d6"/>
 <rect x="245" y="487" width="0" height="20" rx="10" fill="#d4a373"/>
 <text x="878" y="502" text-anchor="end" font-size="14" font-weight="700">1</text>
-<text x="28" y="544" font-size="14">wechat</text>
+<text x="28" y="544" font-size="14">v2ex</text>
 <rect x="245" y="529" width="620" height="20" rx="10" fill="#e8e2d6"/>
 <rect x="245" y="529" width="0" height="20" rx="10" fill="#7b6d8d"/>
 <text x="878" y="544" text-anchor="end" font-size="14" font-weight="700">1</text>

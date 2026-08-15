@@ -1,0 +1,18 @@
+{
+  "upstream": "deepseek-ai/deepseek-harness",
+  "api_base": "https://api.github.com",
+  "list_page_size": 100,
+  "recent_commits": 10,
+  "deep_scan_limit": 100,
+  "max_file_changes": 300,
+  "activity_horizon_days": 365,
+  "ranking_version": "fork-influence-v1",
+  "weights": {
+    "stars": 35,
+    "forks": 15,
+    "watchers": 5,
+    "activity": 20,
+    "divergence": 10,
+    "changes": 15
+  }
+}

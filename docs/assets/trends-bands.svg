@@ -4,14 +4,14 @@
 <text x="28" y="34" font-size="20" font-weight="700">Value-band distribution — current dataset</text>
 <text x="28" y="92" font-size="15">band B（avg value 65.6）</text>
 <rect x="300" y="74" width="600" height="22" rx="11" fill="#e8e2d6"/>
-<rect x="300" y="74" width="116" height="22" rx="11" fill="#ef8354"/>
-<text x="912" y="92" text-anchor="end" font-size="15" font-weight="700">114</text>
-<text x="28" y="138" font-size="15">band C（avg value 50.0）</text>
+<rect x="300" y="74" width="121" height="22" rx="11" fill="#ef8354"/>
+<text x="912" y="92" text-anchor="end" font-size="15" font-weight="700">119</text>
+<text x="28" y="138" font-size="15">band C（avg value 49.9）</text>
 <rect x="300" y="120" width="600" height="22" rx="11" fill="#e8e2d6"/>
 <rect x="300" y="120" width="600" height="22" rx="11" fill="#4f6d7a"/>
-<text x="912" y="138" text-anchor="end" font-size="15" font-weight="700">585</text>
-<text x="28" y="184" font-size="15">band D（avg value 37.1）</text>
+<text x="912" y="138" text-anchor="end" font-size="15" font-weight="700">587</text>
+<text x="28" y="184" font-size="15">band D（avg value 37.2）</text>
 <rect x="300" y="166" width="600" height="22" rx="11" fill="#e8e2d6"/>
-<rect x="300" y="166" width="221" height="22" rx="11" fill="#5da399"/>
+<rect x="300" y="166" width="220" height="22" rx="11" fill="#5da399"/>
 <text x="912" y="184" text-anchor="end" font-size="15" font-weight="700">216</text>
 </svg>

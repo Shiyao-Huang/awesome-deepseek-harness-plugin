@@ -4,22 +4,83 @@ DeepSeek Harness / DSH 插件生态的公开资料聚合 repo：把 GitHub 仓�
 
 从 [dsh store](docs/index.html) 开始浏览；它提供类似 skills.sh 的目录、搜索、来源和分类页面，每条记录都有独立详情页。原始 Markdown 视图仍在 [docs/index.md](docs/index.md)、[docs/timeline.md](docs/timeline.md)、[docs/categories.md](docs/categories.md) 和 [docs/sources.md](docs/sources.md)，富媒体报告在 [docs/report.html](docs/report.html)。发布和 SEO 约定见 [docs/seo.md](docs/seo.md)。
 
+<!-- landing:start -->
+## Start here — the DSH signal desk
+
+> 这里不是又一份静态 Awesome List，而是一张持续更新的 DeepSeek Harness 生态地图：先看最值得点开的仓库、帖子和视频，再沿着 raw、SQLite、时间轴回到证据。当前批次 **v20260815T092217Z**（2026-08-15）：**922** 条去重记录、**14** 个平台、**665** 个媒体引用。
+
+[打开 dsh store](docs/index.html) · [看价值矩阵](docs/value-matrix.md) · [看趋势](docs/trends.md) · [查 SQLite](data/aggregator.sqlite3)
+
+![DeepSeek Harness official preview](media/screenshots/official.png)
+
+### 先看这三个入口
+
+| 入口 | 为什么值得看 | 当前信号 |
+| --- | --- | ---: |
+| [官方核心 · deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | DSH 的源头仓库；所有插件和能力最终回到这里核验。 | ★ stars 104,848 |
+| [高关注插件 · zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 真实可见的 UI / 桌面扩展，适合从“能不能直接用”开始。 | ★ stars 2,263 |
+| [新文章 · 如何用 GLM 5.3，开发 DeepSeek Harness 插件](https://mp.weixin.qq.com/s/HrOgdg7ZBKQlvGM-xPeKtw) | 一篇文章串起模型接入、插件契约、skill、附件和 inspector；8 image · 1 video。 | counters NULL |
+
+### 新：一篇文章，三个可以立即追踪的插件
+
+> [如何用 GLM 5.3，开发 DeepSeek Harness 插件](https://mp.weixin.qq.com/s/HrOgdg7ZBKQlvGM-xPeKtw) · 金色传说大聪明 · 2026年8月15日 16:35 北京。文章报告作者用 GLM 5.3 为 DSH 补上 skill 索引、文件附件和约束/skill 检查能力；互动计数未公开，保持 `NULL`。相关历史报道：[DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw)。
+
+| 插件 | 用途 |
+| --- | --- |
+| [CocoSgt/dsh-skills](https://github.com/CocoSgt/dsh-skills) | 索引和加载项目里的 skill，支持完整 `.skill` 文件。 · ★ stars 2 |
+| [CocoSgt/dsh-attachments](https://github.com/CocoSgt/dsh-attachments) | 为 DSH 增加文件/图片附件与继续引用能力。 · ★ stars 2 |
+| [CocoSgt/dsh-inspector](https://github.com/CocoSgt/dsh-inspector) | 查看生效的约束文件和当前被索引的 skill。 · ★ stars 2 |
+
+安装提示（文章原文）：
+
+```sh
+dsh plugin --profile web add dsh-skills dsh-attachments dsh-inspector
+```
+
+### 大家正在关注什么
+
+| 平台 | 记录 | 平台原生信号 | 为什么在首页 |
+| --- | --- | ---: | --- |
+| X | [DeepSeek @deepseek_ai DeepSeek Harness v0.1 is now available in Developer Preview! We’re opening it up to developers building agent harnesse](https://x.com/deepseek_ai/status/2087887408440164663) | ♥ likes 18,976 · replies 717 | 官方发布与开发者传播 |
+| YouTube | [DeepSeek Harness: The End of Claude Code?](https://www.youtube.com/watch?v=qg9EyGOZd9U) | views 42,000 | 长视频实测/解读 |
+| 哔哩哔哩 | [【热门AI鉴定】DeepSeek Harness是什么？强在哪里？Harness实测效果如何？一口气搞懂！](https://www.bilibili.com/video/BV11CgF6uE4k) | views 446,982 · replies 656 | 中文教程与体验 |
+| Hacker News | [DeepSeek Harness developer preview](https://news.ycombinator.com/item?id=49285244) | points 723 · comments 302 | 开发者讨论 |
+| 小红书 | [从0开始成为DeepSeek Harness高手](https://www.xiaohongshu.com/explore/6a7e6b100000000029032f61) | ♥ likes 1,971 | 中文入门与教程 |
+
+### 三个社区目录，是发现入口，不是质量背书
+
+| 上游目录 | 收录条目 |
+| --- | ---: |
+| [Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins](https://github.com/Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins) · 55 stars | 140 |
+| [beancookie/awesome-dsh-plugin](https://github.com/beancookie/awesome-dsh-plugin) · 18 stars | 275 |
+| [walkinglabs/awesome-deepseek-harness-plugins](https://github.com/walkinglabs/awesome-deepseek-harness-plugins) · 4 stars | 114 |
+
+> 价值档当前分布：**B 119 · C 587 · D 216**。分数只用于安排复核优先级；不同平台的 stars、likes、views、points 不相加，缺失互动数不补零。
+
+<!-- landing:end -->
+
 ## 当前快照
 
-本地 SQLite 当前包含 **915 条去重记录**、**14 个来源平台**、**1,134 条指标历史**、**650 个媒体资产引用**、**306 条详情记录**和 **86 个去重 raw snapshot**。价值矩阵为当前批次的 915 条记录提供六维评分；raw snapshot 不是摘要：`raw_snapshots.payload_json` 保存原始 JSON 文本本身，并同时保存 SHA-256、原始路径、字节数、采集时间和采集批次。
+<!-- snapshot:start -->
+本地 SQLite 当前包含 **922 条去重记录**、**14 个来源平台**、**1,341 条指标历史**、**665 个媒体资产引用**、**309 条详情记录**和 **89 个去重 raw snapshot**。当前批次 **v20260815T092217Z** 于 **2026-08-15T09:22:18Z** 完成；价值矩阵为当前批次的 922 条记录提供六维评分。raw snapshot 不是摘要：`raw_snapshots.payload_json` 保存原始 JSON 文本本身，并同时保存 SHA-256、原始路径、字节数、采集时间和采集批次。
 
 | 来源 | 去重记录 | 采集内容 |
 | --- | ---: | --- |
-| GitHub | 687 | 官方仓库、`dsh-plugin` topic、社区索引候选、stars/forks/issues |
-| X | 53 | 公开帖子、图片/视频链接、replies/reposts/likes/bookmarks/views |
-| Hacker News | 89 | 精确短语与扩展搜索、points/comments、帖子链接 |
-| 小红书 | 30 | 搜索卡片、作者、相对时间、点赞、缩略图和详情文本 |
-| Open Web | 21 | 文章/教程/报道的公开元数据和摘要 |
-| YouTube | 17 | 视频标题、频道、观看数、视频链接和缩略图 |
+| GitHub | 693 | 官方仓库、topic、社区索引候选和 stars/forks/issues |
+| Hacker News | 89 | 精确短语搜索、points/comments 和讨论链接 |
+| X | 53 | 公开帖子、图片/视频链接和 replies/reposts/likes/views |
+| 小红书 | 30 | 搜索卡片、作者、点赞、缩略图和详情文本 |
+| 开放网页 | 21 | 文章、教程和报道的公开元数据与摘要 |
+| YouTube | 17 | 视频标题、频道、观看数和缩略图 |
 | 哔哩哔哩 | 6 | 视频元数据、播放/点赞/投币/收藏/转发/弹幕/评论 |
 | Reddit | 5 | 公开讨论、分数、评论和正文证据 |
 | LINUX DO | 2 | 公开讨论页面和互动信息 |
-| 官方站、V2EX、微信公众号、微博、知乎 | 7 | 公开文章、页面和补充证据 |
+| 微信公众号 | 2 | 公开文章、图像/视频外链和正文证据 |
+| 官方站 | 1 | 官方页面和补充证据 |
+| V2EX | 1 | 公开讨论页面和互动信息 |
+| 微博 | 1 | 公开页面和互动信息 |
+| 知乎 | 1 | 公开问题、回答和页面互动信息 |
+<!-- snapshot:end -->
 
 ## 数据模型
 
@@ -86,16 +147,25 @@ python3 scripts/build_index.py
 python3 scripts/build_views.py
 ```
 
+监测 `deepseek-ai/deepseek-harness` 的公开 fork network；默认保存完整分页 raw，并对影响力最高或最久未深扫的 fork 记录 compare、近期提交、README 和变更分类：
+
+```sh
+python3 scripts/collect_forks.py
+python3 scripts/build_index.py
+python3 scripts/build_views.py
+```
+
 计算价值矩阵并刷新全部派生视图：
 
 ```sh
 python3 scripts/build_value_matrix.py
 python3 scripts/build_index.py
 python3 scripts/build_views.py
+python3 scripts/build_readme.py
 python3 scripts/validate.py
 ```
 
-公开仓库的 [refresh-index workflow](.github/workflows/refresh-index.yml) 每两小时运行一次（UTC 的每个偶数小时第 17 分钟），先监测三个上游 Awesome 仓库，再更新 GitHub/Hacker News 公共 API，保留 `data/raw/upstreams/` 和带时间戳的 `data/raw/api/` 完整快照，并提交 SQLite、`index/` 和派生页面。每次运行都会生成一个数据库内的 `dataset_version`；如果 raw SHA 已存在，则跳过 raw 和条目重复导入，但不同日期的互动指标仍作为历史观测保存。
+公开仓库的 [refresh-index workflow](.github/workflows/refresh-index.yml) 每两小时运行一次（UTC 的每个偶数小时第 17 分钟），先监测三个上游 Awesome 仓库和官方 fork network，再更新 GitHub/Hacker News 公共 API，保留 `data/raw/upstreams/`、`data/raw/forks/` 和带时间戳的 `data/raw/api/` 完整快照，并提交 SQLite、`index/` 和派生页面。每次运行都会生成一个数据库内的 `dataset_version`；如果 raw SHA 已存在，则跳过 raw 和条目重复导入，但不同日期的互动指标仍作为历史观测保存。
 
 X、小红书、Reddit、微信公众号等需要登录态或浏览器可见 DOM 的来源，不会在 CI 中绕过登录、验证码或访问限制；继续通过 ego-browser 保存完整可见证据 JSON、截图路径和媒体 URL 后，用 `--raw` 导入。定时任务会自动收集它有权限公开访问的 API 数据，浏览器来源仍以合法可见的 raw 输入为准。
 

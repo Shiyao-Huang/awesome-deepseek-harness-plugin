@@ -6,6 +6,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
 | 2026-08-15T14:18:44+08:00 | web | article | [玩了一夜DeepSeek Harness，我发现它在用《我的世界》的方式干掉Claude Code-36氪](https://www.36kr.com/p/3938774780263814) |  | core-and-ecosystem |
+| 2026年8月15日 16:35 北京 | wechat | article | [如何用 GLM 5.3，开发 DeepSeek Harness 插件](https://mp.weixin.qq.com/s/HrOgdg7ZBKQlvGM-xPeKtw) | 金色传说大聪明 | index-and-marketplace |
 | 19小时前 | youtube | video | [DeepSeek Harness 正式发布！ 开源一天狂揽 6.8 万星！V4 Pro 模型低调上线，AI Agent 部署与实测 \| 零度解说](https://www.youtube.com/watch?v=5G_afoTB1gs) | 零度解说 | core-and-ecosystem |
 | 16小时前 | youtube | video | [DeepSeek Harness 能力很猛，很危险？源码深挖解读！](https://www.youtube.com/watch?v=CukbMYlDRrM) | 三少科技 | multimedia-and-vision |
 | 21小时前 | youtube | video | [DeepSeek Harness初步测试：工具属性优秀，反应极快，编程能力强，但是小BUG不少。总体上是非常优秀的产品，值得尝试！](https://www.youtube.com/watch?v=i3s5vC_0uHU) | 抡锤者 | core-and-ecosystem |
@@ -338,6 +339,7 @@
 | 2026-08-14T10:44:31Z | github | repository | [Tabbit-Browser/dsh-plugin](https://github.com/Tabbit-Browser/dsh-plugin) | Tabbit-Browser | core-and-ecosystem |
 | 2026-08-14T10:43:58Z | github | repository | [feibi-mochi/deepseek-harness-wallet](https://github.com/feibi-mochi/deepseek-harness-wallet) | feibi-mochi | operations-and-safety |
 | 2026-08-14T10:40:58Z | github | repository | [SenmuuuuW/dsh-whale-report](https://github.com/SenmuuuuW/dsh-whale-report) | SenmuuuuW | core-and-ecosystem |
+| 2026-08-14T10:37:46Z | github | repository | [CocoSgt/dsh-nsfw](https://github.com/CocoSgt/dsh-nsfw) | CocoSgt | core-and-ecosystem |
 | 2026-08-14T10:29:13Z | github | repository | [cokiscarazo-rgb/dsh-session-management](https://github.com/cokiscarazo-rgb/dsh-session-management) | cokiscarazo-rgb | core-and-ecosystem |
 | 2026-08-14T10:18:38Z | github | repository | [yuqingsh/dsh-image-subagent](https://github.com/yuqingsh/dsh-image-subagent) | yuqingsh | multimedia-and-vision |
 | 2026-08-14T10:13:54Z | github | repository | [Miyazawai/dsh-client-pricing](https://github.com/Miyazawai/dsh-client-pricing) | Miyazawai | core-and-ecosystem |
@@ -429,6 +431,9 @@
 | 2026-08-14T02:04:42Z | github | repository | [omdsh-dev/dsh-lark](https://github.com/omdsh-dev/dsh-lark) | omdsh-dev | core-and-ecosystem |
 | 2026-08-14T01:52:30Z | github | repository | [xingj404-lab/dsh-desktop](https://github.com/xingj404-lab/dsh-desktop) | xingj404-lab | ui-and-desktop |
 | 2026-08-14 | github | repository | [dsh-find-plugin](https://github.com/awesome-dsh-plugin/dsh-find-plugin) | awesome-dsh-plugin | index-and-marketplace |
+| default branch: main | github | repository | [CocoSgt/dsh-inspector](https://github.com/CocoSgt/dsh-inspector) | CocoSgt | core-and-ecosystem |
+| default branch: main | github | repository | [CocoSgt/dsh-skills](https://github.com/CocoSgt/dsh-skills) | CocoSgt | core-and-ecosystem |
+| default branch: main | github | repository | [CocoSgt/dsh-attachments](https://github.com/CocoSgt/dsh-attachments) | CocoSgt | core-and-ecosystem |
 | 2026-08-14T01:40:22Z | v2ex | article | [deepseek-harness 初体验，讨论下呢 - V2EX](https://v2ex.com/t/1234264) |  | core-and-ecosystem |
 | 2026-08-14T01:40:02Z | github | repository | [Ychris12138/dsh-usage-stats](https://github.com/Ychris12138/dsh-usage-stats) | Ychris12138 | operations-and-safety |
 | 2026-08-14T01:34:08Z | github | repository | [cpj-dev/dsh-plugin-cc](https://github.com/cpj-dev/dsh-plugin-cc) | cpj-dev | core-and-ecosystem |
@@ -858,6 +863,7 @@
 | 2025-12-09T16:17:52Z | hacker_news | story | [Show HN: AutEng Docs – Google Docs x Gist x LLM chat](https://news.ycombinator.com/item?id=46206709) | llabs | index-and-marketplace |
 | 2025-12-05T17:58:26Z | github | repository | [YishenTu/claudian](https://github.com/YishenTu/claudian) | YishenTu | core-and-ecosystem |
 | 2025-12-01T13:15:27Z | github | repository | [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale) | junhoyeo | operations-and-safety |
+| 2025-11-30T10:41:27Z | github | repository | [CocoSgt/Giga-Peach](https://github.com/CocoSgt/Giga-Peach) | CocoSgt | core-and-ecosystem |
 | 2025-11-19T11:59:32Z | hacker_news | story | [Show HN: Q⊗DASH – Rust/Python quantum operator framework for graph-based QC](https://news.ycombinator.com/item?id=45978524) | dioniceOS | index-and-marketplace |
 | 2025-11-04T17:03:48Z | hacker_news | story | [Show HN: Tangent – Open‑source stream processor with native‑speed WASM plugins](https://news.ycombinator.com/item?id=45813256) | PublicEnemy111 | index-and-marketplace |
 | 2025-10-31T14:15:28Z | github | repository | [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | shanraisshan | core-and-ecosystem |
@@ -879,6 +885,7 @@
 | 2025-01-11T10:11:05Z | github | repository | [punkpeye/awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients) | punkpeye | index-and-marketplace |
 | 2024-11-22T13:20:25Z | hacker_news | story | [Show HN: Growflyer – Automate Your Business Marketing in Minutes](https://news.ycombinator.com/item?id=42213615) | kaizarbharmal | core-and-ecosystem |
 | 2024-08-29T15:49:16Z | hacker_news | story | [Show HN: Native SQL, type-safe, in-lined. Pick three](https://news.ycombinator.com/item?id=41392080) | owlstuffing | index-and-marketplace |
+| 2024-07-22T08:09:17Z | github | repository | [CocoSgt/LLMs_info](https://github.com/CocoSgt/LLMs_info) | CocoSgt | core-and-ecosystem |
 | 2024-05-24T01:56:26Z | github | repository | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | CherryHQ | core-and-ecosystem |
 | 2024-05-21T11:58:44Z | hacker_news | story | [How to solve the problem of focusing while studying (The Definitive Solutioon)](https://news.ycombinator.com/item?id=40427179) | filinta | core-and-ecosystem |
 | 2024-05-08T15:19:40Z | hacker_news | story | [Show HN: I made a better Perplexity for developers](https://news.ycombinator.com/item?id=40299091) | jiayuanzhang | index-and-marketplace |

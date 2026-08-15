@@ -464,6 +464,11 @@ def render_detail(record: dict[str, object], dataset_version: str, generated_at:
     refs = record.get("refs")
     assert isinstance(refs, list)
     refs_html = "".join(f'<li><a href="{esc(ref, attribute=True)}" rel="noreferrer">{esc(ref)}</a></li>' for ref in refs if valid_url(ref))
+    references_section = (
+        f'  <section class="detail-context"><div><p class="kicker">REFERENCES</p><h2>Linked evidence</h2></div><ul>{refs_html}</ul></section>'
+        if refs_html
+        else ""
+    )
     source_action = (
         f'<code>git clone {esc(record["url"], attribute=True)}.git</code>'
         if record["repo"]
@@ -477,7 +482,7 @@ def render_detail(record: dict[str, object], dataset_version: str, generated_at:
   <section class="detail-heading"><div><p class="kicker">{esc(record['platform_label'])} · {esc(record['category_label'])}</p><h1>{esc(record['title'])}</h1><p class="detail-author">{esc(str(author))} · {esc(record['item_type'])} · {esc('direct signal' if record['relevance'] == 'direct' else 'related signal')}</p></div><a class="button button-primary" href="{esc(record['url'], attribute=True)}" rel="noreferrer">Open source <span aria-hidden="true">↗</span></a></section>
   <section class="detail-grid"><div class="detail-primary"><p class="detail-description">{esc(record['description'])}</p><div class="install-panel"><p class="filter-label">SOURCE ENTRY</p>{source_action}</div><div class="detail-media"><div class="section-heading"><div><p class="kicker">MEDIA REFERENCES</p><h2>Captured in public view</h2></div><span>External URLs only</span></div><div class="media-gallery">{gallery}</div></div></div><aside class="detail-sidebar"><div class="metric-grid">{metric_items}</div><div class="evidence-panel"><p class="filter-label">EVIDENCE</p><dl><div><dt>Registry ID</dt><dd>{esc(record['id'])}</dd></div><div><dt>Dataset</dt><dd>{esc(dataset_version)}</dd></div><div><dt>First seen</dt><dd>{esc(date_label(record['first_seen_at']))}</dd></div><div><dt>Last seen</dt><dd>{esc(date_label(record['last_seen_at']))}</dd></div></dl></div><div class="evidence-panel"><p class="filter-label">PUBLIC URL</p><a class="break-link" href="{esc(record['url'], attribute=True)}" rel="noreferrer">{esc(record['url'])}</a></div></aside></section>
   <section class="detail-context"><div><p class="kicker">CONTEXT</p><h2>Why it is here</h2></div><p>{esc(record['description'])}</p></section>
-  {f'<section class="detail-context"><div><p class="kicker">REFERENCES</p><h2>Linked evidence</h2></div><ul>{refs_html}</ul></section>' if refs_html else ''}
+{references_section}
   <p class="detail-footnote">Observed {esc(generated_at)}. Interaction numbers are platform-native snapshots; NULL means the public page did not expose a number at collection time.</p>
 </main>
 {footer_html('../')}

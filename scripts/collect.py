@@ -24,7 +24,7 @@ DB_PATH = ROOT / "data" / "aggregator.sqlite3"
 SCHEMA_PATH = ROOT / "src" / "schema.sql"
 CONFIG_PATH = ROOT / "config" / "queries.json"
 RAW_DIR = ROOT / "data" / "raw"
-SCHEMA_VERSION = 2
+SCHEMA_VERSION = 3
 
 
 @dataclass
@@ -320,6 +320,11 @@ def init_db(path: Path = DB_PATH) -> None:
             ("danmaku", "INTEGER"), ("upvote_ratio", "REAL"),
         ):
             ensure_column(connection, "metrics", name, sql_type)
+        for name, sql_type in (
+            ("last_deep_checked_at", "TEXT"),
+            ("detail_status", "TEXT NOT NULL DEFAULT 'metadata-only'"),
+        ):
+            ensure_column(connection, "fork_repositories", name, sql_type)
         backfill_collection_runs(connection)
         connection.execute(f"PRAGMA user_version = {SCHEMA_VERSION}")
         connection.execute("CREATE UNIQUE INDEX IF NOT EXISTS idx_metrics_dedupe ON metrics(item_id, observed_at, metric_source)")

@@ -112,6 +112,9 @@ def build_records(connection: sqlite3.Connection, dataset_version: str) -> list[
     for rank, row in enumerate(ranked, 1):
         raw = raw_item(row)
         refs = json_list(raw.get("links"))
+        for value in json_list(raw.get("refs")):
+            if value not in refs:
+                refs.append(value)
         for key in ("media_url", "thumbnail_url"):
             value = raw.get(key)
             if isinstance(value, str) and value and value not in refs:

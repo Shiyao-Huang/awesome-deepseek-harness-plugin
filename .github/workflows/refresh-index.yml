@@ -33,6 +33,11 @@ jobs:
           stamp="$(date -u +%Y%m%dT%H%M%SZ)"
           python3 scripts/monitor_sources.py --raw-output "data/raw/upstreams/${stamp}.json"
 
+      - name: Monitor upstream fork network
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/collect_forks.py
+
       - name: Collect public APIs and rebuild versioned raw archive
         run: |
           stamp="$(date -u +%Y%m%dT%H%M%SZ)"
@@ -41,11 +46,12 @@ jobs:
           python3 scripts/build_index.py
           python3 scripts/build_views.py
           python3 scripts/build_trends.py
+          python3 scripts/build_readme.py
           python3 scripts/validate.py
 
       - name: Commit refreshed index
         run: |
-          git add data/raw/api data/raw/upstreams data/aggregator.sqlite3 index docs
+          git add data/raw/api data/raw/upstreams data/raw/forks data/aggregator.sqlite3 index docs README.md
           if git diff --cached --quiet; then
             echo "No public-index changes"
             exit 0

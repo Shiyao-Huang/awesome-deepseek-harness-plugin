@@ -1,0 +1,76 @@
+{
+  "harvestedAt": "2026-08-15T09:06:57.825Z",
+  "method": "ego-browser visible DOM capture",
+  "platform": "wechat",
+  "pageUrl": "https://mp.weixin.qq.com/s/HrOgdg7ZBKQlvGM-xPeKtw",
+  "title": "如何用 GLM 5.3，开发 DeepSeek Harness 插件",
+  "author": "金色传说大聪明",
+  "account": "赛博禅心",
+  "published": "2026年8月15日 16:35 北京",
+  "ogTitle": "如何用 GLM 5.3，开发 DeepSeek Harness 插件",
+  "ogDesc": "“GLM-5.3 就是我们理想中的 DeepSeek V4 Pro 正式版”",
+  "ogImage": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/jXSGuwJvpdjP6QJhibgUp7oRs9ZRNeCRIVlYsxhhQp9uqnJrhLhZh2XsfjOGn8hM8HHIiaxetjKE9nv0KnqjfyyUy9eTtWLI51rhTYicXluEZs/0?wx_fmt=jpeg",
+  "body_text": "如何用 GLM 5.3，开发 DeepSeek Harness 插件\n原创 金色传说大聪明 赛博禅心\n2026年8月15日 16:35 北京\n\n求个 github star 了，家人们！\n\n我参与了 GLM 5.3 的内测，发布之后也一直在用，说说体感：弱于 Fable，强于 v4 pro，～k3\n\n但还有一个事得注意...这个模型只有 800B 不到，用的是 5.2 的同款基座，后训练仙人了算是\n\n容我先放一个 v 佬捏的 case，消耗了大概 300 亿 token，烧出的高仿版泰拉瑞亚...这模型的开发能力，着实是有点牛逼的\n\nv 佬用 300 亿 token 烧出的泰拉瑞亚\n\n我之前也参与了 DeepSeek Harness 内测，我认为这是一个极其优秀的底层框架，我可以通过定义&替换插件，把它捏成任何我想要的 Agent，颇有种 Arch Linux 的感觉：DeepSeek Harness 上线：一切皆为插件，一切皆是可能\n\n但足够的开放，也就意味着官方可能很多习以为常的基础功能都没做，典型的就是... DSH 这东西竟然不支持上传文件...\n\n于是昨天我用 glm 5.3 把很多 dsh 本应该有的功能给补全了（还挺好用），欢迎来给个 Star：dsh-skills、dsh-attachments、dsh-inspector\n\n基础信息\n\n先看一下 Bench 吧，在编程这一方面\n\n总结一下（加上我的体感），就是：弱于 Fable，强于 v4 pro，～k3\n\n这个模型的基座和 5.2 相同，但比 5.2 提升明显\n\n这个模型目前已经上线了 ZCode、AutoClaw 以及 GLM Coding Plan，API 很快上线\n\n开发 DeepSeek Harness 插件\n\n我在同一时间参与了 DSH 和 5.3 内测。这里得说一下，你是可以在 dsh 里面使用 glm 的模型的，在设置里改一下就行\n\n改完后，你就能使用任意模型，畅玩 dsh 了\n\n在你刚开始使用 DSH 的时候，你可能会遇到几个问题：woc，skill 呢！woc，怎么上传附件！woc，我项目里的文件呢！\n\n很显然...这是我最开始的时候，遇到的问题，而解法...就是...个他说，让他开发\n\n然后，经过我一轮轮调教样式与交互后，咱们就有了这么三个 skill：\n\n第一个：dsh-skills\n从此，让 dsh 支持 skill，自动索引你以往项目里的 skill，装载到 dsh 里，支持完整格式的 .skill 文件（不单单是 .md）\n欢迎 star：https://github.com/CocoSgt/dsh-skills\n在日常的对话里，你可以直接在聊天框中「/」，就能呼出 skill 了\n\n第二个：dsh-attachments\n你可能难以想象，dsh 是不支持上传文件的...哪怕是最基础的图片上传，于是我就做了个插件，让你的 deepseek harness 能够直接支持，并显示附件图标\n欢迎 star：https://github.com/CocoSgt/dsh-attachments\n同时，你上传的这些文件，也支持直接打开，或者继续粘贴到其他对话框\n\n第三个：dsh-inspector\n在弄本地环境的时候，经常不知道有哪些约束文件在生效：于是我就做了个查看器，查看这些约束文件，以及当前会被索引的 skill\n欢迎 star：https://github.com/CocoSgt/dsh-inspector\n\n对了，我顺便也把 dsh 官方文档没覆盖的第三方插件路径也给覆盖了，比如 settings.section 槽注册、环回 sidecar 数据通道、__ModuleLoader__ 浏览器 bundle 契约、Typert RPC 啥的\n\n在这个过程中，5.3 不止把功能写出来，还帮我摸清了 DSH 的插件契约。\n\n我把这仨插件，都做成了 npm 包，可以一键安装，在 terminal 里直接输入这个即可：dsh plugin --profile web add dsh-skills dsh-attachments dsh-inspector\n\n最后\n\n对于这个模型，用网友的话说：很难想象，glm是怎么通过700多b的参数，正面硬刚一众几T参数的牛鬼蛇神的",
+  "links": [
+    "https://github.com/CocoSgt/dsh-skills",
+    "https://github.com/CocoSgt/dsh-attachments",
+    "https://github.com/CocoSgt/dsh-inspector",
+    "https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&mid=2247519712&idx=1&sn=cb1aff1c5bf98e29642c45f07f298f5b&scene=21#wechat_redirect"
+  ],
+  "media": [
+    {"kind":"image","url":"https://mmbiz.qpic.cn/sz_mmbiz_jpg/jXSGuwJvpdjP6QJhibgUp7oRs9ZRNeCRIVlYsxhhQp9uqnJrhLhZh2XsfjOGn8hM8HHIiaxetjKE9nv0KnqjfyyUy9eTtWLI51rhTYicXluEZs/0?wx_fmt=jpeg","alt":"cover_image"},
+    {"kind":"video","url":"https://mp.weixin.qq.com/mp/readtemplate?t=pages/video_player_tmpl&auto=0&vid=wxv_4650385863057833986","thumbnail_url":"http://mmbiz.qpic.cn/mmbiz_jpg/jXSGuwJvpdgO8rkZOicRlL1b9tV3sMTvaeaWvGdAHFvKibhj3JiaLTCmf6xfpl5laiadh0dRu3sMFCs7CmibEPicdNjk0jNudOrxlHicmH0hz9kp0E/0?wx_fmt=jpeg&wxfrom=16","alt_text":"公开文章内嵌视频，页面显示时长 10:27"},
+    {"kind":"image","url":"https://mmbiz.qpic.cn/mmbiz_png/jXSGuwJvpdia85cd8hfc8YjKIytN7eA0ljrcl5ypMqwTB0c4Gnzh38ZicnSvxVic0eYoOzrAATYzqrh5F2fiaIIW3HibhWuZqgdrfNa3RkOazdtQ/640?wx_fmt=png&from=appmsg#imgIndex=0"},
+    {"kind":"image","url":"https://mmbiz.qpic.cn/sz_mmbiz_png/jXSGuwJvpdiapPgR3eurVGo83zjSFeL3PEGHq1RZd83Frt72u0icSLezwSowlU5sxJOnu9xY9NwGJ1oKaicWCGxEeRy7huibU6sMlaGibUHeia6M0/640?wx_fmt=png&from=appmsg#imgIndex=1"},
+    {"kind":"image","url":"https://mmbiz.qpic.cn/sz_mmbiz_jpg/jXSGuwJvpdjULg2ULlgo1YptkJ9SNdYBF2oERbJWPdfUfxW17X8lXbghZG99QfTKGaNVeUicxJWm3iaMCMQp7MbHmQSuNVbStUBF8PqpmseSg/640?wx_fmt=jpeg&from=appmsg#imgIndex=2"},
+    {"kind":"image","url":"https://mmbiz.qpic.cn/sz_mmbiz_png/jXSGuwJvpdjLPEsua7PHUficUe9DR744NszbkYss62gZsVicLBdQVET7thD4f95NKtjptSib0LAno1icX4C9aI6LJsDGsTdwP4tNbQ598It7ovE/640?wx_fmt=png&from=appmsg#imgIndex=3"},
+    {"kind":"image","url":"https://mmbiz.qpic.cn/mmbiz_png/jXSGuwJvpdjesPIGCQsm5ZNUVqClI6mStgFUDLtrCjxoYd599e21khosoibNKm8lcbQgWtiaTibyYjoZicJ18CLJPlrfoiaV4QWqOn909WMEHLcc/640?wx_fmt=png&from=appmsg#imgIndex=6"},
+    {"kind":"image","url":"https://mmbiz.qpic.cn/sz_mmbiz_gif/jXSGuwJvpdia9picpA7EnsXOWr5W6UmRtGlmnD9ZDjXNjFydfPHCH9SXFs8LiaibfnZ4lvHNnuaPBzVTYia0X6Etia7ZfT4xn8B8lc0njEbszPECY/640?wx_fmt=gif&from=appmsg#imgIndex=10"},
+    {"kind":"image","url":"https://mmbiz.qpic.cn/sz_mmbiz_png/jXSGuwJvpdhfUib6TyHll6ibBdJfNkHBIPfLRwia1ePvnFZvtR5Ne0xV3NHv8UJ4PLQCXtOmL9ibcmv9BKA1q7NvaOibZQnIjONibiaXSuwtBLXdQs/640?wx_fmt=png&from=appmsg#imgIndex=12"}
+  ],
+  "bodySample": "公开 DOM 正文已完整保存在 body_text。文章介绍使用 GLM 5.3 开发 DeepSeek Harness 插件，并公开 dsh-skills、dsh-attachments、dsh-inspector 三个插件及安装命令。",
+  "interactionCounters": {"likes":null,"shares":null,"recommendations":null,"comments":null},
+  "rightsNote": "公开可见页面证据；图片和视频仅保留外链，不镜像或再分发。",
+  "observations": [
+    {
+      "platform": "wechat",
+      "query": "如何用 GLM 5.3，开发 DeepSeek Harness 插件",
+      "source_url": "https://mp.weixin.qq.com/s/HrOgdg7ZBKQlvGM-xPeKtw",
+      "collected_at": "2026-08-15T09:06:57.825Z",
+      "collector": "ego-browser/ego-lite",
+      "method": "public visible DOM article capture",
+      "status": "ok",
+      "result_count": 1,
+      "notes": "文章页面公开显示发布时间为 2026年8月15日 16:35 北京；点赞、分享、在看、留言入口可见但未显示可用计数，保持 NULL。",
+      "items": [
+        {
+          "platform": "wechat",
+          "external_id": "HrOgdg7ZBKQlvGM-xPeKtw",
+          "url": "https://mp.weixin.qq.com/s/HrOgdg7ZBKQlvGM-xPeKtw",
+          "item_type": "article",
+          "title": "如何用 GLM 5.3，开发 DeepSeek Harness 插件",
+          "author": "金色传说大聪明",
+          "published_at": "2026-08-15T08:35:00Z",
+          "published_label": "2026年8月15日 16:35 北京",
+          "content_text": "文章介绍作者同时参与 GLM 5.3 和 DeepSeek Harness 内测，并使用 GLM 5.3 为 DSH 开发三个插件：dsh-skills 用于 skill 索引与加载，dsh-attachments 用于文件和图片上传，dsh-inspector 用于查看约束文件和被索引的 skill。文中公开了三个 GitHub 仓库和命令：dsh plugin --profile web add dsh-skills dsh-attachments dsh-inspector；同时讨论 GLM 5.3 的编程体感、模型接入和 DSH 插件契约。",
+          "language": "zh",
+          "media_kind": "video",
+          "refs": ["https://github.com/CocoSgt/dsh-skills","https://github.com/CocoSgt/dsh-attachments","https://github.com/CocoSgt/dsh-inspector","https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&mid=2247519712&idx=1&sn=cb1aff1c5bf98e29642c45f07f298f5b&scene=21#wechat_redirect"],
+          "media": [
+            {"kind":"image","url":"https://mmbiz.qpic.cn/sz_mmbiz_jpg/jXSGuwJvpdjP6QJhibgUp7oRs9ZRNeCRIVlYsxhhQp9uqnJrhLhZh2XsfjOGn8hM8HHIiaxetjKE9nv0KnqjfyyUy9eTtWLI51rhTYicXluEZs/0?wx_fmt=jpeg"},
+            {"kind":"video","url":"https://mp.weixin.qq.com/mp/readtemplate?t=pages/video_player_tmpl&auto=0&vid=wxv_4650385863057833986","thumbnail_url":"http://mmbiz.qpic.cn/mmbiz_jpg/jXSGuwJvpdgO8rkZOicRlL1b9tV3sMTvaeaWvGdAHFvKibhj3JiaLTCmf6xfpl5laiadh0dRu3sMFCs7CmibEPicdNjk0jNudOrxlHicmH0hz9kp0E/0?wx_fmt=jpeg&wxfrom=16"},
+            {"kind":"image","url":"https://mmbiz.qpic.cn/mmbiz_png/jXSGuwJvpdia85cd8hfc8YjKIytN7eA0ljrcl5ypMqwTB0c4Gnzh38ZicnSvxVic0eYoOzrAATYzqrh5F2fiaIIW3HibhWuZqgdrfNa3RkOazdtQ/640?wx_fmt=png&from=appmsg#imgIndex=0"},
+            {"kind":"image","url":"https://mmbiz.qpic.cn/sz_mmbiz_png/jXSGuwJvpdiapPgR3eurVGo83zjSFeL3PEGHq1RZd83Frt72u0icSLezwSowlU5sxJOnu9xY9NwGJ1oKaicWCGxEeRy7huibU6sMlaGibUHeia6M0/640?wx_fmt=png&from=appmsg#imgIndex=1"},
+            {"kind":"image","url":"https://mmbiz.qpic.cn/sz_mmbiz_jpg/jXSGuwJvpdjULg2ULlgo1YptkJ9SNdYBF2oERbJWPdfUfxW17X8lXbghZG99QfTKGaNVeUicxJWm3iaMCMQp7MbHmQSuNVbStUBF8PqpmseSg/640?wx_fmt=jpeg&from=appmsg#imgIndex=2"},
+            {"kind":"image","url":"https://mmbiz.qpic.cn/sz_mmbiz_png/jXSGuwJvpdjLPEsua7PHUficUe9DR744NszbkYss62gZsVicLBdQVET7thD4f95NKtjptSib0LAno1icX4C9aI6LJsDGsTdwP4tNbQ598It7ovE/640?wx_fmt=png&from=appmsg#imgIndex=3"},
+            {"kind":"image","url":"https://mmbiz.qpic.cn/mmbiz_png/jXSGuwJvpdjesPIGCQsm5ZNUVqClI6mStgFUDLtrCjxoYd599e21khosoibNKm8lcbQgWtiaTibyYjoZicJ18CLJPlrfoiaV4QWqOn909WMEHLcc/640?wx_fmt=png&from=appmsg#imgIndex=6"},
+            {"kind":"image","url":"https://mmbiz.qpic.cn/sz_mmbiz_gif/jXSGuwJvpdia9picpA7EnsXOWr5W6UmRtGlmnD9ZDjXNjFydfPHCH9SXFs8LiaibfnZ4lvHNnuaPBzVTYia0X6Etia7ZfT4xn8B8lc0njEbszPECY/640?wx_fmt=gif&from=appmsg#imgIndex=10"},
+            {"kind":"image","url":"https://mmbiz.qpic.cn/sz_mmbiz_png/jXSGuwJvpdhfUib6TyHll6ibBdJfNkHBIPfLRwia1ePvnFZvtR5Ne0xV3NHv8UJ4PLQCXtOmL9ibcmv9BKA1q7NvaOibZQnIjONibiaXSuwtBLXdQs/640?wx_fmt=png&from=appmsg#imgIndex=12"}
+          ],
+          "metrics": {"likes":null,"shares":null,"comments":null,"metric_source":"WeChat visible page controls; counters not exposed","observed_at":"2026-08-15T09:06:57.825Z"},
+          "tags": ["wechat","DeepSeek Harness","GLM 5.3","plugin","tutorial"]
+        }
+      ]
+    }
+  ]
+}

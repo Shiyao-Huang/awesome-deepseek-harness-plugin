@@ -2,7 +2,8 @@
   "github": [
     "topic:dsh-plugin",
     "topic:deepseek-harness",
-    "deepseek-harness-plugin in:name,description,readme"
+    "deepseek-harness-plugin in:name,description,readme",
+    "user:CocoSgt"
   ],
   "hacker_news": [
     "deepseek harness plugin",
@@ -19,4 +20,3 @@
     "hacker_news_per_query": 50
   }
 }
-

@@ -1,6 +1,6 @@
 PYTHON ?= python3
 
-.PHONY: init seed update sources value index build check schedule trends enrich
+.PHONY: init seed update sources forks value index build check schedule trends enrich readme
 
 init:
 	$(PYTHON) scripts/collect.py init
@@ -13,11 +13,13 @@ update:
 
 schedule:
 	stamp="$$(date -u +%Y%m%dT%H%M%SZ)"; $(PYTHON) scripts/monitor_sources.py --raw-output "data/raw/upstreams/$${stamp}.json"
+	$(PYTHON) scripts/collect_forks.py
 	$(PYTHON) scripts/collect.py update --trigger scheduled
 	$(PYTHON) scripts/build_value_matrix.py
 	$(PYTHON) scripts/build_index.py
 	$(PYTHON) scripts/build_views.py
 	$(PYTHON) scripts/build_trends.py
+	$(PYTHON) scripts/build_readme.py
 	$(PYTHON) scripts/validate.py
 
 index:
@@ -32,6 +34,9 @@ enrich:
 sources:
 	stamp="$$(date -u +%Y%m%dT%H%M%SZ)"; $(PYTHON) scripts/monitor_sources.py --raw-output "data/raw/upstreams/$${stamp}.json"
 
+forks:
+	$(PYTHON) scripts/collect_forks.py
+
 value:
 	$(PYTHON) scripts/build_value_matrix.py
 
@@ -40,8 +45,12 @@ build:
 	$(PYTHON) scripts/build_index.py
 	$(PYTHON) scripts/build_views.py
 	$(PYTHON) scripts/build_trends.py
+	$(PYTHON) scripts/build_readme.py
+
+readme:
+	$(PYTHON) scripts/build_readme.py
 
 check:
 	$(PYTHON) -m json.tool data/raw/2026-08-15-egolite.json >/dev/null
-	$(PYTHON) -m py_compile scripts/collect.py scripts/build_index.py scripts/build_views.py scripts/build_trends.py scripts/build_value_matrix.py scripts/monitor_sources.py scripts/enrich_content.py scripts/score.py
+	$(PYTHON) -m py_compile scripts/collect.py scripts/build_index.py scripts/build_views.py scripts/build_trends.py scripts/build_readme.py scripts/build_value_matrix.py scripts/monitor_sources.py scripts/collect_forks.py scripts/enrich_content.py scripts/score.py
 	$(PYTHON) scripts/validate.py
