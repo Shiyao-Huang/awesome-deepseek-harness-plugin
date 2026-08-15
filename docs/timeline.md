@@ -1855,8 +1855,8 @@
 | 2026-08-15T08:45:18Z | github | fork | [2938236819/deepseek-harness](https://github.com/2938236819/deepseek-harness) | 2938236819 | deepseek-harness-forks |
 | 2026-08-15T08:45:16Z | github | fork | [icode6768/deepseek-harness](https://github.com/icode6768/deepseek-harness) | icode6768 | deepseek-harness-forks |
 | 2026-08-15T08:44:59Z | github | ecosystem-reference | [DSHA](https://github.com/qiannianhuanxiang/DSHA) | qiannianhuanxiang | core-and-ecosystem |
+| Updated 4 minutes ago | github | ecosystem-reference | [YMRYMR/deepseek-peak](https://github.com/YMRYMR/deepseek-peak) | YMRYMR | core-and-ecosystem |
 | 2026-08-15T08:44:59Z | github | ecosystem-reference | [deepseek-harness-android](https://github.com/FunnelCakes/deepseek-harness-android) | FunnelCakes | core-and-ecosystem |
-| Updated 4 minutes ago | github | ecosystem-reference | [deepseek-peak](https://github.com/YMRYMR/deepseek-peak) | YMRYMR | core-and-ecosystem |
 | 2026-08-15T08:44:59Z | github | ecosystem-reference | [dsh-agent-rp](https://github.com/hewzhew/dsh-agent-rp) | hewzhew | core-and-ecosystem |
 | 2026-08-15T08:44:59Z | github | plugin | [dsh-routing-suite](https://github.com/yjh051108/dsh-routing-suite) | yjh051108 | core-and-ecosystem |
 | 2026-08-15T08:44:59Z | github | plugin | [dsh-toolbox](https://github.com/HiWhaleW/dsh-toolbox) | HiWhaleW | core-and-ecosystem |
@@ -3219,7 +3219,7 @@
 | 2026-08-15T01:05:42Z | github | fork | [tuita520/deepseek-harness](https://github.com/tuita520/deepseek-harness) | tuita520 | deepseek-harness-forks |
 | 2026-08-15T01:05:32Z | github | fork | [ekil1100/deepseek-harness](https://github.com/ekil1100/deepseek-harness) | ekil1100 | deepseek-harness-forks |
 | 2026-08-15T01:04:57Z | github | fork | [d1059792930/deepseek-harness](https://github.com/d1059792930/deepseek-harness) | d1059792930 | deepseek-harness-forks |
-| 2026-08-15T01:02:32Z | github | repository | [dsh-gitbash-preset](https://github.com/liceses/dsh-gitbash-preset) | liceses | core-and-ecosystem |
+| 2026-08-15T01:02:32Z | github | repository | [liceses/dsh-gitbash-preset](https://github.com/liceses/dsh-gitbash-preset) | liceses | core-and-ecosystem |
 | 2026-08-15T01:02:09Z | github | fork | [lavdev/deepseek-harness](https://github.com/lavdev/deepseek-harness) | lavdev | deepseek-harness-forks |
 | 2026-08-15T01:02:07Z | github | fork | [ziyoudefeng1688/deepseek-harness](https://github.com/ziyoudefeng1688/deepseek-harness) | ziyoudefeng1688 | deepseek-harness-forks |
 | 2026-08-15T01:01:22Z | github | fork | [MageChiu/deepseek-harness](https://github.com/MageChiu/deepseek-harness) | MageChiu | deepseek-harness-forks |
@@ -3615,7 +3615,7 @@
 | 2026-08-14T17:03:30Z | github | fork | [Ghoscro/deepseek-harness](https://github.com/Ghoscro/deepseek-harness) | Ghoscro | deepseek-harness-forks |
 | 2026-08-14T17:02:04Z | github | fork | [duanbiao2000/deepseek-harness](https://github.com/duanbiao2000/deepseek-harness) | duanbiao2000 | deepseek-harness-forks |
 | 2026-08-14T17:01:40Z | github | fork | [DididiPapa/deepseek-harness](https://github.com/DididiPapa/deepseek-harness) | DididiPapa | deepseek-harness-forks |
-| 2026-08-14T17:01:10Z | github | repository | [xiongjiamu/dsh-atomgit](https://github.com/xiongjiamu/dsh-atomgit) | xiongjiamu | index-and-marketplace |
+| 2026-08-14T17:01:10Z | github | repository | [xiongjiamu/dsh-atomgit](https://github.com/xiongjiamu/dsh-atomgit) | xiongjiamu | core-and-ecosystem |
 | 2026-08-14T16:59:06Z | github | fork | [cjc0045/deepseek-harness](https://github.com/cjc0045/deepseek-harness) | cjc0045 | deepseek-harness-forks |
 | 2026-08-14T16:57:24Z | github | fork | [Earnshawnlpl/deepseek-harness](https://github.com/Earnshawnlpl/deepseek-harness) | Earnshawnlpl | deepseek-harness-forks |
 | 2026-08-14T16:56:38Z | github | fork | [wangleiqwe/deepseek-harness](https://github.com/wangleiqwe/deepseek-harness) | wangleiqwe | deepseek-harness-forks |
@@ -3714,7 +3714,7 @@
 | 2026-08-14T16:16:04Z | github | fork | [ImmersiveSnow/deepseek-harness](https://github.com/ImmersiveSnow/deepseek-harness) | ImmersiveSnow | deepseek-harness-forks |
 | 2026-08-14T16:15:33Z | github | fork | [GoAlvin/deepseek-harness](https://github.com/GoAlvin/deepseek-harness) | GoAlvin | deepseek-harness-forks |
 | 2026-08-14T16:15:33Z | github | fork | [tianyaZTY/deepseek-harness](https://github.com/tianyaZTY/deepseek-harness) | tianyaZTY | deepseek-harness-forks |
-| 2026-08-14T16:15:16Z | github | repository | [zhaiyateng/dsh-design-skills](https://github.com/zhaiyateng/dsh-design-skills) | zhaiyateng | operations-and-safety |
+| 2026-08-14T16:15:16Z | github | repository | [zhaiyateng/dsh-design-skills](https://github.com/zhaiyateng/dsh-design-skills) | zhaiyateng | core-and-ecosystem |
 | 2026-08-14T16:14:48Z | github | fork | [wmehobbs/deepseek-harness](https://github.com/wmehobbs/deepseek-harness) | wmehobbs | deepseek-harness-forks |
 | 2026-08-14T16:13:13Z | github | fork | [lyccol/deepseek-harness](https://github.com/lyccol/deepseek-harness) | lyccol | deepseek-harness-forks |
 | 2026-08-14T16:12:20Z | github | fork | [79LINGLING/deepseek-harness](https://github.com/79LINGLING/deepseek-harness) | 79LINGLING | deepseek-harness-forks |
@@ -4018,7 +4018,7 @@
 | 2026-08-14T14:31:38Z | github | fork | [Linyiwei895178/deepseek-harness](https://github.com/Linyiwei895178/deepseek-harness) | Linyiwei895178 | deepseek-harness-forks |
 | 2026-08-14T14:31:06Z | github | fork | [h120750572/deepseek-harness](https://github.com/h120750572/deepseek-harness) | h120750572 | deepseek-harness-forks |
 | 2026-08-14T14:31:05Z | github | fork | [SimonClaw-hans/deepseek-harness](https://github.com/SimonClaw-hans/deepseek-harness) | SimonClaw-hans | deepseek-harness-forks |
-| 2026-08-14T14:30:43Z | github | repository | [dsh-usage-plugin](https://github.com/feiyang-dev/dsh-usage-plugin) | feiyang-dev | core-and-ecosystem |
+| 2026-08-14T14:30:43Z | github | repository | [feiyang-dev/dsh-usage-plugin](https://github.com/feiyang-dev/dsh-usage-plugin) | feiyang-dev | operations-and-safety |
 | 2026-08-14T14:30:15Z | github | fork | [duanzc/deepseek-harness](https://github.com/duanzc/deepseek-harness) | duanzc | deepseek-harness-forks |
 | 2026-08-14T14:28:56Z | github | fork | [KuroTL/deepseek-harness](https://github.com/KuroTL/deepseek-harness) | KuroTL | deepseek-harness-forks |
 | 2026-08-14T14:28:56Z | github | fork | [enGistory/deepseek-harness](https://github.com/enGistory/deepseek-harness) | enGistory | deepseek-harness-forks |
@@ -4075,7 +4075,7 @@
 | 2026-08-14T14:11:33Z | github | fork | [wangcheng1212/deepseek-harness](https://github.com/wangcheng1212/deepseek-harness) | wangcheng1212 | deepseek-harness-forks |
 | 2026-08-14T14:11:17Z | github | fork | [YZhuAndrew/dsh-yzhu](https://github.com/YZhuAndrew/dsh-yzhu) | YZhuAndrew | deepseek-harness-forks |
 | 2026-08-14T14:10:54Z | github | fork | [yizhixiaowasai/deepseek-harness](https://github.com/yizhixiaowasai/deepseek-harness) | yizhixiaowasai | deepseek-harness-forks |
-| 2026-08-14T14:10:42Z | github | repository | [DSH-Transparent-UI-Plugin](https://github.com/WYH66666666/DSH-Transparent-UI-Plugin) | WYH66666666 | core-and-ecosystem |
+| 2026-08-14T14:10:42Z | github | repository | [WYH66666666/DSH-Transparent-UI-Plugin](https://github.com/WYH66666666/DSH-Transparent-UI-Plugin) | WYH66666666 | core-and-ecosystem |
 | 2026-08-14T14:10:24Z | github | fork | [Serenkyy/deepseek-harness-theme](https://github.com/Serenkyy/deepseek-harness-theme) | Serenkyy | deepseek-harness-forks |
 | 2026-08-14T14:10:20Z | github | fork | [EnzePeng/deepseek-harness](https://github.com/EnzePeng/deepseek-harness) | EnzePeng | deepseek-harness-forks |
 | 2026-08-14T14:10:10Z | github | repository | [Make0209/dsh-usage-stats](https://github.com/Make0209/dsh-usage-stats) | Make0209 | index-and-marketplace |
@@ -4119,7 +4119,7 @@
 | 2026-08-14T13:59:18Z | github | fork | [rsonghuster/deepseek-harness](https://github.com/rsonghuster/deepseek-harness) | rsonghuster | deepseek-harness-forks |
 | 2026-08-14T13:58:24Z | github | fork | [andokivilaid/deepseek-harness](https://github.com/andokivilaid/deepseek-harness) | andokivilaid | deepseek-harness-forks |
 | 2026-08-14T13:57:57Z | github | fork | [Areo-RGB/deepseek-harness](https://github.com/Areo-RGB/deepseek-harness) | Areo-RGB | deepseek-harness-forks |
-| 2026-08-14T13:57:23Z | github | repository | [dsh-qqbot](https://github.com/tencent-connect/dsh-qqbot) | tencent-connect | core-and-ecosystem |
+| 2026-08-14T13:57:23Z | github | repository | [tencent-connect/dsh-qqbot](https://github.com/tencent-connect/dsh-qqbot) | tencent-connect | core-and-ecosystem |
 | 2026-08-14T13:57:01Z | github | fork | [liuqingxia/deepseek-harness](https://github.com/liuqingxia/deepseek-harness) | liuqingxia | deepseek-harness-forks |
 | 2026-08-14T13:56:52Z | github | fork | [AyineCode/deepseek-harness-ayine](https://github.com/AyineCode/deepseek-harness-ayine) | AyineCode | deepseek-harness-forks |
 | 2026-08-14T13:56:47Z | github | fork | [Zeno2019/deepseek-harness](https://github.com/Zeno2019/deepseek-harness) | Zeno2019 | deepseek-harness-forks |
@@ -4271,7 +4271,7 @@
 | 2026-08-14T13:10:13Z | github | fork | [Samuel666198/deepseek-harness](https://github.com/Samuel666198/deepseek-harness) | Samuel666198 | deepseek-harness-forks |
 | 2026-08-14T13:09:15Z | github | fork | [zuitai/deepseek-harness](https://github.com/zuitai/deepseek-harness) | zuitai | deepseek-harness-forks |
 | 2026-08-14T13:08:49Z | github | fork | [fueryuanyi/deepseek-harness](https://github.com/fueryuanyi/deepseek-harness) | fueryuanyi | deepseek-harness-forks |
-| 2026-08-14T13:08:28Z | github | repository | [dsh-balance](https://github.com/crazywoola/dsh-balance) | crazywoola | operations-and-safety |
+| 2026-08-14T13:08:28Z | github | repository | [crazywoola/dsh-balance](https://github.com/crazywoola/dsh-balance) | crazywoola | operations-and-safety |
 | 2026-08-14T13:08:03Z | github | fork | [MinJoan/deepseek-harness](https://github.com/MinJoan/deepseek-harness) | MinJoan | deepseek-harness-forks |
 | 2026-08-14T13:07:46Z | github | fork | [lscatfish/deepseek-harness](https://github.com/lscatfish/deepseek-harness) | lscatfish | deepseek-harness-forks |
 | 2026-08-14T13:07:29Z | github | fork | [wyj5114/deepseek-harness](https://github.com/wyj5114/deepseek-harness) | wyj5114 | deepseek-harness-forks |
@@ -4679,7 +4679,7 @@
 | 2026-08-14T10:46:28Z | github | fork | [lijianlong123/deepseek-harness](https://github.com/lijianlong123/deepseek-harness) | lijianlong123 | deepseek-harness-forks |
 | 2026-08-14T10:45:44Z | github | fork | [tbckdev/deepseek-harness](https://github.com/tbckdev/deepseek-harness) | tbckdev | deepseek-harness-forks |
 | 2026-08-14T10:44:43Z | github | fork | [krifeng520-hue/deepseek-harness](https://github.com/krifeng520-hue/deepseek-harness) | krifeng520-hue | deepseek-harness-forks |
-| 2026-08-14T10:44:31Z | github | repository | [dsh-plugin](https://github.com/Tabbit-Browser/dsh-plugin) | Tabbit-Browser | core-and-ecosystem |
+| 2026-08-14T10:44:31Z | github | repository | [Tabbit-Browser/dsh-plugin](https://github.com/Tabbit-Browser/dsh-plugin) | Tabbit-Browser | core-and-ecosystem |
 | 2026-08-14T10:44:21Z | github | fork | [Jianzi270/deepseek-harness](https://github.com/Jianzi270/deepseek-harness) | Jianzi270 | deepseek-harness-forks |
 | 2026-08-14T10:43:58Z | github | fork | [chengjilai/deepseek-harness](https://github.com/chengjilai/deepseek-harness) | chengjilai | deepseek-harness-forks |
 | 2026-08-14T10:43:58Z | github | repository | [feibi-mochi/deepseek-harness-wallet](https://github.com/feibi-mochi/deepseek-harness-wallet) | feibi-mochi | operations-and-safety |
@@ -4689,8 +4689,8 @@
 | 2026-08-14T10:41:59Z | github | fork | [abatn/deepseek-harness](https://github.com/abatn/deepseek-harness) | abatn | deepseek-harness-forks |
 | 2026-08-14T10:41:54Z | github | fork | [jiahbingo-lang/deepseek-harness](https://github.com/jiahbingo-lang/deepseek-harness) | jiahbingo-lang | deepseek-harness-forks |
 | 2026-08-14T10:41:11Z | github | fork | [Lihuaxiang1/deepseek-harness](https://github.com/Lihuaxiang1/deepseek-harness) | Lihuaxiang1 | deepseek-harness-forks |
+| 2026-08-14T10:40:58Z | github | repository | [SenmuuuuW/dsh-whale-report](https://github.com/SenmuuuuW/dsh-whale-report) | SenmuuuuW | core-and-ecosystem |
 | 2026-08-14T10:40:58Z | github | fork | [breakices/deepseek-harness](https://github.com/breakices/deepseek-harness) | breakices | deepseek-harness-forks |
-| 2026-08-14T10:40:58Z | github | repository | [dsh-whale-report](https://github.com/SenmuuuuW/dsh-whale-report) | SenmuuuuW | core-and-ecosystem |
 | 2026-08-14T10:40:41Z | github | fork | [ddonofrio/deepseek-harness](https://github.com/ddonofrio/deepseek-harness) | ddonofrio | deepseek-harness-forks |
 | 2026-08-14T10:40:33Z | github | fork | [qingqingdilai/deepseek-harness](https://github.com/qingqingdilai/deepseek-harness) | qingqingdilai | deepseek-harness-forks |
 | 2026-08-14T10:39:59Z | github | fork | [supersunder/my-deepseek-harness](https://github.com/supersunder/my-deepseek-harness) | supersunder | deepseek-harness-forks |
@@ -5168,7 +5168,7 @@
 | 2026-08-14T08:46:12Z | github | fork | [Loadglory/deepseek-harness](https://github.com/Loadglory/deepseek-harness) | Loadglory | deepseek-harness-forks |
 | 2026-08-14T08:45:42Z | github | fork | [roger-wang-2026/deepseek-harness](https://github.com/roger-wang-2026/deepseek-harness) | roger-wang-2026 | deepseek-harness-forks |
 | 2026-08-14T08:45:30Z | github | fork | [077dwei/deepseek-harness](https://github.com/077dwei/deepseek-harness) | 077dwei | deepseek-harness-forks |
-| 2026-08-14T08:45:21Z | github | repository | [Nanki-nn/dsh-answer-pet](https://github.com/Nanki-nn/dsh-answer-pet) | Nanki-nn | ui-and-desktop |
+| 2026-08-14T08:45:21Z | github | repository | [Nanki-nn/dsh-answer-pet](https://github.com/Nanki-nn/dsh-answer-pet) | Nanki-nn | core-and-ecosystem |
 | 2026-08-14T08:44:55Z | github | fork | [lovesecho/deepseek-harness](https://github.com/lovesecho/deepseek-harness) | lovesecho | deepseek-harness-forks |
 | 2026-08-14T08:44:47Z | github | fork | [aisensiy/deepseek-harness](https://github.com/aisensiy/deepseek-harness) | aisensiy | deepseek-harness-forks |
 | 2026-08-14T08:44:37Z | github | fork | [fe1iscurc0r/deepseek-harness](https://github.com/fe1iscurc0r/deepseek-harness) | fe1iscurc0r | deepseek-harness-forks |
@@ -5290,7 +5290,7 @@
 | 2026-08-14T08:23:51Z | github | fork | [Zifanlagoon/deepseek-harness](https://github.com/Zifanlagoon/deepseek-harness) | Zifanlagoon | deepseek-harness-forks |
 | 2026-08-14T08:23:51Z | github | fork | [jununfly/deepseek-harness](https://github.com/jununfly/deepseek-harness) | jununfly | deepseek-harness-forks |
 | 2026-08-14T08:23:45Z | github | fork | [caiyuping123456/deepseek-harness](https://github.com/caiyuping123456/deepseek-harness) | caiyuping123456 | deepseek-harness-forks |
-| 2026-08-14T08:23:28Z | github | repository | [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) | bowenliang123 | operations-and-safety |
+| 2026-08-14T08:23:28Z | github | repository | [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) | bowenliang123 | core-and-ecosystem |
 | 2026-08-14T08:23:27Z | github | fork | [hahaniu666/deepseek-harness](https://github.com/hahaniu666/deepseek-harness) | hahaniu666 | deepseek-harness-forks |
 | 2026-08-14T08:23:17Z | github | fork | [jueti/deepseek-harness](https://github.com/jueti/deepseek-harness) | jueti | deepseek-harness-forks |
 | 2026-08-14T08:23:04Z | github | fork | [Lisiyuan233/deepseek-harness](https://github.com/Lisiyuan233/deepseek-harness) | Lisiyuan233 | deepseek-harness-forks |
@@ -6157,7 +6157,7 @@
 | 2026-08-14T05:57:23.000Z | bilibili | video | [DeepSeek Harness Web UI：dsh-web-ui](https://www.bilibili.com/video/BV1mkgw6mEqA) | SolitudeLin | index-and-marketplace |
 | 2026-08-14T05:57:12Z | github | fork | [xxlldd/deepseek-harness](https://github.com/xxlldd/deepseek-harness) | xxlldd | deepseek-harness-forks |
 | 2026-08-14T05:56:51Z | github | fork | [yc004/deepseek-harness-app](https://github.com/yc004/deepseek-harness-app) | yc004 | deepseek-harness-forks |
-| 2026-08-14T05:56:21Z | github | repository | [dsh-file-review](https://github.com/left0ver/dsh-file-review) | left0ver | core-and-ecosystem |
+| 2026-08-14T05:56:21Z | github | repository | [left0ver/dsh-file-review](https://github.com/left0ver/dsh-file-review) | left0ver | core-and-ecosystem |
 | 2026-08-14T05:56:16Z | github | fork | [SuShuheng/deepseek-harness](https://github.com/SuShuheng/deepseek-harness) | SuShuheng | deepseek-harness-forks |
 | 2026-08-14T05:56:15Z | github | fork | [YueJianwei3029/deepseek-harness](https://github.com/YueJianwei3029/deepseek-harness) | YueJianwei3029 | deepseek-harness-forks |
 | 2026-08-14T05:56:02Z | github | fork | [zhaizhch/deepseek-harness](https://github.com/zhaizhch/deepseek-harness) | zhaizhch | deepseek-harness-forks |
@@ -6406,7 +6406,7 @@
 | 2026-08-14T05:13:48Z | github | fork | [LeonSone/deepseek-harness](https://github.com/LeonSone/deepseek-harness) | LeonSone | deepseek-harness-forks |
 | 2026-08-14T05:13:39Z | github | fork | [Lance-ai-search/deepseek-harness](https://github.com/Lance-ai-search/deepseek-harness) | Lance-ai-search | deepseek-harness-forks |
 | 2026-08-14T05:13:25Z | github | fork | [gongstudent/deepseek-harness](https://github.com/gongstudent/deepseek-harness) | gongstudent | deepseek-harness-forks |
-| 2026-08-14 | github | repository | [lire1131/dsh-undo-plugin](https://github.com/lire1131/dsh-undo-plugin) | lire1131 | core-and-ecosystem |
+| 2026-08-14 | github | repository | [lire1131/dsh-undo-plugin](https://github.com/lire1131/dsh-undo-plugin) | lire1131 | ui-and-desktop |
 | 2026-08-14T05:13:17Z | github | fork | [meihuaanying/deepseek-harness](https://github.com/meihuaanying/deepseek-harness) | meihuaanying | deepseek-harness-forks |
 | 2026-08-14T05:13:10Z | github | repository | [WEP-56/DSH-Launcher](https://github.com/WEP-56/DSH-Launcher) | WEP-56 | core-and-ecosystem |
 | 2026-08-14T05:12:50Z | github | fork | [weihao-creator/deepseek-harness](https://github.com/weihao-creator/deepseek-harness) | weihao-creator | deepseek-harness-forks |
@@ -6438,7 +6438,7 @@
 | 2026-08-14T05:04:49Z | github | fork | [AstrandPallas/deepseek-harness](https://github.com/AstrandPallas/deepseek-harness) | AstrandPallas | deepseek-harness-forks |
 | 2026-08-14T05:04:09Z | github | fork | [LeonSun128/deepseek-harness](https://github.com/LeonSun128/deepseek-harness) | LeonSun128 | deepseek-harness-forks |
 | 2026-08-14T05:03:51Z | github | fork | [rain2road/deepseek-harness](https://github.com/rain2road/deepseek-harness) | rain2road | deepseek-harness-forks |
-| 2026-08-14T05:03:24Z | github | repository | [dsh-side-chat](https://github.com/AHGGG/dsh-side-chat) | AHGGG | core-and-ecosystem |
+| 2026-08-14T05:03:24Z | github | repository | [AHGGG/dsh-side-chat](https://github.com/AHGGG/dsh-side-chat) | AHGGG | core-and-ecosystem |
 | 2026-08-14T05:03:19Z | github | fork | [caikunbei-pixel/deepseek-harness](https://github.com/caikunbei-pixel/deepseek-harness) | caikunbei-pixel | deepseek-harness-forks |
 | 2026-08-14T05:02:50Z | github | fork | [sublatesublate-design/deepseek-harness](https://github.com/sublatesublate-design/deepseek-harness) | sublatesublate-design | deepseek-harness-forks |
 | 2026-08-14T05:02:24Z | github | fork | [zhaozengxiao/deepseek-harness](https://github.com/zhaozengxiao/deepseek-harness) | zhaozengxiao | deepseek-harness-forks |
@@ -6562,7 +6562,7 @@
 | 2026-08-14T04:27:53Z | github | fork | [tpctmPeter/deepseek-harness](https://github.com/tpctmPeter/deepseek-harness) | tpctmPeter | deepseek-harness-forks |
 | 2026-08-14T04:27:16Z | github | repository | [Clizo1209/dsh-playwright-browser](https://github.com/Clizo1209/dsh-playwright-browser) | Clizo1209 | core-and-ecosystem |
 | 2026-08-14T04:27:12Z | github | fork | [jeffery-yang7/deepseek-harness](https://github.com/jeffery-yang7/deepseek-harness) | jeffery-yang7 | deepseek-harness-forks |
-| 2026-08-14 | github | repository | [flymysql/dsh-remote](https://github.com/flymysql/dsh-remote) | flymysql | index-and-marketplace |
+| 2026-08-14 | github | repository | [flymysql/dsh-remote](https://github.com/flymysql/dsh-remote) | flymysql | core-and-ecosystem |
 | 2026-08-14T04:26:56Z | github | fork | [ups216/deepseek-harness](https://github.com/ups216/deepseek-harness) | ups216 | deepseek-harness-forks |
 | 2026-08-14T04:26:55Z | github | fork | [our16/deepseek-harness](https://github.com/our16/deepseek-harness) | our16 | deepseek-harness-forks |
 | 2026-08-14T04:26:47Z | github | fork | [13675455709/deepseek-harness](https://github.com/13675455709/deepseek-harness) | 13675455709 | deepseek-harness-forks |
@@ -6609,7 +6609,7 @@
 | 2026-08-14 | github | repository | [Yuuz12/dsh-webui-auth](https://github.com/Yuuz12/dsh-webui-auth) | Yuuz12 | core-and-ecosystem |
 | 2026-08-14T04:13:32Z | github | fork | [weilu-a/deepseek-harness](https://github.com/weilu-a/deepseek-harness) | weilu-a | deepseek-harness-forks |
 | 2026-08-14T04:13:24Z | github | fork | [anupamme/deepseek-harness](https://github.com/anupamme/deepseek-harness) | anupamme | deepseek-harness-forks |
-| 2026-08-14 | github | repository | [yyyyukari/dsh-plugin-workshop](https://github.com/yyyyukari/dsh-plugin-workshop) | yyyyukari | core-and-ecosystem |
+| 2026-08-14 | github | repository | [yyyyukari/dsh-plugin-workshop](https://github.com/yyyyukari/dsh-plugin-workshop) | yyyyukari | index-and-marketplace |
 | 2026-08-14T04:12:52Z | github | fork | [CalWade/deepseek-harness](https://github.com/CalWade/deepseek-harness) | CalWade | deepseek-harness-forks |
 | 2026-08-14T04:12:44Z | github | fork | [watson1101/deepseek-harness](https://github.com/watson1101/deepseek-harness) | watson1101 | deepseek-harness-forks |
 | 2026-08-14T04:12:07Z | github | fork | [mikezw/deepseek-harness](https://github.com/mikezw/deepseek-harness) | mikezw | deepseek-harness-forks |
@@ -6980,7 +6980,7 @@
 | 2026-08-14T03:17:06Z | github | fork | [caofuqing2/deepseek-harness](https://github.com/caofuqing2/deepseek-harness) | caofuqing2 | deepseek-harness-forks |
 | 2026-08-14T03:17:06Z | github | fork | [klj218/deepseek-harness](https://github.com/klj218/deepseek-harness) | klj218 | deepseek-harness-forks |
 | 2026-08-14T03:17:04Z | github | fork | [DBAA-LCT/deepseek-harness](https://github.com/DBAA-LCT/deepseek-harness) | DBAA-LCT | deepseek-harness-forks |
-| 2026-08-14T03:17:01Z | github | repository | [dskin](https://github.com/dancingmemory/dskin) | dancingmemory | ui-and-desktop |
+| 2026-08-14T03:17:01Z | github | repository | [dancingmemory/dskin](https://github.com/dancingmemory/dskin) | dancingmemory | ui-and-desktop |
 | 2026-08-14T03:16:41Z | github | fork | [UnicornLee/deepseek-harness](https://github.com/UnicornLee/deepseek-harness) | UnicornLee | deepseek-harness-forks |
 | 2026-08-14T03:16:38Z | github | fork | [beatter789/deepseek-harness](https://github.com/beatter789/deepseek-harness) | beatter789 | deepseek-harness-forks |
 | 2026-08-14T03:16:10Z | github | fork | [Chris7Ji/deepseek-harness](https://github.com/Chris7Ji/deepseek-harness) | Chris7Ji | deepseek-harness-forks |
@@ -7050,7 +7050,7 @@
 | 2026-08-14T03:08:45Z | github | fork | [whyamineedaname/deepseek-harness](https://github.com/whyamineedaname/deepseek-harness) | whyamineedaname | deepseek-harness-forks |
 | 2026-08-14T03:08:43Z | github | fork | [BruceCC/deepseek-harness](https://github.com/BruceCC/deepseek-harness) | BruceCC | deepseek-harness-forks |
 | 2026-08-14T03:08:27Z | github | fork | [sukinishimiyashouko/deepseek-harness](https://github.com/sukinishimiyashouko/deepseek-harness) | sukinishimiyashouko | deepseek-harness-forks |
-| 2026-08-14T03:08:20Z | github | repository | [HsiangNianian/dsh-auto-continue](https://github.com/HsiangNianian/dsh-auto-continue) | HsiangNianian | core-and-ecosystem |
+| 2026-08-14T03:08:20Z | github | repository | [HsiangNianian/dsh-auto-continue](https://github.com/HsiangNianian/dsh-auto-continue) | HsiangNianian | ui-and-desktop |
 | 2026-08-14T03:08:18Z | github | fork | [xin200405/deepseek-harness](https://github.com/xin200405/deepseek-harness) | xin200405 | deepseek-harness-forks |
 | 2026-08-14T03:08:13Z | github | fork | [bigxiang/deepseek-harness](https://github.com/bigxiang/deepseek-harness) | bigxiang | deepseek-harness-forks |
 | 2026-08-14T03:07:54Z | github | fork | [js353682362/deepseek-harness](https://github.com/js353682362/deepseek-harness) | js353682362 | deepseek-harness-forks |
@@ -7433,7 +7433,7 @@
 | 2026-08-14T02:34:35Z | github | fork | [TheDadda/deepseek-harness](https://github.com/TheDadda/deepseek-harness) | TheDadda | deepseek-harness-forks |
 | 2026-08-14T02:34:33Z | github | fork | [17346716561/deepseek-harness](https://github.com/17346716561/deepseek-harness) | 17346716561 | deepseek-harness-forks |
 | 2026-08-14T02:34:24Z | github | fork | [Jason0826/deepseek-harness](https://github.com/Jason0826/deepseek-harness) | Jason0826 | deepseek-harness-forks |
-| 2026-08-14 | github | repository | [dsh-web-billing](https://github.com/bpc-oss/dsh-web-billing) | bpc-oss | operations-and-safety |
+| 2026-08-14 | github | repository | [bpc-oss/dsh-web-billing](https://github.com/bpc-oss/dsh-web-billing) | bpc-oss | operations-and-safety |
 | 2026-08-14T02:34:21Z | github | fork | [annanShao/deepseek-harness](https://github.com/annanShao/deepseek-harness) | annanShao | deepseek-harness-forks |
 | 2026-08-14T02:34:19Z | github | fork | [yangengland/deepseek-harness](https://github.com/yangengland/deepseek-harness) | yangengland | deepseek-harness-forks |
 | 2026-08-14T02:34:17Z | github | fork | [luotaiqiang/deepseek-harness](https://github.com/luotaiqiang/deepseek-harness) | luotaiqiang | deepseek-harness-forks |
@@ -8460,7 +8460,7 @@
 | 2026-08-14T01:18:16Z | github | fork | [Echoxiawan/deepseek-harness](https://github.com/Echoxiawan/deepseek-harness) | Echoxiawan | deepseek-harness-forks |
 | 2026-08-14T01:18:16Z | github | fork | [yezh2025/deepseek-harness](https://github.com/yezh2025/deepseek-harness) | yezh2025 | deepseek-harness-forks |
 | 2026-08-14T01:18:05Z | github | fork | [one995/deepseek-harness](https://github.com/one995/deepseek-harness) | one995 | deepseek-harness-forks |
-| 2026-08-14T01:18:04Z | github | repository | [dsh-skill-viewer](https://github.com/Fishquito7/dsh-skill-viewer) | Fishquito7 | core-and-ecosystem |
+| 2026-08-14T01:18:04Z | github | repository | [Fishquito7/dsh-skill-viewer](https://github.com/Fishquito7/dsh-skill-viewer) | Fishquito7 | ui-and-desktop |
 | 2026-08-14T01:17:54Z | github | fork | [Alphard-2007/deepseek-harness](https://github.com/Alphard-2007/deepseek-harness) | Alphard-2007 | deepseek-harness-forks |
 | 2026-08-14T01:17:54Z | github | fork | [G1Ser/deepseek-harness](https://github.com/G1Ser/deepseek-harness) | G1Ser | deepseek-harness-forks |
 | 2026-08-14T01:17:38Z | github | fork | [chenxiao2017/deepseek-harness](https://github.com/chenxiao2017/deepseek-harness) | chenxiao2017 | deepseek-harness-forks |
@@ -8771,7 +8771,7 @@
 | 2026-08-14T00:55:25Z | github | fork | [814885760lp/deepseek-harness](https://github.com/814885760lp/deepseek-harness) | 814885760lp | deepseek-harness-forks |
 | 2026-08-14T00:55:21Z | github | fork | [Criwcria/deepseek-harness](https://github.com/Criwcria/deepseek-harness) | Criwcria | deepseek-harness-forks |
 | 2026-08-14T00:55:07Z | github | fork | [min-zou/deepseek-harness](https://github.com/min-zou/deepseek-harness) | min-zou | deepseek-harness-forks |
-| 2026-08-14T00:55:01Z | github | repository | [Bigfish](https://github.com/turtle2209/Bigfish) | turtle2209 | core-and-ecosystem |
+| 2026-08-14T00:55:01Z | github | repository | [turtle2209/Bigfish](https://github.com/turtle2209/Bigfish) | turtle2209 | core-and-ecosystem |
 | 2026-08-14T00:54:55Z | github | fork | [Kurumioi/deepseek-harness](https://github.com/Kurumioi/deepseek-harness) | Kurumioi | deepseek-harness-forks |
 | 2026-08-14T00:54:51Z | github | fork | [OYRoy/deepseek-harness](https://github.com/OYRoy/deepseek-harness) | OYRoy | deepseek-harness-forks |
 | 2026-08-14T00:54:48Z | github | fork | [tchen7/deepseek-harness](https://github.com/tchen7/deepseek-harness) | tchen7 | deepseek-harness-forks |
@@ -8929,7 +8929,7 @@
 | 2026-08-14T00:39:02Z | github | fork | [davidfunn/deepseek-harness](https://github.com/davidfunn/deepseek-harness) | davidfunn | deepseek-harness-forks |
 | 2026-08-14T00:38:50Z | github | fork | [DivinerLG/deepseek-harness](https://github.com/DivinerLG/deepseek-harness) | DivinerLG | deepseek-harness-forks |
 | 2026-08-14T00:38:48Z | github | fork | [jactyao/deepseek-harness](https://github.com/jactyao/deepseek-harness) | jactyao | deepseek-harness-forks |
-| 2026-08-14T00:38:45Z | github | repository | [PC2005-cloud/dsh-petdsh-pet](https://github.com/PC2005-cloud/dsh-pet) | PC2005-cloud | ui-and-desktop |
+| 2026-08-14T00:38:45Z | github | repository | [PC2005-cloud/dsh-pet](https://github.com/PC2005-cloud/dsh-pet) | PC2005-cloud | core-and-ecosystem |
 | 2026-08-14T00:38:40Z | github | fork | [LicsDaSheng/deepseek-harness](https://github.com/LicsDaSheng/deepseek-harness) | LicsDaSheng | deepseek-harness-forks |
 | 2026-08-14T00:38:18Z | github | fork | [wolf187/deepseek-harness](https://github.com/wolf187/deepseek-harness) | wolf187 | deepseek-harness-forks |
 | 2026-08-14T00:38:17Z | github | fork | [yadian-hub/deepseek-harness](https://github.com/yadian-hub/deepseek-harness) | yadian-hub | deepseek-harness-forks |
@@ -8984,7 +8984,7 @@
 | 2026-08-14T00:29:38Z | github | fork | [Ujsszer/deepseek-harness](https://github.com/Ujsszer/deepseek-harness) | Ujsszer | deepseek-harness-forks |
 | 2026-08-14T00:29:16Z | github | fork | [binary2010/deepseek-harness](https://github.com/binary2010/deepseek-harness) | binary2010 | deepseek-harness-forks |
 | 2026-08-14T00:29:12Z | github | fork | [CodeNinjaLong/deepseek-harness](https://github.com/CodeNinjaLong/deepseek-harness) | CodeNinjaLong | deepseek-harness-forks |
-| 2026-08-14 | github | repository | [franksong2702/dsh-codex-connect](https://github.com/franksong2702/dsh-codex-connect) | franksong2702 | multimedia-and-vision |
+| 2026-08-14 | github | repository | [franksong2702/dsh-codex-connect](https://github.com/franksong2702/dsh-codex-connect) | franksong2702 | core-and-ecosystem |
 | 2026-08-14T00:28:45Z | github | fork | [leafxixi/deepseek-harness](https://github.com/leafxixi/deepseek-harness) | leafxixi | deepseek-harness-forks |
 | 2026-08-14T00:28:17Z | github | fork | [iittxgt/deepseek-harness](https://github.com/iittxgt/deepseek-harness) | iittxgt | deepseek-harness-forks |
 | 2026-08-14T00:28:07Z | github | fork | [codedescribe/deepseek-harness](https://github.com/codedescribe/deepseek-harness) | codedescribe | deepseek-harness-forks |
@@ -9013,7 +9013,7 @@
 | 2026-08-14T00:24:19Z | github | fork | [DavidZhu1999/deepseek-harness](https://github.com/DavidZhu1999/deepseek-harness) | DavidZhu1999 | deepseek-harness-forks |
 | 2026-08-14T00:24:08Z | github | fork | [xcai413/deepseek-harness](https://github.com/xcai413/deepseek-harness) | xcai413 | deepseek-harness-forks |
 | 2026-08-14T00:23:55Z | github | fork | [yangwenwuv5/deepseek-harness](https://github.com/yangwenwuv5/deepseek-harness) | yangwenwuv5 | deepseek-harness-forks |
-| 2026-08-14T00:23:44Z | github | repository | [dsh-desktop](https://github.com/liguobao/dsh-desktop) | liguobao | ui-and-desktop |
+| 2026-08-14T00:23:44Z | github | repository | [liguobao/dsh-desktop](https://github.com/liguobao/dsh-desktop) | liguobao | ui-and-desktop |
 | 2026-08-14T00:23:42Z | github | fork | [ycbai/deepseek-harness](https://github.com/ycbai/deepseek-harness) | ycbai | deepseek-harness-forks |
 | 2026-08-14T00:23:34Z | github | fork | [toshon-jennings/deepseek-harness](https://github.com/toshon-jennings/deepseek-harness) | toshon-jennings | deepseek-harness-forks |
 | 2026-08-14T00:23:26Z | github | fork | [yangyongtao2015/deepseek-harness](https://github.com/yangyongtao2015/deepseek-harness) | yangyongtao2015 | deepseek-harness-forks |
@@ -9055,7 +9055,7 @@
 | 2026-08-14T00:16:12Z | github | fork | [DAEDOBHI/deepseek-harness](https://github.com/DAEDOBHI/deepseek-harness) | DAEDOBHI | deepseek-harness-forks |
 | 2026-08-14T00:16:03Z | github | fork | [Leawind/deepseek-harness](https://github.com/Leawind/deepseek-harness) | Leawind | deepseek-harness-forks |
 | 2026-08-14T00:15:55Z | github | fork | [yuanzhounote/deepseek-harness](https://github.com/yuanzhounote/deepseek-harness) | yuanzhounote | deepseek-harness-forks |
-| 2026-08-14T00:15:52Z | github | repository | [dsh-compaction-instant](https://github.com/KitDoesIt/dsh-compaction-instant) | KitDoesIt | core-and-ecosystem |
+| 2026-08-14T00:15:52Z | github | repository | [KitDoesIt/dsh-compaction-instant](https://github.com/KitDoesIt/dsh-compaction-instant) | KitDoesIt | core-and-ecosystem |
 | 2026-08-14T00:15:45Z | github | fork | [ilimei/deepseek-harness](https://github.com/ilimei/deepseek-harness) | ilimei | deepseek-harness-forks |
 | 2026-08-14T00:15:43Z | github | fork | [xbzhangyq/deepseek-harness](https://github.com/xbzhangyq/deepseek-harness) | xbzhangyq | deepseek-harness-forks |
 | 2026-08-14T00:15:31Z | github | fork | [JiaHuiRed/deepseek-harness](https://github.com/JiaHuiRed/deepseek-harness) | JiaHuiRed | deepseek-harness-forks |
@@ -9096,7 +9096,7 @@
 | 2026-08-14T00:06:28Z | github | fork | [zhanghaodiaole/deepseek-harness](https://github.com/zhanghaodiaole/deepseek-harness) | zhanghaodiaole | deepseek-harness-forks |
 | 2026-08-14T00:05:11Z | github | fork | [marcoziti/deepseek-harness](https://github.com/marcoziti/deepseek-harness) | marcoziti | deepseek-harness-forks |
 | 2026-08-14T00:05:09Z | github | fork | [cowleywang/deepseek-harness](https://github.com/cowleywang/deepseek-harness) | cowleywang | deepseek-harness-forks |
-| 2026-08-14 | github | repository | [deepseek-harness-action](https://github.com/Lixiaoyiao/deepseek-harness-action) | Lixiaoyiao | index-and-marketplace |
+| 2026-08-14 | github | repository | [Lixiaoyiao/deepseek-harness-action](https://github.com/Lixiaoyiao/deepseek-harness-action) | Lixiaoyiao | index-and-marketplace |
 | 2026-08-14T00:03:55Z | github | fork | [1iwenbin/deepseek-harness](https://github.com/1iwenbin/deepseek-harness) | 1iwenbin | deepseek-harness-forks |
 | 2026-08-14T00:03:55Z | github | fork | [marcelolavor/deepseek-harness](https://github.com/marcelolavor/deepseek-harness) | marcelolavor | deepseek-harness-forks |
 | 2026-08-14T00:03:44Z | github | fork | [JAVA-LW/deepseek-harness](https://github.com/JAVA-LW/deepseek-harness) | JAVA-LW | deepseek-harness-forks |
@@ -9125,7 +9125,7 @@
 | 2026-08-13T23:56:35Z | github | fork | [tttclz/deepseek-harness](https://github.com/tttclz/deepseek-harness) | tttclz | deepseek-harness-forks |
 | 2026-08-13T23:55:54Z | github | fork | [web3jayiverson/deepseek-harness](https://github.com/web3jayiverson/deepseek-harness) | web3jayiverson | deepseek-harness-forks |
 | 2026-08-13T23:55:48Z | github | fork | [mailes/deepseek-harness](https://github.com/mailes/deepseek-harness) | mailes | deepseek-harness-forks |
-| 2026-08-13T23:55:34Z | github | repository | [dsh-mobile-apk](https://github.com/kelai141/dsh-mobile-apk) | kelai141 | core-and-ecosystem |
+| 2026-08-13T23:55:34Z | github | repository | [kelai141/dsh-mobile-apk](https://github.com/kelai141/dsh-mobile-apk) | kelai141 | core-and-ecosystem |
 | 2026-08-13T23:55:28Z | github | fork | [pthsoon/deepseek-harness](https://github.com/pthsoon/deepseek-harness) | pthsoon | deepseek-harness-forks |
 | 2026-08-13T23:55:24Z | github | fork | [lihuan-bot/deepseek-harness](https://github.com/lihuan-bot/deepseek-harness) | lihuan-bot | deepseek-harness-forks |
 | 2026-08-13T23:54:54Z | github | fork | [devdcao/deepseek-harness](https://github.com/devdcao/deepseek-harness) | devdcao | deepseek-harness-forks |
@@ -9353,7 +9353,7 @@
 | 2026-08-13T20:45:03Z | github | fork | [yichaochen225-bot/deepseek-harness](https://github.com/yichaochen225-bot/deepseek-harness) | yichaochen225-bot | deepseek-harness-forks |
 | 2026-08-13T20:41:53Z | github | fork | [NakedoShadow/deepseek-harness](https://github.com/NakedoShadow/deepseek-harness) | NakedoShadow | deepseek-harness-forks |
 | 2026-08-13T20:41:41Z | github | fork | [Chunde/deepseek-harness](https://github.com/Chunde/deepseek-harness) | Chunde | deepseek-harness-forks |
-| 2026-08-14 | github | repository | [ZK-Andy/dsh-continual-evolve](https://github.com/ZK-Andy/dsh-continual-evolve) | ZK-Andy | agents-and-orchestration |
+| 2026-08-14 | github | repository | [ZK-Andy/dsh-continual-evolve](https://github.com/ZK-Andy/dsh-continual-evolve) | ZK-Andy | core-and-ecosystem |
 | 2026-08-13T20:40:48Z | github | fork | [antoniel/deepseek-harness](https://github.com/antoniel/deepseek-harness) | antoniel | deepseek-harness-forks |
 | 2026-08-13T20:36:45Z | github | fork | [realloon/deepseek-harness](https://github.com/realloon/deepseek-harness) | realloon | deepseek-harness-forks |
 | 2026-08-13T20:36:18Z | github | fork | [tr4m0ryp/deepseek-harness](https://github.com/tr4m0ryp/deepseek-harness) | tr4m0ryp | deepseek-harness-forks |
@@ -9397,7 +9397,7 @@
 | 2026-08-13T20:05:14Z | github | fork | [Favour-MK/deepseek-harness](https://github.com/Favour-MK/deepseek-harness) | Favour-MK | deepseek-harness-forks |
 | 2026-08-13T20:04:48Z | github | fork | [Tuwebti/deepseek-harness](https://github.com/Tuwebti/deepseek-harness) | Tuwebti | deepseek-harness-forks |
 | 2026-08-13T20:03:31Z | github | fork | [adiiaot/deepseek-harness](https://github.com/adiiaot/deepseek-harness) | adiiaot | deepseek-harness-forks |
-| 2026-08-13T20:03:14Z | github | repository | [dsh-lark-bot](https://github.com/PlutoKeating/dsh-lark-bot) | PlutoKeating | core-and-ecosystem |
+| 2026-08-13T20:03:14Z | github | repository | [PlutoKeating/dsh-lark-bot](https://github.com/PlutoKeating/dsh-lark-bot) | PlutoKeating | core-and-ecosystem |
 | 2026-08-13T20:03:05Z | github | fork | [hhx-beep/deepseek-harness](https://github.com/hhx-beep/deepseek-harness) | hhx-beep | deepseek-harness-forks |
 | 2026-08-13T20:02:20Z | github | fork | [zsw0109/deepseek-harness](https://github.com/zsw0109/deepseek-harness) | zsw0109 | deepseek-harness-forks |
 | 2026-08-13T20:02:18Z | github | fork | [lovedheart/deepseek-harness](https://github.com/lovedheart/deepseek-harness) | lovedheart | deepseek-harness-forks |
@@ -9654,7 +9654,7 @@
 | 2026-08-13T17:22:23Z | github | fork | [MCdever9527/deepseek-harness](https://github.com/MCdever9527/deepseek-harness) | MCdever9527 | deepseek-harness-forks |
 | 2026-08-13T17:22:19Z | github | fork | [cloud-dream/deepseek-harness](https://github.com/cloud-dream/deepseek-harness) | cloud-dream | deepseek-harness-forks |
 | 2026-08-13T17:21:21Z | github | fork | [lcf2212dev/deepseek-harness](https://github.com/lcf2212dev/deepseek-harness) | lcf2212dev | deepseek-harness-forks |
-| 2026-08-14 | github | repository | [dsh-pet](https://github.com/FlytoMAYDAY80/dsh-pet) | FlytoMAYDAY80 | core-and-ecosystem |
+| 2026-08-14 | github | repository | [FlytoMAYDAY80/dsh-pet](https://github.com/FlytoMAYDAY80/dsh-pet) | FlytoMAYDAY80 | core-and-ecosystem |
 | 2026-08-13T17:20:43Z | github | fork | [HorusJiang/deepseek-harness](https://github.com/HorusJiang/deepseek-harness) | HorusJiang | deepseek-harness-forks |
 | 2026-08-13T17:20:08Z | github | fork | [zhw721017/deepseek-harness](https://github.com/zhw721017/deepseek-harness) | zhw721017 | deepseek-harness-forks |
 | 2026-08-13T17:19:52Z | github | fork | [Berlain/deepseek-harness](https://github.com/Berlain/deepseek-harness) | Berlain | deepseek-harness-forks |
@@ -9855,7 +9855,7 @@
 | 2026-08-13T16:30:19Z | github | fork | [scotthuang/deepseek-harness](https://github.com/scotthuang/deepseek-harness) | scotthuang | deepseek-harness-forks |
 | 2026-08-13T16:30:11Z | github | fork | [v5steven2023-self/deepseek-harness](https://github.com/v5steven2023-self/deepseek-harness) | v5steven2023-self | deepseek-harness-forks |
 | 2026-08-13T16:29:50Z | github | fork | [wy471x/deepseek-harness](https://github.com/wy471x/deepseek-harness) | wy471x | deepseek-harness-forks |
-| 2026-08-14 | github | repository | [anweat/dsh-web-search-pro](https://github.com/anweat/dsh-web-search-pro) | anweat | index-and-marketplace |
+| 2026-08-14 | github | repository | [anweat/dsh-web-search-pro](https://github.com/anweat/dsh-web-search-pro) | anweat | core-and-ecosystem |
 | 2026-08-13T16:29:20Z | github | fork | [cnqians/deepseek-harness](https://github.com/cnqians/deepseek-harness) | cnqians | deepseek-harness-forks |
 | 2026-08-13T16:29:16Z | github | repository | [sliverp/DeepSeek-harness-qqbot](https://github.com/sliverp/DeepSeek-harness-qqbot) | sliverp | multimedia-and-vision |
 | 2026-08-13T16:28:55Z | github | fork | [anaconda110/deepseek-harness](https://github.com/anaconda110/deepseek-harness) | anaconda110 | deepseek-harness-forks |
@@ -9956,7 +9956,7 @@
 | 2026-08-13T16:14:18Z | github | fork | [codingboy-jc/deepseek-harness](https://github.com/codingboy-jc/deepseek-harness) | codingboy-jc | deepseek-harness-forks |
 | 2026-08-13T16:14:16Z | github | fork | [jianjun159/deepseek-harness](https://github.com/jianjun159/deepseek-harness) | jianjun159 | deepseek-harness-forks |
 | 2026-08-13T16:14:05Z | github | fork | [wzk2025/deepseek-harness](https://github.com/wzk2025/deepseek-harness) | wzk2025 | deepseek-harness-forks |
-| 2026-08-14 | github | repository | [dsh-mcp-manager](https://github.com/hyqhyq3/dsh-mcp-manager) | hyqhyq3 | operations-and-safety |
+| 2026-08-14 | github | repository | [hyqhyq3/dsh-mcp-manager](https://github.com/hyqhyq3/dsh-mcp-manager) | hyqhyq3 | operations-and-safety |
 | 2026-08-13T16:13:54Z | github | fork | [itsPremkumar/deepseek-harness](https://github.com/itsPremkumar/deepseek-harness) | itsPremkumar | deepseek-harness-forks |
 | 2026-08-13T16:13:38Z | github | fork | [wuzhanfly/deepseek-harness](https://github.com/wuzhanfly/deepseek-harness) | wuzhanfly | deepseek-harness-forks |
 | 2026-08-13T16:13:28Z | github | fork | [richarddaros/deepseek-harness](https://github.com/richarddaros/deepseek-harness) | richarddaros | deepseek-harness-forks |
@@ -10021,7 +10021,7 @@
 | 2026-08-13T16:03:18.000Z | x | post | [Max For AI @MaxForAI · Aug 14 鉴于V4-Pro-0813和DeepSeek Harness的表现，我宣布梁文锋评价下调为梁子。 144 56 1.7K 235K](https://x.com/MaxForAI/status/2087933020431139080) | Max For AI | core-and-ecosystem |
 | 2026-08-13T16:02:47Z | github | fork | [afn7k1/deepseek-harness](https://github.com/afn7k1/deepseek-harness) | afn7k1 | deepseek-harness-forks |
 | 2026-08-13T16:01:59Z | github | fork | [DLee0102/deepseek-harness](https://github.com/DLee0102/deepseek-harness) | DLee0102 | deepseek-harness-forks |
-| 2026-08-13T16:01:59Z | github | repository | [DSH-Plugins-Marketplace](https://github.com/bradeGithub/DSH-Plugins-Marketplace) | bradeGithub | index-and-marketplace |
+| 2026-08-13T16:01:59Z | github | repository | [bradeGithub/DSH-Plugins-Marketplace](https://github.com/bradeGithub/DSH-Plugins-Marketplace) | bradeGithub | index-and-marketplace |
 | 2026-08-13T16:01:49Z | github | fork | [sudoviber/deepseek-harness](https://github.com/sudoviber/deepseek-harness) | sudoviber | deepseek-harness-forks |
 | 2026-08-13T16:01:44Z | github | fork | [CliffLeopard/deepseek-harness](https://github.com/CliffLeopard/deepseek-harness) | CliffLeopard | deepseek-harness-forks |
 | 2026-08-13T16:01:33Z | github | fork | [Lingzesec/deepseek-harness](https://github.com/Lingzesec/deepseek-harness) | Lingzesec | deepseek-harness-forks |
@@ -10032,7 +10032,7 @@
 | 2026-08-13T16:00:52Z | github | fork | [liu954326053/deepseek-harness](https://github.com/liu954326053/deepseek-harness) | liu954326053 | deepseek-harness-forks |
 | 2026-08-13T16:00:43Z | github | fork | [geminixiang/deepseek-harness](https://github.com/geminixiang/deepseek-harness) | geminixiang | deepseek-harness-forks |
 | 2026-08-13T16:00:24Z | github | fork | [marcowus/deepseek-harness](https://github.com/marcowus/deepseek-harness) | marcowus | deepseek-harness-forks |
-| 2026-08-13T16:00:16Z | github | repository | [dshdesktop](https://github.com/myYangyunfan/dsh_desktop) | myYangyunfan | ui-and-desktop |
+| 2026-08-13T16:00:16Z | github | repository | [myYangyunfan/dsh_desktop](https://github.com/myYangyunfan/dsh_desktop) | myYangyunfan | ui-and-desktop |
 | 2026-08-13T16:00:04Z | github | fork | [qmy777/deepseek-harness](https://github.com/qmy777/deepseek-harness) | qmy777 | deepseek-harness-forks |
 | 2026-08-13T15:59:47Z | github | fork | [txx1010/deepseek-harness](https://github.com/txx1010/deepseek-harness) | txx1010 | deepseek-harness-forks |
 | 2026-08-13T15:59:45Z | github | fork | [jianzhihuang/deepseek-harness](https://github.com/jianzhihuang/deepseek-harness) | jianzhihuang | deepseek-harness-forks |
@@ -10302,7 +10302,7 @@
 | 2026-08-13T15:24:20Z | github | fork | [gaogoying-sudo/deepseek-harness](https://github.com/gaogoying-sudo/deepseek-harness) | gaogoying-sudo | deepseek-harness-forks |
 | 2026-08-13T15:24:20Z | github | fork | [tylevnovik/deepseek-harness](https://github.com/tylevnovik/deepseek-harness) | tylevnovik | deepseek-harness-forks |
 | 2026-08-13T15:24:07Z | github | fork | [SAD-beishang/deepseek-harness](https://github.com/SAD-beishang/deepseek-harness) | SAD-beishang | deepseek-harness-forks |
-| 2026-08-14 | github | repository | [Sev7een/ds-api-usage](https://github.com/Sev7een/ds-api-usage) | Sev7een | operations-and-safety |
+| 2026-08-14 | github | repository | [Sev7een/ds-api-usage](https://github.com/Sev7een/ds-api-usage) | Sev7een | core-and-ecosystem |
 | 2026-08-13T15:23:59Z | github | fork | [yixian325/deepseek-harness](https://github.com/yixian325/deepseek-harness) | yixian325 | deepseek-harness-forks |
 | 2026-08-13T15:23:58Z | github | fork | [jameBoy/deepseek-harness](https://github.com/jameBoy/deepseek-harness) | jameBoy | deepseek-harness-forks |
 | 2026-08-13T15:23:53Z | github | fork | [RickySakura/deepseek-harness](https://github.com/RickySakura/deepseek-harness) | RickySakura | deepseek-harness-forks |
@@ -10323,7 +10323,7 @@
 | 2026-08-13T15:22:33Z | github | fork | [vincentke1117/deepseek-harness](https://github.com/vincentke1117/deepseek-harness) | vincentke1117 | deepseek-harness-forks |
 | 2026-08-13T15:22:29Z | github | repository | [Electricitysheep/dsh-handbook](https://github.com/Electricitysheep/dsh-handbook) | Electricitysheep | docs-and-learning |
 | 2026-08-13T15:22:01Z | github | fork | [awaygu/deepseek-harness](https://github.com/awaygu/deepseek-harness) | awaygu | deepseek-harness-forks |
-| 2026-08-14 | github | repository | [1na-ko/dsh-hdc-bridge](https://github.com/1na-ko/dsh-hdc-bridge) | 1na-ko | multimedia-and-vision |
+| 2026-08-14 | github | repository | [1na-ko/dsh-hdc-bridge](https://github.com/1na-ko/dsh-hdc-bridge) | 1na-ko | core-and-ecosystem |
 | 2026-08-13T15:21:50Z | github | fork | [LiuHao-1443/deepseek-harness](https://github.com/LiuHao-1443/deepseek-harness) | LiuHao-1443 | deepseek-harness-forks |
 | 2026-08-13T15:21:49Z | github | fork | [169LI/deepseek-harness](https://github.com/169LI/deepseek-harness) | 169LI | deepseek-harness-forks |
 | 2026-08-13T15:21:46Z | github | fork | [Zjy020906/deepseek-harness](https://github.com/Zjy020906/deepseek-harness) | Zjy020906 | deepseek-harness-forks |
@@ -10362,7 +10362,7 @@
 | 2026-08-13T15:18:28Z | github | fork | [lo2wi/deepseek-harness](https://github.com/lo2wi/deepseek-harness) | lo2wi | deepseek-harness-forks |
 | 2026-08-13T15:18:15Z | github | fork | [hejiawow/deepseek-harness](https://github.com/hejiawow/deepseek-harness) | hejiawow | deepseek-harness-forks |
 | 2026-08-13T15:18:09Z | github | fork | [z99205388/deepseek-harness](https://github.com/z99205388/deepseek-harness) | z99205388 | deepseek-harness-forks |
-| 2026-08-14 | github | repository | [modusensus/dsh-mnemedsh-mneme](https://github.com/modusensus/dsh-mneme) | modusensus | core-and-ecosystem |
+| 2026-08-14 | github | repository | [modusensus/dsh-mneme](https://github.com/modusensus/dsh-mneme) | modusensus | core-and-ecosystem |
 | 2026-08-13T15:18:01Z | github | fork | [karnc/deepseek-harness](https://github.com/karnc/deepseek-harness) | karnc | deepseek-harness-forks |
 | 2026-08-13T15:17:57Z | github | fork | [grllll/deepseek-harness](https://github.com/grllll/deepseek-harness) | grllll | deepseek-harness-forks |
 | 2026-08-13T15:17:55Z | github | fork | [jungleyu/deepseek-harness](https://github.com/jungleyu/deepseek-harness) | jungleyu | deepseek-harness-forks |
@@ -10430,7 +10430,7 @@
 | 2026-08-13T15:10:40Z | github | fork | [houyunlong1668/deepseek-harness](https://github.com/houyunlong1668/deepseek-harness) | houyunlong1668 | deepseek-harness-forks |
 | 2026-08-13T15:10:26Z | github | fork | [WOWCharlotte/deepseek-harness](https://github.com/WOWCharlotte/deepseek-harness) | WOWCharlotte | deepseek-harness-forks |
 | 2026-08-13T15:10:14Z | github | fork | [ZhangYuanzheng1006/deepseek-harness](https://github.com/ZhangYuanzheng1006/deepseek-harness) | ZhangYuanzheng1006 | deepseek-harness-forks |
-| 2026-08-13T15:10:10Z | github | repository | [anysearch-dsh](https://github.com/anysearch-team/anysearch-dsh) | anysearch-team | core-and-ecosystem |
+| 2026-08-13T15:10:10Z | github | repository | [anysearch-team/anysearch-dsh](https://github.com/anysearch-team/anysearch-dsh) | anysearch-team | core-and-ecosystem |
 | 2026-08-13T15:10:08Z | github | fork | [kev1nlol/deepseek-harness](https://github.com/kev1nlol/deepseek-harness) | kev1nlol | deepseek-harness-forks |
 | 2026-08-13T15:10:04Z | github | fork | [yongboGuo/deepseek-harness](https://github.com/yongboGuo/deepseek-harness) | yongboGuo | deepseek-harness-forks |
 | 2026-08-13T15:10:01Z | github | fork | [Peter1Griffen/deepseek-harness](https://github.com/Peter1Griffen/deepseek-harness) | Peter1Griffen | deepseek-harness-forks |
@@ -10548,7 +10548,7 @@
 | 2026-08-13T14:58:08Z | github | fork | [zephyr110/deepseek-harness](https://github.com/zephyr110/deepseek-harness) | zephyr110 | deepseek-harness-forks |
 | 2026-08-13T14:58:07Z | github | fork | [lyc-uuu/deepseek-harness](https://github.com/lyc-uuu/deepseek-harness) | lyc-uuu | deepseek-harness-forks |
 | 2026-08-13T14:57:59Z | github | fork | [tao4060810/deepseek-harness](https://github.com/tao4060810/deepseek-harness) | tao4060810 | deepseek-harness-forks |
-| 2026-08-14 | github | repository | [Han-1413141/dsh-cost-meter](https://github.com/Han-1413141/dsh-cost-meter) | Han-1413141 | operations-and-safety |
+| 2026-08-14 | github | repository | [Han-1413141/dsh-cost-meter](https://github.com/Han-1413141/dsh-cost-meter) | Han-1413141 | core-and-ecosystem |
 | 2026-08-13T14:57:49Z | github | fork | [JamesBrooklyn/deepseek-harness](https://github.com/JamesBrooklyn/deepseek-harness) | JamesBrooklyn | deepseek-harness-forks |
 | 2026-08-13T14:57:35Z | github | fork | [s3abiscuit/deepseek-harness](https://github.com/s3abiscuit/deepseek-harness) | s3abiscuit | deepseek-harness-forks |
 | 2026-08-13T14:57:25Z | github | fork | [luomaohao/deepseek-harness](https://github.com/luomaohao/deepseek-harness) | luomaohao | deepseek-harness-forks |
@@ -11207,7 +11207,7 @@
 | 2026-08-13T14:04:13Z | github | fork | [ryanyujazz-dev/deepseek-harness](https://github.com/ryanyujazz-dev/deepseek-harness) | ryanyujazz-dev | deepseek-harness-forks |
 | 2026-08-13T14:04:10Z | github | fork | [gyc567/deepseek-harness](https://github.com/gyc567/deepseek-harness) | gyc567 | deepseek-harness-forks |
 | 2026-08-13T14:04:06Z | github | fork | [ggzui/deepseek-harness](https://github.com/ggzui/deepseek-harness) | ggzui | deepseek-harness-forks |
-| 2026-08-13T14:04:04Z | github | repository | [deepseek-harness-desktop](https://github.com/steven-kid/deepseek-harness-desktop) | steven-kid | ui-and-desktop |
+| 2026-08-13T14:04:04Z | github | repository | [steven-kid/deepseek-harness-desktop](https://github.com/steven-kid/deepseek-harness-desktop) | steven-kid | ui-and-desktop |
 | 2026-08-13T14:04:01Z | github | fork | [onssoo/deepseek-harness](https://github.com/onssoo/deepseek-harness) | onssoo | deepseek-harness-forks |
 | 2026-08-13T14:04:00Z | github | fork | [402617833/deepseek-harness](https://github.com/402617833/deepseek-harness) | 402617833 | deepseek-harness-forks |
 | 2026-08-13T14:03:54Z | github | fork | [iThronne/deepseek-harness](https://github.com/iThronne/deepseek-harness) | iThronne | deepseek-harness-forks |
@@ -11244,7 +11244,7 @@
 | 2026-08-13T14:01:21Z | github | fork | [Wkeasy/deepseek-harness](https://github.com/Wkeasy/deepseek-harness) | Wkeasy | deepseek-harness-forks |
 | 2026-08-13T14:01:20Z | github | fork | [HaiyoQ/wow-dsh](https://github.com/HaiyoQ/wow-dsh) | HaiyoQ | deepseek-harness-forks |
 | 2026-08-13T14:01:10Z | github | fork | [cr7258/deepseek-harness](https://github.com/cr7258/deepseek-harness) | cr7258 | deepseek-harness-forks |
-| 2026-08-13T14:01:05Z | github | repository | [dsh-plugin-claude-bridge](https://github.com/YYTbit/dsh-plugin-claude-bridge) | YYTbit | core-and-ecosystem |
+| 2026-08-13T14:01:05Z | github | repository | [YYTbit/dsh-plugin-claude-bridge](https://github.com/YYTbit/dsh-plugin-claude-bridge) | YYTbit | core-and-ecosystem |
 | 2026-08-13T14:01:02Z | github | fork | [cw1997-cpu/deepseek-harness](https://github.com/cw1997-cpu/deepseek-harness) | cw1997-cpu | deepseek-harness-forks |
 | 2026-08-13T14:01:01Z | github | fork | [Swarm-7/deepseek-harness](https://github.com/Swarm-7/deepseek-harness) | Swarm-7 | deepseek-harness-forks |
 | 2026-08-13T14:01:01Z | github | fork | [learningpro/deepseek-harness](https://github.com/learningpro/deepseek-harness) | learningpro | deepseek-harness-forks |
@@ -11269,7 +11269,7 @@
 | 2026-08-13T14:00:07Z | github | fork | [Zguigo00/deepseek-harness](https://github.com/Zguigo00/deepseek-harness) | Zguigo00 | deepseek-harness-forks |
 | 2026-08-13T14:00:02Z | github | fork | [tonymhl/deepseek-harness](https://github.com/tonymhl/deepseek-harness) | tonymhl | deepseek-harness-forks |
 | 2026-08-13T14:00:01Z | github | fork | [gaoluhang/deepseek-harness](https://github.com/gaoluhang/deepseek-harness) | gaoluhang | deepseek-harness-forks |
-| 2026-08-13T13:59:53Z | github | repository | [dsh-better-browser](https://github.com/titanwings/dsh-better-browser) | titanwings | core-and-ecosystem |
+| 2026-08-13T13:59:53Z | github | repository | [titanwings/dsh-better-browser](https://github.com/titanwings/dsh-better-browser) | titanwings | core-and-ecosystem |
 | 2026-08-13T13:59:45Z | github | fork | [millievn/deepseek-harness](https://github.com/millievn/deepseek-harness) | millievn | deepseek-harness-forks |
 | 2026-08-13T13:59:38Z | github | fork | [cwowhappy/deepseek-harness](https://github.com/cwowhappy/deepseek-harness) | cwowhappy | deepseek-harness-forks |
 | 2026-08-13T13:59:33Z | github | fork | [WhyStart/deepseek-harness](https://github.com/WhyStart/deepseek-harness) | WhyStart | deepseek-harness-forks |
@@ -11354,7 +11354,7 @@
 | 2026-08-13T13:54:19Z | github | fork | [whyzzzx1988-ops/deepseek-harness](https://github.com/whyzzzx1988-ops/deepseek-harness) | whyzzzx1988-ops | deepseek-harness-forks |
 | 2026-08-13T13:54:08Z | github | fork | [liuyh357/deepseek-harness](https://github.com/liuyh357/deepseek-harness) | liuyh357 | deepseek-harness-forks |
 | 2026-08-13T13:54:07Z | github | fork | [QingGeLaiYe/deepseek-harness](https://github.com/QingGeLaiYe/deepseek-harness) | QingGeLaiYe | deepseek-harness-forks |
-| 2026-08-13T13:54:05Z | github | repository | [awesome-deepseek-harness](https://github.com/Dominic789654/awesome-deepseek-harness) | Dominic789654 | index-and-marketplace |
+| 2026-08-13T13:54:05Z | github | repository | [Dominic789654/awesome-deepseek-harness](https://github.com/Dominic789654/awesome-deepseek-harness) | Dominic789654 | index-and-marketplace |
 | 2026-08-13T13:54:05Z | github | fork | [githubxzw/deepseek-harness](https://github.com/githubxzw/deepseek-harness) | githubxzw | deepseek-harness-forks |
 | 2026-08-13T13:53:57Z | github | fork | [realerikk0/deepseek-harness](https://github.com/realerikk0/deepseek-harness) | realerikk0 | deepseek-harness-forks |
 | 2026-08-13T13:53:54Z | github | fork | [DaHaiHuha/deepseek-harness](https://github.com/DaHaiHuha/deepseek-harness) | DaHaiHuha | deepseek-harness-forks |
@@ -11675,7 +11675,7 @@
 | 2026-08-13T13:33:04Z | github | fork | [juyunsuan/deepseek-harness](https://github.com/juyunsuan/deepseek-harness) | juyunsuan | deepseek-harness-forks |
 | 2026-08-13T13:32:56Z | github | fork | [123456zxh/deepseek-harness](https://github.com/123456zxh/deepseek-harness) | 123456zxh | deepseek-harness-forks |
 | 2026-08-13T13:32:56Z | github | fork | [fsinbad/deepseek-harness](https://github.com/fsinbad/deepseek-harness) | fsinbad | deepseek-harness-forks |
-| 2026-08-13T13:32:50Z | github | repository | [whyihaveyou/dsh-suiteplugin-manager](https://github.com/whyihaveyou/dsh-suite) | whyihaveyou | index-and-marketplace |
+| 2026-08-13T13:32:50Z | github | repository | [whyihaveyou/dsh-suite](https://github.com/whyihaveyou/dsh-suite) | whyihaveyou | index-and-marketplace |
 | 2026-08-13T13:32:44Z | github | fork | [benym/deepseek-harness](https://github.com/benym/deepseek-harness) | benym | deepseek-harness-forks |
 | 2026-08-13T13:32:40Z | github | fork | [duydcoco/deepseek-harness](https://github.com/duydcoco/deepseek-harness) | duydcoco | deepseek-harness-forks |
 | 2026-08-13T13:32:39Z | github | fork | [qwewpanwn/deepseek-harness](https://github.com/qwewpanwn/deepseek-harness) | qwewpanwn | deepseek-harness-forks |
@@ -11715,8 +11715,8 @@
 | 2026-08-13T13:30:30Z | github | fork | [LaplaceYoung/deepseek-harness](https://github.com/LaplaceYoung/deepseek-harness) | LaplaceYoung | deepseek-harness-forks |
 | 2026-08-13T13:30:30Z | hacker_news | story | [DeepSeek Harness official website launched](https://news.ycombinator.com/item?id=49285631) | linnoe | core-and-ecosystem |
 | 2026-08-13T13:30:24Z | github | fork | [cloudy440/deepseek-harness](https://github.com/cloudy440/deepseek-harness) | cloudy440 | deepseek-harness-forks |
-| 2026-08-13T13:30:22Z | github | repository | [oh-my-dsh](https://github.com/wangshunnn/oh-my-dsh) | wangshunnn | core-and-ecosystem |
 | 2026-08-13T13:30:22Z | github | fork | [s1oopX/deepseek-harness](https://github.com/s1oopX/deepseek-harness) | s1oopX | deepseek-harness-forks |
+| 2026-08-13T13:30:22Z | github | repository | [wangshunnn/oh-my-dsh](https://github.com/wangshunnn/oh-my-dsh) | wangshunnn | core-and-ecosystem |
 | 2026-08-13T13:30:13Z | github | fork | [JieHwo/deepseek-harness](https://github.com/JieHwo/deepseek-harness) | JieHwo | deepseek-harness-forks |
 | 2026-08-13T13:30:10Z | github | fork | [greenhand-xj/deepseek-harness](https://github.com/greenhand-xj/deepseek-harness) | greenhand-xj | deepseek-harness-forks |
 | 2026-08-13T13:30:09Z | github | fork | [yceachan/deepseek-harness](https://github.com/yceachan/deepseek-harness) | yceachan | deepseek-harness-forks |
@@ -12109,16 +12109,16 @@
 | 2026-08-13T13:10:36Z | github | fork | [Fantasymax/deepseek-harness](https://github.com/Fantasymax/deepseek-harness) | Fantasymax | deepseek-harness-forks |
 | 2026-08-13T13:10:33Z | github | fork | [Castor9133/deepseek-harness](https://github.com/Castor9133/deepseek-harness) | Castor9133 | deepseek-harness-forks |
 | 2026-08-13T13:10:24Z | github | fork | [ZZK-AJ/deepseek-harness](https://github.com/ZZK-AJ/deepseek-harness) | ZZK-AJ | deepseek-harness-forks |
-| 2026-08-13T13:10:22Z | github | repository | [dsh-bash-encoding](https://github.com/lhh010/dsh-bash-encoding) | lhh010 | core-and-ecosystem |
+| 2026-08-13T13:10:22Z | github | repository | [lhh010/dsh-bash-encoding](https://github.com/lhh010/dsh-bash-encoding) | lhh010 | core-and-ecosystem |
 | 2026-08-13T13:10:20Z | github | fork | [meta-introspector/deepseek-harness](https://github.com/meta-introspector/deepseek-harness) | meta-introspector | deepseek-harness-forks |
-| 2026-08-13T13:10:16Z | github | repository | [dsh-ui-whale](https://github.com/lhh010/dsh-ui-whale) | lhh010 | ui-and-desktop |
+| 2026-08-13T13:10:16Z | github | repository | [lhh010/dsh-ui-whale](https://github.com/lhh010/dsh-ui-whale) | lhh010 | ui-and-desktop |
 | 2026-08-13T13:10:15Z | github | fork | [cosen1024/deepseek-harness](https://github.com/cosen1024/deepseek-harness) | cosen1024 | deepseek-harness-forks |
-| 2026-08-13T13:10:11Z | github | repository | [dsh-ui-progress](https://github.com/lhh010/dsh-ui-progress) | lhh010 | core-and-ecosystem |
+| 2026-08-13T13:10:11Z | github | repository | [lhh010/dsh-ui-progress](https://github.com/lhh010/dsh-ui-progress) | lhh010 | ui-and-desktop |
 | 2026-08-13T13:10:06Z | github | fork | [mwnu/deepseek-harness](https://github.com/mwnu/deepseek-harness) | mwnu | deepseek-harness-forks |
-| 2026-08-13T13:10:03Z | github | repository | [dsh-paste-input](https://github.com/lhh010/dsh-paste-input) | lhh010 | core-and-ecosystem |
+| 2026-08-13T13:10:03Z | github | repository | [lhh010/dsh-paste-input](https://github.com/lhh010/dsh-paste-input) | lhh010 | core-and-ecosystem |
 | 2026-08-13T13:10:01Z | github | fork | [ZhangCurosr/deepseek-harness](https://github.com/ZhangCurosr/deepseek-harness) | ZhangCurosr | deepseek-harness-forks |
 | 2026-08-13T13:10:00Z | github | fork | [renshen052/deepseek-harness](https://github.com/renshen052/deepseek-harness) | renshen052 | deepseek-harness-forks |
-| 2026-08-13 | github | repository | [lhh010/dsh-minigames](https://github.com/lhh010/dsh-minigames) | lhh010 | core-and-ecosystem |
+| 2026-08-13 | github | repository | [lhh010/dsh-minigames](https://github.com/lhh010/dsh-minigames) | lhh010 | ui-and-desktop |
 | 2026-08-13T13:09:56Z | github | fork | [Juicebro-star/deepseek-harness](https://github.com/Juicebro-star/deepseek-harness) | Juicebro-star | deepseek-harness-forks |
 | 2026-08-13T13:09:49Z | github | fork | [yamleric/deepseek-harness](https://github.com/yamleric/deepseek-harness) | yamleric | deepseek-harness-forks |
 | 2026-08-13T13:09:48Z | github | fork | [Muzych/deepseek-harness](https://github.com/Muzych/deepseek-harness) | Muzych | deepseek-harness-forks |
@@ -12247,10 +12247,10 @@
 | 2026-08-13T13:04:38Z | github | fork | [acey0713/deepseek-harness](https://github.com/acey0713/deepseek-harness) | acey0713 | deepseek-harness-forks |
 | 2026-08-13T13:04:35Z | github | fork | [XuYao0/deepseek-harness](https://github.com/XuYao0/deepseek-harness) | XuYao0 | deepseek-harness-forks |
 | 2026-08-13T13:04:22Z | github | fork | [595998300/deepseek-harness](https://github.com/595998300/deepseek-harness) | 595998300 | deepseek-harness-forks |
+| 2026-08-13T13:04:21Z | github | repository | [LaplaceYoung/oh-my-dsh](https://github.com/LaplaceYoung/oh-my-dsh) | LaplaceYoung | core-and-ecosystem |
 | 2026-08-13T13:04:21Z | github | fork | [XiangXtreme/deepseek-harness](https://github.com/XiangXtreme/deepseek-harness) | XiangXtreme | deepseek-harness-forks |
 | 2026-08-13T13:04:21Z | github | fork | [dxfq/deepseek-harness](https://github.com/dxfq/deepseek-harness) | dxfq | deepseek-harness-forks |
-| 2026-08-13T13:04:21Z | github | repository | [oh-my-dsh](https://github.com/LaplaceYoung/oh-my-dsh) | LaplaceYoung | core-and-ecosystem |
-| 2026-08-13T13:04:18Z | github | repository | [dsh-qq2006](https://github.com/LaplaceYoung/dsh-qq2006) | LaplaceYoung | core-and-ecosystem |
+| 2026-08-13T13:04:18Z | github | repository | [LaplaceYoung/dsh-qq2006](https://github.com/LaplaceYoung/dsh-qq2006) | LaplaceYoung | ui-and-desktop |
 | 2026-08-13T13:04:15Z | github | fork | [homerZh/deepseek-harness](https://github.com/homerZh/deepseek-harness) | homerZh | deepseek-harness-forks |
 | 2026-08-13T13:03:58Z | github | fork | [ivaris03/deepseek-harness](https://github.com/ivaris03/deepseek-harness) | ivaris03 | deepseek-harness-forks |
 | 2026-08-13T13:03:58Z | github | fork | [maochiy/deepseek-harness](https://github.com/maochiy/deepseek-harness) | maochiy | deepseek-harness-forks |
@@ -12311,7 +12311,7 @@
 | 2026-08-13T13:01:28Z | github | fork | [XYZ1024-alt/deepseek-harness](https://github.com/XYZ1024-alt/deepseek-harness) | XYZ1024-alt | deepseek-harness-forks |
 | 2026-08-13T13:01:26Z | github | fork | [RC-CHN/deepseek-harness](https://github.com/RC-CHN/deepseek-harness) | RC-CHN | deepseek-harness-forks |
 | 2026-08-13T13:01:26Z | github | fork | [hkxiaoyao/deepseek-harness](https://github.com/hkxiaoyao/deepseek-harness) | hkxiaoyao | deepseek-harness-forks |
-| 2026-08-13 | github | repository | [fuhefei/dsh-sentinel](https://github.com/fuhefei/dsh-sentinel) | fuhefei | core-and-ecosystem |
+| 2026-08-13 | github | repository | [fuhefei/dsh-sentinel](https://github.com/fuhefei/dsh-sentinel) | fuhefei | ui-and-desktop |
 | 2026-08-13T13:01:17Z | github | fork | [DrewXM30/deepseek-harness](https://github.com/DrewXM30/deepseek-harness) | DrewXM30 | deepseek-harness-forks |
 | 2026-08-13T13:01:16Z | github | fork | [lizhengjiang121318/deepseek-harness](https://github.com/lizhengjiang121318/deepseek-harness) | lizhengjiang121318 | deepseek-harness-forks |
 | 2026-08-13T13:01:15Z | github | fork | [Elvisvon/deepseek-harness](https://github.com/Elvisvon/deepseek-harness) | Elvisvon | deepseek-harness-forks |
@@ -12437,33 +12437,33 @@
 | 2026-08-13T12:39:30Z | bilibili | video | [deepseek harness 简单介绍](https://www.bilibili.com/video/BV1WTgp6AERb) | 酥悠沫 | core-and-ecosystem |
 | 2026-08-13 | github | repository | [Anionex/dsh-turn-rewind](https://github.com/Anionex/dsh-turn-rewind) | Anionex | core-and-ecosystem |
 | 2026-08-13 | github | repository | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | Anionex | ui-and-desktop |
-| 2026-08-13T12:22:53Z | github | repository | [dsh-tianshu-build](https://github.com/huiliyi37/dsh-tianshu-build) | huiliyi37 | core-and-ecosystem |
+| 2026-08-13T12:22:53Z | github | repository | [huiliyi37/dsh-tianshu-build](https://github.com/huiliyi37/dsh-tianshu-build) | huiliyi37 | core-and-ecosystem |
 | 2026-08-14 | github | repository | [Chinesezjc/dsh-interconnect](https://github.com/Chinesezjc/dsh-interconnect) | Chinesezjc | core-and-ecosystem |
-| 2026-08-13T12:16:50Z | github | repository | [GitHub](https://github.com/hikariming/dshfind) | hikariming | index-and-marketplace |
-| 2026-08-13 | github | repository | [dsh-at-file](https://github.com/omdsh-dev/dsh-at-file) | omdsh-dev | core-and-ecosystem |
+| 2026-08-13T12:16:50Z | github | repository | [hikariming/dshfind](https://github.com/hikariming/dshfind) | hikariming | index-and-marketplace |
+| 2026-08-13 | github | repository | [omdsh-dev/dsh-at-file](https://github.com/omdsh-dev/dsh-at-file) | omdsh-dev | core-and-ecosystem |
 | 2026-08-13 | github | repository | [omdsh-dev/dsh-custom-tool](https://github.com/omdsh-dev/dsh-custom-tool) | omdsh-dev | operations-and-safety |
 | 2026-08-13 | github | repository | [omdsh-dev/dsh-open-in-vscode](https://github.com/omdsh-dev/dsh-open-in-vscode) | omdsh-dev | core-and-ecosystem |
 | 2026-08-13 | github | repository | [omdsh-dev/dsh-notification](https://github.com/omdsh-dev/dsh-notification) | omdsh-dev | ui-and-desktop |
 | 2026-08-13T11:56:32Z | github | repository | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-ai | core-and-ecosystem |
-| 2026-08-13T10:55:36Z | github | repository | [orbis](https://github.com/icodesign/orbis) | icodesign | core-and-ecosystem |
+| 2026-08-13T10:55:36Z | github | repository | [icodesign/orbis](https://github.com/icodesign/orbis) | icodesign | core-and-ecosystem |
 | 2026-08-13T10:41:33Z | github | repository | [vibeinging/deepseek-harness-desktop-app](https://github.com/vibeinging/deepseek-harness-desktop-app) | vibeinging | ui-and-desktop |
 | 2026-08-13T10:41:33Z | github | repository | [vibeinging/dsh-work](https://github.com/vibeinging/dsh-work) | vibeinging | ui-and-desktop |
 | 2026-08-13T10:30:52Z | github | repository | [wangyang10/image-vision](https://github.com/wangyang10/image-vision) | wangyang10 | multimedia-and-vision |
-| 2026-08-13 | github | repository | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | huiliyi37 | ui-and-desktop |
+| 2026-08-13 | github | repository | [huiliyi37/dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | huiliyi37 | ui-and-desktop |
 | 2026-08-13T03:26:49Z | github | repository | [yjh051108/dsh-super-injector](https://github.com/yjh051108/dsh-super-injector) | yjh051108 | core-and-ecosystem |
 | 2026-08-13T02:24:08Z | github | repository | [N0zoM1z0/th08](https://github.com/N0zoM1z0/th08) | N0zoM1z0 | core-and-ecosystem |
 | 2026-08-13T01:36:34Z | github | repository | [SenmuuuuW/dsh-group-photo](https://github.com/SenmuuuuW/dsh-group-photo) | SenmuuuuW | index-and-marketplace |
-| 2026-08-13T01:23:29Z | github | repository | [awesome-DSH-plugin](https://github.com/Alex-Yanggg/awesome-DSH-plugin) | Alex-Yanggg | index-and-marketplace |
+| 2026-08-13T01:23:29Z | github | repository | [Alex-Yanggg/awesome-DSH-plugin](https://github.com/Alex-Yanggg/awesome-DSH-plugin) | Alex-Yanggg | index-and-marketplace |
 | 2026-08-12T21:16:47Z | hacker_news | story | [https://news.ycombinator.com/item?id=49278668](https://news.ycombinator.com/item?id=49278668) | teravor | core-and-ecosystem |
-| 2026-08-12T19:53:08Z | github | repository | [dsh-openbiliclaw](https://github.com/whiteguo233/dsh-openbiliclaw) | whiteguo233 | core-and-ecosystem |
+| 2026-08-12T19:53:08Z | github | repository | [whiteguo233/dsh-openbiliclaw](https://github.com/whiteguo233/dsh-openbiliclaw) | whiteguo233 | core-and-ecosystem |
 | 2026-08-12T18:32:48Z | hacker_news | story | [https://news.ycombinator.com/item?id=49276732](https://news.ycombinator.com/item?id=49276732) | npn | core-and-ecosystem |
 | 2026-08-12T17:47:28Z | hacker_news | story | [DeepSeek v4 pro 0813 released](https://news.ycombinator.com/item?id=49276138) | alexwwang | core-and-ecosystem |
-| 2026-08-14 | github | repository | [dsh-web-review](https://github.com/CanglongCl/dsh-web-review) | CanglongCl | core-and-ecosystem |
-| 2026-08-13 | github | repository | [icetomoyo/dshworkflow](https://github.com/icetomoyo/dsh_workflow) | icetomoyo | agents-and-orchestration |
-| 2026-08-12T16:28:42Z | github | repository | [dsh-grok-tui](https://github.com/chen-001/dsh-grok-tui) | chen-001 | ui-and-desktop |
+| 2026-08-14 | github | repository | [CanglongCl/dsh-web-review](https://github.com/CanglongCl/dsh-web-review) | CanglongCl | core-and-ecosystem |
+| 2026-08-13 | github | repository | [icetomoyo/dsh_workflow](https://github.com/icetomoyo/dsh_workflow) | icetomoyo | core-and-ecosystem |
+| 2026-08-12T16:28:42Z | github | repository | [chen-001/dsh-grok-tui](https://github.com/chen-001/dsh-grok-tui) | chen-001 | ui-and-desktop |
 | 2026-08-13 | github | repository | [hellodigua/dsh-emoji](https://github.com/hellodigua/dsh-emoji) | hellodigua | core-and-ecosystem |
 | 2026-08-13 | github | repository | [ZSeven-W/dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) | ZSeven-W | core-and-ecosystem |
-| 2026-08-13 | github | repository | [Zhenyu98/dsh-context-doctor](https://github.com/Zhenyu98/dsh-context-doctor) | Zhenyu98 | operations-and-safety |
+| 2026-08-13 | github | repository | [Zhenyu98/dsh-context-doctor](https://github.com/Zhenyu98/dsh-context-doctor) | Zhenyu98 | ui-and-desktop |
 | 2026-08-12T15:14:19Z | github | repository | [HuanLinOTO/dsh-plugin-aigc-canvas](https://github.com/HuanLinOTO/dsh-plugin-aigc-canvas) | HuanLinOTO | core-and-ecosystem |
 | 2026-08-13 | github | repository | [NanmiCoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) | NanmiCoder | core-and-ecosystem |
 | 2026-08-13 | github | repository | [hellodigua/dsh-share](https://github.com/hellodigua/dsh-share) | hellodigua | core-and-ecosystem |
@@ -12474,7 +12474,7 @@
 | 2026-08-12T08:59:49Z | github | repository | [HuanLinOTO/dsh-plugin-better-sidebar-plugin-office](https://github.com/HuanLinOTO/dsh-plugin-better-sidebar-plugin-office) | HuanLinOTO | ui-and-desktop |
 | 2026-08-12T05:30:12Z | hacker_news | story | [Show HN: Pragma – Stop copying context between AI agents](https://news.ycombinator.com/item?id=49268135) | pqpo | core-and-ecosystem |
 | 2026-08-14 | github | repository | [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | zhu1090093659 | ui-and-desktop |
-| 2026-08-12T04:30:03Z | github | repository | [dsh-desktop](https://github.com/bruc3van/dsh-desktop) | bruc3van | ui-and-desktop |
+| 2026-08-12T04:30:03Z | github | repository | [bruc3van/dsh-desktop](https://github.com/bruc3van/dsh-desktop) | bruc3van | ui-and-desktop |
 | 2026-08-11T19:57:05Z | github | repository | [morluto/internalcot](https://github.com/morluto/internalcot) | morluto | core-and-ecosystem |
 | 2026-08-13 | github | repository | [alingalingling/ui-status-label](https://github.com/alingalingling/ui-status-label) | alingalingling | core-and-ecosystem |
 | 2026-08-13 | github | repository | [omdsh-dev/dsh-data-agent](https://github.com/omdsh-dev/dsh-data-agent) | omdsh-dev | core-and-ecosystem |
@@ -12483,9 +12483,9 @@
 | 2026-08-11T10:32:21Z | github | repository | [turtle1999/turtle-ui](https://github.com/turtle1999/turtle-ui) | turtle1999 | core-and-ecosystem |
 | 2026-08-13 | github | repository | [omdsh-dev/plugin-template](https://github.com/omdsh-dev/plugin-template) | omdsh-dev | core-and-ecosystem |
 | 2026-08-13 | github | repository | [Moeblack/deepseek-manners](https://github.com/Moeblack/deepseek-manners) | Moeblack | core-and-ecosystem |
-| 2026-08-11T06:26:39Z | github | repository | [dsh-plugin-skills](https://github.com/omdsh-dev/dsh-plugin-skills) | omdsh-dev | core-and-ecosystem |
-| 2026-08-14 | github | repository | [oh-dsh](https://github.com/hust-open-atom-club/oh-dsh) | hust-open-atom-club | core-and-ecosystem |
-| 2026-08-11T02:16:59Z | github | repository | [dsh-harness-ops](https://github.com/fakechris/dsh-harness-ops) | fakechris | core-and-ecosystem |
+| 2026-08-11T06:26:39Z | github | repository | [omdsh-dev/dsh-plugin-skills](https://github.com/omdsh-dev/dsh-plugin-skills) | omdsh-dev | core-and-ecosystem |
+| 2026-08-14 | github | repository | [hust-open-atom-club/oh-dsh](https://github.com/hust-open-atom-club/oh-dsh) | hust-open-atom-club | ui-and-desktop |
+| 2026-08-11T02:16:59Z | github | repository | [fakechris/dsh-harness-ops](https://github.com/fakechris/dsh-harness-ops) | fakechris | core-and-ecosystem |
 | 2026-08-13 | github | repository | [dingyi222666/dsh-focus-chat](https://github.com/dingyi222666/dsh-focus-chat) | dingyi222666 | core-and-ecosystem |
 | 2026-08-13 | github | repository | [omdsh-dev/dsh-annotation](https://github.com/omdsh-dev/dsh-annotation) | omdsh-dev | core-and-ecosystem |
 | 2026-08-13 | github | repository | [vlln/dsh-task-status](https://github.com/vlln/dsh-task-status) | vlln | core-and-ecosystem |
@@ -12496,52 +12496,52 @@
 | 2026-08-13 | github | repository | [HuanLinOTO/dsh-plugin-d399](https://github.com/HuanLinOTO/dsh-plugin-d399) | HuanLinOTO | core-and-ecosystem |
 | 2026-08-10T08:17:40Z | github | repository | [HuanLinOTO/dsh-plugin-ya-workspace-sidebar](https://github.com/HuanLinOTO/dsh-plugin-ya-workspace-sidebar) | HuanLinOTO | ui-and-desktop |
 | 2026-08-13 | github | repository | [omdsh-dev/dsh-security-audit](https://github.com/omdsh-dev/dsh-security-audit) | omdsh-dev | operations-and-safety |
-| 2026-08-10T05:09:06Z | github | repository | [dsh-plugin-pet-rs](https://github.com/HuanLinOTO/dsh-plugin-pet-rs) | HuanLinOTO | core-and-ecosystem |
+| 2026-08-10T05:09:06Z | github | repository | [HuanLinOTO/dsh-plugin-pet-rs](https://github.com/HuanLinOTO/dsh-plugin-pet-rs) | HuanLinOTO | ui-and-desktop |
 | 2026-08-13 | github | repository | [omdsh-dev/dsh-mnemon](https://github.com/omdsh-dev/dsh-mnemon) | omdsh-dev | ui-and-desktop |
 | 2026-08-13 | github | repository | [Nagi-ovo/dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | Nagi-ovo | ui-and-desktop |
 | 2026-08-09T17:20:11Z | github | repository | [HuanLinOTO/dsh-plugin-yet-another-subagent](https://github.com/HuanLinOTO/dsh-plugin-yet-another-subagent) | HuanLinOTO | ui-and-desktop |
 | 2026-08-13 | github | repository | [fakechris/dsh-track](https://github.com/fakechris/dsh-track) | fakechris | core-and-ecosystem |
 | 2026-08-09T08:44:29Z | hacker_news | story | [DeepSeek V4 Flash 0731: 82.7% on Terminal-Bench 2.1 with a public harness](https://news.ycombinator.com/item?id=49229621) | ubermon | core-and-ecosystem |
-| 2026-08-13 | github | repository | [HuanLinOTO/dsh-plugin-mineru](https://github.com/HuanLinOTO/dsh-plugin-mineru) | HuanLinOTO | core-and-ecosystem |
+| 2026-08-13 | github | repository | [HuanLinOTO/dsh-plugin-mineru](https://github.com/HuanLinOTO/dsh-plugin-mineru) | HuanLinOTO | multimedia-and-vision |
 | 2026-08-08T23:56:52Z | github | repository | [omdsh-dev/dsh-mygo](https://github.com/omdsh-dev/dsh-mygo) | omdsh-dev | core-and-ecosystem |
 | 2026-08-08T22:47:56Z | hacker_news | story | [Show HN: Try Benzi – A coding harness/agent beating Claude Code itself on Sonnet](https://news.ycombinator.com/item?id=49226627) | showhz | core-and-ecosystem |
 | 2026-08-13 | github | repository | [omdsh-dev/dsh-gomoku](https://github.com/omdsh-dev/dsh-gomoku) | omdsh-dev | core-and-ecosystem |
-| 2026-08-08T15:57:37Z | github | repository | [dsh-plugin-dev](https://github.com/omdsh-dev/dsh-plugin-dev) | omdsh-dev | core-and-ecosystem |
-| 2026-08-13 | github | repository | [omdsh-dev/dsh-plugin-check](https://github.com/omdsh-dev/dsh-plugin-check) | omdsh-dev | core-and-ecosystem |
+| 2026-08-08T15:57:37Z | github | repository | [omdsh-dev/dsh-plugin-dev](https://github.com/omdsh-dev/dsh-plugin-dev) | omdsh-dev | core-and-ecosystem |
+| 2026-08-13 | github | repository | [omdsh-dev/dsh-plugin-check](https://github.com/omdsh-dev/dsh-plugin-check) | omdsh-dev | index-and-marketplace |
 | 2026-08-08T14:46:54Z | github | repository | [Inference1/clarify-intent-and-establish-shared-understanding](https://github.com/Inference1/clarify-intent-and-establish-shared-understanding) | Inference1 | core-and-ecosystem |
 | 2026-08-13 | github | repository | [omdsh-dev/dsh-session-health](https://github.com/omdsh-dev/dsh-session-health) | omdsh-dev | core-and-ecosystem |
 | 2026-08-13 | github | repository | [omdsh-dev/dsh-toolkit](https://github.com/omdsh-dev/dsh-toolkit) | omdsh-dev | core-and-ecosystem |
 | 2026-08-13 | github | repository | [william-jin-cmu/dsh-stickers](https://github.com/william-jin-cmu/dsh-stickers) | william-jin-cmu | core-and-ecosystem |
-| 2026-08-13 | github | repository | [LoserFox/dsh-git-identity](https://github.com/LoserFox/dsh-git-identity) | LoserFox | core-and-ecosystem |
+| 2026-08-13 | github | repository | [LoserFox/dsh-git-identity](https://github.com/LoserFox/dsh-git-identity) | LoserFox | index-and-marketplace |
 | 2026-08-08T08:33:32Z | hacker_news | story | [Code harness for DeepSeek V4? OpenCode vs. pi vs. jcode vs. reasonix](https://news.ycombinator.com/item?id=49219916) | grigio | core-and-ecosystem |
 | 2026-08-08T08:33:12Z | github | repository | [agents-universe/agents-universe](https://github.com/agents-universe/agents-universe) | agents-universe | core-and-ecosystem |
 | 2026-08-08T06:01:23Z | github | repository | [unknowbug/RE-Framework](https://github.com/unknowbug/RE-Framework) | unknowbug | core-and-ecosystem |
 | 2026-08-13 | github | repository | [ccq1/dsh-side-panel](https://github.com/ccq1/dsh-side-panel) | ccq1 | core-and-ecosystem |
 | 2026-08-07T20:17:12Z | github | repository | [cosyncing/cosyncing](https://github.com/cosyncing/cosyncing) | cosyncing | ui-and-desktop |
-| 2026-08-07T16:48:49Z | github | repository | [dsh-advisor](https://github.com/omdsh-dev/dsh-advisor) | omdsh-dev | core-and-ecosystem |
+| 2026-08-07T16:48:49Z | github | repository | [omdsh-dev/dsh-advisor](https://github.com/omdsh-dev/dsh-advisor) | omdsh-dev | core-and-ecosystem |
 | 2026-08-14 | github | repository | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | omdsh-dev | ui-and-desktop |
 | 2026-08-07T13:47:07Z | github | repository | [KirschBluteX/engineer-software](https://github.com/KirschBluteX/engineer-software) | KirschBluteX | core-and-ecosystem |
-| 2026-08-07T13:21:02Z | github | repository | [dsh-sidechain](https://github.com/omdsh-dev/dsh-sidechain) | omdsh-dev | core-and-ecosystem |
+| 2026-08-07T13:21:02Z | github | repository | [omdsh-dev/dsh-sidechain](https://github.com/omdsh-dev/dsh-sidechain) | omdsh-dev | ui-and-desktop |
 | 2026-08-07T10:44:44Z | bilibili | video | [DeepSeek V4接入Codex完整实战：从0开发AI数据分析Agent，40轮提示词驱动300万行数据分析，自动生成可追溯数据报告](https://www.bilibili.com/video/BV1Rtut6FEW3) | 赋范课堂 | core-and-ecosystem |
-| 2026-08-07T08:13:54Z | github | repository | [ego-browser](https://github.com/Fisfzy/ego-browser) | Fisfzy | core-and-ecosystem |
+| 2026-08-07T08:13:54Z | github | repository | [Fisfzy/ego-browser](https://github.com/Fisfzy/ego-browser) | Fisfzy | core-and-ecosystem |
 | 2026-08-13 | github | repository | [lzszq/dsh-scholar](https://github.com/lzszq/dsh-scholar) | lzszq | core-and-ecosystem |
 | 2026-08-13 | github | repository | [omdsh-dev/dsh-inspect](https://github.com/omdsh-dev/dsh-inspect) | omdsh-dev | core-and-ecosystem |
 | 2026-08-14 | github | repository | [Lum1104/dsh-browser](https://github.com/Lum1104/dsh-browser) | Lum1104 | ui-and-desktop |
 | 2026-08-13 | github | repository | [omdsh-dev/fabric](https://github.com/omdsh-dev/fabric) | omdsh-dev | core-and-ecosystem |
 | 2026-08-13 | github | repository | [omdsh-dev/dsh-deep-research](https://github.com/omdsh-dev/dsh-deep-research) | omdsh-dev | core-and-ecosystem |
 | 2026-08-13 | github | repository | [Moeblack/dsh-message-edit](https://github.com/Moeblack/dsh-message-edit) | Moeblack | core-and-ecosystem |
-| 2026-08-13 | github | repository | [bill9109/dsh-drag-and-drop](https://github.com/bill9109/dsh-drag-and-drop) | bill9109 | core-and-ecosystem |
+| 2026-08-13 | github | repository | [bill9109/dsh-drag-and-drop](https://github.com/bill9109/dsh-drag-and-drop) | bill9109 | ui-and-desktop |
 | 2026-08-05T20:35:59Z | hacker_news | story | [Show HN: Command Code GOAT, $10/month for $70 of credits across 30 models](https://news.ycombinator.com/item?id=49188656) | ahmadawais | core-and-ecosystem |
 | 2026-08-05T14:54:00Z | github | repository | [ginuim/multi-screen-wireframe](https://github.com/ginuim/multi-screen-wireframe) | ginuim | core-and-ecosystem |
 | 2026-08-05T06:53:09Z | github | repository | [csyangwen/dsh-memory-evolve](https://github.com/csyangwen/dsh-memory-evolve) | csyangwen | core-and-ecosystem |
-| 2026-08-13 | github | repository | [bill9109/dsh-web-ui-notify](https://github.com/bill9109/dsh-web-ui-notify) | bill9109 | ui-and-desktop |
-| 2026-08-05T03:32:37Z | github | repository | [dsh-vision](https://github.com/william-jin-cmu/dsh-vision) | william-jin-cmu | multimedia-and-vision |
+| 2026-08-13 | github | repository | [bill9109/dsh-web-ui-notify](https://github.com/bill9109/dsh-web-ui-notify) | bill9109 | core-and-ecosystem |
+| 2026-08-05T03:32:37Z | github | repository | [william-jin-cmu/dsh-vision](https://github.com/william-jin-cmu/dsh-vision) | william-jin-cmu | multimedia-and-vision |
 | 2026-08-13 | github | repository | [omdsh-dev/dsh-tool-calculator](https://github.com/omdsh-dev/dsh-tool-calculator) | omdsh-dev | core-and-ecosystem |
 | 2026-08-04T21:46:54Z | github | repository | [AdamPlatin123/awesome-dsh-plugins](https://github.com/AdamPlatin123/awesome-dsh-plugins) | AdamPlatin123 | index-and-marketplace |
 | 2026-08-13 | github | repository | [LoserFox/telegram](https://github.com/LoserFox/telegram) | LoserFox | core-and-ecosystem |
 | 2026-08-13 | github | repository | [LoserFox/distill](https://github.com/LoserFox/distill) | LoserFox | agents-and-orchestration |
 | 2026-08-04T17:29:53.000Z | x | post | [Tianyi Cui @tianyi · Aug 5 如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skil](https://x.com/tianyi/status/2084693319188439211) |  | index-and-marketplace |
-| 2026-08-14 | github | repository | [vlln/plugin-registry](https://github.com/vlln/plugin-registry) | vlln | docs-and-learning |
+| 2026-08-14 | github | repository | [vlln/plugin-registry](https://github.com/vlln/plugin-registry) | vlln | core-and-ecosystem |
 | 2026-08-04T04:30:58Z | github | repository | [AMAP-ML/LongHorizon-Harness](https://github.com/AMAP-ML/LongHorizon-Harness) | AMAP-ML | ui-and-desktop |
 | 2026-08-03T07:44:45Z | github | repository | [zenx0x/allinluna](https://github.com/zenx0x/allinluna) | zenx0x | agents-and-orchestration |
 | 2026-08-03T03:16:48Z | github | repository | [pulseaiclub/phi](https://github.com/pulseaiclub/phi) | pulseaiclub | operations-and-safety |
@@ -12645,7 +12645,7 @@
 | 2026-04-07T10:08:59Z | github | repository | [TencentCloud/tencentmeeting-cli](https://github.com/TencentCloud/tencentmeeting-cli) | TencentCloud | core-and-ecosystem |
 | 2026-04-07T06:34:26Z | github | repository | [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | TencentCloud | index-and-marketplace |
 | 2026-04-06T10:33:23Z | github | repository | [YunTaiHua/illusion-agent](https://github.com/YunTaiHua/illusion-agent) | YunTaiHua | core-and-ecosystem |
-| 2026-04-05T12:02:23Z | github | repository | [TokenTracker](https://github.com/xiufengsun/TokenTracker) | xiufengsun | operations-and-safety |
+| 2026-04-05T12:02:23Z | github | repository | [xiufengsun/TokenTracker](https://github.com/xiufengsun/TokenTracker) | xiufengsun | operations-and-safety |
 | 2026-04-03T15:49:07Z | github | repository | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | Graphify-Labs | core-and-ecosystem |
 | 2026-04-03T14:09:27Z | github | repository | [yejiming/MuseAI](https://github.com/yejiming/MuseAI) | yejiming | core-and-ecosystem |
 | 2026-04-01T15:37:13Z | github | repository | [HKUDS/OpenHarness](https://github.com/HKUDS/OpenHarness) | HKUDS | core-and-ecosystem |
