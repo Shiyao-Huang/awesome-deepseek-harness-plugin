@@ -9,3 +9,4 @@ data/raw/forks/
 .gitnexus/
 data/*.sqlite3.pre-*
 data/index.sqlite
+data/aggregator.sqlite3

@@ -499,7 +499,7 @@ def page_head(title: str, description: str, canonical: str, image: str, config: 
 def nav_html(prefix: str = "") -> str:
     """Render the store navigation used by all static pages."""
 
-    return f"""<header class="site-header"><a class="brand" href="{prefix}"><span class="brand-mark">dsh</span><span>store</span></a><nav><a class="nav-active" href="{prefix}">Directory</a><a href="{prefix}#hot">Hot</a><a href="{prefix}timeline.html">Timeline</a><a href="{prefix}directories.html">Directories</a></nav><a class="header-source" href="https://github.com/Shiyao-Huang/awesome-deepseek-harness-plugin">GitHub <span aria-hidden="true">↗</span></a></header>"""
+    return f"""<header class="site-header"><a class="brand" href="{prefix}"><span class="brand-mark">dsh</span><span>store</span></a><nav><a class="nav-active" href="{prefix}">Directory</a><a href="{prefix}#hot">Hot</a><a href="{prefix}timeline.html">Timeline</a><a href="{prefix}directories.html">Directories</a><a href="{prefix}sources.html">Sources</a></nav><a class="header-source" href="https://github.com/Shiyao-Huang/awesome-deepseek-harness-plugin">GitHub <span aria-hidden="true">↗</span></a></header>"""
 
 
 def footer_html(prefix: str = "", *, data_path: str, readme_path: str | None = None, seo_path: str | None = None) -> str:
@@ -694,6 +694,35 @@ def render_directories_page(records: list[dict[str, object]], config: dict[str, 
     return table_page("directories", "Other directories & sites", "浏览社区维护的插件目录、市场、发现工具与网站；每个项目和站内其他记录一样展示公开指标、简介和访问入口。", body, config)
 
 
+def render_sources_page(db: sqlite3.Connection, config: dict[str, str]) -> str:
+    """Render public platform provenance without internal monitoring targets."""
+
+    rows = db.execute(
+        """
+        SELECT s.platform, s.display_name, s.base_url, s.collection_mode, s.terms_url,
+               (SELECT COUNT(*) FROM items AS i WHERE i.platform = s.platform) AS record_count,
+               (SELECT COUNT(*) FROM observations AS o WHERE o.source_id = s.id) AS observation_count,
+               (SELECT COUNT(DISTINCT o.raw_snapshot_id) FROM observations AS o WHERE o.source_id = s.id) AS raw_snapshot_count,
+               COALESCE(
+                   (SELECT MAX(o.collected_at) FROM observations AS o WHERE o.source_id = s.id),
+                   (SELECT MAX(i.last_seen_at) FROM items AS i WHERE i.platform = s.platform)
+               ) AS last_observed_at
+        FROM sources AS s
+        ORDER BY record_count DESC, s.platform
+        """
+    ).fetchall()
+    body_rows = []
+    for row in rows:
+        source_label = esc(row["display_name"])
+        source_link = f'<a href="{esc(row["base_url"], attribute=True)}" rel="noreferrer">{source_label}</a>' if valid_url(row["base_url"]) else source_label
+        policy_link = f'<a href="{esc(row["terms_url"], attribute=True)}" rel="noreferrer">policy ↗</a>' if valid_url(row["terms_url"]) else "—"
+        body_rows.append(
+            f'<tr><td>{source_link}<br><code>{esc(row["platform"])}</code></td><td>{esc(row["collection_mode"])}</td><td>{int(row["record_count"]):,}</td><td>{int(row["observation_count"]):,}</td><td>{int(row["raw_snapshot_count"]):,}</td><td>{esc(date_label(row["last_observed_at"]))}</td><td>{policy_link}</td></tr>'
+        )
+    body = f'<section class="table-section"><div class="table-caption"><strong>{len(rows):,}</strong> public platforms · internal monitoring targets are intentionally excluded</div><div class="table-scroll"><table class="data-table"><thead><tr><th>Platform</th><th>Collection mode</th><th>Records</th><th>Observations</th><th>Raw snapshots</th><th>Last observed</th><th>Policy</th></tr></thead><tbody>{"".join(body_rows)}</tbody></table></div></section>'
+    return table_page("sources", "Sources & provenance", "公开展示来源平台、允许的采集方式、记录量、原始快照量和最近观测时间；不公开本站内部监控仓库或查询目标。", body, config)
+
+
 def write_store_site(db: sqlite3.Connection, dataset_version: str, generated_at: str) -> None:
     """Write the homepage, detail pages, catalog JSON, and SEO files."""
 
@@ -721,12 +750,11 @@ def write_store_site(db: sqlite3.Connection, dataset_version: str, generated_at:
     (DOCS / "timeline.html").write_text(render_timeline_page(db, dataset_version, config), encoding="utf-8")
     (DOCS / "categories.html").write_text(render_categories_page(records, config), encoding="utf-8")
     (DOCS / "directories.html").write_text(render_directories_page(records, config), encoding="utf-8")
-    (DOCS / "sources.html").unlink(missing_ok=True)
-    (DOCS / "sources.md").unlink(missing_ok=True)
+    (DOCS / "sources.html").write_text(render_sources_page(db, config), encoding="utf-8")
     for record in records:
         (SKILLS / f"{record['id']}.html").write_text(render_detail(record, dataset_version, generated_at, config), encoding="utf-8")
     site_url = config["site_url"].rstrip("/")
-    sitemap_paths = ["/", "/report.html", "/timeline.html", "/categories.html", "/directories.html", "/forks.html"] + [f"/skills/{record['id']}.html" for record in records]
+    sitemap_paths = ["/", "/report.html", "/timeline.html", "/categories.html", "/directories.html", "/sources.html", "/forks.html"] + [f"/skills/{record['id']}.html" for record in records]
     sitemap = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n" + "\n".join(
         f"  <url><loc>{html.escape(site_url + path)}</loc></url>" for path in sitemap_paths
     ) + "\n</urlset>\n"

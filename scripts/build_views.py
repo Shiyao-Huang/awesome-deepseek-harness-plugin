@@ -164,7 +164,40 @@ def write_directories(connection: sqlite3.Connection) -> None:
         description = str(record["description"] or "").replace("|", "\\|")
         lines.append(f'| [{record["title"]}]({record["url"]}) | {record["platform_label"]} | {signal} | {description} |')
     (DOCS / "directories.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
-    (DOCS / "sources.md").unlink(missing_ok=True)
+
+
+def write_sources(connection: sqlite3.Connection) -> None:
+    """Write public platform provenance without internal monitoring targets."""
+
+    rows = connection.execute(
+        """
+        SELECT s.platform, s.display_name, s.base_url, s.collection_mode, s.terms_url,
+               (SELECT COUNT(*) FROM items AS i WHERE i.platform = s.platform) AS record_count,
+               (SELECT COUNT(*) FROM observations AS o WHERE o.source_id = s.id) AS observation_count,
+               (SELECT COUNT(DISTINCT o.raw_snapshot_id) FROM observations AS o WHERE o.source_id = s.id) AS raw_snapshot_count,
+               COALESCE(
+                   (SELECT MAX(o.collected_at) FROM observations AS o WHERE o.source_id = s.id),
+                   (SELECT MAX(i.last_seen_at) FROM items AS i WHERE i.platform = s.platform)
+               ) AS last_observed_at
+        FROM sources AS s
+        ORDER BY record_count DESC, s.platform
+        """
+    ).fetchall()
+    lines = [
+        "# Sources & provenance",
+        "",
+        "公开来源平台、允许的采集方式、记录量、原始快照量和最近观测时间。本站内部监控仓库与查询目标不属于公开 Sources 投影。",
+        "",
+        "| 平台 | 采集方式 | 记录 | 观测 | raw 快照 | 最近观测 | 平台政策 |",
+        "| --- | --- | ---: | ---: | ---: | --- | --- |",
+    ]
+    for row in rows:
+        source = f'[{esc(row["display_name"])}]({row["base_url"]})' if row["base_url"] else esc(row["display_name"])
+        policy = f'[policy]({row["terms_url"]})' if row["terms_url"] else "—"
+        lines.append(
+            f'| {source} (`{esc(row["platform"])}`) | {esc(row["collection_mode"])} | {int(row["record_count"]):,} | {int(row["observation_count"]):,} | {int(row["raw_snapshot_count"]):,} | {esc(row["last_observed_at"] or "—")} | {policy} |'
+        )
+    (DOCS / "sources.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def write_timeline(connection: sqlite3.Connection) -> None:
@@ -306,6 +339,7 @@ def main() -> None:
             dataset_version, generated_at = str(run[0]), str(run[1])
         write_index(connection, generated_at, dataset_version)
         write_directories(connection)
+        write_sources(connection)
         write_timeline(connection)
         write_categories(connection)
         write_report(connection, f"{dataset_version} · {generated_at}")
