@@ -1,0 +1,25 @@
+{
+  "harvestedAt": "2026-08-15T05:30:00Z",
+  "method": "ego-browser visible DOM capture",
+  "pageUrl": "https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw",
+  "title": "DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了",
+  "author": "量子位",
+  "published": "2026年8月15日 13:30",
+  "ogDesc": null,
+  "ogImage": "https://mmbiz.qpic.cn/mmbiz_png/A6fTew8FFGGSLmV2gCsm8sp4r5ZYX1b29600TvCjVHTR6f6U9TVW4PXOpJic9Wdx8oG0aKYzPdTCzD7cDkB9ichwicdjnsY7RwA7H7VR96Llrg/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1",
+  "sample": "梦瑶 发自 凹非寺\n量子位 | 公众号 QbitAI\n\nDeepSeek Harness 这下真快被网友「插成万物」了。小黑鲸上线还没多久，单单在 GitHub 上打着 dsh-plugin 标签的公开仓库，就已经冲到了 700+ 个。有人给它装浏览器、长期记忆、数据库和任务管理；有人接入视觉模型；还有电子宠物、像素鲸鱼和 18 款小游戏。\n\n文章指出 DeepSeek Harness 的核心口号是 Everything is a Plugin，并介绍了社区目录中的开发工具、Agent 编排、效率协作、数据研究、DevOps、AI 设计与媒体插件。文中重点介绍 dsh-agent-teams、DSH Better Sidebar、dsh-at-file、dsh-memory-evolve、dsh-plugin-claude-bridge、dsh-claude-move 和 ModLens。\n\n文章还列出 dsh-github-connector、context-vista、dsh-undo、dsh-record-replay、dsh-obsidian-export、dsh-share、dsh-TUI、dsh-web-ui、dsh-ads、dsh-minigames 和 deepseek-manners 等例子，并称开发者正在把 Harness 做成可组合的社区生态。\n\n参考链接：\nhttps://github.com/topics/dsh-plugin\nhttps://github.com/Dominic789654/awesome-deepseek-harness\nhttps://github.com/omdsh-dev\nhttps://github.com/Alex-Yanggg/awesome-DSH-plugin\n\n页面底部提供「点赞」「分享」「在看」「留言」等交互入口；本次 raw 只记录公开可见页面内容，不记录登录态或私密互动数。",
+  "links": [
+    "https://github.com/topics/dsh-plugin",
+    "https://github.com/Dominic789654/awesome-deepseek-harness",
+    "https://github.com/omdsh-dev",
+    "https://github.com/Alex-Yanggg/awesome-DSH-plugin"
+  ],
+  "engageText": "点赞；分享；在看；留言",
+  "interactionCounters": {
+    "likes": null,
+    "shares": null,
+    "recommendations": null,
+    "comments": null
+  },
+  "rightsNote": "公开可见页面证据；图片保留外链，不镜像或再分发。"
+}

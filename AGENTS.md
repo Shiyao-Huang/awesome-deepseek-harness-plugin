@@ -21,6 +21,7 @@ config/         source lists and collection limits
 - A raw file is the original public response or visible DOM capture, not a rewritten summary.
 - Raw files are immutable after import. A changed page creates a new dated file.
 - Every raw file must have a UTC collection time, source URL, collector, method, status, and SHA-256 recorded in SQLite. The full archive retains its exact UTF-8 JSON in `raw_snapshots.payload_json`; the public projection retains SHA/path/date provenance and replaces duplicated JSON blobs with `{}`.
+- Every checked-in non-Fork raw path is unique and its bytes must match the SHA-256 recorded by `raw_snapshots`. Fork API pages remain release-only payloads in the full archive because their expanded form exceeds normal Git repository limits.
 - The same raw SHA-256 is imported once. Re-running a command must not create another raw snapshot or another item observation for that exact file.
 - Public-only collection is allowed. Do not bypass login, CAPTCHA, QR code, paywalls, rate limits, robots controls, or platform access restrictions.
 - Store external media URLs and rights notes by default. Do not mirror third-party media without permission.
@@ -95,7 +96,7 @@ Never use a destructive database reset or delete raw evidence to make a check pa
 <!-- gitnexus:start -->
 # GitNexus — Code Intelligence
 
-This project is indexed by GitNexus as **awesome-deepseek-harness-plugin** (13467 symbols, 14352 relationships, 58 execution flows). Use the GitNexus MCP tools to understand code, assess impact, and navigate safely.
+This project is indexed by GitNexus as **awesome-deepseek-harness-plugin** (13503 symbols, 14423 relationships, 61 execution flows). Use the GitNexus MCP tools to understand code, assess impact, and navigate safely.
 
 > Index stale? Run `node .gitnexus/run.cjs analyze` from the project root — it auto-selects an available runner. No `.gitnexus/run.cjs` yet? `npx gitnexus analyze` (npm 11 crash → `npm i -g gitnexus`; #1939).
 
