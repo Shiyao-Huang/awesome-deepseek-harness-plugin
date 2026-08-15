@@ -6,13 +6,13 @@ DeepSeek Harness / DSH 插件生态的公开资料聚合 repo：把 GitHub 仓�
 
 ## 当前快照
 
-本地 SQLite 当前包含 **782 条去重记录**、**13 个来源平台**、**756 条指标历史**、**551 个媒体资产引用**和 **75 个去重 raw snapshot**。raw snapshot 不是摘要：`raw_snapshots.payload_json` 保存原始 JSON 文本本身，并同时保存 SHA-256、原始路径、字节数、采集时间和采集批次。
+本地 SQLite 当前包含 **848 条去重记录**、**13 个来源平台**、**909 条指标历史**、**613 个媒体资产引用**和 **81 个去重 raw snapshot**。raw snapshot 不是摘要：`raw_snapshots.payload_json` 保存原始 JSON 文本本身，并同时保存 SHA-256、原始路径、字节数、采集时间和采集批次。
 
 | 来源 | 去重记录 | 采集内容 |
 | --- | ---: | --- |
-| GitHub | 636 | 官方仓库、`dsh-plugin` topic、社区索引候选、stars/forks/issues |
+| GitHub | 684 | 官方仓库、`dsh-plugin` topic、社区索引候选、stars/forks/issues |
 | X | 43 | 公开帖子、图片/视频链接、replies/reposts/likes/bookmarks/views |
-| Hacker News | 26 | 精确短语与扩展搜索、points/comments、帖子链接 |
+| Hacker News | 44 | 精确短语与扩展搜索、points/comments、帖子链接 |
 | 小红书 | 25 | 搜索卡片、作者、相对时间、点赞、缩略图；详情页限制保留在 provenance |
 | Open Web | 22 | 文章/教程/报道的公开元数据和摘要 |
 | YouTube | 13 | 视频标题、频道、观看数、视频链接和缩略图 |

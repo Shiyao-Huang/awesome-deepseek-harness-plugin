@@ -1,0 +1,23 @@
+{
+ "harvestedAt": "2026-08-15T07:40:39.345Z",
+ "method": "ego-browser DOM detail (human-flow element click)",
+ "pageUrl": "https://www.xiaohongshu.com/explore/6a7edd44000000002202e3d9?xsec_token=ABh7EHrmlWSRYWrz0xBNEhIMsSA8SbPk-PcUf60Ir6Aqc=&xsec_source=pc_search&source=web_explore_feed",
+ "hasModal": true,
+ "title": "DeepseekHraness还没捂热，插件社区就来了",
+ "content": "Deepseek Harness才刚发布，已经在GitHub上收获65.9k的star！\n\t\n一行命令安装方法：npx @deepseek-ai/dsh web\n\t\n除了便捷的安装之外，最强的就是它无损拔插的插件系统。\n\t\nDSH的核心理念是：“一切皆插件”——模型、工具、skills、会话、沙箱、Agent loop、UI，全部可以热插拔。\n\t\n这意味着你拿到的DSH只是空壳，它能做什么，有多强大，取决于你给它插上什么插件？\n\t\n这个DSH插件社区收录了140多个热门插件，分类覆盖了记忆、子Agent、视觉和工作流。 这个站最有价值的不是聚合，而是做合规与权限标注。 每个插件直接把 Manifest 识别结果、安装脚本、Shell 权限和外部数据传输标出来。\n\t\n玩 Harness 的体验真实非常快，并且相比codex少了很多权限申请的弹窗，但这也恰恰是风险所在，不知道第三方插件到底拿了什么权限。强烈建议把安全排雷的前置工作提前做好！\n\t\n社区地址见评论区\n\t\n#DeepSeek #DeepSeekharness #howto入门ai",
+ "author": "AI拯救打工人（幻觉版）",
+ "dateText": "昨天 17:17 上海",
+ "engageText": "马克波MarkWave 关注 DeepseekHraness还没捂热，插件社区就来了 Deepseek Harness才刚发布，已经在GitHub上收获65.9k的star！ 一行命令安装方法：npx @deepseek-ai/dsh web 除了便捷的安装之外，最强的就是它无损拔插的插件系统。 DSH的核心理念是：“一切皆插件”——模型、工具、skills、会话、沙箱、Agent loop、UI，全部可以热插拔。 这意味着你拿到的DSH只是空壳，它能做什么，有多强大，取决于你给它插上什么插件？ 这个DSH插件社区收录了140多个热门插件，分类覆盖了记忆、子Agent、视觉和工作流。 这个站最",
+ "comments": [
+  "momo 没有官方的插件社区或商城吗 昨天 20:44广西 赞 4",
+  "momo 没有官方的插件社区或商城吗 昨天 20:44广西 赞 4",
+  "马克波MarkWave 作者 目前还没有，后续应该会推出 昨天 20:45上海 赞 回复",
+  "马克波MarkWave 作者 目前还没有，后续应该会推出 昨天 20:45上海 赞 回复",
+  "悉尼虫叔 这是70后老大爷的DSH,嗲伐？ 昨天 22:37天津 2 1",
+  "悉尼虫叔 这是70后老大爷的DSH,嗲伐？ 昨天 22:37天津 2 1",
+  "马克波MarkWave 作者 爆改DSH界面很有热点 昨天 23:00上海 1 回复",
+  "马克波MarkWave 作者 爆改DSH界面很有热点 昨天 23:00上海 1 回复",
+  "楼田莉子 怎么还没发 昨天 17:41黑龙江 赞 1",
+  "楼田莉子 怎么还没发 昨天 17:41黑龙江 赞 1"
+ ]
+}

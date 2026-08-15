@@ -1,0 +1,23 @@
+{
+ "harvestedAt": "2026-08-15T07:40:31.016Z",
+ "method": "ego-browser DOM detail (human-flow element click)",
+ "pageUrl": "https://www.xiaohongshu.com/explore/6a7fc6a90000000024025fef?xsec_token=ABo67d0-RtIV1opH940lVtTuOaRjGyoCPqvwKmIfmovlg=&xsec_source=pc_search&source=web_explore_feed",
+ "hasModal": true,
+ "title": "DeepSeek Harness的过度设计与 Pi 的极简",
+ "content": "DeepSeek Harness 发布后，很多人都说太重、太工程化、普通人根本玩不动，是技术工程师的理想主义。\n\t\n但一个很有意思的反差出现了：Pi 背后的 Armin Ronacher，反而被它启发了。\n\t\n他连续发了几条：\n“我很喜欢 DeepSeek Harness 里看到的东西。”\n“它让我重新思考我们在 Pi 中如何处理 Harness。”\n\t\n这就有意思了，因为 Pi 和 DeepSeek Harness，几乎代表了 Agent Harness 的两个极端。\n\t\nPi 崇尚极简：给 Agent read / write / edit / bash 这些基本原语，模型够聪明的话，很多能力自己组合、自己扩展。\nDeepSeek Harness 却反过来：Everything is a Plugin。Model、Tool、Skill、Session、Sandbox、Filesystem，甚至 Agent Loop 和 Orchestration，都可以拆掉、替换、重新组合。\n所以有人吐槽它像“Agent 界的 Linux”：自由度极高，但你得会开。\n\t\n但我觉得，DSH 真正有意思的地方，恰恰不是它能不能成为另一个 Claude Code。\n而是它把 Harness 本身变成了 Agent 可以操作的对象。\n以前我们优化 Agent：Prompt Engineering 到 Context Engineering 再到 Harness Engineering\n下一步可能就是：Harness Evolution。\n\t\n也就是说：未来可能不是人给 Agent 设计一套“完美 Harness”，而是给它一个可以不断改造自己的 Runtime。\n\t\nPi 的答案是：Harness 越薄越好，让聪明的模型自己长能力。\nDeepSeek 的答案则是：Harness 可以很复杂，但一切都必须可替换、可重构。\n\t\n两条看起来完全相反的路线，最后可能殊途同归：让 Agent 开始改造自己的运行环境。\n\t\n所以现在纠结 DSH “好不好用”，可能真的看早了。\n\t\n当模型足够聪明以后，Harness 还应该由人类设计吗？\n\t\n#DeepSeek  #DeepSeekHarness  #Agent  #AIAgent  #智能体  #ClaudeCode  #Pi  #Harness  #Agent工程 #howto入门vibecoding",
+ "author": "AI拯救打工人（幻觉版）",
+ "dateText": "5小时前 新加坡",
+ "engageText": "AI拯救打工人（幻觉版） 关注 DeepSeek Harness的过度设计与 Pi 的极简 DeepSeek Harness 发布后，很多人都说太重、太工程化、普通人根本玩不动，是技术工程师的理想主义。 但一个很有意思的反差出现了：Pi 背后的 Armin Ronacher，反而被它启发了。 他连续发了几条： “我很喜欢 DeepSeek Harness 里看到的东西。” “它让我重新思考我们在 Pi 中如何处理 Harness。” 这就有意思了，因为 Pi 和 DeepSeek Harness，几乎代表了 Agent Harness 的两个极端。 Pi 崇尚极简：给 Agent read /",
+ "comments": [
+  "AI拯救打工人（幻觉版） 作者 欢迎大家进一步探讨 大模型闲聊八卦群（2群） 置顶评论 23分钟前广东 赞 回复",
+  "AI拯救打工人（幻觉版） 作者 欢迎大家进一步探讨 大模型闲聊八卦群（2群） 置顶评论 23分钟前广东 赞 回复",
+  "木鱼的AI闲聊站 Pi 以前好像也有过 self evolving 的想法，会不会这次借着 ds harness 也往这个方向演进 5小时前广东 5 7",
+  "木鱼的AI闲聊站 Pi 以前好像也有过 self evolving 的想法，会不会这次借着 ds harness 也往这个方向演进 5小时前广东 5 7",
+  "AI拯救打工人（幻觉版） 作者 目前 pi 和 dsh（单身汉） 都是给技术圈 geek 用的？ 5小时前广东 1 回复",
+  "AI拯救打工人（幻觉版） 作者 目前 pi 和 dsh（单身汉） 都是给技术圈 geek 用的？ 5小时前广东 1 回复",
+  "智不通 5小时前福建 6 2",
+  "智不通 5小时前福建 6 2",
+  "AI拯救打工人（幻觉版） 作者 开源的好处 5小时前广东 5 回复",
+  "AI拯救打工人（幻觉版） 作者 开源的好处 5小时前广东 5 回复"
+ ]
+}

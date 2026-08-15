@@ -374,7 +374,7 @@
 | 2026-08-14 | github | repository | [dsh-undo-plugin](https://github.com/lire1131/dsh-undo-plugin) | lire1131 | core-and-ecosystem |
 | 2026-08-14T05:13:10Z | github | repository | [WEP-56/DSH-Launcher](https://github.com/WEP-56/DSH-Launcher) | WEP-56 | core-and-ecosystem |
 | 2026-08-14T05:03:24Z | github | repository | [AHGGG/dsh-side-chat](https://github.com/AHGGG/dsh-side-chat) | AHGGG | core-and-ecosystem |
-| 2026-08-14 | github | repository | [dsh-market](https://github.com/dsh-market/dsh-market) | dsh-market | core-and-ecosystem |
+| 2026-08-14 | github | repository | [dsh-market/dsh-market](https://github.com/dsh-market/dsh-market) | dsh-market | core-and-ecosystem |
 | 2026-08-14T04:44:15Z | github | repository | [suzike/freestyle-dsh-theme](https://github.com/suzike/freestyle-dsh-theme) | suzike | ui-and-desktop |
 | 2026-08-14T04:32:18Z | github | repository | [BruzWJ/Liang-Saint-Slider](https://github.com/BruzWJ/Liang-Saint-Slider) | BruzWJ | core-and-ecosystem |
 | 2026-08-14T04:27:16Z | github | repository | [Clizo1209/dsh-playwright-browser](https://github.com/Clizo1209/dsh-playwright-browser) | Clizo1209 | core-and-ecosystem |
@@ -458,7 +458,7 @@
 | 2026-08-13T19:04:01Z | github | repository | [Max-Samson/dsh-usage-chart](https://github.com/Max-Samson/dsh-usage-chart) | Max-Samson | operations-and-safety |
 | 2026-08-13T19:01:47Z | github | repository | [jelly-000/dsh-balance-monitor](https://github.com/jelly-000/dsh-balance-monitor) | jelly-000 | ui-and-desktop |
 | 2026-08-14 | github | repository | [dsh-webui-market-plugin](https://github.com/Sanqi-normal/dsh-webui-market-plugin) | Sanqi-normal | index-and-marketplace |
-| 2026-08-14 | github | repository | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | ysr666 | multimedia-and-vision |
+| 2026-08-14 | github | repository | [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | ysr666 | multimedia-and-vision |
 | 2026-08-14 | github | repository | [dsh-balance-meter](https://github.com/Ghost011118/dsh-balance-meter) | Ghost011118 | operations-and-safety |
 | 2026-08-13T18:25:27.000Z | x | post | [Akshay @akshay_pachaar · Aug 14 DeepSeek has open-sourced DeepSeek Harness. (crossed 35k stars in a few hours) it is built around one core i](https://x.com/akshay_pachaar/status/2087968793637343514) | Akshay | core-and-ecosystem |
 | 2026-08-13T18:22:53.000Z | x | post | [BruzWJ @BruzWJ · Aug 14 Asked DeepSeek-Harness to integrate the liang-intensity-calibrator repo from @lichtspektrum to be the DeepSeek model](https://x.com/BruzWJ/status/2087968145114120691) | BruzWJ | core-and-ecosystem |
@@ -488,7 +488,7 @@
 | 2026-08-13T16:40:44.575000+0000 | reddit | post | [Deepseek Harness is on whole different level](https://www.reddit.com/r/DeepSeek/comments/1vnfz2l/deepseek_harness_is_on_whole_different_level) | VEHICOULE_ | core-and-ecosystem |
 | 2026-08-13T16:39:32Z | github | repository | [01Virex/dsh-status-rotator](https://github.com/01Virex/dsh-status-rotator) | 01Virex | core-and-ecosystem |
 | 2026-08-14 | github | repository | [billion-context-dsh](https://github.com/Tyan66666/billion-context-dsh) | Tyan66666 | core-and-ecosystem |
-| 2026-08-13T16:30:50Z | github | repository | [deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | anywhere-labs | ui-and-desktop |
+| 2026-08-13T16:30:50Z | github | repository | [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | anywhere-labs | ui-and-desktop |
 | 2026-08-14 | github | repository | [dsh-web-search-pro](https://github.com/anweat/dsh-web-search-pro) | anweat | index-and-marketplace |
 | 2026-08-13T16:29:16Z | github | repository | [sliverp/DeepSeek-harness-qqbot](https://github.com/sliverp/DeepSeek-harness-qqbot) | sliverp | multimedia-and-vision |
 | 2026-08-13T16:26:50Z | github | repository | [2BingLing/dsh-market](https://github.com/2BingLing/dsh-market) | 2BingLing | index-and-marketplace |
@@ -541,7 +541,7 @@
 | 2026-08-13T14:04:04Z | github | repository | [steven-kid/deepseek-harness-desktop](https://github.com/steven-kid/deepseek-harness-desktop) | steven-kid | ui-and-desktop |
 | 2026-08-13T14:01:05Z | github | repository | [dsh-plugin-claude-bridge](https://github.com/YYTbit/dsh-plugin-claude-bridge) | YYTbit | core-and-ecosystem |
 | 2026-08-13T13:59:53Z | github | repository | [dsh-better-browser](https://github.com/titanwings/dsh-better-browser) | titanwings | core-and-ecosystem |
-| 2026-08-13T13:55:31Z | github | repository | [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | awesome-dsh-plugin | index-and-marketplace |
+| 2026-08-13T13:55:31Z | github | repository | [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | awesome-dsh-plugin | index-and-marketplace |
 | 2026-08-13T13:54:05Z | github | repository | [awesome-deepseek-harness](https://github.com/Dominic789654/awesome-deepseek-harness) | Dominic789654 | index-and-marketplace |
 | 2026-08-13T13:53:14Z | hacker_news | story | [Cordis – DeepSeek Harness Plugin Architecture [pdf]](https://news.ycombinator.com/item?id=49286003) | vinhnx | docs-and-learning |
 | 2026-08-13T13:52:04Z | github | repository | [Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins](https://github.com/Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins) | Zhiyuan-Fan | index-and-marketplace |
@@ -556,13 +556,13 @@
 | 2026-08-13T13:30:22Z | github | repository | [oh-my-dsh](https://github.com/wangshunnn/oh-my-dsh) | wangshunnn | core-and-ecosystem |
 | 2026-08-13T13:29:49Z | hacker_news | story | [DeepSeek Harness Released](https://news.ycombinator.com/item?id=49285620) | rochansinha | core-and-ecosystem |
 | 2026-08-13 | github | repository | [dsh-openmaic](https://github.com/THU-MAIC/dsh-openmaic) | THU-MAIC | multimedia-and-vision |
-| 2026-08-13T13:27:09Z | github | repository | [dsh-launcher](https://github.com/Ruler4396/dsh-launcher) | Ruler4396 | core-and-ecosystem |
-| 2026-08-13T13:24:25Z | github | repository | [awesome-dsh-plugin](https://github.com/bruc3van/awesome-dsh-plugin) | bruc3van | index-and-marketplace |
+| 2026-08-13T13:27:09Z | github | repository | [Ruler4396/dsh-launcher](https://github.com/Ruler4396/dsh-launcher) | Ruler4396 | core-and-ecosystem |
+| 2026-08-13T13:24:25Z | github | repository | [bruc3van/awesome-dsh-plugin](https://github.com/bruc3van/awesome-dsh-plugin) | bruc3van | index-and-marketplace |
 | 2026-08-13T13:23:11Z | github | repository | [whitelonng/dshcode](https://github.com/whitelonng/dshcode) | whitelonng | ui-and-desktop |
 | 2026-08-13T13:21:50Z | github | repository | [ChisaAlter/Deepseek-Harness-Desktop](https://github.com/ChisaAlter/Deepseek-Harness-Desktop) | ChisaAlter | ui-and-desktop |
 | 2026-08-13T13:12:48Z | github | repository | [gameswu/dsh-plugin-background](https://github.com/gameswu/dsh-plugin-background) | gameswu | core-and-ecosystem |
 | 2026-08-13T13:11:56Z | github | repository | [Nagi-ovo/dsh-find-plugins](https://github.com/Nagi-ovo/dsh-find-plugins) | Nagi-ovo | index-and-marketplace |
-| 2026-08-13 | github | repository | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | Nagi-ovo | operations-and-safety |
+| 2026-08-13 | github | repository | [Nagi-ovo/dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | Nagi-ovo | core-and-ecosystem |
 | 2026-08-13T13:10:22Z | github | repository | [dsh-bash-encoding](https://github.com/lhh010/dsh-bash-encoding) | lhh010 | core-and-ecosystem |
 | 2026-08-13T13:10:16Z | github | repository | [dsh-ui-whale](https://github.com/lhh010/dsh-ui-whale) | lhh010 | ui-and-desktop |
 | 2026-08-13T13:10:11Z | github | repository | [dsh-ui-progress](https://github.com/lhh010/dsh-ui-progress) | lhh010 | core-and-ecosystem |
@@ -573,26 +573,27 @@
 | 2026-08-13T13:04:46.000Z | x | post | [Pinned Tianyi Cui @tianyi · Aug 13 DeepSeek Harness was just released with MIT license. The current 0.1.0 version is a developer preview, an](https://x.com/tianyi/status/2087888089759015218) |  | index-and-marketplace |
 | 2026-08-13T13:04:21Z | github | repository | [oh-my-dsh](https://github.com/LaplaceYoung/oh-my-dsh) | LaplaceYoung | core-and-ecosystem |
 | 2026-08-13T13:04:18Z | github | repository | [dsh-qq2006](https://github.com/LaplaceYoung/dsh-qq2006) | LaplaceYoung | core-and-ecosystem |
-| 2026-08-14 | github | repository | [dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | Small-tailqwq | core-and-ecosystem |
+| 2026-08-14 | github | repository | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | Small-tailqwq | core-and-ecosystem |
 | 9:02 PM · Aug 13, 2026 | x | post | [DeepSeek @deepseek_ai DeepSeek Harness v0.1 is now available in Developer Preview! We’re opening it up to developers building agent harnesse](https://x.com/deepseek_ai/status/2087887408440164663) |  | index-and-marketplace |
 | 2026-08-13T13:02:02Z | github | repository | [Small-tailqwq/dsh-deepcel](https://github.com/Small-tailqwq/dsh-deepcel) | Small-tailqwq | core-and-ecosystem |
 | 2026-08-13 | github | repository | [dsh-sentinel](https://github.com/fuhefei/dsh-sentinel) | fuhefei | core-and-ecosystem |
 | 2026-08-13T12:58:02Z | hacker_news | story | [DeepSeek Harness developer preview](https://news.ycombinator.com/item?id=49285244) | bjin | index-and-marketplace |
 | 2026-08-13 | github | repository | [dsh-computer-use](https://github.com/Anionex/dsh-computer-use) | Anionex | operations-and-safety |
-| 2026-08-14 | github | repository | [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | ccch1mneyyy | ui-and-desktop |
+| 2026-08-14 | github | repository | [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | ccch1mneyyy | ui-and-desktop |
 | 2026-08-13 | github | repository | [dsh-acp-for-bitfun](https://github.com/bobleer/dsh-acp-for-bitfun) | bobleer | core-and-ecosystem |
 | 2026-08-13T12:39:30Z | bilibili | video | [deepseek harness 简单介绍](https://www.bilibili.com/video/BV1WTgp6AERb) | 酥悠沫 | core-and-ecosystem |
-| 2026-08-13 | github | repository | [dsh-turn-rewind](https://github.com/Anionex/dsh-turn-rewind) | Anionex | core-and-ecosystem |
-| 2026-08-13 | github | repository | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | Anionex | multimedia-and-vision |
+| 2026-08-13 | github | repository | [Anionex/dsh-turn-rewind](https://github.com/Anionex/dsh-turn-rewind) | Anionex | core-and-ecosystem |
+| 2026-08-13 | github | repository | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | Anionex | ui-and-desktop |
 | 2026-08-13T12:22:53Z | github | repository | [huiliyi37/dsh-tianshu-build](https://github.com/huiliyi37/dsh-tianshu-build) | huiliyi37 | core-and-ecosystem |
 | 2026-08-14 | github | repository | [dsh-interconnect](https://github.com/Chinesezjc/dsh-interconnect) | Chinesezjc | core-and-ecosystem |
 | 2026-08-13T12:16:50Z | github | repository | [hikariming/dshfind](https://github.com/hikariming/dshfind) | hikariming | index-and-marketplace |
-| 2026-08-13 | github | repository | [dsh-at-file](https://github.com/omdsh-dev/dsh-at-file) | omdsh-dev | core-and-ecosystem |
+| 2026-08-13 | github | repository | [omdsh-dev/dsh-at-file](https://github.com/omdsh-dev/dsh-at-file) | omdsh-dev | core-and-ecosystem |
 | 2026-08-13 | github | repository | [dsh-custom-tool](https://github.com/omdsh-dev/dsh-custom-tool) | omdsh-dev | operations-and-safety |
 | 2026-08-13 | github | repository | [dsh-open-in-vscode](https://github.com/omdsh-dev/dsh-open-in-vscode) | omdsh-dev | ui-and-desktop |
 | 2026-08-13 | github | repository | [dsh-notification](https://github.com/omdsh-dev/dsh-notification) | omdsh-dev | ui-and-desktop |
-| 2026-08-13T11:56:32Z | github | repository | [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-ai | core-and-ecosystem |
+| 2026-08-13T11:56:32Z | github | repository | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-ai | core-and-ecosystem |
 | 2026-08-13T10:55:36Z | github | repository | [orbis](https://github.com/icodesign/orbis) | icodesign | core-and-ecosystem |
+| 2026-08-13T10:41:33Z | github | repository | [vibeinging/deepseek-harness-desktop-app](https://github.com/vibeinging/deepseek-harness-desktop-app) | vibeinging | ui-and-desktop |
 | 2026-08-13T10:41:33Z | github | repository | [vibeinging/dsh-work](https://github.com/vibeinging/dsh-work) | vibeinging | ui-and-desktop |
 | 2026-08-13T10:30:52Z | github | repository | [wangyang10/image-vision](https://github.com/wangyang10/image-vision) | wangyang10 | multimedia-and-vision |
 | 2026-08-13 | github | repository | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | huiliyi37 | ui-and-desktop |
@@ -603,21 +604,23 @@
 | 2026-08-12T21:16:47Z | hacker_news | story | [https://news.ycombinator.com/item?id=49278668](https://news.ycombinator.com/item?id=49278668) | teravor | core-and-ecosystem |
 | 2026-08-12T19:53:08Z | github | repository | [dsh-openbiliclaw](https://github.com/whiteguo233/dsh-openbiliclaw) | whiteguo233 | core-and-ecosystem |
 | 2026-08-12T18:32:48Z | hacker_news | story | [https://news.ycombinator.com/item?id=49276732](https://news.ycombinator.com/item?id=49276732) | npn | core-and-ecosystem |
+| 2026-08-12T17:47:28Z | hacker_news | story | [DeepSeek v4 pro 0813 released](https://news.ycombinator.com/item?id=49276138) | alexwwang | core-and-ecosystem |
 | 2026-08-14 | github | repository | [dsh-web-review](https://github.com/CanglongCl/dsh-web-review) | CanglongCl | core-and-ecosystem |
-| 2026-08-13 | github | repository | [dsh_workflow](https://github.com/icetomoyo/dsh_workflow) | icetomoyo | core-and-ecosystem |
+| 2026-08-13 | github | repository | [icetomoyo/dsh_workflow](https://github.com/icetomoyo/dsh_workflow) | icetomoyo | core-and-ecosystem |
 | 2026-08-12T16:28:42Z | github | repository | [dsh-grok-tui](https://github.com/chen-001/dsh-grok-tui) | chen-001 | ui-and-desktop |
 | 2026-08-13 | github | repository | [dsh-emoji](https://github.com/hellodigua/dsh-emoji) | hellodigua | core-and-ecosystem |
-| 2026-08-13 | github | repository | [dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) | ZSeven-W | core-and-ecosystem |
+| 2026-08-13 | github | repository | [ZSeven-W/dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) | ZSeven-W | core-and-ecosystem |
 | 2026-08-13 | github | repository | [dsh-context-doctor](https://github.com/Zhenyu98/dsh-context-doctor) | Zhenyu98 | operations-and-safety |
 | 2026-08-12T15:14:19Z | github | repository | [HuanLinOTO/dsh-plugin-aigc-canvas](https://github.com/HuanLinOTO/dsh-plugin-aigc-canvas) | HuanLinOTO | core-and-ecosystem |
-| 2026-08-13 | github | repository | [dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) | NanmiCoder | core-and-ecosystem |
+| 2026-08-13 | github | repository | [NanmiCoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) | NanmiCoder | core-and-ecosystem |
 | 2026-08-13 | github | repository | [dsh-share](https://github.com/hellodigua/dsh-share) | hellodigua | core-and-ecosystem |
 | 2026-08-12T12:58:19Z | github | repository | [lehhair/dsh-mobile](https://github.com/lehhair/dsh-mobile) | lehhair | core-and-ecosystem |
 | 2026-08-13 | github | repository | [dsh-diff-viewer](https://github.com/lehhair/dsh-diff-viewer) | lehhair | core-and-ecosystem |
 | 2026-08-13 | github | repository | [dsh-stock-market](https://github.com/AnacondaKC/dsh-stock-market) | AnacondaKC | core-and-ecosystem |
 | 2026-08-13 | github | repository | [dsh-explain](https://github.com/yuezengwu/dsh-explain) | yuezengwu | core-and-ecosystem |
 | 2026-08-12T08:59:49Z | github | repository | [HuanLinOTO/dsh-plugin-better-sidebar-plugin-office](https://github.com/HuanLinOTO/dsh-plugin-better-sidebar-plugin-office) | HuanLinOTO | ui-and-desktop |
-| 2026-08-14 | github | repository | [dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | zhu1090093659 | ui-and-desktop |
+| 2026-08-12T05:30:12Z | hacker_news | story | [Show HN: Pragma – Stop copying context between AI agents](https://news.ycombinator.com/item?id=49268135) | pqpo | core-and-ecosystem |
+| 2026-08-14 | github | repository | [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | zhu1090093659 | ui-and-desktop |
 | 2026-08-12T04:30:03Z | github | repository | [dsh-desktop](https://github.com/bruc3van/dsh-desktop) | bruc3van | ui-and-desktop |
 | 2026-08-11T19:57:05Z | github | repository | [morluto/internalcot](https://github.com/morluto/internalcot) | morluto | core-and-ecosystem |
 | 2026-08-13 | github | repository | [ui-status-label](https://github.com/alingalingling/ui-status-label) | alingalingling | core-and-ecosystem |
@@ -628,24 +631,27 @@
 | 2026-08-13 | github | repository | [plugin-template](https://github.com/omdsh-dev/plugin-template) | omdsh-dev | core-and-ecosystem |
 | 2026-08-13 | github | repository | [deepseek-manners](https://github.com/Moeblack/deepseek-manners) | Moeblack | core-and-ecosystem |
 | 2026-08-11T06:26:39Z | github | repository | [dsh-plugin-skills](https://github.com/omdsh-dev/dsh-plugin-skills) | omdsh-dev | core-and-ecosystem |
-| 2026-08-14 | github | repository | [oh-dsh](https://github.com/hust-open-atom-club/oh-dsh) | hust-open-atom-club | ui-and-desktop |
+| 2026-08-14 | github | repository | [hust-open-atom-club/oh-dsh](https://github.com/hust-open-atom-club/oh-dsh) | hust-open-atom-club | ui-and-desktop |
 | 2026-08-11T02:16:59Z | github | repository | [dsh-harness-ops](https://github.com/fakechris/dsh-harness-ops) | fakechris | core-and-ecosystem |
 | 2026-08-13 | github | repository | [dsh-focus-chat](https://github.com/dingyi222666/dsh-focus-chat) | dingyi222666 | core-and-ecosystem |
 | 2026-08-13 | github | repository | [dsh-annotation](https://github.com/omdsh-dev/dsh-annotation) | omdsh-dev | core-and-ecosystem |
 | 2026-08-13 | github | repository | [dsh-task-status](https://github.com/vlln/dsh-task-status) | vlln | core-and-ecosystem |
 | 2026-08-13 | github | repository | [dsh-navbar](https://github.com/vlln/dsh-navbar) | vlln | core-and-ecosystem |
-| 2026-08-13 | github | repository | [whale-girl](https://github.com/vlln/whale-girl) | vlln | ui-and-desktop |
+| 2026-08-13 | github | repository | [vlln/whale-girl](https://github.com/vlln/whale-girl) | vlln | index-and-marketplace |
 | 2026-08-10T13:53:27Z | github | repository | [HuanLinOTO/dsh-plugin-anti-ads](https://github.com/HuanLinOTO/dsh-plugin-anti-ads) | HuanLinOTO | core-and-ecosystem |
+| 2026-08-10T13:26:19Z | hacker_news | story | [Show HN: 100% native Swift harness (NOT Electron)](https://news.ycombinator.com/item?id=49243358) | ljlolel | ui-and-desktop |
 | 2026-08-13 | github | repository | [dsh-plugin-d399](https://github.com/HuanLinOTO/dsh-plugin-d399) | HuanLinOTO | core-and-ecosystem |
 | 2026-08-10T08:17:40Z | github | repository | [HuanLinOTO/dsh-plugin-ya-workspace-sidebar](https://github.com/HuanLinOTO/dsh-plugin-ya-workspace-sidebar) | HuanLinOTO | ui-and-desktop |
 | 2026-08-13 | github | repository | [dsh-security-audit](https://github.com/omdsh-dev/dsh-security-audit) | omdsh-dev | operations-and-safety |
 | 2026-08-10T05:09:06Z | github | repository | [HuanLinOTO/dsh-plugin-pet-rs](https://github.com/HuanLinOTO/dsh-plugin-pet-rs) | HuanLinOTO | ui-and-desktop |
 | 2026-08-13 | github | repository | [dsh-mnemon](https://github.com/omdsh-dev/dsh-mnemon) | omdsh-dev | core-and-ecosystem |
-| 2026-08-13 | github | repository | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | Nagi-ovo | core-and-ecosystem |
+| 2026-08-13 | github | repository | [Nagi-ovo/dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | Nagi-ovo | ui-and-desktop |
 | 2026-08-09T17:20:11Z | github | repository | [HuanLinOTO/dsh-plugin-yet-another-subagent](https://github.com/HuanLinOTO/dsh-plugin-yet-another-subagent) | HuanLinOTO | ui-and-desktop |
 | 2026-08-13 | github | repository | [dsh-track](https://github.com/fakechris/dsh-track) | fakechris | core-and-ecosystem |
+| 2026-08-09T08:44:29Z | hacker_news | story | [DeepSeek V4 Flash 0731: 82.7% on Terminal-Bench 2.1 with a public harness](https://news.ycombinator.com/item?id=49229621) | ubermon | core-and-ecosystem |
 | 2026-08-13 | github | repository | [dsh-plugin-mineru](https://github.com/HuanLinOTO/dsh-plugin-mineru) | HuanLinOTO | core-and-ecosystem |
 | 2026-08-08T23:56:52Z | github | repository | [omdsh-dev/dsh-mygo](https://github.com/omdsh-dev/dsh-mygo) | omdsh-dev | core-and-ecosystem |
+| 2026-08-08T22:47:56Z | hacker_news | story | [Show HN: Try Benzi – A coding harness/agent beating Claude Code itself on Sonnet](https://news.ycombinator.com/item?id=49226627) | showhz | core-and-ecosystem |
 | 2026-08-13 | github | repository | [dsh-gomoku](https://github.com/omdsh-dev/dsh-gomoku) | omdsh-dev | core-and-ecosystem |
 | 2026-08-08T15:57:37Z | github | repository | [dsh-plugin-dev](https://github.com/omdsh-dev/dsh-plugin-dev) | omdsh-dev | core-and-ecosystem |
 | 2026-08-13 | github | repository | [dsh-plugin-check](https://github.com/omdsh-dev/dsh-plugin-check) | omdsh-dev | core-and-ecosystem |
@@ -654,25 +660,27 @@
 | 2026-08-13 | github | repository | [dsh-toolkit](https://github.com/omdsh-dev/dsh-toolkit) | omdsh-dev | core-and-ecosystem |
 | 2026-08-13 | github | repository | [dsh-stickers](https://github.com/william-jin-cmu/dsh-stickers) | william-jin-cmu | core-and-ecosystem |
 | 2026-08-13 | github | repository | [dsh-git-identity](https://github.com/LoserFox/dsh-git-identity) | LoserFox | core-and-ecosystem |
+| 2026-08-08T08:33:32Z | hacker_news | story | [Code harness for DeepSeek V4? OpenCode vs. pi vs. jcode vs. reasonix](https://news.ycombinator.com/item?id=49219916) | grigio | core-and-ecosystem |
 | 2026-08-08T08:33:12Z | github | repository | [agents-universe/agents-universe](https://github.com/agents-universe/agents-universe) | agents-universe | core-and-ecosystem |
 | 2026-08-08T06:01:23Z | github | repository | [unknowbug/RE-Framework](https://github.com/unknowbug/RE-Framework) | unknowbug | core-and-ecosystem |
 | 2026-08-13 | github | repository | [dsh-side-panel](https://github.com/ccq1/dsh-side-panel) | ccq1 | core-and-ecosystem |
 | 2026-08-07T20:17:12Z | github | repository | [cosyncing/cosyncing](https://github.com/cosyncing/cosyncing) | cosyncing | ui-and-desktop |
 | 2026-08-07T16:48:49Z | github | repository | [dsh-advisor](https://github.com/omdsh-dev/dsh-advisor) | omdsh-dev | core-and-ecosystem |
-| 2026-08-14 | github | repository | [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | omdsh-dev | ui-and-desktop |
+| 2026-08-14 | github | repository | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | omdsh-dev | ui-and-desktop |
 | 2026-08-07T13:47:07Z | github | repository | [KirschBluteX/engineer-software](https://github.com/KirschBluteX/engineer-software) | KirschBluteX | core-and-ecosystem |
 | 2026-08-07T13:21:02Z | github | repository | [dsh-sidechain](https://github.com/omdsh-dev/dsh-sidechain) | omdsh-dev | core-and-ecosystem |
 | 2026-08-07T10:44:44Z | bilibili | video | [DeepSeek V4接入Codex完整实战：从0开发AI数据分析Agent，40轮提示词驱动300万行数据分析，自动生成可追溯数据报告](https://www.bilibili.com/video/BV1Rtut6FEW3) | 赋范课堂 | core-and-ecosystem |
 | 2026-08-07T08:13:54Z | github | repository | [ego-browser](https://github.com/Fisfzy/ego-browser) | Fisfzy | core-and-ecosystem |
 | 2026-08-13 | github | repository | [dsh-scholar](https://github.com/lzszq/dsh-scholar) | lzszq | core-and-ecosystem |
 | 2026-08-13 | github | repository | [dsh-inspect](https://github.com/omdsh-dev/dsh-inspect) | omdsh-dev | core-and-ecosystem |
-| 2026-08-14 | github | repository | [dsh-browser](https://github.com/Lum1104/dsh-browser) | Lum1104 | ui-and-desktop |
+| 2026-08-14 | github | repository | [Lum1104/dsh-browser](https://github.com/Lum1104/dsh-browser) | Lum1104 | ui-and-desktop |
 | 2026-08-13 | github | repository | [fabric](https://github.com/omdsh-dev/fabric) | omdsh-dev | core-and-ecosystem |
 | 2026-08-13 | github | repository | [dsh-deep-research](https://github.com/omdsh-dev/dsh-deep-research) | omdsh-dev | agents-and-orchestration |
 | 2026-08-13 | github | repository | [dsh-message-edit](https://github.com/Moeblack/dsh-message-edit) | Moeblack | core-and-ecosystem |
 | 2026-08-13 | github | repository | [dsh-drag-and-drop](https://github.com/bill9109/dsh-drag-and-drop) | bill9109 | core-and-ecosystem |
+| 2026-08-05T20:35:59Z | hacker_news | story | [Show HN: Command Code GOAT, $10/month for $70 of credits across 30 models](https://news.ycombinator.com/item?id=49188656) | ahmadawais | core-and-ecosystem |
 | 2026-08-05T14:54:00Z | github | repository | [ginuim/multi-screen-wireframe](https://github.com/ginuim/multi-screen-wireframe) | ginuim | core-and-ecosystem |
-| 2026-08-05T06:53:09Z | github | repository | [dsh-memory-evolve](https://github.com/csyangwen/dsh-memory-evolve) | csyangwen | core-and-ecosystem |
+| 2026-08-05T06:53:09Z | github | repository | [csyangwen/dsh-memory-evolve](https://github.com/csyangwen/dsh-memory-evolve) | csyangwen | core-and-ecosystem |
 | 2026-08-13 | github | repository | [dsh-web-ui-notify](https://github.com/bill9109/dsh-web-ui-notify) | bill9109 | core-and-ecosystem |
 | 2026-08-05T03:32:37Z | github | repository | [dsh-vision](https://github.com/william-jin-cmu/dsh-vision) | william-jin-cmu | multimedia-and-vision |
 | 2026-08-13 | github | repository | [dsh-tool-calculator](https://github.com/omdsh-dev/dsh-tool-calculator) | omdsh-dev | core-and-ecosystem |
@@ -699,20 +707,26 @@
 | 2026-07-25T12:13:33Z | github | repository | [morluto/flameox](https://github.com/morluto/flameox) | morluto | core-and-ecosystem |
 | 2026-07-23T09:35:08Z | github | repository | [ccch1mneyyy/working-activity](https://github.com/ccch1mneyyy/working-activity) | ccch1mneyyy | core-and-ecosystem |
 | 2026-07-23T09:08:45Z | github | repository | [morluto/jacobian](https://github.com/morluto/jacobian) | morluto | core-and-ecosystem |
+| 2026-07-22T17:28:39Z | hacker_news | story | [Grok is a surprisingly good automated theorem prover](https://news.ycombinator.com/item?id=49010310) | henryrobbins00 | index-and-marketplace |
+| 2026-07-21T14:01:02Z | hacker_news | story | [Show HN: Aeon.WorX – A generic object lifecycle management system (like PLM/PDM)](https://news.ycombinator.com/item?id=48992492) | xeonax | index-and-marketplace |
 | 2026-07-20T10:00:23.495000+0000 | reddit | post | [Best harness for DeepSeek V4?](https://www.reddit.com/r/DeepSeek/comments/1v1h58u/best_harness_for_deepseek_v4) | spicyfiremelon | core-and-ecosystem |
 | 2026-07-19T09:43:37Z | github | repository | [N0zoM1z0/vocaloid-mcp](https://github.com/N0zoM1z0/vocaloid-mcp) | N0zoM1z0 | core-and-ecosystem |
 | 2026-08-14 | github | repository | [argo](https://github.com/taxueseek/argo) | taxueseek | core-and-ecosystem |
 | 2026-07-18T04:05:26Z | github | repository | [shuguang1994/project-blueprint](https://github.com/shuguang1994/project-blueprint) | shuguang1994 | core-and-ecosystem |
 | 2026-07-15T03:32:13Z | github | repository | [morluto/leantoken](https://github.com/morluto/leantoken) | morluto | operations-and-safety |
-| 2026-07-11T08:48:07Z | github | repository | [sandbase-harness](https://github.com/sandbaseai/sandbase-harness) | sandbaseai | core-and-ecosystem |
+| 2026-07-13T22:19:31Z | hacker_news | story | [Ask HN: AI Agent and harness containerization/security recommendations](https://news.ycombinator.com/item?id=48899674) | dv35z | ui-and-desktop |
+| 2026-07-13T16:03:14Z | hacker_news | story | [Show HN: Containerized AI development with cross-compatibility](https://news.ycombinator.com/item?id=48894720) | daitangio | operations-and-safety |
+| 2026-07-11T08:48:07Z | github | repository | [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness) | sandbaseai | operations-and-safety |
 | 2026-07-09T13:29:32.884000+0000 | reddit | post | [What harness do you guys use for DeepSeek?](https://www.reddit.com/r/DeepSeek/comments/1urqcm3/what_harness_do_you_guys_use_for_deepseek) | Prestigious_Sky_9829 | operations-and-safety |
 | 2026-07-08T09:00:56Z | github | repository | [adongwanai/learn-workbuddy](https://github.com/adongwanai/learn-workbuddy) | adongwanai | core-and-ecosystem |
 | 2026-07-07T12:46:40.000Z | x | post | [Tianyi Cui @tianyi · Jul 7 Harness 方向的自进化，与模型方向的自进化（包括训练和推理）一样都是非常有可能出成果的方向。 之前类似于自己给自己总结 skills 之类的工作可以看成 Harness 方向的自进化中比较初级的一种形式：从 prompt](https://x.com/tianyi/status/2074475185957380379) |  | index-and-marketplace |
 | 2026-07-06T14:37:22Z | github | repository | [Totoro-qaq/Cobsidian](https://github.com/Totoro-qaq/Cobsidian) | Totoro-qaq | core-and-ecosystem |
+| 2026-07-06T10:16:32Z | hacker_news | story | [Show HN: PAI, a Linux-y personal-assistant for Mac](https://news.ycombinator.com/item?id=48802741) | ardatasci | index-and-marketplace |
 | 2026-07-06T08:49:16Z | github | repository | [GoalfyAI/goalfydata](https://github.com/GoalfyAI/goalfydata) | GoalfyAI | core-and-ecosystem |
 | 2026-06-30T00:54:41Z | github | repository | [openguardrails/openguardrails](https://github.com/openguardrails/openguardrails) | openguardrails | operations-and-safety |
-| 2026-06-27T02:47:29Z | github | repository | [cetus](https://github.com/drewnekota/cetus) | drewnekota | core-and-ecosystem |
+| 2026-06-27T02:47:29Z | github | repository | [drewnekota/cetus](https://github.com/drewnekota/cetus) | drewnekota | core-and-ecosystem |
 | 2026-06-26T14:28:17.579000+0000 | reddit | post | [Harness and tools for deepseek](https://www.reddit.com/r/DeepSeek/comments/1ug8ecg/harness_and_tools_for_deepseek) | AccordingAd6520 | index-and-marketplace |
+| 2026-06-25T22:56:27Z | hacker_news | story | [Show HN: DeepSeek Flash inverted the economics of agent products](https://news.ycombinator.com/item?id=48680260) | arjunchint | multimedia-and-vision |
 | 2026-06-25T09:29:20Z | github | repository | [zhoushoujianwork/easyeda-agent](https://github.com/zhoushoujianwork/easyeda-agent) | zhoushoujianwork | core-and-ecosystem |
 | 2026-06-23T05:41:53Z | github | repository | [huawolf/news-agent](https://github.com/huawolf/news-agent) | huawolf | core-and-ecosystem |
 | 2026-06-21T15:28:35Z | github | repository | [humblebanana/open-record-replay](https://github.com/humblebanana/open-record-replay) | humblebanana | ui-and-desktop |
@@ -724,27 +738,36 @@
 | 2026-06-10T11:54:21Z | github | repository | [ali-meoo/meoo-cli](https://github.com/ali-meoo/meoo-cli) | ali-meoo | core-and-ecosystem |
 | 2026-06-09T13:40:47Z | github | repository | [huiliyi37/Tianshu-Tui](https://github.com/huiliyi37/Tianshu-Tui) | huiliyi37 | ui-and-desktop |
 | 2026-06-07T23:59:26.616000+0000 | reddit | post | [Harness Question with v4 Pro](https://www.reddit.com/r/DeepSeek/comments/1tzs3mz/harness_question_with_v4_pro) | avidianity | operations-and-safety |
-| 2026-08-14 | github | repository | [forkprobe](https://github.com/Jayden-X-L/forkprobe) | Jayden-X-L | core-and-ecosystem |
+| 2026-08-14 | github | repository | [Jayden-X-L/forkprobe](https://github.com/Jayden-X-L/forkprobe) | Jayden-X-L | core-and-ecosystem |
+| 2026-06-03T13:02:53Z | hacker_news | story | [Show HN: Aura, an LLM coding harness that dogfooded itself](https://news.ycombinator.com/item?id=48383456) | ConfusedData89 | ui-and-desktop |
+| 2026-05-29T17:38:22Z | hacker_news | story | [Show HN: Train Claude Code&#x27;s replacement (ds4 and pi and aoe)](https://news.ycombinator.com/item?id=48326539) | river_otter | core-and-ecosystem |
 | 2026-05-29T17:25:11Z | github | repository | [zhnt/loushang](https://github.com/zhnt/loushang) | zhnt | agents-and-orchestration |
 | 2026-05-25T03:24:24Z | github | repository | [text2future/flowix](https://github.com/text2future/flowix) | text2future | core-and-ecosystem |
+| 2026-05-22T06:50:28Z | github | repository | [OpenBMB/PilotDeck](https://github.com/OpenBMB/PilotDeck) | OpenBMB | core-and-ecosystem |
 | 2026-05-21T11:51:52Z | github | repository | [xiincs/claude-code-vision-skill](https://github.com/xiincs/claude-code-vision-skill) | xiincs | multimedia-and-vision |
+| 2026-05-21T08:45:07Z | github | repository | [EverMind-AI/Raven](https://github.com/EverMind-AI/Raven) | EverMind-AI | core-and-ecosystem |
 | 2026-05-21T05:59:42Z | github | repository | [xyTom/coding-tools-mcp](https://github.com/xyTom/coding-tools-mcp) | xyTom | core-and-ecosystem |
 | 10:17 AM · May 21, 2026 | x | post | [Yicai 第一财经 @yicaichina DeepSeek is reportedly forming a new Harness team focused on code-based AI agent products targeting Anthropic’s Claud](https://x.com/yicaichina/status/2057284671948349545) |  | core-and-ecosystem |
 | 2026-05-21T02:04:35Z | hacker_news | story | [Building DeepSeek&#x27;s Answer to Claude Code](https://news.ycombinator.com/item?id=48216937) | dlcmh | core-and-ecosystem |
+| 2026-05-20T04:31:50Z | hacker_news | story | [Show HN: GoPOSIX – a Go-native POSIX userland, ~97% BusyBox-compatible](https://news.ycombinator.com/item?id=48203114) | ramayac | index-and-marketplace |
+| 2026-05-18T06:00:24Z | hacker_news | story | [Ask HN: Which AI harness comes close to Claude Code?](https://news.ycombinator.com/item?id=48176033) | shivang2607 | core-and-ecosystem |
 | 2026-05-11T11:07:04Z | github | repository | [morlay/deepseek-harness](https://github.com/morlay/deepseek-harness) | morlay | index-and-marketplace |
 | 2026-05-10T06:59:59Z | github | repository | [zoyluoblue/mc_aiplayer](https://github.com/zoyluoblue/mc_aiplayer) | zoyluoblue | core-and-ecosystem |
 | 2026-05-09T10:57:52Z | github | repository | [HenryZ838978/deepseek-harness](https://github.com/HenryZ838978/deepseek-harness) | HenryZ838978 | core-and-ecosystem |
 | 2026-05-09T09:35:19Z | github | repository | [DDDFXYqiming/Agent_Extensions](https://github.com/DDDFXYqiming/Agent_Extensions) | DDDFXYqiming | core-and-ecosystem |
 | 2026-05-09T05:27:15Z | github | repository | [wink-run/tokenbank](https://github.com/wink-run/tokenbank) | wink-run | index-and-marketplace |
 | 2026-05-06T17:00:48Z | github | repository | [strukto-ai/mirage](https://github.com/strukto-ai/mirage) | strukto-ai | core-and-ecosystem |
+| 2026-05-06T09:32:49Z | github | repository | [BigPizzaV3/CodexPlusPlus](https://github.com/BigPizzaV3/CodexPlusPlus) | BigPizzaV3 | core-and-ecosystem |
 | 2026-05-05T17:45:17Z | github | repository | [WeirdSky924/agent-handoff-skill](https://github.com/WeirdSky924/agent-handoff-skill) | WeirdSky924 | core-and-ecosystem |
 | 2026-05-05T16:40:06Z | github | repository | [paean-ai/deeptide](https://github.com/paean-ai/deeptide) | paean-ai | core-and-ecosystem |
+| 2026-05-04T22:18:51Z | github | repository | [WenyuChiou/awesome-agentic-ai-zh](https://github.com/WenyuChiou/awesome-agentic-ai-zh) | WenyuChiou | index-and-marketplace |
 | 2026-05-04T16:03:21Z | github | repository | [firstintent/ccteam](https://github.com/firstintent/ccteam) | firstintent | core-and-ecosystem |
 | 2026-05-02T07:51:35Z | github | repository | [crafter-station/petdex](https://github.com/crafter-station/petdex) | crafter-station | core-and-ecosystem |
 | 2026-04-30T17:40:49Z | github | repository | [GanyuanRan/Aegis](https://github.com/GanyuanRan/Aegis) | GanyuanRan | docs-and-learning |
 | 2026-04-30T12:36:33Z | github | repository | [dqsjqian/Aria](https://github.com/dqsjqian/Aria) | dqsjqian | core-and-ecosystem |
-| 2026-04-28T04:25:20Z | github | repository | [open-design](https://github.com/nexu-io/open-design) | nexu-io | core-and-ecosystem |
+| 2026-04-28T04:25:20Z | github | repository | [nexu-io/open-design](https://github.com/nexu-io/open-design) | nexu-io | ui-and-desktop |
 | 2026-04-27T07:37:37Z | github | repository | [phoenixlucky/zerotoken-skill](https://github.com/phoenixlucky/zerotoken-skill) | phoenixlucky | operations-and-safety |
+| 2026-04-27T06:37:38Z | github | repository | [deepseek-ai/awesome-deepseek-agent](https://github.com/deepseek-ai/awesome-deepseek-agent) | deepseek-ai | index-and-marketplace |
 | 2026-04-20T12:31:22Z | github | repository | [Ariestar/sivtr](https://github.com/Ariestar/sivtr) | Ariestar | core-and-ecosystem |
 | 2026-04-15T05:27:37Z | github | repository | [tt-a1i/archify](https://github.com/tt-a1i/archify) | tt-a1i | docs-and-learning |
 | 2026-04-14T00:51:32Z | github | repository | [morluto/rea](https://github.com/morluto/rea) | morluto | core-and-ecosystem |
@@ -752,37 +775,80 @@
 | 2026-04-07T10:08:59Z | github | repository | [TencentCloud/tencentmeeting-cli](https://github.com/TencentCloud/tencentmeeting-cli) | TencentCloud | core-and-ecosystem |
 | 2026-04-06T10:33:23Z | github | repository | [YunTaiHua/illusion-agent](https://github.com/YunTaiHua/illusion-agent) | YunTaiHua | core-and-ecosystem |
 | 2026-04-05T12:02:23Z | github | repository | [xiufengsun/TokenTracker](https://github.com/xiufengsun/TokenTracker) | xiufengsun | operations-and-safety |
+| 2026-04-03T15:49:07Z | github | repository | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | Graphify-Labs | core-and-ecosystem |
 | 2026-04-03T14:09:27Z | github | repository | [yejiming/MuseAI](https://github.com/yejiming/MuseAI) | yejiming | core-and-ecosystem |
+| 2026-04-01T15:37:13Z | github | repository | [HKUDS/OpenHarness](https://github.com/HKUDS/OpenHarness) | HKUDS | core-and-ecosystem |
+| 2026-04-01T09:52:20Z | github | repository | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | HKUDS | core-and-ecosystem |
 | 2026-03-30T05:22:23Z | github | repository | [titanwings/colleague-skill](https://github.com/titanwings/colleague-skill) | titanwings | core-and-ecosystem |
-| 2026-03-26T11:40:33Z | github | repository | [brooks-lint](https://github.com/hyhmrright/brooks-lint) | hyhmrright | core-and-ecosystem |
+| 2026-03-29T15:39:49Z | github | repository | [ai-boost/awesome-harness-engineering](https://github.com/ai-boost/awesome-harness-engineering) | ai-boost | index-and-marketplace |
+| 2026-03-26T11:40:33Z | github | repository | [hyhmrright/brooks-lint](https://github.com/hyhmrright/brooks-lint) | hyhmrright | docs-and-learning |
+| 2026-03-24T15:58:22Z | github | repository | [alvinreal/awesome-opensource-ai](https://github.com/alvinreal/awesome-opensource-ai) | alvinreal | index-and-marketplace |
 | 2026-03-24T12:11:48Z | github | repository | [upstash/skills](https://github.com/upstash/skills) | upstash | core-and-ecosystem |
 | 2026-03-22T09:35:15Z | github | repository | [tianmingwangluo/xiaoliuren-skill](https://github.com/tianmingwangluo/xiaoliuren-skill) | tianmingwangluo | core-and-ecosystem |
 | 2026-03-19T01:32:22Z | github | repository | [orziz/odai](https://github.com/orziz/odai) | orziz | agents-and-orchestration |
+| 2026-03-18T09:04:20Z | github | repository | [rullerzhou-afk/clawd-on-desk](https://github.com/rullerzhou-afk/clawd-on-desk) | rullerzhou-afk | ui-and-desktop |
 | 2026-08-14 | github | repository | [notes](https://github.com/zhaoolee/notes) | zhaoolee | core-and-ecosystem |
 | 2026-03-13T02:16:59Z | github | repository | [Sikao-Engine/KimiX](https://github.com/Sikao-Engine/KimiX) | Sikao-Engine | core-and-ecosystem |
 | 2026-03-12T15:24:50Z | github | repository | [linhay/harmony-next.skills](https://github.com/linhay/harmony-next.skills) | linhay | docs-and-learning |
 | 2026-03-10T22:50:21Z | github | repository | [adoresever/graph-memory](https://github.com/adoresever/graph-memory) | adoresever | core-and-ecosystem |
+| 2026-03-10T07:31:45Z | github | repository | [wanshuiyin/Auto-claude-code-research-in-sleep](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | wanshuiyin | core-and-ecosystem |
 | 2026-03-09T16:43:59Z | github | repository | [PM-Shawn/Abu-Cowork](https://github.com/PM-Shawn/Abu-Cowork) | PM-Shawn | ui-and-desktop |
+| 2026-03-08T05:34:18Z | github | repository | [shuvonsec/claude-bug-bounty](https://github.com/shuvonsec/claude-bug-bounty) | shuvonsec | core-and-ecosystem |
 | 2026-03-08T04:17:52Z | github | repository | [AtlasCloudAI/atlas-cloud-skills](https://github.com/AtlasCloudAI/atlas-cloud-skills) | AtlasCloudAI | multimedia-and-vision |
 | 2026-03-07T13:46:10Z | github | repository | [whiteguo233/OpenBiliClaw](https://github.com/whiteguo233/OpenBiliClaw) | whiteguo233 | core-and-ecosystem |
 | 2026-08-14 | github | repository | [mstar-harness](https://github.com/btspoony/mstar-harness) | btspoony | core-and-ecosystem |
 | 2026-03-06T10:44:15Z | github | repository | [AtlasCloudAI/mcp-server](https://github.com/AtlasCloudAI/mcp-server) | AtlasCloudAI | multimedia-and-vision |
+| 2026-02-26T06:31:01Z | github | repository | [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | Imbad0202 | core-and-ecosystem |
+| 2026-02-25T07:32:52Z | github | repository | [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) | rohitg00 | core-and-ecosystem |
 | 2026-02-25T05:53:42Z | github | repository | [gusibi/molibot](https://github.com/gusibi/molibot) | gusibi | core-and-ecosystem |
 | 2026-02-24T21:20:32Z | github | repository | [JingbiaoMei/Tokdash](https://github.com/JingbiaoMei/Tokdash) | JingbiaoMei | operations-and-safety |
 | 2026-02-22T13:51:44Z | github | repository | [foryourhealth111-pixel/Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) | foryourhealth111-pixel | core-and-ecosystem |
-| 2026-08-14 | github | repository | [modsearch](https://github.com/liustack/modsearch) | liustack | core-and-ecosystem |
-| 2026-08-14 | github | repository | [modlens](https://github.com/liustack/modlens) | liustack | multimedia-and-vision |
+| 2026-08-14 | github | repository | [liustack/modsearch](https://github.com/liustack/modsearch) | liustack | core-and-ecosystem |
+| 2026-08-14 | github | repository | [liustack/modlens](https://github.com/liustack/modlens) | liustack | multimedia-and-vision |
 | 2026-02-20T02:26:17Z | github | repository | [mnemon-dev/mnemon](https://github.com/mnemon-dev/mnemon) | mnemon-dev | core-and-ecosystem |
+| 2026-02-13T12:38:31Z | github | repository | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | diegosouzapw | ui-and-desktop |
 | 2026-02-10T09:15:25Z | github | repository | [alaliqing/claude-paper](https://github.com/alaliqing/claude-paper) | alaliqing | docs-and-learning |
+| 2026-02-10T05:47:00Z | github | repository | [yogsoth-ai/de-anthropocentric-research-engine](https://github.com/yogsoth-ai/de-anthropocentric-research-engine) | yogsoth-ai | agents-and-orchestration |
+| 2026-02-10T03:53:07Z | hacker_news | story | [Show HN: Kore – Stack based language where compiler is the reward function](https://news.ycombinator.com/item?id=46955143) | processorx | operations-and-safety |
+| 2026-02-05T10:51:17Z | github | repository | [mergisi/awesome-openclaw-agents](https://github.com/mergisi/awesome-openclaw-agents) | mergisi | index-and-marketplace |
 | 2026-02-05T07:48:16Z | github | repository | [labring/sealos-skills](https://github.com/labring/sealos-skills) | labring | multimedia-and-vision |
 | 2026-02-01T13:53:31Z | github | repository | [yuukiLike/zeromd](https://github.com/yuukiLike/zeromd) | yuukiLike | index-and-marketplace |
 | 2026-01-31T08:15:39Z | github | repository | [Leslie-SSS/seeWxapkg](https://github.com/Leslie-SSS/seeWxapkg) | Leslie-SSS | core-and-ecosystem |
 | 2026-01-19T14:06:37Z | github | repository | [isomoes/ikanban](https://github.com/isomoes/ikanban) | isomoes | agents-and-orchestration |
+| 2026-01-15T18:45:08Z | github | repository | [alvinunreal/oh-my-opencode-slim](https://github.com/alvinunreal/oh-my-opencode-slim) | alvinunreal | core-and-ecosystem |
+| 2026-01-05T09:43:36Z | github | repository | [1jehuang/jcode](https://github.com/1jehuang/jcode) | 1jehuang | core-and-ecosystem |
+| 2026-01-03T07:37:28Z | github | repository | [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | OthmanAdi | index-and-marketplace |
+| 2025-12-31T14:01:28Z | github | repository | [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) | can1357 | agents-and-orchestration |
 | 2025-12-30T12:09:25Z | github | repository | [urzeye/ophel](https://github.com/urzeye/ophel) | urzeye | core-and-ecosystem |
+| 2025-12-10T06:54:33Z | github | repository | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | hugohe3 | core-and-ecosystem |
+| 2025-12-05T17:58:26Z | github | repository | [YishenTu/claudian](https://github.com/YishenTu/claudian) | YishenTu | core-and-ecosystem |
+| 2025-12-01T13:15:27Z | github | repository | [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale) | junhoyeo | operations-and-safety |
+| 2025-10-31T14:15:28Z | github | repository | [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | shanraisshan | core-and-ecosystem |
+| 2025-10-24T11:08:44Z | github | repository | [lemony-ai/cascadeflow](https://github.com/lemony-ai/cascadeflow) | lemony-ai | core-and-ecosystem |
 | 2025-09-26T14:32:01Z | github | repository | [hellowind777/helloagents](https://github.com/hellowind777/helloagents) | hellowind777 | core-and-ecosystem |
+| 2025-09-22T00:01:14Z | github | repository | [awesome-opencode/awesome-opencode](https://github.com/awesome-opencode/awesome-opencode) | awesome-opencode | index-and-marketplace |
 | 2025-08-25T03:57:40Z | github | repository | [Devin-AXIS/iPolloWork](https://github.com/Devin-AXIS/iPolloWork) | Devin-AXIS | multimedia-and-vision |
+| 2025-06-29T15:34:15Z | github | repository | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | shareAI-lab | core-and-ecosystem |
 | 2025-06-20T05:25:56Z | github | repository | [kuangre123/iosdev](https://github.com/kuangre123/iosdev) | kuangre123 | core-and-ecosystem |
+| 2025-05-14T05:23:02Z | github | repository | [HKUDS/DeepCode](https://github.com/HKUDS/DeepCode) | HKUDS | agents-and-orchestration |
+| 2025-05-07T02:50:19Z | github | repository | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | bytedance | agents-and-orchestration |
 | 2025-03-28T04:27:09Z | github | repository | [SepineTam/mcp-for-stata](https://github.com/SepineTam/mcp-for-stata) | SepineTam | core-and-ecosystem |
 | 2025-02-13T05:47:46Z | github | repository | [liyupi/ai-guide](https://github.com/liyupi/ai-guide) | liyupi | docs-and-learning |
+| 2025-01-11T10:11:05Z | github | repository | [punkpeye/awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients) | punkpeye | index-and-marketplace |
 | 2024-05-24T01:56:26Z | github | repository | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | CherryHQ | core-and-ecosystem |
+| 2024-04-19T03:31:13Z | github | repository | [WangRongsheng/awesome-LLM-resources](https://github.com/WangRongsheng/awesome-LLM-resources) | WangRongsheng | index-and-marketplace |
+| 2024-01-19T15:15:10Z | github | repository | [ai-boost/awesome-prompts](https://github.com/ai-boost/awesome-prompts) | ai-boost | index-and-marketplace |
+| 2023-12-24T22:09:14Z | github | repository | [transformerlab/transformerlab-app](https://github.com/transformerlab/transformerlab-app) | transformerlab | core-and-ecosystem |
+| 2023-06-26T19:39:32Z | github | repository | [ollama/ollama](https://github.com/ollama/ollama) | ollama | core-and-ecosystem |
+| 2023-05-19T03:02:29Z | github | repository | [BradyFU/Awesome-Multimodal-Large-Language-Models](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) | BradyFU | index-and-marketplace |
+| 2023-04-02T04:06:56Z | github | repository | [ikaijua/Awesome-AITools](https://github.com/ikaijua/Awesome-AITools) | ikaijua | index-and-marketplace |
+| 2023-02-27T06:01:53Z | github | repository | [GreyDGL/PentestGPT](https://github.com/GreyDGL/PentestGPT) | GreyDGL | core-and-ecosystem |
+| 2023-02-17T14:12:21Z | github | repository | [Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) | Hannibal046 | index-and-marketplace |
+| 2023-02-09T18:22:52Z | github | repository | [promptslab/Awesome-Prompt-Engineering](https://github.com/promptslab/Awesome-Prompt-Engineering) | promptslab | index-and-marketplace |
+| 2018-12-16T15:38:31Z | github | repository | [EvanLi/Github-Ranking](https://github.com/EvanLi/Github-Ranking) | EvanLi | index-and-marketplace |
 | 2018-09-17T07:26:44Z | github | repository | [PicGo/PicGo-Core](https://github.com/PicGo/PicGo-Core) | PicGo | multimedia-and-vision |
+| 2018-08-15T14:28:41Z | github | repository | [EthicalML/awesome-production-machine-learning](https://github.com/EthicalML/awesome-production-machine-learning) | EthicalML | index-and-marketplace |
+| 2017-03-29T15:34:03Z | github | repository | [nndl/llm-beginner](https://github.com/nndl/llm-beginner) | nndl | core-and-ecosystem |
+| 2016-04-27T04:13:03Z | github | repository | [aymericdamien/TopDeepLearning](https://github.com/aymericdamien/TopDeepLearning) | aymericdamien | index-and-marketplace |
+| 2015-01-13T23:30:18Z | github | repository | [micro/go-micro](https://github.com/micro/go-micro) | micro | core-and-ecosystem |
+| 2014-07-17T10:45:10Z | github | repository | [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust) | rust-unofficial | index-and-marketplace |
