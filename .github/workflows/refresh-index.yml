@@ -66,9 +66,4 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           note="Updated from the versioned collection run at $(date -u +%Y-%m-%dT%H:%M:%SZ). The full archive retains raw JSON; aggregator.sqlite3 is the lightweight query projection."
-          if gh release view dataset-latest >/dev/null 2>&1; then
-            gh release upload dataset-latest data/aggregator.sqlite3 data/aggregator-full.sqlite3.zst --clobber
-            gh release edit dataset-latest --title "Latest DeepSeek Harness ecosystem dataset" --notes "$note" --latest
-          else
-            gh release create dataset-latest data/aggregator.sqlite3 data/aggregator-full.sqlite3.zst --target main --title "Latest DeepSeek Harness ecosystem dataset" --notes "$note" --latest
-          fi
+          scripts/publish_release_assets.sh "$note"
