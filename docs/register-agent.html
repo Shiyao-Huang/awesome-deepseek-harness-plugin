@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Agent 应先核验来源和安装身份，再构造 Listing；创建 PR 与执行安装是两个独立且都需要授权的动作。">
+<meta name="theme-color" content="#f5f1e8">
+<link rel="canonical" href="https://deeplugin.store/register-agent.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="register-agent">
+<meta property="og:description" content="Agent 应先核验来源和安装身份，再构造 Listing；创建 PR 与执行安装是两个独立且都需要授权的动作。">
+<meta property="og:url" content="https://deeplugin.store/register-agent.html">
+<meta property="og:image" content="https://deeplugin.store/media/screenshots/official.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="register-agent">
+<meta name="twitter:description" content="Agent 应先核验来源和安装身份，再构造 Listing；创建 PR 与执行安装是两个独立且都需要授权的动作。">
+<title>register-agent</title>
+<link rel="stylesheet" href="assets/store.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"dsh store","url":"https://deeplugin.store/","description":"DeepSeek Harness plugin ecosystem directory with public evidence, native metrics, media references, and dated observations."}</script>
+</head><body>
+<header class="site-header"><a class="brand" href="./"><span class="brand-mark">dsh</span><span>store</span></a><nav><a class="nav-active" href="./">Directory</a><a href="./#hot">Hot</a><a href="./timeline.html">Timeline</a><a href="./directories.html">Directories</a><a href="./sources.html">Sources</a></nav><a class="header-source" href="https://github.com/Shiyao-Huang/awesome-deepseek-harness-plugin">GitHub <span aria-hidden="true">↗</span></a></header>
+<main class="site-main table-main"><div class="breadcrumbs"><a href="./">store</a><span>/</span><span>Agent registration protocol</span></div><section class="page-intro"><p class="kicker">PUBLIC PROJECTION · GENERATED FROM SQLITE</p><h1>Agent registration protocol</h1><p>Agent 应先核验来源和安装身份，再构造 Listing；创建 PR 与执行安装是两个独立且都需要授权的动作。</p></section><section class="guide-section"><div class="guide-primary"><p class="kicker">AGENT PROTOCOL</p><h2>Inspect, deduplicate, validate, then ask.</h2><ol class="guide-steps"><li><strong>Inspect evidence</strong><span>Read package metadata, release/version evidence, exact install documentation, and the public repository.</span></li><li><strong>Resolve identity</strong><span>Search the current registry by normalized npm or GitHub install spec before creating a Listing.</span></li><li><strong>Record facts</strong><span>Use public attributed values, keep missing values NULL, and set contributor verification to false.</span></li><li><strong>Validate</strong><span>Update source count/date, run repository checks, and inspect the generated diff.</span></li><li><strong>Request authority</strong><span>Show the Listing and evidence before opening a pull request. Registration never authorizes installation.</span></li></ol></div><aside class="guide-aside"><p class="filter-label">AGENT INPUTS</p><a href="https://github.com/Shiyao-Huang/awesome-deepseek-harness-plugin/blob/main/docs/register-agent.md">Complete Agent protocol ↗</a><a href="https://github.com/Shiyao-Huang/awesome-deepseek-harness-plugin/blob/main/docs/register.md">Normative field guide ↗</a><a href="data/market-registry.schema.json">JSON Schema ↗</a><a href="data/market-registry.json">Deduplication registry ↗</a></aside></section><section class="guide-rules"><p><strong>Allowed specs</strong><span>npm package or github:owner/repository#path:/plugin.</span></p><p><strong>Rejected specs</strong><span>Commands, flags, branches, URLs, and local paths.</span></p><p><strong>Pull requests</strong><span>External writes require explicit user authorization.</span></p><p><strong>Install plans</strong><span>Known registry ids only; requiresConfirmation is always true.</span></p></section></main>
+<footer class="site-footer"><div><strong>dsh store</strong><p>A public, dated directory for the DeepSeek Harness plugin ecosystem.</p></div><div><a href="../README.md">Collection rules</a><a href="https://github.com/Shiyao-Huang/awesome-deepseek-harness-plugin/releases/download/dataset-latest/aggregator.sqlite3">SQLite</a><a href="seo.md">SEO notes</a></div><p class="footer-note">Public metadata only. Platform counts stay native and are never added together.</p></footer>
+</body></html>

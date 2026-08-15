@@ -22,7 +22,7 @@
       "description_zh": "搜索带来源归因的 DeepSeek Harness 插件市场，并生成可审查的安装计划。",
       "install": {
         "target": "git",
-        "spec": "github:Shiyao-Huang/awesome-deepseek-harness-plugin#path:/plugin"
+        "spec": "github:shiyao-huang/awesome-deepseek-harness-plugin#path:/plugin"
       },
       "version": "0.1.0",
       "homepage": "https://github.com/Shiyao-Huang/awesome-deepseek-harness-plugin/tree/main/plugin",

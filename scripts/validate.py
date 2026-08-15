@@ -19,6 +19,7 @@ RAW_DIR = ROOT / "data" / "raw"
 INDEX_PATH = ROOT / "index" / "records.jsonl"
 VALUE_MATRIX_PATH = ROOT / "index" / "value-matrix.jsonl"
 FORK_INDEX_PATH = ROOT / "docs" / "data" / "forks.json"
+COMMUNITY_REGISTRY_PATH = ROOT / "registry" / "plugins.json"
 MARKET_REGISTRY_PATHS = (
     ROOT / "index" / "market-registry.json",
     ROOT / "docs" / "data" / "market-registry.json",
@@ -95,6 +96,46 @@ def validate_market_registry() -> int:
         assert isinstance(plugin["sources"], list) and plugin["sources"]
         if plugin["verified"] is True:
             assert plugin["version"]
+        ids.add(plugin_id)
+        install_specs.add(spec)
+    return len(plugins)
+
+
+def validate_community_registry() -> int:
+    """Validate source-local community Listings before scheduled ingestion."""
+
+    registry = json.loads(COMMUNITY_REGISTRY_PATH.read_text(encoding="utf-8"))
+    assert isinstance(registry, dict)
+    assert registry["version"] == 2
+    plugins = registry["plugins"]
+    assert isinstance(plugins, list)
+    assert registry["count"] == len(plugins)
+    required_fields = {
+        "id", "name", "author", "category", "description", "description_zh",
+        "install", "version", "homepage", "verified", "stars", "tags", "source",
+    }
+    ids: set[str] = set()
+    install_specs: set[str] = set()
+    for plugin in plugins:
+        assert isinstance(plugin, dict)
+        assert required_fields <= set(plugin)
+        assert plugin["verified"] is False
+        plugin_id = plugin["id"]
+        install = plugin["install"]
+        assert isinstance(plugin_id, str) and plugin_id
+        assert isinstance(install, dict)
+        target = install["target"]
+        spec = install["spec"]
+        assert build_market_registry.normalize_install_spec(spec) == (target, spec)
+        assert plugin_id not in ids
+        assert spec not in install_specs
+        assert plugin["stars"] is None or (
+            isinstance(plugin["stars"], int)
+            and not isinstance(plugin["stars"], bool)
+            and plugin["stars"] >= 0
+        )
+        assert isinstance(plugin["source"], dict)
+        assert plugin["source"].get("name") and plugin["source"].get("url")
         ids.add(plugin_id)
         install_specs.add(spec)
     return len(plugins)
@@ -207,13 +248,14 @@ def main() -> None:
     assert all(set(record) == VALUE_MATRIX_FIELDS for record in value_records)
     assert all(record["value_band"] in {"A", "B", "C", "D"} for record in value_records)
     assert all(0 <= record[key] <= 100 for record in value_records for key in ("utility", "evidence", "traction", "ecosystem", "freshness", "reviewability", "value_score", "confidence_score"))
+    community_listings = validate_community_registry()
     market_plugins = validate_market_registry()
     platforms = connection.execute("SELECT COUNT(DISTINCT platform) FROM items").fetchone()[0]
     metrics = connection.execute("SELECT COUNT(*) FROM metrics").fetchone()[0]
     media = connection.execute("SELECT COUNT(*) FROM media_assets").fetchone()[0]
     snapshots = connection.execute("SELECT COUNT(*) FROM raw_snapshots").fetchone()[0]
     latest_version = connection.execute("SELECT dataset_version FROM collection_runs WHERE trigger <> 'legacy-migration' ORDER BY id DESC LIMIT 1").fetchone()[0]
-    print(f"validated {len(raw_paths)} raw files/{snapshots} snapshots; latest {latest_version}; {items} items; {platforms} platforms; {metrics} metrics; {media} media assets; {len(index_records)} index records; {market_plugins} market plugins")
+    print(f"validated {len(raw_paths)} raw files/{snapshots} snapshots; latest {latest_version}; {items} items; {platforms} platforms; {metrics} metrics; {media} media assets; {len(index_records)} index records; {community_listings} community Listings; {market_plugins} market plugins")
 
 
 if __name__ == "__main__":

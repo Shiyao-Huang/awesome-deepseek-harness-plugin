@@ -12,9 +12,9 @@ Open a pull request that adds one contract-v2 entry to [`registry/plugins.json`]
 
 Open a pull request that adds its public GitHub repository and selected registry path or HTTPS registry URL to [`config/sources.json`](../config/sources.json). The two-hour collector stores every selected registry response as immutable raw evidence before normalizing Listings. A failed source observation never deactivates its last successful state.
 
-## Contract v2 entry
+## Source-local contract v2 entry
 
-The generated [JSON Schema](https://deeplugin.store/data/market-registry.schema.json) is authoritative for field types. The community source accepts this entry form:
+The generated [public Market Schema](https://deeplugin.store/data/market-registry.schema.json) describes the normalized output, whose stable ids and complete `sources` arrays are derived after collection. `registry/plugins.json` is an attributed source registry and accepts the source-local entry form below; `scripts/validate.py` enforces the shared install, type, count, and uniqueness rules before collection.
 
 ```json
 {

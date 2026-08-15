@@ -1,6 +1,6 @@
 # Agent registration protocol
 
-Use this protocol when a user asks an Agent to register a DeepSeek Harness plugin with `deeplugin.store`. The normative fields, example, and validation rules live in the [human registration guide](register.md) and the public [JSON Schema](https://deeplugin.store/data/market-registry.schema.json). Do not invent a second schema.
+Use this protocol when a user asks an Agent to register a DeepSeek Harness plugin with `deeplugin.store`. The source-local fields, example, and validation rules live in the [human registration guide](register.md); the public [JSON Schema](https://deeplugin.store/data/market-registry.schema.json) describes the generated output after source attribution and stable-id derivation. Do not invent another input format.
 
 ## Required workflow
 

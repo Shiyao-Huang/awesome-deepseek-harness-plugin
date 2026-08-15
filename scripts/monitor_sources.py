@@ -598,6 +598,27 @@ def build_payload(config: dict[str, Any], token: str | None) -> dict[str, Any]:
     return {"collected_at": checked_at, "collector": "scripts/monitor_sources.py", "repositories": repositories, "observations": observations}
 
 
+def payload_for_item_import(connection: Any, payload: dict[str, Any]) -> dict[str, Any]:
+    """Keep new Listings in the item pipeline without replacing existing source-native items."""
+
+    known_urls = {
+        str(row[0])
+        for row in connection.execute("SELECT canonical_url FROM items")
+    }
+    observations: list[dict[str, Any]] = []
+    for observation in payload.get("observations", []):
+        items: list[dict[str, Any]] = []
+        for item in observation.get("items", []):
+            canonical = collect.canonical_url(str(item.get("url") or item.get("canonical_url") or ""))
+            if item.get("source_entry") is not None and canonical in known_urls:
+                continue
+            items.append(item)
+            if canonical:
+                known_urls.add(canonical)
+        observations.append({**observation, "items": items})
+    return {**payload, "observations": observations}
+
+
 def record_upstream_repositories(connection: Any, payload: dict[str, Any], raw_snapshot_id: int) -> None:
     """Persist source repositories and link their entries to normalized items."""
 
@@ -804,7 +825,12 @@ def main() -> int:
         run_id, version, _ = collect.begin_collection_run(connection, "source-monitor")
         stats = collect.ImportStats(raw_files_seen=1)
         try:
-            stats = collect.import_payload(connection, payload, run_id, args.raw_output)
+            stats = collect.import_payload(
+                connection,
+                payload_for_item_import(connection, payload),
+                run_id,
+                args.raw_output,
+            )
             stats.raw_files_seen = 1
             raw_sha = collect.sha256_file(args.raw_output)
             raw_snapshot_id = int(connection.execute("SELECT id FROM raw_snapshots WHERE raw_sha256 = ?", (raw_sha,)).fetchone()[0])

@@ -47,7 +47,7 @@ class StructuredRegistryTests(unittest.TestCase):
         self.assertEqual(len(entries), 1)
         self.assertEqual(
             entries[0]["install_spec"],
-            "github:Shiyao-Huang/awesome-deepseek-harness-plugin#path:/plugin",
+            "github:shiyao-huang/awesome-deepseek-harness-plugin#path:/plugin",
         )
         self.assertIs(entries[0]["verified"], False)
 
@@ -351,6 +351,133 @@ class StructuredRegistryTests(unittest.TestCase):
 
 
 class RegistryPersistenceTests(unittest.TestCase):
+    def test_listing_import_preserves_existing_item_and_keeps_complete_evidence(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            database = Path(directory) / "registry.sqlite3"
+            raw_path = Path(directory) / "registry.json"
+            collect.init_db(database)
+            with collect.connect(database) as connection:
+                connection.execute(
+                    "INSERT INTO collection_runs(id, dataset_version, started_at, trigger, status) "
+                    "VALUES (1, 'v20260816T000000Z', '2026-08-16T00:00:00Z', 'github-search', 'succeeded')"
+                )
+                connection.execute(
+                    "INSERT INTO items(id, platform, external_id, canonical_url, item_type, title, author, content_text, category, relevance, media_kind, first_seen_at, last_seen_at, first_seen_run_id, last_seen_run_id, raw_json) "
+                    "VALUES (1, 'github', 'owner/existing', 'https://github.com/owner/existing', 'repository', 'owner/existing', 'owner', 'Native GitHub description.', 'repository', 'direct', 'none', '2026-08-16T00:00:00Z', '2026-08-16T00:00:00Z', 1, 1, '{\"native\":true}')"
+                )
+                connection.execute(
+                    "INSERT INTO metrics(item_id, collection_run_id, observed_at, stars, metric_source, raw_json) "
+                    "VALUES (1, 1, '2026-08-16T00:00:00Z', 900, 'github REST API', '{\"stars\":900}')"
+                )
+                connection.execute(
+                    "INSERT INTO collection_runs(id, dataset_version, started_at, trigger, status) "
+                    "VALUES (2, 'v20260816T020000Z', '2026-08-16T02:00:00Z', 'source-monitor', 'running')"
+                )
+                descriptor = self.descriptor("2026-08-16T02:00:00Z")
+                existing = dict(descriptor["entries"][0])
+                existing.update({
+                    "name": "官方核心 · owner/existing",
+                    "url": "https://github.com/owner/existing",
+                    "description": "Registry editorial description.",
+                    "stars": 7,
+                    "metrics": {
+                        "stars": 7,
+                        "metric_source": "Registry declared stars",
+                        "observed_at": "2026-08-16T02:00:00Z",
+                    },
+                })
+                new = dict(existing)
+                new.update({
+                    "name": "owner/new-plugin",
+                    "url": "https://github.com/owner/new-plugin",
+                    "install": "dsh plugin --profile web add github:owner/new-plugin",
+                    "install_spec": "github:owner/new-plugin",
+                    "stars": 11,
+                    "metrics": {
+                        "stars": 11,
+                        "metric_source": "Registry declared stars",
+                        "observed_at": "2026-08-16T02:00:00Z",
+                    },
+                })
+                descriptor["entries"] = [existing, new]
+                descriptor["entry_sources"][0]["entry_count"] = 2
+                descriptor["registries"][0]["declared_count"] = 2
+                descriptor["registries"][0]["actual_count"] = 2
+                payload = {
+                    "collected_at": "2026-08-16T02:00:00Z",
+                    "collector": "scripts/monitor_sources.py",
+                    "repositories": [descriptor],
+                    "observations": [{
+                        "platform": "github",
+                        "query": "upstream:owner/registry",
+                        "source_url": "https://github.com/owner/registry",
+                        "collected_at": "2026-08-16T02:00:00Z",
+                        "collector": "scripts/monitor_sources.py",
+                        "method": "registry fixture",
+                        "status": "ok",
+                        "result_count": 2,
+                        "notes": "Regression fixture.",
+                        "items": [
+                            monitor_sources.item_for_entry(existing, "2026-08-16T02:00:00Z", "owner/registry"),
+                            monitor_sources.item_for_entry(new, "2026-08-16T02:00:00Z", "owner/registry"),
+                        ],
+                    }],
+                }
+                collect.dump_json(raw_path, payload)
+
+                import_payload = monitor_sources.payload_for_item_import(connection, payload)
+                self.assertEqual(
+                    [item["url"] for item in import_payload["observations"][0]["items"]],
+                    ["https://github.com/owner/new-plugin"],
+                )
+                collect.import_payload(connection, import_payload, 2, raw_path)
+                raw_sha = collect.sha256_file(raw_path)
+                raw_snapshot_id = int(connection.execute(
+                    "SELECT id FROM raw_snapshots WHERE raw_sha256 = ?", (raw_sha,)
+                ).fetchone()[0])
+                monitor_sources.record_upstream_repositories(connection, payload, raw_snapshot_id)
+
+                existing_item = connection.execute(
+                    "SELECT title, author, content_text, category, last_seen_run_id, raw_json "
+                    "FROM items WHERE id = 1"
+                ).fetchone()
+                self.assertEqual(tuple(existing_item), (
+                    "owner/existing",
+                    "owner",
+                    "Native GitHub description.",
+                    "repository",
+                    1,
+                    '{"native":true}',
+                ))
+                new_item = connection.execute(
+                    "SELECT id, title FROM items WHERE canonical_url = 'https://github.com/owner/new-plugin'"
+                ).fetchone()
+                self.assertEqual(new_item["title"], "owner/new-plugin")
+                listing_rows = connection.execute(
+                    "SELECT entry_url, item_id FROM upstream_entries ORDER BY entry_url"
+                ).fetchall()
+                self.assertEqual([row["entry_url"] for row in listing_rows], [
+                    "https://github.com/owner/existing",
+                    "https://github.com/owner/new-plugin",
+                ])
+                self.assertEqual([row["item_id"] for row in listing_rows], [1, new_item["id"]])
+                self.assertEqual(
+                    connection.execute("SELECT COUNT(*) FROM upstream_entry_observations").fetchone()[0],
+                    2,
+                )
+                self.assertEqual(
+                    connection.execute("SELECT payload_json FROM raw_snapshots").fetchone()[0],
+                    raw_path.read_text(encoding="utf-8"),
+                )
+                existing_metrics = connection.execute(
+                    "SELECT stars, metric_source FROM metrics WHERE item_id = 1 ORDER BY id"
+                ).fetchall()
+                self.assertEqual([tuple(row) for row in existing_metrics], [(900, "github REST API")])
+                listing_stars = connection.execute(
+                    "SELECT stars FROM upstream_entry_observations ORDER BY stars"
+                ).fetchall()
+                self.assertEqual([row["stars"] for row in listing_stars], [7, 11])
+
     def test_ego_import_appends_listing_history_without_replacing_identity(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             database = Path(directory) / "registry.sqlite3"

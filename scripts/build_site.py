@@ -733,9 +733,10 @@ def table_page(title: str, heading: str, intro: str, body: str, config: dict[str
     site_url = config["site_url"].rstrip("/")
     canonical = site_url + "/" + title.lower() + ".html"
     head = page_head(title, intro, canonical, f"{site_url}/media/screenshots/official.png", config).replace("{ASSET_PREFIX}", prefix)
+    home_prefix = prefix or "./"
     return f"""{head}<body>
-{nav_html(prefix)}
-<main class="site-main table-main"><div class="breadcrumbs"><a href="{prefix}">store</a><span>/</span><span>{esc(heading)}</span></div><section class="page-intro"><p class="kicker">PUBLIC PROJECTION · GENERATED FROM SQLITE</p><h1>{esc(heading)}</h1><p>{esc(intro)}</p></section>{body}</main>
+{nav_html(home_prefix)}
+<main class="site-main table-main"><div class="breadcrumbs"><a href="{home_prefix}">store</a><span>/</span><span>{esc(heading)}</span></div><section class="page-intro"><p class="kicker">PUBLIC PROJECTION · GENERATED FROM SQLITE</p><h1>{esc(heading)}</h1><p>{esc(intro)}</p></section>{body}</main>
 {footer_html(prefix, data_path=config["public_database_url"])}
 </body></html>"""
 

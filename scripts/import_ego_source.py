@@ -206,7 +206,12 @@ def main() -> int:
         run_id, version, _ = collect.begin_collection_run(connection, "ego-browser-source-capture")
         stats = collect.ImportStats(raw_files_seen=1)
         try:
-            stats = collect.import_payload(connection, payload, run_id, normalized_path)
+            stats = collect.import_payload(
+                connection,
+                monitor_sources.payload_for_item_import(connection, payload),
+                run_id,
+                normalized_path,
+            )
             original_raw_id, _sha, _new = collect.store_raw_snapshot(connection, args.raw, run_id, payload["collected_at"])
             record_upstream_repositories(connection, payload, original_raw_id)
             stats.raw_files_seen = 2

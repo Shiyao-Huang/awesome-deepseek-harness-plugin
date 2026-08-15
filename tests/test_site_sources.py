@@ -49,7 +49,7 @@ class SourcesPageTests(unittest.TestCase):
 
         self.assertIn("<td>Open Web<br><code>web</code></td>", page)
         self.assertNotIn('href="" rel="noreferrer">Open Web</a>', page)
-        self.assertIn('href="sources.html">Sources</a>', page)
+        self.assertIn('href="./sources.html">Sources</a>', page)
         db.close()
 
 
@@ -122,8 +122,12 @@ class MarketAccessPageTests(unittest.TestCase):
         human = build_site.render_register_page(self.config)
         agent = build_site.render_register_agent_page(self.config)
 
+        self.assertIn('class="brand" href="./"', human)
+        self.assertIn('class="breadcrumbs"><a href="./"', human)
         self.assertIn("docs/register.md", human)
         self.assertIn("market-registry.schema.json", human)
+        self.assertIn('class="brand" href="./"', agent)
+        self.assertIn('class="breadcrumbs"><a href="./"', agent)
         self.assertIn("docs/register.md", agent)
         self.assertIn("Registration never authorizes installation", agent)
 
