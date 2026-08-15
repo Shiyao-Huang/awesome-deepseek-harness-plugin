@@ -4,7 +4,7 @@
 
 | 平台 | 采集方式 | 记录 | 观测 | raw 快照 | 最近观测 | 平台政策 |
 | --- | --- | ---: | ---: | ---: | --- | --- |
-| [GitHub](https://github.com) (`github`) | public REST API | 12,403 | 113 | 54 | 2026-08-15T21:29:55Z | [policy](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) |
+| [GitHub](https://github.com) (`github`) | public REST API | 12,407 | 113 | 54 | 2026-08-15T21:43:02Z | [policy](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) |
 | [Hacker News](https://news.ycombinator.com) (`hacker_news`) | Algolia public search API | 101 | 39 | 16 | 2026-08-15T20:39:36Z | [policy](https://news.ycombinator.com/newsguidelines.html) |
 | [X](https://x.com) (`x`) | ego-browser visible DOM | 77 | 12 | 12 | 2026-08-15T19:56:03.790Z | [policy](https://x.com/en/tos) |
 | [小红书](https://www.xiaohongshu.com) (`xiaohongshu`) | ego-browser visible DOM | 51 | 5 | 5 | 2026-08-15T19:54:47.882Z | [policy](https://www.xiaohongshu.com/privacy_policy) |

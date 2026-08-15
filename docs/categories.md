@@ -12146,6 +12146,10 @@
 | github | [gabriel-ferraresi/deepseek-harness](https://github.com/gabriel-ferraresi/deepseek-harness) | 0 ★, 0 forks | gabriel-ferraresi |
 | github | [thm666999/deepseek-harness](https://github.com/thm666999/deepseek-harness) | 0 ★, 0 forks | thm666999 |
 | github | [apingali/deepseek-harness](https://github.com/apingali/deepseek-harness) | 0 ★, 0 forks | apingali |
+| github | [osifojohn/deepseek-harness](https://github.com/osifojohn/deepseek-harness) | 0 ★, 0 forks | osifojohn |
+| github | [themoneyofenoch/deepseek-harness](https://github.com/themoneyofenoch/deepseek-harness) | 0 ★, 0 forks | themoneyofenoch |
+| github | [nexoracontrol-ops/deepseek-harness](https://github.com/nexoracontrol-ops/deepseek-harness) | 0 ★, 0 forks | nexoracontrol-ops |
+| github | [futurecrown/deepseek-harness](https://github.com/futurecrown/deepseek-harness) | 0 ★, 0 forks | futurecrown |
 
 ## docs-and-learning
 

@@ -5,6 +5,10 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 2026-08-15T21:41:33Z | github | fork | [futurecrown/deepseek-harness](https://github.com/futurecrown/deepseek-harness) | futurecrown | deepseek-harness-forks |
+| 2026-08-15T21:40:16Z | github | fork | [nexoracontrol-ops/deepseek-harness](https://github.com/nexoracontrol-ops/deepseek-harness) | nexoracontrol-ops | deepseek-harness-forks |
+| 2026-08-15T21:38:13Z | github | fork | [themoneyofenoch/deepseek-harness](https://github.com/themoneyofenoch/deepseek-harness) | themoneyofenoch | deepseek-harness-forks |
+| 2026-08-15T21:33:46Z | github | fork | [osifojohn/deepseek-harness](https://github.com/osifojohn/deepseek-harness) | osifojohn | deepseek-harness-forks |
 | 2026-08-15T21:29:42Z | github | fork | [apingali/deepseek-harness](https://github.com/apingali/deepseek-harness) | apingali | deepseek-harness-forks |
 | 2026-08-15T21:28:54Z | github | fork | [thm666999/deepseek-harness](https://github.com/thm666999/deepseek-harness) | thm666999 | deepseek-harness-forks |
 | 2026-08-15T21:28:49Z | github | fork | [gabriel-ferraresi/deepseek-harness](https://github.com/gabriel-ferraresi/deepseek-harness) | gabriel-ferraresi | deepseek-harness-forks |
