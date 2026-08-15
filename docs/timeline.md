@@ -12630,7 +12630,7 @@
 | 2026-03-26T11:40:33Z | github | repository | [hyhmrright/brooks-lint](https://github.com/hyhmrright/brooks-lint) | hyhmrright | docs-and-learning |
 | 2026-03-24T15:58:22Z | github | repository | [alvinreal/awesome-opensource-ai](https://github.com/alvinreal/awesome-opensource-ai) | alvinreal | index-and-marketplace |
 | 2026-03-24T12:11:48Z | github | repository | [upstash/skills](https://github.com/upstash/skills) | upstash | core-and-ecosystem |
-| 2026-03-24T08:35:45Z | github | repository | [agentrq/agentrq](https://github.com/agentrq/agentrq) | agentrq | core-and-ecosystem |
+| 2026-03-24T08:35:45Z | github | repository | [agentrq/agentrq](https://github.com/agentrq/agentrq) | agentrq | ui-and-desktop |
 | 2026-03-22T09:35:15Z | github | repository | [tianmingwangluo/xiaoliuren-skill](https://github.com/tianmingwangluo/xiaoliuren-skill) | tianmingwangluo | core-and-ecosystem |
 | 2026-03-19T15:59:04Z | hacker_news | story | [Show HN: Dumped Wix for an AI Edge agent so I never have to hire junior staff](https://news.ycombinator.com/item?id=47441587) | axotopia | docs-and-learning |
 | 2026-03-19T01:32:22Z | github | repository | [orziz/odai](https://github.com/orziz/odai) | orziz | agents-and-orchestration |
@@ -12691,6 +12691,7 @@
 | 2025-10-31T14:15:28Z | github | repository | [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | shanraisshan | core-and-ecosystem |
 | 2025-10-24T11:08:44Z | github | repository | [lemony-ai/cascadeflow](https://github.com/lemony-ai/cascadeflow) | lemony-ai | core-and-ecosystem |
 | 2025-10-07T05:30:56Z | hacker_news | story | [Show HN: My first finished audio plugin. Minimal Bloat, Under 1000 LOC](https://news.ycombinator.com/item?id=45499664) | not_woowoo | index-and-marketplace |
+| 2025-10-04T23:42:35Z | github | repository | [Nagi-ovo/voyager](https://github.com/Nagi-ovo/voyager) | Nagi-ovo | ui-and-desktop |
 | 2025-09-26T14:32:01Z | github | repository | [hellowind777/helloagents](https://github.com/hellowind777/helloagents) | hellowind777 | core-and-ecosystem |
 | 2025-09-23T13:27:02Z | hacker_news | story | [Show HN: Enhance – a work in progress TUI for GitHub Actions](https://news.ycombinator.com/item?id=45346710) | dlvhdr | index-and-marketplace |
 | 2025-09-22T00:01:14Z | github | repository | [awesome-opencode/awesome-opencode](https://github.com/awesome-opencode/awesome-opencode) | awesome-opencode | index-and-marketplace |
