@@ -1,0 +1,46 @@
+name: Refresh public ecosystem index
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-public-index
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Collect public APIs and rebuild views
+        run: |
+          stamp="$(date -u +%Y%m%dT%H%M%SZ)"
+          python3 scripts/collect.py update --raw-output "data/raw/api/${stamp}.json"
+          python3 scripts/build_views.py
+          python3 scripts/validate.py
+
+      - name: Commit refreshed index
+        run: |
+          git add data/raw/api data/aggregator.sqlite3 docs
+          if git diff --cached --quiet; then
+            echo "No public-index changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "data: refresh public ecosystem index"
+          git push origin HEAD:main

@@ -4,6 +4,8 @@
 
 `raw/2026-08-15-egolite.json` is the first checked-in browser harvest. It records the query, source URL, collection method, visible result count, titles, authors, timestamps, media URLs, and platform-native interaction counters.
 
+`raw/api/` contains checked-in timestamped GitHub/Hacker News API snapshots created by the scheduled refresh workflow. `raw/auto/` remains reserved for local API runs that should not be committed.
+
 Other dated raw files under `raw/` were already present in the workspace and are imported by a read-only legacy adapter. The adapter recognizes GitHub/HN API exports, X/XHS/Reddit/知乎 DOM captures, Bilibili metadata, WeChat articles, and open-web metadata without changing those files.
 
 `raw/auto/` is reserved for later API snapshots and is ignored by Git because it can grow quickly. Keep any snapshot that supports a published claim by copying it into a dated, reviewed raw file.
