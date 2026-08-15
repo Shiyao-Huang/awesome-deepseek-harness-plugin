@@ -5,10 +5,10 @@
 <text x="28" y="82" font-size="14">core-and-ecosystem</text>
 <rect x="245" y="67" width="620" height="20" rx="10" fill="#e8e2d6"/>
 <rect x="245" y="67" width="620" height="20" rx="10" fill="#ef8354"/>
-<text x="878" y="82" text-anchor="end" font-size="14" font-weight="700">590</text>
+<text x="878" y="82" text-anchor="end" font-size="14" font-weight="700">591</text>
 <text x="28" y="124" font-size="14">index-and-marketplace</text>
 <rect x="245" y="109" width="620" height="20" rx="10" fill="#e8e2d6"/>
-<rect x="245" y="109" width="128" height="20" rx="10" fill="#4f6d7a"/>
+<rect x="245" y="109" width="127" height="20" rx="10" fill="#4f6d7a"/>
 <text x="878" y="124" text-anchor="end" font-size="14" font-weight="700">122</text>
 <text x="28" y="166" font-size="14">ui-and-desktop</text>
 <rect x="245" y="151" width="620" height="20" rx="10" fill="#e8e2d6"/>
@@ -28,6 +28,6 @@
 <text x="878" y="292" text-anchor="end" font-size="14" font-weight="700">27</text>
 <text x="28" y="334" font-size="14">agents-and-orchestration</text>
 <rect x="245" y="319" width="620" height="20" rx="10" fill="#e8e2d6"/>
-<rect x="245" y="319" width="17" height="20" rx="10" fill="#3d5a80"/>
-<text x="878" y="334" text-anchor="end" font-size="14" font-weight="700">17</text>
+<rect x="245" y="319" width="18" height="20" rx="10" fill="#3d5a80"/>
+<text x="878" y="334" text-anchor="end" font-size="14" font-weight="700">18</text>
 </svg>

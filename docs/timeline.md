@@ -6,6 +6,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
 | 2026-08-15T14:18:44+08:00 | web | article | [玩了一夜DeepSeek Harness，我发现它在用《我的世界》的方式干掉Claude Code-36氪](https://www.36kr.com/p/3938774780263814) |  | core-and-ecosystem |
+| 2026-08-15 | github | plugin | [coding-coach](https://github.com/xiehuan123/coding-coach) | xiehuan123 | core-and-ecosystem |
 | 2026-08-15 | github | plugin | [dsh-deepread](https://github.com/xiehuan123/dsh-deepread) | xiehuan123 | core-and-ecosystem |
 | 2026-08-15 | github | plugin | [dsh-deepseek-balance](https://github.com/lancecheney/dsh-plugins) | lancecheney | operations-and-safety |
 | 2026-08-15 | github | plugin | [dsh-harmony](https://github.com/CH4ACKO3/dsh-harmony) | CH4ACKO3 | core-and-ecosystem |
@@ -536,7 +537,7 @@
 | 2026-08-13T16:10:10Z | github | repository | [yanglongyun/dsh-ramify](https://github.com/yanglongyun/dsh-ramify) | yanglongyun | core-and-ecosystem |
 | 2026-08-13T16:08:24Z | github | repository | [gxinxing/deepseek-harness-tui](https://github.com/gxinxing/deepseek-harness-tui) | gxinxing | ui-and-desktop |
 | 2026-08-13T16:03:18.000Z | x | post | [Max For AI @MaxForAI · Aug 14 鉴于V4-Pro-0813和DeepSeek Harness的表现，我宣布梁文锋评价下调为梁子。 144 56 1.7K 235K](https://x.com/MaxForAI/status/2087933020431139080) | Max For AI | core-and-ecosystem |
-| 2026-08-13T16:01:59Z | github | repository | [DSH-Plugins-Marketplace](https://github.com/bradeGithub/DSH-Plugins-Marketplace) | bradeGithub | index-and-marketplace |
+| 2026-08-13T16:01:59Z | github | repository | [bradeGithub/DSH-Plugins-Marketplace](https://github.com/bradeGithub/DSH-Plugins-Marketplace) | bradeGithub | index-and-marketplace |
 | 2026-08-13T16:00:16Z | github | repository | [dshdesktop](https://github.com/myYangyunfan/dsh_desktop) | myYangyunfan | ui-and-desktop |
 | 2026-08-13T15:58:15Z | github | repository | [HarcoChen/dsh-vsc-integration](https://github.com/HarcoChen/dsh-vsc-integration) | HarcoChen | core-and-ecosystem |
 | 2026-08-13T15:55:39Z | github | repository | [LiangYin233/dsh-provider-model-configurator](https://github.com/LiangYin233/dsh-provider-model-configurator) | LiangYin233 | core-and-ecosystem |
@@ -643,7 +644,7 @@
 | 2026-08-12T18:32:48Z | hacker_news | story | [https://news.ycombinator.com/item?id=49276732](https://news.ycombinator.com/item?id=49276732) | npn | core-and-ecosystem |
 | 2026-08-12T17:47:28Z | hacker_news | story | [DeepSeek v4 pro 0813 released](https://news.ycombinator.com/item?id=49276138) | alexwwang | core-and-ecosystem |
 | 2026-08-14 | github | repository | [dsh-web-review](https://github.com/CanglongCl/dsh-web-review) | CanglongCl | core-and-ecosystem |
-| 2026-08-13 | github | repository | [icetomoyo/dsh_workflow](https://github.com/icetomoyo/dsh_workflow) | icetomoyo | core-and-ecosystem |
+| 2026-08-13 | github | repository | [dsh_workflow](https://github.com/icetomoyo/dsh_workflow) | icetomoyo | core-and-ecosystem |
 | 2026-08-12T16:28:42Z | github | repository | [dsh-grok-tui](https://github.com/chen-001/dsh-grok-tui) | chen-001 | ui-and-desktop |
 | 2026-08-13 | github | repository | [dsh-emoji](https://github.com/hellodigua/dsh-emoji) | hellodigua | core-and-ecosystem |
 | 2026-08-13 | github | repository | [ZSeven-W/dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) | ZSeven-W | core-and-ecosystem |
@@ -864,6 +865,7 @@
 | 2026-02-22T07:00:09Z | hacker_news | story | [Show HN: Secret Sanitizer – auto-masks secrets when you paste into AI chats](https://news.ycombinator.com/item?id=47108901) | souvikghosh957 | index-and-marketplace |
 | 2026-02-21T02:10:03Z | hacker_news | story | [Show HN: CRTX – AI code gen that tests and fixes its own output (OSS)](https://news.ycombinator.com/item?id=47096764) | johnnycash926 | index-and-marketplace |
 | 2026-02-20T02:26:17Z | github | repository | [mnemon-dev/mnemon](https://github.com/mnemon-dev/mnemon) | mnemon-dev | core-and-ecosystem |
+| 2026-02-17T10:51:46Z | github | repository | [ZSeven-W/openpencil](https://github.com/ZSeven-W/openpencil) | ZSeven-W | agents-and-orchestration |
 | 2026-02-15T14:46:31Z | hacker_news | story | [Show HN: Typemux-cc – .venv-aware Python LSP proxy for Claude Code (no restarts)](https://news.ycombinator.com/item?id=47024098) | K-dash | index-and-marketplace |
 | 2026-02-13T12:38:31Z | github | repository | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | diegosouzapw | ui-and-desktop |
 | 2026-02-11T13:45:46Z | hacker_news | story | [Show HN: I extract recipes from TikTok, Instagram, and the messy web](https://news.ycombinator.com/item?id=46974890) | sklaiber | multimedia-and-vision |
