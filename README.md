@@ -7,7 +7,7 @@ DeepSeek Harness / DSH 插件生态的公开资料聚合 repo：把 GitHub 仓�
 <!-- landing:start -->
 ## Start here — the DSH signal desk
 
-> 这里不是又一份静态 Awesome List，而是一张持续更新的 DeepSeek Harness 生态地图：先看最值得点开的仓库、帖子和视频，再沿着 raw、SQLite、时间轴回到证据。当前批次 **v20260815T202855Z**（2026-08-15）：**12,536** 条去重记录、**14** 个平台、**871** 个媒体引用。
+> 这里不是又一份静态 Awesome List，而是一张持续更新的 DeepSeek Harness 生态地图：先看最值得点开的仓库、帖子和视频，再沿着 raw、SQLite、时间轴回到证据。当前批次 **v20260815T203024Z**（2026-08-15）：**12,536** 条去重记录、**14** 个平台、**871** 个媒体引用。
 
 [打开 dsh store](docs/index.html) · [看价值矩阵](docs/value-matrix.md) · [看趋势](docs/trends.md) · [下载查询 SQLite](https://github.com/Shiyao-Huang/awesome-deepseek-harness-plugin/releases/download/dataset-latest/aggregator.sqlite3)
 
@@ -70,7 +70,7 @@ dsh plugin --profile web add dsh-skills dsh-attachments dsh-inspector
 ## 当前快照
 
 <!-- snapshot:start -->
-公开查询 SQLite 当前包含 **12,536 条去重记录**、**14 个来源平台**、**81,296 条指标历史**、**871 个媒体资产引用**、**306 条详情记录**和 **695 个去重 raw provenance**。当前批次 **v20260815T202855Z** 于 **2026-08-15T20:28:55Z** 完成；价值矩阵为当前批次的 12,536 条记录提供六维评分。完整原始 JSON 位于压缩权威 SQLite；公开查询库保留 raw SHA-256、路径、字节数、采集时间和批次，并去除可由 `data/raw/` 或完整库恢复的重复 JSON blob。
+公开查询 SQLite 当前包含 **12,536 条去重记录**、**14 个来源平台**、**81,296 条指标历史**、**871 个媒体资产引用**、**306 条详情记录**和 **695 个去重 raw provenance**。当前批次 **v20260815T203024Z** 于 **2026-08-15T20:30:24Z** 完成；价值矩阵为当前批次的 12,536 条记录提供六维评分。完整原始 JSON 位于压缩权威 SQLite；公开查询库保留 raw SHA-256、路径、字节数、采集时间和批次，并去除可由 `data/raw/` 或完整库恢复的重复 JSON blob。
 
 | 来源 | 去重记录 | 采集内容 |
 | --- | ---: | --- |
