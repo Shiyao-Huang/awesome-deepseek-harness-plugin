@@ -63,6 +63,8 @@ python3 scripts/collect.py update --raw data/raw/new-egolite.json
 python3 scripts/build_views.py
 ```
 
+公开仓库的 [refresh-index workflow](.github/workflows/refresh-index.yml) 每天自动更新 GitHub/Hacker News 公共 API，保留带时间戳的 `data/raw/api/` 快照并提交 SQLite 与派生页面。X、小红书、Reddit 等动态页面不会在 CI 中自动绕过限制，继续通过 ego-browser 保存 raw 后用 `--raw` 导入。
+
 ego-browser 采集约定：只保存公开可见 DOM、标题、作者、页面显示的互动数字、公开链接和缩略图；不绕过登录、验证码、扫码或访问限制。遇到拦截页，raw 保留原始证据，observation 使用 `blocked` 状态，不伪造标题或互动数。
 
 `data/raw/auto/` 只用于后续 API 快照，默认不进入 git；需要发表的快照请复制到日期命名的已审核 raw 文件。

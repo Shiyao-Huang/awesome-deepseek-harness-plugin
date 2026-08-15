@@ -939,12 +939,18 @@ def command_update(args: argparse.Namespace) -> None:
 
     init_db(args.db)
     payload = collect_api_payload(load_json(CONFIG_PATH))
-    output = RAW_DIR / "auto" / f"{datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ')}.json"
+    output = args.raw_output or (RAW_DIR / "auto" / f"{datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ')}.json")
+    if not output.is_absolute():
+        output = ROOT / output
     dump_json(output, payload)
     paths = [output, *args.raw]
     with connect(args.db) as connection:
         count = import_files(connection, [path for path in paths if path.exists()])
-    print(f"updated {count} item observations; API raw snapshot: {output.relative_to(ROOT)}")
+    try:
+        output_label = output.relative_to(ROOT)
+    except ValueError:
+        output_label = output
+    print(f"updated {count} item observations; API raw snapshot: {output_label}")
 
 
 def command_init(args: argparse.Namespace) -> None:
@@ -965,6 +971,7 @@ def main() -> int:
     seed.add_argument("--raw", type=Path, action="append", default=[], help="raw JSON file; repeatable")
     update = subparsers.add_parser("update", help="fetch public APIs and optionally import browser raw JSON")
     update.add_argument("--raw", type=Path, action="append", default=[], help="ego-browser raw JSON file; repeatable")
+    update.add_argument("--raw-output", type=Path, help="where to persist the API snapshot; defaults to data/raw/auto/")
     args = parser.parse_args()
     if args.command == "init":
         command_init(args)
