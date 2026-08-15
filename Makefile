@@ -1,6 +1,6 @@
 PYTHON ?= python3
 
-.PHONY: init seed update sources value index build check schedule
+.PHONY: init seed update sources value index build check schedule trends enrich
 
 init:
 	$(PYTHON) scripts/collect.py init
@@ -17,6 +17,7 @@ schedule:
 	$(PYTHON) scripts/build_value_matrix.py
 	$(PYTHON) scripts/build_index.py
 	$(PYTHON) scripts/build_views.py
+	$(PYTHON) scripts/build_trends.py
 	$(PYTHON) scripts/validate.py
 
 index:
@@ -38,8 +39,9 @@ build:
 	$(PYTHON) scripts/build_value_matrix.py
 	$(PYTHON) scripts/build_index.py
 	$(PYTHON) scripts/build_views.py
+	$(PYTHON) scripts/build_trends.py
 
 check:
 	$(PYTHON) -m json.tool data/raw/2026-08-15-egolite.json >/dev/null
-	$(PYTHON) -m py_compile scripts/collect.py scripts/build_index.py scripts/build_views.py scripts/build_value_matrix.py scripts/monitor_sources.py scripts/enrich_content.py scripts/score.py
+	$(PYTHON) -m py_compile scripts/collect.py scripts/build_index.py scripts/build_views.py scripts/build_trends.py scripts/build_value_matrix.py scripts/monitor_sources.py scripts/enrich_content.py scripts/score.py
 	$(PYTHON) scripts/validate.py

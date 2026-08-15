@@ -203,7 +203,10 @@ def build(connection: sqlite3.Connection) -> None:
 
     DOCS.mkdir(exist_ok=True)
     ASSETS.mkdir(exist_ok=True)
-    generated = dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+    generated_row = connection.execute(
+        "SELECT COALESCE(finished_at, started_at) FROM collection_runs WHERE trigger <> 'legacy-migration' ORDER BY id DESC LIMIT 1"
+    ).fetchone()
+    generated = str(generated_row[0]) if generated_row and generated_row[0] else dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
     github_growth = daily_series(connection, "github", days=None)
     activity = daily_series(connection, None, days=90)

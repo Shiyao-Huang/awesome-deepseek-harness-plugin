@@ -187,7 +187,7 @@ def score_rows(connection: sqlite3.Connection, config: dict[str, Any], run: sqli
         if signal is not None:
             logged_signals.setdefault(str(row["platform"]), []).append(math.log1p(signal))
     platform_max = {platform: max(values, default=0.0) for platform, values in logged_signals.items()}
-    now = dt.datetime.now(dt.timezone.utc)
+    now = parse_time(run["assessed_at"]) or dt.datetime.now(dt.timezone.utc)
     weights = {key: float(value) for key, value in config["weights"].items()}
     result: list[dict[str, Any]] = []
     for row in rows:

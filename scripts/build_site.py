@@ -28,6 +28,7 @@ PLATFORM_LABELS = {
     "reddit": "Reddit",
     "wechat": "微信公众号",
     "web": "开放网页",
+    "zhihu": "知乎",
     "official": "官方站",
     "linuxdo": "LINUX DO",
     "v2ex": "V2EX",
@@ -379,7 +380,7 @@ def footer_html(prefix: str = "", *, readme_path: str | None = None, data_path: 
     """Render the provenance and deployment footer."""
 
     readme_path = readme_path or ("../README.md" if not prefix else "../../README.md")
-    data_path = data_path or "../data/aggregator.sqlite3"
+    data_path = data_path or ("../data/aggregator.sqlite3" if not prefix else "../../data/aggregator.sqlite3")
     seo_path = seo_path or ("seo.md" if not prefix else "../seo.md")
     return f"""<footer class="site-footer"><div><strong>dsh store</strong><p>A public, dated directory for the DeepSeek Harness plugin ecosystem.</p></div><div><a href="{readme_path}">Collection rules</a><a href="{data_path}">SQLite</a><a href="{seo_path}">SEO notes</a></div><p class="footer-note">Public metadata only. Platform counts stay native and are never added together.</p></footer>"""
 
