@@ -4,9 +4,9 @@
 
 | 源仓库 | stars | forks | 开放 issue | 当前条目 | 插件候选 | 最近检查 |
 | --- | ---: | ---: | ---: | ---: | ---: | --- |
-| [Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins](https://github.com/Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins) | 56 | 6 | 2 | 140 | 80 | 2026-08-15T08:32:29Z · [raw](../data/raw/upstreams/20260815T083227Z.json) |
-| [beancookie/awesome-dsh-plugin](https://github.com/beancookie/awesome-dsh-plugin) | 20 | 8 | 2 | 276 | 276 | 2026-08-15T08:32:29Z · [raw](../data/raw/upstreams/20260815T083227Z.json) |
-| [walkinglabs/awesome-deepseek-harness-plugins](https://github.com/walkinglabs/awesome-deepseek-harness-plugins) | 4 | 7 | 1 | 114 | 91 | 2026-08-15T08:32:29Z · [raw](../data/raw/upstreams/20260815T083227Z.json) |
+| [Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins](https://github.com/Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins) | 56 | 6 | 2 | 181 | 98 | 2026-08-15T08:44:59Z · [raw](../data/raw/upstreams/20260815T084458Z.json) |
+| [beancookie/awesome-dsh-plugin](https://github.com/beancookie/awesome-dsh-plugin) | 20 | 10 | 4 | 276 | 276 | 2026-08-15T08:44:59Z · [raw](../data/raw/upstreams/20260815T084458Z.json) |
+| [walkinglabs/awesome-deepseek-harness-plugins](https://github.com/walkinglabs/awesome-deepseek-harness-plugins) | 4 | 7 | 1 | 114 | 91 | 2026-08-15T08:44:59Z · [raw](../data/raw/upstreams/20260815T084458Z.json) |
 
 ## Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins
 
@@ -16,8 +16,10 @@ Curated DeepSeek Harness (DSH) plugins, extensions, tools, skills, clients, runt
 
 | 插件 | 类别 | 描述 | 安装提示 |
 | --- | --- | --- | --- |
+| [dsh-balance](https://github.com/crazywoola/dsh-balance) | Developer &amp; Operations | dsh-balance | `—` |
 | [dsh-context-doctor](https://github.com/Zhenyu98/dsh-context-doctor) | Developer &amp; Operations | dsh-context-doctor | `—` |
 | [dsh-continual-evolve](https://github.com/ZK-Andy/dsh-continual-evolve) | Developer &amp; Operations | dsh-continual-evolve | `—` |
+| [dsh-cost-meter](https://github.com/Han-1413141/dsh-cost-meter) | Developer &amp; Operations | dsh-cost-meter | `—` |
 | [dsh-doublecheck](https://github.com/PerryLink/dsh-doublecheck) | Developer &amp; Operations | dsh-doublecheck | `—` |
 | [dsh-evolve](https://github.com/william-jin-cmu/dsh-evolve) | Developer &amp; Operations | dsh-evolve | `—` |
 | [dsh-fail-logger](https://github.com/Areium/dsh-fail-logger) | Developer &amp; Operations | dsh-fail-logger | `—` |
@@ -29,13 +31,11 @@ Curated DeepSeek Harness (DSH) plugins, extensions, tools, skills, clients, runt
 | [dsh-plugin-check](https://github.com/omdsh-dev/dsh-plugin-check) | Developer &amp; Operations | dsh-plugin-check | `—` |
 | [dsh-plugin-dev](https://github.com/omdsh-dev/dsh-plugin-dev) | Developer &amp; Operations | dsh-plugin-dev | `—` |
 | [dsh-plugin-skills](https://github.com/omdsh-dev/dsh-plugin-skills) | Developer &amp; Operations | dsh-plugin-skills | `—` |
+| [dsh-plugin-workshop](https://github.com/yyyyukari/dsh-plugin-workshop) | Developer &amp; Operations | dsh-plugin-workshop | `—` |
 | [dsh-postmortem](https://github.com/zzh-newlearner/dsh-postmortem) | Developer &amp; Operations | dsh-postmortem | `—` |
+| [dsh-recommend](https://github.com/zp-home/dsh-recommend) | Developer &amp; Operations | dsh-recommend | `—` |
 | [dsh-revive](https://github.com/omdsh-dev/dsh-revive) | Developer &amp; Operations | dsh-revive | `—` |
 | [dsh-security-audit](https://github.com/omdsh-dev/dsh-security-audit) | Developer &amp; Operations | dsh-security-audit | `—` |
-| [dsh-session-notification](https://github.com/dingyi222666/dsh-session-notification) | Developer &amp; Operations | dsh-session-notification | `—` |
-| [dsh-specflow](https://github.com/lonelymoon87/dsh-specflow) | Developer &amp; Operations | dsh-specflow | `—` |
-| [dsh-telemetry-redactor](https://github.com/030611/dsh-telemetry-redactor) | Developer &amp; Operations | dsh-telemetry-redactor | `—` |
-| [dsh-trace](https://github.com/vibeinging/dsh-trace) | Developer &amp; Operations | dsh-trace | `—` |
 
 ## beancookie/awesome-dsh-plugin
 
