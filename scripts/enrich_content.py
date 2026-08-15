@@ -225,10 +225,10 @@ def extract_article_text(page_html: str) -> str:
 def web_articles(connection: sqlite3.Connection) -> dict[str, int]:
     """Store extracted article body text for web/official items."""
 
-    rows = connection.execute(
-        "SELECT id, canonical_url, title FROM items WHERE platform IN ('web', 'official')"
-    ).fetchall()
     stats = {"fetched": 0, "blocked": 0, "failed": 0}
+    rows = connection.execute(
+        "SELECT id, canonical_url FROM items WHERE platform IN ('web', 'official')"
+    ).fetchall()
     for row in rows:
         url = row["canonical_url"]
         try:

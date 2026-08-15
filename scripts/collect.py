@@ -1094,6 +1094,7 @@ def legacy_payload(path: Path, data: Any) -> dict[str, Any] | None:
             "official" if host.endswith("deepseek.com") else
             "youtube" if host.endswith("youtube.com") else
             "bilibili" if host.endswith("bilibili.com") else
+            "zhihu" if host.endswith("zhihu.com") else
             "web"
         )
         og_image = str(data.get("ogImage") or "")
