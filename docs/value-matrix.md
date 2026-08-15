@@ -6,56 +6,56 @@
 
 | # | 平台 | 记录 | value | band | utility | evidence | traction | ecosystem | freshness | reviewability | confidence | 风险提示 |
 | ---: | --- | --- | ---: | :---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| 1 | github | [官方核心 · deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 78.65 | B | 45.00 | 86.67 | 96.34 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 2 | github | [高关注插件 · zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 77.45 | B | 65.00 | 86.67 | 65.32 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 3 | github | [ModLens](https://github.com/liustack/modlens) | 76.87 | B | 65.00 | 86.67 | 62.43 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 4 | github | [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | 76.19 | B | 65.00 | 86.67 | 59.01 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 5 | github | [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 76.19 | B | 65.00 | 86.67 | 59.01 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 6 | github | [dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | 75.64 | B | 65.00 | 86.67 | 56.29 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 7 | github | [treg](https://github.com/superdesigndev/treg) | 75.36 | B | 75.00 | 86.67 | 49.91 | 72.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 8 | github | [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) | 74.94 | B | 65.00 | 86.67 | 52.79 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 9 | github | [DSH Vision Toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 74.43 | B | 65.00 | 86.67 | 50.22 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 10 | github | [Aegis](https://github.com/GanyuanRan/Aegis) | 74.35 | B | 65.00 | 86.67 | 57.33 | 72.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 11 | github | [DSH Ads](https://github.com/Nagi-ovo/dsh-ads) | 74.34 | B | 65.00 | 86.67 | 49.81 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 12 | github | [DSH Agent Teams](https://github.com/NanmiCoder/dsh-agent-teams) | 74.01 | B | 65.00 | 86.67 | 48.13 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 13 | github | [dsh-market](https://github.com/dsh-market/dsh-market) | 73.72 | B | 65.00 | 86.67 | 46.71 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 14 | github | [DSH @File](https://github.com/omdsh-dev/dsh-at-file) | 73.32 | B | 65.00 | 86.67 | 44.68 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 15 | github | [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | 73.11 | B | 55.00 | 86.67 | 66.14 | 82.00 | 99.99 | 65.00 | 100.00 | license_unreported |
-| 16 | github | [oh-dsh](https://github.com/hust-open-atom-club/oh-dsh) | 73.09 | B | 65.00 | 86.67 | 43.56 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 17 | github | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | 72.90 | B | 65.00 | 86.67 | 42.57 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 18 | github | [whale-girl](https://github.com/vlln/whale-girl) | 72.89 | B | 65.00 | 86.67 | 42.52 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 19 | github | [superdesign-skill](https://github.com/superdesigndev/superdesign-skill) | 72.86 | B | 65.00 | 86.67 | 49.87 | 72.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 20 | github | [DSH Browser](https://github.com/Lum1104/dsh-browser) | 72.81 | B | 65.00 | 86.67 | 42.12 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 21 | github | [dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) | 72.81 | B | 75.00 | 86.67 | 29.63 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 22 | github | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | 72.60 | B | 65.00 | 86.67 | 41.10 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 23 | github | [notes](https://github.com/zhaoolee/notes) | 72.59 | B | 65.00 | 86.67 | 41.04 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 24 | github | [DSH Visualize](https://github.com/Nagi-ovo/dsh-visualize) | 72.34 | B | 65.00 | 86.67 | 39.79 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 25 | github | [DSH GenUI](https://github.com/omdsh-dev/dsh-genui) | 72.14 | B | 65.00 | 86.67 | 38.79 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 26 | github | [ModSearch](https://github.com/liustack/modsearch) | 72.09 | B | 65.00 | 86.67 | 38.56 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 27 | github | [DSH Memory Evolve](https://github.com/csyangwen/dsh-memory-evolve) | 71.90 | B | 65.00 | 86.67 | 37.57 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 28 | github | [dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) | 71.71 | B | 65.00 | 86.67 | 36.64 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 29 | github | [argo](https://github.com/taxueseek/argo) | 71.67 | B | 65.00 | 86.67 | 36.44 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 30 | github | [forkprobe](https://github.com/Jayden-X-L/forkprobe) | 71.34 | B | 65.00 | 86.67 | 34.77 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 31 | github | [dsh_workflow](https://github.com/icetomoyo/dsh_workflow) | 71.16 | B | 65.00 | 86.67 | 33.86 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 32 | github | [DSH Turn Rewind](https://github.com/Anionex/dsh-turn-rewind) | 71.07 | B | 65.00 | 86.67 | 33.43 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 33 | github | [dsh-annotation](https://github.com/omdsh-dev/dsh-annotation) | 71.01 | B | 65.00 | 86.67 | 33.14 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 34 | github | [dsh-webui-market-plugin](https://github.com/Sanqi-normal/dsh-webui-market-plugin) | 70.95 | B | 65.00 | 86.67 | 32.83 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 35 | github | [DSH Notification](https://github.com/omdsh-dev/dsh-notification) | 70.85 | B | 65.00 | 86.67 | 32.35 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 36 | github | [DSH Open in VS Code](https://github.com/omdsh-dev/dsh-open-in-vscode) | 70.75 | B | 65.00 | 86.67 | 31.84 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 37 | github | [mstar-harness](https://github.com/btspoony/mstar-harness) | 70.72 | B | 65.00 | 86.67 | 31.66 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 38 | github | [plugin-registry](https://github.com/vlln/plugin-registry) | 70.64 | B | 65.00 | 86.67 | 31.29 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 39 | github | [dsh-context](https://github.com/bowenliang123/dsh-context) | 70.60 | B | 65.00 | 86.67 | 31.10 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 40 | github | [dsh-automation](https://github.com/titanwings/dsh-automation) | 70.56 | B | 65.00 | 86.67 | 30.91 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 41 | github | [ui-status-label](https://github.com/alingalingling/ui-status-label) | 70.26 | B | 65.00 | 86.67 | 29.40 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 42 | github | [GitHub](https://github.com/anywhere-labs/deepseek-harness-desktop) | 70.21 | B | 45.00 | 86.67 | 71.62 | 72.00 | 99.99 | 65.00 | 100.00 | license_unreported |
-| 43 | github | [dsh-interconnect](https://github.com/Chinesezjc/dsh-interconnect) | 69.90 | B | 65.00 | 86.67 | 27.56 | 82.00 | 99.99 | 85.00 | 100.00 | license_unreported |
-| 44 | github | [open-design](https://github.com/nexu-io/open-design) | 69.19 | B | 35.00 | 86.67 | 94.04 | 52.00 | 99.99 | 65.00 | 85.00 | license_unreported |
-| 45 | github | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 69.03 | B | 45.00 | 86.67 | 95.74 | 32.00 | 99.96 | 65.00 | 85.00 | license_unreported |
-| 46 | github | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 68.55 | B | 45.00 | 86.67 | 93.36 | 32.00 | 99.96 | 65.00 | 85.00 | license_unreported |
-| 47 | zhihu | [怎么看 DeepSeek Harness 正式开源，采用一切皆插件的架构？](https://www.zhihu.com/question/2071348486667237276) | 68.14 | B | 45.00 | 78.33 | 100.00 | 32.00 | 99.27 | 65.00 | 100.00 | — |
-| 48 | github | [dsh-anchored-standard](https://github.com/xiaobright/dsh-anchored-standard) | 68.08 | B | 55.00 | 86.67 | 63.50 | 52.00 | 99.99 | 65.00 | 85.00 | license_unreported |
-| 49 | github | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 67.73 | B | 45.00 | 86.67 | 89.23 | 32.00 | 99.96 | 65.00 | 85.00 | license_unreported |
-| 50 | github | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | 67.67 | B | 45.00 | 86.67 | 88.97 | 32.00 | 99.96 | 65.00 | 85.00 | license_unreported |
+| 1 | github | [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 79.94 | B | 75.00 | 86.67 | 65.32 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 2 | github | [liustack/modlens](https://github.com/liustack/modlens) | 79.37 | B | 75.00 | 86.67 | 62.43 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 3 | github | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 78.65 | B | 45.00 | 86.67 | 96.34 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 4 | github | [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness) | 77.44 | B | 75.00 | 86.67 | 52.79 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 5 | github | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 76.92 | B | 75.00 | 86.67 | 50.22 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 6 | github | [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | 76.18 | B | 65.00 | 86.67 | 59.00 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 7 | github | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 76.18 | B | 65.00 | 86.67 | 59.01 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 8 | github | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | 75.64 | B | 65.00 | 86.67 | 56.29 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 9 | github | [superdesigndev/superdesign-skill](https://github.com/superdesigndev/superdesign-skill) | 75.36 | B | 75.00 | 86.67 | 49.87 | 72.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 10 | github | [Lum1104/dsh-browser](https://github.com/Lum1104/dsh-browser) | 75.31 | B | 75.00 | 86.67 | 42.12 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 11 | github | [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | 75.10 | B | 75.00 | 86.67 | 41.10 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 12 | github | [zhaoolee/notes](https://github.com/zhaoolee/notes) | 75.09 | B | 75.00 | 86.67 | 41.04 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 13 | github | [omdsh-dev/dsh-genui](https://github.com/omdsh-dev/dsh-genui) | 74.64 | B | 75.00 | 86.67 | 38.79 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 14 | github | [liustack/modsearch](https://github.com/liustack/modsearch) | 74.59 | B | 75.00 | 86.67 | 38.56 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 15 | github | [csyangwen/dsh-memory-evolve](https://github.com/csyangwen/dsh-memory-evolve) | 74.40 | B | 75.00 | 86.67 | 37.57 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 16 | github | [GanyuanRan/Aegis](https://github.com/GanyuanRan/Aegis) | 74.35 | B | 65.00 | 86.67 | 57.33 | 72.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 17 | github | [Nagi-ovo/dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | 74.34 | B | 65.00 | 86.67 | 49.81 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 18 | github | [NanmiCoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) | 74.01 | B | 65.00 | 86.67 | 48.13 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 19 | github | [dsh-market/dsh-market](https://github.com/dsh-market/dsh-market) | 73.72 | B | 65.00 | 86.67 | 46.71 | 82.00 | 99.98 | 85.00 | 100.00 | license_unreported |
+| 20 | github | [Sanqi-normal/dsh-webui-market-plugin](https://github.com/Sanqi-normal/dsh-webui-market-plugin) | 73.45 | B | 75.00 | 86.67 | 32.83 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 21 | github | [dsh-at-file](https://github.com/omdsh-dev/dsh-at-file) | 73.32 | B | 65.00 | 86.67 | 44.68 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 22 | github | [vlln/plugin-registry](https://github.com/vlln/plugin-registry) | 73.14 | B | 75.00 | 86.67 | 31.29 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 23 | github | [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | 73.11 | B | 55.00 | 86.67 | 66.14 | 82.00 | 99.98 | 65.00 | 100.00 | license_unreported |
+| 24 | github | [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) | 73.10 | B | 75.00 | 86.67 | 31.10 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 25 | github | [oh-dsh](https://github.com/hust-open-atom-club/oh-dsh) | 73.09 | B | 65.00 | 86.67 | 43.56 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 26 | github | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | 72.90 | B | 65.00 | 86.67 | 42.57 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 27 | github | [vlln/whale-girl](https://github.com/vlln/whale-girl) | 72.89 | B | 65.00 | 86.67 | 42.52 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 28 | github | [superdesigndev/treg](https://github.com/superdesigndev/treg) | 72.86 | B | 65.00 | 86.67 | 49.91 | 72.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 29 | github | [Nwflower/dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) | 72.81 | B | 75.00 | 86.67 | 29.63 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 30 | github | [Nagi-ovo/dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | 72.33 | B | 65.00 | 86.67 | 39.73 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 31 | github | [ZSeven-W/dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) | 71.69 | B | 65.00 | 86.67 | 36.54 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 32 | github | [nexu-io/open-design](https://github.com/nexu-io/open-design) | 71.69 | B | 45.00 | 86.67 | 94.04 | 52.00 | 99.97 | 65.00 | 85.00 | license_unreported |
+| 33 | github | [taxueseek/argo](https://github.com/taxueseek/argo) | 71.67 | B | 65.00 | 86.67 | 36.44 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 34 | github | [Jayden-X-L/forkprobe](https://github.com/Jayden-X-L/forkprobe) | 71.34 | B | 65.00 | 86.67 | 34.77 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 35 | github | [icetomoyo/dshworkflow](https://github.com/icetomoyo/dsh_workflow) | 71.15 | B | 65.00 | 86.67 | 33.86 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 36 | github | [Anionex/dsh-turn-rewind](https://github.com/Anionex/dsh-turn-rewind) | 71.07 | B | 65.00 | 86.67 | 33.43 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 37 | github | [omdsh-dev/dsh-annotation](https://github.com/omdsh-dev/dsh-annotation) | 71.01 | B | 65.00 | 86.67 | 33.14 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 38 | github | [omdsh-dev/dsh-notification](https://github.com/omdsh-dev/dsh-notification) | 70.85 | B | 65.00 | 86.67 | 32.35 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 39 | github | [omdsh-dev/dsh-open-in-vscode](https://github.com/omdsh-dev/dsh-open-in-vscode) | 70.75 | B | 65.00 | 86.67 | 31.84 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 40 | github | [btspoony/mstar-harness](https://github.com/btspoony/mstar-harness) | 70.75 | B | 65.00 | 86.67 | 31.84 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 41 | github | [titanwings/dsh-automation](https://github.com/titanwings/dsh-automation) | 70.56 | B | 65.00 | 86.67 | 30.91 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 42 | github | [alingalingling/ui-status-label](https://github.com/alingalingling/ui-status-label) | 70.26 | B | 65.00 | 86.67 | 29.40 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 43 | github | [Chinesezjc/dsh-interconnect](https://github.com/Chinesezjc/dsh-interconnect) | 69.89 | B | 65.00 | 86.67 | 27.56 | 82.00 | 99.97 | 85.00 | 100.00 | license_unreported |
+| 44 | github | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 69.03 | B | 45.00 | 86.67 | 95.74 | 32.00 | 99.97 | 65.00 | 85.00 | license_unreported |
+| 45 | github | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 68.55 | B | 45.00 | 86.67 | 93.36 | 32.00 | 99.97 | 65.00 | 85.00 | license_unreported |
+| 46 | zhihu | [怎么看 DeepSeek Harness 正式开源，采用一切皆插件的架构？](https://www.zhihu.com/question/2071348486667237276) | 68.14 | B | 45.00 | 78.33 | 100.00 | 32.00 | 99.26 | 65.00 | 100.00 | — |
+| 47 | github | [xiaobright/dsh-anchored-standard](https://github.com/xiaobright/dsh-anchored-standard) | 68.08 | B | 55.00 | 86.67 | 63.49 | 52.00 | 99.97 | 65.00 | 85.00 | license_unreported |
+| 48 | github | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 67.73 | B | 45.00 | 86.67 | 89.23 | 32.00 | 99.97 | 65.00 | 85.00 | license_unreported |
+| 49 | github | [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | 67.70 | B | 35.00 | 86.67 | 71.62 | 72.00 | 99.97 | 65.00 | 100.00 | license_unreported |
+| 50 | github | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | 67.67 | B | 45.00 | 86.67 | 88.97 | 32.00 | 99.97 | 65.00 | 85.00 | license_unreported |
 
 ## 维度与权重
 

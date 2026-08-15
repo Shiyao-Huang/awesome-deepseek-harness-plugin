@@ -3,7 +3,7 @@
   "version": 2,
   "updated": "2026-08-15",
   "generatedAt": "2026-08-15T22:42:45Z",
-  "datasetVersion": "v20260815T225249Z",
+  "datasetVersion": "v20260815T231311Z-2",
   "count": 893,
   "verifiedCount": 22,
   "note": "Listings are aggregated from attributed community registries. verified=true reports at least one source curator's limited CI/release/install claim; it is not a deeplugin.store security or compatibility endorsement.",
