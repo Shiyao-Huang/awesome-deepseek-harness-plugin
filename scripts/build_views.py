@@ -70,8 +70,8 @@ def svg_bars(title: str, rows: Iterable[sqlite3.Row], label_key: str, value_key:
     filename.write_text("\n".join(parts), encoding="utf-8")
 
 
-def write_index(connection: sqlite3.Connection, generated_at: str) -> None:
-    """Write the front page with current counts and top records."""
+def write_index(connection: sqlite3.Connection, generated_at: str, dataset_version: str) -> None:
+    """Write the front page with the current dataset version and top records."""
 
     totals = connection.execute("SELECT COUNT(*) AS items, COUNT(DISTINCT platform) AS platforms FROM items").fetchone()
     media_total = connection.execute("SELECT COUNT(*) AS count FROM media_assets").fetchone()[0]
@@ -89,7 +89,7 @@ def write_index(connection: sqlite3.Connection, generated_at: str) -> None:
         "",
         "> 一个可重复更新的公开资料聚合体：仓库、插件、索引、文章、帖子、图片缩略图和视频链接。原始观测保留在 `data/raw/`，SQLite 是可查询的派生索引。",
         "",
-        f"当前快照：**{esc(generated_at)}**。共 **{totals['items']:,}** 条去重记录，覆盖 **{totals['platforms']}** 个平台，外部媒体资产 **{media_total:,}** 条。",
+        f"当前数据集版本：**{esc(dataset_version)}**，完成时间：**{esc(generated_at)}**。共 **{totals['items']:,}** 条去重记录，覆盖 **{totals['platforms']}** 个平台，外部媒体资产 **{media_total:,}** 条。",
         "",
         "## 三句话结论",
         "",
@@ -101,6 +101,7 @@ def write_index(connection: sqlite3.Connection, generated_at: str) -> None:
         "",
         "- [按来源浏览](timeline.md)",
         "- [按主题归类](categories.md)",
+        "- [上游源仓库与插件关系](sources.md)",
         "- [可视化报告](report.html)",
         "- [采集与更新说明](../README.md#更新)",
         "",
@@ -120,6 +121,56 @@ def write_index(connection: sqlite3.Connection, generated_at: str) -> None:
         title = (row["title"] or row["canonical_url"] or "未命名").replace("|", "\\|")
         lines.append(f"| {esc(row['platform'])} | [{esc(title)}]({row['canonical_url']}) | {esc(row['author'])} | {esc(metric_label(row))} | {esc(row['category'])} |")
     (DOCS / "index.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def write_sources(connection: sqlite3.Connection) -> None:
+    """Write monitored community indexes and their current plugin references."""
+
+    repositories = connection.execute(
+        """
+        SELECT u.*, r.raw_path,
+               COUNT(e.id) AS entry_count,
+               COUNT(e.id) FILTER (WHERE e.entry_kind = 'plugin-candidate') AS plugin_count
+        FROM upstream_repositories AS u
+        LEFT JOIN raw_snapshots AS r ON r.id = u.raw_snapshot_id
+        LEFT JOIN upstream_entries AS e ON e.repository_id = u.id
+        GROUP BY u.id
+        ORDER BY u.full_name
+        """
+    ).fetchall()
+    lines = [
+        "# Monitored upstream indexes",
+        "",
+        "这些仓库是聚合器的源，不等同于项目质量背书。每次监测保存 README/结构化目录 raw，并把公开条目链接到 SQLite 中的去重 item；安装前仍应回到插件仓库审查代码、权限和兼容性。",
+        "",
+        "| 源仓库 | stars | forks | 开放 issue | 当前条目 | 插件候选 | 最近检查 |",
+        "| --- | ---: | ---: | ---: | ---: | ---: | --- |",
+    ]
+    for row in repositories:
+        raw_link = f"[raw]({('../' + row['raw_path']) if row['raw_path'] else '#'})"
+        lines.append(
+            f"| [{esc(row['full_name'])}]({row['source_url']}) | {row['stars'] if row['stars'] is not None else '—'} | "
+            f"{row['forks'] if row['forks'] is not None else '—'} | {row['open_issues'] if row['open_issues'] is not None else '—'} | "
+            f"{row['entry_count']:,} | {row['plugin_count']:,} | {esc(row['last_checked_at'])} · {raw_link} |"
+        )
+    for repository in repositories:
+        lines.extend(["", f"## {esc(repository['full_name'])}", "", f"{esc(repository['description'])}", ""])
+        entries = connection.execute(
+            """
+            SELECT entry_name, entry_url, entry_kind, category, description, install_hint
+            FROM upstream_entries
+            WHERE repository_id = ? AND entry_kind = 'plugin-candidate'
+            ORDER BY category, entry_name
+            LIMIT 20
+            """,
+            (repository["id"],),
+        ).fetchall()
+        lines.extend(["展示前 20 个插件候选；完整目录在 `upstream_entries` 表和对应 raw 中。", "", "| 插件 | 类别 | 描述 | 安装提示 |", "| --- | --- | --- | --- |"])
+        for entry in entries:
+            description = (entry["description"] or "").replace("|", "\\|")
+            install = (entry["install_hint"] or "—").replace("|", "\\|")
+            lines.append(f"| [{esc(entry['entry_name'])}]({entry['entry_url']}) | {esc(entry['category'])} | {esc(description)} | `{esc(install)}` |")
+    (DOCS / "sources.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def write_timeline(connection: sqlite3.Connection) -> None:
@@ -234,11 +285,18 @@ def main() -> None:
     DOCS.mkdir(parents=True, exist_ok=True)
     ASSETS.mkdir(parents=True, exist_ok=True)
     with connect() as connection:
-        generated_at = connection.execute("SELECT COALESCE(MAX(observed_at), datetime('now')) FROM metrics").fetchone()[0]
-        write_index(connection, str(generated_at))
+        run = connection.execute(
+            "SELECT dataset_version, COALESCE(finished_at, started_at) AS generated_at FROM collection_runs WHERE trigger <> 'legacy-migration' ORDER BY id DESC LIMIT 1"
+        ).fetchone()
+        if run is None:
+            dataset_version, generated_at = "unversioned", "unknown"
+        else:
+            dataset_version, generated_at = str(run[0]), str(run[1])
+        write_index(connection, generated_at, dataset_version)
         write_timeline(connection)
         write_categories(connection)
-        write_report(connection, str(generated_at))
+        write_sources(connection)
+        write_report(connection, f"{dataset_version} · {generated_at}")
     print(f"built docs and charts from {DB_PATH}")
 
 

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DeepSeek Harness ecosystem index record",
+  "type": "object",
+  "required": [
+    "id",
+    "summary",
+    "url",
+    "repo",
+    "context",
+    "picture",
+    "comment",
+    "favor",
+    "views",
+    "refs",
+    "rank",
+    "stars",
+    "dataset_version",
+    "first_seen_at",
+    "last_seen_at"
+  ],
+  "properties": {
+    "id": {"type": "string", "pattern": "^id-[0-9]+$"},
+    "summary": {"type": ["string", "null"]},
+    "url": {"type": "string", "format": "uri"},
+    "repo": {"type": ["string", "null"]},
+    "context": {"type": "object"},
+    "picture": {"type": "array", "items": {"type": "string", "format": "uri"}},
+    "comment": {"type": ["integer", "null"]},
+    "favor": {"type": ["integer", "null"]},
+    "views": {"type": ["integer", "null"]},
+    "refs": {"type": "array", "items": {"type": "string", "format": "uri"}},
+    "rank": {"type": "integer", "minimum": 1},
+    "stars": {"type": ["integer", "null"]},
+    "dataset_version": {"type": "string"},
+    "first_seen_at": {"type": "string", "format": "date-time"},
+    "last_seen_at": {"type": "string", "format": "date-time"}
+  },
+  "additionalProperties": false
+}

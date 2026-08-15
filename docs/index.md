@@ -2,7 +2,7 @@
 
 > 一个可重复更新的公开资料聚合体：仓库、插件、索引、文章、帖子、图片缩略图和视频链接。原始观测保留在 `data/raw/`，SQLite 是可查询的派生索引。
 
-当前快照：**2026-08-15T06:37:51Z**。共 **581** 条去重记录，覆盖 **14** 个平台，外部媒体资产 **550** 条。
+当前数据集版本：**v20260815T073724Z**，完成时间：**2026-08-15T07:37:24Z**。共 **782** 条去重记录，覆盖 **13** 个平台，外部媒体资产 **551** 条。
 
 ## 三句话结论
 
@@ -14,6 +14,7 @@
 
 - [按来源浏览](timeline.md)
 - [按主题归类](categories.md)
+- [上游源仓库与插件关系](sources.md)
 - [可视化报告](report.html)
 - [采集与更新说明](../README.md#更新)
 
@@ -21,11 +22,11 @@
 
 | 平台 | 去重记录 | 采集方式 |
 | --- | ---: | --- |
-| github | 435 | public REST API |
+| github | 636 | public REST API |
 | x | 43 | ego-browser visible DOM |
 | hacker_news | 26 | Algolia public search API |
 | xiaohongshu | 25 | ego-browser visible DOM |
-| web | 21 | public page metadata |
+| web | 22 | public page metadata |
 | youtube | 13 | ego-browser visible DOM |
 | bilibili | 6 | public web metadata API |
 | reddit | 5 | ego-browser visible DOM |
@@ -34,26 +35,25 @@
 | v2ex | 1 | ego-browser visible DOM |
 | wechat | 1 | ego-browser visible DOM |
 | weibo | 1 | ego-browser visible DOM |
-| zhihu | 1 | ego-browser visible DOM |
 
 ## 主题分布
 
 | 分类 | 记录 | 带媒体 |
 | --- | ---: | ---: |
-| core-and-ecosystem | 350 | 69 |
-| ui-and-desktop | 79 | 2 |
-| index-and-marketplace | 62 | 16 |
-| operations-and-safety | 38 | 1 |
-| multimedia-and-vision | 25 | 2 |
-| docs-and-learning | 20 | 4 |
-| agents-and-orchestration | 7 | 0 |
+| core-and-ecosystem | 515 | 69 |
+| ui-and-desktop | 88 | 2 |
+| index-and-marketplace | 64 | 16 |
+| operations-and-safety | 51 | 1 |
+| multimedia-and-vision | 32 | 2 |
+| docs-and-learning | 22 | 4 |
+| agents-and-orchestration | 10 | 0 |
 
 ## 高互动/高关注记录
 
 | 平台 | 标题 | 作者 | 指标 | 分类 |
 | --- | --- | --- | --- | --- |
-| github | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-ai | 101,440 ★, 9,596 forks | core-and-ecosystem |
-| github | [nexu-io/open-design](https://github.com/nexu-io/open-design) | nexu-io | 86,488 ★, 10,085 forks | ui-and-desktop |
+| github | [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-ai | 101,440 ★, 9,596 forks | core-and-ecosystem |
+| github | [open-design](https://github.com/nexu-io/open-design) | nexu-io | 86,488 ★, 10,085 forks | core-and-ecosystem |
 | github | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | CherryHQ | 50,491 ★, 4,781 forks | core-and-ecosystem |
 | youtube | [DeepSeek Harness: The End of Claude Code?](https://www.youtube.com/watch?v=qg9EyGOZd9U) | NeuralNine | 39,000 views | core-and-ecosystem |
 | github | [titanwings/colleague-skill](https://github.com/titanwings/colleague-skill) | titanwings | 22,153 ★, 2,045 forks | core-and-ecosystem |
@@ -71,4 +71,4 @@
 | github | [strukto-ai/mirage](https://github.com/strukto-ai/mirage) | strukto-ai | 3,422 ★, 255 forks | core-and-ecosystem |
 | youtube | [DeepSeek&#x27;s Latest Open-Source Project: DeepSeek Harness Is Officially Here](https://www.youtube.com/watch?v=CAb1PaVBCEM) | 鲲鹏Talk | 3,294 views | core-and-ecosystem |
 | x | [Tianyi Cui @tianyi · Aug 1 如果你是 Agent Harness 相关开源项目的开发者，希望参加 DeepSeek Harness 的内测，可以回复或私信联系我。请附上 GitHub id 以及开源代表作。 1.2K 517 3K 981K](https://x.com/tianyi/status/2083519855203078320) |  | 3,071 ♥, 981,358 views, 1,218 replies | index-and-marketplace |
-| github | [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | anywhere-labs | 2,989 ★, 142 forks | ui-and-desktop |
+| github | [deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | anywhere-labs | 2,989 ★, 142 forks | ui-and-desktop |

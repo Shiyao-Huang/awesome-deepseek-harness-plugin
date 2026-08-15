@@ -5,29 +5,29 @@
 <text x="28" y="82" font-size="14">core-and-ecosystem</text>
 <rect x="245" y="67" width="620" height="20" rx="10" fill="#e8e2d6"/>
 <rect x="245" y="67" width="620" height="20" rx="10" fill="#ef8354"/>
-<text x="878" y="82" text-anchor="end" font-size="14" font-weight="700">350</text>
+<text x="878" y="82" text-anchor="end" font-size="14" font-weight="700">515</text>
 <text x="28" y="124" font-size="14">ui-and-desktop</text>
 <rect x="245" y="109" width="620" height="20" rx="10" fill="#e8e2d6"/>
-<rect x="245" y="109" width="139" height="20" rx="10" fill="#4f6d7a"/>
-<text x="878" y="124" text-anchor="end" font-size="14" font-weight="700">79</text>
+<rect x="245" y="109" width="105" height="20" rx="10" fill="#4f6d7a"/>
+<text x="878" y="124" text-anchor="end" font-size="14" font-weight="700">88</text>
 <text x="28" y="166" font-size="14">index-and-marketplace</text>
 <rect x="245" y="151" width="620" height="20" rx="10" fill="#e8e2d6"/>
-<rect x="245" y="151" width="109" height="20" rx="10" fill="#5da399"/>
-<text x="878" y="166" text-anchor="end" font-size="14" font-weight="700">62</text>
+<rect x="245" y="151" width="77" height="20" rx="10" fill="#5da399"/>
+<text x="878" y="166" text-anchor="end" font-size="14" font-weight="700">64</text>
 <text x="28" y="208" font-size="14">operations-and-safety</text>
 <rect x="245" y="193" width="620" height="20" rx="10" fill="#e8e2d6"/>
-<rect x="245" y="193" width="67" height="20" rx="10" fill="#d4a373"/>
-<text x="878" y="208" text-anchor="end" font-size="14" font-weight="700">38</text>
+<rect x="245" y="193" width="61" height="20" rx="10" fill="#d4a373"/>
+<text x="878" y="208" text-anchor="end" font-size="14" font-weight="700">51</text>
 <text x="28" y="250" font-size="14">multimedia-and-vision</text>
 <rect x="245" y="235" width="620" height="20" rx="10" fill="#e8e2d6"/>
-<rect x="245" y="235" width="44" height="20" rx="10" fill="#7b6d8d"/>
-<text x="878" y="250" text-anchor="end" font-size="14" font-weight="700">25</text>
+<rect x="245" y="235" width="38" height="20" rx="10" fill="#7b6d8d"/>
+<text x="878" y="250" text-anchor="end" font-size="14" font-weight="700">32</text>
 <text x="28" y="292" font-size="14">docs-and-learning</text>
 <rect x="245" y="277" width="620" height="20" rx="10" fill="#e8e2d6"/>
-<rect x="245" y="277" width="35" height="20" rx="10" fill="#e07a5f"/>
-<text x="878" y="292" text-anchor="end" font-size="14" font-weight="700">20</text>
+<rect x="245" y="277" width="26" height="20" rx="10" fill="#e07a5f"/>
+<text x="878" y="292" text-anchor="end" font-size="14" font-weight="700">22</text>
 <text x="28" y="334" font-size="14">agents-and-orchestration</text>
 <rect x="245" y="319" width="620" height="20" rx="10" fill="#e8e2d6"/>
 <rect x="245" y="319" width="12" height="20" rx="10" fill="#3d5a80"/>
-<text x="878" y="334" text-anchor="end" font-size="14" font-weight="700">7</text>
+<text x="878" y="334" text-anchor="end" font-size="14" font-weight="700">10</text>
 </svg>

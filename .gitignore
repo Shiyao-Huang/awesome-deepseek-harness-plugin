@@ -3,5 +3,6 @@ __pycache__/
 .DS_Store
 *.sqlite3-shm
 *.sqlite3-wal
+*.sqlite3-journal
 data/raw/auto/
 .gitnexus/

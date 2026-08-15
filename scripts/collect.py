@@ -10,6 +10,7 @@ import json
 import re
 import sqlite3
 import sys
+from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -23,6 +24,27 @@ DB_PATH = ROOT / "data" / "aggregator.sqlite3"
 SCHEMA_PATH = ROOT / "src" / "schema.sql"
 CONFIG_PATH = ROOT / "config" / "queries.json"
 RAW_DIR = ROOT / "data" / "raw"
+SCHEMA_VERSION = 2
+
+
+@dataclass
+class ImportStats:
+    """Counters persisted on one collection run."""
+
+    raw_files_seen: int = 0
+    raw_files_skipped: int = 0
+    observations_seen: int = 0
+    item_observations: int = 0
+    new_items: int = 0
+    existing_items: int = 0
+    new_metrics: int = 0
+    duplicate_metrics: int = 0
+
+    def add(self, other: "ImportStats") -> None:
+        """Add counters from one imported raw file."""
+
+        for field in self.__dataclass_fields__:
+            setattr(self, field, getattr(self, field) + getattr(other, field))
 
 SOURCE_DEFAULTS = {
     "github": {
@@ -168,19 +190,189 @@ def connect(path: Path = DB_PATH) -> sqlite3.Connection:
     connection = sqlite3.connect(path)
     connection.row_factory = sqlite3.Row
     connection.execute("PRAGMA foreign_keys = ON")
+    connection.execute("PRAGMA busy_timeout = 30000")
     return connection
 
 
+def snapshot_version(timestamp: str, prefix: str = "v") -> str:
+    """Convert a UTC timestamp into a sortable dataset snapshot version."""
+
+    compact = re.sub(r"[^0-9TZ]", "", timestamp)
+    return f"{prefix}{compact}"
+
+
+def ensure_column(connection: sqlite3.Connection, table: str, name: str, sql_type: str) -> None:
+    """Add one column when upgrading a database created by an older schema."""
+
+    columns = {row[1] for row in connection.execute(f"PRAGMA table_info({table})")}
+    if name not in columns:
+        connection.execute(f"ALTER TABLE {table} ADD COLUMN {name} {sql_type}")
+
+
+def backfill_collection_runs(connection: sqlite3.Connection) -> None:
+    """Attach legacy observations, metrics, raw files, and items to dated runs."""
+
+    timestamps = {
+        row[0]
+        for table, column in (("observations", "collected_at"), ("metrics", "observed_at"))
+        for row in connection.execute(f"SELECT DISTINCT {column} FROM {table} WHERE {column} IS NOT NULL")
+    }
+    for timestamp in sorted(timestamps):
+        unlinked = connection.execute(
+            "SELECT 1 FROM observations WHERE collected_at = ? AND collection_run_id IS NULL "
+            "UNION ALL SELECT 1 FROM metrics WHERE observed_at = ? AND collection_run_id IS NULL LIMIT 1",
+            (timestamp, timestamp),
+        ).fetchone()
+        if unlinked is None:
+            continue
+        version = snapshot_version(str(timestamp), "legacy-")
+        connection.execute(
+            """
+            INSERT OR IGNORE INTO collection_runs(
+                dataset_version, started_at, finished_at, trigger, status, notes
+            ) VALUES (?, ?, ?, 'legacy-migration', 'backfilled', 'Migrated from the pre-versioned SQLite schema.')
+            """,
+            (version, timestamp, timestamp),
+        )
+        run_id = int(connection.execute("SELECT id FROM collection_runs WHERE dataset_version = ?", (version,)).fetchone()[0])
+        connection.execute("UPDATE observations SET collection_run_id = ? WHERE collection_run_id IS NULL AND collected_at = ?", (run_id, timestamp))
+        connection.execute("UPDATE metrics SET collection_run_id = ? WHERE collection_run_id IS NULL AND observed_at = ?", (run_id, timestamp))
+
+    raw_rows = connection.execute(
+        "SELECT DISTINCT raw_path, raw_sha256, collected_at, collection_run_id FROM observations WHERE raw_path IS NOT NULL"
+    ).fetchall()
+    for row in raw_rows:
+        raw_path = ROOT / str(row[0])
+        raw_sha = str(row[1] or (sha256_file(raw_path) if raw_path.exists() else "missing:" + str(row[0])))
+        payload = raw_path.read_text(encoding="utf-8") if raw_path.exists() else json.dumps({"missing_raw_path": str(row[0])}, ensure_ascii=False)
+        connection.execute(
+            """
+            INSERT OR IGNORE INTO raw_snapshots(
+                collection_run_id, raw_sha256, raw_path, collected_at, byte_size, payload_json
+            ) VALUES (?, ?, ?, ?, ?, ?)
+            """,
+            (row[3], raw_sha, str(row[0]), str(row[2]), len(payload.encode("utf-8")), payload),
+        )
+        snapshot_id = int(connection.execute("SELECT id FROM raw_snapshots WHERE raw_sha256 = ?", (raw_sha,)).fetchone()[0])
+        connection.execute(
+            "UPDATE observations SET raw_sha256 = ?, raw_snapshot_id = ? WHERE raw_path = ? AND raw_snapshot_id IS NULL",
+            (raw_sha, snapshot_id, str(row[0])),
+        )
+
+    connection.execute(
+        """
+        UPDATE observations
+        SET raw_snapshot_id = (
+            SELECT id FROM raw_snapshots AS s
+            WHERE s.raw_sha256 = observations.raw_sha256
+        )
+        WHERE raw_snapshot_id IS NULL AND raw_sha256 IS NOT NULL
+        """
+    )
+    connection.execute(
+        """
+        UPDATE raw_snapshots
+        SET collection_run_id = (
+            SELECT collection_run_id FROM observations AS o
+            WHERE o.raw_snapshot_id = raw_snapshots.id AND o.collection_run_id IS NOT NULL
+            ORDER BY o.id LIMIT 1
+        )
+        WHERE collection_run_id IS NULL
+        """
+    )
+    connection.execute(
+        """
+        UPDATE items
+        SET first_seen_run_id = (
+                SELECT o.collection_run_id FROM item_observations AS io
+                JOIN observations AS o ON o.id = io.observation_id
+                WHERE io.item_id = items.id AND o.collection_run_id IS NOT NULL
+                ORDER BY o.collected_at, o.id LIMIT 1
+            ),
+            last_seen_run_id = (
+                SELECT o.collection_run_id FROM item_observations AS io
+                JOIN observations AS o ON o.id = io.observation_id
+                WHERE io.item_id = items.id AND o.collection_run_id IS NOT NULL
+                ORDER BY o.collected_at DESC, o.id DESC LIMIT 1
+            )
+        WHERE first_seen_run_id IS NULL OR last_seen_run_id IS NULL
+        """
+    )
+
+
 def init_db(path: Path = DB_PATH) -> None:
-    """Create the schema when it is absent."""
+    """Create or migrate the SQLite schema without discarding raw evidence."""
 
     with connect(path) as connection:
-        connection.executescript(SCHEMA_PATH.read_text(encoding="utf-8"))
-        columns = {row[1] for row in connection.execute("PRAGMA table_info(metrics)")}
-        for name, sql_type in (("favorites", "INTEGER"), ("shares", "INTEGER"), ("coins", "INTEGER"), ("danmaku", "INTEGER"), ("upvote_ratio", "REAL")):
-            if name not in columns:
-                connection.execute(f"ALTER TABLE metrics ADD COLUMN {name} {sql_type}")
+        schema = SCHEMA_PATH.read_text(encoding="utf-8")
+        has_observations = bool(connection.execute("SELECT 1 FROM sqlite_master WHERE type = 'table' AND name = 'observations'").fetchone())
+        if has_observations:
+            prefix = schema.split("CREATE TABLE IF NOT EXISTS observations", 1)[0]
+            connection.executescript(prefix)
+            ensure_column(connection, "observations", "collection_run_id", "INTEGER REFERENCES collection_runs(id)")
+            ensure_column(connection, "observations", "raw_snapshot_id", "INTEGER REFERENCES raw_snapshots(id)")
+            ensure_column(connection, "items", "first_seen_run_id", "INTEGER REFERENCES collection_runs(id)")
+            ensure_column(connection, "items", "last_seen_run_id", "INTEGER REFERENCES collection_runs(id)")
+            ensure_column(connection, "metrics", "collection_run_id", "INTEGER REFERENCES collection_runs(id)")
+        connection.executescript(schema)
+        for name, sql_type in (
+            ("favorites", "INTEGER"), ("shares", "INTEGER"), ("coins", "INTEGER"),
+            ("danmaku", "INTEGER"), ("upvote_ratio", "REAL"),
+        ):
+            ensure_column(connection, "metrics", name, sql_type)
+        backfill_collection_runs(connection)
+        connection.execute(f"PRAGMA user_version = {SCHEMA_VERSION}")
         connection.execute("CREATE UNIQUE INDEX IF NOT EXISTS idx_metrics_dedupe ON metrics(item_id, observed_at, metric_source)")
+
+
+def begin_collection_run(
+    connection: sqlite3.Connection,
+    trigger: str,
+    scheduled_for: str | None = None,
+) -> tuple[int, str, str]:
+    """Create a dated dataset version before importing a batch."""
+
+    started_at = utc_now()
+    base_version = snapshot_version(started_at)
+    version = base_version
+    suffix = 2
+    while connection.execute("SELECT 1 FROM collection_runs WHERE dataset_version = ?", (version,)).fetchone():
+        version = f"{base_version}-{suffix}"
+        suffix += 1
+    cursor = connection.execute(
+        """
+        INSERT INTO collection_runs(dataset_version, started_at, scheduled_for, trigger, status)
+        VALUES (?, ?, ?, ?, 'running')
+        """,
+        (version, started_at, scheduled_for, trigger),
+    )
+    return int(cursor.lastrowid), version, started_at
+
+
+def finish_collection_run(
+    connection: sqlite3.Connection,
+    run_id: int,
+    stats: ImportStats,
+    status: str = "succeeded",
+    error_message: str | None = None,
+) -> None:
+    """Persist batch counters and final status for one dataset version."""
+
+    connection.execute(
+        """
+        UPDATE collection_runs
+        SET finished_at = ?, status = ?, raw_files_seen = ?, raw_files_skipped = ?,
+            observations_seen = ?, item_observations = ?, new_items = ?,
+            existing_items = ?, new_metrics = ?, duplicate_metrics = ?, error_message = ?
+        WHERE id = ?
+        """,
+        (
+            utc_now(), status, stats.raw_files_seen, stats.raw_files_skipped,
+            stats.observations_seen, stats.item_observations, stats.new_items,
+            stats.existing_items, stats.new_metrics, stats.duplicate_metrics,
+            error_message, run_id,
+        ),
+    )
 
 
 def canonical_url(url: str) -> str:
@@ -305,25 +497,40 @@ def source_id(connection: sqlite3.Connection, platform: str) -> int:
 def insert_observation(
     connection: sqlite3.Connection,
     observation: dict[str, Any],
+    collection_run_id: int,
     raw_path: str | None,
     raw_sha256: str | None,
-) -> int:
-    """Insert one auditable collection observation and return its id."""
+) -> tuple[int, bool]:
+    """Insert one auditable observation and report whether it was new."""
 
     platform = str(observation.get("platform") or observation.get("source") or "unknown")
     sid = source_id(connection, platform)
+    query = str(observation.get("query") or "")
+    source_url = str(observation.get("source_url") or "")
+    collected_at = str(observation.get("collected_at") or utc_now())
+    existing = connection.execute(
+        """
+        SELECT id FROM observations
+        WHERE source_id = ? AND query = ? AND source_url = ? AND collected_at = ?
+        """,
+        (sid, query, source_url, collected_at),
+    ).fetchone()
+    if existing is not None:
+        return int(existing[0]), False
     connection.execute(
         """
         INSERT OR IGNORE INTO observations(
-            source_id, query, source_url, collected_at, collector, method, status,
-            result_count, notes, raw_path, raw_sha256
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            source_id, collection_run_id, raw_snapshot_id, query, source_url, collected_at,
+            collector, method, status, result_count, notes, raw_path, raw_sha256
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """,
         (
             sid,
-            str(observation.get("query") or ""),
-            str(observation.get("source_url") or ""),
-            str(observation.get("collected_at") or utc_now()),
+            collection_run_id,
+            None,
+            query,
+            source_url,
+            collected_at,
             str(observation.get("collector") or "unknown"),
             str(observation.get("method") or "imported raw snapshot"),
             str(observation.get("status") or "ok"),
@@ -338,15 +545,46 @@ def insert_observation(
         SELECT id FROM observations
         WHERE source_id = ? AND query = ? AND source_url = ? AND collected_at = ?
         """,
-        (sid, observation.get("query", ""), observation.get("source_url", ""), observation.get("collected_at")),
+        (sid, query, source_url, collected_at),
     ).fetchone()
     if row is None:
         raise RuntimeError("observation insert did not return an id")
-    return int(row[0])
+    return int(row[0]), True
 
 
-def upsert_item(connection: sqlite3.Connection, item: dict[str, Any], observed_at: str) -> int:
-    """Upsert an item and its latest observed metrics, media URLs, and tags."""
+def store_raw_snapshot(
+    connection: sqlite3.Connection,
+    raw_path: Path,
+    collection_run_id: int,
+    collected_at: str,
+) -> tuple[int, str, bool]:
+    """Store the exact raw UTF-8 JSON payload once and return its identity."""
+
+    raw_bytes = raw_path.read_bytes()
+    raw_sha256 = hashlib.sha256(raw_bytes).hexdigest()
+    raw_name = str(raw_path.relative_to(ROOT)) if raw_path.is_relative_to(ROOT) else str(raw_path)
+    existing = connection.execute("SELECT id FROM raw_snapshots WHERE raw_sha256 = ?", (raw_sha256,)).fetchone()
+    if existing is not None:
+        return int(existing[0]), raw_sha256, False
+    payload_json = raw_bytes.decode("utf-8")
+    cursor = connection.execute(
+        """
+        INSERT INTO raw_snapshots(
+            collection_run_id, raw_sha256, raw_path, collected_at, byte_size, payload_json
+        ) VALUES (?, ?, ?, ?, ?, ?)
+        """,
+        (collection_run_id, raw_sha256, raw_name, collected_at, len(raw_bytes), payload_json),
+    )
+    return int(cursor.lastrowid), raw_sha256, True
+
+
+def upsert_item(
+    connection: sqlite3.Connection,
+    item: dict[str, Any],
+    observed_at: str,
+    collection_run_id: int,
+) -> tuple[int, bool, bool]:
+    """Upsert one item and return its id plus item/metric insertion status."""
 
     platform = str(item.get("platform") or item.get("source") or "unknown")
     url = canonical_url(str(item.get("url") or item.get("canonical_url") or ""))
@@ -354,6 +592,7 @@ def upsert_item(connection: sqlite3.Connection, item: dict[str, Any], observed_a
     category, relevance, inferred_tags = classify(item)
     title = str(item.get("title") or "").strip() or None
     content_text = str(item.get("content_text") or item.get("description") or "").strip() or None
+    existing_item = connection.execute("SELECT id FROM items WHERE canonical_url = ?", (url,)).fetchone()
     values = (
         platform,
         external_id,
@@ -371,6 +610,8 @@ def upsert_item(connection: sqlite3.Connection, item: dict[str, Any], observed_a
         str(item.get("media_kind") or "none"),
         observed_at,
         observed_at,
+        collection_run_id,
+        collection_run_id,
         json.dumps(item, ensure_ascii=False, sort_keys=True),
     )
     connection.execute(
@@ -378,8 +619,8 @@ def upsert_item(connection: sqlite3.Connection, item: dict[str, Any], observed_a
         INSERT INTO items(
             platform, external_id, canonical_url, item_type, title, author, author_url,
             published_at, published_label, content_text, language, category, relevance,
-            media_kind, first_seen_at, last_seen_at, raw_json
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            media_kind, first_seen_at, last_seen_at, first_seen_run_id, last_seen_run_id, raw_json
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         ON CONFLICT(canonical_url) DO UPDATE SET
             platform=excluded.platform,
             title=COALESCE(excluded.title, items.title),
@@ -396,6 +637,7 @@ def upsert_item(connection: sqlite3.Connection, item: dict[str, Any], observed_a
                 ELSE excluded.media_kind
             END,
             last_seen_at=excluded.last_seen_at,
+            last_seen_run_id=excluded.last_seen_run_id,
             raw_json=excluded.raw_json
         """,
         values,
@@ -404,21 +646,31 @@ def upsert_item(connection: sqlite3.Connection, item: dict[str, Any], observed_a
     if row is None:
         raise RuntimeError(f"item insert did not return an id: {url}")
     item_id = int(row[0])
+    is_new_item = existing_item is None
 
     metrics = item.get("metrics") or {}
     metric_values = {key: metric_int(metrics.get(key)) for key in (
         "likes", "replies", "reposts", "comments", "bookmarks", "views", "points", "stars", "forks", "open_issues", "subscribers", "favorites", "shares", "coins", "danmaku"
     )}
     metric_values["upvote_ratio"] = metric_float(metrics.get("upvote_ratio"))
+    metric_is_new = False
     if any(value is not None for value in metric_values.values()):
+        metric_observed_at = str(metrics.get("observed_at") or observed_at)
+        metric_source = str(metrics.get("metric_source") or platform)
+        existing_metric = connection.execute(
+            "SELECT id FROM metrics WHERE item_id = ? AND observed_at = ? AND metric_source = ?",
+            (item_id, metric_observed_at, metric_source),
+        ).fetchone()
+        metric_is_new = existing_metric is None
         connection.execute(
             """
             INSERT INTO metrics(
-                item_id, observed_at, likes, replies, reposts, comments, bookmarks, views,
+                item_id, collection_run_id, observed_at, likes, replies, reposts, comments, bookmarks, views,
                 points, stars, forks, open_issues, subscribers, favorites, shares, coins, danmaku,
                 upvote_ratio, metric_source, raw_json
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             ON CONFLICT(item_id, observed_at, metric_source) DO UPDATE SET
+                collection_run_id=COALESCE(metrics.collection_run_id, excluded.collection_run_id),
                 likes=excluded.likes,
                 replies=excluded.replies,
                 reposts=excluded.reposts,
@@ -439,13 +691,14 @@ def upsert_item(connection: sqlite3.Connection, item: dict[str, Any], observed_a
             """,
             (
                 item_id,
-                str(metrics.get("observed_at") or observed_at),
+                collection_run_id,
+                metric_observed_at,
                 metric_values["likes"], metric_values["replies"], metric_values["reposts"],
                 metric_values["comments"], metric_values["bookmarks"], metric_values["views"],
                 metric_values["points"], metric_values["stars"], metric_values["forks"],
                 metric_values["open_issues"], metric_values["subscribers"],
                 metric_values["favorites"], metric_values["shares"], metric_values["coins"], metric_values["danmaku"], metric_values["upvote_ratio"],
-                str(metrics.get("metric_source") or platform),
+                metric_source,
                 json.dumps(metrics, ensure_ascii=False, sort_keys=True),
             ),
         )
@@ -476,32 +729,48 @@ def upsert_item(connection: sqlite3.Connection, item: dict[str, Any], observed_a
         connection.execute("INSERT OR IGNORE INTO tags(name) VALUES (?)", (tag,))
         tag_id = int(connection.execute("SELECT id FROM tags WHERE name = ?", (tag,)).fetchone()[0])
         connection.execute("INSERT OR IGNORE INTO item_tags(item_id, tag_id) VALUES (?, ?)", (item_id, tag_id))
-    return item_id
+    return item_id, is_new_item, metric_is_new
 
 
-def import_payload(connection: sqlite3.Connection, payload: dict[str, Any], raw_path: Path | None = None) -> int:
-    """Import a normalized raw snapshot and return the number of item observations."""
+def import_payload(
+    connection: sqlite3.Connection,
+    payload: dict[str, Any],
+    collection_run_id: int,
+    raw_path: Path | None = None,
+) -> ImportStats:
+    """Import a raw snapshot while preserving its exact payload and audit links."""
 
+    stats = ImportStats()
     if raw_path:
-        try:
-            raw_name = str(raw_path.relative_to(ROOT))
-        except ValueError:
-            raw_name = str(raw_path)
+        collected_at = str(payload.get("collected_at") or utc_now())
+        raw_snapshot_id, raw_hash, _ = store_raw_snapshot(connection, raw_path, collection_run_id, collected_at)
+        raw_name = str(raw_path.relative_to(ROOT)) if raw_path.is_relative_to(ROOT) else str(raw_path)
     else:
+        raw_snapshot_id = None
+        raw_hash = None
         raw_name = None
-    raw_hash = sha256_file(raw_path) if raw_path else None
-    imported = 0
     for observation in payload.get("observations", []):
-        observation_id = insert_observation(connection, observation, raw_name, raw_hash)
+        stats.observations_seen += 1
+        observation_id, _ = insert_observation(connection, observation, collection_run_id, raw_name, raw_hash)
+        if raw_snapshot_id is not None:
+            connection.execute("UPDATE observations SET raw_snapshot_id = ? WHERE id = ?", (raw_snapshot_id, observation_id))
         observed_at = str(observation.get("collected_at") or payload.get("collected_at") or utc_now())
         for item in observation.get("items", []):
-            item_id = upsert_item(connection, item, observed_at)
+            item_id, is_new_item, metric_is_new = upsert_item(connection, item, observed_at, collection_run_id)
+            if is_new_item:
+                stats.new_items += 1
+            else:
+                stats.existing_items += 1
+            if metric_is_new:
+                stats.new_metrics += 1
+            elif item.get("metrics"):
+                stats.duplicate_metrics += 1
             connection.execute(
                 "INSERT OR IGNORE INTO item_observations(item_id, observation_id) VALUES (?, ?)",
                 (item_id, observation_id),
             )
-            imported += 1
-    return imported
+            stats.item_observations += 1
+    return stats
 
 
 def fetch_json(url: str) -> dict[str, Any]:
@@ -821,6 +1090,7 @@ def legacy_payload(path: Path, data: Any) -> dict[str, Any] | None:
             "linuxdo" if host.endswith("linux.do") else
             "v2ex" if host.endswith("v2ex.com") else
             "weibo" if host.endswith("weibo.com") else
+            "wechat" if host.endswith("mp.weixin.qq.com") else
             "official" if host.endswith("deepseek.com") else
             "youtube" if host.endswith("youtube.com") else
             "bilibili" if host.endswith("bilibili.com") else
@@ -909,16 +1179,26 @@ def collect_api_payload(config: dict[str, Any]) -> dict[str, Any]:
     return {"collected_at": collected_at, "collector": "scripts/collect.py", "observations": observations}
 
 
-def import_files(connection: sqlite3.Connection, paths: list[Path]) -> int:
-    """Import normalized and legacy platform raw files in deterministic order."""
+def import_files(connection: sqlite3.Connection, paths: list[Path], collection_run_id: int) -> ImportStats:
+    """Import raw files once while retaining exact payloads and normalized links."""
 
-    count = 0
+    total = ImportStats()
     resolved_paths = [path if path.is_absolute() else (ROOT / path).resolve() for path in paths]
     for path in sorted(resolved_paths):
-        payload = legacy_payload(path, load_json(path))
+        total.raw_files_seen += 1
+        raw_hash = sha256_file(path)
+        if connection.execute("SELECT 1 FROM raw_snapshots WHERE raw_sha256 = ?", (raw_hash,)).fetchone():
+            total.raw_files_skipped += 1
+            continue
+        data = load_json(path)
+        collected_at = str(
+            data.get("collected_at") or data.get("harvestedAt") or file_timestamp(path)
+        ) if isinstance(data, dict) else file_timestamp(path)
+        store_raw_snapshot(connection, path, collection_run_id, collected_at)
+        payload = legacy_payload(path, data)
         if payload is not None:
-            count += import_payload(connection, payload, path)
-    return count
+            total.add(import_payload(connection, payload, collection_run_id, path))
+    return total
 
 
 def command_seed(args: argparse.Namespace) -> None:
@@ -930,27 +1210,50 @@ def command_seed(args: argparse.Namespace) -> None:
     else:
         paths = [path for path in sorted(RAW_DIR.rglob("*.json")) if "auto" not in path.parts]
     with connect(args.db) as connection:
-        count = import_files(connection, paths)
-    print(f"seeded {count} item observations from {len(paths)} raw file(s) into {args.db}")
+        run_id, version, _ = begin_collection_run(connection, "seed")
+        stats = ImportStats()
+        try:
+            stats = import_files(connection, paths, run_id)
+            finish_collection_run(connection, run_id, stats)
+        except Exception as error:
+            finish_collection_run(connection, run_id, stats, "failed", str(error))
+            connection.commit()
+            raise
+    print(
+        f"seeded {stats.item_observations} item observations in {version}; "
+        f"{stats.raw_files_skipped}/{stats.raw_files_seen} duplicate raw file(s) skipped into {args.db}"
+    )
 
 
 def command_update(args: argparse.Namespace) -> None:
     """Fetch API sources, persist raw snapshots, then import manual browser snapshots."""
 
     init_db(args.db)
-    payload = collect_api_payload(load_json(CONFIG_PATH))
     output = args.raw_output or (RAW_DIR / "auto" / f"{datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ')}.json")
     if not output.is_absolute():
         output = ROOT / output
-    dump_json(output, payload)
-    paths = [output, *args.raw]
     with connect(args.db) as connection:
-        count = import_files(connection, [path for path in paths if path.exists()])
+        run_id, version, _ = begin_collection_run(connection, args.trigger)
+        stats = ImportStats()
+        try:
+            payload = collect_api_payload(load_json(CONFIG_PATH))
+            dump_json(output, payload)
+            paths = [output, *args.raw]
+            stats = import_files(connection, [path for path in paths if path.exists()], run_id)
+            finish_collection_run(connection, run_id, stats)
+        except Exception as error:
+            finish_collection_run(connection, run_id, stats, "failed", str(error))
+            connection.commit()
+            raise
     try:
         output_label = output.relative_to(ROOT)
     except ValueError:
         output_label = output
-    print(f"updated {count} item observations; API raw snapshot: {output_label}")
+    print(
+        f"updated {stats.item_observations} item observations in {version}; "
+        f"{stats.raw_files_skipped}/{stats.raw_files_seen} duplicate raw file(s) skipped; "
+        f"API raw snapshot: {output_label}"
+    )
 
 
 def command_init(args: argparse.Namespace) -> None:
@@ -972,6 +1275,7 @@ def main() -> int:
     update = subparsers.add_parser("update", help="fetch public APIs and optionally import browser raw JSON")
     update.add_argument("--raw", type=Path, action="append", default=[], help="ego-browser raw JSON file; repeatable")
     update.add_argument("--raw-output", type=Path, help="where to persist the API snapshot; defaults to data/raw/auto/")
+    update.add_argument("--trigger", choices=("manual", "scheduled"), default="manual", help="why this collection run started")
     args = parser.parse_args()
     if args.command == "init":
         command_init(args)

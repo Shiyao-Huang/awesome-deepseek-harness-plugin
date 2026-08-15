@@ -1,0 +1,25 @@
+{
+  "github_repositories": [
+    {
+      "repo": "Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins",
+      "files": ["README.md"]
+    },
+    {
+      "repo": "beancookie/awesome-dsh-plugin",
+      "files": ["docs/plugins.json", "data/npm-map.json", "data/added-dates.json"]
+    },
+    {
+      "repo": "walkinglabs/awesome-deepseek-harness-plugins",
+      "files": ["README.md"]
+    }
+  ],
+  "wechat_articles": [
+    {
+      "url": "https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw",
+      "title": "DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了"
+    }
+  ],
+  "limits": {
+    "plugin_metadata": 0
+  }
+}
