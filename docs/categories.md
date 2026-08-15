@@ -1003,11 +1003,11 @@
 
 | 平台 | 标题 | 指标 | 作者 |
 | --- | --- | --- | --- |
-| github | [salathleizhang/deepseek-harness-desktop](https://github.com/salathleizhang/deepseek-harness-desktop) | 96 ★, 3 forks | salathleizhang |
+| github | [salathleizhang/deepseek-harness-desktop](https://github.com/salathleizhang/deepseek-harness-desktop) | 97 ★, 3 forks | salathleizhang |
 | github | [Sakana-yuyu/deepseek-harness-desktop](https://github.com/Sakana-yuyu/deepseek-harness-desktop) | 21 ★, 1 forks | Sakana-yuyu |
 | github | [G36maid/deepseek-harness](https://github.com/G36maid/deepseek-harness) | 12 ★, 0 forks | G36maid |
 | github | [Skyearn/deepseek-harness-app](https://github.com/Skyearn/deepseek-harness-app) | 11 ★, 1 forks | Skyearn |
-| github | [rpmalouin/deepseek-harness](https://github.com/rpmalouin/deepseek-harness) | 7 ★, 1 forks | rpmalouin |
+| github | [rpmalouin/deepseek-harness](https://github.com/rpmalouin/deepseek-harness) | 8 ★, 1 forks | rpmalouin |
 | github | [yx54hego-cloud/deepseek-harness](https://github.com/yx54hego-cloud/deepseek-harness) | 7 ★, 0 forks | yx54hego-cloud |
 | github | [happylin0x29a/deepseek-harness-desktop](https://github.com/happylin0x29a/deepseek-harness-desktop) | 4 ★, 1 forks | happylin0x29a |
 | github | [luolangaga/deepseek-harness](https://github.com/luolangaga/deepseek-harness) | 4 ★, 0 forks | luolangaga |
@@ -1289,6 +1289,7 @@
 | github | [melkharbili/deepseek-harness](https://github.com/melkharbili/deepseek-harness) | 1 ★, 0 forks | melkharbili |
 | github | [Anyaoha/deepseek-harness](https://github.com/Anyaoha/deepseek-harness) | 1 ★, 0 forks | Anyaoha |
 | github | [rferrari/deepseek-harness](https://github.com/rferrari/deepseek-harness) | 1 ★, 0 forks | rferrari |
+| github | [HossamTabana/deepseek-harness](https://github.com/HossamTabana/deepseek-harness) | 1 ★, 0 forks | HossamTabana |
 | github | [songpengfei1111-dot/deepseek-harness](https://github.com/songpengfei1111-dot/deepseek-harness) | 0 ★, 0 forks | songpengfei1111-dot |
 | github | [xiaoleGun/deepseek-harness-desktop](https://github.com/xiaoleGun/deepseek-harness-desktop) | 0 ★, 0 forks | xiaoleGun |
 | github | [Chuyuxuan0v0/deepseek-harness](https://github.com/Chuyuxuan0v0/deepseek-harness) | 0 ★, 0 forks | Chuyuxuan0v0 |
@@ -12096,6 +12097,55 @@
 | github | [LUODIAN-233/deepseek-harness](https://github.com/LUODIAN-233/deepseek-harness) | 0 ★, 0 forks | LUODIAN-233 |
 | github | [Mby159/deepseek-harness](https://github.com/Mby159/deepseek-harness) | 0 ★, 0 forks | Mby159 |
 | github | [YDERO3452/deepseek-harness](https://github.com/YDERO3452/deepseek-harness) | 0 ★, 0 forks | YDERO3452 |
+| github | [wolone/deepseek-harness-desktop](https://github.com/wolone/deepseek-harness-desktop) | 0 ★, 0 forks | wolone |
+| github | [jasonkneen/deepseek-harness-plus](https://github.com/jasonkneen/deepseek-harness-plus) | 0 ★, 0 forks | jasonkneen |
+| github | [MauricioPerera/deepseek-harness](https://github.com/MauricioPerera/deepseek-harness) | 0 ★, 0 forks | MauricioPerera |
+| github | [birkmann/deepseek-harness](https://github.com/birkmann/deepseek-harness) | 0 ★, 0 forks | birkmann |
+| github | [younesxdddd/deepseek-harness](https://github.com/younesxdddd/deepseek-harness) | 0 ★, 0 forks | younesxdddd |
+| github | [knble77/deepseek-harness](https://github.com/knble77/deepseek-harness) | 0 ★, 0 forks | knble77 |
+| github | [soc-otter/deepseek-harness](https://github.com/soc-otter/deepseek-harness) | 0 ★, 0 forks | soc-otter |
+| github | [miaomiaohuang/deepseek-harness](https://github.com/miaomiaohuang/deepseek-harness) | 0 ★, 0 forks | miaomiaohuang |
+| github | [rahmat67/deepseek-harness](https://github.com/rahmat67/deepseek-harness) | 0 ★, 0 forks | rahmat67 |
+| github | [titusmahwe/deepseek-harness](https://github.com/titusmahwe/deepseek-harness) | 0 ★, 0 forks | titusmahwe |
+| github | [gokhanokyay/deepseek-harness](https://github.com/gokhanokyay/deepseek-harness) | 0 ★, 0 forks | gokhanokyay |
+| github | [joshluberisse/deepseek-harness](https://github.com/joshluberisse/deepseek-harness) | 0 ★, 0 forks | joshluberisse |
+| github | [jeremyealexandersdg-arch/deepseek-harness](https://github.com/jeremyealexandersdg-arch/deepseek-harness) | 0 ★, 0 forks | jeremyealexandersdg-arch |
+| github | [duan-nguyen/deepseek-harness](https://github.com/duan-nguyen/deepseek-harness) | 0 ★, 0 forks | duan-nguyen |
+| github | [abcdef0101/deepseek-harness](https://github.com/abcdef0101/deepseek-harness) | 0 ★, 0 forks | abcdef0101 |
+| github | [yairvillarp/deepseek-harness](https://github.com/yairvillarp/deepseek-harness) | 0 ★, 0 forks | yairvillarp |
+| github | [wangzhenjiang111/deepseek-harness](https://github.com/wangzhenjiang111/deepseek-harness) | 0 ★, 0 forks | wangzhenjiang111 |
+| github | [zhzzyue/dsh-for-designer](https://github.com/zhzzyue/dsh-for-designer) | 0 ★, 0 forks | zhzzyue |
+| github | [Neuromorphic-Systems/deepseek-harness](https://github.com/Neuromorphic-Systems/deepseek-harness) | 0 ★, 0 forks | Neuromorphic-Systems |
+| github | [Kizzword/deepseek-harness](https://github.com/Kizzword/deepseek-harness) | 0 ★, 0 forks | Kizzword |
+| github | [yiyualt/deepseek-harness](https://github.com/yiyualt/deepseek-harness) | 0 ★, 0 forks | yiyualt |
+| github | [Djomladinac/deepseek-harness](https://github.com/Djomladinac/deepseek-harness) | 0 ★, 0 forks | Djomladinac |
+| github | [bpkgoud/deepseek-harness](https://github.com/bpkgoud/deepseek-harness) | 0 ★, 0 forks | bpkgoud |
+| github | [MalinaPro/deepseek-harness](https://github.com/MalinaPro/deepseek-harness) | 0 ★, 0 forks | MalinaPro |
+| github | [agostain/deepseek-harness](https://github.com/agostain/deepseek-harness) | 0 ★, 0 forks | agostain |
+| github | [k-park/deepseek-harness](https://github.com/k-park/deepseek-harness) | 0 ★, 0 forks | k-park |
+| github | [Captain-Dodger/deepseek-harness](https://github.com/Captain-Dodger/deepseek-harness) | 0 ★, 1 forks | Captain-Dodger |
+| github | [BenSlashr/deepseek-harness](https://github.com/BenSlashr/deepseek-harness) | 0 ★, 0 forks | BenSlashr |
+| github | [umair313/deepseek-harness](https://github.com/umair313/deepseek-harness) | 0 ★, 0 forks | umair313 |
+| github | [ttvdblock716-bot/deepseek-harness](https://github.com/ttvdblock716-bot/deepseek-harness) | 0 ★, 0 forks | ttvdblock716-bot |
+| github | [szyzstop3/deepseek-harness](https://github.com/szyzstop3/deepseek-harness) | 0 ★, 0 forks | szyzstop3 |
+| github | [degger80/deepseek-harness](https://github.com/degger80/deepseek-harness) | 0 ★, 0 forks | degger80 |
+| github | [Stefz29/deepseek-harness](https://github.com/Stefz29/deepseek-harness) | 0 ★, 0 forks | Stefz29 |
+| github | [iamzulx/deepseek-harness](https://github.com/iamzulx/deepseek-harness) | 0 ★, 0 forks | iamzulx |
+| github | [HighKo/deepseek-harness](https://github.com/HighKo/deepseek-harness) | 0 ★, 0 forks | HighKo |
+| github | [atmaksri/deepseek-harness](https://github.com/atmaksri/deepseek-harness) | 0 ★, 0 forks | atmaksri |
+| github | [imishani/deepseek-harness](https://github.com/imishani/deepseek-harness) | 0 ★, 0 forks | imishani |
+| github | [asmutil/deepseek-harness](https://github.com/asmutil/deepseek-harness) | 0 ★, 0 forks | asmutil |
+| github | [Solizardking/deepseek-harness](https://github.com/Solizardking/deepseek-harness) | 0 ★, 0 forks | Solizardking |
+| github | [pramodthe/deepseek-harness](https://github.com/pramodthe/deepseek-harness) | 0 ★, 0 forks | pramodthe |
+| github | [tum4y/deepseek-harness](https://github.com/tum4y/deepseek-harness) | 0 ★, 0 forks | tum4y |
+| github | [lanceyuu/deepseek-harness](https://github.com/lanceyuu/deepseek-harness) | 0 ★, 0 forks | lanceyuu |
+| github | [yannicschroeer/deepseek-harness](https://github.com/yannicschroeer/deepseek-harness) | 0 ★, 0 forks | yannicschroeer |
+| github | [gentlewatcher/deepseek-harness](https://github.com/gentlewatcher/deepseek-harness) | 0 ★, 0 forks | gentlewatcher |
+| github | [joemxz/deepseek-harness](https://github.com/joemxz/deepseek-harness) | 0 ★, 0 forks | joemxz |
+| github | [Flo1632/deepseek-harness](https://github.com/Flo1632/deepseek-harness) | 0 ★, 0 forks | Flo1632 |
+| github | [gabriel-ferraresi/deepseek-harness](https://github.com/gabriel-ferraresi/deepseek-harness) | 0 ★, 0 forks | gabriel-ferraresi |
+| github | [thm666999/deepseek-harness](https://github.com/thm666999/deepseek-harness) | 0 ★, 0 forks | thm666999 |
+| github | [apingali/deepseek-harness](https://github.com/apingali/deepseek-harness) | 0 ★, 0 forks | apingali |
 
 ## docs-and-learning
 

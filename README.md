@@ -7,7 +7,7 @@ DeepSeek Harness / DSH 插件生态的公开资料聚合 repo：把 GitHub 仓�
 <!-- landing:start -->
 ## Start here — the DSH signal desk
 
-> 这里不是又一份静态 Awesome List，而是一张持续更新的 DeepSeek Harness 生态地图：先看最值得点开的仓库、帖子和视频，再沿着 raw、SQLite、时间轴回到证据。当前批次 **v20260815T203936Z**（2026-08-15）：**12,692** 条去重记录、**14** 个平台、**872** 个媒体引用。
+> 这里不是又一份静态 Awesome List，而是一张持续更新的 DeepSeek Harness 生态地图：先看最值得点开的仓库、帖子和视频，再沿着 raw、SQLite、时间轴回到证据。当前批次 **v20260815T212955Z**（2026-08-15）：**12,742** 条去重记录、**14** 个平台、**872** 个媒体引用。
 
 [打开 dsh store](docs/index.html) · [看价值矩阵](docs/value-matrix.md) · [看趋势](docs/trends.md) · [下载查询 SQLite](https://github.com/Shiyao-Huang/awesome-deepseek-harness-plugin/releases/download/dataset-latest/aggregator.sqlite3)
 
@@ -51,30 +51,30 @@ dsh plugin --profile web add dsh-skills dsh-attachments dsh-inspector
 
 ### 官方 Fork network：把分叉当作生态信号
 
-沿 `deepseek-ai/deepseek-harness` 的公开分页，本批次登记 **11,068** 个 Fork（v20260815T200645Z）；按 **0+ stars** 进入排序的 **11,068** 个，深度盘点成功 **117** 个。它是公开信号和变体线索，不是质量、安全或诚信背书。
+沿 `deepseek-ai/deepseek-harness` 的公开分页，本批次登记 **11,113** 个 Fork（v20260815T212955Z）；按 **0+ stars** 进入排序的 **11,113** 个，深度盘点成功 **171** 个。它是公开信号和变体线索，不是质量、安全或诚信背书。
 
 [打开 Fork 检索页](docs/forks.html) · [看 Fork 数据报告](docs/forks.md) · [下载完整压缩 SQLite 快照](https://github.com/Shiyao-Huang/awesome-deepseek-harness-plugin/releases/download/dataset-latest/aggregator-full.sqlite3.zst) · [看完整 JSONL 索引](index/forks.jsonl)
 
 | Rank | Fork | stars | owner reputation | repo influence | overall | deep status | one-sentence evidence |
 | ---: | --- | ---: | --- | ---: | ---: | --- | --- |
-| 1 | [salathleizhang/deepseek-harness-desktop](https://github.com/salathleizhang/deepseek-harness-desktop) | 96 | 36.0 (observed) | 98.601 | 73.560 | ok | 新增约 42 个提交并修改 300 个文件，主要涉及 配置、文档、CI/构建、依赖；目标线索是“Native desktop app for DeepSeek Harness — an Electron shell that runs the harness locally and hosts the official Web GUI unchanged”。 |
-| 2 | [G36maid/deepseek-harness](https://github.com/G36maid/deepseek-harness) | 12 | 54.4 (observed) | 64.260 | 60.332 | ok | 新增约 19 个提交并修改 300 个文件，主要涉及 配置、文档；目标线索是“DeepSeek Harness 繁體中文版 (zh-TW) — Everything is a Plugin”。 |
-| 3 | [Sakana-yuyu/deepseek-harness-desktop](https://github.com/Sakana-yuyu/deepseek-harness-desktop) | 21 | 35.5 (observed) | 72.246 | 57.552 | ok | 新增约 14 个提交并修改 81 个文件，主要涉及 配置、文档、CI/构建、UI/应用层；目标线索是“Rust构建的客户端，体积更小，更方便，Mac，win，linux已完成”。 |
-| 4 | [Skyearn/deepseek-harness-app](https://github.com/Skyearn/deepseek-harness-app) | 11 | 34.3 (observed) | 65.665 | 53.127 | ok | 新增约 24 个提交并修改 31 个文件，主要涉及 配置、文档、CI/构建、其他文件；目标线索是“DeepSeek Harness Desktop”。 |
-| 5 | [Ajwyunsx/deepseek-harness-mobile](https://github.com/Ajwyunsx/deepseek-harness-mobile) | 4 | 36.6 (observed) | 56.090 | 48.285 | ok | 新增约 7 个提交并修改 40 个文件，主要涉及 文档、其他文件；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 1 | [salathleizhang/deepseek-harness-desktop](https://github.com/salathleizhang/deepseek-harness-desktop) | 97 | 36.0 (observed) | 74.989 | 59.393 | ok | 新增约 42 个提交并修改 300 个文件，主要涉及 配置、文档、CI/构建、依赖；目标线索是“Native desktop app for DeepSeek Harness — an Electron shell that runs the harness locally and hosts the official Web GUI unchanged”。 |
+| 2 | [himomohi/deepseek-harness](https://github.com/himomohi/deepseek-harness) | 1 | 46.5 (observed) | 51.023 | 49.221 | metadata-only | 新增约 36 个提交并修改 300 个文件，主要涉及 配置、文档、依赖、UI/应用层；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 3 | [bojieli/deepseek-harness](https://github.com/bojieli/deepseek-harness) | 1 | 81.4 (observed) | 25.918 | 48.109 | metadata-only | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
+| 4 | [alexdolbun/deepseek-harness](https://github.com/alexdolbun/deepseek-harness) | 1 | 80.0 (observed) | 25.918 | 47.566 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness”。 |
+| 5 | [G36maid/deepseek-harness](https://github.com/G36maid/deepseek-harness) | 12 | 54.4 (observed) | 42.350 | 47.186 | ok | 新增约 19 个提交并修改 300 个文件，主要涉及 配置、文档；目标线索是“DeepSeek Harness 繁體中文版 (zh-TW) — Everything is a Plugin”。 |
 
-> 价值档当前分布：**B 184 · C 1,203 · D 11,305**。分数只用于安排复核优先级；不同平台的 stars、likes、views、points 不相加，缺失互动数不补零。
+> 价值档当前分布：**B 183 · C 1,204 · D 11,355**。分数只用于安排复核优先级；不同平台的 stars、likes、views、points 不相加，缺失互动数不补零。
 
 <!-- landing:end -->
 
 ## 当前快照
 
 <!-- snapshot:start -->
-公开查询 SQLite 当前包含 **12,692 条去重记录**、**14 个来源平台**、**82,447 条指标历史**、**872 个媒体资产引用**、**306 条详情记录**和 **697 个去重 raw provenance**。当前批次 **v20260815T203936Z** 于 **2026-08-15T20:39:40Z** 完成；价值矩阵为当前批次的 12,692 条记录提供六维评分。完整原始 JSON 位于压缩权威 SQLite；公开查询库保留 raw SHA-256、路径、字节数、采集时间和批次，并去除可由 `data/raw/` 或完整库恢复的重复 JSON blob。
+公开查询 SQLite 当前包含 **12,742 条去重记录**、**14 个来源平台**、**93,560 条指标历史**、**872 个媒体资产引用**、**306 条详情记录**和 **810 个去重 raw provenance**。当前批次 **v20260815T212955Z** 于 **2026-08-15T21:30:38Z** 完成；价值矩阵为当前批次的 12,742 条记录提供六维评分。完整原始 JSON 位于压缩权威 SQLite；公开查询库保留 raw SHA-256、路径、字节数、采集时间和批次，并去除可由 `data/raw/` 或完整库恢复的重复 JSON blob。
 
 | 来源 | 去重记录 | 采集内容 |
 | --- | ---: | --- |
-| GitHub | 12,353 | 官方仓库、topic、社区索引候选和 stars/forks/issues |
+| GitHub | 12,403 | 官方仓库、topic、社区索引候选和 stars/forks/issues |
 | Hacker News | 101 | 精确短语搜索、points/comments 和讨论链接 |
 | X | 77 | 公开帖子、图片/视频链接和 replies/reposts/likes/views |
 | 小红书 | 51 | 搜索卡片、作者、点赞、缩略图和详情文本 |

@@ -2,7 +2,7 @@
 
 > 一个可重复更新的公开资料聚合体：仓库、插件、索引、文章、帖子、图片缩略图和视频链接。原始观测保留在 `data/raw/`，SQLite 是可查询的派生索引。
 
-当前数据集版本：**v20260815T203936Z**，完成时间：**2026-08-15T20:39:40Z**。共 **12,692** 条去重记录，覆盖 **14** 个平台，外部媒体资产 **872** 条。
+当前数据集版本：**v20260815T212955Z**，完成时间：**2026-08-15T21:30:38Z**。共 **12,742** 条去重记录，覆盖 **14** 个平台，外部媒体资产 **872** 条。
 
 ## 三句话结论
 
@@ -23,7 +23,7 @@
 
 | 平台 | 去重记录 | 采集方式 |
 | --- | ---: | --- |
-| github | 12,353 | public REST API |
+| github | 12,403 | public REST API |
 | hacker_news | 101 | Algolia public search API |
 | x | 77 | ego-browser visible DOM |
 | xiaohongshu | 51 | ego-browser visible DOM |
@@ -42,7 +42,7 @@
 
 | 分类 | 记录 | 带媒体 |
 | --- | ---: | ---: |
-| deepseek-harness-forks | 11,093 | 0 |
+| deepseek-harness-forks | 11,143 | 0 |
 | core-and-ecosystem | 944 | 135 |
 | ui-and-desktop | 209 | 4 |
 | index-and-marketplace | 177 | 34 |
@@ -62,9 +62,9 @@
 | github | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 78.64 | B | 100.00 | core-and-ecosystem |
 | github | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 76.92 | B | 100.00 | ui-and-desktop |
 | github | [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | 76.18 | B | 100.00 | ui-and-desktop |
-| github | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 76.18 | B | 100.00 | ui-and-desktop |
-| github | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | 75.64 | B | 100.00 | core-and-ecosystem |
-| github | [Lum1104/dsh-browser](https://github.com/Lum1104/dsh-browser) | 75.30 | B | 100.00 | ui-and-desktop |
+| github | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 76.17 | B | 100.00 | ui-and-desktop |
+| github | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | 75.63 | B | 100.00 | core-and-ecosystem |
+| github | [Lum1104/dsh-browser](https://github.com/Lum1104/dsh-browser) | 75.29 | B | 100.00 | ui-and-desktop |
 | github | [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | 75.08 | B | 100.00 | multimedia-and-vision |
 | github | [omdsh-dev/dsh-genui](https://github.com/omdsh-dev/dsh-genui) | 74.64 | B | 100.00 | core-and-ecosystem |
 
