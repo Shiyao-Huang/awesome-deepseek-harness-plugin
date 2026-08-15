@@ -18,6 +18,7 @@ import math
 import os
 import subprocess
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -39,6 +40,7 @@ CONFIG_PATH = ROOT / "config" / "forks.json"
 RAW_DIR = ROOT / "data" / "raw" / "forks"
 UPSTREAM = "deepseek-ai/deepseek-harness"
 USER_AGENT = "awesome-deepseek-harness-plugin/fork-index"
+API_ATTEMPTS = 3
 
 
 def utc_now() -> str:
@@ -90,20 +92,33 @@ def api_error(error: Exception) -> dict[str, Any]:
 def api_call(url: str, token: str | None) -> dict[str, Any]:
     """Fetch one endpoint and retain its URL, response, and rate headers."""
 
-    try:
-        response, headers = api_request(url, token)
-        return {
-            "status": "ok",
-            "url": url,
-            "response": response,
-            "rate_limit_remaining": headers.get("x-ratelimit-remaining"),
-            "rate_limit_reset": headers.get("x-ratelimit-reset"),
-            "link": headers.get("link"),
-        }
-    except (HTTPError, URLError, TimeoutError, RuntimeError, json.JSONDecodeError) as error:
-        result = api_error(error)
-        result["url"] = url
-        return result
+    for attempt in range(1, API_ATTEMPTS + 1):
+        try:
+            response, headers = api_request(url, token)
+            return {
+                "status": "ok",
+                "url": url,
+                "response": response,
+                "rate_limit_remaining": headers.get("x-ratelimit-remaining"),
+                "rate_limit_reset": headers.get("x-ratelimit-reset"),
+                "link": headers.get("link"),
+            }
+        except HTTPError as error:
+            result = api_error(error)
+            result["url"] = url
+            return result
+        except (URLError, TimeoutError, ConnectionError) as error:
+            if attempt < API_ATTEMPTS:
+                time.sleep(2 ** (attempt - 1))
+                continue
+            result = api_error(error)
+            result.update({"url": url, "attempts": attempt, "transient": True})
+            return result
+        except (RuntimeError, json.JSONDecodeError) as error:
+            result = api_error(error)
+            result["url"] = url
+            return result
+    raise AssertionError("API retry loop did not return")
 
 
 def next_link(link: str | None) -> str | None:

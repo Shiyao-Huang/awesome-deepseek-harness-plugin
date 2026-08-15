@@ -4,7 +4,9 @@ import sqlite3
 import sys
 import tempfile
 import unittest
+from http.client import RemoteDisconnected
 from pathlib import Path
+from unittest import mock
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -22,6 +24,44 @@ def fork(name: str, stars: int, pushed_at: str, forks: int = 0) -> dict[str, obj
         "forks_count": forks,
         "pushed_at": pushed_at,
     }
+
+
+class ApiCallTests(unittest.TestCase):
+    def test_transient_disconnect_is_retried(self) -> None:
+        response = ({"name": "owner/repo"}, {"x-ratelimit-remaining": "42"})
+        with (
+            mock.patch.object(
+                collect_forks,
+                "api_request",
+                side_effect=[RemoteDisconnected("closed"), response],
+            ) as request,
+            mock.patch("time.sleep") as sleeper,
+        ):
+            result = collect_forks.api_call("https://api.github.com/repos/owner/repo", "token")
+
+        self.assertEqual(result["status"], "ok")
+        self.assertEqual(result["response"], response[0])
+        self.assertEqual(request.call_count, 2)
+        sleeper.assert_called_once_with(1)
+
+    def test_repeated_disconnect_becomes_reviewable_error(self) -> None:
+        with (
+            mock.patch.object(
+                collect_forks,
+                "api_request",
+                side_effect=RemoteDisconnected("closed"),
+            ) as request,
+            mock.patch("time.sleep") as sleeper,
+        ):
+            result = collect_forks.api_call("https://api.github.com/repos/owner/repo", "token")
+
+        self.assertEqual(result["status"], "error")
+        self.assertEqual(result["url"], "https://api.github.com/repos/owner/repo")
+        self.assertIn("closed", result["error"])
+        self.assertEqual(result["attempts"], 3)
+        self.assertTrue(result["transient"])
+        self.assertEqual(request.call_count, 3)
+        self.assertEqual([call.args for call in sleeper.call_args_list], [(1,), (2,)])
 
 
 class DeepScanQueueTests(unittest.TestCase):
