@@ -138,6 +138,40 @@ CREATE TABLE IF NOT EXISTS index_records (
     last_seen_at TEXT NOT NULL
 );
 
+CREATE TABLE IF NOT EXISTS item_details (
+    item_id INTEGER PRIMARY KEY REFERENCES items(id) ON DELETE CASCADE,
+    method TEXT NOT NULL,
+    fetched_at TEXT NOT NULL,
+    url TEXT,
+    content TEXT NOT NULL,
+    char_count INTEGER NOT NULL,
+    language TEXT,
+    status TEXT NOT NULL DEFAULT 'ok',
+    notes TEXT
+);
+
+CREATE TABLE IF NOT EXISTS value_assessments (
+    item_id INTEGER NOT NULL REFERENCES items(id) ON DELETE CASCADE,
+    collection_run_id INTEGER NOT NULL REFERENCES collection_runs(id) ON DELETE CASCADE,
+    dataset_version TEXT NOT NULL,
+    scoring_version TEXT NOT NULL,
+    assessed_at TEXT NOT NULL,
+    utility_score REAL NOT NULL CHECK (utility_score >= 0 AND utility_score <= 100),
+    evidence_score REAL NOT NULL CHECK (evidence_score >= 0 AND evidence_score <= 100),
+    traction_score REAL NOT NULL CHECK (traction_score >= 0 AND traction_score <= 100),
+    ecosystem_score REAL NOT NULL CHECK (ecosystem_score >= 0 AND ecosystem_score <= 100),
+    freshness_score REAL NOT NULL CHECK (freshness_score >= 0 AND freshness_score <= 100),
+    reviewability_score REAL NOT NULL CHECK (reviewability_score >= 0 AND reviewability_score <= 100),
+    value_score REAL NOT NULL CHECK (value_score >= 0 AND value_score <= 100),
+    confidence_score REAL NOT NULL CHECK (confidence_score >= 0 AND confidence_score <= 100),
+    value_band TEXT NOT NULL CHECK (value_band IN ('A', 'B', 'C', 'D')),
+    evidence_count INTEGER NOT NULL DEFAULT 0,
+    source_count INTEGER NOT NULL DEFAULT 0,
+    risk_flags TEXT NOT NULL,
+    components_json TEXT NOT NULL,
+    PRIMARY KEY(item_id, collection_run_id, scoring_version)
+);
+
 CREATE TABLE IF NOT EXISTS item_observations (
     item_id INTEGER NOT NULL REFERENCES items(id) ON DELETE CASCADE,
     observation_id INTEGER NOT NULL REFERENCES observations(id) ON DELETE CASCADE,
@@ -196,6 +230,9 @@ CREATE INDEX IF NOT EXISTS idx_items_category ON items(category);
 CREATE INDEX IF NOT EXISTS idx_items_last_seen ON items(last_seen_at);
 CREATE INDEX IF NOT EXISTS idx_index_records_item ON index_records(item_id);
 CREATE INDEX IF NOT EXISTS idx_index_records_rank ON index_records(rank);
+CREATE INDEX IF NOT EXISTS idx_details_status ON item_details(status);
+CREATE INDEX IF NOT EXISTS idx_value_assessments_run ON value_assessments(collection_run_id, value_score DESC);
+CREATE INDEX IF NOT EXISTS idx_value_assessments_item ON value_assessments(item_id, assessed_at DESC);
 CREATE INDEX IF NOT EXISTS idx_items_last_seen_run ON items(last_seen_run_id);
 CREATE INDEX IF NOT EXISTS idx_observations_run ON observations(collection_run_id);
 CREATE INDEX IF NOT EXISTS idx_observations_raw_hash ON observations(raw_sha256);
@@ -296,6 +333,17 @@ CREATE VIEW v_current_dataset AS
 SELECT *
 FROM collection_runs
 WHERE id = (
+    SELECT id FROM collection_runs
+    WHERE trigger <> 'legacy-migration'
+    ORDER BY id DESC
+    LIMIT 1
+);
+
+DROP VIEW IF EXISTS v_current_value_matrix;
+CREATE VIEW v_current_value_matrix AS
+SELECT va.*
+FROM value_assessments AS va
+WHERE va.collection_run_id = (
     SELECT id FROM collection_runs
     WHERE trigger <> 'legacy-migration'
     ORDER BY id DESC

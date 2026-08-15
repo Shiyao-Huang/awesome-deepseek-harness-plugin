@@ -102,7 +102,9 @@ def write_index(connection: sqlite3.Connection, generated_at: str, dataset_versi
         "- [按来源浏览](timeline.md)",
         "- [按主题归类](categories.md)",
         "- [上游源仓库与插件关系](sources.md)",
+        "- [价值衡量矩阵](value-matrix.md)",
         "- [可视化报告](report.html)",
+        "- [趋势与增速](trends.md)",
         "- [采集与更新说明](../README.md#更新)",
         "",
         "## 来源分布",
@@ -116,6 +118,20 @@ def write_index(connection: sqlite3.Connection, generated_at: str, dataset_versi
     lines.extend(["", "## 主题分布", "", "| 分类 | 记录 | 带媒体 |", "| --- | ---: | ---: |"])
     for row in categories:
         lines.append(f"| {esc(row['category'])} | {row['item_count']:,} | {row['media_count']:,} |")
+    value_top = connection.execute(
+        """
+        SELECT v.value_score, v.value_band, v.confidence_score,
+               i.platform, i.title, i.canonical_url, i.category
+        FROM v_current_value_matrix AS v
+        JOIN items AS i ON i.id = v.item_id
+        ORDER BY v.value_score DESC, v.confidence_score DESC, i.id
+        LIMIT 10
+        """
+    ).fetchall()
+    lines.extend(["", "## 价值衡量摘要", "", "价值分数用于安排复核和进一步研究，不是安全、质量或销量背书。", "", "| 平台 | 记录 | value | band | confidence | 分类 |", "| --- | --- | ---: | :---: | ---: | --- |"])
+    for row in value_top:
+        title = (row["title"] or row["canonical_url"] or "未命名").replace("|", "\\|")
+        lines.append(f"| {esc(row['platform'])} | [{esc(title)}]({row['canonical_url']}) | {row['value_score']:.2f} | {esc(row['value_band'])} | {row['confidence_score']:.2f} | {esc(row['category'])} |")
     lines.extend(["", "## 高互动/高关注记录", "", "| 平台 | 标题 | 作者 | 指标 | 分类 |", "| --- | --- | --- | --- | --- |"])
     for row in top:
         title = (row["title"] or row["canonical_url"] or "未命名").replace("|", "\\|")
@@ -238,6 +254,16 @@ def write_report(connection: sqlite3.Connection, generated_at: str) -> None:
     top_rows = connection.execute(
         "SELECT * FROM v_latest_metrics ORDER BY COALESCE(stars, likes, points, views, comments, 0) DESC LIMIT 12"
     ).fetchall()
+    value_rows = connection.execute(
+        """
+        SELECT v.value_score, v.value_band, v.confidence_score,
+               i.platform, i.title, i.canonical_url, i.category
+        FROM v_current_value_matrix AS v
+        JOIN items AS i ON i.id = v.item_id
+        ORDER BY v.value_score DESC, v.confidence_score DESC, i.id
+        LIMIT 12
+        """
+    ).fetchall()
     svg_bars("Records by platform", platform_rows, "platform", "count", ASSETS / "platform-volume.svg")
     svg_bars("Records by category", category_rows, "category", "count", ASSETS / "category-distribution.svg")
     svg_bars("Media kinds", media_rows, "kind", "count", ASSETS / "media-kinds.svg")
@@ -247,6 +273,13 @@ def write_report(connection: sqlite3.Connection, generated_at: str) -> None:
             f'<article><div class="eyebrow">{esc(row["platform"])} · {esc(row["category"])}</div>'
             f'<h3><a href="{esc(row["canonical_url"])}">{esc(row["title"] or row["canonical_url"])}</a></h3>'
             f'<p>{esc(row["author"])} · {esc(metric_label(row))}</p></article>'
+        )
+    value_cards = []
+    for row in value_rows:
+        value_cards.append(
+            f'<article><div class="eyebrow">{esc(row["platform"])} · band {esc(row["value_band"])} · confidence {row["confidence_score"]:.1f}</div>'
+            f'<h3><a href="{esc(row["canonical_url"])}">{esc(row["title"] or row["canonical_url"])}</a></h3>'
+            f'<p>value {row["value_score"]:.2f} · {esc(row["category"])}</p></article>'
         )
     html_doc = f"""<!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
@@ -270,10 +303,11 @@ a {{ color:#27667b; }}
 <header class="hero"><div class="eyebrow">PUBLIC SNAPSHOT · {esc(generated_at)}</div>
 <h1>DeepSeek Harness 的插件生态正在形成一张可追踪的网</h1>
 <p>把仓库、帖子、笔记、视频与互动指标放进同一个可回溯索引。Setup 是生态出现，Conflict 是平台指标不可直接相加，Resolution 是保留原始证据并按来源观察变化。</p></header>
-<section><h2>先看分布</h2><div class="grid"><img class="chart" src="assets/platform-volume.svg" alt="Records by platform"><img class="chart" src="assets/category-distribution.svg" alt="Records by category"><img class="chart" src="assets/media-kinds.svg" alt="Media kinds"></div></section>
-<section><h2>当前解读</h2><p>GitHub 反映可复用代码与生态基础设施，HN 反映开发者讨论，X 与小红书反映传播和教程扩散，YouTube 反映长视频解释与实测。它们是不同的信号，报告只在各自平台内比较。</p><p class="note">指标为采集时快照；外部媒体只保存链接和缩略图地址，不镜像受版权保护的内容。</p></section>
+<section><h2>先看分布</h2><div class="grid"><img class="chart" src="assets/platform-volume.svg" alt="Records by platform"><img class="chart" src="assets/category-distribution.svg" alt="Records by category"><img class="chart" src="assets/media-kinds.svg" alt="Media kinds"><img class="chart" src="assets/value-matrix.svg" alt="Evidence and utility value matrix"></div></section>
+<section><h2>当前解读</h2><p>GitHub 反映可复用代码与生态基础设施，HN 反映开发者讨论，X 与小红书反映传播和教程扩散，YouTube 反映长视频解释与实测。它们是不同的信号，报告只在各自平台内比较。</p><p>价值矩阵把可用性、证据、生态连接、新鲜度和可审查材料与平台内热度分开，优先提示“值得复核”的记录；它不把不同平台的数字相加，也不替代代码安全审计。</p><p class="note">指标为采集时快照；外部媒体只保存链接和缩略图地址，不镜像受版权保护的内容。</p></section>
 <section><h2>高关注记录</h2><div class="grid">{"".join(cards)}</div></section>
-<section><h2>继续更新</h2><p>执行 <code>python3 scripts/collect.py update --raw path/to/egolite.json</code>，再执行 <code>python3 scripts/build_views.py</code>。每次更新都会保留 API 原始快照和指标观测时间。</p></section>
+<section><h2>价值矩阵优先级</h2><div class="grid">{"".join(value_cards)}</div></section>
+<section><h2>继续更新</h2><p>执行 <code>python3 scripts/collect.py update --raw path/to/egolite.json</code>，再执行 <code>python3 scripts/build_value_matrix.py</code>、<code>python3 scripts/build_index.py</code> 和 <code>python3 scripts/build_views.py</code>。每次更新都会保留 API 原始快照和指标观测时间。</p></section>
 </main></body></html>
 """
     (DOCS / "report.html").write_text(html_doc, encoding="utf-8")
@@ -297,6 +331,9 @@ def main() -> None:
         write_categories(connection)
         write_sources(connection)
         write_report(connection, f"{dataset_version} · {generated_at}")
+        from build_site import write_store_site
+
+        write_store_site(connection, dataset_version, generated_at)
     print(f"built docs and charts from {DB_PATH}")
 
 

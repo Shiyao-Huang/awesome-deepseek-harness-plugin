@@ -8,6 +8,10 @@ The registration projection is `../index/records.jsonl`, with its normative fiel
 
 `raw_snapshots` stores the exact UTF-8 JSON file content in `payload_json`, plus its SHA-256, relative path, byte size, collection date, and run id. This is the authoritative raw evidence in SQLite; `observations` links platform observations back to the raw snapshot.
 
+`item_details` stores optional full-text enrichment from checked-in raw captures or permitted public endpoints. A successful detail row is idempotent on `item_id`; blocked, thin, and failed rows remain as provenance instead of being retried as new items.
+
+`value_assessments` stores the versioned value matrix for every item in a collection run. Its six scores are utility, evidence, traction, ecosystem, freshness, and reviewability. `traction` is normalized within each platform; the matrix never adds stars, likes, views, and points across platforms. `risk_flags` and `confidence_score` expose missing evidence without turning unknown values into zero claims.
+
 `raw/2026-08-15-egolite.json` is the first checked-in browser harvest. It records the query, source URL, collection method, visible result count, titles, authors, timestamps, media URLs, and platform-native interaction counters.
 
 `raw/api/` contains checked-in timestamped GitHub/Hacker News API snapshots created by the scheduled refresh workflow. `raw/auto/` remains reserved for local API runs that should not be committed.

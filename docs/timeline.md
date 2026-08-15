@@ -6,6 +6,25 @@
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
 | 2026-08-15T14:18:44+08:00 | web | article | [玩了一夜DeepSeek Harness，我发现它在用《我的世界》的方式干掉Claude Code-36氪](https://www.36kr.com/p/3938774780263814) |  | core-and-ecosystem |
+| 19小时前 | youtube | video | [DeepSeek Harness 正式发布！ 开源一天狂揽 6.8 万星！V4 Pro 模型低调上线，AI Agent 部署与实测 \| 零度解说](https://www.youtube.com/watch?v=5G_afoTB1gs) | 零度解说 | core-and-ecosystem |
+| 16小时前 | youtube | video | [DeepSeek Harness 能力很猛，很危险？源码深挖解读！](https://www.youtube.com/watch?v=CukbMYlDRrM) | 三少科技 | multimedia-and-vision |
+| 21小时前 | youtube | video | [DeepSeek Harness初步测试：工具属性优秀，反应极快，编程能力强，但是小BUG不少。总体上是非常优秀的产品，值得尝试！](https://www.youtube.com/watch?v=i3s5vC_0uHU) | 抡锤者 | core-and-ecosystem |
+| 6小时前 | youtube | video | [How to Develop a DeepSeek Harness Plugin?](https://www.youtube.com/watch?v=iieUVcoPjlI) | 01Coder | core-and-ecosystem |
+| 2026-08-15T08:13:29Z | xiaohongshu | note | [DeepSeek Harness 很强 但不好用](https://www.xiaohongshu.com/explore/6a7f20aa00000000220163e7) | AI拯救打工人（幻觉版） | core-and-ecosystem |
+| 2026-08-15T08:13:29Z | xiaohongshu | note | [DeepSeek Harness的过度设计与 Pi 的极简](https://www.xiaohongshu.com/explore/6a7fc6a90000000024025fef) | AI拯救打工人（幻觉版） | agents-and-orchestration |
+| 2026-08-15T08:13:29Z | xiaohongshu | note | [DeepseekHraness还没捂热，插件社区就来了](https://www.xiaohongshu.com/explore/6a7edd44000000002202e3d9) | AI拯救打工人（幻觉版） | index-and-marketplace |
+| 2026-08-15T08:13:29Z | xiaohongshu | note | [从零开始带你“玩转”DeepseekHarness](https://www.xiaohongshu.com/explore/6a7ef11a0000000008012af5) | AI拯救打工人（幻觉版） | core-and-ecosystem |
+| 2026-08-15T08:13:29Z | xiaohongshu | note | [全网最全的DeepSeek Harness终极教程！](https://www.xiaohongshu.com/explore/6a7eed6a000000000801102e) | AI拯救打工人（幻觉版） | core-and-ecosystem |
+| 7m | x | post | [AI harness dependency and bloat security concern](https://x.com/KuittinenPetri/status/2088537151839350824) | Petri Kuittinen | operations-and-safety |
+| 11m | x | post | [DeepSeek Harness data and bias risks](https://x.com/kameki23/status/2088536269068632536) | タートル(亀田直樹）/ AI関連の最新情報をお届け | core-and-ecosystem |
+| 17m | x | post | [DeepSeek Harness in new open-weight model list](https://x.com/kondo_ceollc/status/2088534764705989061) | 近藤公太 | Building an AI Software Company | core-and-ecosystem |
+| 11m | x | post | [DeepSeek Harness is basically Claude Code but free](https://x.com/_0xpainn/status/2088536282972451275) | painn | core-and-ecosystem |
+| 11m | x | post | [DeepSeek Harness open source Claude Code link](https://x.com/kameki23/status/2088536270691848668) | タートル(亀田直樹）/ AI関連の最新情報をお届け | core-and-ecosystem |
+| 16m | x | post | [DeepSeek Harness plugin ecosystem reaches 700 plus repositories claim](https://x.com/_luckyj888/status/2088535042759053483) | Lucky J | index-and-marketplace |
+| 11m | x | post | [DeepSeek Harness real-time data processing claim](https://x.com/kameki23/status/2088536267323814359) | タートル(亀田直樹）/ AI関連の最新情報をお届け | core-and-ecosystem |
+| 16m | x | post | [DeepSeek Harness repository link](https://x.com/_0xpainn/status/2088534913070801266) | painn | index-and-marketplace |
+| 14m | x | post | [DeepSeek Harness skills directory observation](https://x.com/Sheldon36355913/status/2088535505004585175) | Sheldon | index-and-marketplace |
+| 11m | x | post | [DeepSeek Harness v0.1 introduction](https://x.com/kameki23/status/2088536265264431220) | タートル(亀田直樹）/ AI関連の最新情報をお届け | core-and-ecosystem |
 | 2026-08-14 | github | ecosystem-reference | [Code2Skill](https://github.com/leechen298/Code2Skill) | leechen298 | core-and-ecosystem |
 | 2026-08-15T07:24:10Z | github | ecosystem-reference | [DSHgo](https://github.com/Asuta/DSHgo) | Asuta | ui-and-desktop |
 | 2026-08-14 | github | ecosystem-reference | [DeepSeek-Harness-Pet](https://github.com/minybear/DeepSeek-Harness-Pet) | minybear | core-and-ecosystem |
@@ -221,19 +240,19 @@
 | 2026-08-15T06:22:50Z | web | article | [DeepSeek Harness 简介 \| 菜鸟教程](https://www.runoob.com/deepseek-harness/deepseek-harness-intro.html) |  | core-and-ecosystem |
 | 2026-08-15T06:22:47Z | web | article | [DeepSeek Harness 教程 \| 菜鸟教程](https://www.runoob.com/deepseek-harness/deepseek-harness-tutorial.html) |  | docs-and-learning |
 | 2026-08-15T06:21:13Z | weibo | article | [#DeepSeekHarness发布#_微博](https://weibo.com/a/hot/11d60a0ca23a9d14_0.html) |  | core-and-ecosystem |
-| 7小时前 | youtube | video | [7分钟解读DeepSeek Harness](https://www.youtube.com/watch?v=GZsULMq1Y9E) | 晓辉博士 | core-and-ecosystem |
+| 9小时前 | youtube | video | [7分钟解读DeepSeek Harness](https://www.youtube.com/watch?v=GZsULMq1Y9E) | 晓辉博士 | core-and-ecosystem |
 | 19小时前 | youtube | video | [DeepSeek Harness + V4 Flash = The END of Claude Code?](https://www.youtube.com/watch?v=wvaWgFw-z88) | Income stream surfers | core-and-ecosystem |
-| 1天前 | youtube | video | [DeepSeek Harness - Its a Big Deal!](https://www.youtube.com/watch?v=NPO2CwHnfmI) | Prompt Engineering | core-and-ecosystem |
+| 1天前 | youtube | video | [DeepSeek Harness - Its a Big Deal!](https://www.youtube.com/watch?v=NPO2CwHnfmI) | Prompt Engineering | agents-and-orchestration |
 | 20小时前 | youtube | video | [DeepSeek Harness with Local Ollama: Complete Free Setup Guide](https://www.youtube.com/watch?v=b7kk768JEws) | Ray Codes | docs-and-learning |
-| 15小时前 | youtube | video | [DeepSeek Harness 快速上手：本地安装与运行](https://www.youtube.com/watch?v=Ykn3aQi7x7o) | 01Coder | core-and-ecosystem |
+| 17小时前 | youtube | video | [DeepSeek Harness 快速上手：本地安装与运行](https://www.youtube.com/watch?v=Ykn3aQi7x7o) | 01Coder | core-and-ecosystem |
 | 1天前 | youtube | video | [DeepSeek Harness: Free Claude Code Rival Hits 24k Stars Day 1](https://www.youtube.com/watch?v=k2hi16y67Jo) | Prism Labs | core-and-ecosystem |
-| 17小时前 | youtube | video | [DeepSeek Harness: The End of Claude Code?](https://www.youtube.com/watch?v=qg9EyGOZd9U) | NeuralNine | core-and-ecosystem |
+| 19小时前 | youtube | video | [DeepSeek Harness: The End of Claude Code?](https://www.youtube.com/watch?v=qg9EyGOZd9U) | NeuralNine | docs-and-learning |
 | 1天前 | youtube | video | [DeepSeek Just Dropped Its Own Harness… And It’s FAST!](https://www.youtube.com/watch?v=yiXSK7WvSv0) | Tech2WiLD | core-and-ecosystem |
-| 1天前 | youtube | video | [DeepSeek&#x27;s Latest Open-Source Project: DeepSeek Harness Is Officially Here](https://www.youtube.com/watch?v=CAb1PaVBCEM) | 鲲鹏Talk | core-and-ecosystem |
-| 4小时前 | youtube | video | [DeepSeek&#x27;s New AI Harness Changes Everything](https://www.youtube.com/watch?v=uag_fnGyh10) | Julian Goldie SEO | core-and-ecosystem |
+| 6小时前 | youtube | video | [DeepSeek&#x27;s New AI Harness Changes Everything](https://www.youtube.com/watch?v=uag_fnGyh10) | Julian Goldie SEO | core-and-ecosystem |
 | 1天前 | youtube | video | [Deepseek Harness: Everything is a plugin](https://www.youtube.com/watch?v=xe-aHJLC5UU) | DevsKingdom | docs-and-learning |
+| 1天前 | youtube | video | [[DeepSeek&#x27;s Latest Open-Source Project] DeepSeek Harness Is Officially Here! In-Depth Analysis of...](https://www.youtube.com/watch?v=CAb1PaVBCEM) | 鲲鹏Talk | core-and-ecosystem |
 | 1天前 | youtube | video | [deepseek harness发布，评论两极分化？保姆级使用教程](https://www.youtube.com/watch?v=BUPHZkOwhXE) | AI随风 | core-and-ecosystem |
-| 20小时前 | youtube | video | [实测DeepSeek Harness从基础到高级用法：WebUI、插件系统与任务分支](https://www.youtube.com/watch?v=Aqn7EP8shJw) | AI超元域 | core-and-ecosystem |
+| 22小时前 | youtube | video | [实测DeepSeek Harness从基础到高级用法！WebUI远程控制、多模型接入、执行轨迹、插件系统、任务分支、游戏开发、代码仓库issues和pr分析！竟然比Claude Code更强？](https://www.youtube.com/watch?v=Aqn7EP8shJw) | AI超元域 | ui-and-desktop |
 | 17 hours ago | x | post | [DeepSeek Harness 调研白皮书与开源项目持续更新](https://x.com/dashiAIxz/status/2088249692006318327) | 大师的AI小灶 | index-and-marketplace |
 | Aug 13 | x | post | [Deepseek Harness 怎么感觉瞬间 7k Star，太猛了](https://x.com/vista8/status/2087891340122300714) | 向阳乔木 | core-and-ecosystem |
 | Aug 14 | x | post | [It&#x27;s a DeepSeek-Harness plugin now](https://x.com/BruzWJ/status/2088122325418065976) | BruzWJ | core-and-ecosystem |
@@ -242,7 +261,7 @@
 | Aug 13 | x | post | [官方开发文档地址，插件生态要火了](https://x.com/bruc3van/status/2087893868784300490) | Bruce Van | docs-and-learning |
 | 2026-08-15T06:18:59Z | web | article | [DeepSeek Harness Plugins by Category](https://deepseek-code.com/plugins) |  | core-and-ecosystem |
 | 2026-08-15T06:18:43Z | official | article | [DeepSeek Harness 开发者预览版：一切皆插件](https://www.deepseek.com/harness) |  | core-and-ecosystem |
-| 2026-08-15T06:18:07Z | web | question | [怎么看 DeepSeek Harness 正式开源，采用一切皆插件的架构？](https://www.zhihu.com/question/2071348486667237276) |  | core-and-ecosystem |
+| 2026-08-15T06:18:07Z | zhihu | question | [怎么看 DeepSeek Harness 正式开源，采用一切皆插件的架构？](https://www.zhihu.com/question/2071348486667237276) |  | core-and-ecosystem |
 | 昨天 16:54 | xiaohongshu | note | [DeepSeek Harness 当前十大高⭐插件](https://www.xiaohongshu.com/explore/6a7ed7b700000000080122d4) | 三木 | core-and-ecosystem |
 | 1天前 | xiaohongshu | note | [DeepSeek Harness 把一切做成 Plugin](https://www.xiaohongshu.com/explore/6a7e7cf20000000035016891) | 犹在镜中 | core-and-ecosystem |
 | 1天前 | xiaohongshu | note | [DeepSeek Harness 插件入门分享](https://www.xiaohongshu.com/explore/6a7deb1c0000000025003450) | Algebra | core-and-ecosystem |

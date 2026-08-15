@@ -1,0 +1,122 @@
+{
+  "capture_kind": "visible-dom",
+  "captured_at": "2026-08-15T08:13:02.073Z",
+  "collector": "ego-browser/ego-lite",
+  "method": "public X search result DOM",
+  "page_url": "https://x.com/search?q=%22DeepSeek%20Harness%22&src=typed_query&f=live",
+  "page_title": "(2) \"DeepSeek Harness\" - Search / X",
+  "visible_text": "Petri Kuittinen @KuittinenPetri 7m I really don't understand why so many AI harness makers are fine with gigantic amount of dependencies and bloat. This is a security nightmare. 15 views; painn @_0xpainn 11m you’re welcome Max, deepseek harness is basically claude code but free 1 like 34 views; タートル(亀田直樹）/ AI関連の最新情報をお届け @kameki23 11m https://pasqualepillitteri.it/ja/news/11035/deepseek-harness-open-source-claude-code-taiko 24 views; タートル(亀田直樹）/ AI関連の最新情報をお届け @kameki23 11m ただ、もちろん課題もある。AIエージェントの管理が容易になるとはいえ、誤ったデータやバイアスを含む情報を扱うリスクは依然として存在する。1 reply 22 views; タートル(亀田直樹）/ AI関連の最新情報をお届け @kameki23 11m 具体的には、DeepSeek Harnessを使うと、AIエージェントが分散されたデータをリアルタイムで処理し、必要な情報を即座に引き出せるようになる。1 reply 21 views; タートル(亀田直樹）/ AI関連の最新情報をお届け @kameki23 11m DeepSeekが発表した「DeepSeek Harness」v0.1は、AIエージェントを効率的にハーネスするためのプラットフォームなんだけど、これが何を意味するか理解してる？1 reply 17 views; Sheldon @Sheldon36355913 14m DeepSeek Harness 发布之际，绝大多数目光都聚焦在框架本身：插件架构、Agent 运行循环、工具调用能力。46 views; Lucky J @_luckyj888 16m DeepSeek Harness 插件一夜爆了 GitHub：打着 dsh-plugin 标签的公开仓库已经冲到 700+ 个，网友是真把它「插成万物」了。2 replies 1 like 86 views; painn @_0xpainn 16m repo link here GitHub - deepseek-ai/deepseek-harness: DeepSeek Harness: Everything is a Plugin. 5 likes 2 bookmarks 37 views; 近藤公太 | Building an AI Software Company @kondo_ceollc 17m 今週だけで公開された新しい オープンウェイトモデル一覧 > GLM-5.3 > Qwen-3.8-Max > Deepseek-V4-Pro > Deepseek-Harness > Muse-Glimmer > Nemotron-Lighting > Qwen3.8-27b 1 like 50 views",
+  "articles": [
+    {
+      "position": 1,
+      "url": "https://x.com/KuittinenPetri/status/2088537151839350824",
+      "author_url": "https://x.com/KuittinenPetri",
+      "body_text": "Petri Kuittinen @KuittinenPetri · 7m Replying to @ZhihuFrontier I really don't understand why so many AI harness makers are fine with gigantic amount of dependencies and bloat. This is a security nightmare. Imagine if one of those 3rd party open sources libraries ends up compromised, the hackers will instantly have backdoors to the agent. Show more 15",
+      "metric_groups": ["15 views"],
+      "media": [{"src": "https://pbs.twimg.com/profile_images/1255517284287864834/GabeF8QV_x96.jpg", "alt": null}]
+    },
+    {
+      "position": 2,
+      "url": "https://x.com/_0xpainn/status/2088536282972451275",
+      "author_url": "https://x.com/_0xpainn",
+      "body_text": "painn @_0xpainn · 11m Replying to @MAXdeg0 you’re welcome Max, deepseek harness is basically claude code but free 1 34",
+      "metric_groups": ["1 like, 34 views"],
+      "media": [{"src": "https://pbs.twimg.com/profile_images/2036103847538556928/GlFHIjK-_x96.jpg", "alt": null}]
+    },
+    {
+      "position": 3,
+      "url": "https://x.com/kameki23/status/2088536270691848668",
+      "author_url": "https://x.com/kameki23",
+      "body_text": "タートル(亀田直樹）/ AI関連の最新情報をお届け @kameki23 · 11m Replying to @kameki23 https:// pasqualepillitteri.it/ja/news/11035/ deepseek-harness-open-source-claude-code-taiko … 24",
+      "metric_groups": ["24 views"],
+      "media": [{"src": "https://pbs.twimg.com/profile_images/2021020663180623874/2J9fZmAG_x96.jpg", "alt": null}]
+    },
+    {
+      "position": 4,
+      "url": "https://x.com/kameki23/status/2088536269068632536",
+      "author_url": "https://x.com/kameki23",
+      "body_text": "タートル(亀田直樹）/ AI関連の最新情報をお届け @kameki23 · 11m Replying to @kameki23 ただ、もちろん課題もある。AIエージェントの管理が容易になるとはいえ、誤ったデータやバイアスを含む情報を扱うリスクは依然として存在する。これをどう克服するかが今後の課題だね。 DeepSeek Show more 1 22",
+      "metric_groups": ["1 reply, 22 views"],
+      "media": [{"src": "https://pbs.twimg.com/profile_images/2021020663180623874/2J9fZmAG_x96.jpg", "alt": null}]
+    },
+    {
+      "position": 5,
+      "url": "https://x.com/kameki23/status/2088536267323814359",
+      "author_url": "https://x.com/kameki23",
+      "body_text": "タートル(亀田直樹）/ AI関連の最新情報をお届け @kameki23 · 11m Replying to @kameki23 具体的には、DeepSeek Harnessを使うと、AIエージェントが分散されたデータをリアルタイムで処理し、必要な情報を即座に引き出せるようになる。これにより、ビジネスの意思決定や分析が飛躍的にスピードアップする可能性がある。 Show more 1 21",
+      "metric_groups": ["1 reply, 21 views"],
+      "media": [{"src": "https://pbs.twimg.com/profile_images/2021020663180623874/2J9fZmAG_x96.jpg", "alt": null}]
+    },
+    {
+      "position": 6,
+      "url": "https://x.com/kameki23/status/2088536265264431220",
+      "author_url": "https://x.com/kameki23",
+      "body_text": "タートル(亀田直樹）/ AI関連の最新情報をお届け @kameki23 · 11m Replying to @kameki23 DeepSeekが発表した「DeepSeek Harness」v0.1は、AIエージェントを効率的にハーネスするためのプラットフォームなんだけど、これが何を意味するか理解してる？ Show more 1 17",
+      "metric_groups": ["1 reply, 17 views"],
+      "media": [{"src": "https://pbs.twimg.com/profile_images/2021020663180623874/2J9fZmAG_x96.jpg", "alt": null}]
+    },
+    {
+      "position": 7,
+      "url": "https://x.com/Sheldon36355913/status/2088535505004585175",
+      "author_url": "https://x.com/Sheldon36355913",
+      "body_text": "Sheldon @Sheldon36355913 · 14m DeepSeek Harness 发布之际，绝大多数目光都聚焦在框架本身：插件架构、Agent 运行循环、工具调用能力。 但很少有人留意到，仓库深处藏着一个极易被忽略的目录： .agents/skills/ 目录下存放着 11 份 Skill 文件，每一份都源自 DeepSeek Show more github.com DeepSeek GitHub is where DeepSeek builds software. 46",
+      "metric_groups": ["46 views"],
+      "media": [{"src": "https://pbs.twimg.com/profile_images/1553037272081018880/905oBWoL_x96.jpg", "alt": null}]
+    },
+    {
+      "position": 8,
+      "url": "https://x.com/_luckyj888/status/2088535042759053483",
+      "author_url": "https://x.com/_luckyj888",
+      "body_text": "Lucky J @_luckyj888 · 16m DeepSeek Harness 插件一夜爆了 GitHub：打着 dsh-plugin 标签的公开仓库已经冲到 700+ 个，网友是真把它「插成万物」了。 DeepSeek Harness 是套开源 Agent Harness，架构最核心就一句口号：Everything is a Plugin（万物皆插件）。这句 Slogan 属实生逢其时——前脚发布，后脚 GitHub Show more 2 1 86",
+      "metric_groups": ["2 replies, 1 like, 86 views"],
+      "media": [
+        {"src": "https://pbs.twimg.com/profile_images/1978004667012628480/L4or1raL_x96.jpg", "alt": null},
+        {"src": "https://pbs.twimg.com/media/HPv3jLOboAANdqf?format=jpg&name=900x900", "alt": "Image"}
+      ]
+    },
+    {
+      "position": 9,
+      "url": "https://x.com/_0xpainn/status/2088534913070801266",
+      "author_url": "https://x.com/_0xpainn",
+      "body_text": "painn @_0xpainn · 16m Replying to @_0xpainn repo link here GitHub - deepseek-ai/deepseek-harness: DeepSeek Harness: Everything is a Plugin. From github.com 5 37",
+      "metric_groups": ["5 likes, 2 bookmarks, 37 views"],
+      "media": [
+        {"src": "https://pbs.twimg.com/profile_images/2036103847538556928/GlFHIjK-_x96.jpg", "alt": null},
+        {"src": "https://pbs.twimg.com/card_img/2088247164493340672/WtnZItnS?format=jpg&name=medium", "alt": null}
+      ]
+    },
+    {
+      "position": 10,
+      "url": "https://x.com/kondo_ceollc/status/2088534764705989061",
+      "author_url": "https://x.com/kondo_ceollc",
+      "body_text": "近藤公太 | Building an AI Software Company @kondo_ceollc · 17m 今週だけで公開された新しい オープンウェイトモデル一覧 > GLM-5.3 > Qwen-3.8-Max > Deepseek-V4-Pro > Deepseek-Harness > Muse-Glimmer > Nemotron-Lighting > Qwen3.8-27b ローカルAIの需要が高まってる GPUやメモリの高騰は止まらないと思う 1 50",
+      "metric_groups": ["1 like, 50 views"],
+      "media": [{"src": "https://pbs.twimg.com/profile_images/2017454659733270528/NVvzd6Qh_x96.jpg", "alt": null}]
+    }
+  ],
+  "observations": [
+    {
+      "platform": "x",
+      "query": "\"DeepSeek Harness\"",
+      "source_url": "https://x.com/search?q=%22DeepSeek%20Harness%22&src=typed_query&f=live",
+      "collected_at": "2026-08-15T08:13:02.073Z",
+      "collector": "ego-browser/ego-lite",
+      "method": "public visible DOM search",
+      "status": "ok",
+      "result_count": 10,
+      "notes": "Public Latest search tab. Relative publish labels are preserved in published_label; no exact timestamp was exposed for these result cards. Interaction values are page-visible only.",
+      "items": [
+        {"platform":"x","external_id":"2088537151839350824","url":"https://x.com/KuittinenPetri/status/2088537151839350824","item_type":"post","title":"AI harness dependency and bloat security concern","author":"Petri Kuittinen","author_url":"https://x.com/KuittinenPetri","published_label":"7m","content_text":"I really don't understand why so many AI harness makers are fine with gigantic amount of dependencies and bloat. This is a security nightmare. Imagine if one of those 3rd party open sources libraries ends up compromised, the hackers will instantly have backdoors to the agent.","metrics":{"views":15,"metric_source":"X visible aria-label","observed_at":"2026-08-15T08:13:02.073Z"},"tags":["x","DeepSeek Harness","security"]},
+        {"platform":"x","external_id":"2088536282972451275","url":"https://x.com/_0xpainn/status/2088536282972451275","item_type":"post","title":"DeepSeek Harness is basically Claude Code but free","author":"painn","author_url":"https://x.com/_0xpainn","published_label":"11m","content_text":"you’re welcome Max, deepseek harness is basically claude code but free","metrics":{"likes":1,"views":34,"metric_source":"X visible aria-label","observed_at":"2026-08-15T08:13:02.073Z"},"tags":["x","DeepSeek Harness"]},
+        {"platform":"x","external_id":"2088536270691848668","url":"https://x.com/kameki23/status/2088536270691848668","item_type":"post","title":"DeepSeek Harness open source Claude Code link","author":"タートル(亀田直樹）/ AI関連の最新情報をお届け","author_url":"https://x.com/kameki23","published_label":"11m","content_text":"https://pasqualepillitteri.it/ja/news/11035/deepseek-harness-open-source-claude-code-taiko","metrics":{"views":24,"metric_source":"X visible aria-label","observed_at":"2026-08-15T08:13:02.073Z"},"tags":["x","DeepSeek Harness","reference"]},
+        {"platform":"x","external_id":"2088536269068632536","url":"https://x.com/kameki23/status/2088536269068632536","item_type":"post","title":"DeepSeek Harness data and bias risks","author":"タートル(亀田直樹）/ AI関連の最新情報をお届け","author_url":"https://x.com/kameki23","published_label":"11m","content_text":"ただ、もちろん課題もある。AIエージェントの管理が容易になるとはいえ、誤ったデータやバイアスを含む情報を扱うリスクは依然として存在する。これをどう克服するかが今後の課題だね。","metrics":{"replies":1,"views":22,"metric_source":"X visible aria-label","observed_at":"2026-08-15T08:13:02.073Z"},"tags":["x","DeepSeek Harness","risk"]},
+        {"platform":"x","external_id":"2088536267323814359","url":"https://x.com/kameki23/status/2088536267323814359","item_type":"post","title":"DeepSeek Harness real-time data processing claim","author":"タートル(亀田直樹）/ AI関連の最新情報をお届け","author_url":"https://x.com/kameki23","published_label":"11m","content_text":"具体的には、DeepSeek Harnessを使うと、AIエージェントが分散されたデータをリアルタイムで処理し、必要な情報を即座に引き出せるようになる。これにより、ビジネスの意思決定や分析が飛躍的にスピードアップする可能性がある。","metrics":{"replies":1,"views":21,"metric_source":"X visible aria-label","observed_at":"2026-08-15T08:13:02.073Z"},"tags":["x","DeepSeek Harness","agent"]},
+        {"platform":"x","external_id":"2088536265264431220","url":"https://x.com/kameki23/status/2088536265264431220","item_type":"post","title":"DeepSeek Harness v0.1 introduction","author":"タートル(亀田直樹）/ AI関連の最新情報をお届け","author_url":"https://x.com/kameki23","published_label":"11m","content_text":"DeepSeekが発表した「DeepSeek Harness」v0.1は、AIエージェントを効率的にハーネスするためのプラットフォームなんだけど、これが何を意味するか理解してる？","metrics":{"replies":1,"views":17,"metric_source":"X visible aria-label","observed_at":"2026-08-15T08:13:02.073Z"},"tags":["x","DeepSeek Harness","introduction"]},
+        {"platform":"x","external_id":"2088535505004585175","url":"https://x.com/Sheldon36355913/status/2088535505004585175","item_type":"post","title":"DeepSeek Harness skills directory observation","author":"Sheldon","author_url":"https://x.com/Sheldon36355913","published_label":"14m","content_text":"DeepSeek Harness 发布之际，绝大多数目光都聚焦在框架本身：插件架构、Agent 运行循环、工具调用能力。但很少有人留意到，仓库深处藏着一个极易被忽略的目录：.agents/skills/目录下存放着11份Skill文件。","metrics":{"views":46,"metric_source":"X visible aria-label","observed_at":"2026-08-15T08:13:02.073Z"},"tags":["x","DeepSeek Harness","skills"]},
+        {"platform":"x","external_id":"2088535042759053483","url":"https://x.com/_luckyj888/status/2088535042759053483","item_type":"post","title":"DeepSeek Harness plugin ecosystem reaches 700 plus repositories claim","author":"Lucky J","author_url":"https://x.com/_luckyj888","published_label":"16m","content_text":"DeepSeek Harness 插件一夜爆了 GitHub：打着 dsh-plugin 标签的公开仓库已经冲到 700+ 个，网友是真把它「插成万物」了。DeepSeek Harness 是套开源 Agent Harness，架构最核心就一句口号：Everything is a Plugin（万物皆插件）。","media_kind":"image","media":[{"kind":"image","url":"https://pbs.twimg.com/media/HPv3jLOboAANdqf?format=jpg&name=900x900"}],"metrics":{"replies":2,"likes":1,"views":86,"metric_source":"X visible aria-label","observed_at":"2026-08-15T08:13:02.073Z"},"tags":["x","DeepSeek Harness","plugin ecosystem"]},
+        {"platform":"x","external_id":"2088534913070801266","url":"https://x.com/_0xpainn/status/2088534913070801266","item_type":"post","title":"DeepSeek Harness repository link","author":"painn","author_url":"https://x.com/_0xpainn","published_label":"16m","content_text":"repo link here GitHub - deepseek-ai/deepseek-harness: DeepSeek Harness: Everything is a Plugin.","media_kind":"image","media":[{"kind":"image","url":"https://pbs.twimg.com/card_img/2088247164493340672/WtnZItnS?format=jpg&name=medium"}],"metrics":{"likes":5,"bookmarks":2,"views":37,"metric_source":"X visible aria-label","observed_at":"2026-08-15T08:13:02.073Z"},"tags":["x","DeepSeek Harness","repository"]},
+        {"platform":"x","external_id":"2088534764705989061","url":"https://x.com/kondo_ceollc/status/2088534764705989061","item_type":"post","title":"DeepSeek Harness in new open-weight model list","author":"近藤公太 | Building an AI Software Company","author_url":"https://x.com/kondo_ceollc","published_label":"17m","content_text":"今週だけで公開された新しいオープンウェイトモデル一覧 > GLM-5.3 > Qwen-3.8-Max > Deepseek-V4-Pro > Deepseek-Harness > Muse-Glimmer > Nemotron-Lighting > Qwen3.8-27b ローカルAIの需要が高まってる GPUやメモリの高騰は止まらないと思う","metrics":{"likes":1,"views":50,"metric_source":"X visible aria-label","observed_at":"2026-08-15T08:13:02.073Z"},"tags":["x","DeepSeek Harness","model"]}
+      ]
+    }
+  ]
+}

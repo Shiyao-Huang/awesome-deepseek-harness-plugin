@@ -2,22 +2,24 @@
 
 DeepSeek Harness / DSH 插件生态的公开资料聚合 repo：把 GitHub 仓库、Hacker News、X、小红书、YouTube、哔哩哔哩、Reddit、知乎、微信公众号、LINUX DO、V2EX、微博和开放网页统一到一个可回溯索引。
 
-从 [docs/index.md](docs/index.md) 开始浏览；[docs/timeline.md](docs/timeline.md) 是时间轴，[docs/categories.md](docs/categories.md) 是启发式归类，[docs/sources.md](docs/sources.md) 是上游目录监测，[docs/report.html](docs/report.html) 是带 SVG 图表和高关注条目的富媒体报告。
+从 [dsh store](docs/index.html) 开始浏览；它提供类似 skills.sh 的目录、搜索、来源和分类页面，每条记录都有独立详情页。原始 Markdown 视图仍在 [docs/index.md](docs/index.md)、[docs/timeline.md](docs/timeline.md)、[docs/categories.md](docs/categories.md) 和 [docs/sources.md](docs/sources.md)，富媒体报告在 [docs/report.html](docs/report.html)。发布和 SEO 约定见 [docs/seo.md](docs/seo.md)。
 
 ## 当前快照
 
-本地 SQLite 当前包含 **848 条去重记录**、**13 个来源平台**、**909 条指标历史**、**613 个媒体资产引用**和 **81 个去重 raw snapshot**。raw snapshot 不是摘要：`raw_snapshots.payload_json` 保存原始 JSON 文本本身，并同时保存 SHA-256、原始路径、字节数、采集时间和采集批次。
+本地 SQLite 当前包含 **915 条去重记录**、**14 个来源平台**、**1,134 条指标历史**、**650 个媒体资产引用**、**306 条详情记录**和 **86 个去重 raw snapshot**。价值矩阵为当前批次的 915 条记录提供六维评分；raw snapshot 不是摘要：`raw_snapshots.payload_json` 保存原始 JSON 文本本身，并同时保存 SHA-256、原始路径、字节数、采集时间和采集批次。
 
 | 来源 | 去重记录 | 采集内容 |
 | --- | ---: | --- |
-| GitHub | 684 | 官方仓库、`dsh-plugin` topic、社区索引候选、stars/forks/issues |
-| X | 43 | 公开帖子、图片/视频链接、replies/reposts/likes/bookmarks/views |
-| Hacker News | 44 | 精确短语与扩展搜索、points/comments、帖子链接 |
-| 小红书 | 25 | 搜索卡片、作者、相对时间、点赞、缩略图；详情页限制保留在 provenance |
-| Open Web | 22 | 文章/教程/报道的公开元数据和摘要 |
-| YouTube | 13 | 视频标题、频道、观看数、视频链接和缩略图 |
+| GitHub | 687 | 官方仓库、`dsh-plugin` topic、社区索引候选、stars/forks/issues |
+| X | 53 | 公开帖子、图片/视频链接、replies/reposts/likes/bookmarks/views |
+| Hacker News | 89 | 精确短语与扩展搜索、points/comments、帖子链接 |
+| 小红书 | 30 | 搜索卡片、作者、相对时间、点赞、缩略图和详情文本 |
+| Open Web | 21 | 文章/教程/报道的公开元数据和摘要 |
+| YouTube | 17 | 视频标题、频道、观看数、视频链接和缩略图 |
 | 哔哩哔哩 | 6 | 视频元数据、播放/点赞/投币/收藏/转发/弹幕/评论 |
-| Reddit、LINUX DO、官方站、V2EX、微信公众号、微博 | 11 | 讨论、文章和公开页面补充证据 |
+| Reddit | 5 | 公开讨论、分数、评论和正文证据 |
+| LINUX DO | 2 | 公开讨论页面和互动信息 |
+| 官方站、V2EX、微信公众号、微博、知乎 | 7 | 公开文章、页面和补充证据 |
 
 ## 数据模型
 
@@ -36,6 +38,8 @@ collection_runs ──< raw_snapshots
 - `observations`：平台、查询、来源 URL、采集时间、方法、状态、raw 文件、SHA-256 和 collection run。
 - `metrics`：按 `item_id + observed_at + metric_source` 去重的指标历史，不把不同平台计数相加。
 - `media_assets`：外部图片、视频、缩略图和文档 URL；默认只保存链接，不镜像受版权保护的媒体。
+- `item_details`：按 item 幂等保存的详情文本和 blocked/thin/failed provenance。
+- `value_assessments`：按 collection run 和 scoring version 保存的六维价值矩阵；`v_current_value_matrix` 是当前批次视图。
 - `upstream_repositories` / `upstream_entries`：三个社区 Awesome 目录的版本化元数据、插件链接、分类、安装提示和与去重 item 的关系。
 - `index_records`：与 `index/records.jsonl` 同构的登记层，保存 `id/url/repo/context/picture/comment/favor/views/refs/rank/stars` 以及版本和日期字段。
 
@@ -82,6 +86,15 @@ python3 scripts/build_index.py
 python3 scripts/build_views.py
 ```
 
+计算价值矩阵并刷新全部派生视图：
+
+```sh
+python3 scripts/build_value_matrix.py
+python3 scripts/build_index.py
+python3 scripts/build_views.py
+python3 scripts/validate.py
+```
+
 公开仓库的 [refresh-index workflow](.github/workflows/refresh-index.yml) 每两小时运行一次（UTC 的每个偶数小时第 17 分钟），先监测三个上游 Awesome 仓库，再更新 GitHub/Hacker News 公共 API，保留 `data/raw/upstreams/` 和带时间戳的 `data/raw/api/` 完整快照，并提交 SQLite、`index/` 和派生页面。每次运行都会生成一个数据库内的 `dataset_version`；如果 raw SHA 已存在，则跳过 raw 和条目重复导入，但不同日期的互动指标仍作为历史观测保存。
 
 X、小红书、Reddit、微信公众号等需要登录态或浏览器可见 DOM 的来源，不会在 CI 中绕过登录、验证码或访问限制；继续通过 ego-browser 保存完整可见证据 JSON、截图路径和媒体 URL 后，用 `--raw` 导入。定时任务会自动收集它有权限公开访问的 API 数据，浏览器来源仍以合法可见的 raw 输入为准。
@@ -108,6 +121,12 @@ sqlite3 data/aggregator.sqlite3 \
 sqlite3 data/aggregator.sqlite3 \
   "SELECT raw_path, raw_sha256, byte_size, collected_at, length(payload_json) FROM raw_snapshots ORDER BY collected_at DESC LIMIT 20;"
 ```
+
+## 内容深度、质量评分与趋势
+
+- **内容入库**：`scripts/enrich_content.py` 把 URL 背后的正文抓进 `item_details`（GitHub README ×150、HN 全评论树、新闻正文、知乎全文回答、Reddit 帖+评论、X 全文、B站简介、小红书笔记详情），当前 300+ 条、约 250 万字符，`status` 区分 ok/thin/blocked 并保留溯源。
+- **质量评分**：`scripts/score.py`（入口指向 `build_value_matrix`）按 utility / evidence / traction / ecosystem / freshness / reviewability 六维打分，输出 `value_score`、`confidence_score`、`value_band` 与 `risk_flags`，查询入口 `v_current_value_matrix`，导出 `index/value-matrix.jsonl`。
+- **趋势**：`make trends` 生成 [docs/trends.md](docs/trends.md) 与 4 张 SVG：生态增长（dsh-plugin 仓库/日 + 累计线）、全平台活跃度、价值档分布、互动/天增速榜；`metrics` 按 `observed_at` 去重形成时间序列，重复运行 `make update` 即可累积真实增量。
 
 ## License
 

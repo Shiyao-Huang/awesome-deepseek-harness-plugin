@@ -1,0 +1,114 @@
+{
+  "collected_at": "2026-08-15T08:13:29Z",
+  "collector": "scripts/normalize_xhs_details",
+  "observations": [
+    {
+      "platform": "xiaohongshu",
+      "query": "note detail harvest (trusted-click flow)",
+      "source_url": "https://www.xiaohongshu.com/search_result?keyword=deepseek%20harness",
+      "collected_at": "2026-08-15T08:13:29Z",
+      "collector": "ego-browser",
+      "method": "ego-browser visible DOM",
+      "status": "ok",
+      "result_count": 5,
+      "notes": "normalized from note-*.json detail captures",
+      "items": [
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a7edd44000000002202e3d9",
+          "url": "https://www.xiaohongshu.com/explore/6a7edd44000000002202e3d9",
+          "item_type": "note",
+          "title": "DeepseekHraness还没捂热，插件社区就来了",
+          "author": "AI拯救打工人（幻觉版）",
+          "content_text": "Deepseek Harness才刚发布，已经在GitHub上收获65.9k的star！\n\t\n一行命令安装方法：npx @deepseek-ai/dsh web\n\t\n除了便捷的安装之外，最强的就是它无损拔插的插件系统。\n\t\nDSH的核心理念是：“一切皆插件”——模型、工具、skills、会话、沙箱、Agent loop、UI，全部可以热插拔。\n\t\n这意味着你拿到的DSH只是空壳，它能做什么，有多强大，取决于你给它插上什么插件？\n\t\n这个DSH插件社区收录了140多个热门插件，分类覆盖了记忆、子Agent、视觉和工作流。 这个站最有价值的不是聚合，而是做合规与权限标注。 每个插件直接把 Manifest 识别结果、安装脚本、Shell 权限和外部数据传输标出来。\n\t\n玩 Harness 的体验真实非常快，并且相比codex少了很多权限申请的弹窗，但这也恰恰是风险所在，不知道第三方插件到底拿了什么权限。强烈建议把安全排雷的前置工作提前做好！\n\t\n社区地址见评论区\n\t\n#DeepSeek #DeepSeekharness #howto入门ai",
+          "media_kind": "image",
+          "metrics": {
+            "likes": null,
+            "metric_source": "XHS detail engage bar",
+            "observed_at": "2026-08-15T08:13:29Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "note-detail"
+          ]
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a7eed6a000000000801102e",
+          "url": "https://www.xiaohongshu.com/explore/6a7eed6a000000000801102e",
+          "item_type": "note",
+          "title": "全网最全的DeepSeek Harness终极教程！",
+          "author": "AI拯救打工人（幻觉版）",
+          "content_text": "#AI百科全书 #DeepSeek #Harness #howto用好AI #大模型 #干货 #AI工具 #插件 #前端",
+          "media_kind": "image",
+          "metrics": {
+            "likes": null,
+            "metric_source": "XHS detail engage bar",
+            "observed_at": "2026-08-15T08:13:29Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "note-detail"
+          ]
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a7ef11a0000000008012af5",
+          "url": "https://www.xiaohongshu.com/explore/6a7ef11a0000000008012af5",
+          "item_type": "note",
+          "title": "从零开始带你“玩转”DeepseekHarness",
+          "author": "AI拯救打工人（幻觉版）",
+          "content_text": "#老陈是小登 #deepseek #deepseekharness #ds #ai #howto入门vibecoding #vibecoding #ai编程",
+          "media_kind": "image",
+          "metrics": {
+            "likes": 33,
+            "metric_source": "XHS detail engage bar",
+            "observed_at": "2026-08-15T08:13:29Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "note-detail"
+          ]
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a7f20aa00000000220163e7",
+          "url": "https://www.xiaohongshu.com/explore/6a7f20aa00000000220163e7",
+          "item_type": "note",
+          "title": "DeepSeek Harness 很强 但不好用",
+          "author": "AI拯救打工人（幻觉版）",
+          "content_text": "#AI进化生活howto #大模型 #vibecoding #DeepSeek #harness #Harness",
+          "media_kind": "image",
+          "metrics": {
+            "likes": null,
+            "metric_source": "XHS detail engage bar",
+            "observed_at": "2026-08-15T08:13:29Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "note-detail"
+          ]
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a7fc6a90000000024025fef",
+          "url": "https://www.xiaohongshu.com/explore/6a7fc6a90000000024025fef",
+          "item_type": "note",
+          "title": "DeepSeek Harness的过度设计与 Pi 的极简",
+          "author": "AI拯救打工人（幻觉版）",
+          "content_text": "DeepSeek Harness 发布后，很多人都说太重、太工程化、普通人根本玩不动，是技术工程师的理想主义。\n\t\n但一个很有意思的反差出现了：Pi 背后的 Armin Ronacher，反而被它启发了。\n\t\n他连续发了几条：\n“我很喜欢 DeepSeek Harness 里看到的东西。”\n“它让我重新思考我们在 Pi 中如何处理 Harness。”\n\t\n这就有意思了，因为 Pi 和 DeepSeek Harness，几乎代表了 Agent Harness 的两个极端。\n\t\nPi 崇尚极简：给 Agent read / write / edit / bash 这些基本原语，模型够聪明的话，很多能力自己组合、自己扩展。\nDeepSeek Harness 却反过来：Everything is a Plugin。Model、Tool、Skill、Session、Sandbox、Filesystem，甚至 Agent Loop 和 Orchestration，都可以拆掉、替换、重新组合。\n所以有人吐槽它像“Agent 界的 Linux”：自由度极高，但你得会开。\n\t\n但我觉得，DSH 真正有意思的地方，恰恰不是它能不能成为另一个 Claude Code。\n而是它把 Harness 本身变成了 Agent 可以操作的对象。\n以前我们优化 Agent：Prompt Engineering 到 ",
+          "media_kind": "image",
+          "metrics": {
+            "likes": null,
+            "metric_source": "XHS detail engage bar",
+            "observed_at": "2026-08-15T08:13:29Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "note-detail"
+          ]
+        }
+      ]
+    }
+  ]
+}

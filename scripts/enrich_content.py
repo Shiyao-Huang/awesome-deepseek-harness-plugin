@@ -8,7 +8,7 @@ Stages, all idempotent against the item_details table:
 - reddit: post body plus top comments from the checked-in DOM captures
 - x: full post text from the checked-in status/search/profile captures
 - zhihu: full answer texts from the ego-browser full-text capture
-- xiaohongshu: records blocked detail-page responses as provenance
+- xiaohongshu: stores trusted-click detail text and records blocked attempts as provenance
 Stdlib only; run after `collect.py seed`.
 """
 
@@ -104,6 +104,14 @@ def store_detail(connection: sqlite3.Connection, item_id: int, method: str, url:
     return bool(content)
 
 
+def done_item_ids(connection: sqlite3.Connection) -> set:
+    """Item ids that already have a successful detail row (idempotent reruns)."""
+
+    return {row[0] for row in connection.execute(
+        "SELECT item_id FROM item_details WHERE status='ok' AND char_count>0"
+    )}
+
+
 def gh_token() -> str | None:
     """Read the GitHub CLI token when available for the 5,000/h rate limit."""
 
@@ -127,9 +135,13 @@ def github_readmes(connection: sqlite3.Connection, token: str | None) -> dict[st
         """,
         (GITHUB_TOP,),
     ).fetchall()
-    stats = {"fetched": 0, "empty": 0, "failed": 0}
+    stats = {"fetched": 0, "skipped": 0, "empty": 0, "failed": 0}
     failures = 0
+    done = done_item_ids(connection)
     for row in rows:
+        if row["id"] in done:
+            stats["skipped"] += 1
+            continue
         full_name = row["external_id"]
         url = f"https://api.github.com/repos/{full_name}/readme"
         headers = dict(Accept="application/vnd.github.raw+json", **UA)
@@ -191,8 +203,12 @@ def hackernews_threads(connection: sqlite3.Connection) -> dict[str, int]:
         ORDER BY m.points DESC
         """
     ).fetchall()
-    stats = {"fetched": 0, "failed": 0}
+    stats = {"fetched": 0, "skipped": 0, "failed": 0}
+    done = done_item_ids(connection)
     for row in rows:
+        if row["id"] in done:
+            stats["skipped"] += 1
+            continue
         url = f"https://hn.algolia.com/api/v1/items/{row['external_id']}"
         try:
             with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=30) as response:
@@ -225,11 +241,15 @@ def extract_article_text(page_html: str) -> str:
 def web_articles(connection: sqlite3.Connection) -> dict[str, int]:
     """Store extracted article body text for web/official items."""
 
-    stats = {"fetched": 0, "blocked": 0, "failed": 0}
+    stats = {"fetched": 0, "skipped": 0, "blocked": 0, "failed": 0}
     rows = connection.execute(
         "SELECT id, canonical_url FROM items WHERE platform IN ('web', 'official')"
     ).fetchall()
+    done = done_item_ids(connection)
     for row in rows:
+        if row["id"] in done:
+            stats["skipped"] += 1
+            continue
         url = row["canonical_url"]
         try:
             with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=30) as response:
@@ -262,8 +282,11 @@ def reddit_bodies(connection: sqlite3.Connection) -> dict[str, int]:
     stats = {"fetched": 0}
     for path in sorted((RAW_DIR / "web").glob("reddit-dom-*.json")):
         data = load_raw(f"web/{path.name}")
-        external_id = path.stem.replace("reddit-dom-", "")
-        row = connection.execute("SELECT id FROM items WHERE platform='reddit' AND external_id=?", (external_id,)).fetchone()
+        permalink = str(data.get("permalink") or "")
+        slug = permalink.rstrip("/").rsplit("/", 1)[-1]
+        row = (connection.execute(
+            "SELECT id FROM items WHERE platform='reddit' AND external_id=?", (slug,)
+        ).fetchone() if slug else None)
         if row is None:
             continue
         parts = [f"{data.get('title') or ''}", "", data.get("selftext") or ""]
@@ -359,7 +382,7 @@ def zhihu_full_answers(connection: sqlite3.Connection) -> dict[str, int]:
     except FileNotFoundError:
         return stats
     row = connection.execute(
-        "SELECT id FROM items WHERE platform='zhihu' AND external_id='2071348486667237276'"
+        "SELECT id FROM items WHERE canonical_url LIKE '%zhihu.com/question/2071348486667237276%'"
     ).fetchone()
     if row is None:
         return stats
@@ -378,10 +401,11 @@ def zhihu_full_answers(connection: sqlite3.Connection) -> dict[str, int]:
     return stats
 
 
-def xiaohongshu_attempts(connection: sqlite3.Connection) -> dict[str, int]:
-    """Record blocked detail-page attempts as auditable provenance."""
+def xiaohongshu_details(connection: sqlite3.Connection) -> dict[str, int]:
+    """Store note detail text from the trusted-click captures; record blocks."""
 
-    stats = {"blocked": 0}
+    stats = {"fetched": 0, "skipped": 0, "blocked": 0}
+    done = done_item_ids(connection)
     for path in sorted((RAW_DIR / "xiaohongshu").glob("note-*.json")):
         data = load_raw(f"xiaohongshu/{path.name}")
         note_id = path.stem.replace("note-", "")
@@ -390,11 +414,27 @@ def xiaohongshu_attempts(connection: sqlite3.Connection) -> dict[str, int]:
         ).fetchone()
         if row is None:
             continue
+        if row["id"] in done:
+            stats["skipped"] += 1
+            continue
         blocked = "当前笔记暂时无法浏览" in str(data.get("title") or "") + str(data.get("bodySample") or "")
         if blocked:
             stats["blocked"] += 1
             store_detail(connection, row["id"], "ego-browser DOM detail attempt", data.get("pageUrl"),
                          "", "blocked", "detail page shows 暂时无法浏览 without login; card-level data remains authoritative")
+            continue
+        content_parts = [str(data.get("title") or ""), str(data.get("content") or "")]
+        comments = [str(c) for c in (data.get("comments") or []) if str(c).strip()]
+        if comments:
+            content_parts.append("— comments —")
+            content_parts.extend(f"- {c}" for c in comments)
+        engage = re.sub(r"\s+", " ", str(data.get("engageText") or "")).strip()
+        content = "\n".join(part for part in content_parts if part).strip()
+        if content:
+            stats["fetched"] += 1
+            store_detail(connection, row["id"], str(data.get("method") or "ego-browser DOM detail"),
+                         data.get("pageUrl"), content[:6000], "ok",
+                         (f"engage: {engage}" if engage else None) + (f"; {len(comments)} comments" if comments else ""))
     connection.commit()
     return stats
 
@@ -406,6 +446,7 @@ def main() -> int:
     ensure_tables(connection)
     token = gh_token()
     stages = [
+        ("xhs-details", lambda: xiaohongshu_details(connection)),
         ("github-readme", lambda: github_readmes(connection, token)),
         ("hn-threads", lambda: hackernews_threads(connection)),
         ("web-articles", lambda: web_articles(connection)),
@@ -413,7 +454,6 @@ def main() -> int:
         ("x-bodies", lambda: x_bodies(connection)),
         ("bilibili-desc", lambda: bilibili_descriptions(connection)),
         ("zhihu-answers", lambda: zhihu_full_answers(connection)),
-        ("xhs-attempts", lambda: xiaohongshu_attempts(connection)),
     ]
     for name, stage in stages:
         stats = stage()

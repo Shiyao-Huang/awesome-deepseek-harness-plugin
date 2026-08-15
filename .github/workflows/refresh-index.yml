@@ -37,6 +37,7 @@ jobs:
         run: |
           stamp="$(date -u +%Y%m%dT%H%M%SZ)"
           python3 scripts/collect.py update --trigger scheduled --raw-output "data/raw/api/${stamp}.json"
+          python3 scripts/build_value_matrix.py
           python3 scripts/build_index.py
           python3 scripts/build_views.py
           python3 scripts/validate.py

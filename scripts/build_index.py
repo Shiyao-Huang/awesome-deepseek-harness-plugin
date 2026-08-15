@@ -78,10 +78,12 @@ def build_records(connection: sqlite3.Connection, dataset_version: str) -> list[
     rows = connection.execute(
         """
         SELECT m.*, i.raw_json, i.content_text, i.relevance,
+               v.value_score, v.value_band, v.confidence_score, v.risk_flags,
                i.first_seen_at AS item_first_seen_at,
                i.last_seen_at AS item_last_seen_at
         FROM v_latest_metrics AS m
         JOIN items AS i ON i.id = m.item_id
+        LEFT JOIN v_current_value_matrix AS v ON v.item_id = m.item_id
         """
     ).fetchall()
     media_by_item: dict[int, list[str]] = {}
@@ -124,6 +126,12 @@ def build_records(connection: sqlite3.Connection, dataset_version: str) -> list[
             "relevance": row["relevance"],
             "language": raw.get("language"),
             "content": row["content_text"],
+            "value_matrix": {
+                "score": row["value_score"],
+                "band": row["value_band"],
+                "confidence": row["confidence_score"],
+                "risk_flags": json.loads(row["risk_flags"]) if row["risk_flags"] else [],
+            },
         }
         records.append({
             "id": f"id-{row['item_id']}",
