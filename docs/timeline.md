@@ -5,6 +5,12 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 2026-08-15T16:40:58Z | github | ecosystem-reference | [dsh-homepage-skin](https://github.com/yushi-xxh/dsh-homepage-skin) | yushi-xxh | ui-and-desktop |
+| 2026-08-15T16:40:58Z | github | plugin | [dsh-monitor](https://github.com/AbnerAI/dsh-monitor) | AbnerAI | core-and-ecosystem |
+| 2026-08-15 | github | plugin | [dsh-plugin-grok2api-media-tool](https://github.com/lsjspl/dsh-plugin-grok2api-media-tool) | lsjspl | core-and-ecosystem |
+| 2026-08-15 | github | plugin | [dsh-token-pet](https://github.com/pk7j7sqryy-ops/dsh-token-pet) | pk7j7sqryy-ops | operations-and-safety |
+| 2026-08-15 | github | plugin | [dsh-usage-billing](https://github.com/940842546/dsh-usage-billing) | 940842546 | operations-and-safety |
+| 2026-08-15T16:28:27Z | hacker_news | story | [DeepSeek Harness Desktop Version](https://news.ycombinator.com/item?id=49311914) | mehraban | ui-and-desktop |
 | 2026-08-15 | github | plugin | [dsh-plugin-net-access](https://github.com/Gumiho12345/dsh-plugin-net-access) | Gumiho12345 | core-and-ecosystem |
 | 2026-08-15 | github | plugin | [dsh-plugin-writing-guard](https://github.com/xmutfyh/dsh-plugin-writing-guard) | xmutfyh | core-and-ecosystem |
 | 2026-08-15 | github | plugin | [dsh-trajectory-reader](https://github.com/flyingtimes/dsh-trajectory-reader) | flyingtimes | core-and-ecosystem |
@@ -540,7 +546,7 @@
 | 2026-08-13T16:10:10Z | github | repository | [yanglongyun/dsh-ramify](https://github.com/yanglongyun/dsh-ramify) | yanglongyun | core-and-ecosystem |
 | 2026-08-13T16:08:24Z | github | repository | [gxinxing/deepseek-harness-tui](https://github.com/gxinxing/deepseek-harness-tui) | gxinxing | ui-and-desktop |
 | 2026-08-13T16:03:18.000Z | x | post | [Max For AI @MaxForAI · Aug 14 鉴于V4-Pro-0813和DeepSeek Harness的表现，我宣布梁文锋评价下调为梁子。 144 56 1.7K 235K](https://x.com/MaxForAI/status/2087933020431139080) | Max For AI | core-and-ecosystem |
-| 2026-08-13T16:01:59Z | github | repository | [bradeGithub/DSH-Plugins-Marketplace](https://github.com/bradeGithub/DSH-Plugins-Marketplace) | bradeGithub | index-and-marketplace |
+| 2026-08-13T16:01:59Z | github | repository | [DSH-Plugins-Marketplace](https://github.com/bradeGithub/DSH-Plugins-Marketplace) | bradeGithub | index-and-marketplace |
 | 2026-08-13T16:00:16Z | github | repository | [dshdesktop](https://github.com/myYangyunfan/dsh_desktop) | myYangyunfan | ui-and-desktop |
 | 2026-08-13T15:58:15Z | github | repository | [HarcoChen/dsh-vsc-integration](https://github.com/HarcoChen/dsh-vsc-integration) | HarcoChen | core-and-ecosystem |
 | 2026-08-13T15:55:39Z | github | repository | [LiangYin233/dsh-provider-model-configurator](https://github.com/LiangYin233/dsh-provider-model-configurator) | LiangYin233 | core-and-ecosystem |
@@ -678,7 +684,7 @@
 | 2026-08-13 | github | repository | [dsh-annotation](https://github.com/omdsh-dev/dsh-annotation) | omdsh-dev | core-and-ecosystem |
 | 2026-08-13 | github | repository | [dsh-task-status](https://github.com/vlln/dsh-task-status) | vlln | core-and-ecosystem |
 | 2026-08-13 | github | repository | [dsh-navbar](https://github.com/vlln/dsh-navbar) | vlln | core-and-ecosystem |
-| 2026-08-13 | github | repository | [vlln/whale-girl](https://github.com/vlln/whale-girl) | vlln | index-and-marketplace |
+| 2026-08-13 | github | repository | [vlln/whale-girl](https://github.com/vlln/whale-girl) | vlln | core-and-ecosystem |
 | 2026-08-10T13:53:27Z | github | repository | [HuanLinOTO/dsh-plugin-anti-ads](https://github.com/HuanLinOTO/dsh-plugin-anti-ads) | HuanLinOTO | core-and-ecosystem |
 | 2026-08-10T13:26:19Z | hacker_news | story | [Show HN: 100% native Swift harness (NOT Electron)](https://news.ycombinator.com/item?id=49243358) | ljlolel | ui-and-desktop |
 | 2026-08-13 | github | repository | [dsh-plugin-d399](https://github.com/HuanLinOTO/dsh-plugin-d399) | HuanLinOTO | core-and-ecosystem |
@@ -775,8 +781,10 @@
 | 2026-06-26T14:28:17.579000+0000 | reddit | post | [Harness and tools for deepseek](https://www.reddit.com/r/DeepSeek/comments/1ug8ecg/harness_and_tools_for_deepseek) | AccordingAd6520 | index-and-marketplace |
 | 2026-06-25T22:56:27Z | hacker_news | story | [Show HN: DeepSeek Flash inverted the economics of agent products](https://news.ycombinator.com/item?id=48680260) | arjunchint | multimedia-and-vision |
 | 2026-06-25T09:29:20Z | github | repository | [zhoushoujianwork/easyeda-agent](https://github.com/zhoushoujianwork/easyeda-agent) | zhoushoujianwork | core-and-ecosystem |
+| 2026-06-24T10:22:37Z | hacker_news | story | [Ask HN: How to avoid LLMs struggling with Lisp parens?](https://news.ycombinator.com/item?id=48657691) | chriswarbo | core-and-ecosystem |
 | 2026-06-23T05:41:53Z | github | repository | [huawolf/news-agent](https://github.com/huawolf/news-agent) | huawolf | core-and-ecosystem |
 | 2026-06-21T15:28:35Z | github | repository | [humblebanana/open-record-replay](https://github.com/humblebanana/open-record-replay) | humblebanana | ui-and-desktop |
+| 2026-06-20T17:27:16Z | github | repository | [EthanYoQ/AI-Novel-Writer](https://github.com/EthanYoQ/AI-Novel-Writer) | EthanYoQ | core-and-ecosystem |
 | 2026-06-18T12:13:28Z | github | repository | [nutshellai-tech/mobius](https://github.com/nutshellai-tech/mobius) | nutshellai-tech | core-and-ecosystem |
 | 2026-08-14 | github | repository | [skills](https://github.com/creght-dev/skills) | creght-dev | core-and-ecosystem |
 | 2026-06-14T13:08:43Z | github | repository | [834063245-creator/HoloGram](https://github.com/834063245-creator/HoloGram) | 834063245-creator | core-and-ecosystem |
@@ -785,7 +793,7 @@
 | 2026-06-10T11:54:21Z | github | repository | [ali-meoo/meoo-cli](https://github.com/ali-meoo/meoo-cli) | ali-meoo | core-and-ecosystem |
 | 2026-06-09T13:40:47Z | github | repository | [huiliyi37/Tianshu-Tui](https://github.com/huiliyi37/Tianshu-Tui) | huiliyi37 | ui-and-desktop |
 | 2026-06-07T23:59:26.616000+0000 | reddit | post | [Harness Question with v4 Pro](https://www.reddit.com/r/DeepSeek/comments/1tzs3mz/harness_question_with_v4_pro) | avidianity | operations-and-safety |
-| 2026-08-14 | github | repository | [Jayden-X-L/forkprobe](https://github.com/Jayden-X-L/forkprobe) | Jayden-X-L | core-and-ecosystem |
+| 2026-08-14 | github | repository | [forkprobe](https://github.com/Jayden-X-L/forkprobe) | Jayden-X-L | core-and-ecosystem |
 | 2026-06-03T13:02:53Z | hacker_news | story | [Show HN: Aura, an LLM coding harness that dogfooded itself](https://news.ycombinator.com/item?id=48383456) | ConfusedData89 | ui-and-desktop |
 | 2026-05-29T17:38:22Z | hacker_news | story | [Show HN: Train Claude Code&#x27;s replacement (ds4 and pi and aoe)](https://news.ycombinator.com/item?id=48326539) | river_otter | core-and-ecosystem |
 | 2026-05-29T17:25:11Z | github | repository | [zhnt/loushang](https://github.com/zhnt/loushang) | zhnt | agents-and-orchestration |
@@ -887,6 +895,7 @@
 | 2026-01-21T20:26:04Z | github | repository | [superdesigndev/superdesign-skill](https://github.com/superdesigndev/superdesign-skill) | superdesigndev | core-and-ecosystem |
 | 2026-01-19T14:06:37Z | github | repository | [isomoes/ikanban](https://github.com/isomoes/ikanban) | isomoes | agents-and-orchestration |
 | 2026-01-15T18:45:08Z | github | repository | [alvinunreal/oh-my-opencode-slim](https://github.com/alvinunreal/oh-my-opencode-slim) | alvinunreal | core-and-ecosystem |
+| 2026-01-14T01:14:04Z | github | repository | [Q00/ouroboros](https://github.com/Q00/ouroboros) | Q00 | core-and-ecosystem |
 | 2026-01-05T09:43:36Z | github | repository | [1jehuang/jcode](https://github.com/1jehuang/jcode) | 1jehuang | core-and-ecosystem |
 | 2026-01-03T07:37:28Z | github | repository | [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | OthmanAdi | index-and-marketplace |
 | 2025-12-31T14:01:28Z | github | repository | [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) | can1357 | agents-and-orchestration |
@@ -939,6 +948,7 @@
 | 2022-12-16T16:11:03Z | hacker_news | story | [Ask HN: Is there a great DAG framework for Python to write a synth-patch GUI?](https://news.ycombinator.com/item?id=34016201) | diydsp | core-and-ecosystem |
 | 2022-10-10T01:03:21Z | hacker_news | story | [Ask HN: Is there a way for github.com to send me to my repos instead of my dash?](https://news.ycombinator.com/item?id=33146789) | aliqot | index-and-marketplace |
 | 2022-08-05T12:16:27Z | hacker_news | story | [Show HN: Genie Builder, no-code UI plugin for building data apps](https://news.ycombinator.com/item?id=32355012) | essenciary | core-and-ecosystem |
+| 2021-09-06T09:20:27Z | github | repository | [YaoApp/yao](https://github.com/YaoApp/yao) | YaoApp | ui-and-desktop |
 | 2021-02-23T22:41:06Z | hacker_news | story | [Getting Started with Jenkins Job DSL Plugin for Standardising Your Pipelines](https://news.ycombinator.com/item?id=26243958) | todsacerdoti | core-and-ecosystem |
 | 2020-10-26T00:26:04Z | hacker_news | story | [Ask HN: What is a good source to master Gradle?](https://news.ycombinator.com/item?id=24891501) | watermelon59 | docs-and-learning |
 | 2020-07-22T09:37:24Z | hacker_news | story | [Plugin for Figma: Toolabs Design System Manager](https://news.ycombinator.com/item?id=23915360) | applinist | core-and-ecosystem |
