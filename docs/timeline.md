@@ -582,12 +582,12 @@
 | 2026-08-14 | github | repository | [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | ccch1mneyyy | ui-and-desktop |
 | 2026-08-13 | github | repository | [dsh-acp-for-bitfun](https://github.com/bobleer/dsh-acp-for-bitfun) | bobleer | core-and-ecosystem |
 | 2026-08-13T12:39:30Z | bilibili | video | [deepseek harness 简单介绍](https://www.bilibili.com/video/BV1WTgp6AERb) | 酥悠沫 | core-and-ecosystem |
-| 2026-08-13 | github | repository | [Anionex/dsh-turn-rewind](https://github.com/Anionex/dsh-turn-rewind) | Anionex | core-and-ecosystem |
+| 2026-08-13 | github | repository | [dsh-turn-rewind](https://github.com/Anionex/dsh-turn-rewind) | Anionex | core-and-ecosystem |
 | 2026-08-13 | github | repository | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | Anionex | ui-and-desktop |
 | 2026-08-13T12:22:53Z | github | repository | [huiliyi37/dsh-tianshu-build](https://github.com/huiliyi37/dsh-tianshu-build) | huiliyi37 | core-and-ecosystem |
 | 2026-08-14 | github | repository | [dsh-interconnect](https://github.com/Chinesezjc/dsh-interconnect) | Chinesezjc | core-and-ecosystem |
 | 2026-08-13T12:16:50Z | github | repository | [hikariming/dshfind](https://github.com/hikariming/dshfind) | hikariming | index-and-marketplace |
-| 2026-08-13 | github | repository | [omdsh-dev/dsh-at-file](https://github.com/omdsh-dev/dsh-at-file) | omdsh-dev | core-and-ecosystem |
+| 2026-08-13 | github | repository | [dsh-at-file](https://github.com/omdsh-dev/dsh-at-file) | omdsh-dev | core-and-ecosystem |
 | 2026-08-13 | github | repository | [dsh-custom-tool](https://github.com/omdsh-dev/dsh-custom-tool) | omdsh-dev | operations-and-safety |
 | 2026-08-13 | github | repository | [dsh-open-in-vscode](https://github.com/omdsh-dev/dsh-open-in-vscode) | omdsh-dev | ui-and-desktop |
 | 2026-08-13 | github | repository | [dsh-notification](https://github.com/omdsh-dev/dsh-notification) | omdsh-dev | ui-and-desktop |
@@ -631,7 +631,7 @@
 | 2026-08-13 | github | repository | [plugin-template](https://github.com/omdsh-dev/plugin-template) | omdsh-dev | core-and-ecosystem |
 | 2026-08-13 | github | repository | [deepseek-manners](https://github.com/Moeblack/deepseek-manners) | Moeblack | core-and-ecosystem |
 | 2026-08-11T06:26:39Z | github | repository | [dsh-plugin-skills](https://github.com/omdsh-dev/dsh-plugin-skills) | omdsh-dev | core-and-ecosystem |
-| 2026-08-14 | github | repository | [hust-open-atom-club/oh-dsh](https://github.com/hust-open-atom-club/oh-dsh) | hust-open-atom-club | ui-and-desktop |
+| 2026-08-14 | github | repository | [oh-dsh](https://github.com/hust-open-atom-club/oh-dsh) | hust-open-atom-club | ui-and-desktop |
 | 2026-08-11T02:16:59Z | github | repository | [dsh-harness-ops](https://github.com/fakechris/dsh-harness-ops) | fakechris | core-and-ecosystem |
 | 2026-08-13 | github | repository | [dsh-focus-chat](https://github.com/dingyi222666/dsh-focus-chat) | dingyi222666 | core-and-ecosystem |
 | 2026-08-13 | github | repository | [dsh-annotation](https://github.com/omdsh-dev/dsh-annotation) | omdsh-dev | core-and-ecosystem |
@@ -702,20 +702,24 @@
 | 2026-07-31T15:13:16Z | hacker_news | story | [https://news.ycombinator.com/item?id=49124166](https://news.ycombinator.com/item?id=49124166) | bwfan123 | core-and-ecosystem |
 | 2026-07-31T12:32:05Z | github | repository | [Lyn-77/ProMentor](https://github.com/Lyn-77/ProMentor) | Lyn-77 | core-and-ecosystem |
 | 2026-07-31T08:57:36Z | hacker_news | story | [https://news.ycombinator.com/item?id=49120684](https://news.ycombinator.com/item?id=49120684) | throwaw12 | core-and-ecosystem |
+| 2026-07-29T02:08:38Z | hacker_news | story | [Show HN: MegaDSP an effects plugin for DAWs with 50 effects](https://news.ycombinator.com/item?id=49092648) | locusofself | index-and-marketplace |
 | 2026-07-28T05:45:33Z | github | repository | [cofy-x/axern](https://github.com/cofy-x/axern) | cofy-x | operations-and-safety |
 | 2026-07-27T02:45:03Z | github | repository | [MaimoryLab/BootAgent](https://github.com/MaimoryLab/BootAgent) | MaimoryLab | ui-and-desktop |
 | 2026-07-25T12:13:33Z | github | repository | [morluto/flameox](https://github.com/morluto/flameox) | morluto | core-and-ecosystem |
 | 2026-07-23T09:35:08Z | github | repository | [ccch1mneyyy/working-activity](https://github.com/ccch1mneyyy/working-activity) | ccch1mneyyy | core-and-ecosystem |
 | 2026-07-23T09:08:45Z | github | repository | [morluto/jacobian](https://github.com/morluto/jacobian) | morluto | core-and-ecosystem |
 | 2026-07-22T17:28:39Z | hacker_news | story | [Grok is a surprisingly good automated theorem prover](https://news.ycombinator.com/item?id=49010310) | henryrobbins00 | index-and-marketplace |
+| 2026-07-22T16:30:13Z | hacker_news | story | [Show HN: Codify – Terraform for Developer Environments](https://news.ycombinator.com/item?id=49009414) | kevinwang5658 | index-and-marketplace |
 | 2026-07-21T14:01:02Z | hacker_news | story | [Show HN: Aeon.WorX – A generic object lifecycle management system (like PLM/PDM)](https://news.ycombinator.com/item?id=48992492) | xeonax | index-and-marketplace |
 | 2026-07-20T10:00:23.495000+0000 | reddit | post | [Best harness for DeepSeek V4?](https://www.reddit.com/r/DeepSeek/comments/1v1h58u/best_harness_for_deepseek_v4) | spicyfiremelon | core-and-ecosystem |
 | 2026-07-19T09:43:37Z | github | repository | [N0zoM1z0/vocaloid-mcp](https://github.com/N0zoM1z0/vocaloid-mcp) | N0zoM1z0 | core-and-ecosystem |
 | 2026-08-14 | github | repository | [argo](https://github.com/taxueseek/argo) | taxueseek | core-and-ecosystem |
 | 2026-07-18T04:05:26Z | github | repository | [shuguang1994/project-blueprint](https://github.com/shuguang1994/project-blueprint) | shuguang1994 | core-and-ecosystem |
+| 2026-07-15T13:38:07Z | github | repository | [superdesigndev/treg](https://github.com/superdesigndev/treg) | superdesigndev | core-and-ecosystem |
 | 2026-07-15T03:32:13Z | github | repository | [morluto/leantoken](https://github.com/morluto/leantoken) | morluto | operations-and-safety |
 | 2026-07-13T22:19:31Z | hacker_news | story | [Ask HN: AI Agent and harness containerization/security recommendations](https://news.ycombinator.com/item?id=48899674) | dv35z | ui-and-desktop |
 | 2026-07-13T16:03:14Z | hacker_news | story | [Show HN: Containerized AI development with cross-compatibility](https://news.ycombinator.com/item?id=48894720) | daitangio | operations-and-safety |
+| 2026-07-12T18:28:15Z | hacker_news | story | [Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE](https://news.ycombinator.com/item?id=48883305) | julesrms | index-and-marketplace |
 | 2026-07-11T08:48:07Z | github | repository | [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness) | sandbaseai | operations-and-safety |
 | 2026-07-09T13:29:32.884000+0000 | reddit | post | [What harness do you guys use for DeepSeek?](https://www.reddit.com/r/DeepSeek/comments/1urqcm3/what_harness_do_you_guys_use_for_deepseek) | Prestigious_Sky_9829 | operations-and-safety |
 | 2026-07-08T09:00:56Z | github | repository | [adongwanai/learn-workbuddy](https://github.com/adongwanai/learn-workbuddy) | adongwanai | core-and-ecosystem |
@@ -742,6 +746,7 @@
 | 2026-06-03T13:02:53Z | hacker_news | story | [Show HN: Aura, an LLM coding harness that dogfooded itself](https://news.ycombinator.com/item?id=48383456) | ConfusedData89 | ui-and-desktop |
 | 2026-05-29T17:38:22Z | hacker_news | story | [Show HN: Train Claude Code&#x27;s replacement (ds4 and pi and aoe)](https://news.ycombinator.com/item?id=48326539) | river_otter | core-and-ecosystem |
 | 2026-05-29T17:25:11Z | github | repository | [zhnt/loushang](https://github.com/zhnt/loushang) | zhnt | agents-and-orchestration |
+| 2026-05-27T16:41:36Z | hacker_news | story | [Show HN: Hm – a task runner with a Python DSL, growing into a CI/CD system](https://news.ycombinator.com/item?id=48296828) | suis_siva | index-and-marketplace |
 | 2026-05-25T03:24:24Z | github | repository | [text2future/flowix](https://github.com/text2future/flowix) | text2future | core-and-ecosystem |
 | 2026-05-22T06:50:28Z | github | repository | [OpenBMB/PilotDeck](https://github.com/OpenBMB/PilotDeck) | OpenBMB | core-and-ecosystem |
 | 2026-05-21T11:51:52Z | github | repository | [xiincs/claude-code-vision-skill](https://github.com/xiincs/claude-code-vision-skill) | xiincs | multimedia-and-vision |
@@ -750,6 +755,7 @@
 | 10:17 AM · May 21, 2026 | x | post | [Yicai 第一财经 @yicaichina DeepSeek is reportedly forming a new Harness team focused on code-based AI agent products targeting Anthropic’s Claud](https://x.com/yicaichina/status/2057284671948349545) |  | core-and-ecosystem |
 | 2026-05-21T02:04:35Z | hacker_news | story | [Building DeepSeek&#x27;s Answer to Claude Code](https://news.ycombinator.com/item?id=48216937) | dlcmh | core-and-ecosystem |
 | 2026-05-20T04:31:50Z | hacker_news | story | [Show HN: GoPOSIX – a Go-native POSIX userland, ~97% BusyBox-compatible](https://news.ycombinator.com/item?id=48203114) | ramayac | index-and-marketplace |
+| 2026-05-19T23:39:43Z | hacker_news | story | [Show HN: Alint, a fast linter for repository structure and hygiene](https://news.ycombinator.com/item?id=48201140) | aleqs | index-and-marketplace |
 | 2026-05-18T06:00:24Z | hacker_news | story | [Ask HN: Which AI harness comes close to Claude Code?](https://news.ycombinator.com/item?id=48176033) | shivang2607 | core-and-ecosystem |
 | 2026-05-11T11:07:04Z | github | repository | [morlay/deepseek-harness](https://github.com/morlay/deepseek-harness) | morlay | index-and-marketplace |
 | 2026-05-10T06:59:59Z | github | repository | [zoyluoblue/mc_aiplayer](https://github.com/zoyluoblue/mc_aiplayer) | zoyluoblue | core-and-ecosystem |
@@ -763,6 +769,7 @@
 | 2026-05-04T22:18:51Z | github | repository | [WenyuChiou/awesome-agentic-ai-zh](https://github.com/WenyuChiou/awesome-agentic-ai-zh) | WenyuChiou | index-and-marketplace |
 | 2026-05-04T16:03:21Z | github | repository | [firstintent/ccteam](https://github.com/firstintent/ccteam) | firstintent | core-and-ecosystem |
 | 2026-05-02T07:51:35Z | github | repository | [crafter-station/petdex](https://github.com/crafter-station/petdex) | crafter-station | core-and-ecosystem |
+| 2026-05-01T11:26:20Z | hacker_news | story | [Show HN: BetterClaw – Compile a paragraph into a workflow that gates agent tools](https://news.ycombinator.com/item?id=47973502) | infamous-oven | index-and-marketplace |
 | 2026-04-30T17:40:49Z | github | repository | [GanyuanRan/Aegis](https://github.com/GanyuanRan/Aegis) | GanyuanRan | docs-and-learning |
 | 2026-04-30T12:36:33Z | github | repository | [dqsjqian/Aria](https://github.com/dqsjqian/Aria) | dqsjqian | core-and-ecosystem |
 | 2026-04-28T04:25:20Z | github | repository | [nexu-io/open-design](https://github.com/nexu-io/open-design) | nexu-io | ui-and-desktop |
@@ -779,6 +786,7 @@
 | 2026-04-03T14:09:27Z | github | repository | [yejiming/MuseAI](https://github.com/yejiming/MuseAI) | yejiming | core-and-ecosystem |
 | 2026-04-01T15:37:13Z | github | repository | [HKUDS/OpenHarness](https://github.com/HKUDS/OpenHarness) | HKUDS | core-and-ecosystem |
 | 2026-04-01T09:52:20Z | github | repository | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | HKUDS | core-and-ecosystem |
+| 2026-03-31T18:26:14Z | hacker_news | story | [Show HN: Domscribe – Deterministic DOM-to-source mapping for AI coding agents](https://news.ycombinator.com/item?id=47591487) | NarratorTD | index-and-marketplace |
 | 2026-03-30T05:22:23Z | github | repository | [titanwings/colleague-skill](https://github.com/titanwings/colleague-skill) | titanwings | core-and-ecosystem |
 | 2026-03-29T15:39:49Z | github | repository | [ai-boost/awesome-harness-engineering](https://github.com/ai-boost/awesome-harness-engineering) | ai-boost | index-and-marketplace |
 | 2026-03-26T11:40:33Z | github | repository | [hyhmrright/brooks-lint](https://github.com/hyhmrright/brooks-lint) | hyhmrright | docs-and-learning |
@@ -798,22 +806,29 @@
 | 2026-03-07T13:46:10Z | github | repository | [whiteguo233/OpenBiliClaw](https://github.com/whiteguo233/OpenBiliClaw) | whiteguo233 | core-and-ecosystem |
 | 2026-08-14 | github | repository | [mstar-harness](https://github.com/btspoony/mstar-harness) | btspoony | core-and-ecosystem |
 | 2026-03-06T10:44:15Z | github | repository | [AtlasCloudAI/mcp-server](https://github.com/AtlasCloudAI/mcp-server) | AtlasCloudAI | multimedia-and-vision |
+| 2026-03-03T16:11:42Z | hacker_news | story | [Show HN: Demucs music stem separator rewritten in Rust – runs in the browser](https://news.ycombinator.com/item?id=47234566) | nikhilunni | index-and-marketplace |
 | 2026-02-26T06:31:01Z | github | repository | [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | Imbad0202 | core-and-ecosystem |
 | 2026-02-25T07:32:52Z | github | repository | [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) | rohitg00 | core-and-ecosystem |
 | 2026-02-25T05:53:42Z | github | repository | [gusibi/molibot](https://github.com/gusibi/molibot) | gusibi | core-and-ecosystem |
 | 2026-02-24T21:20:32Z | github | repository | [JingbiaoMei/Tokdash](https://github.com/JingbiaoMei/Tokdash) | JingbiaoMei | operations-and-safety |
+| 2026-02-23T07:14:50Z | hacker_news | story | [Show HN: Tagless final DSL for deterministic TypeScript programs](https://news.ycombinator.com/item?id=47119083) | mikesol | core-and-ecosystem |
 | 2026-02-22T13:51:44Z | github | repository | [foryourhealth111-pixel/Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) | foryourhealth111-pixel | core-and-ecosystem |
 | 2026-08-14 | github | repository | [liustack/modsearch](https://github.com/liustack/modsearch) | liustack | core-and-ecosystem |
 | 2026-08-14 | github | repository | [liustack/modlens](https://github.com/liustack/modlens) | liustack | multimedia-and-vision |
 | 2026-02-20T02:26:17Z | github | repository | [mnemon-dev/mnemon](https://github.com/mnemon-dev/mnemon) | mnemon-dev | core-and-ecosystem |
+| 2026-02-15T14:46:31Z | hacker_news | story | [Show HN: Typemux-cc – .venv-aware Python LSP proxy for Claude Code (no restarts)](https://news.ycombinator.com/item?id=47024098) | K-dash | index-and-marketplace |
 | 2026-02-13T12:38:31Z | github | repository | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | diegosouzapw | ui-and-desktop |
+| 2026-02-11T13:45:46Z | hacker_news | story | [Show HN: I extract recipes from TikTok, Instagram, and the messy web](https://news.ycombinator.com/item?id=46974890) | sklaiber | multimedia-and-vision |
+| 2026-02-11T13:38:38Z | hacker_news | story | [Show HN: I extract recipes from TikTok, Instagram, and the messy web](https://news.ycombinator.com/item?id=46974801) | sklaiber | multimedia-and-vision |
 | 2026-02-10T09:15:25Z | github | repository | [alaliqing/claude-paper](https://github.com/alaliqing/claude-paper) | alaliqing | docs-and-learning |
 | 2026-02-10T05:47:00Z | github | repository | [yogsoth-ai/de-anthropocentric-research-engine](https://github.com/yogsoth-ai/de-anthropocentric-research-engine) | yogsoth-ai | agents-and-orchestration |
 | 2026-02-10T03:53:07Z | hacker_news | story | [Show HN: Kore – Stack based language where compiler is the reward function](https://news.ycombinator.com/item?id=46955143) | processorx | operations-and-safety |
 | 2026-02-05T10:51:17Z | github | repository | [mergisi/awesome-openclaw-agents](https://github.com/mergisi/awesome-openclaw-agents) | mergisi | index-and-marketplace |
 | 2026-02-05T07:48:16Z | github | repository | [labring/sealos-skills](https://github.com/labring/sealos-skills) | labring | multimedia-and-vision |
+| 2026-02-02T18:10:31Z | github | repository | [Minara-AI/minara-skills](https://github.com/Minara-AI/minara-skills) | Minara-AI | core-and-ecosystem |
 | 2026-02-01T13:53:31Z | github | repository | [yuukiLike/zeromd](https://github.com/yuukiLike/zeromd) | yuukiLike | index-and-marketplace |
 | 2026-01-31T08:15:39Z | github | repository | [Leslie-SSS/seeWxapkg](https://github.com/Leslie-SSS/seeWxapkg) | Leslie-SSS | core-and-ecosystem |
+| 2026-01-21T20:26:04Z | github | repository | [superdesigndev/superdesign-skill](https://github.com/superdesigndev/superdesign-skill) | superdesigndev | core-and-ecosystem |
 | 2026-01-19T14:06:37Z | github | repository | [isomoes/ikanban](https://github.com/isomoes/ikanban) | isomoes | agents-and-orchestration |
 | 2026-01-15T18:45:08Z | github | repository | [alvinunreal/oh-my-opencode-slim](https://github.com/alvinunreal/oh-my-opencode-slim) | alvinunreal | core-and-ecosystem |
 | 2026-01-05T09:43:36Z | github | repository | [1jehuang/jcode](https://github.com/1jehuang/jcode) | 1jehuang | core-and-ecosystem |
@@ -821,34 +836,67 @@
 | 2025-12-31T14:01:28Z | github | repository | [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) | can1357 | agents-and-orchestration |
 | 2025-12-30T12:09:25Z | github | repository | [urzeye/ophel](https://github.com/urzeye/ophel) | urzeye | core-and-ecosystem |
 | 2025-12-10T06:54:33Z | github | repository | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | hugohe3 | core-and-ecosystem |
+| 2025-12-09T16:17:52Z | hacker_news | story | [Show HN: AutEng Docs – Google Docs x Gist x LLM chat](https://news.ycombinator.com/item?id=46206709) | llabs | index-and-marketplace |
 | 2025-12-05T17:58:26Z | github | repository | [YishenTu/claudian](https://github.com/YishenTu/claudian) | YishenTu | core-and-ecosystem |
 | 2025-12-01T13:15:27Z | github | repository | [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale) | junhoyeo | operations-and-safety |
+| 2025-11-19T11:59:32Z | hacker_news | story | [Show HN: Q⊗DASH – Rust/Python quantum operator framework for graph-based QC](https://news.ycombinator.com/item?id=45978524) | dioniceOS | index-and-marketplace |
+| 2025-11-04T17:03:48Z | hacker_news | story | [Show HN: Tangent – Open‑source stream processor with native‑speed WASM plugins](https://news.ycombinator.com/item?id=45813256) | PublicEnemy111 | index-and-marketplace |
 | 2025-10-31T14:15:28Z | github | repository | [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | shanraisshan | core-and-ecosystem |
 | 2025-10-24T11:08:44Z | github | repository | [lemony-ai/cascadeflow](https://github.com/lemony-ai/cascadeflow) | lemony-ai | core-and-ecosystem |
+| 2025-10-07T05:30:56Z | hacker_news | story | [Show HN: My first finished audio plugin. Minimal Bloat, Under 1000 LOC](https://news.ycombinator.com/item?id=45499664) | not_woowoo | index-and-marketplace |
 | 2025-09-26T14:32:01Z | github | repository | [hellowind777/helloagents](https://github.com/hellowind777/helloagents) | hellowind777 | core-and-ecosystem |
+| 2025-09-23T13:27:02Z | hacker_news | story | [Show HN: Enhance – a work in progress TUI for GitHub Actions](https://news.ycombinator.com/item?id=45346710) | dlvhdr | index-and-marketplace |
 | 2025-09-22T00:01:14Z | github | repository | [awesome-opencode/awesome-opencode](https://github.com/awesome-opencode/awesome-opencode) | awesome-opencode | index-and-marketplace |
 | 2025-08-25T03:57:40Z | github | repository | [Devin-AXIS/iPolloWork](https://github.com/Devin-AXIS/iPolloWork) | Devin-AXIS | multimedia-and-vision |
 | 2025-06-29T15:34:15Z | github | repository | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | shareAI-lab | core-and-ecosystem |
+| 2025-06-20T20:02:18Z | hacker_news | story | [Show HN: TONE3000 – Community for Neural Amp Modeling with 90k+ models trained](https://news.ycombinator.com/item?id=44331497) | woodybury | index-and-marketplace |
 | 2025-06-20T05:25:56Z | github | repository | [kuangre123/iosdev](https://github.com/kuangre123/iosdev) | kuangre123 | core-and-ecosystem |
+| 2025-05-20T16:35:20Z | hacker_news | story | [Show HN: Rocketship – Open-source E2E testing that&#x27;s self-hostable](https://news.ycombinator.com/item?id=44043446) | magius18 | agents-and-orchestration |
 | 2025-05-14T05:23:02Z | github | repository | [HKUDS/DeepCode](https://github.com/HKUDS/DeepCode) | HKUDS | agents-and-orchestration |
 | 2025-05-07T02:50:19Z | github | repository | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | bytedance | agents-and-orchestration |
+| 2025-04-27T10:49:37Z | hacker_news | story | [Show HN: Plan-linter – pre-flight safety checker for AI agent plans](https://news.ycombinator.com/item?id=43810936) | mercurialsolo | index-and-marketplace |
 | 2025-03-28T04:27:09Z | github | repository | [SepineTam/mcp-for-stata](https://github.com/SepineTam/mcp-for-stata) | SepineTam | core-and-ecosystem |
 | 2025-02-13T05:47:46Z | github | repository | [liyupi/ai-guide](https://github.com/liyupi/ai-guide) | liyupi | docs-and-learning |
 | 2025-01-11T10:11:05Z | github | repository | [punkpeye/awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients) | punkpeye | index-and-marketplace |
+| 2024-11-22T13:20:25Z | hacker_news | story | [Show HN: Growflyer – Automate Your Business Marketing in Minutes](https://news.ycombinator.com/item?id=42213615) | kaizarbharmal | core-and-ecosystem |
+| 2024-08-29T15:49:16Z | hacker_news | story | [Show HN: Native SQL, type-safe, in-lined. Pick three](https://news.ycombinator.com/item?id=41392080) | owlstuffing | index-and-marketplace |
 | 2024-05-24T01:56:26Z | github | repository | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | CherryHQ | core-and-ecosystem |
+| 2024-05-21T11:58:44Z | hacker_news | story | [How to solve the problem of focusing while studying (The Definitive Solutioon)](https://news.ycombinator.com/item?id=40427179) | filinta | core-and-ecosystem |
+| 2024-05-08T15:19:40Z | hacker_news | story | [Show HN: I made a better Perplexity for developers](https://news.ycombinator.com/item?id=40299091) | jiayuanzhang | index-and-marketplace |
+| 2024-05-07T16:46:18Z | hacker_news | story | [Show HN: Devv – AI search engine for devs, built on a custom search index](https://news.ycombinator.com/item?id=40288111) | jiayuanzhang | index-and-marketplace |
 | 2024-04-19T03:31:13Z | github | repository | [WangRongsheng/awesome-LLM-resources](https://github.com/WangRongsheng/awesome-LLM-resources) | WangRongsheng | index-and-marketplace |
 | 2024-01-19T15:15:10Z | github | repository | [ai-boost/awesome-prompts](https://github.com/ai-boost/awesome-prompts) | ai-boost | index-and-marketplace |
 | 2023-12-24T22:09:14Z | github | repository | [transformerlab/transformerlab-app](https://github.com/transformerlab/transformerlab-app) | transformerlab | core-and-ecosystem |
+| 2023-08-06T05:34:30Z | hacker_news | story | [What&#x27;s Wrong with Me?](https://news.ycombinator.com/item?id=37019255) | tech_joe | ui-and-desktop |
+| 2023-07-20T17:15:47Z | hacker_news | story | [Show HN: ETscript – An experimental interpreter for Salesforce&#x27;s AMPscript](https://news.ycombinator.com/item?id=36803595) | mgomez | docs-and-learning |
+| 2023-07-10T11:26:12Z | hacker_news | story | [Show HN: ZenStack – open-source toolkit simplifying your Prisma ORM stack](https://news.ycombinator.com/item?id=36664841) | ymc9 | index-and-marketplace |
+| 2023-07-05T11:02:00Z | hacker_news | story | [Show HN: ZenStack-Open source toolkit simplifies your Prisma stack](https://news.ycombinator.com/item?id=36598597) | zenstack | index-and-marketplace |
 | 2023-06-26T19:39:32Z | github | repository | [ollama/ollama](https://github.com/ollama/ollama) | ollama | core-and-ecosystem |
 | 2023-05-19T03:02:29Z | github | repository | [BradyFU/Awesome-Multimodal-Large-Language-Models](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) | BradyFU | index-and-marketplace |
 | 2023-04-02T04:06:56Z | github | repository | [ikaijua/Awesome-AITools](https://github.com/ikaijua/Awesome-AITools) | ikaijua | index-and-marketplace |
 | 2023-02-27T06:01:53Z | github | repository | [GreyDGL/PentestGPT](https://github.com/GreyDGL/PentestGPT) | GreyDGL | core-and-ecosystem |
 | 2023-02-17T14:12:21Z | github | repository | [Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) | Hannibal046 | index-and-marketplace |
 | 2023-02-09T18:22:52Z | github | repository | [promptslab/Awesome-Prompt-Engineering](https://github.com/promptslab/Awesome-Prompt-Engineering) | promptslab | index-and-marketplace |
+| 2022-12-16T16:11:03Z | hacker_news | story | [Ask HN: Is there a great DAG framework for Python to write a synth-patch GUI?](https://news.ycombinator.com/item?id=34016201) | diydsp | core-and-ecosystem |
+| 2022-10-10T01:03:21Z | hacker_news | story | [Ask HN: Is there a way for github.com to send me to my repos instead of my dash?](https://news.ycombinator.com/item?id=33146789) | aliqot | index-and-marketplace |
+| 2022-08-05T12:16:27Z | hacker_news | story | [Show HN: Genie Builder, no-code UI plugin for building data apps](https://news.ycombinator.com/item?id=32355012) | essenciary | core-and-ecosystem |
+| 2021-02-23T22:41:06Z | hacker_news | story | [Getting Started with Jenkins Job DSL Plugin for Standardising Your Pipelines](https://news.ycombinator.com/item?id=26243958) | todsacerdoti | core-and-ecosystem |
+| 2020-10-26T00:26:04Z | hacker_news | story | [Ask HN: What is a good source to master Gradle?](https://news.ycombinator.com/item?id=24891501) | watermelon59 | docs-and-learning |
+| 2020-07-22T09:37:24Z | hacker_news | story | [Plugin for Figma: Toolabs Design System Manager](https://news.ycombinator.com/item?id=23915360) | applinist | core-and-ecosystem |
 | 2018-12-16T15:38:31Z | github | repository | [EvanLi/Github-Ranking](https://github.com/EvanLi/Github-Ranking) | EvanLi | index-and-marketplace |
+| 2018-10-24T16:03:42Z | hacker_news | story | [Show HN: I just released my first commercial audio plugin](https://news.ycombinator.com/item?id=18293619) | wrl | index-and-marketplace |
 | 2018-09-17T07:26:44Z | github | repository | [PicGo/PicGo-Core](https://github.com/PicGo/PicGo-Core) | PicGo | multimedia-and-vision |
 | 2018-08-15T14:28:41Z | github | repository | [EthicalML/awesome-production-machine-learning](https://github.com/EthicalML/awesome-production-machine-learning) | EthicalML | index-and-marketplace |
+| 2018-07-18T16:58:44Z | hacker_news | story | [Launch HN: Optic (YC S18) – Automate Routine Programming](https://news.ycombinator.com/item?id=17560059) | addcn | index-and-marketplace |
 | 2017-03-29T15:34:03Z | github | repository | [nndl/llm-beginner](https://github.com/nndl/llm-beginner) | nndl | core-and-ecosystem |
+| 2016-09-29T15:02:15Z | hacker_news | story | [Programmatic Jenkins jobs using the Job DSL plugin](https://news.ycombinator.com/item?id=12605786) | richid | core-and-ecosystem |
 | 2016-04-27T04:13:03Z | github | repository | [aymericdamien/TopDeepLearning](https://github.com/aymericdamien/TopDeepLearning) | aymericdamien | index-and-marketplace |
+| 2016-04-07T23:56:16Z | hacker_news | story | [Study: Users Really Do Plug in USB Drives They Find [pdf]](https://news.ycombinator.com/item?id=11451637) | dsl | core-and-ecosystem |
+| 2015-11-06T17:06:04Z | hacker_news | story | [A DASH playback plugin to Clappr](https://news.ycombinator.com/item?id=10520477) | pdiaz1887 | core-and-ecosystem |
+| 2015-10-16T16:06:12Z | hacker_news | story | [ResourceD – Toolkit for helping DevOps to write automation tools](https://news.ycombinator.com/item?id=10400212) | didip | core-and-ecosystem |
+| 2015-10-07T16:04:42Z | hacker_news | story | [How to use HEVC/4K Video Streams in HTML5 without Plugins](https://news.ycombinator.com/item?id=10346803) | slederer | multimedia-and-vision |
+| 2015-09-14T22:32:18Z | hacker_news | story | [DSP Programming for VST Instruments and Effects?](https://news.ycombinator.com/item?id=10217950) | ninjakeyboard | multimedia-and-vision |
+| 2015-07-26T12:14:51Z | hacker_news | story | [Jenkins DSL scripting – Part 4 – adding our own library to the DSL plugin](https://news.ycombinator.com/item?id=9950836) | lexandro | core-and-ecosystem |
 | 2015-01-13T23:30:18Z | github | repository | [micro/go-micro](https://github.com/micro/go-micro) | micro | core-and-ecosystem |
 | 2014-07-17T10:45:10Z | github | repository | [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust) | rust-unofficial | index-and-marketplace |
+| 2012-05-02T13:46:03Z | hacker_news | story | [Show HN: Authority: ORM-neutral, OO Rails authorization](https://news.ycombinator.com/item?id=3918988) | billybob | index-and-marketplace |

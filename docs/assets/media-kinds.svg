@@ -5,17 +5,17 @@
 <text x="28" y="82" font-size="14">none</text>
 <rect x="245" y="67" width="620" height="20" rx="10" fill="#e8e2d6"/>
 <rect x="245" y="67" width="620" height="20" rx="10" fill="#ef8354"/>
-<text x="878" y="82" text-anchor="end" font-size="14" font-weight="700">754</text>
+<text x="878" y="82" text-anchor="end" font-size="14" font-weight="700">802</text>
 <text x="28" y="124" font-size="14">link</text>
 <rect x="245" y="109" width="620" height="20" rx="10" fill="#e8e2d6"/>
-<rect x="245" y="109" width="30" height="20" rx="10" fill="#4f6d7a"/>
+<rect x="245" y="109" width="28" height="20" rx="10" fill="#4f6d7a"/>
 <text x="878" y="124" text-anchor="end" font-size="14" font-weight="700">37</text>
 <text x="28" y="166" font-size="14">image</text>
 <rect x="245" y="151" width="620" height="20" rx="10" fill="#e8e2d6"/>
-<rect x="245" y="151" width="29" height="20" rx="10" fill="#5da399"/>
+<rect x="245" y="151" width="27" height="20" rx="10" fill="#5da399"/>
 <text x="878" y="166" text-anchor="end" font-size="14" font-weight="700">36</text>
 <text x="28" y="208" font-size="14">video</text>
 <rect x="245" y="193" width="620" height="20" rx="10" fill="#e8e2d6"/>
-<rect x="245" y="193" width="17" height="20" rx="10" fill="#d4a373"/>
+<rect x="245" y="193" width="16" height="20" rx="10" fill="#d4a373"/>
 <text x="878" y="208" text-anchor="end" font-size="14" font-weight="700">21</text>
 </svg>

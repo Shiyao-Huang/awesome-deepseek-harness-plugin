@@ -2,7 +2,7 @@
 
 > 一个可重复更新的公开资料聚合体：仓库、插件、索引、文章、帖子、图片缩略图和视频链接。原始观测保留在 `data/raw/`，SQLite 是可查询的派生索引。
 
-当前数据集版本：**v20260815T074205Z**，完成时间：**2026-08-15T07:42:05Z**。共 **848** 条去重记录，覆盖 **13** 个平台，外部媒体资产 **613** 条。
+当前数据集版本：**v20260815T075255Z**，完成时间：**2026-08-15T07:52:58Z**。共 **896** 条去重记录，覆盖 **13** 个平台，外部媒体资产 **646** 条。
 
 ## 三句话结论
 
@@ -22,8 +22,8 @@
 
 | 平台 | 去重记录 | 采集方式 |
 | --- | ---: | --- |
-| github | 684 | public REST API |
-| hacker_news | 44 | Algolia public search API |
+| github | 687 | public REST API |
+| hacker_news | 89 | Algolia public search API |
 | x | 43 | ego-browser visible DOM |
 | xiaohongshu | 25 | ego-browser visible DOM |
 | web | 22 | public page metadata |
@@ -40,35 +40,35 @@
 
 | 分类 | 记录 | 带媒体 |
 | --- | ---: | ---: |
-| core-and-ecosystem | 542 | 69 |
-| ui-and-desktop | 96 | 2 |
-| index-and-marketplace | 87 | 16 |
+| core-and-ecosystem | 557 | 69 |
+| index-and-marketplace | 112 | 16 |
+| ui-and-desktop | 97 | 2 |
 | operations-and-safety | 54 | 1 |
-| multimedia-and-vision | 32 | 2 |
-| docs-and-learning | 23 | 4 |
-| agents-and-orchestration | 14 | 0 |
+| multimedia-and-vision | 36 | 2 |
+| docs-and-learning | 25 | 4 |
+| agents-and-orchestration | 15 | 0 |
 
 ## 高互动/高关注记录
 
 | 平台 | 标题 | 作者 | 指标 | 分类 |
 | --- | --- | --- | --- | --- |
-| github | [ollama/ollama](https://github.com/ollama/ollama) | ollama | 178,525 ★, 17,405 forks | core-and-ecosystem |
-| github | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | Graphify-Labs | 106,439 ★, 10,359 forks | core-and-ecosystem |
-| github | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-ai | 102,411 ★, 9,715 forks | core-and-ecosystem |
-| github | [nexu-io/open-design](https://github.com/nexu-io/open-design) | nexu-io | 86,522 ★, 10,091 forks | ui-and-desktop |
-| github | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | bytedance | 80,027 ★, 10,954 forks | agents-and-orchestration |
-| github | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | shareAI-lab | 74,263 ★, 12,028 forks | core-and-ecosystem |
-| github | [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | shanraisshan | 64,488 ★, 6,406 forks | core-and-ecosystem |
-| github | [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust) | rust-unofficial | 58,838 ★, 3,538 forks | index-and-marketplace |
-| github | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | CherryHQ | 50,493 ★, 4,782 forks | core-and-ecosystem |
-| github | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | diegosouzapw | 48,161 ★, 6,535 forks | ui-and-desktop |
-| github | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | hugohe3 | 46,922 ★, 3,809 forks | core-and-ecosystem |
-| github | [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | Imbad0202 | 42,525 ★, 3,386 forks | core-and-ecosystem |
+| github | [ollama/ollama](https://github.com/ollama/ollama) | ollama | 178,533 ★, 17,407 forks | core-and-ecosystem |
+| github | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | Graphify-Labs | 106,451 ★, 10,360 forks | core-and-ecosystem |
+| github | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-ai | 103,427 ★, 9,847 forks | core-and-ecosystem |
+| github | [nexu-io/open-design](https://github.com/nexu-io/open-design) | nexu-io | 86,541 ★, 10,091 forks | ui-and-desktop |
+| github | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | bytedance | 80,027 ★, 10,955 forks | agents-and-orchestration |
+| github | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | shareAI-lab | 74,270 ★, 12,028 forks | core-and-ecosystem |
+| github | [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | shanraisshan | 64,487 ★, 6,406 forks | core-and-ecosystem |
+| github | [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust) | rust-unofficial | 58,839 ★, 3,538 forks | index-and-marketplace |
+| github | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | CherryHQ | 50,494 ★, 4,782 forks | core-and-ecosystem |
+| github | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | diegosouzapw | 48,177 ★, 6,538 forks | ui-and-desktop |
+| github | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | hugohe3 | 46,936 ★, 3,809 forks | core-and-ecosystem |
+| github | [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | Imbad0202 | 42,531 ★, 3,387 forks | core-and-ecosystem |
 | youtube | [DeepSeek Harness: The End of Claude Code?](https://www.youtube.com/watch?v=qg9EyGOZd9U) | NeuralNine | 39,000 views | core-and-ecosystem |
-| github | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | HKUDS | 30,872 ★, 5,008 forks | core-and-ecosystem |
-| github | [BigPizzaV3/CodexPlusPlus](https://github.com/BigPizzaV3/CodexPlusPlus) | BigPizzaV3 | 28,939 ★, 1,837 forks | core-and-ecosystem |
+| github | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | HKUDS | 30,875 ★, 5,009 forks | core-and-ecosystem |
+| github | [BigPizzaV3/CodexPlusPlus](https://github.com/BigPizzaV3/CodexPlusPlus) | BigPizzaV3 | 28,942 ★, 1,837 forks | core-and-ecosystem |
 | github | [Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) | Hannibal046 | 27,263 ★, 2,671 forks | index-and-marketplace |
-| github | [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) | rohitg00 | 27,025 ★, 2,307 forks | core-and-ecosystem |
-| github | [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | OthmanAdi | 26,168 ★, 2,188 forks | index-and-marketplace |
-| github | [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) | can1357 | 24,880 ★, 2,384 forks | agents-and-orchestration |
+| github | [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) | rohitg00 | 27,028 ★, 2,307 forks | core-and-ecosystem |
+| github | [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | OthmanAdi | 26,167 ★, 2,188 forks | index-and-marketplace |
+| github | [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) | can1357 | 24,889 ★, 2,388 forks | agents-and-orchestration |
 | github | [micro/go-micro](https://github.com/micro/go-micro) | micro | 23,013 ★, 2,414 forks | core-and-ecosystem |
