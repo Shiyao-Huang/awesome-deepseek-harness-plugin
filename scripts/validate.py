@@ -99,6 +99,23 @@ def main() -> None:
     assert connection.execute("SELECT COUNT(*) FROM metrics WHERE collection_run_id IS NULL").fetchone()[0] == 0
     assert connection.execute("SELECT COUNT(*) FROM items WHERE first_seen_run_id IS NULL OR last_seen_run_id IS NULL").fetchone()[0] == 0
     assert connection.execute("SELECT COUNT(*) FROM raw_snapshots WHERE payload_json IS NULL OR payload_json = ''").fetchone()[0] == 0
+    assert connection.execute("SELECT COUNT(*) FROM raw_snapshots").fetchone()[0] == connection.execute(
+        "SELECT COUNT(DISTINCT raw_path) FROM raw_snapshots"
+    ).fetchone()[0]
+    verified_paths: dict[Path, str] = {}
+    for raw_path, expected_digest in connection.execute(
+        "SELECT raw_path, raw_sha256 FROM raw_snapshots ORDER BY raw_path"
+    ):
+        relative_path = Path(raw_path)
+        if relative_path.parts[:3] == ("data", "raw", "forks"):
+            continue
+        assert not relative_path.is_absolute(), raw_path
+        path = (ROOT / relative_path).resolve()
+        assert path.is_relative_to(RAW_DIR.resolve()), raw_path
+        assert path.is_file(), raw_path
+        if path not in verified_paths:
+            verified_paths[path] = hashlib.sha256(path.read_bytes()).hexdigest()
+        assert verified_paths[path] == expected_digest, raw_path
     for path in raw_paths:
         digest = hashlib.sha256(path.read_bytes()).hexdigest()
         assert connection.execute("SELECT 1 FROM raw_snapshots WHERE raw_sha256 = ?", (digest,)).fetchone(), path

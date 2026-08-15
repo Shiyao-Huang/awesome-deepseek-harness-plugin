@@ -15,6 +15,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 import build_public_db
 import collect
+import materialize_raw_snapshots
 
 
 class EgoGitHubAdapterTests(unittest.TestCase):
@@ -114,6 +115,104 @@ class SeedSelectionTests(unittest.TestCase):
 
         selected = import_files.call_args.args[1]
         self.assertEqual(selected, [included])
+
+
+class RawMaterializationTests(unittest.TestCase):
+    def test_overwritten_snapshot_gets_unique_restored_path(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            raw = root / "data" / "raw" / "source.json"
+            raw.parent.mkdir(parents=True)
+            old_payload = b'{"version":1}'
+            current_payload = b'{"version":2}'
+            raw.write_bytes(current_payload)
+            database = root / "archive.sqlite3"
+            connection = sqlite3.connect(database)
+            connection.execute(
+                "CREATE TABLE raw_snapshots("
+                "id INTEGER PRIMARY KEY, raw_path TEXT, collected_at TEXT, "
+                "raw_sha256 TEXT, payload_json TEXT)"
+            )
+            connection.executemany(
+                "INSERT INTO raw_snapshots VALUES (?, ?, ?, ?, ?)",
+                [
+                    (
+                        1, "data/raw/source.json", "2026-08-15T01:00:00Z",
+                        materialize_raw_snapshots.sha256_bytes(old_payload), old_payload.decode(),
+                    ),
+                    (
+                        2, "data/raw/source.json", "2026-08-15T02:00:00Z",
+                        materialize_raw_snapshots.sha256_bytes(current_payload), current_payload.decode(),
+                    ),
+                ],
+            )
+            connection.commit()
+            connection.close()
+
+            repairs = materialize_raw_snapshots.materialize(database, root)
+            rerun = materialize_raw_snapshots.materialize(database, root)
+
+            self.assertEqual(len(repairs), 1)
+            self.assertEqual(rerun, [])
+            restored = root / repairs[0].new_path
+            self.assertEqual(restored.read_bytes(), old_payload)
+            connection = sqlite3.connect(database)
+            paths = connection.execute("SELECT raw_path FROM raw_snapshots ORDER BY id").fetchall()
+            connection.close()
+            self.assertEqual(paths[1], ("data/raw/source.json",))
+            self.assertNotEqual(paths[0], paths[1])
+
+    def test_fork_payload_is_release_only_unless_explicitly_requested(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "data" / "raw" / "forks").mkdir(parents=True)
+            payload = b'{"forks":[]}'
+            database = root / "archive.sqlite3"
+            connection = sqlite3.connect(database)
+            connection.execute(
+                "CREATE TABLE raw_snapshots("
+                "id INTEGER PRIMARY KEY, raw_path TEXT, collected_at TEXT, "
+                "raw_sha256 TEXT, payload_json TEXT)"
+            )
+            connection.execute(
+                "INSERT INTO raw_snapshots VALUES (1, 'data/raw/forks/run/page.json', "
+                "'2026-08-15T01:00:00Z', ?, ?)",
+                (materialize_raw_snapshots.sha256_bytes(payload), payload.decode()),
+            )
+            connection.commit()
+            connection.close()
+
+            self.assertEqual(materialize_raw_snapshots.materialize(database, root), [])
+            repairs = materialize_raw_snapshots.materialize(
+                database,
+                root,
+                include_forks=True,
+            )
+
+            self.assertEqual(len(repairs), 1)
+            self.assertEqual((root / repairs[0].new_path).read_bytes(), payload)
+
+    def test_stripped_projection_cannot_restore_missing_raw(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "data" / "raw").mkdir(parents=True)
+            database = root / "public.sqlite3"
+            connection = sqlite3.connect(database)
+            connection.execute(
+                "CREATE TABLE raw_snapshots("
+                "id INTEGER PRIMARY KEY, raw_path TEXT, collected_at TEXT, "
+                "raw_sha256 TEXT, payload_json TEXT)"
+            )
+            connection.execute(
+                "INSERT INTO raw_snapshots VALUES (1, 'data/raw/missing.json', "
+                "'2026-08-15T01:00:00Z', ?, '{}')",
+                ("a" * 64,),
+            )
+            connection.commit()
+            connection.close()
+
+            with self.assertRaisesRegex(RuntimeError, "use the full archive"):
+                materialize_raw_snapshots.materialize(database, root)
 
 
 class PublicDatabaseTests(unittest.TestCase):
