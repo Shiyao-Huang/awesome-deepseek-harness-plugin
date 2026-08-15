@@ -2,7 +2,7 @@
 
 > 一个可重复更新的公开资料聚合体：仓库、插件、索引、文章、帖子、图片缩略图和视频链接。原始观测保留在 `data/raw/`，SQLite 是可查询的派生索引。
 
-当前快照：**2026-08-15T06:37:51Z**。共 **581** 条去重记录，覆盖 **14** 个平台，外部媒体资产 **550** 条。
+当前快照：**2026-08-15T07:00:20Z**。共 **647** 条去重记录，覆盖 **14** 个平台，外部媒体资产 **612** 条。
 
 ## 三句话结论
 
@@ -21,9 +21,9 @@
 
 | 平台 | 去重记录 | 采集方式 |
 | --- | ---: | --- |
-| github | 435 | public REST API |
+| github | 483 | public REST API |
+| hacker_news | 44 | Algolia public search API |
 | x | 43 | ego-browser visible DOM |
-| hacker_news | 26 | Algolia public search API |
 | xiaohongshu | 25 | ego-browser visible DOM |
 | web | 21 | public page metadata |
 | youtube | 13 | ego-browser visible DOM |
@@ -40,35 +40,35 @@
 
 | 分类 | 记录 | 带媒体 |
 | --- | ---: | ---: |
-| core-and-ecosystem | 350 | 69 |
-| ui-and-desktop | 79 | 2 |
-| index-and-marketplace | 62 | 16 |
-| operations-and-safety | 38 | 1 |
-| multimedia-and-vision | 25 | 2 |
+| core-and-ecosystem | 380 | 69 |
+| ui-and-desktop | 85 | 2 |
+| index-and-marketplace | 84 | 16 |
+| operations-and-safety | 41 | 1 |
+| multimedia-and-vision | 26 | 2 |
 | docs-and-learning | 20 | 4 |
-| agents-and-orchestration | 7 | 0 |
+| agents-and-orchestration | 11 | 0 |
 
 ## 高互动/高关注记录
 
 | 平台 | 标题 | 作者 | 指标 | 分类 |
 | --- | --- | --- | --- | --- |
-| github | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-ai | 101,440 ★, 9,596 forks | core-and-ecosystem |
-| github | [nexu-io/open-design](https://github.com/nexu-io/open-design) | nexu-io | 86,488 ★, 10,085 forks | ui-and-desktop |
-| github | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | CherryHQ | 50,491 ★, 4,781 forks | core-and-ecosystem |
+| github | [ollama/ollama](https://github.com/ollama/ollama) | ollama | 178,525 ★, 17,405 forks | core-and-ecosystem |
+| github | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | Graphify-Labs | 106,439 ★, 10,359 forks | core-and-ecosystem |
+| github | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-ai | 102,411 ★, 9,715 forks | core-and-ecosystem |
+| github | [nexu-io/open-design](https://github.com/nexu-io/open-design) | nexu-io | 86,522 ★, 10,091 forks | ui-and-desktop |
+| github | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | bytedance | 80,027 ★, 10,954 forks | agents-and-orchestration |
+| github | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | shareAI-lab | 74,263 ★, 12,028 forks | core-and-ecosystem |
+| github | [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | shanraisshan | 64,488 ★, 6,406 forks | core-and-ecosystem |
+| github | [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust) | rust-unofficial | 58,838 ★, 3,538 forks | index-and-marketplace |
+| github | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | CherryHQ | 50,493 ★, 4,782 forks | core-and-ecosystem |
+| github | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | diegosouzapw | 48,161 ★, 6,535 forks | ui-and-desktop |
+| github | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | hugohe3 | 46,922 ★, 3,809 forks | core-and-ecosystem |
+| github | [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | Imbad0202 | 42,525 ★, 3,386 forks | core-and-ecosystem |
 | youtube | [DeepSeek Harness: The End of Claude Code?](https://www.youtube.com/watch?v=qg9EyGOZd9U) | NeuralNine | 39,000 views | core-and-ecosystem |
-| github | [titanwings/colleague-skill](https://github.com/titanwings/colleague-skill) | titanwings | 22,153 ★, 2,045 forks | core-and-ecosystem |
-| youtube | [DeepSeek Harness - Its a Big Deal!](https://www.youtube.com/watch?v=NPO2CwHnfmI) | Prompt Engineering | 20,000 views | core-and-ecosystem |
-| x | [DeepSeek @deepseek_ai DeepSeek Harness v0.1 is now available in Developer Preview! We’re opening it up to developers building agent harnesse](https://x.com/deepseek_ai/status/2087887408440164663) |  | 18,976 ♥, 3,727,518 views, 717 replies | index-and-marketplace |
-| github | [liyupi/ai-guide](https://github.com/liyupi/ai-guide) | liyupi | 18,404 ★, 2,094 forks | docs-and-learning |
-| youtube | [实测DeepSeek Harness从基础到高级用法：WebUI、插件系统与任务分支](https://www.youtube.com/watch?v=Aqn7EP8shJw) | AI超元域 | 16,000 views | core-and-ecosystem |
-| github | [tt-a1i/archify](https://github.com/tt-a1i/archify) | tt-a1i | 12,672 ★, 940 forks | docs-and-learning |
-| bilibili | [【热门AI鉴定】DeepSeek Harness是什么？强在哪里？Harness实测效果如何？一口气搞懂！](https://www.bilibili.com/video/BV11CgF6uE4k) | Git源宝 | 12,206 ♥, 446,982 views, 656 replies, 7,015 favorites, 1,927 shares, 2,764 coins, 252 danmaku | core-and-ecosystem |
-| youtube | [DeepSeek Just Dropped Its Own Harness… And It’s FAST!](https://www.youtube.com/watch?v=yiXSK7WvSv0) | Tech2WiLD | 5,188 views | core-and-ecosystem |
-| youtube | [Deepseek Harness: Everything is a plugin](https://www.youtube.com/watch?v=xe-aHJLC5UU) | DevsKingdom | 4,940 views | docs-and-learning |
-| github | [Devin-AXIS/iPolloWork](https://github.com/Devin-AXIS/iPolloWork) | Devin-AXIS | 4,045 ★, 812 forks | multimedia-and-vision |
-| github | [crafter-station/petdex](https://github.com/crafter-station/petdex) | crafter-station | 3,803 ★, 181 forks | core-and-ecosystem |
-| youtube | [DeepSeek Harness: Free Claude Code Rival Hits 24k Stars Day 1](https://www.youtube.com/watch?v=k2hi16y67Jo) | Prism Labs | 3,550 views | core-and-ecosystem |
-| github | [strukto-ai/mirage](https://github.com/strukto-ai/mirage) | strukto-ai | 3,422 ★, 255 forks | core-and-ecosystem |
-| youtube | [DeepSeek&#x27;s Latest Open-Source Project: DeepSeek Harness Is Officially Here](https://www.youtube.com/watch?v=CAb1PaVBCEM) | 鲲鹏Talk | 3,294 views | core-and-ecosystem |
-| x | [Tianyi Cui @tianyi · Aug 1 如果你是 Agent Harness 相关开源项目的开发者，希望参加 DeepSeek Harness 的内测，可以回复或私信联系我。请附上 GitHub id 以及开源代表作。 1.2K 517 3K 981K](https://x.com/tianyi/status/2083519855203078320) |  | 3,071 ♥, 981,358 views, 1,218 replies | index-and-marketplace |
-| github | [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | anywhere-labs | 2,989 ★, 142 forks | ui-and-desktop |
+| github | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | HKUDS | 30,872 ★, 5,008 forks | core-and-ecosystem |
+| github | [BigPizzaV3/CodexPlusPlus](https://github.com/BigPizzaV3/CodexPlusPlus) | BigPizzaV3 | 28,939 ★, 1,837 forks | core-and-ecosystem |
+| github | [Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) | Hannibal046 | 27,263 ★, 2,671 forks | index-and-marketplace |
+| github | [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) | rohitg00 | 27,025 ★, 2,307 forks | core-and-ecosystem |
+| github | [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | OthmanAdi | 26,168 ★, 2,188 forks | index-and-marketplace |
+| github | [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) | can1357 | 24,880 ★, 2,384 forks | agents-and-orchestration |
+| github | [micro/go-micro](https://github.com/micro/go-micro) | micro | 23,013 ★, 2,414 forks | core-and-ecosystem |

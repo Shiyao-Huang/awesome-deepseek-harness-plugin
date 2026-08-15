@@ -5,34 +5,34 @@
 <text x="28" y="82" font-size="14">github</text>
 <rect x="245" y="67" width="620" height="20" rx="10" fill="#e8e2d6"/>
 <rect x="245" y="67" width="620" height="20" rx="10" fill="#ef8354"/>
-<text x="878" y="82" text-anchor="end" font-size="14" font-weight="700">435</text>
-<text x="28" y="124" font-size="14">x</text>
+<text x="878" y="82" text-anchor="end" font-size="14" font-weight="700">483</text>
+<text x="28" y="124" font-size="14">hacker_news</text>
 <rect x="245" y="109" width="620" height="20" rx="10" fill="#e8e2d6"/>
-<rect x="245" y="109" width="61" height="20" rx="10" fill="#4f6d7a"/>
-<text x="878" y="124" text-anchor="end" font-size="14" font-weight="700">43</text>
-<text x="28" y="166" font-size="14">hacker_news</text>
+<rect x="245" y="109" width="56" height="20" rx="10" fill="#4f6d7a"/>
+<text x="878" y="124" text-anchor="end" font-size="14" font-weight="700">44</text>
+<text x="28" y="166" font-size="14">x</text>
 <rect x="245" y="151" width="620" height="20" rx="10" fill="#e8e2d6"/>
-<rect x="245" y="151" width="37" height="20" rx="10" fill="#5da399"/>
-<text x="878" y="166" text-anchor="end" font-size="14" font-weight="700">26</text>
+<rect x="245" y="151" width="55" height="20" rx="10" fill="#5da399"/>
+<text x="878" y="166" text-anchor="end" font-size="14" font-weight="700">43</text>
 <text x="28" y="208" font-size="14">xiaohongshu</text>
 <rect x="245" y="193" width="620" height="20" rx="10" fill="#e8e2d6"/>
-<rect x="245" y="193" width="35" height="20" rx="10" fill="#d4a373"/>
+<rect x="245" y="193" width="32" height="20" rx="10" fill="#d4a373"/>
 <text x="878" y="208" text-anchor="end" font-size="14" font-weight="700">25</text>
 <text x="28" y="250" font-size="14">web</text>
 <rect x="245" y="235" width="620" height="20" rx="10" fill="#e8e2d6"/>
-<rect x="245" y="235" width="29" height="20" rx="10" fill="#7b6d8d"/>
+<rect x="245" y="235" width="26" height="20" rx="10" fill="#7b6d8d"/>
 <text x="878" y="250" text-anchor="end" font-size="14" font-weight="700">21</text>
 <text x="28" y="292" font-size="14">youtube</text>
 <rect x="245" y="277" width="620" height="20" rx="10" fill="#e8e2d6"/>
-<rect x="245" y="277" width="18" height="20" rx="10" fill="#e07a5f"/>
+<rect x="245" y="277" width="16" height="20" rx="10" fill="#e07a5f"/>
 <text x="878" y="292" text-anchor="end" font-size="14" font-weight="700">13</text>
 <text x="28" y="334" font-size="14">bilibili</text>
 <rect x="245" y="319" width="620" height="20" rx="10" fill="#e8e2d6"/>
-<rect x="245" y="319" width="8" height="20" rx="10" fill="#3d5a80"/>
+<rect x="245" y="319" width="7" height="20" rx="10" fill="#3d5a80"/>
 <text x="878" y="334" text-anchor="end" font-size="14" font-weight="700">6</text>
 <text x="28" y="376" font-size="14">reddit</text>
 <rect x="245" y="361" width="620" height="20" rx="10" fill="#e8e2d6"/>
-<rect x="245" y="361" width="7" height="20" rx="10" fill="#ef8354"/>
+<rect x="245" y="361" width="6" height="20" rx="10" fill="#ef8354"/>
 <text x="878" y="376" text-anchor="end" font-size="14" font-weight="700">5</text>
 <text x="28" y="418" font-size="14">linuxdo</text>
 <rect x="245" y="403" width="620" height="20" rx="10" fill="#e8e2d6"/>
