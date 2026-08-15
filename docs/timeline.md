@@ -5,6 +5,9 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 2026-08-15 | github | plugin | [dsh-plugin-net-access](https://github.com/Gumiho12345/dsh-plugin-net-access) | Gumiho12345 | core-and-ecosystem |
+| 2026-08-15 | github | plugin | [dsh-plugin-writing-guard](https://github.com/xmutfyh/dsh-plugin-writing-guard) | xmutfyh | core-and-ecosystem |
+| 2026-08-15 | github | plugin | [dsh-trajectory-reader](https://github.com/flyingtimes/dsh-trajectory-reader) | flyingtimes | core-and-ecosystem |
 | 2026-08-15T14:18:44+08:00 | web | article | [玩了一夜DeepSeek Harness，我发现它在用《我的世界》的方式干掉Claude Code-36氪](https://www.36kr.com/p/3938774780263814) |  | core-and-ecosystem |
 | 2026-08-15 | github | plugin | [coding-coach](https://github.com/xiehuan123/coding-coach) | xiehuan123 | core-and-ecosystem |
 | 2026-08-15 | github | plugin | [dsh-deepread](https://github.com/xiehuan123/dsh-deepread) | xiehuan123 | core-and-ecosystem |
@@ -804,6 +807,7 @@
 | 2026-05-09T09:35:19Z | github | repository | [DDDFXYqiming/Agent_Extensions](https://github.com/DDDFXYqiming/Agent_Extensions) | DDDFXYqiming | core-and-ecosystem |
 | 2026-05-09T05:27:15Z | github | repository | [wink-run/tokenbank](https://github.com/wink-run/tokenbank) | wink-run | index-and-marketplace |
 | 2026-05-09T05:04:25Z | hacker_news | story | [Deepsec: The security harness for finding vulnerabilities](https://news.ycombinator.com/item?id=48071977) | gmays | operations-and-safety |
+| 2026-05-07T14:18:06Z | github | repository | [freestylefly/wesight](https://github.com/freestylefly/wesight) | freestylefly | ui-and-desktop |
 | 2026-05-06T17:00:48Z | github | repository | [strukto-ai/mirage](https://github.com/strukto-ai/mirage) | strukto-ai | core-and-ecosystem |
 | 2026-05-06T09:32:49Z | github | repository | [BigPizzaV3/CodexPlusPlus](https://github.com/BigPizzaV3/CodexPlusPlus) | BigPizzaV3 | core-and-ecosystem |
 | 2026-05-05T17:45:17Z | github | repository | [WeirdSky924/agent-handoff-skill](https://github.com/WeirdSky924/agent-handoff-skill) | WeirdSky924 | core-and-ecosystem |
@@ -818,6 +822,7 @@
 | 2026-04-28T04:25:20Z | github | repository | [nexu-io/open-design](https://github.com/nexu-io/open-design) | nexu-io | ui-and-desktop |
 | 2026-04-27T07:37:37Z | github | repository | [phoenixlucky/zerotoken-skill](https://github.com/phoenixlucky/zerotoken-skill) | phoenixlucky | operations-and-safety |
 | 2026-04-27T06:37:38Z | github | repository | [deepseek-ai/awesome-deepseek-agent](https://github.com/deepseek-ai/awesome-deepseek-agent) | deepseek-ai | index-and-marketplace |
+| 2026-04-25T09:19:13Z | github | repository | [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) | freestylefly | index-and-marketplace |
 | 2026-04-21T21:21:14Z | hacker_news | story | [Show HN: I built a coding agent that works with 8k context local models](https://news.ycombinator.com/item?id=47854640) | razvanneculai | operations-and-safety |
 | 2026-04-20T12:31:22Z | github | repository | [Ariestar/sivtr](https://github.com/Ariestar/sivtr) | Ariestar | core-and-ecosystem |
 | 2026-04-15T05:27:37Z | github | repository | [tt-a1i/archify](https://github.com/tt-a1i/archify) | tt-a1i | docs-and-learning |
