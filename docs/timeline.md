@@ -6,6 +6,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
 | 2026-08-15T14:18:44+08:00 | web | article | [玩了一夜DeepSeek Harness，我发现它在用《我的世界》的方式干掉Claude Code-36氪](https://www.36kr.com/p/3938774780263814) |  | core-and-ecosystem |
+| 2026-08-15 | github | plugin | [dsh-skin-switcher](https://github.com/zhtx2024/dsh-skin-switcher) | zhtx2024 | ui-and-desktop |
 | 19小时前 | youtube | video | [DeepSeek Harness 正式发布！ 开源一天狂揽 6.8 万星！V4 Pro 模型低调上线，AI Agent 部署与实测 \| 零度解说](https://www.youtube.com/watch?v=5G_afoTB1gs) | 零度解说 | core-and-ecosystem |
 | 16小时前 | youtube | video | [DeepSeek Harness 能力很猛，很危险？源码深挖解读！](https://www.youtube.com/watch?v=CukbMYlDRrM) | 三少科技 | multimedia-and-vision |
 | 21小时前 | youtube | video | [DeepSeek Harness初步测试：工具属性优秀，反应极快，编程能力强，但是小BUG不少。总体上是非常优秀的产品，值得尝试！](https://www.youtube.com/watch?v=i3s5vC_0uHU) | 抡锤者 | core-and-ecosystem |
@@ -734,6 +735,7 @@
 | 2026-07-19T09:43:37Z | github | repository | [N0zoM1z0/vocaloid-mcp](https://github.com/N0zoM1z0/vocaloid-mcp) | N0zoM1z0 | core-and-ecosystem |
 | 2026-08-14 | github | repository | [argo](https://github.com/taxueseek/argo) | taxueseek | core-and-ecosystem |
 | 2026-07-18T04:05:26Z | github | repository | [shuguang1994/project-blueprint](https://github.com/shuguang1994/project-blueprint) | shuguang1994 | core-and-ecosystem |
+| 2026-07-17T14:21:25Z | hacker_news | story | [Is GPT-5.6 Sol Max Worth It?](https://news.ycombinator.com/item?id=48947713) | yohji1984 | index-and-marketplace |
 | 2026-07-15T13:38:07Z | github | repository | [superdesigndev/treg](https://github.com/superdesigndev/treg) | superdesigndev | core-and-ecosystem |
 | 2026-07-15T03:32:13Z | github | repository | [morluto/leantoken](https://github.com/morluto/leantoken) | morluto | operations-and-safety |
 | 2026-07-13T22:19:31Z | hacker_news | story | [Ask HN: AI Agent and harness containerization/security recommendations](https://news.ycombinator.com/item?id=48899674) | dv35z | ui-and-desktop |
@@ -741,6 +743,7 @@
 | 2026-07-12T18:28:15Z | hacker_news | story | [Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE](https://news.ycombinator.com/item?id=48883305) | julesrms | index-and-marketplace |
 | 2026-07-11T08:48:07Z | github | repository | [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness) | sandbaseai | operations-and-safety |
 | 2026-07-09T13:29:32.884000+0000 | reddit | post | [What harness do you guys use for DeepSeek?](https://www.reddit.com/r/DeepSeek/comments/1urqcm3/what_harness_do_you_guys_use_for_deepseek) | Prestigious_Sky_9829 | operations-and-safety |
+| 2026-07-08T12:39:02Z | hacker_news | story | [Show HN: DIMMsum – price tracker and sold-price history for used server RAM](https://news.ycombinator.com/item?id=48831164) | auspiv | ui-and-desktop |
 | 2026-07-08T09:00:56Z | github | repository | [adongwanai/learn-workbuddy](https://github.com/adongwanai/learn-workbuddy) | adongwanai | core-and-ecosystem |
 | 2026-07-07T12:46:40.000Z | x | post | [Tianyi Cui @tianyi · Jul 7 Harness 方向的自进化，与模型方向的自进化（包括训练和推理）一样都是非常有可能出成果的方向。 之前类似于自己给自己总结 skills 之类的工作可以看成 Harness 方向的自进化中比较初级的一种形式：从 prompt](https://x.com/tianyi/status/2074475185957380379) |  | index-and-marketplace |
 | 2026-07-06T14:37:22Z | github | repository | [Totoro-qaq/Cobsidian](https://github.com/Totoro-qaq/Cobsidian) | Totoro-qaq | core-and-ecosystem |
@@ -781,6 +784,7 @@
 | 2026-05-09T10:57:52Z | github | repository | [HenryZ838978/deepseek-harness](https://github.com/HenryZ838978/deepseek-harness) | HenryZ838978 | core-and-ecosystem |
 | 2026-05-09T09:35:19Z | github | repository | [DDDFXYqiming/Agent_Extensions](https://github.com/DDDFXYqiming/Agent_Extensions) | DDDFXYqiming | core-and-ecosystem |
 | 2026-05-09T05:27:15Z | github | repository | [wink-run/tokenbank](https://github.com/wink-run/tokenbank) | wink-run | index-and-marketplace |
+| 2026-05-09T05:04:25Z | hacker_news | story | [Deepsec: The security harness for finding vulnerabilities](https://news.ycombinator.com/item?id=48071977) | gmays | operations-and-safety |
 | 2026-05-06T17:00:48Z | github | repository | [strukto-ai/mirage](https://github.com/strukto-ai/mirage) | strukto-ai | core-and-ecosystem |
 | 2026-05-06T09:32:49Z | github | repository | [BigPizzaV3/CodexPlusPlus](https://github.com/BigPizzaV3/CodexPlusPlus) | BigPizzaV3 | core-and-ecosystem |
 | 2026-05-05T17:45:17Z | github | repository | [WeirdSky924/agent-handoff-skill](https://github.com/WeirdSky924/agent-handoff-skill) | WeirdSky924 | core-and-ecosystem |
@@ -794,6 +798,7 @@
 | 2026-04-28T04:25:20Z | github | repository | [nexu-io/open-design](https://github.com/nexu-io/open-design) | nexu-io | ui-and-desktop |
 | 2026-04-27T07:37:37Z | github | repository | [phoenixlucky/zerotoken-skill](https://github.com/phoenixlucky/zerotoken-skill) | phoenixlucky | operations-and-safety |
 | 2026-04-27T06:37:38Z | github | repository | [deepseek-ai/awesome-deepseek-agent](https://github.com/deepseek-ai/awesome-deepseek-agent) | deepseek-ai | index-and-marketplace |
+| 2026-04-21T21:21:14Z | hacker_news | story | [Show HN: I built a coding agent that works with 8k context local models](https://news.ycombinator.com/item?id=47854640) | razvanneculai | operations-and-safety |
 | 2026-04-20T12:31:22Z | github | repository | [Ariestar/sivtr](https://github.com/Ariestar/sivtr) | Ariestar | core-and-ecosystem |
 | 2026-04-15T05:27:37Z | github | repository | [tt-a1i/archify](https://github.com/tt-a1i/archify) | tt-a1i | docs-and-learning |
 | 2026-04-14T00:51:32Z | github | repository | [morluto/rea](https://github.com/morluto/rea) | morluto | core-and-ecosystem |
@@ -812,8 +817,10 @@
 | 2026-03-24T15:58:22Z | github | repository | [alvinreal/awesome-opensource-ai](https://github.com/alvinreal/awesome-opensource-ai) | alvinreal | index-and-marketplace |
 | 2026-03-24T12:11:48Z | github | repository | [upstash/skills](https://github.com/upstash/skills) | upstash | core-and-ecosystem |
 | 2026-03-22T09:35:15Z | github | repository | [tianmingwangluo/xiaoliuren-skill](https://github.com/tianmingwangluo/xiaoliuren-skill) | tianmingwangluo | core-and-ecosystem |
+| 2026-03-19T15:59:04Z | hacker_news | story | [Show HN: Dumped Wix for an AI Edge agent so I never have to hire junior staff](https://news.ycombinator.com/item?id=47441587) | axotopia | docs-and-learning |
 | 2026-03-19T01:32:22Z | github | repository | [orziz/odai](https://github.com/orziz/odai) | orziz | agents-and-orchestration |
 | 2026-03-18T09:04:20Z | github | repository | [rullerzhou-afk/clawd-on-desk](https://github.com/rullerzhou-afk/clawd-on-desk) | rullerzhou-afk | ui-and-desktop |
+| 2026-03-15T13:53:52Z | hacker_news | story | [Show HN: Dumped Wix, my AEC consultancy&#x27;s storefront is now an AI Edge](https://news.ycombinator.com/item?id=47387398) | axotopia | operations-and-safety |
 | 2026-08-14 | github | repository | [notes](https://github.com/zhaoolee/notes) | zhaoolee | core-and-ecosystem |
 | 2026-03-13T02:16:59Z | github | repository | [Sikao-Engine/KimiX](https://github.com/Sikao-Engine/KimiX) | Sikao-Engine | core-and-ecosystem |
 | 2026-03-12T15:24:50Z | github | repository | [linhay/harmony-next.skills](https://github.com/linhay/harmony-next.skills) | linhay | docs-and-learning |
@@ -834,6 +841,8 @@
 | 2026-02-22T13:51:44Z | github | repository | [foryourhealth111-pixel/Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) | foryourhealth111-pixel | core-and-ecosystem |
 | 2026-08-14 | github | repository | [liustack/modsearch](https://github.com/liustack/modsearch) | liustack | core-and-ecosystem |
 | 2026-08-14 | github | repository | [liustack/modlens](https://github.com/liustack/modlens) | liustack | multimedia-and-vision |
+| 2026-02-22T07:00:09Z | hacker_news | story | [Show HN: Secret Sanitizer – auto-masks secrets when you paste into AI chats](https://news.ycombinator.com/item?id=47108901) | souvikghosh957 | index-and-marketplace |
+| 2026-02-21T02:10:03Z | hacker_news | story | [Show HN: CRTX – AI code gen that tests and fixes its own output (OSS)](https://news.ycombinator.com/item?id=47096764) | johnnycash926 | index-and-marketplace |
 | 2026-02-20T02:26:17Z | github | repository | [mnemon-dev/mnemon](https://github.com/mnemon-dev/mnemon) | mnemon-dev | core-and-ecosystem |
 | 2026-02-15T14:46:31Z | hacker_news | story | [Show HN: Typemux-cc – .venv-aware Python LSP proxy for Claude Code (no restarts)](https://news.ycombinator.com/item?id=47024098) | K-dash | index-and-marketplace |
 | 2026-02-13T12:38:31Z | github | repository | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | diegosouzapw | ui-and-desktop |
@@ -876,6 +885,7 @@
 | 2025-04-27T10:49:37Z | hacker_news | story | [Show HN: Plan-linter – pre-flight safety checker for AI agent plans](https://news.ycombinator.com/item?id=43810936) | mercurialsolo | index-and-marketplace |
 | 2025-03-28T04:27:09Z | github | repository | [SepineTam/mcp-for-stata](https://github.com/SepineTam/mcp-for-stata) | SepineTam | core-and-ecosystem |
 | 2025-02-13T05:47:46Z | github | repository | [liyupi/ai-guide](https://github.com/liyupi/ai-guide) | liyupi | docs-and-learning |
+| 2025-01-27T07:02:23Z | hacker_news | story | [Ask HN: How to get around or remove censorship in Deepseek-R1?](https://news.ycombinator.com/item?id=42838203) | jimmydoe | core-and-ecosystem |
 | 2025-01-11T10:11:05Z | github | repository | [punkpeye/awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients) | punkpeye | index-and-marketplace |
 | 2024-11-22T13:20:25Z | hacker_news | story | [Show HN: Growflyer – Automate Your Business Marketing in Minutes](https://news.ycombinator.com/item?id=42213615) | kaizarbharmal | core-and-ecosystem |
 | 2024-08-29T15:49:16Z | hacker_news | story | [Show HN: Native SQL, type-safe, in-lined. Pick three](https://news.ycombinator.com/item?id=41392080) | owlstuffing | index-and-marketplace |

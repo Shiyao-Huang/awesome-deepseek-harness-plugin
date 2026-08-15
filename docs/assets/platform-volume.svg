@@ -5,11 +5,11 @@
 <text x="28" y="82" font-size="14">github</text>
 <rect x="245" y="67" width="620" height="20" rx="10" fill="#e8e2d6"/>
 <rect x="245" y="67" width="620" height="20" rx="10" fill="#ef8354"/>
-<text x="878" y="82" text-anchor="end" font-size="14" font-weight="700">687</text>
+<text x="878" y="82" text-anchor="end" font-size="14" font-weight="700">688</text>
 <text x="28" y="124" font-size="14">hacker_news</text>
 <rect x="245" y="109" width="620" height="20" rx="10" fill="#e8e2d6"/>
-<rect x="245" y="109" width="80" height="20" rx="10" fill="#4f6d7a"/>
-<text x="878" y="124" text-anchor="end" font-size="14" font-weight="700">89</text>
+<rect x="245" y="109" width="88" height="20" rx="10" fill="#4f6d7a"/>
+<text x="878" y="124" text-anchor="end" font-size="14" font-weight="700">98</text>
 <text x="28" y="166" font-size="14">x</text>
 <rect x="245" y="151" width="620" height="20" rx="10" fill="#e8e2d6"/>
 <rect x="245" y="151" width="47" height="20" rx="10" fill="#5da399"/>

@@ -4,9 +4,9 @@
 
 | 源仓库 | stars | forks | 开放 issue | 当前条目 | 插件候选 | 最近检查 |
 | --- | ---: | ---: | ---: | ---: | ---: | --- |
-| [Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins](https://github.com/Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins) | 55 | 5 | 1 | 140 | 80 | 2026-08-15T07:52:51Z · [raw](../data/raw/upstreams/20260815T075248Z.json) |
-| [beancookie/awesome-dsh-plugin](https://github.com/beancookie/awesome-dsh-plugin) | 18 | 8 | 3 | 275 | 275 | 2026-08-15T07:52:51Z · [raw](../data/raw/upstreams/20260815T075248Z.json) |
-| [walkinglabs/awesome-deepseek-harness-plugins](https://github.com/walkinglabs/awesome-deepseek-harness-plugins) | 4 | 7 | 1 | 114 | 91 | 2026-08-15T07:52:51Z · [raw](../data/raw/upstreams/20260815T075248Z.json) |
+| [Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins](https://github.com/Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins) | 56 | 6 | 2 | 140 | 80 | 2026-08-15T08:32:29Z · [raw](../data/raw/upstreams/20260815T083227Z.json) |
+| [beancookie/awesome-dsh-plugin](https://github.com/beancookie/awesome-dsh-plugin) | 20 | 8 | 2 | 276 | 276 | 2026-08-15T08:32:29Z · [raw](../data/raw/upstreams/20260815T083227Z.json) |
+| [walkinglabs/awesome-deepseek-harness-plugins](https://github.com/walkinglabs/awesome-deepseek-harness-plugins) | 4 | 7 | 1 | 114 | 91 | 2026-08-15T08:32:29Z · [raw](../data/raw/upstreams/20260815T083227Z.json) |
 
 ## Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins
 
