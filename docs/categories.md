@@ -173,6 +173,7 @@
 | github | [Nagi-ovo/dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | 126 ★, 3 forks | Nagi-ovo |
 | x | [陈成 @chenchengpro · 20h 看了会 DeepSeek Harness，说下个人感受。 整体感受，dsh 更像一份「harness 该怎么写」的参考实现，不太像一个要抢 Claude Code 用户的产品。体验上目前还有点粗糙，架构上比较“激进”。 1\ 上手只要](https://x.com/chenchengpro/status/2088201936072024253) | 116 ♥, 14,521 views, 5 replies | 陈成 |
 | github | [drewnekota/cetus](https://github.com/drewnekota/cetus) | 114 ★, 6 forks | drewnekota |
+| xiaohongshu | [感受下DeepSeek Harness 的速度！](https://www.xiaohongshu.com/explore/6a7dff1e000000002102230a) | 114 ♥ | 远山 |
 | youtube | [一切皆插件？我实测开源的 DeepSeek Harness 到底能有多震撼？](https://www.youtube.com/watch?v=Gjhy9FyMvv4) | 109 views | AI Toolbox |
 | github | [Ruler4396/dsh-launcher](https://github.com/Ruler4396/dsh-launcher) | 107 ★, 3 forks | Ruler4396 |
 | x | [Deepseek Harness 怎么感觉瞬间 7k Star，太猛了](https://x.com/vista8/status/2087891340122300714) | 105 ♥, 27,248 views, 31 replies | 向阳乔木 |
@@ -180,15 +181,19 @@
 | xiaohongshu | [给DeepSeek Harness做了一个插件市场](https://www.xiaohongshu.com/explore/6a7f1a21000000002402e4fa) | 104 ♥ | Awesome |
 | github | [Sikao-Engine/KimiX](https://github.com/Sikao-Engine/KimiX) | 104 ★, 12 forks | Sikao-Engine |
 | github | [agents-universe/agents-universe](https://github.com/agents-universe/agents-universe) | 103 ★, 1 forks | agents-universe |
+| xiaohongshu | [DeepSeek Harness 四步安装教程](https://www.xiaohongshu.com/explore/6a7e4e240000000024025cd0) | 103 ♥ | Jack拆世界 |
 | github | [Vladimir-Human/humanizer-rudsh](https://github.com/Vladimir-Human/humanizer-ru) | 100 ★, 5 forks | Vladimir-Human |
 | github | [csyangwen/dsh-memory-evolve](https://github.com/csyangwen/dsh-memory-evolve) | 93 ★, 6 forks | csyangwen |
+| xiaohongshu | [deepseek harness好强](https://www.xiaohongshu.com/explore/6a7f23f50000000033033588) | 93 ♥ | 在不n |
 | xiaohongshu | [给dsh加上眼睛！](https://www.xiaohongshu.com/explore/6a7dd8490000000024024ebd) | 89 ♥ | JJJYmmm |
 | github | [omdsh-dev/dsh-genui](https://github.com/omdsh-dev/dsh-genui) | 82 ★, 5 forks | omdsh-dev |
 | github | [ZSeven-W/dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) | 80 ★, 3 forks | ZSeven-W |
 | xiaohongshu | [DeepSeek大佬贴小广告，究竟发生了什么](https://www.xiaohongshu.com/explore/6a3913ae000000000f01dea3) | 80 ♥ | 大厂显微镜 |
+| xiaohongshu | [全网最全的DeepSeek Harness终极教程！](https://www.xiaohongshu.com/explore/6a7eed6a000000000801102e) | 79 ♥ | AI先生李豪 |
 | github | [Leslie-SSS/seeWxapkg](https://github.com/Leslie-SSS/seeWxapkg) | 78 ★, 26 forks | Leslie-SSS |
 | x | [歸藏(guizang.ai) @op7418 · 20h 15 张数据图帮你了解 DeepSeek Harness 昨天 DeepSeek Harness 发布，于是就想着让 Codex 分析一下，找到了一个很好的角度，就是从一些数据上向大家介绍这个产品。 确实也发现了一些很有意](https://x.com/op7418/status/2088199058313957734) | 77 ♥, 12,359 views, 30 replies | 歸藏(guizang.ai) |
 | xiaohongshu | [DeepSeek Harness很好，但不适合大多数人](https://www.xiaohongshu.com/explore/6a7eb71f0000000021021060) | 72 ♥ | 吃太饱骑士 |
+| xiaohongshu | [DeepSeek Harness：插件时代来了吗](https://www.xiaohongshu.com/explore/6a7dcaa60000000025003f53) | 72 ♥ | 阿阿阿阿景（专业回收AI垃圾） |
 | github | [taxueseek/argo](https://github.com/taxueseek/argo) | 70 ★, 2 forks | taxueseek |
 | github | [Jayden-X-L/forkprobe](https://github.com/Jayden-X-L/forkprobe) | 66 ★, 3 forks | Jayden-X-L |
 | github | [kuangre123/codex-switch](https://github.com/kuangre123/codex-switch) | 65 ★, 1 forks | kuangre123 |
@@ -200,6 +205,7 @@
 | github | [Octo-o-o-o/deepseek-harness-applicants](https://github.com/Octo-o-o-o/deepseek-harness-applicants) | 52 ★, 2 forks | Octo-o-o-o |
 | x | [Hasan Toor @hasantoxr · 12h DeepSeek just did it again. They open-sourced their own agent harness that goes straight against Claude Code and](https://x.com/hasantoxr/status/2088317043741491699) | 52 ♥, 10,245 views, 10 replies | Hasan Toor |
 | github | [Anionex/dsh-turn-rewind](https://github.com/Anionex/dsh-turn-rewind) | 47 ★, 1 forks | Anionex |
+| xiaohongshu | [DeepSeek Harness 的 12,293 次提交](https://www.xiaohongshu.com/explore/6a7df058000000003300df36) | 47 ♥ | TOMATOFQY |
 | x | [林亦LYi @linyiLYi · 14h 骂它的拿着一把“今天就得能用”的尺子，夸它的拿着一把“明天怎么组装”的尺子。 Article 聊聊 DeepSeek Harness 争议 DeepSeek Harness... 13 3 45 7.8K](https://x.com/linyiLYi/status/2088294463676522625) | 45 ♥, 7,887 views, 13 replies | 林亦LYi |
 | github | [LaplaceYoung/oh-my-dsh](https://github.com/LaplaceYoung/oh-my-dsh) | 44 ★, 1 forks | LaplaceYoung |
 | github | [omdsh-dev/dsh-annotation](https://github.com/omdsh-dev/dsh-annotation) | 43 ★, 2 forks | omdsh-dev |
@@ -273,6 +279,7 @@
 | xiaohongshu | [Deepseek harness配置，远程及插件管理](https://www.xiaohongshu.com/explore/6a7fb6be000000003400ca9e) | 17 ♥ | 好多鱼 |
 | xiaohongshu | [浅测DeepSeek Harness（用户向）](https://www.xiaohongshu.com/explore/6a7deaee00000000260379a2) | 17 ♥ | 善良兄 |
 | youtube | [深度体验DeepSeek Harness四大功能：前端开发，代码纠错，论文编写，agent插件开发](https://www.youtube.com/watch?v=PzFQUF0KTig) | 17 views | 荒野全栈AI |
+| xiaohongshu | [deepseek harness使用第一步，先换个皮肤](https://www.xiaohongshu.com/explore/6a7deb39000000002403fa5c) | 17 ♥ | 子鱼尘AI |
 | github | [dingyi222666/dsh-focus-chat](https://github.com/dingyi222666/dsh-focus-chat) | 16 ★, 0 forks | dingyi222666 |
 | github | [omdsh-dev/dsh-toolkit](https://github.com/omdsh-dev/dsh-toolkit) | 16 ★, 0 forks | omdsh-dev |
 | x | [Ruiteng Huang @huangruiteng · 13h DeepSeek 的 Harness 战术非常激进，打的是一张 plugin scaling 的明牌：不和 CC/Codex 打绝对的完备能力，而打生态可拓展性、打长期效益。持续吸收好的 plugin——数据层训](https://x.com/huangruiteng/status/2088306107332833559) | 16 ♥, 3,605 views, 1 replies | Ruiteng Huang |
@@ -311,6 +318,7 @@
 | github | [lehhair/dsh-mobile](https://github.com/lehhair/dsh-mobile) | 11 ★, 3 forks | lehhair |
 | github | [omdsh-dev/dsh-deep-research](https://github.com/omdsh-dev/dsh-deep-research) | 11 ★, 0 forks | omdsh-dev |
 | github | [CocoSgt/dsh-nsfw](https://github.com/CocoSgt/dsh-nsfw) | 11 ★, 3 forks | CocoSgt |
+| xiaohongshu | [Deepseek Harness！](https://www.xiaohongshu.com/explore/6a7dc2a400000000220308ac) | 11 ♥ | 浅川 |
 | hacker_news | [DeepSeek Harness Released](https://news.ycombinator.com/item?id=49285620) | 10 points, 0 comments | rochansinha |
 | github | [left0ver/dsh-file-review](https://github.com/left0ver/dsh-file-review) | 10 ★, 2 forks | left0ver |
 | github | [flymysql/dsh-remote](https://github.com/flymysql/dsh-remote) | 10 ★, 1 forks | flymysql |
@@ -354,6 +362,7 @@
 | github | [omdsh-dev/dsh-advisor](https://github.com/omdsh-dev/dsh-advisor) | 8 ★, 2 forks | omdsh-dev |
 | hacker_news | [Show HN: Try Benzi – A coding harness/agent beating Claude Code itself on Sonnet](https://news.ycombinator.com/item?id=49226627) | 8 points, 0 comments | showhz |
 | hacker_news | [ResourceD – Toolkit for helping DevOps to write automation tools](https://news.ycombinator.com/item?id=10400212) | 8 points, 1 comments | didip |
+| xiaohongshu | [拆解 deepseek-harness 六大核心创新](https://www.xiaohongshu.com/explore/6a7ee779000000002403c656) | 8 ♥ | 一颗恒星 |
 | x | [It&#x27;s a DeepSeek-Harness plugin now](https://x.com/BruzWJ/status/2088122325418065976) | 7 ♥, 876 views, 2 replies | BruzWJ |
 | github | [omdsh-dev/dsh-plugin-skills](https://github.com/omdsh-dev/dsh-plugin-skills) | 7 ★, 1 forks | omdsh-dev |
 | github | [unknowbug/RE-Framework](https://github.com/unknowbug/RE-Framework) | 7 ★, 2 forks | unknowbug |
@@ -532,6 +541,10 @@
 | github | [STARDUSTLC666/dsh-dingtalk](https://github.com/STARDUSTLC666/dsh-dingtalk) | 3 ★, 0 forks | STARDUSTLC666 |
 | github | [dsh-codex-subscription](https://github.com/WSL043/dsh-codex-subscription) | 3 ★, 1 forks | WSL043 |
 | github | [dsh-voice](https://github.com/3274375092/dsh-voice) | 3 ★, 0 forks | 3274375092 |
+| xiaohongshu | [DeepSeek Harness发布，我们确定了一个事情](https://www.xiaohongshu.com/explore/6a7eafd90000000022013f7b) | 3 ♥ | LangAlpha | Ginlix AI |
+| xiaohongshu | [DeepSeek Harness已来，一起搞懂它](https://www.xiaohongshu.com/explore/6a7ecd2f0000000025007982) | 3 ♥ | 出前一廷🍜（HKU烹饪版） |
+| xiaohongshu | [deepseek harness没有惊喜](https://www.xiaohongshu.com/explore/6a7dd32b000000002403f3ec) | 3 ♥ | 长空的AI世界 |
+| xiaohongshu | [DeepSeek Harness 像 foobar2000？](https://www.xiaohongshu.com/explore/6a7ee9020000000028008fb1) | 3 ♥ | zlbigger |
 | hacker_news | [DeepSeek Harness: Everything Is a Plugin](https://news.ycombinator.com/item?id=49287821) | 2 points, 0 comments | Zhengqbbb |
 | hacker_news | [Show HN: Pragma – Stop copying context between AI agents](https://news.ycombinator.com/item?id=49268135) | 2 points, 0 comments | pqpo |
 | hacker_news | [Programmatic Jenkins jobs using the Job DSL plugin](https://news.ycombinator.com/item?id=12605786) | 2 points, 0 comments | richid |
@@ -676,6 +689,8 @@
 | github | [dsh-voice-call](https://github.com/PandaPolo/dsh-voice-call) | 1 ★, 0 forks | PandaPolo |
 | github | [dsh-speak](https://github.com/Alan2Z/dsh-speak) | 1 ★, 0 forks | Alan2Z |
 | github | [chicheng-gate](https://github.com/534119219/chicheng-gate) | 1 ★, 0 forks | 534119219 |
+| xiaohongshu | [DeepSeek Harness到底是什么](https://www.xiaohongshu.com/explore/6a7e8199000000003301bccb) | 1 ♥ | 打工人的AI外挂 |
+| xiaohongshu | [出海需求挖掘--deepseek harness](https://www.xiaohongshu.com/explore/6a7e59830000000008012c60) | 1 ♥ | 出海小茶馆 |
 | hacker_news | [https://news.ycombinator.com/item?id=49298627](https://news.ycombinator.com/item?id=49298627) | — | tornikeo |
 | hacker_news | [https://news.ycombinator.com/item?id=49293650](https://news.ycombinator.com/item?id=49293650) | — | scotty79 |
 | hacker_news | [https://news.ycombinator.com/item?id=49292294](https://news.ycombinator.com/item?id=49292294) | — | z_rho_one |
@@ -859,7 +874,6 @@
 | github | [dsh-fun-ticker](https://github.com/omdsh-dev/dsh-fun-ticker) | — | omdsh-dev |
 | github | [dsh-fun-typewriter](https://github.com/omdsh-dev/dsh-fun-typewriter) | — | omdsh-dev |
 | github | [dsh-launcher](https://github.com/SnowCrescenter-tech/dsh-launcher) | — | SnowCrescenter-tech |
-| xiaohongshu | [全网最全的DeepSeek Harness终极教程！](https://www.xiaohongshu.com/explore/6a7eed6a000000000801102e) | — | AI拯救打工人（幻觉版） |
 | xiaohongshu | [DeepSeek Harness 很强 但不好用](https://www.xiaohongshu.com/explore/6a7f20aa00000000220163e7) | — | AI拯救打工人（幻觉版） |
 | github | [dsh-routing-suite](https://github.com/yjh051108/dsh-routing-suite) | — | yjh051108 |
 | github | [dsh-agent-rp](https://github.com/hewzhew/dsh-agent-rp) | — | hewzhew |

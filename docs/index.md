@@ -2,7 +2,7 @@
 
 > 一个可重复更新的公开资料聚合体：仓库、插件、索引、文章、帖子、图片缩略图和视频链接。原始观测保留在 `data/raw/`，SQLite 是可查询的派生索引。
 
-当前数据集版本：**v20260816T005335Z**，完成时间：**2026-08-16T00:53:40Z**。共 **12,930** 条去重记录，覆盖 **14** 个平台，外部媒体资产 **875** 条。
+当前数据集版本：**v20260816T012711Z**，完成时间：**2026-08-16T01:27:11Z**。共 **12,944** 条去重记录，覆盖 **14** 个平台，外部媒体资产 **907** 条。
 
 ## 三句话结论
 
@@ -26,7 +26,7 @@
 | github | 12,591 | public REST API |
 | hacker_news | 101 | Algolia public search API |
 | x | 77 | ego-browser visible DOM |
-| xiaohongshu | 51 | ego-browser visible DOM |
+| xiaohongshu | 65 | ego-browser visible DOM |
 | reddit | 35 | ego-browser visible DOM |
 | youtube | 28 | ego-browser visible DOM |
 | web | 21 | public page metadata |
@@ -43,7 +43,7 @@
 | 分类 | 记录 | 带媒体 |
 | --- | ---: | ---: |
 | deepseek-harness-forks | 11,254 | 0 |
-| core-and-ecosystem | 997 | 135 |
+| core-and-ecosystem | 1,011 | 149 |
 | ui-and-desktop | 229 | 4 |
 | index-and-marketplace | 179 | 34 |
 | operations-and-safety | 106 | 1 |
@@ -61,12 +61,12 @@
 | github | [liustack/modlens](https://github.com/liustack/modlens) | 79.38 | B | 100.00 | multimedia-and-vision |
 | github | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 78.66 | B | 100.00 | core-and-ecosystem |
 | github | [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness) | 77.44 | B | 100.00 | operations-and-safety |
-| github | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 76.94 | B | 100.00 | ui-and-desktop |
-| github | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 76.21 | B | 100.00 | ui-and-desktop |
+| github | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 76.93 | B | 100.00 | ui-and-desktop |
 | github | [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | 76.20 | B | 100.00 | ui-and-desktop |
+| github | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 76.20 | B | 100.00 | ui-and-desktop |
 | github | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | 75.65 | B | 100.00 | core-and-ecosystem |
 | github | [superdesigndev/superdesign-skill](https://github.com/superdesigndev/superdesign-skill) | 75.36 | B | 100.00 | core-and-ecosystem |
-| github | [Lum1104/dsh-browser](https://github.com/Lum1104/dsh-browser) | 75.32 | B | 100.00 | ui-and-desktop |
+| github | [Lum1104/dsh-browser](https://github.com/Lum1104/dsh-browser) | 75.31 | B | 100.00 | ui-and-desktop |
 
 ## 高互动/高关注记录
 
