@@ -5,6 +5,74 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 2026-08-16 | github | plugin | [Co-Engram](https://github.com/Co-Engram/Co-Engram) | Co-Engram | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [DSH-Session-Sync](https://github.com/hajimimaodie8/DSH-Session-Sync) | hajimimaodie8 | ui-and-desktop |
+| 2026-08-16T13:41:06Z | github | plugin | [DSH-Think-zh](https://github.com/Len7183/DSH-Think-zh) | Len7183 | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [DSH-taskboard](https://github.com/shengsheng90/DSH-taskboard) | shengsheng90 | core-and-ecosystem |
+| 2026-08-16T13:41:06Z | github | ecosystem-reference | [MistyMoon-DSH](https://github.com/mianyoubiaoqing/MistyMoon-DSH) | mianyoubiaoqing | core-and-ecosystem |
+| 2026-08-16T13:41:06Z | github | ecosystem-reference | [NoLetMe](https://github.com/Yuer6327/NoLetMe) | Yuer6327 | core-and-ecosystem |
+| 2026-08-16T13:41:06Z | github | ecosystem-reference | [Vladimir-Human/ru-marketplace-mcpdsh](https://github.com/Vladimir-Human/ru-marketplace-mcp) | Vladimir-Human | index-and-marketplace |
+| 2026-08-16 | github | plugin | [bash-on-windows](https://github.com/bainianlaoyao/bash-on-windows) | bainianlaoyao | core-and-ecosystem |
+| 2026-08-16T13:41:06Z | github | ecosystem-reference | [deepseek-harness-android-app](https://github.com/Jensen-Yao/deepseek-harness-android-app) | Jensen-Yao | core-and-ecosystem |
+| 2026-08-16T13:41:06Z | github | ecosystem-reference | [dockyard-dsh](https://github.com/AITabby/dockyard-dsh) | AITabby | core-and-ecosystem |
+| 2026-08-16T13:41:06Z | github | ecosystem-reference | [dsh-Desktop](https://github.com/qinyre/dsh-Desktop) | qinyre | ui-and-desktop |
+| 2026-08-16T13:41:06Z | github | plugin | [dsh-anchored-flash](https://github.com/ruler770525/dsh-anchored-flash) | ruler770525 | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-auxiliary](https://github.com/dsh-plugins/dsh-auxiliary) | dsh-plugins | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-background-agents](https://github.com/PerryLink/dsh-background-agents) | PerryLink | core-and-ecosystem |
+| 2026-08-16T13:41:06Z | github | plugin | [dsh-bell-notify](https://github.com/Laplace-bit/dsh-bell-notify) | Laplace-bit | core-and-ecosystem |
+| 2026-08-16T13:41:06Z | github | ecosystem-reference | [dsh-better-markdown](https://github.com/zerob13/dsh-better-markdown) | zerob13 | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-bottom-info-bar](https://github.com/songoao25/dsh-bottom-info-bar) | songoao25 | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-chatgpt-subscription](https://github.com/songoao25/dsh-chatgpt-subscription) | songoao25 | core-and-ecosystem |
+| 2026-08-16T13:41:06Z | github | ecosystem-reference | [dsh-coding-companion](https://github.com/FxRayHughes/dsh-coding-companion) | FxRayHughes | core-and-ecosystem |
+| 2026-08-16T13:41:06Z | github | plugin | [dsh-context7](https://github.com/Nrxous/dsh-context7) | Nrxous | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-depguard](https://github.com/DeLightor/dsh-depguard) | DeLightor | core-and-ecosystem |
+| 2026-08-16T13:41:06Z | github | ecosystem-reference | [dsh-desktop-hub](https://github.com/FlashingChen/dsh-desktop-hub) | FlashingChen | index-and-marketplace |
+| 2026-08-16 | github | plugin | [dsh-desktop-launcher](https://github.com/Yvesgao/dsh-desktop-launcher) | Yvesgao | ui-and-desktop |
+| 2026-08-16 | github | plugin | [dsh-ecc](https://github.com/gongyijie85/dsh-ecc) | gongyijie85 | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-ha-orchestrator](https://github.com/Saktawdi/dsh-ha-orchestrator) | Saktawdi | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-jenkins-cli](https://github.com/jsoncode/dsh-jenkins-cli) | jsoncode | core-and-ecosystem |
+| 2026-08-16T13:41:06Z | github | ecosystem-reference | [dsh-jupyter](https://github.com/kikulmj/dsh-jupyter) | kikulmj | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-lab](https://github.com/hackerFish/dsh-lab) | hackerFish | core-and-ecosystem |
+| 2026-08-16T13:41:06Z | github | ecosystem-reference | [dsh-live2d-companion](https://github.com/Tisitan/dsh-live2d-companion) | Tisitan | core-and-ecosystem |
+| 2026-08-16T13:41:06Z | github | plugin | [dsh-md-notes](https://github.com/XieZongChen/dsh-md-notes) | XieZongChen | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-mermaid-image-preview](https://github.com/baconbao/dsh-mermaid-image-preview) | baconbao | multimedia-and-vision |
+| 2026-08-16 | github | plugin | [dsh-mermaid-render](https://github.com/genius-alray/dsh-mermaid-render) | genius-alray | ui-and-desktop |
+| 2026-08-16 | github | plugin | [dsh-mobile-glass](https://github.com/YiRan0/dsh-mobile-glass) | YiRan0 | core-and-ecosystem |
+| 2026-08-16T13:41:06Z | github | plugin | [dsh-notifacation-frame](https://github.com/gameswu/dsh-notifacation-frame) | gameswu | core-and-ecosystem |
+| 2026-08-16T13:41:06Z | github | ecosystem-reference | [dsh-page-preview](https://github.com/watericetangcw/dsh-page-preview) | watericetangcw | core-and-ecosystem |
+| 2026-08-16T13:41:06Z | github | plugin | [dsh-peak-hours](https://github.com/lco117/dsh-peak-hours) | lco117 | core-and-ecosystem |
+| 2026-08-16T13:41:06Z | github | plugin | [dsh-plain-plugin-menu](https://github.com/4mForAI/dsh-plain-plugin-menu) | 4mForAI | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-plugin-advisor](https://github.com/ChengxiuCDP/dsh-plugin-advisor) | ChengxiuCDP | core-and-ecosystem |
+| 2026-08-16T13:41:06Z | github | plugin | [dsh-plugin-butler](https://github.com/imtanhui/dsh-plugin-butler) | imtanhui | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-plugin-collapsible-steps](https://github.com/mervyn-teo/dsh-plugin-collapsible-steps) | mervyn-teo | core-and-ecosystem |
+| 2026-08-16T13:41:06Z | github | plugin | [dsh-plugin-integration](https://github.com/MutaLucem/dsh-plugin-integration) | MutaLucem | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-plugin-qr-connect](https://github.com/mervyn-teo/dsh-plugin-qr-connect) | mervyn-teo | core-and-ecosystem |
+| 2026-08-16T13:41:06Z | github | plugin | [dsh-pref-kit](https://github.com/gameswu/dsh-pref-kit) | gameswu | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-project-kanban](https://github.com/StruggleYang/dsh-project-kanban) | StruggleYang | core-and-ecosystem |
+| 2026-08-16T13:41:06Z | github | plugin | [dsh-qqbot-bridge](https://github.com/wang-22-code/dsh-qqbot-bridge) | wang-22-code | core-and-ecosystem |
+| 2026-08-16T13:41:06Z | github | plugin | [dsh-quant](https://github.com/pengpengyi92/dsh-quant) | pengpengyi92 | core-and-ecosystem |
+| 2026-08-16T13:41:06Z | github | plugin | [dsh-round-table](https://github.com/vuchisu069-source/dsh-round-table) | vuchisu069-source | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-screen-agent](https://github.com/lak321/dsh-screen-agent) | lak321 | multimedia-and-vision |
+| 2026-08-16T13:41:06Z | github | plugin | [dsh-session-pause](https://github.com/watericetangcw/dsh-session-pause) | watericetangcw | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-session-pin](https://github.com/PerryLink/dsh-session-pin) | PerryLink | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-smooth-stream](https://github.com/Laplace-bit/dsh-smooth-stream) | Laplace-bit | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-svg-motion](https://github.com/weike-zhang/dsh-svg-motion) | weike-zhang | core-and-ecosystem |
+| 2026-08-16T13:41:06Z | github | ecosystem-reference | [dsh-tavern](https://github.com/chen731215-dev/dsh-tavern) | chen731215-dev | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-theme-kit](https://github.com/ink5897/dsh-theme-kit) | ink5897 | ui-and-desktop |
+| 2026-08-16T13:41:06Z | github | plugin | [dsh-thinking-notifier](https://github.com/6-debug-6/dsh-thinking-notifier) | 6-debug-6 | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-thought-buddy](https://github.com/dsh-plugins/dsh-thought-buddy) | dsh-plugins | core-and-ecosystem |
+| 2026-08-16T13:41:06Z | github | plugin | [dsh-timeline-studio-plugin](https://github.com/MartinDelophy/dsh-timeline-studio-plugin) | MartinDelophy | core-and-ecosystem |
+| 2026-08-16T13:41:06Z | github | plugin | [dsh-trajectory-governor](https://github.com/chunsi-w/dsh-trajectory-governor) | chunsi-w | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-ui-appearance](https://github.com/TQSY114514/dsh-ui-appearance) | TQSY114514 | core-and-ecosystem |
+| 2026-08-16T13:41:06Z | github | plugin | [dsh-usage-plugin](https://github.com/Qiongkura/dsh-usage-plugin) | Qiongkura | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-virtual-product-team](https://github.com/songoao25/dsh-virtual-product-team) | songoao25 | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-voice-chat](https://github.com/lak321/dsh-voice-chat) | lak321 | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-voice-input-plugin](https://github.com/Zhangbo-cn/dsh-voice-input-plugin) | Zhangbo-cn | core-and-ecosystem |
+| 2026-08-16T13:41:06Z | github | ecosystem-reference | [dsh-vscode](https://github.com/Lixxx1/dsh-vscode) | Lixxx1 | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [kb-rag](https://github.com/Breeze136/kb-rag) | Breeze136 | core-and-ecosystem |
+| 2026-08-16T13:41:06Z | github | ecosystem-reference | [kubemd](https://github.com/guiyi-labs/kubemd) | guiyi-labs | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [oss-prompt-optimizer](https://github.com/seven282/oss-prompt-optimizer) | seven282 | core-and-ecosystem |
+| 2026-08-16 20:31 Asia/Shanghai | xiaohongshu | note | [别再按 Star 装 DSH 插件了](https://www.xiaohongshu.com/explore/6a81adb70000000032020f38) | Severus S | ecosystem |
 | 5m ago | reddit | post | [Qwen 3.8 27b with DSH(DeepSeek Harness) is Amazing!! Experiences so far and perfomance.](https://www.reddit.com/r/LocalLLaMA/comments/1vpv12b/qwen_38_27b_with_dshdeepseek_harness_is_amazing) | cviperr33 | multimedia-and-vision |
 | 10小时前 | wechat | article | [DeepSeek Harness App 来了！但不是官方的](https://mp.weixin.qq.com/s?__biz=MzYyMzcwMTExNw==&mid=2247483774&idx=1) | 程序员zimo | ui-and-desktop |
 | 2026-08-16T11:07:39Z | github | fork | [Y0m1ya/deepseek-harness](https://github.com/Y0m1ya/deepseek-harness) | Y0m1ya | deepseek-harness-forks |
@@ -14308,6 +14376,7 @@
 | 2021-09-06T09:20:27Z | github | repository | [YaoApp/yao](https://github.com/YaoApp/yao) | YaoApp | ui-and-desktop |
 | 2021-02-23T22:41:06Z | hacker_news | story | [Getting Started with Jenkins Job DSL Plugin for Standardising Your Pipelines](https://news.ycombinator.com/item?id=26243958) | todsacerdoti | core-and-ecosystem |
 | 2020-10-26T00:26:04Z | hacker_news | story | [Ask HN: What is a good source to master Gradle?](https://news.ycombinator.com/item?id=24891501) | watermelon59 | docs-and-learning |
+| 2020-09-03T09:47:24Z | github | repository | [xiaods/k8e](https://github.com/xiaods/k8e) | xiaods | operations-and-safety |
 | 2020-07-22T09:37:24Z | hacker_news | story | [Plugin for Figma: Toolabs Design System Manager](https://news.ycombinator.com/item?id=23915360) | applinist | core-and-ecosystem |
 | 2020-03-25T14:08:22Z | github | repository | [amruthpillai/reactive-resume](https://github.com/amruthpillai/reactive-resume) | amruthpillai | core-and-ecosystem |
 | 2018-12-16T15:38:31Z | github | repository | [EvanLi/Github-Ranking](https://github.com/EvanLi/Github-Ranking) | EvanLi | index-and-marketplace |
