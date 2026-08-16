@@ -158,6 +158,20 @@ class MarketAccessPageTests(unittest.TestCase):
 
         self.assertIn("[hidden] { display: none !important; }", css)
 
+    def test_detail_install_command_stays_inside_primary_column(self) -> None:
+        css = (ROOT / "docs" / "assets" / "store.css").read_text(encoding="utf-8")
+
+        self.assertIn(".detail-primary, .detail-sidebar { min-width: 0; }", css)
+        self.assertIn(
+            ".install-panel { display: grid; grid-template-columns: auto minmax(0, 1fr);",
+            css,
+        )
+        self.assertIn(".install-panel .detail-footnote { grid-column: 1 / -1; margin: 0; }", css)
+        self.assertIn(
+            ".install-command { display: flex; align-items: center; gap: 10px; min-width: 0; width: 100%; }",
+            css,
+        )
+
     def test_home_labels_global_and_market_dataset_versions_separately(self) -> None:
         market_registry = {
             "datasetVersion": "v-market-older",
