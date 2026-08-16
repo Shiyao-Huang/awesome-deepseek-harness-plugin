@@ -15,7 +15,7 @@ PUBLISHER = ROOT / "scripts" / "publish_release_assets.sh"
 
 
 class ReleasePublisherTests(unittest.TestCase):
-    def test_existing_release_survives_transient_probe_failure(self) -> None:
+    def test_existing_release_survives_extended_transient_probe_failure(self) -> None:
         with tempfile.TemporaryDirectory() as temporary_directory:
             temporary = Path(temporary_directory)
             command_log = temporary / "calls.log"
@@ -35,7 +35,7 @@ class ReleasePublisherTests(unittest.TestCase):
                         fi
                         attempts=$((attempts + 1))
                         printf '%s' "$attempts" > "$attempts_file"
-                        [[ "$attempts" -gt 1 ]]
+                        [[ "$attempts" -gt 4 ]]
                         ;;
                       "release view")
                         exit 1
@@ -72,7 +72,13 @@ class ReleasePublisherTests(unittest.TestCase):
             calls = command_log.read_text(encoding="utf-8").splitlines()
             self.assertEqual(
                 [call.split()[1] for call in calls],
-                ["upload", "view", "create", "upload", "edit"],
+                [
+                    "upload", "view", "create",
+                    "upload", "view", "create",
+                    "upload", "view", "create",
+                    "upload", "view", "create",
+                    "upload", "edit",
+                ],
             )
 
 

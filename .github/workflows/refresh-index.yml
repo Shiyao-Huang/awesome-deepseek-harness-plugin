@@ -44,7 +44,7 @@ jobs:
 
       - name: Commit refreshed index
         run: |
-          git add data/raw/api data/raw/upstreams index docs plugin/data README.md
+          git add data/raw index docs plugin/data README.md
           if git diff --cached --quiet; then
             echo "No public-index changes"
             exit 0
