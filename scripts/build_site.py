@@ -904,20 +904,36 @@ def footer_html(prefix: str = "", *, data_path: str, readme_path: str | None = N
     return f"""<footer class="site-footer"><div><strong>dsh store</strong><p>A public, dated directory for the DeepSeek Harness plugin ecosystem.</p></div><div><a href="{readme_path}">Collection rules</a><a href="{data_path}">SQLite</a><a href="{seo_path}">SEO notes</a></div><p class="footer-note">Public metadata only. Platform counts stay native and are never added together.</p></footer>"""
 
 
-def render_home(records: list[dict[str, object]], dataset_version: str, generated_at: str, config: dict[str, str], platform_counts: list[sqlite3.Row], category_counts: list[sqlite3.Row]) -> str:
+def render_home(records: list[dict[str, object]], dataset_version: str, generated_at: str, config: dict[str, str], platform_counts: list[sqlite3.Row], category_counts: list[sqlite3.Row], market_registry: dict[str, object]) -> str:
     """Render the store-style directory homepage."""
 
     category_html, platform_html = filter_buttons(records)
     cards = "".join(card_html(record) for record in records)
     site_url = config["site_url"].rstrip("/")
     image = f"{site_url}/media/screenshots/official.png"
+    market_plugins_value = market_registry.get("plugins")
+    market_plugins = market_plugins_value if isinstance(market_plugins_value, list) else []
+    verified_plugins = sum(
+        plugin.get("verified") is True
+        for plugin in market_plugins
+        if isinstance(plugin, dict)
+    )
+    registry_sources = {
+        str(source["registry"])
+        for plugin in market_plugins
+        if isinstance(plugin, dict) and isinstance(plugin.get("sources"), list)
+        for source in plugin["sources"]
+        if isinstance(source, dict) and source.get("registry")
+    }
     item_list = [
-        {"@type": "ListItem", "position": index, "url": f"{site_url}/skills/{record['id']}.html", "name": record["title"]}
-        for index, record in enumerate(records[:24], 1)
+        {"@type": "ListItem", "position": index, "url": plugin["homepage"], "name": plugin["name"]}
+        for index, plugin in enumerate(market_plugins[:24], 1)
+        if isinstance(plugin, dict) and valid_url(plugin.get("homepage")) and plugin.get("name")
     ]
+    description = "DeepSeek Harness Plugin Store：聚合市面上公开可安装的插件，安装一次 Market Plugin 后，可以用自然语言让 Agent 搜索、核对来源、批准安装并管理插件。"
     head = page_head(
-        "dsh store — DeepSeek Harness plugin ecosystem",
-        config["description"],
+        "deeplugin.store — DeepSeek Harness Plugin Store",
+        description,
         site_url + "/",
         image,
         config,
@@ -925,8 +941,9 @@ def render_home(records: list[dict[str, object]], dataset_version: str, generate
     ).replace("{ASSET_PREFIX}", "")
     stats = {
         "records": len(records),
-        "platforms": len(platform_counts),
-        "media": sum(1 for record in records if record["media"]),
+        "market": len(market_plugins),
+        "verified": verified_plugins,
+        "registries": len(registry_sources),
         "direct": sum(1 for record in records if record["relevance"] == "direct"),
     }
     platform_summary = "".join(
@@ -940,12 +957,12 @@ def render_home(records: list[dict[str, object]], dataset_version: str, generate
 {nav_html()}
 <main class="site-main">
   <section class="hero-store">
-    <div class="hero-copy"><p class="kicker">DSH PLUGIN SIGNALS · {esc(dataset_version)}</p><h1>See what is hot.<br><em>Use what works.</em></h1><p class="hero-lede">当前插件系统里的热门 GitHub 项目、帖子和视频。每条记录都能回到源头，明确的 dsh 插件可以直接复制安装命令。</p><div class="hero-actions"><a class="button button-primary" href="market.html">Browse installable plugins <span aria-hidden="true">→</span></a><a class="button button-quiet" href="#hot">View hot signals <span aria-hidden="true">↓</span></a></div></div>
-    <div class="hero-panel"><div class="panel-label">LATEST SNAPSHOT</div><strong>{esc(date_label(generated_at))}</strong><p>Native counters only. Missing values stay NULL.</p><div class="signal-line"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div>
+    <div class="hero-copy"><p class="kicker">DEEPSEEK HARNESS PLUGIN STORE · {stats['market']:,} INSTALLABLE</p><h1>Find the right plugin.<br><em>Ask your Agent to install it.</em></h1><p class="hero-lede">我们把市面上公开可安装的 DeepSeek Harness 插件聚合到一个 Store，保留来源、版本与精确安装标识。安装一次 Market Plugin，之后直接用自然语言让 Agent 搜索、核对、安装和管理其他插件。</p><div class="hero-actions"><a class="button button-primary" href="market.html">Browse {stats['market']:,} plugins <span aria-hidden="true">→</span></a><a class="button button-quiet" href="#market-plugin">Install Market Plugin <span aria-hidden="true">↓</span></a></div></div>
+    <div class="hero-panel"><div class="panel-label">MARKET PLUGIN · 6 AGENT TOOLS</div><strong>自然语言 → 精确安装</strong><p>网页与 Agent 共用同一份 registry；安装、更新、卸载都由 DSH 请求你批准。</p><div class="hero-tools"><span>search</span><span>details</span><span>plan</span><span>install</span><span>list</span><span>update / remove</span></div></div>
   </section>
-  <section class="stats-row" aria-label="Dataset statistics"><div><strong>{stats['records']:,}</strong><span>records</span></div><div><strong>{stats['direct']:,}</strong><span>direct signals</span></div><div><strong>{stats['platforms']}</strong><span>platforms</span></div><div><strong>{stats['media']:,}</strong><span>with media</span></div></section>
-  <section class="market-band" aria-labelledby="market-heading"><div class="market-copy"><p class="kicker">DEEPSEEK HARNESS PLUGIN STORE</p><h2 id="market-heading">把分散在各处的好插件，收进一个可由 Agent 使用的 Store。</h2><p>deeplugin.store 聚合社区 Registry 和公开提交中的 DeepSeek Harness 插件，保留每个 Listing 的来源、版本与安装标识。人可以在这里浏览，Agent 可以搜索同一份注册表，并在你批准后完成安装和管理。</p><div class="market-outcomes"><span>来源可追溯</span><span>自然语言搜索</span><span>批准后安装</span></div><div class="market-links"><a class="button button-primary" href="market.html">Browse the Store</a><a class="button button-quiet" href="register.html">Register a plugin</a><a class="market-text-link" href="register-agent.html">Agent guide ↗</a><a class="market-text-link" href="data/market-registry.json">Registry JSON ↗</a><a class="market-text-link" href="data/market-registry.schema.json">Registry Schema ↗</a></div></div><div class="market-install"><span>01 · INSTALL THE MARKET PLUGIN</span><code>dsh plugin --profile web add github:Shiyao-Huang/awesome-deepseek-harness-plugin#path:/plugin</code><button class="copy-install" type="button" data-install="dsh plugin --profile web add github:Shiyao-Huang/awesome-deepseek-harness-plugin#path:/plugin" aria-label="Copy market plugin install command">Copy</button><div class="market-install-footer"><small>Every install requires explicit confirmation. 安装一次并重启 DSH；之后直接告诉 Agent 你需要什么插件。</small><a href="http://127.0.0.1:3080/">Open local DSH ↗</a></div></div></section>
-  <ol class="market-flow" aria-label="From Store discovery to approved plugin installation"><li><span>01</span><strong>浏览 Store</strong><p>查看聚合的插件、原始来源、版本和公开信号。</p></li><li><span>02</span><strong>安装 Market Plugin</strong><p>复制上面的命令，安装后重启你的 DSH profile。</p></li><li><span>03</span><strong>直接描述需求</strong><p>对 Agent 说：“找一个能搜索公开网页的插件，并告诉我来源。”</p></li><li><span>04</span><strong>核对并批准</strong><p>Agent 展示来源和精确标识；你批准后才安装，也能继续列出、更新或卸载。</p></li></ol>
+  <section class="stats-row" aria-label="Store statistics"><div><strong>{stats['market']:,}</strong><span>installable plugins</span></div><div><strong>{stats['verified']:,}</strong><span>source verification claims</span></div><div><strong>{stats['registries']:,}</strong><span>attributed registries</span></div><div><strong>{stats['records']:,}</strong><span>ecosystem signals</span></div></section>
+  <section class="market-band" id="market-plugin" aria-labelledby="market-heading"><div class="market-copy"><p class="kicker">ONE INSTALL · THE WHOLE STORE</p><h2 id="market-heading">这不只是一份插件列表。Market Plugin 是 Agent 与 Store 之间的安装入口。</h2><p>deeplugin.store 聚合、去重并持续更新公开 Registry Listing。每个可安装条目都带有稳定 ID、精确 spec、版本和来源归因；安装 Market Plugin 后，Agent 会把你的需求变成检索、核对、安装计划和需要批准的精确操作。</p><div class="market-prompts" aria-label="Natural language Market Plugin examples"><p><span>SEARCH</span>“找一个能搜索公开网页的插件，先告诉我来源。”</p><p><span>INSTALL</span>“给第一个结果生成安装计划，批准后安装到 web profile。”</p><p><span>MANAGE</span>“列出已安装插件，再更新或卸载我指定的包。”</p></div><div class="market-outcomes"><span>{stats['market']:,} 个可安装插件</span><span>网页 / Agent 共用 Registry</span><span>变更操作必须批准</span></div><div class="market-links"><a class="button button-primary" href="market.html">Browse all plugins</a><a class="button button-quiet" href="register.html">Register a plugin</a><a class="market-text-link" href="https://github.com/Shiyao-Huang/awesome-deepseek-harness-plugin/tree/main/plugin">Market Plugin docs ↗</a><a class="market-text-link" href="data/market-registry.json">Registry JSON ↗</a><a class="market-text-link" href="data/market-registry.schema.json">Schema ↗</a></div></div><div class="market-install"><span>INSTALL THE MARKET PLUGIN ONCE</span><code>dsh plugin --profile web add github:Shiyao-Huang/awesome-deepseek-harness-plugin#path:/plugin</code><button class="copy-install" type="button" data-install="dsh plugin --profile web add github:Shiyao-Huang/awesome-deepseek-harness-plugin#path:/plugin" aria-label="Copy market plugin install command">Copy</button><div class="market-install-footer"><small>安装后重启 DSH。之后你只需描述需求；Agent 展示来源和精确 spec，你批准后才会修改 profile。</small><a href="http://127.0.0.1:3080/">Open local DSH ↗</a></div></div></section>
+  <ol class="market-flow" aria-label="From Store discovery to approved plugin installation"><li><span>01</span><strong>Store 持续聚合</strong><p>收录公开可安装插件，按精确 spec 去重，保留来源、版本与日期。</p></li><li><span>02</span><strong>安装 Market Plugin</strong><p>仅需一次安装，它会向 DSH 注册发现、安装与管理工具。</p></li><li><span>03</span><strong>用自然语言请求</strong><p>Agent 按你的能力需求搜索，读取详情并生成可审查的安装计划。</p></li><li><span>04</span><strong>核对并批准</strong><p>Agent 展示稳定 ID、来源和精确 spec；你批准后才安装、更新或卸载。</p></li></ol>
   <section class="hot-signals" id="hot"><div class="section-heading"><div><p class="kicker">HOT NOW</p><h2>What the plugin system is pulling forward</h2></div><p>项目看 stars，内容看各自平台的原生互动信号。</p></div><div class="hot-grid">{hot_tables}</div></section>
   <section class="spotlight"><div class="section-heading"><div><p class="kicker">EDITOR'S CUT</p><h2>What is moving now</h2></div><p>按平台原生指标排序；不同平台不混算。</p></div><div class="spotlight-grid">{spotlight_html(records)}</div></section>
   <section class="directory-layout" id="directory">
@@ -1304,7 +1321,7 @@ def write_store_site(db: sqlite3.Connection, dataset_version: str, generated_at:
         "items": records,
     }
     (DATA / "catalog.json").write_text(json.dumps(catalog, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
-    (DOCS / "index.html").write_text(render_home(records, dataset_version, generated_at, config, platform_counts, category_counts), encoding="utf-8")
+    (DOCS / "index.html").write_text(render_home(records, dataset_version, generated_at, config, platform_counts, category_counts, market_registry), encoding="utf-8")
     (DOCS / "market.html").write_text(render_market_page(market_registry, config), encoding="utf-8")
     (DOCS / "timeline.html").write_text(render_timeline_page(db, dataset_version, config), encoding="utf-8")
     (DOCS / "categories.html").write_text(render_categories_page(records, config), encoding="utf-8")

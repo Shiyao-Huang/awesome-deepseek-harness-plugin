@@ -1,5 +1,11 @@
 const NPM_SPEC = /^(?:@[a-z0-9-~][a-z0-9-._~]*\/)?[a-z0-9-~][a-z0-9-._~]*$/
 const GITHUB_SPEC = /^github:[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+(?:#path:\/[A-Za-z0-9._~/-]+)?$/
+const WORD_SEGMENTER = new Intl.Segmenter(undefined, {granularity: 'word'})
+const QUERY_STOP_WORDS = new Set([
+  'a', 'an', 'and', 'can', 'find', 'for', 'i', 'install', 'me', 'need', 'please',
+  'plugin', 'plugins', 'show', 'that', 'the', 'to', 'want', 'with',
+  '一个', '一款', '可以', '帮', '帮我', '我', '找', '查找', '的', '能', '请', '需要', '想要', '安装', '插件',
+])
 
 
 /** Return whether a registry install spec is safe to place in a displayed command. */
@@ -38,20 +44,49 @@ function searchableText(plugin) {
     plugin.category,
     plugin.description,
     plugin.description_zh,
+    plugin.install?.spec,
     ...(plugin.tags ?? []),
+    ...(plugin.sources ?? []).map((source) => source?.registry),
   ].filter(Boolean).join(' ').toLocaleLowerCase()
 }
 
 
-function relevanceScore(plugin, query) {
-  if (!query) return 0
+function queryTerms(query) {
+  const normalized = String(query ?? '').trim().toLocaleLowerCase()
+  return [...WORD_SEGMENTER.segment(normalized)]
+    .filter((part) => part.isWordLike)
+    .map((part) => part.segment)
+    .filter((term) => !QUERY_STOP_WORDS.has(term) && (term.length > 1 || /^[a-z0-9]$/u.test(term)))
+}
+
+
+function relevanceScore(plugin, query, terms) {
+  if (!query || terms.length === 0) return 0
   const name = String(plugin.name ?? '').toLocaleLowerCase()
   const id = String(plugin.id ?? '').toLocaleLowerCase()
+  const category = String(plugin.category ?? '').toLocaleLowerCase()
+  const tags = (plugin.tags ?? []).map((tag) => String(tag).toLocaleLowerCase())
+  const haystack = searchableText(plugin)
   let score = 0
-  if (name === query || id === query) score += 100
-  if (name.startsWith(query) || id.startsWith(query)) score += 40
-  if (name.includes(query) || id.includes(query)) score += 20
-  score += (plugin.tags ?? []).filter((tag) => String(tag).toLocaleLowerCase().includes(query)).length * 8
+  if (name === query || id === query) score += 200
+  if (name.startsWith(query) || id.startsWith(query)) score += 100
+  if (name.includes(query) || id.includes(query)) score += 70
+  if (haystack.includes(query)) score += 50
+  let matchedTerms = 0
+  for (const term of terms) {
+    if (!haystack.includes(term)) continue
+    matchedTerms += 1
+    if (name === term || id === term) score += 80
+    else if (name.startsWith(term) || id.startsWith(term)) score += 55
+    else if (name.includes(term) || id.includes(term)) score += 35
+    if (tags.some((tag) => tag === term)) score += 34
+    else if (tags.some((tag) => tag.includes(term))) score += 20
+    if (category === term) score += 24
+    score += 8
+  }
+  score += matchedTerms * 12
+  score += Math.round(40 * matchedTerms / terms.length)
+  if (matchedTerms === terms.length && terms.length > 1) score += 60
   return score
 }
 
@@ -59,22 +94,25 @@ function relevanceScore(plugin, query) {
 /** Search current plugins and rank textual relevance before native GitHub stars. */
 export function searchPlugins(registry, {query = '', category, verifiedOnly = false, limit = 10} = {}) {
   const normalizedQuery = String(query ?? '').trim().toLocaleLowerCase()
-  const terms = normalizedQuery.split(/\s+/u).filter(Boolean)
+  const terms = queryTerms(normalizedQuery)
   const boundedLimit = Math.max(1, Math.min(Number.isSafeInteger(limit) ? limit : 10, 100))
-  const matches = registry.plugins.filter((plugin) => {
-    if (category && plugin.category !== category) return false
-    if (verifiedOnly && plugin.verified !== true) return false
-    const haystack = searchableText(plugin)
-    return terms.every((term) => haystack.includes(term))
+  const matches = registry.plugins.flatMap((plugin) => {
+    if (category && plugin.category !== category) return []
+    if (verifiedOnly && plugin.verified !== true) return []
+    const matchedTerms = terms.filter((term) => searchableText(plugin).includes(term)).length
+    const minimumTerms = terms.length <= 1 ? terms.length : Math.min(2, Math.ceil(terms.length / 2))
+    if (matchedTerms < minimumTerms) return []
+    const score = relevanceScore(plugin, normalizedQuery, terms)
+    return [{plugin, score}]
   })
   matches.sort((left, right) => {
-    const relevance = relevanceScore(right, normalizedQuery) - relevanceScore(left, normalizedQuery)
+    const relevance = right.score - left.score
     if (relevance !== 0) return relevance
-    const stars = (right.stars ?? -1) - (left.stars ?? -1)
+    const stars = (right.plugin.stars ?? -1) - (left.plugin.stars ?? -1)
     if (stars !== 0) return stars
-    return String(left.name).localeCompare(String(right.name))
+    return String(left.plugin.name).localeCompare(String(right.plugin.name))
   })
-  return {total: matches.length, plugins: matches.slice(0, boundedLimit)}
+  return {total: matches.length, plugins: matches.slice(0, boundedLimit).map(({plugin}) => plugin)}
 }
 
 

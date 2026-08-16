@@ -109,15 +109,30 @@ class MarketAccessPageTests(unittest.TestCase):
         }
 
     def test_home_links_registry_schema_guides_and_market_plugin(self) -> None:
-        page = build_site.render_home([], "v-test", "2026-08-16T00:00:00Z", self.config, [], [])
+        market_registry = {
+            "plugins": [{
+                "id": "deeplugin-example",
+                "name": "example",
+                "homepage": "https://github.com/owner/example",
+                "verified": True,
+                "sources": [{"registry": "owner/registry"}],
+            }],
+        }
+        page = build_site.render_home([], "v-test", "2026-08-16T00:00:00Z", self.config, [], [], market_registry)
 
         self.assertIn('href="market.html"', page)
         self.assertIn('href="register.html"', page)
-        self.assertIn('href="register-agent.html"', page)
         self.assertIn('href="data/market-registry.json"', page)
         self.assertIn('href="data/market-registry.schema.json"', page)
         self.assertIn("github:Shiyao-Huang/awesome-deepseek-harness-plugin#path:/plugin", page)
-        self.assertIn("Every install requires explicit confirmation", page)
+        self.assertIn("Find the right plugin", page)
+        self.assertIn("这不只是一份插件列表", page)
+        self.assertIn("自然语言 → 精确安装", page)
+        self.assertIn("找一个能搜索公开网页的插件", page)
+        self.assertIn("1</strong><span>installable plugins", page)
+        self.assertIn("1</strong><span>source verification claims", page)
+        self.assertIn("1</strong><span>attributed registries", page)
+        self.assertIn("变更操作必须批准", page)
 
     def test_market_page_projects_exact_install_id_spec_and_source_claim(self) -> None:
         registry = {

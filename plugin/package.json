@@ -1,6 +1,6 @@
 {
   "name": "deeplugin-market",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Agent-native discovery, approved installation, and management for the deeplugin.store DeepSeek Harness plugin registry.",
   "type": "module",
   "main": "lib/index.js",

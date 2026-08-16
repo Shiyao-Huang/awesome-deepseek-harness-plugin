@@ -37,7 +37,7 @@ export async function loadRegistry(signal) {
     const combined = AbortSignal.any([signal ?? timeout.signal, timeout.signal])
     const response = await fetch(REGISTRY_URL, {
       signal: combined,
-      headers: {'User-Agent': 'deeplugin-market/0.1'},
+      headers: {'User-Agent': 'deeplugin-market/0.3'},
     })
     if (!response.ok) throw new Error(`registry HTTP ${response.status}`)
     const registry = await response.json()
