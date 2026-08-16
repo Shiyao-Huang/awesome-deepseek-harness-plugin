@@ -2,7 +2,7 @@
 
 > 一个可重复更新的公开资料聚合体：仓库、插件、索引、文章、帖子、图片缩略图和视频链接。原始观测保留在 `data/raw/`，SQLite 是可查询的派生索引。
 
-当前数据集版本：**v20260816T050521Z**，完成时间：**2026-08-16T05:05:25Z**。共 **12,995** 条去重记录，覆盖 **14** 个平台，外部媒体资产 **952** 条。
+当前数据集版本：**v20260816T053027Z**，完成时间：**2026-08-16T05:30:27Z**。共 **13,032** 条去重记录，覆盖 **14** 个平台，外部媒体资产 **1,015** 条。
 
 ## 三句话结论
 
@@ -25,14 +25,14 @@
 | --- | ---: | --- |
 | github | 12,625 | public REST API |
 | hacker_news | 102 | Algolia public search API |
+| xiaohongshu | 102 | ego-browser visible DOM |
 | x | 77 | ego-browser visible DOM |
-| xiaohongshu | 76 | ego-browser visible DOM |
-| reddit | 40 | ego-browser visible DOM |
+| reddit | 47 | ego-browser visible DOM |
 | youtube | 28 | ego-browser visible DOM |
 | web | 21 | public page metadata |
 | bilibili | 18 | public web metadata API |
+| wechat | 6 | ego-browser visible DOM |
 | linuxdo | 2 | ego-browser visible DOM |
-| wechat | 2 | ego-browser visible DOM |
 | official | 1 | ego-browser visible DOM |
 | v2ex | 1 | ego-browser visible DOM |
 | weibo | 1 | ego-browser visible DOM |
@@ -43,13 +43,13 @@
 | 分类 | 记录 | 带媒体 |
 | --- | ---: | ---: |
 | deepseek-harness-forks | 11,254 | 0 |
-| core-and-ecosystem | 1,051 | 164 |
-| ui-and-desktop | 233 | 4 |
-| index-and-marketplace | 183 | 35 |
-| operations-and-safety | 107 | 1 |
-| multimedia-and-vision | 90 | 6 |
-| docs-and-learning | 41 | 7 |
-| agents-and-orchestration | 36 | 3 |
+| core-and-ecosystem | 1,211 | 184 |
+| index-and-marketplace | 171 | 37 |
+| ui-and-desktop | 164 | 5 |
+| operations-and-safety | 102 | 1 |
+| multimedia-and-vision | 73 | 6 |
+| docs-and-learning | 37 | 7 |
+| agents-and-orchestration | 20 | 3 |
 
 ## 价值衡量摘要
 
@@ -57,25 +57,25 @@
 
 | 平台 | 记录 | value | band | confidence | 分类 |
 | --- | --- | ---: | :---: | ---: | --- |
-| github | [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 80.05 | A | 100.00 | ui-and-desktop |
-| github | [liustack/modlens](https://github.com/liustack/modlens) | 79.47 | B | 100.00 | multimedia-and-vision |
-| github | [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | 78.78 | B | 100.00 | ui-and-desktop |
-| github | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 78.71 | B | 100.00 | core-and-ecosystem |
-| github | [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness) | 77.45 | B | 100.00 | operations-and-safety |
-| github | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 76.99 | B | 100.00 | ui-and-desktop |
-| github | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 76.32 | B | 100.00 | ui-and-desktop |
-| github | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | 75.71 | B | 100.00 | core-and-ecosystem |
-| github | [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | 75.54 | B | 100.00 | multimedia-and-vision |
-| github | [Lum1104/dsh-browser](https://github.com/Lum1104/dsh-browser) | 75.40 | B | 100.00 | ui-and-desktop |
+| github | [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 78.71 | B | 100.00 | core-and-ecosystem |
+| github | [dsh-web-ui#packages/dsh-web-ui-all](https://github.com/zhu1090093659/dsh-web-ui) | 77.55 | B | 100.00 | ui-and-desktop |
+| github | [modlens](https://github.com/liustack/modlens) | 76.96 | B | 100.00 | multimedia-and-vision |
+| github | [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 76.32 | B | 100.00 | ui-and-desktop |
+| github | [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | 76.28 | B | 100.00 | ui-and-desktop |
+| github | [dsh-deep-whale#maid-atelier](https://github.com/Small-tailqwq/dsh-deep-whale) | 75.70 | B | 100.00 | core-and-ecosystem |
+| github | [treg](https://github.com/superdesigndev/treg) | 75.38 | B | 100.00 | operations-and-safety |
+| github | [sandbase-harness](https://github.com/sandbaseai/sandbase-harness) | 74.94 | B | 100.00 | core-and-ecosystem |
+| github | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 74.49 | B | 100.00 | multimedia-and-vision |
+| github | [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | 74.39 | B | 100.00 | core-and-ecosystem |
 
 ## 高互动/高关注记录
 
 | 平台 | 标题 | 作者 | 指标 | 分类 |
 | --- | --- | --- | --- | --- |
 | github | [ollama/ollama](https://github.com/ollama/ollama) | ollama | 178,620 ★, 17,422 forks | core-and-ecosystem |
-| github | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-ai | 118,951 ★, 11,691 forks | core-and-ecosystem |
+| github | [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-ai | 118,951 ★, 11,691 forks | core-and-ecosystem |
 | github | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | Graphify-Labs | 106,785 ★, 10,388 forks | core-and-ecosystem |
-| github | [nexu-io/open-design](https://github.com/nexu-io/open-design) | nexu-io | 87,046 ★, 10,122 forks | ui-and-desktop |
+| github | [open-design](https://github.com/nexu-io/open-design) | nexu-io | 87,046 ★, 10,122 forks | core-and-ecosystem |
 | github | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | bytedance | 80,063 ★, 10,960 forks | agents-and-orchestration |
 | github | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | shareAI-lab | 74,326 ★, 12,035 forks | core-and-ecosystem |
 | github | [headroom](https://github.com/headroomlabs-ai/headroom) | headroomlabs-ai | 66,438 ★, 5,097 forks | core-and-ecosystem |

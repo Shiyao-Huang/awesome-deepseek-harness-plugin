@@ -1,0 +1,49 @@
+{
+  "capture_kind": "visible-dom",
+  "captured_at": "2026-08-16T04:59:17Z",
+  "collector": "ego-browser/ego-lite",
+  "method": "public Sogou WeChat search/detail visible DOM/text",
+  "status": "ok",
+  "page_url": "https://weixin.sogou.com/weixin?type=2&query=DeepSeek%20Harness",
+  "page_title": "DeepSeek Harness 开始",
+  "article_source_url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSxpIjTLo2YfLcBa-DyF-PcAE01qvdB3aQlqXa8Fplpd9EmyiO_IZ8WHWhkJJmZ5Fe5SP24exrraYG0lmYaG7XKK2F4vVpNrSBgnVqZsEW6X86JjyYtVodD9xG7Ip6zXdxNYZkcYvvimUzpIgKasLSTUzdJC84aZeQ0m-gQToJHV4VS9QHR3ML5GHziF3IrcWXmVF5My58j-pq-L0tCZthTCTJmCU1UgHwQ..&type=2&query=DeepSeek%20Harness&token=4DBFB19E42A18234EAECB3C83CFCFFE3EB5450056A814276",
+  "author": "GoCoding",
+  "published": "2026年8月16日 00:11",
+  "visible_text": "DeepSeek Harness 开始\n原创\nGoCoding\n2026年8月16日 00:11\n江苏\nDeepSeek Harness（dsh）是由 DeepSeek AI[1] 开发的开源 agent harness（智能体框架）。\n它采用一切皆插件的架构，并由 Cordis[2] 驱动，其设计参见论文 A Programming Paradigm for Spatiotemporal Composability [3]。\n代码: https://github.com/deepseek-ai/deepseek-harness\n文档: https://github.com/deepseek-ai/deepseek-harness/blob/master/README.zh.md\n准备\n安装 Node,\n打开 https://nodejs.org/en/download\n选择 for 你的系统 using nvm with pnpm\n依照指导安装，验证版本通过\n安装 Git,\n打开 https://git-scm.com/install\n选择你的系统，依照指导安装\n获取 DeepSeek API key，\n打开 https://platform.deepseek.com\n注册，再创建 API Key，复制留存\n运行\n从仓库源码运行：\ngit clone https://github.com/deepseek-ai/deepseek-harness.git\ncd deepseek-harness\n# 配置 DeepSeek API key: 由启动环境提供，或之后 UI 配置\nexport DEEPSEEK_API_KEY=sk-your-key-here\npnpm install\npnpm run build\npnpm dsh web\n入门\ndsh 入门: https://deepseek-harness.github.io/deepseek-harness/guide/quickstart\n按指导配置模型、选择工作区、运行任务。提示示例：\n读 idea 文档，理解愿景、坚持原则。先梳理要设计的条目，及其组织、优先级等。\n目前 DeepSeek API 价格已采用峰谷定价，长时任务可考虑空闲时段运行。\n脚本\nDeepSeek Harness 提供了 Python SDK，可以用 Python 来驱动和编排 Agent 执行复杂任务，而不仅仅依赖 Web 界面或命令行。一般用于脚本自动化、或集成到现有工�...\nPython SDK: https://deepseek-harness.github.io/deepseek-harness/guide/python-sdk\n开发\nDeepSeek Harness 本身就是一个“调度中心”，它的核心设计原则是“一切皆插件”。\n因此需要借助 AI，尤其是 Harness 自身或其他 AI 编程工具，来完成插件开发。这是官方和社区推荐的可行路径。\ndsh 开发指南: https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/development.zh.md\ndsh 架构指南: https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/architecture.zh.md\n示例\n以“AI 视频生产”为例，其 Harness 协同架构如下：\n这些 Agent 本身并未内置，都要开发相应的 dsh 插件。\nHarness 作为总导演、制片中心，调度完成所有 Agent 的数据流转：\n最终，用户给 Harness 提交需求，由它自主分析选择不同方式来调度生产视频：\n插件\n那开发第一个插件: https://deepseek-harness.github.io/deepseek-harness/develop/basic/\n必然是 dsh 开始的下一步了。\n有了自己的 idea，就立即动手开始做 Agent 插件吧。\n结语\nLet's Go Coding ~\n脚注\n[1] DeepSeek AI: https://deepseek.com/\n[2] Cordis: https://github.com/cordiverse/cordis\n[3] A Programming Paradigm for Spatiotemporal Composability: https://github.com/cordiverse/paper\n喜欢作者\n赞\n分享\n在看\n留言 写留言",
+  "search_visible_text": "无障碍 登录\n资讯\n网页\n微信\n知乎\n图片\n视频\n医疗\n汉语\n翻译\n问问\n百科\n更多>>\n以下内容来自微信公众平台\nDeepSeek Harness 开始\nDeepSeek Harness(dsh)是由 DeepSeek AI[1] 开发的开源 agent harness(智能体框架).它采用一切皆插件的架构,并由 Cordis[2] ...\nGoCoding12小时前\nDeepSeek Harness 的 10 个热门插件,从榜单到用法\n【摘要】DeepSeek Harness 的插件系统最近很热闹.这篇先讲怎么一行装好它,再按星数挑 10 个推荐.DeepSeek Harness上线便...\n叽里呱啦bot15小时前\nDeepseek Harness插件\ndeepseek-harness-desktop:桌面端 Stars:4,702 | :https://github.com/anywhere-labs/deepseek-harness-desktop 背景 / 痛点:官方只能...\nOmniKit1小时前\nDeepSeek Harness 开源了,但很多人还没看懂这步棋\n8月13日,DeepSeek 发 V4 Pro 正式版.热闹是模型的,真正值得盯的其实是同日开源的 DeepSeek Harness(DSH)开发者预览版——...\nso就是这样12小时前\nDeepSeek Harness 深度实测\nDeepSeek Harness 深度实测:新一代开源AI智能体底座,碾压传统Agent框架?(安装教程+使用技巧+竞品对比)就在近日,...\n小吴小吴bug全无3小时前\nDeepSeek Harness爆火后,普通人和公司该不该用?先看这份实测结论\n摘要:DeepSeek Harness不是新模型,而是一套把模型、工具、文件、Shell、会话和子代理组织起来的Agent运行框架.它的Code ...\n学窝社团1小时前\nDeepSeek Harness | 8月16日GitHub排名/热点/工具\nDeepSeek Harness | 8月16日GitHub排名/热点/工具一、本周榜单主线:Agent 基建 > 模型本周 GitHub 热榜被 Agent 基础设施 全面占...\n幺叁幺肆4小时前\nDeepSeek Harness插件一夜燃爆GitHub:长期记忆、电子宠物、4399小游戏全来了\nDeepSeek Harness这下真快被网友「插成万物」了.小黑鲸上线还没多久,单单在GitHub上打着dsh-plugin标签的公开仓库,就已经冲...\n程序员总部1小时前\nDeepSeek Harness 最新实践:从模型部署到标准评测一站式上手\n1. 什么是 DeepSeek HarnessDeepSeek Harness 是 DeepSeek 官方开源的模型推理与评测框架,仓库地址为:https://github.com/...\n源课笔记13小时前\nDeepSeek Harness开源!10万Star背后,「一切皆插件」\nDeepSeek 这次没有发布新模型.它开源的是模型外面那套让 AI 干活的系统.它叫 DeepSeek Harness,简称 dsh.官方给出的公式很...\nAI显眼包小雷达14小时前\n找到约937条结果",
+  "source": {
+    "platform": "wechat",
+    "query": "DeepSeek Harness",
+    "url": "https://weixin.sogou.com/weixin?type=2&query=DeepSeek%20Harness",
+    "collection_mode": "public Sogou WeChat result/detail"
+  },
+  "observations": [
+    {
+      "platform": "wechat",
+      "query": "DeepSeek Harness",
+      "source_url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSxpIjTLo2YfLcBa-DyF-PcAE01qvdB3aQlqXa8Fplpd9EmyiO_IZ8WHWhkJJmZ5Fe5SP24exrraYG0lmYaG7XKK2F4vVpNrSBgnVqZsEW6X86JjyYtVodD9xG7Ip6zXdxNYZkcYvvimUzpIgKasLSTUzdJC84aZeQ0m-gQToJHV4VS9QHR3ML5GHziF3IrcWXmVF5My58j-pq-L0tCZthTCTJmCU1UgHwQ..&type=2&query=DeepSeek%20Harness&token=4DBFB19E42A18234EAECB3C83CFCFFE3EB5450056A814276",
+      "collected_at": "2026-08-16T04:59:17Z",
+      "collector": "ego-browser/ego-lite",
+      "method": "public Sogou WeChat search/detail visible DOM/text",
+      "status": "ok",
+      "result_count": 1,
+      "notes": "The public result opened an article view in the browser. No public like/share/comment counts were exposed; those interaction metrics remain NULL. The Sogou result URL is retained because the underlying mp.weixin.qq.com URL was not exposed by the public page.",
+      "items": [
+        {
+          "platform": "wechat",
+          "external_id": "sogou:GoCoding:DeepSeek-Harness-start",
+          "url": "https://weixin.sogou.com/weixin?type=2&query=DeepSeek%20Harness#result-gocoding",
+          "item_type": "article",
+          "title": "DeepSeek Harness 开始",
+          "author": "GoCoding",
+          "published_label": "2026年8月16日 00:11",
+          "content_text": "DeepSeek Harness（dsh）是由 DeepSeek AI[1] 开发的开源 agent harness（智能体框架）。它采用一切皆插件的架构，并由 Cordis[2] 驱动，其设计参见论文 A Programming Paradigm for Spatiotemporal Composability [3]。代码: https://github.com/deepseek-ai/deepseek-harness 文档: https://github.com/deepseek-ai/deepseek-harness/blob/master/README.zh.md 安装 Node、Git、DeepSeek API key 后运行 pnpm install、pnpm run build、pnpm dsh web，文中还提供入门、Python SDK、开发指南和插件开发链接。",
+          "media_kind": "none",
+          "metrics": {"likes": null, "shares": null, "comments": null, "views": null, "metric_source": "Public WeChat article view; no interaction counters exposed", "observed_at": "2026-08-16T04:59:17Z"},
+          "tags": ["wechat", "public-article", "DeepSeek Harness"],
+          "rights_note": "Public article text only; no third-party media mirrored."
+        }
+      ]
+    }
+  ]
+}

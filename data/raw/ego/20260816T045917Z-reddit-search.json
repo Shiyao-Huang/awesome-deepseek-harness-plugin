@@ -1,0 +1,114 @@
+{
+  "capture_kind": "visible-dom",
+  "captured_at": "2026-08-16T04:59:17Z",
+  "collector": "ego-browser/ego-lite",
+  "method": "public Reddit search visible DOM/text",
+  "status": "ok",
+  "page_url": "https://www.reddit.com/search/?q=%22DeepSeek%20Harness%22&type=link",
+  "page_title": "\"DeepSeek Harness\" - Reddit Search!",
+  "visible_text": "Skip to main content\n\"DeepSeek Harness\" - Reddit Search!\nOpen menu\nOpen chat\nCreate\nCreate post\nOpen inbox\nExpand user menu\nAll\nPosts\nCommunities\nComments\nMedia\nProfiles\nback\nforward\nRelevance\nAll time\nDeepseek Harness is on whole different level\nr/DeepSeek\n·\n3d ago\nDeepseek Harness is on whole different level\nThe harness is good, unlike other harness, it wont stop or wait for user input, it even catch all errors during runtime\n219 votes·69 comments\nMy First Impressions of Deepseek Harness\nr/DeepSeek\n·\n2d ago\nMy First Impressions of Deepseek Harness\nI had to plan on Pi Harness first and then re-plan on Deepseek Harness, which saved about 20M tokens.\n87 votes·50 comments\n100K+ GITHUB STARS IN JUST 2 DAYS: DeepSeek Harness just became one of the fastest open-source projects to hit 10K stars. 100K stars. OpenClaw held the record before. but DeepSeek just shattered it.\nr/tech_x\n·\n10h ago\n100K+ GITHUB STARS IN JUST 2 DAYS: DeepSeek Harness just became one of the fastest open-source projects to hit 10K stars. 100K stars. OpenClaw held the record before. but DeepSeek just became one of the fastest open-source projects to hit 10K stars. OpenClaw held the record before. but DeepSeek just shattered it.\n154 votes·42 comments\nJust in: Chinese giant Deepseek’s agent harness got beaten by an Indian developer(me) on ProductHunt. 🇮🇳 Happy Independence day\nr/StartUpIndia\n·\n19h ago\nJust in: Chinese giant Deepseek’s agent harness got beaten by an Indian developer(me) on ProductHunt. 🇮🇳 Happy Independence day\n41 votes·32 comments\nHermes + DeepSeek Harness\nr/hermesagent\n·\n1d ago\nHermes + DeepSeek Harness\n42 votes·11 comments\nDeepseek harness being open-source is allowing the community to make some amazing breakthroughs in only one day\nr/accelerate\n·\n9h ago\nDeepseek harness being open-source is allowing the community to make some amazing breakthroughs in only one day\n30 votes·2 comments\nDeepSeek Harness vs Pi Agent are they converging on the same philosophy?\nr/PiCodingAgent\n·\n2d ago\nDeepSeek Harness vs Pi Agent are they converging on the same philosophy?\nDeepSeek Harness, whose core idea is literally “Everything is a Plugin.”\n23 votes·20 comments\nPeople also search for\nBest harness for DeepSeek\nDeepSeek harness GitHub resources\nBest coding harness for DeepSeek V4\nCommunities\nDeepSeekHarness\nr/DeepSeekHarness\n\nDeepSeek Harness (dsh) is an open-source agent harness developed by DeepSeek AI. It uses an architecture where everything is a plugin, and is powered by Cordis, whose design is described in A Programming Paradigm for Spatiotemporal Composability.\n\n958 weekly visitors\n·\n8 weekly contributions\nDeviceBondageDevices\nr/DeviceBondageDevices\n\nDevice bondage, Insex, Infernal restraints, we all love these devices. Theres finally a place to have one of your own. DrakainaDS is a new business making and customizing these iconic steel fixtures. They are located in the USA too. https://www.etsy.com/shop/DeviceBondageDevices\n\n3.7K weekly visitors\n·\n29 weekly contributions\nDeepSeek\nr/DeepSeek\n\nUnravel the mystery of AGI with curiosity. Answer the essential question with long-termism. All opinions and viewpoints are welcome.\n\n175K weekly visitors\n·\n8.2K weekly contributions\nReddit Rules\nPrivacy Policy\nUser Agreement\nYour Privacy Choices\nAccessibility\nReddit, Inc. © 2026. All rights reserved.",
+  "source": {
+    "platform": "reddit",
+    "query": "\"DeepSeek Harness\"",
+    "url": "https://www.reddit.com/search/?q=%22DeepSeek%20Harness%22&type=link"
+  },
+  "observations": [
+    {
+      "platform": "reddit",
+      "query": "\"DeepSeek Harness\"",
+      "source_url": "https://www.reddit.com/search/?q=%22DeepSeek%20Harness%22&type=link",
+      "collected_at": "2026-08-16T04:59:17Z",
+      "collector": "ego-browser/ego-lite",
+      "method": "public Reddit search visible DOM/text",
+      "status": "ok",
+      "result_count": 7,
+      "notes": "Public post cards only; native votes and comments are preserved as dated observations.",
+      "items": [
+        {
+          "platform": "reddit",
+          "external_id": "1vnfz2l",
+          "url": "https://www.reddit.com/r/DeepSeek/comments/1vnfz2l/deepseek_harness_is_on_whole_different_level/",
+          "item_type": "post",
+          "title": "Deepseek Harness is on whole different level",
+          "author": null,
+          "content_text": "Deepseek Harness is on whole different level\nr/DeepSeek\n·\n3d ago\nDeepseek Harness is on whole different level\nThe harness is good, unlike other harness, it wont stop or wait for user input, it even catch all errors during runtime\n219 votes·69 comments",
+          "media_kind": "none",
+          "metrics": {"likes": 219, "comments": 69, "metric_source": "Reddit visible search card", "observed_at": "2026-08-16T04:59:17Z"},
+          "tags": ["reddit", "DeepSeek"]
+        },
+        {
+          "platform": "reddit",
+          "external_id": "1vnpt5n",
+          "url": "https://www.reddit.com/r/DeepSeek/comments/1vnpt5n/my_first_impressions_of_deepseek_harness/",
+          "item_type": "post",
+          "title": "My First Impressions of Deepseek Harness",
+          "author": null,
+          "content_text": "My First Impressions of Deepseek Harness\nr/DeepSeek\n·\n2d ago\nMy First Impressions of Deepseek Harness\nI had to plan on Pi Harness first and then re-plan on Deepseek Harness, which saved about 20M tokens.\n87 votes·50 comments",
+          "media_kind": "none",
+          "metrics": {"likes": 87, "comments": 50, "metric_source": "Reddit visible search card", "observed_at": "2026-08-16T04:59:17Z"},
+          "tags": ["reddit", "DeepSeek"]
+        },
+        {
+          "platform": "reddit",
+          "external_id": "1vpbjvk",
+          "url": "https://www.reddit.com/r/tech_x/comments/1vpbjvk/100k_github_stars_in_just_2_days_deepseek_harness/",
+          "item_type": "post",
+          "title": "100K+ GITHUB STARS IN JUST 2 DAYS: DeepSeek Harness just became one of the fastest open-source projects to hit 10K stars. 100K stars. OpenClaw held the record before. but DeepSeek just shattered it.",
+          "author": null,
+          "content_text": "100K+ GITHUB STARS IN JUST 2 DAYS: DeepSeek Harness just became one of the fastest open-source projects to hit 10K stars. 100K stars. OpenClaw held the record before. but DeepSeek just shattered it.\nr/tech_x\n·\n10h ago\n100K+ GITHUB STARS IN JUST 2 DAYS: DeepSeek Harness just became one of the fastest open-source projects to hit 10K stars. 100K stars. OpenClaw held the record before. but DeepSeek just shattered it.\n154 votes·42 comments",
+          "media_kind": "none",
+          "metrics": {"likes": 154, "comments": 42, "metric_source": "Reddit visible search card", "observed_at": "2026-08-16T04:59:17Z"},
+          "tags": ["reddit", "tech_x"]
+        },
+        {
+          "platform": "reddit",
+          "external_id": "1voyqsp",
+          "url": "https://www.reddit.com/r/StartUpIndia/comments/1voyqsp/just_in_chinese_giant_deepseeks_agent_harness_got/",
+          "item_type": "post",
+          "title": "Just in: Chinese giant Deepseek’s agent harness got beaten by an Indian developer(me) on ProductHunt. 🇮🇳 Happy Independence day",
+          "author": null,
+          "content_text": "Just in: Chinese giant Deepseek’s agent harness got beaten by an Indian developer(me) on ProductHunt. 🇮🇳 Happy Independence day\nr/StartUpIndia\n·\n19h ago\nJust in: Chinese giant Deepseek’s agent harness got beaten by an Indian developer(me) on ProductHunt. 🇮🇳 Happy Independence day\n41 votes·32 comments",
+          "media_kind": "none",
+          "metrics": {"likes": 41, "comments": 32, "metric_source": "Reddit visible search card", "observed_at": "2026-08-16T04:59:17Z"},
+          "tags": ["reddit", "StartUpIndia"]
+        },
+        {
+          "platform": "reddit",
+          "external_id": "1voo8pj",
+          "url": "https://www.reddit.com/r/hermesagent/comments/1voo8pj/hermes_deepseek_harness/",
+          "item_type": "post",
+          "title": "Hermes + DeepSeek Harness",
+          "author": null,
+          "content_text": "Hermes + DeepSeek Harness\nr/hermesagent\n·\n1d ago\nHermes + DeepSeek Harness\n42 votes·11 comments",
+          "media_kind": "none",
+          "metrics": {"likes": 42, "comments": 11, "metric_source": "Reddit visible search card", "observed_at": "2026-08-16T04:59:17Z"},
+          "tags": ["reddit", "hermesagent"]
+        },
+        {
+          "platform": "reddit",
+          "external_id": "1vpcvce",
+          "url": "https://www.reddit.com/r/accelerate/comments/1vpcvce/deepseek_harness_being_opensource_is_allowing_the/",
+          "item_type": "post",
+          "title": "Deepseek harness being open-source is allowing the community to make some amazing breakthroughs in only one day",
+          "author": null,
+          "content_text": "Deepseek harness being open-source is allowing the community to make some amazing breakthroughs in only one day\nr/accelerate\n·\n9h ago\nDeepseek harness being open-source is allowing the community to make some amazing breakthroughs in only one day\n30 votes·2 comments",
+          "media_kind": "none",
+          "metrics": {"likes": 30, "comments": 2, "metric_source": "Reddit visible search card", "observed_at": "2026-08-16T04:59:17Z"},
+          "tags": ["reddit", "accelerate"]
+        },
+        {
+          "platform": "reddit",
+          "external_id": "1vnzn48",
+          "url": "https://www.reddit.com/r/PiCodingAgent/comments/1vnzn48/deepseek_harness_vs_pi_agent_are_they_converging/",
+          "item_type": "post",
+          "title": "DeepSeek Harness vs Pi Agent are they converging on the same philosophy?",
+          "author": null,
+          "content_text": "DeepSeek Harness vs Pi Agent are they converging on the same philosophy?\nr/PiCodingAgent\n·\n2d ago\nDeepSeek Harness vs Pi Agent are they converging on the same philosophy?\nDeepSeek Harness, whose core idea is literally “Everything is a Plugin.”\n23 votes·20 comments",
+          "media_kind": "none",
+          "metrics": {"likes": 23, "comments": 20, "metric_source": "Reddit visible search card", "observed_at": "2026-08-16T04:59:17Z"},
+          "tags": ["reddit", "PiCodingAgent"]
+        }
+      ]
+    }
+  ]
+}

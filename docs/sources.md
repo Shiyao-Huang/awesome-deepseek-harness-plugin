@@ -4,16 +4,16 @@
 
 | 平台 | 采集方式 | 记录 | 观测 | raw 快照 | 最近观测 | 平台政策 |
 | --- | --- | ---: | ---: | ---: | --- | --- |
-| [GitHub](https://github.com) (`github`) | public REST API | 12,625 | 219 | 73 | 2026-08-16T05:05:21Z | [policy](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) |
-| [Hacker News](https://news.ycombinator.com) (`hacker_news`) | Algolia public search API | 102 | 63 | 24 | 2026-08-16T05:05:21Z | [policy](https://news.ycombinator.com/newsguidelines.html) |
-| [X](https://x.com) (`x`) | ego-browser visible DOM | 77 | 14 | 14 | 2026-08-16T03:56:33.874Z | [policy](https://x.com/en/tos) |
-| [小红书](https://www.xiaohongshu.com) (`xiaohongshu`) | ego-browser visible DOM | 76 | 7 | 7 | 2026-08-16T02:40:04.329Z | [policy](https://www.xiaohongshu.com/privacy_policy) |
-| [Reddit](https://www.reddit.com) (`reddit`) | ego-browser visible DOM | 40 | 8 | 8 | 2026-08-16T03:56:33.874Z | [policy](https://www.redditinc.com/policies/user-agreement) |
+| [GitHub](https://github.com) (`github`) | public REST API | 12,625 | 226 | 75 | 2026-08-16T05:05:21Z | [policy](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) |
+| [Hacker News](https://news.ycombinator.com) (`hacker_news`) | Algolia public search API | 102 | 69 | 26 | 2026-08-16T05:05:21Z | [policy](https://news.ycombinator.com/newsguidelines.html) |
+| [小红书](https://www.xiaohongshu.com) (`xiaohongshu`) | ego-browser visible DOM | 102 | 9 | 9 | 2026-08-16T05:05:19.682Z | [policy](https://www.xiaohongshu.com/privacy_policy) |
+| [X](https://x.com) (`x`) | ego-browser visible DOM | 77 | 16 | 16 | 2026-08-16T05:05:06.920Z | [policy](https://x.com/en/tos) |
+| [Reddit](https://www.reddit.com) (`reddit`) | ego-browser visible DOM | 47 | 10 | 10 | 2026-08-16T05:05:12.513Z | [policy](https://www.redditinc.com/policies/user-agreement) |
 | [YouTube](https://www.youtube.com) (`youtube`) | ego-browser visible DOM | 28 | 6 | 6 | 2026-08-15T19:58:26.912Z | [policy](https://www.youtube.com/static?template=terms) |
 | Open Web (`web`) | public page metadata | 21 | 23 | 23 | 2026-08-15T07:04:51.443Z | — |
 | [哔哩哔哩](https://www.bilibili.com) (`bilibili`) | public web metadata API | 18 | 8 | 8 | 2026-08-15T19:59:38.554Z | [policy](https://www.bilibili.com/blackboard/aboutUs.html) |
+| [微信公众号](https://mp.weixin.qq.com) (`wechat`) | ego-browser visible DOM | 6 | 5 | 5 | 2026-08-16T05:05:33.922Z | [policy](https://weixin.qq.com/cgi-bin/readtemplate?t=weixin_agreement&s=privacy) |
 | [LINUX DO](https://linux.do) (`linuxdo`) | ego-browser visible DOM | 2 | 2 | 2 | 2026-08-15T06:24:08Z | [policy](https://linux.do/tos) |
-| [微信公众号](https://mp.weixin.qq.com) (`wechat`) | ego-browser visible DOM | 2 | 3 | 3 | 2026-08-15T09:06:57.825Z | [policy](https://weixin.qq.com/cgi-bin/readtemplate?t=weixin_agreement&s=privacy) |
 | [DeepSeek 官方站](https://www.deepseek.com) (`official`) | ego-browser visible DOM | 1 | 1 | 1 | 2026-08-15T06:18:43Z | [policy](https://www.deepseek.com/terms) |
 | [V2EX](https://v2ex.com) (`v2ex`) | ego-browser visible DOM | 1 | 1 | 1 | 2026-08-15T06:24:26Z | [policy](https://www.v2ex.com/about) |
 | [微博](https://weibo.com) (`weibo`) | ego-browser visible DOM | 1 | 1 | 1 | 2026-08-15T06:21:13Z | [policy](https://weibo.com/signup/v5/privacy) |

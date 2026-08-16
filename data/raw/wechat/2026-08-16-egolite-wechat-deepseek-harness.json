@@ -1,0 +1,1008 @@
+{
+  "capture_kind": "visible-dom",
+  "captured_at": "2026-08-16T05:05:33.922Z",
+  "collector": "ego-browser/ego-lite",
+  "method": "public WeChat search and article DOM",
+  "status": "ok",
+  "page_url": "https://weixin.sogou.com/weixin?type=2&query=DeepSeek%20Harness",
+  "page_title": "DeepSeek Harness的相关微信公众号文章 – 搜狗微信搜索",
+  "visible_text": "无障碍 登录\n资讯\n网页\n微信\n知乎\n图片\n视频\n医疗\n汉语\n翻译\n问问\n百科\n更多>>\n以下内容来自微信公众平台\nDeepSeek Harness 开始\n\nDeepSeek Harness(dsh)是由 DeepSeek AI[1] 开发的开源 agent harness(智能体框架).它采用一切皆插件的架构,并由 Cordis[2] ...\n\nGoCoding12小时前\nDeepSeek Harness 的 10 个热门插件,从榜单到用法\n\n【摘要】DeepSeek Harness 的插件系统最近很热闹.这篇先讲怎么一行装好它,再按星数挑 10 个推荐.DeepSeek Harness上线便...\n\n叽里呱啦bot15小时前\nDeepseek Harness插件\n\ndeepseek-harness-desktop:桌面端 Stars:4,702 | :https://github.com/anywhere-labs/deepseek-harness-desktop 背景 / 痛点:官方只能...\n\nOmniKit1小时前\nDeepSeek Harness 开源了,但很多人还没看懂这步棋\n\n8月13日,DeepSeek 发 V4 Pro 正式版.热闹是模型的,真正值得盯的其实是同日开源的 DeepSeek Harness(DSH)开发者预览版——...\n\nso就是这样12小时前\nDeepSeek Harness 深度实测\n\nDeepSeek Harness 深度实测:新一代开源AI智能体底座,碾压传统Agent框架?(安装教程+使用技巧+竞品对比)就在近日,...\n\n小吴小吴bug全无3小时前\nDeepSeek Harness爆火后,普通人和公司该不该用?先看这份实测结论\n\n摘要:DeepSeek Harness不是新模型,而是一套把模型、工具、文件、Shell、会话和子代理组织起来的Agent运行框架.它的Code ...\n\n学窝社团1小时前\nDeepSeek Harness | 8月16日GitHub排名/热点/工具\n\nDeepSeek Harness | 8月16日GitHub排名/热点/工具一、本周榜单主线:Agent 基建 > 模型本周 GitHub 热榜被 Agent 基础设施 全面占...\n\n幺叁幺肆4小时前\nDeepSeek Harness插件一夜燃爆GitHub:长期记忆、电子宠物、4399小游戏全来了\n\nDeepSeek Harness这下真快被网友「插成万物」了.小黑鲸上线还没多久,单单在GitHub上打着dsh-plugin标签的公开仓库,就已经冲...\n\n程序员总部1小时前\nDeepSeek Harness 最新实践:从模型部署到标准评测一站式上手\n\n1. 什么是 DeepSeek HarnessDeepSeek Harness 是 DeepSeek 官方开源的模型推理与评测框架,仓库地址为:https://github.com/...\n\n源课笔记13小时前\nDeepSeek Harness开源!10万Star背后,「一切皆插件」\n\nDeepSeek 这次没有发布新模型.它开源的是模型外面那套让 AI 干活的系统.它叫 DeepSeek Harness,简称 dsh.官方给出的公式很...\n\nAI显眼包小雷达14小时前\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n下一页\n找到约938条结果\n搜索帮助 意见反馈及投诉 © 2026 SOGOU.COM    免责声明 隐私政策",
+  "capture": {
+    "search_url": "https://weixin.sogou.com/weixin?type=2&query=DeepSeek%20Harness",
+    "search": {
+      "page_url": "https://weixin.sogou.com/weixin?type=2&query=DeepSeek%20Harness",
+      "page_title": "DeepSeek Harness的相关微信公众号文章 – 搜狗微信搜索",
+      "visible_text": "无障碍 登录\n资讯\n网页\n微信\n知乎\n图片\n视频\n医疗\n汉语\n翻译\n问问\n百科\n更多>>\n以下内容来自微信公众平台\nDeepSeek Harness 开始\n\nDeepSeek Harness(dsh)是由 DeepSeek AI[1] 开发的开源 agent harness(智能体框架).它采用一切皆插件的架构,并由 Cordis[2] ...\n\nGoCoding12小时前\nDeepSeek Harness 的 10 个热门插件,从榜单到用法\n\n【摘要】DeepSeek Harness 的插件系统最近很热闹.这篇先讲怎么一行装好它,再按星数挑 10 个推荐.DeepSeek Harness上线便...\n\n叽里呱啦bot15小时前\nDeepseek Harness插件\n\ndeepseek-harness-desktop:桌面端 Stars:4,702 | :https://github.com/anywhere-labs/deepseek-harness-desktop 背景 / 痛点:官方只能...\n\nOmniKit1小时前\nDeepSeek Harness 开源了,但很多人还没看懂这步棋\n\n8月13日,DeepSeek 发 V4 Pro 正式版.热闹是模型的,真正值得盯的其实是同日开源的 DeepSeek Harness(DSH)开发者预览版——...\n\nso就是这样12小时前\nDeepSeek Harness 深度实测\n\nDeepSeek Harness 深度实测:新一代开源AI智能体底座,碾压传统Agent框架?(安装教程+使用技巧+竞品对比)就在近日,...\n\n小吴小吴bug全无3小时前\nDeepSeek Harness爆火后,普通人和公司该不该用?先看这份实测结论\n\n摘要:DeepSeek Harness不是新模型,而是一套把模型、工具、文件、Shell、会话和子代理组织起来的Agent运行框架.它的Code ...\n\n学窝社团1小时前\nDeepSeek Harness | 8月16日GitHub排名/热点/工具\n\nDeepSeek Harness | 8月16日GitHub排名/热点/工具一、本周榜单主线:Agent 基建 > 模型本周 GitHub 热榜被 Agent 基础设施 全面占...\n\n幺叁幺肆4小时前\nDeepSeek Harness插件一夜燃爆GitHub:长期记忆、电子宠物、4399小游戏全来了\n\nDeepSeek Harness这下真快被网友「插成万物」了.小黑鲸上线还没多久,单单在GitHub上打着dsh-plugin标签的公开仓库,就已经冲...\n\n程序员总部1小时前\nDeepSeek Harness 最新实践:从模型部署到标准评测一站式上手\n\n1. 什么是 DeepSeek HarnessDeepSeek Harness 是 DeepSeek 官方开源的模型推理与评测框架,仓库地址为:https://github.com/...\n\n源课笔记13小时前\nDeepSeek Harness开源!10万Star背后,「一切皆插件」\n\nDeepSeek 这次没有发布新模型.它开源的是模型外面那套让 AI 干活的系统.它叫 DeepSeek Harness,简称 dsh.官方给出的公式很...\n\nAI显眼包小雷达14小时前\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n下一页\n找到约938条结果\n搜索帮助 意见反馈及投诉 © 2026 SOGOU.COM    免责声明 隐私政策",
+      "rows": [
+        {
+          "position": 1,
+          "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSxpIjTLo2YfL34K6JYu5D3EE01qvdB3aQlqXa8Fplpd9EmyiO_IZ8WHWhkJJmZ5Fe5SP24exrraYG0lmYaG7XKK2F4vVpNrSBgnVqZsEW6X86JjyYtVodD9xG7Ip6zXdxA8Ihrs98OwBNzNbVQZZ-DE856no5NPP1TdgCLQHJYDZdc9YQE0FijPqe1y7jsMvIGctxie9MsxsmsylOBUtB5cGX_iHL9MadA..&type=2&query=DeepSeek%20Harness&token=4DCFB72442A18234EAECB3C83CFCFFE3EB5450056A81450F",
+          "title": "DeepSeek Harness 开始",
+          "text": "DeepSeek Harness 开始\n\nDeepSeek Harness(dsh)是由 DeepSeek AI[1] 开发的开源 agent harness(智能体框架).它采用一切皆插件的架构,并由 Cordis[2] ...\n\nGoCoding12小时前",
+          "images": [
+            "https://img01.sogoucdn.com/v2/thumb?appid=201147&url=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2F4VzjHDn88oicMh28OrrH54F1NdK0tgJm3iaCDjBXaRL60w5D9HedC1atIyeK6jkYiaib8ERuSmdx3ic9Uz9xxweAPJTEgqxlv10AuITXmrvibt96s%2F0%3Fwx_fmt%3Djpeg&sign=af628f633bfb6ca6963e14598a518f06"
+          ]
+        },
+        {
+          "position": 2,
+          "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSxpIjTLo2YfL34K6JYu5D3EE01qvdB3aQlqXa8Fplpd9csqvsJhq6FZNGsT9BSg8lSJFdjYOsW9B7SQTW1dqarBvdOs0JOSA3-qkEdOirXeH5pbJnHdKa4JetkkX4JLVYPYUtfd4BFaSmjQD7q1XQfWwh4g4si5vaBWTcxgU8wJmA3hBsi1Qxp7Sl1gmUzD2m_KtT570SxfM3V4iT3cSq0iAFV_3u-a3OQ..&type=2&query=DeepSeek%20Harness&token=4DCFB72442A18234EAECB3C83CFCFFE3EB5450056A81450F",
+          "title": "DeepSeek Harness 的 10 个热门插件,从榜单到用法",
+          "text": "DeepSeek Harness 的 10 个热门插件,从榜单到用法\n\n【摘要】DeepSeek Harness 的插件系统最近很热闹.这篇先讲怎么一行装好它,再按星数挑 10 个推荐.DeepSeek Harness上线便...\n\n叽里呱啦bot15小时前",
+          "images": [
+            "https://img01.sogoucdn.com/v2/thumb?appid=201147&url=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2FfwCJ5FlqqWpM68NjDibElUJdRWoeXsrQzccYwbL7NuB5TozAZG7pTs2pKxyiakN1FJ35eLxGxia1ON1ZuTR5dhj896nsz1Dib4tLb50vxmwANaY%2F0%3Fwx_fmt%3Djpeg&sign=fbbe197e1320e2b3a960ab9472a36f38"
+          ]
+        },
+        {
+          "position": 3,
+          "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSxpIjTLo2YfL34K6JYu5D3EE01qvdB3aQlqXa8Fplpd9xlItm811HfaajS4x08X3hhI-JBEBvZsJeQtutzBUukOh0muDjtgvXEL7sik1hTr1iRsW0ahNzQMXXoZghPSJ-Cls2wYNvvKYndt4_I4AGWlfpgbdU2zUeufGRbtzGzp2_onUFGepssa5JhQ6IodmfWGe-C47UYNk9L8GLC08AEB5Nu7CnoSqqg..&type=2&query=DeepSeek%20Harness&token=4DCFB72442A18234EAECB3C83CFCFFE3EB5450056A81450F",
+          "title": "Deepseek Harness插件",
+          "text": "Deepseek Harness插件\n\ndeepseek-harness-desktop:桌面端 Stars:4,702 | :https://github.com/anywhere-labs/deepseek-harness-desktop 背景 / 痛点:官方只能...\n\nOmniKit1小时前",
+          "images": [
+            "https://img01.sogoucdn.com/v2/thumb?appid=201147&url=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FQ5fRpBU8lvxYX0sK11oHeickE75L87WhuuLBFugtyRb9y40zJcDE14LKYzLibiblu9xXatc0jmIDichUvgXryeiblCreZHzNXyx2XaJXqTgVSSms%2F0%3Fwx_fmt%3Djpeg&sign=18d76d1a10580e3182f560c08ca121de"
+          ]
+        },
+        {
+          "position": 4,
+          "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSxpIjTLo2YfL34K6JYu5D3EE01qvdB3aQlqXa8Fplpd9uwRaLjrV1lbIUqf1CiQXHFfceW1QR2VHwqCfiWm6d2WssvRUmGHgaGkajwWXnW2YjYX4D2GhctnbsRFFhzQRLpuQO480a43GyW5wL2DKhbiaU4RIuAp_zFXllKj3aahk4aXsFMCGLCqYFUzXOGGslHmcAdfgizavf-aOtOWuakrm0CtGSSkZQQ..&type=2&query=DeepSeek%20Harness&token=4DCFB72442A18234EAECB3C83CFCFFE3EB5450056A81450F",
+          "title": "DeepSeek Harness 开源了,但很多人还没看懂这步棋",
+          "text": "DeepSeek Harness 开源了,但很多人还没看懂这步棋\n\n8月13日,DeepSeek 发 V4 Pro 正式版.热闹是模型的,真正值得盯的其实是同日开源的 DeepSeek Harness(DSH)开发者预览版——...\n\nso就是这样12小时前",
+          "images": [
+            "https://img01.sogoucdn.com/v2/thumb?appid=201147&url=http%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2Fo18jVgP7GvI8eeSOHOTAq3yELXj76uicucJibIlZJicY5uhYUCw8qWHcNfPqb549oL6KqLUBiapQk5WC2yBOv2fuQeibzGbon6ZJEzBnQ8a3xadE%2F0%3Fwx_fmt%3Djpeg&sign=e07a669bd6114f746d28768a77b77805"
+          ]
+        },
+        {
+          "position": 5,
+          "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSxpIjTLo2YfL34K6JYu5D3EE01qvdB3aQlqXa8Fplpd9uS4ohdQ0B6l8_3EHBnuqsAAT4Mkp79Tw1j_w5ZcwCeAlKLmYbYcqCKWA1tBu5fcRaOtKuFFhbIxQcPr3ou1P93usMDXyD6TKdOgYpG9GevODjHghkcMxdSIMOY26ISLUl39QpRZC2tv2_CRWw7aT22XY1GfpBYf81W7lAPHbDe5FH6In5Ei3zg..&type=2&query=DeepSeek%20Harness&token=4DCFB72442A18234EAECB3C83CFCFFE3EB5450056A81450F",
+          "title": "DeepSeek Harness 深度实测",
+          "text": "DeepSeek Harness 深度实测\n\nDeepSeek Harness 深度实测:新一代开源AI智能体底座,碾压传统Agent框架?(安装教程+使用技巧+竞品对比)就在近日,...\n\n小吴小吴bug全无3小时前",
+          "images": [
+            "https://img01.sogoucdn.com/v2/thumb?appid=201147&url=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2FHF1UzgIWCYIZ0rzX8CbiaoBv8WBJNC9f0PvxdBX0Wicm6VlVE960cUeduib4jOWM66rs9DYoF6vcKfffTrfUQMrMff0bFGZMnysnhgLZ3SryGQ%2F0%3Fwx_fmt%3Djpeg&sign=73ed20311ec59e8c4b83789738ad6445"
+          ]
+        },
+        {
+          "position": 6,
+          "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSxpIjTLo2YfL34K6JYu5D3EE01qvdB3aQlqXa8Fplpd9kr2epPILcBnYeE-jmoGG1zXsTLlJtoRYKlZ11ILJWIcsFdFCMaXH7guoXkAvYc_sbxA6JXXUznwNp4p1WBfmmVkSL_7B8pFGrDD67c5rJoV8dpNKhKXHOB9vyYX7ukYTU-NxDQDXxk_wOWHgmhNlYiCIbyxVSJGrCzwwq02NwYXs46dn8Efgxg..&type=2&query=DeepSeek%20Harness&token=4DCFB72442A18234EAECB3C83CFCFFE3EB5450056A81450F",
+          "title": "DeepSeek Harness爆火后,普通人和公司该不该用?先看这份实测结论",
+          "text": "DeepSeek Harness爆火后,普通人和公司该不该用?先看这份实测结论\n\n摘要:DeepSeek Harness不是新模型,而是一套把模型、工具、文件、Shell、会话和子代理组织起来的Agent运行框架.它的Code ...\n\n学窝社团1小时前",
+          "images": [
+            "https://img01.sogoucdn.com/v2/thumb?appid=201147&url=http%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2FZ6WcN3HibjEKyLDfibiapGu3leVwsU6QvWAfpUY95g3HkZ0MqlOhn5b5mq2G2HrpAsNCS8yfptZ14qWrE4QWcKNKMPWHmOw62CnaAgGN7FPDlU%2F0%3Fwx_fmt%3Djpeg&sign=05fee76b77d80a9cc4a4cde27d1f8bec"
+          ]
+        },
+        {
+          "position": 7,
+          "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSxpIjTLo2YfL34K6JYu5D3EE01qvdB3aQlqXa8Fplpd9GaQnwXLGMk5LvClE34aDFQFd_wgp9hSan57PT1tbzqE1dMfp5LJE1KorAiRSL_SHrsKfwmrKC_bN9q3tSgOc1EKeywjLg8HbVWbmM89UZ7o5vtFigZ536l2vmgyIe52rpcsOuKOWpYZ4R2UOd0LyyRr6ym5lLx5vxrwUihW8Br4Cn9lOoZLP2Q..&type=2&query=DeepSeek%20Harness&token=4DCFB72442A18234EAECB3C83CFCFFE3EB5450056A81450F",
+          "title": "DeepSeek Harness | 8月16日GitHub排名/热点/工具",
+          "text": "DeepSeek Harness | 8月16日GitHub排名/热点/工具\n\nDeepSeek Harness | 8月16日GitHub排名/热点/工具一、本周榜单主线:Agent 基建 > 模型本周 GitHub 热榜被 Agent 基础设施 全面占...\n\n幺叁幺肆4小时前",
+          "images": [
+            "https://img01.sogoucdn.com/v2/thumb?appid=201147&url=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2F4M6fyncl8SOY0m0aiavHlmTKt1MT6KCBHjsKrc3EficagXEg5PKTHkYEhVnaB8mLDsHDMlEuWfHkoK5KMgg7MFN0ibWnaBRjdKY8f9ljlib84ia4%2F0%3Fwx_fmt%3Djpeg&sign=249671236b84cdc286251afccb502a76"
+          ]
+        },
+        {
+          "position": 8,
+          "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSxpIjTLo2YfL34K6JYu5D3EE01qvdB3aQlqXa8Fplpd9u_BjHQ585qkkWvqpGG85dXUR3Sw6aM-TiRMyAhtyQ1OEP-AELD0resZNGQUPbS4jYvnuVshKk0tQaqkI1NP1V1M0kvCI6g3uHjnNw1ZoTK3Ha1ziTPzFX0jQ0Qkoc9wzkidCd3u7ZaP6Hh2W7XDLM-FdsvUbPst_nZ4gGrleLV3P28temKTOwg..&type=2&query=DeepSeek%20Harness&token=4DCFB72442A18234EAECB3C83CFCFFE3EB5450056A81450F",
+          "title": "DeepSeek Harness插件一夜燃爆GitHub:长期记忆、电子宠物、4399小游戏全来了",
+          "text": "DeepSeek Harness插件一夜燃爆GitHub:长期记忆、电子宠物、4399小游戏全来了\n\nDeepSeek Harness这下真快被网友「插成万物」了.小黑鲸上线还没多久,单单在GitHub上打着dsh-plugin标签的公开仓库,就已经冲...\n\n程序员总部1小时前",
+          "images": [
+            "https://img01.sogoucdn.com/v2/thumb?appid=201147&url=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2Fibp4lda06iaMmruVUJKyXlYsR1ou10Rrt7bzCr3uJKXKv0lJ7auPhFWpLrjVibB2hPudRwdkHUl14cbIcsNZBqib0mg8C7Uo7uEmKmxv0VxoN0w%2F0%3Fwx_fmt%3Djpeg&sign=8d67ed26b1452c3ccc4bd176f0b6a336"
+          ]
+        },
+        {
+          "position": 9,
+          "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSxpIjTLo2YfL34K6JYu5D3EE01qvdB3aQlqXa8Fplpd93vdkiHv5sT9wVyzuhV5wUxqX9R8RqYuqy4SZKJpJPt0KLmcteQzSMZKOSKvBeYVmSfjTqgxJo7mduxMEtwXczo7PbdUIVqpORPHMQX7EAmO9Ym8iTIhCX6_oppDugYgAFhzJRdzylveIVBiTYnLc_P223AlNgwLfjIjLcSsoa-V6VKrzu_4XKA..&type=2&query=DeepSeek%20Harness&token=4DCFB72442A18234EAECB3C83CFCFFE3EB5450056A81450F",
+          "title": "DeepSeek Harness 最新实践:从模型部署到标准评测一站式上手",
+          "text": "DeepSeek Harness 最新实践:从模型部署到标准评测一站式上手\n\n1. 什么是 DeepSeek HarnessDeepSeek Harness 是 DeepSeek 官方开源的模型推理与评测框架,仓库地址为:https://github.com/...\n\n源课笔记13小时前",
+          "images": [
+            "https://img01.sogoucdn.com/v2/thumb?appid=201147&url=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2Fu9jYN1JfnhQWiawELWOJLh6FENtibPwcAswUtebpcoBpD0KrpjoZibMBby4icGtn6naLtJb6Zjbs3jbJVxEZiadjHzMicCmA3lxm3If3ZW1OtROtE%2F0%3Fwx_fmt%3Djpeg&sign=c23c32ff78a257674fae22b60ffcff47"
+          ]
+        },
+        {
+          "position": 10,
+          "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSxpIjTLo2YfL34K6JYu5D3EE01qvdB3aQlqXa8Fplpd9pV28ka_DTwMGuCbIOU8z8bp-kPDJndYCb5FjGLIPI8WImA0djBPR_TLF_uV1Ue3EAwOZMfrH3ehZGb2EZQS5ShZFPxYaM-NfiPVHUtgpfMmKQH6aHWmkqYI3ciOggJS-a1Uneu5wDlBhAgkHS0iLHFEXGjYVokH0nyJRkUe1W8j2CsG6-xMgzQ..&type=2&query=DeepSeek%20Harness&token=4DCFB72442A18234EAECB3C83CFCFFE3EB5450056A81450F",
+          "title": "DeepSeek Harness开源!10万Star背后,「一切皆插件」",
+          "text": "DeepSeek Harness开源!10万Star背后,「一切皆插件」\n\nDeepSeek 这次没有发布新模型.它开源的是模型外面那套让 AI 干活的系统.它叫 DeepSeek Harness,简称 dsh.官方给出的公式很...\n\nAI显眼包小雷达14小时前",
+          "images": [
+            "https://img01.sogoucdn.com/v2/thumb?appid=201147&url=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FeLk9heXMsSvDv4f2fpH2PyzCBqBQ4DIORbcicSQGNOUVlWCfx8Qt7XMuZjWVdm3LnvuutROTictn8PDQWtOLVWtBnRpQQzXiaUuZUCz7ZgvQicA%2F0%3Fwx_fmt%3Djpeg&sign=9f2e677f2973e339a270cbe36c0e54ad"
+          ]
+        }
+      ]
+    },
+    "articles": [
+      {
+        "search": {
+          "position": 1,
+          "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSxpIjTLo2YfL34K6JYu5D3EE01qvdB3aQlqXa8Fplpd9EmyiO_IZ8WHWhkJJmZ5Fe5SP24exrraYG0lmYaG7XKK2F4vVpNrSBgnVqZsEW6X86JjyYtVodD9xG7Ip6zXdxA8Ihrs98OwBNzNbVQZZ-DE856no5NPP1TdgCLQHJYDZdc9YQE0FijPqe1y7jsMvIGctxie9MsxsmsylOBUtB5cGX_iHL9MadA..&type=2&query=DeepSeek%20Harness&token=4DCFB72442A18234EAECB3C83CFCFFE3EB5450056A81450F",
+          "title": "DeepSeek Harness 开始",
+          "text": "DeepSeek Harness 开始\n\nDeepSeek Harness(dsh)是由 DeepSeek AI[1] 开发的开源 agent harness(智能体框架).它采用一切皆插件的架构,并由 Cordis[2] ...\n\nGoCoding12小时前",
+          "images": [
+            "https://img01.sogoucdn.com/v2/thumb?appid=201147&url=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2F4VzjHDn88oicMh28OrrH54F1NdK0tgJm3iaCDjBXaRL60w5D9HedC1atIyeK6jkYiaib8ERuSmdx3ic9Uz9xxweAPJTEgqxlv10AuITXmrvibt96s%2F0%3Fwx_fmt%3Djpeg&sign=af628f633bfb6ca6963e14598a518f06"
+          ]
+        },
+        "info": {
+          "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1786856720&ver=6907&signature=PwQmGVPVF-4DN9nTea4vyIwb5px-VJWKhVqzlorJxR*JJUEmYgHvxuNQz98r7gm6-agxCp4e0e-YKVVhoK2IO9XqUm9Oh79ZV-IPipvRDIYlbpqXsLog-c2OThgLz3nR&new=1",
+          "title": "DeepSeek Harness 开始",
+          "w": 1141,
+          "h": 698,
+          "sx": 0,
+          "sy": 0,
+          "pw": 1141,
+          "ph": 3932
+        },
+        "capture": {
+          "page_url": "https://mp.weixin.qq.com/s?src=11&timestamp=1786856720&ver=6907&signature=PwQmGVPVF-4DN9nTea4vyIwb5px-VJWKhVqzlorJxR*JJUEmYgHvxuNQz98r7gm6-agxCp4e0e-YKVVhoK2IO9XqUm9Oh79ZV-IPipvRDIYlbpqXsLog-c2OThgLz3nR&new=1",
+          "page_title": "DeepSeek Harness 开始",
+          "visible_text": "DeepSeek Harness 开始\n原创 GoCoding GoCoding\n 2026年8月16日 00:11 江苏\n\nDeepSeek Harness（dsh）是由 DeepSeek AI[1] 开发的开源 agent harness（智能体框架）。\n\n它采用一切皆插件的架构，并由 Cordis[2] 驱动，其设计参见论文 A Programming Paradigm for Spatiotemporal Composability[3]。\n\n代码: https://github.com/deepseek-ai/deepseek-harness\n文档: https://github.com/deepseek-ai/deepseek-harness/blob/master/README.zh.md\n准备\n\n安装 Node,\n\n打开 https://nodejs.org/en/download\n选择 for 你的系统 using nvm with pnpm\n依照指导安装，验证版本通过\n\n安装 Git,\n\n打开 https://git-scm.com/install\n选择你的系统，依照指导安装\n\n获取 DeepSeek API key，\n\n打开 https://platform.deepseek.com\n注册，再创建 API Key，复制留存\n运行\n\n从仓库源码运行：\n\ngit clone https://github.com/deepseek-ai/deepseek-harness.git\ncd deepseek-harness\n\n# 配置 DeepSeek API key: 由启动环境提供，或之后 UI 配置\nexport DEEPSEEK_API_KEY=sk-your-key-here\n\npnpm install\npnpm run build\npnpm dsh web\n\n入门\n\ndsh 入门: https://deepseek-harness.github.io/deepseek-harness/guide/quickstart\n\n按指导配置模型、选择工作区、运行任务。提示示例：\n\n读 idea 文档，理解愿景、坚持原则。先梳理要设计的条目，及其组织、优先级等。\n\n\n目前 DeepSeek API 价格已采用峰谷定价，长时任务可考虑空闲时段运行。\n\n脚本\n\nDeepSeek Harness 提供了 Python SDK，可以用 Python 来驱动和编排 Agent 执行复杂任务，而不仅仅依赖 Web 界面或命令行。一般用于脚本自动化、或集成到现有工作流中。\n\nPython SDK: https://deepseek-harness.github.io/deepseek-harness/guide/python-sdk\n\n开发\n\nDeepSeek Harness 本身就是一个“调度中心”，它的核心设计原则是“一切皆插件”。\n\n因此需要借助 AI，尤其是 Harness 自身或其他 AI 编程工具，来完成插件开发。这是官方和社区推荐的可行路径。\n\ndsh 开发指南: https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/development.zh.md\ndsh 架构指南: https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/architecture.zh.md\n示例\n\n以“AI 视频生产”为例，其 Harness 协同架构如下：\n\n这些 Agent 本身并未内置，都要开发相应的 dsh 插件。\n\nHarness 作为总导演、制片中心，调度完成所有 Agent 的数据流转：\n\n最终，用户给 Harness 提交需求，由它自主分析选择不同方式来调度生产视频：\n\n插件\n\n那开发第一个插件: https://deepseek-harness.github.io/deepseek-harness/develop/basic/\n\n必然是 dsh 开始的下一步了。\n\n有了自己的 idea，就立即动手开始做 Agent 插件吧。\n\n结语\n\nLet's Go Coding ~\n\n脚注\n[1] \n\nDeepSeek AI: https://deepseek.com/\n\n[2] \n\nCordis: https://github.com/cordiverse/cordis\n\n[3] \n\nA Programming Paradigm for Spatiotemporal Composability: https://github.com/cordiverse/paper\n\n喜欢作者\n\nGoCoding · 目录\n上一篇\nPaddleOCR 开始\n阅读原文\n​\nGoCoding\n赞\n分享\n推荐\n写留言",
+          "stable_url": null,
+          "ids": {
+            "biz": "MzIwMjM3ODM2OQ==",
+            "mid": "2247485602",
+            "idx": "1",
+            "sn": null
+          },
+          "meta": [
+            {
+              "k": "wechat-enable-text-zoom-em",
+              "v": "true"
+            },
+            {
+              "k": "wechat-enable-text-size-adjust",
+              "v": "true"
+            },
+            {
+              "k": "color-scheme",
+              "v": "light dark"
+            },
+            {
+              "k": "viewport",
+              "v": "width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover"
+            },
+            {
+              "k": "apple-mobile-web-app-capable",
+              "v": "yes"
+            },
+            {
+              "k": "apple-mobile-web-app-status-bar-style",
+              "v": "black"
+            },
+            {
+              "k": "format-detection",
+              "v": "telephone=no"
+            },
+            {
+              "k": "referrer",
+              "v": "origin-when-cross-origin"
+            },
+            {
+              "k": "referrer",
+              "v": "strict-origin-when-cross-origin"
+            },
+            {
+              "k": "description",
+              "v": "DeepSeek Harness（dsh）是由 DeepSeek AI 开发的开源 agent harness（智能体框架）。有兴趣一起入门吗~"
+            },
+            {
+              "k": "author",
+              "v": "GoCoding"
+            },
+            {
+              "k": "og:title",
+              "v": "DeepSeek Harness 开始"
+            },
+            {
+              "k": "og:image",
+              "v": "https://mmbiz.qpic.cn/mmbiz_jpg/4VzjHDn88oicMh28OrrH54F1NdK0tgJm3iaCDjBXaRL60w5D9HedC1atIyeK6jkYiaib8ERuSmdx3ic9Uz9xxweAPJTEgqxlv10AuITXmrvibt96s/0?wx_fmt=jpeg"
+            },
+            {
+              "k": "og:description",
+              "v": "DeepSeek Harness（dsh）是由 DeepSeek AI 开发的开源 agent harness（智能体框架）。有兴趣一起入门吗~"
+            },
+            {
+              "k": "og:site_name",
+              "v": "微信公众平台"
+            },
+            {
+              "k": "og:type",
+              "v": "article"
+            },
+            {
+              "k": "og:article:author",
+              "v": "GoCoding"
+            },
+            {
+              "k": "twitter:card",
+              "v": "summary"
+            },
+            {
+              "k": "twitter:image",
+              "v": "https://mmbiz.qpic.cn/mmbiz_jpg/4VzjHDn88oicMh28OrrH54F1NdK0tgJm3iaCDjBXaRL60w5D9HedC1atIyeK6jkYiaib8ERuSmdx3ic9Uz9xxweAPJTEgqxlv10AuITXmrvibt96s/0?wx_fmt=jpeg"
+            },
+            {
+              "k": "twitter:title",
+              "v": "DeepSeek Harness 开始"
+            },
+            {
+              "k": "twitter:creator",
+              "v": "GoCoding"
+            },
+            {
+              "k": "twitter:site",
+              "v": "微信公众平台"
+            },
+            {
+              "k": "twitter:description",
+              "v": "DeepSeek Harness（dsh）是由 DeepSeek AI 开发的开源 agent harness（智能体框架）。有兴趣一起入门吗~"
+            }
+          ]
+        }
+      },
+      {
+        "search": {
+          "position": 2,
+          "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSxpIjTLo2YfL34K6JYu5D3EE01qvdB3aQlqXa8Fplpd9csqvsJhq6FZNGsT9BSg8lSJFdjYOsW9B7SQTW1dqarBvdOs0JOSA3-qkEdOirXeH5pbJnHdKa4JetkkX4JLVYPYUtfd4BFaSmjQD7q1XQfWwh4g4si5vaBWTcxgU8wJmA3hBsi1Qxp7Sl1gmUzD2m_KtT570SxfM3V4iT3cSq0iAFV_3u-a3OQ..&type=2&query=DeepSeek%20Harness&token=4DCFB72442A18234EAECB3C83CFCFFE3EB5450056A81450F",
+          "title": "DeepSeek Harness 的 10 个热门插件,从榜单到用法",
+          "text": "DeepSeek Harness 的 10 个热门插件,从榜单到用法\n\n【摘要】DeepSeek Harness 的插件系统最近很热闹.这篇先讲怎么一行装好它,再按星数挑 10 个推荐.DeepSeek Harness上线便...\n\n叽里呱啦bot15小时前",
+          "images": [
+            "https://img01.sogoucdn.com/v2/thumb?appid=201147&url=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2FfwCJ5FlqqWpM68NjDibElUJdRWoeXsrQzccYwbL7NuB5TozAZG7pTs2pKxyiakN1FJ35eLxGxia1ON1ZuTR5dhj896nsz1Dib4tLb50vxmwANaY%2F0%3Fwx_fmt%3Djpeg&sign=fbbe197e1320e2b3a960ab9472a36f38"
+          ]
+        },
+        "info": {
+          "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1786856720&ver=6907&signature=*-U9cycpeBk7fY8zZf4-fsgl*8pcPBzgyzDPY5En-GTL39LdSngBYFBVhqZSzezAo8AOqN6mIuf-MVCGdCfx6knf3HO5UQ2L9xUkWTuF-s*7Fm3OGlTHriI7ypFzJQq0&new=1",
+          "title": "DeepSeek Harness 的 10 个热门插件，从榜单到用法",
+          "w": 1141,
+          "h": 698,
+          "sx": 0,
+          "sy": 0,
+          "pw": 1141,
+          "ph": 8577
+        },
+        "capture": {
+          "page_url": "https://mp.weixin.qq.com/s?src=11&timestamp=1786856720&ver=6907&signature=*-U9cycpeBk7fY8zZf4-fsgl*8pcPBzgyzDPY5En-GTL39LdSngBYFBVhqZSzezAo8AOqN6mIuf-MVCGdCfx6knf3HO5UQ2L9xUkWTuF-s*7Fm3OGlTHriI7ypFzJQq0&new=1",
+          "page_title": "DeepSeek Harness 的 10 个热门插件，从榜单到用法",
+          "visible_text": "DeepSeek Harness 的 10 个热门插件，从榜单到用法\n原创 虾看虾说 虾看虾说\n 2026年8月15日 21:30 广东\n【摘要】DeepSeek Harness 的插件系统最近很热闹。这篇先讲怎么一行装好它，再按星数挑 10 个推荐。\n\nDeepSeek Harness上线便爆火，最近被讨论得最多的是它的插件机制。它把模型、文件、shell、工具串成一条命令行流程，开发者可以在不修改主程序的前提下，给它挂上沙箱、视觉、UI、流程等扩展。短短两天，社区里便围绕这个机制做了大量插件项目。\n\n在此之前，如果你还没安装DeepSeek Harness，装起来也很简单。打开电脑里任意一个 Agent，输入下面这段，让它按你电脑的环境去跑。\n\n根据我电脑环境安装npm install -g @deepseek-ai/dsh\n有问题直接看github. com/deepseek-ai/deepseek-harness\n按照好后运行dsh --profile web并打开网页端\n\n跑完之后在网页端填上 API key 就能开始用。如果你的环境变量里本来就有 DeepSeek 的 key，这步都不需要。\n\n下面这 10 个是按社区收录列表 awesome-dsh-plugin.com 的星数排名挑出来的热门插件。\n\n1. strukto-ai/mirage ★3435\n\n类别｜开发与运行时。\n\nmirage 把 dsh 的文件系统和 bash 提供者换成了一个虚拟工作区。文件操作和 shell 命令不再落到本机磁盘，而是落在挂载的资源上，比如内存、S3、Redis、Slack、Gmail、Notion、Postgres。每个挂载点可以单独设置读 / 写 / 执行模式，每条命令可以选择沙箱，进程内有 monty、pyodide、quickjs，远程有 docker、e2b、daytona。虚拟终端里还能继续装 CLI，比如 git、gh、slack、linear、ntn、gws，作为命令前缀使用。\n\n源码｜https://github.com/strukto-ai/mirage\n\n适合要把 dsh 接到自家后端，或者要在不可信的环境里跑自动化的人。\n\n2. zhu1090093659/dsh-web-ui ★2314\n\n类别｜UI 增强。\n\n这是个合集包，里面打包了一组 dsh 的 Web UI 插件和皮肤，包括任务看板、git 图、右侧面板、远程移动端 UI、桌宠、实时 token 统计、皮肤中心。\n\n源码｜https://github.com/zhu1090093659/dsh-web-ui\n\n如果只想一键换界面，先装这个。\n\n3. liustack/modlens ★1582\n\n类别｜工具与能力。\n\nmodlens 给纯文本模型搭一座视觉桥。粘贴图片进去，输出是结构化 JSON，含 OCR 结果、版面信息和语义标签。\n\n源码｜https://github.com/liustack/modlens\n\n需要让 dsh 读图、读截图、读设计稿的人，这一个顶一打 OCR 脚本。\n\n4. ccch1mneyyy/dsh-TUI ★1071\n\n类别｜UI 增强。\n\n把 dsh 的终端界面换成 Claude Code 那种全屏 TUI。顶栏有像素鲸鱼，工作状态实时刷一行，思考过程是流式展开的。\n\n源码｜https://github.com/ccch1mneyyy/dsh-TUI\n\n习惯在终端里干活、不喜欢回到 Web UI 的人，可以直接换。\n\n5. GanyuanRan/Aegis ★1014\n\n类别｜技能包。\n\nAegis 是面向编码 Agent 的方法包，给 dsh 配一套软件工程流程，包括基线优先规划、系统化调试、提示词卫生、完成前验证、修复 / 退役双轨跟踪。\n\n源码｜https://github.com/GanyuanRan/Aegis\n\n用 dsh 写代码写到一定规模，自己开始操心流程的时候，引入这套方法比继续靠运气靠谱。\n\n6. omdsh-dev/DSH-better-sidebar ★945\n\n类别｜UI 增强。\n\n把侧边栏换成完整工作台，内置文件渲染与编辑、终端、Git、子代理。还允许三方插件注册新 Tab，自己能往里塞东西。\n\n源码｜https://github.com/omdsh-dev/DSH-better-sidebar\n\n觉得原生侧边栏太挤的人装这个，等于把 dsh 的左边栏改成 IDE 的风格。\n\n7. Small-tailqwq/dsh-deep-whale ★767\n\n类别｜主题与外观。\n\n鲸鱼娘皮肤系列，名字叫 maid-atelier，深海女仆工坊。改的是 Web UI 的视觉风格，核心形象是鲸鱼娘。\n\n源码｜https://github.com/Small-tailqwq/dsh-deep-whale\n\n外观党装，其它人跳过。\n\n8. superdesigndev/treg ★412\n\n类别｜工具与能力。\n\ntreg 是给 Agent 的工具目录。按\"要做的事\"检索，覆盖约 2600 个外部接口（仓库 README 自述 2000+），包括 SEO 与 SERP、外链、社交、人物与公司信息补全、广告库、抓取。每个接口能看参数和单次调用价格，凭据由服务端注入。附带的技能在 MCP 行里要等 TREG_TOKEN 配好才生效。\n\n源码｜https://github.com/superdesigndev/treg\n\n需要让 dsh 跑 SEO、查人、查公司、查广告的人，看这个。TREG_TOKEN 没配之前，MCP 那条线是灰的。\n\n9. superdesigndev/superdesign-skill ★411\n\n类别｜技能包。\n\n在 Superdesign 画布上做 UI 和营销图的设计技能。流程是先读代码库拿上下文，再抽取现有设计系统，然后用 Superdesign CLI 生成并迭代可分支的设计稿、流程页和可复用组件。\n\n源码｜https://github.com/superdesigndev/superdesign-skill\n\n把设计稿当作代码一样分支管理，treg 是给数据接口的目录，这个是给设计稿的目录，同一个团队出的。\n\n10. Anionex/dsh-vision-toolkit ★395\n\n类别｜工具与能力。\n\n让纯文本模型更好地做视觉任务，包括带意图的图片问答、长截图 OCR、UI 还原、像素级验证。和 modlens 重叠，但 vision-toolkit 更偏向 UI 场景。\n\n源码｜https://github.com/Anionex/dsh-vision-toolkit\n\nUI 自动化、截图还原场景先用这个，长截图读不准再叠 modlens。\n\n怎么挑\n\n10 个看下来，可以按三类收。\n\n- 装一次改全局的，mirage（沙箱）+ dsh-web-ui（界面）+ dsh-TUI（终端）。\n\n- 给模型补能力的，modlens（视觉）+ treg（外部接口）+ dsh-vision-toolkit（UI 视觉）。\n\n- 改变工作方式的，Aegis（编码方法）+ superdesign-skill（设计技能）+ better-sidebar（侧边栏工作台）。\n\n剩下一个是皮肤，看个人。\n\n列表首页按星数排只是参考，星数高的不一定最适合自己，工具与能力类插件不少星数不高但解决了具体问题。装之前先看一遍分类面板（13 个），确认自己需要的类别里有什么，列表支持按类别筛选，也支持站内搜索。\n\n数据来源｜awesome-dsh-plugin.com/zh/（插件列表 + 星数排序，截至 2026-08）；每个插件的描述与实例图均来自对应 GitHub 仓库 README。\n\n虾说AI · 目录\n上一篇\nGLM-5.3 编码提升 50%，网络安全开源 SOTA\n​\n虾看虾说\n赞\n分享\n推荐\n写留言",
+          "stable_url": null,
+          "ids": {
+            "biz": "MzUxNjczOTc4MA==",
+            "mid": "2247487218",
+            "idx": "1",
+            "sn": null
+          },
+          "meta": [
+            {
+              "k": "wechat-enable-text-zoom-em",
+              "v": "true"
+            },
+            {
+              "k": "wechat-enable-text-size-adjust",
+              "v": "true"
+            },
+            {
+              "k": "color-scheme",
+              "v": "light dark"
+            },
+            {
+              "k": "viewport",
+              "v": "width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover"
+            },
+            {
+              "k": "apple-mobile-web-app-capable",
+              "v": "yes"
+            },
+            {
+              "k": "apple-mobile-web-app-status-bar-style",
+              "v": "black"
+            },
+            {
+              "k": "format-detection",
+              "v": "telephone=no"
+            },
+            {
+              "k": "referrer",
+              "v": "origin-when-cross-origin"
+            },
+            {
+              "k": "referrer",
+              "v": "strict-origin-when-cross-origin"
+            },
+            {
+              "k": "description",
+              "v": "DeepSeek Harness 的插件系统最近很热闹。这篇先讲怎么一行装好它，再按星数挑 10 个推荐。"
+            },
+            {
+              "k": "author",
+              "v": "虾看虾说"
+            },
+            {
+              "k": "og:title",
+              "v": "DeepSeek Harness 的 10 个热门插件，从榜单到用法"
+            },
+            {
+              "k": "og:image",
+              "v": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/fwCJ5FlqqWpM68NjDibElUJdRWoeXsrQzccYwbL7NuB5TozAZG7pTs2pKxyiakN1FJ35eLxGxia1ON1ZuTR5dhj896nsz1Dib4tLb50vxmwANaY/0?wx_fmt=jpeg"
+            },
+            {
+              "k": "og:description",
+              "v": "DeepSeek Harness 的插件系统最近很热闹。这篇先讲怎么一行装好它，再按星数挑 10 个推荐。"
+            },
+            {
+              "k": "og:site_name",
+              "v": "微信公众平台"
+            },
+            {
+              "k": "og:type",
+              "v": "article"
+            },
+            {
+              "k": "og:article:author",
+              "v": "虾看虾说"
+            },
+            {
+              "k": "twitter:card",
+              "v": "summary"
+            },
+            {
+              "k": "twitter:image",
+              "v": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/fwCJ5FlqqWpM68NjDibElUJdRWoeXsrQzccYwbL7NuB5TozAZG7pTs2pKxyiakN1FJ35eLxGxia1ON1ZuTR5dhj896nsz1Dib4tLb50vxmwANaY/0?wx_fmt=jpeg"
+            },
+            {
+              "k": "twitter:title",
+              "v": "DeepSeek Harness 的 10 个热门插件，从榜单到用法"
+            },
+            {
+              "k": "twitter:creator",
+              "v": "虾看虾说"
+            },
+            {
+              "k": "twitter:site",
+              "v": "微信公众平台"
+            },
+            {
+              "k": "twitter:description",
+              "v": "DeepSeek Harness 的插件系统最近很热闹。这篇先讲怎么一行装好它，再按星数挑 10 个推荐。"
+            }
+          ]
+        }
+      },
+      {
+        "search": {
+          "position": 3,
+          "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSxpIjTLo2YfL34K6JYu5D3EE01qvdB3aQlqXa8Fplpd9xlItm811HfaajS4x08X3hhI-JBEBvZsJeQtutzBUukOh0muDjtgvXEL7sik1hTr1iRsW0ahNzQMXXoZghPSJ-Cls2wYNvvKYndt4_I4AGWlfpgbdU2zUeufGRbtzGzp2_onUFGepssa5JhQ6IodmfWGe-C47UYNk9L8GLC08AEB5Nu7CnoSqqg..&type=2&query=DeepSeek%20Harness&token=4DCFB72442A18234EAECB3C83CFCFFE3EB5450056A81450F",
+          "title": "Deepseek Harness插件",
+          "text": "Deepseek Harness插件\n\ndeepseek-harness-desktop:桌面端 Stars:4,702 | :https://github.com/anywhere-labs/deepseek-harness-desktop 背景 / 痛点:官方只能...\n\nOmniKit1小时前",
+          "images": [
+            "https://img01.sogoucdn.com/v2/thumb?appid=201147&url=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FQ5fRpBU8lvxYX0sK11oHeickE75L87WhuuLBFugtyRb9y40zJcDE14LKYzLibiblu9xXatc0jmIDichUvgXryeiblCreZHzNXyx2XaJXqTgVSSms%2F0%3Fwx_fmt%3Djpeg&sign=18d76d1a10580e3182f560c08ca121de"
+          ]
+        },
+        "info": {
+          "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1786856720&ver=6907&signature=gK9yKiRueKTghO9wMUh4gd1vI5RrWSmDD2DOtZ2LamGzATaTDK*dHSD54FLgqRuGuu5sXlyn42MoHflc2kD-AydZL8fW61IzJs634*wZgkf82Pmd9u2MNu6-0jTKj9mE&new=1",
+          "title": "Deepseek Harness插件",
+          "w": 1141,
+          "h": 698,
+          "sx": 0,
+          "sy": 0,
+          "pw": 1141,
+          "ph": 7032
+        },
+        "capture": {
+          "page_url": "https://mp.weixin.qq.com/s?src=11&timestamp=1786856720&ver=6907&signature=gK9yKiRueKTghO9wMUh4gd1vI5RrWSmDD2DOtZ2LamGzATaTDK*dHSD54FLgqRuGuu5sXlyn42MoHflc2kD-AydZL8fW61IzJs634*wZgkf82Pmd9u2MNu6-0jTKj9mE&new=1",
+          "page_title": "Deepseek Harness插件",
+          "visible_text": "Deepseek Harness插件\nOminiKit OmniKit\n 2026年8月16日 11:29 四川\n搜集了一些DSH的热门插件，前几天看到UI也属于插件的时候就觉得换皮肤可能会很火，没想到会这么火哈哈哈，颜值才是第一生产力哈哈哈。\n\n\n\n🎨 一、UI / 界面增强类\n\n这类插件主要增强或替代 DSH 的交互界面，让使用更顺手、更可观察。\n\n1. dsh-web-ui\n\n🎨 ⭐ Stars：2.5k ｜ 🔗：https://github.com/zhu1090093659/dsh-web-ui\n\n\n📌 背景 / 痛点：官方 Web UI 缺少任务管理、可视化 Git、移动端控制、个性化皮肤等扩展，体验受限。\n\n✨ 优点：功能插件丰富（任务看板支持 cron、Git 图谱、SSH 远程连接、鲸鱼娘宠物（颜值是第一生产力哈哈哈）、10 款皮肤、实时 Token 统计），统一设置中心即开即用；Apache-2.0 开源。\n\n🚀 怎么用：dsh plugin --profile web add @linxin666/dsh-web-ui-all（全家桶），或单独装子包；装完重启 dsh web。\n\n\n\n\n\n\n2. deepseek-harness-desktop：桌面端\n\n💡 ⭐ Stars：4,702 ｜ 🔗 ：https://github.com/anywhere-labs/deepseek-harness-desktop\n\n📌 背景 / 痛点：官方只能命令行启动本地 Web UI，需自配 Node.js 和执行命令，对普通用户门槛高。\n\n✨ 优点：自动管理服务、系统托盘与桌面窗口，无需 Node / 命令行；规划手机远程、插件市场、IM 通道；MIT 协议。\n\n🚀 怎么用：到 deepseekdesktop.com（或 dshdesktop.cn）下载安装；源码 pnpm install && pnpm run dev:desktop。注意：社区桌面版，非官方产品。\n\n\n\n\n\n\n3. dsh-TUI：claude code风格的ui，还挺好看的\n\n💡 ⭐ Stars：1,184 ｜ 🔗：https://github.com/ccch1mneyyy/dsh-TUI\n\n📌 背景 / 痛点：DSH 官方没有终端 TUI，偏好 CLI 的极客缺少可观察的终端交互。\n\n✨ 优点：Claude Code 风格全屏交互、流式 Markdown、工具卡、命令 / @文件补全、上下文进度条 + TPS 仪表、双击 Esc 回滚；零核心改动纯插件挂载；MIT。\n\n🚀 怎么用：npm install -g @deepseek-ai/dsh @deepseek-harness-tui/dsh-tui 后运行 dsh-tui；TUI 内 /update 自更新。\n\n\n\n\n\n\n\n\n👁️ 二、视觉 / 多模态类\n\n这类插件为纯文本模型外挂\"眼睛\"，让 DSH 能理解图片。\n\n4. dsh-vision-toolkit\n\n💡 ⭐ Stars：415 ｜ 🔗 https://github.com/Anionex/dsh-vision-toolkit\n\n📌 背景 / 痛点：纯文本模型无图像理解能力，以往要靠手工 CLI 拼参数、bash glue，体验差。\n\n✨ 优点：10 个独立视觉工具（图片问答 / 长截图 OCR / UI 还原 / 像素对比等），基于坐标返回结构化结果、产物即文件可预览、DSH 凭证托管密钥；MIT。\n\n🚀 怎么用：dsh plugin --profile web add @anionex/dsh-vision-toolkit，重启后在 Settings → Vision Toolkit 选凭证 Test connection，对话中 /vision-tools 调用。\n\n\n\n\n\n\n5. modlens：赋予deepseek harness多模态能力\n\n🔍 ⭐ Stars：1,776 ｜ 🔗 https://github.com/liustack/modlens\n\n📌 背景 / 痛点：DeepSeek、GLM 等旗舰模型是纯文本，无法直接读图，用户得先存文件再传路径。\n\n✨ 优点：全网首个 DSH 视觉插件，最轻量（无 hook、无本地代理守护进程），零配置复用已有登录，9 种视觉来源 + 故障转移，粘贴即读；MIT。\n\n🚀 怎么用：npx -y @deepseek-ai/dsh plugin --profile web add @liustack/modlens@3.16.6；安装后聊天直接粘贴图片即可。\n\n\n\n\n\n\n\n\n\n\n\n\n📚 三、资源 / 导航类\n\n6. awesome-dsh-plugin：插件聚合网站，综合了DHS的可用插件。\n\n很值得关注一下，类似于之前的skill网站。\n\n📚 ⭐ Stars：2,630 ｜ 🔗https://github.com/awesome-dsh-plugin/awesome-dsh-plugin\n\n📌 背景 / 痛点：DSH 一切皆插件，但社区插件分散各处，用户难发现和选用。\n\n✨ 优点：12+ 分类（UI / 主题 / 模型 / 记忆 / 工具等）、中英双语、CI 守卫持续维护，并推荐 dsh-market 等配套工具；CC0 协议。\n\n🚀 怎么用：在 GitHub 浏览 README 分类找插件，再用 dsh plugin add <插件名> 安装；或用 dsh-market 在 UI 内一键装。\n\n\n\n\n\n\n\n\n\n\n\n​\nOmniKit\n赞\n分享\n推荐\n写留言",
+          "stable_url": null,
+          "ids": {
+            "biz": "MzcxMDI3MjI5OQ==",
+            "mid": "2247483681",
+            "idx": "1",
+            "sn": null
+          },
+          "meta": [
+            {
+              "k": "wechat-enable-text-zoom-em",
+              "v": "true"
+            },
+            {
+              "k": "wechat-enable-text-size-adjust",
+              "v": "true"
+            },
+            {
+              "k": "color-scheme",
+              "v": "light dark"
+            },
+            {
+              "k": "viewport",
+              "v": "width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover"
+            },
+            {
+              "k": "apple-mobile-web-app-capable",
+              "v": "yes"
+            },
+            {
+              "k": "apple-mobile-web-app-status-bar-style",
+              "v": "black"
+            },
+            {
+              "k": "format-detection",
+              "v": "telephone=no"
+            },
+            {
+              "k": "referrer",
+              "v": "origin-when-cross-origin"
+            },
+            {
+              "k": "referrer",
+              "v": "strict-origin-when-cross-origin"
+            },
+            {
+              "k": "description",
+              "v": "搜集了一些deepseek harness热门插件，最火竟然是换皮哈哈哈，颜值果然是第一生产力"
+            },
+            {
+              "k": "author",
+              "v": "OminiKit"
+            },
+            {
+              "k": "og:title",
+              "v": "Deepseek Harness插件"
+            },
+            {
+              "k": "og:image",
+              "v": "https://mmbiz.qpic.cn/mmbiz_jpg/Q5fRpBU8lvxYX0sK11oHeickE75L87WhuuLBFugtyRb9y40zJcDE14LKYzLibiblu9xXatc0jmIDichUvgXryeiblCreZHzNXyx2XaJXqTgVSSms/0?wx_fmt=jpeg"
+            },
+            {
+              "k": "og:description",
+              "v": "搜集了一些deepseek harness热门插件，最火竟然是换皮哈哈哈，颜值果然是第一生产力"
+            },
+            {
+              "k": "og:site_name",
+              "v": "微信公众平台"
+            },
+            {
+              "k": "og:type",
+              "v": "article"
+            },
+            {
+              "k": "og:article:author",
+              "v": "OminiKit"
+            },
+            {
+              "k": "twitter:card",
+              "v": "summary"
+            },
+            {
+              "k": "twitter:image",
+              "v": "https://mmbiz.qpic.cn/mmbiz_jpg/Q5fRpBU8lvxYX0sK11oHeickE75L87WhuuLBFugtyRb9y40zJcDE14LKYzLibiblu9xXatc0jmIDichUvgXryeiblCreZHzNXyx2XaJXqTgVSSms/0?wx_fmt=jpeg"
+            },
+            {
+              "k": "twitter:title",
+              "v": "Deepseek Harness插件"
+            },
+            {
+              "k": "twitter:creator",
+              "v": "OminiKit"
+            },
+            {
+              "k": "twitter:site",
+              "v": "微信公众平台"
+            },
+            {
+              "k": "twitter:description",
+              "v": "搜集了一些deepseek harness热门插件，最火竟然是换皮哈哈哈，颜值果然是第一生产力"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "observations": [
+    {
+      "platform": "wechat",
+      "query": "DeepSeek Harness",
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DeepSeek%20Harness",
+      "collected_at": "2026-08-16T05:05:33.922Z",
+      "collector": "ego-browser/ego-lite",
+      "method": "public WeChat search and article DOM",
+      "status": "ok",
+      "result_count": 3,
+      "notes": "Public Sogou WeChat search plus publicly visible WeChat article DOM; interaction counters were not exposed and remain NULL.",
+      "items": [
+        {
+          "platform": "wechat",
+          "external_id": "wechat:MzIwMjM3ODM2OQ==:2247485602:1",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIwMjM3ODM2OQ==&mid=2247485602&idx=1",
+          "item_type": "article",
+          "title": "DeepSeek Harness 开始",
+          "author": "GoCoding",
+          "published_label": "2026年8月16日 00:11 江苏",
+          "content_text": "DeepSeek Harness 开始\n原创 GoCoding GoCoding\n 2026年8月16日 00:11 江苏\n\nDeepSeek Harness（dsh）是由 DeepSeek AI[1] 开发的开源 agent harness（智能体框架）。\n\n它采用一切皆插件的架构，并由 Cordis[2] 驱动，其设计参见论文 A Programming Paradigm for Spatiotemporal Composability[3]。\n\n代码: https://github.com/deepseek-ai/deepseek-harness\n文档: https://github.com/deepseek-ai/deepseek-harness/blob/master/README.zh.md\n准备\n\n安装 Node,\n\n打开 https://nodejs.org/en/download\n选择 for 你的系统 using nvm with pnpm\n依照指导安装，验证版本通过\n\n安装 Git,\n\n打开 https://git-scm.com/install\n选择你的系统，依照指导安装\n\n获取 DeepSeek API key，\n\n打开 https://platform.deepseek.com\n注册，再创建 API Key，复制留存\n运行\n\n从仓库源码运行：\n\ngit clone https://github.com/deepseek-ai/deepseek-harness.git\ncd deepseek-harness\n\n# 配置 DeepSeek API key: 由启动环境提供，或之后 UI 配置\nexport DEEPSEEK_API_KEY=sk-your-key-here\n\npnpm install\npnpm run build\npnpm dsh web\n\n入门\n\ndsh 入门: https://deepseek-harness.github.io/deepseek-harness/guide/quickstart\n\n按指导配置模型、选择工作区、运行任务。提示示例：\n\n读 idea 文档，理解愿景、坚持原则。先梳理要设计的条目，及其组织、优先级等。\n\n\n目前 DeepSeek API 价格已采用峰谷定价，长时任务可考虑空闲时段运行。\n\n脚本\n\nDeepSeek Harness 提供了 Python SDK，可以用 Python 来驱动和编排 Agent 执行复杂任务，而不仅仅依赖 Web 界面或命令行。一般用于脚本自动化、或集成到现有工作流中。\n\nPython SDK: https://deepseek-harness.github.io/deepseek-harness/guide/python-sdk\n\n开发\n\nDeepSeek Harness 本身就是一个“调度中心”，它的核心设计原则是“一切皆插件”。\n\n因此需要借助 AI，尤其是 Harness 自身或其他 AI 编程工具，来完成插件开发。这是官方和社区推荐的可行路径。\n\ndsh 开发指南: https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/development.zh.md\ndsh 架构指南: https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/architecture.zh.md\n示例\n\n以“AI 视频生产”为例，其 Harness 协同架构如下：\n\n这些 Agent 本身并未内置，都要开发相应的 dsh 插件。\n\nHarness 作为总导演、制片中心，调度完成所有 Agent 的数据流转：\n\n最终，用户给 Harness 提交需求，由它自主分析选择不同方式来调度生产视频：\n\n插件\n\n那开发第一个插件: https://deepseek-harness.github.io/deepseek-harness/develop/basic/\n\n必然是 dsh 开始的下一步了。\n\n有了自己的 idea，就立即动手开始做 Agent 插件吧。\n\n结语\n\nLet's Go Coding ~\n\n脚注\n[1] \n\nDeepSeek AI: https://deepseek.com/\n\n[2] \n\nCordis: https://github.com/cordiverse/cordis\n\n[3] \n\nA Programming Paradigm for Spatiotemporal Composability: https://github.com/cordiverse/paper\n\n喜欢作者\n\nGoCoding · 目录\n上一篇\nPaddleOCR 开始\n阅读原文\n​\nGoCoding\n赞\n分享\n推荐\n写留言",
+          "language": "zh",
+          "media_kind": "image",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://mmbiz.qpic.cn/mmbiz_jpg/4VzjHDn88oicMh28OrrH54F1NdK0tgJm3iaCDjBXaRL60w5D9HedC1atIyeK6jkYiaib8ERuSmdx3ic9Uz9xxweAPJTEgqxlv10AuITXmrvibt96s/0?wx_fmt=jpeg",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            }
+          ],
+          "refs": [
+            "https://github.com/cordiverse/cordis",
+            "https://github.com/cordiverse/paper",
+            "https://github.com/deepseek-ai/deepseek-harness",
+            "https://github.com/deepseek-ai/deepseek-harness.git"
+          ],
+          "metrics": {
+            "likes": null,
+            "comments": null,
+            "shares": null,
+            "metric_source": "WeChat visible article controls; counters not exposed",
+            "observed_at": "2026-08-16T05:05:33.922Z"
+          },
+          "tags": [
+            "wechat",
+            "DeepSeek Harness",
+            "article"
+          ],
+          "raw_capture": {
+            "search": {
+              "position": 1,
+              "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSxpIjTLo2YfL34K6JYu5D3EE01qvdB3aQlqXa8Fplpd9EmyiO_IZ8WHWhkJJmZ5Fe5SP24exrraYG0lmYaG7XKK2F4vVpNrSBgnVqZsEW6X86JjyYtVodD9xG7Ip6zXdxA8Ihrs98OwBNzNbVQZZ-DE856no5NPP1TdgCLQHJYDZdc9YQE0FijPqe1y7jsMvIGctxie9MsxsmsylOBUtB5cGX_iHL9MadA..&type=2&query=DeepSeek%20Harness&token=4DCFB72442A18234EAECB3C83CFCFFE3EB5450056A81450F",
+              "title": "DeepSeek Harness 开始",
+              "text": "DeepSeek Harness 开始\n\nDeepSeek Harness(dsh)是由 DeepSeek AI[1] 开发的开源 agent harness(智能体框架).它采用一切皆插件的架构,并由 Cordis[2] ...\n\nGoCoding12小时前",
+              "images": [
+                "https://img01.sogoucdn.com/v2/thumb?appid=201147&url=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2F4VzjHDn88oicMh28OrrH54F1NdK0tgJm3iaCDjBXaRL60w5D9HedC1atIyeK6jkYiaib8ERuSmdx3ic9Uz9xxweAPJTEgqxlv10AuITXmrvibt96s%2F0%3Fwx_fmt%3Djpeg&sign=af628f633bfb6ca6963e14598a518f06"
+              ]
+            },
+            "info": {
+              "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1786856720&ver=6907&signature=PwQmGVPVF-4DN9nTea4vyIwb5px-VJWKhVqzlorJxR*JJUEmYgHvxuNQz98r7gm6-agxCp4e0e-YKVVhoK2IO9XqUm9Oh79ZV-IPipvRDIYlbpqXsLog-c2OThgLz3nR&new=1",
+              "title": "DeepSeek Harness 开始",
+              "w": 1141,
+              "h": 698,
+              "sx": 0,
+              "sy": 0,
+              "pw": 1141,
+              "ph": 3932
+            },
+            "capture": {
+              "page_url": "https://mp.weixin.qq.com/s?src=11&timestamp=1786856720&ver=6907&signature=PwQmGVPVF-4DN9nTea4vyIwb5px-VJWKhVqzlorJxR*JJUEmYgHvxuNQz98r7gm6-agxCp4e0e-YKVVhoK2IO9XqUm9Oh79ZV-IPipvRDIYlbpqXsLog-c2OThgLz3nR&new=1",
+              "page_title": "DeepSeek Harness 开始",
+              "visible_text": "DeepSeek Harness 开始\n原创 GoCoding GoCoding\n 2026年8月16日 00:11 江苏\n\nDeepSeek Harness（dsh）是由 DeepSeek AI[1] 开发的开源 agent harness（智能体框架）。\n\n它采用一切皆插件的架构，并由 Cordis[2] 驱动，其设计参见论文 A Programming Paradigm for Spatiotemporal Composability[3]。\n\n代码: https://github.com/deepseek-ai/deepseek-harness\n文档: https://github.com/deepseek-ai/deepseek-harness/blob/master/README.zh.md\n准备\n\n安装 Node,\n\n打开 https://nodejs.org/en/download\n选择 for 你的系统 using nvm with pnpm\n依照指导安装，验证版本通过\n\n安装 Git,\n\n打开 https://git-scm.com/install\n选择你的系统，依照指导安装\n\n获取 DeepSeek API key，\n\n打开 https://platform.deepseek.com\n注册，再创建 API Key，复制留存\n运行\n\n从仓库源码运行：\n\ngit clone https://github.com/deepseek-ai/deepseek-harness.git\ncd deepseek-harness\n\n# 配置 DeepSeek API key: 由启动环境提供，或之后 UI 配置\nexport DEEPSEEK_API_KEY=sk-your-key-here\n\npnpm install\npnpm run build\npnpm dsh web\n\n入门\n\ndsh 入门: https://deepseek-harness.github.io/deepseek-harness/guide/quickstart\n\n按指导配置模型、选择工作区、运行任务。提示示例：\n\n读 idea 文档，理解愿景、坚持原则。先梳理要设计的条目，及其组织、优先级等。\n\n\n目前 DeepSeek API 价格已采用峰谷定价，长时任务可考虑空闲时段运行。\n\n脚本\n\nDeepSeek Harness 提供了 Python SDK，可以用 Python 来驱动和编排 Agent 执行复杂任务，而不仅仅依赖 Web 界面或命令行。一般用于脚本自动化、或集成到现有工作流中。\n\nPython SDK: https://deepseek-harness.github.io/deepseek-harness/guide/python-sdk\n\n开发\n\nDeepSeek Harness 本身就是一个“调度中心”，它的核心设计原则是“一切皆插件”。\n\n因此需要借助 AI，尤其是 Harness 自身或其他 AI 编程工具，来完成插件开发。这是官方和社区推荐的可行路径。\n\ndsh 开发指南: https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/development.zh.md\ndsh 架构指南: https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/architecture.zh.md\n示例\n\n以“AI 视频生产”为例，其 Harness 协同架构如下：\n\n这些 Agent 本身并未内置，都要开发相应的 dsh 插件。\n\nHarness 作为总导演、制片中心，调度完成所有 Agent 的数据流转：\n\n最终，用户给 Harness 提交需求，由它自主分析选择不同方式来调度生产视频：\n\n插件\n\n那开发第一个插件: https://deepseek-harness.github.io/deepseek-harness/develop/basic/\n\n必然是 dsh 开始的下一步了。\n\n有了自己的 idea，就立即动手开始做 Agent 插件吧。\n\n结语\n\nLet's Go Coding ~\n\n脚注\n[1] \n\nDeepSeek AI: https://deepseek.com/\n\n[2] \n\nCordis: https://github.com/cordiverse/cordis\n\n[3] \n\nA Programming Paradigm for Spatiotemporal Composability: https://github.com/cordiverse/paper\n\n喜欢作者\n\nGoCoding · 目录\n上一篇\nPaddleOCR 开始\n阅读原文\n​\nGoCoding\n赞\n分享\n推荐\n写留言",
+              "stable_url": null,
+              "ids": {
+                "biz": "MzIwMjM3ODM2OQ==",
+                "mid": "2247485602",
+                "idx": "1",
+                "sn": null
+              },
+              "meta": [
+                {
+                  "k": "wechat-enable-text-zoom-em",
+                  "v": "true"
+                },
+                {
+                  "k": "wechat-enable-text-size-adjust",
+                  "v": "true"
+                },
+                {
+                  "k": "color-scheme",
+                  "v": "light dark"
+                },
+                {
+                  "k": "viewport",
+                  "v": "width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover"
+                },
+                {
+                  "k": "apple-mobile-web-app-capable",
+                  "v": "yes"
+                },
+                {
+                  "k": "apple-mobile-web-app-status-bar-style",
+                  "v": "black"
+                },
+                {
+                  "k": "format-detection",
+                  "v": "telephone=no"
+                },
+                {
+                  "k": "referrer",
+                  "v": "origin-when-cross-origin"
+                },
+                {
+                  "k": "referrer",
+                  "v": "strict-origin-when-cross-origin"
+                },
+                {
+                  "k": "description",
+                  "v": "DeepSeek Harness（dsh）是由 DeepSeek AI 开发的开源 agent harness（智能体框架）。有兴趣一起入门吗~"
+                },
+                {
+                  "k": "author",
+                  "v": "GoCoding"
+                },
+                {
+                  "k": "og:title",
+                  "v": "DeepSeek Harness 开始"
+                },
+                {
+                  "k": "og:image",
+                  "v": "https://mmbiz.qpic.cn/mmbiz_jpg/4VzjHDn88oicMh28OrrH54F1NdK0tgJm3iaCDjBXaRL60w5D9HedC1atIyeK6jkYiaib8ERuSmdx3ic9Uz9xxweAPJTEgqxlv10AuITXmrvibt96s/0?wx_fmt=jpeg"
+                },
+                {
+                  "k": "og:description",
+                  "v": "DeepSeek Harness（dsh）是由 DeepSeek AI 开发的开源 agent harness（智能体框架）。有兴趣一起入门吗~"
+                },
+                {
+                  "k": "og:site_name",
+                  "v": "微信公众平台"
+                },
+                {
+                  "k": "og:type",
+                  "v": "article"
+                },
+                {
+                  "k": "og:article:author",
+                  "v": "GoCoding"
+                },
+                {
+                  "k": "twitter:card",
+                  "v": "summary"
+                },
+                {
+                  "k": "twitter:image",
+                  "v": "https://mmbiz.qpic.cn/mmbiz_jpg/4VzjHDn88oicMh28OrrH54F1NdK0tgJm3iaCDjBXaRL60w5D9HedC1atIyeK6jkYiaib8ERuSmdx3ic9Uz9xxweAPJTEgqxlv10AuITXmrvibt96s/0?wx_fmt=jpeg"
+                },
+                {
+                  "k": "twitter:title",
+                  "v": "DeepSeek Harness 开始"
+                },
+                {
+                  "k": "twitter:creator",
+                  "v": "GoCoding"
+                },
+                {
+                  "k": "twitter:site",
+                  "v": "微信公众平台"
+                },
+                {
+                  "k": "twitter:description",
+                  "v": "DeepSeek Harness（dsh）是由 DeepSeek AI 开发的开源 agent harness（智能体框架）。有兴趣一起入门吗~"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "platform": "wechat",
+          "external_id": "wechat:MzUxNjczOTc4MA==:2247487218:1",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzUxNjczOTc4MA==&mid=2247487218&idx=1",
+          "item_type": "article",
+          "title": "DeepSeek Harness 的 10 个热门插件，从榜单到用法",
+          "author": "虾看虾说",
+          "published_label": "2026年8月15日 21:30 广东",
+          "content_text": "DeepSeek Harness 的 10 个热门插件，从榜单到用法\n原创 虾看虾说 虾看虾说\n 2026年8月15日 21:30 广东\n【摘要】DeepSeek Harness 的插件系统最近很热闹。这篇先讲怎么一行装好它，再按星数挑 10 个推荐。\n\nDeepSeek Harness上线便爆火，最近被讨论得最多的是它的插件机制。它把模型、文件、shell、工具串成一条命令行流程，开发者可以在不修改主程序的前提下，给它挂上沙箱、视觉、UI、流程等扩展。短短两天，社区里便围绕这个机制做了大量插件项目。\n\n在此之前，如果你还没安装DeepSeek Harness，装起来也很简单。打开电脑里任意一个 Agent，输入下面这段，让它按你电脑的环境去跑。\n\n根据我电脑环境安装npm install -g @deepseek-ai/dsh\n有问题直接看github. com/deepseek-ai/deepseek-harness\n按照好后运行dsh --profile web并打开网页端\n\n跑完之后在网页端填上 API key 就能开始用。如果你的环境变量里本来就有 DeepSeek 的 key，这步都不需要。\n\n下面这 10 个是按社区收录列表 awesome-dsh-plugin.com 的星数排名挑出来的热门插件。\n\n1. strukto-ai/mirage ★3435\n\n类别｜开发与运行时。\n\nmirage 把 dsh 的文件系统和 bash 提供者换成了一个虚拟工作区。文件操作和 shell 命令不再落到本机磁盘，而是落在挂载的资源上，比如内存、S3、Redis、Slack、Gmail、Notion、Postgres。每个挂载点可以单独设置读 / 写 / 执行模式，每条命令可以选择沙箱，进程内有 monty、pyodide、quickjs，远程有 docker、e2b、daytona。虚拟终端里还能继续装 CLI，比如 git、gh、slack、linear、ntn、gws，作为命令前缀使用。\n\n源码｜https://github.com/strukto-ai/mirage\n\n适合要把 dsh 接到自家后端，或者要在不可信的环境里跑自动化的人。\n\n2. zhu1090093659/dsh-web-ui ★2314\n\n类别｜UI 增强。\n\n这是个合集包，里面打包了一组 dsh 的 Web UI 插件和皮肤，包括任务看板、git 图、右侧面板、远程移动端 UI、桌宠、实时 token 统计、皮肤中心。\n\n源码｜https://github.com/zhu1090093659/dsh-web-ui\n\n如果只想一键换界面，先装这个。\n\n3. liustack/modlens ★1582\n\n类别｜工具与能力。\n\nmodlens 给纯文本模型搭一座视觉桥。粘贴图片进去，输出是结构化 JSON，含 OCR 结果、版面信息和语义标签。\n\n源码｜https://github.com/liustack/modlens\n\n需要让 dsh 读图、读截图、读设计稿的人，这一个顶一打 OCR 脚本。\n\n4. ccch1mneyyy/dsh-TUI ★1071\n\n类别｜UI 增强。\n\n把 dsh 的终端界面换成 Claude Code 那种全屏 TUI。顶栏有像素鲸鱼，工作状态实时刷一行，思考过程是流式展开的。\n\n源码｜https://github.com/ccch1mneyyy/dsh-TUI\n\n习惯在终端里干活、不喜欢回到 Web UI 的人，可以直接换。\n\n5. GanyuanRan/Aegis ★1014\n\n类别｜技能包。\n\nAegis 是面向编码 Agent 的方法包，给 dsh 配一套软件工程流程，包括基线优先规划、系统化调试、提示词卫生、完成前验证、修复 / 退役双轨跟踪。\n\n源码｜https://github.com/GanyuanRan/Aegis\n\n用 dsh 写代码写到一定规模，自己开始操心流程的时候，引入这套方法比继续靠运气靠谱。\n\n6. omdsh-dev/DSH-better-sidebar ★945\n\n类别｜UI 增强。\n\n把侧边栏换成完整工作台，内置文件渲染与编辑、终端、Git、子代理。还允许三方插件注册新 Tab，自己能往里塞东西。\n\n源码｜https://github.com/omdsh-dev/DSH-better-sidebar\n\n觉得原生侧边栏太挤的人装这个，等于把 dsh 的左边栏改成 IDE 的风格。\n\n7. Small-tailqwq/dsh-deep-whale ★767\n\n类别｜主题与外观。\n\n鲸鱼娘皮肤系列，名字叫 maid-atelier，深海女仆工坊。改的是 Web UI 的视觉风格，核心形象是鲸鱼娘。\n\n源码｜https://github.com/Small-tailqwq/dsh-deep-whale\n\n外观党装，其它人跳过。\n\n8. superdesigndev/treg ★412\n\n类别｜工具与能力。\n\ntreg 是给 Agent 的工具目录。按\"要做的事\"检索，覆盖约 2600 个外部接口（仓库 README 自述 2000+），包括 SEO 与 SERP、外链、社交、人物与公司信息补全、广告库、抓取。每个接口能看参数和单次调用价格，凭据由服务端注入。附带的技能在 MCP 行里要等 TREG_TOKEN 配好才生效。\n\n源码｜https://github.com/superdesigndev/treg\n\n需要让 dsh 跑 SEO、查人、查公司、查广告的人，看这个。TREG_TOKEN 没配之前，MCP 那条线是灰的。\n\n9. superdesigndev/superdesign-skill ★411\n\n类别｜技能包。\n\n在 Superdesign 画布上做 UI 和营销图的设计技能。流程是先读代码库拿上下文，再抽取现有设计系统，然后用 Superdesign CLI 生成并迭代可分支的设计稿、流程页和可复用组件。\n\n源码｜https://github.com/superdesigndev/superdesign-skill\n\n把设计稿当作代码一样分支管理，treg 是给数据接口的目录，这个是给设计稿的目录，同一个团队出的。\n\n10. Anionex/dsh-vision-toolkit ★395\n\n类别｜工具与能力。\n\n让纯文本模型更好地做视觉任务，包括带意图的图片问答、长截图 OCR、UI 还原、像素级验证。和 modlens 重叠，但 vision-toolkit 更偏向 UI 场景。\n\n源码｜https://github.com/Anionex/dsh-vision-toolkit\n\nUI 自动化、截图还原场景先用这个，长截图读不准再叠 modlens。\n\n怎么挑\n\n10 个看下来，可以按三类收。\n\n- 装一次改全局的，mirage（沙箱）+ dsh-web-ui（界面）+ dsh-TUI（终端）。\n\n- 给模型补能力的，modlens（视觉）+ treg（外部接口）+ dsh-vision-toolkit（UI 视觉）。\n\n- 改变工作方式的，Aegis（编码方法）+ superdesign-skill（设计技能）+ better-sidebar（侧边栏工作台）。\n\n剩下一个是皮肤，看个人。\n\n列表首页按星数排只是参考，星数高的不一定最适合自己，工具与能力类插件不少星数不高但解决了具体问题。装之前先看一遍分类面板（13 个），确认自己需要的类别里有什么，列表支持按类别筛选，也支持站内搜索。\n\n数据来源｜awesome-dsh-plugin.com/zh/（插件列表 + 星数排序，截至 2026-08）；每个插件的描述与实例图均来自对应 GitHub 仓库 README。\n\n虾说AI · 目录\n上一篇\nGLM-5.3 编码提升 50%，网络安全开源 SOTA\n​\n虾看虾说\n赞\n分享\n推荐\n写留言",
+          "language": "zh",
+          "media_kind": "image",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/fwCJ5FlqqWpM68NjDibElUJdRWoeXsrQzccYwbL7NuB5TozAZG7pTs2pKxyiakN1FJ35eLxGxia1ON1ZuTR5dhj896nsz1Dib4tLb50vxmwANaY/0?wx_fmt=jpeg",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            }
+          ],
+          "refs": [
+            "https://github.com/Anionex/dsh-vision-toolkit",
+            "https://github.com/GanyuanRan/Aegis",
+            "https://github.com/Small-tailqwq/dsh-deep-whale",
+            "https://github.com/ccch1mneyyy/dsh-TUI",
+            "https://github.com/liustack/modlens",
+            "https://github.com/omdsh-dev/DSH-better-sidebar",
+            "https://github.com/strukto-ai/mirage",
+            "https://github.com/superdesigndev/superdesign-skill",
+            "https://github.com/superdesigndev/treg",
+            "https://github.com/zhu1090093659/dsh-web-ui"
+          ],
+          "metrics": {
+            "likes": null,
+            "comments": null,
+            "shares": null,
+            "metric_source": "WeChat visible article controls; counters not exposed",
+            "observed_at": "2026-08-16T05:05:33.922Z"
+          },
+          "tags": [
+            "wechat",
+            "DeepSeek Harness",
+            "article"
+          ],
+          "raw_capture": {
+            "search": {
+              "position": 2,
+              "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSxpIjTLo2YfL34K6JYu5D3EE01qvdB3aQlqXa8Fplpd9csqvsJhq6FZNGsT9BSg8lSJFdjYOsW9B7SQTW1dqarBvdOs0JOSA3-qkEdOirXeH5pbJnHdKa4JetkkX4JLVYPYUtfd4BFaSmjQD7q1XQfWwh4g4si5vaBWTcxgU8wJmA3hBsi1Qxp7Sl1gmUzD2m_KtT570SxfM3V4iT3cSq0iAFV_3u-a3OQ..&type=2&query=DeepSeek%20Harness&token=4DCFB72442A18234EAECB3C83CFCFFE3EB5450056A81450F",
+              "title": "DeepSeek Harness 的 10 个热门插件,从榜单到用法",
+              "text": "DeepSeek Harness 的 10 个热门插件,从榜单到用法\n\n【摘要】DeepSeek Harness 的插件系统最近很热闹.这篇先讲怎么一行装好它,再按星数挑 10 个推荐.DeepSeek Harness上线便...\n\n叽里呱啦bot15小时前",
+              "images": [
+                "https://img01.sogoucdn.com/v2/thumb?appid=201147&url=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2FfwCJ5FlqqWpM68NjDibElUJdRWoeXsrQzccYwbL7NuB5TozAZG7pTs2pKxyiakN1FJ35eLxGxia1ON1ZuTR5dhj896nsz1Dib4tLb50vxmwANaY%2F0%3Fwx_fmt%3Djpeg&sign=fbbe197e1320e2b3a960ab9472a36f38"
+              ]
+            },
+            "info": {
+              "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1786856720&ver=6907&signature=*-U9cycpeBk7fY8zZf4-fsgl*8pcPBzgyzDPY5En-GTL39LdSngBYFBVhqZSzezAo8AOqN6mIuf-MVCGdCfx6knf3HO5UQ2L9xUkWTuF-s*7Fm3OGlTHriI7ypFzJQq0&new=1",
+              "title": "DeepSeek Harness 的 10 个热门插件，从榜单到用法",
+              "w": 1141,
+              "h": 698,
+              "sx": 0,
+              "sy": 0,
+              "pw": 1141,
+              "ph": 8577
+            },
+            "capture": {
+              "page_url": "https://mp.weixin.qq.com/s?src=11&timestamp=1786856720&ver=6907&signature=*-U9cycpeBk7fY8zZf4-fsgl*8pcPBzgyzDPY5En-GTL39LdSngBYFBVhqZSzezAo8AOqN6mIuf-MVCGdCfx6knf3HO5UQ2L9xUkWTuF-s*7Fm3OGlTHriI7ypFzJQq0&new=1",
+              "page_title": "DeepSeek Harness 的 10 个热门插件，从榜单到用法",
+              "visible_text": "DeepSeek Harness 的 10 个热门插件，从榜单到用法\n原创 虾看虾说 虾看虾说\n 2026年8月15日 21:30 广东\n【摘要】DeepSeek Harness 的插件系统最近很热闹。这篇先讲怎么一行装好它，再按星数挑 10 个推荐。\n\nDeepSeek Harness上线便爆火，最近被讨论得最多的是它的插件机制。它把模型、文件、shell、工具串成一条命令行流程，开发者可以在不修改主程序的前提下，给它挂上沙箱、视觉、UI、流程等扩展。短短两天，社区里便围绕这个机制做了大量插件项目。\n\n在此之前，如果你还没安装DeepSeek Harness，装起来也很简单。打开电脑里任意一个 Agent，输入下面这段，让它按你电脑的环境去跑。\n\n根据我电脑环境安装npm install -g @deepseek-ai/dsh\n有问题直接看github. com/deepseek-ai/deepseek-harness\n按照好后运行dsh --profile web并打开网页端\n\n跑完之后在网页端填上 API key 就能开始用。如果你的环境变量里本来就有 DeepSeek 的 key，这步都不需要。\n\n下面这 10 个是按社区收录列表 awesome-dsh-plugin.com 的星数排名挑出来的热门插件。\n\n1. strukto-ai/mirage ★3435\n\n类别｜开发与运行时。\n\nmirage 把 dsh 的文件系统和 bash 提供者换成了一个虚拟工作区。文件操作和 shell 命令不再落到本机磁盘，而是落在挂载的资源上，比如内存、S3、Redis、Slack、Gmail、Notion、Postgres。每个挂载点可以单独设置读 / 写 / 执行模式，每条命令可以选择沙箱，进程内有 monty、pyodide、quickjs，远程有 docker、e2b、daytona。虚拟终端里还能继续装 CLI，比如 git、gh、slack、linear、ntn、gws，作为命令前缀使用。\n\n源码｜https://github.com/strukto-ai/mirage\n\n适合要把 dsh 接到自家后端，或者要在不可信的环境里跑自动化的人。\n\n2. zhu1090093659/dsh-web-ui ★2314\n\n类别｜UI 增强。\n\n这是个合集包，里面打包了一组 dsh 的 Web UI 插件和皮肤，包括任务看板、git 图、右侧面板、远程移动端 UI、桌宠、实时 token 统计、皮肤中心。\n\n源码｜https://github.com/zhu1090093659/dsh-web-ui\n\n如果只想一键换界面，先装这个。\n\n3. liustack/modlens ★1582\n\n类别｜工具与能力。\n\nmodlens 给纯文本模型搭一座视觉桥。粘贴图片进去，输出是结构化 JSON，含 OCR 结果、版面信息和语义标签。\n\n源码｜https://github.com/liustack/modlens\n\n需要让 dsh 读图、读截图、读设计稿的人，这一个顶一打 OCR 脚本。\n\n4. ccch1mneyyy/dsh-TUI ★1071\n\n类别｜UI 增强。\n\n把 dsh 的终端界面换成 Claude Code 那种全屏 TUI。顶栏有像素鲸鱼，工作状态实时刷一行，思考过程是流式展开的。\n\n源码｜https://github.com/ccch1mneyyy/dsh-TUI\n\n习惯在终端里干活、不喜欢回到 Web UI 的人，可以直接换。\n\n5. GanyuanRan/Aegis ★1014\n\n类别｜技能包。\n\nAegis 是面向编码 Agent 的方法包，给 dsh 配一套软件工程流程，包括基线优先规划、系统化调试、提示词卫生、完成前验证、修复 / 退役双轨跟踪。\n\n源码｜https://github.com/GanyuanRan/Aegis\n\n用 dsh 写代码写到一定规模，自己开始操心流程的时候，引入这套方法比继续靠运气靠谱。\n\n6. omdsh-dev/DSH-better-sidebar ★945\n\n类别｜UI 增强。\n\n把侧边栏换成完整工作台，内置文件渲染与编辑、终端、Git、子代理。还允许三方插件注册新 Tab，自己能往里塞东西。\n\n源码｜https://github.com/omdsh-dev/DSH-better-sidebar\n\n觉得原生侧边栏太挤的人装这个，等于把 dsh 的左边栏改成 IDE 的风格。\n\n7. Small-tailqwq/dsh-deep-whale ★767\n\n类别｜主题与外观。\n\n鲸鱼娘皮肤系列，名字叫 maid-atelier，深海女仆工坊。改的是 Web UI 的视觉风格，核心形象是鲸鱼娘。\n\n源码｜https://github.com/Small-tailqwq/dsh-deep-whale\n\n外观党装，其它人跳过。\n\n8. superdesigndev/treg ★412\n\n类别｜工具与能力。\n\ntreg 是给 Agent 的工具目录。按\"要做的事\"检索，覆盖约 2600 个外部接口（仓库 README 自述 2000+），包括 SEO 与 SERP、外链、社交、人物与公司信息补全、广告库、抓取。每个接口能看参数和单次调用价格，凭据由服务端注入。附带的技能在 MCP 行里要等 TREG_TOKEN 配好才生效。\n\n源码｜https://github.com/superdesigndev/treg\n\n需要让 dsh 跑 SEO、查人、查公司、查广告的人，看这个。TREG_TOKEN 没配之前，MCP 那条线是灰的。\n\n9. superdesigndev/superdesign-skill ★411\n\n类别｜技能包。\n\n在 Superdesign 画布上做 UI 和营销图的设计技能。流程是先读代码库拿上下文，再抽取现有设计系统，然后用 Superdesign CLI 生成并迭代可分支的设计稿、流程页和可复用组件。\n\n源码｜https://github.com/superdesigndev/superdesign-skill\n\n把设计稿当作代码一样分支管理，treg 是给数据接口的目录，这个是给设计稿的目录，同一个团队出的。\n\n10. Anionex/dsh-vision-toolkit ★395\n\n类别｜工具与能力。\n\n让纯文本模型更好地做视觉任务，包括带意图的图片问答、长截图 OCR、UI 还原、像素级验证。和 modlens 重叠，但 vision-toolkit 更偏向 UI 场景。\n\n源码｜https://github.com/Anionex/dsh-vision-toolkit\n\nUI 自动化、截图还原场景先用这个，长截图读不准再叠 modlens。\n\n怎么挑\n\n10 个看下来，可以按三类收。\n\n- 装一次改全局的，mirage（沙箱）+ dsh-web-ui（界面）+ dsh-TUI（终端）。\n\n- 给模型补能力的，modlens（视觉）+ treg（外部接口）+ dsh-vision-toolkit（UI 视觉）。\n\n- 改变工作方式的，Aegis（编码方法）+ superdesign-skill（设计技能）+ better-sidebar（侧边栏工作台）。\n\n剩下一个是皮肤，看个人。\n\n列表首页按星数排只是参考，星数高的不一定最适合自己，工具与能力类插件不少星数不高但解决了具体问题。装之前先看一遍分类面板（13 个），确认自己需要的类别里有什么，列表支持按类别筛选，也支持站内搜索。\n\n数据来源｜awesome-dsh-plugin.com/zh/（插件列表 + 星数排序，截至 2026-08）；每个插件的描述与实例图均来自对应 GitHub 仓库 README。\n\n虾说AI · 目录\n上一篇\nGLM-5.3 编码提升 50%，网络安全开源 SOTA\n​\n虾看虾说\n赞\n分享\n推荐\n写留言",
+              "stable_url": null,
+              "ids": {
+                "biz": "MzUxNjczOTc4MA==",
+                "mid": "2247487218",
+                "idx": "1",
+                "sn": null
+              },
+              "meta": [
+                {
+                  "k": "wechat-enable-text-zoom-em",
+                  "v": "true"
+                },
+                {
+                  "k": "wechat-enable-text-size-adjust",
+                  "v": "true"
+                },
+                {
+                  "k": "color-scheme",
+                  "v": "light dark"
+                },
+                {
+                  "k": "viewport",
+                  "v": "width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover"
+                },
+                {
+                  "k": "apple-mobile-web-app-capable",
+                  "v": "yes"
+                },
+                {
+                  "k": "apple-mobile-web-app-status-bar-style",
+                  "v": "black"
+                },
+                {
+                  "k": "format-detection",
+                  "v": "telephone=no"
+                },
+                {
+                  "k": "referrer",
+                  "v": "origin-when-cross-origin"
+                },
+                {
+                  "k": "referrer",
+                  "v": "strict-origin-when-cross-origin"
+                },
+                {
+                  "k": "description",
+                  "v": "DeepSeek Harness 的插件系统最近很热闹。这篇先讲怎么一行装好它，再按星数挑 10 个推荐。"
+                },
+                {
+                  "k": "author",
+                  "v": "虾看虾说"
+                },
+                {
+                  "k": "og:title",
+                  "v": "DeepSeek Harness 的 10 个热门插件，从榜单到用法"
+                },
+                {
+                  "k": "og:image",
+                  "v": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/fwCJ5FlqqWpM68NjDibElUJdRWoeXsrQzccYwbL7NuB5TozAZG7pTs2pKxyiakN1FJ35eLxGxia1ON1ZuTR5dhj896nsz1Dib4tLb50vxmwANaY/0?wx_fmt=jpeg"
+                },
+                {
+                  "k": "og:description",
+                  "v": "DeepSeek Harness 的插件系统最近很热闹。这篇先讲怎么一行装好它，再按星数挑 10 个推荐。"
+                },
+                {
+                  "k": "og:site_name",
+                  "v": "微信公众平台"
+                },
+                {
+                  "k": "og:type",
+                  "v": "article"
+                },
+                {
+                  "k": "og:article:author",
+                  "v": "虾看虾说"
+                },
+                {
+                  "k": "twitter:card",
+                  "v": "summary"
+                },
+                {
+                  "k": "twitter:image",
+                  "v": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/fwCJ5FlqqWpM68NjDibElUJdRWoeXsrQzccYwbL7NuB5TozAZG7pTs2pKxyiakN1FJ35eLxGxia1ON1ZuTR5dhj896nsz1Dib4tLb50vxmwANaY/0?wx_fmt=jpeg"
+                },
+                {
+                  "k": "twitter:title",
+                  "v": "DeepSeek Harness 的 10 个热门插件，从榜单到用法"
+                },
+                {
+                  "k": "twitter:creator",
+                  "v": "虾看虾说"
+                },
+                {
+                  "k": "twitter:site",
+                  "v": "微信公众平台"
+                },
+                {
+                  "k": "twitter:description",
+                  "v": "DeepSeek Harness 的插件系统最近很热闹。这篇先讲怎么一行装好它，再按星数挑 10 个推荐。"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "platform": "wechat",
+          "external_id": "wechat:MzcxMDI3MjI5OQ==:2247483681:1",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzcxMDI3MjI5OQ==&mid=2247483681&idx=1",
+          "item_type": "article",
+          "title": "Deepseek Harness插件",
+          "author": "OminiKit",
+          "published_label": "2026年8月16日 11:29 四川",
+          "content_text": "Deepseek Harness插件\nOminiKit OmniKit\n 2026年8月16日 11:29 四川\n搜集了一些DSH的热门插件，前几天看到UI也属于插件的时候就觉得换皮肤可能会很火，没想到会这么火哈哈哈，颜值才是第一生产力哈哈哈。\n\n\n\n🎨 一、UI / 界面增强类\n\n这类插件主要增强或替代 DSH 的交互界面，让使用更顺手、更可观察。\n\n1. dsh-web-ui\n\n🎨 ⭐ Stars：2.5k ｜ 🔗：https://github.com/zhu1090093659/dsh-web-ui\n\n\n📌 背景 / 痛点：官方 Web UI 缺少任务管理、可视化 Git、移动端控制、个性化皮肤等扩展，体验受限。\n\n✨ 优点：功能插件丰富（任务看板支持 cron、Git 图谱、SSH 远程连接、鲸鱼娘宠物（颜值是第一生产力哈哈哈）、10 款皮肤、实时 Token 统计），统一设置中心即开即用；Apache-2.0 开源。\n\n🚀 怎么用：dsh plugin --profile web add @linxin666/dsh-web-ui-all（全家桶），或单独装子包；装完重启 dsh web。\n\n\n\n\n\n\n2. deepseek-harness-desktop：桌面端\n\n💡 ⭐ Stars：4,702 ｜ 🔗 ：https://github.com/anywhere-labs/deepseek-harness-desktop\n\n📌 背景 / 痛点：官方只能命令行启动本地 Web UI，需自配 Node.js 和执行命令，对普通用户门槛高。\n\n✨ 优点：自动管理服务、系统托盘与桌面窗口，无需 Node / 命令行；规划手机远程、插件市场、IM 通道；MIT 协议。\n\n🚀 怎么用：到 deepseekdesktop.com（或 dshdesktop.cn）下载安装；源码 pnpm install && pnpm run dev:desktop。注意：社区桌面版，非官方产品。\n\n\n\n\n\n\n3. dsh-TUI：claude code风格的ui，还挺好看的\n\n💡 ⭐ Stars：1,184 ｜ 🔗：https://github.com/ccch1mneyyy/dsh-TUI\n\n📌 背景 / 痛点：DSH 官方没有终端 TUI，偏好 CLI 的极客缺少可观察的终端交互。\n\n✨ 优点：Claude Code 风格全屏交互、流式 Markdown、工具卡、命令 / @文件补全、上下文进度条 + TPS 仪表、双击 Esc 回滚；零核心改动纯插件挂载；MIT。\n\n🚀 怎么用：npm install -g @deepseek-ai/dsh @deepseek-harness-tui/dsh-tui 后运行 dsh-tui；TUI 内 /update 自更新。\n\n\n\n\n\n\n\n\n👁️ 二、视觉 / 多模态类\n\n这类插件为纯文本模型外挂\"眼睛\"，让 DSH 能理解图片。\n\n4. dsh-vision-toolkit\n\n💡 ⭐ Stars：415 ｜ 🔗 https://github.com/Anionex/dsh-vision-toolkit\n\n📌 背景 / 痛点：纯文本模型无图像理解能力，以往要靠手工 CLI 拼参数、bash glue，体验差。\n\n✨ 优点：10 个独立视觉工具（图片问答 / 长截图 OCR / UI 还原 / 像素对比等），基于坐标返回结构化结果、产物即文件可预览、DSH 凭证托管密钥；MIT。\n\n🚀 怎么用：dsh plugin --profile web add @anionex/dsh-vision-toolkit，重启后在 Settings → Vision Toolkit 选凭证 Test connection，对话中 /vision-tools 调用。\n\n\n\n\n\n\n5. modlens：赋予deepseek harness多模态能力\n\n🔍 ⭐ Stars：1,776 ｜ 🔗 https://github.com/liustack/modlens\n\n📌 背景 / 痛点：DeepSeek、GLM 等旗舰模型是纯文本，无法直接读图，用户得先存文件再传路径。\n\n✨ 优点：全网首个 DSH 视觉插件，最轻量（无 hook、无本地代理守护进程），零配置复用已有登录，9 种视觉来源 + 故障转移，粘贴即读；MIT。\n\n🚀 怎么用：npx -y @deepseek-ai/dsh plugin --profile web add @liustack/modlens@3.16.6；安装后聊天直接粘贴图片即可。\n\n\n\n\n\n\n\n\n\n\n\n\n📚 三、资源 / 导航类\n\n6. awesome-dsh-plugin：插件聚合网站，综合了DHS的可用插件。\n\n很值得关注一下，类似于之前的skill网站。\n\n📚 ⭐ Stars：2,630 ｜ 🔗https://github.com/awesome-dsh-plugin/awesome-dsh-plugin\n\n📌 背景 / 痛点：DSH 一切皆插件，但社区插件分散各处，用户难发现和选用。\n\n✨ 优点：12+ 分类（UI / 主题 / 模型 / 记忆 / 工具等）、中英双语、CI 守卫持续维护，并推荐 dsh-market 等配套工具；CC0 协议。\n\n🚀 怎么用：在 GitHub 浏览 README 分类找插件，再用 dsh plugin add <插件名> 安装；或用 dsh-market 在 UI 内一键装。\n\n\n\n\n\n\n\n\n\n\n\n​\nOmniKit\n赞\n分享\n推荐\n写留言",
+          "language": "zh",
+          "media_kind": "image",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://mmbiz.qpic.cn/mmbiz_jpg/Q5fRpBU8lvxYX0sK11oHeickE75L87WhuuLBFugtyRb9y40zJcDE14LKYzLibiblu9xXatc0jmIDichUvgXryeiblCreZHzNXyx2XaJXqTgVSSms/0?wx_fmt=jpeg",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            }
+          ],
+          "refs": [
+            "https://github.com/Anionex/dsh-vision-toolkit",
+            "https://github.com/anywhere-labs/deepseek-harness-desktop",
+            "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
+            "https://github.com/ccch1mneyyy/dsh-TUI",
+            "https://github.com/liustack/modlens",
+            "https://github.com/zhu1090093659/dsh-web-ui"
+          ],
+          "metrics": {
+            "likes": null,
+            "comments": null,
+            "shares": null,
+            "metric_source": "WeChat visible article controls; counters not exposed",
+            "observed_at": "2026-08-16T05:05:33.922Z"
+          },
+          "tags": [
+            "wechat",
+            "DeepSeek Harness",
+            "article"
+          ],
+          "raw_capture": {
+            "search": {
+              "position": 3,
+              "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSxpIjTLo2YfL34K6JYu5D3EE01qvdB3aQlqXa8Fplpd9xlItm811HfaajS4x08X3hhI-JBEBvZsJeQtutzBUukOh0muDjtgvXEL7sik1hTr1iRsW0ahNzQMXXoZghPSJ-Cls2wYNvvKYndt4_I4AGWlfpgbdU2zUeufGRbtzGzp2_onUFGepssa5JhQ6IodmfWGe-C47UYNk9L8GLC08AEB5Nu7CnoSqqg..&type=2&query=DeepSeek%20Harness&token=4DCFB72442A18234EAECB3C83CFCFFE3EB5450056A81450F",
+              "title": "Deepseek Harness插件",
+              "text": "Deepseek Harness插件\n\ndeepseek-harness-desktop:桌面端 Stars:4,702 | :https://github.com/anywhere-labs/deepseek-harness-desktop 背景 / 痛点:官方只能...\n\nOmniKit1小时前",
+              "images": [
+                "https://img01.sogoucdn.com/v2/thumb?appid=201147&url=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FQ5fRpBU8lvxYX0sK11oHeickE75L87WhuuLBFugtyRb9y40zJcDE14LKYzLibiblu9xXatc0jmIDichUvgXryeiblCreZHzNXyx2XaJXqTgVSSms%2F0%3Fwx_fmt%3Djpeg&sign=18d76d1a10580e3182f560c08ca121de"
+              ]
+            },
+            "info": {
+              "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1786856720&ver=6907&signature=gK9yKiRueKTghO9wMUh4gd1vI5RrWSmDD2DOtZ2LamGzATaTDK*dHSD54FLgqRuGuu5sXlyn42MoHflc2kD-AydZL8fW61IzJs634*wZgkf82Pmd9u2MNu6-0jTKj9mE&new=1",
+              "title": "Deepseek Harness插件",
+              "w": 1141,
+              "h": 698,
+              "sx": 0,
+              "sy": 0,
+              "pw": 1141,
+              "ph": 7032
+            },
+            "capture": {
+              "page_url": "https://mp.weixin.qq.com/s?src=11&timestamp=1786856720&ver=6907&signature=gK9yKiRueKTghO9wMUh4gd1vI5RrWSmDD2DOtZ2LamGzATaTDK*dHSD54FLgqRuGuu5sXlyn42MoHflc2kD-AydZL8fW61IzJs634*wZgkf82Pmd9u2MNu6-0jTKj9mE&new=1",
+              "page_title": "Deepseek Harness插件",
+              "visible_text": "Deepseek Harness插件\nOminiKit OmniKit\n 2026年8月16日 11:29 四川\n搜集了一些DSH的热门插件，前几天看到UI也属于插件的时候就觉得换皮肤可能会很火，没想到会这么火哈哈哈，颜值才是第一生产力哈哈哈。\n\n\n\n🎨 一、UI / 界面增强类\n\n这类插件主要增强或替代 DSH 的交互界面，让使用更顺手、更可观察。\n\n1. dsh-web-ui\n\n🎨 ⭐ Stars：2.5k ｜ 🔗：https://github.com/zhu1090093659/dsh-web-ui\n\n\n📌 背景 / 痛点：官方 Web UI 缺少任务管理、可视化 Git、移动端控制、个性化皮肤等扩展，体验受限。\n\n✨ 优点：功能插件丰富（任务看板支持 cron、Git 图谱、SSH 远程连接、鲸鱼娘宠物（颜值是第一生产力哈哈哈）、10 款皮肤、实时 Token 统计），统一设置中心即开即用；Apache-2.0 开源。\n\n🚀 怎么用：dsh plugin --profile web add @linxin666/dsh-web-ui-all（全家桶），或单独装子包；装完重启 dsh web。\n\n\n\n\n\n\n2. deepseek-harness-desktop：桌面端\n\n💡 ⭐ Stars：4,702 ｜ 🔗 ：https://github.com/anywhere-labs/deepseek-harness-desktop\n\n📌 背景 / 痛点：官方只能命令行启动本地 Web UI，需自配 Node.js 和执行命令，对普通用户门槛高。\n\n✨ 优点：自动管理服务、系统托盘与桌面窗口，无需 Node / 命令行；规划手机远程、插件市场、IM 通道；MIT 协议。\n\n🚀 怎么用：到 deepseekdesktop.com（或 dshdesktop.cn）下载安装；源码 pnpm install && pnpm run dev:desktop。注意：社区桌面版，非官方产品。\n\n\n\n\n\n\n3. dsh-TUI：claude code风格的ui，还挺好看的\n\n💡 ⭐ Stars：1,184 ｜ 🔗：https://github.com/ccch1mneyyy/dsh-TUI\n\n📌 背景 / 痛点：DSH 官方没有终端 TUI，偏好 CLI 的极客缺少可观察的终端交互。\n\n✨ 优点：Claude Code 风格全屏交互、流式 Markdown、工具卡、命令 / @文件补全、上下文进度条 + TPS 仪表、双击 Esc 回滚；零核心改动纯插件挂载；MIT。\n\n🚀 怎么用：npm install -g @deepseek-ai/dsh @deepseek-harness-tui/dsh-tui 后运行 dsh-tui；TUI 内 /update 自更新。\n\n\n\n\n\n\n\n\n👁️ 二、视觉 / 多模态类\n\n这类插件为纯文本模型外挂\"眼睛\"，让 DSH 能理解图片。\n\n4. dsh-vision-toolkit\n\n💡 ⭐ Stars：415 ｜ 🔗 https://github.com/Anionex/dsh-vision-toolkit\n\n📌 背景 / 痛点：纯文本模型无图像理解能力，以往要靠手工 CLI 拼参数、bash glue，体验差。\n\n✨ 优点：10 个独立视觉工具（图片问答 / 长截图 OCR / UI 还原 / 像素对比等），基于坐标返回结构化结果、产物即文件可预览、DSH 凭证托管密钥；MIT。\n\n🚀 怎么用：dsh plugin --profile web add @anionex/dsh-vision-toolkit，重启后在 Settings → Vision Toolkit 选凭证 Test connection，对话中 /vision-tools 调用。\n\n\n\n\n\n\n5. modlens：赋予deepseek harness多模态能力\n\n🔍 ⭐ Stars：1,776 ｜ 🔗 https://github.com/liustack/modlens\n\n📌 背景 / 痛点：DeepSeek、GLM 等旗舰模型是纯文本，无法直接读图，用户得先存文件再传路径。\n\n✨ 优点：全网首个 DSH 视觉插件，最轻量（无 hook、无本地代理守护进程），零配置复用已有登录，9 种视觉来源 + 故障转移，粘贴即读；MIT。\n\n🚀 怎么用：npx -y @deepseek-ai/dsh plugin --profile web add @liustack/modlens@3.16.6；安装后聊天直接粘贴图片即可。\n\n\n\n\n\n\n\n\n\n\n\n\n📚 三、资源 / 导航类\n\n6. awesome-dsh-plugin：插件聚合网站，综合了DHS的可用插件。\n\n很值得关注一下，类似于之前的skill网站。\n\n📚 ⭐ Stars：2,630 ｜ 🔗https://github.com/awesome-dsh-plugin/awesome-dsh-plugin\n\n📌 背景 / 痛点：DSH 一切皆插件，但社区插件分散各处，用户难发现和选用。\n\n✨ 优点：12+ 分类（UI / 主题 / 模型 / 记忆 / 工具等）、中英双语、CI 守卫持续维护，并推荐 dsh-market 等配套工具；CC0 协议。\n\n🚀 怎么用：在 GitHub 浏览 README 分类找插件，再用 dsh plugin add <插件名> 安装；或用 dsh-market 在 UI 内一键装。\n\n\n\n\n\n\n\n\n\n\n\n​\nOmniKit\n赞\n分享\n推荐\n写留言",
+              "stable_url": null,
+              "ids": {
+                "biz": "MzcxMDI3MjI5OQ==",
+                "mid": "2247483681",
+                "idx": "1",
+                "sn": null
+              },
+              "meta": [
+                {
+                  "k": "wechat-enable-text-zoom-em",
+                  "v": "true"
+                },
+                {
+                  "k": "wechat-enable-text-size-adjust",
+                  "v": "true"
+                },
+                {
+                  "k": "color-scheme",
+                  "v": "light dark"
+                },
+                {
+                  "k": "viewport",
+                  "v": "width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover"
+                },
+                {
+                  "k": "apple-mobile-web-app-capable",
+                  "v": "yes"
+                },
+                {
+                  "k": "apple-mobile-web-app-status-bar-style",
+                  "v": "black"
+                },
+                {
+                  "k": "format-detection",
+                  "v": "telephone=no"
+                },
+                {
+                  "k": "referrer",
+                  "v": "origin-when-cross-origin"
+                },
+                {
+                  "k": "referrer",
+                  "v": "strict-origin-when-cross-origin"
+                },
+                {
+                  "k": "description",
+                  "v": "搜集了一些deepseek harness热门插件，最火竟然是换皮哈哈哈，颜值果然是第一生产力"
+                },
+                {
+                  "k": "author",
+                  "v": "OminiKit"
+                },
+                {
+                  "k": "og:title",
+                  "v": "Deepseek Harness插件"
+                },
+                {
+                  "k": "og:image",
+                  "v": "https://mmbiz.qpic.cn/mmbiz_jpg/Q5fRpBU8lvxYX0sK11oHeickE75L87WhuuLBFugtyRb9y40zJcDE14LKYzLibiblu9xXatc0jmIDichUvgXryeiblCreZHzNXyx2XaJXqTgVSSms/0?wx_fmt=jpeg"
+                },
+                {
+                  "k": "og:description",
+                  "v": "搜集了一些deepseek harness热门插件，最火竟然是换皮哈哈哈，颜值果然是第一生产力"
+                },
+                {
+                  "k": "og:site_name",
+                  "v": "微信公众平台"
+                },
+                {
+                  "k": "og:type",
+                  "v": "article"
+                },
+                {
+                  "k": "og:article:author",
+                  "v": "OminiKit"
+                },
+                {
+                  "k": "twitter:card",
+                  "v": "summary"
+                },
+                {
+                  "k": "twitter:image",
+                  "v": "https://mmbiz.qpic.cn/mmbiz_jpg/Q5fRpBU8lvxYX0sK11oHeickE75L87WhuuLBFugtyRb9y40zJcDE14LKYzLibiblu9xXatc0jmIDichUvgXryeiblCreZHzNXyx2XaJXqTgVSSms/0?wx_fmt=jpeg"
+                },
+                {
+                  "k": "twitter:title",
+                  "v": "Deepseek Harness插件"
+                },
+                {
+                  "k": "twitter:creator",
+                  "v": "OminiKit"
+                },
+                {
+                  "k": "twitter:site",
+                  "v": "微信公众平台"
+                },
+                {
+                  "k": "twitter:description",
+                  "v": "搜集了一些deepseek harness热门插件，最火竟然是换皮哈哈哈，颜值果然是第一生产力"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
