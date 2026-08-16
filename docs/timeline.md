@@ -5,6 +5,20 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 1天前 | xiaohongshu | note | [DeepSeek Harness 像 foobar2000？](https://www.xiaohongshu.com/explore/6a7ee9020000000028008fb1) | zlbigger | core-and-ecosystem |
+| 1天前 | xiaohongshu | note | [DeepSeek Harness 四步安装教程](https://www.xiaohongshu.com/explore/6a7e4e240000000024025cd0) | Jack拆世界 | core-and-ecosystem |
+| 7小时前 | xiaohongshu | note | [DeepSeek Harness 的 12,293 次提交](https://www.xiaohongshu.com/explore/6a7df058000000003300df36) | TOMATOFQY | core-and-ecosystem |
+| 1天前 | xiaohongshu | note | [DeepSeek Harness到底是什么](https://www.xiaohongshu.com/explore/6a7e8199000000003301bccb) | 打工人的AI外挂 | core-and-ecosystem |
+| 1天前 | xiaohongshu | note | [DeepSeek Harness发布，我们确定了一个事情](https://www.xiaohongshu.com/explore/6a7eafd90000000022013f7b) | LangAlpha | Ginlix AI | core-and-ecosystem |
+| 1天前 | xiaohongshu | note | [DeepSeek Harness已来，一起搞懂它](https://www.xiaohongshu.com/explore/6a7ecd2f0000000025007982) | 出前一廷🍜（HKU烹饪版） | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [DeepSeek Harness：插件时代来了吗](https://www.xiaohongshu.com/explore/6a7dcaa60000000025003f53) | 阿阿阿阿景（专业回收AI垃圾） | core-and-ecosystem |
+| 1天前 | xiaohongshu | note | [Deepseek Harness！](https://www.xiaohongshu.com/explore/6a7dc2a400000000220308ac) | 浅川 | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [deepseek harness使用第一步，先换个皮肤](https://www.xiaohongshu.com/explore/6a7deb39000000002403fa5c) | 子鱼尘AI | core-and-ecosystem |
+| 1天前 | xiaohongshu | note | [deepseek harness好强](https://www.xiaohongshu.com/explore/6a7f23f50000000033033588) | 在不n | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [deepseek harness没有惊喜](https://www.xiaohongshu.com/explore/6a7dd32b000000002403f3ec) | 长空的AI世界 | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [出海需求挖掘--deepseek harness](https://www.xiaohongshu.com/explore/6a7e59830000000008012c60) | 出海小茶馆 | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [感受下DeepSeek Harness 的速度！](https://www.xiaohongshu.com/explore/6a7dff1e000000002102230a) | 远山 | core-and-ecosystem |
+| 1天前 | xiaohongshu | note | [拆解 deepseek-harness 六大核心创新](https://www.xiaohongshu.com/explore/6a7ee779000000002403c656) | 一颗恒星 | core-and-ecosystem |
 | 2026-08-16T00:51:32Z | github | ecosystem-reference | [AI-Galaxy-GPU/dsh-sound](https://github.com/AI-Galaxy-GPU/dsh-sound) | AI-Galaxy-GPU | ui-and-desktop |
 | 2026-08-16 | github | plugin | [DSH-Right-Sidebar](https://github.com/Limitinfinitude/DSH-Right-Sidebar) | Limitinfinitude | ui-and-desktop |
 | 2026-08-16T00:51:32Z | github | ecosystem-reference | [Vladimir-Human/humanizer-rudsh](https://github.com/Vladimir-Human/humanizer-ru) | Vladimir-Human | core-and-ecosystem |
@@ -2099,7 +2113,7 @@
 | 2026-08-15T08:13:29Z | xiaohongshu | note | [DeepSeek Harness的过度设计与 Pi 的极简](https://www.xiaohongshu.com/explore/6a7fc6a90000000024025fef) | AI拯救打工人（幻觉版） | agents-and-orchestration |
 | 2026-08-15T08:13:29Z | xiaohongshu | note | [DeepseekHraness还没捂热，插件社区就来了](https://www.xiaohongshu.com/explore/6a7edd44000000002202e3d9) | AI拯救打工人（幻觉版） | index-and-marketplace |
 | 2026-08-15T08:13:29Z | xiaohongshu | note | [从零开始带你“玩转”DeepseekHarness](https://www.xiaohongshu.com/explore/6a7ef11a0000000008012af5) | AI拯救打工人（幻觉版） | core-and-ecosystem |
-| 2026-08-15T08:13:29Z | xiaohongshu | note | [全网最全的DeepSeek Harness终极教程！](https://www.xiaohongshu.com/explore/6a7eed6a000000000801102e) | AI拯救打工人（幻觉版） | core-and-ecosystem |
+| 1天前 | xiaohongshu | note | [全网最全的DeepSeek Harness终极教程！](https://www.xiaohongshu.com/explore/6a7eed6a000000000801102e) | AI先生李豪 | core-and-ecosystem |
 | 2026-08-15T08:13:23Z | github | fork | [Li783126/deepseek-harness](https://github.com/Li783126/deepseek-harness) | Li783126 | deepseek-harness-forks |
 | 7m | x | post | [AI harness dependency and bloat security concern](https://x.com/KuittinenPetri/status/2088537151839350824) | Petri Kuittinen | operations-and-safety |
 | 11m | x | post | [DeepSeek Harness data and bias risks](https://x.com/kameki23/status/2088536269068632536) | タートル(亀田直樹）/ AI関連の最新情報をお届け | core-and-ecosystem |
@@ -2641,7 +2655,7 @@
 | 1天前 | xiaohongshu | note | [太开心能参加DeepSeek Harness内测！！](https://www.xiaohongshu.com/explore/6a7dcc860000000033037926) | Monet | core-and-ecosystem |
 | 昨天 14:56 | xiaohongshu | note | [文件](https://www.xiaohongshu.com/explore/6a7ebc1f00000000060043d0) | 才巨智能 | operations-and-safety |
 | 4小时前 | xiaohongshu | note | [给DeepSeek Harness做了一个插件市场](https://www.xiaohongshu.com/explore/6a7f1a21000000002402e4fa) | Awesome | core-and-ecosystem |
-| 昨天 21:49 | xiaohongshu | note | [给deepseek harness开发了一个插件](https://www.xiaohongshu.com/explore/6a7f1cfc0000000026034f60) | 大模型产品经理 | core-and-ecosystem |
+| 1天前 | xiaohongshu | note | [给deepseek harness开发了一个插件](https://www.xiaohongshu.com/explore/6a7f1cfc0000000026034f60) | 大模型产品经理 | core-and-ecosystem |
 | 1天前 | xiaohongshu | note | [给dsh加上眼睛！](https://www.xiaohongshu.com/explore/6a7dd8490000000024024ebd) | JJJYmmm | core-and-ecosystem |
 | 2小时前 | xiaohongshu | note | [https://www.xiaohongshu.com/explore/6a7f266d000000002701caf2](https://www.xiaohongshu.com/explore/6a7f266d000000002701caf2) | AI大白话 | core-and-ecosystem |
 | 昨天 18:54 | xiaohongshu | note | [DeepSeek Harness，一盘为了论文包的饺子](https://www.xiaohongshu.com/explore/6a7ef3c800000000050337e7) | 电波曲奇 | operations-and-safety |

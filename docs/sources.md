@@ -6,8 +6,8 @@
 | --- | --- | ---: | ---: | ---: | --- | --- |
 | [GitHub](https://github.com) (`github`) | public REST API | 12,591 | 183 | 67 | 2026-08-16T00:53:35Z | [policy](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) |
 | [Hacker News](https://news.ycombinator.com) (`hacker_news`) | Algolia public search API | 101 | 54 | 21 | 2026-08-16T00:53:35Z | [policy](https://news.ycombinator.com/newsguidelines.html) |
-| [X](https://x.com) (`x`) | ego-browser visible DOM | 77 | 12 | 12 | 2026-08-15T19:56:03.790Z | [policy](https://x.com/en/tos) |
-| [小红书](https://www.xiaohongshu.com) (`xiaohongshu`) | ego-browser visible DOM | 51 | 5 | 5 | 2026-08-15T19:54:47.882Z | [policy](https://www.xiaohongshu.com/privacy_policy) |
+| [X](https://x.com) (`x`) | ego-browser visible DOM | 77 | 13 | 13 | 2026-08-16T01:26:19.876Z | [policy](https://x.com/en/tos) |
+| [小红书](https://www.xiaohongshu.com) (`xiaohongshu`) | ego-browser visible DOM | 65 | 6 | 6 | 2026-08-16T01:25:53.010Z | [policy](https://www.xiaohongshu.com/privacy_policy) |
 | [Reddit](https://www.reddit.com) (`reddit`) | ego-browser visible DOM | 35 | 7 | 7 | 2026-08-15T19:56:58.061Z | [policy](https://www.redditinc.com/policies/user-agreement) |
 | [YouTube](https://www.youtube.com) (`youtube`) | ego-browser visible DOM | 28 | 6 | 6 | 2026-08-15T19:58:26.912Z | [policy](https://www.youtube.com/static?template=terms) |
 | Open Web (`web`) | public page metadata | 21 | 23 | 23 | 2026-08-15T07:04:51.443Z | — |
