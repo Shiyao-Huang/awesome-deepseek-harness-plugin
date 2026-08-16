@@ -22,6 +22,7 @@ MEDIA_DIR = ROOT / "media"
 PUBLISHED_MEDIA_DIR = ROOT / "docs" / "media"
 SITEMAP_PATH = ROOT / "docs" / "sitemap.xml"
 DETAIL_DIR = ROOT / "docs" / "skills"
+MARKET_DETAIL_DIR = ROOT / "docs" / "plugins"
 INDEX_PATH = ROOT / "index" / "records.jsonl"
 VALUE_MATRIX_PATH = ROOT / "index" / "value-matrix.jsonl"
 FORK_INDEX_PATH = ROOT / "docs" / "data" / "forks.json"
@@ -148,7 +149,11 @@ def validate_community_registry() -> int:
     return len(plugins)
 
 
-def validate_rich_media_site(connection: sqlite3.Connection, item_count: int) -> tuple[int, int]:
+def validate_rich_media_site(
+    connection: sqlite3.Connection,
+    item_count: int,
+    market_plugin_count: int,
+) -> tuple[int, int]:
     """Validate deployable local media and crawlable image/video projections."""
 
     source_files = sorted(path.relative_to(MEDIA_DIR) for path in MEDIA_DIR.rglob("*") if path.is_file())
@@ -187,7 +192,19 @@ def validate_rich_media_site(connection: sqlite3.Connection, item_count: int) ->
         "https://deeplugin.store/register-agent.html",
     }
     assert required_static_locations.issubset(set(locations))
-    assert len(entries) == item_count + len(required_static_locations)
+    market_locations = {
+        location
+        for location in locations
+        if location and location.startswith("https://deeplugin.store/plugins/deeplugin-")
+    }
+    generated_market_details = set(MARKET_DETAIL_DIR.glob("*.html"))
+    assert len(market_locations) == market_plugin_count
+    assert len(generated_market_details) == market_plugin_count
+    assert {
+        f"https://deeplugin.store/plugins/{path.name}"
+        for path in generated_market_details
+    } == market_locations
+    assert len(entries) == item_count + market_plugin_count + len(required_static_locations)
     assert len(set(locations)) == len(locations)
     image_entries = sitemap_root.findall(f".//{{{image_ns}}}image")
     video_entries = sitemap_root.findall(f".//{{{video_ns}}}video")
@@ -386,7 +403,7 @@ def main() -> None:
     assert all(0 <= record[key] <= 100 for record in value_records for key in ("utility", "evidence", "traction", "ecosystem", "freshness", "reviewability", "value_score", "confidence_score"))
     community_listings = validate_community_registry()
     market_plugins = validate_market_registry()
-    sitemap_images, sitemap_videos = validate_rich_media_site(connection, items)
+    sitemap_images, sitemap_videos = validate_rich_media_site(connection, items, market_plugins)
     platforms = connection.execute("SELECT COUNT(DISTINCT platform) FROM items").fetchone()[0]
     metrics = connection.execute("SELECT COUNT(*) FROM metrics").fetchone()[0]
     media = connection.execute("SELECT COUNT(*) FROM media_assets").fetchone()[0]
