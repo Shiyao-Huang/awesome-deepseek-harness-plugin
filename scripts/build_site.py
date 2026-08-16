@@ -6,9 +6,10 @@ from __future__ import annotations
 import html
 import json
 import re
+import shutil
 import sqlite3
-from pathlib import Path
-from urllib.parse import urlparse
+from pathlib import Path, PurePosixPath
+from urllib.parse import parse_qs, urlparse
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -16,6 +17,8 @@ DB_PATH = ROOT / "data" / "aggregator.sqlite3"
 DOCS = ROOT / "docs"
 DATA = DOCS / "data"
 SKILLS = DOCS / "skills"
+MEDIA = ROOT / "media"
+PUBLISHED_MEDIA = DOCS / "media"
 CONFIG_PATH = ROOT / "config" / "site.json"
 
 PLATFORM_LABELS = {
@@ -96,6 +99,36 @@ def valid_url(value: object) -> bool:
     return urlparse(str(value or "")).scheme in {"http", "https"}
 
 
+def valid_media_reference(value: object) -> bool:
+    """Allow public URLs and safe paths inside the published media directory."""
+
+    if valid_url(value):
+        return True
+    text = str(value or "")
+    path = PurePosixPath(text)
+    return (
+        bool(text)
+        and not text.startswith("/")
+        and "\\" not in text
+        and path.parts[:1] == ("media",)
+        and ".." not in path.parts
+    )
+
+
+def page_media_url(value: object, prefix: str = "") -> str:
+    """Resolve one safe local media path for the current generated page."""
+
+    text = str(value or "")
+    return text if valid_url(text) else prefix + text
+
+
+def absolute_media_url(value: object, site_url: str) -> str:
+    """Resolve one safe local media path against the configured site URL."""
+
+    text = str(value or "")
+    return text if valid_url(text) else site_url.rstrip("/") + "/" + text
+
+
 def connection() -> sqlite3.Connection:
     """Open the generated database with named result columns."""
 
@@ -173,13 +206,13 @@ def load_records(db: sqlite3.Connection) -> list[dict[str, object]]:
     ).fetchall()
     media_by_item: dict[int, list[dict[str, object]]] = {}
     for media in media_rows:
-        if not valid_url(media["url"]):
+        if not valid_media_reference(media["url"]):
             continue
         media_by_item.setdefault(int(media["item_id"]), []).append(
             {
                 "kind": media["kind"],
                 "url": media["url"],
-                "thumbnail_url": media["thumbnail_url"] if valid_url(media["thumbnail_url"]) else None,
+                "thumbnail_url": media["thumbnail_url"] if valid_media_reference(media["thumbnail_url"]) else None,
                 "alt": media["alt_text"] or "Public media reference",
                 "rights_note": media["rights_note"],
             }
@@ -346,10 +379,122 @@ def record_image(record: dict[str, object]) -> str | None:
     assert isinstance(media, list)
     for asset in media:
         assert isinstance(asset, dict)
-        candidate = asset.get("thumbnail_url") or asset.get("url")
-        if valid_url(candidate):
-            return str(candidate)
+        thumbnail = asset.get("thumbnail_url")
+        if valid_media_reference(thumbnail):
+            return str(thumbnail)
+    for asset in media:
+        assert isinstance(asset, dict)
+        if asset.get("kind") not in {"image", "image-local", "thumbnail", "avatar", "picture"}:
+            continue
+        if valid_media_reference(asset.get("url")):
+            return str(asset["url"])
     return None
+
+
+def video_embed_url(value: object) -> str | None:
+    """Convert supported public watch URLs into embeddable player URLs."""
+
+    if not valid_url(value):
+        return None
+    parsed = urlparse(str(value))
+    host = parsed.netloc.lower().split(":", 1)[0]
+    if host in {"youtube.com", "www.youtube.com", "m.youtube.com"}:
+        video_id = parse_qs(parsed.query).get("v", [""])[0]
+        if re.fullmatch(r"[A-Za-z0-9_-]{6,}", video_id):
+            return f"https://www.youtube-nocookie.com/embed/{video_id}"
+    if host == "youtu.be":
+        video_id = parsed.path.strip("/").split("/", 1)[0]
+        if re.fullmatch(r"[A-Za-z0-9_-]{6,}", video_id):
+            return f"https://www.youtube-nocookie.com/embed/{video_id}"
+    if host in {"bilibili.com", "www.bilibili.com"}:
+        match = re.search(r"/video/(BV[A-Za-z0-9]+)", parsed.path)
+        if match:
+            return f"https://player.bilibili.com/player.html?bvid={match.group(1)}"
+    if host == "mp.weixin.qq.com" and parsed.path == "/mp/readtemplate":
+        return str(value)
+    return None
+
+
+def video_structured_data(
+    record: dict[str, object],
+    canonical: str,
+    description: str,
+    site_url: str,
+) -> dict[str, object] | None:
+    """Build a complete VideoObject only when captured evidence has required fields."""
+
+    published_at = str(record.get("published_at") or "").strip()
+    media = record.get("media")
+    if not published_at or not isinstance(media, list):
+        return None
+    for asset in media:
+        if not isinstance(asset, dict) or asset.get("kind") != "video":
+            continue
+        thumbnail = asset.get("thumbnail_url")
+        embed_url = video_embed_url(asset.get("url"))
+        if not valid_media_reference(thumbnail) or not embed_url:
+            continue
+        return {
+            "@type": "VideoObject",
+            "name": record["title"],
+            "description": description,
+            "thumbnailUrl": [absolute_media_url(thumbnail, site_url)],
+            "uploadDate": published_at,
+            "embedUrl": embed_url,
+            "url": canonical,
+            "isPartOf": {"@type": "WebSite", "url": site_url + "/"},
+        }
+    return None
+
+
+def render_media_gallery(record: dict[str, object]) -> str:
+    """Render captured images as images and captured videos as players."""
+
+    media = record.get("media")
+    if not isinstance(media, list):
+        return ""
+    title = str(record.get("title") or "Public media reference")
+    figures = []
+    for asset in media:
+        if not isinstance(asset, dict) or not valid_media_reference(asset.get("url")):
+            continue
+        source_url = str(asset["url"])
+        page_url = page_media_url(source_url, "../")
+        kind = str(asset.get("kind") or "link")
+        rights_note = str(asset.get("rights_note") or "").strip()
+        rights_html = f"<span>{esc(rights_note)}</span>" if rights_note else ""
+        if kind == "video":
+            embed_url = video_embed_url(source_url)
+            if embed_url:
+                content = (
+                    f'<div class="media-frame"><iframe class="media-video-player" '
+                    f'src="{esc(embed_url, attribute=True)}" title="{esc(title, attribute=True)}" '
+                    'loading="lazy" allow="accelerometer; encrypted-media; picture-in-picture; web-share" '
+                    'referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>'
+                )
+            else:
+                content = f'<a class="media-source-link" href="{esc(page_url, attribute=True)}" rel="noreferrer">Open video source ↗</a>'
+            figures.append(
+                f'<figure class="media-item media-video">{content}<figcaption>'
+                f'<a href="{esc(page_url, attribute=True)}" rel="noreferrer">Video source ↗</a>{rights_html}'
+                '</figcaption></figure>'
+            )
+            continue
+        image_url = asset.get("thumbnail_url") or asset.get("url")
+        if kind in {"image", "image-local", "thumbnail", "avatar", "picture"} and valid_media_reference(image_url):
+            page_image_url = page_media_url(image_url, "../")
+            referrer_policy = ' referrerpolicy="no-referrer"' if valid_url(image_url) else ""
+            figures.append(
+                f'<figure class="media-item media-image"><a href="{esc(page_url, attribute=True)}" rel="noreferrer">'
+                f'<img src="{esc(page_image_url, attribute=True)}" alt="{esc(asset.get("alt"), attribute=True)}" loading="lazy"{referrer_policy}></a>'
+                f'<figcaption><a href="{esc(page_url, attribute=True)}" rel="noreferrer">Image source ↗</a>{rights_html}</figcaption></figure>'
+            )
+            continue
+        figures.append(
+            f'<figure class="media-item media-link"><a class="media-source-link" href="{esc(page_url, attribute=True)}" rel="noreferrer">'
+            f'Open {esc(kind)} source ↗</a><figcaption>{rights_html}</figcaption></figure>'
+        )
+    return "".join(figures)
 
 
 def install_command(record: dict[str, object]) -> str | None:
@@ -455,7 +600,7 @@ def card_html(record: dict[str, object], prefix: str = "") -> str:
     title = str(record["title"])
     image = record_image(record)
     cover = (
-        f'<img src="{esc(image, attribute=True)}" alt="" loading="lazy">'
+        f'<img src="{esc(page_media_url(image, prefix), attribute=True)}" alt="" loading="lazy">'
         if image
         else f'<span class="cover-initial">{esc(title[:1].upper())}</span>'
     )
@@ -489,7 +634,7 @@ def spotlight_html(records: list[dict[str, object]]) -> str:
     cards = []
     for record in selected:
         image = record_image(record)
-        cover = f'<img src="{esc(image, attribute=True)}" alt="" loading="lazy">' if image else '<span class="cover-initial">DS</span>'
+        cover = f'<img src="{esc(page_media_url(image), attribute=True)}" alt="" loading="lazy">' if image else '<span class="cover-initial">DS</span>'
         cards.append(
             f'<a class="spotlight-item" href="skills/{esc(record["id"], attribute=True)}.html">{cover}<span><strong>{esc(record["title"])}</strong><small>{esc(record["platform_label"])} · {esc(record["category_label"])}</small></span></a>'
         )
@@ -676,16 +821,22 @@ def render_detail(record: dict[str, object], dataset_version: str, generated_at:
     canonical = f"{site_url}/skills/{record['id']}.html"
     title = f"{record['title']} — dsh store"
     description = compact_text(record["description"], 180) or "Public DeepSeek Harness ecosystem record."
-    image = record_image(record) or f"{site_url}/media/screenshots/official.png"
-    detail_json_ld = {"@type": "CreativeWork", "name": record["title"], "url": canonical, "isPartOf": {"@type": "WebSite", "url": site_url + "/"}}
+    image_reference = record_image(record)
+    image = absolute_media_url(image_reference, site_url) if image_reference else f"{site_url}/media/screenshots/official.png"
+    detail_json_ld = video_structured_data(record, canonical, description, site_url)
+    if not detail_json_ld:
+        detail_json_ld = {
+            "@type": "CreativeWork",
+            "name": record["title"],
+            "url": canonical,
+            "isPartOf": {"@type": "WebSite", "url": site_url + "/"},
+        }
+        if image_reference:
+            detail_json_ld["image"] = [image]
     head = page_head(title, description, canonical, image, config, extra_json_ld=detail_json_ld).replace("{ASSET_PREFIX}", "../")
     media = record["media"]
     assert isinstance(media, list)
-    gallery = "".join(
-        f'<a href="{esc(asset["url"], attribute=True)}" rel="noreferrer"><img src="{esc(asset.get("thumbnail_url") or asset["url"], attribute=True)}" alt="{esc(asset.get("alt"), attribute=True)}" loading="lazy"></a>'
-        for asset in media
-        if valid_url(asset.get("url"))
-    )
+    gallery = render_media_gallery(record)
     if not gallery:
         gallery = '<div class="empty-media">No public media reference was captured for this record.</div>'
     metric_items = "".join(
@@ -717,7 +868,7 @@ def render_detail(record: dict[str, object], dataset_version: str, generated_at:
 <main class="site-main detail-main">
   <div class="breadcrumbs"><a href="../">store</a><span>/</span><span>{esc(record['platform_label'])}</span><span>/</span><span>{esc(record['id'])}</span></div>
   <section class="detail-heading"><div><p class="kicker">{esc(record['platform_label'])} · {esc(record['category_label'])}</p><h1>{esc(record['title'])}</h1><p class="detail-author">{esc(str(author))} · {esc(record['item_type'])} · {esc('direct signal' if record['relevance'] == 'direct' else 'related signal')}</p></div><a class="button button-primary" href="{esc(record['url'], attribute=True)}" rel="noreferrer">Open source <span aria-hidden="true">↗</span></a></section>
-  <section class="detail-grid"><div class="detail-primary"><p class="detail-description">{esc(record['description'])}</p><div class="install-panel"><p class="filter-label">SOURCE-DECLARED INSTALL</p>{source_action}</div><div class="detail-media"><div class="section-heading"><div><p class="kicker">MEDIA REFERENCES</p><h2>Captured in public view</h2></div><span>External URLs only</span></div><div class="media-gallery">{gallery}</div></div></div><aside class="detail-sidebar"><div class="metric-grid">{metric_items}</div><div class="evidence-panel"><p class="filter-label">EVIDENCE</p><dl><div><dt>Registry ID</dt><dd>{esc(record['id'])}</dd></div><div><dt>Dataset</dt><dd>{esc(dataset_version)}</dd></div><div><dt>First seen</dt><dd>{esc(date_label(record['first_seen_at']))}</dd></div><div><dt>Last seen</dt><dd>{esc(date_label(record['last_seen_at']))}</dd></div><div><dt>Metric source</dt><dd>{esc(record['metric_source'] or 'unreported')}</dd></div><div><dt>Metric observed</dt><dd>{esc(record['metric_observed_at'] or 'NULL')}</dd></div></dl></div><div class="evidence-panel"><p class="filter-label">PUBLIC URL</p><a class="break-link" href="{esc(record['url'], attribute=True)}" rel="noreferrer">{esc(record['url'])}</a></div></aside></section>
+  <section class="detail-grid"><div class="detail-primary"><p class="detail-description">{esc(record['description'])}</p><div class="install-panel"><p class="filter-label">SOURCE-DECLARED INSTALL</p>{source_action}</div><div class="detail-media"><div class="section-heading"><div><p class="kicker">MEDIA REFERENCES</p><h2>Captured in public view</h2></div><span>Local and external references · rights noted</span></div><div class="media-gallery">{gallery}</div></div></div><aside class="detail-sidebar"><div class="metric-grid">{metric_items}</div><div class="evidence-panel"><p class="filter-label">EVIDENCE</p><dl><div><dt>Registry ID</dt><dd>{esc(record['id'])}</dd></div><div><dt>Dataset</dt><dd>{esc(dataset_version)}</dd></div><div><dt>First seen</dt><dd>{esc(date_label(record['first_seen_at']))}</dd></div><div><dt>Last seen</dt><dd>{esc(date_label(record['last_seen_at']))}</dd></div><div><dt>Metric source</dt><dd>{esc(record['metric_source'] or 'unreported')}</dd></div><div><dt>Metric observed</dt><dd>{esc(record['metric_observed_at'] or 'NULL')}</dd></div></dl></div><div class="evidence-panel"><p class="filter-label">PUBLIC URL</p><a class="break-link" href="{esc(record['url'], attribute=True)}" rel="noreferrer">{esc(record['url'])}</a></div></aside></section>
 {listing_section}
   <section class="detail-context"><div><p class="kicker">CONTEXT</p><h2>Why it is here</h2></div><p>{esc(record['description'])}</p></section>
 {references_section}
@@ -860,6 +1011,75 @@ def render_register_agent_page(config: dict[str, str]) -> str:
     )
 
 
+def publish_local_media() -> None:
+    """Mirror rights-cleared local media into the GitHub Pages source tree."""
+
+    if PUBLISHED_MEDIA.exists():
+        shutil.rmtree(PUBLISHED_MEDIA)
+    shutil.copytree(MEDIA, PUBLISHED_MEDIA)
+
+
+def render_sitemap(records: list[dict[str, object]], site_url: str) -> str:
+    """Render page, image, and complete video evidence for search crawlers."""
+
+    static_paths = (
+        "/",
+        "/report.html",
+        "/timeline.html",
+        "/categories.html",
+        "/directories.html",
+        "/sources.html",
+        "/forks.html",
+        "/register.html",
+        "/register-agent.html",
+    )
+    entries = [f"  <url><loc>{esc(site_url + path)}</loc></url>" for path in static_paths]
+    for record in records:
+        canonical = f"{site_url}/skills/{record['id']}.html"
+        title = compact_text(record.get("title"), 100) or "DeepSeek Harness ecosystem video"
+        description = compact_text(record.get("description"), 2048) or title
+        parts = [f"  <url><loc>{esc(canonical)}</loc>"]
+        media = record.get("media")
+        image_urls: list[str] = []
+        if isinstance(media, list):
+            for asset in media:
+                if not isinstance(asset, dict):
+                    continue
+                kind = str(asset.get("kind") or "")
+                image_url = asset.get("thumbnail_url")
+                if not valid_media_reference(image_url) and kind in {"image", "image-local", "thumbnail", "avatar", "picture"}:
+                    image_url = asset.get("url")
+                if valid_media_reference(image_url):
+                    absolute_image_url = absolute_media_url(image_url, site_url)
+                    if absolute_image_url not in image_urls:
+                        image_urls.append(absolute_image_url)
+        for image_url in image_urls:
+            parts.append(f"<image:image><image:loc>{esc(image_url)}</image:loc></image:image>")
+        video = video_structured_data(record, canonical, description, site_url)
+        if video:
+            thumbnail = video["thumbnailUrl"]
+            assert isinstance(thumbnail, list) and thumbnail
+            parts.append(
+                "<video:video>"
+                f"<video:thumbnail_loc>{esc(thumbnail[0])}</video:thumbnail_loc>"
+                f"<video:title>{esc(title)}</video:title>"
+                f"<video:description>{esc(description)}</video:description>"
+                f"<video:player_loc>{esc(video['embedUrl'])}</video:player_loc>"
+                f"<video:publication_date>{esc(video['uploadDate'])}</video:publication_date>"
+                "</video:video>"
+            )
+        parts.append("</url>")
+        entries.append("".join(parts))
+    return (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
+        'xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" '
+        'xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">\n'
+        + "\n".join(entries)
+        + "\n</urlset>\n"
+    )
+
+
 def write_store_site(db: sqlite3.Connection, dataset_version: str, generated_at: str) -> None:
     """Write the homepage, detail pages, catalog JSON, and SEO files."""
 
@@ -871,6 +1091,7 @@ def write_store_site(db: sqlite3.Connection, dataset_version: str, generated_at:
     category_counts = db.execute("SELECT category, COUNT(*) AS count FROM items GROUP BY category ORDER BY count DESC, category").fetchall()
     DATA.mkdir(parents=True, exist_ok=True)
     SKILLS.mkdir(parents=True, exist_ok=True)
+    publish_local_media()
     catalog = {
         "meta": {
             "dataset_version": dataset_version,
@@ -893,10 +1114,7 @@ def write_store_site(db: sqlite3.Connection, dataset_version: str, generated_at:
     for record in records:
         (SKILLS / f"{record['id']}.html").write_text(render_detail(record, dataset_version, generated_at, config), encoding="utf-8")
     site_url = config["site_url"].rstrip("/")
-    sitemap_paths = ["/", "/report.html", "/timeline.html", "/categories.html", "/directories.html", "/sources.html", "/forks.html", "/register.html", "/register-agent.html"] + [f"/skills/{record['id']}.html" for record in records]
-    sitemap = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n" + "\n".join(
-        f"  <url><loc>{html.escape(site_url + path)}</loc></url>" for path in sitemap_paths
-    ) + "\n</urlset>\n"
+    sitemap = render_sitemap(records, site_url)
     (DOCS / "sitemap.xml").write_text(sitemap, encoding="utf-8")
     (DOCS / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {site_url}/sitemap.xml\n", encoding="utf-8")
     (DOCS / "CNAME").write_text(urlparse(site_url).netloc + "\n", encoding="utf-8")

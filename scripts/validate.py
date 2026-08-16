@@ -6,6 +6,7 @@ from __future__ import annotations
 import hashlib
 import json
 import sqlite3
+import xml.etree.ElementTree as ET
 from pathlib import Path
 from typing import Any
 
@@ -16,6 +17,10 @@ ROOT = Path(__file__).resolve().parents[1]
 DB_PATH = ROOT / "data" / "aggregator.sqlite3"
 FULL_ARCHIVE_PATH = ROOT / "data" / "aggregator-full.sqlite3.zst"
 RAW_DIR = ROOT / "data" / "raw"
+MEDIA_DIR = ROOT / "media"
+PUBLISHED_MEDIA_DIR = ROOT / "docs" / "media"
+SITEMAP_PATH = ROOT / "docs" / "sitemap.xml"
+DETAIL_DIR = ROOT / "docs" / "skills"
 INDEX_PATH = ROOT / "index" / "records.jsonl"
 VALUE_MATRIX_PATH = ROOT / "index" / "value-matrix.jsonl"
 FORK_INDEX_PATH = ROOT / "docs" / "data" / "forks.json"
@@ -141,6 +146,56 @@ def validate_community_registry() -> int:
     return len(plugins)
 
 
+def validate_rich_media_site(connection: sqlite3.Connection, item_count: int) -> tuple[int, int]:
+    """Validate deployable local media and crawlable image/video projections."""
+
+    source_files = sorted(path.relative_to(MEDIA_DIR) for path in MEDIA_DIR.rglob("*") if path.is_file())
+    published_files = sorted(
+        path.relative_to(PUBLISHED_MEDIA_DIR)
+        for path in PUBLISHED_MEDIA_DIR.rglob("*")
+        if path.is_file()
+    )
+    assert published_files == source_files
+    for relative_path in source_files:
+        assert (MEDIA_DIR / relative_path).read_bytes() == (PUBLISHED_MEDIA_DIR / relative_path).read_bytes()
+    for item_id, local_path in connection.execute(
+        "SELECT item_id, url FROM media_assets WHERE url LIKE 'media/%' ORDER BY item_id, id"
+    ):
+        relative_path = Path(local_path)
+        assert not relative_path.is_absolute() and ".." not in relative_path.parts, local_path
+        assert (ROOT / relative_path).is_file(), (item_id, local_path)
+        assert (ROOT / "docs" / relative_path).is_file(), (item_id, local_path)
+
+    sitemap_root = ET.parse(SITEMAP_PATH).getroot()
+    sitemap_ns = "http://www.sitemaps.org/schemas/sitemap/0.9"
+    image_ns = "http://www.google.com/schemas/sitemap-image/1.1"
+    video_ns = "http://www.google.com/schemas/sitemap-video/1.1"
+    entries = sitemap_root.findall(f"{{{sitemap_ns}}}url")
+    locations = [entry.findtext(f"{{{sitemap_ns}}}loc") for entry in entries]
+    assert len(entries) == item_count + 9
+    assert len(set(locations)) == len(locations)
+    image_entries = sitemap_root.findall(f".//{{{image_ns}}}image")
+    video_entries = sitemap_root.findall(f".//{{{video_ns}}}video")
+    assert image_entries
+    assert video_entries
+    required_video_fields = {
+        "thumbnail_loc", "title", "description", "player_loc", "publication_date",
+    }
+    for video in video_entries:
+        fields = {
+            child.tag.removeprefix(f"{{{video_ns}}}")
+            for child in video
+            if child.text and child.text.strip()
+        }
+        assert fields == required_video_fields
+    for item_id, video_url in connection.execute(
+        "SELECT id, canonical_url FROM items WHERE media_kind = 'video' ORDER BY id"
+    ):
+        detail = (DETAIL_DIR / f"id-{item_id}.html").read_text(encoding="utf-8")
+        assert f'<img src="{video_url}"' not in detail, item_id
+    return len(image_entries), len(video_entries)
+
+
 def main() -> None:
     """Run deterministic checks and print the current dataset size."""
 
@@ -250,12 +305,13 @@ def main() -> None:
     assert all(0 <= record[key] <= 100 for record in value_records for key in ("utility", "evidence", "traction", "ecosystem", "freshness", "reviewability", "value_score", "confidence_score"))
     community_listings = validate_community_registry()
     market_plugins = validate_market_registry()
+    sitemap_images, sitemap_videos = validate_rich_media_site(connection, items)
     platforms = connection.execute("SELECT COUNT(DISTINCT platform) FROM items").fetchone()[0]
     metrics = connection.execute("SELECT COUNT(*) FROM metrics").fetchone()[0]
     media = connection.execute("SELECT COUNT(*) FROM media_assets").fetchone()[0]
     snapshots = connection.execute("SELECT COUNT(*) FROM raw_snapshots").fetchone()[0]
     latest_version = connection.execute("SELECT dataset_version FROM collection_runs WHERE trigger <> 'legacy-migration' ORDER BY id DESC LIMIT 1").fetchone()[0]
-    print(f"validated {len(raw_paths)} raw files/{snapshots} snapshots; latest {latest_version}; {items} items; {platforms} platforms; {metrics} metrics; {media} media assets; {len(index_records)} index records; {community_listings} community Listings; {market_plugins} market plugins")
+    print(f"validated {len(raw_paths)} raw files/{snapshots} snapshots; latest {latest_version}; {items} items; {platforms} platforms; {metrics} metrics; {media} media assets; {sitemap_images} sitemap images; {sitemap_videos} sitemap videos; {len(index_records)} index records; {community_listings} community Listings; {market_plugins} market plugins")
 
 
 if __name__ == "__main__":
