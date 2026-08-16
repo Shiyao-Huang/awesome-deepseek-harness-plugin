@@ -441,6 +441,10 @@ class RegistryPersistenceTests(unittest.TestCase):
                     connection.execute("SELECT title FROM items").fetchone()[0],
                     "官方核心 · owner/existing",
                 )
+                metric_history_before = [tuple(row) for row in connection.execute(
+                    "SELECT observed_at, metric_source, collection_run_id, stars "
+                    "FROM metrics ORDER BY observed_at, metric_source"
+                )]
 
                 report = monitor_sources.reconcile_listing_item_collisions(connection)
 
@@ -452,16 +456,26 @@ class RegistryPersistenceTests(unittest.TestCase):
                 self.assertEqual(item["category"], "repository")
                 self.assertEqual(item["last_seen_run_id"], 1)
                 self.assertNotIn("source_entry", json.loads(item["raw_json"]))
+                self.assertEqual(
+                    [tuple(row) for row in connection.execute(
+                        "SELECT observed_at, metric_source, collection_run_id, stars "
+                        "FROM metrics ORDER BY observed_at, metric_source"
+                    )],
+                    metric_history_before,
+                )
                 self.assertEqual(report, {
                     "restored_items": 1,
-                    "removed_metrics": 1,
+                    "removed_metrics": 0,
                     "removed_item_observations": 1,
                 })
                 self.assertEqual(
                     [tuple(row) for row in connection.execute(
                         "SELECT stars, metric_source FROM metrics ORDER BY id"
                     )],
-                    [(900, "github REST API")],
+                    [
+                        (900, "github REST API"),
+                        (7, "GitHub repository API via upstream index"),
+                    ],
                 )
                 self.assertEqual(connection.execute("SELECT COUNT(*) FROM raw_snapshots").fetchone()[0], 2)
                 self.assertEqual(connection.execute("SELECT COUNT(*) FROM upstream_entries").fetchone()[0], 1)

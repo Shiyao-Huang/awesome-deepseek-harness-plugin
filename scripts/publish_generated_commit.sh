@@ -49,6 +49,15 @@ for ((attempt = 1; attempt <= max_attempts; attempt++)); do
   make -C "$publish_worktree" archive-full
   make -C "$publish_worktree" public-db
   python3 "$publish_worktree/scripts/validate.py"
+  if [[ -n ${APPEND_ONLY_BASELINE_DB:-} ]]; then
+    if [[ ! -f $APPEND_ONLY_BASELINE_DB ]]; then
+      echo "missing append-only baseline database: $APPEND_ONLY_BASELINE_DB" >&2
+      exit 1
+    fi
+    python3 "$publish_worktree/scripts/validate_append_only.py" \
+      --before "$APPEND_ONLY_BASELINE_DB" \
+      --after "$publish_worktree/data/aggregator.sqlite3"
+  fi
 
   git -C "$publish_worktree" add -- "${stage_paths[@]}"
   if git -C "$publish_worktree" diff --cached --quiet; then
