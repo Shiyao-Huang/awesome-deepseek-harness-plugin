@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-skill-manager — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-b7deef0eb6e3d16e89f2.atom.xml</id>
+  <updated>2026-08-16T16:39:22Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-b7deef0eb6e3d16e89f2.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b7deef0eb6e3d16e89f2.html"/>
+  <entry>
+    <title>New: dsh-skill-manager</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-b7deef0eb6e3d16e89f2/3bdb45cc79abc5a6</id>
+    <updated>2026-08-16T16:39:22Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b7deef0eb6e3d16e89f2.html"/>
+    <author><name>AKS1st</name></author>
+    <category term="skill"/>
+    <summary>Skill Manager page in the DSH settings panel: browse system / user / workspace / preset skills, expand a skill to its file tree, view and edit files, import skills from a zip, and export or delete them (system skills read-only). Exact install spec: github:aks1st/dsh-skill-manager. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

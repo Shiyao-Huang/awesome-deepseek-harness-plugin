@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-73c0c8cd5622012a1f67",
+    "name": "dsh-memoryleak",
+    "author": "warmwine",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/warmwine/dsh-memoryleak",
+    "firstObservedAt": "2026-08-16T16:39:22Z",
+    "lastChangedAt": "2026-08-16T16:39:22Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-73c0c8cd5622012a1f67.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-73c0c8cd5622012a1f67.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:warmwine/dsh-memoryleak",
+    "command": "dsh plugin --profile web add github:warmwine/dsh-memoryleak",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-73c0c8cd5622012a1f67，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-73c0c8cd5622012a1f67.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-73c0c8cd5622012a1f67.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-memoryleak 已收录到 DeepSeek Harness Plugin Store。把随手记和待办写进工作区的 Markdown 文件里：/ml 加一句话就记进当天日志；待办分三种——截止日、睡到某天自动唤醒、随时；/ml view 打几个字母就能模糊打开任意文件。全程零 token，不经过大模型；笔记就是普通的本地文件，git 和任何编辑器都能直接用。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-73c0c8cd5622012a1f67.html",
+    "en": "dsh-memoryleak is now listed on the DeepSeek Harness Plugin Store. Notes and todos as plain Markdown files in your workspace: type /ml plus a sentence to jot into today's journal; todos come in three flavors — deadline, sleep-until-a-date (auto-wakes when due), and anytime; /ml view fuzzy-opens any file with a few keystrokes. Zero tokens throughout — nothing goes through the model, and your notes stay ordinary local files that git and any editor can read.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-73c0c8cd5622012a1f67.html"
+  }
+}

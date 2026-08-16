@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-8bc3803afc6910974101",
+    "name": "dsh-mcp-skill-panel",
+    "author": "lilyblessing",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/lilyblessing/dsh-mcp-skill-panel",
+    "firstObservedAt": "2026-08-16T16:39:22Z",
+    "lastChangedAt": "2026-08-16T16:39:22Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-8bc3803afc6910974101.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-8bc3803afc6910974101.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:lilyblessing/dsh-mcp-skill-panel",
+    "command": "dsh plugin --profile web add github:lilyblessing/dsh-mcp-skill-panel",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-8bc3803afc6910974101，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-8bc3803afc6910974101.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-8bc3803afc6910974101.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-mcp-skill-panel 已收录到 DeepSeek Harness Plugin Store。MCP 与技能管理面板：设置页面板实时启停 MCP 服务器与 Skill 释放上下文占用；可选 AI 中间层（mcp_search/mcp_call）按需调用停用服务器，按 server 状态过滤模型可见性（用户打开的保持可见）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-8bc3803afc6910974101.html",
+    "en": "dsh-mcp-skill-panel is now listed on the DeepSeek Harness Plugin Store. MCP & Skill manager: enable/disable MCP servers and skills from a Settings panel to free context in real time; optional AI middle layer (mcp_search/mcp_call) calls disabled servers on demand, with state-based visibility filtering that keeps user-enabled servers visible.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-8bc3803afc6910974101.html"
+  }
+}

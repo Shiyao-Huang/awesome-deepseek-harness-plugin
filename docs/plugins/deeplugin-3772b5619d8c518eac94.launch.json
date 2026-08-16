@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-3772b5619d8c518eac94",
+    "name": "dsh-project",
+    "author": "lanyun077",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/lanyun077/dsh-project",
+    "firstObservedAt": "2026-08-16T16:39:22Z",
+    "lastChangedAt": "2026-08-16T16:39:22Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-3772b5619d8c518eac94.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-3772b5619d8c518eac94.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:lanyun077/dsh-project",
+    "command": "dsh plugin --profile web add github:lanyun077/dsh-project",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-3772b5619d8c518eac94，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-3772b5619d8c518eac94.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-3772b5619d8c518eac94.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-project 已收录到 DeepSeek Harness Plugin Store。把多个文件夹与会话收纳为「项目」，共享 PROJECT.md 记忆与 AGENTS.md 指令并注入每个会话，附带项目树侧边栏。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-3772b5619d8c518eac94.html",
+    "en": "dsh-project is now listed on the DeepSeek Harness Plugin Store. Organize folders and sessions into projects with shared PROJECT.md memory and AGENTS.md instructions injected into every session, plus a project tree sidebar.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-3772b5619d8c518eac94.html"
+  }
+}

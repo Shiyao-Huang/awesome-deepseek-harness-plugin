@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>dsh-memento — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-c1a2a43a57a09e393179.atom.xml</id>
-  <updated>2026-08-15T22:14:49Z</updated>
+  <updated>2026-08-16T16:39:22Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-c1a2a43a57a09e393179.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c1a2a43a57a09e393179.html"/>
+  <entry>
+    <title>Updated: dsh-memento</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-c1a2a43a57a09e393179/7015190629e27ba8</id>
+    <updated>2026-08-16T16:39:22Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c1a2a43a57a09e393179.html"/>
+    <author><name>PerryLink</name></author>
+    <category term="memory"/>
+    <summary>Bounded, layered, approval-gated, auditable cross-session memory: a typed `ctx.memory` seam with a zero-dependency SQLite provider, a `memory` tool, and frozen snapshot injection, plus the dsh-memory-protocol v1 rehearsal with an adapter registry and a distributable conformance suite. Exact install spec: dsh-memento. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
   <entry>
     <title>Updated: dsh-memento</title>
     <id>tag:deeplugin.store,2026-08-15:deeplugin-c1a2a43a57a09e393179/39c4cd8ba93a4acf</id>
@@ -12,7 +21,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c1a2a43a57a09e393179.html"/>
     <author><name>PerryLink</name></author>
     <category term="memory"/>
-    <summary>Bounded, layered, approval-gated, auditable cross-session memory: a typed `ctx.memory` seam with a zero-dependency SQLite provider, a `memory` tool, and frozen snapshot injection; every write passes the approval gate and stays reconstructable from the session log. Exact install spec: dsh-memento. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+    <summary>Bounded, layered, approval-gated, auditable cross-session memory: a typed `ctx.memory` seam with a zero-dependency SQLite provider, a `memory` tool, and frozen snapshot injection, plus the dsh-memory-protocol v1 rehearsal with an adapter registry and a distributable conformance suite. Exact install spec: dsh-memento. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
   </entry>
   <entry>
     <title>Updated: dsh-memento</title>
@@ -21,7 +30,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c1a2a43a57a09e393179.html"/>
     <author><name>PerryLink</name></author>
     <category term="memory"/>
-    <summary>Bounded, layered, approval-gated, auditable cross-session memory: a typed `ctx.memory` seam with a zero-dependency SQLite provider, a `memory` tool, and frozen snapshot injection; every write passes the approval gate and stays reconstructable from the session log. Exact install spec: dsh-memento. Source event: dsh-market/dsh-market; changed: sources.</summary>
+    <summary>Bounded, layered, approval-gated, auditable cross-session memory: a typed `ctx.memory` seam with a zero-dependency SQLite provider, a `memory` tool, and frozen snapshot injection, plus the dsh-memory-protocol v1 rehearsal with an adapter registry and a distributable conformance suite. Exact install spec: dsh-memento. Source event: dsh-market/dsh-market; changed: sources.</summary>
   </entry>
   <entry>
     <title>New: dsh-memento</title>
@@ -30,6 +39,6 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c1a2a43a57a09e393179.html"/>
     <author><name>PerryLink</name></author>
     <category term="memory"/>
-    <summary>Bounded, layered, approval-gated, auditable cross-session memory: a typed `ctx.memory` seam with a zero-dependency SQLite provider, a `memory` tool, and frozen snapshot injection; every write passes the approval gate and stays reconstructable from the session log. Exact install spec: dsh-memento. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+    <summary>Bounded, layered, approval-gated, auditable cross-session memory: a typed `ctx.memory` seam with a zero-dependency SQLite provider, a `memory` tool, and frozen snapshot injection, plus the dsh-memory-protocol v1 rehearsal with an adapter registry and a distributable conformance suite. Exact install spec: dsh-memento. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

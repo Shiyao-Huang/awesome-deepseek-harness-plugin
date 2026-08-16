@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-adca7e836b33a3104daf",
+    "name": "dsh-requirements-alignment",
+    "author": "jiezeng2004-design",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/jiezeng2004-design/dsh-requirements-alignment",
+    "firstObservedAt": "2026-08-16T16:39:22Z",
+    "lastChangedAt": "2026-08-16T16:39:22Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-adca7e836b33a3104daf.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-adca7e836b33a3104daf.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-requirements-alignment",
+    "command": "dsh plugin --profile web add dsh-requirements-alignment",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-adca7e836b33a3104daf，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-adca7e836b33a3104daf.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-adca7e836b33a3104daf.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-requirements-alignment 已收录到 DeepSeek Harness Plugin Store。运行时需求漂移防护，在长任务执行过程中保持 DSH Agent 与用户确认的目标、约束和决策一致。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-adca7e836b33a3104daf.html",
+    "en": "dsh-requirements-alignment is now listed on the DeepSeek Harness Plugin Store. Runtime requirement drift guard that keeps long-running DSH agents aligned with the user's approved goal, constraints, and decisions.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-adca7e836b33a3104daf.html"
+  }
+}

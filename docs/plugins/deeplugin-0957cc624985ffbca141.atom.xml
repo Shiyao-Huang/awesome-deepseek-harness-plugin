@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-neo-skin — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-0957cc624985ffbca141.atom.xml</id>
+  <updated>2026-08-16T16:39:22Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-0957cc624985ffbca141.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-0957cc624985ffbca141.html"/>
+  <entry>
+    <title>New: dsh-neo-skin</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-0957cc624985ffbca141/3bdb45cc79abc5a6</id>
+    <updated>2026-08-16T16:39:22Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-0957cc624985ffbca141.html"/>
+    <author><name>0nt-one</name></author>
+    <category term="theme"/>
+    <summary>Neo-brutalism skin with two switchable schemes (Blue Command / Aged Newspaper), hard shadows, sharp corners, and light/dark theme support. Exact install spec: github:0nt-one/dsh-neo-skin. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

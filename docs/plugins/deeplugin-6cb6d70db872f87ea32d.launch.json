@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-6cb6d70db872f87ea32d",
+    "name": "dsh-recall",
+    "author": "Relistencode",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/Relistencode/dsh-recall",
+    "firstObservedAt": "2026-08-16T16:39:22Z",
+    "lastChangedAt": "2026-08-16T16:39:22Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-6cb6d70db872f87ea32d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-6cb6d70db872f87ea32d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-recall",
+    "command": "dsh plugin --profile web add dsh-recall",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-6cb6d70db872f87ea32d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-6cb6d70db872f87ea32d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-6cb6d70db872f87ea32d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-recall 已收录到 DeepSeek Harness Plugin Store。对话历史回忆：字面/模糊/语义三层检索全部历史会话的原始文本，完全本地离线——AI 再也不会忘记你说的话。一条命令安装（自带 `dsh.bundle.patch`），语义推理跑在 worker 线程。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-6cb6d70db872f87ea32d.html",
+    "en": "dsh-recall is now listed on the DeepSeek Harness Plugin Store. Conversation history recall for DSH: three-layer (literal/fuzzy/semantic) retrieval over every past session's original text, fully local & offline — AI never forgets what you told it. One-command install via `dsh.bundle.patch`, semantic layer runs in a worker thread.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-6cb6d70db872f87ea32d.html"
+  }
+}

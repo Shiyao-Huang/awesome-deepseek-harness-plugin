@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-recall — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-6cb6d70db872f87ea32d.atom.xml</id>
+  <updated>2026-08-16T16:39:22Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-6cb6d70db872f87ea32d.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-6cb6d70db872f87ea32d.html"/>
+  <entry>
+    <title>New: dsh-recall</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-6cb6d70db872f87ea32d/3bdb45cc79abc5a6</id>
+    <updated>2026-08-16T16:39:22Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-6cb6d70db872f87ea32d.html"/>
+    <author><name>Relistencode</name></author>
+    <category term="memory"/>
+    <summary>Conversation history recall for DSH: three-layer (literal/fuzzy/semantic) retrieval over every past session's original text, fully local &amp; offline — AI never forgets what you told it. One-command install via `dsh.bundle.patch`, semantic layer runs in a worker thread. Exact install spec: dsh-recall. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

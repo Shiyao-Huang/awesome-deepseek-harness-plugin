@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-833d45744c3debd6d60d",
+    "name": "github-mcp",
+    "author": "JohnXu22786",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/JohnXu22786/github-mcp",
+    "firstObservedAt": "2026-08-16T16:39:22Z",
+    "lastChangedAt": "2026-08-16T16:39:22Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-833d45744c3debd6d60d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-833d45744c3debd6d60d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:johnxu22786/github-mcp",
+    "command": "dsh plugin --profile web add github:johnxu22786/github-mcp",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-833d45744c3debd6d60d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-833d45744c3debd6d60d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-833d45744c3debd6d60d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "github-mcp 已收录到 DeepSeek Harness Plugin Store。GitHub 开发者工作台 MCP server（dsh bundle）：23 个 MCP 工具覆盖仓库、issue、PR、代码审查与搜索，零运行时依赖，支持 PAT 与 OAuth 双认证。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-833d45744c3debd6d60d.html",
+    "en": "github-mcp is now listed on the DeepSeek Harness Plugin Store. GitHub workbench MCP server (dsh bundle): 23 MCP tools for repos, issues, PRs, code review, and search, with zero runtime dependencies and PAT/OAuth auth.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-833d45744c3debd6d60d.html"
+  }
+}

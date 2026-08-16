@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-mobile-hanui — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-ee5e5da5336a5573c590.atom.xml</id>
+  <updated>2026-08-16T16:39:22Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-ee5e5da5336a5573c590.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ee5e5da5336a5573c590.html"/>
+  <entry>
+    <title>New: dsh-mobile-hanui</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-ee5e5da5336a5573c590/3bdb45cc79abc5a6</id>
+    <updated>2026-08-16T16:39:22Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ee5e5da5336a5573c590.html"/>
+    <author><name>Z-6354</name></author>
+    <category term="ui"/>
+    <summary>Mobile UI shell for the DSH Web GUI: turns the desktop three-column layout into a touch-friendly phone layout (overlay drawers, draggable FAB, full-screen dialogs, infinite-scroll history) under a 1024px viewport, with zero desktop impact. - Complete mobile PWA for DSH, built on dsh-mobile-gate: secure remote-access gateway plus install-to-homescreen (manifest + service worker), offline capability, touch gestures (pull-to-refresh, edge-swipe back, pinch-zoom font), agent-done push notifications, and touch-first layout — desktop unaffected. Exact install spec: dsh-mobile-hanui. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

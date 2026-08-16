@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/PerryLink/dsh-skill-pack-security",
     "firstObservedAt": "2026-08-16T08:41:44Z",
-    "lastChangedAt": "2026-08-16T09:56:16Z"
+    "lastChangedAt": "2026-08-16T16:39:22Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-ace18d3379b6953f293d.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-ace18d3379b6953f293d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-skill-pack-security 已收录到 DeepSeek Harness Plugin Store。安全审计方法论技能包：八个 agent 技能（密钥扫描、依赖审计、供应链评审、提示注入审查、审计总编排、威胁建模、漏洞情报、事件响应），中英双版本，附可选 npm provider 包一键挂载。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-ace18d3379b6953f293d.html",
-    "en": "dsh-skill-pack-security is now listed on the DeepSeek Harness Plugin Store. Security-audit methodology skill pack: eight agent skills (secret scan, dependency audit, supply-chain review, prompt-injection review, audit orchestration, threat modeling, vuln intel, incident response) in Chinese and English editions, with an optional npm provider bundle.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-ace18d3379b6953f293d.html"
+    "zh": "dsh-skill-pack-security 已收录到 DeepSeek Harness Plugin Store。安全审计方法论技能包 + plugin_vet 供应链门禁：八个 agent 技能（密钥扫描、依赖审计、供应链评审、提示注入审查、审计总编排、威胁建模、漏洞情报、事件响应），中英双版本，附 npm provider 包一键挂载并注册自动化 plugin_vet 安装前扫描。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-ace18d3379b6953f293d.html",
+    "en": "dsh-skill-pack-security is now listed on the DeepSeek Harness Plugin Store. Security-audit methodology skill pack plus the plugin_vet supply-chain gate: eight agent skills (secret scan, dependency audit, supply-chain review, prompt-injection review, audit orchestration, threat modeling, vuln intel, incident response) in Chinese and English editions, with an npm provider bundle that mounts the skills and registers the automated plugin_vet pre-install scanner.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-ace18d3379b6953f293d.html"
   }
 }

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-plugin-surgery — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-9dcd032d5f042eca0436.atom.xml</id>
+  <updated>2026-08-16T16:39:22Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-9dcd032d5f042eca0436.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9dcd032d5f042eca0436.html"/>
+  <entry>
+    <title>New: dsh-plugin-surgery</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-9dcd032d5f042eca0436/90375a3e6b8c2cdb</id>
+    <updated>2026-08-16T16:39:22Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9dcd032d5f042eca0436.html"/>
+    <author><name>ruimin251204</name></author>
+    <category term="dev"/>
+    <summary>Plugin surgery: safe uninstall (dry-run impact preview, snapshot, three-way verification, auto-rollback on failure), one-click rollback, restart-pending confirmation, and a plugin doctor. Exact install spec: github:ruimin251204/dsh-plugin-surgery. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

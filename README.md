@@ -7,7 +7,7 @@ DeepSeek Harness / DSH 插件生态的公开资料聚合 repo：把 GitHub 仓�
 <!-- landing:start -->
 ## Start here — the DSH signal desk
 
-> 这里不是又一份静态 Awesome List，而是一张持续更新的 DeepSeek Harness 生态地图：先看最值得点开的仓库、帖子和视频，再沿着 raw、SQLite、时间轴回到证据。当前批次 **v20260816T160658Z**（2026-08-16）：**14,407** 条去重记录、**14** 个平台、**1,249** 个媒体引用。
+> 这里不是又一份静态 Awesome List，而是一张持续更新的 DeepSeek Harness 生态地图：先看最值得点开的仓库、帖子和视频，再沿着 raw、SQLite、时间轴回到证据。当前批次 **v20260816T164235Z**（2026-08-16）：**14,449** 条去重记录、**14** 个平台、**1,253** 个媒体引用。
 
 [打开 dsh store](docs/index.html) · [看价值矩阵](docs/value-matrix.md) · [看趋势](docs/trends.md) · [下载查询 SQLite](https://github.com/Shiyao-Huang/awesome-deepseek-harness-plugin/releases/download/dataset-latest/aggregator.sqlite3)
 
@@ -17,8 +17,8 @@ DeepSeek Harness / DSH 插件生态的公开资料聚合 repo：把 GitHub 仓�
 
 | 入口 | 为什么值得看 | 当前信号 |
 | --- | --- | ---: |
-| [官方核心 · deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | DSH 的源头仓库；所有插件和能力最终回到这里核验。 | ★ stars 127,403 |
-| [高关注插件 · zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 真实可见的 UI / 桌面扩展，适合从“能不能直接用”开始。 | ★ stars 3,276 |
+| [官方核心 · deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | DSH 的源头仓库；所有插件和能力最终回到这里核验。 | ★ stars 129,001 |
+| [高关注插件 · zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 真实可见的 UI / 桌面扩展，适合从“能不能直接用”开始。 | ★ stars 3,345 |
 | [新文章 · 如何用 GLM 5.3，开发 DeepSeek Harness 插件](https://mp.weixin.qq.com/s/HrOgdg7ZBKQlvGM-xPeKtw) | 一篇文章串起模型接入、插件契约、skill、附件和 inspector；8 image · 1 video。 | counters NULL |
 
 ### 新：一篇文章与一项社区补充
@@ -29,7 +29,7 @@ DeepSeek Harness / DSH 插件生态的公开资料聚合 repo：把 GitHub 仓�
 | 插件 | 用途 |
 | --- | --- |
 | [CocoSgt/dsh-nsfw](https://github.com/CocoSgt/dsh-nsfw) | 由仓库驱动的 DeepSeek 鲸鱼娘全年龄漫画收藏与分享站。 · ★ stars 12 |
-| [CocoSgt/dsh-skills](https://github.com/CocoSgt/dsh-skills) | 索引和加载项目里的 skill，支持完整 `.skill` 文件。 · ★ stars 7 |
+| [CocoSgt/dsh-skills](https://github.com/CocoSgt/dsh-skills) | 索引和加载项目里的 skill，支持完整 `.skill` 文件。 · ★ stars 8 |
 | [CocoSgt/dsh-attachments](https://github.com/CocoSgt/dsh-attachments) | 为 DSH 增加文件/图片附件与继续引用能力。 · ★ stars 8 |
 | [CocoSgt/dsh-inspector](https://github.com/CocoSgt/dsh-inspector) | 查看生效的约束文件和当前被索引的 skill。 · ★ stars 6 |
 
@@ -46,7 +46,7 @@ dsh plugin --profile web add dsh-skills dsh-attachments dsh-inspector
 | X | [DeepSeek Harness v0.1 is now available in Developer Preview!](https://x.com/deepseek_ai/status/2087887408440164663) | ♥ likes 19,518 · replies 740 | 官方发布与开发者传播 |
 | YouTube | [DeepSeek Harness: The End of Claude Code?](https://www.youtube.com/watch?v=qg9EyGOZd9U) | views 42,000 | 长视频实测/解读 |
 | 哔哩哔哩 | [【热门AI鉴定】DeepSeek Harness是什么？强在哪里？Harness实测效果如何？一口气搞懂！](https://www.bilibili.com/video/BV11CgF6uE4k) | views 446,982 · replies 656 | 中文教程与体验 |
-| Hacker News | [DeepSeek Harness developer preview](https://news.ycombinator.com/item?id=49285244) | points 731 · comments 308 | 开发者讨论 |
+| Hacker News | [DeepSeek Harness developer preview](https://news.ycombinator.com/item?id=49285244) | points 731 · comments 309 | 开发者讨论 |
 | 小红书 | [DeepSeek Harness 保姆级安装教程](https://www.xiaohongshu.com/explore/6a7e2d740000000025017880) | ♥ likes 3,769 | 中文入门与教程 |
 
 ### 官方 Fork network：把分叉当作生态信号
@@ -63,20 +63,20 @@ dsh plugin --profile web add dsh-skills dsh-attachments dsh-inspector
 | 4 | [alexdolbun/deepseek-harness](https://github.com/alexdolbun/deepseek-harness) | 1 | 80.0 (observed) | 25.810 | 47.502 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness”。 |
 | 5 | [zchuhui/deepseek-harness](https://github.com/zchuhui/deepseek-harness) | 1 | 48.7 (observed) | 46.345 | 47.302 | ok | 新增约 10 个提交并修改 300 个文件，主要涉及 配置、文档、CI/构建、其他文件；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
 
-> 价值档当前分布：**A 1 · B 214 · C 1,556 · D 12,636**。分数只用于安排复核优先级；不同平台的 stars、likes、views、points 不相加，缺失互动数不补零。
+> 价值档当前分布：**A 1 · B 213 · C 1,599 · D 12,636**。分数只用于安排复核优先级；不同平台的 stars、likes、views、points 不相加，缺失互动数不补零。
 
 <!-- landing:end -->
 
 ## 当前快照
 
 <!-- snapshot:start -->
-公开查询 SQLite 当前包含 **14,407 条去重记录**、**14 个来源平台**、**120,428 条指标历史**、**1,249 个媒体资产引用**、**306 条详情记录**和 **1,098 个去重 raw provenance**。当前批次 **v20260816T160658Z** 于 **2026-08-16T16:06:58Z** 完成；价值矩阵为当前批次的 14,407 条记录提供六维评分。完整原始 JSON 位于压缩权威 SQLite；公开查询库保留 raw SHA-256、路径、字节数、采集时间和批次，并去除可由 `data/raw/` 或完整库恢复的重复 JSON blob。
+公开查询 SQLite 当前包含 **14,449 条去重记录**、**14 个来源平台**、**120,684 条指标历史**、**1,253 个媒体资产引用**、**306 条详情记录**和 **1,100 个去重 raw provenance**。当前批次 **v20260816T164235Z** 于 **2026-08-16T16:42:39Z** 完成；价值矩阵为当前批次的 14,449 条记录提供六维评分。完整原始 JSON 位于压缩权威 SQLite；公开查询库保留 raw SHA-256、路径、字节数、采集时间和批次，并去除可由 `data/raw/` 或完整库恢复的重复 JSON blob。
 
 | 来源 | 去重记录 | 采集内容 |
 | --- | ---: | --- |
-| GitHub | 13,926 | 官方仓库、topic、社区索引候选和 stars/forks/issues |
+| GitHub | 13,967 | 官方仓库、topic、社区索引候选和 stars/forks/issues |
 | 小红书 | 157 | 搜索卡片、作者、点赞、缩略图和详情文本 |
-| Hacker News | 102 | 精确短语搜索、points/comments 和讨论链接 |
+| Hacker News | 103 | 精确短语搜索、points/comments 和讨论链接 |
 | X | 90 | 公开帖子、图片/视频链接和 replies/reposts/likes/views |
 | Reddit | 51 | 公开讨论、分数、评论和正文证据 |
 | YouTube | 29 | 视频标题、频道、观看数和缩略图 |

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-plugin-template — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-03ce775fe62f44f3d28a.atom.xml</id>
+  <updated>2026-08-16T16:39:22Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-03ce775fe62f44f3d28a.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-03ce775fe62f44f3d28a.html"/>
+  <entry>
+    <title>New: dsh-plugin-template</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-03ce775fe62f44f3d28a/3bdb45cc79abc5a6</id>
+    <updated>2026-08-16T16:39:22Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-03ce775fe62f44f3d28a.html"/>
+    <author><name>kun2-5code</name></author>
+    <category term="dev"/>
+    <summary>A starter template for dsh plugins covering config, tools, events, services, hooks, browser UI slots, and slash commands. Exact install spec: github:kun2-5code/dsh-plugin-template. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

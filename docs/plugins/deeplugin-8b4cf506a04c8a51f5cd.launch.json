@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-8b4cf506a04c8a51f5cd",
+    "name": "dsh-voice-input",
+    "author": "0nt-one",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/0nt-one/dsh-voice-input",
+    "firstObservedAt": "2026-08-16T16:39:22Z",
+    "lastChangedAt": "2026-08-16T16:39:22Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-8b4cf506a04c8a51f5cd.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-8b4cf506a04c8a51f5cd.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:0nt-one/dsh-voice-input",
+    "command": "dsh plugin --profile web add github:0nt-one/dsh-voice-input",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-8b4cf506a04c8a51f5cd，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-8b4cf506a04c8a51f5cd.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-8b4cf506a04c8a51f5cd.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-voice-input 已收录到 DeepSeek Harness Plugin Store。输入框麦克风语音输入：浏览器 Web Speech API 实时转写（Chrome/Edge），多语言切换与可选自动发送，零依赖零密钥。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-8b4cf506a04c8a51f5cd.html",
+    "en": "dsh-voice-input is now listed on the DeepSeek Harness Plugin Store. Mic button in the composer tool row: Web Speech API speech-to-text (Chrome/Edge), language switching, and optional auto-send, zero dependencies.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-8b4cf506a04c8a51f5cd.html"
+  }
+}

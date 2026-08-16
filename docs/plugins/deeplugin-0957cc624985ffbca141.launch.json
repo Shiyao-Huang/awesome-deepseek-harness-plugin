@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-0957cc624985ffbca141",
+    "name": "dsh-neo-skin",
+    "author": "0nt-one",
+    "category": "theme",
+    "version": null,
+    "homepage": "https://github.com/0nt-one/dsh-neo-skin",
+    "firstObservedAt": "2026-08-16T16:39:22Z",
+    "lastChangedAt": "2026-08-16T16:39:22Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-0957cc624985ffbca141.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-0957cc624985ffbca141.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:0nt-one/dsh-neo-skin",
+    "command": "dsh plugin --profile web add github:0nt-one/dsh-neo-skin",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-0957cc624985ffbca141，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-0957cc624985ffbca141.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-0957cc624985ffbca141.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-neo-skin 已收录到 DeepSeek Harness Plugin Store。新粗野主义换肤皮肤：双方案（蓝统治 / 做旧报纸）随时切换，硬阴影 + 直角 + 2px 边框结构层，浅色/深色自适应。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-0957cc624985ffbca141.html",
+    "en": "dsh-neo-skin is now listed on the DeepSeek Harness Plugin Store. Neo-brutalism skin with two switchable schemes (Blue Command / Aged Newspaper), hard shadows, sharp corners, and light/dark theme support.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-0957cc624985ffbca141.html"
+  }
+}

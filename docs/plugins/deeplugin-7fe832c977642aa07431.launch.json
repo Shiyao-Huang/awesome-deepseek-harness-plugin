@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/PerryLink/dsh-composer-history",
     "firstObservedAt": "2026-08-15T22:14:49Z",
-    "lastChangedAt": "2026-08-16T08:41:44Z"
+    "lastChangedAt": "2026-08-16T16:39:22Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-7fe832c977642aa07431.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-7fe832c977642aa07431.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-composer-history 已收录到 DeepSeek Harness Plugin Store。Web 作曲器终端风格输入历史：边缘优先的方向键召回并精确还原草稿与光标、浏览器本地持久化历史、Ctrl+R 反向搜索，以及滑动上下文感知（压缩摘要加入召回与搜索）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-7fe832c977642aa07431.html",
-    "en": "dsh-composer-history is now listed on the DeepSeek Harness Plugin Store. Terminal-style input history for the web composer: edge-first arrow-key recall with exact draft and caret restore, browser-local persisted history, Ctrl+R reverse search, and sliding-context awareness (compaction summaries join recall and search).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-7fe832c977642aa07431.html"
+    "zh": "dsh-composer-history 已收录到 DeepSeek Harness Plugin Store。Web 作曲器终端风格输入历史：边缘优先的方向键召回并精确还原草稿与光标、浏览器本地持久化历史、Ctrl+R 反向搜索，以及滑动上下文感知；0.5.0 再加智能输入层——跨会话片段库（/save、/load）、带变量的提示词模板、复用洞察与压缩摘要高亮。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-7fe832c977642aa07431.html",
+    "en": "dsh-composer-history is now listed on the DeepSeek Harness Plugin Store. Terminal-style input history for the web composer: edge-first arrow-key recall with exact draft/caret restore, browser-local persisted history, Ctrl+R reverse search, and sliding-context awareness; 0.5.0 adds a smart input layer — cross-session snippets (/save, /load), prompt templates with variables, reuse insights, and compaction-summary highlighting.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-7fe832c977642aa07431.html"
   }
 }

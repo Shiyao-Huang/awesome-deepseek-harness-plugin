@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-cf8c5fe21dac8bfd40b9",
+    "name": "dsh-mobile",
+    "author": "TecFancy",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/TecFancy/dsh-mobile",
+    "firstObservedAt": "2026-08-16T16:39:22Z",
+    "lastChangedAt": "2026-08-16T16:39:22Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-cf8c5fe21dac8bfd40b9.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-cf8c5fe21dac8bfd40b9.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@tecfancy/dsh-mobile",
+    "command": "dsh plugin --profile web add @tecfancy/dsh-mobile",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-cf8c5fe21dac8bfd40b9，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-cf8c5fe21dac8bfd40b9.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-cf8c5fe21dac8bfd40b9.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-mobile 已收录到 DeepSeek Harness Plugin Store。DSH Web 移动端适配插件：侧边栏/详情抽屉浮层化、输入栏与设置页响应式适配，桌面零回归。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-cf8c5fe21dac8bfd40b9.html",
+    "en": "dsh-mobile is now listed on the DeepSeek Harness Plugin Store. Mobile adapter for the DSH web shell: overlay sidebar/details drawers, responsive composer and settings below 768px, zero desktop regression.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-cf8c5fe21dac8bfd40b9.html"
+  }
+}

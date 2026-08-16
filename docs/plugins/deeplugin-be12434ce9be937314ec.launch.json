@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-be12434ce9be937314ec",
+    "name": "dsh-sticker-board",
+    "author": "sanqiPanax",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/sanqiPanax/dsh-sticker-board",
+    "firstObservedAt": "2026-08-16T16:39:22Z",
+    "lastChangedAt": "2026-08-16T16:39:22Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-be12434ce9be937314ec.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-be12434ce9be937314ec.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:sanqipanax/dsh-sticker-board",
+    "command": "dsh plugin --profile web add github:sanqipanax/dsh-sticker-board",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-be12434ce9be937314ec，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-be12434ce9be937314ec.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-be12434ce9be937314ec.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-sticker-board 已收录到 DeepSeek Harness Plugin Store。输入框上方的冰箱贴纸栏：把常用任务（科技新闻、GitHub 推荐等）做成贴纸，点击即向当前会话发送预置 prompt 并执行，按长期/短期分组。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-be12434ce9be937314ec.html",
+    "en": "dsh-sticker-board is now listed on the DeepSeek Harness Plugin Store. Fridge-magnet quick-task stickers docked above the composer: one-click sends a preloaded prompt into the current session, grouped long-term/short-term.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-be12434ce9be937314ec.html"
+  }
+}

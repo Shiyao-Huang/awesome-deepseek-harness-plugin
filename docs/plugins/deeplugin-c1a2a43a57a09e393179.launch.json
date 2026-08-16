@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/PerryLink/dsh-memento",
     "firstObservedAt": "2026-08-15T22:14:49Z",
-    "lastChangedAt": "2026-08-15T22:14:49Z"
+    "lastChangedAt": "2026-08-16T16:39:22Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-c1a2a43a57a09e393179.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-c1a2a43a57a09e393179.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-memento 已收录到 DeepSeek Harness Plugin Store。有界、分层、带审批门、可审计的跨会话记忆：`ctx.memory` 服务 + 零依赖 SQLite 存储 + `memory` 工具与冻结快照注入；写入必过审批门，模型可见内容可自会话日志重建。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c1a2a43a57a09e393179.html",
-    "en": "dsh-memento is now listed on the DeepSeek Harness Plugin Store. Bounded, layered, approval-gated, auditable cross-session memory: a typed `ctx.memory` seam with a zero-dependency SQLite provider, a `memory` tool, and frozen snapshot injection; every write passes the approval gate and stays reconstructable from the session log.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-c1a2a43a57a09e393179.html"
+    "zh": "dsh-memento 已收录到 DeepSeek Harness Plugin Store。有界、分层、带审批门、可审计的跨会话记忆：`ctx.memory` 服务 + 零依赖 SQLite 存储 + `memory` 工具与冻结快照注入，并预演 dsh-memory-protocol v1——适配器注册表与可分发的一致性套件。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c1a2a43a57a09e393179.html",
+    "en": "dsh-memento is now listed on the DeepSeek Harness Plugin Store. Bounded, layered, approval-gated, auditable cross-session memory: a typed `ctx.memory` seam with a zero-dependency SQLite provider, a `memory` tool, and frozen snapshot injection, plus the dsh-memory-protocol v1 rehearsal with an adapter registry and a distributable conformance suite.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-c1a2a43a57a09e393179.html"
   }
 }

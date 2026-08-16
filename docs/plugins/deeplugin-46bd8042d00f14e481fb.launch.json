@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-46bd8042d00f14e481fb",
+    "name": "dsh-quant",
+    "author": "pengpengyi92",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/pengpengyi92/dsh-quant",
+    "firstObservedAt": "2026-08-16T16:39:22Z",
+    "lastChangedAt": "2026-08-16T16:39:22Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-46bd8042d00f14e481fb.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-46bd8042d00f14e481fb.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:pengpengyi92/dsh-quant",
+    "command": "dsh plugin --profile web add github:pengpengyi92/dsh-quant",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-46bd8042d00f14e481fb，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-46bd8042d00f14e481fb.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-46bd8042d00f14e481fb.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-quant 已收录到 DeepSeek Harness Plugin Store。面向 DeepSeek Harness 的量化研究工具箱，37 个工具覆盖行情、指标、因子评价、回测、风控与基金模拟。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-46bd8042d00f14e481fb.html",
+    "en": "dsh-quant is now listed on the DeepSeek Harness Plugin Store. Quantitative R&D toolkit for DeepSeek Harness — 37 tools across six domains covering market data, technical indicators, factor evaluation, backtests, risk metrics and fund simulation.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-46bd8042d00f14e481fb.html"
+  }
+}

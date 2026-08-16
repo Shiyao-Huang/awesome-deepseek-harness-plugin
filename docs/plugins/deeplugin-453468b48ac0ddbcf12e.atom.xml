@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-plugin-focus — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-453468b48ac0ddbcf12e.atom.xml</id>
+  <updated>2026-08-16T16:39:22Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-453468b48ac0ddbcf12e.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-453468b48ac0ddbcf12e.html"/>
+  <entry>
+    <title>New: dsh-plugin-focus</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-453468b48ac0ddbcf12e/3bdb45cc79abc5a6</id>
+    <updated>2026-08-16T16:39:22Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-453468b48ac0ddbcf12e.html"/>
+    <author><name>863683348</name></author>
+    <category term="memory"/>
+    <summary>Focus board for DeepSeek Harness agents: durable, model-maintained notes in the session workspace that pin the objective, constraints, and decisions across compaction and sessions, with automatic context injection, archive on clear, and an optional web panel. Exact install spec: github:863683348/dsh-plugin-focus. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

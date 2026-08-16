@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-6af2935f4137afe0fd06",
+    "name": "dsh-deepseek-vision",
+    "author": "Cheng-cheng9669",
+    "category": "vision",
+    "version": null,
+    "homepage": "https://github.com/Cheng-cheng9669/dsh-deepseek-vision",
+    "firstObservedAt": "2026-08-16T16:39:22Z",
+    "lastChangedAt": "2026-08-16T16:39:22Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-6af2935f4137afe0fd06.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-6af2935f4137afe0fd06.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:cheng-cheng9669/dsh-deepseek-vision",
+    "command": "dsh plugin --profile web add github:cheng-cheng9669/dsh-deepseek-vision",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-6af2935f4137afe0fd06，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-6af2935f4137afe0fd06.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-6af2935f4137afe0fd06.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-deepseek-vision 已收录到 DeepSeek Harness Plugin Store。复用 DeepSeek 网页端识图模式给纯文本模型补上看图能力：deepseek_vision 工具调用本地 deepseek-vision-cli 浏览器自动化（手动登录助手、自动开启深度思考、用后自动关窗），把图片描述以文字返回给模型。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-6af2935f4137afe0fd06.html",
+    "en": "dsh-deepseek-vision is now listed on the DeepSeek Harness Plugin Store. Reuses DeepSeek web's built-in vision mode for text-only models: the deepseek_vision tool drives the local deepseek-vision-cli browser automation (manual login helper, deep-think enabled, auto-closes browser) and returns image descriptions as text.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-6af2935f4137afe0fd06.html"
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-myrules — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-4658517d2280aaf36a54.atom.xml</id>
+  <updated>2026-08-16T16:39:22Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-4658517d2280aaf36a54.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-4658517d2280aaf36a54.html"/>
+  <entry>
+    <title>New: dsh-myrules</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-4658517d2280aaf36a54/3bdb45cc79abc5a6</id>
+    <updated>2026-08-16T16:39:22Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-4658517d2280aaf36a54.html"/>
+    <author><name>Relistencode</name></author>
+    <category term="ui"/>
+    <summary>Edit the host-wide global instructions (~/.dsh/AGENTS.md) from a dedicated Customize page in Settings - every session on this machine applies them. Exact install spec: dsh-myrules. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

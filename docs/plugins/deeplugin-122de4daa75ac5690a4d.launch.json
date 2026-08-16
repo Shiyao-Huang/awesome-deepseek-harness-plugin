@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-122de4daa75ac5690a4d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-mneme#dsh-mneme 已收录到 DeepSeek Harness Plugin Store。跨会话记忆：SQLite + 可人工编辑的 Markdown 镜像，autoDream 后台自动巩固（去重/合并/冲突裁决），6 个记忆工具，完全离线语义检索（本地向量 / 精排 / 聚类）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-122de4daa75ac5690a4d.html",
-    "en": "dsh-mneme#dsh-mneme is now listed on the DeepSeek Harness Plugin Store. Cross-session memory for DSH: SQLite + human-editable Markdown mirror, autoDream consolidation, six memory tools, and fully-offline semantic search (local embeddings, reranking, clustering).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-122de4daa75ac5690a4d.html"
+    "zh": "dsh-mneme#dsh-mneme 已收录到 DeepSeek Harness Plugin Store。DeepSeek Harness 结构化记忆引擎。离线语义搜索、实体-属性-时间轴、autoDream 自我巩固、可人工编辑的 Markdown 存储。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-122de4daa75ac5690a4d.html",
+    "en": "dsh-mneme#dsh-mneme is now listed on the DeepSeek Harness Plugin Store. Structured memory engine for DeepSeek Harness. Offline semantic search, entity-attribute-timeline, autoDream self-consolidation, and human-editable Markdown storage.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-122de4daa75ac5690a4d.html"
   }
 }

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-449905b1416386914a68",
+    "name": "command-scout",
+    "author": "JohnXu22786",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/JohnXu22786/command-scout",
+    "firstObservedAt": "2026-08-16T16:39:22Z",
+    "lastChangedAt": "2026-08-16T16:39:22Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-449905b1416386914a68.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-449905b1416386914a68.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:johnxu22786/command-scout",
+    "command": "dsh plugin --profile web add github:johnxu22786/command-scout",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-449905b1416386914a68，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-449905b1416386914a68.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-449905b1416386914a68.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "command-scout 已收录到 DeepSeek Harness Plugin Store。扫描项目已声明的构建命令——Makefile 目标、package.json 脚本、just 配方、deno 任务——并作为可直接调用的 agent 工具暴露给智能体。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-449905b1416386914a68.html",
+    "en": "command-scout is now listed on the DeepSeek Harness Plugin Store. Scans a project's declared build commands — Makefile targets, package.json scripts, just recipes, deno tasks — and exposes them as ready-to-run agent tools.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-449905b1416386914a68.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-65946147244182d17b66",
+    "name": "notifier",
+    "author": "JohnXu22786",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/JohnXu22786/notifier",
+    "firstObservedAt": "2026-08-16T16:39:22Z",
+    "lastChangedAt": "2026-08-16T16:39:22Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-65946147244182d17b66.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-65946147244182d17b66.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:johnxu22786/notifier",
+    "command": "dsh plugin --profile web add github:johnxu22786/notifier",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-65946147244182d17b66，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-65946147244182d17b66.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-65946147244182d17b66.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "notifier 已收录到 DeepSeek Harness Plugin Store。任务完成、等待批准或运行出错时在桌面弹出通知并播放提示音，macOS、Windows、Linux 原生实现，零运行时依赖。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-65946147244182d17b66.html",
+    "en": "notifier is now listed on the DeepSeek Harness Plugin Store. Desktop notifications and tones when a task finishes, waits for approval, or errors — native on macOS, Windows and Linux with zero runtime dependencies.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-65946147244182d17b66.html"
+  }
+}

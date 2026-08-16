@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-4658517d2280aaf36a54",
+    "name": "dsh-myrules",
+    "author": "Relistencode",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/Relistencode/dsh-extension-hub/tree/main/packages/dsh-myrules",
+    "firstObservedAt": "2026-08-16T16:39:22Z",
+    "lastChangedAt": "2026-08-16T16:39:22Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-4658517d2280aaf36a54.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-4658517d2280aaf36a54.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-myrules",
+    "command": "dsh plugin --profile web add dsh-myrules",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-4658517d2280aaf36a54，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-4658517d2280aaf36a54.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-4658517d2280aaf36a54.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-myrules 已收录到 DeepSeek Harness Plugin Store。在设置页的「个性化」页编辑此主机全局指令（~/.dsh/AGENTS.md），此机器上的所有会话都会应用。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-4658517d2280aaf36a54.html",
+    "en": "dsh-myrules is now listed on the DeepSeek Harness Plugin Store. Edit the host-wide global instructions (~/.dsh/AGENTS.md) from a dedicated Customize page in Settings - every session on this machine applies them.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-4658517d2280aaf36a54.html"
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-memoryleak — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-73c0c8cd5622012a1f67.atom.xml</id>
+  <updated>2026-08-16T16:39:22Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-73c0c8cd5622012a1f67.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-73c0c8cd5622012a1f67.html"/>
+  <entry>
+    <title>New: dsh-memoryleak</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-73c0c8cd5622012a1f67/3bdb45cc79abc5a6</id>
+    <updated>2026-08-16T16:39:22Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-73c0c8cd5622012a1f67.html"/>
+    <author><name>warmwine</name></author>
+    <category term="tools"/>
+    <summary>Notes and todos as plain Markdown files in your workspace: type /ml plus a sentence to jot into today's journal; todos come in three flavors — deadline, sleep-until-a-date (auto-wakes when due), and anytime; /ml view fuzzy-opens any file with a few keystrokes. Zero tokens throughout — nothing goes through the model, and your notes stay ordinary local files that git and any editor can read. Exact install spec: github:warmwine/dsh-memoryleak. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

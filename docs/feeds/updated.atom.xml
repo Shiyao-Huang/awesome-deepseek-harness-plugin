@@ -2,9 +2,72 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>deeplugin.store — Updated plugins</title>
   <id>https://deeplugin.store/feeds/updated.atom.xml</id>
-  <updated>2026-08-16T14:38:49Z</updated>
+  <updated>2026-08-16T16:39:22Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/feeds/updated.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/market.html"/>
+  <entry>
+    <title>Updated: dsh-memento</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-c1a2a43a57a09e393179/7015190629e27ba8</id>
+    <updated>2026-08-16T16:39:22Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c1a2a43a57a09e393179.html"/>
+    <author><name>PerryLink</name></author>
+    <category term="memory"/>
+    <summary>Bounded, layered, approval-gated, auditable cross-session memory: a typed `ctx.memory` seam with a zero-dependency SQLite provider, a `memory` tool, and frozen snapshot injection, plus the dsh-memory-protocol v1 rehearsal with an adapter registry and a distributable conformance suite. Exact install spec: dsh-memento. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-skill-pack-security</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-ace18d3379b6953f293d/7015190629e27ba8</id>
+    <updated>2026-08-16T16:39:22Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ace18d3379b6953f293d.html"/>
+    <author><name>PerryLink</name></author>
+    <category term="skill"/>
+    <summary>Security-audit methodology skill pack plus the plugin_vet supply-chain gate: eight agent skills (secret scan, dependency audit, supply-chain review, prompt-injection review, audit orchestration, threat modeling, vuln intel, incident response) in Chinese and English editions, with an npm provider bundle that mounts the skills and registers the automated plugin_vet pre-install scanner. Exact install spec: github:perrylink/dsh-skill-pack-security. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
+  <entry>
+    <title>Updated: godot-bridge</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-a6f8242ec842ba75312b/7015190629e27ba8</id>
+    <updated>2026-08-16T16:39:22Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a6f8242ec842ba75312b.html"/>
+    <author><name>Smalldy</name></author>
+    <category term="tools"/>
+    <summary>DSH↔Godot engine runtime bridge: launch and drive a running Godot 4.x game through its in-game TCP interaction server — 16 tools (runtime control via ~130 game commands, scene/UI inspection, GDScript eval, input simulation, screenshots, headless static ops, project editing, export, script validation, engine-path setup), replaces godot-mcp. Exact install spec: github:smalldy/godot-bridge. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-composer-history</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-7fe832c977642aa07431/7015190629e27ba8</id>
+    <updated>2026-08-16T16:39:22Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-7fe832c977642aa07431.html"/>
+    <author><name>PerryLink</name></author>
+    <category term="ui"/>
+    <summary>Terminal-style input history for the web composer: edge-first arrow-key recall with exact draft/caret restore, browser-local persisted history, Ctrl+R reverse search, and sliding-context awareness; 0.5.0 adds a smart input layer — cross-session snippets (/save, /load), prompt templates with variables, reuse insights, and compaction-summary highlighting. Exact install spec: dsh-composer-history. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-chat-outline</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-55a14796d9aec910aa26/7015190629e27ba8</id>
+    <updated>2026-08-16T16:39:22Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-55a14796d9aec910aa26.html"/>
+    <author><name>liliuCourier</name></author>
+    <category term="ui"/>
+    <summary>Persistent conversation outline: per-turn questions and final replies, keyword filter, one-click jump, light/full history modes, and Ctrl/Shift+click to open the same position in the Trajectory view. Exact install spec: dsh-chat-outline. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
+  <entry>
+    <title>Updated: Plugin Doctor</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-518fa47b92ec8f4fa151/21ab69fe46bcd3b2</id>
+    <updated>2026-08-16T16:39:22Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-518fa47b92ec8f4fa151.html"/>
+    <author><name>zoahdev</name></author>
+    <category term="tools"/>
+    <summary>Pre-publish health checks, preflight, profile shadow detection, env diagnostics. Exact install spec: github:zoahdev/dsh-plugin-doctor. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-smooth-stream</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-28a5ee01c07a91bc47c8/0643b9f0b0f4506b</id>
+    <updated>2026-08-16T16:39:22Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-28a5ee01c07a91bc47c8.html"/>
+    <author><name>SpookySandwich</name></author>
+    <category term="ui"/>
+    <summary>Better streaming text animation for DeepSeek Harness. Exact install spec: github:spookysandwich/dsh-smooth-stream. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
+  </entry>
   <entry>
     <title>Updated: dsh-subscribe</title>
     <id>tag:deeplugin.store,2026-08-16:deeplugin-e2d97b47dcad2b474c7d/3b6efa748c95883a</id>
@@ -174,7 +237,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-122de4daa75ac5690a4d.html"/>
     <author><name>modusensus</name></author>
     <category term="memory"/>
-    <summary>Cross-session memory for DSH: SQLite + human-editable Markdown mirror, autoDream consolidation, six memory tools, and fully-offline semantic search (local embeddings, reranking, clustering). Exact install spec: github:modusensus/dsh-mneme#path:/dsh-mneme. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+    <summary>Structured memory engine for DeepSeek Harness. Offline semantic search, entity-attribute-timeline, autoDream self-consolidation, and human-editable Markdown storage. Exact install spec: github:modusensus/dsh-mneme#path:/dsh-mneme. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
   </entry>
   <entry>
     <title>Updated: dsh-permgate</title>
@@ -841,68 +904,5 @@
     <author><name>littleboylittlegirl</name></author>
     <category term="ui"/>
     <summary>Floating community panel for the Web UI: 24h hot topics and hot plugins TOP10 with a draggable, always-on-top button. Exact install spec: dsh-community-hot. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-model-picker</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-d5dbfc1f59a28c4b261b/d947fc14d81f9c69</id>
-    <updated>2026-08-16T09:56:16Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d5dbfc1f59a28c4b261b.html"/>
-    <author><name>genius-alray</name></author>
-    <category term="ui"/>
-    <summary>Dialog-style model picker for the DSH Web UI: fuzzy search, collapsible provider groups, favorites with a favorites-only filter, and a thinking-level dropdown, replacing the built-in model selector with official UI primitives and DSW tokens. Exact install spec: github:genius-alray/dsh-model-picker. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-engramory</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-d53801f87f57b6cac209/d947fc14d81f9c69</id>
-    <updated>2026-08-16T09:56:16Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d53801f87f57b6cac209.html"/>
-    <author><name>tinqiao-oss</name></author>
-    <category term="memory"/>
-    <summary>The Engramory curated-memory discipline as an installable plugin ([npm: dsh-engramory](https://www.npmjs.com/package/dsh-engramory)): a deterministic 200-line / 25 KB cap on the `MEMORY.md` index via `ctx.tools.guard()` — growth denied, a shrinking rewrite always passes — plus the protocol registered as a runtime skill. The store is plain markdown, one file per fact, shared with Claude Code, Codex, Kiro, and OpenClaw. Exact install spec: dsh-engramory. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-wildmon</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-d39fba5b20d19357d18d/2269caf19e4ff097</id>
-    <updated>2026-08-16T09:56:16Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d39fba5b20d19357d18d.html"/>
-    <author><name>swaylq</name></author>
-    <category term="fun"/>
-    <summary>Pokemon-style catch-em-all: your real work is the tall grass — turns, tool calls and errors spawn wild encounters; throw balls, fill a 28-slot dex, walk a team of six. Zero tokens, invisible to the model. Exact install spec: github:swaylq/dsh-wildmon. Source event: zoahdev/dsh-subscribe; changed: description, description_i18n, registry_source_json.</summary>
-  </entry>
-  <entry>
-    <title>Updated: deepseek-harness-action</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-d30a3b2cff1101337e12/c280f5d7903fcc8f</id>
-    <updated>2026-08-16T09:56:16Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d30a3b2cff1101337e12.html"/>
-    <author><name>Lixiaoyiao</name></author>
-    <category term="dev"/>
-    <summary>GitHub Action running DSH for PR review, CI diagnosis and trusted fixes. Exact install spec: github:lixiaoyiao/deepseek-harness-action. Source event: zoahdev/dsh-subscribe; changed: active.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-quota-panel</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-d2476be1554d69c1a910/d947fc14d81f9c69</id>
-    <updated>2026-08-16T09:56:16Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d2476be1554d69c1a910.html"/>
-    <author><name>wenzetan</name></author>
-    <category term="ui"/>
-    <summary>Bottom-right quota capsule that auto-discovers every configured provider (DeepSeek, OpenRouter, SiliconFlow, GLM, one-api/new-api, coding plans) and shows balance or rolling 5-hour and weekly usage, with per-provider visibility, alert thresholds and proxy support. Exact install spec: dsh-quota-panel. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-notion</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-d06c66047f06494431e7/d947fc14d81f9c69</id>
-    <updated>2026-08-16T09:56:16Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d06c66047f06494431e7.html"/>
-    <author><name>mingzeng21</name></author>
-    <category term="notify"/>
-    <summary>Connect dsh to Notion via the official Notion MCP (OAuth + PKCE): search, read, and write pages, databases, and comments through `mcp__notion__*` tools. Exact install spec: github:mingzeng21/dsh-notion. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: adhdgofly-dsh-ext</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-d05cc2b60150b45b25a6/d947fc14d81f9c69</id>
-    <updated>2026-08-16T09:56:16Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d05cc2b60150b45b25a6.html"/>
-    <author><name>zuoguyoupan2023</name></author>
-    <category term="ui"/>
-    <summary>Highlights parts of speech (nouns green, verbs red, adjectives/adverbs purple) in rendered DSH Web Markdown, with light/dark palettes, toggles, and stream-aware updates. Exact install spec: github:zuoguyoupan2023/adhdgofly-dsh-ext. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
   </entry>
 </feed>

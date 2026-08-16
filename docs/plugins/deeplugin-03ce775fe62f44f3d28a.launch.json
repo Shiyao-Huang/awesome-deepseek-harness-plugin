@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-03ce775fe62f44f3d28a",
+    "name": "dsh-plugin-template",
+    "author": "kun2-5code",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/kun2-5code/dsh-plugin-template",
+    "firstObservedAt": "2026-08-16T16:39:22Z",
+    "lastChangedAt": "2026-08-16T16:39:22Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-03ce775fe62f44f3d28a.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-03ce775fe62f44f3d28a.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:kun2-5code/dsh-plugin-template",
+    "command": "dsh plugin --profile web add github:kun2-5code/dsh-plugin-template",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-03ce775fe62f44f3d28a，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-03ce775fe62f44f3d28a.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-03ce775fe62f44f3d28a.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-template 已收录到 DeepSeek Harness Plugin Store。dsh 插件开发模板，覆盖配置、工具、事件、服务、钩子、浏览器 UI 插槽与斜杠命令。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-03ce775fe62f44f3d28a.html",
+    "en": "dsh-plugin-template is now listed on the DeepSeek Harness Plugin Store. A starter template for dsh plugins covering config, tools, events, services, hooks, browser UI slots, and slash commands.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-03ce775fe62f44f3d28a.html"
+  }
+}

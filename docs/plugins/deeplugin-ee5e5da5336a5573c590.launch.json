@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-ee5e5da5336a5573c590",
+    "name": "dsh-mobile-hanui",
+    "author": "Z-6354",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/Z-6354/dsh-mobile-hanui",
+    "firstObservedAt": "2026-08-16T16:39:22Z",
+    "lastChangedAt": "2026-08-16T16:39:22Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-ee5e5da5336a5573c590.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-ee5e5da5336a5573c590.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-mobile-hanui",
+    "command": "dsh plugin --profile web add dsh-mobile-hanui",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-ee5e5da5336a5573c590，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-ee5e5da5336a5573c590.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-ee5e5da5336a5573c590.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-mobile-hanui 已收录到 DeepSeek Harness Plugin Store。DSH Web 界面的移动端适配：窄屏下把桌面三栏布局改造成触屏友好的手机布局（覆盖式抽屉、可拖拽悬浮按钮、全屏弹窗、上滑加载历史），1024px 断点内生效，桌面端零影响。 — 基于 dsh-mobile-gate 的完整移动端 PWA：安全远程访问网关 + 可安装到主屏（manifest + service worker）+ 离线可用 + 触屏手势（下拉刷新/边缘返弹/捏合缩放字体）+ agent 完成推送 + 触屏优先布局，桌面零影响。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-ee5e5da5336a5573c590.html",
+    "en": "dsh-mobile-hanui is now listed on the DeepSeek Harness Plugin Store. Mobile UI shell for the DSH Web GUI: turns the desktop three-column layout into a touch-friendly phone layout (overlay drawers, draggable FAB, full-screen dialogs, infinite-scroll history) under a 1024px viewport, with zero desktop impact. - Complete mobile PWA for DSH, built on dsh-mobile-gate: secure remote-access gateway plus install-to-homescreen (manifest + service worker), offline capability, touch gestures (pull-to-refresh, edge-swipe back, pinch-zoom font), agent-done push notifications, and touch-first layout — desktop unaffected.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-ee5e5da5336a5573c590.html"
+  }
+}

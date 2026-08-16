@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-extension-hub — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-ba430867f2a704585cf8.atom.xml</id>
+  <updated>2026-08-16T16:39:22Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-ba430867f2a704585cf8.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ba430867f2a704585cf8.html"/>
+  <entry>
+    <title>New: dsh-extension-hub</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-ba430867f2a704585cf8/3bdb45cc79abc5a6</id>
+    <updated>2026-08-16T16:39:22Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ba430867f2a704585cf8.html"/>
+    <author><name>Relistencode</name></author>
+    <category term="market"/>
+    <summary>All-in-one DSH extension center in Settings: manage skills, MCP servers and plugins, a Plugin Market (curated + GitHub search, npm one-click install), and an Add-ons block to install, disable, uninstall and update companion features together. Exact install spec: dsh-extension-hub. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>
