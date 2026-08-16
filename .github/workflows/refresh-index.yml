@@ -43,7 +43,8 @@ jobs:
         run: make core-refresh
 
       - name: Rebuild on latest main and commit refreshed index
-        run: scripts/publish_generated_commit.sh "data: refresh public ecosystem index" data/raw index docs plugin/data README.md
+        run: |
+          scripts/publish_generated_commit.sh "data: refresh public ecosystem index" data/raw index docs plugin/data README.md
 
       - name: Publish stable latest SQLite assets
         env:
