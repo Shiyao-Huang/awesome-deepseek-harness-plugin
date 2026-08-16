@@ -79,7 +79,7 @@ The SQLite table `index_records` mirrors these fields. The `raw_snapshots`, `obs
 
 ## Schedule
 
-The public GitHub Actions workflow runs every two hours at minute 17 UTC. It restores the latest full database, calls `make core-refresh` to collect sources that expose a permitted public API, writes dated raw snapshots, imports them, rebuilds the value matrix, index, site, trends, and README, validates both database forms, and commits only incremental raw and generated text/site changes. It overwrites the stable `dataset-latest` GitHub Release assets instead of committing a new 60+ MiB SQLite binary every two hours. Browser-only sources such as X, Xiaohongshu, Reddit, and WeChat are never collected by this unattended job; they require a fresh permitted ego-browser capture and an explicit `--raw` import.
+The public GitHub Actions workflow runs every two hours at minute 17 UTC. It restores the latest full database, calls `make core-refresh` to collect sources that expose a permitted public API, writes dated raw snapshots, imports them, rebuilds the value matrix, index, site, trends, and README, validates both database forms, and commits only incremental raw and generated text/site changes. It overwrites the stable `dataset-latest` GitHub Release assets instead of committing a new 60+ MiB SQLite binary every two hours. Both scheduled workflows explicitly check out the latest `main` when their runner starts so a run queued by the shared concurrency group cannot combine an older source tree with a newer release database. Browser-only sources such as X, Xiaohongshu, Reddit, and WeChat are never collected by this unattended job; they require a fresh permitted ego-browser capture and an explicit `--raw` import.
 
 The DeepSeek Harness Fork network has a separate daily workflow at `.github/workflows/refresh-forks.yml`. It enumerates every public page from `https://api.github.com/repos/deepseek-ai/deepseek-harness/forks`, stores each page under `data/raw/forks/<UTC timestamp>/`, rotates a bounded, owner-deduplicated set of public `GET /users/{login}` profiles, and upserts the public Fork identities into `fork_repositories`. The complete list is the observable GitHub API result at collection time; private, deleted, or inaccessible repositories are outside the dataset.
 
@@ -111,7 +111,7 @@ Never use a destructive database reset or delete raw evidence to make a check pa
 <!-- gitnexus:start -->
 # GitNexus — Code Intelligence
 
-This project is indexed by GitNexus as **awesome-deepseek-harness-plugin** (13826 symbols, 15049 relationships, 81 execution flows). Use the GitNexus MCP tools to understand code, assess impact, and navigate safely.
+This project is indexed by GitNexus as **awesome-deepseek-harness-plugin** (13828 symbols, 15051 relationships, 81 execution flows). Use the GitNexus MCP tools to understand code, assess impact, and navigate safely.
 
 > Index stale? Run `node .gitnexus/run.cjs analyze` from the project root — it auto-selects an available runner. No `.gitnexus/run.cjs` yet? `npx gitnexus analyze` (npm 11 crash → `npm i -g gitnexus`; #1939).
 
