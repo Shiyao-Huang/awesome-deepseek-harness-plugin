@@ -35,3 +35,15 @@ _Avoid_: Available plugin, supported plugin
 **Verified Listing**:
 A source-attributed claim that the curator exercised its stated checks. It is not this repository's security or compatibility endorsement.
 _Avoid_: Safe plugin, approved plugin
+
+**Plugin Pack**:
+A versioned, task-oriented review aid that names exact Plugin Identities and preserves each member's required, alternative, or complementary relationship. It never means bulk installation.
+_Avoid_: Bundle installer, recommended stack, trusted collection
+
+**Pack Version**:
+An immutable bilingual Pack definition with its own dataset version, observation date, source path, SHA-256, and ordered member declarations. Any content or status change requires a new Pack Version.
+_Avoid_: Latest JSON, mutable preset
+
+**Available Pack Member**:
+A declared Pack member whose stable plugin id resolves to the same exact Install Spec in the current Market Registry. Availability does not imply a reported version, compatibility, safety, or quality.
+_Avoid_: Verified member, supported member

@@ -17,6 +17,15 @@ import build_site
 
 
 class RichMediaSiteProjectionTests(unittest.TestCase):
+    def test_home_is_a_small_decision_surface_not_the_full_directory(self) -> None:
+        page_path = ROOT / "docs" / "index.html"
+        page = page_path.read_text(encoding="utf-8")
+
+        self.assertLess(page_path.stat().st_size, 500_000)
+        self.assertLessEqual(page.count('class="skill-card'), 24)
+        self.assertIn('href="market.html"', page)
+        self.assertIn('href="directories.html"', page)
+
     def test_market_page_projects_the_agent_registry(self) -> None:
         registry = json.loads((ROOT / "docs" / "data" / "market-registry.json").read_text(encoding="utf-8"))
         page = (ROOT / "docs" / "market.html").read_text(encoding="utf-8")
@@ -42,6 +51,20 @@ class RichMediaSiteProjectionTests(unittest.TestCase):
             {path.stem for path in generated},
             {plugin["id"] for plugin in plugins if isinstance(plugin, dict)},
         )
+
+    def test_market_registry_has_one_stable_detail_page_per_active_pack(self) -> None:
+        registry = build_site.load_market_registry()
+        packs = registry["packs"]
+        assert isinstance(packs, list)
+        generated = sorted((ROOT / "docs" / "packs").glob("*.html"))
+
+        self.assertEqual(
+            {path.stem for path in generated},
+            {pack["id"] for pack in packs if isinstance(pack, dict)},
+        )
+        sitemap = (ROOT / "docs" / "sitemap.xml").read_text(encoding="utf-8")
+        for pack in packs:
+            self.assertIn(f"https://deeplugin.store/packs/{pack['id']}.html", sitemap)
 
     def test_market_detail_exposes_install_share_and_source_evidence(self) -> None:
         registry = build_site.load_market_registry()

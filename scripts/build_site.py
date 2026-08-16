@@ -21,11 +21,13 @@ DOCS = ROOT / "docs"
 DATA = DOCS / "data"
 SKILLS = DOCS / "skills"
 MARKET_PLUGINS = DOCS / "plugins"
+MARKET_PACKS = DOCS / "packs"
 MEDIA = ROOT / "media"
 PUBLISHED_MEDIA = DOCS / "media"
 CONFIG_PATH = ROOT / "config" / "site.json"
 MARKET_REGISTRY_PATH = DATA / "market-registry.json"
 MARKET_PLUGIN_ID_RE = re.compile(r"deeplugin-[0-9a-f]{20}")
+MARKET_PACK_ID_RE = re.compile(r"deeplugin-pack-[0-9a-f]{20}")
 
 PLATFORM_LABELS = {
     "github": "GitHub",
@@ -156,11 +158,14 @@ def load_market_registry() -> dict[str, object]:
     if not isinstance(payload, dict):
         raise ValueError("market registry must be a JSON object")
     plugins = payload.get("plugins")
+    packs = payload.get("packs")
     categories = payload.get("categories")
-    if not isinstance(plugins, list) or not isinstance(categories, dict):
-        raise ValueError("market registry must contain plugins and categories")
+    if not isinstance(plugins, list) or not isinstance(packs, list) or not isinstance(categories, dict):
+        raise ValueError("market registry must contain plugins, Packs, and categories")
     if payload.get("count") != len(plugins):
         raise ValueError("market registry count does not match plugins")
+    if payload.get("packCount") != len(packs):
+        raise ValueError("market registry Pack count does not match Packs")
     for plugin in plugins:
         install = plugin.get("install") if isinstance(plugin, dict) else None
         if (
@@ -170,6 +175,16 @@ def load_market_registry() -> dict[str, object]:
             or not isinstance(install.get("spec"), str)
         ):
             raise ValueError("market registry contains an invalid plugin identity")
+    for pack in packs:
+        members = pack.get("members") if isinstance(pack, dict) else None
+        if (
+            not isinstance(pack, dict)
+            or not isinstance(pack.get("id"), str)
+            or MARKET_PACK_ID_RE.fullmatch(str(pack.get("id"))) is None
+            or not isinstance(members, list)
+            or pack.get("memberCount") != len(members)
+        ):
+            raise ValueError("market registry contains an invalid Plugin Pack")
     return payload
 
 
@@ -767,6 +782,80 @@ def market_plugin_url(plugin: dict[str, object]) -> str:
     return f"plugins/{market_plugin_id(plugin)}.html"
 
 
+def market_pack_id(pack: dict[str, object]) -> str:
+    """Return a filesystem-safe stable id for one public Plugin Pack."""
+
+    pack_id = str(pack.get("id") or "")
+    if not MARKET_PACK_ID_RE.fullmatch(pack_id):
+        raise ValueError(f"invalid Market Pack id: {pack_id!r}")
+    return pack_id
+
+
+def market_pack_url(pack: dict[str, object]) -> str:
+    """Return the stable relative detail URL for one active Plugin Pack."""
+
+    return f"packs/{market_pack_id(pack)}.html"
+
+
+def market_pack_agent_request(pack: dict[str, object], *, language: str = "zh") -> str:
+    """Build a review-only Agent request that never authorizes bulk Pack installation."""
+
+    pack_id = market_pack_id(pack)
+    if language == "en":
+        return (
+            f"Open Plugin Pack {pack_id} from deeplugin.store. Show every member, relationship, exact spec, "
+            "version, and source. Let me choose members, then wait for one explicit approval per plugin; do not install the Pack in bulk."
+        )
+    return (
+        f"请查看 deeplugin.store 的 Plugin Pack {pack_id}，展示全部成员、关系、精确 spec、版本和来源；"
+        "让我选择成员，并对每个插件分别等待明确批准，不要批量安装 Pack。"
+    )
+
+
+def market_pack_card_html(pack: dict[str, object]) -> str:
+    """Render one bilingual task-first Pack card with review-only actions."""
+
+    pack_id = market_pack_id(pack)
+    members = pack.get("members")
+    member_rows = members if isinstance(members, list) else []
+    member_chips = "".join(
+        f'<li><strong>{esc(member.get("name") or member.get("pluginId"))}</strong>'
+        f'<span>{esc(member.get("relationship") or "member")} · {esc(member.get("group") or "ungrouped")}</span></li>'
+        for member in member_rows
+        if isinstance(member, dict)
+    )
+    installable = pack.get("installable") is True
+    button = (
+        f'<button class="copy-install" type="button" data-copy-lang="zh" data-install="{esc(market_pack_agent_request(pack), attribute=True)}">复制给 DeepSeek</button>'
+        f'<button class="copy-install" type="button" data-copy-lang="en" data-install="{esc(market_pack_agent_request(pack, language="en"), attribute=True)}">Copy for DeepSeek</button>'
+        if installable
+        else '<button type="button" disabled><span data-copy-lang="zh">成员缺失，先查看</span><span data-copy-lang="en">Member missing — review</span></button>'
+    )
+    return (
+        f'<article class="task-pack-card" data-pack-id="{esc(pack_id, attribute=True)}">'
+        f'<div class="task-pack-meta"><span>PACK · v{esc(pack.get("version") or "NULL")}</span>'
+        f'<span>{len(member_rows)} MEMBERS</span></div>'
+        f'<h3><span data-copy-lang="zh" lang="zh-CN">{esc(pack.get("name_zh") or pack.get("name"))}</span>'
+        f'<span data-copy-lang="en" lang="en">{esc(pack.get("name") or pack_id)}</span></h3>'
+        f'<p><span data-copy-lang="zh" lang="zh-CN">{esc(pack.get("task_zh") or pack.get("description_zh"))}</span>'
+        f'<span data-copy-lang="en" lang="en">{esc(pack.get("task") or pack.get("description"))}</span></p>'
+        f'<ul>{member_chips}</ul><div class="task-pack-actions">'
+        f'<a href="{esc(market_pack_url(pack), attribute=True)}"><span data-copy-lang="zh">查看计划</span><span data-copy-lang="en">Review Pack</span></a>{button}</div></article>'
+    )
+
+
+def home_demo_plugin(plugins: list[object]) -> dict[str, object] | None:
+    """Select the current npm modsearch identity for the generated QA flow."""
+
+    for plugin in plugins:
+        if not isinstance(plugin, dict):
+            continue
+        install = plugin.get("install")
+        if isinstance(install, dict) and install.get("spec") == "@liustack/modsearch":
+            return plugin
+    return next((plugin for plugin in plugins if isinstance(plugin, dict)), None)
+
+
 def market_agent_request(plugin: dict[str, object]) -> str:
     """Build the review-first Agent request for one exact Registry identity."""
 
@@ -1029,6 +1118,116 @@ def render_market_detail(
 </body></html>"""
 
 
+def render_pack_detail(pack: dict[str, object], config: dict[str, str]) -> str:
+    """Render one stable Pack page with explicit member choices and provenance."""
+
+    pack_id = market_pack_id(pack)
+    members_value = pack.get("members")
+    members = [member for member in members_value if isinstance(member, dict)] if isinstance(members_value, list) else []
+    site_url = config["site_url"].rstrip("/")
+    canonical = f"{site_url}/{market_pack_url(pack)}"
+    name = str(pack.get("name") or pack_id)
+    name_zh = str(pack.get("name_zh") or name)
+    description = str(pack.get("description") or pack.get("task") or name)
+    description_zh = str(pack.get("description_zh") or pack.get("task_zh") or description)
+    installable = pack.get("installable") is True
+    item_list = [
+        {
+            "@type": "ListItem",
+            "position": int(member.get("order") or index),
+            "name": str(member.get("name") or member.get("pluginId")),
+            "url": f"{site_url}/plugins/{member.get('pluginId')}.html",
+        }
+        for index, member in enumerate(members, 1)
+        if member.get("available") is True and MARKET_PLUGIN_ID_RE.fullmatch(str(member.get("pluginId") or ""))
+    ]
+    head = page_head(
+        f"{name} — DeepSeek Harness Plugin Pack",
+        compact_text(description, 180),
+        canonical,
+        f"{site_url}/media/screenshots/official.png",
+        config,
+        extra_json_ld={
+            "@type": "CollectionPage",
+            "identifier": pack_id,
+            "name": name,
+            "mainEntity": {"@type": "ItemList", "itemListElement": item_list},
+        },
+    ).replace("{ASSET_PREFIX}", "../")
+    member_cards: list[str] = []
+    provenance_rows: list[str] = []
+    for member in members:
+        plugin_id = str(member.get("pluginId") or "")
+        install = member.get("install")
+        spec = str(install.get("spec") or "") if isinstance(install, dict) else ""
+        available = member.get("available") is True
+        version = str(member.get("version") or "version not reported") if available else "member unavailable"
+        plugin_link = (
+            f'<a href="../plugins/{esc(plugin_id, attribute=True)}.html">{esc(member.get("name") or plugin_id)}</a>'
+            if available and MARKET_PLUGIN_ID_RE.fullmatch(plugin_id)
+            else f'<span>{esc(member.get("name") or plugin_id)}</span>'
+        )
+        command = f"dsh plugin --profile web add {spec}"
+        command_html = (
+            f'<div class="pack-member-command"><code>{esc(command)}</code><button class="copy-install" type="button" data-install="{esc(command, attribute=True)}">Copy member command</button></div>'
+            if available and spec
+            else '<p class="pack-member-unavailable">This declared member is not in the current Registry projection.</p>'
+        )
+        member_cards.append(
+            f'<article class="pack-member-card"><div class="task-pack-meta"><span>#{int(member.get("order") or 0):02d}</span>'
+            f'<span>{esc(member.get("relationship") or "member")} · {esc(member.get("group") or "ungrouped")}</span></div>'
+            f'<h2>{plugin_link}</h2><p lang="zh-CN">{esc(member.get("reason_zh") or member.get("reason"))}</p>'
+            f'<p lang="en">{esc(member.get("reason") or member.get("reason_zh"))}</p>'
+            f'<dl><div><dt>Registry ID</dt><dd>{esc(plugin_id)}</dd></div><div><dt>Version</dt><dd>{esc(version)}</dd></div>'
+            f'<div><dt>Status</dt><dd>{"available" if available else "missing"}</dd></div></dl>{command_html}</article>'
+        )
+        provenance = member.get("provenance")
+        if not isinstance(provenance, list):
+            continue
+        for source in provenance:
+            if not isinstance(source, dict):
+                continue
+            registry = str(source.get("registry") or "source unreported")
+            registry_url = source.get("registryUrl")
+            registry_html = (
+                f'<a href="{esc(registry_url, attribute=True)}" rel="noreferrer">{esc(registry)}</a>'
+                if valid_url(registry_url)
+                else esc(registry)
+            )
+            raw_snapshot = source.get("rawSnapshotId")
+            raw_label = f"Raw #{raw_snapshot}" if isinstance(raw_snapshot, int) else "Raw NULL"
+            provenance_rows.append(
+                f'<tr><td>{esc(member.get("name") or plugin_id)}</td><td>{registry_html}</td>'
+                f'<td><code>{esc(source.get("sourceRef") or "NULL")}</code></td>'
+                f'<td>{esc(source.get("listingId") or "NULL")}</td><td>{esc(raw_label)}</td>'
+                f'<td>{esc(source.get("observedAt") or "NULL")}</td><td><code>{esc(source.get("spec") or spec)}</code></td></tr>'
+            )
+    request_zh = market_pack_agent_request(pack)
+    request_en = market_pack_agent_request(pack, language="en")
+    action = (
+        f'<button class="copy-install" type="button" data-copy-lang="zh" data-install="{esc(request_zh, attribute=True)}">复制给 DeepSeek</button>'
+        f'<button class="copy-install" type="button" data-copy-lang="en" data-install="{esc(request_en, attribute=True)}">Copy for DeepSeek</button>'
+        if installable
+        else '<button type="button" disabled>Pack has missing members</button>'
+    )
+    source = pack.get("source")
+    source_path = source.get("path") if isinstance(source, dict) else "NULL"
+    source_sha = source.get("sha256") if isinstance(source, dict) else "NULL"
+    return f"""{head}<body data-page="pack-detail">
+{market_detail_nav_html()}
+<main class="site-main detail-main market-guide" data-market-i18n data-market-lang="zh">
+  <div class="breadcrumbs"><a href="../">Store</a><span>/</span><span>Packs</span><span>/</span><span>{esc(pack_id)}</span></div>
+  <section class="detail-heading"><div><p class="kicker">PLUGIN PACK · v{esc(pack.get('version') or 'NULL')}</p><h1><span data-copy-lang="zh" lang="zh-CN">{esc(name_zh)}</span><span data-copy-lang="en" lang="en">{esc(name)}</span></h1><p class="detail-author">{esc(pack_id)} · maintained by {esc(pack.get('maintainer') or 'unknown')}</p></div><div class="market-language" role="group" aria-label="Language"><button type="button" data-market-language="zh" aria-pressed="true">中文</button><button type="button" data-market-language="en" aria-pressed="false">EN</button></div></section>
+  <section class="pack-summary"><div><p data-copy-lang="zh" lang="zh-CN">{esc(description_zh)}</p><p data-copy-lang="en" lang="en">{esc(description)}</p><strong><span data-copy-lang="zh">先审阅成员，再逐项批准。</span><span data-copy-lang="en">Review members, then approve them one by one.</span></strong></div><div class="pack-review-action">{action}<a href="../data/market-registry.json">Registry JSON ↗</a></div></section>
+  <section class="pack-member-grid">{''.join(member_cards)}</section>
+  <section class="detail-context"><div><p class="kicker">PACK PROVENANCE</p><h2>Listing and raw evidence</h2><p>Definition <code>{esc(source_path)}</code><br>SHA-256 <code>{esc(source_sha)}</code><br>Dataset {esc(pack.get('datasetVersion') or 'NULL')} · observed {esc(pack.get('observedAt') or 'NULL')}</p></div><div class="table-scroll"><table class="data-table"><thead><tr><th>Member</th><th>Registry</th><th>Source ref</th><th>Listing</th><th>Raw</th><th>Observed UTC</th><th>Exact spec</th></tr></thead><tbody>{''.join(provenance_rows)}</tbody></table></div></section>
+  <p class="detail-footnote">A Pack is a versioned review aid. Relationships and source attribution remain visible; deeplugin.store does not execute a bulk installation.</p>
+</main>
+{footer_html('../', data_path=config['public_database_url'])}
+<script src="../assets/store.js" defer></script>
+</body></html>"""
+
+
 def page_head(title: str, description: str, canonical: str, image: str, config: dict[str, str], *, extra_json_ld: dict[str, object] | None = None) -> str:
     """Render shared SEO metadata and structured data."""
 
@@ -1085,12 +1284,12 @@ def footer_html(prefix: str = "", *, data_path: str, readme_path: str | None = N
 def render_home(records: list[dict[str, object]], dataset_version: str, generated_at: str, config: dict[str, str], platform_counts: list[sqlite3.Row], category_counts: list[sqlite3.Row], market_registry: dict[str, object]) -> str:
     """Render the store-style directory homepage."""
 
-    category_html, platform_html = filter_buttons(records)
-    cards = "".join(card_html(record) for record in records)
     site_url = config["site_url"].rstrip("/")
     image = f"{site_url}/media/screenshots/official.png"
     market_plugins_value = market_registry.get("plugins")
     market_plugins = market_plugins_value if isinstance(market_plugins_value, list) else []
+    market_packs_value = market_registry.get("packs")
+    market_packs = [pack for pack in market_packs_value if isinstance(pack, dict)] if isinstance(market_packs_value, list) else []
     market_dataset_version = market_registry.get("datasetVersion") or "unversioned"
     verified_plugins = sum(
         plugin.get("verified") is True
@@ -1125,10 +1324,6 @@ def render_home(records: list[dict[str, object]], dataset_version: str, generate
         "registries": len(registry_sources),
         "direct": sum(1 for record in records if record["relevance"] == "direct"),
     }
-    platform_summary = "".join(
-        f'<span><b>{row["count"]:,}</b> {esc(PLATFORM_LABELS.get(str(row["platform"]), row["platform"]))}</span>'
-        for row in platform_counts[:6]
-    )
     projects = hot_records(records, "github")
     posts = hot_records(records)
     hot_tables = signal_table(projects, "GitHub projects people are using", "PROJECTS · STARS", "插件系统内的仓库按 GitHub stars 排序；Use 只对明确的 dsh-* 仓库提供安装命令。", "Open") + signal_table(posts, "Posts and videos people are sharing", "POSTS · NATIVE SIGNAL", "帖子、文章和视频按各自平台的公开指标排序；数字不跨平台相加。", "Open")
@@ -1141,6 +1336,39 @@ def render_home(records: list[dict[str, object]], dataset_version: str, generate
         "Install the Market Plugin from https://deeplugin.store/ into my web profile. Its exact spec is "
         "github:Shiyao-Huang/awesome-deepseek-harness-plugin#path:/plugin. Show the install plan first and wait for my explicit approval."
     )
+    pack_cards = "".join(market_pack_card_html(pack) for pack in market_packs[:3])
+    demo_plugin = home_demo_plugin(market_plugins)
+    if demo_plugin is None:
+        demo_name = "Registry plugin unavailable"
+        demo_id = "NULL"
+        demo_spec = "NULL"
+        demo_source = "source unavailable"
+        demo_version = "version not reported"
+        demo_command = "No install command available"
+        demo_status_zh = "当前 Registry 没有可用案例"
+        demo_status_en = "No current Registry example is available"
+    else:
+        demo_name = str(demo_plugin.get("name") or market_plugin_id(demo_plugin))
+        demo_id = market_plugin_id(demo_plugin)
+        demo_install = demo_plugin.get("install")
+        assert isinstance(demo_install, dict)
+        demo_spec = str(demo_install.get("spec") or "NULL")
+        demo_sources = market_source_names(demo_plugin)
+        demo_source = demo_sources[0] if demo_sources else "source unreported"
+        demo_version = str(demo_plugin.get("version") or "version not reported")
+        demo_command = f"dsh plugin --profile web add {demo_spec}"
+        if demo_plugin.get("verified") is True:
+            demo_status_zh = "具名 Registry 来源声明 verified"
+            demo_status_en = "Verified claim from the named Registry"
+        else:
+            demo_status_zh = "已保留具名 Registry 来源；无 verified 声明"
+            demo_status_en = "Named Registry source preserved; no verified claim"
+    categories = market_registry.get("categories")
+    category_links = "".join(
+        f'<a href="market.html?category={esc(key, attribute=True)}"><span>{esc(value.get("zh") or key)}</span><small>{esc(value.get("en") or key)}</small></a>'
+        for key, value in list(categories.items())[:12]
+        if isinstance(categories, dict) and isinstance(value, dict)
+    ) if isinstance(categories, dict) else ""
     return f"""{head}<body data-page="home">
 {nav_html()}
 <main class="site-main">
@@ -1148,8 +1376,9 @@ def render_home(records: list[dict[str, object]], dataset_version: str, generate
     <div class="hero-copy"><p class="kicker">DEEPSEEK HARNESS PLUGIN STORE · {stats['market']:,} INSTALLABLE</p><h1>Find the right plugin.<br><em>Ask your Agent to install it.</em></h1><form class="hero-search" action="market.html" method="get"><input type="search" name="q" aria-label="What should DeepSeek do?" placeholder="What should DeepSeek do?" autocomplete="off"><button type="submit">Search Store <span aria-hidden="true">→</span></button></form><div class="hero-actions"><a class="button button-quiet" href="market.html">Browse all plugins</a><a class="button button-quiet" href="#market-plugin">Install Market Plugin <span aria-hidden="true">↓</span></a></div></div>
     <div class="hero-panel"><div class="panel-label">ONE COMMAND · OR ONE REQUEST</div><strong>自己装，或交给 DeepSeek。</strong><p>任选一种，复制即可。</p><div class="hero-tools" aria-label="Dataset versions"><span>ECOSYSTEM DATASET · {esc(dataset_version)}</span><span>MARKET REGISTRY · {esc(market_dataset_version)}</span><span>UPDATED · {esc(date_label(generated_at))}</span></div></div>
   </section>
-  <section class="stats-row" aria-label="Store statistics"><div><strong>{stats['market']:,}</strong><span>installable plugins</span></div><div><strong>{stats['verified']:,}</strong><span>source verification claims</span></div><div><strong>{stats['registries']:,}</strong><span>attributed registries</span></div><div><strong>{stats['records']:,}</strong><span>ecosystem signals</span></div></section>
   <div class="market-guide" data-market-i18n data-market-lang="zh">
+    <section class="task-packs" id="packs" aria-labelledby="packs-heading"><div class="section-heading"><div><p class="kicker">START WITH A TASK · VERSIONED PACKS</p><h2 id="packs-heading"><span data-copy-lang="zh" lang="zh-CN">先选任务，再审阅插件。</span><span data-copy-lang="en" lang="en">Choose a task, then review the plugins.</span></h2></div><p><span data-copy-lang="zh">Pack 展开每个成员、关系、版本和来源；不会批量安装。</span><span data-copy-lang="en">Each Pack exposes members, relationships, versions, and sources; no bulk install.</span></p></div><div class="task-pack-grid">{pack_cards}</div></section>
+    <section class="stats-row" aria-label="Store statistics"><div><strong>{stats['market']:,}</strong><span>installable plugins</span></div><div><strong>{stats['verified']:,}</strong><span>source verification claims</span></div><div><strong>{stats['registries']:,}</strong><span>attributed registries</span></div><div><strong>{stats['records']:,}</strong><span>ecosystem signals</span></div></section>
     <section class="market-band market-install-guide" id="market-plugin" aria-labelledby="market-heading">
       <div class="market-guide-head"><div><p class="kicker">INSTALL THE MARKET PLUGIN</p><h2 id="market-heading"><span data-copy-lang="zh" lang="zh-CN">选一种安装方式。</span><span data-copy-lang="en" lang="en">Choose one install path.</span></h2></div><div class="market-language" role="group" aria-label="Language"><button type="button" data-market-language="zh" aria-pressed="true">中文</button><button type="button" data-market-language="en" aria-pressed="false">EN</button></div></div>
       <div class="install-route-grid">
@@ -1162,18 +1391,15 @@ def render_home(records: list[dict[str, object]], dataset_version: str, generate
       <div class="market-demo-head"><div><p class="kicker">QA CASE · ACTUAL REGISTRY IDENTITY</p><h2 id="market-demo-heading"><span data-copy-lang="zh" lang="zh-CN">一句话，到插件开始工作。</span><span data-copy-lang="en" lang="en">From one request to a working plugin.</span></h2></div><p><span data-copy-lang="zh" lang="zh-CN">示例使用当前 Store 中真实的 modsearch 条目。</span><span data-copy-lang="en" lang="en">This example uses the current Store listing for modsearch.</span></p></div>
       <div class="chat-frames" aria-label="Example DeepSeek Harness chat sequence">
         <article class="chat-frame"><div class="chat-frame-bar"><span>01</span><strong>ASK</strong></div><div class="chat-frame-body"><p class="chat-role">YOU</p><p class="chat-message chat-message-user"><span data-copy-lang="zh" lang="zh-CN">我想让 DeepSeek 能搜索网页和 X，并在回答里保留引用。帮我找一个插件。</span><span data-copy-lang="en" lang="en">I need DeepSeek to search the web and X, with citations in every answer. Find me a plugin.</span></p><p class="chat-status"><span aria-hidden="true"></span><span data-copy-lang="zh">Market Plugin 正在检索</span><span data-copy-lang="en">Market Plugin is searching</span></p></div></article>
-        <article class="chat-frame"><div class="chat-frame-bar"><span>02</span><strong>MATCH</strong></div><div class="chat-frame-body"><p class="chat-role">MARKET SEARCH · 3 MATCHES</p><h3>ModSearch</h3><p class="chat-description"><span data-copy-lang="zh" lang="zh-CN">匹配 web / search；返回结构化证据和可点击引用。</span><span data-copy-lang="en" lang="en">Matches web / search and returns structured evidence with clickable citations.</span></p><dl class="chat-proof"><div><dt>Source</dt><dd>zoahdev/dsh-subscribe</dd></div><div><dt>Version</dt><dd>5.4.2</dd></div><div><dt>Registry ID</dt><dd>deeplugin-c39668d81007d2defdf8</dd></div><div><dt>Exact spec</dt><dd>github:liustack/modsearch</dd></div></dl><p class="chat-status chat-status-ready"><span aria-hidden="true"></span><span data-copy-lang="zh">来源 Registry 声明 verified</span><span data-copy-lang="en">Verified claim from the named Registry</span></p></div></article>
-        <article class="chat-frame"><div class="chat-frame-bar"><span>03</span><strong>REVIEW</strong></div><div class="chat-frame-body"><p class="chat-role">DEEPSEEK · INSTALL PLAN</p><p class="chat-message chat-message-agent"><span data-copy-lang="zh" lang="zh-CN">目标：web profile。将执行下面的完整命令。是否确认？</span><span data-copy-lang="en" lang="en">Target: web profile. The full command below will run. Confirm?</span></p><p class="chat-command">dsh plugin --profile web add github:liustack/modsearch</p><p class="chat-role">YOU</p><p class="chat-message chat-message-user"><span data-copy-lang="zh" lang="zh-CN">确认。</span><span data-copy-lang="en" lang="en">Confirm.</span></p></div></article>
+        <article class="chat-frame"><div class="chat-frame-bar"><span>02</span><strong>MATCH</strong></div><div class="chat-frame-body"><p class="chat-role">MARKET SEARCH · EXACT MATCH</p><h3>{esc(demo_name)}</h3><p class="chat-description"><span data-copy-lang="zh" lang="zh-CN">匹配 web / search；返回结构化证据和可点击引用。</span><span data-copy-lang="en" lang="en">Matches web / search and returns structured evidence with clickable citations.</span></p><dl class="chat-proof"><div><dt>Source</dt><dd>{esc(demo_source)}</dd></div><div><dt>Version</dt><dd>{esc(demo_version)}</dd></div><div><dt>Registry ID</dt><dd>{esc(demo_id)}</dd></div><div><dt>Exact spec</dt><dd>{esc(demo_spec)}</dd></div></dl><p class="chat-status chat-status-ready"><span aria-hidden="true"></span><span data-copy-lang="zh">{esc(demo_status_zh)}</span><span data-copy-lang="en">{esc(demo_status_en)}</span></p></div></article>
+        <article class="chat-frame"><div class="chat-frame-bar"><span>03</span><strong>REVIEW</strong></div><div class="chat-frame-body"><p class="chat-role">DEEPSEEK · INSTALL PLAN</p><p class="chat-message chat-message-agent"><span data-copy-lang="zh" lang="zh-CN">目标：web profile。将执行下面的完整命令。是否确认？</span><span data-copy-lang="en" lang="en">Target: web profile. The full command below will run. Confirm?</span></p><p class="chat-command">{esc(demo_command)}</p><p class="chat-role">YOU</p><p class="chat-message chat-message-user"><span data-copy-lang="zh" lang="zh-CN">确认。</span><span data-copy-lang="en" lang="en">Confirm.</span></p></div></article>
         <article class="chat-frame"><div class="chat-frame-bar"><span>04</span><strong>USE</strong></div><div class="chat-frame-body"><p class="chat-role">DEEPSEEK</p><p class="chat-message chat-message-agent"><span data-copy-lang="zh" lang="zh-CN">安装完成。现在我可以搜索“DeepSeek Harness plugin registry”，并把结果和引用返回给你。</span><span data-copy-lang="en" lang="en">Installed. I can now search for “DeepSeek Harness plugin registry” and return the results with citations.</span></p><p class="chat-status chat-status-ready"><span aria-hidden="true"></span><span data-copy-lang="zh">ModSearch · web profile · ready</span><span data-copy-lang="en">ModSearch · web profile · ready</span></p></div></article>
       </div>
     </section>
   </div>
   <section class="hot-signals" id="hot"><div class="section-heading"><div><p class="kicker">HOT NOW</p><h2>What the plugin system is pulling forward</h2></div><p>项目看 stars，内容看各自平台的原生互动信号。</p></div><div class="hot-grid">{hot_tables}</div></section>
   <section class="spotlight"><div class="section-heading"><div><p class="kicker">EDITOR'S CUT</p><h2>What is moving now</h2></div><p>按平台原生指标排序；不同平台不混算。</p></div><div class="spotlight-grid">{spotlight_html(records)}</div></section>
-  <section class="directory-layout" id="directory">
-    <aside class="filters"><div class="filter-mobile-head"><span>Browse</span><button id="clear-filters" class="text-button">Clear</button></div><div class="filter-group"><p class="filter-label">BROWSE</p><button class="filter-option is-selected" data-filter-type="all" data-filter-value="all"><span>All records</span><em>{stats['records']}</em></button><button class="filter-option" data-filter-type="relevance" data-filter-value="direct"><span>Direct signals</span><em>{stats['direct']}</em></button></div><div class="filter-group"><p class="filter-label">TOPICS</p>{category_html}</div><div class="filter-group"><p class="filter-label">PLATFORMS</p>{platform_html}</div><div class="filter-note"><strong>Provenance first</strong><p>Every card points to an independent detail page with dates, native counts, media references, and a source URL.</p></div></aside>
-    <div class="directory-content"><div class="directory-toolbar"><div><p class="kicker">THE DIRECTORY</p><h2>Discover ecosystem records</h2><p id="result-summary">Showing {stats['records']:,} records</p></div><div class="toolbar-controls"><label class="search-field"><span aria-hidden="true">⌕</span><input id="search-input" type="search" placeholder="Search repositories, topics, authors..." autocomplete="off"><kbd>/</kbd></label><label class="sort-field"><span>Sort</span><select id="sort-select"><option value="rank">Curated rank</option><option value="score">Highest native count</option><option value="latest">Recently observed</option><option value="title">Title A–Z</option></select></label></div></div><div class="platform-summary">{platform_summary}</div><div class="catalog-grid" id="catalog-grid">{cards}</div><p class="no-results" id="no-results" hidden>No records match this search. Clear a filter or try another phrase.</p></div>
-  </section>
+  <section class="home-browse"><div><p class="kicker">BROWSE WITHOUT LOADING THE DATABASE</p><h2>Open the view that matches your question.</h2><p>The homepage stays small; the complete installable Store and ecosystem directory remain independently crawlable.</p><div class="home-browse-actions"><a class="button button-primary" href="market.html">Browse all plugins</a><a class="button button-quiet" href="directories.html">Browse ecosystem records</a><a class="button button-quiet" href="feeds/new.atom.xml">New feed</a><a class="button button-quiet" href="feeds/updated.atom.xml">Updated feed</a></div></div><div class="home-category-grid">{category_links}</div></section>
   <section class="method-band"><div><p class="kicker">HOW THIS DIRECTORY WORKS</p><h2>Collected, dated, and reviewable.</h2></div><div class="method-items"><p><strong>01</strong><span>Raw captures live in <code>data/raw/</code>.</span></p><p><strong>02</strong><span>SQLite stores versions and metric history.</span></p><p><strong>03</strong><span>Every two-hour run rebuilds this static store.</span></p></div></section>
 </main>
 {footer_html(data_path=config["public_database_url"])}
@@ -1593,7 +1819,7 @@ Read the source guide and public data contracts:
 Inspect the public repository, package metadata, release/version evidence, and exact DeepSeek Harness installation documentation. Deduplicate by normalized install spec, use the narrowest registration route, preserve attributable facts, keep missing values NULL, and set contributor verification to false.
 
 Do not install anything, open a pull request, or write to an external service until I explicitly approve. If I have not supplied the plugin or registry URL, ask for it first. Then show me the proposed Listing, source evidence, changed files, and validation plan."""
-    body = f'''<section class="guide-section"><div class="guide-primary"><p class="kicker">TWO REGISTRATION ROUTES</p><h2>Add one plugin or connect a public registry</h2><div class="agent-handoff"><div class="agent-handoff-copy"><p class="filter-label">AGENT HANDOFF</p><strong>Give this registration task to your Agent.</strong><span>Copies the protocol URL, public contracts, workflow, and approval limits as one ready-to-run request.</span><code>{esc(agent_guide_url)}</code></div><div class="agent-handoff-actions"><button class="agent-handoff-button copy-install" type="button" data-install="{esc(agent_request, attribute=True)}" aria-label="Copy the Agent registration guide and task" aria-live="polite">Copy for Agent</button><a href="register-agent.html">Open Agent guide ↗</a></div></div><ol class="guide-steps"><li><strong>One plugin</strong><span>Add a contract-v2 Listing to <a href="{repository}/blob/main/registry/plugins.json">registry/plugins.json ↗</a>.</span></li><li><strong>Another registry</strong><span>Add its public repository and selected registry path or HTTPS URL to <a href="{repository}/blob/main/config/sources.json">config/sources.json ↗</a>.</span></li><li><strong>Next observation</strong><span>After merge, the next successful two-hour run preserves raw evidence, writes SQLite history, and rebuilds the market.</span></li></ol></div><aside class="guide-aside"><p class="filter-label">AUTHORITATIVE REFERENCES</p><a href="register-agent.html">Agent registration guide ↗</a><a href="{repository}/blob/main/docs/register.md">Human field guide ↗</a><a href="data/market-registry.schema.json">Contract-v2 JSON Schema ↗</a><a href="data/market-registry.json">Current public registry ↗</a><a href="{repository}/compare">Open a pull request ↗</a></aside></section><section class="guide-rules"><p><strong>Identity</strong><span>Normalized install spec, not name or homepage.</span></p><p><strong>Missing data</strong><span>Use NULL; never estimate stars, versions, or metrics.</span></p><p><strong>Verification</strong><span>Source-attributed claim, never a security endorsement.</span></p><p><strong>Installation</strong><span>Plans require explicit user confirmation.</span></p></section>'''
+    body = f'''<section class="guide-section"><div class="guide-primary"><p class="kicker">TWO REGISTRATION ROUTES</p><h2>Add one plugin or connect a public registry</h2><div class="agent-handoff"><div class="agent-handoff-copy"><p class="filter-label">AGENT HANDOFF</p><strong>Give this registration task to your Agent.</strong><span>Copies the protocol URL, public contracts, workflow, and approval limits as one ready-to-run request.</span><code>{esc(agent_guide_url)}</code></div><div class="agent-handoff-actions"><button class="agent-handoff-button copy-install" type="button" data-install="{esc(agent_request, attribute=True)}" aria-label="Copy the Agent registration guide and task" aria-live="polite">Copy for Agent</button><a href="register-agent.html">Open Agent guide ↗</a></div></div><ol class="guide-steps"><li><strong>One plugin</strong><span>Add a contract-v2 Listing to <a href="{repository}/blob/main/registry/plugins.json">registry/plugins.json ↗</a>.</span></li><li><strong>Another registry</strong><span>Add its public repository and selected registry path or HTTPS URL to <a href="{repository}/blob/main/config/sources.json">config/sources.json ↗</a>.</span></li><li><strong>Next observation</strong><span>After merge, the next successful two-hour run preserves raw evidence, writes SQLite history, and rebuilds the market.</span></li></ol></div><aside class="guide-aside"><p class="filter-label">AUTHORITATIVE REFERENCES</p><a href="register-agent.html">Agent registration guide ↗</a><a href="{repository}/blob/main/docs/register.md">Human field guide ↗</a><a href="data/market-registry.schema.json">Market Registry v3 JSON Schema ↗</a><a href="data/market-registry.json">Current public registry ↗</a><a href="{repository}/compare">Open a pull request ↗</a></aside></section><section class="guide-rules"><p><strong>Identity</strong><span>Normalized install spec, not name or homepage.</span></p><p><strong>Missing data</strong><span>Use NULL; never estimate stars, versions, or metrics.</span></p><p><strong>Verification</strong><span>Source-attributed claim, never a security endorsement.</span></p><p><strong>Installation</strong><span>Plans require explicit user confirmation.</span></p></section>'''
     return table_page(
         "register",
         "Register a plugin",
@@ -1637,6 +1863,7 @@ def reset_generated_directory(directory: Path) -> None:
 def render_sitemap(
     records: list[dict[str, object]],
     market_plugins: list[dict[str, object]],
+    market_packs: list[dict[str, object]],
     site_url: str,
 ) -> str:
     """Render page, image, and complete video evidence for search crawlers."""
@@ -1657,6 +1884,11 @@ def render_sitemap(
     for plugin in market_plugins:
         canonical = f"{site_url}/{market_plugin_url(plugin)}"
         observed_at = market_observed_at(plugin)
+        lastmod = f"<lastmod>{esc(observed_at[:10])}</lastmod>" if observed_at else ""
+        entries.append(f"  <url><loc>{esc(canonical)}</loc>{lastmod}</url>")
+    for pack in market_packs:
+        canonical = f"{site_url}/{market_pack_url(pack)}"
+        observed_at = str(pack.get("observedAt") or "")
         lastmod = f"<lastmod>{esc(observed_at[:10])}</lastmod>" if observed_at else ""
         entries.append(f"  <url><loc>{esc(canonical)}</loc>{lastmod}</url>")
     for record in records:
@@ -1714,9 +1946,15 @@ def write_store_site(db: sqlite3.Connection, dataset_version: str, generated_at:
     market_plugins_value = market_registry.get("plugins")
     assert isinstance(market_plugins_value, list)
     market_plugins = [plugin for plugin in market_plugins_value if isinstance(plugin, dict)]
+    market_packs_value = market_registry.get("packs")
+    assert isinstance(market_packs_value, list)
+    market_packs = [pack for pack in market_packs_value if isinstance(pack, dict)]
     market_plugin_ids = [market_plugin_id(plugin) for plugin in market_plugins]
+    market_pack_ids = [market_pack_id(pack) for pack in market_packs]
     if len(set(market_plugin_ids)) != len(market_plugin_ids):
         raise ValueError("Market registry contains duplicate stable ids")
+    if len(set(market_pack_ids)) != len(market_pack_ids):
+        raise ValueError("Market registry contains duplicate stable Pack ids")
     for record in records:
         record["dataset_version"] = dataset_version
     platform_counts = db.execute("SELECT platform, COUNT(*) AS count FROM items GROUP BY platform ORDER BY count DESC, platform").fetchall()
@@ -1724,6 +1962,7 @@ def write_store_site(db: sqlite3.Connection, dataset_version: str, generated_at:
     DATA.mkdir(parents=True, exist_ok=True)
     SKILLS.mkdir(parents=True, exist_ok=True)
     reset_generated_directory(MARKET_PLUGINS)
+    reset_generated_directory(MARKET_PACKS)
     publish_local_media()
     catalog = {
         "meta": {
@@ -1758,9 +1997,14 @@ def write_store_site(db: sqlite3.Connection, dataset_version: str, generated_at:
             render_market_detail(plugin, market_registry, related, config),
             encoding="utf-8",
         )
+    for pack, pack_id in zip(market_packs, market_pack_ids):
+        (MARKET_PACKS / f"{pack_id}.html").write_text(
+            render_pack_detail(pack, config),
+            encoding="utf-8",
+        )
     write_growth_assets(DB_PATH, MARKET_REGISTRY_PATH, DOCS, config["site_url"])
     site_url = config["site_url"].rstrip("/")
-    sitemap = render_sitemap(records, market_plugins, site_url)
+    sitemap = render_sitemap(records, market_plugins, market_packs, site_url)
     (DOCS / "sitemap.xml").write_text(sitemap, encoding="utf-8")
     (DOCS / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {site_url}/sitemap.xml\n", encoding="utf-8")
     (DOCS / "CNAME").write_text(urlparse(site_url).netloc + "\n", encoding="utf-8")

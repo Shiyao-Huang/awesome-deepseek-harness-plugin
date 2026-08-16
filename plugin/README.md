@@ -8,14 +8,15 @@ Agent-facing access to [deeplugin.store](https://deeplugin.store), a public Stor
 dsh plugin --profile web add github:Shiyao-Huang/awesome-deepseek-harness-plugin#path:/plugin
 ```
 
-Restart the selected DSH profile. The plugin registers six tools:
+Restart the selected DSH profile. The plugin registers seven tools:
 
 | Tool | Behavior |
 | --- | --- |
 | `deeplugin_search` | Search by intent, name, author, tags, category, or bilingual description; return ranked Top N results |
 | `deeplugin_details` | Resolve one stable registry id or exact install spec and show all source attributions |
+| `deeplugin_pack_details` | Expand one versioned task Pack with every required, alternative, and complementary member plus Listing/raw provenance |
 | `deeplugin_stats` | Show current counts, categories, update date, and source verification claims |
-| `deeplugin_install_plan` | Build a reviewable plan with exact identities and source attribution |
+| `deeplugin_install_plan` | Build a reviewable plugin or Pack plan with exact identities, relationships, missing versions, and source attribution |
 | `deeplugin_install` | Match a registry id to its exact spec, then install after DSH asks for user approval |
 | `deeplugin_manage` | List installed plugins, or update/remove an exact package after approval |
 
@@ -23,12 +24,15 @@ Try requests such as:
 
 ```text
 Find a plugin for public web search and show me where it came from.
+Show Plugin Pack deeplugin-pack-… and explain every alternative before I choose members.
 Install deeplugin-… into my web profile.
 List the plugins installed in my web profile.
 Update @owner/plugin, then remove it when I am done.
 ```
 
 `verified=true` is a source curator's limited claim, not a deeplugin.store security or compatibility endorsement. The Agent shows the attributed source and exact install identity before installation. DSH asks for approval on every install, update, and removal; rejection leaves the profile unchanged. Listing installed plugins is read-only.
+
+Plugin Packs are versioned review aids in Registry contract v3. A Pack never hides its members and is never installed in bulk: the Agent displays relationships, exact specs, versions, Registry Listings, raw snapshot ids, and missing members, then uses one `deeplugin_install` call for each member the user selects and approves.
 
 The plugin tries the live registry for five seconds and then falls back to the snapshot bundled in the installed package.
 
@@ -42,6 +46,6 @@ The runtime invokes `dsh plugin` with argument arrays and never constructs a she
 dsh plugin --profile web add github:Shiyao-Huang/awesome-deepseek-harness-plugin#path:/plugin
 ```
 
-例如直接告诉 Agent：“找一个能搜索公开网页的插件，先告诉我来源，再安装到 web profile。”Agent 会先展示来源和精确安装标识；安装、更新和卸载均由 DSH 弹出批准请求，只有批准后才执行。`deeplugin_manage` 还可以列出已安装插件。
+例如直接告诉 Agent：“找一个能搜索公开网页的插件，先告诉我来源，再安装到 web profile。”Agent 会先展示来源和精确安装标识；也可以给它一个 `deeplugin-pack-…`，要求展开 Pack 的全部必选、备选和互补成员。Pack 不会批量安装，每个选中的成员都需要单独批准。安装、更新和卸载均由 DSH 弹出批准请求，只有批准后才执行。`deeplugin_manage` 还可以列出已安装插件。
 
 `verified=true` 只表示某个来源维护者声明做过有限验证，不代表 deeplugin.store 的安全或兼容性背书。拒绝批准不会修改 profile。

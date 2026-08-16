@@ -433,6 +433,48 @@ class PublicDatabaseTests(unittest.TestCase):
                 entry_id INTEGER,
                 collection_run_id INTEGER
             );
+            CREATE TABLE plugin_packs(
+                id TEXT PRIMARY KEY,
+                slug TEXT NOT NULL UNIQUE,
+                current_version TEXT NOT NULL,
+                active INTEGER NOT NULL,
+                maintainer TEXT NOT NULL,
+                first_observed_at TEXT NOT NULL,
+                last_observed_at TEXT NOT NULL
+            );
+            CREATE TABLE plugin_pack_versions(
+                pack_id TEXT NOT NULL,
+                version TEXT NOT NULL,
+                dataset_version TEXT NOT NULL,
+                name_en TEXT NOT NULL,
+                name_zh TEXT NOT NULL,
+                description_en TEXT NOT NULL,
+                description_zh TEXT NOT NULL,
+                task_en TEXT NOT NULL,
+                task_zh TEXT NOT NULL,
+                observed_at TEXT NOT NULL,
+                source_path TEXT NOT NULL,
+                source_sha256 TEXT NOT NULL,
+                definition_json TEXT NOT NULL,
+                PRIMARY KEY(pack_id, version),
+                FOREIGN KEY(pack_id) REFERENCES plugin_packs(id) ON DELETE CASCADE
+            );
+            CREATE TABLE plugin_pack_members(
+                pack_id TEXT NOT NULL,
+                pack_version TEXT NOT NULL,
+                member_order INTEGER NOT NULL,
+                deeplugin_id TEXT NOT NULL,
+                expected_name TEXT NOT NULL,
+                install_spec TEXT NOT NULL,
+                relationship TEXT NOT NULL,
+                member_group TEXT NOT NULL,
+                reason_en TEXT NOT NULL,
+                reason_zh TEXT NOT NULL,
+                definition_json TEXT NOT NULL,
+                PRIMARY KEY(pack_id, pack_version, member_order),
+                FOREIGN KEY(pack_id, pack_version)
+                    REFERENCES plugin_pack_versions(pack_id, version) ON DELETE CASCADE
+            );
             CREATE TABLE fork_snapshots(
                 id INTEGER PRIMARY KEY,
                 fork_id INTEGER,
@@ -471,6 +513,16 @@ class PublicDatabaseTests(unittest.TestCase):
                 (2, 1, 2),
                 (3, 2, 1),
                 (4, 2, 2);
+            INSERT INTO plugin_packs VALUES
+                ('deeplugin-pack-example', 'example', '1.0.0', 1, 'fixture',
+                 '2026-08-16T00:00:00Z', '2026-08-16T00:00:00Z');
+            INSERT INTO plugin_pack_versions VALUES
+                ('deeplugin-pack-example', '1.0.0', 'scheduled', 'Example', '示例',
+                 'Example pack', '示例组合', 'Run an example', '运行示例',
+                 '2026-08-16T00:00:00Z', 'registry/packs.json', 'pack-sha', '{}');
+            INSERT INTO plugin_pack_members VALUES
+                ('deeplugin-pack-example', '1.0.0', 1, 'deeplugin-example', 'example',
+                 'github:owner/example', 'required', 'core', 'Required', '必需', '{}');
             INSERT INTO fork_snapshots VALUES
                 (1, 1, 1),
                 (2, 1, 2),
@@ -520,6 +572,15 @@ class PublicDatabaseTests(unittest.TestCase):
             self.assertEqual(connection.execute("SELECT id FROM fork_snapshots ORDER BY id").fetchall(), [(1,), (2,), (4,), (6,)])
             self.assertEqual(connection.execute("SELECT id FROM fork_commits ORDER BY id").fetchall(), [(2,), (3,), (4,)])
             self.assertEqual(connection.execute("SELECT snapshot_id FROM fork_file_changes").fetchall(), [(6,)])
+            self.assertEqual(connection.execute("SELECT id FROM plugin_packs").fetchall(), [("deeplugin-pack-example",)])
+            self.assertEqual(
+                connection.execute("SELECT pack_id, version FROM plugin_pack_versions").fetchall(),
+                [("deeplugin-pack-example", "1.0.0")],
+            )
+            self.assertEqual(
+                connection.execute("SELECT pack_id, deeplugin_id FROM plugin_pack_members").fetchall(),
+                [("deeplugin-pack-example", "deeplugin-example")],
+            )
             self.assertIsNone(
                 connection.execute(
                     "SELECT 1 FROM sqlite_schema WHERE type = 'index' AND name = 'idx_metrics_dedupe'"

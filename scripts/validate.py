@@ -23,6 +23,7 @@ PUBLISHED_MEDIA_DIR = ROOT / "docs" / "media"
 SITEMAP_PATH = ROOT / "docs" / "sitemap.xml"
 DETAIL_DIR = ROOT / "docs" / "skills"
 MARKET_DETAIL_DIR = ROOT / "docs" / "plugins"
+MARKET_PACK_DIR = ROOT / "docs" / "packs"
 MARKET_FEED_DIR = ROOT / "docs" / "feeds"
 LAUNCH_PACKET_SCHEMA_PATH = ROOT / "docs" / "data" / "launch-packet.schema.json"
 INDEX_PATH = ROOT / "index" / "records.jsonl"
@@ -73,16 +74,18 @@ def identical_json(paths: tuple[Path, ...]) -> dict[str, Any]:
     return decoded
 
 
-def validate_market_registry() -> int:
+def validate_market_registry() -> tuple[int, int]:
     """Validate generated Market registry identity, safety, and mirror invariants."""
 
     registry = identical_json(MARKET_REGISTRY_PATHS)
     schema = identical_json(MARKET_SCHEMA_PATHS)
-    assert registry["version"] == 2
+    assert registry["version"] == 3
     assert schema["$id"] == "https://deeplugin.store/data/market-registry.schema.json"
     assert schema["properties"]["version"]["const"] == registry["version"]
     plugins = registry["plugins"]
+    packs = registry["packs"]
     assert isinstance(plugins, list)
+    assert isinstance(packs, list)
     assert registry["count"] == len(plugins)
     assert registry["verifiedCount"] == sum(plugin["verified"] is True for plugin in plugins)
     required_fields = set(schema["$defs"]["plugin"]["required"])
@@ -108,7 +111,46 @@ def validate_market_registry() -> int:
             assert plugin["version"]
         ids.add(plugin_id)
         install_specs.add(spec)
-    return len(plugins)
+    assert registry["packCount"] == len(packs)
+    pack_ids: set[str] = set()
+    for pack in packs:
+        assert isinstance(pack, dict)
+        pack_id = pack["id"]
+        assert isinstance(pack_id, str) and pack_id.startswith("deeplugin-pack-")
+        assert pack_id not in pack_ids
+        members = pack["members"]
+        assert isinstance(members, list) and pack["memberCount"] == len(members)
+        unavailable: list[str] = []
+        missing_versions: list[str] = []
+        member_ids: set[str] = set()
+        for member in members:
+            assert isinstance(member, dict)
+            plugin_id = member["pluginId"]
+            assert plugin_id not in member_ids
+            member_ids.add(plugin_id)
+            install = member["install"]
+            assert isinstance(install, dict)
+            normalized = build_market_registry.normalize_install_spec(install["spec"])
+            assert normalized == (install["target"], install["spec"])
+            plugin = next((candidate for candidate in plugins if candidate["id"] == plugin_id), None)
+            available = bool(plugin and plugin["install"] == install)
+            assert member["available"] is available
+            assert member["relationship"] in {"required", "alternative", "complement"}
+            if not available:
+                unavailable.append(plugin_id)
+            elif not plugin["version"]:
+                missing_versions.append(plugin_id)
+            provenance = member["provenance"]
+            assert isinstance(provenance, list)
+            for source in provenance:
+                assert source["spec"] == install["spec"]
+                assert "rawSnapshotId" in source
+                assert source["registry"] and source["observedAt"]
+        assert pack["installable"] is (not unavailable)
+        assert pack["missingMembers"] == unavailable
+        assert pack["missingVersions"] == missing_versions
+        pack_ids.add(pack_id)
+    return len(plugins), len(packs)
 
 
 def validate_community_registry() -> int:
@@ -155,6 +197,7 @@ def validate_rich_media_site(
     connection: sqlite3.Connection,
     item_count: int,
     market_plugin_count: int,
+    market_pack_count: int,
 ) -> tuple[int, int]:
     """Validate deployable local media and crawlable image/video projections."""
 
@@ -206,8 +249,25 @@ def validate_rich_media_site(
         f"https://deeplugin.store/plugins/{path.name}"
         for path in generated_market_details
     } == market_locations
-    assert len(entries) == item_count + market_plugin_count + len(required_static_locations)
+    pack_locations = {
+        location
+        for location in locations
+        if location and location.startswith("https://deeplugin.store/packs/deeplugin-pack-")
+    }
+    generated_pack_details = set(MARKET_PACK_DIR.glob("*.html"))
+    assert len(pack_locations) == market_pack_count
+    assert len(generated_pack_details) == market_pack_count
+    assert {
+        f"https://deeplugin.store/packs/{path.name}"
+        for path in generated_pack_details
+    } == pack_locations
+    assert len(entries) == item_count + market_plugin_count + market_pack_count + len(required_static_locations)
     assert len(set(locations)) == len(locations)
+
+    home_path = ROOT / "docs" / "index.html"
+    home = home_path.read_text(encoding="utf-8")
+    assert home_path.stat().st_size < 500_000
+    assert home.count('class="skill-card') <= 24
 
     atom_ns = "http://www.w3.org/2005/Atom"
     global_feeds = (MARKET_FEED_DIR / "new.atom.xml", MARKET_FEED_DIR / "updated.atom.xml")
@@ -444,14 +504,14 @@ def main() -> None:
     assert all(record["value_band"] in {"A", "B", "C", "D"} for record in value_records)
     assert all(0 <= record[key] <= 100 for record in value_records for key in ("utility", "evidence", "traction", "ecosystem", "freshness", "reviewability", "value_score", "confidence_score"))
     community_listings = validate_community_registry()
-    market_plugins = validate_market_registry()
-    sitemap_images, sitemap_videos = validate_rich_media_site(connection, items, market_plugins)
+    market_plugins, market_packs = validate_market_registry()
+    sitemap_images, sitemap_videos = validate_rich_media_site(connection, items, market_plugins, market_packs)
     platforms = connection.execute("SELECT COUNT(DISTINCT platform) FROM items").fetchone()[0]
     metrics = connection.execute("SELECT COUNT(*) FROM metrics").fetchone()[0]
     media = connection.execute("SELECT COUNT(*) FROM media_assets").fetchone()[0]
     snapshots = connection.execute("SELECT COUNT(*) FROM raw_snapshots").fetchone()[0]
     latest_version = connection.execute("SELECT dataset_version FROM collection_runs WHERE trigger <> 'legacy-migration' ORDER BY id DESC LIMIT 1").fetchone()[0]
-    print(f"validated {len(raw_paths)} raw files/{snapshots} snapshots; latest {latest_version}; {items} items; {platforms} platforms; {metrics} metrics; {media} media assets; {sitemap_images} sitemap images; {sitemap_videos} sitemap videos; {len(index_records)} index records; {community_listings} community Listings; {market_plugins} market plugins")
+    print(f"validated {len(raw_paths)} raw files/{snapshots} snapshots; latest {latest_version}; {items} items; {platforms} platforms; {metrics} metrics; {media} media assets; {sitemap_images} sitemap images; {sitemap_videos} sitemap videos; {len(index_records)} index records; {community_listings} community Listings; {market_plugins} market plugins; {market_packs} Plugin Packs")
 
 
 if __name__ == "__main__":

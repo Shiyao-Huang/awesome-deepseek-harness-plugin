@@ -204,6 +204,9 @@ def project_database(path: Path, source_sha256: str, archive_label: str) -> int:
         required_tables = {table for table, _ in STRIPPED_JSON_COLUMNS} | {
             "collection_runs",
             "fork_snapshots",
+            "plugin_pack_members",
+            "plugin_pack_versions",
+            "plugin_packs",
             "upstream_entry_observations",
             "value_assessments",
         }

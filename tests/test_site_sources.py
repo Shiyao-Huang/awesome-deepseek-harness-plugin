@@ -112,11 +112,40 @@ class MarketAccessPageTests(unittest.TestCase):
     def test_home_links_registry_schema_guides_and_market_plugin(self) -> None:
         market_registry = {
             "plugins": [{
-                "id": "deeplugin-example",
-                "name": "example",
-                "homepage": "https://github.com/owner/example",
-                "verified": True,
-                "sources": [{"registry": "owner/registry"}],
+                "id": "deeplugin-96573e2aed0feb244d07",
+                "name": "modsearch",
+                "homepage": "https://github.com/liustack/modsearch",
+                "install": {"target": "npm", "spec": "@liustack/modsearch"},
+                "version": None,
+                "verified": False,
+                "sources": [{"registry": "awesome-dsh-plugin/awesome-dsh-plugin"}],
+            }],
+            "packs": [{
+                "id": "deeplugin-pack-1a44f493cd18411366b2",
+                "slug": "connected-research",
+                "version": "1.0.0",
+                "name": "Connected research",
+                "name_zh": "联网研究",
+                "description": "Search and synthesize public evidence.",
+                "description_zh": "检索并综合公开证据。",
+                "task": "Research a question with citations.",
+                "task_zh": "用引用研究一个问题。",
+                "installable": True,
+                "missingMembers": [],
+                "missingVersions": ["deeplugin-96573e2aed0feb244d07"],
+                "members": [{
+                    "pluginId": "deeplugin-96573e2aed0feb244d07",
+                    "name": "modsearch",
+                    "install": {"target": "npm", "spec": "@liustack/modsearch"},
+                    "relationship": "complement",
+                    "group": "research-stack",
+                    "reason": "Find sources.",
+                    "reason_zh": "查找来源。",
+                    "available": True,
+                    "version": None,
+                    "homepage": "https://github.com/liustack/modsearch",
+                    "provenance": [{"registry": "awesome-dsh-plugin/awesome-dsh-plugin"}],
+                }],
             }],
         }
         page = build_site.render_home([], "v-test", "2026-08-16T00:00:00Z", self.config, [], [], market_registry)
@@ -143,16 +172,79 @@ class MarketAccessPageTests(unittest.TestCase):
         self.assertIn("Copy for DeepSeek", page)
         self.assertIn("等我明确批准后再安装", page)
         self.assertIn("QA CASE · ACTUAL REGISTRY IDENTITY", page)
-        self.assertIn("MARKET SEARCH · 3 MATCHES", page)
-        self.assertIn("deeplugin-c39668d81007d2defdf8", page)
-        self.assertIn("github:liustack/modsearch", page)
-        self.assertIn("zoahdev/dsh-subscribe", page)
-        self.assertIn("5.4.2", page)
+        self.assertIn("MARKET SEARCH · EXACT MATCH", page)
+        self.assertIn("deeplugin-96573e2aed0feb244d07", page)
+        self.assertIn("@liustack/modsearch", page)
+        self.assertIn("awesome-dsh-plugin/awesome-dsh-plugin", page)
+        self.assertIn("version not reported", page)
+        self.assertNotIn("deeplugin-c39668d81007d2defdf8", page)
+        self.assertNotIn("github:liustack/modsearch", page)
         self.assertIn("04</span><strong>USE", page)
         self.assertIn("From one request to a working plugin", page)
+        self.assertIn('class="task-packs"', page)
+        self.assertIn('href="packs/deeplugin-pack-1a44f493cd18411366b2.html"', page)
+        self.assertIn("联网研究", page)
+        self.assertIn("Connected research", page)
+        self.assertLess(page.index('class="task-packs"'), page.index('class="stats-row"'))
         self.assertIn("1</strong><span>installable plugins", page)
-        self.assertIn("1</strong><span>source verification claims", page)
+        self.assertIn("0</strong><span>source verification claims", page)
         self.assertIn("1</strong><span>attributed registries", page)
+
+    def test_pack_detail_exposes_members_relationships_and_raw_provenance(self) -> None:
+        pack = {
+            "id": "deeplugin-pack-1a44f493cd18411366b2",
+            "slug": "connected-research",
+            "version": "1.0.0",
+            "name": "Connected research",
+            "name_zh": "联网研究",
+            "description": "Search and synthesize public evidence.",
+            "description_zh": "检索并综合公开证据。",
+            "task": "Research a question with citations.",
+            "task_zh": "用引用研究一个问题。",
+            "maintainer": "deeplugin.store",
+            "observedAt": "2026-08-16T08:00:00Z",
+            "datasetVersion": "pack-v20260816T080000Z",
+            "source": {"path": "registry/packs.json", "sha256": "a" * 64},
+            "memberCount": 1,
+            "installable": True,
+            "missingMembers": [],
+            "missingVersions": ["deeplugin-96573e2aed0feb244d07"],
+            "members": [{
+                "order": 1,
+                "pluginId": "deeplugin-96573e2aed0feb244d07",
+                "name": "modsearch",
+                "install": {"target": "npm", "spec": "@liustack/modsearch"},
+                "relationship": "complement",
+                "group": "research-stack",
+                "reason": "Find sources.",
+                "reason_zh": "查找来源。",
+                "available": True,
+                "version": None,
+                "homepage": "https://github.com/liustack/modsearch",
+                "provenance": [{
+                    "registry": "awesome-dsh-plugin/awesome-dsh-plugin",
+                    "registryUrl": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
+                    "sourceRef": "plugins.json",
+                    "listingId": "modsearch",
+                    "rawSnapshotId": 42,
+                    "observedAt": "2026-08-16T07:00:00Z",
+                    "spec": "@liustack/modsearch",
+                }],
+            }],
+        }
+
+        page = build_site.render_pack_detail(pack, self.config)
+
+        self.assertIn(
+            '<link rel="canonical" href="https://deeplugin.store/packs/deeplugin-pack-1a44f493cd18411366b2.html">',
+            page,
+        )
+        self.assertIn("complement · research-stack", page)
+        self.assertIn("@liustack/modsearch", page)
+        self.assertIn("Raw #42", page)
+        self.assertIn("version not reported", page)
+        self.assertIn("Copy for DeepSeek", page)
+        self.assertNotIn("Install all", page)
 
     def test_store_filters_keep_hidden_cards_out_of_layout(self) -> None:
         css = (ROOT / "docs" / "assets" / "store.css").read_text(encoding="utf-8")

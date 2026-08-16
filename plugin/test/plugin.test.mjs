@@ -5,10 +5,11 @@ import {apply, createTools} from '../lib/index.js'
 
 
 const REGISTRY = {
-  version: 2,
+  version: 3,
   updated: '2026-08-16',
   count: 1,
   verifiedCount: 0,
+  packCount: 1,
   plugins: [{
     id: 'deeplugin-a',
     name: 'Example',
@@ -23,6 +24,27 @@ const REGISTRY = {
     stars: 1,
     tags: ['tools'],
     sources: [{registry: 'owner/registry'}],
+  }],
+  packs: [{
+    id: 'deeplugin-pack-aaaaaaaaaaaaaaaaaaaa',
+    slug: 'example-task',
+    version: '1.0.0',
+    name: 'Example task',
+    installable: true,
+    missingMembers: [],
+    missingVersions: ['deeplugin-a'],
+    members: [{
+      pluginId: 'deeplugin-a',
+      name: 'Example',
+      install: {target: 'npm', spec: '@owner/example'},
+      relationship: 'required',
+      group: 'example-task',
+      reason: 'Complete the example task.',
+      reason_zh: '完成示例任务。',
+      available: true,
+      version: null,
+      provenance: [{registry: 'owner/registry', spec: '@owner/example'}],
+    }],
   }],
 }
 
@@ -39,18 +61,19 @@ test('tool handlers expose discovery, confirmed installation, and profile manage
   const tools = createTools(async () => REGISTRY, runner)
   assert.deepEqual(
     tools.map((tool) => tool.name),
-    ['deeplugin_search', 'deeplugin_details', 'deeplugin_stats', 'deeplugin_install_plan', 'deeplugin_install', 'deeplugin_manage'],
+    ['deeplugin_search', 'deeplugin_details', 'deeplugin_pack_details', 'deeplugin_stats', 'deeplugin_install_plan', 'deeplugin_install', 'deeplugin_manage'],
   )
   assert.equal((await tools[0].execute({query: 'example'}, {})).plugins[0].id, 'deeplugin-a')
   assert.equal((await tools[1].execute({id: 'deeplugin-a'}, {})).plugin.author, 'owner')
-  assert.equal((await tools[2].execute({}, {})).total, 1)
-  assert.equal((await tools[3].execute({ids: 'deeplugin-a'}, {})).requiresConfirmation, true)
-  assert.equal((await tools[4].execute({id: 'deeplugin-a', spec: '@owner/example', profile: 'web'}, {})).spec, '@owner/example')
+  assert.equal((await tools[2].execute({id: 'deeplugin-pack-aaaaaaaaaaaaaaaaaaaa'}, {})).pack.version, '1.0.0')
+  assert.equal((await tools[3].execute({}, {})).total, 1)
+  assert.equal((await tools[4].execute({packId: 'deeplugin-pack-aaaaaaaaaaaaaaaaaaaa'}, {})).requiresConfirmation, true)
+  assert.equal((await tools[5].execute({id: 'deeplugin-a', spec: '@owner/example', profile: 'web'}, {})).spec, '@owner/example')
   await assert.rejects(
-    tools[4].execute({id: 'deeplugin-a', spec: '@owner/other', profile: 'web'}, {}),
+    tools[5].execute({id: 'deeplugin-a', spec: '@owner/other', profile: 'web'}, {}),
     /does not match registry id/,
   )
-  assert.deepEqual((await tools[5].execute({action: 'list', profile: 'web'}, {})).installed, [{
+  assert.deepEqual((await tools[6].execute({action: 'list', profile: 'web'}, {})).installed, [{
     name: '@owner/example',
     version: '1.0.0',
     path: '/plugins/example',
@@ -84,8 +107,8 @@ test('apply registers tools and approval-gates every mutating operation', async 
 
   apply(ctx)
 
-  assert.deepEqual(registered, ['deeplugin_search', 'deeplugin_details', 'deeplugin_stats', 'deeplugin_install_plan', 'deeplugin_install', 'deeplugin_manage'])
-  assert.equal(labels.length, 6)
+  assert.deepEqual(registered, ['deeplugin_search', 'deeplugin_details', 'deeplugin_pack_details', 'deeplugin_stats', 'deeplugin_install_plan', 'deeplugin_install', 'deeplugin_manage'])
+  assert.equal(labels.length, 7)
   assert.ok(labels.every((label) => label.startsWith('deeplugin-market: ')))
   const gate = listeners.get('tools/pre-execute')
   assert.deepEqual(await gate({name: 'deeplugin_install', arguments: {id: 'deeplugin-a', spec: '@owner/example', profile: 'web'}}, () => ({kind: 'allow'})), {
