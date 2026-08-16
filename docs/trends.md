@@ -46,9 +46,9 @@
 | 档 | 条目 | 平均 value |
 |---|---:|---:|
 | A | 1 | 80.1 |
-| B | 175 | 65.3 |
-| C | 1,431 | 51.6 |
-| D | 11,540 | 33.8 |
+| B | 204 | 64.7 |
+| C | 1,432 | 52.3 |
+| D | 11,510 | 33.8 |
 
 ## 增速榜（互动/天，含价值档）
 
@@ -76,15 +76,15 @@
 
 | 仓库 | 快照数 | Δstars |
 |---|---:|---:|
-| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 27 | +20,898 |
-| [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | 26 | +4,407 |
-| [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | 39 | +2,045 |
-| [xiaobright/dsh-anchored-standard](https://github.com/xiaobright/dsh-anchored-standard) | 26 | +1,556 |
-| [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 26 | +883 |
-| [liustack/modlens](https://github.com/liustack/modlens) | 25 | +679 |
-| [nexu-io/open-design](https://github.com/nexu-io/open-design) | 25 | +666 |
+| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 28 | +20,898 |
+| [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | 27 | +4,407 |
+| [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | 40 | +2,045 |
+| [xiaobright/dsh-anchored-standard](https://github.com/xiaobright/dsh-anchored-standard) | 27 | +1,556 |
+| [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 27 | +883 |
+| [liustack/modlens](https://github.com/liustack/modlens) | 26 | +679 |
+| [nexu-io/open-design](https://github.com/nexu-io/open-design) | 26 | +666 |
 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 22 | +611 |
-| [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 25 | +573 |
+| [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 26 | +573 |
 | [titanwings/colleague-skill](https://github.com/titanwings/colleague-skill) | 23 | +477 |
 
 ## 采集运行历史

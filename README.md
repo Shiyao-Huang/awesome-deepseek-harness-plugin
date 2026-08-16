@@ -63,14 +63,14 @@ dsh plugin --profile web add dsh-skills dsh-attachments dsh-inspector
 | 4 | [bojieli/deepseek-harness](https://github.com/bojieli/deepseek-harness) | 1 | 81.4 (observed) | 25.898 | 48.097 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
 | 5 | [alexdolbun/deepseek-harness](https://github.com/alexdolbun/deepseek-harness) | 1 | 80.0 (observed) | 25.898 | 47.554 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness”。 |
 
-> 价值档当前分布：**A 1 · B 175 · C 1,431 · D 11,540**。分数只用于安排复核优先级；不同平台的 stars、likes、views、points 不相加，缺失互动数不补零。
+> 价值档当前分布：**A 1 · B 204 · C 1,432 · D 11,510**。分数只用于安排复核优先级；不同平台的 stars、likes、views、points 不相加，缺失互动数不补零。
 
 <!-- landing:end -->
 
 ## 当前快照
 
 <!-- snapshot:start -->
-公开查询 SQLite 当前包含 **13,147 条去重记录**、**14 个来源平台**、**106,374 条指标历史**、**1,235 个媒体资产引用**、**306 条详情记录**和 **961 个去重 raw provenance**。当前批次 **v20260816T084423Z** 于 **2026-08-16T08:44:28Z** 完成；价值矩阵为当前批次的 13,147 条记录提供六维评分。完整原始 JSON 位于压缩权威 SQLite；公开查询库保留 raw SHA-256、路径、字节数、采集时间和批次，并去除可由 `data/raw/` 或完整库恢复的重复 JSON blob。
+公开查询 SQLite 当前包含 **13,147 条去重记录**、**14 个来源平台**、**107,133 条指标历史**、**1,235 个媒体资产引用**、**306 条详情记录**和 **961 个去重 raw provenance**。当前批次 **v20260816T084423Z** 于 **2026-08-16T08:44:28Z** 完成；价值矩阵为当前批次的 13,147 条记录提供六维评分。完整原始 JSON 位于压缩权威 SQLite；公开查询库保留 raw SHA-256、路径、字节数、采集时间和批次，并去除可由 `data/raw/` 或完整库恢复的重复 JSON blob。
 
 | 来源 | 去重记录 | 采集内容 |
 | --- | ---: | --- |
