@@ -74,7 +74,7 @@
 | 1h ago | reddit | post | [A resource for navigating the booming DSH plugin ecosystem](https://www.reddit.com/r/DeepSeek/comments/1vplhkb/a_resource_for_navigating_the_booming_dsh_plugin) | No-Weight1118 | core-and-ecosystem |
 | 昨天 11:08 | xiaohongshu | note | [DeepSeek Harness 10大实用高⭐插件](https://www.xiaohongshu.com/explore/6a7fd835000000002800a264) | 马克波MarkWave | core-and-ecosystem |
 | 1天前 | xiaohongshu | note | [DeepSeek Harness 必装插件分享（个人实测](https://www.xiaohongshu.com/explore/6a7f5ce00000000025002e94) | 和AI一起成长 | core-and-ecosystem |
-| 4小时前 | xiaohongshu | note | [DeepSeek Harness 背后技术揭秘](https://www.xiaohongshu.com/explore/6a80b85a0000000029030686) | 机智的哒哒学姐 | core-and-ecosystem |
+| 5小时前 | xiaohongshu | note | [DeepSeek Harness 背后技术揭秘](https://www.xiaohongshu.com/explore/6a80b85a0000000029030686) | 机智的哒哒学姐 | core-and-ecosystem |
 | 昨天 20:06 | xiaohongshu | note | [DeepSeek Harness 赌的是 Plugin Scaling](https://www.xiaohongshu.com/explore/6a8055950000000022017b5e) | 观想人间的一团云 | core-and-ecosystem |
 | 1天前 | xiaohongshu | note | [DeepSeek Harness，二开真的太爽了。。](https://www.xiaohongshu.com/explore/6a7ed6230000000028002351) | 阿东玩AI | core-and-ecosystem |
 | 2天前 | xiaohongshu | note | [Deepseek Harness！可以自己迭代自己！](https://www.xiaohongshu.com/explore/6a7ded1500000000250048d1) | Wisdomqin | core-and-ecosystem |

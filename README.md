@@ -7,7 +7,7 @@ DeepSeek Harness / DSH 插件生态的公开资料聚合 repo：把 GitHub 仓�
 <!-- landing:start -->
 ## Start here — the DSH signal desk
 
-> 这里不是又一份静态 Awesome List，而是一张持续更新的 DeepSeek Harness 生态地图：先看最值得点开的仓库、帖子和视频，再沿着 raw、SQLite、时间轴回到证据。当前批次 **v20260816T052421Z**（2026-08-16）：**13,008** 条去重记录、**14** 个平台、**1,005** 个媒体引用。
+> 这里不是又一份静态 Awesome List，而是一张持续更新的 DeepSeek Harness 生态地图：先看最值得点开的仓库、帖子和视频，再沿着 raw、SQLite、时间轴回到证据。当前批次 **v20260816T055031Z**（2026-08-16）：**13,045** 条去重记录、**14** 个平台、**1,068** 个媒体引用。
 
 [打开 dsh store](docs/index.html) · [看价值矩阵](docs/value-matrix.md) · [看趋势](docs/trends.md) · [下载查询 SQLite](https://github.com/Shiyao-Huang/awesome-deepseek-harness-plugin/releases/download/dataset-latest/aggregator.sqlite3)
 
@@ -63,22 +63,22 @@ dsh plugin --profile web add dsh-skills dsh-attachments dsh-inspector
 | 4 | [bojieli/deepseek-harness](https://github.com/bojieli/deepseek-harness) | 1 | 81.4 (observed) | 25.898 | 48.097 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
 | 5 | [alexdolbun/deepseek-harness](https://github.com/alexdolbun/deepseek-harness) | 1 | 80.0 (observed) | 25.898 | 47.554 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness”。 |
 
-> 价值档当前分布：**A 1 · B 275 · C 1,232 · D 11,500**。分数只用于安排复核优先级；不同平台的 stars、likes、views、points 不相加，缺失互动数不补零。
+> 价值档当前分布：**B 258 · C 1,303 · D 11,484**。分数只用于安排复核优先级；不同平台的 stars、likes、views、points 不相加，缺失互动数不补零。
 
 <!-- landing:end -->
 
 ## 当前快照
 
 <!-- snapshot:start -->
-公开查询 SQLite 当前包含 **13,008 条去重记录**、**14 个来源平台**、**105,575 条指标历史**、**1,005 个媒体资产引用**、**306 条详情记录**和 **948 个去重 raw provenance**。当前批次 **v20260816T052421Z** 于 **2026-08-16T05:24:21Z** 完成；价值矩阵为当前批次的 13,008 条记录提供六维评分。完整原始 JSON 位于压缩权威 SQLite；公开查询库保留 raw SHA-256、路径、字节数、采集时间和批次，并去除可由 `data/raw/` 或完整库恢复的重复 JSON blob。
+公开查询 SQLite 当前包含 **13,045 条去重记录**、**14 个来源平台**、**106,772 条指标历史**、**1,068 个媒体资产引用**、**306 条详情记录**和 **958 个去重 raw provenance**。当前批次 **v20260816T055031Z** 于 **2026-08-16T05:50:31Z** 完成；价值矩阵为当前批次的 13,045 条记录提供六维评分。完整原始 JSON 位于压缩权威 SQLite；公开查询库保留 raw SHA-256、路径、字节数、采集时间和批次，并去除可由 `data/raw/` 或完整库恢复的重复 JSON blob。
 
 | 来源 | 去重记录 | 采集内容 |
 | --- | ---: | --- |
 | GitHub | 12,625 | 官方仓库、topic、社区索引候选和 stars/forks/issues |
 | Hacker News | 102 | 精确短语搜索、points/comments 和讨论链接 |
+| 小红书 | 102 | 搜索卡片、作者、点赞、缩略图和详情文本 |
 | X | 90 | 公开帖子、图片/视频链接和 replies/reposts/likes/views |
-| 小红书 | 76 | 搜索卡片、作者、点赞、缩略图和详情文本 |
-| Reddit | 40 | 公开讨论、分数、评论和正文证据 |
+| Reddit | 47 | 公开讨论、分数、评论和正文证据 |
 | YouTube | 28 | 视频标题、频道、观看数和缩略图 |
 | 开放网页 | 21 | 文章、教程和报道的公开元数据与摘要 |
 | 哔哩哔哩 | 18 | 视频元数据、播放/点赞/投币/收藏/转发/弹幕/评论 |
