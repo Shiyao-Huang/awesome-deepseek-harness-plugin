@@ -17,6 +17,16 @@ import collect
 import collect_forks
 
 
+class WorkflowSafetyTests(unittest.TestCase):
+    def test_refresh_workflows_checkout_latest_main_at_job_start(self) -> None:
+        for filename in ("refresh-index.yml", "refresh-forks.yml"):
+            workflow = (ROOT / ".github" / "workflows" / filename).read_text()
+            checkout_start = workflow.index("uses: actions/checkout@v4")
+            checkout_end = workflow.index("- name: Set up Python", checkout_start)
+
+            self.assertIn("ref: main", workflow[checkout_start:checkout_end], filename)
+
+
 def fork(name: str, stars: int, pushed_at: str, forks: int = 0) -> dict[str, object]:
     return {
         "full_name": name,
