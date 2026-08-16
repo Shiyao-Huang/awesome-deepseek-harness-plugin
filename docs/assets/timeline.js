@@ -1,6 +1,57 @@
 (function () {
   "use strict";
 
+  const allowedSorts = new Set(["time", "influence", "trend", "source", "record", "topic"]);
+  const allowedDirections = new Set(["asc", "desc"]);
+  const defaultDirections = Object.freeze({
+    time: "desc",
+    influence: "asc",
+    trend: "desc",
+    source: "asc",
+    record: "asc",
+    topic: "asc",
+  });
+  const collator = new Intl.Collator(undefined, { numeric: true, sensitivity: "base" });
+  const dateValue = (value) => {
+    const parsed = Date.parse(value || "");
+    return Number.isFinite(parsed) ? parsed : Number.NEGATIVE_INFINITY;
+  };
+  const trendValue = (record, key, fallback) => {
+    const value = record.trend?.hasEvidence ? Number(record.trend[key]) : fallback;
+    return Number.isFinite(value) ? value : fallback;
+  };
+  const compareNumber = (left, right) => left === right ? 0 : left < right ? -1 : 1;
+
+  function defaultDirection(sort) {
+    return defaultDirections[sort] || "asc";
+  }
+
+  function compareRecords(left, right, sort, direction) {
+    let comparison = 0;
+    if (sort === "influence") {
+      comparison = compareNumber(Number(left.rank), Number(right.rank));
+    } else if (sort === "trend") {
+      comparison = compareNumber(Number(Boolean(left.trend?.hasEvidence)), Number(Boolean(right.trend?.hasEvidence)));
+      if (!comparison) comparison = compareNumber(trendValue(left, "percent", Number.NEGATIVE_INFINITY), trendValue(right, "percent", Number.NEGATIVE_INFINITY));
+      if (!comparison) comparison = compareNumber(trendValue(left, "delta", Number.NEGATIVE_INFINITY), trendValue(right, "delta", Number.NEGATIVE_INFINITY));
+    } else if (sort === "source") {
+      comparison = collator.compare(String(left.sourceLabel || ""), String(right.sourceLabel || ""));
+    } else if (sort === "record") {
+      comparison = collator.compare(String(left.title || ""), String(right.title || ""));
+    } else if (sort === "topic") {
+      comparison = collator.compare(String(left.categoryLabel || ""), String(right.categoryLabel || ""));
+    } else {
+      comparison = compareNumber(dateValue(left.eventAt), dateValue(right.eventAt));
+    }
+    if (comparison) return comparison * (direction === "desc" ? -1 : 1);
+    return Number(left.rank) - Number(right.rank);
+  }
+
+  if (typeof module !== "undefined" && module.exports) {
+    module.exports = { compareRecords, defaultDirection };
+  }
+  if (typeof document === "undefined") return;
+
   const dataElement = document.getElementById("timeline-data");
   if (!dataElement) return;
 
@@ -8,7 +59,6 @@
   const records = Array.isArray(payload.records) ? payload.records : [];
   const referenceTime = Date.parse(payload.referenceTime || "");
   const batchSize = 100;
-  const allowedSorts = new Set(["time", "influence", "trend"]);
   const allowedWindows = new Set(["1", "7", "30", "365", "all"]);
   const sortButtons = Array.from(document.querySelectorAll("[data-timeline-sort]"));
   const search = document.getElementById("timeline-search");
@@ -27,8 +77,11 @@
   const params = new URLSearchParams(window.location.search);
   const requestedSort = params.get("sort") || "time";
   const requestedWindow = params.get("window") || "30";
+  const sort = allowedSorts.has(requestedSort) ? requestedSort : "time";
+  const requestedDirection = params.get("direction") || defaultDirection(sort);
   const state = {
-    sort: allowedSorts.has(requestedSort) ? requestedSort : "time",
+    sort,
+    direction: allowedDirections.has(requestedDirection) ? requestedDirection : defaultDirection(sort),
     query: params.get("q") || "",
     source: params.get("source") || "all",
     category: params.get("category") || "all",
@@ -44,14 +97,6 @@
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#39;");
   const number = (value) => Number(value).toLocaleString();
-  const dateValue = (value) => {
-    const parsed = Date.parse(value || "");
-    return Number.isFinite(parsed) ? parsed : Number.NEGATIVE_INFINITY;
-  };
-  const trendValue = (record, key, fallback) => {
-    const value = record.trend?.hasEvidence ? Number(record.trend[key]) : fallback;
-    return Number.isFinite(value) ? value : fallback;
-  };
   const signed = (value) => `${Number(value) >= 0 ? "+" : ""}${number(value)}`;
   const percent = (value) => value === null || value === undefined
     ? "rate n/a"
@@ -72,21 +117,7 @@
       return [record.title, record.author, record.sourceLabel, record.categoryLabel, record.itemType]
         .some((value) => String(value || "").toLocaleLowerCase().includes(query));
     });
-    return filtered.sort((left, right) => {
-      if (state.sort === "influence") {
-        return Number(left.rank) - Number(right.rank) || dateValue(right.eventAt) - dateValue(left.eventAt);
-      }
-      if (state.sort === "trend") {
-        const evidence = Number(Boolean(right.trend?.hasEvidence)) - Number(Boolean(left.trend?.hasEvidence));
-        if (evidence) return evidence;
-        const percentDelta = trendValue(right, "percent", Number.NEGATIVE_INFINITY) - trendValue(left, "percent", Number.NEGATIVE_INFINITY);
-        if (percentDelta) return percentDelta;
-        const rawDelta = trendValue(right, "delta", Number.NEGATIVE_INFINITY) - trendValue(left, "delta", Number.NEGATIVE_INFINITY);
-        if (rawDelta) return rawDelta;
-        return Number(left.rank) - Number(right.rank);
-      }
-      return dateValue(right.eventAt) - dateValue(left.eventAt) || Number(left.rank) - Number(right.rank);
-    });
+    return filtered.sort((left, right) => compareRecords(left, right, state.sort, state.direction));
   }
 
   function signal(record) {
@@ -117,6 +148,7 @@
   function syncUrl() {
     const next = new URLSearchParams();
     next.set("sort", state.sort);
+    next.set("direction", state.direction);
     if (state.query) next.set("q", state.query);
     if (state.source !== "all") next.set("source", state.source);
     if (state.category !== "all") next.set("category", state.category);
@@ -131,12 +163,17 @@
     body.innerHTML = visible.map(row).join("");
     empty.hidden = matches.length !== 0;
     more.hidden = visible.length >= matches.length;
-    const labels = { time: "时间线", influence: "影响力（Registry rank）", trend: "趋势证据" };
-    summary.innerHTML = `<strong>${number(matches.length)}</strong> matches · showing ${number(visible.length)} · ${labels[state.sort]}`;
+    const labels = { time: "时间", influence: "影响力（Registry rank）", trend: "趋势证据", source: "来源", record: "记录名称", topic: "分类" };
+    const directionLabel = state.direction === "asc" ? "升序" : "降序";
+    summary.innerHTML = `<strong>${number(matches.length)}</strong> matches · showing ${number(visible.length)} · ${labels[state.sort]} ${directionLabel}`;
     sortButtons.forEach((button) => {
       const selected = button.dataset.timelineSort === state.sort;
       button.classList.toggle("is-selected", selected);
       button.setAttribute("aria-pressed", String(selected));
+      if (selected) button.dataset.sortDirection = state.direction;
+      else delete button.dataset.sortDirection;
+      const header = button.closest("th");
+      if (header) header.setAttribute("aria-sort", selected ? (state.direction === "asc" ? "ascending" : "descending") : "none");
     });
     renderTrending(matches);
     if (updateUrl) syncUrl();
@@ -156,7 +193,13 @@
   trendingOnly.checked = state.trendingOnly;
 
   sortButtons.forEach((button) => button.addEventListener("click", () => {
-    state.sort = button.dataset.timelineSort;
+    const nextSort = button.dataset.timelineSort;
+    if (!allowedSorts.has(nextSort)) return;
+    if (state.sort === nextSort) state.direction = state.direction === "asc" ? "desc" : "asc";
+    else {
+      state.sort = nextSort;
+      state.direction = defaultDirection(nextSort);
+    }
     resetAndRender();
   }));
   search.addEventListener("input", () => {
