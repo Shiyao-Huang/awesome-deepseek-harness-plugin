@@ -2,7 +2,7 @@
 
 > 一个可重复更新的公开资料聚合体：仓库、插件、索引、文章、帖子、图片缩略图和视频链接。原始观测保留在 `data/raw/`，SQLite 是可查询的派生索引。
 
-当前数据集版本：**v20260816T144114Z**，完成时间：**2026-08-16T14:41:18Z**。共 **14,406** 条去重记录，覆盖 **14** 个平台，外部媒体资产 **1,249** 条。
+当前数据集版本：**v20260816T160658Z**，完成时间：**2026-08-16T16:06:58Z**。共 **14,407** 条去重记录，覆盖 **14** 个平台，外部媒体资产 **1,249** 条。
 
 ## 三句话结论
 
@@ -27,7 +27,7 @@
 | xiaohongshu | 157 | ego-browser visible DOM |
 | hacker_news | 102 | Algolia public search API |
 | x | 90 | ego-browser visible DOM |
-| reddit | 50 | ego-browser visible DOM |
+| reddit | 51 | ego-browser visible DOM |
 | youtube | 29 | ego-browser visible DOM |
 | web | 21 | public page metadata |
 | bilibili | 18 | public web metadata API |
@@ -43,7 +43,7 @@
 | 分类 | 记录 | 带媒体 |
 | --- | ---: | ---: |
 | deepseek-harness-forks | 12,352 | 0 |
-| core-and-ecosystem | 1,402 | 240 |
+| core-and-ecosystem | 1,403 | 240 |
 | index-and-marketplace | 197 | 43 |
 | ui-and-desktop | 195 | 6 |
 | operations-and-safety | 112 | 1 |
@@ -59,15 +59,15 @@
 | 平台 | 记录 | value | band | confidence | 分类 |
 | --- | --- | ---: | :---: | ---: | --- |
 | github | [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 80.27 | A | 100.00 | ui-and-desktop |
-| github | [liustack/modlens](https://github.com/liustack/modlens) | 79.67 | B | 100.00 | multimedia-and-vision |
+| github | [liustack/modlens](https://github.com/liustack/modlens) | 79.66 | B | 100.00 | multimedia-and-vision |
 | github | [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | 78.96 | B | 100.00 | ui-and-desktop |
 | github | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 78.82 | B | 100.00 | core-and-ecosystem |
-| github | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 77.17 | B | 100.00 | ui-and-desktop |
-| github | [superdesigndev/superdesign-skill](https://github.com/superdesigndev/superdesign-skill) | 76.85 | B | 100.00 | core-and-ecosystem |
+| github | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 77.16 | B | 100.00 | ui-and-desktop |
+| github | [superdesigndev/superdesign-skill](https://github.com/superdesigndev/superdesign-skill) | 76.84 | B | 100.00 | core-and-ecosystem |
 | github | [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | 76.68 | B | 100.00 | multimedia-and-vision |
 | github | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 76.53 | B | 100.00 | ui-and-desktop |
-| github | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | 75.89 | B | 100.00 | core-and-ecosystem |
-| github | [GanyuanRan/Aegis](https://github.com/GanyuanRan/Aegis) | 75.85 | B | 100.00 | docs-and-learning |
+| github | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | 75.88 | B | 100.00 | core-and-ecosystem |
+| github | [GanyuanRan/Aegis](https://github.com/GanyuanRan/Aegis) | 75.84 | B | 100.00 | docs-and-learning |
 
 ## 高互动/高关注记录
 

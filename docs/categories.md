@@ -1126,6 +1126,7 @@
 | github | [dsh-unarchive](https://github.com/edfrey0044/dsh-unarchive) | 1 ★, 0 forks | edfrey0044 |
 | github | [dsh-settings-nav-organizer](https://github.com/zhengjy01/dsh-settings-nav-organizer) | 1 ★, 0 forks | zhengjy01 |
 | github | [capital-generation](https://github.com/v587d/capital-generation) | 1 ★, 0 forks | v587d |
+| reddit | [DeepSeek Harness Plugin Recommendations, Round 2](https://www.reddit.com/r/AIFromChina/comments/1vpxnha/deepseek_harness_plugin_recommendations_round_2) | 1 points, 0 comments | ExternalNo2722 |
 | hacker_news | [https://news.ycombinator.com/item?id=49298627](https://news.ycombinator.com/item?id=49298627) | — | tornikeo |
 | hacker_news | [https://news.ycombinator.com/item?id=49293650](https://news.ycombinator.com/item?id=49293650) | — | scotty79 |
 | hacker_news | [https://news.ycombinator.com/item?id=49292294](https://news.ycombinator.com/item?id=49292294) | — | z_rho_one |
