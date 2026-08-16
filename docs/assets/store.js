@@ -49,6 +49,8 @@
     const clear = document.getElementById("clear-filters");
     const resultNoun = document.body.dataset.resultNoun || "records";
     let active = { type: "all", value: "all" };
+    const initialQuery = new URLSearchParams(window.location.search).get("q");
+    if (initialQuery) search.value = initialQuery;
 
     function apply() {
       const query = (search.value || "").trim().toLowerCase();
@@ -121,29 +123,45 @@
     if (!copied) throw new Error("copy failed");
   }
 
+  document.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-market-language]");
+    if (!button) return;
+    const guide = button.closest("[data-market-i18n]");
+    const language = button.dataset.marketLanguage;
+    if (!guide || !["zh", "en"].includes(language)) return;
+    guide.dataset.marketLang = language;
+    guide.querySelectorAll("[data-market-language]").forEach((candidate) => {
+      candidate.setAttribute("aria-pressed", String(candidate === button));
+    });
+  });
+
   document.addEventListener("click", async (event) => {
     const button = event.target.closest(".copy-install");
     if (!button) return;
     const command = button.dataset.install;
     if (!command || button.disabled) return;
-    const original = button.textContent;
+    const original = button.innerHTML;
+    const language = button.closest("[data-market-i18n]")?.dataset.marketLang || "en";
+    const labels = language === "zh"
+      ? { loading: "复制中...", success: "已复制", error: "复制失败" }
+      : { loading: "Copying...", success: "Copied", error: "Copy failed" };
     button.disabled = true;
     button.setAttribute("aria-busy", "true");
     button.dataset.copyState = "loading";
-    button.textContent = "Copying...";
+    button.textContent = labels.loading;
     try {
       await copyText(command);
       button.dataset.copyState = "success";
-      button.textContent = "Copied";
+      button.textContent = labels.success;
     } catch {
       button.dataset.copyState = "error";
-      button.textContent = "Copy failed";
+      button.textContent = labels.error;
     }
     window.setTimeout(() => {
       button.disabled = false;
       button.removeAttribute("aria-busy");
       delete button.dataset.copyState;
-      button.textContent = original;
+      button.innerHTML = original;
     }, 1400);
   });
 })();
