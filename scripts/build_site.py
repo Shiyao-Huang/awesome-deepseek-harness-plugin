@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import datetime as dt
 import html
 import json
 import re
@@ -389,7 +390,7 @@ def latest_run(db: sqlite3.Connection) -> tuple[str, str]:
         """
         SELECT dataset_version, COALESCE(finished_at, started_at)
         FROM collection_runs
-        WHERE trigger <> 'legacy-migration'
+        WHERE trigger <> 'legacy-migration' AND status = 'success'
         ORDER BY id DESC
         LIMIT 1
         """
@@ -1113,24 +1114,176 @@ def table_page(title: str, heading: str, intro: str, body: str, config: dict[str
 </body></html>"""
 
 
+def load_timeline_trends(db: sqlite3.Connection) -> dict[int, dict[str, object]]:
+    """Compare the newest two native-metric snapshots from one source per item."""
+
+    metric_columns = ", ".join(field for field, _label in METRIC_FIELDS)
+    rows = db.execute(
+        f"""
+        SELECT id, item_id, observed_at, metric_source, {metric_columns}
+        FROM metrics
+        ORDER BY item_id, metric_source, observed_at DESC, id DESC
+        """
+    ).fetchall()
+    histories: dict[tuple[int, str], list[sqlite3.Row]] = {}
+    for row in rows:
+        key = (int(row["item_id"]), str(row["metric_source"]))
+        history = histories.setdefault(key, [])
+        if len(history) < 2:
+            history.append(row)
+
+    pairs: dict[int, list[tuple[sqlite3.Row, sqlite3.Row]]] = {}
+    for (item_id, _source), history in histories.items():
+        if len(history) == 2:
+            pairs.setdefault(item_id, []).append((history[0], history[1]))
+
+    trends: dict[int, dict[str, object]] = {}
+    for item_id, item_pairs in pairs.items():
+        current, previous = max(
+            item_pairs,
+            key=lambda pair: (str(pair[0]["observed_at"]), str(pair[0]["metric_source"])),
+        )
+        selected = next(
+            (
+                (field, label, int(current[field]), int(previous[field]))
+                for field, label in METRIC_FIELDS
+                if current[field] is not None and previous[field] is not None
+            ),
+            None,
+        )
+        if selected is None:
+            continue
+        field, label, current_value, previous_value = selected
+        delta = current_value - previous_value
+        percent = round(delta * 100 / previous_value, 1) if previous_value else None
+        start = dt.datetime.fromisoformat(str(previous["observed_at"]).replace("Z", "+00:00"))
+        end = dt.datetime.fromisoformat(str(current["observed_at"]).replace("Z", "+00:00"))
+        trends[item_id] = {
+            "hasEvidence": True,
+            "metric": field,
+            "metricLabel": label,
+            "current": current_value,
+            "previous": previous_value,
+            "delta": delta,
+            "percent": percent,
+            "from": str(previous["observed_at"]),
+            "to": str(current["observed_at"]),
+            "elapsedHours": round((end - start).total_seconds() / 3600, 1),
+            "source": str(current["metric_source"]),
+        }
+    return trends
+
+
 def render_timeline_page(db: sqlite3.Connection, dataset_version: str, config: dict[str, str]) -> str:
-    """Render a crawlable chronology with links back to detail pages."""
+    """Render a crawlable, filterable Timeline projection."""
 
     rows = db.execute(
         """
-        SELECT i.id, i.platform, i.item_type, i.title, i.author, i.category,
+        SELECT i.id AS item_id, ir.id AS registry_id, ir.rank,
+               i.platform, i.item_type, i.title, i.author, i.category,
                COALESCE(i.published_at, i.first_seen_at) AS event_at,
                i.published_label
         FROM items AS i
+        JOIN index_records AS ir ON ir.item_id = i.id
         ORDER BY event_at DESC, i.platform, i.title
         """
     ).fetchall()
-    body_rows = "".join(
-        f'<tr><td>{esc(row["published_label"] or str(row["event_at"] or "")[:10])}</td><td>{esc(PLATFORM_LABELS.get(str(row["platform"]), row["platform"]))}</td><td><a href="skills/id-{row["id"]}.html">{esc(row["title"] or "Untitled")}</a></td><td>{esc(row["author"] or "—")}</td><td>{esc(CATEGORY_LABELS.get(str(row["category"]), row["category"]))}</td></tr>'
+    trends = load_timeline_trends(db)
+    records = [
+        {
+            "id": str(row["registry_id"]),
+            "rank": int(row["rank"]),
+            "eventAt": str(row["event_at"] or ""),
+            "timeLabel": str(row["published_label"] or date_label(row["event_at"]) or "未知"),
+            "source": str(row["platform"]),
+            "sourceLabel": str(PLATFORM_LABELS.get(str(row["platform"]), row["platform"])),
+            "itemType": str(row["item_type"] or ""),
+            "title": str(row["title"] or "Untitled"),
+            "author": str(row["author"] or "—"),
+            "category": str(row["category"]),
+            "categoryLabel": str(CATEGORY_LABELS.get(str(row["category"]), row["category"])),
+            "trend": trends.get(int(row["item_id"]), {"hasEvidence": False}),
+        }
         for row in rows
+    ]
+
+    def timeline_row(record: dict[str, object]) -> str:
+        """Render one crawlable Timeline table row."""
+
+        trend = record["trend"]
+        assert isinstance(trend, dict)
+        if trend.get("hasEvidence"):
+            delta = int(trend["delta"])
+            percent = trend["percent"]
+            percent_label = f"{float(percent):+.1f}%" if percent is not None else "rate n/a"
+            hours = float(trend["elapsedHours"])
+            hours_label = f"{hours:g}h"
+            signal = (
+                '<span class="timeline-trend-signal">'
+                f'<strong>{esc(trend["metricLabel"])} {format_number(trend["current"])}</strong>'
+                f'<span>{delta:+,} · {percent_label} · {hours_label}</span>'
+                f'<small>{esc(trend["source"])} · {esc(date_label(trend["from"]))} → {esc(date_label(trend["to"]))}</small>'
+                "</span>"
+            )
+        else:
+            signal = '<span class="timeline-no-trend">暂无趋势证据</span>'
+        return (
+            f'<tr class="timeline-row" data-record-id="{esc(record["id"], attribute=True)}">'
+            f'<td class="timeline-rank">#{int(record["rank"]):,}</td>'
+            f'<td><time datetime="{esc(record["eventAt"], attribute=True)}">{esc(record["timeLabel"])}</time></td>'
+            f'<td>{esc(record["sourceLabel"])}</td>'
+            f'<td><a href="skills/{esc(record["id"], attribute=True)}.html">{esc(record["title"])}</a>'
+            f'<small>{esc(record["author"])} · {esc(record["itemType"])}</small></td>'
+            f"<td>{signal}</td>"
+            f'<td>{esc(record["categoryLabel"])}</td></tr>'
+        )
+
+    body_rows = "".join(timeline_row(record) for record in records[:100])
+    source_options = "".join(
+        f'<option value="{esc(source, attribute=True)}">{esc(PLATFORM_LABELS.get(source, source))}</option>'
+        for source in sorted({str(record["source"]) for record in records})
     )
-    body = f'<section class="table-section"><div class="table-caption"><strong>{len(rows):,}</strong> records · dataset {esc(dataset_version)}</div><div class="table-scroll"><table class="data-table"><thead><tr><th>Time</th><th>Source</th><th>Record</th><th>Author</th><th>Topic</th></tr></thead><tbody>{body_rows}</tbody></table></div></section>'
-    return table_page("timeline", "Timeline", "按发布日期和首次观测日期排序的公开生态记录。", body, config)
+    category_options = "".join(
+        f'<option value="{esc(category, attribute=True)}">{esc(CATEGORY_LABELS.get(category, category))}</option>'
+        for category in sorted({str(record["category"]) for record in records})
+    )
+    reference_time = latest_run(db)[1]
+    timeline_data = json.dumps(
+        {"referenceTime": reference_time, "records": records},
+        ensure_ascii=False,
+        separators=(",", ":"),
+    ).replace("<", "\\u003c")
+    intro = "按时间、Registry 影响力或有历史证据的原生指标变化浏览公开生态记录。"
+    site_url = config["site_url"].rstrip("/")
+    head = page_head(
+        "Timeline Analytics — deeplugin.store",
+        intro,
+        site_url + "/timeline.html",
+        f"{site_url}/media/screenshots/official.png",
+        config,
+    ).replace("{ASSET_PREFIX}", "")
+    return f"""{head}<body data-page="timeline">
+{nav_html('./')}
+<main class="site-main table-main timeline-page"><div class="breadcrumbs"><a href="./">store</a><span>/</span><span>Timeline</span></div>
+  <section class="page-intro timeline-intro"><p class="kicker">PUBLIC PROJECTION · GENERATED FROM SQLITE</p><h1>Timeline Analytics</h1><p>{esc(intro)}</p><p class="timeline-method">Trend 只比较同一记录、同一 metric source 的连续两次平台原生指标；不把 stars、likes、views 或 points 相加。</p></section>
+  <section class="timeline-browser" aria-label="Timeline filters">
+    <div class="timeline-sort" role="group" aria-label="Sort records"><button class="is-selected" type="button" data-timeline-sort="time">时间线</button><button type="button" data-timeline-sort="influence">影响力</button><button type="button" data-timeline-sort="trend">趋势</button></div>
+    <div class="timeline-filters">
+      <label class="search-field timeline-search"><span aria-hidden="true">⌕</span><input id="timeline-search" type="search" placeholder="搜索记录、作者、来源…" autocomplete="off"></label>
+      <label><span>来源</span><select id="timeline-source"><option value="all">全部来源</option>{source_options}</select></label>
+      <label><span>分类</span><select id="timeline-category"><option value="all">全部分类</option>{category_options}</select></label>
+      <label><span>时间范围</span><select id="timeline-window"><option value="1">24 小时</option><option value="7">7 天</option><option value="30" selected>30 天</option><option value="365">1 年</option><option value="all">全部时间</option></select></label>
+      <label class="timeline-check"><input id="timeline-trending-only" type="checkbox"><span>仅显示有趋势证据</span></label>
+    </div>
+    <div class="timeline-status"><p id="timeline-summary"><strong>{len(records):,}</strong> records · 时间线排序</p><p>reference {esc(reference_time)} · dataset {esc(dataset_version)}</p></div>
+  </section>
+  <section class="timeline-trending" aria-labelledby="trending-heading"><div class="section-heading"><div><p class="kicker">MEASURED MOMENTUM</p><h2 id="trending-heading">Trending now</h2></div><span>同来源连续快照中的正增长证据</span></div><div class="timeline-trend-grid" id="timeline-trend-grid"><p class="timeline-empty-trend">当前数据中暂无可展示的正增长证据。</p></div></section>
+  <section class="table-section timeline-results"><div class="table-scroll"><table class="data-table timeline-table"><thead><tr><th>Rank</th><th>Time</th><th>Source</th><th>Record</th><th>Native signal / Trend</th><th>Topic</th></tr></thead><tbody id="timeline-body">{body_rows}</tbody></table></div><p class="no-results" id="timeline-empty" hidden>没有记录符合当前筛选条件。</p><button class="timeline-more" id="timeline-more" type="button"{' hidden' if len(records) <= 100 else ''}>Load 100 more</button></section>
+</main>
+{footer_html(data_path=config["public_database_url"])}
+<script type="application/json" id="timeline-data">{timeline_data}</script>
+<script src="assets/timeline.js" defer></script>
+</body></html>"""
 
 
 def render_categories_page(records: list[dict[str, object]], config: dict[str, str]) -> str:
