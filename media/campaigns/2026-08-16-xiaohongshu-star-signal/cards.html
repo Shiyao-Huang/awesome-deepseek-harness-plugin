@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>别再按 Star 装 DSH 插件了</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        font-family: "PingFang SC", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
+        background: #050d1f;
+        color: #f6f7f2;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        width: 1080px;
+        height: 1440px;
+        margin: 0;
+        overflow: hidden;
+      }
+
+      body {
+        background:
+          radial-gradient(circle at 100% 0%, rgba(45, 207, 255, 0.18), transparent 34%),
+          radial-gradient(circle at 0% 100%, rgba(255, 167, 69, 0.16), transparent 38%),
+          #050d1f;
+      }
+
+      body::before {
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        content: "";
+        background-image:
+          linear-gradient(rgba(73, 193, 255, 0.055) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(73, 193, 255, 0.055) 1px, transparent 1px);
+        background-size: 48px 48px;
+        mask-image: linear-gradient(to bottom, black, transparent 85%);
+      }
+
+      main {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        min-height: 100%;
+        padding: 72px 72px 58px;
+      }
+
+      .kicker {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        margin-bottom: 30px;
+        color: #2dcfff;
+        font-size: 25px;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+
+      .kicker::before {
+        width: 48px;
+        height: 6px;
+        border-radius: 999px;
+        background: #ffad48;
+        content: "";
+      }
+
+      h1 {
+        max-width: 930px;
+        margin: 0;
+        font-size: 82px;
+        line-height: 1.12;
+        letter-spacing: -0.035em;
+      }
+
+      h1 em {
+        color: #ffad48;
+        font-style: normal;
+      }
+
+      .lede {
+        max-width: 900px;
+        margin: 26px 0 0;
+        color: #afc2d8;
+        font-size: 34px;
+        line-height: 1.55;
+      }
+
+      .stack {
+        display: grid;
+        gap: 22px;
+        margin-top: 46px;
+      }
+
+      .grid2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 22px;
+        margin-top: 46px;
+      }
+
+      .panel {
+        position: relative;
+        overflow: hidden;
+        min-height: 176px;
+        padding: 28px 30px;
+        border: 1px solid rgba(104, 213, 255, 0.22);
+        border-radius: 26px;
+        background: linear-gradient(135deg, rgba(17, 39, 72, 0.92), rgba(8, 19, 39, 0.9));
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+      }
+
+      .panel::after {
+        position: absolute;
+        right: -35px;
+        bottom: -48px;
+        width: 130px;
+        height: 130px;
+        border: 1px solid rgba(45, 207, 255, 0.18);
+        border-radius: 32px;
+        transform: rotate(24deg);
+        content: "";
+      }
+
+      .panel.orange {
+        border-color: rgba(255, 173, 72, 0.34);
+      }
+
+      .panel h2 {
+        margin: 0 0 13px;
+        font-size: 38px;
+        line-height: 1.25;
+      }
+
+      .panel p {
+        margin: 0;
+        color: #afc2d8;
+        font-size: 27px;
+        line-height: 1.5;
+      }
+
+      .metric {
+        margin: 7px 0 4px;
+        color: #ffad48;
+        font-size: 78px;
+        font-weight: 850;
+        letter-spacing: -0.04em;
+      }
+
+      .label {
+        display: inline-flex;
+        align-items: center;
+        min-height: 44px;
+        margin-bottom: 17px;
+        padding: 6px 15px;
+        border-radius: 999px;
+        background: rgba(45, 207, 255, 0.13);
+        color: #57d8ff;
+        font-size: 22px;
+        font-weight: 750;
+      }
+
+      .spec {
+        display: block;
+        margin-top: 16px;
+        padding: 13px 16px;
+        border-radius: 13px;
+        background: rgba(0, 0, 0, 0.32);
+        color: #d8efff;
+        font-family: ui-monospace, "SFMono-Regular", Menlo, monospace;
+        font-size: 20px;
+        line-height: 1.35;
+        overflow-wrap: anywhere;
+      }
+
+      .list {
+        counter-reset: item;
+        display: grid;
+        gap: 18px;
+        margin-top: 46px;
+      }
+
+      .list .row {
+        display: grid;
+        grid-template-columns: 72px 1fr;
+        gap: 24px;
+        align-items: center;
+        padding: 21px 26px;
+        border: 1px solid rgba(104, 213, 255, 0.2);
+        border-radius: 22px;
+        background: rgba(10, 28, 54, 0.86);
+      }
+
+      .list .row::before {
+        counter-increment: item;
+        display: grid;
+        width: 58px;
+        height: 58px;
+        place-items: center;
+        border-radius: 18px;
+        background: linear-gradient(145deg, #2dcfff, #157bca);
+        color: #031022;
+        content: counter(item, decimal-leading-zero);
+        font-size: 22px;
+        font-weight: 900;
+      }
+
+      .row strong {
+        display: block;
+        margin-bottom: 4px;
+        font-size: 31px;
+      }
+
+      .row span {
+        color: #afc2d8;
+        font-size: 25px;
+      }
+
+      .quote {
+        margin: 64px 0 0;
+        padding: 48px;
+        border-left: 10px solid #ffad48;
+        border-radius: 0 28px 28px 0;
+        background: rgba(255, 173, 72, 0.08);
+        font-size: 52px;
+        font-weight: 800;
+        line-height: 1.45;
+      }
+
+      .cta {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 40px;
+        padding: 30px 34px;
+        border: 1px solid rgba(45, 207, 255, 0.34);
+        border-radius: 24px;
+        background: rgba(45, 207, 255, 0.1);
+      }
+
+      .cta strong {
+        color: #60dcff;
+        font-family: ui-monospace, "SFMono-Regular", Menlo, monospace;
+        font-size: 38px;
+      }
+
+      .cta span {
+        color: #afc2d8;
+        font-size: 24px;
+      }
+
+      footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        margin-top: auto;
+        padding-top: 34px;
+        border-top: 1px solid rgba(104, 213, 255, 0.15);
+        color: #7890aa;
+        font-size: 21px;
+      }
+
+      footer strong {
+        color: #afc2d8;
+      }
+    </style>
+  </head>
+  <body>
+    <main id="card"></main>
+    <script>
+      const cards = {
+        2: `
+          <div class="kicker">01 / STAR ≠ ADOPTION</div>
+          <h1><em>28.5k Star</em><br />可能只是父仓的</h1>
+          <p class="lede">OpenViking 的 DSH memory plugin 很值得看，但 28.5k 是整个 OpenViking 仓库的 Star，不是这个 adapter 的独立采用度。</p>
+          <div class="grid2">
+            <section class="panel orange">
+              <span class="label">父级仓库指标</span>
+              <div class="metric">28.5k</div>
+              <p>能说明项目影响力<br />不能直接代表插件成熟度</p>
+            </section>
+            <section class="panel">
+              <span class="label">DSH adapter</span>
+              <div class="metric">1 个目录</div>
+              <p>需要单独核对提交、文档、兼容性和真实使用反馈</p>
+            </section>
+          </div>
+          <div class="quote">Star 是线索，<br />不是安装结论。</div>
+          <footer><strong>数据快照 · 2026-08-16</strong><span>02 / 07</span></footer>
+        `,
+        3: `
+          <div class="kicker">02 / INSTALL CHECKLIST</div>
+          <h1>装之前，<br />我只看这 <em>5 件事</em></h1>
+          <div class="list">
+            <div class="row"><div><strong>精确安装 spec</strong><span>到底装哪个包、哪个子目录</span></div></div>
+            <div class="row"><div><strong>来源归因</strong><span>谁收录、原仓在哪、是否可追溯</span></div></div>
+            <div class="row"><div><strong>同来源指标历史</strong><span>一次快照不是趋势</span></div></div>
+            <div class="row"><div><strong>权限与能力边界</strong><span>浏览器、文件、Shell 各能碰什么</span></div></div>
+            <div class="row"><div><strong>验证、回滚、健康检查</strong><span>装坏之后能不能查、能不能退</span></div></div>
+          </div>
+          <footer><strong>先证据，后安装</strong><span>03 / 07</span></footer>
+        `,
+        4: `
+          <div class="kicker">03 / INTERACTION LAYER</div>
+          <h1>先补交互层：<br /><em>看得见，也能操作</em></h1>
+          <div class="stack">
+            <section class="panel">
+              <span class="label">UI 工作台</span>
+              <h2>dsh-web-ui-all</h2>
+              <p>任务看板、Git、移动端、皮肤。视觉传播很强，但要预留 UI bug 的心理预期。</p>
+              <code class="spec">@linxin666/dsh-web-ui-all</code>
+            </section>
+            <section class="panel orange">
+              <span class="label">真实浏览器</span>
+              <h2>DSH Browser</h2>
+              <p>控制保留登录态的 Chrome。能力强，也意味着必须认真看权限范围。</p>
+              <code class="spec">github:lum1104/dsh-browser</code>
+            </section>
+          </div>
+          <p class="lede">先选你真正需要的入口：Web UI、桌面端，还是浏览器登录态。</p>
+          <footer><strong>推荐的是能力层，不是“必装榜”</strong><span>04 / 07</span></footer>
+        `,
+        5: `
+          <div class="kicker">04 / CAPABILITY LAYER</div>
+          <h1>再补能力层：<br /><em>记得住，也能分工</em></h1>
+          <div class="stack">
+            <section class="panel orange">
+              <span class="label">长期记忆</span>
+              <h2>OpenViking memory plugin</h2>
+              <p>会话捕获、项目记忆与上下文召回。父仓很强，但 adapter 仍要单独验证。</p>
+              <code class="spec">github:volcengine/openviking<br />#path:/examples/dsh-memory-plugin</code>
+            </section>
+            <section class="panel">
+              <span class="label">多 Agent 编排</span>
+              <h2>dsh-agent-teams</h2>
+              <p>把复杂任务拆成角色和团队。适合工作流，不代表任务越多就越有效。</p>
+              <code class="spec">@nanmicoder/dsh-agent-teams</code>
+            </section>
+          </div>
+          <footer><strong>能力要按任务组合</strong><span>05 / 07</span></footer>
+        `,
+        6: `
+          <div class="kicker">05 / SAFETY LAYER</div>
+          <h1>最后补防线：<br /><em>先检查，再装</em></h1>
+          <div class="stack">
+            <section class="panel">
+              <span class="label">21 Star，但很实用</span>
+              <h2>dsh-plugin-check</h2>
+              <p>检查 manifest、patch 和构建陷阱。低 Star 不等于低价值，它正面回答了“装坏怎么办”。</p>
+              <code class="spec">github:omdsh-dev/dsh-plugin-check</code>
+            </section>
+            <section class="panel orange">
+              <span class="label">我们自己维护 · 透明披露</span>
+              <h2>deeplugin market</h2>
+              <p>自然语言搜索、来源核对、展示精确 spec，并在用户批准后安装。</p>
+              <code class="spec">github:shiyao-huang/awesome-deepseek-<br />harness-plugin#path:/plugin</code>
+            </section>
+          </div>
+          <footer><strong>收录 ≠ 安全认证</strong><span>06 / 07</span></footer>
+        `,
+        7: `
+          <div class="kicker">06 / MY TAKE</div>
+          <h1>DSH 更像<br /><em>Agent 的 Linux</em></h1>
+          <p class="lede">它的优势不是比 Codex 更“开箱即用”，而是把 Agent 底盘拆成可以替换、组合和审计的插件。</p>
+          <div class="quote">真正的门槛，不是插件少。<br />是发现、验证、安装、回滚还没连成一条路。</div>
+          <div class="cta">
+            <div><strong>deeplugin.store</strong><br /><span>1055 个可安装插件 · 来源 · spec · 历史指标</span></div>
+          </div>
+          <p class="lede">这个 Store 和 Market Plugin 是我们自己维护的；不安装，也能直接查数据。</p>
+          <footer><strong>把 Star 变成证据链</strong><span>07 / 07</span></footer>
+        `,
+      };
+
+      const cardNumber = Number(new URLSearchParams(location.search).get("card")) || 2;
+      document.getElementById("card").innerHTML = cards[cardNumber] || cards[2];
+    </script>
+  </body>
+</html>

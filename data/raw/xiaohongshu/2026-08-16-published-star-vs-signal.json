@@ -1,0 +1,149 @@
+{
+  "capture_kind": "first-party-publish-confirmation",
+  "collected_at": "2026-08-16T12:36:22Z",
+  "collector": "ego-browser/ego-lite",
+  "method": "authenticated Xiaohongshu creator publish flow and note manager DOM",
+  "status": "ok",
+  "publication": {
+    "platform": "xiaohongshu",
+    "external_id": "6a81adb70000000032020f38",
+    "canonical_url": "https://www.xiaohongshu.com/explore/6a81adb70000000032020f38",
+    "creator_manager_url": "https://creator.xiaohongshu.com/new/note-manager",
+    "success_url": "https://creator.xiaohongshu.com/publish/success?source&bind_status=not_bind&__debugger__=&proxy=",
+    "published_at": "2026-08-16T12:31:00Z",
+    "published_label": "2026-08-16 20:31 Asia/Shanghai",
+    "author": "Severus S",
+    "title": "别再按 Star 装 DSH 插件了",
+    "body_character_count": 651,
+    "asset_count": 7,
+    "manager_card_text": "别再按 Star 装 DSH 插件了\n2026-08-16 20:31\n0\n0\n0\n0\n0",
+    "web_visibility_note": "The creator manager lists the note without an audit or rejection badge. Direct desktop-web access currently returns Xiaohongshu error 300031 and asks the visitor to open the app; retain the canonical URL and note id for later snapshots."
+  },
+  "observations": [
+    {
+      "platform": "xiaohongshu",
+      "query": "first-party publication: DSH plugin Star versus evidence",
+      "source_url": "https://www.xiaohongshu.com/explore/6a81adb70000000032020f38",
+      "collected_at": "2026-08-16T12:36:22Z",
+      "collector": "ego-browser/ego-lite",
+      "method": "authenticated creator manager DOM after successful publish redirect",
+      "status": "ok",
+      "result_count": 1,
+      "notes": "First-party campaign published by the repository maintainer account. Initial metrics are the five zero values shown on the manager card; metric meanings follow the manager icon order and are also preserved verbatim in publication.manager_card_text.",
+      "items": [
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a81adb70000000032020f38",
+          "url": "https://www.xiaohongshu.com/explore/6a81adb70000000032020f38",
+          "item_type": "note",
+          "title": "别再按 Star 装 DSH 插件了",
+          "author": "Severus S",
+          "published_at": "2026-08-16T12:31:00Z",
+          "published_label": "2026-08-16 20:31 Asia/Shanghai",
+          "content_text": "我把 deeplugin.store 里 1055 个可安装插件、来源和指标重新跑了一遍。\n\n最意外的是：按 Star 排，前几名未必是“最火的 DSH 插件”。例如 OpenViking 的 DSH memory plugin 显示 28.5k Star，但这是整个父仓的 Star，不是这个 adapter 的独立采用度。\n\n我又翻了几篇高赞笔记的评论区，大家反复卡住的其实不是“插件太少”，而是：GitHub 找到了不会装、看不懂权限、怕不兼容、装坏了不知道怎么退。\n\n所以我会按能力层选，而不是抄一份 Top 10：\n\n1. 交互层：dsh-web-ui-all / DSH Browser\n2. 能力层：OpenViking memory plugin / dsh-agent-teams\n3. 防线：dsh-plugin-check\n\n我的判断是，DSH 更像 Agent 的 Linux。它不一定比 Codex 更开箱即用，但它把 Agent 底盘拆成了可以替换、组合和审计的插件。\n\n真正的门槛不是插件少，而是发现、验证、安装、回滚还没连成一条路。\n\n完整来源、精确安装 spec 和历史指标放在 deeplugin.store。这个 Store 和 Market Plugin 是我们自己维护的，这里明确披露；不安装，也能直接查数据。\n\n你现在最想补的是 UI、浏览器、记忆，还是多 Agent？我继续拆下一篇。\n\n#DeepSeekHarness #DSH #AI工具 #AI编程 #AIAgent #开源项目 #效率工具",
+          "language": "zh-CN",
+          "category": "ecosystem",
+          "relevance": "confirmed",
+          "media_kind": "image",
+          "repo": "Shiyao-Huang/awesome-deepseek-harness-plugin",
+          "refs": [
+            "https://deeplugin.store/",
+            "https://github.com/Shiyao-Huang/awesome-deepseek-harness-plugin"
+          ],
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://raw.githubusercontent.com/Shiyao-Huang/awesome-deepseek-harness-plugin/main/media/campaigns/2026-08-16-xiaohongshu-star-signal/01-cover.png",
+              "alt_text": "别再按 Star 装 DSH 插件了",
+              "rights_note": "Original campaign asset generated and published by this repository."
+            },
+            {
+              "kind": "image",
+              "url": "https://raw.githubusercontent.com/Shiyao-Huang/awesome-deepseek-harness-plugin/main/media/campaigns/2026-08-16-xiaohongshu-star-signal/02-card.png",
+              "alt_text": "父仓 Star 不等于 DSH adapter 采用度",
+              "rights_note": "Original campaign asset generated and published by this repository."
+            },
+            {
+              "kind": "image",
+              "url": "https://raw.githubusercontent.com/Shiyao-Huang/awesome-deepseek-harness-plugin/main/media/campaigns/2026-08-16-xiaohongshu-star-signal/03-card.png",
+              "alt_text": "插件安装前的五项证据检查",
+              "rights_note": "Original campaign asset generated and published by this repository."
+            },
+            {
+              "kind": "image",
+              "url": "https://raw.githubusercontent.com/Shiyao-Huang/awesome-deepseek-harness-plugin/main/media/campaigns/2026-08-16-xiaohongshu-star-signal/04-card.png",
+              "alt_text": "dsh-web-ui-all 与 DSH Browser",
+              "rights_note": "Original campaign asset generated and published by this repository."
+            },
+            {
+              "kind": "image",
+              "url": "https://raw.githubusercontent.com/Shiyao-Huang/awesome-deepseek-harness-plugin/main/media/campaigns/2026-08-16-xiaohongshu-star-signal/05-card.png",
+              "alt_text": "OpenViking memory plugin 与 dsh-agent-teams",
+              "rights_note": "Original campaign asset generated and published by this repository."
+            },
+            {
+              "kind": "image",
+              "url": "https://raw.githubusercontent.com/Shiyao-Huang/awesome-deepseek-harness-plugin/main/media/campaigns/2026-08-16-xiaohongshu-star-signal/06-card.png",
+              "alt_text": "dsh-plugin-check 与 deeplugin market",
+              "rights_note": "Original campaign asset generated and published by this repository."
+            },
+            {
+              "kind": "image",
+              "url": "https://raw.githubusercontent.com/Shiyao-Huang/awesome-deepseek-harness-plugin/main/media/campaigns/2026-08-16-xiaohongshu-star-signal/07-card.png",
+              "alt_text": "DSH 更像 Agent 的 Linux",
+              "rights_note": "Original campaign asset generated and published by this repository."
+            }
+          ],
+          "metrics": {
+            "likes": 0,
+            "comments": 0,
+            "bookmarks": 0,
+            "views": 0,
+            "shares": 0,
+            "metric_source": "Xiaohongshu creator note manager initial card",
+            "observed_at": "2026-08-16T12:36:22Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "DeepSeek Harness",
+            "DSH",
+            "plugin",
+            "deeplugin.store",
+            "first-party campaign"
+          ],
+          "raw_capture": {
+            "publish_success_text": "发布成功",
+            "manager_card_text": "别再按 Star 装 DSH 插件了\n2026-08-16 20:31\n0\n0\n0\n0\n0",
+            "direct_web_status": "error 300031: 当前笔记暂时无法浏览; 请打开小红书App扫码查看"
+          }
+        }
+      ]
+    }
+  ],
+  "asset_sha256": {
+    "01-cover.png": "53854e78e168000482ea58be9c4a09ef0e3393a2d8591615ddd7e0e37a0409fd",
+    "02-card.png": "10de32140c94d90fc19739b84b544ad613a898cd6335deb7b0d8793f8c092c91",
+    "03-card.png": "5beb1e0e3315649cd089a364ff3eb301ed684ca53c2bef99c7be70c7972713a2",
+    "04-card.png": "314c688aedf6321e3cbfb771c122f6db36a201fff363d655fef0cf32e9215f5e",
+    "05-card.png": "9924d9d5009ce493f55dd73b4f2a88ca682f5d58227277e7f313e38a990b7fd7",
+    "06-card.png": "822fb52bffdf87623c0220290c85dd59c4cfeb62c266cce946411218e66f8e21",
+    "07-card.png": "8f81717a86de22c1967da0ba81effe8a106a749de262735aace9a4fe744ce0ee"
+  },
+  "legacy_projection": {
+    "ids": "xiaohongshu:6a81adb70000000032020f38",
+    "url": "https://www.xiaohongshu.com/explore/6a81adb70000000032020f38",
+    "repo": "Shiyao-Huang/awesome-deepseek-harness-plugin",
+    "context": "First-party DSH plugin discovery and evidence campaign",
+    "picture": 7,
+    "comment": 0,
+    "favor": 0,
+    "views": 0,
+    "refs": [
+      "https://deeplugin.store/",
+      "https://creator.xiaohongshu.com/new/note-manager"
+    ],
+    "rank": null,
+    "starts": null,
+    "stars": null
+  }
+}
