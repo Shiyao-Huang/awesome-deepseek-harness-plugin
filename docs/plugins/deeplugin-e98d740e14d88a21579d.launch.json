@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-e98d740e14d88a21579d",
+    "name": "dsh-skill-pack",
+    "author": "jeremy9682",
+    "category": "skill",
+    "version": null,
+    "homepage": "https://github.com/jeremy9682/dsh-skill-pack",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-e98d740e14d88a21579d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-e98d740e14d88a21579d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@jeremy9682/dsh-skill-pack",
+    "command": "dsh plugin --profile web add @jeremy9682/dsh-skill-pack",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-e98d740e14d88a21579d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-e98d740e14d88a21579d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-e98d740e14d88a21579d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-skill-pack 已收录到 DeepSeek Harness Plugin Store。11 个可分享的工作流 skills（handoff、triage、to-spec、to-tickets、wayfinder、teach、wait-what、dsh-mode-routing、ask-matt、overnight-execution、full-throttle），打包为可安装 bundle。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e98d740e14d88a21579d.html",
+    "en": "dsh-skill-pack is now listed on the DeepSeek Harness Plugin Store. 11 shareable workflow skills (handoff, triage, to-spec, to-tickets, wayfinder, teach, wait-what, dsh-mode-routing, ask-matt, overnight-execution, full-throttle) as an installable skill pack.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e98d740e14d88a21579d.html"
+  }
+}

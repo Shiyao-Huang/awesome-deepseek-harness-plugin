@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-d53801f87f57b6cac209",
+    "name": "dsh-engramory",
+    "author": "tinqiao-oss",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/tinqiao-oss/engramory/tree/master/adapters/dsh/plugin",
+    "firstObservedAt": "2026-08-16T08:41:44Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-d53801f87f57b6cac209.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-d53801f87f57b6cac209.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-engramory",
+    "command": "dsh plugin --profile web add dsh-engramory",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-d53801f87f57b6cac209，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-d53801f87f57b6cac209.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-d53801f87f57b6cac209.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-engramory 已收录到 DeepSeek Harness Plugin Store。把 Engramory 策展式记忆纪律做成可安装插件（[npm: dsh-engramory](https://www.npmjs.com/package/dsh-engramory)）：通过 `ctx.tools.guard()` 对 `MEMORY.md` 索引施加确定性的 200 行 / 25KB 上限（增长即拒、缩小的重写一律放行），并把协议注册为运行时 skill。记忆库是纯 markdown、一条事实一个文件，与 Claude Code、Codex、Kiro、OpenClaw 共用。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-d53801f87f57b6cac209.html",
+    "en": "dsh-engramory is now listed on the DeepSeek Harness Plugin Store. The Engramory curated-memory discipline as an installable plugin ([npm: dsh-engramory](https://www.npmjs.com/package/dsh-engramory)): a deterministic 200-line / 25 KB cap on the `MEMORY.md` index via `ctx.tools.guard()` — growth denied, a shrinking rewrite always passes — plus the protocol registered as a runtime skill. The store is plain markdown, one file per fact, shared with Claude Code, Codex, Kiro, and OpenClaw.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-d53801f87f57b6cac209.html"
+  }
+}

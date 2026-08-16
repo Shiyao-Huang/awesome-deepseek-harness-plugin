@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-voice — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-dc26248804dfb3a62bd1.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-dc26248804dfb3a62bd1.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-dc26248804dfb3a62bd1.html"/>
+  <entry>
+    <title>Updated: dsh-voice</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-dc26248804dfb3a62bd1/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-dc26248804dfb3a62bd1.html"/>
+    <author><name>haoku123</name></author>
+    <category term="tools"/>
+    <summary>Full-duplex voice mode for the Web UI: a composer mic (RMS endpoint detection) transcribes speech with whisper running locally in the browser, assistant replies stream back as spoken audio sentence-by-sentence, and speaking interrupts playback and the running turn (true barge-in). No API key. Exact install spec: github:haoku123/dsh-voice. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-voice</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-dc26248804dfb3a62bd1/e1ab6d4a0ce81c55</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-dc26248804dfb3a62bd1.html"/>
+    <author><name>haoku123</name></author>
+    <category term="tools"/>
+    <summary>Full-duplex voice mode for the Web UI: a composer mic (RMS endpoint detection) transcribes speech with whisper running locally in the browser, assistant replies stream back as spoken audio sentence-by-sentence, and speaking interrupts playback and the running turn (true barge-in). No API key. Exact install spec: github:haoku123/dsh-voice. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-voice</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-dc26248804dfb3a62bd1/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-dc26248804dfb3a62bd1.html"/>
+    <author><name>haoku123</name></author>
+    <category term="tools"/>
+    <summary>Full-duplex voice mode for the Web UI: a composer mic (RMS endpoint detection) transcribes speech with whisper running locally in the browser, assistant replies stream back as spoken audio sentence-by-sentence, and speaking interrupts playback and the running turn (true barge-in). No API key. Exact install spec: github:haoku123/dsh-voice. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

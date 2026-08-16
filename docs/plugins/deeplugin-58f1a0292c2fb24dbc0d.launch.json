@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-58f1a0292c2fb24dbc0d",
+    "name": "dsh-kimicode-swarm",
+    "author": "hongyue0721",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/hongyue0721/dsh-kimicode-swarm",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-58f1a0292c2fb24dbc0d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-58f1a0292c2fb24dbc0d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-kimicode-swarm",
+    "command": "dsh plugin --profile web add dsh-kimicode-swarm",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-58f1a0292c2fb24dbc0d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-58f1a0292c2fb24dbc0d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-58f1a0292c2fb24dbc0d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-kimicode-swarm 已收录到 DeepSeek Harness Plugin Store。Kimi Code 风格 swarm：批量并行子 Agent 调度（自适应并发）、/swarm 命令与聊天内实时进度条。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-58f1a0292c2fb24dbc0d.html",
+    "en": "dsh-kimicode-swarm is now listed on the DeepSeek Harness Plugin Store. Kimi-Code-style swarm: batch-parallel subagent dispatch with adaptive scheduling, a /swarm command, and in-chat live progress rows.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-58f1a0292c2fb24dbc0d.html"
+  }
+}

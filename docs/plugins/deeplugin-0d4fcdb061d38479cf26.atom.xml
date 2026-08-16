@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-session-manager — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-0d4fcdb061d38479cf26.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-0d4fcdb061d38479cf26.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-0d4fcdb061d38479cf26.html"/>
+  <entry>
+    <title>New: dsh-session-manager</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-0d4fcdb061d38479cf26/7e5b8321bc7d21b1</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-0d4fcdb061d38479cf26.html"/>
+    <author><name>wuxiangru915</name></author>
+    <category term="session"/>
+    <summary>Session manager for the DSH Web UI: browse all and archived sessions, restore/unarchive, delete with two-step confirmation, and preview conversation content from the Settings panel. Exact install spec: github:wuxiangru915/dsh-session-manager. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-subagent-agy — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-72f06b4e38b0406f19ca.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-72f06b4e38b0406f19ca.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-72f06b4e38b0406f19ca.html"/>
+  <entry>
+    <title>Updated: dsh-subagent-agy</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-72f06b4e38b0406f19ca/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-72f06b4e38b0406f19ca.html"/>
+    <author><name>ZEM17</name></author>
+    <category term="tools"/>
+    <summary>Google Antigravity CLI (agy) as a DSH product subagent: delegate tasks to a Gemini coding agent with your Antigravity login (no API key), with conversation follow-ups, background streaming progress, image analysis by path, and a pop-up login window. Exact install spec: github:zem17/dsh-subagent-agy. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-subagent-agy</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-72f06b4e38b0406f19ca/e1ab6d4a0ce81c55</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-72f06b4e38b0406f19ca.html"/>
+    <author><name>ZEM17</name></author>
+    <category term="tools"/>
+    <summary>Google Antigravity CLI (agy) as a DSH product subagent: delegate tasks to a Gemini coding agent with your Antigravity login (no API key), with conversation follow-ups, background streaming progress, image analysis by path, and a pop-up login window. Exact install spec: github:zem17/dsh-subagent-agy. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-subagent-agy</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-72f06b4e38b0406f19ca/656f2ea871eef1c6</id>
+    <updated>2026-08-16T00:51:32Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-72f06b4e38b0406f19ca.html"/>
+    <author><name>ZEM17</name></author>
+    <category term="tools"/>
+    <summary>Google Antigravity CLI (agy) as a DSH product subagent: delegate tasks to a Gemini coding agent with your Antigravity login (no API key), with conversation follow-ups, background streaming progress, image analysis by path, and a pop-up login window. Exact install spec: github:zem17/dsh-subagent-agy. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

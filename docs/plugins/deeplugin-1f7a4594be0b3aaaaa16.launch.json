@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-1f7a4594be0b3aaaaa16",
+    "name": "dsh-codex-sync",
+    "author": "Walvez",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/Walvez/dsh-codex-sync",
+    "firstObservedAt": "2026-08-16T09:56:16Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-1f7a4594be0b3aaaaa16.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-1f7a4594be0b3aaaaa16.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-codex-sync",
+    "command": "dsh plugin --profile web add dsh-codex-sync",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-1f7a4594be0b3aaaaa16，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-1f7a4594be0b3aaaaa16.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-1f7a4594be0b3aaaaa16.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-codex-sync 已收录到 DeepSeek Harness Plugin Store。OpenAI Codex 与 DeepSeek Harness 一站式双向同步：一等公民技能、codex 会话导入与工作区挂载、codex mcp_servers 实时 MCP 自动镜像、Codex 侧反向 MCP 一键安装器。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-1f7a4594be0b3aaaaa16.html",
+    "en": "dsh-codex-sync is now listed on the DeepSeek Harness Plugin Store. One-stop bidirectional sync between OpenAI Codex and DeepSeek Harness: first-class skills from ~/.codex/skills, codex session import with workspace attach, live MCP auto-mirror of codex's mcp_servers, and a Codex-side reverse MCP installer.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-1f7a4594be0b3aaaaa16.html"
+  }
+}

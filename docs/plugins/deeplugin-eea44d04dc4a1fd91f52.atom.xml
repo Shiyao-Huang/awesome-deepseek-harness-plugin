@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dshp — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-eea44d04dc4a1fd91f52.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-eea44d04dc4a1fd91f52.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-eea44d04dc4a1fd91f52.html"/>
+  <entry>
+    <title>Updated: dshp</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-eea44d04dc4a1fd91f52/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-eea44d04dc4a1fd91f52.html"/>
+    <author><name>asdf17128</name></author>
+    <category term="tools"/>
+    <summary>Registers `list_profiles` and `export_profile`, so the agent can show what setups exist and hand back a whole profile — bundle order, plugin versions and patch — as one portable file to share. Read-only. Exact install spec: github:asdf17128/dshp. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dshp</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-eea44d04dc4a1fd91f52/6f2ac25403078bce</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-eea44d04dc4a1fd91f52.html"/>
+    <author><name>asdf17128</name></author>
+    <category term="tools"/>
+    <summary>Registers `list_profiles` and `export_profile`, so the agent can show what setups exist and hand back a whole profile — bundle order, plugin versions and patch — as one portable file to share. Read-only. Exact install spec: github:asdf17128/dshp. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

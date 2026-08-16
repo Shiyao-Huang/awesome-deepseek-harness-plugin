@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-98ac95fd116367b381df",
+    "name": "dsh-boot-guard",
+    "author": "SaiSenBox",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/SaiSenBox/dsh-boot-guard",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-98ac95fd116367b381df.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-98ac95fd116367b381df.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-boot-guard",
+    "command": "dsh plugin --profile web add dsh-boot-guard",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-98ac95fd116367b381df，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-98ac95fd116367b381df.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-98ac95fd116367b381df.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-boot-guard 已收录到 DeepSeek Harness Plugin Store。独立于常规客户端插件加载链的 DSH Web 启动救援工具，可定位疑似故障插件、临时跳过，并且只恢复 Boot Guard 写入的配置。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-98ac95fd116367b381df.html",
+    "en": "dsh-boot-guard is now listed on the DeepSeek Harness Plugin Store. Loader-independent startup recovery for DSH Web that detects likely broken plugins, temporarily skips them, and restores only Boot Guard-managed changes.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-98ac95fd116367b381df.html"
+  }
+}

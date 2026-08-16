@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-2ce65bc7b5111a3820ac",
+    "name": "dsh-all-warmup",
+    "author": "brunhildzhou",
+    "category": "optimization",
+    "version": null,
+    "homepage": "https://github.com/brunhildzhou/dsh-all-warmup",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T14:38:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-2ce65bc7b5111a3820ac.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-2ce65bc7b5111a3820ac.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:brunhildzhou/dsh-all-warmup",
+    "command": "dsh plugin --profile web add github:brunhildzhou/dsh-all-warmup",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-2ce65bc7b5111a3820ac，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-2ce65bc7b5111a3820ac.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-2ce65bc7b5111a3820ac.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-all-warmup 已收录到 DeepSeek Harness Plugin Store。全局无感热身层：每个会话（含子代理与压缩后）首轮自动收窄到极简工具对并注入一次热身回复，第二轮起恢复完整模式。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-2ce65bc7b5111a3820ac.html",
+    "en": "dsh-all-warmup is now listed on the DeepSeek Harness Plugin Store. Global frictionless warm-up layer: every session's first request (subagent depths and post-compaction included) is narrowed to the minimal tool pair with one injected warmup reply; the full original mode returns from round two.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-2ce65bc7b5111a3820ac.html"
+  }
+}

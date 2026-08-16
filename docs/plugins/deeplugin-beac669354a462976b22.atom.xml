@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-nuphus-mcp — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-beac669354a462976b22.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-beac669354a462976b22.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-beac669354a462976b22.html"/>
+  <entry>
+    <title>Updated: dsh-nuphus-mcp</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-beac669354a462976b22/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-beac669354a462976b22.html"/>
+    <author><name>jiayan-xu</name></author>
+    <category term="tools"/>
+    <summary>Desktop and browser automation bridge (36 tools): window/screen/mouse/keyboard control with PaddleOCR element perception, Chrome CDP browsing with accessibility snapshots. Exact install spec: github:jiayan-xu/dsh-nuphus-mcp. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-nuphus-mcp</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-beac669354a462976b22/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-beac669354a462976b22.html"/>
+    <author><name>jiayan-xu</name></author>
+    <category term="tools"/>
+    <summary>Desktop and browser automation bridge (36 tools): window/screen/mouse/keyboard control with PaddleOCR element perception, Chrome CDP browsing with accessibility snapshots. Exact install spec: github:jiayan-xu/dsh-nuphus-mcp. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-nuphus-mcp</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-beac669354a462976b22/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-beac669354a462976b22.html"/>
+    <author><name>jiayan-xu</name></author>
+    <category term="tools"/>
+    <summary>Desktop and browser automation bridge (36 tools): window/screen/mouse/keyboard control with PaddleOCR element perception, Chrome CDP browsing with accessibility snapshots. Exact install spec: github:jiayan-xu/dsh-nuphus-mcp. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

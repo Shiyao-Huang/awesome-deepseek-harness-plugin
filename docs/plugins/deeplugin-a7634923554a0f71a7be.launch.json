@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a7634923554a0f71a7be",
+    "name": "dsh-balance-float",
+    "author": "x2802490130-prog",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/x2802490130-prog/dsh-balance-float",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a7634923554a0f71a7be.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a7634923554a0f71a7be.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-balance-float",
+    "command": "dsh plugin --profile web add dsh-balance-float",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a7634923554a0f71a7be，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a7634923554a0f71a7be.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a7634923554a0f71a7be.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-balance-float 已收录到 DeepSeek Harness Plugin Store。Web UI 右上角悬浮窗：实时显示 DeepSeek 余额，支持手动刷新与一键优雅退出（Y/N 快捷键确认）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a7634923554a0f71a7be.html",
+    "en": "dsh-balance-float is now listed on the DeepSeek Harness Plugin Store. A floating balance widget for the Web UI: live DeepSeek account balance with manual refresh and a Y/N-confirmed graceful exit.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a7634923554a0f71a7be.html"
+  }
+}

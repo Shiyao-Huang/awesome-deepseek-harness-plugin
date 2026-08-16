@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-852c6691f0e4afd6a1de",
+    "name": "dsh-pilot",
+    "author": "guo6x",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/guo6x/dsh-pilot",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-852c6691f0e4afd6a1de.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-852c6691f0e4afd6a1de.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:guo6x/dsh-pilot",
+    "command": "dsh plugin --profile web add github:guo6x/dsh-pilot",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-852c6691f0e4afd6a1de，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-852c6691f0e4afd6a1de.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-852c6691f0e4afd6a1de.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-pilot 已收录到 DeepSeek Harness Plugin Store。零依赖浏览器操控：agent 通过 CDP 驾驶真实 headless Edge/Chrome（导航/点击/输入/按键/JS/截图，8 个 `pilot_*` 工具），Web GUI 内可拖拽驾驶舱面板实时围观——文本优先快照适配纯文本模型，无需 Playwright、无需 API key。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-852c6691f0e4afd6a1de.html",
+    "en": "dsh-pilot is now listed on the DeepSeek Harness Plugin Store. Zero-dependency browser control: drive a real headless Edge/Chrome over CDP with 8 `pilot_*` tools (navigate/click/type/keys/eval/screenshot) plus a live draggable cockpit panel in the Web GUI - text-first snapshots for text-only models, no Playwright, no API key.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-852c6691f0e4afd6a1de.html"
+  }
+}

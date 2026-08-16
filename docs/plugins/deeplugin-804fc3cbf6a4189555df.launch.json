@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-804fc3cbf6a4189555df",
+    "name": "dsh-codex-oauth",
+    "author": "WNJXYK",
+    "category": "model",
+    "version": null,
+    "homepage": "https://github.com/WNJXYK/dsh-codex-oauth",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-804fc3cbf6a4189555df.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-804fc3cbf6a4189555df.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@wnjxyk/dsh-codex-oauth",
+    "command": "dsh plugin --profile web add @wnjxyk/dsh-codex-oauth",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-804fc3cbf6a4189555df，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-804fc3cbf6a4189555df.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-804fc3cbf6a4189555df.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-codex-oauth 已收录到 DeepSeek Harness Plugin Store。在 DeepSeek Harness 中使用 ChatGPT/Codex 订阅接入 GPT 模型、图像生成与 Web 搜索，并支持订阅额度显示、模型与功能控制，以及浏览器或设备码 OAuth 登录。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-804fc3cbf6a4189555df.html",
+    "en": "dsh-codex-oauth is now listed on the DeepSeek Harness Plugin Store. Use a ChatGPT/Codex subscription in DeepSeek Harness with GPT models, image generation, web search, subscription quota reporting, model and feature controls, and browser or device-code OAuth sign-in.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-804fc3cbf6a4189555df.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-87addceb2bd98b54041e",
+    "name": "dsh-advisor",
+    "author": "btspoony",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/btspoony/dsh-advisor",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-87addceb2bd98b54041e.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-87addceb2bd98b54041e.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:btspoony/dsh-advisor",
+    "command": "dsh plugin --profile web add github:btspoony/dsh-advisor",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-87addceb2bd98b54041e，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-87addceb2bd98b54041e.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-87addceb2bd98b54041e.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-advisor 已收录到 DeepSeek Harness Plugin Store。搭配一个副模型，每轮被动审查并注入见解。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-87addceb2bd98b54041e.html",
+    "en": "dsh-advisor is now listed on the DeepSeek Harness Plugin Store. Pair a second model that passively reviews each turn and injects notes.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-87addceb2bd98b54041e.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-c6a01666b7629e99e933",
+    "name": "dsh-biomemory",
+    "author": "KLRSL",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/KLRSL/dsh-biomemory",
+    "firstObservedAt": "2026-08-16T09:56:16Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-c6a01666b7629e99e933.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-c6a01666b7629e99e933.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:klrsl/dsh-biomemory",
+    "command": "dsh plugin --profile web add github:klrsl/dsh-biomemory",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-c6a01666b7629e99e933，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-c6a01666b7629e99e933.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-c6a01666b7629e99e933.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-biomemory 已收录到 DeepSeek Harness Plugin Store。为 DeepSeek Harness 打造的生物仿生记忆系统：纯 Markdown 数据层、memory 工具、冻结快照注入、分级审批门、结构化审计、记忆代谢（dream）、记忆钉、语义检索、/memory 命令与跨会话召回。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c6a01666b7629e99e933.html",
+    "en": "dsh-biomemory is now listed on the DeepSeek Harness Plugin Store. Biomimetic memory system for DeepSeek Harness: plain-Markdown data layer, memory tools, frozen-snapshot injection, graded approval gating, structured audits, memory metabolism (dream), memory pins, semantic recall, /memory command, and cross-session retrieval.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-c6a01666b7629e99e933.html"
+  }
+}

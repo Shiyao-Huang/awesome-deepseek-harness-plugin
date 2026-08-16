@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-36d53d1c3fc4720d381b",
+    "name": "dsh-auto-continue",
+    "author": "HsiangNianian",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/HsiangNianian/dsh-auto-continue",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-36d53d1c3fc4720d381b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-36d53d1c3fc4720d381b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-client-auto-continue",
+    "command": "dsh plugin --profile web add dsh-client-auto-continue",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-36d53d1c3fc4720d381b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-36d53d1c3fc4720d381b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-36d53d1c3fc4720d381b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-auto-continue 已收录到 DeepSeek Harness Plugin Store。DSH Web 请求中断自动续跑：网络、超时或宿主崩溃等非人为失败后自动发送「继续」，支持错误分类、自适应退避、模板化继续文本与浏览器通知。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-36d53d1c3fc4720d381b.html",
+    "en": "dsh-auto-continue is now listed on the DeepSeek Harness Plugin Store. Auto-resumes interrupted DSH Web requests: sends a queued 「继续」 after network, timeout or host-crash failures, with error classification, adaptive backoff, templated continue text and browser notifications.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-36d53d1c3fc4720d381b.html"
+  }
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-review-loop — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-93a25b11144899f1d50c.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-93a25b11144899f1d50c.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-93a25b11144899f1d50c.html"/>
+  <entry>
+    <title>Updated: dsh-review-loop</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-93a25b11144899f1d50c/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-93a25b11144899f1d50c.html"/>
+    <author><name>wuxiangru915</name></author>
+    <category term="workflow"/>
+    <summary>Incremental diff reviewer for DSH: after approving a batch, only new changes since the checkpoint are shown, with a Web review panel and `/review` command that inject feedback back to the agent. Exact install spec: github:wuxiangru915/dsh-review-loop. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-review-loop</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-93a25b11144899f1d50c/51a7b1264f6c44a6</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-93a25b11144899f1d50c.html"/>
+    <author><name>wuxiangru915</name></author>
+    <category term="workflow"/>
+    <summary>Incremental diff reviewer for DSH: after approving a batch, only new changes since the checkpoint are shown, with a Web review panel and `/review` command that inject feedback back to the agent. Exact install spec: github:wuxiangru915/dsh-review-loop. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-review-loop</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-93a25b11144899f1d50c/7cc2b014d07ab963</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-93a25b11144899f1d50c.html"/>
+    <author><name>wuxiangru915</name></author>
+    <category term="workflow"/>
+    <summary>Incremental diff reviewer for DSH: after approving a batch, only new changes since the checkpoint are shown, with a Web review panel and `/review` command that inject feedback back to the agent. Exact install spec: github:wuxiangru915/dsh-review-loop. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

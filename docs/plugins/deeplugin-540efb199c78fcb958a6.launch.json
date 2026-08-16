@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-540efb199c78fcb958a6",
+    "name": "dsh-claude-cli",
+    "author": "katsos",
+    "category": "model",
+    "version": null,
+    "homepage": "https://github.com/katsos/dsh-claude-cli",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-540efb199c78fcb958a6.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-540efb199c78fcb958a6.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:katsos/dsh-claude-cli",
+    "command": "dsh plugin --profile web add github:katsos/dsh-claude-cli",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-540efb199c78fcb958a6，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-540efb199c78fcb958a6.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-540efb199c78fcb958a6.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-claude-cli 已收录到 DeepSeek Harness Plugin Store。LLM 供应商：把本机已安装的 Claude Code CLI 作为模型后端，请求走已订阅的 Claude 账号，无需按量计费的 API key；原生工具调用经 MCP 桥接。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-540efb199c78fcb958a6.html",
+    "en": "dsh-claude-cli is now listed on the DeepSeek Harness Plugin Store. LLM provider that runs the locally installed Claude Code CLI as the model backend, so requests go through an existing Claude subscription instead of a metered API key; native tool calls are bridged over MCP.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-540efb199c78fcb958a6.html"
+  }
+}

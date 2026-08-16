@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-974f46d294744ac29933",
+    "name": "dsh-file-uploads",
+    "author": "l541402398",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/l541402398/dsh-file-uploads",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-974f46d294744ac29933.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-974f46d294744ac29933.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:l541402398/dsh-file-uploads",
+    "command": "dsh plugin --profile web add github:l541402398/dsh-file-uploads",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-974f46d294744ac29933，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-974f46d294744ac29933.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-974f46d294744ac29933.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-file-uploads 已收录到 DeepSeek Harness Plugin Store。从 Web 输入框上传任意本地文件，以待发送卡片展示，并在设置中管理已存文件。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-974f46d294744ac29933.html",
+    "en": "dsh-file-uploads is now listed on the DeepSeek Harness Plugin Store. Upload arbitrary local files from the Web composer, show pending cards, and manage stored files in Settings.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-974f46d294744ac29933.html"
+  }
+}

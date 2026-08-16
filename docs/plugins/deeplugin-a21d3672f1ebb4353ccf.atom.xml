@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>qmd-autosearch — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-a21d3672f1ebb4353ccf.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-a21d3672f1ebb4353ccf.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a21d3672f1ebb4353ccf.html"/>
+  <entry>
+    <title>Updated: qmd-autosearch</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-a21d3672f1ebb4353ccf/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a21d3672f1ebb4353ccf.html"/>
+    <author><name>zhangzhenwen1</name></author>
+    <category term="tools"/>
+    <summary>Auto-supplement QMD semantic search when the model greps/globs a knowledge-base directory: zero-dependency DSH plugin, async injection via next-step, no manual invocation. Exact install spec: qmd-autosearch. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: qmd-autosearch</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-a21d3672f1ebb4353ccf/e1ab6d4a0ce81c55</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a21d3672f1ebb4353ccf.html"/>
+    <author><name>zhangzhenwen1</name></author>
+    <category term="tools"/>
+    <summary>Auto-supplement QMD semantic search when the model greps/globs a knowledge-base directory: zero-dependency DSH plugin, async injection via next-step, no manual invocation. Exact install spec: qmd-autosearch. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: qmd-autosearch</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-a21d3672f1ebb4353ccf/e5d3b61e178a5529</id>
+    <updated>2026-08-16T05:04:11Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a21d3672f1ebb4353ccf.html"/>
+    <author><name>zhangzhenwen1</name></author>
+    <category term="tools"/>
+    <summary>Auto-supplement QMD semantic search when the model greps/globs a knowledge-base directory: zero-dependency DSH plugin, async injection via next-step, no manual invocation. Exact install spec: qmd-autosearch. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

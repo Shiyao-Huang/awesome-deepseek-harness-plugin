@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-e9e9682986915ab46c67",
+    "name": "dsh-running-liang",
+    "author": "skiuniverse",
+    "category": "fun",
+    "version": null,
+    "homepage": "https://github.com/skiuniverse/dsh-running-liang",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-e9e9682986915ab46c67.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-e9e9682986915ab46c67.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-running-liang",
+    "command": "dsh plugin --profile web add dsh-running-liang",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-e9e9682986915ab46c67，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-e9e9682986915ab46c67.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-e9e9682986915ab46c67.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-running-liang 已收录到 DeepSeek Harness Plugin Store。等待 Agent 回复时的恐龙快跑小游戏：常驻进度条从「梁子」冲向「梁圣」，折叠即暂停、任意键恢复。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e9e9682986915ab46c67.html",
+    "en": "dsh-running-liang is now listed on the DeepSeek Harness Plugin Store. A Chrome-dino-style runner for the DeepSeek Harness Web UI: play while the agent replies, score from 梁子 to 梁圣 on a persistent progress strip.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e9e9682986915ab46c67.html"
+  }
+}

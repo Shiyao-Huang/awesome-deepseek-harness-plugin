@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-723e535b913adcbc58b8",
+    "name": "dsh-commandcode-provider",
+    "author": "Mars-Sea",
+    "category": "model",
+    "version": null,
+    "homepage": "https://github.com/Mars-Sea/dsh-commandcode-provider",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-723e535b913adcbc58b8.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-723e535b913adcbc58b8.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@mars-sea/dsh-commandcode-provider",
+    "command": "dsh plugin --profile web add @mars-sea/dsh-commandcode-provider",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-723e535b913adcbc58b8，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-723e535b913adcbc58b8.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-723e535b913adcbc58b8.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-commandcode-provider 已收录到 DeepSeek Harness Plugin Store。非官方 Command Code 模型接入插件：注册 `commandcode` 路由，带实时模型目录与推理强度支持。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-723e535b913adcbc58b8.html",
+    "en": "dsh-commandcode-provider is now listed on the DeepSeek Harness Plugin Store. Unofficial Command Code LLM provider: registers a `commandcode` route with a live model catalog and reasoning-effort support.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-723e535b913adcbc58b8.html"
+  }
+}

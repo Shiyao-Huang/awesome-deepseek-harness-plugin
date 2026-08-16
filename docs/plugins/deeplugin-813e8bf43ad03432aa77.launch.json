@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-813e8bf43ad03432aa77",
+    "name": "DSH-Right-Sidebar",
+    "author": "Limitinfinitude",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/Limitinfinitude/DSH-Right-Sidebar",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-813e8bf43ad03432aa77.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-813e8bf43ad03432aa77.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:limitinfinitude/dsh-right-sidebar",
+    "command": "dsh plugin --profile web add github:limitinfinitude/dsh-right-sidebar",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-813e8bf43ad03432aa77，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-813e8bf43ad03432aa77.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-813e8bf43ad03432aa77.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "DSH-Right-Sidebar 已收录到 DeepSeek Harness Plugin Store。DSH Web 原生右侧产物栏，按会话收集用户产物，预览用户可读文件并保存标签状态。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-813e8bf43ad03432aa77.html",
+    "en": "DSH-Right-Sidebar is now listed on the DeepSeek Harness Plugin Store. DSH Web right-side output dock that collects session artifacts, previews user-facing files, and preserves tab state per session.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-813e8bf43ad03432aa77.html"
+  }
+}

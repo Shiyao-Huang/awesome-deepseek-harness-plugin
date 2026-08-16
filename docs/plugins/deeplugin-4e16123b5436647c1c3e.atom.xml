@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-cognition — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-4e16123b5436647c1c3e.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-4e16123b5436647c1c3e.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-4e16123b5436647c1c3e.html"/>
+  <entry>
+    <title>Updated: dsh-cognition</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-4e16123b5436647c1c3e/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-4e16123b5436647c1c3e.html"/>
+    <author><name>scd13150</name></author>
+    <category term="memory"/>
+    <summary>Project memory for coding agents on DeepSeek Harness: similar past edits surface as precedents, out-of-scope edits are blocked, and cognition persists across sessions (47 upstream-verified fixes, gold-free 20-task run). Exact install spec: github:scd13150/dsh-cognition. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-cognition</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-4e16123b5436647c1c3e/e1ab6d4a0ce81c55</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-4e16123b5436647c1c3e.html"/>
+    <author><name>scd13150</name></author>
+    <category term="memory"/>
+    <summary>Project memory for coding agents on DeepSeek Harness: similar past edits surface as precedents, out-of-scope edits are blocked, and cognition persists across sessions (47 upstream-verified fixes, gold-free 20-task run). Exact install spec: github:scd13150/dsh-cognition. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-cognition</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-4e16123b5436647c1c3e/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-4e16123b5436647c1c3e.html"/>
+    <author><name>scd13150</name></author>
+    <category term="memory"/>
+    <summary>Project memory for coding agents on DeepSeek Harness: similar past edits surface as precedents, out-of-scope edits are blocked, and cognition persists across sessions (47 upstream-verified fixes, gold-free 20-task run). Exact install spec: github:scd13150/dsh-cognition. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

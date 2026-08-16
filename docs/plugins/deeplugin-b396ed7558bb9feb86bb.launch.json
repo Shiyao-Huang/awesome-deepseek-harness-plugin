@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-b396ed7558bb9feb86bb",
+    "name": "dsh-auto-chess",
+    "author": "omdsh-dev",
+    "category": "fun",
+    "version": null,
+    "homepage": "https://github.com/omdsh-dev/dsh-auto-chess",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-b396ed7558bb9feb86bb.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-b396ed7558bb9feb86bb.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:omdsh-dev/dsh-auto-chess",
+    "command": "dsh plugin --profile web add github:omdsh-dev/dsh-auto-chess",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-b396ed7558bb9feb86bb，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-b396ed7558bb9feb86bb.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b396ed7558bb9feb86bb.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-auto-chess 已收录到 DeepSeek Harness Plugin Store。自走棋：人机对战或双 AI 对弈。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b396ed7558bb9feb86bb.html",
+    "en": "dsh-auto-chess is now listed on the DeepSeek Harness Plugin Store. Auto chess: human vs AI, or AI vs AI.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b396ed7558bb9feb86bb.html"
+  }
+}

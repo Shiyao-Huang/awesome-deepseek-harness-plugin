@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-296f91a7af471174139b",
+    "name": "dsh-toolbox-web",
+    "author": "AbcdefgXW",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/AbcdefgXW/dsh-toolbox-web",
+    "firstObservedAt": "2026-08-16T09:56:16Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-296f91a7af471174139b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-296f91a7af471174139b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-toolbox-web",
+    "command": "dsh plugin --profile web add dsh-toolbox-web",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-296f91a7af471174139b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-296f91a7af471174139b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-296f91a7af471174139b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-toolbox-web 已收录到 DeepSeek Harness Plugin Store。Web 界面工具箱：会话/回收站/子目录/搜索/预设/配置管理、标签分组、长消息折叠，以及支持 IM 渠道推送的定时心跳。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-296f91a7af471174139b.html",
+    "en": "dsh-toolbox-web is now listed on the DeepSeek Harness Plugin Store. Toolbox plugin for the Web UI: session/trash/subdirectory/search/preset/config management, tag grouping, long-message collapse, and a scheduled heartbeat with optional IM channel push.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-296f91a7af471174139b.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-83285a57b721bfb38090",
+    "name": "dsh-balance-meter",
+    "author": "Ghost011118",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/Ghost011118/dsh-balance-meter",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-83285a57b721bfb38090.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-83285a57b721bfb38090.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:ghost011118/dsh-balance-meter",
+    "command": "dsh plugin --profile web add github:ghost011118/dsh-balance-meter",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-83285a57b721bfb38090，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-83285a57b721bfb38090.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-83285a57b721bfb38090.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-balance-meter 已收录到 DeepSeek Harness Plugin Store。输入框 dock 显示 DeepSeek 账户余额与会话花费，自动拉取官方定价，支持高峰/低谷计价。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-83285a57b721bfb38090.html",
+    "en": "dsh-balance-meter is now listed on the DeepSeek Harness Plugin Store. DeepSeek account balance and session cost in the composer dock, with auto-fetched official pricing and peak/off-peak support.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-83285a57b721bfb38090.html"
+  }
+}

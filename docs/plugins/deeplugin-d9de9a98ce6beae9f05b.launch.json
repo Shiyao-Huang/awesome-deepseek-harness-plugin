@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-d9de9a98ce6beae9f05b",
+    "name": "dsh-usage-vendor-stats",
+    "author": "kirigayakazima",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/kirigayakazima/dsh-usage-vendor-stats",
+    "firstObservedAt": "2026-08-16T05:04:11Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-d9de9a98ce6beae9f05b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-d9de9a98ce6beae9f05b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:kirigayakazima/dsh-usage-vendor-stats",
+    "command": "dsh plugin --profile web add github:kirigayakazima/dsh-usage-vendor-stats",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-d9de9a98ce6beae9f05b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-d9de9a98ce6beae9f05b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-d9de9a98ce6beae9f05b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-usage-vendor-stats 已收录到 DeepSeek Harness Plugin Store。按厂商（订阅/官方API）统计用量看板：按供应商/模型拆分 Token、缓存、输出等 KPI，53 周热力图，趋势折线图（今天按小时），模型钻取，费用估算，CSV 导出，以及健康度卡片（TTFT、生成速度、峰值 Context、错误率）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-d9de9a98ce6beae9f05b.html",
+    "en": "dsh-usage-vendor-stats is now listed on the DeepSeek Harness Plugin Store. Vendor-based usage dashboard: per-provider token/cache/output KPI, a 53-week heatmap, trend chart with hourly \"today\" view, model drilldown, cost estimation, CSV export, and health cards (TTFT, generation speed, peak context, error rate).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-d9de9a98ce6beae9f05b.html"
+  }
+}

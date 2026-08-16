@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-f8c4be5bb6431f71a4bd",
+    "name": "dsh-answer-pet",
+    "author": "Nanki-nn",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/Nanki-nn/dsh-answer-pet",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-f8c4be5bb6431f71a4bd.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-f8c4be5bb6431f71a4bd.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:nanki-nn/dsh-answer-pet",
+    "command": "dsh plugin --profile web add github:nanki-nn/dsh-answer-pet",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-f8c4be5bb6431f71a4bd，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-f8c4be5bb6431f71a4bd.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-f8c4be5bb6431f71a4bd.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-answer-pet 已收录到 DeepSeek Harness Plugin Store。蓝鲸桌面宠物：按会话实时展示回答进度、模型动作与工具调用轨迹、token、输出速率与耗时，并支持多会话状态卡片展开和收起。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-f8c4be5bb6431f71a4bd.html",
+    "en": "dsh-answer-pet is now listed on the DeepSeek Harness Plugin Store. Animated blue-whale desktop pet with per-session response progress, model activity and tool-call traces, token counts, output speed, elapsed time, and collapsible multi-session status cards.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-f8c4be5bb6431f71a4bd.html"
+  }
+}

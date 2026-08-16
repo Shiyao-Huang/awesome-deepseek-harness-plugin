@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-mermaid-render — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-a5b3db984c310a6e6090.atom.xml</id>
+  <updated>2026-08-16T13:41:06Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-a5b3db984c310a6e6090.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a5b3db984c310a6e6090.html"/>
+  <entry>
+    <title>New: dsh-mermaid-render</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-a5b3db984c310a6e6090/60715e29601bb9d9</id>
+    <updated>2026-08-16T13:41:06Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a5b3db984c310a6e6090.html"/>
+    <author><name>genius-alray</name></author>
+    <category term="ui"/>
+    <summary>Mermaid diagram renderer for the Web UI conversation: renders mermaid code blocks into interactive cards (zoom, fit-width, fullscreen viewer, preview/code toggle) with official UI primitives, and keeps the original code block with an inline error banner when rendering fails. Exact install spec: github:genius-alray/dsh-mermaid-render. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

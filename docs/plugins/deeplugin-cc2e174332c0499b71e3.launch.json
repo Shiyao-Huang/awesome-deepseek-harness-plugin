@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-cc2e174332c0499b71e3",
+    "name": "dsh-update-checker",
+    "author": "YZz-S",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/YZz-S/dsh-update-checker",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-cc2e174332c0499b71e3.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-cc2e174332c0499b71e3.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:yzz-s/dsh-update-checker",
+    "command": "dsh plugin --profile web add github:yzz-s/dsh-update-checker",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-cc2e174332c0499b71e3，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-cc2e174332c0499b71e3.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-cc2e174332c0499b71e3.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-update-checker 已收录到 DeepSeek Harness Plugin Store。会话顶栏徽章：显示 DeepSeek Harness 当前版本，自动检查 npm 最新版本，有新版时提示升级。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-cc2e174332c0499b71e3.html",
+    "en": "dsh-update-checker is now listed on the DeepSeek Harness Plugin Store. Conversation header badge showing the DeepSeek Harness version, checking npm for the latest release and prompting upgrades.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-cc2e174332c0499b71e3.html"
+  }
+}

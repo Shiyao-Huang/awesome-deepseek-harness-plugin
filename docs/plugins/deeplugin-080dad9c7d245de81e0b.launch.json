@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-080dad9c7d245de81e0b",
+    "name": "dsh-alive",
+    "author": "AikenFra",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/AikenFra/dsh-alive",
+    "firstObservedAt": "2026-08-16T14:38:49Z",
+    "lastChangedAt": "2026-08-16T14:38:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-080dad9c7d245de81e0b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-080dad9c7d245de81e0b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-alive",
+    "command": "dsh plugin --profile web add dsh-alive",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-080dad9c7d245de81e0b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-080dad9c7d245de81e0b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-080dad9c7d245de81e0b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-alive 已收录到 DeepSeek Harness Plugin Store。零 token 在线状态指示器：会话头部常驻显示 ● 在线 / ● 离线 状态点，每 15 秒自动检测一次，不调用任何 LLM。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-080dad9c7d245de81e0b.html",
+    "en": "dsh-alive is now listed on the DeepSeek Harness Plugin Store. Zero-token online status indicator for the DeepSeek Harness web UI: an always-visible online/offline dot in the conversation header, auto-refreshed every 15 seconds with no LLM calls.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-080dad9c7d245de81e0b.html"
+  }
+}

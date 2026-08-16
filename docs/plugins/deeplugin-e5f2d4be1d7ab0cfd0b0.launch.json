@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-e5f2d4be1d7ab0cfd0b0",
+    "name": "dsh-web-remote",
+    "author": "godchen520",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/godchen520/dsh-web-remote",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-e5f2d4be1d7ab0cfd0b0.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-e5f2d4be1d7ab0cfd0b0.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:godchen520/dsh-web-remote",
+    "command": "dsh plugin --profile web add github:godchen520/dsh-web-remote",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-e5f2d4be1d7ab0cfd0b0，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-e5f2d4be1d7ab0cfd0b0.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-e5f2d4be1d7ab0cfd0b0.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-web-remote 已收录到 DeepSeek Harness Plugin Store。手机/外网远程访问 DSH：Cloudflare Quick Tunnel 公网链接 + 局域网 HTTP/HTTPS 直连（自动生成自签名证书）、token 鉴权、gzip 压缩、常驻手机图标面板（一键复制/二维码），并内置 NapCat QQ 机器人取链接通道。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e5f2d4be1d7ab0cfd0b0.html",
+    "en": "dsh-web-remote is now listed on the DeepSeek Harness Plugin Store. Access DSH from your phone or anywhere: Cloudflare Quick Tunnel public link + LAN HTTP/HTTPS direct access (auto self-signed cert), token auth, gzip compression, floating phone-icon panel with QR codes, and a NapCat QQ bot channel to fetch the link.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e5f2d4be1d7ab0cfd0b0.html"
+  }
+}

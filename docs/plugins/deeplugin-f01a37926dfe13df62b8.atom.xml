@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-depguard — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-f01a37926dfe13df62b8.atom.xml</id>
+  <updated>2026-08-16T13:41:06Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-f01a37926dfe13df62b8.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f01a37926dfe13df62b8.html"/>
+  <entry>
+    <title>New: dsh-depguard</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-f01a37926dfe13df62b8/60715e29601bb9d9</id>
+    <updated>2026-08-16T13:41:06Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f01a37926dfe13df62b8.html"/>
+    <author><name>DeLightor</name></author>
+    <category term="dev"/>
+    <summary>Dependency-topology guard: pre-install conflict prediction and post-install detection of duplicate @deepseek-ai/dsh-* copies, version drift, and vendored core services that cause Symbol-key crashes like "Cannot read properties of undefined (reading 'prepare')". Exact install spec: github:delightor/dsh-depguard. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

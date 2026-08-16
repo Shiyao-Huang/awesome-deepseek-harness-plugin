@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-b46bd4864581c225a3ec",
+    "name": "superdesign-skill",
+    "author": "superdesigndev",
+    "category": "skill",
+    "version": null,
+    "homepage": "https://github.com/superdesigndev/superdesign-skill",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-b46bd4864581c225a3ec.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-b46bd4864581c225a3ec.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:superdesigndev/superdesign-skill",
+    "command": "dsh plugin --profile web add github:superdesigndev/superdesign-skill",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-b46bd4864581c225a3ec，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-b46bd4864581c225a3ec.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b46bd4864581c225a3ec.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "superdesign-skill 已收录到 DeepSeek Harness Plugin Store。在 Superdesign 画布上做 UI 与营销图的设计技能：先读代码库拿上下文、抽取现有设计系统，再通过 Superdesign CLI 生成并迭代可分支的设计稿、流程页与可复用组件。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b46bd4864581c225a3ec.html",
+    "en": "superdesign-skill is now listed on the DeepSeek Harness Plugin Store. Design skill for UI and marketing graphics on the Superdesign canvas: reads the repo for context, extracts its design system, then generates and iterates branchable design drafts, flow pages, and reusable components through the Superdesign CLI.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b46bd4864581c225a3ec.html"
+  }
+}

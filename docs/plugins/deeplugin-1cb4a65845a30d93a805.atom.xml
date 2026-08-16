@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-tool-github — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-1cb4a65845a30d93a805.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-1cb4a65845a30d93a805.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1cb4a65845a30d93a805.html"/>
+  <entry>
+    <title>Updated: dsh-tool-github</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-1cb4a65845a30d93a805/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1cb4a65845a30d93a805.html"/>
+    <author><name>NEAZ71eve</name></author>
+    <category term="tools"/>
+    <summary>GitHub REST API tools + browser sidebar panel: repos, search, issues, PRs, comments, account binding (credential-store), and one-click clone-as-workspace. Exact install spec: github:neaz71eve/dsh-tool-github. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-tool-github</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-1cb4a65845a30d93a805/7e5b8321bc7d21b1</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1cb4a65845a30d93a805.html"/>
+    <author><name>NEAZ71eve</name></author>
+    <category term="tools"/>
+    <summary>GitHub REST API tools + browser sidebar panel: repos, search, issues, PRs, comments, account binding (credential-store), and one-click clone-as-workspace. Exact install spec: github:neaz71eve/dsh-tool-github. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-15b5d0424ef7fd3f2370",
+    "name": "pr-genius",
+    "author": "zsxh1990",
+    "category": "skill",
+    "version": null,
+    "homepage": "https://github.com/zsxh1990/pr-genius",
+    "firstObservedAt": "2026-08-16T13:41:06Z",
+    "lastChangedAt": "2026-08-16T13:41:06Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-15b5d0424ef7fd3f2370.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-15b5d0424ef7fd3f2370.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:zsxh1990/pr-genius",
+    "command": "dsh plugin --profile web add github:zsxh1990/pr-genius",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-15b5d0424ef7fd3f2370，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-15b5d0424ef7fd3f2370.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-15b5d0424ef7fd3f2370.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "pr-genius 已收录到 DeepSeek Harness Plugin Store。PR 评估和改进顾问：基于历史反模式和成功模式评估 PR 成功率，一键评分并提供可操作的改进建议。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-15b5d0424ef7fd3f2370.html",
+    "en": "pr-genius is now listed on the DeepSeek Harness Plugin Store. PR evaluation and improvement consultant: assesses PR success probability based on historical anti-patterns and success patterns, with one-click scoring and actionable suggestions.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-15b5d0424ef7fd3f2370.html"
+  }
+}

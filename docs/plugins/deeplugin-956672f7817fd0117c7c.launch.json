@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-956672f7817fd0117c7c",
+    "name": "dsh-sideband",
+    "author": "ishuowang",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/ishuowang/dsh-sideband",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-956672f7817fd0117c7c.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-956672f7817fd0117c7c.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:ishuowang/dsh-sideband",
+    "command": "dsh plugin --profile web add github:ishuowang/dsh-sideband",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-956672f7817fd0117c7c，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-956672f7817fd0117c7c.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-956672f7817fd0117c7c.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-sideband 已收录到 DeepSeek Harness Plugin Store。无需等待或打断正在工作的 Agent：即时冻结有界 Session 快照，由隔离且无工具的 LLM 异步总结，再将带来源信息的上下文胶囊投递到另一 Session 或已授权 Room；对 Session 默认 quiet，也可显式 wakeup。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-956672f7817fd0117c7c.html",
+    "en": "dsh-sideband is now listed on the DeepSeek Harness Plugin Store. Hand off focused context without waiting for or interrupting the active Agent: freeze a bounded Session snapshot, summarize it asynchronously with an isolated no-tool LLM, and deliver a provenance-bearing capsule to another Session or an authorized Room—quiet by default for Sessions, with explicit wakeup available.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-956672f7817fd0117c7c.html"
+  }
+}

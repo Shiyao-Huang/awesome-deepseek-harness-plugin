@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>deepseek-harness-forge-plugins#evidence-first — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-c7a51a17a919a6ccd087.atom.xml</id>
+  <updated>2026-08-16T13:41:06Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-c7a51a17a919a6ccd087.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c7a51a17a919a6ccd087.html"/>
+  <entry>
+    <title>New: deepseek-harness-forge-plugins#evidence-first</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-c7a51a17a919a6ccd087/60715e29601bb9d9</id>
+    <updated>2026-08-16T13:41:06Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c7a51a17a919a6ccd087.html"/>
+    <author><name>jinguanghai</name></author>
+    <category term="dev"/>
+    <summary>Evidence-first guard: warns the agent when it claims success without a matching tool-execution record in recent context. Exact install spec: github:jinguanghai/deepseek-harness-forge-plugins#path:/plugins/evidence-first. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

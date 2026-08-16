@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-86013aa9348ca005b639",
+    "name": "dsh-digipet",
+    "author": "swaylq",
+    "category": "fun",
+    "version": null,
+    "homepage": "https://github.com/swaylq/dsh-digipet",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-86013aa9348ca005b639.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-86013aa9348ca005b639.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:swaylq/dsh-digipet",
+    "command": "dsh plugin --profile web add github:swaylq/dsh-digipet",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-86013aa9348ca005b639，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-86013aa9348ca005b639.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-86013aa9348ca005b639.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-digipet 已收录到 DeepSeek Harness Plugin Store。数码宝贝式养成：孵一颗吃真实工作长大的蛋（回合、工具调用、报错都是营养），按你的工作方式走四条进化分支；零 token，模型完全看不见。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-86013aa9348ca005b639.html",
+    "en": "dsh-digipet is now listed on the DeepSeek Harness Plugin Store. Digimon-style raising game: hatch an egg that feeds on real work (turns, tool calls, errors) and evolves along four branching lines shaped by how you work; zero tokens, invisible to the model.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-86013aa9348ca005b639.html"
+  }
+}

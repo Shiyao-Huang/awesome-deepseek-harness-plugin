@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-f1dc4721fe259ab247fc",
+    "name": "dsh-updater-ui",
+    "author": "xingyingyuzhui",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/xingyingyuzhui/dsh-updater-ui",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-f1dc4721fe259ab247fc.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-f1dc4721fe259ab247fc.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:xingyingyuzhui/dsh-updater-ui",
+    "command": "dsh plugin --profile web add github:xingyingyuzhui/dsh-updater-ui",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-f1dc4721fe259ab247fc，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-f1dc4721fe259ab247fc.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-f1dc4721fe259ab247fc.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-updater-ui 已收录到 DeepSeek Harness Plugin Store。设置页中的 DSH 自助更新器：一键检查/拉取（git pull --ff-only）、自动后台检查、版本对比与更新说明预览，带红点提醒。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-f1dc4721fe259ab247fc.html",
+    "en": "dsh-updater-ui is now listed on the DeepSeek Harness Plugin Store. DSH self-updater in the settings page: one-click check/pull (`git pull --ff-only`), auto background checks, version diff and changelog preview with a red-dot reminder.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-f1dc4721fe259ab247fc.html"
+  }
+}

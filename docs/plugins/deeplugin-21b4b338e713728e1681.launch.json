@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-21b4b338e713728e1681",
+    "name": "dsh-cache-precision",
+    "author": "Cheng-cheng9669",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/Cheng-cheng9669/dsh-cache-precision",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-21b4b338e713728e1681.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-21b4b338e713728e1681.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:cheng-cheng9669/dsh-cache-precision",
+    "command": "dsh plugin --profile web add github:cheng-cheng9669/dsh-cache-precision",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-21b4b338e713728e1681，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-21b4b338e713728e1681.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-21b4b338e713728e1681.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-cache-precision 已收录到 DeepSeek Harness Plugin Store。把内置缓存命中率原位显示为 3 位小数，并加宽底部统计行避免内容被截断。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-21b4b338e713728e1681.html",
+    "en": "dsh-cache-precision is now listed on the DeepSeek Harness Plugin Store. Renders the built-in cache-hit percentage with three decimals and widens the composer stats line to prevent truncation.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-21b4b338e713728e1681.html"
+  }
+}

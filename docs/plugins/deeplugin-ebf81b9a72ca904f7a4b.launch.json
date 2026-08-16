@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-ebf81b9a72ca904f7a4b",
+    "name": "dsh-webui-market-plugin",
+    "author": "Sanqi-normal",
+    "category": "market",
+    "version": null,
+    "homepage": "https://github.com/Sanqi-normal/dsh-webui-market-plugin",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-ebf81b9a72ca904f7a4b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-ebf81b9a72ca904f7a4b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@sanqi-normal/dsh-webui-market-plugin",
+    "command": "dsh plugin --profile web add @sanqi-normal/dsh-webui-market-plugin",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-ebf81b9a72ca904f7a4b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-ebf81b9a72ca904f7a4b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-ebf81b9a72ca904f7a4b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-webui-market-plugin 已收录到 DeepSeek Harness Plugin Store。dsh Web GUI 内的社区插件市场：浏览 awesome-dsh-plugin.com 目录，从 设置 → 插件 → 插件市场 安装/卸载插件到 profile。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-ebf81b9a72ca904f7a4b.html",
+    "en": "dsh-webui-market-plugin is now listed on the DeepSeek Harness Plugin Store. In-harness plugin market for the dsh web GUI: browse the awesome-dsh-plugin.com catalog and install/uninstall plugins into a profile from Settings → Plugins → Plugin Market.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-ebf81b9a72ca904f7a4b.html"
+  }
+}

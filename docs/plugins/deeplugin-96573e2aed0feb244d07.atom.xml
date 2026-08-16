@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>modsearch — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-96573e2aed0feb244d07.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-96573e2aed0feb244d07.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-96573e2aed0feb244d07.html"/>
+  <entry>
+    <title>Updated: modsearch</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-96573e2aed0feb244d07/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-96573e2aed0feb244d07.html"/>
+    <author><name>liustack</name></author>
+    <category term="tools"/>
+    <summary>Web search bridge for text-only agents: ask the web or X, get structured JSON evidence (search, fetch, citations). Exact install spec: @liustack/modsearch. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: modsearch</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-96573e2aed0feb244d07/19f118ecfd65ceec</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-96573e2aed0feb244d07.html"/>
+    <author><name>liustack</name></author>
+    <category term="tools"/>
+    <summary>Web search bridge for text-only agents: ask the web or X, get structured JSON evidence (search, fetch, citations). Exact install spec: @liustack/modsearch. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: modsearch</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-96573e2aed0feb244d07/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-96573e2aed0feb244d07.html"/>
+    <author><name>liustack</name></author>
+    <category term="tools"/>
+    <summary>Web search bridge for text-only agents: ask the web or X, get structured JSON evidence (search, fetch, citations). Exact install spec: @liustack/modsearch. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

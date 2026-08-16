@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-1f19d6ad3b52fed7aa99",
+    "name": "dsh-stock-market",
+    "author": "AnacondaKC",
+    "category": "fun",
+    "version": null,
+    "homepage": "https://github.com/AnacondaKC/dsh-stock-market",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-1f19d6ad3b52fed7aa99.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-1f19d6ad3b52fed7aa99.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:anacondakc/dsh-stock-market",
+    "command": "dsh plugin --profile web add github:anacondakc/dsh-stock-market",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-1f19d6ad3b52fed7aa99，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-1f19d6ad3b52fed7aa99.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-1f19d6ad3b52fed7aa99.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-stock-market 已收录到 DeepSeek Harness Plugin Store。有效解决了写代码的时候账户不能同时亏钱的 BUG。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-1f19d6ad3b52fed7aa99.html",
+    "en": "dsh-stock-market is now listed on the DeepSeek Harness Plugin Store. Fixes the bug where your account can't lose money while you code.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-1f19d6ad3b52fed7aa99.html"
+  }
+}

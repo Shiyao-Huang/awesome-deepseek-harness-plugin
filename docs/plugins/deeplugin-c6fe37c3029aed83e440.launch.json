@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-c6fe37c3029aed83e440",
+    "name": "dsh-imagegen",
+    "author": "dickpy",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/dickpy/dsh-imagegen",
+    "firstObservedAt": "2026-08-16T09:56:16Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-c6fe37c3029aed83e440.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-c6fe37c3029aed83e440.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@dickpy/dsh-imagegen",
+    "command": "dsh plugin --profile web add @dickpy/dsh-imagegen",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-c6fe37c3029aed83e440，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-c6fe37c3029aed83e440.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-c6fe37c3029aed83e440.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-imagegen 已收录到 DeepSeek Harness Plugin Store。面向 DSH Web GUI 的 AI 生图插件：通过可配置的 OpenAI 兼容端点（gpt-image-2 / gpt-image-1 / dall-e-3）实现文生图与图生图，提供 api_url/api_key 设置卡片与侧边栏分栏生图工作台。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c6fe37c3029aed83e440.html",
+    "en": "dsh-imagegen is now listed on the DeepSeek Harness Plugin Store. AI image generation for the DSH Web GUI: text-to-image and image-to-image through a configurable OpenAI-compatible endpoint (gpt-image-2 / gpt-image-1 / dall-e-3), with an api_url/api_key settings card and a sidebar split-pane generation studio.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-c6fe37c3029aed83e440.html"
+  }
+}

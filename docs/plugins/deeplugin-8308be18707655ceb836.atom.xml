@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-continual-evolve — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-8308be18707655ceb836.atom.xml</id>
+  <updated>2026-08-16T08:41:44Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-8308be18707655ceb836.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8308be18707655ceb836.html"/>
+  <entry>
+    <title>Updated: dsh-continual-evolve</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-8308be18707655ceb836/2d0719cca6edffde</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8308be18707655ceb836.html"/>
+    <author><name>ZK-Andy</name></author>
+    <category term="tools"/>
+    <summary>Continual self-evolution: versioned, auditable, rollback-safe harness state (prompts, memory, skills, subagent specs) refined from session trajectories, with review gates and hot-reloaded skills. Exact install spec: github:zk-andy/dsh-continual-evolve. Source event: dsh-market/dsh-market; changed: active.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-continual-evolve</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-8308be18707655ceb836/f1f649e2096e3b11</id>
+    <updated>2026-08-16T00:51:32Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8308be18707655ceb836.html"/>
+    <author><name>ZK-Andy</name></author>
+    <category term="tools"/>
+    <summary>Continual self-evolution: versioned, auditable, rollback-safe harness state (prompts, memory, skills, subagent specs) refined from session trajectories, with review gates and hot-reloaded skills. Exact install spec: github:zk-andy/dsh-continual-evolve. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-continual-evolve</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-8308be18707655ceb836/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8308be18707655ceb836.html"/>
+    <author><name>ZK-Andy</name></author>
+    <category term="tools"/>
+    <summary>Continual self-evolution: versioned, auditable, rollback-safe harness state (prompts, memory, skills, subagent specs) refined from session trajectories, with review gates and hot-reloaded skills. Exact install spec: github:zk-andy/dsh-continual-evolve. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-continual-evolve</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-8308be18707655ceb836/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8308be18707655ceb836.html"/>
+    <author><name>ZK-Andy</name></author>
+    <category term="tools"/>
+    <summary>Continual self-evolution: versioned, auditable, rollback-safe harness state (prompts, memory, skills, subagent specs) refined from session trajectories, with review gates and hot-reloaded skills. Exact install spec: github:zk-andy/dsh-continual-evolve. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-continual-evolve</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-8308be18707655ceb836/19f118ecfd65ceec</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8308be18707655ceb836.html"/>
+    <author><name>ZK-Andy</name></author>
+    <category term="tools"/>
+    <summary>Continual self-evolution: versioned, auditable, rollback-safe harness state (prompts, memory, skills, subagent specs) refined from session trajectories, with review gates and hot-reloaded skills. Exact install spec: github:zk-andy/dsh-continual-evolve. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-continual-evolve</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-8308be18707655ceb836/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8308be18707655ceb836.html"/>
+    <author><name>ZK-Andy</name></author>
+    <category term="tools"/>
+    <summary>Continual self-evolution: versioned, auditable, rollback-safe harness state (prompts, memory, skills, subagent specs) refined from session trajectories, with review gates and hot-reloaded skills. Exact install spec: github:zk-andy/dsh-continual-evolve. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-41da9182abb6d948fa29",
+    "name": "dsh-deepseek-usage-dashboard",
+    "author": "izz-BLUE",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/izz-BLUE/dsh-deepseek-usage-dashboard",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-41da9182abb6d948fa29.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-41da9182abb6d948fa29.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:izz-blue/dsh-deepseek-usage-dashboard",
+    "command": "dsh plugin --profile web add github:izz-blue/dsh-deepseek-usage-dashboard",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-41da9182abb6d948fa29，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-41da9182abb6d948fa29.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-41da9182abb6d948fa29.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-deepseek-usage-dashboard 已收录到 DeepSeek Harness Plugin Store。DSH Web 的 DeepSeek API 用量仪表盘：基于会话日志统计每日缓存命中/未命中输入与输出 Token，并展示分模型费用估算、账户余额、7 日趋势和 composer 用量摘要。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-41da9182abb6d948fa29.html",
+    "en": "dsh-deepseek-usage-dashboard is now listed on the DeepSeek Harness Plugin Store. DeepSeek API usage dashboard for DSH Web: daily cache-hit/miss and output token statistics from session logs, per-model cost estimates, account balance, 7-day trends, and a composer usage summary.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-41da9182abb6d948fa29.html"
+  }
+}

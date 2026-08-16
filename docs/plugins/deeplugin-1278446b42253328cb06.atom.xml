@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-tool-regex — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-1278446b42253328cb06.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-1278446b42253328cb06.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1278446b42253328cb06.html"/>
+  <entry>
+    <title>Updated: dsh-tool-regex</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-1278446b42253328cb06/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1278446b42253328cb06.html"/>
+    <author><name>omdsh-dev</name></author>
+    <category term="tools"/>
+    <summary>Test/extract/safe-replace/statically explain regexes without executing code. Exact install spec: github:omdsh-dev/dsh-tool-regex. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-tool-regex</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-1278446b42253328cb06/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1278446b42253328cb06.html"/>
+    <author><name>omdsh-dev</name></author>
+    <category term="tools"/>
+    <summary>Test/extract/safe-replace/statically explain regexes without executing code. Exact install spec: github:omdsh-dev/dsh-tool-regex. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-tool-regex</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-1278446b42253328cb06/19f118ecfd65ceec</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1278446b42253328cb06.html"/>
+    <author><name>omdsh-dev</name></author>
+    <category term="tools"/>
+    <summary>Test/extract/safe-replace/statically explain regexes without executing code. Exact install spec: github:omdsh-dev/dsh-tool-regex. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-tool-regex</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-1278446b42253328cb06/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1278446b42253328cb06.html"/>
+    <author><name>omdsh-dev</name></author>
+    <category term="tools"/>
+    <summary>Test/extract/safe-replace/statically explain regexes without executing code. Exact install spec: github:omdsh-dev/dsh-tool-regex. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

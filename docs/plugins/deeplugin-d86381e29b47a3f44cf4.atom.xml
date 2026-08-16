@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-whale-galgame — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-d86381e29b47a3f44cf4.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-d86381e29b47a3f44cf4.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d86381e29b47a3f44cf4.html"/>
+  <entry>
+    <title>Updated: dsh-whale-galgame</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-d86381e29b47a3f44cf4/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d86381e29b47a3f44cf4.html"/>
+    <author><name>JAdpp</name></author>
+    <category term="fun"/>
+    <summary>Multi-character Galgame conversation view with separate character and reply-model selection, per-character affection, memory, dialogue history, and CG galleries, plus responses informed by task events across Harness sessions. Exact install spec: github:jadpp/dsh-whale-galgame. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-whale-galgame</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-d86381e29b47a3f44cf4/51a7b1264f6c44a6</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d86381e29b47a3f44cf4.html"/>
+    <author><name>JAdpp</name></author>
+    <category term="fun"/>
+    <summary>Multi-character Galgame conversation view with separate character and reply-model selection, per-character affection, memory, dialogue history, and CG galleries, plus responses informed by task events across Harness sessions. Exact install spec: github:jadpp/dsh-whale-galgame. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-whale-galgame</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-d86381e29b47a3f44cf4/0e4a261d177213f8</id>
+    <updated>2026-08-16T03:13:50Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d86381e29b47a3f44cf4.html"/>
+    <author><name>JAdpp</name></author>
+    <category term="fun"/>
+    <summary>Multi-character Galgame conversation view with separate character and reply-model selection, per-character affection, memory, dialogue history, and CG galleries, plus responses informed by task events across Harness sessions. Exact install spec: github:jadpp/dsh-whale-galgame. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-6d40f6b54c7190cc691f",
+    "name": "dsh-pluginmanager",
+    "author": "buhuikongpan",
+    "category": "market",
+    "version": null,
+    "homepage": "https://github.com/buhuikongpan/dsh-pluginmanager",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-6d40f6b54c7190cc691f.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-6d40f6b54c7190cc691f.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:buhuikongpan/dsh-pluginmanager",
+    "command": "dsh plugin --profile web add github:buhuikongpan/dsh-pluginmanager",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-6d40f6b54c7190cc691f，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-6d40f6b54c7190cc691f.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-6d40f6b54c7190cc691f.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-pluginmanager 已收录到 DeepSeek Harness Plugin Store。DSH 分层插件管理器：原生插件按系统/WebUI/工具三层只读展示，用户扩展支持停用/启用、补登记、卸载与可编辑描述。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-6d40f6b54c7190cc691f.html",
+    "en": "dsh-pluginmanager is now listed on the DeepSeek Harness Plugin Store. Layered plugin manager for DSH web: native plugins grouped read-only by system/WebUI/tools, user extensions with enable/disable, register, uninstall and editable descriptions.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-6d40f6b54c7190cc691f.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-7ff96179c1a9503aaffa",
+    "name": "dsh-ds-attach",
+    "author": "wqx-txdsyl",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/wqx-txdsyl/dsh-ds-attach",
+    "firstObservedAt": "2026-08-16T09:56:16Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-7ff96179c1a9503aaffa.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-7ff96179c1a9503aaffa.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:wqx-txdsyl/dsh-ds-attach",
+    "command": "dsh plugin --profile web add github:wqx-txdsyl/dsh-ds-attach",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-7ff96179c1a9503aaffa，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-7ff96179c1a9503aaffa.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-7ff96179c1a9503aaffa.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-ds-attach 已收录到 DeepSeek Harness Plugin Store。**DeepSeek Chat（chat.deepseek.com）同款附件**：回形针上传按钮、240×64 DS 风格文件卡片（官方彩色文档图标，从 DS 前端 bundle 提取）、拖拽上传、文本提取（PDF/DOCX/XLSX/TXT）注入消息、对话流中渲染真实附件卡片（自定义 user 渲染器）且模型读取完整内容。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-7ff96179c1a9503aaffa.html",
+    "en": "dsh-ds-attach is now listed on the DeepSeek Harness Plugin Store. **DeepSeek Chat (chat.deepseek.com) same-style attachments**: paperclip upload button, 240×64 DS-style file cards with official colored doc icons (PDF/DOCX/XLSX/PPT/IMG extracted from the DS frontend bundle), drag-and-drop, text extraction (PDF/DOCX/XLSX/TXT) injected into the message, and real attachment cards rendered in the transcript (custom user renderer) with the model reading full content.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-7ff96179c1a9503aaffa.html"
+  }
+}

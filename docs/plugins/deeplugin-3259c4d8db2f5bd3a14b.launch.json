@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-3259c4d8db2f5bd3a14b",
+    "name": "dsh-unsloth-hands",
+    "author": "MicroHEROX",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/MicroHEROX/dsh-unsloth-hands",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-3259c4d8db2f5bd3a14b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-3259c4d8db2f5bd3a14b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-unsloth-hands",
+    "command": "dsh plugin --profile web add dsh-unsloth-hands",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-3259c4d8db2f5bd3a14b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-3259c4d8db2f5bd3a14b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-3259c4d8db2f5bd3a14b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-unsloth-hands 已收录到 DeepSeek Harness Plugin Store。把重复的文本与视觉（OCR、图像分析、对比）劳动交给本地运行的 Unsloth Desktop（Unsloth Studio）服务器：unsloth_run 与 unsloth_vision 两个工具，纯 HTTP 客户端，不拉起也不持有任何进程。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-3259c4d8db2f5bd3a14b.html",
+    "en": "dsh-unsloth-hands is now listed on the DeepSeek Harness Plugin Store. Hands repetitive text and vision labor (OCR, image analysis, comparison) to a locally running Unsloth Desktop (Unsloth Studio) server through unsloth_run and unsloth_vision tools; pure HTTP client, never spawns or owns processes.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-3259c4d8db2f5bd3a14b.html"
+  }
+}

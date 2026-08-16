@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a1d913c5fe921a86613d",
+    "name": "dsh-s1",
+    "author": "superagents-lab",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/superagents-lab/dsh-s1",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a1d913c5fe921a86613d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a1d913c5fe921a86613d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-s1",
+    "command": "dsh plugin --profile web add dsh-s1",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a1d913c5fe921a86613d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a1d913c5fe921a86613d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a1d913c5fe921a86613d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-s1 已收录到 DeepSeek Harness Plugin Store。Search1API（s1）原生联网检索工具：网页搜索、新闻、页面抓取、站点地图与趋势榜，以 `s1_*` 一等工具形式提供，并附带 s1 技能。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a1d913c5fe921a86613d.html",
+    "en": "dsh-s1 is now listed on the DeepSeek Harness Plugin Store. Native Search1API (s1) web research tools: search, news, page crawling, sitemap discovery, and trending topics as first-class `s1_*` tools, with a bundled s1 skill.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a1d913c5fe921a86613d.html"
+  }
+}

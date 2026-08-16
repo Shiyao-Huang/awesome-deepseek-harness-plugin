@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-chinese-thinking — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-7d6eb23c4a2cdb025843.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-7d6eb23c4a2cdb025843.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-7d6eb23c4a2cdb025843.html"/>
+  <entry>
+    <title>Updated: dsh-chinese-thinking</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-7d6eb23c4a2cdb025843/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-7d6eb23c4a2cdb025843.html"/>
+    <author><name>Max-Null</name></author>
+    <category term="session"/>
+    <summary>Injects one fixed system-prompt section so the agent thinks and replies in Chinese, regardless of the user's language. Exact install spec: @max-null/dsh-chinese-thinking. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-chinese-thinking</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-7d6eb23c4a2cdb025843/7e5b8321bc7d21b1</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-7d6eb23c4a2cdb025843.html"/>
+    <author><name>Max-Null</name></author>
+    <category term="session"/>
+    <summary>Injects one fixed system-prompt section so the agent thinks and replies in Chinese, regardless of the user's language. Exact install spec: @max-null/dsh-chinese-thinking. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -120,7 +120,7 @@ collection_runs ──< raw_snapshots
 
 ## Agent 市场注册表
 
-公开 Market 数据可从 [线上 JSON](https://deeplugin.store/data/market-registry.json)、[JSON Schema](https://deeplugin.store/data/market-registry.schema.json) 或仓库内的 [index 镜像](index/market-registry.json) 读取；三份运行时镜像和三份 Schema 由 SQLite 统一生成并保持字节一致。人类提交说明见 [docs/register.md](docs/register.md)，Agent 提交流程见 [docs/register-agent.md](docs/register-agent.md)。
+公开 Market 数据可从 [线上 JSON](https://deeplugin.store/data/market-registry.json)、[JSON Schema](https://deeplugin.store/data/market-registry.schema.json) 或仓库内的 [index 镜像](index/market-registry.json) 读取；三份运行时镜像和三份 Schema 由 SQLite 统一生成并保持字节一致。[新增插件 Atom](https://deeplugin.store/feeds/new.atom.xml) 与 [实质更新 Atom](https://deeplugin.store/feeds/updated.atom.xml) 只在 Listing 首次出现或来源、版本、描述、分类等事实变化时产生条目，不把每两小时重复观测或互动数字波动误报成发布。每个插件详情页同时提供独立 Feed 和双语 launch packet。人类提交说明见 [docs/register.md](docs/register.md)，Agent 提交流程见 [docs/register-agent.md](docs/register-agent.md)。
 
 把市场搜索工具安装到 DSH：
 

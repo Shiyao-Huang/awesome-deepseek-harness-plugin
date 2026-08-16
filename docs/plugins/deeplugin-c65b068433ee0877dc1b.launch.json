@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-c65b068433ee0877dc1b",
+    "name": "dsh-plugin-collapsible-steps",
+    "author": "mervyn-teo",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/mervyn-teo/dsh-plugin-collapsible-steps",
+    "firstObservedAt": "2026-08-16T13:41:06Z",
+    "lastChangedAt": "2026-08-16T13:41:06Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-c65b068433ee0877dc1b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-c65b068433ee0877dc1b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:mervyn-teo/dsh-plugin-collapsible-steps",
+    "command": "dsh plugin --profile web add github:mervyn-teo/dsh-plugin-collapsible-steps",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-c65b068433ee0877dc1b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-c65b068433ee0877dc1b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-c65b068433ee0877dc1b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-collapsible-steps 已收录到 DeepSeek Harness Plugin Store。把消息之间连续的工具调用与思考步骤折叠成单个可展开的括号条目。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c65b068433ee0877dc1b.html",
+    "en": "dsh-plugin-collapsible-steps is now listed on the DeepSeek Harness Plugin Store. Collapses consecutive tool-use and thinking steps between messages into a single bracketed, expandable item.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-c65b068433ee0877dc1b.html"
+  }
+}

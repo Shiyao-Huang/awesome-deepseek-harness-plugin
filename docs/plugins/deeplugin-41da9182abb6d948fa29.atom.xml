@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-deepseek-usage-dashboard — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-41da9182abb6d948fa29.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-41da9182abb6d948fa29.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-41da9182abb6d948fa29.html"/>
+  <entry>
+    <title>Updated: dsh-deepseek-usage-dashboard</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-41da9182abb6d948fa29/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-41da9182abb6d948fa29.html"/>
+    <author><name>izz-BLUE</name></author>
+    <category term="ui"/>
+    <summary>DeepSeek API usage dashboard for DSH Web: daily cache-hit/miss and output token statistics from session logs, per-model cost estimates, account balance, 7-day trends, and a composer usage summary. Exact install spec: github:izz-blue/dsh-deepseek-usage-dashboard. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-deepseek-usage-dashboard</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-41da9182abb6d948fa29/e1ab6d4a0ce81c55</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-41da9182abb6d948fa29.html"/>
+    <author><name>izz-BLUE</name></author>
+    <category term="ui"/>
+    <summary>DeepSeek API usage dashboard for DSH Web: daily cache-hit/miss and output token statistics from session logs, per-model cost estimates, account balance, 7-day trends, and a composer usage summary. Exact install spec: github:izz-blue/dsh-deepseek-usage-dashboard. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-deepseek-usage-dashboard</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-41da9182abb6d948fa29/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-41da9182abb6d948fa29.html"/>
+    <author><name>izz-BLUE</name></author>
+    <category term="ui"/>
+    <summary>DeepSeek API usage dashboard for DSH Web: daily cache-hit/miss and output token statistics from session logs, per-model cost estimates, account balance, 7-day trends, and a composer usage summary. Exact install spec: github:izz-blue/dsh-deepseek-usage-dashboard. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

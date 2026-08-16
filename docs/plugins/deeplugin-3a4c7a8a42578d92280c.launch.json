@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-3a4c7a8a42578d92280c",
+    "name": "dsh-egress-guard",
+    "author": "tancheng33",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/tancheng33/dsh-egress-guard",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-3a4c7a8a42578d92280c.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-3a4c7a8a42578d92280c.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:tancheng33/dsh-egress-guard",
+    "command": "dsh plugin --profile web add github:tancheng33/dsh-egress-guard",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-3a4c7a8a42578d92280c，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-3a4c7a8a42578d92280c.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-3a4c7a8a42578d92280c.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-egress-guard 已收录到 DeepSeek Harness Plugin Store。工具管线上的运行时安全网关：拦截出站白名单之外的主机调用，在 canonical value（而非仅渲染内容）层面脱敏结果中的凭据，每个决策写入 JSONL 审计日志；默认仅监控不拦截。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-3a4c7a8a42578d92280c.html",
+    "en": "dsh-egress-guard is now listed on the DeepSeek Harness Plugin Store. Runtime security gate on the tool pipeline: denies calls naming hosts outside an egress allowlist, redacts credentials from results at the canonical value rather than only the rendered content, and appends every decision to a JSONL audit log; ships in monitor-only mode.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-3a4c7a8a42578d92280c.html"
+  }
+}

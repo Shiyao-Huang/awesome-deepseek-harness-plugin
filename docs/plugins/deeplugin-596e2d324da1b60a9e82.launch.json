@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-596e2d324da1b60a9e82",
+    "name": "dsh-code-check",
+    "author": "a179-sanae",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/a179-sanae/dsh-code-check",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-596e2d324da1b60a9e82.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-596e2d324da1b60a9e82.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:a179-sanae/dsh-code-check",
+    "command": "dsh plugin --profile web add github:a179-sanae/dsh-code-check",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-596e2d324da1b60a9e82，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-596e2d324da1b60a9e82.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-596e2d324da1b60a9e82.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-code-check 已收录到 DeepSeek Harness Plugin Store。自动类型检查诊断：模型编辑/创建 TS 文件后后台防抖运行 `tsc --noEmit`，经 `code_check` 工具按文件分组汇报错误（行列号 + 严重级别 + TS 错误码），形成「改 → 查 → 修」闭环。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-596e2d324da1b60a9e82.html",
+    "en": "dsh-code-check is now listed on the DeepSeek Harness Plugin Store. Automatic type-check diagnostics: after the model edits or creates TS files, runs `tsc --noEmit` in the background (debounced per project) and reports errors via the `code_check` tool — grouped by file with line/column, severity and TS error codes, closing the \"edit → check → fix\" loop.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-596e2d324da1b60a9e82.html"
+  }
+}

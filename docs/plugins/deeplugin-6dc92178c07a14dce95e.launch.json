@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-6dc92178c07a14dce95e",
+    "name": "dsh-token-heatmap",
+    "author": "KIDLi1412",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/KIDLi1412/dsh-token-heatmap",
+    "firstObservedAt": "2026-08-16T09:56:16Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-6dc92178c07a14dce95e.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-6dc92178c07a14dce95e.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@kidli1412/dsh-token-heatmap",
+    "command": "dsh plugin --profile web add @kidli1412/dsh-token-heatmap",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-6dc92178c07a14dce95e，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-6dc92178c07a14dce95e.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-6dc92178c07a14dce95e.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-token-heatmap 已收录到 DeepSeek Harness Plugin Store。新建会话页的 GitHub 风格每日 Token 用量热力图：可选日历年度视图、绿/蓝配色与显示开关，并附今日/本月/累计总量。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-6dc92178c07a14dce95e.html",
+    "en": "dsh-token-heatmap is now listed on the DeepSeek Harness Plugin Store. GitHub-style daily token-usage heatmap on the new-session screen with a selectable calendar-year view, green/blue color schemes, and today / this-month / all-time totals.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-6dc92178c07a14dce95e.html"
+  }
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>mmx-quota-tool — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-2200be00c7adc2682944.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-2200be00c7adc2682944.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-2200be00c7adc2682944.html"/>
+  <entry>
+    <title>Updated: mmx-quota-tool</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-2200be00c7adc2682944/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-2200be00c7adc2682944.html"/>
+    <author><name>mtty-ai</name></author>
+    <category term="ui"/>
+    <summary>MiniMax token-plan quota dock for the Web UI: a drop-shape 5h-usage % chip in the conversation input area, click for a detail panel listing every model's 5h &amp; weekly usage and reset countdown, auto-hidden when the active default model is not a MiniMax model. Exact install spec: github:mtty-ai/mmx-quota-tool. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: mmx-quota-tool</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-2200be00c7adc2682944/e1ab6d4a0ce81c55</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-2200be00c7adc2682944.html"/>
+    <author><name>mtty-ai</name></author>
+    <category term="ui"/>
+    <summary>MiniMax token-plan quota dock for the Web UI: a drop-shape 5h-usage % chip in the conversation input area, click for a detail panel listing every model's 5h &amp; weekly usage and reset countdown, auto-hidden when the active default model is not a MiniMax model. Exact install spec: github:mtty-ai/mmx-quota-tool. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: mmx-quota-tool</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-2200be00c7adc2682944/e5d3b61e178a5529</id>
+    <updated>2026-08-16T05:04:11Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-2200be00c7adc2682944.html"/>
+    <author><name>mtty-ai</name></author>
+    <category term="ui"/>
+    <summary>MiniMax token-plan quota dock for the Web UI: a drop-shape 5h-usage % chip in the conversation input area, click for a detail panel listing every model's 5h &amp; weekly usage and reset countdown, auto-hidden when the active default model is not a MiniMax model. Exact install spec: github:mtty-ai/mmx-quota-tool. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

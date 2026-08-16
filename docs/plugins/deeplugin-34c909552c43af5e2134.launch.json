@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-34c909552c43af5e2134",
+    "name": "dsh-token-cost-meter",
+    "author": "YZz-S",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/YZz-S/dsh-token-cost-meter",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-34c909552c43af5e2134.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-34c909552c43af5e2134.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:yzz-s/dsh-token-cost-meter",
+    "command": "dsh plugin --profile web add github:yzz-s/dsh-token-cost-meter",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-34c909552c43af5e2134，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-34c909552c43af5e2134.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-34c909552c43af5e2134.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-token-cost-meter 已收录到 DeepSeek Harness Plugin Store。在输入框下方统计行实时显示当前会话累计 token 消耗与估算费用（人民币），价格从 DeepSeek 官方价格页动态获取。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-34c909552c43af5e2134.html",
+    "en": "dsh-token-cost-meter is now listed on the DeepSeek Harness Plugin Store. Real-time session token usage and estimated cost in the composer stats row, with pricing fetched from DeepSeek official pricing page.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-34c909552c43af5e2134.html"
+  }
+}

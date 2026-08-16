@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-fc786c5134951f64b812",
+    "name": "dsh-virtual-product-team",
+    "author": "songoao25",
+    "category": "skill",
+    "version": null,
+    "homepage": "https://github.com/songoao25/dsh-virtual-product-team",
+    "firstObservedAt": "2026-08-16T13:41:06Z",
+    "lastChangedAt": "2026-08-16T13:41:06Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-fc786c5134951f64b812.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-fc786c5134951f64b812.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:songoao25/dsh-virtual-product-team",
+    "command": "dsh plugin --profile web add github:songoao25/dsh-virtual-product-team",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-fc786c5134951f64b812，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-fc786c5134951f64b812.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-fc786c5134951f64b812.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-virtual-product-team 已收录到 DeepSeek Harness Plugin Store。虚拟产品团队模式：用户主导式对话，由虚拟产品团队带你走完 12 环节完整流水线——从想法到发布、宣传、运营的产品全流程，阶段关卡制，内置 8 个阶段技能。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-fc786c5134951f64b812.html",
+    "en": "dsh-virtual-product-team is now listed on the DeepSeek Harness Plugin Store. Virtual product team agent preset: user-led conversation walks you through the full 12-step pipeline from idea to shipped, promoted and operated product, with staged gates and per-stage skills.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-fc786c5134951f64b812.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-bcfaa905fdcf300ee680",
+    "name": "folio#plugins/folio-tools",
+    "author": "nyantused-cpun",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/nyantused-cpun/folio/tree/main/plugins/folio-tools",
+    "firstObservedAt": "2026-08-16T03:13:50Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-bcfaa905fdcf300ee680.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-bcfaa905fdcf300ee680.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@nyantused/folio-dsh-tools",
+    "command": "dsh plugin --profile web add @nyantused/folio-dsh-tools",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-bcfaa905fdcf300ee680，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-bcfaa905fdcf300ee680.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-bcfaa905fdcf300ee680.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "folio#plugins/folio-tools 已收录到 DeepSeek Harness Plugin Store。Folio（兰亭）@nyantused/folio-dsh-tools：咨询/汇报材料生成引擎的 15 个 DSH 原生工具（记忆面 + 质量门禁）+ L0 守卫；与 @nyantused/folio-dsh-events 配套使用。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-bcfaa905fdcf300ee680.html",
+    "en": "folio#plugins/folio-tools is now listed on the DeepSeek Harness Plugin Store. Folio (兰亭) @nyantused/folio-dsh-tools: 15 schema-validated tools (memory + quality gates) plus an L0 guard of the consulting document-generation engine; pair with @nyantused/folio-dsh-events for the full session protocol.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-bcfaa905fdcf300ee680.html"
+  }
+}

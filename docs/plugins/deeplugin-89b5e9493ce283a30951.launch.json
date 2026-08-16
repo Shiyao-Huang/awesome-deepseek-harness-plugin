@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-89b5e9493ce283a30951",
+    "name": "dsh-rolehub-bridge",
+    "author": "ishuowang",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/ishuowang/dsh-rolehub-bridge",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-89b5e9493ce283a30951.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-89b5e9493ce283a30951.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:ishuowang/dsh-rolehub-bridge",
+    "command": "dsh plugin --profile web add github:ishuowang/dsh-rolehub-bridge",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-89b5e9493ce283a30951，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-89b5e9493ce283a30951.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-89b5e9493ce283a30951.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-rolehub-bridge 已收录到 DeepSeek Harness Plugin Store。发现并校验可移植的 RoleHub 角色，固定其精确 bundle，再将提示词和随角色打包的 Skills 加载到独立、可续聊的 DSH Session，以 Host 批准的工具绑定限制能力，并可选接入 Agent Team Room。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-89b5e9493ce283a30951.html",
+    "en": "dsh-rolehub-bridge is now listed on the DeepSeek Harness Plugin Store. Discover and verify portable RoleHub roles, pin each exact bundle, then launch its prompt and bundled skills in an isolated, continuable DSH Session with Host-approved tool bindings and optional Agent Team Room attachment.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-89b5e9493ce283a30951.html"
+  }
+}

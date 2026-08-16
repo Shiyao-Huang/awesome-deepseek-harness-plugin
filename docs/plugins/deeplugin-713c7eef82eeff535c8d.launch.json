@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-713c7eef82eeff535c8d",
+    "name": "dsh-subagent-vision",
+    "author": "niuniuaba",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/niuniuaba/dsh-subagent-vision",
+    "firstObservedAt": "2026-08-16T05:04:11Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-713c7eef82eeff535c8d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-713c7eef82eeff535c8d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:niuniuaba/dsh-subagent-vision",
+    "command": "dsh plugin --profile web add github:niuniuaba/dsh-subagent-vision",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-713c7eef82eeff535c8d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-713c7eef82eeff535c8d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-713c7eef82eeff535c8d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-subagent-vision 已收录到 DeepSeek Harness Plugin Store。让纯文本 DeepSeek 代理在同一会话内读图：委派给视觉子代理，发送时自动把图片转为文件路径。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-713c7eef82eeff535c8d.html",
+    "en": "dsh-subagent-vision is now listed on the DeepSeek Harness Plugin Store. Lets a text-only DeepSeek agent read images in the same session by delegating to a vision-capable subagent, with send-time image-to-path conversion.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-713c7eef82eeff535c8d.html"
+  }
+}

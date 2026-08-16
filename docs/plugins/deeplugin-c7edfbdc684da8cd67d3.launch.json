@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-c7edfbdc684da8cd67d3",
+    "name": "dsh-deepread",
+    "author": "xiehuan123",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/xiehuan123/dsh-deepread",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-c7edfbdc684da8cd67d3.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-c7edfbdc684da8cd67d3.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:xiehuan123/dsh-deepread",
+    "command": "dsh plugin --profile web add github:xiehuan123/dsh-deepread",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-c7edfbdc684da8cd67d3，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-c7edfbdc684da8cd67d3.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-c7edfbdc684da8cd67d3.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-deepread 已收录到 DeepSeek Harness Plugin Store。DeepRead 精读助手：五种精读模式（quick / deep / map 知识地图（四档置信度）/ feynman 费曼读书法 / book 全书）、批量对比、预算预检与后台任务进度透明、微信公众号链接 / .pdf 文件（内置纯 JS 提取器）/ 粘贴文本，可选导出 MD / FreeMind 思维导图（XMind 可导入）/ 编辑风网页报告。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c7edfbdc684da8cd67d3.html",
+    "en": "dsh-deepread is now listed on the DeepSeek Harness Plugin Store. DeepRead: deep-reading assistant with five modes (quick / deep / knowledge map with four confidence levels / Feynman reading / whole book), batch comparison, budget preflight, and transparent background-job progress, from WeChat article links / local .pdf (built-in pure-JS extractor) / pasted text, with optional MD / FreeMind / styled HTML export.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-c7edfbdc684da8cd67d3.html"
+  }
+}

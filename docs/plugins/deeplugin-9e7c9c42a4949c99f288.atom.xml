@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-lab — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-9e7c9c42a4949c99f288.atom.xml</id>
+  <updated>2026-08-16T13:41:06Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-9e7c9c42a4949c99f288.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9e7c9c42a4949c99f288.html"/>
+  <entry>
+    <title>New: dsh-lab</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-9e7c9c42a4949c99f288/60715e29601bb9d9</id>
+    <updated>2026-08-16T13:41:06Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9e7c9c42a4949c99f288.html"/>
+    <author><name>hackerFish</name></author>
+    <category term="dev"/>
+    <summary>Tested-curation lab for DSH plugins: every entry passes real install/static-scan gates in an isolated environment, with full logs and reproduction commands (Chinese-first). Exact install spec: github:hackerfish/dsh-lab. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

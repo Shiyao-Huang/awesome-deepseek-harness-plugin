@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-MusicPlayer — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-cb547c13828da006e077.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-cb547c13828da006e077.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-cb547c13828da006e077.html"/>
+  <entry>
+    <title>Updated: dsh-MusicPlayer</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-cb547c13828da006e077/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-cb547c13828da006e077.html"/>
+    <author><name>xiekai886</name></author>
+    <category term="fun"/>
+    <summary>A collapsible/expandable draggable floating music player with NetEase Cloud Music playlist import and song/artist search — chat and listen at the same time. Exact install spec: github:xiekai886/dsh-musicplayer. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-MusicPlayer</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-cb547c13828da006e077/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-cb547c13828da006e077.html"/>
+    <author><name>xiekai886</name></author>
+    <category term="fun"/>
+    <summary>A collapsible/expandable draggable floating music player with NetEase Cloud Music playlist import and song/artist search — chat and listen at the same time. Exact install spec: github:xiekai886/dsh-musicplayer. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-MusicPlayer</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-cb547c13828da006e077/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-cb547c13828da006e077.html"/>
+    <author><name>xiekai886</name></author>
+    <category term="fun"/>
+    <summary>A collapsible/expandable draggable floating music player with NetEase Cloud Music playlist import and song/artist search — chat and listen at the same time. Exact install spec: github:xiekai886/dsh-musicplayer. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

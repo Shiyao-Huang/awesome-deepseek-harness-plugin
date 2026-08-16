@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-4aea34c323d783bf1c14",
+    "name": "dsh-mobile-remote",
+    "author": "good-boy4069",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/good-boy4069/dsh-mobile-remote",
+    "firstObservedAt": "2026-08-16T09:56:16Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-4aea34c323d783bf1c14.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-4aea34c323d783bf1c14.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-mobile-remote",
+    "command": "dsh plugin --profile web add dsh-mobile-remote",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-4aea34c323d783bf1c14，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-4aea34c323d783bf1c14.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-4aea34c323d783bf1c14.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-mobile-remote 已收录到 DeepSeek Harness Plugin Store。微信遥控 DeepSeek Harness：iLink 双向加密文件收发（入站自动解密落盘 + /send 出站）、weixin_send 主动通知、完成通知、多会话切换、健康面板与文件日志。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-4aea34c323d783bf1c14.html",
+    "en": "dsh-mobile-remote is now listed on the DeepSeek Harness Plugin Store. Drive your dsh agent from WeChat over the iLink gateway: two-way encrypted media transfer (auto-decrypt inbox + /send), proactive weixin_send tool, completion notifications, multi-session switching, and a health panel with file logging.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-4aea34c323d783bf1c14.html"
+  }
+}

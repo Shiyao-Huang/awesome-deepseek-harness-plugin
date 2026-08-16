@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-sideband — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-956672f7817fd0117c7c.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-956672f7817fd0117c7c.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-956672f7817fd0117c7c.html"/>
+  <entry>
+    <title>Updated: dsh-sideband</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-956672f7817fd0117c7c/7c79633ee3559ed0</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-956672f7817fd0117c7c.html"/>
+    <author><name>ishuowang</name></author>
+    <category term="session"/>
+    <summary>Hand off focused context without waiting for or interrupting the active Agent: freeze a bounded Session snapshot, summarize it asynchronously with an isolated no-tool LLM, and deliver a provenance-bearing capsule to another Session or an authorized Room—quiet by default for Sessions, with explicit wakeup available. Exact install spec: github:ishuowang/dsh-sideband. Source event: zoahdev/dsh-subscribe; changed: description, description_i18n.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-sideband</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-956672f7817fd0117c7c/70d2d7b2fa0f38be</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-956672f7817fd0117c7c.html"/>
+    <author><name>ishuowang</name></author>
+    <category term="session"/>
+    <summary>Hand off focused context without waiting for or interrupting the active Agent: freeze a bounded Session snapshot, summarize it asynchronously with an isolated no-tool LLM, and deliver a provenance-bearing capsule to another Session or an authorized Room—quiet by default for Sessions, with explicit wakeup available. Exact install spec: github:ishuowang/dsh-sideband. Source event: dsh-market/dsh-market; changed: description, description_i18n.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-sideband</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-956672f7817fd0117c7c/a92c24ac65e1e5c5</id>
+    <updated>2026-08-16T00:51:32Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-956672f7817fd0117c7c.html"/>
+    <author><name>ishuowang</name></author>
+    <category term="session"/>
+    <summary>Hand off focused context without waiting for or interrupting the active Agent: freeze a bounded Session snapshot, summarize it asynchronously with an isolated no-tool LLM, and deliver a provenance-bearing capsule to another Session or an authorized Room—quiet by default for Sessions, with explicit wakeup available. Exact install spec: github:ishuowang/dsh-sideband. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-sideband</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-956672f7817fd0117c7c/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-956672f7817fd0117c7c.html"/>
+    <author><name>ishuowang</name></author>
+    <category term="session"/>
+    <summary>Hand off focused context without waiting for or interrupting the active Agent: freeze a bounded Session snapshot, summarize it asynchronously with an isolated no-tool LLM, and deliver a provenance-bearing capsule to another Session or an authorized Room—quiet by default for Sessions, with explicit wakeup available. Exact install spec: github:ishuowang/dsh-sideband. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-sideband</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-956672f7817fd0117c7c/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-956672f7817fd0117c7c.html"/>
+    <author><name>ishuowang</name></author>
+    <category term="session"/>
+    <summary>Hand off focused context without waiting for or interrupting the active Agent: freeze a bounded Session snapshot, summarize it asynchronously with an isolated no-tool LLM, and deliver a provenance-bearing capsule to another Session or an authorized Room—quiet by default for Sessions, with explicit wakeup available. Exact install spec: github:ishuowang/dsh-sideband. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-sideband</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-956672f7817fd0117c7c/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-956672f7817fd0117c7c.html"/>
+    <author><name>ishuowang</name></author>
+    <category term="session"/>
+    <summary>Hand off focused context without waiting for or interrupting the active Agent: freeze a bounded Session snapshot, summarize it asynchronously with an isolated no-tool LLM, and deliver a provenance-bearing capsule to another Session or an authorized Room—quiet by default for Sessions, with explicit wakeup available. Exact install spec: github:ishuowang/dsh-sideband. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

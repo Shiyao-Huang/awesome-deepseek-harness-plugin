@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-6c92dbd34ef6d1633017",
+    "name": "coding-coach",
+    "author": "xiehuan123",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/xiehuan123/coding-coach",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-6c92dbd34ef6d1633017.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-6c92dbd34ef6d1633017.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "coding-coach",
+    "command": "dsh plugin --profile web add coding-coach",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-6c92dbd34ef6d1633017，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-6c92dbd34ef6d1633017.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-6c92dbd34ef6d1633017.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "coding-coach 已收录到 DeepSeek Harness Plugin Store。Coding Coach 编程教练：面向非开发人员的 35 技能 bundle + 完整 Agent 预设（八段编排流水线 + 工程/产品/界面技能），npm 可装 `dsh plugin add coding-coach`，同时提供 Claude Code 插件。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-6c92dbd34ef6d1633017.html",
+    "en": "coding-coach is now listed on the DeepSeek Harness Plugin Store. Coding Coach: a 35-skill bundle plus a full agent preset for non-developers (8-stage product→launch pipeline with engineering/product/UI skills), installable via npm (`dsh plugin add coding-coach`) and as a Claude Code plugin.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-6c92dbd34ef6d1633017.html"
+  }
+}

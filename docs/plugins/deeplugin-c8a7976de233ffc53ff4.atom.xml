@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-mcp-market — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-c8a7976de233ffc53ff4.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-c8a7976de233ffc53ff4.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c8a7976de233ffc53ff4.html"/>
+  <entry>
+    <title>Updated: dsh-mcp-market</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-c8a7976de233ffc53ff4/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c8a7976de233ffc53ff4.html"/>
+    <author><name>LKMeng2001</name></author>
+    <category term="market"/>
+    <summary>MCP server marketplace for DSH: browse a curated, npm-verified catalog and install MCP servers into the current profile with one click, live without restart. Exact install spec: dsh-mcp-market. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-mcp-market</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-c8a7976de233ffc53ff4/e1ab6d4a0ce81c55</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c8a7976de233ffc53ff4.html"/>
+    <author><name>LKMeng2001</name></author>
+    <category term="market"/>
+    <summary>MCP server marketplace for DSH: browse a curated, npm-verified catalog and install MCP servers into the current profile with one click, live without restart. Exact install spec: dsh-mcp-market. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-mcp-market</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-c8a7976de233ffc53ff4/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c8a7976de233ffc53ff4.html"/>
+    <author><name>LKMeng2001</name></author>
+    <category term="market"/>
+    <summary>MCP server marketplace for DSH: browse a curated, npm-verified catalog and install MCP servers into the current profile with one click, live without restart. Exact install spec: dsh-mcp-market. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

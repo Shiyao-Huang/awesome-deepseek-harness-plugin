@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-c41b56ac51b62d051d0b",
+    "name": "Vibe-Mathematics",
+    "author": "ChongCyrus",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/ChongCyrus/Vibe-Mathematics",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-c41b56ac51b62d051d0b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-c41b56ac51b62d051d0b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-vibe-math",
+    "command": "dsh plugin --profile web add dsh-vibe-math",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-c41b56ac51b62d051d0b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-c41b56ac51b62d051d0b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-c41b56ac51b62d051d0b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "Vibe-Mathematics 已收录到 DeepSeek Harness Plugin Store。多代理数学问题求解与验证框架：头脑风暴 → 求解迭代 → 多验证器辩论 → 可信知识库沉淀，支持断点续跑与人工/自动干预（同时提供 agent preset 与可安装 bundle）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c41b56ac51b62d051d0b.html",
+    "en": "Vibe-Mathematics is now listed on the DeepSeek Harness Plugin Store. Multi-agent math problem-solving & verification framework: brainstorm → solver iteration → multi-verifier debate → Verified knowledge base, with checkpoint resume and manual/auto intervention (also ships as an agent preset).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-c41b56ac51b62d051d0b.html"
+  }
+}

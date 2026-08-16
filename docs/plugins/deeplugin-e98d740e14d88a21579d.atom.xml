@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-skill-pack — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-e98d740e14d88a21579d.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-e98d740e14d88a21579d.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e98d740e14d88a21579d.html"/>
+  <entry>
+    <title>Updated: dsh-skill-pack</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-e98d740e14d88a21579d/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e98d740e14d88a21579d.html"/>
+    <author><name>jeremy9682</name></author>
+    <category term="skill"/>
+    <summary>11 shareable workflow skills (handoff, triage, to-spec, to-tickets, wayfinder, teach, wait-what, dsh-mode-routing, ask-matt, overnight-execution, full-throttle) as an installable skill pack. Exact install spec: @jeremy9682/dsh-skill-pack. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-skill-pack</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-e98d740e14d88a21579d/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e98d740e14d88a21579d.html"/>
+    <author><name>jeremy9682</name></author>
+    <category term="skill"/>
+    <summary>11 shareable workflow skills (handoff, triage, to-spec, to-tickets, wayfinder, teach, wait-what, dsh-mode-routing, ask-matt, overnight-execution, full-throttle) as an installable skill pack. Exact install spec: @jeremy9682/dsh-skill-pack. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-skill-pack</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-e98d740e14d88a21579d/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e98d740e14d88a21579d.html"/>
+    <author><name>jeremy9682</name></author>
+    <category term="skill"/>
+    <summary>11 shareable workflow skills (handoff, triage, to-spec, to-tickets, wayfinder, teach, wait-what, dsh-mode-routing, ask-matt, overnight-execution, full-throttle) as an installable skill pack. Exact install spec: @jeremy9682/dsh-skill-pack. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>picturereader — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-8586b3b02faa16fda2b0.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-8586b3b02faa16fda2b0.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8586b3b02faa16fda2b0.html"/>
+  <entry>
+    <title>Updated: picturereader</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-8586b3b02faa16fda2b0/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8586b3b02faa16fda2b0.html"/>
+    <author><name>jing-hy</name></author>
+    <category term="tools"/>
+    <summary>Image "reading" for text-only models: downscale + reduce color depth + structure/color fingerprints into text grids fed back to the conversation, letting the model zoom, sample and OCR autonomously like a multimodal model; fully local with zero external model dependency, ships an image-reading methodology skill and optional PaddleOCR. Exact install spec: github:jing-hy/picturereader. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: picturereader</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-8586b3b02faa16fda2b0/7e5b8321bc7d21b1</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8586b3b02faa16fda2b0.html"/>
+    <author><name>jing-hy</name></author>
+    <category term="tools"/>
+    <summary>Image "reading" for text-only models: downscale + reduce color depth + structure/color fingerprints into text grids fed back to the conversation, letting the model zoom, sample and OCR autonomously like a multimodal model; fully local with zero external model dependency, ships an image-reading methodology skill and optional PaddleOCR. Exact install spec: github:jing-hy/picturereader. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

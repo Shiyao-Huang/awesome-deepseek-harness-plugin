@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-c5bdcb3317b49661e9a4",
+    "name": "DSH-Office",
+    "author": "didclawapp-ai",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/didclawapp-ai/DSH-Office",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-c5bdcb3317b49661e9a4.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-c5bdcb3317b49661e9a4.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:didclawapp-ai/dsh-office",
+    "command": "dsh plugin --profile web add github:didclawapp-ai/dsh-office",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-c5bdcb3317b49661e9a4，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-c5bdcb3317b49661e9a4.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-c5bdcb3317b49661e9a4.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "DSH-Office 已收录到 DeepSeek Harness Plugin Store。通过本机 zagens-office CLI 读写编辑 PPTX / DOCX / XLSX / PDF，注册为 office_schema / office_write / office_edit / office_read。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c5bdcb3317b49661e9a4.html",
+    "en": "DSH-Office is now listed on the DeepSeek Harness Plugin Store. Create, read, and edit PPTX, DOCX, XLSX, and PDF via the local zagens-office CLI as office_schema / office_write / office_edit / office_read tools.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-c5bdcb3317b49661e9a4.html"
+  }
+}

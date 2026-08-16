@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-3a2eb81f14f2fab56473",
+    "name": "dsh-remote-link",
+    "author": "BotonJ",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/BotonJ/dsh-remote-link",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-3a2eb81f14f2fab56473.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-3a2eb81f14f2fab56473.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:botonj/dsh-remote-link",
+    "command": "dsh plugin --profile web add github:botonj/dsh-remote-link",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-3a2eb81f14f2fab56473，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-3a2eb81f14f2fab56473.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-3a2eb81f14f2fab56473.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-remote-link 已收录到 DeepSeek Harness Plugin Store。官方 Web UI 的安全远程接入：带认证的局域网/隧道网关，QR + HMAC 一次性配对、按设备吊销，mDNS 发现，附 fork_session 会话分叉工具。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-3a2eb81f14f2fab56473.html",
+    "en": "dsh-remote-link is now listed on the DeepSeek Harness Plugin Store. Secure remote access for the official Web UI: authenticated LAN/tunnel gateway with QR + HMAC one-time pairing, per-device sessions and revocation, mDNS discovery, and a fork_session tool.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-3a2eb81f14f2fab56473.html"
+  }
+}

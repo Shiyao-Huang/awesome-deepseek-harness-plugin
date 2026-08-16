@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-fb6d961cfde2a706d5f3",
+    "name": "dsh-subscribe#plugin",
+    "author": "zoahdev",
+    "category": "market",
+    "version": null,
+    "homepage": "https://github.com/zoahdev/dsh-subscribe/tree/main/plugin",
+    "firstObservedAt": "2026-08-16T14:38:49Z",
+    "lastChangedAt": "2026-08-16T14:38:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-fb6d961cfde2a706d5f3.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-fb6d961cfde2a706d5f3.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-subscribe",
+    "command": "dsh plugin --profile web add dsh-subscribe",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-fb6d961cfde2a706d5f3，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-fb6d961cfde2a706d5f3.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-fb6d961cfde2a706d5f3.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-subscribe#plugin 已收录到 DeepSeek Harness Plugin Store。Steam 风格的插件商店：在 DSH 里浏览插件注册表，一键安装、卸载与更新，另有零依赖 CLI 与可供 agent 调用的市场工具。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-fb6d961cfde2a706d5f3.html",
+    "en": "dsh-subscribe#plugin is now listed on the DeepSeek Harness Plugin Store. Steam-style plugin storefront: a plugin registry browsable inside DSH with one-click install, uninstall and update, plus a zero-dependency CLI and agent-callable market tools.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-fb6d961cfde2a706d5f3.html"
+  }
+}

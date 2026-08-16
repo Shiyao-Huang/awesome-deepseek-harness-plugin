@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>free-vision-skill — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-bdfceda13de3ecd7d88c.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-bdfceda13de3ecd7d88c.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-bdfceda13de3ecd7d88c.html"/>
+  <entry>
+    <title>Updated: free-vision-skill</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-bdfceda13de3ecd7d88c/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-bdfceda13de3ecd7d88c.html"/>
+    <author><name>niyongsheng</name></author>
+    <category term="tools"/>
+    <summary>Fully-local image understanding &amp; OCR via macOS Vision Framework: `ocr_image` (text, table layout + coordinates) and `view_image` (scene, faces, QR) — paste multiple images into the web input box or pass path/URL/base64; images never leave your Mac. Exact install spec: github:niyongsheng/free-vision-skill. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: free-vision-skill</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-bdfceda13de3ecd7d88c/e1ab6d4a0ce81c55</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-bdfceda13de3ecd7d88c.html"/>
+    <author><name>niyongsheng</name></author>
+    <category term="tools"/>
+    <summary>Fully-local image understanding &amp; OCR via macOS Vision Framework: `ocr_image` (text, table layout + coordinates) and `view_image` (scene, faces, QR) — paste multiple images into the web input box or pass path/URL/base64; images never leave your Mac. Exact install spec: github:niyongsheng/free-vision-skill. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: free-vision-skill</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-bdfceda13de3ecd7d88c/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-bdfceda13de3ecd7d88c.html"/>
+    <author><name>niyongsheng</name></author>
+    <category term="tools"/>
+    <summary>Fully-local image understanding &amp; OCR via macOS Vision Framework: `ocr_image` (text, table layout + coordinates) and `view_image` (scene, faces, QR) — paste multiple images into the web input box or pass path/URL/base64; images never leave your Mac. Exact install spec: github:niyongsheng/free-vision-skill. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

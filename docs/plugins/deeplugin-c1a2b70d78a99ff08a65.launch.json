@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-c1a2b70d78a99ff08a65",
+    "name": "dsh-splash-launcher",
+    "author": "Isilsolme",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/Isilsolme/dsh-splash-launcher",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-c1a2b70d78a99ff08a65.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-c1a2b70d78a99ff08a65.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-splash-launcher",
+    "command": "dsh plugin --profile web add dsh-splash-launcher",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-c1a2b70d78a99ff08a65，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-c1a2b70d78a99ff08a65.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-c1a2b70d78a99ff08a65.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-splash-launcher 已收录到 DeepSeek Harness Plugin Store。Windows 一键启动器：无边框 WPF 启动动画（HARNESS 逐笔描边），后台拉起 dsh web 并在 GUI 就绪后淡入，附 desktop_launch 工具。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c1a2b70d78a99ff08a65.html",
+    "en": "dsh-splash-launcher is now listed on the DeepSeek Harness Plugin Store. Windows one-click launcher with a borderless WPF startup animation (stroke-by-stroke HARNESS lettering) that starts dsh web in the background and fades into the GUI once ready, plus a desktop_launch tool.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-c1a2b70d78a99ff08a65.html"
+  }
+}

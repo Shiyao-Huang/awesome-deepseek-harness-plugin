@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-2200be00c7adc2682944",
+    "name": "mmx-quota-tool",
+    "author": "mtty-ai",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/mtty-ai/mmx-quota-tool",
+    "firstObservedAt": "2026-08-16T05:04:11Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-2200be00c7adc2682944.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-2200be00c7adc2682944.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:mtty-ai/mmx-quota-tool",
+    "command": "dsh plugin --profile web add github:mtty-ai/mmx-quota-tool",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-2200be00c7adc2682944，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-2200be00c7adc2682944.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-2200be00c7adc2682944.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "mmx-quota-tool 已收录到 DeepSeek Harness Plugin Store。DSH 网页 MiniMax 配额悬浮卡：会话输入区显示水滴形 5h 已用百分比，点击展开详情面板，列出每个模型的 5h/周用量与重置倒计时，当前默认模型非 MiniMax 时自动隐藏。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-2200be00c7adc2682944.html",
+    "en": "mmx-quota-tool is now listed on the DeepSeek Harness Plugin Store. MiniMax token-plan quota dock for the Web UI: a drop-shape 5h-usage % chip in the conversation input area, click for a detail panel listing every model's 5h & weekly usage and reset countdown, auto-hidden when the active default model is not a MiniMax model.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-2200be00c7adc2682944.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-eea44d04dc4a1fd91f52",
+    "name": "dshp",
+    "author": "asdf17128",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/asdf17128/dshp",
+    "firstObservedAt": "2026-08-16T08:41:44Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-eea44d04dc4a1fd91f52.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-eea44d04dc4a1fd91f52.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:asdf17128/dshp",
+    "command": "dsh plugin --profile web add github:asdf17128/dshp",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-eea44d04dc4a1fd91f52，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-eea44d04dc4a1fd91f52.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-eea44d04dc4a1fd91f52.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dshp 已收录到 DeepSeek Harness Plugin Store。注册 `list_profiles` 与 `export_profile`：让 agent 列出本机有哪些配置，并把整套 profile（bundle 顺序、插件版本、patch）导出成一个可直接分享的文件。只读。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-eea44d04dc4a1fd91f52.html",
+    "en": "dshp is now listed on the DeepSeek Harness Plugin Store. Registers `list_profiles` and `export_profile`, so the agent can show what setups exist and hand back a whole profile — bundle order, plugin versions and patch — as one portable file to share. Read-only.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-eea44d04dc4a1fd91f52.html"
+  }
+}

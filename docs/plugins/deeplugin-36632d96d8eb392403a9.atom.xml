@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>deepseek-harness-workbench-plugin — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-36632d96d8eb392403a9.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-36632d96d8eb392403a9.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-36632d96d8eb392403a9.html"/>
+  <entry>
+    <title>Updated: deepseek-harness-workbench-plugin</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-36632d96d8eb392403a9/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-36632d96d8eb392403a9.html"/>
+    <author><name>loadingvx</name></author>
+    <category term="ui"/>
+    <summary>Fills in the Web UI's missing IDE workbench: resizable chat / editor / files-and-Git columns in Conversation, multi-tab file editing with save and new-file, workspace Terminal, a file tree with name filter and open-in-external-editor, SCM (stage/commit/push/pull, branch switch, Git graph, inline diffs), a status bar, and git_* model tools. Exact install spec: github:loadingvx/deepseek-harness-workbench-plugin. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: deepseek-harness-workbench-plugin</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-36632d96d8eb392403a9/e1ab6d4a0ce81c55</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-36632d96d8eb392403a9.html"/>
+    <author><name>loadingvx</name></author>
+    <category term="ui"/>
+    <summary>Fills in the Web UI's missing IDE workbench: resizable chat / editor / files-and-Git columns in Conversation, multi-tab file editing with save and new-file, workspace Terminal, a file tree with name filter and open-in-external-editor, SCM (stage/commit/push/pull, branch switch, Git graph, inline diffs), a status bar, and git_* model tools. Exact install spec: github:loadingvx/deepseek-harness-workbench-plugin. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: deepseek-harness-workbench-plugin</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-36632d96d8eb392403a9/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-36632d96d8eb392403a9.html"/>
+    <author><name>loadingvx</name></author>
+    <category term="ui"/>
+    <summary>Fills in the Web UI's missing IDE workbench: resizable chat / editor / files-and-Git columns in Conversation, multi-tab file editing with save and new-file, workspace Terminal, a file tree with name filter and open-in-external-editor, SCM (stage/commit/push/pull, branch switch, Git graph, inline diffs), a status bar, and git_* model tools. Exact install spec: github:loadingvx/deepseek-harness-workbench-plugin. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

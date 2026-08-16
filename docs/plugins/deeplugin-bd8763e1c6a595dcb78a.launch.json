@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-bd8763e1c6a595dcb78a",
+    "name": "dynamic-schulte-dsh",
+    "author": "marvin9551",
+    "category": "fun",
+    "version": null,
+    "homepage": "https://github.com/marvin9551/dynamic-schulte-dsh",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-bd8763e1c6a595dcb78a.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-bd8763e1c6a595dcb78a.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:marvin9551/dynamic-schulte-dsh",
+    "command": "dsh plugin --profile web add github:marvin9551/dynamic-schulte-dsh",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-bd8763e1c6a595dcb78a，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-bd8763e1c6a595dcb78a.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-bd8763e1c6a595dcb78a.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dynamic-schulte-dsh 已收录到 DeepSeek Harness Plugin Store。动态舒尔特方格等待小游戏：模型思考时，在静态网格或旋转轮盘上按顺序点击 1..N，边玩边等。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-bd8763e1c6a595dcb78a.html",
+    "en": "dynamic-schulte-dsh is now listed on the DeepSeek Harness Plugin Store. Dynamic Schulte grid waiting-time mini-game: click 1..N in order on a static grid or a spinning roulette wheel while the model thinks.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-bd8763e1c6a595dcb78a.html"
+  }
+}

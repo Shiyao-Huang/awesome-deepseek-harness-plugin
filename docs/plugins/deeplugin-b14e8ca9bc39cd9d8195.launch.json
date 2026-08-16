@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-b14e8ca9bc39cd9d8195",
+    "name": "dsh-web-lan-access",
+    "author": "AcidGr",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/AcidGr/dsh-web-lan-access",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-b14e8ca9bc39cd9d8195.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-b14e8ca9bc39cd9d8195.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-web-lan-access",
+    "command": "dsh plugin --profile web add dsh-web-lan-access",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-b14e8ca9bc39cd9d8195，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-b14e8ca9bc39cd9d8195.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b14e8ca9bc39cd9d8195.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-web-lan-access 已收录到 DeepSeek Harness Plugin Store。Web UI 局域网/远程访问：为纯 HTTP 非安全上下文注入 crypto.randomUUID polyfill，局域网/Tailscale IP 直连时前端不再崩溃。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b14e8ca9bc39cd9d8195.html",
+    "en": "dsh-web-lan-access is now listed on the DeepSeek Harness Plugin Store. LAN/remote access for the Web UI: injects a crypto.randomUUID polyfill on plain-HTTP origins so the frontend survives LAN or Tailscale IP direct links.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b14e8ca9bc39cd9d8195.html"
+  }
+}

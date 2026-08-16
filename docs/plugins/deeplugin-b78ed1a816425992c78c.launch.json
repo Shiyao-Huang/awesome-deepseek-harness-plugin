@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-b78ed1a816425992c78c",
+    "name": "dsh-result-only-view",
+    "author": "YEYEYEYESHIFU",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/YEYEYEYESHIFU/dsh-result-only-view",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-b78ed1a816425992c78c.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-b78ed1a816425992c78c.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-result-only-view",
+    "command": "dsh plugin --profile web add dsh-result-only-view",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-b78ed1a816425992c78c，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-b78ed1a816425992c78c.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b78ed1a816425992c78c.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-result-only-view 已收录到 DeepSeek Harness Plugin Store。Web 对话「只看结果」开关：隐藏思考与工具调用过程，运行中仅保留一条实时状态行，reduced-motion 环境下恢复活动光影，中英双语。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b78ed1a816425992c78c.html",
+    "en": "dsh-result-only-view is now listed on the DeepSeek Harness Plugin Store. Results-only conversation toggle for the Web GUI: hides thinking and tool-call process rows, keeps one live status line while the agent works, restores working animations under prefers-reduced-motion, zh-CN/en localized.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b78ed1a816425992c78c.html"
+  }
+}

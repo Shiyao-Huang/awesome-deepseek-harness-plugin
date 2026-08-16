@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-9d1347759f0f44a6bc6e",
+    "name": "dsh-whale-animation",
+    "author": "LeemanCheung",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/LeemanCheung/dsh-whale-animation",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-9d1347759f0f44a6bc6e.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-9d1347759f0f44a6bc6e.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:leemancheung/dsh-whale-animation",
+    "command": "dsh plugin --profile web add github:leemancheung/dsh-whale-animation",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-9d1347759f0f44a6bc6e，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-9d1347759f0f44a6bc6e.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-9d1347759f0f44a6bc6e.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-whale-animation 已收录到 DeepSeek Harness Plugin Store。DSH Web 回合状态旁的 60 帧随主题适配的单色鲸鱼深潜动画：传播式水面、无缝闭环、资源内嵌、减少动态效果 PNG 回退，且随生命周期完整清理。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-9d1347759f0f44a6bc6e.html",
+    "en": "dsh-whale-animation is now listed on the DeepSeek Harness Plugin Store. A 60-frame theme-aware monochrome whale-dive animation with reactive water for the DSH Web turn status: embedded assets, seamless closed-loop playback, a reduced-motion PNG fallback, and lifecycle-clean removal.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-9d1347759f0f44a6bc6e.html"
+  }
+}

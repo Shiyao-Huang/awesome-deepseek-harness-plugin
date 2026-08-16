@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>DSH-EvoResearch#evoresearch-plugin — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-a44f12b92ee63ba9ffd8.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-a44f12b92ee63ba9ffd8.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a44f12b92ee63ba9ffd8.html"/>
+  <entry>
+    <title>Updated: DSH-EvoResearch#evoresearch-plugin</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-a44f12b92ee63ba9ffd8/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a44f12b92ee63ba9ffd8.html"/>
+    <author><name>Karbo123</name></author>
+    <category term="workflow"/>
+    <summary>Research agent suite: long-horizon goal control with auditable evidence chains, cron scheduling, multi-agent expert teams, self-evolving research memory (FTS5 + RRF recall), project workspaces, and a custom workspace UI. Exact install spec: github:karbo123/dsh-evoresearch#path:/packages/evoresearch-plugin. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: DSH-EvoResearch#evoresearch-plugin</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-a44f12b92ee63ba9ffd8/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a44f12b92ee63ba9ffd8.html"/>
+    <author><name>Karbo123</name></author>
+    <category term="workflow"/>
+    <summary>Research agent suite: long-horizon goal control with auditable evidence chains, cron scheduling, multi-agent expert teams, self-evolving research memory (FTS5 + RRF recall), project workspaces, and a custom workspace UI. Exact install spec: github:karbo123/dsh-evoresearch#path:/packages/evoresearch-plugin. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: DSH-EvoResearch#evoresearch-plugin</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-a44f12b92ee63ba9ffd8/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a44f12b92ee63ba9ffd8.html"/>
+    <author><name>Karbo123</name></author>
+    <category term="workflow"/>
+    <summary>Research agent suite: long-horizon goal control with auditable evidence chains, cron scheduling, multi-agent expert teams, self-evolving research memory (FTS5 + RRF recall), project workspaces, and a custom workspace UI. Exact install spec: github:karbo123/dsh-evoresearch#path:/packages/evoresearch-plugin. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

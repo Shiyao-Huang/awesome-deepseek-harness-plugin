@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-adf760cbe1cf019f0161",
+    "name": "dsh-session-manager",
+    "author": "Semidia",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/Semidia/dsh-session-manager",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-adf760cbe1cf019f0161.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-adf760cbe1cf019f0161.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:semidia/dsh-session-manager",
+    "command": "dsh plugin --profile web add github:semidia/dsh-session-manager",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-adf760cbe1cf019f0161，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-adf760cbe1cf019f0161.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-adf760cbe1cf019f0161.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-session-manager 已收录到 DeepSeek Harness Plugin Store。会话行右键菜单与侧边栏会话管理：置顶、重命名、归档、分叉、导出、复制工作目录/会话 ID/深链，在资源管理器或新窗口打开。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-adf760cbe1cf019f0161.html",
+    "en": "dsh-session-manager is now listed on the DeepSeek Harness Plugin Store. Right-click session menu and sidebar session manager: pin, rename, archive, fork, export, copy cwd/id/deep link, and open in explorer or a new window.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-adf760cbe1cf019f0161.html"
+  }
+}

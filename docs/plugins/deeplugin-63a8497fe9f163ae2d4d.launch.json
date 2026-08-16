@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-63a8497fe9f163ae2d4d",
+    "name": "billion-context-dsh",
+    "author": "Tyan66666",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/Tyan66666/billion-context-dsh",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-63a8497fe9f163ae2d4d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-63a8497fe9f163ae2d4d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:tyan66666/billion-context-dsh",
+    "command": "dsh plugin --profile web add github:tyan66666/billion-context-dsh",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-63a8497fe9f163ae2d4d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-63a8497fe9f163ae2d4d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-63a8497fe9f163ae2d4d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "billion-context-dsh 已收录到 DeepSeek Harness Plugin Store。模型驱动的上下文压缩（Active Context Pruning）：由模型决定何时压缩、压缩什么。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-63a8497fe9f163ae2d4d.html",
+    "en": "billion-context-dsh is now listed on the DeepSeek Harness Plugin Store. Model-driven context compression (Active Context Pruning) for DeepSeek Harness: the model decides when and what to compress.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-63a8497fe9f163ae2d4d.html"
+  }
+}

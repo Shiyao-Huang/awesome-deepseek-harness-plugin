@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-6e78bcbe2453a964d442",
+    "name": "dsh-dual-agent-presets",
+    "author": "QlzqQlzq",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/QlzqQlzq/dsh-dual-agent-presets",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-6e78bcbe2453a964d442.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-6e78bcbe2453a964d442.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:qlzqqlzq/dsh-dual-agent-presets",
+    "command": "dsh plugin --profile web add github:qlzqqlzq/dsh-dual-agent-presets",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-6e78bcbe2453a964d442，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-6e78bcbe2453a964d442.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-6e78bcbe2453a964d442.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-dual-agent-presets 已收录到 DeepSeek Harness Plugin Store。安装两个可选 Agent Preset：默认不暴露 Shell 的通用 Agent，以及面向真实代码仓库的 Coding Pro。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-6e78bcbe2453a964d442.html",
+    "en": "dsh-dual-agent-presets is now listed on the DeepSeek Harness Plugin Store. Installs two selectable Agent Presets: a shell-restricted general-purpose agent and a repository-focused coding agent.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-6e78bcbe2453a964d442.html"
+  }
+}

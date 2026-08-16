@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-7c2c2021ca6dd10e875b",
+    "name": "dsh-bottom-info-bar",
+    "author": "songoao25",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/songoao25/dsh-bottom-info-bar",
+    "firstObservedAt": "2026-08-16T13:41:06Z",
+    "lastChangedAt": "2026-08-16T13:41:06Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-7c2c2021ca6dd10e875b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-7c2c2021ca6dd10e875b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:songoao25/dsh-bottom-info-bar",
+    "command": "dsh plugin --profile web add github:songoao25/dsh-bottom-info-bar",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-7c2c2021ca6dd10e875b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-7c2c2021ca6dd10e875b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-7c2c2021ca6dd10e875b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-bottom-info-bar 已收录到 DeepSeek Harness Plugin Store。DSH 底部信息栏：一行显示服务商/模型、真实余额、高峰(琥珀)/空闲(绿)价与倒计时，以及本对话·今日·近一月·全部花费（真实落盘统计）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-7c2c2021ca6dd10e875b.html",
+    "en": "dsh-bottom-info-bar is now listed on the DeepSeek Harness Plugin Store. Bottom info bar for the DSH Web UI: provider/model, live balance, peak/off-peak pricing with countdown, and real persisted per-session spend in a single line.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-7c2c2021ca6dd10e875b.html"
+  }
+}

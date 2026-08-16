@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a6f8242ec842ba75312b",
+    "name": "godot-bridge",
+    "author": "Smalldy",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/Smalldy/godot-bridge",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a6f8242ec842ba75312b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a6f8242ec842ba75312b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:smalldy/godot-bridge",
+    "command": "dsh plugin --profile web add github:smalldy/godot-bridge",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a6f8242ec842ba75312b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a6f8242ec842ba75312b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a6f8242ec842ba75312b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "godot-bridge 已收录到 DeepSeek Harness Plugin Store。DSH↔Godot 引擎运行时控制桥：通过游戏内置 TCP 交互服务器启动并操控运行中的 Godot 4.x——8 个工具（场景/UI 检查、GDScript eval、输入模拟、截图、headless 静态操作、脚本编译检查），替代 godot-mcp。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a6f8242ec842ba75312b.html",
+    "en": "godot-bridge is now listed on the DeepSeek Harness Plugin Store. DSH↔Godot engine runtime bridge: launch and drive a running Godot 4.x game through its in-game TCP interaction server — 8 tools (scene/UI inspection, GDScript eval, input simulation, screenshots, headless static ops, script validation), replaces godot-mcp.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a6f8242ec842ba75312b.html"
+  }
+}

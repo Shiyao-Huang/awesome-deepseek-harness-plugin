@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-c297fa0ded877f4d9211",
+    "name": "dsh-mcpguard",
+    "author": "ChenLaoshiYF",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/ChenLaoshiYF/dsh-mcpguard",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-c297fa0ded877f4d9211.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-c297fa0ded877f4d9211.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:chenlaoshiyf/dsh-mcpguard",
+    "command": "dsh plugin --profile web add github:chenlaoshiyf/dsh-mcpguard",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-c297fa0ded877f4d9211，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-c297fa0ded877f4d9211.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-c297fa0ded877f4d9211.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-mcpguard 已收录到 DeepSeek Harness Plugin Store。扫描 skill 与 MCP 配置中的提示注入、同形字、Unicode 隐形字符、危险 shell 与凭据泄露。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c297fa0ded877f4d9211.html",
+    "en": "dsh-mcpguard is now listed on the DeepSeek Harness Plugin Store. Scans skills and MCP configs for prompt injection, homoglyphs, hidden Unicode, dangerous shell, and credential leaks.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-c297fa0ded877f4d9211.html"
+  }
+}

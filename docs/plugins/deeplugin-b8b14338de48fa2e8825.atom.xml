@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>mattpocock-skills-dsh-zh — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-b8b14338de48fa2e8825.atom.xml</id>
+  <updated>2026-08-16T13:41:06Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-b8b14338de48fa2e8825.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b8b14338de48fa2e8825.html"/>
+  <entry>
+    <title>Updated: mattpocock-skills-dsh-zh</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-b8b14338de48fa2e8825/15db592ccf84eb94</id>
+    <updated>2026-08-16T13:41:06Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b8b14338de48fa2e8825.html"/>
+    <author><name>gongyijie85</name></author>
+    <category term="skill"/>
+    <summary>Matt Pocock's skills in Chinese for DSH: all 25 SKILL.md translated to natural Chinese (technical terms kept in English with glosses), adapted from mattpocock/skills (MIT). Exact install spec: mattpocock-skills-dsh-zh. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: mattpocock-skills-dsh-zh</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-b8b14338de48fa2e8825/86daab3b27b8f569</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b8b14338de48fa2e8825.html"/>
+    <author><name>gongyijie85</name></author>
+    <category term="skill"/>
+    <summary>Matt Pocock's skills in Chinese for DSH: all 25 SKILL.md translated to natural Chinese (technical terms kept in English with glosses), adapted from mattpocock/skills (MIT). Exact install spec: mattpocock-skills-dsh-zh. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

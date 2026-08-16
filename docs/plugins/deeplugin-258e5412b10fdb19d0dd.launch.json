@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-258e5412b10fdb19d0dd",
+    "name": "dsh-wecom",
+    "author": "michaelcode-wang",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/michaelcode-wang/dsh-wecom",
+    "firstObservedAt": "2026-08-16T08:41:44Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-258e5412b10fdb19d0dd.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-258e5412b10fdb19d0dd.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:michaelcode-wang/dsh-wecom",
+    "command": "dsh plugin --profile web add github:michaelcode-wang/dsh-wecom",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-258e5412b10fdb19d0dd，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-258e5412b10fdb19d0dd.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-258e5412b10fdb19d0dd.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-wecom 已收录到 DeepSeek Harness Plugin Store。企业微信智能机器人桥接：aibot WebSocket 双向对话（bot_id + secret），无需公网回调。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-258e5412b10fdb19d0dd.html",
+    "en": "dsh-wecom is now listed on the DeepSeek Harness Plugin Store. WeCom (Enterprise WeChat) Smart Robot bridge: two-way chat over the aibot WebSocket gateway, no public endpoint needed.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-258e5412b10fdb19d0dd.html"
+  }
+}

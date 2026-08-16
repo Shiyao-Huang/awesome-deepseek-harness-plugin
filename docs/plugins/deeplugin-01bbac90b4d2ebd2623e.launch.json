@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-01bbac90b4d2ebd2623e",
+    "name": "dsh-plugin-image-input",
+    "author": "Elohia",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/Elohia/dsh-plugin-image-input",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-01bbac90b4d2ebd2623e.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-01bbac90b4d2ebd2623e.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-plugin-image-input",
+    "command": "dsh plugin --profile web add dsh-plugin-image-input",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-01bbac90b4d2ebd2623e，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-01bbac90b4d2ebd2623e.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-01bbac90b4d2ebd2623e.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-image-input 已收录到 DeepSeek Harness Plugin Store。图片转文字输入插件：粘贴/拖拽图片自动转为结构化文字描述发送，给纯文本 LLM 提供图片输入接管（OpenAI 兼容视觉 API）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-01bbac90b4d2ebd2623e.html",
+    "en": "dsh-plugin-image-input is now listed on the DeepSeek Harness Plugin Store. Image-to-text input for the Web UI: paste or drag an image and it is transcribed into structured text and sent, giving text-only LLMs image-input takeover (OpenAI-compatible vision API).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-01bbac90b4d2ebd2623e.html"
+  }
+}

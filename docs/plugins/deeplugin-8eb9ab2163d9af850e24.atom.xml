@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-plugin-automations — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-8eb9ab2163d9af850e24.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-8eb9ab2163d9af850e24.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8eb9ab2163d9af850e24.html"/>
+  <entry>
+    <title>Updated: dsh-plugin-automations</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-8eb9ab2163d9af850e24/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8eb9ab2163d9af850e24.html"/>
+    <author><name>Sev7een</name></author>
+    <category term="workflow"/>
+    <summary>Settings-based scheduled tasks that run on time or during DeepSeek off-peak hours, with one-time and daily schedules backed by durable task state. Exact install spec: github:sev7een/dsh-plugin-automations. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-plugin-automations</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-8eb9ab2163d9af850e24/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8eb9ab2163d9af850e24.html"/>
+    <author><name>Sev7een</name></author>
+    <category term="workflow"/>
+    <summary>Settings-based scheduled tasks that run on time or during DeepSeek off-peak hours, with one-time and daily schedules backed by durable task state. Exact install spec: github:sev7een/dsh-plugin-automations. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-plugin-automations</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-8eb9ab2163d9af850e24/19f118ecfd65ceec</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8eb9ab2163d9af850e24.html"/>
+    <author><name>Sev7een</name></author>
+    <category term="workflow"/>
+    <summary>Settings-based scheduled tasks that run on time or during DeepSeek off-peak hours, with one-time and daily schedules backed by durable task state. Exact install spec: github:sev7een/dsh-plugin-automations. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-plugin-automations</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-8eb9ab2163d9af850e24/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8eb9ab2163d9af850e24.html"/>
+    <author><name>Sev7een</name></author>
+    <category term="workflow"/>
+    <summary>Settings-based scheduled tasks that run on time or during DeepSeek off-peak hours, with one-time and daily schedules backed by durable task state. Exact install spec: github:sev7een/dsh-plugin-automations. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-aeef8df5e5ccbacbc87d",
+    "name": "dsh-achievements",
+    "author": "WJNCT55555",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/WJNCT55555/dsh-achievements",
+    "firstObservedAt": "2026-08-16T05:04:11Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-aeef8df5e5ccbacbc87d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-aeef8df5e5ccbacbc87d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:wjnct55555/dsh-achievements",
+    "command": "dsh plugin --profile web add github:wjnct55555/dsh-achievements",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-aeef8df5e5ccbacbc87d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-aeef8df5e5ccbacbc87d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-aeef8df5e5ccbacbc87d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-achievements 已收录到 DeepSeek Harness Plugin Store。DSH Web 成就系统：画廊支持按分类/难度双排序、解锁 toast、侧栏奖杯、输入坞进度读条、联动成就，并本地持久化进度。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-aeef8df5e5ccbacbc87d.html",
+    "en": "dsh-achievements is now listed on the DeepSeek Harness Plugin Store. Achievement system for the DSH Web UI: gallery with category/rarity sorting, unlock toasts, sidebar trophy, composer dock, crossover achievements, and local persistence.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-aeef8df5e5ccbacbc87d.html"
+  }
+}

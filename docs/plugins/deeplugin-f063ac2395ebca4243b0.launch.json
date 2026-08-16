@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-f063ac2395ebca4243b0",
+    "name": "mirage#dsh",
+    "author": "strukto-ai",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/strukto-ai/mirage/tree/main/typescript/packages/dsh",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-f063ac2395ebca4243b0.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-f063ac2395ebca4243b0.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@struktoai/mirage-dsh",
+    "command": "dsh plugin --profile web add @struktoai/mirage-dsh",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-f063ac2395ebca4243b0，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-f063ac2395ebca4243b0.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-f063ac2395ebca4243b0.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "mirage#dsh 已收录到 DeepSeek Harness Plugin Store。把文件系统与 bash 提供者换成 mirage 虚拟工作区：文件工具与 shell 命令作用于挂载的资源（RAM、S3、Redis、Slack、Gmail、Notion、Postgres）而非宿主磁盘，支持按挂载点设置读/写/执行模式、按命令选择沙箱（进程内 monty、pyodide、quickjs；远程 docker、e2b、daytona），并可在虚拟终端中安装 CLI（git、gh、slack、linear、ntn、gws，或自行注册的程序树）作为命令头词。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-f063ac2395ebca4243b0.html",
+    "en": "mirage#dsh is now listed on the DeepSeek Harness Plugin Store. Swaps the filesystem and bash providers for a mirage virtual workspace: file tools and shell commands run over mounted resources (RAM, S3, Redis, Slack, Gmail, Notion, Postgres) instead of the host disk, with per-mount read/write/exec modes, per-command sandbox routing (monty, pyodide, quickjs in process; docker, e2b, daytona remote), and installed CLIs (git, gh, slack, linear, ntn, gws, or one you register) as head words in the virtual terminal.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-f063ac2395ebca4243b0.html"
+  }
+}

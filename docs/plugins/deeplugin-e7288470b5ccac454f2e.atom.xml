@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-minimal-first-turn — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-e7288470b5ccac454f2e.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-e7288470b5ccac454f2e.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e7288470b5ccac454f2e.html"/>
+  <entry>
+    <title>Updated: dsh-minimal-first-turn</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-e7288470b5ccac454f2e/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e7288470b5ccac454f2e.html"/>
+    <author><name>ZRui-C</name></author>
+    <category term="session"/>
+    <summary>Minimal-compatible first turn for Web root sessions: starts with persistent bash and str_replace_editor, removes automatic workspace and skill context, then restores the selected preset after the first tool call or reply; includes a persistent composer toggle. Exact install spec: dsh-minimal-first-turn. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-minimal-first-turn</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-e7288470b5ccac454f2e/6f2ac25403078bce</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e7288470b5ccac454f2e.html"/>
+    <author><name>ZRui-C</name></author>
+    <category term="session"/>
+    <summary>Minimal-compatible first turn for Web root sessions: starts with persistent bash and str_replace_editor, removes automatic workspace and skill context, then restores the selected preset after the first tool call or reply; includes a persistent composer toggle. Exact install spec: dsh-minimal-first-turn. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

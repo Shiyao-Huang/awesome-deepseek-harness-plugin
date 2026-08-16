@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-3d1c88adf83f42c0990c",
+    "name": "dsh-pet",
+    "author": "zealot00",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/zealot00/dsh-pet",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-3d1c88adf83f42c0990c.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-3d1c88adf83f42c0990c.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:zealot00/dsh-pet",
+    "command": "dsh plugin --profile web add github:zealot00/dsh-pet",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-3d1c88adf83f42c0990c，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-3d1c88adf83f42c0990c.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-3d1c88adf83f42c0990c.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-pet 已收录到 DeepSeek Harness Plugin Store。DSH Web UI 桌面宠物：精灵图动画、agent 状态联动、拖拽、闹钟（每天/一次）与番茄钟，皮肤下拉选择 + 预览。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-3d1c88adf83f42c0990c.html",
+    "en": "dsh-pet is now listed on the DeepSeek Harness Plugin Store. Desktop pet for the DSH Web UI: sprite-sheet animation, agent state linkage, drag, alarm (daily/one-shot) and pomodoro widgets, skin picker with preview.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-3d1c88adf83f42c0990c.html"
+  }
+}

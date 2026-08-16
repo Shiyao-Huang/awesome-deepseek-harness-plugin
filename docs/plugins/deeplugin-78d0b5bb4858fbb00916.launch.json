@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-78d0b5bb4858fbb00916",
+    "name": "dsh-llm-vision-bridge",
+    "author": "Einskyle",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/Einskyle/dsh-llm-vision-bridge",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-78d0b5bb4858fbb00916.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-78d0b5bb4858fbb00916.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-llm-vision-bridge",
+    "command": "dsh plugin --profile web add dsh-llm-vision-bridge",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-78d0b5bb4858fbb00916，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-78d0b5bb4858fbb00916.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-78d0b5bb4858fbb00916.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-llm-vision-bridge 已收录到 DeepSeek Harness Plugin Store。DeepSeek 视觉桥接：注册原生 LLM provider，聊天内粘贴的图片自动由视觉模型（pi-ai/llama.cpp 上的 Qwen3-VL）转成文字描述后交给纯文本 DeepSeek 作答——图片准入、路由与会话压缩全部走 harness 原生机制，带 LRU 描述缓存与 503 重试。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-78d0b5bb4858fbb00916.html",
+    "en": "dsh-llm-vision-bridge is now listed on the DeepSeek Harness Plugin Store. Native LLM-provider vision bridge: images pasted in the chat are described by a vision model (Qwen3-VL via pi-ai/llama.cpp) and the text description is fed to text-only DeepSeek for the reply — image admission, routing and compaction all run through harness-native mechanisms, with an LRU description cache and 503 retry.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-78d0b5bb4858fbb00916.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-346adcc577f631d22fd8",
+    "name": "dsh-plugin-terminal",
+    "author": "siberiah2o",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/siberiah2o/dsh-plugin-terminal",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-346adcc577f631d22fd8.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-346adcc577f631d22fd8.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-plugin-terminal",
+    "command": "dsh plugin --profile web add dsh-plugin-terminal",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-346adcc577f631d22fd8，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-346adcc577f631d22fd8.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-346adcc577f631d22fd8.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-terminal 已收录到 DeepSeek Harness Plugin Store。底部多标签终端面板（node-pty + xterm.js）：贴底全宽，输入框始终在终端上方。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-346adcc577f631d22fd8.html",
+    "en": "dsh-plugin-terminal is now listed on the DeepSeek Harness Plugin Store. Bottom multi-tab terminal panel (node-pty + xterm.js) pinned to the viewport bottom, always below the input box.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-346adcc577f631d22fd8.html"
+  }
+}

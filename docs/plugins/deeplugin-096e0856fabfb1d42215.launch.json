@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-096e0856fabfb1d42215",
+    "name": "web-components",
+    "author": "omdsh-dev",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/omdsh-dev/web-components",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-096e0856fabfb1d42215.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-096e0856fabfb1d42215.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:omdsh-dev/web-components",
+    "command": "dsh plugin --profile web add github:omdsh-dev/web-components",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-096e0856fabfb1d42215，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-096e0856fabfb1d42215.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-096e0856fabfb1d42215.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "web-components 已收录到 DeepSeek Harness Plugin Store。Web Components 支持。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-096e0856fabfb1d42215.html",
+    "en": "web-components is now listed on the DeepSeek Harness Plugin Store. Web Components support.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-096e0856fabfb1d42215.html"
+  }
+}

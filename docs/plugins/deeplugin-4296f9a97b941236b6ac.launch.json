@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-4296f9a97b941236b6ac",
+    "name": "dsh-unarchive",
+    "author": "edfrey0044",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/edfrey0044/dsh-unarchive",
+    "firstObservedAt": "2026-08-16T14:38:49Z",
+    "lastChangedAt": "2026-08-16T14:38:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-4296f9a97b941236b6ac.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-4296f9a97b941236b6ac.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:edfrey0044/dsh-unarchive",
+    "command": "dsh plugin --profile web add github:edfrey0044/dsh-unarchive",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-4296f9a97b941236b6ac，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-4296f9a97b941236b6ac.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-4296f9a97b941236b6ac.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-unarchive 已收录到 DeepSeek Harness Plugin Store。恢复已归档会话：/unarchive 命令与 unarchive_session 工具，把会话移出归档集合、在原位置重新出现在工作区（归档从不删除数据）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-4296f9a97b941236b6ac.html",
+    "en": "dsh-unarchive is now listed on the DeepSeek Harness Plugin Store. Restore archived sessions: a /unarchive command and an unarchive_session tool that remove sessions from the archive set so they reappear in the workspace at their original position (archiving never deletes data).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-4296f9a97b941236b6ac.html"
+  }
+}

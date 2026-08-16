@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-api-key-pool — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-a428f3fb47d8b688db35.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-a428f3fb47d8b688db35.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a428f3fb47d8b688db35.html"/>
+  <entry>
+    <title>Updated: dsh-api-key-pool</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-a428f3fb47d8b688db35/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a428f3fb47d8b688db35.html"/>
+    <author><name>xiaozhe7772222</name></author>
+    <category term="theme"/>
+    <summary>API key rotation pool for your LLM providers: auto-discovers providers from settings, per-provider multi-key round-robin, failover on 401/403/429, and cooldown recovery. Exact install spec: github:xiaozhe7772222/dsh-api-key-pool. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-api-key-pool</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-a428f3fb47d8b688db35/e1ab6d4a0ce81c55</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a428f3fb47d8b688db35.html"/>
+    <author><name>xiaozhe7772222</name></author>
+    <category term="theme"/>
+    <summary>API key rotation pool for your LLM providers: auto-discovers providers from settings, per-provider multi-key round-robin, failover on 401/403/429, and cooldown recovery. Exact install spec: github:xiaozhe7772222/dsh-api-key-pool. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-api-key-pool</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-a428f3fb47d8b688db35/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a428f3fb47d8b688db35.html"/>
+    <author><name>xiaozhe7772222</name></author>
+    <category term="theme"/>
+    <summary>API key rotation pool for your LLM providers: auto-discovers providers from settings, per-provider multi-key round-robin, failover on 401/403/429, and cooldown recovery. Exact install spec: github:xiaozhe7772222/dsh-api-key-pool. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

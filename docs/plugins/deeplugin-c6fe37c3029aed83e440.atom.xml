@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-imagegen — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-c6fe37c3029aed83e440.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-c6fe37c3029aed83e440.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c6fe37c3029aed83e440.html"/>
+  <entry>
+    <title>Updated: dsh-imagegen</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-c6fe37c3029aed83e440/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c6fe37c3029aed83e440.html"/>
+    <author><name>dickpy</name></author>
+    <category term="tools"/>
+    <summary>AI image generation for the DSH Web GUI: text-to-image and image-to-image through a configurable OpenAI-compatible endpoint (gpt-image-2 / gpt-image-1 / dall-e-3), with an api_url/api_key settings card and a sidebar split-pane generation studio. Exact install spec: @dickpy/dsh-imagegen. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-imagegen</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-c6fe37c3029aed83e440/7e5b8321bc7d21b1</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c6fe37c3029aed83e440.html"/>
+    <author><name>dickpy</name></author>
+    <category term="tools"/>
+    <summary>AI image generation for the DSH Web GUI: text-to-image and image-to-image through a configurable OpenAI-compatible endpoint (gpt-image-2 / gpt-image-1 / dall-e-3), with an api_url/api_key settings card and a sidebar split-pane generation studio. Exact install spec: @dickpy/dsh-imagegen. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

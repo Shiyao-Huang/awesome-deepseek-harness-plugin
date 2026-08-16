@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a6cd9ac30fba9376c8af",
+    "name": "dsh-plugin-call-me",
+    "author": "radres",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/radres/dsh-plugin-call-me",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a6cd9ac30fba9376c8af.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a6cd9ac30fba9376c8af.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:radres/dsh-plugin-call-me",
+    "command": "dsh plugin --profile web add github:radres/dsh-plugin-call-me",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a6cd9ac30fba9376c8af，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a6cd9ac30fba9376c8af.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a6cd9ac30fba9376c8af.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-call-me 已收录到 DeepSeek Harness Plugin Store。通过 CallKit 打电话到你的手机：`call_me` 与 `text_me` 工具，并可在回合结束或等待审批时来电，语音回答转写后送回会话。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a6cd9ac30fba9376c8af.html",
+    "en": "dsh-plugin-call-me is now listed on the DeepSeek Harness Plugin Store. Rings your phone over CallKit: `call_me` and `text_me` tools, plus optional turn-end and approval calls whose spoken answer is transcribed back into the session.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a6cd9ac30fba9376c8af.html"
+  }
+}

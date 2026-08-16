@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-cc255cf17a305f45f6ff",
+    "name": "dsh-plugin-codex",
+    "author": "wss534857356",
+    "category": "model",
+    "version": null,
+    "homepage": "https://github.com/wss534857356/dsh-plugin-codex",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-cc255cf17a305f45f6ff.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-cc255cf17a305f45f6ff.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:wss534857356/dsh-plugin-codex",
+    "command": "dsh plugin --profile web add github:wss534857356/dsh-plugin-codex",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-cc255cf17a305f45f6ff，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-cc255cf17a305f45f6ff.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-cc255cf17a305f45f6ff.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-codex 已收录到 DeepSeek Harness Plugin Store。使用本地 Codex 登录的 Codex App Server 模型提供方，支持会话复用、Harness 工具桥接、原生动作轨迹和生成图片持久化。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-cc255cf17a305f45f6ff.html",
+    "en": "dsh-plugin-codex is now listed on the DeepSeek Harness Plugin Store. Codex App Server model provider using a local Codex login, with session reuse, Harness tool bridging, native action traces, and durable generated-image projection.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-cc255cf17a305f45f6ff.html"
+  }
+}

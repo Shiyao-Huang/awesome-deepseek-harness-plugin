@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-48312c3ce46a78ce57d2",
+    "name": "dsh-codex-connect",
+    "author": "franksong2702",
+    "category": "model",
+    "version": null,
+    "homepage": "https://github.com/franksong2702/dsh-codex-connect",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-48312c3ce46a78ce57d2.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-48312c3ce46a78ce57d2.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-codex-connect",
+    "command": "dsh plugin --profile web add dsh-codex-connect",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-48312c3ce46a78ce57d2，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-48312c3ce46a78ce57d2.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-48312c3ce46a78ce57d2.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-codex-connect 已收录到 DeepSeek Harness Plugin Store。通过 ChatGPT OAuth 将 OpenAI Codex 模型接入 DeepSeek Harness，并提供可选的搜索与图片工具。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-48312c3ce46a78ce57d2.html",
+    "en": "dsh-codex-connect is now listed on the DeepSeek Harness Plugin Store. Connect ChatGPT OAuth and OpenAI Codex models to DeepSeek Harness, with opt-in search and image tools.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-48312c3ce46a78ce57d2.html"
+  }
+}

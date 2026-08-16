@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-454daaf6b762fee26989",
+    "name": "dsh-ssh-ops",
+    "author": "caoyiwei850",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/caoyiwei850/dsh-ssh-ops",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-454daaf6b762fee26989.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-454daaf6b762fee26989.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-ssh-ops",
+    "command": "dsh plugin --profile web add dsh-ssh-ops",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-454daaf6b762fee26989，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-454daaf6b762fee26989.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-454daaf6b762fee26989.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-ssh-ops 已收录到 DeepSeek Harness Plugin Store。DSH SSH 运维终端：在主对话中直接指挥已连接的服务器（ssh_connect/ssh_exec/ssh_read/ssh_write/ssh_disconnect），右侧保留可交互的 xterm.js 终端。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-454daaf6b762fee26989.html",
+    "en": "dsh-ssh-ops is now listed on the DeepSeek Harness Plugin Store. SSH ops terminal for DSH Web UI: drive a connected server from the main conversation (ssh_connect/ssh_exec/ssh_read/ssh_write/ssh_disconnect) while keeping an interactive xterm.js terminal on the right.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-454daaf6b762fee26989.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-d9cfb953242e29037828",
+    "name": "find-dsh-plugins",
+    "author": "JazzuLu",
+    "category": "skill",
+    "version": null,
+    "homepage": "https://github.com/JazzuLu/find-dsh-plugins",
+    "firstObservedAt": "2026-08-16T08:41:44Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-d9cfb953242e29037828.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-d9cfb953242e29037828.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:jazzulu/find-dsh-plugins",
+    "command": "dsh plugin --profile web add github:jazzulu/find-dsh-plugins",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-d9cfb953242e29037828，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-d9cfb953242e29037828.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-d9cfb953242e29037828.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "find-dsh-plugins 已收录到 DeepSeek Harness Plugin Store。对话式查找 DSH 插件的增强版 skill：四源聚合统一索引，BM25 粗筛 + LLM 语义精排，候选表带证据分级与本地静态安全审计，安装走安全确认流程并自动验证。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-d9cfb953242e29037828.html",
+    "en": "find-dsh-plugins is now listed on the DeepSeek Harness Plugin Store. Conversational DSH plugin finder: four-source unified index, BM25 pre-filter plus LLM semantic ranking, candidates carry evidence grades and local static security audit, safe install flow with post-install verification.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-d9cfb953242e29037828.html"
+  }
+}

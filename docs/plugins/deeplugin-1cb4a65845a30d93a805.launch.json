@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-1cb4a65845a30d93a805",
+    "name": "dsh-tool-github",
+    "author": "NEAZ71eve",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/NEAZ71eve/dsh-tool-github",
+    "firstObservedAt": "2026-08-16T09:56:16Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-1cb4a65845a30d93a805.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-1cb4a65845a30d93a805.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:neaz71eve/dsh-tool-github",
+    "command": "dsh plugin --profile web add github:neaz71eve/dsh-tool-github",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-1cb4a65845a30d93a805，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-1cb4a65845a30d93a805.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-1cb4a65845a30d93a805.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-tool-github 已收录到 DeepSeek Harness Plugin Store。GitHub REST API 工具 + 浏览器侧边栏面板：仓库/搜索/Issue/PR/评论、账号绑定（凭据库）与一键克隆为工作区。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-1cb4a65845a30d93a805.html",
+    "en": "dsh-tool-github is now listed on the DeepSeek Harness Plugin Store. GitHub REST API tools + browser sidebar panel: repos, search, issues, PRs, comments, account binding (credential-store), and one-click clone-as-workspace.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-1cb4a65845a30d93a805.html"
+  }
+}

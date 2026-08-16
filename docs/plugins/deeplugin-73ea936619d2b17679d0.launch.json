@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-73ea936619d2b17679d0",
+    "name": "dsh-fork-graph",
+    "author": "chouyong",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/chouyong/dsh-fork-graph",
+    "firstObservedAt": "2026-08-16T09:56:16Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-73ea936619d2b17679d0.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-73ea936619d2b17679d0.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:chouyong/dsh-fork-graph",
+    "command": "dsh plugin --profile web add github:chouyong/dsh-fork-graph",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-73ea936619d2b17679d0，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-73ea936619d2b17679d0.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-73ea936619d2b17679d0.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-fork-graph 已收录到 DeepSeek Harness Plugin Store。会话标题栏内联的 Git 风格 fork 血缘图：用彩色轨道与分叉曲线显示会话从何处分支，并可点击跳转。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-73ea936619d2b17679d0.html",
+    "en": "dsh-fork-graph is now listed on the DeepSeek Harness Plugin Store. Git-style conversation fork graph in the session header: colored lanes and fork curves show which session branched from which, with click-to-jump navigation.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-73ea936619d2b17679d0.html"
+  }
+}

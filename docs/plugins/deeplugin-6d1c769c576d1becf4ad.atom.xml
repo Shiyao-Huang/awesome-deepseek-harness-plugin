@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-line-select — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-6d1c769c576d1becf4ad.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-6d1c769c576d1becf4ad.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-6d1c769c576d1becf4ad.html"/>
+  <entry>
+    <title>Updated: dsh-line-select</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-6d1c769c576d1becf4ad/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-6d1c769c576d1becf4ad.html"/>
+    <author><name>fengMax1997</name></author>
+    <category term="ui"/>
+    <summary>Line-range selection: browse workspace files, preview code with line numbers, visually select a line range, and write a `@path:start-end` reference into the composer; the agent receives the exact selected lines on send. Exact install spec: github:fengmax1997/dsh-line-select. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-line-select</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-6d1c769c576d1becf4ad/e1ab6d4a0ce81c55</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-6d1c769c576d1becf4ad.html"/>
+    <author><name>fengMax1997</name></author>
+    <category term="ui"/>
+    <summary>Line-range selection: browse workspace files, preview code with line numbers, visually select a line range, and write a `@path:start-end` reference into the composer; the agent receives the exact selected lines on send. Exact install spec: github:fengmax1997/dsh-line-select. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-line-select</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-6d1c769c576d1becf4ad/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-6d1c769c576d1becf4ad.html"/>
+    <author><name>fengMax1997</name></author>
+    <category term="ui"/>
+    <summary>Line-range selection: browse workspace files, preview code with line numbers, visually select a line range, and write a `@path:start-end` reference into the composer; the agent receives the exact selected lines on send. Exact install spec: github:fengmax1997/dsh-line-select. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

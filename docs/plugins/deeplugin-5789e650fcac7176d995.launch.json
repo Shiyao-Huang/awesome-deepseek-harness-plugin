@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-5789e650fcac7176d995",
+    "name": "dsh-check-update",
+    "author": "HuiHuitie-zhu",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/HuiHuitie-zhu/dsh-check-update",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-5789e650fcac7176d995.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-5789e650fcac7176d995.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-check-update",
+    "command": "dsh plugin --profile web add dsh-check-update",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-5789e650fcac7176d995，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-5789e650fcac7176d995.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-5789e650fcac7176d995.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-check-update 已收录到 DeepSeek Harness Plugin Store。更新检查器（npm 版）：设置页对比 @deepseek-ai/dsh 与已装插件的本地/最新版本，有更新时导航红点提醒，并直接给出更新命令。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-5789e650fcac7176d995.html",
+    "en": "dsh-check-update is now listed on the DeepSeek Harness Plugin Store. Update checker (npm edition): a settings page comparing local and latest versions of @deepseek-ai/dsh and every installed plugin, with a red-dot nav reminder and ready-made update commands.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-5789e650fcac7176d995.html"
+  }
+}

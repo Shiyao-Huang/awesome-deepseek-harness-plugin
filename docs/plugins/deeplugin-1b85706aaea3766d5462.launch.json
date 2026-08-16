@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-1b85706aaea3766d5462",
+    "name": "dsh-better-edit",
+    "author": "Rianico",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/Rianico/dsh-better-edit",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-1b85706aaea3766d5462.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-1b85706aaea3766d5462.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-better-edit",
+    "command": "dsh plugin --profile web add dsh-better-edit",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-1b85706aaea3766d5462，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-1b85706aaea3766d5462.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-1b85706aaea3766d5462.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-better-edit 已收录到 DeepSeek Harness Plugin Store。基于哈希锚定的 read / edit / batch_edit / undo_last_edit 工具：每行分配唯一的 3 字符内容哈希，编辑按哈希而非行号定位；对已提供状态逐行校验，过期范围会被拒绝并回传新锚点。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-1b85706aaea3766d5462.html",
+    "en": "dsh-better-edit is now listed on the DeepSeek Harness Plugin Store. Hash-anchored read / edit / batch_edit / undo_last_edit tools: every line gets a unique 3-character content hash, edits target hashes instead of line numbers, and served-state verification rejects stale ranges with fresh anchors.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-1b85706aaea3766d5462.html"
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>awesome-dsh-background-plugin — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-12da7fd3ea46bdc9413d.atom.xml</id>
+  <updated>2026-08-16T14:38:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-12da7fd3ea46bdc9413d.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-12da7fd3ea46bdc9413d.html"/>
+  <entry>
+    <title>New: awesome-dsh-background-plugin</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-12da7fd3ea46bdc9413d/ea75554e2a868342</id>
+    <updated>2026-08-16T14:38:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-12da7fd3ea46bdc9413d.html"/>
+    <author><name>leavestring</name></author>
+    <category term="theme"/>
+    <summary>DSH Web background settings: upload a local image or pick a preset ambiance, with live preview and persistent settings. Exact install spec: github:leavestring/awesome-dsh-background-plugin. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

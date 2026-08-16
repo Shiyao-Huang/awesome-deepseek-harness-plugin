@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-cost-tracker — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-cf25ee1fcf37b66f80f5.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-cf25ee1fcf37b66f80f5.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-cf25ee1fcf37b66f80f5.html"/>
+  <entry>
+    <title>Updated: dsh-cost-tracker</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-cf25ee1fcf37b66f80f5/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-cf25ee1fcf37b66f80f5.html"/>
+    <author><name>yflmq001</name></author>
+    <category term="dev"/>
+    <summary>Per-model token cost tracking with configurable cache-hit/miss, output and peak-window pricing, a live session cost bar, and unconfigured-model flags. Exact install spec: github:yflmq001/dsh-cost-tracker. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-cost-tracker</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-cf25ee1fcf37b66f80f5/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-cf25ee1fcf37b66f80f5.html"/>
+    <author><name>yflmq001</name></author>
+    <category term="dev"/>
+    <summary>Per-model token cost tracking with configurable cache-hit/miss, output and peak-window pricing, a live session cost bar, and unconfigured-model flags. Exact install spec: github:yflmq001/dsh-cost-tracker. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-cost-tracker</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-cf25ee1fcf37b66f80f5/19f118ecfd65ceec</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-cf25ee1fcf37b66f80f5.html"/>
+    <author><name>yflmq001</name></author>
+    <category term="dev"/>
+    <summary>Per-model token cost tracking with configurable cache-hit/miss, output and peak-window pricing, a live session cost bar, and unconfigured-model flags. Exact install spec: github:yflmq001/dsh-cost-tracker. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-cost-tracker</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-cf25ee1fcf37b66f80f5/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-cf25ee1fcf37b66f80f5.html"/>
+    <author><name>yflmq001</name></author>
+    <category term="dev"/>
+    <summary>Per-model token cost tracking with configurable cache-hit/miss, output and peak-window pricing, a live session cost bar, and unconfigured-model flags. Exact install spec: github:yflmq001/dsh-cost-tracker. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

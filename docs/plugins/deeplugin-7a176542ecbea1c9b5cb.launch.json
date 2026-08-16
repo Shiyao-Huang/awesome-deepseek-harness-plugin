@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-7a176542ecbea1c9b5cb",
+    "name": "dsh-aicc-zhunao",
+    "author": "Cola1018",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/Cola1018/dsh-aicc-zhunao",
+    "firstObservedAt": "2026-08-16T14:38:49Z",
+    "lastChangedAt": "2026-08-16T14:38:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-7a176542ecbea1c9b5cb.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-7a176542ecbea1c9b5cb.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-aicc-zhunao",
+    "command": "dsh plugin --profile web add dsh-aicc-zhunao",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-7a176542ecbea1c9b5cb，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-7a176542ecbea1c9b5cb.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-7a176542ecbea1c9b5cb.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-aicc-zhunao 已收录到 DeepSeek Harness Plugin Store。主脑编排 preset：委派优先的 persona、根会话执行门禁，以及可移植的 AI-LAW 规则技能。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-7a176542ecbea1c9b5cb.html",
+    "en": "dsh-aicc-zhunao is now listed on the DeepSeek Harness Plugin Store. Main-brain orchestration preset: delegation-first persona, root-session execution gate, and portable AI-LAW rule skill.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-7a176542ecbea1c9b5cb.html"
+  }
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-genie — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-461cdc36ff976f7e4417.atom.xml</id>
+  <updated>2026-08-16T08:41:44Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-461cdc36ff976f7e4417.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-461cdc36ff976f7e4417.html"/>
+  <entry>
+    <title>Updated: dsh-genie</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-461cdc36ff976f7e4417/e1ab6d4a0ce81c55</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-461cdc36ff976f7e4417.html"/>
+    <author><name>swaylq</name></author>
+    <category term="dev"/>
+    <summary>Keeps what the agent builds at runtime: turns a `cordis_define` dynamic package into a real installed plugin that survives restart, writing the bundle and registering the profile layer with no pnpm, no network, and no build authorization. Exact install spec: github:swaylq/dsh-genie. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-genie</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-461cdc36ff976f7e4417/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-461cdc36ff976f7e4417.html"/>
+    <author><name>swaylq</name></author>
+    <category term="dev"/>
+    <summary>Keeps what the agent builds at runtime: turns a `cordis_define` dynamic package into a real installed plugin that survives restart, writing the bundle and registering the profile layer with no pnpm, no network, and no build authorization. Exact install spec: github:swaylq/dsh-genie. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-genie</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-461cdc36ff976f7e4417/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-461cdc36ff976f7e4417.html"/>
+    <author><name>swaylq</name></author>
+    <category term="dev"/>
+    <summary>Keeps what the agent builds at runtime: turns a `cordis_define` dynamic package into a real installed plugin that survives restart, writing the bundle and registering the profile layer with no pnpm, no network, and no build authorization. Exact install spec: github:swaylq/dsh-genie. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

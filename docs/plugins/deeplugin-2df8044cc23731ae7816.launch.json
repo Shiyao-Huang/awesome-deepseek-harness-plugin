@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-2df8044cc23731ae7816",
+    "name": "hermes-dsh-collab",
+    "author": "Cavan-Ou",
+    "category": "skill",
+    "version": null,
+    "homepage": "https://github.com/Cavan-Ou/hermes-dsh-collab",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-2df8044cc23731ae7816.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-2df8044cc23731ae7816.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:cavan-ou/hermes-dsh-collab",
+    "command": "dsh plugin --profile web add github:cavan-ou/hermes-dsh-collab",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-2df8044cc23731ae7816，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-2df8044cc23731ae7816.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-2df8044cc23731ae7816.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "hermes-dsh-collab 已收录到 DeepSeek Harness Plugin Store。把 DeepSeek Harness 接进 Hermes 管线：派单 spec 模板、模型档位路由、质量门、git 唯一写者约定，SKILL.md 技能包（bundle 可安装）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-2df8044cc23731ae7816.html",
+    "en": "hermes-dsh-collab is now listed on the DeepSeek Harness Plugin Store. Hook DeepSeek Harness into a Hermes pipeline: dispatch-spec template, model-tier routing, orchestrator-run quality gates, git single-writer rule, as a SKILL.md pack (bundle installable).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-2df8044cc23731ae7816.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-94a34e7ad30454b85098",
+    "name": "dsh-filetree",
+    "author": "lak321",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/lak321/dsh-filetree",
+    "firstObservedAt": "2026-08-16T03:13:50Z",
+    "lastChangedAt": "2026-08-16T03:13:50Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-94a34e7ad30454b85098.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-94a34e7ad30454b85098.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:lak321/dsh-filetree",
+    "command": "dsh plugin --profile web add github:lak321/dsh-filetree",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-94a34e7ad30454b85098，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-94a34e7ad30454b85098.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-94a34e7ad30454b85098.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-filetree 已收录到 DeepSeek Harness Plugin Store。工程文件浏览器：会话视图文件页签，目录树 + VSCode 风格编辑器（C 语法高亮/行号/自动缩进/状态栏），跟随当前工作区。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-94a34e7ad30454b85098.html",
+    "en": "dsh-filetree is now listed on the DeepSeek Harness Plugin Store. Project file browser: per-session file tabs, a directory tree, and a VSCode-style editor (C syntax highlighting, line numbers, auto-indent, status bar) that follows the current workspace.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-94a34e7ad30454b85098.html"
+  }
+}

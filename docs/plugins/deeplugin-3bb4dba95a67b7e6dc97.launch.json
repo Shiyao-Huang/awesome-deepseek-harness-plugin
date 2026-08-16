@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-3bb4dba95a67b7e6dc97",
+    "name": "dsh-kb-sieve",
+    "author": "omdsh-dev",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/omdsh-dev/dsh-kb-sieve",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-3bb4dba95a67b7e6dc97.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-3bb4dba95a67b7e6dc97.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:omdsh-dev/dsh-kb-sieve",
+    "command": "dsh plugin --profile web add github:omdsh-dev/dsh-kb-sieve",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-3bb4dba95a67b7e6dc97，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-3bb4dba95a67b7e6dc97.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-3bb4dba95a67b7e6dc97.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-kb-sieve 已收录到 DeepSeek Harness Plugin Store。从 md/txt/docx/pdf 构建可审计知识库包（SQLite FTS5），确定性检索与原文阅读。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-3bb4dba95a67b7e6dc97.html",
+    "en": "dsh-kb-sieve is now listed on the DeepSeek Harness Plugin Store. Build auditable KB packs (SQLite FTS5) from md/txt/docx/pdf with deterministic retrieval and original-text reading.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-3bb4dba95a67b7e6dc97.html"
+  }
+}

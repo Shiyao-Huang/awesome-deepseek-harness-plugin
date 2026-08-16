@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-companion — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-fe6e92f40cfd8e850804.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-fe6e92f40cfd8e850804.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fe6e92f40cfd8e850804.html"/>
+  <entry>
+    <title>Updated: dsh-companion</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-fe6e92f40cfd8e850804/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fe6e92f40cfd8e850804.html"/>
+    <author><name>beijingwahw</name></author>
+    <category term="session"/>
+    <summary>Four-module session companion: smart conversation export (Markdown/PDF/JSON/PNG long-image with privacy redaction and batch ZIP), context handoff summaries with template save/import, API cost optimization (live official pricing, peak/off-peak scheduling, daily/monthly budgets, model routing), and global conversation search with in-chat find (Ctrl+F, CSS Custom Highlight API). Exact install spec: github:beijingwahw/dsh-companion. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-companion</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-fe6e92f40cfd8e850804/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fe6e92f40cfd8e850804.html"/>
+    <author><name>beijingwahw</name></author>
+    <category term="session"/>
+    <summary>Four-module session companion: smart conversation export (Markdown/PDF/JSON/PNG long-image with privacy redaction and batch ZIP), context handoff summaries with template save/import, API cost optimization (live official pricing, peak/off-peak scheduling, daily/monthly budgets, model routing), and global conversation search with in-chat find (Ctrl+F, CSS Custom Highlight API). Exact install spec: github:beijingwahw/dsh-companion. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-companion</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-fe6e92f40cfd8e850804/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fe6e92f40cfd8e850804.html"/>
+    <author><name>beijingwahw</name></author>
+    <category term="session"/>
+    <summary>Four-module session companion: smart conversation export (Markdown/PDF/JSON/PNG long-image with privacy redaction and batch ZIP), context handoff summaries with template save/import, API cost optimization (live official pricing, peak/off-peak scheduling, daily/monthly budgets, model routing), and global conversation search with in-chat find (Ctrl+F, CSS Custom Highlight API). Exact install spec: github:beijingwahw/dsh-companion. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-9ad93cd0be04c3d6c148",
+    "name": "dsh-stock-watch",
+    "author": "Awu12277",
+    "category": "fun",
+    "version": null,
+    "homepage": "https://github.com/Awu12277/dsh-stock-watch",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-9ad93cd0be04c3d6c148.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-9ad93cd0be04c3d6c148.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:awu12277/dsh-stock-watch",
+    "command": "dsh plugin --profile web add github:awu12277/dsh-stock-watch",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-9ad93cd0be04c3d6c148，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-9ad93cd0be04c3d6c148.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-9ad93cd0be04c3d6c148.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-stock-watch 已收录到 DeepSeek Harness Plugin Store。A 股自选股实时行情盯盘插件：在 DeepSeek Harness（DSH）Web 界面的右上角显示一个可折叠弹窗，实时监控自选股行情、切换分组、查看分时与 K 线、设置买卖目标价。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-9ad93cd0be04c3d6c148.html",
+    "en": "dsh-stock-watch is now listed on the DeepSeek Harness Plugin Store. A-share watchlist real-time market monitoring plugin: a collapsible popup in the top-right corner of the DeepSeek Harness (DSH) web interface for real-time quote monitoring, group switching, intraday and candlestick (K-line) charts, and buy/sell target price settings.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-9ad93cd0be04c3d6c148.html"
+  }
+}

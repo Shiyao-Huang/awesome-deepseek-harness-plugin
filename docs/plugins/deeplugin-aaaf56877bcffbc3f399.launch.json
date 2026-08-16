@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-aaaf56877bcffbc3f399",
+    "name": "dsh-navigation-bar",
+    "author": "kelearns",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/kelearns/dsh-navigation-bar",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-aaaf56877bcffbc3f399.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-aaaf56877bcffbc3f399.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@kelearns/dsh-navigation-bar",
+    "command": "dsh plugin --profile web add @kelearns/dsh-navigation-bar",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-aaaf56877bcffbc3f399，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-aaaf56877bcffbc3f399.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-aaaf56877bcffbc3f399.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-navigation-bar 已收录到 DeepSeek Harness Plugin Store。钢琴键风格会话内导航条：一根键锚定一条用户消息，悬停显示消息预览气泡与阶梯展开，点击平滑跳转。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-aaaf56877bcffbc3f399.html",
+    "en": "dsh-navigation-bar is now listed on the DeepSeek Harness Plugin Store. Piano-key in-conversation navigation for the Web UI: one key per user message with hover ladder, message-preview tooltip, and active-message highlight; click to smooth-scroll.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-aaaf56877bcffbc3f399.html"
+  }
+}

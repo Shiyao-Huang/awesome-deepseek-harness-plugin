@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-cc08508d42a4643cc003",
+    "name": "dsh-usage-stats",
+    "author": "Make0209",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/Make0209/dsh-usage-stats",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-cc08508d42a4643cc003.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-cc08508d42a4643cc003.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:make0209/dsh-usage-stats",
+    "command": "dsh plugin --profile web add github:make0209/dsh-usage-stats",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-cc08508d42a4643cc003，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-cc08508d42a4643cc003.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-cc08508d42a4643cc003.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-usage-stats 已收录到 DeepSeek Harness Plugin Store。GitHub 风格用量热力图看板：按工作区统计使用次数与 Token 花费（含缓存命中率）、DeepSeek 账户余额查询、工作区别名管理。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-cc08508d42a4643cc003.html",
+    "en": "dsh-usage-stats is now listed on the DeepSeek Harness Plugin Store. GitHub-style usage heatmap dashboard: per-workspace turn counts and token spend (with cache-hit rate), DeepSeek account balance, and workspace aliases.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-cc08508d42a4643cc003.html"
+  }
+}

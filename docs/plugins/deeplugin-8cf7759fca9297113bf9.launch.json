@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-8cf7759fca9297113bf9",
+    "name": "treg",
+    "author": "superdesigndev",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/superdesigndev/treg",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-8cf7759fca9297113bf9.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-8cf7759fca9297113bf9.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:superdesigndev/treg",
+    "command": "dsh plugin --profile web add github:superdesigndev/treg",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-8cf7759fca9297113bf9，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-8cf7759fca9297113bf9.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-8cf7759fca9297113bf9.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "treg 已收录到 DeepSeek Harness Plugin Store。给 Agent 的工具目录：按「要做的事」检索约 2,600 个外部接口（SEO 与 SERP、外链、社交、人物与公司信息补全、广告库、抓取），查看参数与单次调用价格后直接调用，凭据由服务端注入。附带技能，MCP 行在未设置 TREG_TOKEN 前保持禁用。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-8cf7759fca9297113bf9.html",
+    "en": "treg is now listed on the DeepSeek Harness Plugin Store. Tool catalog for agents: search ~2,600 external endpoints (SEO and SERP, backlinks, social, people and company enrichment, ad libraries, scraping) by the task you want done, read each one's parameters and per-call price, then call it with the credential injected server-side. Ships the skill plus an MCP row that stays disabled until TREG_TOKEN is set.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-8cf7759fca9297113bf9.html"
+  }
+}

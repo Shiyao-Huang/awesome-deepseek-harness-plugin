@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-27682df9e47d96269fbd",
+    "name": "dsh-auto-memory",
+    "author": "Aik358",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/Aik358/dsh-auto-memory",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-27682df9e47d96269fbd.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-27682df9e47d96269fbd.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@a9i5k4/dsh-auto-memory",
+    "command": "dsh plugin --profile web add @a9i5k4/dsh-auto-memory",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-27682df9e47d96269fbd，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-27682df9e47d96269fbd.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-27682df9e47d96269fbd.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-auto-memory 已收录到 DeepSeek Harness Plugin Store。DSH 自动记忆插件：三层记忆自动注入与检索、每轮对话自动沉淀、AI 时段问候与三级抽屉、智能检索、日历视图与设置页，支持继承其他 AI 工具的记忆。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-27682df9e47d96269fbd.html",
+    "en": "dsh-auto-memory is now listed on the DeepSeek Harness Plugin Store. Auto-memory for DSH: three-layer memory (user / project notes / daily logs) with automatic injection, per-turn auto-consolidation, AI greetings, smart search, a calendar view and a settings page, plus inheritance of other AI tools' memories.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-27682df9e47d96269fbd.html"
+  }
+}

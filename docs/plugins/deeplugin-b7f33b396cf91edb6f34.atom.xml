@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>DeepSeek-Harness-Hanako-Memory — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-b7f33b396cf91edb6f34.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-b7f33b396cf91edb6f34.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b7f33b396cf91edb6f34.html"/>
+  <entry>
+    <title>Updated: DeepSeek-Harness-Hanako-Memory</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-b7f33b396cf91edb6f34/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b7f33b396cf91edb6f34.html"/>
+    <author><name>moononnn</name></author>
+    <category term="memory"/>
+    <summary>Hana-style assistant manager for DSH: visual preset management (cards, yuan personalities, avatar cropping) plus a full Hana memory stack (rolling summaries, layered compilation, SQLite fact store, deep memory). Exact install spec: github:moononnn/deepseek-harness-hanako-memory. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: DeepSeek-Harness-Hanako-Memory</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-b7f33b396cf91edb6f34/e1ab6d4a0ce81c55</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b7f33b396cf91edb6f34.html"/>
+    <author><name>moononnn</name></author>
+    <category term="memory"/>
+    <summary>Hana-style assistant manager for DSH: visual preset management (cards, yuan personalities, avatar cropping) plus a full Hana memory stack (rolling summaries, layered compilation, SQLite fact store, deep memory). Exact install spec: github:moononnn/deepseek-harness-hanako-memory. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: DeepSeek-Harness-Hanako-Memory</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-b7f33b396cf91edb6f34/e5d3b61e178a5529</id>
+    <updated>2026-08-16T05:04:11Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b7f33b396cf91edb6f34.html"/>
+    <author><name>moononnn</name></author>
+    <category term="memory"/>
+    <summary>Hana-style assistant manager for DSH: visual preset management (cards, yuan personalities, avatar cropping) plus a full Hana memory stack (rolling summaries, layered compilation, SQLite fact store, deep memory). Exact install spec: github:moononnn/deepseek-harness-hanako-memory. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

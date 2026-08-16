@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-d7b8afc8668c15b63905",
+    "name": "dsh-longtask-orchestrator",
+    "author": "rocker2018-droid",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/rocker2018-droid/dsh-longtask-orchestrator",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-d7b8afc8668c15b63905.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-d7b8afc8668c15b63905.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:rocker2018-droid/dsh-longtask-orchestrator",
+    "command": "dsh plugin --profile web add github:rocker2018-droid/dsh-longtask-orchestrator",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-d7b8afc8668c15b63905，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-d7b8afc8668c15b63905.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-d7b8afc8668c15b63905.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-longtask-orchestrator 已收录到 DeepSeek Harness Plugin Store。长任务编排闭环：Codex 规划/打分/审核，DeepSeek 执行，Kimi 补充（视觉验收/摘要/交叉验证）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-d7b8afc8668c15b63905.html",
+    "en": "dsh-longtask-orchestrator is now listed on the DeepSeek Harness Plugin Store. Long-task orchestration loop: Codex plans/scores/reviews, DeepSeek executes, Kimi supplements (vision acceptance, summarization, cross-check).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-d7b8afc8668c15b63905.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-8b6e51f113b1a7941466",
+    "name": "dsh-plugin-toggle",
+    "author": "DamonKoy",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/DamonKoy/dsh-plugin-toggle",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-8b6e51f113b1a7941466.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-8b6e51f113b1a7941466.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:damonkoy/dsh-plugin-toggle",
+    "command": "dsh plugin --profile web add github:damonkoy/dsh-plugin-toggle",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-8b6e51f113b1a7941466，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-8b6e51f113b1a7941466.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-8b6e51f113b1a7941466.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-toggle 已收录到 DeepSeek Harness Plugin Store。设置→插件开关面板：每个已加载插件的卡片显示简述与运行阶段，支持模糊搜索与运行时启动/关闭（不改写配置文件）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-8b6e51f113b1a7941466.html",
+    "en": "dsh-plugin-toggle is now listed on the DeepSeek Harness Plugin Store. Settings -> Plugins switchboard: every loaded plugin card shows its package description and runtime phase, with fuzzy search and start/stop toggles that never rewrite config files.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-8b6e51f113b1a7941466.html"
+  }
+}

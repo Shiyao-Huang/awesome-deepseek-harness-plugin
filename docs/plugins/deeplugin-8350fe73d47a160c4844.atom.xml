@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>cot-lint — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-8350fe73d47a160c4844.atom.xml</id>
+  <updated>2026-08-16T08:41:44Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-8350fe73d47a160c4844.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8350fe73d47a160c4844.html"/>
+  <entry>
+    <title>Updated: cot-lint</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-8350fe73d47a160c4844/e1ab6d4a0ce81c55</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8350fe73d47a160c4844.html"/>
+    <author><name>YuanyuanMa03</name></author>
+    <category term="skill"/>
+    <summary>Chain-of-thought leakage linter: zero-dependency CLI that finds AI-session residue in docs and comments (dead design citations, PR vantage, change narration, review choreography), shipping the cot-trim fixing skill as the installable bundle. Exact install spec: cot-lint. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: cot-lint</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-8350fe73d47a160c4844/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8350fe73d47a160c4844.html"/>
+    <author><name>YuanyuanMa03</name></author>
+    <category term="skill"/>
+    <summary>Chain-of-thought leakage linter: zero-dependency CLI that finds AI-session residue in docs and comments (dead design citations, PR vantage, change narration, review choreography), shipping the cot-trim fixing skill as the installable bundle. Exact install spec: cot-lint. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: cot-lint</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-8350fe73d47a160c4844/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8350fe73d47a160c4844.html"/>
+    <author><name>YuanyuanMa03</name></author>
+    <category term="skill"/>
+    <summary>Chain-of-thought leakage linter: zero-dependency CLI that finds AI-session residue in docs and comments (dead design citations, PR vantage, change narration, review choreography), shipping the cot-trim fixing skill as the installable bundle. Exact install spec: cot-lint. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

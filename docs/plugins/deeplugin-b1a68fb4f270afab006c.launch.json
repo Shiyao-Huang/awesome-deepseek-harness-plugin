@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-b1a68fb4f270afab006c",
+    "name": "dsh-tool-vision",
+    "author": "gloryxpnv",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/gloryxpnv/dsh-tool-vision",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-b1a68fb4f270afab006c.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-b1a68fb4f270afab006c.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:gloryxpnv/dsh-tool-vision",
+    "command": "dsh plugin --profile web add github:gloryxpnv/dsh-tool-vision",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-b1a68fb4f270afab006c，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-b1a68fb4f270afab006c.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b1a68fb4f270afab006c.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-tool-vision 已收录到 DeepSeek Harness Plugin Store。本地优先的结构化视觉插件：图片交给本地 OpenAI 兼容 VLM，返回 JSON 证据（摘要、逐字 OCR、版面区域、实体/关系、配色、显式不确定项），带反幻觉回退与可选粘贴/上传桥；零云端成本，图片不出本机。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b1a68fb4f270afab006c.html",
+    "en": "dsh-tool-vision is now listed on the DeepSeek Harness Plugin Store. Local-first structured vision for text-only agents: images go to a local OpenAI-compatible VLM and come back as JSON evidence (summary, verbatim OCR, layout regions, entities/relations, colors, explicit uncertainty), with anti-hallucination fallback and an optional paste/upload bridge; zero cloud cost, images never leave the machine.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b1a68fb4f270afab006c.html"
+  }
+}

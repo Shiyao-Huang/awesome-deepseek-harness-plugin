@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-ace18d3379b6953f293d",
+    "name": "dsh-skill-pack-security",
+    "author": "PerryLink",
+    "category": "skill",
+    "version": null,
+    "homepage": "https://github.com/PerryLink/dsh-skill-pack-security",
+    "firstObservedAt": "2026-08-16T08:41:44Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-ace18d3379b6953f293d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-ace18d3379b6953f293d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:perrylink/dsh-skill-pack-security",
+    "command": "dsh plugin --profile web add github:perrylink/dsh-skill-pack-security",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-ace18d3379b6953f293d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-ace18d3379b6953f293d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-ace18d3379b6953f293d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-skill-pack-security 已收录到 DeepSeek Harness Plugin Store。安全审计方法论技能包：八个 agent 技能（密钥扫描、依赖审计、供应链评审、提示注入审查、审计总编排、威胁建模、漏洞情报、事件响应），中英双版本，附可选 npm provider 包一键挂载。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-ace18d3379b6953f293d.html",
+    "en": "dsh-skill-pack-security is now listed on the DeepSeek Harness Plugin Store. Security-audit methodology skill pack: eight agent skills (secret scan, dependency audit, supply-chain review, prompt-injection review, audit orchestration, threat modeling, vuln intel, incident response) in Chinese and English editions, with an optional npm provider bundle.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-ace18d3379b6953f293d.html"
+  }
+}

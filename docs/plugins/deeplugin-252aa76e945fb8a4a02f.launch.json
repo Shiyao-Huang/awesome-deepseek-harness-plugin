@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-252aa76e945fb8a4a02f",
+    "name": "dsh-swarm-router",
+    "author": "r600a-code",
+    "category": "model",
+    "version": null,
+    "homepage": "https://github.com/r600a-code/dsh-swarm-router",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-252aa76e945fb8a4a02f.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-252aa76e945fb8a4a02f.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:r600a-code/dsh-swarm-router",
+    "command": "dsh plugin --profile web add github:r600a-code/dsh-swarm-router",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-252aa76e945fb8a4a02f，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-252aa76e945fb8a4a02f.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-252aa76e945fb8a4a02f.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-swarm-router 已收录到 DeepSeek Harness Plugin Store。子智能体矩阵蜂群：把异质任务路由到最合适的模型（OpenRouter 类网关 + cfgpu.com/llm/square），通过进程内子智能体或直接 LLM 调用下放，并按模型统计 token 消耗、用真实反馈驱动排名。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-252aa76e945fb8a4a02f.html",
+    "en": "dsh-swarm-router is now listed on the DeepSeek Harness Plugin Store. Sub-agent matrix swarm that routes heterogeneous tasks to the most suitable model from an OpenRouter-like gateway plus cfgpu.com/llm/square, dispatches each via in-process subagents or direct LLM calls, and tracks per-model token consumption with a feedback-driven ranking.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-252aa76e945fb8a4a02f.html"
+  }
+}

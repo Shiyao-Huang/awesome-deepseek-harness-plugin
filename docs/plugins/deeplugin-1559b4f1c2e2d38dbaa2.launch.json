@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-1559b4f1c2e2d38dbaa2",
+    "name": "dsh-share",
+    "author": "zljr",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/zljr/dsh-share",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-1559b4f1c2e2d38dbaa2.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-1559b4f1c2e2d38dbaa2.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@zljr/dsh-share",
+    "command": "dsh plugin --profile web add @zljr/dsh-share",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-1559b4f1c2e2d38dbaa2，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-1559b4f1c2e2d38dbaa2.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-1559b4f1c2e2d38dbaa2.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-share 已收录到 DeepSeek Harness Plugin Store。将当前会话以只读、token 保护的 HTML 快照分享到局域网，附带会话统计与 Markdown 渲染。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-1559b4f1c2e2d38dbaa2.html",
+    "en": "dsh-share is now listed on the DeepSeek Harness Plugin Store. Share the current session over the LAN as a read-only, token-guarded HTML snapshot with session stats and Markdown rendering.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-1559b4f1c2e2d38dbaa2.html"
+  }
+}

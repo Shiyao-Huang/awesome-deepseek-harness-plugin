@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-49b84f997b01af74d22b",
+    "name": "dsh-computer-use",
+    "author": "ZRui-C",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/ZRui-C/dsh-computer-use",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-49b84f997b01af74d22b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-49b84f997b01af74d22b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:zrui-c/dsh-computer-use",
+    "command": "dsh plugin --profile web add github:zrui-c/dsh-computer-use",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-49b84f997b01af74d22b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-49b84f997b01af74d22b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-49b84f997b01af74d22b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-computer-use 已收录到 DeepSeek Harness Plugin Store。DSH 电脑控制：Playwright/CDP 后台操作 Chromium，Accessibility 优先控制 macOS；动作锁定到正确进程与窗口，不抢前台、不移动鼠标，提供已签名公证的 Universal 2 DMG 安装包。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-49b84f997b01af74d22b.html",
+    "en": "dsh-computer-use is now listed on the DeepSeek Harness Plugin Store. Text-first computer use for DSH: background Chromium control via Playwright/CDP plus accessibility-first macOS control; actions stay pinned to the right process and window without taking the user's pointer, ships a Developer ID signed, notarized Universal 2 DMG.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-49b84f997b01af74d22b.html"
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-ha-orchestrator — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-ff2959ba5a159ea2baa4.atom.xml</id>
+  <updated>2026-08-16T13:41:06Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-ff2959ba5a159ea2baa4.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ff2959ba5a159ea2baa4.html"/>
+  <entry>
+    <title>New: dsh-ha-orchestrator</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-ff2959ba5a159ea2baa4/60715e29601bb9d9</id>
+    <updated>2026-08-16T13:41:06Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ff2959ba5a159ea2baa4.html"/>
+    <author><name>Saktawdi</name></author>
+    <category term="workflow"/>
+    <summary>Model high-availability failover (quarantine, circuit breaking, probe recovery) and subagent orchestration (fanout/pipeline/supervisor) with bilingual settings UI. Exact install spec: dsh-ha-orchestrator. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-passwords — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-d564182938b71c95d525.atom.xml</id>
+  <updated>2026-08-16T08:41:44Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-d564182938b71c95d525.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d564182938b71c95d525.html"/>
+  <entry>
+    <title>Updated: dsh-passwords</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-d564182938b71c95d525/2d0719cca6edffde</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d564182938b71c95d525.html"/>
+    <author><name>slywalker2006</name></author>
+    <category term="dev"/>
+    <summary>Login gateway for the DSH web UI: password door with first-run setup, bcrypt + at-rest encryption (AES-256-GCM/HMAC), brute-force lockout, audit log, TLS 1.2+ with 80→443 redirect, CSRF, anti-framing. Exact install spec: github:slywalker2006/dsh-passwords. Source event: dsh-market/dsh-market; changed: active.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-passwords</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-d564182938b71c95d525/f1f649e2096e3b11</id>
+    <updated>2026-08-16T00:51:32Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d564182938b71c95d525.html"/>
+    <author><name>slywalker2006</name></author>
+    <category term="dev"/>
+    <summary>Login gateway for the DSH web UI: password door with first-run setup, bcrypt + at-rest encryption (AES-256-GCM/HMAC), brute-force lockout, audit log, TLS 1.2+ with 80→443 redirect, CSRF, anti-framing. Exact install spec: github:slywalker2006/dsh-passwords. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-passwords</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-d564182938b71c95d525/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d564182938b71c95d525.html"/>
+    <author><name>slywalker2006</name></author>
+    <category term="dev"/>
+    <summary>Login gateway for the DSH web UI: password door with first-run setup, bcrypt + at-rest encryption (AES-256-GCM/HMAC), brute-force lockout, audit log, TLS 1.2+ with 80→443 redirect, CSRF, anti-framing. Exact install spec: github:slywalker2006/dsh-passwords. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-passwords</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-d564182938b71c95d525/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d564182938b71c95d525.html"/>
+    <author><name>slywalker2006</name></author>
+    <category term="dev"/>
+    <summary>Login gateway for the DSH web UI: password door with first-run setup, bcrypt + at-rest encryption (AES-256-GCM/HMAC), brute-force lockout, audit log, TLS 1.2+ with 80→443 redirect, CSRF, anti-framing. Exact install spec: github:slywalker2006/dsh-passwords. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-passwords</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-d564182938b71c95d525/19f118ecfd65ceec</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d564182938b71c95d525.html"/>
+    <author><name>slywalker2006</name></author>
+    <category term="dev"/>
+    <summary>Login gateway for the DSH web UI: password door with first-run setup, bcrypt + at-rest encryption (AES-256-GCM/HMAC), brute-force lockout, audit log, TLS 1.2+ with 80→443 redirect, CSRF, anti-framing. Exact install spec: github:slywalker2006/dsh-passwords. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-passwords</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-d564182938b71c95d525/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d564182938b71c95d525.html"/>
+    <author><name>slywalker2006</name></author>
+    <category term="dev"/>
+    <summary>Login gateway for the DSH web UI: password door with first-run setup, bcrypt + at-rest encryption (AES-256-GCM/HMAC), brute-force lockout, audit log, TLS 1.2+ with 80→443 redirect, CSRF, anti-framing. Exact install spec: github:slywalker2006/dsh-passwords. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-e413694ef21a213b8bdf",
+    "name": "dsh-expert-mode",
+    "author": "Asher-2000",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/Asher-2000/dsh-expert-mode",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T13:41:06Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-e413694ef21a213b8bdf.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-e413694ef21a213b8bdf.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:asher-2000/dsh-expert-mode",
+    "command": "dsh plugin --profile web add github:asher-2000/dsh-expert-mode",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-e413694ef21a213b8bdf，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-e413694ef21a213b8bdf.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-e413694ef21a213b8bdf.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-expert-mode 已收录到 DeepSeek Harness Plugin Store。专家模式 agent preset（双语双份）：中文「专家模式」+ 英文 \"Expert Mode\"（Chief Coordinator + 全英文 11 位专家）。首席协调官 + 11 位领域专家子代理（数据分析/文案/法务/产品/前端/UI-UX/架构/社交运营/增长/量化/财务），按任务特性自动委派。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e413694ef21a213b8bdf.html",
+    "en": "dsh-expert-mode is now listed on the DeepSeek Harness Plugin Store. Expert-mode agent preset for DeepSeek Harness, now BILINGUAL: English \"Expert Mode\" preset (Chief Coordinator + 11 fully-English domain-expert subagents) and Chinese 「专家模式」 preset (首席协调官). Experts: data analyst, copywriter, legal review, product manager, frontend, UI/UX, architect, social media ops, growth hacker, quant finance, finance — with automatic task delegation.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e413694ef21a213b8bdf.html"
+  }
+}

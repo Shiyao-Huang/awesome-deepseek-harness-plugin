@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-9aba6d9a3522cfa991bd",
+    "name": "dsh-plugin-subhub",
+    "author": "kinoward",
+    "category": "model",
+    "version": null,
+    "homepage": "https://github.com/kinoward/dsh-plugin-subhub",
+    "firstObservedAt": "2026-08-16T09:56:16Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-9aba6d9a3522cfa991bd.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-9aba6d9a3522cfa991bd.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:kinoward/dsh-plugin-subhub",
+    "command": "dsh plugin --profile web add github:kinoward/dsh-plugin-subhub",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-9aba6d9a3522cfa991bd，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-9aba6d9a3522cfa991bd.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-9aba6d9a3522cfa991bd.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-subhub 已收录到 DeepSeek Harness Plugin Store。用第三方订阅账户在 DeepSeek Harness 中使用订阅覆盖的模型：文字对话、图片理解、图片生成与图片编辑，可用模型与推理等级随账户自动同步；当前支持 OpenAI / ChatGPT 订阅，更多订阅服务规划中。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-9aba6d9a3522cfa991bd.html",
+    "en": "dsh-plugin-subhub is now listed on the DeepSeek Harness Plugin Store. Use third-party subscription accounts in DeepSeek Harness: chat, image understanding, image generation, and image editing with the models your subscription covers, with available models and reasoning levels synced from your account; currently supports OpenAI/ChatGPT subscriptions, more providers planned.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-9aba6d9a3522cfa991bd.html"
+  }
+}

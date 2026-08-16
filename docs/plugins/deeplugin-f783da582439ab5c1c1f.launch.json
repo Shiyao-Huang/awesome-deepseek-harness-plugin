@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-f783da582439ab5c1c1f",
+    "name": "awesome-dsh-skills",
+    "author": "hackerFish",
+    "category": "skill",
+    "version": null,
+    "homepage": "https://github.com/hackerFish/awesome-dsh-skills",
+    "firstObservedAt": "2026-08-16T14:38:49Z",
+    "lastChangedAt": "2026-08-16T14:38:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-f783da582439ab5c1c1f.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-f783da582439ab5c1c1f.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:hackerfish/awesome-dsh-skills",
+    "command": "dsh plugin --profile web add github:hackerfish/awesome-dsh-skills",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-f783da582439ab5c1c1f，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-f783da582439ab5c1c1f.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-f783da582439ab5c1c1f.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "awesome-dsh-skills 已收录到 DeepSeek Harness Plugin Store。12 个实测工程技能（git 提交、代码审查、测试优先、插件开发、排障、CHANGELOG、PR 审查、任务拆解等）：每个 SKILL.md 都通过对照官方规则的格式校验与隔离环境加载冒烟。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-f783da582439ab5c1c1f.html",
+    "en": "awesome-dsh-skills is now listed on the DeepSeek Harness Plugin Store. 12 tested engineering skills (git commit, code review, test-first, plugin dev, debugging, changelog, PR review, task breakdown, and more): every SKILL.md passes a format validator aligned with the official skill rules plus an isolated load smoke test.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-f783da582439ab5c1c1f.html"
+  }
+}

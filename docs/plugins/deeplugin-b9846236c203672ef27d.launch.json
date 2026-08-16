@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-b9846236c203672ef27d",
+    "name": "dsh-pet",
+    "author": "ysyyhhh",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/zealot00/dsh-pet",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-b9846236c203672ef27d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-b9846236c203672ef27d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:ysyyhhh/dsh-pet",
+    "command": "dsh plugin --profile web add github:ysyyhhh/dsh-pet",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-b9846236c203672ef27d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-b9846236c203672ef27d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b9846236c203672ef27d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-pet 已收录到 DeepSeek Harness Plugin Store。跟随 agent 状态的 DSH 原生桌宠，兼容 Codex 桌宠包，并可在插件内直接从 Petdex 导入已审核桌宠，无需 Petdex CLI。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b9846236c203672ef27d.html",
+    "en": "dsh-pet is now listed on the DeepSeek Harness Plugin Store. Native desktop pet for DSH that follows agent activity, supports Codex pet packages, and imports approved pets directly from Petdex without its CLI.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b9846236c203672ef27d.html"
+  }
+}

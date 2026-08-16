@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-notion-connector — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-87da8632bc763db8b1b9.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-87da8632bc763db8b1b9.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-87da8632bc763db8b1b9.html"/>
+  <entry>
+    <title>Updated: dsh-notion-connector</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-87da8632bc763db8b1b9/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-87da8632bc763db8b1b9.html"/>
+    <author><name>zhengjy01</name></author>
+    <category term="memory"/>
+    <summary>Notion connector for DeepSeek Harness: search, read, query, create, update, and append Notion pages and databases via six agent tools, with a Web settings page — configured once with an Integration Token. Exact install spec: dsh-notion-connector. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-notion-connector</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-87da8632bc763db8b1b9/7e5b8321bc7d21b1</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-87da8632bc763db8b1b9.html"/>
+    <author><name>zhengjy01</name></author>
+    <category term="memory"/>
+    <summary>Notion connector for DeepSeek Harness: search, read, query, create, update, and append Notion pages and databases via six agent tools, with a Web settings page — configured once with an Integration Token. Exact install spec: dsh-notion-connector. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

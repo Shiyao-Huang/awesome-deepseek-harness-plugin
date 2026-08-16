@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-2b6a2e049ec3911dbf46",
+    "name": "dsh-passwords",
+    "author": "slywalker2006",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/slywalker2006/dsh-passwords",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-2b6a2e049ec3911dbf46.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-2b6a2e049ec3911dbf46.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-passwords",
+    "command": "dsh plugin --profile web add dsh-passwords",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-2b6a2e049ec3911dbf46，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-2b6a2e049ec3911dbf46.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-2b6a2e049ec3911dbf46.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-passwords 已收录到 DeepSeek Harness Plugin Store。让 DeepSeek Harness 变成服务器级多租户平台：远程访问 + 自动 HTTPS、子用户权限与配额、沙盒强制、加密认证与审计日志。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-2b6a2e049ec3911dbf46.html",
+    "en": "dsh-passwords is now listed on the DeepSeek Harness Plugin Store. Turns DeepSeek Harness into a server-grade multi-tenant platform: remote access + auto HTTPS, subuser permissions & token/daily quotas, sandbox enforcement, encrypted auth & audit log.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-2b6a2e049ec3911dbf46.html"
+  }
+}

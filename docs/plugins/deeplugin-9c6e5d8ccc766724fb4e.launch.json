@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-9c6e5d8ccc766724fb4e",
+    "name": "dsh-git-status",
+    "author": "Wongzexu",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/Wongzexu/dsh-git-status",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-9c6e5d8ccc766724fb4e.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-9c6e5d8ccc766724fb4e.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@wongzexu/dsh-git-status",
+    "command": "dsh plugin --profile web add @wongzexu/dsh-git-status",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-9c6e5d8ccc766724fb4e，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-9c6e5d8ccc766724fb4e.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-9c6e5d8ccc766724fb4e.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-git-status 已收录到 DeepSeek Harness Plugin Store。专精于 Git 分支与状态处理：Web 右缘 Git 状态浮窗，commit DAG 泳道图、未提交改动与 stash、行内 diff，右键分支/tag 切换、合并、重命名、删除、新建，一键拉取全部远程。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-9c6e5d8ccc766724fb4e.html",
+    "en": "dsh-git-status is now listed on the DeepSeek Harness Plugin Store. Specialized in Git branch and status handling: a Git status drawer on the right edge of the DSH web UI with a commit DAG lane graph, uncommitted changes and stash rows, inline diffs, right-click branch/tag actions, and one-click fetch from all remotes.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-9c6e5d8ccc766724fb4e.html"
+  }
+}

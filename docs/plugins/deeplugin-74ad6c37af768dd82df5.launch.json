@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-74ad6c37af768dd82df5",
+    "name": "dsh-complete-notify",
+    "author": "kaixinbaba",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/kaixinbaba/dsh-complete-notify",
+    "firstObservedAt": "2026-08-16T14:38:49Z",
+    "lastChangedAt": "2026-08-16T14:38:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-74ad6c37af768dd82df5.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-74ad6c37af768dd82df5.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-complete-notify",
+    "command": "dsh plugin --profile web add dsh-complete-notify",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-74ad6c37af768dd82df5，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-74ad6c37af768dd82df5.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-74ad6c37af768dd82df5.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-complete-notify 已收录到 DeepSeek Harness Plugin Store。任务完成时播放提示音并弹出小通知：Web Audio 合成音效、页面内 toast、页面在后台时系统通知，纯浏览器方案、零系统依赖、跨平台。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-74ad6c37af768dd82df5.html",
+    "en": "dsh-complete-notify is now listed on the DeepSeek Harness Plugin Store. Sound + popup when a task completes: a Web Audio chime, an in-page toast, and a system notification while the page is in the background (browser-only, cross-platform).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-74ad6c37af768dd82df5.html"
+  }
+}

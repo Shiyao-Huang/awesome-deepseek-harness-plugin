@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-031758f0cc13f919a643",
+    "name": "dsh-git-worktree",
+    "author": "LaoYueHanNi",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/LaoYueHanNi/dsh-git-worktree",
+    "firstObservedAt": "2026-08-16T09:56:16Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-031758f0cc13f919a643.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-031758f0cc13f919a643.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:laoyuehanni/dsh-git-worktree",
+    "command": "dsh plugin --profile web add github:laoyuehanni/dsh-git-worktree",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-031758f0cc13f919a643，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-031758f0cc13f919a643.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-031758f0cc13f919a643.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-git-worktree 已收录到 DeepSeek Harness Plugin Store。在 Web 输入框切换分支、以真实工作区方式创建隔离的 git worktree。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-031758f0cc13f919a643.html",
+    "en": "dsh-git-worktree is now listed on the DeepSeek Harness Plugin Store. Branch switching and isolated git worktrees as real workspaces, from the Web UI composer.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-031758f0cc13f919a643.html"
+  }
+}

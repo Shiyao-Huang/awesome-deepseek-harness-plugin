@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-c7a51a17a919a6ccd087",
+    "name": "deepseek-harness-forge-plugins#evidence-first",
+    "author": "jinguanghai",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/jinguanghai/deepseek-harness-forge-plugins/tree/main/plugins/evidence-first",
+    "firstObservedAt": "2026-08-16T13:41:06Z",
+    "lastChangedAt": "2026-08-16T13:41:06Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-c7a51a17a919a6ccd087.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-c7a51a17a919a6ccd087.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:jinguanghai/deepseek-harness-forge-plugins#path:/plugins/evidence-first",
+    "command": "dsh plugin --profile web add github:jinguanghai/deepseek-harness-forge-plugins#path:/plugins/evidence-first",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-c7a51a17a919a6ccd087，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-c7a51a17a919a6ccd087.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-c7a51a17a919a6ccd087.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "deepseek-harness-forge-plugins#evidence-first 已收录到 DeepSeek Harness Plugin Store。证据铁律守卫：模型声称成功但上下文中没有对应工具执行记录时，自动注入警告。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c7a51a17a919a6ccd087.html",
+    "en": "deepseek-harness-forge-plugins#evidence-first is now listed on the DeepSeek Harness Plugin Store. Evidence-first guard: warns the agent when it claims success without a matching tool-execution record in recent context.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-c7a51a17a919a6ccd087.html"
+  }
+}

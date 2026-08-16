@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a529db8e6a59e892408a",
+    "name": "dsh-devquest",
+    "author": "lucky8197",
+    "category": "fun",
+    "version": null,
+    "homepage": "https://github.com/lucky8197/dsh-devquest",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a529db8e6a59e892408a.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a529db8e6a59e892408a.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:lucky8197/dsh-devquest",
+    "command": "dsh plugin --profile web add github:lucky8197/dsh-devquest",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a529db8e6a59e892408a，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a529db8e6a59e892408a.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a529db8e6a59e892408a.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-devquest 已收录到 DeepSeek Harness Plugin Store。把开发变成 RPG：回合/工具/todo 积累 XP、27+ 成就徽章、等级与赛季。事件流驱动、纯函数计分——你的工作就是游戏。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a529db8e6a59e892408a.html",
+    "en": "dsh-devquest is now listed on the DeepSeek Harness Plugin Store. Turns coding into an RPG: finished turns, tool calls and completed todos earn XP, with 27+ achievement badges, levels, titles and seasons. Event-driven scoring with a pure-function engine — the work itself is the game.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a529db8e6a59e892408a.html"
+  }
+}

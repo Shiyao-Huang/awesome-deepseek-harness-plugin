@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-2fc07f4a38c526953fbe",
+    "name": "dsh-everything-oauth",
+    "author": "kam74515-boop",
+    "category": "model",
+    "version": null,
+    "homepage": "https://github.com/kam74515-boop/dsh-everything-oauth",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-2fc07f4a38c526953fbe.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-2fc07f4a38c526953fbe.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:kam74515-boop/dsh-everything-oauth",
+    "command": "dsh plugin --profile web add github:kam74515-boop/dsh-everything-oauth",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-2fc07f4a38c526953fbe，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-2fc07f4a38c526953fbe.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-2fc07f4a38c526953fbe.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-everything-oauth 已收录到 DeepSeek Harness Plugin Store。把本机 Codex / Grok / Claude / OpenCode / CC Switch 登录态导入 DSH，在设置里自选来源并启用模型。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-2fc07f4a38c526953fbe.html",
+    "en": "dsh-everything-oauth is now listed on the DeepSeek Harness Plugin Store. Import local Codex, Grok, Claude, OpenCode, and CC Switch logins into DSH; pick sources and enable models in Settings.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-2fc07f4a38c526953fbe.html"
+  }
+}

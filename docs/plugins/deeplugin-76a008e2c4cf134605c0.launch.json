@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-76a008e2c4cf134605c0",
+    "name": "dsh-heatmap",
+    "author": "283Gawin",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/283Gawin/dsh-heatmap",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-76a008e2c4cf134605c0.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-76a008e2c4cf134605c0.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:283gawin/dsh-heatmap",
+    "command": "dsh plugin --profile web add github:283gawin/dsh-heatmap",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-76a008e2c4cf134605c0，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-76a008e2c4cf134605c0.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-76a008e2c4cf134605c0.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-heatmap 已收录到 DeepSeek Harness Plugin Store。DSH Web 侧边栏活动热力图：GitHub 风格网格展示每日提交、Token 用量与估算花费，今日统计行显示全会话 Token 总量、缓存命中率与按模型自动计价的花费。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-76a008e2c4cf134605c0.html",
+    "en": "dsh-heatmap is now listed on the DeepSeek Harness Plugin Store. Activity heatmap in the DSH Web sidebar: GitHub-style grid of daily commits, token usage, and estimated spend, with a today stats line for all-session token totals, cache hit rate, and per-model auto-priced cost.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-76a008e2c4cf134605c0.html"
+  }
+}

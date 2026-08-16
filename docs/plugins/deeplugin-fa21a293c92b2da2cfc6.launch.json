@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-fa21a293c92b2da2cfc6",
+    "name": "dsh-web-preview-float",
+    "author": "WJNCT55555",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/WJNCT55555/dsh-web-preview-float",
+    "firstObservedAt": "2026-08-16T09:56:16Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-fa21a293c92b2da2cfc6.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-fa21a293c92b2da2cfc6.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:wjnct55555/dsh-web-preview-float",
+    "command": "dsh plugin --profile web add github:wjnct55555/dsh-web-preview-float",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-fa21a293c92b2da2cfc6，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-fa21a293c92b2da2cfc6.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-fa21a293c92b2da2cfc6.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-web-preview-float 已收录到 DeepSeek Harness Plugin Store。Web UI 悬浮预览与代码窗口：Google AI Studio 风格的 iframe 预览（宽幅比/分辨率预设、一键放大），VS Code 风格代码窗支持直接编辑，保存需确认并写入会话日志。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-fa21a293c92b2da2cfc6.html",
+    "en": "dsh-web-preview-float is now listed on the DeepSeek Harness Plugin Store. Google AI Studio-style floating preview for the Web UI: a draggable/resizable iframe preview with aspect-ratio and resolution presets, plus a VS Code-style code window with direct editing, confirmed writes, and session-log recording.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-fa21a293c92b2da2cfc6.html"
+  }
+}

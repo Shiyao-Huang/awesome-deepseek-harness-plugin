@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-eee84d2e2d6abe2d6d0f",
+    "name": "dsh-prompt-manager",
+    "author": "SaiSenBox",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/SaiSenBox/dsh-prompt-manager",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-eee84d2e2d6abe2d6d0f.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-eee84d2e2d6abe2d6d0f.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-prompt-manager",
+    "command": "dsh plugin --profile web add dsh-prompt-manager",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-eee84d2e2d6abe2d6d0f，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-eee84d2e2d6abe2d6d0f.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-eee84d2e2d6abe2d6d0f.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-prompt-manager 已收录到 DeepSeek Harness Plugin Store。浏览器本地提示词库：在输入框选择器中同时注入多条会话级系统提示词，支持分支继承、中英界面、收藏与 JSON 备份。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-eee84d2e2d6abe2d6d0f.html",
+    "en": "dsh-prompt-manager is now listed on the DeepSeek Harness Plugin Store. Browser-local prompt library with a composer picker for injecting multiple session-scoped system prompts, branch inheritance, bilingual UI, favorites, and JSON backups.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-eee84d2e2d6abe2d6d0f.html"
+  }
+}

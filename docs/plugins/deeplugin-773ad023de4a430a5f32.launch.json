@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-773ad023de4a430a5f32",
+    "name": "dsh-fail-logger",
+    "author": "Areium",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/Areium/dsh-fail-logger",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-773ad023de4a430a5f32.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-773ad023de4a430a5f32.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-fail-logger",
+    "command": "dsh plugin --profile web add dsh-fail-logger",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-773ad023de4a430a5f32，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-773ad023de4a430a5f32.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-773ad023de4a430a5f32.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-fail-logger 已收录到 DeepSeek Harness Plugin Store。全模式调用工具失败自动实录：把原生工具 / PTC run_code / 代码内嵌工具调用的失败错因去重计数后写入 skill，越用越少错。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-773ad023de4a430a5f32.html",
+    "en": "dsh-fail-logger is now listed on the DeepSeek Harness Plugin Store. Auto-log failed tool calls across native tools, PTC run_code, and inline invocations: dedup and count root causes into a skill so repeated mistakes fade.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-773ad023de4a430a5f32.html"
+  }
+}

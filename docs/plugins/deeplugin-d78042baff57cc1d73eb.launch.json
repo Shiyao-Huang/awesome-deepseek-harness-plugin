@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-d78042baff57cc1d73eb",
+    "name": "dsh-explain",
+    "author": "yuezengwu",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/yuezengwu/dsh-explain",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-d78042baff57cc1d73eb.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-d78042baff57cc1d73eb.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:yuezengwu/dsh-explain",
+    "command": "dsh plugin --profile web add github:yuezengwu/dsh-explain",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-d78042baff57cc1d73eb，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-d78042baff57cc1d73eb.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-d78042baff57cc1d73eb.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-explain 已收录到 DeepSeek Harness Plugin Store。本地优先学习模式：跨会话全局学习线程、按来源讲解。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-d78042baff57cc1d73eb.html",
+    "en": "dsh-explain is now listed on the DeepSeek Harness Plugin Store. Local-first learning mode: cross-session learning threads with per-source explanations.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-d78042baff57cc1d73eb.html"
+  }
+}

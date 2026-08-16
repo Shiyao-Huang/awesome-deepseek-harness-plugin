@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-4ca2881723ec7727fe8a",
+    "name": "dsh-tool-call-stats",
+    "author": "disyli",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/disyli/dsh-tool-call-stats",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-4ca2881723ec7727fe8a.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-4ca2881723ec7727fe8a.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:disyli/dsh-tool-call-stats",
+    "command": "dsh plugin --profile web add github:disyli/dsh-tool-call-stats",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-4ca2881723ec7727fe8a，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-4ca2881723ec7727fe8a.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-4ca2881723ec7727fe8a.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-tool-call-stats 已收录到 DeepSeek Harness Plugin Store。进程内工具调用统计：提供 `tool_stats` 工具，按工具汇报调用次数、失败次数与平均耗时。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-4ca2881723ec7727fe8a.html",
+    "en": "dsh-tool-call-stats is now listed on the DeepSeek Harness Plugin Store. Per-process tool-call statistics: a `tool_stats` tool reporting per-tool call counts, error counts, and average durations.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-4ca2881723ec7727fe8a.html"
+  }
+}

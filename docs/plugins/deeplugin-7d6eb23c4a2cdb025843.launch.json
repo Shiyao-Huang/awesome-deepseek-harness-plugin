@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-7d6eb23c4a2cdb025843",
+    "name": "dsh-chinese-thinking",
+    "author": "Max-Null",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/Max-Null/dsh-chinese-thinking",
+    "firstObservedAt": "2026-08-16T09:56:16Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-7d6eb23c4a2cdb025843.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-7d6eb23c4a2cdb025843.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@max-null/dsh-chinese-thinking",
+    "command": "dsh plugin --profile web add @max-null/dsh-chinese-thinking",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-7d6eb23c4a2cdb025843，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-7d6eb23c4a2cdb025843.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-7d6eb23c4a2cdb025843.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-chinese-thinking 已收录到 DeepSeek Harness Plugin Store。注入一条固定 system-prompt 段落，让 Agent 无论用户使用什么语言都始终用中文思考和回复。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-7d6eb23c4a2cdb025843.html",
+    "en": "dsh-chinese-thinking is now listed on the DeepSeek Harness Plugin Store. Injects one fixed system-prompt section so the agent thinks and replies in Chinese, regardless of the user's language.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-7d6eb23c4a2cdb025843.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-af76e31d0db34a620a05",
+    "name": "dsh-housekeeper",
+    "author": "guo6x",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/guo6x/dsh-housekeeper",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-af76e31d0db34a620a05.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-af76e31d0db34a620a05.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:guo6x/dsh-housekeeper",
+    "command": "dsh plugin --profile web add github:guo6x/dsh-housekeeper",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-af76e31d0db34a620a05，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-af76e31d0db34a620a05.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-af76e31d0db34a620a05.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-housekeeper 已收录到 DeepSeek Harness Plugin Store。agent 的环境管家：工具链台账（node/pnpm/git/gh/ffmpeg/浏览器）、缓存与临时目录扫描 + 白名单安全一键清理、机器规则（AGENTS.md）编辑，全在 Web GUI 设置面板。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-af76e31d0db34a620a05.html",
+    "en": "dsh-housekeeper is now listed on the DeepSeek Harness Plugin Store. Environment housekeeper for the agent: toolchain inventory (node/pnpm/git/gh/ffmpeg/browsers), scratch/cache scan with whitelist-guarded one-click cleanup, and the machine rules file (AGENTS.md) editor - all in the Web GUI settings.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-af76e31d0db34a620a05.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-874db00601c44442f506",
+    "name": "dsh-notify-skill",
+    "author": "PAKIKNOWLEDGE",
+    "category": "skill",
+    "version": null,
+    "homepage": "https://github.com/PAKIKNOWLEDGE/dsh-notify-skill",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-874db00601c44442f506.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-874db00601c44442f506.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-notify-skill",
+    "command": "dsh plugin --profile web add dsh-notify-skill",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-874db00601c44442f506，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-874db00601c44442f506.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-874db00601c44442f506.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-notify-skill 已收录到 DeepSeek Harness Plugin Store。你不在电脑前时由 agent 邮件提醒你：goal 完成、阻塞、向你提问决策前、长任务节点时触发，自带零依赖 Node SMTP 发送器。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-874db00601c44442f506.html",
+    "en": "dsh-notify-skill is now listed on the DeepSeek Harness Plugin Store. Email reminders from your DSH agent when you're away: fires at goal completion, blockage, before asking the user a decision, and at long-task milestones via a bundled zero-dependency Node SMTP sender.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-874db00601c44442f506.html"
+  }
+}

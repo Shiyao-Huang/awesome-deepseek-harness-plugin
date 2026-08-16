@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-8ece8761d04de92554aa",
+    "name": "dsh-multi-workspace",
+    "author": "somnusovis",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/somnusovis/dsh-multi-workspace",
+    "firstObservedAt": "2026-08-16T08:41:44Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-8ece8761d04de92554aa.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-8ece8761d04de92554aa.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:somnusovis/dsh-multi-workspace",
+    "command": "dsh plugin --profile web add github:somnusovis/dsh-multi-workspace",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-8ece8761d04de92554aa，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-8ece8761d04de92554aa.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-8ece8761d04de92554aa.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-multi-workspace 已收录到 DeepSeek Harness Plugin Store。多工作区沙箱：自动赋予所有已注册工作区的文件写入权限——添加工作区后即可直接写入，无需配置或提权。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-8ece8761d04de92554aa.html",
+    "en": "dsh-multi-workspace is now listed on the DeepSeek Harness Plugin Store. Multi-workspace sandbox: grants file-write access to every registered workspace automatically — add a workspace, write to it immediately, no config or escalation needed.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-8ece8761d04de92554aa.html"
+  }
+}

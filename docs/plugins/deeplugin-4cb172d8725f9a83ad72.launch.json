@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-4cb172d8725f9a83ad72",
+    "name": "dsh-side-monitor",
+    "author": "pc439527",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/pc439527/dsh-side-monitor",
+    "firstObservedAt": "2026-08-16T08:41:44Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-4cb172d8725f9a83ad72.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-4cb172d8725f9a83ad72.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:pc439527/dsh-side-monitor",
+    "command": "dsh plugin --profile web add github:pc439527/dsh-side-monitor",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-4cb172d8725f9a83ad72，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-4cb172d8725f9a83ad72.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-4cb172d8725f9a83ad72.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-side-monitor 已收录到 DeepSeek Harness Plugin Store。侧边栏系统监控：实时查看宿主机概览（CPU/内存/网络/磁盘）、进程列表与 Docker 容器状态，全程只读。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-4cb172d8725f9a83ad72.html",
+    "en": "dsh-side-monitor is now listed on the DeepSeek Harness Plugin Store. Sidebar system monitor for the DSH Web UI: live host overview (CPU/memory/network/disk), process list, and Docker container status, all read-only.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-4cb172d8725f9a83ad72.html"
+  }
+}

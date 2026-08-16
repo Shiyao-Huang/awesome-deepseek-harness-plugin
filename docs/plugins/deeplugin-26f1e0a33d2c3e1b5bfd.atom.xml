@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-modal-enhancer — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-26f1e0a33d2c3e1b5bfd.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-26f1e0a33d2c3e1b5bfd.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-26f1e0a33d2c3e1b5bfd.html"/>
+  <entry>
+    <title>Updated: dsh-modal-enhancer</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-26f1e0a33d2c3e1b5bfd/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-26f1e0a33d2c3e1b5bfd.html"/>
+    <author><name>lisniuse</name></author>
+    <category term="ui"/>
+    <summary>Window-like controls for every Web UI modal: drag by title bar, eight-way resize, pin against outside clicks, maximize to the full viewport, removable backdrop blur, and per-dialog persistent state. Exact install spec: github:lisniuse/dsh-modal-enhancer. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-modal-enhancer</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-26f1e0a33d2c3e1b5bfd/e1ab6d4a0ce81c55</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-26f1e0a33d2c3e1b5bfd.html"/>
+    <author><name>lisniuse</name></author>
+    <category term="ui"/>
+    <summary>Window-like controls for every Web UI modal: drag by title bar, eight-way resize, pin against outside clicks, maximize to the full viewport, removable backdrop blur, and per-dialog persistent state. Exact install spec: github:lisniuse/dsh-modal-enhancer. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-modal-enhancer</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-26f1e0a33d2c3e1b5bfd/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-26f1e0a33d2c3e1b5bfd.html"/>
+    <author><name>lisniuse</name></author>
+    <category term="ui"/>
+    <summary>Window-like controls for every Web UI modal: drag by title bar, eight-way resize, pin against outside clicks, maximize to the full viewport, removable backdrop blur, and per-dialog persistent state. Exact install spec: github:lisniuse/dsh-modal-enhancer. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

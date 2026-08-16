@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-428f0457019fb298c747",
+    "name": "dsh-codex-timeline",
+    "author": "Wine-Red",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/Wine-Red/dsh-codex-timeline",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-428f0457019fb298c747.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-428f0457019fb298c747.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-codex-timeline",
+    "command": "dsh plugin --profile web add dsh-codex-timeline",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-428f0457019fb298c747，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-428f0457019fb298c747.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-428f0457019fb298c747.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-codex-timeline 已收录到 DeepSeek Harness Plugin Store。左侧用户轮次导航轨道：随阅读位置高亮，悬停预览单轮指标与模型回答摘要，支持键盘和点击跳转及本地会话搜索。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-428f0457019fb298c747.html",
+    "en": "dsh-codex-timeline is now listed on the DeepSeek Harness Plugin Store. Left-edge user-Turn navigation rail with reading-position highlighting, hover previews of per-turn metrics and model-answer excerpts, keyboard and click-to-jump controls, and local conversation search.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-428f0457019fb298c747.html"
+  }
+}

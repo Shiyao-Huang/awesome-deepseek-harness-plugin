@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a9d5360de295aeca6bfd",
+    "name": "dsh-plugin-tts",
+    "author": "1624318455",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/1624318455/dsh-plugin-tts",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a9d5360de295aeca6bfd.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a9d5360de295aeca6bfd.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:1624318455/dsh-plugin-tts",
+    "command": "dsh plugin --profile web add github:1624318455/dsh-plugin-tts",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a9d5360de295aeca6bfd，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a9d5360de295aeca6bfd.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a9d5360de295aeca6bfd.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-tts 已收录到 DeepSeek Harness Plugin Store。用免费 Edge TTS 或你自己的 RVC 音色朗读 AI 回复：消息朗读与自动朗读、长文自适应分块渐进播放（无缝衔接）、音色包仓库一键安装、便携 RVC 运行时。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a9d5360de295aeca6bfd.html",
+    "en": "dsh-plugin-tts is now listed on the DeepSeek Harness Plugin Store. Reads assistant replies aloud via free Edge TTS or your own RVC voice models: read-aloud buttons + auto-read, adaptive chunked progressive playback (gapless long reads), one-click voice-pack installs from a registry, and a portable RVC runtime.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a9d5360de295aeca6bfd.html"
+  }
+}

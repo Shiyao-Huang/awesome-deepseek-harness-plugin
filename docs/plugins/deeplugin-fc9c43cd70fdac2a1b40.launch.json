@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-fc9c43cd70fdac2a1b40",
+    "name": "dsh-balance",
+    "author": "LemCAE",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/LemCAE/dsh-balance",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-fc9c43cd70fdac2a1b40.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-fc9c43cd70fdac2a1b40.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@lemcae/dsh-balance",
+    "command": "dsh plugin --profile web add @lemcae/dsh-balance",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-fc9c43cd70fdac2a1b40，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-fc9c43cd70fdac2a1b40.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-fc9c43cd70fdac2a1b40.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-balance 已收录到 DeepSeek Harness Plugin Store。顶栏徽章与设置卡片展示 DeepSeek 账户余额与当前会话预估花费：暂停感知的自动刷新、可编辑官方价格表、`deepseek_balance` 模型工具与中英文界面。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-fc9c43cd70fdac2a1b40.html",
+    "en": "dsh-balance is now listed on the DeepSeek Harness Plugin Store. DeepSeek account balance and current-session spend estimate in a top-bar chip and settings card, with pause-aware auto-refresh, an editable official price table, a `deepseek_balance` model tool, and a bilingual UI.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-fc9c43cd70fdac2a1b40.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-3c1742a0549f99d3dc16",
+    "name": "dsh-fabric",
+    "author": "hellosky983",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/hellosky983/dsh-fabric",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-3c1742a0549f99d3dc16.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-3c1742a0549f99d3dc16.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:hellosky983/dsh-fabric",
+    "command": "dsh plugin --profile web add github:hellosky983/dsh-fabric",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-3c1742a0549f99d3dc16，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-3c1742a0549f99d3dc16.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-3c1742a0549f99d3dc16.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-fabric 已收录到 DeepSeek Harness Plugin Store。用一套声明式 DSL 统一 DSH 的所有可扩展接缝：提供 `fabric` 运行时服务、`fabric_extend`/`fabric_inspect` 工具，以及能力图谱设置页。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-3c1742a0549f99d3dc16.html",
+    "en": "dsh-fabric is now listed on the DeepSeek Harness Plugin Store. Unifies every DSH extensibility seam behind one declarative DSL: a runtime `fabric` service, `fabric_extend`/`fabric_inspect` tools, and a capability-graph settings page.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-3c1742a0549f99d3dc16.html"
+  }
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-tool-vision — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-b1a68fb4f270afab006c.atom.xml</id>
+  <updated>2026-08-16T08:41:44Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-b1a68fb4f270afab006c.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b1a68fb4f270afab006c.html"/>
+  <entry>
+    <title>Updated: dsh-tool-vision</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-b1a68fb4f270afab006c/e1ab6d4a0ce81c55</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b1a68fb4f270afab006c.html"/>
+    <author><name>gloryxpnv</name></author>
+    <category term="tools"/>
+    <summary>Local-first structured vision for text-only agents: images go to a local OpenAI-compatible VLM and come back as JSON evidence (summary, verbatim OCR, layout regions, entities/relations, colors, explicit uncertainty), with anti-hallucination fallback and an optional paste/upload bridge; zero cloud cost, images never leave the machine. Exact install spec: github:gloryxpnv/dsh-tool-vision. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-tool-vision</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-b1a68fb4f270afab006c/2c94eabacd8b6011</id>
+    <updated>2026-08-16T03:13:50Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b1a68fb4f270afab006c.html"/>
+    <author><name>gloryxpnv</name></author>
+    <category term="tools"/>
+    <summary>Local-first structured vision for text-only agents: images go to a local OpenAI-compatible VLM and come back as JSON evidence (summary, verbatim OCR, layout regions, entities/relations, colors, explicit uncertainty), with anti-hallucination fallback and an optional paste/upload bridge; zero cloud cost, images never leave the machine. Exact install spec: github:gloryxpnv/dsh-tool-vision. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-tool-vision</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-b1a68fb4f270afab006c/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b1a68fb4f270afab006c.html"/>
+    <author><name>gloryxpnv</name></author>
+    <category term="tools"/>
+    <summary>Local-first structured vision for text-only agents: images go to a local OpenAI-compatible VLM and come back as JSON evidence (summary, verbatim OCR, layout regions, entities/relations, colors, explicit uncertainty), with anti-hallucination fallback and an optional paste/upload bridge; zero cloud cost, images never leave the machine. Exact install spec: github:gloryxpnv/dsh-tool-vision. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-tool-vision</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-b1a68fb4f270afab006c/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b1a68fb4f270afab006c.html"/>
+    <author><name>gloryxpnv</name></author>
+    <category term="tools"/>
+    <summary>Local-first structured vision for text-only agents: images go to a local OpenAI-compatible VLM and come back as JSON evidence (summary, verbatim OCR, layout regions, entities/relations, colors, explicit uncertainty), with anti-hallucination fallback and an optional paste/upload bridge; zero cloud cost, images never leave the machine. Exact install spec: github:gloryxpnv/dsh-tool-vision. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

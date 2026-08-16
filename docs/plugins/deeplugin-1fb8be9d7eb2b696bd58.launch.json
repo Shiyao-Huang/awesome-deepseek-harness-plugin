@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-1fb8be9d7eb2b696bd58",
+    "name": "ds-api-usage",
+    "author": "Sev7een",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/Sev7een/ds-api-usage",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-1fb8be9d7eb2b696bd58.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-1fb8be9d7eb2b696bd58.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:sev7een/ds-api-usage",
+    "command": "dsh plugin --profile web add github:sev7een/ds-api-usage",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-1fb8be9d7eb2b696bd58，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-1fb8be9d7eb2b696bd58.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-1fb8be9d7eb2b696bd58.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "ds-api-usage 已收录到 DeepSeek Harness Plugin Store。在设置页展示 DeepSeek API 余额与最近 24 小时用量，包括估算消费、Token、请求次数和按小时时间线。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-1fb8be9d7eb2b696bd58.html",
+    "en": "ds-api-usage is now listed on the DeepSeek Harness Plugin Store. DeepSeek API balance and 24-hour usage dashboard in Settings, with estimated spend, token counts, request counts, and an hourly timeline.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-1fb8be9d7eb2b696bd58.html"
+  }
+}

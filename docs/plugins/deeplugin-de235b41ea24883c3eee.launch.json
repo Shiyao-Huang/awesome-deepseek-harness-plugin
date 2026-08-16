@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-de235b41ea24883c3eee",
+    "name": "dsh-token-anxiety",
+    "author": "mov-eax-eax",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/mov-eax-eax/dsh-token-anxiety",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-de235b41ea24883c3eee.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-de235b41ea24883c3eee.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:mov-eax-eax/dsh-token-anxiety",
+    "command": "dsh plugin --profile web add github:mov-eax-eax/dsh-token-anxiety",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-de235b41ea24883c3eee，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-de235b41ea24883c3eee.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-de235b41ea24883c3eee.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-token-anxiety 已收录到 DeepSeek Harness Plugin Store。实时按任务追踪 token 成本的小部件：高峰/低谷定价时段、涨价后预测成本、可排序的每任务成本表、多币种（默认 COP/USD/CNY，另有 40 余种）与汇率，以及一键流式解释高成本任务。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-de235b41ea24883c3eee.html",
+    "en": "dsh-token-anxiety is now listed on the DeepSeek Harness Plugin Store. Live per-task token cost widget: peak/valley pricing windows, projected post-hike costs, sortable per-task cost table, multi-currency (COP/USD/CNY + ~40 more) with FX rates, and one-click streamed LLM explain of expensive tasks.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-de235b41ea24883c3eee.html"
+  }
+}

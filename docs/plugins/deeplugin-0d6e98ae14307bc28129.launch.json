@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-0d6e98ae14307bc28129",
+    "name": "dsh-ui-notifications",
+    "author": "pany0593",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/pany0593/dsh-ui-notifications",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-0d6e98ae14307bc28129.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-0d6e98ae14307bc28129.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:pany0593/dsh-ui-notifications",
+    "command": "dsh plugin --profile web add github:pany0593/dsh-ui-notifications",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-0d6e98ae14307bc28129，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-0d6e98ae14307bc28129.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-0d6e98ae14307bc28129.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-ui-notifications 已收录到 DeepSeek Harness Plugin Store。DSH Web 界面系统通知：回合结束或 agent 等待授权/回答/计划审核时，页面在后台也弹出系统级提醒。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-0d6e98ae14307bc28129.html",
+    "en": "dsh-ui-notifications is now listed on the DeepSeek Harness Plugin Store. OS-level system notifications for the dsh web GUI: popups when a turn finishes or the agent needs your approval, answer, or plan review while the page is in the background.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-0d6e98ae14307bc28129.html"
+  }
+}

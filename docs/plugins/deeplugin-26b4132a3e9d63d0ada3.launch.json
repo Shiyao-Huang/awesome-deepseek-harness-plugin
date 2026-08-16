@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-26b4132a3e9d63d0ada3",
+    "name": "dsh-session-hotkeys",
+    "author": "YEYEYEYESHIFU",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/YEYEYEYESHIFU/dsh-session-hotkeys",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-26b4132a3e9d63d0ada3.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-26b4132a3e9d63d0ada3.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-session-hotkeys",
+    "command": "dsh plugin --profile web add dsh-session-hotkeys",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-26b4132a3e9d63d0ada3，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-26b4132a3e9d63d0ada3.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-26b4132a3e9d63d0ada3.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-session-hotkeys 已收录到 DeepSeek Harness Plugin Store。Web 会话热键插件：像切浏览器标签页一样用键盘管理会话——Alt+1-9 顺序切换、固定槽位、上/下一个、新建/归档/重命名、导航模式、聚焦搜索，键位可在面板录制重绑，Windows/macOS 双预设。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-26b4132a3e9d63d0ada3.html",
+    "en": "dsh-session-hotkeys is now listed on the DeepSeek Harness Plugin Store. Session hotkeys for the DSH Web GUI: switch sessions like browser tabs (positional Alt+1-9, pinned slots, previous/next, new/archive/rename, navigation mode, search focus), all rebindable with Windows/macOS presets.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-26b4132a3e9d63d0ada3.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a0b3151442b33ec82219",
+    "name": "dsh-movein-permissions",
+    "author": "sjh9714",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/sjh9714/dsh-movein/tree/main/plugin",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a0b3151442b33ec82219.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a0b3151442b33ec82219.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-movein-permissions",
+    "command": "dsh plugin --profile web add dsh-movein-permissions",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a0b3151442b33ec82219，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a0b3151442b33ec82219.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a0b3151442b33ec82219.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-movein-permissions 已收录到 DeepSeek Harness Plugin Store。为 DSH 补上按工具粒度的权限规则：在 tools/pre-execute 强制执行 deny/ask 清单，规则语法与 Claude Code 相同，不迁移也能单独用。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a0b3151442b33ec82219.html",
+    "en": "dsh-movein-permissions is now listed on the DeepSeek Harness Plugin Store. Fine grained per tool permission rules for DSH at the tools/pre-execute gate, deny and ask lists in Claude Code rule syntax (Bash(rm -rf:*), Read(_secrets_), mcp__server__tool), works standalone without migrating.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a0b3151442b33ec82219.html"
+  }
+}

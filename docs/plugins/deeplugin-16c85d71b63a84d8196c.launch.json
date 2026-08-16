@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-16c85d71b63a84d8196c",
+    "name": "dsh-custom-brand",
+    "author": "baisama-cloud",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/baisama-cloud/dsh-custom-brand",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-16c85d71b63a84d8196c.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-16c85d71b63a84d8196c.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:baisama-cloud/dsh-custom-brand",
+    "command": "dsh plugin --profile web add github:baisama-cloud/dsh-custom-brand",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-16c85d71b63a84d8196c，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-16c85d71b63a84d8196c.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-16c85d71b63a84d8196c.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-custom-brand 已收录到 DeepSeek Harness Plugin Store。Web UI 品牌区自定义：鲸鱼 logo 与 DeepSeek 文字可换成本地图片，HARNESS 徽章文字可双击编辑（双击修改，右键恢复）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-16c85d71b63a84d8196c.html",
+    "en": "dsh-custom-brand is now listed on the DeepSeek Harness Plugin Store. Customizable brand area for the Web UI: replace the whale logo and DeepSeek wordmark with local images, and edit the HARNESS badge text (double-click to change, right-click to reset).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-16c85d71b63a84d8196c.html"
+  }
+}

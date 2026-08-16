@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-chameleon#bundle — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-54793e5d5febe91d6072.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-54793e5d5febe91d6072.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-54793e5d5febe91d6072.html"/>
+  <entry>
+    <title>Updated: dsh-chameleon#bundle</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-54793e5d5febe91d6072/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-54793e5d5febe91d6072.html"/>
+    <author><name>lsz-asd</name></author>
+    <category term="dev"/>
+    <summary>Self-editing desktop workbench for DeepSeek Harness: a full dsh web replica with an edit mode in which the agent modifies the workbench (patch layers, plugins, UI) with hot reload. Exact install spec: github:lsz-asd/dsh-chameleon#path:/bundle. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-chameleon#bundle</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-54793e5d5febe91d6072/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-54793e5d5febe91d6072.html"/>
+    <author><name>lsz-asd</name></author>
+    <category term="dev"/>
+    <summary>Self-editing desktop workbench for DeepSeek Harness: a full dsh web replica with an edit mode in which the agent modifies the workbench (patch layers, plugins, UI) with hot reload. Exact install spec: github:lsz-asd/dsh-chameleon#path:/bundle. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-chameleon#bundle</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-54793e5d5febe91d6072/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-54793e5d5febe91d6072.html"/>
+    <author><name>lsz-asd</name></author>
+    <category term="dev"/>
+    <summary>Self-editing desktop workbench for DeepSeek Harness: a full dsh web replica with an edit mode in which the agent modifies the workbench (patch layers, plugins, UI) with hot reload. Exact install spec: github:lsz-asd/dsh-chameleon#path:/bundle. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

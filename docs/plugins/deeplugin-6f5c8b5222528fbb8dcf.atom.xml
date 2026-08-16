@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-harness-zh-cn — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-6f5c8b5222528fbb8dcf.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-6f5c8b5222528fbb8dcf.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-6f5c8b5222528fbb8dcf.html"/>
+  <entry>
+    <title>Updated: dsh-harness-zh-cn</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-6f5c8b5222528fbb8dcf/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-6f5c8b5222528fbb8dcf.html"/>
+    <author><name>zjl1989-li</name></author>
+    <category term="tools"/>
+    <summary>Chinese localization for DeepSeek Harness: translates all system prompts, tool descriptions, and runtime contexts into Chinese at runtime via the system-prompt/assemble waterfall (1788 entries, zero source modification, uninstall restores English). Exact install spec: dsh-harness-zh-cn. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-harness-zh-cn</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-6f5c8b5222528fbb8dcf/6f2ac25403078bce</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-6f5c8b5222528fbb8dcf.html"/>
+    <author><name>zjl1989-li</name></author>
+    <category term="tools"/>
+    <summary>Chinese localization for DeepSeek Harness: translates all system prompts, tool descriptions, and runtime contexts into Chinese at runtime via the system-prompt/assemble waterfall (1788 entries, zero source modification, uninstall restores English). Exact install spec: dsh-harness-zh-cn. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

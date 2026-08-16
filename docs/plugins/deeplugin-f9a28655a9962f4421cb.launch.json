@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-f9a28655a9962f4421cb",
+    "name": "dsh-web-search-exa",
+    "author": "TonyDua",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/TonyDua/dsh-web-search-exa",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-f9a28655a9962f4421cb.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-f9a28655a9962f4421cb.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@tonydua/dsh-web-search-exa",
+    "command": "dsh plugin --profile web add @tonydua/dsh-web-search-exa",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-f9a28655a9962f4421cb，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-f9a28655a9962f4421cb.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-f9a28655a9962f4421cb.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-web-search-exa 已收录到 DeepSeek Harness Plugin Store。ctx.web 接缝的零配置 Exa 网页搜索提供方：无 API key 时走匿名 MCP 兜底，配 key 时走 REST 搜索。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-f9a28655a9962f4421cb.html",
+    "en": "dsh-web-search-exa is now listed on the DeepSeek Harness Plugin Store. Zero-config Exa web search provider for the ctx.web seam: anonymous MCP fallback without an API key, plus keyed REST search.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-f9a28655a9962f4421cb.html"
+  }
+}

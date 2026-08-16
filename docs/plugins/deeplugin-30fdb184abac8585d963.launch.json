@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-30fdb184abac8585d963",
+    "name": "dsh-deepseek-usage",
+    "author": "yyb16yyb-hub",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/yyb16yyb-hub/dsh-deepseek-usage",
+    "firstObservedAt": "2026-08-16T08:41:44Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-30fdb184abac8585d963.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-30fdb184abac8585d963.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:yyb16yyb-hub/dsh-deepseek-usage",
+    "command": "dsh plugin --profile web add github:yyb16yyb-hub/dsh-deepseek-usage",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-30fdb184abac8585d963，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-30fdb184abac8585d963.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-30fdb184abac8585d963.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-deepseek-usage 已收录到 DeepSeek Harness Plugin Store。实时 DeepSeek API 用量：账户余额与低余额告警（跨阈值浏览器通知）、请求/token 统计（全部/今日/近 60s，按模型与会话下钻）、估算花费——输入框下方统计条 + 设置页用量面板。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-30fdb184abac8585d963.html",
+    "en": "dsh-deepseek-usage is now listed on the DeepSeek Harness Plugin Store. Real-time DeepSeek API usage: account balance with low-balance alerts (browser notification on threshold crossing), token & request stats (total/today/last-60s windows, per-model and per-session), estimated cost — a composer dock plus a settings-page usage panel.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-30fdb184abac8585d963.html"
+  }
+}

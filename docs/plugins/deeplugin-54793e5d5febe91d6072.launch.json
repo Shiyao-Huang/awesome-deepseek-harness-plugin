@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-54793e5d5febe91d6072",
+    "name": "dsh-chameleon#bundle",
+    "author": "lsz-asd",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/lsz-asd/dsh-chameleon/tree/main/bundle",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-54793e5d5febe91d6072.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-54793e5d5febe91d6072.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:lsz-asd/dsh-chameleon#path:/bundle",
+    "command": "dsh plugin --profile web add github:lsz-asd/dsh-chameleon#path:/bundle",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-54793e5d5febe91d6072，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-54793e5d5febe91d6072.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-54793e5d5febe91d6072.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-chameleon#bundle 已收录到 DeepSeek Harness Plugin Store。可自修改的 DeepSeek Harness 桌面工作台：完整 dsh web 副本 + 编辑模式，agent 在对话中实时修改工作台（补丁层、插件、UI）并热更新生效。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-54793e5d5febe91d6072.html",
+    "en": "dsh-chameleon#bundle is now listed on the DeepSeek Harness Plugin Store. Self-editing desktop workbench for DeepSeek Harness: a full dsh web replica with an edit mode in which the agent modifies the workbench (patch layers, plugins, UI) with hot reload.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-54793e5d5febe91d6072.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-04a712a4d38d27ac52b6",
+    "name": "dsh-solo-thinking",
+    "author": "fredalxin",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/fredalxin/dsh-solo-thinking",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-04a712a4d38d27ac52b6.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-04a712a4d38d27ac52b6.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-plugin-solo-thinking",
+    "command": "dsh plugin --profile web add dsh-plugin-solo-thinking",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-04a712a4d38d27ac52b6，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-04a712a4d38d27ac52b6.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-04a712a4d38d27ac52b6.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-solo-thinking 已收录到 DeepSeek Harness Plugin Store。可视化分支头脑风暴：为每个方向创建独立 Session，自动处理父子继承、兄弟感知、进展与回传 Handoff，并提供完整树形 Tab 与可选 Better Sidebar 右栏。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-04a712a4d38d27ac52b6.html",
+    "en": "dsh-solo-thinking is now listed on the DeepSeek Harness Plugin Store. Visual branch brainstorming that creates an isolated Session for each direction, automates parent, sibling, checkpoint, and return Handoffs, and provides a full tree tab with an optional Better Sidebar view.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-04a712a4d38d27ac52b6.html"
+  }
+}

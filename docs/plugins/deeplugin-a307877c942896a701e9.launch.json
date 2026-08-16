@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a307877c942896a701e9",
+    "name": "dsh-writing-remote",
+    "author": "x2802490130-prog",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/x2802490130-prog/dsh-writing-remote",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a307877c942896a701e9.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a307877c942896a701e9.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-writing-remote",
+    "command": "dsh plugin --profile web add dsh-writing-remote",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a307877c942896a701e9，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a307877c942896a701e9.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a307877c942896a701e9.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-writing-remote 已收录到 DeepSeek Harness Plugin Store。写文引擎的 host 侧数据通道：把项目分卷、章节状态、书库、全文检索、演化条目与线索图谱以 Typert remote 暴露给客户端写作面板。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a307877c942896a701e9.html",
+    "en": "dsh-writing-remote is now listed on the DeepSeek Harness Plugin Store. Host-side Typert remote for dsh-tool-writing: serves project volumes, chapter status, corpus library, full-text search, evolution entries, and thread-graph data to the client writing panel.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a307877c942896a701e9.html"
+  }
+}

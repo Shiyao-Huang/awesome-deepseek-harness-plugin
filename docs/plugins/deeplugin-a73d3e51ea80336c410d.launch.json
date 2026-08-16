@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a73d3e51ea80336c410d",
+    "name": "dsh-plugins#dsh-mobile-ui",
+    "author": "TZHR-invest",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/TZHR-invest/dsh-plugins/tree/main/packages/dsh-mobile-ui",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a73d3e51ea80336c410d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a73d3e51ea80336c410d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:tzhr-invest/dsh-plugins#path:/packages/dsh-mobile-ui",
+    "command": "dsh plugin --profile web add github:tzhr-invest/dsh-plugins#path:/packages/dsh-mobile-ui",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a73d3e51ea80336c410d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a73d3e51ea80336c410d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a73d3e51ea80336c410d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugins#dsh-mobile-ui 已收录到 DeepSeek Harness Plugin Store。Web GUI 移动端适配：窄屏全宽响应式布局、会话抽屉、44px 触摸目标、安全区适配与阅读增强，桌面端零影响。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a73d3e51ea80336c410d.html",
+    "en": "dsh-plugins#dsh-mobile-ui is now listed on the DeepSeek Harness Plugin Store. Mobile UI for the Web GUI on narrow screens: full-width responsive layout, overlay session drawer, 44px touch targets, safe-area support, and reading enhancements with zero desktop impact.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a73d3e51ea80336c410d.html"
+  }
+}

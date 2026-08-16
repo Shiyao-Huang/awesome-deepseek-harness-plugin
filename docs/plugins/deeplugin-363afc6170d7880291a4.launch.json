@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-363afc6170d7880291a4",
+    "name": "dsh-visual-plugin",
+    "author": "jyh20030112",
+    "category": "model",
+    "version": null,
+    "homepage": "https://github.com/jyh20030112/dsh-visual-plugin",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-363afc6170d7880291a4.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-363afc6170d7880291a4.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:jyh20030112/dsh-visual-plugin",
+    "command": "dsh plugin --profile web add github:jyh20030112/dsh-visual-plugin",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-363afc6170d7880291a4，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-363afc6170d7880291a4.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-363afc6170d7880291a4.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-visual-plugin 已收录到 DeepSeek Harness Plugin Store。给纯文本模型装上眼睛：把用户图片转发给任意 OpenAI 兼容的视觉模型生成描述，并在 Web UI 右侧面板展示结果。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-363afc6170d7880291a4.html",
+    "en": "dsh-visual-plugin is now listed on the DeepSeek Harness Plugin Store. Gives text-only models vision: forwards user images to an OpenAI-compatible vision model and shows the descriptions in a Web UI right panel.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-363afc6170d7880291a4.html"
+  }
+}

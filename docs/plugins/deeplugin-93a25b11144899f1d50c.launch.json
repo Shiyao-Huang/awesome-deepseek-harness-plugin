@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-93a25b11144899f1d50c",
+    "name": "dsh-review-loop",
+    "author": "wuxiangru915",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/wuxiangru915/dsh-review-loop",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-93a25b11144899f1d50c.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-93a25b11144899f1d50c.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:wuxiangru915/dsh-review-loop",
+    "command": "dsh plugin --profile web add github:wuxiangru915/dsh-review-loop",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-93a25b11144899f1d50c，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-93a25b11144899f1d50c.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-93a25b11144899f1d50c.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-review-loop 已收录到 DeepSeek Harness Plugin Store。增量代码审查插件：批准一批改动后只审查检查点之后的新改动，提供 Web 审查面板与 `/review` 命令，并把审查意见注入回 agent。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-93a25b11144899f1d50c.html",
+    "en": "dsh-review-loop is now listed on the DeepSeek Harness Plugin Store. Incremental diff reviewer for DSH: after approving a batch, only new changes since the checkpoint are shown, with a Web review panel and `/review` command that inject feedback back to the agent.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-93a25b11144899f1d50c.html"
+  }
+}

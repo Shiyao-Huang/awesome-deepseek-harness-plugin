@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-14f1535a3eabf79e2074",
+    "name": "dsh-memoria",
+    "author": "jiayan-xu",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/jiayan-xu/dsh-memoria",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-14f1535a3eabf79e2074.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-14f1535a3eabf79e2074.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:jiayan-xu/dsh-memoria",
+    "command": "dsh plugin --profile web add github:jiayan-xu/dsh-memoria",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-14f1535a3eabf79e2074，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-14f1535a3eabf79e2074.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-14f1535a3eabf79e2074.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-memoria 已收录到 DeepSeek Harness Plugin Store。向量+图记忆后端：observe/remember/search/recall 四个工具对接本地 memoria 服务，HNSW 语义召回 + FTS5 关键词 + 知识图谱信号经 RRF 融合排序，回合结束自动写入，按 Agent 命名空间隔离。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-14f1535a3eabf79e2074.html",
+    "en": "dsh-memoria is now listed on the DeepSeek Harness Plugin Store. Vector + graph memory backend: observe/remember/search/recall tools against a local memoria server, fusing HNSW semantic recall, FTS5 keyword search, and knowledge-graph signals via RRF ranking, with automatic turn-end persistence and per-agent namespace isolation.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-14f1535a3eabf79e2074.html"
+  }
+}

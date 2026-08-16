@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-66868eca234949f2e7b7",
+    "name": "prompt-for-me",
+    "author": "ChuanTianML",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/ChuanTianML/prompt-for-me",
+    "firstObservedAt": "2026-08-16T08:41:44Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-66868eca234949f2e7b7.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-66868eca234949f2e7b7.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:chuantianml/prompt-for-me",
+    "command": "dsh plugin --profile web add github:chuantianml/prompt-for-me",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-66868eca234949f2e7b7，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-66868eca234949f2e7b7.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-66868eca234949f2e7b7.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "prompt-for-me 已收录到 DeepSeek Harness Plugin Store。DSH 输入框的上下文感知下一句建议：重复 Trigger 可持续换一条，发送前始终由用户确认。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-66868eca234949f2e7b7.html",
+    "en": "prompt-for-me is now listed on the DeepSeek Harness Plugin Store. Context-aware next-message suggestions in the DSH composer, with repeated Trigger cycling and explicit user review before sending.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-66868eca234949f2e7b7.html"
+  }
+}

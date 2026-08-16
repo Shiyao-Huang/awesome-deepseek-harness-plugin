@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-flomo — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-b97dc49319a9b1d78fd7.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-b97dc49319a9b1d78fd7.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b97dc49319a9b1d78fd7.html"/>
+  <entry>
+    <title>Updated: dsh-flomo</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-b97dc49319a9b1d78fd7/6ccc35f29bc10d9b</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b97dc49319a9b1d78fd7.html"/>
+    <author><name>zhengjy01</name></author>
+    <category term="memory"/>
+    <summary>Write notes and memos to flomo (浮墨笔记) from any agent via the flomo_send tool, configured once with the flomo API URL or API Key. Exact install spec: github:zhengjy01/dsh-flomo. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-flomo</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-b97dc49319a9b1d78fd7/e1ab6d4a0ce81c55</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b97dc49319a9b1d78fd7.html"/>
+    <author><name>zhengjy01</name></author>
+    <category term="memory"/>
+    <summary>Write notes and memos to flomo (浮墨笔记) from any agent via the flomo_send tool, configured once with the flomo API URL or API Key. Exact install spec: github:zhengjy01/dsh-flomo. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-flomo</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-b97dc49319a9b1d78fd7/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b97dc49319a9b1d78fd7.html"/>
+    <author><name>zhengjy01</name></author>
+    <category term="memory"/>
+    <summary>Write notes and memos to flomo (浮墨笔记) from any agent via the flomo_send tool, configured once with the flomo API URL or API Key. Exact install spec: github:zhengjy01/dsh-flomo. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

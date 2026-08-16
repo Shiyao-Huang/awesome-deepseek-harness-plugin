@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-plugin-mall — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-69d084b4e4004beec425.atom.xml</id>
+  <updated>2026-08-16T14:38:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-69d084b4e4004beec425.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-69d084b4e4004beec425.html"/>
+  <entry>
+    <title>New: dsh-plugin-mall</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-69d084b4e4004beec425/ea75554e2a868342</id>
+    <updated>2026-08-16T14:38:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-69d084b4e4004beec425.html"/>
+    <author><name>1e0zj</name></author>
+    <category term="market"/>
+    <summary>Open plugin marketplace: live GitHub dsh-plugin topic search with per-repo package.json verification (dsh.bundle/dsh.client manifest badges and a verified-only filter), npm-first installs with same-source anti-squatting checks, update detection, and five agent tools for headless use. Exact install spec: @1e0zj/dsh-plugin-mall. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

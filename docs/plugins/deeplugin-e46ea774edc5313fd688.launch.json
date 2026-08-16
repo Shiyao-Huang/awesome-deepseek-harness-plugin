@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-e46ea774edc5313fd688",
+    "name": "dsh-starter-pack",
+    "author": "Dariandai",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/Dariandai/dsh-starter-pack",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-e46ea774edc5313fd688.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-e46ea774edc5313fd688.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:dariandai/dsh-starter-pack",
+    "command": "dsh plugin --profile web add github:dariandai/dsh-starter-pack",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-e46ea774edc5313fd688，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-e46ea774edc5313fd688.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-e46ea774edc5313fd688.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-starter-pack 已收录到 DeepSeek Harness Plugin Store。精选插件启动包：从设置页或 /setup 命令一键批量安装并配置 4 组共 15 个经过筛选的社区插件。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e46ea774edc5313fd688.html",
+    "en": "dsh-starter-pack is now listed on the DeepSeek Harness Plugin Store. A curated plugin starter pack: batch-installs and configures 15 vetted community plugins across four groups from a Settings-page UI or the /setup command.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e46ea774edc5313fd688.html"
+  }
+}

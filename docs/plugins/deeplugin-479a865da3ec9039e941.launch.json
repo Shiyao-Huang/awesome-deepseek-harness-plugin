@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-479a865da3ec9039e941",
+    "name": "dsh-user-experience",
+    "author": "DietCokewithSugar",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/DietCokewithSugar/dsh-user-experience",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-479a865da3ec9039e941.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-479a865da3ec9039e941.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:dietcokewithsugar/dsh-user-experience",
+    "command": "dsh plugin --profile web add github:dietcokewithsugar/dsh-user-experience",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-479a865da3ec9039e941，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-479a865da3ec9039e941.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-479a865da3ec9039e941.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-user-experience 已收录到 DeepSeek Harness Plugin Store。帮你发现项目中可能存在的用户体验问题：自动走查 React/TypeScript 源码，定位问题并给出具体优化建议。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-479a865da3ec9039e941.html",
+    "en": "dsh-user-experience is now listed on the DeepSeek Harness Plugin Store. Finds potential UX issues in your project: automatically reviews React/TypeScript code, pinpoints each problem, and gives concrete suggestions.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-479a865da3ec9039e941.html"
+  }
+}

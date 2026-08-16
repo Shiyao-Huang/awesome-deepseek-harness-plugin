@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-no-setup-mode — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-48455b1755a9dc5cbc8a.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-48455b1755a9dc5cbc8a.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-48455b1755a9dc5cbc8a.html"/>
+  <entry>
+    <title>Updated: dsh-no-setup-mode</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-48455b1755a9dc5cbc8a/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-48455b1755a9dc5cbc8a.html"/>
+    <author><name>johnnycls</name></author>
+    <category term="ui"/>
+    <summary>No-setup mode for the DSH web UI: hides advanced surfaces, auto-applies best defaults (chat mode, full access, account balance), and one-click role-play personas (maid/butler). Exact install spec: github:johnnycls/dsh-no-setup-mode. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-no-setup-mode</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-48455b1755a9dc5cbc8a/e1ab6d4a0ce81c55</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-48455b1755a9dc5cbc8a.html"/>
+    <author><name>johnnycls</name></author>
+    <category term="ui"/>
+    <summary>No-setup mode for the DSH web UI: hides advanced surfaces, auto-applies best defaults (chat mode, full access, account balance), and one-click role-play personas (maid/butler). Exact install spec: github:johnnycls/dsh-no-setup-mode. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-no-setup-mode</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-48455b1755a9dc5cbc8a/287c47fa09b0bf5f</id>
+    <updated>2026-08-16T01:57:51Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-48455b1755a9dc5cbc8a.html"/>
+    <author><name>johnnycls</name></author>
+    <category term="ui"/>
+    <summary>No-setup mode for the DSH web UI: hides advanced surfaces, auto-applies best defaults (chat mode, full access, account balance), and one-click role-play personas (maid/butler). Exact install spec: github:johnnycls/dsh-no-setup-mode. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

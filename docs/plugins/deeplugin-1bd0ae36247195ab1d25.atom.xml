@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-feishu-bridge — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-1bd0ae36247195ab1d25.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-1bd0ae36247195ab1d25.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1bd0ae36247195ab1d25.html"/>
+  <entry>
+    <title>Updated: dsh-feishu-bridge</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-1bd0ae36247195ab1d25/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1bd0ae36247195ab1d25.html"/>
+    <author><name>wz-heng</name></author>
+    <category term="notify"/>
+    <summary>Fail-closed Feishu (Lark) channel bridge: chat with a bot, get dsh agent turns back. Official-Python-SDK-only integration (exact-pinned); deny-by-default allowlist, webhook signature/timestamp/replay verification, per-chat sticky sessions; bilingual docs. Exact install spec: github:wz-heng/dsh-feishu-bridge. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-feishu-bridge</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-1bd0ae36247195ab1d25/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1bd0ae36247195ab1d25.html"/>
+    <author><name>wz-heng</name></author>
+    <category term="notify"/>
+    <summary>Fail-closed Feishu (Lark) channel bridge: chat with a bot, get dsh agent turns back. Official-Python-SDK-only integration (exact-pinned); deny-by-default allowlist, webhook signature/timestamp/replay verification, per-chat sticky sessions; bilingual docs. Exact install spec: github:wz-heng/dsh-feishu-bridge. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-feishu-bridge</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-1bd0ae36247195ab1d25/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1bd0ae36247195ab1d25.html"/>
+    <author><name>wz-heng</name></author>
+    <category term="notify"/>
+    <summary>Fail-closed Feishu (Lark) channel bridge: chat with a bot, get dsh agent turns back. Official-Python-SDK-only integration (exact-pinned); deny-by-default allowlist, webhook signature/timestamp/replay verification, per-chat sticky sessions; bilingual docs. Exact install spec: github:wz-heng/dsh-feishu-bridge. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-7d61e2854e5ace2d81ce",
+    "name": "dsh-client-ui-theme-xp",
+    "author": "SamizuHM",
+    "category": "theme",
+    "version": null,
+    "homepage": "https://github.com/SamizuHM/dsh-client-ui-theme-xp",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-7d61e2854e5ace2d81ce.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-7d61e2854e5ace2d81ce.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-client-ui-theme-xp",
+    "command": "dsh plugin --profile web add dsh-client-ui-theme-xp",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-7d61e2854e5ace2d81ce，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-7d61e2854e5ace2d81ce.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-7d61e2854e5ace2d81ce.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-client-ui-theme-xp 已收录到 DeepSeek Harness Plugin Store。Windows XP Luna 桌面化主题：浮动窗口管理器（任务栏、桌面图标）加上还原度很高的 Luna 皮肤。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-7d61e2854e5ace2d81ce.html",
+    "en": "dsh-client-ui-theme-xp is now listed on the DeepSeek Harness Plugin Store. Windows XP Luna desktop for the DSH Web UI: a floating window manager with taskbar and desktop icons, plus the era-accurate Luna skin.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-7d61e2854e5ace2d81ce.html"
+  }
+}

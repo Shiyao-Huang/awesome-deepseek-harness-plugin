@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-db29cb46fefe3f391773",
+    "name": "dsh-project-kanban",
+    "author": "StruggleYang",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/StruggleYang/dsh-project-kanban",
+    "firstObservedAt": "2026-08-16T13:41:06Z",
+    "lastChangedAt": "2026-08-16T13:41:06Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-db29cb46fefe3f391773.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-db29cb46fefe3f391773.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-project-kanban",
+    "command": "dsh plugin --profile web add dsh-project-kanban",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-db29cb46fefe3f391773，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-db29cb46fefe3f391773.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-db29cb46fefe3f391773.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-project-kanban 已收录到 DeepSeek Harness Plugin Store。按工作区（项目）隔离的项目看板：9 个 kanban_* 模型工具供 Agent 规划时写卡，另带浏览器看板 UI，支持磁盘持久化、撤销、模板与归档。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-db29cb46fefe3f391773.html",
+    "en": "dsh-project-kanban is now listed on the DeepSeek Harness Plugin Store. Per-workspace project kanban board: nine kanban_* model tools for agent-driven planning plus a browser board UI, with disk persistence, undo, templates, and archiving.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-db29cb46fefe3f391773.html"
+  }
+}

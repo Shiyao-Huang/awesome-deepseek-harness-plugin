@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-52715cb09c0e9fe25f26",
+    "name": "Catppuccin-dsh-theme",
+    "author": "zhijun-dai",
+    "category": "theme",
+    "version": null,
+    "homepage": "https://github.com/zhijun-dai/Catppuccin-dsh-theme",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-52715cb09c0e9fe25f26.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-52715cb09c0e9fe25f26.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-catppuccin",
+    "command": "dsh plugin --profile web add dsh-catppuccin",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-52715cb09c0e9fe25f26，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-52715cb09c0e9fe25f26.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-52715cb09c0e9fe25f26.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "Catppuccin-dsh-theme 已收录到 DeepSeek Harness Plugin Store。Catppuccin 主题插件：为 DSH Web 主题运行时提供 Latte、Frappé、Macchiato、Mocha 四套皮肤。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-52715cb09c0e9fe25f26.html",
+    "en": "Catppuccin-dsh-theme is now listed on the DeepSeek Harness Plugin Store. Catppuccin theme plugin: Latte, Frappé, Macchiato, and Mocha skins for the DSH Web theme runtime.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-52715cb09c0e9fe25f26.html"
+  }
+}

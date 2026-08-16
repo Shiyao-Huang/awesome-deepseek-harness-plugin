@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-6be75f4ecc5c2094e0c1",
+    "name": "dsh-desktop-shortcut",
+    "author": "fuyue521",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/fuyue521/dsh-desktop-shortcut",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-6be75f4ecc5c2094e0c1.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-6be75f4ecc5c2094e0c1.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-desktop-shortcut",
+    "command": "dsh plugin --profile web add dsh-desktop-shortcut",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-6be75f4ecc5c2094e0c1，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-6be75f4ecc5c2094e0c1.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-6be75f4ecc5c2094e0c1.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-desktop-shortcut 已收录到 DeepSeek Harness Plugin Store。Windows 桌面快捷方式：一键启动 dsh web，就绪后自动打开浏览器，关闭 Harness 窗口即停服务。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-6be75f4ecc5c2094e0c1.html",
+    "en": "dsh-desktop-shortcut is now listed on the DeepSeek Harness Plugin Store. Windows desktop shortcut for dsh web: launches the server, auto-opens the browser when ready, and stops the service when the Harness window closes.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-6be75f4ecc5c2094e0c1.html"
+  }
+}

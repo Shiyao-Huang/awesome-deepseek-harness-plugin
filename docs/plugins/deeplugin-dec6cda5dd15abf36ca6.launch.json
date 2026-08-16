@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-dec6cda5dd15abf36ca6",
+    "name": "Qwen-MM-Plugins",
+    "author": "omdsh-dev",
+    "category": "model",
+    "version": null,
+    "homepage": "https://github.com/omdsh-dev/Qwen-MM-Plugins",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-dec6cda5dd15abf36ca6.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-dec6cda5dd15abf36ca6.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:omdsh-dev/qwen-mm-plugins",
+    "command": "dsh plugin --profile web add github:omdsh-dev/qwen-mm-plugins",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-dec6cda5dd15abf36ca6，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-dec6cda5dd15abf36ca6.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-dec6cda5dd15abf36ca6.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "Qwen-MM-Plugins 已收录到 DeepSeek Harness Plugin Store。Qwen 多模态插件支持。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-dec6cda5dd15abf36ca6.html",
+    "en": "Qwen-MM-Plugins is now listed on the DeepSeek Harness Plugin Store. Qwen multi-modal plugin support.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-dec6cda5dd15abf36ca6.html"
+  }
+}

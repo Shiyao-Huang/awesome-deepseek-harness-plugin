@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-d02be67d014af018d6ef",
+    "name": "dsh-store",
+    "author": "huguangyu666",
+    "category": "market",
+    "version": null,
+    "homepage": "https://github.com/huguangyu666/dsh-store",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-d02be67d014af018d6ef.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-d02be67d014af018d6ef.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-store",
+    "command": "dsh plugin --profile web add dsh-store",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-d02be67d014af018d6ef，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-d02be67d014af018d6ef.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-d02be67d014af018d6ef.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-store 已收录到 DeepSeek Harness Plugin Store。dsh 插件商店：npm 权威目录 + awesome 精选（550+ 插件、11 分类）、dsh 字段质量验证、官方 `dsh plugin add/remove` 一键安装，侧边栏与设置页入口。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-d02be67d014af018d6ef.html",
+    "en": "dsh-store is now listed on the DeepSeek Harness Plugin Store. Plugin store: npm authoritative catalog + awesome curated list (550+ plugins, 11 categories), dsh-field quality verification, official `dsh plugin add/remove` one-click install, sidebar + settings entry.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-d02be67d014af018d6ef.html"
+  }
+}

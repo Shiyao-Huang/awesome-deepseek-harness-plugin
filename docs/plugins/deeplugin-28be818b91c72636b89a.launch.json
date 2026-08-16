@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-28be818b91c72636b89a",
+    "name": "dsh-shop-assistant",
+    "author": "pengzhou267-ai",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/pengzhou267-ai/dsh-shop-assistant",
+    "firstObservedAt": "2026-08-16T09:56:16Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-28be818b91c72636b89a.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-28be818b91c72636b89a.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-shop-assistant",
+    "command": "dsh plugin --profile web add dsh-shop-assistant",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-28be818b91c72636b89a，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-28be818b91c72636b89a.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-28be818b91c72636b89a.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-shop-assistant 已收录到 DeepSeek Harness Plugin Store。电商店主工作台：CSV 批量预览（多平台列适配）、可复算利润与六维评分、公开商品页快照、中文 skills、可替换售后政策知识库。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-28be818b91c72636b89a.html",
+    "en": "dsh-shop-assistant is now listed on the DeepSeek Harness Plugin Store. Ecommerce operator workbench: CSV batch preview with marketplace column adapters, reproducible profit/six-dimension scoring, public product-page snapshots, Chinese skills, and a replaceable store-policy KB.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-28be818b91c72636b89a.html"
+  }
+}

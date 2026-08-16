@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-deb56b353690fcab486f",
+    "name": "deepseek-vision#plugins/dsh-plugin-deepseek-vision",
+    "author": "GOU-GEE",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/GOU-GEE/deepseek-vision/tree/main/plugins/dsh-plugin-deepseek-vision",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-deb56b353690fcab486f.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-deb56b353690fcab486f.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-plugin-deepseek-vision",
+    "command": "dsh plugin --profile web add dsh-plugin-deepseek-vision",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-deb56b353690fcab486f，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-deb56b353690fcab486f.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-deb56b353690fcab486f.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "deepseek-vision#plugins/dsh-plugin-deepseek-vision 已收录到 DeepSeek Harness Plugin Store。面向纯文本 DeepSeek 的视觉 MCP + DSH 插件：analyze_image / analyze_clipboard / compare_images / vision_status 四个工具、可视化配置页、默认免费 GLM-4.6V-Flash、结果缓存与限流容错，Key 不入日志。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-deb56b353690fcab486f.html",
+    "en": "deepseek-vision#plugins/dsh-plugin-deepseek-vision is now listed on the DeepSeek Harness Plugin Store. Vision MCP and DSH bundle for text-only DeepSeek: analyze_image, analyze_clipboard, compare_images and vision_status tools, a visual settings page, free GLM-4.6V-Flash by default, result caching and rate-limit tolerance; keys stay out of logs.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-deb56b353690fcab486f.html"
+  }
+}

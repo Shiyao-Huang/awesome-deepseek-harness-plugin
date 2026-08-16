@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-ui-usage-billing — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-be0246cc13491fd1cc90.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-be0246cc13491fd1cc90.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-be0246cc13491fd1cc90.html"/>
+  <entry>
+    <title>Updated: dsh-ui-usage-billing</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-be0246cc13491fd1cc90/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-be0246cc13491fd1cc90.html"/>
+    <author><name>kenz1117</name></author>
+    <category term="ui"/>
+    <summary>Sidebar billing dashboard: real usage aggregated from session logs (per-model and per-day calls/tokens/cache), cost estimated in CNY from a current multi-provider pricing catalog, subscription-plan (coding/token/agent) routes exempt, and per-provider health dots. Exact install spec: @kenz1117/dsh-ui-usage-billing. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-ui-usage-billing</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-be0246cc13491fd1cc90/7e5b8321bc7d21b1</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-be0246cc13491fd1cc90.html"/>
+    <author><name>kenz1117</name></author>
+    <category term="ui"/>
+    <summary>Sidebar billing dashboard: real usage aggregated from session logs (per-model and per-day calls/tokens/cache), cost estimated in CNY from a current multi-provider pricing catalog, subscription-plan (coding/token/agent) routes exempt, and per-provider health dots. Exact install spec: @kenz1117/dsh-ui-usage-billing. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-23a8224aca9637eaf59e",
+    "name": "dsh-api-gateway",
+    "author": "litestartup-com",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/litestartup-com/dsh-api-gateway",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-23a8224aca9637eaf59e.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-23a8224aca9637eaf59e.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:litestartup-com/dsh-api-gateway",
+    "command": "dsh plugin --profile web add github:litestartup-com/dsh-api-gateway",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-23a8224aca9637eaf59e，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-23a8224aca9637eaf59e.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-23a8224aca9637eaf59e.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-api-gateway 已收录到 DeepSeek Harness Plugin Store。为第三方客户端提供 REST + SSE 网关：API 密钥鉴权、token 流式回包、会话工作区分组，并可接管 GUI 会话继续对话。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-23a8224aca9637eaf59e.html",
+    "en": "dsh-api-gateway is now listed on the DeepSeek Harness Plugin Store. REST + SSE gateway exposing running Harness sessions to third-party clients: API-key auth, token streaming, workspace grouping, and adopting GUI sessions to keep chatting.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-23a8224aca9637eaf59e.html"
+  }
+}

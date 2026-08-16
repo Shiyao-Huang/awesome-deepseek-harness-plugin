@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-8545d3946a18d7dac4c7",
+    "name": "dsh-office-tools",
+    "author": "kw78",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/kw78/dsh-office-tools",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-8545d3946a18d7dac4c7.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-8545d3946a18d7dac4c7.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-office-tools",
+    "command": "dsh plugin --profile web add dsh-office-tools",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-8545d3946a18d7dac4c7，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-8545d3946a18d7dac4c7.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-8545d3946a18d7dac4c7.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-office-tools 已收录到 DeepSeek Harness Plugin Store。面向 agent 的工作区安全 Office 工具集：创建/读取 Word、创建/读取/更新 Excel、创建/读取 PowerPoint，并支持 PNG/JPG/GIF 图片排版。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-8545d3946a18d7dac4c7.html",
+    "en": "dsh-office-tools is now listed on the DeepSeek Harness Plugin Store. Workspace-safe Office tools for agents: create/read Word, create/read/update Excel, and create/read PowerPoint decks with PNG/JPG/GIF image placement.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-8545d3946a18d7dac4c7.html"
+  }
+}

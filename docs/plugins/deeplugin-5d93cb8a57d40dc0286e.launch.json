@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-5d93cb8a57d40dc0286e",
+    "name": "dsh-plugin-integration",
+    "author": "MutaLucem",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/MutaLucem/dsh-plugin-integration",
+    "firstObservedAt": "2026-08-16T13:41:06Z",
+    "lastChangedAt": "2026-08-16T13:41:06Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-5d93cb8a57d40dc0286e.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-5d93cb8a57d40dc0286e.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:mutalucem/dsh-plugin-integration",
+    "command": "dsh plugin --profile web add github:mutalucem/dsh-plugin-integration",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-5d93cb8a57d40dc0286e，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-5d93cb8a57d40dc0286e.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-5d93cb8a57d40dc0286e.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-integration 已收录到 DeepSeek Harness Plugin Store。动态发现已装插件并打标分类，检测功能重叠与兼容冲突，一键启停切换、失效诊断与更新检测。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-5d93cb8a57d40dc0286e.html",
+    "en": "dsh-plugin-integration is now listed on the DeepSeek Harness Plugin Store. Discovers installed DSH plugins with tags, overlap and compatibility detection, one-click enable/disable, failure diagnosis, and update checking.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-5d93cb8a57d40dc0286e.html"
+  }
+}

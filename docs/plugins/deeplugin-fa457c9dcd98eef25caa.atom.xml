@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-clawshell — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-fa457c9dcd98eef25caa.atom.xml</id>
+  <updated>2026-08-16T08:41:44Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-fa457c9dcd98eef25caa.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fa457c9dcd98eef25caa.html"/>
+  <entry>
+    <title>Updated: dsh-clawshell</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-fa457c9dcd98eef25caa/e1ab6d4a0ce81c55</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fa457c9dcd98eef25caa.html"/>
+    <author><name>jorinyang</name></author>
+    <category term="dev"/>
+    <summary>Self-healing runtime layer: a resource control loop with strategy switching and repair escalation, error-storm and fiber-failure insight, cross-session knowledge carry-over, a self-healing dashboard and 7 tools. Exact install spec: github:jorinyang/dsh-clawshell. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-clawshell</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-fa457c9dcd98eef25caa/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fa457c9dcd98eef25caa.html"/>
+    <author><name>jorinyang</name></author>
+    <category term="dev"/>
+    <summary>Self-healing runtime layer: a resource control loop with strategy switching and repair escalation, error-storm and fiber-failure insight, cross-session knowledge carry-over, a self-healing dashboard and 7 tools. Exact install spec: github:jorinyang/dsh-clawshell. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-clawshell</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-fa457c9dcd98eef25caa/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fa457c9dcd98eef25caa.html"/>
+    <author><name>jorinyang</name></author>
+    <category term="dev"/>
+    <summary>Self-healing runtime layer: a resource control loop with strategy switching and repair escalation, error-storm and fiber-failure insight, cross-session knowledge carry-over, a self-healing dashboard and 7 tools. Exact install spec: github:jorinyang/dsh-clawshell. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

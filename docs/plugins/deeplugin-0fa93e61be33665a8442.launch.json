@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-0fa93e61be33665a8442",
+    "name": "dsh-update-copilot",
+    "author": "hezhongtang",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/hezhongtang/dsh-update-copilot",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-0fa93e61be33665a8442.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-0fa93e61be33665a8442.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-update-copilot",
+    "command": "dsh plugin --profile web add dsh-update-copilot",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-0fa93e61be33665a8442，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-0fa93e61be33665a8442.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-0fa93e61be33665a8442.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-update-copilot 已收录到 DeepSeek Harness Plugin Store。DeepSeek Harness 的更新助手：一次扫描覆盖 dsh 本体、官方 bundle 和每个 profile 的插件，说清改了什么、风险多大，只更新你确认过的那些。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-0fa93e61be33665a8442.html",
+    "en": "dsh-update-copilot is now listed on the DeepSeek Harness Plugin Store. Update copilot for DeepSeek Harness: one scan covers the dsh core, official bundles, and every profile plugin; explains what changed and how risky each update is, then updates only what you confirm.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-0fa93e61be33665a8442.html"
+  }
+}

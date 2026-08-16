@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-fc7294cc82342af50131",
+    "name": "SpecWorkflow",
+    "author": "MoonCoder-HAPPY",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/MoonCoder-HAPPY/SpecWorkflow",
+    "firstObservedAt": "2026-08-16T13:41:06Z",
+    "lastChangedAt": "2026-08-16T13:41:06Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-fc7294cc82342af50131.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-fc7294cc82342af50131.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "specworkflow",
+    "command": "dsh plugin --profile web add specworkflow",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-fc7294cc82342af50131，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-fc7294cc82342af50131.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-fc7294cc82342af50131.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "SpecWorkflow 已收录到 DeepSeek Harness Plugin Store。注册 SpecWorkflow 技能包，覆盖需求澄清、实施规格、代码执行、交付检查、修复规划、bug 诊断和带来源调研。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-fc7294cc82342af50131.html",
+    "en": "SpecWorkflow is now listed on the DeepSeek Harness Plugin Store. Registers a SpecWorkflow skill pack for requirement clarification, implementation specs, execution, delivery review, repair planning, bug diagnosis, and source-backed research.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-fc7294cc82342af50131.html"
+  }
+}

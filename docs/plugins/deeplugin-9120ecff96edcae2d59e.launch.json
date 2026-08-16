@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-9120ecff96edcae2d59e",
+    "name": "better-reasoning-slider",
+    "author": "vvvspec",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/vvvspec/better-reasoning-slider",
+    "firstObservedAt": "2026-08-16T14:38:49Z",
+    "lastChangedAt": "2026-08-16T14:38:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-9120ecff96edcae2d59e.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-9120ecff96edcae2d59e.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:vvvspec/better-reasoning-slider",
+    "command": "dsh plugin --profile web add github:vvvspec/better-reasoning-slider",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-9120ecff96edcae2d59e，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-9120ecff96edcae2d59e.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-9120ecff96edcae2d59e.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "better-reasoning-slider 已收录到 DeepSeek Harness Plugin Store。官方风格输入框 + 浮动推理能力滑块弹窗，节点与滑块对齐，弹窗跟随 Harness 主题自适应。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-9120ecff96edcae2d59e.html",
+    "en": "better-reasoning-slider is now listed on the DeepSeek Harness Plugin Store. Official-style composer model trigger with a floating reasoning-effort slider popup.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-9120ecff96edcae2d59e.html"
+  }
+}

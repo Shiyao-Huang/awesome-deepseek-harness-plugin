@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-3d370b73c724b1bc5f9b",
+    "name": "dsh-vision-proxy",
+    "author": "Flyvhidbwo",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/Flyvhidbwo/dsh-vision-proxy",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-3d370b73c724b1bc5f9b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-3d370b73c724b1bc5f9b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-vision-proxy",
+    "command": "dsh plugin --profile web add dsh-vision-proxy",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-3d370b73c724b1bc5f9b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-3d370b73c724b1bc5f9b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-3d370b73c724b1bc5f9b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-vision-proxy 已收录到 DeepSeek Harness Plugin Store。DeepSeek 大脑 + 自动识图：GUI 附加的每张图片自动经 OpenAI 兼容 VLM 转译成文字，再交给纯文本的 DeepSeek 作答——有 key 自动走快速通道（默认 qwen3.7-flash，支持百炼/智谱/OpenRouter 等任意 OpenAI 兼容端点），无 key 自动探测本地 Ollama（零配置，图片不出本机）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-3d370b73c724b1bc5f9b.html",
+    "en": "dsh-vision-proxy is now listed on the DeepSeek Harness Plugin Store. DeepSeek brain + automatic image transcription: attach images in the GUI and each one is transcribed to text via any OpenAI-compatible VLM before reaching the text-only DeepSeek — a keyed fast path (default qwen3.7-flash; DashScope/Zhipu/OpenRouter or any OpenAI-compatible endpoint) with your own key, or local Ollama auto-detected with zero config.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-3d370b73c724b1bc5f9b.html"
+  }
+}

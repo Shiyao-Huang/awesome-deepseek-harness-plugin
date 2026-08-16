@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-705669a8fae2ebf3f775",
+    "name": "model-usage-plugin",
+    "author": "AKS1st",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/AKS1st/model-usage-plugin",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-705669a8fae2ebf3f775.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-705669a8fae2ebf3f775.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:aks1st/model-usage-plugin",
+    "command": "dsh plugin --profile web add github:aks1st/model-usage-plugin",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-705669a8fae2ebf3f775，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-705669a8fae2ebf3f775.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-705669a8fae2ebf3f775.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "model-usage-plugin 已收录到 DeepSeek Harness Plugin Store。按模型统计 token 消耗并估算费用，同时显示 DeepSeek 账户余额，展示于设置面板「模型消耗」页签。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-705669a8fae2ebf3f775.html",
+    "en": "model-usage-plugin is now listed on the DeepSeek Harness Plugin Store. Per-model token usage and cost estimation with DeepSeek account balance, shown in a Settings panel tab.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-705669a8fae2ebf3f775.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-c1a4235fb4c149e73744",
+    "name": "dsh-opencode-usage",
+    "author": "vinyumao",
+    "category": "model",
+    "version": null,
+    "homepage": "https://github.com/vinyumao/dsh-opencode-usage",
+    "firstObservedAt": "2026-08-16T05:04:11Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-c1a4235fb4c149e73744.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-c1a4235fb4c149e73744.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:vinyumao/dsh-opencode-usage",
+    "command": "dsh plugin --profile web add github:vinyumao/dsh-opencode-usage",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-c1a4235fb4c149e73744，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-c1a4235fb4c149e73744.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-c1a4235fb4c149e73744.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-opencode-usage 已收录到 DeepSeek Harness Plugin Store。OpenCode Go 套餐用量显示：输入框下方常驻徽章显示滚动 / 每周 / 每月用量百分比与重置倒计时，点击展开进度卡片；Agent 可经 `opencode_go_usage` 工具随时查询余额。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c1a4235fb4c149e73744.html",
+    "en": "dsh-opencode-usage is now listed on the DeepSeek Harness Plugin Store. OpenCode Go plan usage display for the DSH web GUI: a persistent badge under the composer shows rolling/weekly/monthly usage percents with reset countdowns; click to expand a card; agents can query the balance via the `opencode_go_usage` tool.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-c1a4235fb4c149e73744.html"
+  }
+}

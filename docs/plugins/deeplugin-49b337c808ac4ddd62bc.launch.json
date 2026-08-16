@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-49b337c808ac4ddd62bc",
+    "name": "dsh-toolkit",
+    "author": "omdsh-dev",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/omdsh-dev/dsh-toolkit",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-49b337c808ac4ddd62bc.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-49b337c808ac4ddd62bc.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:omdsh-dev/dsh-toolkit",
+    "command": "dsh plugin --profile web add github:omdsh-dev/dsh-toolkit",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-49b337c808ac4ddd62bc，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-49b337c808ac4ddd62bc.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-49b337c808ac4ddd62bc.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-toolkit 已收录到 DeepSeek Harness Plugin Store。零依赖工具包：time / encoding / json / calculator / csv / regex / markdown / diff / stat / schema 十件套一键安装。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-49b337c808ac4ddd62bc.html",
+    "en": "dsh-toolkit is now listed on the DeepSeek Harness Plugin Store. Zero-dependency toolkit: time / encoding / json / calculator / csv / regex / markdown / diff / stat / schema — ten deterministic tools in one install.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-49b337c808ac4ddd62bc.html"
+  }
+}

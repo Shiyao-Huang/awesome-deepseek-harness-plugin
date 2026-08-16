@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-b8b14338de48fa2e8825",
+    "name": "mattpocock-skills-dsh-zh",
+    "author": "gongyijie85",
+    "category": "skill",
+    "version": null,
+    "homepage": "https://github.com/gongyijie85/mattpocock-skills-dsh-zh",
+    "firstObservedAt": "2026-08-16T08:41:44Z",
+    "lastChangedAt": "2026-08-16T13:41:06Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-b8b14338de48fa2e8825.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-b8b14338de48fa2e8825.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "mattpocock-skills-dsh-zh",
+    "command": "dsh plugin --profile web add mattpocock-skills-dsh-zh",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-b8b14338de48fa2e8825，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-b8b14338de48fa2e8825.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b8b14338de48fa2e8825.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "mattpocock-skills-dsh-zh 已收录到 DeepSeek Harness Plugin Store。Matt Pocock 技能中文版的 DeepSeek Harness 插件：25 个 SKILL.md 正文全译中文（技术术语保留英文并附注释），改编自 mattpocock/skills（MIT）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b8b14338de48fa2e8825.html",
+    "en": "mattpocock-skills-dsh-zh is now listed on the DeepSeek Harness Plugin Store. Matt Pocock's skills in Chinese for DSH: all 25 SKILL.md translated to natural Chinese (technical terms kept in English with glosses), adapted from mattpocock/skills (MIT).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b8b14338de48fa2e8825.html"
+  }
+}

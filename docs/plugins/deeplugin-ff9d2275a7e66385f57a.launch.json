@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-ff9d2275a7e66385f57a",
+    "name": "dsh-pets",
+    "author": "hellosz",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/hellosz/dsh-pets",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-ff9d2275a7e66385f57a.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-ff9d2275a7e66385f57a.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@hellosz/dsh-pets",
+    "command": "dsh plugin --profile web add @hellosz/dsh-pets",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-ff9d2275a7e66385f57a，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-ff9d2275a7e66385f57a.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-ff9d2275a7e66385f57a.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-pets 已收录到 DeepSeek Harness Plugin Store。Codex Pets 风格浮动像素桌宠：内置 10 只 Petdex 兼容宝可梦伙伴，9 状态 agent 状态机（空闲/思考/等待/审查/出错 + 客户端挥手/跳跃/方向动画），可拖拽悬浮、宠物切换与缩放设置、通知气泡，以及 agent 可用的 `pet_say` 工具。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-ff9d2275a7e66385f57a.html",
+    "en": "dsh-pets is now listed on the DeepSeek Harness Plugin Store. Codex Pets-style floating pixel pet with 10 built-in Petdex-compatible pets, a 9-state agent-status engine (idle/running/waiting/review/failed plus client-side waving/jumping/directions), draggable overlay, pet picker/zoom settings, notification bubbles, and a `pet_say` tool for the agent to speak through the pet.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-ff9d2275a7e66385f57a.html"
+  }
+}

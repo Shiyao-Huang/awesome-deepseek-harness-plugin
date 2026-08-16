@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-6c0632d9283766a298cd",
+    "name": "dsh-rule-evolve",
+    "author": "zoahdev",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/zoahdev/dsh-rule-evolve/tree/main/plugin",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-6c0632d9283766a298cd.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-6c0632d9283766a298cd.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:zoahdev/dsh-rule-evolve#path:/plugin",
+    "command": "dsh plugin --profile web add github:zoahdev/dsh-rule-evolve#path:/plugin",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-6c0632d9283766a298cd，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-6c0632d9283766a298cd.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-6c0632d9283766a298cd.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-rule-evolve 已收录到 DeepSeek Harness Plugin Store。验证驱动的自我进化循环：失败日志自动变成经过验证的 AGENTS.md 规则；会话内插件（evolve_learn/evolve_apply/evolve_touch/evolve_recall）、工具体检、规则生命周期、本地召回。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-6c0632d9283766a298cd.html",
+    "en": "dsh-rule-evolve is now listed on the DeepSeek Harness Plugin Store. Verification-driven self-evolution loop: failure logs become verified AGENTS.md rules; in-session plugin (evolve_learn / evolve_apply / evolve_touch / evolve_recall), tool-verify gate, rule lifecycle, local recall.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-6c0632d9283766a298cd.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-7ca8226bca2d16aad806",
+    "name": "dsh-llm-newapi",
+    "author": "wenzetan",
+    "category": "model",
+    "version": null,
+    "homepage": "https://github.com/wenzetan/dsh-llm-newapi",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-7ca8226bca2d16aad806.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-7ca8226bca2d16aad806.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:wenzetan/dsh-llm-newapi",
+    "command": "dsh plugin --profile web add github:wenzetan/dsh-llm-newapi",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-7ca8226bca2d16aad806，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-7ca8226bca2d16aad806.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-7ca8226bca2d16aad806.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-llm-newapi 已收录到 DeepSeek Harness Plugin Store。NewAPI（OpenAI 兼容网关）模型接入：注册 `newapi` 路由，仅发现聊天类模型，自动从 models.dev 获取模型参数（上下文窗口、思考强度等）并填充，并在 Web 设置页配置 base URL 与 API Key。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-7ca8226bca2d16aad806.html",
+    "en": "dsh-llm-newapi is now listed on the DeepSeek Harness Plugin Store. NewAPI (OpenAI-compatible gateway) LLM provider: registers a `newapi` route with chat-only model discovery, auto-fills model parameters (context window, reasoning effort) from models.dev, and adds a Web settings section for the base URL and API key.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-7ca8226bca2d16aad806.html"
+  }
+}

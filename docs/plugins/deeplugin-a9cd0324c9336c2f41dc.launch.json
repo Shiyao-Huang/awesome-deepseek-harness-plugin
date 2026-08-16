@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a9cd0324c9336c2f41dc",
+    "name": "dsh-plugins#theme-gallery",
+    "author": "wsxwj123",
+    "category": "theme",
+    "version": null,
+    "homepage": "https://github.com/wsxwj123/dsh-plugins/tree/main/packages/theme-gallery",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a9cd0324c9336c2f41dc.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a9cd0324c9336c2f41dc.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:wsxwj123/dsh-plugins#path:/packages/theme-gallery",
+    "command": "dsh plugin --profile web add github:wsxwj123/dsh-plugins#path:/packages/theme-gallery",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a9cd0324c9336c2f41dc，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a9cd0324c9336c2f41dc.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a9cd0324c9336c2f41dc.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugins#theme-gallery 已收录到 DeepSeek Harness Plugin Store。15 个精选主题家族 + CSS-only 自定义主题，支持导入、试穿、应用、删除和恢复默认，跟随 DSH 原生浅色/深色/跟随系统模式。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a9cd0324c9336c2f41dc.html",
+    "en": "dsh-plugins#theme-gallery is now listed on the DeepSeek Harness Plugin Store. Fifteen curated theme families plus custom CSS-only themes with import, preview, apply, delete, and restore-default flows that follow the native Light, Dark, and Follow system modes.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a9cd0324c9336c2f41dc.html"
+  }
+}

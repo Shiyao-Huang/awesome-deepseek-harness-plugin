@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-fb8467f357566d547100",
+    "name": "dsh-shared-memory",
+    "author": "futongxu9-maker",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/futongxu9-maker/dsh-shared-memory",
+    "firstObservedAt": "2026-08-16T03:13:50Z",
+    "lastChangedAt": "2026-08-16T03:13:50Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-fb8467f357566d547100.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-fb8467f357566d547100.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:futongxu9-maker/dsh-shared-memory",
+    "command": "dsh plugin --profile web add github:futongxu9-maker/dsh-shared-memory",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-fb8467f357566d547100，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-fb8467f357566d547100.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-fb8467f357566d547100.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-shared-memory 已收录到 DeepSeek Harness Plugin Store。跨对话共享记忆：MEMORY.md + USER.md 注入每个会话系统提示词，memory 工具 + 可视化记忆面板，Hermes 式实现。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-fb8467f357566d547100.html",
+    "en": "dsh-shared-memory is now listed on the DeepSeek Harness Plugin Store. Cross-conversation shared memory: MEMORY.md + USER.md injected into every session's system prompt, with a memory tool and a GUI panel (Hermes-style).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-fb8467f357566d547100.html"
+  }
+}

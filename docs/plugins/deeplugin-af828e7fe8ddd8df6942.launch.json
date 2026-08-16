@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-af828e7fe8ddd8df6942",
+    "name": "dsh-themes",
+    "author": "MangMax",
+    "category": "theme",
+    "version": null,
+    "homepage": "https://github.com/MangMax/dsh-themes",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-af828e7fe8ddd8df6942.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-af828e7fe8ddd8df6942.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:mangmax/dsh-themes",
+    "command": "dsh plugin --profile web add github:mangmax/dsh-themes",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-af828e7fe8ddd8df6942，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-af828e7fe8ddd8df6942.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-af828e7fe8ddd8df6942.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-themes 已收录到 DeepSeek Harness Plugin Store。DSH Web UI 外观与主题插件：内置调色板、明 / 暗 / 跟随系统外观模式、Open VSX 主题搜索导入与 VS Code 主题导入，主题库持久化。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-af828e7fe8ddd8df6942.html",
+    "en": "dsh-themes is now listed on the DeepSeek Harness Plugin Store. Look & theme plugin for the DSH Web UI: built-in palettes, light/dark/follow-system appearance modes, Open VSX theme search & install, and VS Code theme import with a persisted theme library.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-af828e7fe8ddd8df6942.html"
+  }
+}

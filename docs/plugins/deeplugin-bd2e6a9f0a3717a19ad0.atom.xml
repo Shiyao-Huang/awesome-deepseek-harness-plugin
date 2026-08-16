@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-http-tools — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-bd2e6a9f0a3717a19ad0.atom.xml</id>
+  <updated>2026-08-16T14:38:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-bd2e6a9f0a3717a19ad0.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-bd2e6a9f0a3717a19ad0.html"/>
+  <entry>
+    <title>Updated: dsh-http-tools</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-bd2e6a9f0a3717a19ad0/e9f1e4b88b05a154</id>
+    <updated>2026-08-16T14:38:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-bd2e6a9f0a3717a19ad0.html"/>
+    <author><name>lussey820</name></author>
+    <category term="tools"/>
+    <summary>HTTP/API debugging toolset: full-control HTTP requests (method/headers/body/auth), curl command parsing and one-step execution, in-session request history with side-by-side response comparison, pagination-aware Link headers, and DeepSeek-branded UI cards (optional dsh-http-tools-ui). Exact install spec: dsh-http-tools. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-http-tools</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-bd2e6a9f0a3717a19ad0/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-bd2e6a9f0a3717a19ad0.html"/>
+    <author><name>lussey820</name></author>
+    <category term="tools"/>
+    <summary>HTTP/API debugging toolset: full-control HTTP requests (method/headers/body/auth), curl command parsing and one-step execution, in-session request history with side-by-side response comparison, pagination-aware Link headers, and DeepSeek-branded UI cards (optional dsh-http-tools-ui). Exact install spec: dsh-http-tools. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-http-tools</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-bd2e6a9f0a3717a19ad0/7e5b8321bc7d21b1</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-bd2e6a9f0a3717a19ad0.html"/>
+    <author><name>lussey820</name></author>
+    <category term="tools"/>
+    <summary>HTTP/API debugging toolset: full-control HTTP requests (method/headers/body/auth), curl command parsing and one-step execution, in-session request history with side-by-side response comparison, pagination-aware Link headers, and DeepSeek-branded UI cards (optional dsh-http-tools-ui). Exact install spec: dsh-http-tools. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

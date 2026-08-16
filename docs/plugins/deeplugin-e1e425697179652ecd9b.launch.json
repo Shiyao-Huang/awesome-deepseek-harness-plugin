@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-e1e425697179652ecd9b",
+    "name": "deepseek-harness-genui",
+    "author": "pengyue-polaron",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/pengyue-polaron/deepseek-harness-genui",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-e1e425697179652ecd9b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-e1e425697179652ecd9b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-plugin-genui",
+    "command": "dsh plugin --profile web add dsh-plugin-genui",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-e1e425697179652ecd9b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-e1e425697179652ecd9b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-e1e425697179652ecd9b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "deepseek-harness-genui 已收录到 DeepSeek Harness Plugin Store。Code-first React + TypeScript 任务应用，支持 Inline、Canvas、全屏与 localhost；交互状态可供 Agent 后续轮次读取，MCP 和 API 访问在用户授权后执行。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e1e425697179652ecd9b.html",
+    "en": "deepseek-harness-genui is now listed on the DeepSeek Harness Plugin Store. Code-first React and TypeScript task apps rendered inline, in Canvas, full screen, or on localhost, with interaction state available to later agent turns and approval-gated MCP and API access.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e1e425697179652ecd9b.html"
+  }
+}

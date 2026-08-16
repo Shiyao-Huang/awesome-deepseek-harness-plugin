@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-cost-meter — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-7b1100b32c8349bbf517.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-7b1100b32c8349bbf517.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-7b1100b32c8349bbf517.html"/>
+  <entry>
+    <title>Updated: dsh-cost-meter</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-7b1100b32c8349bbf517/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-7b1100b32c8349bbf517.html"/>
+    <author><name>Sttrevens</name></author>
+    <category term="ui"/>
+    <summary>Per-turn USD cost badge in the Web UI: session total in the header and per-turn cost in each message footer, with a hover breakdown. Exact install spec: @steven-wu/dsh-cost-meter. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-cost-meter</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-7b1100b32c8349bbf517/19f118ecfd65ceec</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-7b1100b32c8349bbf517.html"/>
+    <author><name>Sttrevens</name></author>
+    <category term="ui"/>
+    <summary>Per-turn USD cost badge in the Web UI: session total in the header and per-turn cost in each message footer, with a hover breakdown. Exact install spec: @steven-wu/dsh-cost-meter. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-cost-meter</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-7b1100b32c8349bbf517/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-7b1100b32c8349bbf517.html"/>
+    <author><name>Sttrevens</name></author>
+    <category term="ui"/>
+    <summary>Per-turn USD cost badge in the Web UI: session total in the header and per-turn cost in each message footer, with a hover breakdown. Exact install spec: @steven-wu/dsh-cost-meter. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

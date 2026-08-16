@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-9efe167816318f863fa0",
+    "name": "dsh-movein",
+    "author": "sjh9714",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/sjh9714/dsh-movein",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-9efe167816318f863fa0.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-9efe167816318f863fa0.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-movein",
+    "command": "dsh plugin --profile web add dsh-movein",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-9efe167816318f863fa0，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-9efe167816318f863fa0.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-9efe167816318f863fa0.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-movein 已收录到 DeepSeek Harness Plugin Store。把整套 Claude Code 配置搬进 DSH：技能、MCP、hooks、子代理、权限规则，默认先出搬家清单预演并输出迁移差异报告；作为插件提供 movein_from_claude_code 工具，直接让 agent 帮你搬。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-9efe167816318f863fa0.html",
+    "en": "dsh-movein is now listed on the DeepSeek Harness Plugin Store. Move a whole Claude Code setup into DSH. Skills, MCP servers, hooks, subagents and permission rules, with a dry-run moving estimate and a migration diff report; installs as a plugin exposing a movein_from_claude_code tool so the agent can do the move for you.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-9efe167816318f863fa0.html"
+  }
+}

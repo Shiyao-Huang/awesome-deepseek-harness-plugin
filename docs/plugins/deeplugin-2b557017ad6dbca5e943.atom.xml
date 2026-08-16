@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-inline-images — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-2b557017ad6dbca5e943.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-2b557017ad6dbca5e943.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-2b557017ad6dbca5e943.html"/>
+  <entry>
+    <title>Updated: dsh-inline-images</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-2b557017ad6dbca5e943/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-2b557017ad6dbca5e943.html"/>
+    <author><name>3403473060</name></author>
+    <category term="session"/>
+    <summary>Render local image paths from assistant replies inline in the message body (9 formats, click-to-zoom lightbox, adjustable size). Exact install spec: github:3403473060/dsh-inline-images. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-inline-images</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-2b557017ad6dbca5e943/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-2b557017ad6dbca5e943.html"/>
+    <author><name>3403473060</name></author>
+    <category term="session"/>
+    <summary>Render local image paths from assistant replies inline in the message body (9 formats, click-to-zoom lightbox, adjustable size). Exact install spec: github:3403473060/dsh-inline-images. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-inline-images</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-2b557017ad6dbca5e943/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-2b557017ad6dbca5e943.html"/>
+    <author><name>3403473060</name></author>
+    <category term="session"/>
+    <summary>Render local image paths from assistant replies inline in the message body (9 formats, click-to-zoom lightbox, adjustable size). Exact install spec: github:3403473060/dsh-inline-images. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

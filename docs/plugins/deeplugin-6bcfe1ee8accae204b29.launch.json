@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-6bcfe1ee8accae204b29",
+    "name": "dsh-approval-llm",
+    "author": "Letter2025",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/Letter2025/dsh-approval-llm",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-6bcfe1ee8accae204b29.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-6bcfe1ee8accae204b29.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-approval-llm",
+    "command": "dsh plugin --profile web add dsh-approval-llm",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-6bcfe1ee8accae204b29，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-6bcfe1ee8accae204b29.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-6bcfe1ee8accae204b29.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-approval-llm 已收录到 DeepSeek Harness Plugin Store。基于模型的权限审批：由独立审查模型自动应答 approval 权限请求。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-6bcfe1ee8accae204b29.html",
+    "en": "dsh-approval-llm is now listed on the DeepSeek Harness Plugin Store. Model-based permission approval: an approval-request answerer backed by a separate reviewer model.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-6bcfe1ee8accae204b29.html"
+  }
+}

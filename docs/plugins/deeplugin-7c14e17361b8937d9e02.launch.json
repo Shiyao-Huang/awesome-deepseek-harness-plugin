@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-7c14e17361b8937d9e02",
+    "name": "dsh-web-billing",
+    "author": "bpc-oss",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/bpc-oss/dsh-web-billing",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-7c14e17361b8937d9e02.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-7c14e17361b8937d9e02.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:bpc-oss/dsh-web-billing",
+    "command": "dsh plugin --profile web add github:bpc-oss/dsh-web-billing",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-7c14e17361b8937d9e02，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-7c14e17361b8937d9e02.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-7c14e17361b8937d9e02.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-web-billing 已收录到 DeepSeek Harness Plugin Store。人民币/美元 token 计费，官方政策计价与逐条消息费用账本。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-7c14e17361b8937d9e02.html",
+    "en": "dsh-web-billing is now listed on the DeepSeek Harness Plugin Store. RMB/USD token billing with official-policy pricing and a per-message cost ledger.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-7c14e17361b8937d9e02.html"
+  }
+}

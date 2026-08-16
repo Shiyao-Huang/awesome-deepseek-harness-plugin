@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-vision-guard — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-05c9a2edcef197b177f6.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-05c9a2edcef197b177f6.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-05c9a2edcef197b177f6.html"/>
+  <entry>
+    <title>Updated: dsh-vision-guard</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-05c9a2edcef197b177f6/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-05c9a2edcef197b177f6.html"/>
+    <author><name>good-boy4069</name></author>
+    <category term="tools"/>
+    <summary>Transparent image guard for text-only routes: paste images without the 400 session deadlock, plus a vision_analyze tool for OCR/PDF/docx/pptx/video. Exact install spec: dsh-vision-guard. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-vision-guard</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-05c9a2edcef197b177f6/e1ab6d4a0ce81c55</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-05c9a2edcef197b177f6.html"/>
+    <author><name>good-boy4069</name></author>
+    <category term="tools"/>
+    <summary>Transparent image guard for text-only routes: paste images without the 400 session deadlock, plus a vision_analyze tool for OCR/PDF/docx/pptx/video. Exact install spec: dsh-vision-guard. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-vision-guard</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-05c9a2edcef197b177f6/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-05c9a2edcef197b177f6.html"/>
+    <author><name>good-boy4069</name></author>
+    <category term="tools"/>
+    <summary>Transparent image guard for text-only routes: paste images without the 400 session deadlock, plus a vision_analyze tool for OCR/PDF/docx/pptx/video. Exact install spec: dsh-vision-guard. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

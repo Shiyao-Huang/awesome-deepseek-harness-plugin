@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>sgme — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-18b3afd764a8be8349ad.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-18b3afd764a8be8349ad.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-18b3afd764a8be8349ad.html"/>
+  <entry>
+    <title>Updated: sgme</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-18b3afd764a8be8349ad/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-18b3afd764a8be8349ad.html"/>
+    <author><name>freehul</name></author>
+    <category term="memory"/>
+    <summary>ShiGuang Memory Engine (SGME) bridge: multi-agent shared long-term memory via HTTP — L0/L1/L1.5/L2 distillation, scenario-based injection, unified search, and proactive care signals (memory_search / wiki_search / signal_pull / signal_claim / signal_ack), installable as `dsh-sgme`. Exact install spec: github:freehul/sgme. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: sgme</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-18b3afd764a8be8349ad/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-18b3afd764a8be8349ad.html"/>
+    <author><name>freehul</name></author>
+    <category term="memory"/>
+    <summary>ShiGuang Memory Engine (SGME) bridge: multi-agent shared long-term memory via HTTP — L0/L1/L1.5/L2 distillation, scenario-based injection, unified search, and proactive care signals (memory_search / wiki_search / signal_pull / signal_claim / signal_ack), installable as `dsh-sgme`. Exact install spec: github:freehul/sgme. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: sgme</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-18b3afd764a8be8349ad/19f118ecfd65ceec</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-18b3afd764a8be8349ad.html"/>
+    <author><name>freehul</name></author>
+    <category term="memory"/>
+    <summary>ShiGuang Memory Engine (SGME) bridge: multi-agent shared long-term memory via HTTP — L0/L1/L1.5/L2 distillation, scenario-based injection, unified search, and proactive care signals (memory_search / wiki_search / signal_pull / signal_claim / signal_ack), installable as `dsh-sgme`. Exact install spec: github:freehul/sgme. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: sgme</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-18b3afd764a8be8349ad/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-18b3afd764a8be8349ad.html"/>
+    <author><name>freehul</name></author>
+    <category term="memory"/>
+    <summary>ShiGuang Memory Engine (SGME) bridge: multi-agent shared long-term memory via HTTP — L0/L1/L1.5/L2 distillation, scenario-based injection, unified search, and proactive care signals (memory_search / wiki_search / signal_pull / signal_claim / signal_ack), installable as `dsh-sgme`. Exact install spec: github:freehul/sgme. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

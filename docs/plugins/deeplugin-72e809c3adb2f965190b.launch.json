@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-72e809c3adb2f965190b",
+    "name": "dsh-easyvision",
+    "author": "s3yf1337",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/s3yf1337/dsh-easyvision",
+    "firstObservedAt": "2026-08-16T09:56:16Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-72e809c3adb2f965190b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-72e809c3adb2f965190b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:s3yf1337/dsh-easyvision",
+    "command": "dsh plugin --profile web add github:s3yf1337/dsh-easyvision",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-72e809c3adb2f965190b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-72e809c3adb2f965190b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-72e809c3adb2f965190b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-easyvision 已收录到 DeepSeek Harness Plugin Store。让纯文本模型拥有视觉：describe_image 工具调用 dsh 模型列表中的视觉模型描述图片，走 harness 自身的 LLM 运行时。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-72e809c3adb2f965190b.html",
+    "en": "dsh-easyvision is now listed on the DeepSeek Harness Plugin Store. Give text-only models vision: a describe_image tool that delegates images to a vision model from your dsh model list over the harness's own LLM runtime.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-72e809c3adb2f965190b.html"
+  }
+}

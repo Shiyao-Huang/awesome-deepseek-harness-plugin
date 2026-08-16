@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-2b522c9e83aa7a49b620",
+    "name": "dsh-free-vision",
+    "author": "FuzzySoul",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/FuzzySoul/dsh-free-vision",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-2b522c9e83aa7a49b620.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-2b522c9e83aa7a49b620.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-free-vision",
+    "command": "dsh plugin --profile web add dsh-free-vision",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-2b522c9e83aa7a49b620，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-2b522c9e83aa7a49b620.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-2b522c9e83aa7a49b620.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-free-vision 已收录到 DeepSeek Harness Plugin Store。免费视觉插件：纯文本模型看图 / OCR / UI / 报错分析，优先免费模型（千问 Qwen3-VL-Flash、豆包、DeepSeek-OCR），设置界面可配置。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-2b522c9e83aa7a49b620.html",
+    "en": "dsh-free-vision is now listed on the DeepSeek Harness Plugin Store. Free vision bridge for text-only models: image understanding, OCR, UI and debug analysis via free-tier providers (Qwen3-VL-Flash, Doubao, DeepSeek-OCR) with a settings GUI.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-2b522c9e83aa7a49b620.html"
+  }
+}

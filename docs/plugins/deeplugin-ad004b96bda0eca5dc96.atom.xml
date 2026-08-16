@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-queue-plus — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-ad004b96bda0eca5dc96.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-ad004b96bda0eca5dc96.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ad004b96bda0eca5dc96.html"/>
+  <entry>
+    <title>Updated: dsh-queue-plus</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-ad004b96bda0eca5dc96/7c79633ee3559ed0</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ad004b96bda0eca5dc96.html"/>
+    <author><name>starslittle</name></author>
+    <category term="session"/>
+    <summary>A simple DSH queue panel for editing, removing, steering, reordering, and bulk removal. Exact install spec: github:starslittle/dsh-queue-plus. Source event: zoahdev/dsh-subscribe; changed: description, description_i18n.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-queue-plus</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-ad004b96bda0eca5dc96/99a562ab40a17687</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ad004b96bda0eca5dc96.html"/>
+    <author><name>starslittle</name></author>
+    <category term="session"/>
+    <summary>A simple DSH queue panel for editing, removing, steering, reordering, and bulk removal. Exact install spec: github:starslittle/dsh-queue-plus. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-queue-plus</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-ad004b96bda0eca5dc96/70d2d7b2fa0f38be</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ad004b96bda0eca5dc96.html"/>
+    <author><name>starslittle</name></author>
+    <category term="session"/>
+    <summary>A simple DSH queue panel for editing, removing, steering, reordering, and bulk removal. Exact install spec: github:starslittle/dsh-queue-plus. Source event: dsh-market/dsh-market; changed: description, description_i18n.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-queue-plus</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-ad004b96bda0eca5dc96/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ad004b96bda0eca5dc96.html"/>
+    <author><name>starslittle</name></author>
+    <category term="session"/>
+    <summary>A simple DSH queue panel for editing, removing, steering, reordering, and bulk removal. Exact install spec: github:starslittle/dsh-queue-plus. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-queue-plus</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-ad004b96bda0eca5dc96/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ad004b96bda0eca5dc96.html"/>
+    <author><name>starslittle</name></author>
+    <category term="session"/>
+    <summary>A simple DSH queue panel for editing, removing, steering, reordering, and bulk removal. Exact install spec: github:starslittle/dsh-queue-plus. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-queue-plus</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-ad004b96bda0eca5dc96/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ad004b96bda0eca5dc96.html"/>
+    <author><name>starslittle</name></author>
+    <category term="session"/>
+    <summary>A simple DSH queue panel for editing, removing, steering, reordering, and bulk removal. Exact install spec: github:starslittle/dsh-queue-plus. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

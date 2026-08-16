@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a4471683d37de8cace0d",
+    "name": "deep-whale-day-night-theme",
+    "author": "GGBond2424648901",
+    "category": "theme",
+    "version": null,
+    "homepage": "https://github.com/GGBond2424648901/deep-whale-day-night-theme",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a4471683d37de8cace0d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a4471683d37de8cace0d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:ggbond2424648901/deep-whale-day-night-theme",
+    "command": "dsh plugin --profile web add github:ggbond2424648901/deep-whale-day-night-theme",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a4471683d37de8cace0d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a4471683d37de8cace0d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a4471683d37de8cace0d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "deep-whale-day-night-theme 已收录到 DeepSeek Harness Plugin Store。鲸鱼娘昼夜皮肤：白昼水晶工坊与夜晚月潮观测室双场景，成对角色、Q 版侧栏宠物、花边与气泡/星点轻量氛围。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a4471683d37de8cace0d.html",
+    "en": "deep-whale-day-night-theme is now listed on the DeepSeek Harness Plugin Store. Day/night whale-girl skin: a crystal workshop by day and a moon-tide observatory by night, with paired scenes, chibi companions, ornaments, and lightweight bubble and star ambience.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a4471683d37de8cace0d.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-e0a6ca66598bcaa013b2",
+    "name": "dsh-guardian",
+    "author": "cdxiaodong",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/lonelymoon87/dsh-guardian",
+    "firstObservedAt": "2026-08-16T03:13:50Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-e0a6ca66598bcaa013b2.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-e0a6ca66598bcaa013b2.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:cdxiaodong/dsh-guardian",
+    "command": "dsh plugin --profile web add github:cdxiaodong/dsh-guardian",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-e0a6ca66598bcaa013b2，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-e0a6ca66598bcaa013b2.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-e0a6ca66598bcaa013b2.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-guardian 已收录到 DeepSeek Harness Plugin Store。Agent 安全护栏：拦截并审计所有工具调用，命中敏感操作就要求人工确认。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e0a6ca66598bcaa013b2.html",
+    "en": "dsh-guardian is now listed on the DeepSeek Harness Plugin Store. Agent security guardrail: intercepts and audits every tool call, requiring human confirmation on sensitive operations.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e0a6ca66598bcaa013b2.html"
+  }
+}

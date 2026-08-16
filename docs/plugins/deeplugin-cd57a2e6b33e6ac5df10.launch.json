@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-cd57a2e6b33e6ac5df10",
+    "name": "dsh-sticky-disclosure",
+    "author": "Han-1413141",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/Han-1413141/dsh-sticky-disclosure",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-cd57a2e6b33e6ac5df10.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-cd57a2e6b33e6ac5df10.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:han-1413141/dsh-sticky-disclosure",
+    "command": "dsh plugin --profile web add github:han-1413141/dsh-sticky-disclosure",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-cd57a2e6b33e6ac5df10，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-cd57a2e6b33e6ac5df10.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-cd57a2e6b33e6ac5df10.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-sticky-disclosure 已收录到 DeepSeek Harness Plugin Store。一键收起会话中所有展开的区块（Think、工具卡等），常驻计数按钮 + 自定义快捷键。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-cd57a2e6b33e6ac5df10.html",
+    "en": "dsh-sticky-disclosure is now listed on the DeepSeek Harness Plugin Store. One-click collapse of every expanded section (Think rows, tool cards) with a live-count pill and a customizable hotkey.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-cd57a2e6b33e6ac5df10.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-42019fe37ff85ae68368",
+    "name": "dsh-open-with",
+    "author": "ChuanTianML",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/ChuanTianML/dsh-open-with",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-42019fe37ff85ae68368.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-42019fe37ff85ae68368.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:chuantianml/dsh-open-with",
+    "command": "dsh plugin --profile web add github:chuantianml/dsh-open-with",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-42019fe37ff85ae68368，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-42019fe37ff85ae68368.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-42019fe37ff85ae68368.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-open-with 已收录到 DeepSeek Harness Plugin Store。从 Web UI 使用检测到或配置的本机编辑器、终端或文件管理器打开已登记 Workspace，并在浏览器中记住首选项。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-42019fe37ff85ae68368.html",
+    "en": "dsh-open-with is now listed on the DeepSeek Harness Plugin Store. Open registered workspaces from the Web UI in a detected or configured local editor, terminal, or file manager, with a remembered per-browser preference.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-42019fe37ff85ae68368.html"
+  }
+}

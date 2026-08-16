@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-e390e9ee5e5442f726e9",
+    "name": "dsh-wechat-mp",
+    "author": "coolbreezecoin",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/coolbreezecoin/dsh-wechat-mp",
+    "firstObservedAt": "2026-08-16T09:56:16Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-e390e9ee5e5442f726e9.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-e390e9ee5e5442f726e9.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-wechat-mp",
+    "command": "dsh plugin --profile web add dsh-wechat-mp",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-e390e9ee5e5442f726e9，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-e390e9ee5e5442f726e9.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-e390e9ee5e5442f726e9.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-wechat-mp 已收录到 DeepSeek Harness Plugin Store。把 markdown 变成排好版的微信公众号草稿：样式逐条内联到元素上（编辑器会丢弃 `<style>` 块和 class 名），每张本地图片走微信自己的上传接口以免被过滤，然后创建草稿；不做群发。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e390e9ee5e5442f726e9.html",
+    "en": "dsh-wechat-mp is now listed on the DeepSeek Harness Plugin Store. Turns markdown into a WeChat Official Account (微信公众号) draft: inlines every CSS rule onto its element because the editor discards `<style>` blocks and class names, uploads each local image through WeChat's own endpoint so it is not filtered out, and creates the draft; it never broadcasts.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e390e9ee5e5442f726e9.html"
+  }
+}

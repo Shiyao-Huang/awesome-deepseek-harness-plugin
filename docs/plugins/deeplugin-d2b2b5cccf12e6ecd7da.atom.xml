@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>pack-agent — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-d2b2b5cccf12e6ecd7da.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-d2b2b5cccf12e6ecd7da.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d2b2b5cccf12e6ecd7da.html"/>
+  <entry>
+    <title>Updated: pack-agent</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-d2b2b5cccf12e6ecd7da/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d2b2b5cccf12e6ecd7da.html"/>
+    <author><name>sakikoTGW</name></author>
+    <category term="tools"/>
+    <summary>Project .pack.json/.pack.zip into .agent-pack/modpacks/ and expose skills via a workspace allow-list. Exact install spec: @sakikotgw/pack-agent. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: pack-agent</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-d2b2b5cccf12e6ecd7da/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d2b2b5cccf12e6ecd7da.html"/>
+    <author><name>sakikoTGW</name></author>
+    <category term="tools"/>
+    <summary>Project .pack.json/.pack.zip into .agent-pack/modpacks/ and expose skills via a workspace allow-list. Exact install spec: @sakikotgw/pack-agent. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: pack-agent</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-d2b2b5cccf12e6ecd7da/19f118ecfd65ceec</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d2b2b5cccf12e6ecd7da.html"/>
+    <author><name>sakikoTGW</name></author>
+    <category term="tools"/>
+    <summary>Project .pack.json/.pack.zip into .agent-pack/modpacks/ and expose skills via a workspace allow-list. Exact install spec: @sakikotgw/pack-agent. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: pack-agent</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-d2b2b5cccf12e6ecd7da/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d2b2b5cccf12e6ecd7da.html"/>
+    <author><name>sakikoTGW</name></author>
+    <category term="tools"/>
+    <summary>Project .pack.json/.pack.zip into .agent-pack/modpacks/ and expose skills via a workspace allow-list. Exact install spec: @sakikotgw/pack-agent. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

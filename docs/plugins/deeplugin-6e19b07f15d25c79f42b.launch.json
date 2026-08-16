@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-6e19b07f15d25c79f42b",
+    "name": "dsh-wsl-workspace",
+    "author": "6Mikao9",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/6Mikao9/dsh-wsl-workspace",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-6e19b07f15d25c79f42b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-6e19b07f15d25c79f42b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-wsl-workspace",
+    "command": "dsh plugin --profile web add dsh-wsl-workspace",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-6e19b07f15d25c79f42b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-6e19b07f15d25c79f42b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-6e19b07f15d25c79f42b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-wsl-workspace 已收录到 DeepSeek Harness Plugin Store。从 Web GUI 添加 WSL 工作区，无需在 WSL 之中再次安装 dsh 以及相关工具，bash 命令与文件读写运行在本机 WSL 发行版内，Windows 文件仍可访问。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-6e19b07f15d25c79f42b.html",
+    "en": "dsh-wsl-workspace is now listed on the DeepSeek Harness Plugin Store. Add a WSL workspace from the web GUI without needing to install dsh or related tools again inside WSL. Bash commands and file read/write operations run within the local WSL distribution on the host machine, while Windows files remain accessible.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-6e19b07f15d25c79f42b.html"
+  }
+}

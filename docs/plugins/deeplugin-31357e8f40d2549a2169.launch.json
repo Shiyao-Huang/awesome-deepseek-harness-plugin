@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-31357e8f40d2549a2169",
+    "name": "dsh-learning-mode",
+    "author": "CHplus0",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/CHplus0/dsh-learning-mode",
+    "firstObservedAt": "2026-08-16T09:56:16Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-31357e8f40d2549a2169.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-31357e8f40d2549a2169.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:chplus0/dsh-learning-mode",
+    "command": "dsh plugin --profile web add github:chplus0/dsh-learning-mode",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-31357e8f40d2549a2169，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-31357e8f40d2549a2169.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-31357e8f40d2549a2169.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-learning-mode 已收录到 DeepSeek Harness Plugin Store。学习模式（Learning Mode）Agent 预设：边做边教的编码 Agent——具体的情景化阐释、苏格拉底式引导、TODO(你) 留白练习，模拟 Claude Code 的 Learning 输出风格；可 `dsh plugin add` 安装（npm 包 dsh-learning-mode）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-31357e8f40d2549a2169.html",
+    "en": "dsh-learning-mode is now listed on the DeepSeek Harness Plugin Store. Learning Mode agent preset: a coding agent that teaches while coding — concrete scenario-grounded explanations, Socratic guidance, and TODO(你) practice blanks, modeled on Claude Code's Learning output style; installable via dsh plugin add (dsh-learning-mode on npm).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-31357e8f40d2549a2169.html"
+  }
+}

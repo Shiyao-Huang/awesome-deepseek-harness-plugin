@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-7e1cdff3a05a372906b6",
+    "name": "dsh-settings-nav-fold",
+    "author": "zhengjy01",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/zhengjy01/dsh-settings-nav-fold",
+    "firstObservedAt": "2026-08-16T09:56:16Z",
+    "lastChangedAt": "2026-08-16T14:38:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-7e1cdff3a05a372906b6.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-7e1cdff3a05a372906b6.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-settings-nav-fold",
+    "command": "dsh plugin --profile web add dsh-settings-nav-fold",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-7e1cdff3a05a372906b6，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-7e1cdff3a05a372906b6.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-7e1cdff3a05a372906b6.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-settings-nav-fold 已收录到 DeepSeek Harness Plugin Store。设置面板导航折叠：把插件/扩展的设置入口折叠为一个可展开的「插件入口」分组行，点击展开/收起，随插件增删自动更新。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-7e1cdff3a05a372906b6.html",
+    "en": "dsh-settings-nav-fold is now listed on the DeepSeek Harness Plugin Store. Fold plugin/extension settings entries in the DSH settings panel into one collapsible \"Plugin entries\" group row — one click to expand or collapse, auto-updating as plugins come and go.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-7e1cdff3a05a372906b6.html"
+  }
+}

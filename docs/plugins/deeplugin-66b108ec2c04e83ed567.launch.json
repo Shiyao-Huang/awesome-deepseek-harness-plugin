@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-66b108ec2c04e83ed567",
+    "name": "dsh-shortcuts",
+    "author": "Ricketts-Guo",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/Ricketts-Guo/dsh-shortcuts",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-66b108ec2c04e83ed567.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-66b108ec2c04e83ed567.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:ricketts-guo/dsh-shortcuts",
+    "command": "dsh plugin --profile web add github:ricketts-guo/dsh-shortcuts",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-66b108ec2c04e83ed567，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-66b108ec2c04e83ed567.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-66b108ec2c04e83ed567.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-shortcuts 已收录到 DeepSeek Harness Plugin Store。Web UI 可自定义键盘快捷键：34 个预置功能（会话、视图、剪贴板、模型、静默权限切换、设置），一键录制自定义组合键，内置快捷键速查表与诊断面板。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-66b108ec2c04e83ed567.html",
+    "en": "dsh-shortcuts is now listed on the DeepSeek Harness Plugin Store. Fully customizable keyboard shortcuts for the Web UI: 34 pre-registered features (sessions, views, clipboard, models, silent permission cycling, settings), one-click recording to bind your own, and a shortcut cheatsheet with built-in diagnostics.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-66b108ec2c04e83ed567.html"
+  }
+}

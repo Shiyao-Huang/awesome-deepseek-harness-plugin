@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-ikun-pet — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-9b97c27936425d56a79e.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-9b97c27936425d56a79e.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9b97c27936425d56a79e.html"/>
+  <entry>
+    <title>Updated: dsh-ikun-pet</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-9b97c27936425d56a79e/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9b97c27936425d56a79e.html"/>
+    <author><name>eric-song-dev</name></author>
+    <category term="ui"/>
+    <summary>An ikun (basketball meme) pet that fills the dock under the "Deep diving..." status row during replies: a sprite-sheet pet walks a 0→100% progress bar, switching animation and text every 20%, and plays a system-level "nǐ gàn ma~" voice cue at completion. Exact install spec: dsh-ikun-pet. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-ikun-pet</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-9b97c27936425d56a79e/e1ab6d4a0ce81c55</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9b97c27936425d56a79e.html"/>
+    <author><name>eric-song-dev</name></author>
+    <category term="ui"/>
+    <summary>An ikun (basketball meme) pet that fills the dock under the "Deep diving..." status row during replies: a sprite-sheet pet walks a 0→100% progress bar, switching animation and text every 20%, and plays a system-level "nǐ gàn ma~" voice cue at completion. Exact install spec: dsh-ikun-pet. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-ikun-pet</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-9b97c27936425d56a79e/656f2ea871eef1c6</id>
+    <updated>2026-08-16T00:51:32Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9b97c27936425d56a79e.html"/>
+    <author><name>eric-song-dev</name></author>
+    <category term="ui"/>
+    <summary>An ikun (basketball meme) pet that fills the dock under the "Deep diving..." status row during replies: a sprite-sheet pet walks a 0→100% progress bar, switching animation and text every 20%, and plays a system-level "nǐ gàn ma~" voice cue at completion. Exact install spec: dsh-ikun-pet. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

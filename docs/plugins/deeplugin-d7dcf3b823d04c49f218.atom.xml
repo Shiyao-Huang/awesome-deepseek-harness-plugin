@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-archived-sessions — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-d7dcf3b823d04c49f218.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-d7dcf3b823d04c49f218.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d7dcf3b823d04c49f218.html"/>
+  <entry>
+    <title>Updated: dsh-archived-sessions</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-d7dcf3b823d04c49f218/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d7dcf3b823d04c49f218.html"/>
+    <author><name>MuWinds</name></author>
+    <category term="session"/>
+    <summary>Archived-session management: browse archived sessions, unarchive them, or clear them out. Exact install spec: github:muwinds/dsh-archived-sessions. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-archived-sessions</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-d7dcf3b823d04c49f218/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d7dcf3b823d04c49f218.html"/>
+    <author><name>MuWinds</name></author>
+    <category term="session"/>
+    <summary>Archived-session management: browse archived sessions, unarchive them, or clear them out. Exact install spec: github:muwinds/dsh-archived-sessions. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-archived-sessions</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-d7dcf3b823d04c49f218/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d7dcf3b823d04c49f218.html"/>
+    <author><name>MuWinds</name></author>
+    <category term="session"/>
+    <summary>Archived-session management: browse archived sessions, unarchive them, or clear them out. Exact install spec: github:muwinds/dsh-archived-sessions. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

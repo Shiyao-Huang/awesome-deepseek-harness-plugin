@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-98b62f772ddab623a457",
+    "name": "dsh-paste-input",
+    "author": "dsh-external",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/dsh-external/dsh-paste-input",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-98b62f772ddab623a457.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-98b62f772ddab623a457.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:dsh-external/dsh-paste-input",
+    "command": "dsh plugin --profile web add github:dsh-external/dsh-paste-input",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-98b62f772ddab623a457，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-98b62f772ddab623a457.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-98b62f772ddab623a457.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-paste-input 已收录到 DeepSeek Harness Plugin Store。Ctrl+V 粘贴文件 / 拖拽 / 选择。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-98b62f772ddab623a457.html",
+    "en": "dsh-paste-input is now listed on the DeepSeek Harness Plugin Store. Ctrl+V paste files / drag & drop / picker.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-98b62f772ddab623a457.html"
+  }
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>sandbox-micro — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-3dfece1c871f68f4ef51.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-3dfece1c871f68f4ef51.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-3dfece1c871f68f4ef51.html"/>
+  <entry>
+    <title>Updated: sandbox-micro</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-3dfece1c871f68f4ef51/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-3dfece1c871f68f4ef51.html"/>
+    <author><name>omdsh-dev</name></author>
+    <category term="dev"/>
+    <summary>Support for the microsandbox backend. Exact install spec: github:omdsh-dev/sandbox-micro. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: sandbox-micro</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-3dfece1c871f68f4ef51/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-3dfece1c871f68f4ef51.html"/>
+    <author><name>omdsh-dev</name></author>
+    <category term="dev"/>
+    <summary>Support for the microsandbox backend. Exact install spec: github:omdsh-dev/sandbox-micro. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: sandbox-micro</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-3dfece1c871f68f4ef51/19f118ecfd65ceec</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-3dfece1c871f68f4ef51.html"/>
+    <author><name>omdsh-dev</name></author>
+    <category term="dev"/>
+    <summary>Support for the microsandbox backend. Exact install spec: github:omdsh-dev/sandbox-micro. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: sandbox-micro</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-3dfece1c871f68f4ef51/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-3dfece1c871f68f4ef51.html"/>
+    <author><name>omdsh-dev</name></author>
+    <category term="dev"/>
+    <summary>Support for the microsandbox backend. Exact install spec: github:omdsh-dev/sandbox-micro. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

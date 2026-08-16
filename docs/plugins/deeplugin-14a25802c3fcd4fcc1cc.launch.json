@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-14a25802c3fcd4fcc1cc",
+    "name": "dsh-cloud-sync",
+    "author": "dickpy",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/dickpy/dsh-cloud-sync",
+    "firstObservedAt": "2026-08-16T08:41:44Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-14a25802c3fcd4fcc1cc.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-14a25802c3fcd4fcc1cc.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:dickpy/dsh-cloud-sync",
+    "command": "dsh plugin --profile web add github:dickpy/dsh-cloud-sync",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-14a25802c3fcd4fcc1cc，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-14a25802c3fcd4fcc1cc.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-14a25802c3fcd4fcc1cc.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-cloud-sync 已收录到 DeepSeek Harness Plugin Store。通过 WebDAV 和兼容 S3 的存储同步 DSH profile 与本地插件源码归档，支持加密快照、冲突感知恢复和显式自更新。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-14a25802c3fcd4fcc1cc.html",
+    "en": "dsh-cloud-sync is now listed on the DeepSeek Harness Plugin Store. Synchronizes DSH profiles and local plugin source archives through WebDAV and S3-compatible storage, with encrypted snapshots, conflict-aware recovery, and explicit self-updates.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-14a25802c3fcd4fcc1cc.html"
+  }
+}

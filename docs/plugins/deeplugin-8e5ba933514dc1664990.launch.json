@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-8e5ba933514dc1664990",
+    "name": "dsh-ocr-review",
+    "author": "jiayan-xu",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/jiayan-xu/dsh-ocr-review",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-8e5ba933514dc1664990.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-8e5ba933514dc1664990.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:jiayan-xu/dsh-ocr-review",
+    "command": "dsh plugin --profile web add github:jiayan-xu/dsh-ocr-review",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-8e5ba933514dc1664990，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-8e5ba933514dc1664990.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-8e5ba933514dc1664990.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-ocr-review 已收录到 DeepSeek Harness Plugin Store。本地 AI 代码评审门禁：对工作区/分支/commit diff 跑评审（托管 ocr.js），返回结构化 findings 与 token 统计；门禁模式发现问题即失败。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-8e5ba933514dc1664990.html",
+    "en": "dsh-ocr-review is now listed on the DeepSeek Harness Plugin Store. Local AI code-review gate: review a workspace/branch/commit diff via the managed ocr.js, returning structured findings with token stats; gate mode fails on findings.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-8e5ba933514dc1664990.html"
+  }
+}

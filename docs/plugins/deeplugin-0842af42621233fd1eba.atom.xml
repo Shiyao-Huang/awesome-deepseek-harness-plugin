@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-desktop-launcher — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-0842af42621233fd1eba.atom.xml</id>
+  <updated>2026-08-16T13:41:06Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-0842af42621233fd1eba.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-0842af42621233fd1eba.html"/>
+  <entry>
+    <title>New: dsh-desktop-launcher</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-0842af42621233fd1eba/60715e29601bb9d9</id>
+    <updated>2026-08-16T13:41:06Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-0842af42621233fd1eba.html"/>
+    <author><name>Yvesgao</name></author>
+    <category term="tools"/>
+    <summary>Create a one-click Windows desktop shortcut from the Settings page: a .cmd launcher + desktop icon for DeepSeek Harness or any local server, auto-opens the browser, with taskbar pin hints. Exact install spec: github:yvesgao/dsh-desktop-launcher. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

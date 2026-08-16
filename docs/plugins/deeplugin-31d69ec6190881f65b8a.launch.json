@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-31d69ec6190881f65b8a",
+    "name": "dsh-plugin-qr-connect",
+    "author": "mervyn-teo",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/mervyn-teo/dsh-plugin-qr-connect",
+    "firstObservedAt": "2026-08-16T13:41:06Z",
+    "lastChangedAt": "2026-08-16T13:41:06Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-31d69ec6190881f65b8a.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-31d69ec6190881f65b8a.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:mervyn-teo/dsh-plugin-qr-connect",
+    "command": "dsh plugin --profile web add github:mervyn-teo/dsh-plugin-qr-connect",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-31d69ec6190881f65b8a，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-31d69ec6190881f65b8a.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-31d69ec6190881f65b8a.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-qr-connect 已收录到 DeepSeek Harness Plugin Store。「设置」按钮上方的一键二维码，让手机通过带鉴权的反向代理连接 Web 界面。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-31d69ec6190881f65b8a.html",
+    "en": "dsh-plugin-qr-connect is now listed on the DeepSeek Harness Plugin Store. A QR-code button above Settings that lets phones connect to the web UI through an auth-gated reverse proxy.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-31d69ec6190881f65b8a.html"
+  }
+}

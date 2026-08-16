@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-cae45c7cf3caddc28600",
+    "name": "dsh-ops-kit",
+    "author": "LeslieWylie",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/LeslieWylie/dsh-ops-kit",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-cae45c7cf3caddc28600.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-cae45c7cf3caddc28600.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:lesliewylie/dsh-ops-kit",
+    "command": "dsh plugin --profile web add github:lesliewylie/dsh-ops-kit",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-cae45c7cf3caddc28600，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-cae45c7cf3caddc28600.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-cae45c7cf3caddc28600.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-ops-kit 已收录到 DeepSeek Harness Plugin Store。证据优先的操作套件：六个只读工具（能力清单、分阶段编排计划、随包技能阅读、有上限的本地记忆检索、仓库发布审计、发布清单）加五个随包技能；只规划与审计，不做远程写入。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-cae45c7cf3caddc28600.html",
+    "en": "dsh-ops-kit is now listed on the DeepSeek Harness Plugin Store. Evidence-first operating kit: six read-only tools (capability catalog, staged workflow plans, packaged skill reader, bounded local memory search, repository release audit, release checklist) and five packaged skills - plans and audits, never remote writes.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-cae45c7cf3caddc28600.html"
+  }
+}

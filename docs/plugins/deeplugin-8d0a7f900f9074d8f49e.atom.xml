@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>SumSec-Skills — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-8d0a7f900f9074d8f49e.atom.xml</id>
+  <updated>2026-08-16T13:41:06Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-8d0a7f900f9074d8f49e.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8d0a7f900f9074d8f49e.html"/>
+  <entry>
+    <title>New: SumSec-Skills</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-8d0a7f900f9074d8f49e/60715e29601bb9d9</id>
+    <updated>2026-08-16T13:41:06Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8d0a7f900f9074d8f49e.html"/>
+    <author><name>SummerSec</name></author>
+    <category term="skill"/>
+    <summary>Multi-platform Agent Skills monorepo that mounts as a DeepSeek Harness profile bundle, exposing Chinese writing, Git, plugin-dev, taste, and semantic-linter skills. Exact install spec: github:summersec/sumsec-skills. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

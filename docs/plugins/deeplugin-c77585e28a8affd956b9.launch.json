@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-c77585e28a8affd956b9",
+    "name": "dsh-news-plugin",
+    "author": "canghai666x",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/canghai666x/dsh-news-plugin",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-c77585e28a8affd956b9.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-c77585e28a8affd956b9.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:canghai666x/dsh-news-plugin",
+    "command": "dsh plugin --profile web add github:canghai666x/dsh-news-plugin",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-c77585e28a8affd956b9，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-c77585e28a8affd956b9.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-c77585e28a8affd956b9.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-news-plugin 已收录到 DeepSeek Harness Plugin Store。RSS 新闻采集工具，抓取 10+ 中英文源为结构化条目。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c77585e28a8affd956b9.html",
+    "en": "dsh-news-plugin is now listed on the DeepSeek Harness Plugin Store. RSS news fetch tool that grabs 10+ CN/EN feeds into structured items.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-c77585e28a8affd956b9.html"
+  }
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-plugin-call-trace — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-c6468bd9f0bcf840159a.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-c6468bd9f0bcf840159a.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c6468bd9f0bcf840159a.html"/>
+  <entry>
+    <title>Updated: dsh-plugin-call-trace</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-c6468bd9f0bcf840159a/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c6468bd9f0bcf840159a.html"/>
+    <author><name>Huang-zhishi</name></author>
+    <category term="tools"/>
+    <summary>Persistent model tool-call trace recorder: every tool call is durably written to a JSONL file that survives restarts, queryable via a structured call_trace tool and a callTraceHistory service, with size rotation and an optional floating canvas UI add-on. Exact install spec: github:huang-zhishi/dsh-plugin-call-trace. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-plugin-call-trace</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-c6468bd9f0bcf840159a/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c6468bd9f0bcf840159a.html"/>
+    <author><name>Huang-zhishi</name></author>
+    <category term="tools"/>
+    <summary>Persistent model tool-call trace recorder: every tool call is durably written to a JSONL file that survives restarts, queryable via a structured call_trace tool and a callTraceHistory service, with size rotation and an optional floating canvas UI add-on. Exact install spec: github:huang-zhishi/dsh-plugin-call-trace. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-plugin-call-trace</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-c6468bd9f0bcf840159a/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c6468bd9f0bcf840159a.html"/>
+    <author><name>Huang-zhishi</name></author>
+    <category term="tools"/>
+    <summary>Persistent model tool-call trace recorder: every tool call is durably written to a JSONL file that survives restarts, queryable via a structured call_trace tool and a callTraceHistory service, with size rotation and an optional floating canvas UI add-on. Exact install spec: github:huang-zhishi/dsh-plugin-call-trace. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

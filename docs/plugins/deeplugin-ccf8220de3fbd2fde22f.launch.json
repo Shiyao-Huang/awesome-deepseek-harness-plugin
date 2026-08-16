@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-ccf8220de3fbd2fde22f",
+    "name": "dsh-handoff",
+    "author": "FleetingEcho",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/FleetingEcho/dsh-handoff",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-ccf8220de3fbd2fde22f.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-ccf8220de3fbd2fde22f.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:fleetingecho/dsh-handoff",
+    "command": "dsh plugin --profile web add github:fleetingecho/dsh-handoff",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-ccf8220de3fbd2fde22f，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-ccf8220de3fbd2fde22f.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-ccf8220de3fbd2fde22f.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-handoff 已收录到 DeepSeek Harness Plugin Store。每个工作目录与 git 分支自动维护 handoff.md：记录回合、折叠为简洁 Markdown 并注入后续会话，存储于 ~/.agent/agent-handoff，与 pi-handoff 字节级兼容。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-ccf8220de3fbd2fde22f.html",
+    "en": "dsh-handoff is now listed on the DeepSeek Harness Plugin Store. Self-maintaining handoff memory per working directory and git branch: records turns, folds them into concise Markdown, and injects the result into future sessions from ~/.agent/agent-handoff, byte-compatible with pi-handoff.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-ccf8220de3fbd2fde22f.html"
+  }
+}

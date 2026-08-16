@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-02ce6e4fc8e7533ec0a2",
+    "name": "dsh-image-vision",
+    "author": "xsoc1",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/xsoc1/dsh-image-vision",
+    "firstObservedAt": "2026-08-16T09:56:16Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-02ce6e4fc8e7533ec0a2.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-02ce6e4fc8e7533ec0a2.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:xsoc1/dsh-image-vision",
+    "command": "dsh plugin --profile web add github:xsoc1/dsh-image-vision",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-02ce6e4fc8e7533ec0a2，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-02ce6e4fc8e7533ec0a2.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-02ce6e4fc8e7533ec0a2.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-image-vision 已收录到 DeepSeek Harness Plugin Store。纯文本 DeepSeek 的聊天识图插件：view_image 工具转发任意 OpenAI 兼容 VLM（本地 Ollama 或云端），对话框粘贴/拖拽的图片自动改写为 view_image 路径标记供模型查看。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-02ce6e4fc8e7533ec0a2.html",
+    "en": "dsh-image-vision is now listed on the DeepSeek Harness Plugin Store. Chat image-attachment bridge with a `view_image` tool for any OpenAI-compatible VLM (local Ollama or cloud): pasted/dropped images become `view_image` path markers before reaching text-only DeepSeek models.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-02ce6e4fc8e7533ec0a2.html"
+  }
+}

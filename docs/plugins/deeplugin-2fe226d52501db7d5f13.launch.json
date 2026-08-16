@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-2fe226d52501db7d5f13",
+    "name": "dsh-email",
+    "author": "STARDUSTLC666",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/STARDUSTLC666/dsh-email",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-2fe226d52501db7d5f13.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-2fe226d52501db7d5f13.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-email",
+    "command": "dsh plugin --profile web add dsh-email",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-2fe226d52501db7d5f13，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-2fe226d52501db7d5f13.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-2fe226d52501db7d5f13.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-email 已收录到 DeepSeek Harness Plugin Store。邮件工具插件：IMAP/SMTP 收/发/搜/列文件夹/附件下载，内置 QQ/163/126/新浪/阿里/Gmail/Outlook/iCloud 预设，多账号、连接复用与发信审批门。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-2fe226d52501db7d5f13.html",
+    "en": "dsh-email is now listed on the DeepSeek Harness Plugin Store. IMAP/SMTP email tools (list/read/search/send/folders/attachment) with QQ/163/126/Sina/Aliyun/Gmail/Outlook/iCloud presets, multi-account support and a send-approval gate.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-2fe226d52501db7d5f13.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-d06c66047f06494431e7",
+    "name": "dsh-notion",
+    "author": "mingzeng21",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/mingzeng21/dsh-notion",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-d06c66047f06494431e7.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-d06c66047f06494431e7.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:mingzeng21/dsh-notion",
+    "command": "dsh plugin --profile web add github:mingzeng21/dsh-notion",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-d06c66047f06494431e7，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-d06c66047f06494431e7.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-d06c66047f06494431e7.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-notion 已收录到 DeepSeek Harness Plugin Store。通过官方 Notion MCP（OAuth + PKCE）把 dsh 连接到 Notion：通过 `mcp__notion__*` 工具搜索、读写页面、数据库与评论。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-d06c66047f06494431e7.html",
+    "en": "dsh-notion is now listed on the DeepSeek Harness Plugin Store. Connect dsh to Notion via the official Notion MCP (OAuth + PKCE): search, read, and write pages, databases, and comments through `mcp__notion__*` tools.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-d06c66047f06494431e7.html"
+  }
+}

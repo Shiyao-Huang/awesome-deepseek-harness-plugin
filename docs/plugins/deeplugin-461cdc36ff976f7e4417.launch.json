@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-461cdc36ff976f7e4417",
+    "name": "dsh-genie",
+    "author": "swaylq",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/swaylq/dsh-genie",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-461cdc36ff976f7e4417.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-461cdc36ff976f7e4417.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:swaylq/dsh-genie",
+    "command": "dsh plugin --profile web add github:swaylq/dsh-genie",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-461cdc36ff976f7e4417，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-461cdc36ff976f7e4417.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-461cdc36ff976f7e4417.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-genie 已收录到 DeepSeek Harness Plugin Store。把 agent 现场造出来的插件留下来：将 `cordis_define` 的动态包固化成能跨重启存活的正式插件，写包并注册 profile 层的全过程不用 pnpm、不联网、不需要构建授权。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-461cdc36ff976f7e4417.html",
+    "en": "dsh-genie is now listed on the DeepSeek Harness Plugin Store. Keeps what the agent builds at runtime: turns a `cordis_define` dynamic package into a real installed plugin that survives restart, writing the bundle and registering the profile layer with no pnpm, no network, and no build authorization.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-461cdc36ff976f7e4417.html"
+  }
+}

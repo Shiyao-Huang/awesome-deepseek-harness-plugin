@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-cff4062fcbb15cfcef9f",
+    "name": "dsh-kubernetes",
+    "author": "xxiaoxiong",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/xxiaoxiong/dsh-kubernetes",
+    "firstObservedAt": "2026-08-16T05:04:11Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-cff4062fcbb15cfcef9f.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-cff4062fcbb15cfcef9f.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-kubernetes",
+    "command": "dsh plugin --profile web add dsh-kubernetes",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-cff4062fcbb15cfcef9f，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-cff4062fcbb15cfcef9f.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-cff4062fcbb15cfcef9f.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-kubernetes 已收录到 DeepSeek Harness Plugin Store。面向 DeepSeek Harness 的安全 Kubernetes 能力，支持工作负载检查、有限日志与事件获取、故障诊断以及带审批控制的集群操作。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-cff4062fcbb15cfcef9f.html",
+    "en": "dsh-kubernetes is now listed on the DeepSeek Harness Plugin Store. Safe Kubernetes capability for DeepSeek Harness with workload inspection, bounded logs and events, failure diagnosis, and approval-gated operations.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-cff4062fcbb15cfcef9f.html"
+  }
+}

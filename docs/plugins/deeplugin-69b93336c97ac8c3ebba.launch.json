@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-69b93336c97ac8c3ebba",
+    "name": "dsh-any-background",
+    "author": "Tkingxiao",
+    "category": "theme",
+    "version": null,
+    "homepage": "https://github.com/Tkingxiao/dsh-any-background",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-69b93336c97ac8c3ebba.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-69b93336c97ac8c3ebba.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-any-background",
+    "command": "dsh plugin --profile web add dsh-any-background",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-69b93336c97ac8c3ebba，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-69b93336c97ac8c3ebba.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-69b93336c97ac8c3ebba.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-any-background 已收录到 DeepSeek Harness Plugin Store。自定义外观插件：换背景图（可调大小和位置）、用色轮自定义主题色，主界面和设置界面的透明度都能单独调。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-69b93336c97ac8c3ebba.html",
+    "en": "dsh-any-background is now listed on the DeepSeek Harness Plugin Store. A DeepSeek Harness appearance plugin that lets you fully customize the Web UI with a custom theme color, background wallpaper, and fine-grained opacity controls.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-69b93336c97ac8c3ebba.html"
+  }
+}

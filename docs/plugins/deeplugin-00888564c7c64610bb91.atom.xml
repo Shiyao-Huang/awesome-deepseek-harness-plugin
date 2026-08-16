@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-spend — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-00888564c7c64610bb91.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-00888564c7c64610bb91.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-00888564c7c64610bb91.html"/>
+  <entry>
+    <title>Updated: dsh-spend</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-00888564c7c64610bb91/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-00888564c7c64610bb91.html"/>
+    <author><name>nonewind</name></author>
+    <category term="ui"/>
+    <summary>Token usage and estimated spend for the dsh web UI: floating panel with per-model, per-day, and per-session stats. Exact install spec: dsh-spend. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-spend</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-00888564c7c64610bb91/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-00888564c7c64610bb91.html"/>
+    <author><name>nonewind</name></author>
+    <category term="ui"/>
+    <summary>Token usage and estimated spend for the dsh web UI: floating panel with per-model, per-day, and per-session stats. Exact install spec: dsh-spend. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-spend</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-00888564c7c64610bb91/19f118ecfd65ceec</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-00888564c7c64610bb91.html"/>
+    <author><name>nonewind</name></author>
+    <category term="ui"/>
+    <summary>Token usage and estimated spend for the dsh web UI: floating panel with per-model, per-day, and per-session stats. Exact install spec: dsh-spend. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-spend</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-00888564c7c64610bb91/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-00888564c7c64610bb91.html"/>
+    <author><name>nonewind</name></author>
+    <category term="ui"/>
+    <summary>Token usage and estimated spend for the dsh web UI: floating panel with per-model, per-day, and per-session stats. Exact install spec: dsh-spend. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

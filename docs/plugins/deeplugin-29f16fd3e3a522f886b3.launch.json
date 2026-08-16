@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-29f16fd3e3a522f886b3",
+    "name": "dsh-auth-gate",
+    "author": "TecFancy",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/TecFancy/dsh-auth-gate",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-29f16fd3e3a522f886b3.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-29f16fd3e3a522f886b3.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-auth-gate",
+    "command": "dsh plugin --profile web add dsh-auth-gate",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-29f16fd3e3a522f886b3，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-29f16fd3e3a522f886b3.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-29f16fd3e3a522f886b3.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-auth-gate 已收录到 DeepSeek Harness Plugin Store。DSH 网页端登录门插件：账号口令或共享令牌认证、会话 cookie、登录限速，附用户管理 CLI（0.4.1 起声明 dsh.bundle manifest，`dsh plugin add` 一键挂载）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-29f16fd3e3a522f886b3.html",
+    "en": "dsh-auth-gate is now listed on the DeepSeek Harness Plugin Store. Login gate for the dsh web surface: password or shared-token authentication, session cookies, rate limiting, and a user-management CLI (dsh.bundle manifest since 0.4.1, one-command `dsh plugin add` mounting).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-29f16fd3e3a522f886b3.html"
+  }
+}

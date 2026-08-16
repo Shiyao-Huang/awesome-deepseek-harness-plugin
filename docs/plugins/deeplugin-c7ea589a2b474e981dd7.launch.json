@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-c7ea589a2b474e981dd7",
+    "name": "dsh-mojibake-interceptor",
+    "author": "fire-disposal",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/fire-disposal/dsh-mojibake-interceptor",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-c7ea589a2b474e981dd7.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-c7ea589a2b474e981dd7.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:fire-disposal/dsh-mojibake-interceptor",
+    "command": "dsh plugin --profile web add github:fire-disposal/dsh-mojibake-interceptor",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-c7ea589a2b474e981dd7，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-c7ea589a2b474e981dd7.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-c7ea589a2b474e981dd7.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-mojibake-interceptor 已收录到 DeepSeek Harness Plugin Store。DSH 乱码拦截器 bundle：写入前特征值/编码回环检测乱码并复查放行（原样重试即通过），pwsh 写入编码执行前审计（ANSI/GBK/UTF-16/默认编码），Windows 与中文场景优先。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c7ea589a2b474e981dd7.html",
+    "en": "dsh-mojibake-interceptor is now listed on the DeepSeek Harness Plugin Store. Mojibake guard bundle for DSH: feature-based garbled-text detection before writes with review-then-release (an identical retry passes), plus pre-execution pwsh encoding audit (ANSI/GBK/UTF-16/Default), Windows and Chinese first.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-c7ea589a2b474e981dd7.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-12da7fd3ea46bdc9413d",
+    "name": "awesome-dsh-background-plugin",
+    "author": "leavestring",
+    "category": "theme",
+    "version": null,
+    "homepage": "https://github.com/leavestring/awesome-dsh-background-plugin",
+    "firstObservedAt": "2026-08-16T14:38:49Z",
+    "lastChangedAt": "2026-08-16T14:38:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-12da7fd3ea46bdc9413d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-12da7fd3ea46bdc9413d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:leavestring/awesome-dsh-background-plugin",
+    "command": "dsh plugin --profile web add github:leavestring/awesome-dsh-background-plugin",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-12da7fd3ea46bdc9413d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-12da7fd3ea46bdc9413d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-12da7fd3ea46bdc9413d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "awesome-dsh-background-plugin 已收录到 DeepSeek Harness Plugin Store。为 DSH Web 设置背景：上传本地图片或选择预设氛围，实时预览且设置持久化。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-12da7fd3ea46bdc9413d.html",
+    "en": "awesome-dsh-background-plugin is now listed on the DeepSeek Harness Plugin Store. DSH Web background settings: upload a local image or pick a preset ambiance, with live preview and persistent settings.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-12da7fd3ea46bdc9413d.html"
+  }
+}

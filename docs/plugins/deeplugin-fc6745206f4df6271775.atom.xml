@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-vscode-theme — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-fc6745206f4df6271775.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-fc6745206f4df6271775.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fc6745206f4df6271775.html"/>
+  <entry>
+    <title>Updated: dsh-vscode-theme</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-fc6745206f4df6271775/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fc6745206f4df6271775.html"/>
+    <author><name>Sim-xia</name></author>
+    <category term="theme"/>
+    <summary>Imports .vsix theme files made for Visual Studio Code and applies them to the DSH Web UI. Exact install spec: github:sim-xia/dsh-vscode-theme. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-vscode-theme</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-fc6745206f4df6271775/e1ab6d4a0ce81c55</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fc6745206f4df6271775.html"/>
+    <author><name>Sim-xia</name></author>
+    <category term="theme"/>
+    <summary>Imports .vsix theme files made for Visual Studio Code and applies them to the DSH Web UI. Exact install spec: github:sim-xia/dsh-vscode-theme. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-vscode-theme</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-fc6745206f4df6271775/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fc6745206f4df6271775.html"/>
+    <author><name>Sim-xia</name></author>
+    <category term="theme"/>
+    <summary>Imports .vsix theme files made for Visual Studio Code and applies them to the DSH Web UI. Exact install spec: github:sim-xia/dsh-vscode-theme. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

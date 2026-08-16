@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>DSH Turn Rewind — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-65b3a41d23bfa9ee0092.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-65b3a41d23bfa9ee0092.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-65b3a41d23bfa9ee0092.html"/>
+  <entry>
+    <title>Updated: DSH Turn Rewind</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-65b3a41d23bfa9ee0092/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-65b3a41d23bfa9ee0092.html"/>
+    <author><name>Anionex</name></author>
+    <category term="tools"/>
+    <summary>Rewind conversation and workspace state. Exact install spec: github:anionex/dsh-turn-rewind. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: DSH Turn Rewind</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-65b3a41d23bfa9ee0092/7cc2b014d07ab963</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-65b3a41d23bfa9ee0092.html"/>
+    <author><name>Anionex</name></author>
+    <category term="tools"/>
+    <summary>Rewind conversation and workspace state. Exact install spec: github:anionex/dsh-turn-rewind. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-7305913081a575e0fa21",
+    "name": "dsh-minimax-usage",
+    "author": "Floating-Dreaming",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/Floating-Dreaming/dsh-minimax-usage",
+    "firstObservedAt": "2026-08-16T09:56:16Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-7305913081a575e0fa21.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-7305913081a575e0fa21.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:floating-dreaming/dsh-minimax-usage",
+    "command": "dsh plugin --profile web add github:floating-dreaming/dsh-minimax-usage",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-7305913081a575e0fa21，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-7305913081a575e0fa21.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-7305913081a575e0fa21.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-minimax-usage 已收录到 DeepSeek Harness Plugin Store。在 DSH 设置页「用量」section 展示 MiniMax Token Plan 的 5 小时 / 周窗口用量（带重置倒计时）、单模型明细与视频赠送额度；通过 trusted plugin 调 `/v1/token_plan/remains` 拿 key，未配置 key 时整段 section 自动隐藏。MIT。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-7305913081a575e0fa21.html",
+    "en": "dsh-minimax-usage is now listed on the DeepSeek Harness Plugin Store. Adds a \"用量\" section to the DSH Settings page that shows your MiniMax Token Plan usage (5h and weekly windows with reset countdowns), per-model breakdown, and video bonus credits; fetches `/v1/token_plan/remains` via a trusted plugin that holds the API key, auto-hides when no key is configured. MIT.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-7305913081a575e0fa21.html"
+  }
+}

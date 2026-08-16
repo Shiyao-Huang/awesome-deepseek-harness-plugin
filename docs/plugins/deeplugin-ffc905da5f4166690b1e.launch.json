@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-ffc905da5f4166690b1e",
+    "name": "dsh-pocket",
+    "author": "shaobeichen",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/shaobeichen/dsh-pocket",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-ffc905da5f4166690b1e.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-ffc905da5f4166690b1e.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-pocket",
+    "command": "dsh plugin --profile web add dsh-pocket",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-ffc905da5f4166690b1e，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-ffc905da5f4166690b1e.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-ffc905da5f4166690b1e.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-pocket 已收录到 DeepSeek Harness Plugin Store。手机远程访问 DSH Web 界面：扫码即用局域网或公网（cloudflared 隧道）访问，实时同屏、移动端适配布局，带设置页管理。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-ffc905da5f4166690b1e.html",
+    "en": "dsh-pocket is now listed on the DeepSeek Harness Plugin Store. Remote phone access to the DSH Web UI: scan a QR code for LAN or public (cloudflared tunnel) access with real-time sync, a mobile-adaptive layout, and a settings tab.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-ffc905da5f4166690b1e.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-77fe81d19888452ed502",
+    "name": "dsh-session-search-pro",
+    "author": "LeslieWylie",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/LeslieWylie/dsh-session-search-pro",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-77fe81d19888452ed502.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-77fe81d19888452ed502.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:lesliewylie/dsh-session-search-pro",
+    "command": "dsh plugin --profile web add github:lesliewylie/dsh-session-search-pro",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-77fe81d19888452ed502，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-77fe81d19888452ed502.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-77fe81d19888452ed502.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-session-search-pro 已收录到 DeepSeek Harness Plugin Store。通过 harness 自带的 `sessionQuery` 服务搜索、列出、读取历史与当前会话：部署启用了 SQLite FTS5 索引时走索引，未启用时回退到有上限的倒序扫描。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-77fe81d19888452ed502.html",
+    "en": "dsh-session-search-pro is now listed on the DeepSeek Harness Plugin Store. Search, list and read past and current sessions through the harness's own `sessionQuery` service: uses the SQLite FTS5 index where a deployment enables it, and falls back to a bounded newest-first scan where it does not.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-77fe81d19888452ed502.html"
+  }
+}

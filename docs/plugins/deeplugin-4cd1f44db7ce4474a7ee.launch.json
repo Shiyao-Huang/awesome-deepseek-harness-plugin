@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-4cd1f44db7ce4474a7ee",
+    "name": "dsh-routines",
+    "author": "Jesse-njx",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/Jesse-njx/dsh-routines",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-4cd1f44db7ce4474a7ee.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-4cd1f44db7ce4474a7ee.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:jesse-njx/dsh-routines",
+    "command": "dsh plugin --profile web add github:jesse-njx/dsh-routines",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-4cd1f44db7ce4474a7ee，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-4cd1f44db7ce4474a7ee.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-4cd1f44db7ce4474a7ee.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-routines 已收录到 DeepSeek Harness Plugin Store。定时 Agent：按 cron 计划运行 prompt，把摘要送到你已有的地方，内置重叠/漏跑/超时安全策略。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-4cd1f44db7ce4474a7ee.html",
+    "en": "dsh-routines is now listed on the DeepSeek Harness Plugin Store. Scheduled agents on a cron: run a prompt on a schedule and get the digest where you already are, with overlap/missed-run/timeout safety defaults.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-4cd1f44db7ce4474a7ee.html"
+  }
+}

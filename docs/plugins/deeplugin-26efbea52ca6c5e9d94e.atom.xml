@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-web-ui#packages/dsh-web-ui-all — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-26efbea52ca6c5e9d94e.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-26efbea52ca6c5e9d94e.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-26efbea52ca6c5e9d94e.html"/>
+  <entry>
+    <title>Updated: dsh-web-ui#packages/dsh-web-ui-all</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-26efbea52ca6c5e9d94e/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-26efbea52ca6c5e9d94e.html"/>
+    <author><name>zhu1090093659</name></author>
+    <category term="ui"/>
+    <summary>Plugin and skin collection for the DSH Web UI: task board, Git graph, right-side panel, remote mobile UI, pet, live token stats, and a skin center. Exact install spec: @linxin666/dsh-web-ui-all. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-web-ui#packages/dsh-web-ui-all</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-26efbea52ca6c5e9d94e/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-26efbea52ca6c5e9d94e.html"/>
+    <author><name>zhu1090093659</name></author>
+    <category term="ui"/>
+    <summary>Plugin and skin collection for the DSH Web UI: task board, Git graph, right-side panel, remote mobile UI, pet, live token stats, and a skin center. Exact install spec: @linxin666/dsh-web-ui-all. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-web-ui#packages/dsh-web-ui-all</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-26efbea52ca6c5e9d94e/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-26efbea52ca6c5e9d94e.html"/>
+    <author><name>zhu1090093659</name></author>
+    <category term="ui"/>
+    <summary>Plugin and skin collection for the DSH Web UI: task board, Git graph, right-side panel, remote mobile UI, pet, live token stats, and a skin center. Exact install spec: @linxin666/dsh-web-ui-all. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

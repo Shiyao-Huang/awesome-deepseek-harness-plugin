@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-web-preview-float — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-fa21a293c92b2da2cfc6.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-fa21a293c92b2da2cfc6.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fa21a293c92b2da2cfc6.html"/>
+  <entry>
+    <title>Updated: dsh-web-preview-float</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-fa21a293c92b2da2cfc6/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fa21a293c92b2da2cfc6.html"/>
+    <author><name>WJNCT55555</name></author>
+    <category term="ui"/>
+    <summary>Google AI Studio-style floating preview for the Web UI: a draggable/resizable iframe preview with aspect-ratio and resolution presets, plus a VS Code-style code window with direct editing, confirmed writes, and session-log recording. Exact install spec: github:wjnct55555/dsh-web-preview-float. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-web-preview-float</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-fa21a293c92b2da2cfc6/7e5b8321bc7d21b1</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fa21a293c92b2da2cfc6.html"/>
+    <author><name>WJNCT55555</name></author>
+    <category term="ui"/>
+    <summary>Google AI Studio-style floating preview for the Web UI: a draggable/resizable iframe preview with aspect-ratio and resolution presets, plus a VS Code-style code window with direct editing, confirmed writes, and session-log recording. Exact install spec: github:wjnct55555/dsh-web-preview-float. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

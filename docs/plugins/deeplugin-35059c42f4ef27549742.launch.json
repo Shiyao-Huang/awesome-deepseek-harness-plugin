@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-35059c42f4ef27549742",
+    "name": "dsh-code-smell",
+    "author": "lucky8197",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/lucky8197/dsh-code-smell",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-35059c42f4ef27549742.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-35059c42f4ef27549742.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:lucky8197/dsh-code-smell",
+    "command": "dsh plugin --profile web add github:lucky8197/dsh-code-smell",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-35059c42f4ef27549742，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-35059c42f4ef27549742.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-35059c42f4ef27549742.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-code-smell 已收录到 DeepSeek Harness Plugin Store。代码气味雷达：静态扫描 TODO/FIXME 债务、未实现桩、超长行、大文件与重复代码块，按严重度输出修复建议，全程只读。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-35059c42f4ef27549742.html",
+    "en": "dsh-code-smell is now listed on the DeepSeek Harness Plugin Store. Code smell radar: statically scans TODO/FIXME debt, stub implementations, long lines, oversized files and duplicated blocks, with severity-sorted read-only fix suggestions.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-35059c42f4ef27549742.html"
+  }
+}

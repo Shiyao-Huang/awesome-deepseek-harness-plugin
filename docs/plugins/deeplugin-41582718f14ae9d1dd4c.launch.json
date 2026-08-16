@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-41582718f14ae9d1dd4c",
+    "name": "dsh-plugin-recall",
+    "author": "truelove-dreamer",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/truelove-dreamer/dsh-plugin-recall",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-41582718f14ae9d1dd4c.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-41582718f14ae9d1dd4c.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-plugin-recall",
+    "command": "dsh plugin --profile web add dsh-plugin-recall",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-41582718f14ae9d1dd4c，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-41582718f14ae9d1dd4c.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-41582718f14ae9d1dd4c.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-recall 已收录到 DeepSeek Harness Plugin Store。跨会话记忆：全文检索所有历史会话（复用 ctx.sessionQuery 的 SQLite FTS5 索引），把最强匹配片段带回当前上下文。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-41582718f14ae9d1dd4c.html",
+    "en": "dsh-plugin-recall is now listed on the DeepSeek Harness Plugin Store. Cross-session memory for the model: full-text search all past sessions (SQLite FTS5 via ctx.sessionQuery) and bring the strongest matching excerpts back into the current context.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-41582718f14ae9d1dd4c.html"
+  }
+}

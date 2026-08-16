@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-sticky-note — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-99011da4b8346b3e336a.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-99011da4b8346b3e336a.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-99011da4b8346b3e336a.html"/>
+  <entry>
+    <title>Updated: dsh-sticky-note</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-99011da4b8346b3e336a/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-99011da4b8346b3e336a.html"/>
+    <author><name>Meredith2328</name></author>
+    <category term="ui"/>
+    <summary>Quick sticky notes on the composer toolbar: jot ideas or TODOs, auto-saved as Markdown, one click to send into the chat. Exact install spec: github:meredith2328/dsh-sticky-note. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-sticky-note</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-99011da4b8346b3e336a/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-99011da4b8346b3e336a.html"/>
+    <author><name>Meredith2328</name></author>
+    <category term="ui"/>
+    <summary>Quick sticky notes on the composer toolbar: jot ideas or TODOs, auto-saved as Markdown, one click to send into the chat. Exact install spec: github:meredith2328/dsh-sticky-note. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-sticky-note</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-99011da4b8346b3e336a/19f118ecfd65ceec</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-99011da4b8346b3e336a.html"/>
+    <author><name>Meredith2328</name></author>
+    <category term="ui"/>
+    <summary>Quick sticky notes on the composer toolbar: jot ideas or TODOs, auto-saved as Markdown, one click to send into the chat. Exact install spec: github:meredith2328/dsh-sticky-note. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-sticky-note</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-99011da4b8346b3e336a/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-99011da4b8346b3e336a.html"/>
+    <author><name>Meredith2328</name></author>
+    <category term="ui"/>
+    <summary>Quick sticky notes on the composer toolbar: jot ideas or TODOs, auto-saved as Markdown, one click to send into the chat. Exact install spec: github:meredith2328/dsh-sticky-note. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>
