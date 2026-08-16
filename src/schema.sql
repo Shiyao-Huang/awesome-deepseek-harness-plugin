@@ -1,5 +1,5 @@
 PRAGMA foreign_keys = ON;
-PRAGMA user_version = 6;
+PRAGMA user_version = 7;
 
 CREATE TABLE IF NOT EXISTS sources (
     id INTEGER PRIMARY KEY,

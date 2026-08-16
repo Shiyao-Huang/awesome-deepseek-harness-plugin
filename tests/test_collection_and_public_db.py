@@ -215,6 +215,105 @@ class RawMaterializationTests(unittest.TestCase):
                 materialize_raw_snapshots.materialize(database, root)
 
 
+class ItemSeenRangeTests(unittest.TestCase):
+    def test_out_of_order_imports_preserve_observation_boundaries(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            database = Path(directory) / "aggregator.sqlite3"
+            collect.init_db(database)
+            observations = (
+                (1, "2026-08-16T03:00:00Z"),
+                (2, "2026-08-16T01:00:00Z"),
+                (3, "2026-08-16T02:00:00Z"),
+            )
+            with collect.connect(database) as connection:
+                for run_id, observed_at in observations:
+                    connection.execute(
+                        "INSERT INTO collection_runs("
+                        "id, dataset_version, started_at, finished_at, trigger, status"
+                        ") VALUES (?, ?, ?, ?, 'test', 'succeeded')",
+                        (run_id, f"test-{run_id}", observed_at, observed_at),
+                    )
+                    collect.import_payload(
+                        connection,
+                        {
+                            "observations": [{
+                                "platform": "web",
+                                "query": "deepseek harness",
+                                "source_url": "https://example.com/search",
+                                "collected_at": observed_at,
+                                "items": [{
+                                    "platform": "web",
+                                    "external_id": "example-plugin",
+                                    "url": "https://example.com/plugin",
+                                    "title": "Example plugin",
+                                }],
+                            }],
+                        },
+                        run_id,
+                    )
+
+                row = connection.execute(
+                    "SELECT first_seen_at, last_seen_at, first_seen_run_id, last_seen_run_id "
+                    "FROM items WHERE canonical_url = 'https://example.com/plugin'"
+                ).fetchone()
+
+            self.assertEqual(
+                tuple(row),
+                ("2026-08-16T01:00:00Z", "2026-08-16T03:00:00Z", 2, 1),
+            )
+
+    def test_init_repairs_seen_ranges_from_observation_history_idempotently(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            database = Path(directory) / "aggregator.sqlite3"
+            collect.init_db(database)
+            with collect.connect(database) as connection:
+                for run_id, observed_at in (
+                    (1, "2026-08-16T03:00:00Z"),
+                    (2, "2026-08-16T01:00:00Z"),
+                ):
+                    connection.execute(
+                        "INSERT INTO collection_runs("
+                        "id, dataset_version, started_at, finished_at, trigger, status"
+                        ") VALUES (?, ?, ?, ?, 'test', 'succeeded')",
+                        (run_id, f"test-{run_id}", observed_at, observed_at),
+                    )
+                    collect.import_payload(
+                        connection,
+                        {
+                            "observations": [{
+                                "platform": "web",
+                                "query": "deepseek harness",
+                                "source_url": "https://example.com/search",
+                                "collected_at": observed_at,
+                                "items": [{
+                                    "platform": "web",
+                                    "external_id": "example-plugin",
+                                    "url": "https://example.com/plugin",
+                                }],
+                            }],
+                        },
+                        run_id,
+                    )
+                connection.execute(
+                    "UPDATE items SET first_seen_at = '2026-08-16T04:00:00Z', "
+                    "last_seen_at = '2026-08-16T00:00:00Z', "
+                    "first_seen_run_id = 1, last_seen_run_id = 2"
+                )
+
+            collect.init_db(database)
+            collect.init_db(database)
+
+            with collect.connect(database) as connection:
+                row = connection.execute(
+                    "SELECT first_seen_at, last_seen_at, first_seen_run_id, last_seen_run_id "
+                    "FROM items WHERE canonical_url = 'https://example.com/plugin'"
+                ).fetchone()
+            self.assertEqual(
+                tuple(row),
+                ("2026-08-16T01:00:00Z", "2026-08-16T03:00:00Z", 2, 1),
+            )
+
+
 class PublicDatabaseTests(unittest.TestCase):
     @staticmethod
     def create_database(path: Path) -> None:

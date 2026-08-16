@@ -11,6 +11,7 @@ from pathlib import Path
 from typing import Any
 
 import build_market_registry
+import collect
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -209,6 +210,51 @@ def validate_rich_media_site(connection: sqlite3.Connection, item_count: int) ->
     return len(image_entries), len(video_entries)
 
 
+def validate_item_seen_ranges(connection: sqlite3.Connection) -> None:
+    """Require item date boundaries and run ids to match observation history."""
+
+    inverted = connection.execute(
+        "SELECT COUNT(*) FROM items WHERE first_seen_at > last_seen_at"
+    ).fetchone()[0]
+    assert inverted == 0, f"{inverted} item date range(s) are inverted"
+    mismatched_dates = connection.execute(
+        """
+        WITH boundaries AS (
+            SELECT
+                io.item_id,
+                MIN(o.collected_at) AS first_seen_at,
+                MAX(o.collected_at) AS last_seen_at
+            FROM item_observations AS io
+            JOIN observations AS o ON o.id = io.observation_id
+            GROUP BY io.item_id
+        )
+        SELECT COUNT(*)
+        FROM items
+        LEFT JOIN boundaries ON boundaries.item_id = items.id
+        WHERE boundaries.item_id IS NULL
+           OR items.first_seen_at IS NOT boundaries.first_seen_at
+           OR items.last_seen_at IS NOT boundaries.last_seen_at
+        """
+    ).fetchone()[0]
+    assert mismatched_dates == 0, f"{mismatched_dates} item date range(s) disagree with observation history"
+    for boundary in ("first", "last"):
+        mismatched_runs = connection.execute(
+            f"""
+            SELECT COUNT(*)
+            FROM items
+            WHERE NOT EXISTS (
+                SELECT 1
+                FROM item_observations AS io
+                JOIN observations AS o ON o.id = io.observation_id
+                WHERE io.item_id = items.id
+                  AND o.collected_at = items.{boundary}_seen_at
+                  AND o.collection_run_id = items.{boundary}_seen_run_id
+            )
+            """
+        ).fetchone()[0]
+        assert mismatched_runs == 0, f"{mismatched_runs} item {boundary}-seen run id(s) lack boundary evidence"
+
+
 def main() -> None:
     """Run deterministic checks and print the current dataset size."""
 
@@ -221,6 +267,8 @@ def main() -> None:
     connection = sqlite3.connect(DB_PATH)
     integrity = connection.execute("PRAGMA integrity_check").fetchone()[0]
     assert integrity == "ok", integrity
+    schema_version = connection.execute("PRAGMA user_version").fetchone()[0]
+    assert schema_version == collect.SCHEMA_VERSION, schema_version
     is_public_projection = connection.execute(
         "SELECT 1 FROM sqlite_schema WHERE type = 'table' AND name = 'public_projection_metadata'"
     ).fetchone() is not None
@@ -269,6 +317,7 @@ def main() -> None:
     assert connection.execute("SELECT COUNT(*) FROM observations WHERE collection_run_id IS NULL").fetchone()[0] == 0
     assert connection.execute("SELECT COUNT(*) FROM metrics WHERE collection_run_id IS NULL").fetchone()[0] == 0
     assert connection.execute("SELECT COUNT(*) FROM items WHERE first_seen_run_id IS NULL OR last_seen_run_id IS NULL").fetchone()[0] == 0
+    validate_item_seen_ranges(connection)
     assert connection.execute("SELECT COUNT(*) FROM raw_snapshots WHERE payload_json IS NULL OR payload_json = ''").fetchone()[0] == 0
     assert connection.execute("SELECT COUNT(*) FROM raw_snapshots").fetchone()[0] == connection.execute(
         "SELECT COUNT(DISTINCT raw_path) FROM raw_snapshots"

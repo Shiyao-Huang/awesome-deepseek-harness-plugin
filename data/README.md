@@ -10,6 +10,8 @@ The installable Market projection is mirrored byte-for-byte at `../index/market-
 
 `collection_runs` is the append-only dataset version log. Each run has a sortable `dataset_version`, UTC start/end dates, optional scheduled time, trigger, status, and import counters.
 
+SQLite schema version 7 defines each item's `first_seen_at` and `last_seen_at` as the minimum and maximum dates of its linked observations. `first_seen_run_id` and `last_seen_run_id` identify runs with evidence at those dates. Schema initialization repairs older databases from `item_observations` without deleting history, and later out-of-order raw imports preserve the same boundaries.
+
 In the full archive, `raw_snapshots` stores the exact UTF-8 JSON file content in `payload_json`, plus its SHA-256, relative path, byte size, collection date, and run id. The public projection keeps those provenance fields but sets `payload_json`, redundant raw JSON columns including `upstream_entries.source_json`, and the column-redundant `fork_rankings.components_json` value to `{}`. `observations` links platform observations back to the raw snapshot in both forms.
 
 The full archive retains every historical Fork snapshot, Registry Listing observation, ranking, and value assessment. To remain directly downloadable and queryable, projection version 3 keeps the latest Fork ranking run, each Fork's latest snapshot, any older snapshot referenced by retained commit or changed-file evidence, the latest observation per Registry Listing, and the latest complete value-assessment run. `collection_runs` and normalized current records remain available in both databases. `public_projection_metadata.stripped_fields_json` records these retention rules and the stripped fields.
