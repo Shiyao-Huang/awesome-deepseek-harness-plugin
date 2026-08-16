@@ -88,9 +88,9 @@
 <rect x="816.2" y="324.0" width="7.1" height="0" rx="3" fill="#d4a373"/>
 <rect x="825.3" y="324.0" width="7.1" height="0" rx="3" fill="#d4a373"/>
 <rect x="834.4" y="324.0" width="7.1" height="0" rx="3" fill="#d4a373"/>
-<rect x="843.6" y="324.0" width="7.1" height="0" rx="3" fill="#d4a373"/>
-<rect x="852.7" y="170.0" width="7.1" height="154" rx="3" fill="#d4a373"/>
-<rect x="861.8" y="56.0" width="7.1" height="268" rx="3" fill="#5da399"/>
-<rect x="870.9" y="214.0" width="7.1" height="110" rx="3" fill="#d4a373"/>
-<text x="822" y="42" font-size="12" class="muted">peak 5,804 on 2026-08-14</text>
+<rect x="843.6" y="170.0" width="7.1" height="154" rx="3" fill="#d4a373"/>
+<rect x="852.7" y="56.0" width="7.1" height="268" rx="3" fill="#5da399"/>
+<rect x="861.8" y="210.0" width="7.1" height="114" rx="3" fill="#d4a373"/>
+<rect x="870.9" y="324.0" width="7.1" height="0" rx="3" fill="#d4a373"/>
+<text x="813" y="42" font-size="12" class="muted">peak 5,805 on 2026-08-14</text>
 </svg>

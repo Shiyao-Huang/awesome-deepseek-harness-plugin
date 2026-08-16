@@ -2,7 +2,7 @@
 
 > 一个可重复更新的公开资料聚合体：仓库、插件、索引、文章、帖子、图片缩略图和视频链接。原始观测保留在 `data/raw/`，SQLite 是可查询的派生索引。
 
-当前数据集版本：**v20260815T235125Z**，完成时间：**2026-08-15T23:51:29Z**。共 **12,773** 条去重记录，覆盖 **14** 个平台，外部媒体资产 **873** 条。
+当前数据集版本：**v20260816T002558Z**，完成时间：**2026-08-16T00:26:44Z**。共 **12,880** 条去重记录，覆盖 **14** 个平台，外部媒体资产 **873** 条。
 
 ## 三句话结论
 
@@ -23,7 +23,7 @@
 
 | 平台 | 去重记录 | 采集方式 |
 | --- | ---: | --- |
-| github | 12,434 | public REST API |
+| github | 12,541 | public REST API |
 | hacker_news | 101 | Algolia public search API |
 | x | 77 | ego-browser visible DOM |
 | xiaohongshu | 51 | ego-browser visible DOM |
@@ -42,7 +42,7 @@
 
 | 分类 | 记录 | 带媒体 |
 | --- | ---: | ---: |
-| deepseek-harness-forks | 11,147 | 0 |
+| deepseek-harness-forks | 11,254 | 0 |
 | core-and-ecosystem | 964 | 135 |
 | ui-and-desktop | 222 | 4 |
 | index-and-marketplace | 179 | 34 |
@@ -58,15 +58,15 @@
 | 平台 | 记录 | value | band | confidence | 分类 |
 | --- | --- | ---: | :---: | ---: | --- |
 | github | [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 79.95 | B | 100.00 | ui-and-desktop |
-| github | [liustack/modlens](https://github.com/liustack/modlens) | 79.38 | B | 100.00 | multimedia-and-vision |
-| github | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 78.66 | B | 100.00 | core-and-ecosystem |
+| github | [liustack/modlens](https://github.com/liustack/modlens) | 79.37 | B | 100.00 | multimedia-and-vision |
+| github | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 78.65 | B | 100.00 | core-and-ecosystem |
 | github | [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness) | 77.44 | B | 100.00 | operations-and-safety |
-| github | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 76.93 | B | 100.00 | ui-and-desktop |
+| github | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 76.92 | B | 100.00 | ui-and-desktop |
 | github | [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | 76.19 | B | 100.00 | ui-and-desktop |
 | github | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 76.19 | B | 100.00 | ui-and-desktop |
 | github | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | 75.64 | B | 100.00 | core-and-ecosystem |
 | github | [superdesigndev/superdesign-skill](https://github.com/superdesigndev/superdesign-skill) | 75.36 | B | 100.00 | core-and-ecosystem |
-| github | [Lum1104/dsh-browser](https://github.com/Lum1104/dsh-browser) | 75.31 | B | 100.00 | ui-and-desktop |
+| github | [Lum1104/dsh-browser](https://github.com/Lum1104/dsh-browser) | 75.30 | B | 100.00 | ui-and-desktop |
 
 ## 高互动/高关注记录
 
