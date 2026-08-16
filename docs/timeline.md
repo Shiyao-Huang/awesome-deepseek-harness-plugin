@@ -5,6 +5,20 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 2026-08-16 | github | plugin | [awesome-dsh-background-plugin](https://github.com/leavestring/awesome-dsh-background-plugin) | leavestring | index-and-marketplace |
+| 2026-08-16 | github | plugin | [awesome-dsh-skills](https://github.com/hackerFish/awesome-dsh-skills) | hackerFish | index-and-marketplace |
+| 2026-08-16 | github | plugin | [better-reasoning-slider](https://github.com/vvvspec/better-reasoning-slider) | vvvspec | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [capital-generation](https://github.com/v587d/capital-generation) | v587d | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-aicc-zhunao](https://github.com/Cola1018/dsh-aicc-zhunao) | Cola1018 | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-alive](https://github.com/AikenFra/dsh-alive) | AikenFra | operations-and-safety |
+| 2026-08-16 | github | plugin | [dsh-complete-notify](https://github.com/kaixinbaba/dsh-complete-notify) | kaixinbaba | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-liquid-glass-balance-card](https://github.com/SoDaZilla-zzz/dsh-liquid-glass-balance-card) | SoDaZilla-zzz | operations-and-safety |
+| 2026-08-16 | github | plugin | [dsh-ops-health](https://github.com/MiraculousGarfield/dsh-ops-health) | MiraculousGarfield | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-plugin-mall](https://github.com/1e0zj/dsh-plugin-mall) | 1e0zj | index-and-marketplace |
+| 2026-08-16 | github | plugin | [dsh-power-button](https://github.com/huasheng33991/dsh-power-button) | huasheng33991 | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-settings-nav-organizer](https://github.com/zhengjy01/dsh-settings-nav-organizer) | zhengjy01 | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-unarchive](https://github.com/edfrey0044/dsh-unarchive) | edfrey0044 | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [github-explore](https://github.com/Fectivnfy112357/github-explore) | Fectivnfy112357 | index-and-marketplace |
 | 2026-08-16 | github | plugin | [Co-Engram](https://github.com/Co-Engram/Co-Engram) | Co-Engram | core-and-ecosystem |
 | 2026-08-16 | github | plugin | [DSH-Session-Sync](https://github.com/hajimimaodie8/DSH-Session-Sync) | hajimimaodie8 | ui-and-desktop |
 | 2026-08-16T13:41:06Z | github | plugin | [DSH-Think-zh](https://github.com/Len7183/DSH-Think-zh) | Len7183 | core-and-ecosystem |

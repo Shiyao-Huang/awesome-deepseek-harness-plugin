@@ -2,7 +2,7 @@
 <style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#253237} .muted{fill:#6b7a80;font-size:12px}</style>
 <rect width="100%" height="100%" rx="18" fill="#fbfaf7"/>
 <text x="28" y="34" font-size="20" font-weight="700">Value-band distribution — current dataset</text>
-<text x="28" y="92" font-size="15">band A（avg value 80.2）</text>
+<text x="28" y="92" font-size="15">band A（avg value 80.3）</text>
 <rect x="300" y="74" width="600" height="22" rx="11" fill="#e8e2d6"/>
 <rect x="300" y="74" width="0" height="22" rx="11" fill="#ef8354"/>
 <text x="912" y="92" text-anchor="end" font-size="15" font-weight="700">1</text>
@@ -10,12 +10,12 @@
 <rect x="300" y="120" width="600" height="22" rx="11" fill="#e8e2d6"/>
 <rect x="300" y="120" width="10" height="22" rx="11" fill="#4f6d7a"/>
 <text x="912" y="138" text-anchor="end" font-size="15" font-weight="700">214</text>
-<text x="28" y="184" font-size="15">band C（avg value 52.6）</text>
+<text x="28" y="184" font-size="15">band C（avg value 52.7）</text>
 <rect x="300" y="166" width="600" height="22" rx="11" fill="#e8e2d6"/>
 <rect x="300" y="166" width="73" height="22" rx="11" fill="#5da399"/>
-<text x="912" y="184" text-anchor="end" font-size="15" font-weight="700">1,544</text>
+<text x="912" y="184" text-anchor="end" font-size="15" font-weight="700">1,556</text>
 <text x="28" y="230" font-size="15">band D（avg value 33.7）</text>
 <rect x="300" y="212" width="600" height="22" rx="11" fill="#e8e2d6"/>
 <rect x="300" y="212" width="600" height="22" rx="11" fill="#d4a373"/>
-<text x="912" y="230" text-anchor="end" font-size="15" font-weight="700">12,633</text>
+<text x="912" y="230" text-anchor="end" font-size="15" font-weight="700">12,635</text>
 </svg>
