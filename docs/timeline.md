@@ -5,6 +5,24 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 2026-08-16T03:13:50Z | github | ecosystem-reference | [WJNCT55555/dsh-achievements](https://github.com/WJNCT55555/dsh-achievements) | WJNCT55555 | ui-and-desktop |
+| 2026-08-16 | github | plugin | [dsh-desktop-pet](https://github.com/xiaoshihou514/dsh-desktop-pet) | xiaoshihou514 | ui-and-desktop |
+| 2026-08-16 | github | plugin | [dsh-filetree](https://github.com/lak321/dsh-filetree) | lak321 | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-guardian](https://github.com/cdxiaodong/dsh-guardian) | cdxiaodong | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-llm-inspector](https://github.com/cdxiaodong/dsh-llm-inspector) | cdxiaodong | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-msgrail](https://github.com/futongxu9-maker/dsh-msgrail) | futongxu9-maker | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-path-reveal](https://github.com/futongxu9-maker/dsh-path-reveal) | futongxu9-maker | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-shared-memory](https://github.com/futongxu9-maker/dsh-shared-memory) | futongxu9-maker | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-tui](https://github.com/xiaoshihou514/dsh-tui) | xiaoshihou514 | ui-and-desktop |
+| 2026-08-16 | github | plugin | [dsh-vision](https://github.com/xiaoshihou514/dsh-vision) | xiaoshihou514 | multimedia-and-vision |
+| 2026-08-16 | github | plugin | [dsh-weixin](https://github.com/xiaoshihou514/dsh-weixin) | xiaoshihou514 | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-whale-galgame](https://github.com/JAdpp/dsh-whale-galgame) | JAdpp | core-and-ecosystem |
+| 2026-08-16T03:13:50Z | github | ecosystem-reference | [kirigayakazima/dsh-usage-vendor-stats](https://github.com/kirigayakazima/dsh-usage-vendor-stats) | kirigayakazima | operations-and-safety |
+| 2026-08-16T03:13:50Z | github | ecosystem-reference | [linhx1999/dsh-writing-pad](https://github.com/linhx1999/dsh-writing-pad) | linhx1999 | core-and-ecosystem |
+| 2026-08-16T03:13:50Z | github | plugin | [luumod/dsh-achievements](https://github.com/luumod/dsh-achievements) | luumod | core-and-ecosystem |
+| 2026-08-16T03:13:50Z | github | ecosystem-reference | [moononnn/DeepSeek-Harness-Hanako-Memory](https://github.com/moononnn/DeepSeek-Harness-Hanako-Memory) | moononnn | core-and-ecosystem |
+| 2026-08-16T03:13:50Z | github | ecosystem-reference | [xxiaoxiong/dsh-ci](https://github.com/xxiaoxiong/dsh-ci) | xxiaoxiong | index-and-marketplace |
+| 2026-08-16T03:13:50Z | github | ecosystem-reference | [xxiaoxiong/dsh-kubernetes](https://github.com/xxiaoxiong/dsh-kubernetes) | xxiaoxiong | core-and-ecosystem |
 | 昨天 11:08 | xiaohongshu | note | [DeepSeek Harness 10大实用高⭐插件](https://www.xiaohongshu.com/explore/6a7fd835000000002800a264) | 马克波MarkWave | core-and-ecosystem |
 | 1天前 | xiaohongshu | note | [DeepSeek Harness 必装插件分享（个人实测](https://www.xiaohongshu.com/explore/6a7f5ce00000000025002e94) | 和AI一起成长 | core-and-ecosystem |
 | 2小时前 | xiaohongshu | note | [DeepSeek Harness 背后技术揭秘](https://www.xiaohongshu.com/explore/6a80b85a0000000029030686) | 机智的哒哒学姐 | core-and-ecosystem |

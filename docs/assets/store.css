@@ -86,11 +86,15 @@ button { color: inherit; }
 .signal-source a { color: var(--green); font-weight: 750; white-space: nowrap; }
 .signal-action { width: 63px; text-align: right; }
 .table-action, .card-use, .card-view { display: inline-flex; align-items: center; justify-content: center; min-height: 30px; padding: 0 9px; border: 1px solid var(--line); background: transparent; color: var(--green); cursor: pointer; font-size: 11px; font-weight: 750; white-space: nowrap; }
-.table-action:hover, .card-use:hover, .card-view:hover { border-color: var(--green); background: #e9f0ea; color: var(--green); }
+.table-action:hover, .card-use:hover, .card-use:focus-visible, .card-view:hover { border-color: var(--green); background: #e9f0ea; color: var(--green); }
 .signal-empty { padding: 32px 15px !important; color: var(--muted); text-align: center; }
 .card-actions { display: flex; justify-content: space-between; gap: 8px; margin-top: 13px; padding-top: 11px; border-top: 1px solid var(--line); }
 .card-view { border-color: transparent; color: var(--muted); }
-.card-use { border-color: var(--green); }
+.card-use { border-color: var(--green); transition: transform .16s ease, box-shadow .16s ease, background-color .16s ease, color .16s ease; }
+.card-use:hover, .card-use:focus-visible { transform: translateY(-2px); box-shadow: 0 6px 14px rgba(35, 122, 104, .2); }
+.card-use:focus-visible { outline: 2px solid var(--orange); outline-offset: 2px; }
+.card-use:active { transform: translateY(0); box-shadow: 0 2px 5px rgba(35, 122, 104, .14); }
+@media (prefers-reduced-motion: reduce) { .card-use { transition: none; }.card-use:hover, .card-use:focus-visible, .card-use:active { transform: none; } }
 .install-command { display: flex; align-items: center; gap: 10px; width: 100%; }
 .install-command code { min-width: 0; overflow: hidden; color: var(--green); font: 12px ui-monospace, SFMono-Regular, Menlo, monospace; text-overflow: ellipsis; white-space: nowrap; }
 .install-command .copy-install { flex: 0 0 auto; min-height: 30px; padding: 0 10px; border: 1px solid var(--green); background: var(--green); color: #fff; cursor: pointer; font-size: 11px; font-weight: 750; }
