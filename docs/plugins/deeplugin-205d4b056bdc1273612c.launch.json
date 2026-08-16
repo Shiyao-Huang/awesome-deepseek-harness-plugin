@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-205d4b056bdc1273612c",
+    "name": "dsh-continual-evolve",
+    "author": "ZK-Andy",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/ZK-Andy/dsh-continual-evolve",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-205d4b056bdc1273612c.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-205d4b056bdc1273612c.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-continual-evolve",
+    "command": "dsh plugin --profile web add dsh-continual-evolve",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-205d4b056bdc1273612c，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-205d4b056bdc1273612c.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-205d4b056bdc1273612c.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-continual-evolve 已收录到 DeepSeek Harness Plugin Store。持续自进化：从会话轨迹沉淀版本化、可审计、可回滚的 harness 状态（提示词/记忆/技能/子代理规格），带审查门禁与技能热加载。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-205d4b056bdc1273612c.html",
+    "en": "dsh-continual-evolve is now listed on the DeepSeek Harness Plugin Store. Continual self-evolution: versioned, auditable, rollback-safe harness state (prompts, memory, skills, subagent specs) refined from session trajectories, with review gates and hot-reloaded skills.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-205d4b056bdc1273612c.html"
+  }
+}

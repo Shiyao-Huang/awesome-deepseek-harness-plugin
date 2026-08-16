@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-8fe4b2a0bb8ce2f3f481",
+    "name": "dsh-flomo",
+    "author": "zhengjy01",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/zhengjy01/dsh-flomo",
+    "firstObservedAt": "2026-08-16T09:56:16Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-8fe4b2a0bb8ce2f3f481.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-8fe4b2a0bb8ce2f3f481.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-flomo",
+    "command": "dsh plugin --profile web add dsh-flomo",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-8fe4b2a0bb8ce2f3f481，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-8fe4b2a0bb8ce2f3f481.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-8fe4b2a0bb8ce2f3f481.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-flomo 已收录到 DeepSeek Harness Plugin Store。配置一次 flomo API URL / API Key，Agent 即可用 flomo_send 把笔记、摘要、待办写进 flomo（浮墨笔记）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-8fe4b2a0bb8ce2f3f481.html",
+    "en": "dsh-flomo is now listed on the DeepSeek Harness Plugin Store. Write notes and memos to flomo (浮墨笔记) from any agent via the flomo_send tool, configured once with the flomo API URL or API Key.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-8fe4b2a0bb8ce2f3f481.html"
+  }
+}

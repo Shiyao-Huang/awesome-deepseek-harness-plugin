@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-48ca48d2f1b5b7d86eb5",
+    "name": "dsh-mobile-gui-agent",
+    "author": "kunjinkao-os",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/kunjinkao-os/dsh-mobile-gui-agent",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-48ca48d2f1b5b7d86eb5.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-48ca48d2f1b5b7d86eb5.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:kunjinkao-os/dsh-mobile-gui-agent",
+    "command": "dsh plugin --profile web add github:kunjinkao-os/dsh-mobile-gui-agent",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-48ca48d2f1b5b7d86eb5，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-48ca48d2f1b5b7d86eb5.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-48ca48d2f1b5b7d86eb5.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-mobile-gui-agent 已收录到 DeepSeek Harness Plugin Store。Android GUI Agent：ADB 截图、压缩 UI hierarchy 定位、逐步动作验证、审批和 Mobile Web 视图。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-48ca48d2f1b5b7d86eb5.html",
+    "en": "dsh-mobile-gui-agent is now listed on the DeepSeek Harness Plugin Store. Android GUI Agent with ADB screenshots, compact UI hierarchy grounding, verified iterative actions, approvals, and a Mobile Web view.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-48ca48d2f1b5b7d86eb5.html"
+  }
+}

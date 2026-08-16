@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-713f757a7087b54abef8",
+    "name": "dsh-web-ui",
+    "author": "zhu1090093659",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/zhu1090093659/dsh-web-ui",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-713f757a7087b54abef8.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-713f757a7087b54abef8.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:zhu1090093659/dsh-web-ui",
+    "command": "dsh plugin --profile web add github:zhu1090093659/dsh-web-ui",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-713f757a7087b54abef8，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-713f757a7087b54abef8.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-713f757a7087b54abef8.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-web-ui 已收录到 DeepSeek Harness Plugin Store。DSH Web UI 插件与皮肤合集：任务看板、git 图、右侧面板、远程移动端 UI、桌宠、实时 token 统计与皮肤中心。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-713f757a7087b54abef8.html",
+    "en": "dsh-web-ui is now listed on the DeepSeek Harness Plugin Store. Plugin and skin collection for the DSH Web UI: task board, Git graph, right-side panel, remote mobile UI, pet, live token stats, and a skin center.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-713f757a7087b54abef8.html"
+  }
+}

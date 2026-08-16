@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-564b979ffbbe75bf8b2c",
+    "name": "dsh-remote-tunnel",
+    "author": "Linjiangxian0203",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/Linjiangxian0203/dsh-remote-tunnel",
+    "firstObservedAt": "2026-08-16T05:04:11Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-564b979ffbbe75bf8b2c.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-564b979ffbbe75bf8b2c.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-remote-tunnel",
+    "command": "dsh plugin --profile web add dsh-remote-tunnel",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-564b979ffbbe75bf8b2c，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-564b979ffbbe75bf8b2c.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-564b979ffbbe75bf8b2c.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-remote-tunnel 已收录到 DeepSeek Harness Plugin Store。远程主机隧道管理器：把 dsh web 跑在远程 Linux 服务器上（systemd 守护、免 root），本地经自动重连的 SSH 隧道访问；远程端口自动分配并在服务器登记留档，支持多人共用与 audit 审查。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-564b979ffbbe75bf8b2c.html",
+    "en": "dsh-remote-tunnel is now listed on the DeepSeek Harness Plugin Store. Remote host tunnel manager: runs dsh web on a remote Linux server (systemd supervision, no root needed) behind an auto-reconnecting SSH tunnel; allocates and registers remote ports on the server, multi-user safe, with an audit view.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-564b979ffbbe75bf8b2c.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a417a1425169ff0c9c15",
+    "name": "dsh-power-button",
+    "author": "huasheng33991",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/huasheng33991/dsh-power-button",
+    "firstObservedAt": "2026-08-16T14:38:49Z",
+    "lastChangedAt": "2026-08-16T14:38:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a417a1425169ff0c9c15.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a417a1425169ff0c9c15.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:huasheng33991/dsh-power-button",
+    "command": "dsh plugin --profile web add github:huasheng33991/dsh-power-button",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a417a1425169ff0c9c15，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a417a1425169ff0c9c15.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a417a1425169ff0c9c15.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-power-button 已收录到 DeepSeek Harness Plugin Store。固定在窗口右下角的一键启停按钮：通过脱离终端的辅助进程按原始启动命令重启 DeepSeek Harness（仅本机同源可调），附「仅停止」小按钮。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a417a1425169ff0c9c15.html",
+    "en": "dsh-power-button is now listed on the DeepSeek Harness Plugin Store. One-click start/stop button pinned to the window bottom-right corner: restarts DeepSeek Harness in place via a detached helper that relaunches the exact boot invocation (loopback same-origin guarded), with an optional stop-only action.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a417a1425169ff0c9c15.html"
+  }
+}

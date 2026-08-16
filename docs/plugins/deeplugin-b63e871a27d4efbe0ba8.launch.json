@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-b63e871a27d4efbe0ba8",
+    "name": "dsh-remote",
+    "author": "flymysql",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/flymysql/dsh-remote",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-b63e871a27d4efbe0ba8.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-b63e871a27d4efbe0ba8.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:flymysql/dsh-remote",
+    "command": "dsh plugin --profile web add github:flymysql/dsh-remote",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-b63e871a27d4efbe0ba8，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-b63e871a27d4efbe0ba8.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b63e871a27d4efbe0ba8.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-remote 已收录到 DeepSeek Harness Plugin Store。远程工作区：SSH 密码或 key 连接远程主机，选取远程工作区目录，用 rw_pick_workspace / rw_list_dir / rw_read_file / rw_exec 工具在远程直接操作。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b63e871a27d4efbe0ba8.html",
+    "en": "dsh-remote is now listed on the DeepSeek Harness Plugin Store. Remote workspace: connect a host over SSH (password or key), pick a remote workspace directory and operate on it with rw_pick_workspace / rw_list_dir / rw_read_file / rw_exec tools.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b63e871a27d4efbe0ba8.html"
+  }
+}

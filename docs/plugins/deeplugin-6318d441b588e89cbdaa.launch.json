@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-6318d441b588e89cbdaa",
+    "name": "dsh-global-rules",
+    "author": "badai147",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/badai147/dsh-global-rules",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-6318d441b588e89cbdaa.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-6318d441b588e89cbdaa.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-global-rules",
+    "command": "dsh plugin --profile web add dsh-global-rules",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-6318d441b588e89cbdaa，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-6318d441b588e89cbdaa.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-6318d441b588e89cbdaa.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-global-rules 已收录到 DeepSeek Harness Plugin Store。在设置面板中编辑 ~/.dsh/AGENTS.md 全局规则，保存后实时生效。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-6318d441b588e89cbdaa.html",
+    "en": "dsh-global-rules is now listed on the DeepSeek Harness Plugin Store. Edit the global ~/.dsh/AGENTS.md rules from the web settings panel, live on save.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-6318d441b588e89cbdaa.html"
+  }
+}

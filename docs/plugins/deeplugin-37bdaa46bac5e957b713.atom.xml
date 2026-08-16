@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-subagent-model-picker — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-37bdaa46bac5e957b713.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-37bdaa46bac5e957b713.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-37bdaa46bac5e957b713.html"/>
+  <entry>
+    <title>Updated: dsh-subagent-model-picker</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-37bdaa46bac5e957b713/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-37bdaa46bac5e957b713.html"/>
+    <author><name>ringoage</name></author>
+    <category term="model"/>
+    <summary>A GUI subagent-model selector beside the main model seat: pick a model and reasoning effort per session, applied to every in-process subagent. Exact install spec: github:ringoage/dsh-subagent-model-picker. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-subagent-model-picker</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-37bdaa46bac5e957b713/6f2ac25403078bce</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-37bdaa46bac5e957b713.html"/>
+    <author><name>ringoage</name></author>
+    <category term="model"/>
+    <summary>A GUI subagent-model selector beside the main model seat: pick a model and reasoning effort per session, applied to every in-process subagent. Exact install spec: github:ringoage/dsh-subagent-model-picker. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

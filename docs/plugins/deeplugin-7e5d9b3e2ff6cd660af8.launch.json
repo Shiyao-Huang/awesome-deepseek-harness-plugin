@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-7e5d9b3e2ff6cd660af8",
+    "name": "dsh-mobile-pwa",
+    "author": "zylzyqzz",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/zylzyqzz/dsh-mobile-pwa",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-7e5d9b3e2ff6cd660af8.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-7e5d9b3e2ff6cd660af8.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-mobile-pwa",
+    "command": "dsh plugin --profile web add dsh-mobile-pwa",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-7e5d9b3e2ff6cd660af8，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-7e5d9b3e2ff6cd660af8.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-7e5d9b3e2ff6cd660af8.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-mobile-pwa 已收录到 DeepSeek Harness Plugin Store。基于 dsh-mobile-gate 的完整移动端 PWA：安全远程访问网关 + 可安装到主屏（manifest + service worker）+ 离线可用 + 触屏手势（下拉刷新/边缘返弹/捏合缩放字体）+ agent 完成推送 + 触屏优先布局，桌面零影响。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-7e5d9b3e2ff6cd660af8.html",
+    "en": "dsh-mobile-pwa is now listed on the DeepSeek Harness Plugin Store. Complete mobile PWA for DSH, built on dsh-mobile-gate: secure remote-access gateway plus install-to-homescreen (manifest + service worker), offline capability, touch gestures (pull-to-refresh, edge-swipe back, pinch-zoom font), agent-done push notifications, and touch-first layout — desktop unaffected.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-7e5d9b3e2ff6cd660af8.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-603ea828514a5030fc3f",
+    "name": "dsh-restart-button",
+    "author": "keyiadiannao",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/keyiadiannao/dsh-restart-button",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-603ea828514a5030fc3f.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-603ea828514a5030fc3f.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:keyiadiannao/dsh-restart-button",
+    "command": "dsh plugin --profile web add github:keyiadiannao/dsh-restart-button",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-603ea828514a5030fc3f，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-603ea828514a5030fc3f.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-603ea828514a5030fc3f.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-restart-button 已收录到 DeepSeek Harness Plugin Store。一个小而自洽的 DSH 电源控制插件：侧边栏电源按钮 + 上拉「重启/关机」菜单 + Windows 关机风格过渡遮罩。自带重启/关机引擎（不依赖其它插件），动态端口适配。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-603ea828514a5030fc3f.html",
+    "en": "dsh-restart-button is now listed on the DeepSeek Harness Plugin Store. A small self-contained power control for DSH: sidebar power button with an upward restart/shutdown menu and a Windows-shutdown-style overlay. Own restart & shutdown engine (no dependency on other plugins), dynamic-port aware.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-603ea828514a5030fc3f.html"
+  }
+}

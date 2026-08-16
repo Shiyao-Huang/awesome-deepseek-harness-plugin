@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-unarchive — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-4296f9a97b941236b6ac.atom.xml</id>
+  <updated>2026-08-16T14:38:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-4296f9a97b941236b6ac.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-4296f9a97b941236b6ac.html"/>
+  <entry>
+    <title>New: dsh-unarchive</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-4296f9a97b941236b6ac/74cc81187adf2ff6</id>
+    <updated>2026-08-16T14:38:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-4296f9a97b941236b6ac.html"/>
+    <author><name>edfrey0044</name></author>
+    <category term="session"/>
+    <summary>Restore archived sessions: a /unarchive command and an unarchive_session tool that remove sessions from the archive set so they reappear in the workspace at their original position (archiving never deletes data). Exact install spec: github:edfrey0044/dsh-unarchive. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

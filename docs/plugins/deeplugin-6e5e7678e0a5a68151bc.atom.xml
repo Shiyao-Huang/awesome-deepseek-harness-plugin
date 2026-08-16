@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-opencodego-usage — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-6e5e7678e0a5a68151bc.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-6e5e7678e0a5a68151bc.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-6e5e7678e0a5a68151bc.html"/>
+  <entry>
+    <title>Updated: dsh-opencodego-usage</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-6e5e7678e0a5a68151bc/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-6e5e7678e0a5a68151bc.html"/>
+    <author><name>BeiZi6</name></author>
+    <category term="ui"/>
+    <summary>OpenCodeGo quota monitor for the DSH Web GUI: a breathing indicator at the input's bottom-right (green/yellow/red by remaining share), a liquid-glass panel with rolling/weekly/monthly usage windows and reset times, auto-refreshing every 30 s; API key read from DSH credentials. Exact install spec: github:beizi6/dsh-opencodego-usage. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-opencodego-usage</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-6e5e7678e0a5a68151bc/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-6e5e7678e0a5a68151bc.html"/>
+    <author><name>BeiZi6</name></author>
+    <category term="ui"/>
+    <summary>OpenCodeGo quota monitor for the DSH Web GUI: a breathing indicator at the input's bottom-right (green/yellow/red by remaining share), a liquid-glass panel with rolling/weekly/monthly usage windows and reset times, auto-refreshing every 30 s; API key read from DSH credentials. Exact install spec: github:beizi6/dsh-opencodego-usage. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-opencodego-usage</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-6e5e7678e0a5a68151bc/19f118ecfd65ceec</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-6e5e7678e0a5a68151bc.html"/>
+    <author><name>BeiZi6</name></author>
+    <category term="ui"/>
+    <summary>OpenCodeGo quota monitor for the DSH Web GUI: a breathing indicator at the input's bottom-right (green/yellow/red by remaining share), a liquid-glass panel with rolling/weekly/monthly usage windows and reset times, auto-refreshing every 30 s; API key read from DSH credentials. Exact install spec: github:beizi6/dsh-opencodego-usage. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-opencodego-usage</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-6e5e7678e0a5a68151bc/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-6e5e7678e0a5a68151bc.html"/>
+    <author><name>BeiZi6</name></author>
+    <category term="ui"/>
+    <summary>OpenCodeGo quota monitor for the DSH Web GUI: a breathing indicator at the input's bottom-right (green/yellow/red by remaining share), a liquid-glass panel with rolling/weekly/monthly usage windows and reset times, auto-refreshing every 30 s; API key read from DSH credentials. Exact install spec: github:beizi6/dsh-opencodego-usage. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

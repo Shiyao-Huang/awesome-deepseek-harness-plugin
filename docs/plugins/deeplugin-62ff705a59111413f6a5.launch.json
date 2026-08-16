@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-62ff705a59111413f6a5",
+    "name": "dsh-harness-mcp-server",
+    "author": "chushixixin",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/chushixixin/dsh-harness-mcp-server",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-62ff705a59111413f6a5.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-62ff705a59111413f6a5.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@chushixixin/dsh-harness-mcp-server",
+    "command": "dsh plugin --profile web add @chushixixin/dsh-harness-mcp-server",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-62ff705a59111413f6a5，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-62ff705a59111413f6a5.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-62ff705a59111413f6a5.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-harness-mcp-server 已收录到 DeepSeek Harness Plugin Store。MCP server 让任意 MCP 客户端驱动 Harness agent。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-62ff705a59111413f6a5.html",
+    "en": "dsh-harness-mcp-server is now listed on the DeepSeek Harness Plugin Store. MCP server that lets any MCP client drive the Harness agent.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-62ff705a59111413f6a5.html"
+  }
+}

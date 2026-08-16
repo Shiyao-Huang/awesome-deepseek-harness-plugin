@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-b3c4a41cf1b47ff7bd8a",
+    "name": "dsh-suite#plugin-notify",
+    "author": "whyihaveyou",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/whyihaveyou/dsh-suite/tree/main/packages/plugins/plugin-notify",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-b3c4a41cf1b47ff7bd8a.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-b3c4a41cf1b47ff7bd8a.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:whyihaveyou/dsh-suite#path:/packages/plugins/plugin-notify",
+    "command": "dsh plugin --profile web add github:whyihaveyou/dsh-suite#path:/packages/plugins/plugin-notify",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-b3c4a41cf1b47ff7bd8a，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-b3c4a41cf1b47ff7bd8a.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b3c4a41cf1b47ff7bd8a.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-suite#plugin-notify 已收录到 DeepSeek Harness Plugin Store。回合完成、错误或待审批时推送 IM webhook（飞书/企微/钉钉/Slack/Discord/自定义）与本地通知。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b3c4a41cf1b47ff7bd8a.html",
+    "en": "dsh-suite#plugin-notify is now listed on the DeepSeek Harness Plugin Store. IM webhook and local notifications on turn completion, errors, or approval (Feishu/WeCom/DingTalk/Slack/Discord/custom).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b3c4a41cf1b47ff7bd8a.html"
+  }
+}

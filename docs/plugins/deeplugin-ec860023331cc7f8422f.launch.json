@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-ec860023331cc7f8422f",
+    "name": "dsh-homepage-skin",
+    "author": "yushi-xxh",
+    "category": "fun",
+    "version": null,
+    "homepage": "https://github.com/yushi-xxh/dsh-homepage-skin",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-ec860023331cc7f8422f.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-ec860023331cc7f8422f.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-homepage-skin",
+    "command": "dsh plugin --profile web add dsh-homepage-skin",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-ec860023331cc7f8422f，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-ec860023331cc7f8422f.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-ec860023331cc7f8422f.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-homepage-skin 已收录到 DeepSeek Harness Plugin Store。给 dsh web 铺上 DeepSeek Harness 首页同款背景：WebGL 流体光效、点线网格与数字点云鲸鱼，深色/亮色两套配色。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-ec860023331cc7f8422f.html",
+    "en": "dsh-homepage-skin is now listed on the DeepSeek Harness Plugin Store. Adds the DeepSeek Harness homepage background to dsh web: WebGL fluid light, dot-line grid and a digital point-cloud whale, with dark and light palettes.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-ec860023331cc7f8422f.html"
+  }
+}

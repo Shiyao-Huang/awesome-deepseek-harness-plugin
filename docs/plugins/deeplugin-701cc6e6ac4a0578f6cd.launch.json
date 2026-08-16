@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-701cc6e6ac4a0578f6cd",
+    "name": "dsh-liquid-glass",
+    "author": "Ultronen",
+    "category": "theme",
+    "version": null,
+    "homepage": "https://github.com/xingyingyuzhui/dsh-liquid-glass",
+    "firstObservedAt": "2026-08-16T01:57:51Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-701cc6e6ac4a0578f6cd.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-701cc6e6ac4a0578f6cd.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-liquid-glass",
+    "command": "dsh plugin --profile web add dsh-liquid-glass",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-701cc6e6ac4a0578f6cd，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-701cc6e6ac4a0578f6cd.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-701cc6e6ac4a0578f6cd.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-liquid-glass 已收录到 DeepSeek Harness Plugin Store。一键让整个 DeepSeek Harness 界面通透起来：透明度滑块随心调，背景图自由换。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-701cc6e6ac4a0578f6cd.html",
+    "en": "dsh-liquid-glass is now listed on the DeepSeek Harness Plugin Store. One toggle makes the whole DeepSeek Harness shell translucent, with an opacity slider and a custom full-page background.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-701cc6e6ac4a0578f6cd.html"
+  }
+}

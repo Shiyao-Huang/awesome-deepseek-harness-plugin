@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-33d3d90d7bb74088cdfd",
+    "name": "dsh-task-planner",
+    "author": "ztl34245881-commits",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/ztl34245881-commits/dsh-task-planner",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-33d3d90d7bb74088cdfd.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-33d3d90d7bb74088cdfd.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:ztl34245881-commits/dsh-task-planner",
+    "command": "dsh plugin --profile web add github:ztl34245881-commits/dsh-task-planner",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-33d3d90d7bb74088cdfd，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-33d3d90d7bb74088cdfd.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-33d3d90d7bb74088cdfd.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-task-planner 已收录到 DeepSeek Harness Plugin Store。带经验肌肉记忆的任务规划：条件反射检索历史方案 + LLM 能力匹配 + 经验自动沉淀。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-33d3d90d7bb74088cdfd.html",
+    "en": "dsh-task-planner is now listed on the DeepSeek Harness Plugin Store. Task planning with experience muscle-memory: condition-reflex recall of past solutions, LLM capability matching, and auto-persisted lessons.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-33d3d90d7bb74088cdfd.html"
+  }
+}

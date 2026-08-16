@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-bb197f8889955913d198",
+    "name": "dsh-galgame",
+    "author": "Lanxing6480",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/Lanxing6480/dsh-galgame",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-bb197f8889955913d198.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-bb197f8889955913d198.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:lanxing6480/dsh-galgame",
+    "command": "dsh plugin --profile web add github:lanxing6480/dsh-galgame",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-bb197f8889955913d198，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-bb197f8889955913d198.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-bb197f8889955913d198.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-galgame 已收录到 DeepSeek Harness Plugin Store。DSH Web 聊天界面 GalGame 演出层：立绘差分、流式思考气泡、打字机对话框与 GalGame 式提问/审批选项框，可随时切回普通聊天。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-bb197f8889955913d198.html",
+    "en": "dsh-galgame is now listed on the DeepSeek Harness Plugin Store. A visual-novel presentation layer for the DSH Web chat view: portrait diffs, streaming thought bubble, typewriter dialogue, and GalGame-style question/approval panels; switch back to the normal chat anytime.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-bb197f8889955913d198.html"
+  }
+}

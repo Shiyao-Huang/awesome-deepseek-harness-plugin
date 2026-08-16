@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-813a5e39bbdfd1273706",
+    "name": "dsh-reasoning-slider",
+    "author": "qjcnmd",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/qjcnmd/dsh-reasoning-slider",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-813a5e39bbdfd1273706.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-813a5e39bbdfd1273706.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "reasoning-slider",
+    "command": "dsh plugin --profile web add reasoning-slider",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-813a5e39bbdfd1273706，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-813a5e39bbdfd1273706.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-813a5e39bbdfd1273706.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-reasoning-slider 已收录到 DeepSeek Harness Plugin Store。Codex 风格推理等级滑块，内嵌于模型选择器，拖动切换推理档位。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-813a5e39bbdfd1273706.html",
+    "en": "dsh-reasoning-slider is now listed on the DeepSeek Harness Plugin Store. Codex-style reasoning-effort slider embedded in the model selector.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-813a5e39bbdfd1273706.html"
+  }
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-doctor — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-e22d68bca3961a841f12.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-e22d68bca3961a841f12.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e22d68bca3961a841f12.html"/>
+  <entry>
+    <title>Updated: dsh-doctor</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-e22d68bca3961a841f12/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e22d68bca3961a841f12.html"/>
+    <author><name>asdf17128</name></author>
+    <category term="dev"/>
+    <summary>Registers a `config_doctor` tool that checks the harness's own configuration for problems that boot silently: fields a patch dropped by whole-config replacement, patches targeting missing entry ids, and tool-name collisions. Read-only. Exact install spec: github:asdf17128/dsh-doctor. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-doctor</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-e22d68bca3961a841f12/b476c8efafe56fb3</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e22d68bca3961a841f12.html"/>
+    <author><name>asdf17128</name></author>
+    <category term="dev"/>
+    <summary>Registers a `config_doctor` tool that checks the harness's own configuration for problems that boot silently: fields a patch dropped by whole-config replacement, patches targeting missing entry ids, and tool-name collisions. Read-only. Exact install spec: github:asdf17128/dsh-doctor. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-doctor</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-e22d68bca3961a841f12/7cc2b014d07ab963</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e22d68bca3961a841f12.html"/>
+    <author><name>asdf17128</name></author>
+    <category term="dev"/>
+    <summary>Registers a `config_doctor` tool that checks the harness's own configuration for problems that boot silently: fields a patch dropped by whole-config replacement, patches targeting missing entry ids, and tool-name collisions. Read-only. Exact install spec: github:asdf17128/dsh-doctor. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-34adfe209a650c146af3",
+    "name": "dsh-plugin-notify-sound",
+    "author": "ldchaowin",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/ldchaowin/dsh-plugin-notify-sound",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-34adfe209a650c146af3.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-34adfe209a650c146af3.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-plugin-notify-sound",
+    "command": "dsh plugin --profile web add dsh-plugin-notify-sound",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-34adfe209a650c146af3，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-34adfe209a650c146af3.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-34adfe209a650c146af3.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-notify-sound 已收录到 DeepSeek Harness Plugin Store。按工作区定制的任务完成铃声，以及审批、提问、计划评审、目标受阻、任务失败等需要人介入事件的注意提示音，支持内置合成音、语音播报与自定义音频。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-34adfe209a650c146af3.html",
+    "en": "dsh-plugin-notify-sound is now listed on the DeepSeek Harness Plugin Store. Per-workspace completion ringtones plus attention sounds for approval, question, plan-review, goal-blocked, and task-failure events, with built-in synth, voice (TTS), and custom audio.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-34adfe209a650c146af3.html"
+  }
+}

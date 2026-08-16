@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-c5605e4211153cb00148",
+    "name": "dsh-session-link",
+    "author": "PwnKY",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/PwnKY/dsh-session-link",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-c5605e4211153cb00148.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-c5605e4211153cb00148.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-session-link",
+    "command": "dsh plugin --profile web add dsh-session-link",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-c5605e4211153cb00148，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-c5605e4211153cb00148.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-c5605e4211153cb00148.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-session-link 已收录到 DeepSeek Harness Plugin Store。复制、打开 `dsh://` 会话深链，或将其粘贴到另一对话中，注入被引用会话的受限只读快照。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c5605e4211153cb00148.html",
+    "en": "dsh-session-link is now listed on the DeepSeek Harness Plugin Store. Copy and open `dsh://` session deep links, or paste them into another conversation to inject a bounded, read-only snapshot of the referenced session.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-c5605e4211153cb00148.html"
+  }
+}

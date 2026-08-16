@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-02af9567dc94a5dee024",
+    "name": "dsh-foundry",
+    "author": "hellosky983",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/hellosky983/dsh-foundry",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-02af9567dc94a5dee024.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-02af9567dc94a5dee024.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:hellosky983/dsh-foundry",
+    "command": "dsh plugin --profile web add github:hellosky983/dsh-foundry",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-02af9567dc94a5dee024，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-02af9567dc94a5dee024.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-02af9567dc94a5dee024.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-foundry 已收录到 DeepSeek Harness Plugin Store。插件编译器：以运行时服务提供蓝图注册表（脚手架 → 校验 → 部署），配三个模型工具和一个蓝图画廊设置页。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-02af9567dc94a5dee024.html",
+    "en": "dsh-foundry is now listed on the DeepSeek Harness Plugin Store. Plugin compiler with a blueprint registry (scaffold → validate → deploy) exposed as a runtime service, three model tools, and a blueprint-gallery settings page.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-02af9567dc94a5dee024.html"
+  }
+}

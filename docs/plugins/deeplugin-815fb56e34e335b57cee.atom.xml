@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-memory-gate — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-815fb56e34e335b57cee.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-815fb56e34e335b57cee.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-815fb56e34e335b57cee.html"/>
+  <entry>
+    <title>Updated: dsh-memory-gate</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-815fb56e34e335b57cee/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-815fb56e34e335b57cee.html"/>
+    <author><name>GIT121995</name></author>
+    <category term="memory"/>
+    <summary>Bounded local memory with CBDC authority gating: SQLite + FTS5 claims, scoped recall with explainable use/verify/ignore decisions and a full audit trail, /memory commands, ≤3-claim/1200-char injection per call, no extra model call. Exact install spec: dsh-memory-gate. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-memory-gate</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-815fb56e34e335b57cee/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-815fb56e34e335b57cee.html"/>
+    <author><name>GIT121995</name></author>
+    <category term="memory"/>
+    <summary>Bounded local memory with CBDC authority gating: SQLite + FTS5 claims, scoped recall with explainable use/verify/ignore decisions and a full audit trail, /memory commands, ≤3-claim/1200-char injection per call, no extra model call. Exact install spec: dsh-memory-gate. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-memory-gate</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-815fb56e34e335b57cee/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-815fb56e34e335b57cee.html"/>
+    <author><name>GIT121995</name></author>
+    <category term="memory"/>
+    <summary>Bounded local memory with CBDC authority gating: SQLite + FTS5 claims, scoped recall with explainable use/verify/ignore decisions and a full audit trail, /memory commands, ≤3-claim/1200-char injection per call, no extra model call. Exact install spec: dsh-memory-gate. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

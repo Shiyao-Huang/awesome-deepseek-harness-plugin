@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-12312c43e7cf11cde242",
+    "name": "dsh-context-doctor",
+    "author": "Zhenyu98",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/Zhenyu98/dsh-context-doctor",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-12312c43e7cf11cde242.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-12312c43e7cf11cde242.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:zhenyu98/dsh-context-doctor",
+    "command": "dsh plugin --profile web add github:zhenyu98/dsh-context-doctor",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-12312c43e7cf11cde242，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-12312c43e7cf11cde242.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-12312c43e7cf11cde242.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-context-doctor 已收录到 DeepSeek Harness Plugin Store。上下文注入审计：统计指令链/技能目录/工具 schema 的 token 成本，检测重复与冲突。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-12312c43e7cf11cde242.html",
+    "en": "dsh-context-doctor is now listed on the DeepSeek Harness Plugin Store. Context injection audit: token costs of instruction chains / skill catalogs / tool schemas, duplicate and conflict detection.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-12312c43e7cf11cde242.html"
+  }
+}

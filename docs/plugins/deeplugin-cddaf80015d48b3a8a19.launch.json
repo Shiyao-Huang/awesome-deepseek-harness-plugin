@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-cddaf80015d48b3a8a19",
+    "name": "dsh-koboldcpp-hands",
+    "author": "MicroHEROX",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/MicroHEROX/dsh-koboldcpp-hands",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-cddaf80015d48b3a8a19.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-cddaf80015d48b3a8a19.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-koboldcpp-hands",
+    "command": "dsh plugin --profile web add dsh-koboldcpp-hands",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-cddaf80015d48b3a8a19，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-cddaf80015d48b3a8a19.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-cddaf80015d48b3a8a19.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-koboldcpp-hands 已收录到 DeepSeek Harness Plugin Store。给在线模型装上本地双手：koboldcpp_run 与 koboldcpp_vision 工具把重复的文本与视觉（OCR、图像分析、对比）劳动交给本地 KoboldCpp（llama.cpp）服务器，并按需拉起与管理服务器生命周期。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-cddaf80015d48b3a8a19.html",
+    "en": "dsh-koboldcpp-hands is now listed on the DeepSeek Harness Plugin Store. Hands repetitive text and vision labor (OCR, image analysis, comparison) to a local KoboldCpp (llama.cpp) server through koboldcpp_run and koboldcpp_vision tools, with on-demand server lifecycle management.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-cddaf80015d48b3a8a19.html"
+  }
+}

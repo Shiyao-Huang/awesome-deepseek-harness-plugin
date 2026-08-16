@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-7fbc0ce333a4caf96640",
+    "name": "deepseek-harness-forge-plugins#forge-tcm",
+    "author": "jinguanghai",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/jinguanghai/deepseek-harness-forge-plugins/tree/main/plugins/forge-tcm",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-7fbc0ce333a4caf96640.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-7fbc0ce333a4caf96640.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:jinguanghai/deepseek-harness-forge-plugins#path:/plugins/forge-tcm",
+    "command": "dsh plugin --profile web add github:jinguanghai/deepseek-harness-forge-plugins#path:/plugins/forge-tcm",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-7fbc0ce333a4caf96640，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-7fbc0ce333a4caf96640.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-7fbc0ce333a4caf96640.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "deepseek-harness-forge-plugins#forge-tcm 已收录到 DeepSeek Harness Plugin Store。中医工具集：八纲辨证与药对查询。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-7fbc0ce333a4caf96640.html",
+    "en": "deepseek-harness-forge-plugins#forge-tcm is now listed on the DeepSeek Harness Plugin Store. Traditional Chinese Medicine toolkit: eight-axes diagnosis and herb-pair lookup.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-7fbc0ce333a4caf96640.html"
+  }
+}

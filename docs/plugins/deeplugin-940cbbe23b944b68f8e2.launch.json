@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-940cbbe23b944b68f8e2",
+    "name": "dsh-web-search-pro",
+    "author": "anweat",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/anweat/dsh-web-search-pro",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-940cbbe23b944b68f8e2.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-940cbbe23b944b68f8e2.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-web-search-pro",
+    "command": "dsh plugin --profile web add dsh-web-search-pro",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-940cbbe23b944b68f8e2，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-940cbbe23b944b68f8e2.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-940cbbe23b944b68f8e2.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-web-search-pro 已收录到 DeepSeek Harness Plugin Store。增强型、可持久化的网页搜索：多引擎路由（DeepSeek/Exa/DDG/Bing/Jina + GitHub/B站/YouTube/V2EX/小红书/Twitter/Reddit/RSS）、SQLite+LRU 缓存、userscript 风格抽取、Playwright 渲染。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-940cbbe23b944b68f8e2.html",
+    "en": "dsh-web-search-pro is now listed on the DeepSeek Harness Plugin Store. Persistent enhanced web search: multi-engine routing (DeepSeek/Exa/DDG/Bing/Jina + GitHub/Bilibili/YouTube/V2EX/Xiaohongshu/Twitter/Reddit/RSS), SQLite+LRU cache, userscript-style extraction, Playwright rendering.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-940cbbe23b944b68f8e2.html"
+  }
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-heatmap — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-76a008e2c4cf134605c0.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-76a008e2c4cf134605c0.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-76a008e2c4cf134605c0.html"/>
+  <entry>
+    <title>Updated: dsh-heatmap</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-76a008e2c4cf134605c0/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-76a008e2c4cf134605c0.html"/>
+    <author><name>283Gawin</name></author>
+    <category term="ui"/>
+    <summary>Activity heatmap in the DSH Web sidebar: GitHub-style grid of daily commits, token usage, and estimated spend, with a today stats line for all-session token totals, cache hit rate, and per-model auto-priced cost. Exact install spec: github:283gawin/dsh-heatmap. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-heatmap</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-76a008e2c4cf134605c0/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-76a008e2c4cf134605c0.html"/>
+    <author><name>283Gawin</name></author>
+    <category term="ui"/>
+    <summary>Activity heatmap in the DSH Web sidebar: GitHub-style grid of daily commits, token usage, and estimated spend, with a today stats line for all-session token totals, cache hit rate, and per-model auto-priced cost. Exact install spec: github:283gawin/dsh-heatmap. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-heatmap</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-76a008e2c4cf134605c0/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-76a008e2c4cf134605c0.html"/>
+    <author><name>283Gawin</name></author>
+    <category term="ui"/>
+    <summary>Activity heatmap in the DSH Web sidebar: GitHub-style grid of daily commits, token usage, and estimated spend, with a today stats line for all-session token totals, cache hit rate, and per-model auto-priced cost. Exact install spec: github:283gawin/dsh-heatmap. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-4ae13e068d14427d5f91",
+    "name": "dsh-plugins#dsh-plugin-setting-mcp",
+    "author": "Ceelog",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/Ceelog/dsh-plugins/tree/main/src/plugins/dsh-plugin-setting-mcp",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-4ae13e068d14427d5f91.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-4ae13e068d14427d5f91.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@opendsh/dsh-plugin-setting-mcp",
+    "command": "dsh plugin --profile web add @opendsh/dsh-plugin-setting-mcp",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-4ae13e068d14427d5f91，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-4ae13e068d14427d5f91.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-4ae13e068d14427d5f91.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugins#dsh-plugin-setting-mcp 已收录到 DeepSeek Harness Plugin Store。在 Web 设置面板中查看、添加、编辑、删除、启用或停用 MCP 服务器，保存后热重载。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-4ae13e068d14427d5f91.html",
+    "en": "dsh-plugins#dsh-plugin-setting-mcp is now listed on the DeepSeek Harness Plugin Store. Manage MCP servers from the Web settings panel: view, add, edit, remove, enable or disable them, with hot reload on save.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-4ae13e068d14427d5f91.html"
+  }
+}

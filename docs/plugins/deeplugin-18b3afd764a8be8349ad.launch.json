@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-18b3afd764a8be8349ad",
+    "name": "sgme",
+    "author": "freehul",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/freehul/sgme",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-18b3afd764a8be8349ad.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-18b3afd764a8be8349ad.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:freehul/sgme",
+    "command": "dsh plugin --profile web add github:freehul/sgme",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-18b3afd764a8be8349ad，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-18b3afd764a8be8349ad.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-18b3afd764a8be8349ad.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "sgme 已收录到 DeepSeek Harness Plugin Store。拾光记忆引擎（SGME）桥接：多智能体共享长期记忆（HTTP）—— L0/L1/L1.5/L2 分层提炼、按场景注入、统一检索、主动关怀信号（memory_search / wiki_search / signal_pull / signal_claim / signal_ack），npm 包名 `dsh-sgme`。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-18b3afd764a8be8349ad.html",
+    "en": "sgme is now listed on the DeepSeek Harness Plugin Store. ShiGuang Memory Engine (SGME) bridge: multi-agent shared long-term memory via HTTP — L0/L1/L1.5/L2 distillation, scenario-based injection, unified search, and proactive care signals (memory_search / wiki_search / signal_pull / signal_claim / signal_ack), installable as `dsh-sgme`.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-18b3afd764a8be8349ad.html"
+  }
+}

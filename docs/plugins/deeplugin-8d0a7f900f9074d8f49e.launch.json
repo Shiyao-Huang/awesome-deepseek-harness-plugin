@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-8d0a7f900f9074d8f49e",
+    "name": "SumSec-Skills",
+    "author": "SummerSec",
+    "category": "skill",
+    "version": null,
+    "homepage": "https://github.com/SummerSec/SumSec-Skills",
+    "firstObservedAt": "2026-08-16T13:41:06Z",
+    "lastChangedAt": "2026-08-16T13:41:06Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-8d0a7f900f9074d8f49e.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-8d0a7f900f9074d8f49e.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:summersec/sumsec-skills",
+    "command": "dsh plugin --profile web add github:summersec/sumsec-skills",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-8d0a7f900f9074d8f49e，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-8d0a7f900f9074d8f49e.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-8d0a7f900f9074d8f49e.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "SumSec-Skills 已收录到 DeepSeek Harness Plugin Store。多平台 Agent Skills 集合，作为 DeepSeek Harness profile bundle 挂载，提供中文写作、Git、插件开发、Taste 与语义边界检测等 Skill。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-8d0a7f900f9074d8f49e.html",
+    "en": "SumSec-Skills is now listed on the DeepSeek Harness Plugin Store. Multi-platform Agent Skills monorepo that mounts as a DeepSeek Harness profile bundle, exposing Chinese writing, Git, plugin-dev, taste, and semantic-linter skills.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-8d0a7f900f9074d8f49e.html"
+  }
+}

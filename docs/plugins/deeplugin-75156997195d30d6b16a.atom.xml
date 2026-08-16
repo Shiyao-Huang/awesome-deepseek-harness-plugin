@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-plugins#dsh-web-search-metaso — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-75156997195d30d6b16a.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-75156997195d30d6b16a.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-75156997195d30d6b16a.html"/>
+  <entry>
+    <title>Updated: dsh-plugins#dsh-web-search-metaso</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-75156997195d30d6b16a/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-75156997195d30d6b16a.html"/>
+    <author><name>TZHR-invest</name></author>
+    <category term="tools"/>
+    <summary>Metaso (秘塔AI搜索) search &amp; reader providers for the web seam: web_search returns page summaries, web_fetch reads full-page markdown, multi-scope search (webpage/document/paper/image/video/podcast). Exact install spec: dsh-web-search-metaso. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-plugins#dsh-web-search-metaso</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-75156997195d30d6b16a/e1ab6d4a0ce81c55</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-75156997195d30d6b16a.html"/>
+    <author><name>TZHR-invest</name></author>
+    <category term="tools"/>
+    <summary>Metaso (秘塔AI搜索) search &amp; reader providers for the web seam: web_search returns page summaries, web_fetch reads full-page markdown, multi-scope search (webpage/document/paper/image/video/podcast). Exact install spec: dsh-web-search-metaso. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-plugins#dsh-web-search-metaso</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-75156997195d30d6b16a/e5d3b61e178a5529</id>
+    <updated>2026-08-16T05:04:11Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-75156997195d30d6b16a.html"/>
+    <author><name>TZHR-invest</name></author>
+    <category term="tools"/>
+    <summary>Metaso (秘塔AI搜索) search &amp; reader providers for the web seam: web_search returns page summaries, web_fetch reads full-page markdown, multi-scope search (webpage/document/paper/image/video/podcast). Exact install spec: dsh-web-search-metaso. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-815fb56e34e335b57cee",
+    "name": "dsh-memory-gate",
+    "author": "GIT121995",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/GIT121995/dsh-memory-gate",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-815fb56e34e335b57cee.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-815fb56e34e335b57cee.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-memory-gate",
+    "command": "dsh plugin --profile web add dsh-memory-gate",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-815fb56e34e335b57cee，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-815fb56e34e335b57cee.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-815fb56e34e335b57cee.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-memory-gate 已收录到 DeepSeek Harness Plugin Store。有界本地记忆 + CBDC 权威门控：SQLite + FTS5 claims，作用域召回并给出可解释的采用/核验/忽略决策与完整审计轨迹，/memory 命令，每次注入 ≤3 条/1200 字符，不增加额外模型调用。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-815fb56e34e335b57cee.html",
+    "en": "dsh-memory-gate is now listed on the DeepSeek Harness Plugin Store. Bounded local memory with CBDC authority gating: SQLite + FTS5 claims, scoped recall with explainable use/verify/ignore decisions and a full audit trail, /memory commands, ≤3-claim/1200-char injection per call, no extra model call.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-815fb56e34e335b57cee.html"
+  }
+}

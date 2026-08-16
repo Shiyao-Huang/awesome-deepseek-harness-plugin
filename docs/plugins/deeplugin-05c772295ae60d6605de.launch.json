@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-05c772295ae60d6605de",
+    "name": "dsh-mobile-glass",
+    "author": "YiRan0",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/YiRan0/dsh-mobile-glass",
+    "firstObservedAt": "2026-08-16T13:41:06Z",
+    "lastChangedAt": "2026-08-16T13:41:06Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-05c772295ae60d6605de.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-05c772295ae60d6605de.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:yiran0/dsh-mobile-glass",
+    "command": "dsh plugin --profile web add github:yiran0/dsh-mobile-glass",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-05c772295ae60d6605de，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-05c772295ae60d6605de.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-05c772295ae60d6605de.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-mobile-glass 已收录到 DeepSeek Harness Plugin Store。DSH Web 移动端适配：窄屏下聊天页在上/侧栏在下的 reveal 抽屉、拖动手势、设置面板底部卡片上滑、composer 与头部修复，桌面端零影响。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-05c772295ae60d6605de.html",
+    "en": "dsh-mobile-glass is now listed on the DeepSeek Harness Plugin Store. Mobile adaptation for the DSH Web UI on narrow screens: reveal drawer with the chat layer on top, drag gestures, bottom-sheet settings panel, composer and header fixes, zero desktop impact.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-05c772295ae60d6605de.html"
+  }
+}

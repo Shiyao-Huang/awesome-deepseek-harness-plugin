@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-result-only-view — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-b78ed1a816425992c78c.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-b78ed1a816425992c78c.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b78ed1a816425992c78c.html"/>
+  <entry>
+    <title>Updated: dsh-result-only-view</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-b78ed1a816425992c78c/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b78ed1a816425992c78c.html"/>
+    <author><name>YEYEYEYESHIFU</name></author>
+    <category term="ui"/>
+    <summary>Results-only conversation toggle for the Web GUI: hides thinking and tool-call process rows, keeps one live status line while the agent works, restores working animations under prefers-reduced-motion, zh-CN/en localized. Exact install spec: dsh-result-only-view. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-result-only-view</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-b78ed1a816425992c78c/e1ab6d4a0ce81c55</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b78ed1a816425992c78c.html"/>
+    <author><name>YEYEYEYESHIFU</name></author>
+    <category term="ui"/>
+    <summary>Results-only conversation toggle for the Web GUI: hides thinking and tool-call process rows, keeps one live status line while the agent works, restores working animations under prefers-reduced-motion, zh-CN/en localized. Exact install spec: dsh-result-only-view. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-result-only-view</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-b78ed1a816425992c78c/656f2ea871eef1c6</id>
+    <updated>2026-08-16T00:51:32Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b78ed1a816425992c78c.html"/>
+    <author><name>YEYEYEYESHIFU</name></author>
+    <category term="ui"/>
+    <summary>Results-only conversation toggle for the Web GUI: hides thinking and tool-call process rows, keeps one live status line while the agent works, restores working animations under prefers-reduced-motion, zh-CN/en localized. Exact install spec: dsh-result-only-view. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

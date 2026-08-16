@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-06afaf7a6f655ab70c70",
+    "name": "dsh-aura-scheduler",
+    "author": "ljsysfurryACE",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/ljsysfurryACE/dsh-aura-scheduler",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-06afaf7a6f655ab70c70.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-06afaf7a6f655ab70c70.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:ljsysfurryace/dsh-aura-scheduler",
+    "command": "dsh plugin --profile web add github:ljsysfurryace/dsh-aura-scheduler",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-06afaf7a6f655ab70c70，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-06afaf7a6f655ab70c70.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-06afaf7a6f655ab70c70.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-aura-scheduler 已收录到 DeepSeek Harness Plugin Store。主动调度：自适应心跳 + 价值网络（紧迫度、相关性、打断代价）决定 Agent 何时主动开口。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-06afaf7a6f655ab70c70.html",
+    "en": "dsh-aura-scheduler is now listed on the DeepSeek Harness Plugin Store. Proactive scheduling: an adaptive heartbeat plus a value network (urgency, relevance, interruption cost) decides when the agent should speak unprompted.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-06afaf7a6f655ab70c70.html"
+  }
+}

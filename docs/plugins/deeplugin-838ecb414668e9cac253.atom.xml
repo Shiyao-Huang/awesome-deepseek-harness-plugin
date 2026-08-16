@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-period-report — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-838ecb414668e9cac253.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-838ecb414668e9cac253.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-838ecb414668e9cac253.html"/>
+  <entry>
+    <title>Updated: dsh-period-report</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-838ecb414668e9cac253/6ccc35f29bc10d9b</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-838ecb414668e9cac253.html"/>
+    <author><name>zhengjy01</name></author>
+    <category term="session"/>
+    <summary>Free-interval session reports with AI-narrated daily/weekly digests over any date range, plus every-N-days scheduled reminders with system notifications (macOS / Linux). Exact install spec: github:zhengjy01/dsh-period-report. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-period-report</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-838ecb414668e9cac253/e1ab6d4a0ce81c55</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-838ecb414668e9cac253.html"/>
+    <author><name>zhengjy01</name></author>
+    <category term="session"/>
+    <summary>Free-interval session reports with AI-narrated daily/weekly digests over any date range, plus every-N-days scheduled reminders with system notifications (macOS / Linux). Exact install spec: github:zhengjy01/dsh-period-report. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-period-report</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-838ecb414668e9cac253/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-838ecb414668e9cac253.html"/>
+    <author><name>zhengjy01</name></author>
+    <category term="session"/>
+    <summary>Free-interval session reports with AI-narrated daily/weekly digests over any date range, plus every-N-days scheduled reminders with system notifications (macOS / Linux). Exact install spec: github:zhengjy01/dsh-period-report. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-d2b2b5cccf12e6ecd7da",
+    "name": "pack-agent",
+    "author": "sakikoTGW",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/sakikoTGW/pack-agent",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-d2b2b5cccf12e6ecd7da.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-d2b2b5cccf12e6ecd7da.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@sakikotgw/pack-agent",
+    "command": "dsh plugin --profile web add @sakikotgw/pack-agent",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-d2b2b5cccf12e6ecd7da，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-d2b2b5cccf12e6ecd7da.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-d2b2b5cccf12e6ecd7da.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "pack-agent 已收录到 DeepSeek Harness Plugin Store。把 .pack.json/.pack.zip 投影到 .agent-pack/modpacks/，按工作区白名单暴露 skill。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-d2b2b5cccf12e6ecd7da.html",
+    "en": "pack-agent is now listed on the DeepSeek Harness Plugin Store. Project .pack.json/.pack.zip into .agent-pack/modpacks/ and expose skills via a workspace allow-list.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-d2b2b5cccf12e6ecd7da.html"
+  }
+}

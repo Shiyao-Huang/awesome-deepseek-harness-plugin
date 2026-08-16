@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-206c65bd7e72641c16c1",
+    "name": "dsh-plugin-device-info",
+    "author": "lsz-asd",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/lsz-asd/dsh-plugin-device-info",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-206c65bd7e72641c16c1.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-206c65bd7e72641c16c1.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:lsz-asd/dsh-plugin-device-info",
+    "command": "dsh plugin --profile web add github:lsz-asd/dsh-plugin-device-info",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-206c65bd7e72641c16c1，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-206c65bd7e72641c16c1.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-206c65bd7e72641c16c1.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-device-info 已收录到 DeepSeek Harness Plugin Store。只读的 Windows 设备信息工具：每个 Win32 设备类别一个 agent 工具（时间、系统、CPU、内存、磁盘、GPU、网络、电池、进程、USB、音频、打印机），基于 WMI/CIM 与 Node os 采集。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-206c65bd7e72641c16c1.html",
+    "en": "dsh-plugin-device-info is now listed on the DeepSeek Harness Plugin Store. Read-only Windows device information tools: one agent tool per Win32 device category (time, system, cpu, memory, disk, gpu, network, battery, processes, usb, audio, printers) via WMI/CIM and Node os collectors.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-206c65bd7e72641c16c1.html"
+  }
+}

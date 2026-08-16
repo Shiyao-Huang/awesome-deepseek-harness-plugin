@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-llm-inspector — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-324b504b61fc7b5b906d.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-324b504b61fc7b5b906d.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-324b504b61fc7b5b906d.html"/>
+  <entry>
+    <title>Updated: dsh-llm-inspector</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-324b504b61fc7b5b906d/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-324b504b61fc7b5b906d.html"/>
+    <author><name>cdxiaodong</name></author>
+    <category term="tools"/>
+    <summary>Unified LLM request/response inspector: reasoning-effort tuning, external-think export, traffic &amp; bundle analysis. Exact install spec: github:cdxiaodong/dsh-llm-inspector. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-llm-inspector</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-324b504b61fc7b5b906d/51a7b1264f6c44a6</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-324b504b61fc7b5b906d.html"/>
+    <author><name>cdxiaodong</name></author>
+    <category term="tools"/>
+    <summary>Unified LLM request/response inspector: reasoning-effort tuning, external-think export, traffic &amp; bundle analysis. Exact install spec: github:cdxiaodong/dsh-llm-inspector. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-llm-inspector</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-324b504b61fc7b5b906d/0e4a261d177213f8</id>
+    <updated>2026-08-16T03:13:50Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-324b504b61fc7b5b906d.html"/>
+    <author><name>cdxiaodong</name></author>
+    <category term="tools"/>
+    <summary>Unified LLM request/response inspector: reasoning-effort tuning, external-think export, traffic &amp; bundle analysis. Exact install spec: github:cdxiaodong/dsh-llm-inspector. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

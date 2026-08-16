@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-59dee17ff8998a2a01ac",
+    "name": "dsh-workbench",
+    "author": "Dely0",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/Dely0/dsh-workbench",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-59dee17ff8998a2a01ac.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-59dee17ff8998a2a01ac.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:dely0/dsh-workbench",
+    "command": "dsh plugin --profile web add github:dely0/dsh-workbench",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-59dee17ff8998a2a01ac，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-59dee17ff8998a2a01ac.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-59dee17ff8998a2a01ac.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-workbench 已收录到 DeepSeek Harness Plugin Store。日历 + 层级任务个人工作台：AI 辅助澄清、咨询、拆解、执行（用户验收）与复盘，支持到期提醒与按任务组织的 AI 会话工作区。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-59dee17ff8998a2a01ac.html",
+    "en": "dsh-workbench is now listed on the DeepSeek Harness Plugin Store. Calendar and hierarchical task workbench: AI-assisted intake clarification, consultation, decomposition, execution with user acceptance, and review, plus reminders and per-task AI session workspaces.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-59dee17ff8998a2a01ac.html"
+  }
+}

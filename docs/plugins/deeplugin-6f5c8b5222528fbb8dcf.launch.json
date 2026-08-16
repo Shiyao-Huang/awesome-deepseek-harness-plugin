@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-6f5c8b5222528fbb8dcf",
+    "name": "dsh-harness-zh-cn",
+    "author": "zjl1989-li",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/zjl1989-li/dsh-harness-zh-cn",
+    "firstObservedAt": "2026-08-16T08:41:44Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-6f5c8b5222528fbb8dcf.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-6f5c8b5222528fbb8dcf.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-harness-zh-cn",
+    "command": "dsh plugin --profile web add dsh-harness-zh-cn",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-6f5c8b5222528fbb8dcf，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-6f5c8b5222528fbb8dcf.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-6f5c8b5222528fbb8dcf.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-harness-zh-cn 已收录到 DeepSeek Harness Plugin Store。DeepSeek Harness 中文汉化插件：通过 system-prompt/assemble 瀑布钩子在运行时把全部系统提示词、工具描述与运行时上下文翻译成中文（1788 条译文，零源码修改，卸载即还原英文）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-6f5c8b5222528fbb8dcf.html",
+    "en": "dsh-harness-zh-cn is now listed on the DeepSeek Harness Plugin Store. Chinese localization for DeepSeek Harness: translates all system prompts, tool descriptions, and runtime contexts into Chinese at runtime via the system-prompt/assemble waterfall (1788 entries, zero source modification, uninstall restores English).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-6f5c8b5222528fbb8dcf.html"
+  }
+}

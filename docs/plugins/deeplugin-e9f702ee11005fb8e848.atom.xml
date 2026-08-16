@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-desktop#plugin — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-e9f702ee11005fb8e848.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-e9f702ee11005fb8e848.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e9f702ee11005fb8e848.html"/>
+  <entry>
+    <title>Updated: dsh-desktop#plugin</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-e9f702ee11005fb8e848/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e9f702ee11005fb8e848.html"/>
+    <author><name>ReachGa0</name></author>
+    <category term="ui"/>
+    <summary>DSH plugin (dsh-desktop-launcher) that launches the dsh-desktop Windows Electron shell from the conversation: double-click to run the DSH web in a standalone window, region screenshot with GPU-accelerated selection that auto-pastes into the chat (works with vision bridges), system tray, session manager, auto environment setup, configurable port, single-instance lock. Exact install spec: github:reachga0/dsh-desktop#path:/plugin. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-desktop#plugin</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-e9f702ee11005fb8e848/7e5b8321bc7d21b1</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e9f702ee11005fb8e848.html"/>
+    <author><name>ReachGa0</name></author>
+    <category term="ui"/>
+    <summary>DSH plugin (dsh-desktop-launcher) that launches the dsh-desktop Windows Electron shell from the conversation: double-click to run the DSH web in a standalone window, region screenshot with GPU-accelerated selection that auto-pastes into the chat (works with vision bridges), system tray, session manager, auto environment setup, configurable port, single-instance lock. Exact install spec: github:reachga0/dsh-desktop#path:/plugin. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

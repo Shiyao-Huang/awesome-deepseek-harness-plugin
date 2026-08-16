@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-8594d30d6fa2e361cb0c",
+    "name": "dsh-sound",
+    "author": "AI-Galaxy-GPU",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/AI-Galaxy-GPU/dsh-sound",
+    "firstObservedAt": "2026-08-16T01:57:51Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-8594d30d6fa2e361cb0c.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-8594d30d6fa2e361cb0c.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:ai-galaxy-gpu/dsh-sound",
+    "command": "dsh plugin --profile web add github:ai-galaxy-gpu/dsh-sound",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-8594d30d6fa2e361cb0c，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-8594d30d6fa2e361cb0c.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-8594d30d6fa2e361cb0c.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-sound 已收录到 DeepSeek Harness Plugin Store。六类事件独立提示音：回合完成、审批、提问、计划评审、目标受阻、任务失败各有独立声音与音量，可在 Web 设置面板配置（内置合成音 / 静音 / 本地音频文件）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-8594d30d6fa2e361cb0c.html",
+    "en": "dsh-sound is now listed on the DeepSeek Harness Plugin Store. Per-event sound notifications: turn completion, approval, question, plan-review, goal-blocked, and task-failure each get their own sound and volume, configurable in the Web UI (built-in synth, mute, or local audio file).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-8594d30d6fa2e361cb0c.html"
+  }
+}

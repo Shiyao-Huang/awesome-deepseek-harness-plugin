@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-208bd8da824040877347",
+    "name": "dsh-doctor#plugin",
+    "author": "moonquake2004",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/moonquake2004/dsh-doctor/tree/main/plugin",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-208bd8da824040877347.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-208bd8da824040877347.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@moonquake2004/dsh-doctor",
+    "command": "dsh plugin --profile web add @moonquake2004/dsh-doctor",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-208bd8da824040877347，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-208bd8da824040877347.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-208bd8da824040877347.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-doctor#plugin 已收录到 DeepSeek Harness Plugin Store。离线诊断工具：环境/Profile/会话共 19 项检查，带设置「诊断」面板与只读 JSON API。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-208bd8da824040877347.html",
+    "en": "dsh-doctor#plugin is now listed on the DeepSeek Harness Plugin Store. Offline diagnostic for DSH: 19 checks across env, profile, and session state, with a settings \"Doctor\" panel and a read-only JSON API.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-208bd8da824040877347.html"
+  }
+}

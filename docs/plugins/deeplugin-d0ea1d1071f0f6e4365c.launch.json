@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-d0ea1d1071f0f6e4365c",
+    "name": "dsh-agent-message",
+    "author": "GengDaPeng",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/GengDaPeng/dsh-agent-message",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-d0ea1d1071f0f6e4365c.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-d0ea1d1071f0f6e4365c.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-agent-message",
+    "command": "dsh plugin --profile web add dsh-agent-message",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-d0ea1d1071f0f6e4365c，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-d0ea1d1071f0f6e4365c.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-d0ea1d1071f0f6e4365c.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-agent-message 已收录到 DeepSeek Harness Plugin Store。DeepSeek Harness 跨会话 Agent 通信：支持会话发现、离线投递、投递回执与发送方会话导航。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-d0ea1d1071f0f6e4365c.html",
+    "en": "dsh-agent-message is now listed on the DeepSeek Harness Plugin Store. Cross-session agent messaging for DeepSeek Harness with session discovery, offline delivery, delivery receipts, and sender-session navigation.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-d0ea1d1071f0f6e4365c.html"
+  }
+}

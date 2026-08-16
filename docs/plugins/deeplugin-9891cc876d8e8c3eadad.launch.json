@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-9891cc876d8e8c3eadad",
+    "name": "terminal",
+    "author": "giiiiiithub",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/giiiiiithub/terminal",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-9891cc876d8e8c3eadad.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-9891cc876d8e8c3eadad.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-terminal",
+    "command": "dsh plugin --profile web add dsh-terminal",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-9891cc876d8e8c3eadad，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-9891cc876d8e8c3eadad.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-9891cc876d8e8c3eadad.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "terminal 已收录到 DeepSeek Harness Plugin Store。DSH Web UI 终端面板：宿主端 node-pty 真实 PTY（Windows 默认 cmd.exe）+ 浏览器 xterm.js 渲染；多标签会话、停靠/浮动窗口、复制粘贴。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-9891cc876d8e8c3eadad.html",
+    "en": "terminal is now listed on the DeepSeek Harness Plugin Store. Real PTY terminal panel for the DSH Web UI: host half spawns shells with node-pty (cmd.exe default on Windows), rendered in the browser with xterm.js; multi-tab sessions, dock/floating window, clipboard support.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-9891cc876d8e8c3eadad.html"
+  }
+}

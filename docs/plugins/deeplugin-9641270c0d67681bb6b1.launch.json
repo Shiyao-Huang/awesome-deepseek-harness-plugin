@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-9641270c0d67681bb6b1",
+    "name": "dsh-window#kit",
+    "author": "ZichengGurrr",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/ZichengGurrr/dsh-window/tree/main/kit",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-9641270c0d67681bb6b1.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-9641270c0d67681bb6b1.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:zichenggurrr/dsh-window#path:/kit",
+    "command": "dsh plugin --profile web add github:zichenggurrr/dsh-window#path:/kit",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-9641270c0d67681bb6b1，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-9641270c0d67681bb6b1.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-9641270c0d67681bb6b1.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-window#kit 已收录到 DeepSeek Harness Plugin Store。DSH 三件套全家桶：Windows 原生窗口（WebView2）+ DeepEye 视觉（GLM-4V-Flash）+ 语音输入（麦克风按钮），一条命令装齐。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-9641270c0d67681bb6b1.html",
+    "en": "dsh-window#kit is now listed on the DeepSeek Harness Plugin Store. All-in-one bundle for DSH: the native Windows desktop window (WebView2), DeepEye vision (GLM-4V-Flash), and voice input (mic button) in a single install.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-9641270c0d67681bb6b1.html"
+  }
+}

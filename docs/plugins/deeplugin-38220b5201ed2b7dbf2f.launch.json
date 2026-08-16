@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-38220b5201ed2b7dbf2f",
+    "name": "dsh-anchored-standard",
+    "author": "Jungod1121",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/Jungod1121/dsh-anchored-standard",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-38220b5201ed2b7dbf2f.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-38220b5201ed2b7dbf2f.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:jungod1121/dsh-anchored-standard",
+    "command": "dsh plugin --profile web add github:jungod1121/dsh-anchored-standard",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-38220b5201ed2b7dbf2f，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-38220b5201ed2b7dbf2f.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-38220b5201ed2b7dbf2f.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-anchored-standard 已收录到 DeepSeek Harness Plugin Store。V4 Pro 两阶段 agent 预设：首轮仅 bash+read 完成极简开局，首个工具调用或回复后恢复 Standard 完整工具目录；以安装器 bundle 与手动预设目录双形态发布。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-38220b5201ed2b7dbf2f.html",
+    "en": "dsh-anchored-standard is now listed on the DeepSeek Harness Plugin Store. Two-phase agent preset for DeepSeek V4 Pro: the first request sees only bash+read (Minimal-aligned bootstrap), then the full Standard tool catalog after the first tool call or reply; ships as an installer bundle plus a manual preset directory.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-38220b5201ed2b7dbf2f.html"
+  }
+}

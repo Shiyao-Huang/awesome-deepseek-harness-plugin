@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-7802f492a5ac5a483a14",
+    "name": "ai4scholar-plugin-dsh",
+    "author": "literaf",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/literaf/ai4scholar-plugin-dsh",
+    "firstObservedAt": "2026-08-16T09:56:16Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-7802f492a5ac5a483a14.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-7802f492a5ac5a483a14.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-ai4scholar",
+    "command": "dsh plugin --profile web add dsh-ai4scholar",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-7802f492a5ac5a483a14，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-7802f492a5ac5a483a14.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-7802f492a5ac5a483a14.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "ai4scholar-plugin-dsh 已收录到 DeepSeek Harness Plugin Store。AI4Scholar 学术检索：覆盖 Semantic Scholar、PubMed、Google Scholar、arXiv、bioRxiv/medRxiv 与 DOI 解析的 38 个工具（搜索、引用图谱、作者、推荐、PDF 全文分片、自动引用、科研绘图），跨平台去重统一搜索，设置页 API Key 卡片，按次积分统计与 `/ai4scholar` 余额卡。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-7802f492a5ac5a483a14.html",
+    "en": "ai4scholar-plugin-dsh is now listed on the DeepSeek Harness Plugin Store. AI4Scholar academic search: 38 tools over Semantic Scholar, PubMed, Google Scholar, arXiv, bioRxiv/medRxiv, and DOI resolution (search, citation graph, authors, recommendations, PDF full text in slices, auto-cite, scientific figures), a unified cross-platform search with de-duplication, an API-key card in Settings, and per-call credit accounting with an `/ai4scholar` balance card.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-7802f492a5ac5a483a14.html"
+  }
+}

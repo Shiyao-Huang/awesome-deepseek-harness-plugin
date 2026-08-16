@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-873f809bfeddb3b82204",
+    "name": "dsh-lsp-actions",
+    "author": "PerryLink",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/PerryLink/dsh-lsp-actions",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-873f809bfeddb3b82204.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-873f809bfeddb3b82204.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-lsp-actions",
+    "command": "dsh plugin --profile web add dsh-lsp-actions",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-873f809bfeddb3b82204，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-873f809bfeddb3b82204.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-873f809bfeddb3b82204.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-lsp-actions 已收录到 DeepSeek Harness Plugin Store。DSH 的 LSP 动作面：诊断、格式化、补全、代码动作、符号、签名提示、inlay 提示与重命名，全部由真实语言服务器驱动。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-873f809bfeddb3b82204.html",
+    "en": "dsh-lsp-actions is now listed on the DeepSeek Harness Plugin Store. LSP action surface for DSH: diagnostics, formatting, completion, code actions, symbols, signature help, inlay hints and rename, all backed by real language servers.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-873f809bfeddb3b82204.html"
+  }
+}

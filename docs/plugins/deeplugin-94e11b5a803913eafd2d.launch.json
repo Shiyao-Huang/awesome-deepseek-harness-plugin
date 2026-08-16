@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-94e11b5a803913eafd2d",
+    "name": "dsh-permission-rules",
+    "author": "PerryLink",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/PerryLink/dsh-permission-rules",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-94e11b5a803913eafd2d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-94e11b5a803913eafd2d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-permission-rules",
+    "command": "dsh plugin --profile web add dsh-permission-rules",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-94e11b5a803913eafd2d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-94e11b5a803913eafd2d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-94e11b5a803913eafd2d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-permission-rules 已收录到 DeepSeek Harness Plugin Store。Claude Code 风格的声明式权限规则：按序 allow/deny/ask 的 YAML 规则，在 tools/pre-execute 瀑布上匹配工具名、参数、工作区路径与 agent 身份，带完整会话日志审计、干跑模式与热重载。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-94e11b5a803913eafd2d.html",
+    "en": "dsh-permission-rules is now listed on the DeepSeek Harness Plugin Store. Claude Code-style declarative permission rules: ordered allow/deny/ask YAML rules matching tool names, arguments, workspace paths, and agent identity on the tools/pre-execute waterfall, with full session-log audit, dry-run mode, and hot reload.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-94e11b5a803913eafd2d.html"
+  }
+}

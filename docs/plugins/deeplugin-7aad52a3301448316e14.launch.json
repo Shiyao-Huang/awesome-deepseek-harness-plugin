@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-7aad52a3301448316e14",
+    "name": "dsh-turn-approval",
+    "author": "arrow949",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/arrow949/dsh-turn-approval",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-7aad52a3301448316e14.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-7aad52a3301448316e14.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:arrow949/dsh-turn-approval",
+    "command": "dsh plugin --profile web add github:arrow949/dsh-turn-approval",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-7aad52a3301448316e14，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-7aad52a3301448316e14.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-7aad52a3301448316e14.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-turn-approval 已收录到 DeepSeek Harness Plugin Store。DSH「允许本次任务」临时授权：仅在当前任务内自动放行同类 `danger-full-access` 请求，任务结束自动失效。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-7aad52a3301448316e14.html",
+    "en": "dsh-turn-approval is now listed on the DeepSeek Harness Plugin Store. Turn-scoped “Allow for this task” approvals: automatically allow matching `danger-full-access` escalations only for the current task, then expire.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-7aad52a3301448316e14.html"
+  }
+}

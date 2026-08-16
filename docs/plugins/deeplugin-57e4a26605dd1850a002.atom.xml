@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>DSH MCP Client — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-57e4a26605dd1850a002.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-57e4a26605dd1850a002.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-57e4a26605dd1850a002.html"/>
+  <entry>
+    <title>New: DSH MCP Client</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-57e4a26605dd1850a002/f3ce944d91fb517a</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-57e4a26605dd1850a002.html"/>
+    <author><name>deepseek-harness</name></author>
+    <category term="workflow"/>
+    <summary>Official MCP client so your agent can call external MCP tools. Exact install spec: @deepseek-ai/dsh-mcp-client. Source event: zoahdev/dsh-subscribe; changed: listed.</summary>
+  </entry>
+</feed>

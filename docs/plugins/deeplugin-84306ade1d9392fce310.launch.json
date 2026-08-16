@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-84306ade1d9392fce310",
+    "name": "dsh-plugin-writing-guard",
+    "author": "xmutfyh",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/xmutfyh/dsh-plugin-writing-guard",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-84306ade1d9392fce310.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-84306ade1d9392fce310.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-plugin-writing-guard",
+    "command": "dsh plugin --profile web add dsh-plugin-writing-guard",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-84306ade1d9392fce310，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-84306ade1d9392fce310.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-84306ade1d9392fce310.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-writing-guard 已收录到 DeepSeek Harness Plugin Store。论文写作守卫（中英双语规则）：本地正则扫描修改过程残留、防御性写作与 AI 写作痕迹（破折号滥用、不是X而是Y、LLM 高频词、三连排比）；writing_audit / writing_rules 工具，论文写入后增量自动审计（仅反馈新增/已解决问题）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-84306ade1d9392fce310.html",
+    "en": "dsh-plugin-writing-guard is now listed on the DeepSeek Harness Plugin Store. Academic writing guard (EN/ZH bilingual rules): local-regex linter for revision-process residue, defensive writing and AI-writing tells (em-dash abuse, not-X-but-Y, LLM word spikes, rule of three); writing_audit + writing_rules with incremental auto-audit that only reports new/resolved issues on paper file writes.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-84306ade1d9392fce310.html"
+  }
+}

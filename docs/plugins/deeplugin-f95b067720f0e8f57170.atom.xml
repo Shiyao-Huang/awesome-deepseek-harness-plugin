@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>DSH-Plugins-Marketplace — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-f95b067720f0e8f57170.atom.xml</id>
+  <updated>2026-08-16T13:41:06Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-f95b067720f0e8f57170.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f95b067720f0e8f57170.html"/>
+  <entry>
+    <title>New: DSH-Plugins-Marketplace</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-f95b067720f0e8f57170/60715e29601bb9d9</id>
+    <updated>2026-08-16T13:41:06Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f95b067720f0e8f57170.html"/>
+    <author><name>bradeGithub</name></author>
+    <category term="market"/>
+    <summary>GitHub-topic-driven plugin &amp; skill marketplace: a Settings page that browses the auto-collected registry (the whole dsh-plugin topic plus the skills index, CI-refreshed every 2 hours) with one-click install, type detection, install-script and host-shadow-dependency safety confirmations, env-key management, and the STANDARD.md recognition spec. Exact install spec: github:bradegithub/dsh-plugins-marketplace. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

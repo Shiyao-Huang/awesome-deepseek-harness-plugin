@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-da0694d9ba6b206bff0b",
+    "name": "dsh-notify-on-complete",
+    "author": "pitetow",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/pitetow/dsh-notify-on-complete",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-da0694d9ba6b206bff0b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-da0694d9ba6b206bff0b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:pitetow/dsh-notify-on-complete",
+    "command": "dsh plugin --profile web add github:pitetow/dsh-notify-on-complete",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-da0694d9ba6b206bff0b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-da0694d9ba6b206bff0b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-da0694d9ba6b206bff0b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-notify-on-complete 已收录到 DeepSeek Harness Plugin Store。系统桌面通知：运行结束、模型提问与审批请求即时提醒，三平台提示音，零运行时依赖。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-da0694d9ba6b206bff0b.html",
+    "en": "dsh-notify-on-complete is now listed on the DeepSeek Harness Plugin Store. Desktop notifications for run completion, model questions, and approval requests with per-platform system sounds, zero runtime dependencies.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-da0694d9ba6b206bff0b.html"
+  }
+}

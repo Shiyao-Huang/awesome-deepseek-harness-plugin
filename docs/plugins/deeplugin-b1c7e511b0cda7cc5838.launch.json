@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-b1c7e511b0cda7cc5838",
+    "name": "dsh-rigorquant",
+    "author": "linxichen",
+    "category": "skill",
+    "version": null,
+    "homepage": "https://github.com/linxichen/dsh-rigorquant",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-b1c7e511b0cda7cc5838.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-b1c7e511b0cda7cc5838.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:linxichen/dsh-rigorquant",
+    "command": "dsh plugin --profile web add github:linxichen/dsh-rigorquant",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-b1c7e511b0cda7cc5838，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-b1c7e511b0cda7cc5838.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b1c7e511b0cda7cc5838.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-rigorquant 已收录到 DeepSeek Harness Plugin Store。RigorQuant 预设与技能包：面向实证与计算数学（经济学、金融、组合）的无人值守隔离多智能体研究，内置四重实现前校验与 jacobian/Lean 升级通道。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b1c7e511b0cda7cc5838.html",
+    "en": "dsh-rigorquant is now listed on the DeepSeek Harness Plugin Store. RigorQuant preset + skill pack: unattended walled multi-agent research for empirical and computational mathematics (economics, finance, portfolio), with a four-part pre-implementation check battery and a jacobian/Lean escalation lane.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b1c7e511b0cda7cc5838.html"
+  }
+}

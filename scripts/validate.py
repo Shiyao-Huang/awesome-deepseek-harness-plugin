@@ -23,6 +23,8 @@ PUBLISHED_MEDIA_DIR = ROOT / "docs" / "media"
 SITEMAP_PATH = ROOT / "docs" / "sitemap.xml"
 DETAIL_DIR = ROOT / "docs" / "skills"
 MARKET_DETAIL_DIR = ROOT / "docs" / "plugins"
+MARKET_FEED_DIR = ROOT / "docs" / "feeds"
+LAUNCH_PACKET_SCHEMA_PATH = ROOT / "docs" / "data" / "launch-packet.schema.json"
 INDEX_PATH = ROOT / "index" / "records.jsonl"
 VALUE_MATRIX_PATH = ROOT / "index" / "value-matrix.jsonl"
 FORK_INDEX_PATH = ROOT / "docs" / "data" / "forks.json"
@@ -206,6 +208,46 @@ def validate_rich_media_site(
     } == market_locations
     assert len(entries) == item_count + market_plugin_count + len(required_static_locations)
     assert len(set(locations)) == len(locations)
+
+    atom_ns = "http://www.w3.org/2005/Atom"
+    global_feeds = (MARKET_FEED_DIR / "new.atom.xml", MARKET_FEED_DIR / "updated.atom.xml")
+    for feed_path in global_feeds:
+        feed = ET.parse(feed_path).getroot()
+        assert feed.tag == f"{{{atom_ns}}}feed", feed_path
+        assert feed.findtext(f"{{{atom_ns}}}id") == f"https://deeplugin.store/feeds/{feed_path.name}"
+        entry_ids = [entry.findtext(f"{{{atom_ns}}}id") for entry in feed.findall(f"{{{atom_ns}}}entry")]
+        assert len(entry_ids) == len(set(entry_ids)), feed_path
+        assert all(entry_id for entry_id in entry_ids), feed_path
+
+    market_registry = json.loads((ROOT / "docs" / "data" / "market-registry.json").read_text(encoding="utf-8"))
+    plugins = market_registry["plugins"]
+    assert isinstance(plugins, list)
+    plugins_by_id = {
+        str(plugin["id"]): plugin
+        for plugin in plugins
+        if isinstance(plugin, dict)
+    }
+    plugin_feeds = set(MARKET_DETAIL_DIR.glob("deeplugin-*.atom.xml"))
+    launch_packets = set(MARKET_DETAIL_DIR.glob("deeplugin-*.launch.json"))
+    assert {path.name.removesuffix(".atom.xml") for path in plugin_feeds} == set(plugins_by_id)
+    assert {path.name.removesuffix(".launch.json") for path in launch_packets} == set(plugins_by_id)
+    launch_schema = json.loads(LAUNCH_PACKET_SCHEMA_PATH.read_text(encoding="utf-8"))
+    assert launch_schema["$id"] == "https://deeplugin.store/data/launch-packet.schema.json"
+    for plugin_id, plugin in plugins_by_id.items():
+        feed_path = MARKET_DETAIL_DIR / f"{plugin_id}.atom.xml"
+        feed = ET.parse(feed_path).getroot()
+        assert feed.tag == f"{{{atom_ns}}}feed", feed_path
+        assert feed.findtext(f"{{{atom_ns}}}id") == f"https://deeplugin.store/plugins/{plugin_id}.atom.xml"
+        packet = json.loads((MARKET_DETAIL_DIR / f"{plugin_id}.launch.json").read_text(encoding="utf-8"))
+        assert packet["$schema"] == launch_schema["$id"]
+        assert packet["plugin"]["id"] == plugin_id
+        assert packet["install"]["spec"] == plugin["install"]["spec"]
+        assert packet["links"]["detail"] == f"https://deeplugin.store/plugins/{plugin_id}.html"
+        assert packet["links"]["feed"] == f"https://deeplugin.store/plugins/{plugin_id}.atom.xml"
+        detail = (MARKET_DETAIL_DIR / f"{plugin_id}.html").read_text(encoding="utf-8")
+        assert f'href="{plugin_id}.atom.xml"' in detail
+        assert f'href="{plugin_id}.launch.json"' in detail
+
     image_entries = sitemap_root.findall(f".//{{{image_ns}}}image")
     video_entries = sitemap_root.findall(f".//{{{video_ns}}}video")
     assert image_entries

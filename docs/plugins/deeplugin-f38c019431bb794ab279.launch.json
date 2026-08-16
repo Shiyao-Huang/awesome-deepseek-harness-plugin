@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-f38c019431bb794ab279",
+    "name": "dsh-cdp-browser",
+    "author": "zaiwenJ",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/zaiwenJ/dsh-cdp-browser",
+    "firstObservedAt": "2026-08-16T09:56:16Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-f38c019431bb794ab279.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-f38c019431bb794ab279.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:zaiwenj/dsh-cdp-browser",
+    "command": "dsh plugin --profile web add github:zaiwenj/dsh-cdp-browser",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-f38c019431bb794ab279，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-f38c019431bb794ab279.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-f38c019431bb794ab279.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-cdp-browser 已收录到 DeepSeek Harness Plugin Store。通过 CDP 连接已运行的 Chrome/Edge：为 DSH 提供截图、像素断言、DOM/CSS 检查与页面 JS 执行，全程 HTTP + WebSocket、零子进程、零 npm 依赖、无需逐次授权。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-f38c019431bb794ab279.html",
+    "en": "dsh-cdp-browser is now listed on the DeepSeek Harness Plugin Store. CDP bridge to an already-running Chrome/Edge for DSH: screenshots, pixel assertions, DOM/CSS checks, and page JS evaluation over HTTP + WebSocket, with zero child processes, zero npm dependencies, and zero per-use approval.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-f38c019431bb794ab279.html"
+  }
+}

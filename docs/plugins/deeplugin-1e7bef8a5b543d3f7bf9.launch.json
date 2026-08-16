@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-1e7bef8a5b543d3f7bf9",
+    "name": "dsh-theme-switch",
+    "author": "kinmat-A",
+    "category": "market",
+    "version": null,
+    "homepage": "https://github.com/kinmat-A/dsh-theme-switch",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-1e7bef8a5b543d3f7bf9.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-1e7bef8a5b543d3f7bf9.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:kinmat-a/dsh-theme-switch",
+    "command": "dsh plugin --profile web add github:kinmat-a/dsh-theme-switch",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-1e7bef8a5b543d3f7bf9，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-1e7bef8a5b543d3f7bf9.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-1e7bef8a5b543d3f7bf9.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-theme-switch 已收录到 DeepSeek Harness Plugin Store。DSH 主题切换：自动检测已安装的皮肤/主题，在设置页一键互斥切换，全部停用时回退官方默认外观，切换即时生效并跨重启保留。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-1e7bef8a5b543d3f7bf9.html",
+    "en": "dsh-theme-switch is now listed on the DeepSeek Harness Plugin Store. One-click skin switching for DSH Web settings: auto-detects installed themes, keeps exactly one active at a time, and falls back to the official look when all are off. Changes apply instantly and survive restarts.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-1e7bef8a5b543d3f7bf9.html"
+  }
+}

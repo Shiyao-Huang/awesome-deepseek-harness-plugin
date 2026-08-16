@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-1caa7663ba41584a5787",
+    "name": "dsh-wuyun-liuqi",
+    "author": "dhicoc",
+    "category": "skill",
+    "version": null,
+    "homepage": "https://github.com/dhicoc/dsh-wuyun-liuqi",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-1caa7663ba41584a5787.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-1caa7663ba41584a5787.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@dhicoc/dsh-wuyun-liuqi",
+    "command": "dsh plugin --profile web add @dhicoc/dsh-wuyun-liuqi",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-1caa7663ba41584a5787，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-1caa7663ba41584a5787.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-1caa7663ba41584a5787.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-wuyun-liuqi 已收录到 DeepSeek Harness Plugin Store。完整 wuyun-liuqi（五运六气）中医运气学技能包，封装为 DeepSeek Harness 插件：年度与客气推算、临床辨证、病机推演。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-1caa7663ba41584a5787.html",
+    "en": "dsh-wuyun-liuqi is now listed on the DeepSeek Harness Plugin Store. Complete wuyun-liuqi (five-evolutions-six-qi / 五运六气) Traditional Chinese Medicine skill pack as a DeepSeek Harness Cordis plugin: annual and guest-qi calculation, clinical pattern differentiation, and pathogenesis reasoning.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-1caa7663ba41584a5787.html"
+  }
+}

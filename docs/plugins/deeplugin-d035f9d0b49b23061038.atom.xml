@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-plugin-net-access — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-d035f9d0b49b23061038.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-d035f9d0b49b23061038.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d035f9d0b49b23061038.html"/>
+  <entry>
+    <title>New: dsh-plugin-net-access</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-d035f9d0b49b23061038/7cc2b014d07ab963</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d035f9d0b49b23061038.html"/>
+    <author><name>Gumiho12345</name></author>
+    <category term="tools"/>
+    <summary>Net Access permission mode: keeps workspace-write protection while making curl.exe HTTPS work inside the sandbox (Windows). Exact install spec: github:gumiho12345/dsh-plugin-net-access. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

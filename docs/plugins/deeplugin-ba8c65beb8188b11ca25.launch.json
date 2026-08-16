@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-ba8c65beb8188b11ca25",
+    "name": "dsh-calendar",
+    "author": "STARDUSTLC666",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/STARDUSTLC666/dsh-calendar",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-ba8c65beb8188b11ca25.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-ba8c65beb8188b11ca25.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-calendar",
+    "command": "dsh plugin --profile web add dsh-calendar",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-ba8c65beb8188b11ca25，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-ba8c65beb8188b11ca25.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-ba8c65beb8188b11ca25.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-calendar 已收录到 DeepSeek Harness Plugin Store。CalDAV 日历插件：查/建/改/删/搜日程，Google/iCloud/Nextcloud/自定义端点，RRULE 重复事件展开。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-ba8c65beb8188b11ca25.html",
+    "en": "dsh-calendar is now listed on the DeepSeek Harness Plugin Store. CalDAV calendar tools (list/create/update/delete/search) for Google/iCloud/Nextcloud/custom endpoints, with RRULE expansion.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-ba8c65beb8188b11ca25.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-178c909a0a3cad93f284",
+    "name": "dsh-neu-theme",
+    "author": "Lhy723",
+    "category": "theme",
+    "version": null,
+    "homepage": "https://github.com/Lhy723/dsh-neu-theme",
+    "firstObservedAt": "2026-08-16T08:41:44Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-178c909a0a3cad93f284.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-178c909a0a3cad93f284.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-neu-theme",
+    "command": "dsh plugin --profile web add dsh-neu-theme",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-178c909a0a3cad93f284，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-178c909a0a3cad93f284.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-178c909a0a3cad93f284.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-neu-theme 已收录到 DeepSeek Harness Plugin Store。DSH Web 轻拟物主题：提供浅色与深色配色、环境光影、材质阴影、纹理、磨砂玻璃表面与微交互。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-178c909a0a3cad93f284.html",
+    "en": "dsh-neu-theme is now listed on the DeepSeek Harness Plugin Store. Neumorphic DSH Web theme with light and dark palettes, ambient lighting, material shadows, grain texture, frosted-glass surfaces, and micro-interactions.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-178c909a0a3cad93f284.html"
+  }
+}

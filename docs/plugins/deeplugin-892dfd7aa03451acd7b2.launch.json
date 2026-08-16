@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-892dfd7aa03451acd7b2",
+    "name": "dsh-workspace-search",
+    "author": "tsonglew",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/tsonglew/dsh-workspace-search",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-892dfd7aa03451acd7b2.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-892dfd7aa03451acd7b2.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:tsonglew/dsh-workspace-search",
+    "command": "dsh plugin --profile web add github:tsonglew/dsh-workspace-search",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-892dfd7aa03451acd7b2，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-892dfd7aa03451acd7b2.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-892dfd7aa03451acd7b2.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-workspace-search 已收录到 DeepSeek Harness Plugin Store。VS Code 式工作区关键词搜索 Tab（better-sidebar 扩展）：同时匹配文件名与文件内容，结果按文件分组带行号，点击在侧栏编辑器打开。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-892dfd7aa03451acd7b2.html",
+    "en": "dsh-workspace-search is now listed on the DeepSeek Harness Plugin Store. VS Code-style workspace keyword search tab for dsh-better-sidebar: matches file names and content, grouped by file with line numbers, opens in the sidebar editor.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-892dfd7aa03451acd7b2.html"
+  }
+}

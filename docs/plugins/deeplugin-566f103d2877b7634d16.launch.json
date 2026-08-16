@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-566f103d2877b7634d16",
+    "name": "dsh-session-unarchive",
+    "author": "dylan121322",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/dylan121322/dsh-session-unarchive",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-566f103d2877b7634d16.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-566f103d2877b7634d16.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:dylan121322/dsh-session-unarchive",
+    "command": "dsh plugin --profile web add github:dylan121322/dsh-session-unarchive",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-566f103d2877b7634d16，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-566f103d2877b7634d16.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-566f103d2877b7634d16.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-session-unarchive 已收录到 DeepSeek Harness Plugin Store。从 Web GUI 侧栏查看已归档会话，并一键恢复到原工作区。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-566f103d2877b7634d16.html",
+    "en": "dsh-session-unarchive is now listed on the DeepSeek Harness Plugin Store. Restore archived sessions to their original workspace from the Web GUI sidebar.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-566f103d2877b7634d16.html"
+  }
+}

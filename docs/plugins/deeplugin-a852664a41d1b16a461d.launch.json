@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a852664a41d1b16a461d",
+    "name": "dsh-spill-s3",
+    "author": "tancheng33",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/tancheng33/dsh-spill-s3",
+    "firstObservedAt": "2026-08-16T08:41:44Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a852664a41d1b16a461d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a852664a41d1b16a461d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:tancheng33/dsh-spill-s3",
+    "command": "dsh plugin --profile web add github:tancheng33/dsh-spill-s3",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a852664a41d1b16a461d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a852664a41d1b16a461d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a852664a41d1b16a461d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-spill-s3 已收录到 DeepSeek Harness Plugin Store。spill seam 的 S3 兼容后端：超长工具输出写入对象存储（S3、MinIO、R2），会话前缀经哈希、键不可猜测，而不是落在 agent 的本地磁盘上。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a852664a41d1b16a461d.html",
+    "en": "dsh-spill-s3 is now listed on the DeepSeek Harness Plugin Store. S3-compatible backend for the spill seam: oversized tool output goes to object storage (S3, MinIO, R2) with hashed session prefixes and unguessable keys, instead of the agent's local disk.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a852664a41d1b16a461d.html"
+  }
+}

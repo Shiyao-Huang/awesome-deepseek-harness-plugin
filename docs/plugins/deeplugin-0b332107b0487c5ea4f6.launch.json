@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-0b332107b0487c5ea4f6",
+    "name": "dsh-web-launcher",
+    "author": "hanwuji1",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/hanwuji1/dsh-web-launcher",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-0b332107b0487c5ea4f6.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-0b332107b0487c5ea4f6.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-web-launcher",
+    "command": "dsh plugin --profile web add dsh-web-launcher",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-0b332107b0487c5ea4f6，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-0b332107b0487c5ea4f6.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-0b332107b0487c5ea4f6.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-web-launcher 已收录到 DeepSeek Harness Plugin Store。Web 界面一键启动器：在 Windows 桌面创建双击即用的 Start-DSH-Web.cmd（自动启动 dsh web，轮询就绪后自动打开浏览器），并提供 web_launcher 模型工具（install / open / status）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-0b332107b0487c5ea4f6.html",
+    "en": "dsh-web-launcher is now listed on the DeepSeek Harness Plugin Store. One-click launcher for the Web UI: a double-click Start-DSH-Web.cmd on the Windows desktop that boots dsh web and auto-opens the browser (polling until ready), plus a web_launcher model tool (install / open / status).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-0b332107b0487c5ea4f6.html"
+  }
+}

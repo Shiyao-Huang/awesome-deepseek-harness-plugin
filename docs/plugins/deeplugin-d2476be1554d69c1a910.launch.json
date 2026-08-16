@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-d2476be1554d69c1a910",
+    "name": "dsh-quota-panel",
+    "author": "wenzetan",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/wenzetan/dsh-quota-panel",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-d2476be1554d69c1a910.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-d2476be1554d69c1a910.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-quota-panel",
+    "command": "dsh plugin --profile web add dsh-quota-panel",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-d2476be1554d69c1a910，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-d2476be1554d69c1a910.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-d2476be1554d69c1a910.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-quota-panel 已收录到 DeepSeek Harness Plugin Store。右下角额度胶囊：自动发现所有已配置 Key 的供应商（DeepSeek、OpenRouter、SiliconFlow、GLM、one-api/new-api、各类 Coding 套餐），显示余额或 5 小时/周滚动用量，支持按供应商设置可见性、告警阈值与代理。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-d2476be1554d69c1a910.html",
+    "en": "dsh-quota-panel is now listed on the DeepSeek Harness Plugin Store. Bottom-right quota capsule that auto-discovers every configured provider (DeepSeek, OpenRouter, SiliconFlow, GLM, one-api/new-api, coding plans) and shows balance or rolling 5-hour and weekly usage, with per-provider visibility, alert thresholds and proxy support.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-d2476be1554d69c1a910.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a1689ceaefac71313b52",
+    "name": "DeepSeek-Harness-biaoqingbao",
+    "author": "moononnn",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/moononnn/DeepSeek-Harness-biaoqingbao",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a1689ceaefac71313b52.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a1689ceaefac71313b52.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:moononnn/deepseek-harness-biaoqingbao",
+    "command": "dsh plugin --profile web add github:moononnn/deepseek-harness-biaoqingbao",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a1689ceaefac71313b52，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a1689ceaefac71313b52.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a1689ceaefac71313b52.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "DeepSeek-Harness-biaoqingbao 已收录到 DeepSeek Harness Plugin Store。表情包表达插件：让助手用表情包表达情绪，按情绪自动配图，含图库管理、AI 识图打标、方言口音、学我说话，还能点「和助手聊聊」直接调教标签。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a1689ceaefac71313b52.html",
+    "en": "DeepSeek-Harness-biaoqingbao is now listed on the DeepSeek Harness Plugin Store. Sticker/emoji expression for assistants: emotion-driven auto-matching, library management, AI image tagging, dialects, style mimicry, and chat-based tag refinement.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a1689ceaefac71313b52.html"
+  }
+}

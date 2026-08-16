@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-wallpaper — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-49679ff09e41ff64cf8e.atom.xml</id>
+  <updated>2026-08-16T08:41:44Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-49679ff09e41ff64cf8e.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-49679ff09e41ff64cf8e.html"/>
+  <entry>
+    <title>Updated: dsh-wallpaper</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-49679ff09e41ff64cf8e/e1ab6d4a0ce81c55</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-49679ff09e41ff64cf8e.html"/>
+    <author><name>keke050</name></author>
+    <category term="theme"/>
+    <summary>Wallpaper skin for the DSH Web UI: presets, image URL or upload, and an opacity slider that fades the interface to reveal the wallpaper. Exact install spec: github:keke050/dsh-wallpaper. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-wallpaper</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-49679ff09e41ff64cf8e/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-49679ff09e41ff64cf8e.html"/>
+    <author><name>keke050</name></author>
+    <category term="theme"/>
+    <summary>Wallpaper skin for the DSH Web UI: presets, image URL or upload, and an opacity slider that fades the interface to reveal the wallpaper. Exact install spec: github:keke050/dsh-wallpaper. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

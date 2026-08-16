@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a21d3672f1ebb4353ccf",
+    "name": "qmd-autosearch",
+    "author": "zhangzhenwen1",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/zhangzhenwen1/qmd-autosearch",
+    "firstObservedAt": "2026-08-16T05:04:11Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a21d3672f1ebb4353ccf.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a21d3672f1ebb4353ccf.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "qmd-autosearch",
+    "command": "dsh plugin --profile web add qmd-autosearch",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a21d3672f1ebb4353ccf，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a21d3672f1ebb4353ccf.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a21d3672f1ebb4353ccf.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "qmd-autosearch 已收录到 DeepSeek Harness Plugin Store。模型在知识库目录执行 grep/glob 搜索时自动补充 QMD 语义检索：零依赖 DSH 插件，异步注入下一步上下文，无需手动调用。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a21d3672f1ebb4353ccf.html",
+    "en": "qmd-autosearch is now listed on the DeepSeek Harness Plugin Store. Auto-supplement QMD semantic search when the model greps/globs a knowledge-base directory: zero-dependency DSH plugin, async injection via next-step, no manual invocation.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a21d3672f1ebb4353ccf.html"
+  }
+}

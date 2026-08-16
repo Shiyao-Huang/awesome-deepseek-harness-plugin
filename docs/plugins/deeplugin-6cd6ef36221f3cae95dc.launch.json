@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-6cd6ef36221f3cae95dc",
+    "name": "dsh-session-nav",
+    "author": "tuogusa",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/tuogusa/dsh-session-nav",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-6cd6ef36221f3cae95dc.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-6cd6ef36221f3cae95dc.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:tuogusa/dsh-session-nav",
+    "command": "dsh plugin --profile web add github:tuogusa/dsh-session-nav",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-6cd6ef36221f3cae95dc，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-6cd6ef36221f3cae95dc.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-6cd6ef36221f3cae95dc.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-session-nav 已收录到 DeepSeek Harness Plugin Store。对话旁的悬浮按钮，打开当前会话全部提问的可搜索列表并快速跳转。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-6cd6ef36221f3cae95dc.html",
+    "en": "dsh-session-nav is now listed on the DeepSeek Harness Plugin Store. A floating button beside the chat that opens a searchable list of all questions in the session for quick jumps.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-6cd6ef36221f3cae95dc.html"
+  }
+}

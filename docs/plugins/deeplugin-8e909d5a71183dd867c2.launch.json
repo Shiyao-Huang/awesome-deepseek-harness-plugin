@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-8e909d5a71183dd867c2",
+    "name": "dsh-knowledge-base",
+    "author": "htcqp802",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/htcqp802/dsh-knowledge-base",
+    "firstObservedAt": "2026-08-16T08:41:44Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-8e909d5a71183dd867c2.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-8e909d5a71183dd867c2.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-knowledge-base",
+    "command": "dsh plugin --profile web add dsh-knowledge-base",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-8e909d5a71183dd867c2，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-8e909d5a71183dd867c2.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-8e909d5a71183dd867c2.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-knowledge-base 已收录到 DeepSeek Harness Plugin Store。DSH 通用知识库插件：导入 md/txt/json/yml/docx/pdf、目录化管理、FTS5 全文检索（BM25）、Web 管理界面。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-8e909d5a71183dd867c2.html",
+    "en": "dsh-knowledge-base is now listed on the DeepSeek Harness Plugin Store. General-purpose knowledge base for DSH: import md/txt/json/yml/docx/pdf, folder management, FTS5 full-text search (BM25), and a Web management UI.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-8e909d5a71183dd867c2.html"
+  }
+}

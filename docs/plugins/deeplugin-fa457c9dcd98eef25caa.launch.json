@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-fa457c9dcd98eef25caa",
+    "name": "dsh-clawshell",
+    "author": "jorinyang",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/jorinyang/dsh-clawshell",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-fa457c9dcd98eef25caa.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-fa457c9dcd98eef25caa.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:jorinyang/dsh-clawshell",
+    "command": "dsh plugin --profile web add github:jorinyang/dsh-clawshell",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-fa457c9dcd98eef25caa，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-fa457c9dcd98eef25caa.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-fa457c9dcd98eef25caa.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-clawshell 已收录到 DeepSeek Harness Plugin Store。运行时自愈层：资源控制闭环（策略切换 + 修复升级链）、错误风暴与 fiber 失败洞察、跨会话知识传承，附自愈可视化面板与 7 个工具。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-fa457c9dcd98eef25caa.html",
+    "en": "dsh-clawshell is now listed on the DeepSeek Harness Plugin Store. Self-healing runtime layer: a resource control loop with strategy switching and repair escalation, error-storm and fiber-failure insight, cross-session knowledge carry-over, a self-healing dashboard and 7 tools.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-fa457c9dcd98eef25caa.html"
+  }
+}

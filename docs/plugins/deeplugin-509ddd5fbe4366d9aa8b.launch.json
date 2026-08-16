@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-509ddd5fbe4366d9aa8b",
+    "name": "dsh-opencode-go-usage",
+    "author": "v587d",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/v587d/dsh-opencode-go-usage",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-509ddd5fbe4366d9aa8b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-509ddd5fbe4366d9aa8b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:v587d/dsh-opencode-go-usage",
+    "command": "dsh plugin --profile web add github:v587d/dsh-opencode-go-usage",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-509ddd5fbe4366d9aa8b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-509ddd5fbe4366d9aa8b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-509ddd5fbe4366d9aa8b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-opencode-go-usage 已收录到 DeepSeek Harness Plugin Store。在输入框上方 dock 显示 OpenCode Go 订阅用量（5h 滚动/每周/每月窗口与重置倒计时），内置凭据编辑器。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-509ddd5fbe4366d9aa8b.html",
+    "en": "dsh-opencode-go-usage is now listed on the DeepSeek Harness Plugin Store. OpenCode Go subscription usage (rolling/weekly/monthly windows with reset countdowns) in the composer dock, with a built-in credential editor.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-509ddd5fbe4366d9aa8b.html"
+  }
+}

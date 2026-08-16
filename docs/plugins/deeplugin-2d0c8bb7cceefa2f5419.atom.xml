@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-memory — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-2d0c8bb7cceefa2f5419.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-2d0c8bb7cceefa2f5419.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-2d0c8bb7cceefa2f5419.html"/>
+  <entry>
+    <title>New: dsh-memory</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-2d0c8bb7cceefa2f5419/7e5b8321bc7d21b1</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-2d0c8bb7cceefa2f5419.html"/>
+    <author><name>Max-Null</name></author>
+    <category term="memory"/>
+    <summary>Cross-session plaintext memory: deterministic BM25 keyword recall (no embeddings), memory_save/list/search/confirm/forget tools behind a human-confirm gate, and global + project-scoped JSON stores that follow your git repo. Exact install spec: @max-null/dsh-memory. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

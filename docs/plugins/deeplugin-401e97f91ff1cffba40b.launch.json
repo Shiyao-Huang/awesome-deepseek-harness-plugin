@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-401e97f91ff1cffba40b",
+    "name": "dsh-plugin-panel",
+    "author": "Dylan37670",
+    "category": "market",
+    "version": null,
+    "homepage": "https://github.com/Dylan37670/dsh-plugin-panel",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-401e97f91ff1cffba40b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-401e97f91ff1cffba40b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:dylan37670/dsh-plugin-panel",
+    "command": "dsh plugin --profile web add github:dylan37670/dsh-plugin-panel",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-401e97f91ff1cffba40b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-401e97f91ff1cffba40b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-401e97f91ff1cffba40b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-panel 已收录到 DeepSeek Harness Plugin Store。DSH 内置插件市场面板：精选与全量目录、关键词与语义搜索、中文翻译、收藏、已安装状态，以及通过官方命令安装、更新和卸载。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-401e97f91ff1cffba40b.html",
+    "en": "dsh-plugin-panel is now listed on the DeepSeek Harness Plugin Store. In-app DSH plugin marketplace panel with curated and full catalogs, keyword and semantic search, Chinese translation, favorites, installed-state tracking, and install/update/uninstall via the official CLI.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-401e97f91ff1cffba40b.html"
+  }
+}

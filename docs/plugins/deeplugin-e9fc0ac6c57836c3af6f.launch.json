@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-e9fc0ac6c57836c3af6f",
+    "name": "want-a-init",
+    "author": "mexiaosqwq",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/mexiaosqwq/want-a-init",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-e9fc0ac6c57836c3af6f.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-e9fc0ac6c57836c3af6f.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:mexiaosqwq/want-a-init",
+    "command": "dsh plugin --profile web add github:mexiaosqwq/want-a-init",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-e9fc0ac6c57836c3af6f，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-e9fc0ac6c57836c3af6f.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-e9fc0ac6c57836c3af6f.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "want-a-init 已收录到 DeepSeek Harness Plugin Store。模型驱动 /init 命令：让 agent 分析当前仓库并生成/更新高信号 AGENTS.md，并通过常驻 system prompt 提醒持续维护。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e9fc0ac6c57836c3af6f.html",
+    "en": "want-a-init is now listed on the DeepSeek Harness Plugin Store. Model-driven /init command: the agent analyzes the current repo and generates/updates a high-signal AGENTS.md, with a persistent system-prompt reminder to keep it maintained.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e9fc0ac6c57836c3af6f.html"
+  }
+}

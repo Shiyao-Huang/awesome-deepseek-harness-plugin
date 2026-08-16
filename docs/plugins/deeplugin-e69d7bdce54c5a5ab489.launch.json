@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-e69d7bdce54c5a5ab489",
+    "name": "dsh-fleet-audit",
+    "author": "LeslieWylie",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/LeslieWylie/dsh-fleet-audit",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-e69d7bdce54c5a5ab489.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-e69d7bdce54c5a5ab489.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:lesliewylie/dsh-fleet-audit",
+    "command": "dsh plugin --profile web add github:lesliewylie/dsh-fleet-audit",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-e69d7bdce54c5a5ab489，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-e69d7bdce54c5a5ab489.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-e69d7bdce54c5a5ab489.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-fleet-audit 已收录到 DeepSeek Harness Plugin Store。只读的 agent 机群凭据卫生审计：检查凭据文件权限、git remote 内嵌凭据（输出脱敏）与 provider token 字面量计数；零依赖、确定性。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e69d7bdce54c5a5ab489.html",
+    "en": "dsh-fleet-audit is now listed on the DeepSeek Harness Plugin Store. Read-only agent-fleet credential hygiene audit: credential-file permissions, embedded credentials in git remotes (masked in output), and provider token literal counts; zero-dependency and deterministic.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e69d7bdce54c5a5ab489.html"
+  }
+}

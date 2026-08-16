@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-db2869c62645b3162649",
+    "name": "dsh-plugin-aflare",
+    "author": "alib8b8",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/alib8b8/aflare",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-db2869c62645b3162649.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-db2869c62645b3162649.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:alib8b8/dsh-plugin-aflare",
+    "command": "dsh plugin --profile web add github:alib8b8/dsh-plugin-aflare",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-db2869c62645b3162649，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-db2869c62645b3162649.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-db2869c62645b3162649.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-aflare 已收录到 DeepSeek Harness Plugin Store。aflare 工作流工具：通过本地 aflare 二进制生成、校验并执行本地优先的确定性 YAML 工作流 DAG（WAL 崩溃恢复、Saga 补偿），内置 300+ 模板。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-db2869c62645b3162649.html",
+    "en": "dsh-plugin-aflare is now listed on the DeepSeek Harness Plugin Store. Workflow tools for the local aflare binary: generate, validate and run local-first deterministic YAML workflow DAGs (WAL crash recovery, Saga compensation) through the local aflare binary, with 300+ templates built in.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-db2869c62645b3162649.html"
+  }
+}

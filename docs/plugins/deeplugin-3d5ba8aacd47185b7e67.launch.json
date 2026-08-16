@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-3d5ba8aacd47185b7e67",
+    "name": "dsh-drop-file-to-path",
+    "author": "GLFzr",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/GLFzr/dsh-drop-file-to-path",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-3d5ba8aacd47185b7e67.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-3d5ba8aacd47185b7e67.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:glfzr/dsh-drop-file-to-path",
+    "command": "dsh plugin --profile web add github:glfzr/dsh-drop-file-to-path",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-3d5ba8aacd47185b7e67，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-3d5ba8aacd47185b7e67.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-3d5ba8aacd47185b7e67.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-drop-file-to-path 已收录到 DeepSeek Harness Plugin Store。Codex 式拖拽：把任意文件拖入 DSH Web 界面，文件存入 ~/.dsh-dropbox，路径以整块蓝色 chip 插入输入框。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-3d5ba8aacd47185b7e67.html",
+    "en": "dsh-drop-file-to-path is now listed on the DeepSeek Harness Plugin Store. Codex-style drag-drop: drag any file into the DSH web GUI, it lands in ~/.dsh-dropbox, and the path is inserted into the composer as a whole blue chip.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-3d5ba8aacd47185b7e67.html"
+  }
+}

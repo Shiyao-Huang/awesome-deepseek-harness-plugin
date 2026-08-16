@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-26f1e0a33d2c3e1b5bfd",
+    "name": "dsh-modal-enhancer",
+    "author": "lisniuse",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/lisniuse/dsh-modal-enhancer",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-26f1e0a33d2c3e1b5bfd.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-26f1e0a33d2c3e1b5bfd.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:lisniuse/dsh-modal-enhancer",
+    "command": "dsh plugin --profile web add github:lisniuse/dsh-modal-enhancer",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-26f1e0a33d2c3e1b5bfd，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-26f1e0a33d2c3e1b5bfd.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-26f1e0a33d2c3e1b5bfd.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-modal-enhancer 已收录到 DeepSeek Harness Plugin Store。为所有 Web UI 弹窗添加窗口化操作：标题栏拖动、八向缩放、钉住防误触关闭、全屏最大化、移除背景模糊，以及按弹窗持久化的状态。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-26f1e0a33d2c3e1b5bfd.html",
+    "en": "dsh-modal-enhancer is now listed on the DeepSeek Harness Plugin Store. Window-like controls for every Web UI modal: drag by title bar, eight-way resize, pin against outside clicks, maximize to the full viewport, removable backdrop blur, and per-dialog persistent state.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-26f1e0a33d2c3e1b5bfd.html"
+  }
+}

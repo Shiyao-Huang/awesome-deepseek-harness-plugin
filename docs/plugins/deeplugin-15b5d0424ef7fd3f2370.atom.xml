@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>pr-genius — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-15b5d0424ef7fd3f2370.atom.xml</id>
+  <updated>2026-08-16T13:41:06Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-15b5d0424ef7fd3f2370.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-15b5d0424ef7fd3f2370.html"/>
+  <entry>
+    <title>New: pr-genius</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-15b5d0424ef7fd3f2370/60715e29601bb9d9</id>
+    <updated>2026-08-16T13:41:06Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-15b5d0424ef7fd3f2370.html"/>
+    <author><name>zsxh1990</name></author>
+    <category term="skill"/>
+    <summary>PR evaluation and improvement consultant: assesses PR success probability based on historical anti-patterns and success patterns, with one-click scoring and actionable suggestions. Exact install spec: github:zsxh1990/pr-genius. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

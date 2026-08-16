@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-chat-import — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-51bf42ef828641191486.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-51bf42ef828641191486.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-51bf42ef828641191486.html"/>
+  <entry>
+    <title>Updated: dsh-chat-import</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-51bf42ef828641191486/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-51bf42ef828641191486.html"/>
+    <author><name>Nwflower</name></author>
+    <category term="session"/>
+    <summary>Import full-fidelity chat histories from 13 coding agents (Claude Code, Codex, ChatGPT, Cursor, Gemini, opencode, and more) as resumable DeepSeek Harness sessions, with reverse export back to Claude Code. Exact install spec: dsh-chat-import. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-chat-import</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-51bf42ef828641191486/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-51bf42ef828641191486.html"/>
+    <author><name>Nwflower</name></author>
+    <category term="session"/>
+    <summary>Import full-fidelity chat histories from 13 coding agents (Claude Code, Codex, ChatGPT, Cursor, Gemini, opencode, and more) as resumable DeepSeek Harness sessions, with reverse export back to Claude Code. Exact install spec: dsh-chat-import. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-chat-import</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-51bf42ef828641191486/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-51bf42ef828641191486.html"/>
+    <author><name>Nwflower</name></author>
+    <category term="session"/>
+    <summary>Import full-fidelity chat histories from 13 coding agents (Claude Code, Codex, ChatGPT, Cursor, Gemini, opencode, and more) as resumable DeepSeek Harness sessions, with reverse export back to Claude Code. Exact install spec: dsh-chat-import. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

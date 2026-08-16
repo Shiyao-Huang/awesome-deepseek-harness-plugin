@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>task-passport — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-65e8c7f526bdec0f5ee9.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-65e8c7f526bdec0f5ee9.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-65e8c7f526bdec0f5ee9.html"/>
+  <entry>
+    <title>Updated: task-passport</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-65e8c7f526bdec0f5ee9/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-65e8c7f526bdec0f5ee9.html"/>
+    <author><name>dongsheng123132</name></author>
+    <category term="session"/>
+    <summary>Carry durable task state across DeepSeek Harness, WorkBuddy, Claude Code and Codex with machine-readable checkpoints and optimistic locking. Exact install spec: task-passport. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: task-passport</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-65e8c7f526bdec0f5ee9/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-65e8c7f526bdec0f5ee9.html"/>
+    <author><name>dongsheng123132</name></author>
+    <category term="session"/>
+    <summary>Carry durable task state across DeepSeek Harness, WorkBuddy, Claude Code and Codex with machine-readable checkpoints and optimistic locking. Exact install spec: task-passport. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: task-passport</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-65e8c7f526bdec0f5ee9/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-65e8c7f526bdec0f5ee9.html"/>
+    <author><name>dongsheng123132</name></author>
+    <category term="session"/>
+    <summary>Carry durable task state across DeepSeek Harness, WorkBuddy, Claude Code and Codex with machine-readable checkpoints and optimistic locking. Exact install spec: task-passport. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

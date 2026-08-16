@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-ef579b5156c15534ea34",
+    "name": "dsh-repo-setup",
+    "author": "gongyijie85",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/gongyijie85/dsh-repo-setup",
+    "firstObservedAt": "2026-08-16T05:04:11Z",
+    "lastChangedAt": "2026-08-16T13:41:06Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-ef579b5156c15534ea34.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-ef579b5156c15534ea34.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-repo-setup",
+    "command": "dsh plugin --profile web add dsh-repo-setup",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-ef579b5156c15534ea34，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-ef579b5156c15534ea34.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-ef579b5156c15534ea34.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-repo-setup 已收录到 DeepSeek Harness Plugin Store。只读仓库体检引导工具（repo_setup_scan）：识别技术栈/测试/文档/git/数据库线索，给出技能插件、MCP 服务器与卫生文件的安装建议（claude-code-setup 的 DSH 对应）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-ef579b5156c15534ea34.html",
+    "en": "dsh-repo-setup is now listed on the DeepSeek Harness Plugin Store. Read-only repo bootstrap scanner (repo_setup_scan tool): detects stack/tests/docs/git/db hints and recommends skill plugins, MCP servers and hygiene files (claude-code-setup counterpart).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-ef579b5156c15534ea34.html"
+  }
+}

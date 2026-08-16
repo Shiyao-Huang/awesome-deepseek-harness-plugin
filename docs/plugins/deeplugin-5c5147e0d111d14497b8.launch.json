@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-5c5147e0d111d14497b8",
+    "name": "dsh-settings-nav-organizer",
+    "author": "zhengjy01",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/zhengjy01/dsh-settings-nav-organizer",
+    "firstObservedAt": "2026-08-16T14:38:49Z",
+    "lastChangedAt": "2026-08-16T14:38:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-5c5147e0d111d14497b8.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-5c5147e0d111d14497b8.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-settings-nav-organizer",
+    "command": "dsh plugin --profile web add dsh-settings-nav-organizer",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-5c5147e0d111d14497b8，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-5c5147e0d111d14497b8.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-5c5147e0d111d14497b8.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-settings-nav-organizer 已收录到 DeepSeek Harness Plugin Store。设置面板导航整理：第三方插件入口折叠为可展开的分组行，支持书签式自定义分组与「通用设置」折叠开关。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-5c5147e0d111d14497b8.html",
+    "en": "dsh-settings-nav-organizer is now listed on the DeepSeek Harness Plugin Store. Declutter the DSH settings nav: fold third-party plugin entries under collapsible group rows, with bookmark-style custom groups and a fold toggle in General settings.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-5c5147e0d111d14497b8.html"
+  }
+}

@@ -12,6 +12,8 @@ import sqlite3
 from pathlib import Path, PurePosixPath
 from urllib.parse import parse_qs, urlparse
 
+from build_growth_assets import write_growth_assets
+
 
 ROOT = Path(__file__).resolve().parents[1]
 DB_PATH = ROOT / "data" / "aggregator.sqlite3"
@@ -774,6 +776,18 @@ def market_agent_request(plugin: dict[str, object]) -> str:
     )
 
 
+def market_launch_posts(plugin: dict[str, object], canonical: str) -> tuple[str, str]:
+    """Build bilingual fact-only posts for one stable plugin detail page."""
+
+    name = str(plugin.get("name") or market_plugin_id(plugin))
+    description = compact_text(plugin.get("description") or name)
+    description_zh = compact_text(plugin.get("description_zh") or description)
+    return (
+        f"{name} 已收录到 DeepSeek Harness Plugin Store。{description_zh} 查看来源与安装：{canonical}",
+        f"{name} is now listed on the DeepSeek Harness Plugin Store. {description} Source and install details: {canonical}",
+    )
+
+
 def market_card_html(plugin: dict[str, object], category_label: str, rank: int) -> str:
     """Render one installable Market registry entry without inferring its spec."""
 
@@ -870,6 +884,11 @@ def render_market_page(registry: dict[str, object], config: dict[str, str]) -> s
         image,
         config,
         extra_json_ld={"@type": "CollectionPage", "mainEntity": {"@type": "ItemList", "itemListElement": item_list}},
+    ).replace(
+        "</head>",
+        '<link rel="alternate" type="application/atom+xml" title="New plugins" href="feeds/new.atom.xml">\n'
+        '<link rel="alternate" type="application/atom+xml" title="Updated plugins" href="feeds/updated.atom.xml">\n'
+        "</head>",
     ).replace("{ASSET_PREFIX}", "")
     market_plugin_command = "dsh plugin --profile web add github:Shiyao-Huang/awesome-deepseek-harness-plugin#path:/plugin"
     return f"""{head}<body data-page="market" data-result-noun="plugins">
@@ -879,7 +898,7 @@ def render_market_page(registry: dict[str, object], config: dict[str, str]) -> s
   <section class="stats-row market-catalog-stats" aria-label="Market registry statistics"><div><strong>{len(plugins):,}</strong><span>installable plugins</span></div><div><strong>{verified_count:,}</strong><span>source verification claims</span></div><div><strong>{len(category_counts):,}</strong><span>categories</span></div><div><strong>{len(registry_sources):,}</strong><span>attributed registries</span></div></section>
   <section class="directory-layout" id="market-directory">
     <aside class="filters"><div class="filter-mobile-head"><span>Plugin filters</span><button id="clear-filters" class="text-button">Clear</button></div><div class="filter-group"><p class="filter-label">BROWSE</p><button class="filter-option is-selected" data-filter-type="all" data-filter-value="all"><span>All installable</span><em>{len(plugins)}</em></button><button class="filter-option" data-filter-type="verified" data-filter-value="true"><span>Source claim verified</span><em>{verified_count}</em></button></div><div class="filter-group"><p class="filter-label">CATEGORIES</p>{''.join(category_filters)}</div><div class="filter-note"><strong>One registry, two clients</strong><p>Cards come from <a href="data/market-registry.json">the same JSON</a> embedded in Market Plugin. Verified is an attributed source claim, not this Store's security or compatibility endorsement.</p></div></aside>
-    <div class="directory-content"><div class="directory-toolbar"><div><p class="kicker">THE STORE</p><h2>Find an installable plugin</h2><p id="result-summary">Showing {len(plugins):,} plugins</p></div><div class="toolbar-controls"><label class="search-field"><span aria-hidden="true">⌕</span><input id="search-input" type="search" placeholder="Search name, capability, spec, source..." autocomplete="off"><kbd>/</kbd></label><label class="sort-field"><span>Sort</span><select id="sort-select"><option value="rank">Registry order</option><option value="score">Most GitHub stars</option><option value="latest">Recently observed</option><option value="title">Title A–Z</option></select></label></div></div><div class="platform-summary"><span><b>{esc(registry.get('updated'))}</b> registry date</span><span><b>{esc(registry.get('generatedAt'))}</b> generated UTC</span><span><a href="data/market-registry.schema.json">JSON Schema ↗</a></span></div><div class="catalog-grid market-catalog-grid" id="catalog-grid">{''.join(cards)}</div><p class="no-results" id="no-results" hidden>No installable plugin matches this search. Clear a filter or try another phrase.</p></div>
+    <div class="directory-content"><div class="directory-toolbar"><div><p class="kicker">THE STORE</p><h2>Find an installable plugin</h2><p id="result-summary">Showing {len(plugins):,} plugins</p></div><div class="toolbar-controls"><label class="search-field"><span aria-hidden="true">⌕</span><input id="search-input" type="search" placeholder="Search name, capability, spec, source..." autocomplete="off"><kbd>/</kbd></label><label class="sort-field"><span>Sort</span><select id="sort-select"><option value="rank">Registry order</option><option value="score">Most GitHub stars</option><option value="latest">Recently observed</option><option value="title">Title A–Z</option></select></label></div></div><div class="platform-summary"><span><b>{esc(registry.get('updated'))}</b> registry date</span><span><b>{esc(registry.get('generatedAt'))}</b> generated UTC</span><span><a href="feeds/new.atom.xml">New plugins feed ↗</a></span><span><a href="feeds/updated.atom.xml">Updated plugins feed ↗</a></span><span><a href="data/market-registry.schema.json">JSON Schema ↗</a></span></div><div class="catalog-grid market-catalog-grid" id="catalog-grid">{''.join(cards)}</div><p class="no-results" id="no-results" hidden>No installable plugin matches this search. Clear a filter or try another phrase.</p></div>
   </section>
 </main>
 {footer_html(data_path=config['public_database_url'])}
@@ -962,6 +981,7 @@ def render_market_detail(
     verification_label = "source claims verified" if verified else "no verified source claim"
     observed_at = market_observed_at(plugin) or "NULL"
     badge_markdown = f"[![Listed on deeplugin.store]({site_url}/assets/deeplugin-listed.svg)]({canonical})"
+    launch_post_zh, launch_post_en = market_launch_posts(plugin, canonical)
     software_json_ld: dict[str, object] = {
         "@type": "SoftwareApplication",
         "name": name,
@@ -984,6 +1004,9 @@ def render_market_detail(
         f"{site_url}/media/screenshots/official.png",
         config,
         extra_json_ld=software_json_ld,
+    ).replace(
+        "</head>",
+        f'<link rel="alternate" type="application/atom+xml" title="{esc(name, attribute=True)} release evidence" href="{esc(plugin_id, attribute=True)}.atom.xml">\n</head>',
     ).replace("{ASSET_PREFIX}", "../")
     source_rows = market_source_rows(plugin)
     related_html = "".join(
@@ -997,7 +1020,7 @@ def render_market_detail(
   <div class="breadcrumbs"><a href="../market.html">Store</a><span>/</span><span>{esc(category_label)}</span><span>/</span><span>{esc(plugin_id)}</span></div>
   <section class="detail-heading"><div><p class="kicker">{esc(category_label)} · {esc(plugin_id)}</p><h1>{name_heading}</h1><p class="detail-author">{esc(str(plugin.get('author') or 'unknown'))} · {esc(target)} · observed {esc(date_label(observed_at))}</p></div><a class="button button-primary" href="{esc(source_url, attribute=True)}" rel="noreferrer">Open source <span aria-hidden="true">↗</span></a></section>
   <section class="detail-grid"><div class="detail-primary"><p class="detail-description" lang="zh-CN">{esc(description_zh)}</p><p class="market-detail-description-en" lang="en">{esc(description)}</p><div class="market-detail-install" aria-label="Install this plugin"><div class="market-install"><span>方式一 · 自己安装 / INSTALL IT YOURSELF</span><code>{esc(command)}</code><button class="copy-install" type="button" data-install="{esc(command, attribute=True)}" aria-live="polite">Copy CLI</button></div><div class="market-agent-ask"><span>方式二 · 交给 DEEPSEEK / HAND IT TO DEEPSEEK</span><p>{esc(agent_request)}</p><button class="copy-install" type="button" data-install="{esc(agent_request, attribute=True)}" aria-live="polite">Copy request</button><small>Agent 应先展示来源与精确 spec，并在你明确批准后安装。</small></div></div></div><aside class="detail-sidebar"><div class="metric-grid"><div><strong>{esc(version)}</strong><span>version</span></div><div><strong>{esc(stars_label)}</strong><span>GitHub stars</span></div></div><div class="evidence-panel"><p class="filter-label">REGISTRY EVIDENCE</p><dl><div><dt>Stable ID</dt><dd>{esc(plugin_id)}</dd></div><div><dt>Install target</dt><dd>{esc(target)}</dd></div><div><dt>Dataset</dt><dd>{esc(registry.get('datasetVersion') or 'NULL')}</dd></div><div><dt>Observed</dt><dd>{esc(observed_at)}</dd></div><div><dt>Verification</dt><dd class="{'claim-verified' if verified else 'claim-unverified'}">{esc(verification_label)}</dd></div></dl></div></aside></section>
-  <section class="market-detail-share"><div><p class="kicker">SHARE THIS EXACT PLUGIN</p><h2>Stable link and README badge</h2><p>链接固定到 Registry ID；名称、版本或来源更新时不会改变。</p></div><div class="market-share-tools"><div><code>{esc(canonical)}</code><button class="copy-install" type="button" data-install="{esc(canonical, attribute=True)}">Copy link</button></div><a href="{esc(canonical, attribute=True)}"><img src="../assets/deeplugin-listed.svg" alt="Listed on deeplugin.store"></a><div><code>{esc(badge_markdown)}</code><button class="copy-install" type="button" data-install="{esc(badge_markdown, attribute=True)}">Copy badge</button></div></div></section>
+  <section class="market-detail-share"><div><p class="kicker">SHARE THIS EXACT PLUGIN</p><h2>Stable link, launch packet and release feed</h2><p>链接固定到 Registry ID；名称、版本或来源更新时不会改变。双语发布文案只陈述来源与安装事实。</p></div><div class="market-share-tools"><div><code>{esc(canonical)}</code><button class="copy-install" type="button" data-install="{esc(canonical, attribute=True)}">Copy link</button></div><a href="{esc(canonical, attribute=True)}"><img src="../assets/deeplugin-listed.svg" alt="Listed on deeplugin.store"></a><div><code>{esc(badge_markdown)}</code><button class="copy-install" type="button" data-install="{esc(badge_markdown, attribute=True)}">Copy badge</button></div><div><a href="{esc(plugin_id, attribute=True)}.launch.json">Launch packet JSON ↗</a><button class="copy-install" type="button" data-install="{esc(launch_post_zh, attribute=True)}">Copy launch post · 中文</button><button class="copy-install" type="button" data-install="{esc(launch_post_en, attribute=True)}">Copy launch post · EN</button></div><div><a href="{esc(plugin_id, attribute=True)}.atom.xml">Plugin release feed ↗</a><a href="../feeds/new.atom.xml">New plugins feed ↗</a><a href="../feeds/updated.atom.xml">Updated plugins feed ↗</a></div></div></section>
   <section class="detail-context"><div><p class="kicker">REGISTRY SOURCES</p><h2>Attributed listing evidence</h2></div><div><div class="table-scroll"><table class="data-table"><thead><tr><th>Registry source</th><th>Listing</th><th>Version</th><th>Verification</th><th>Observed UTC</th></tr></thead><tbody>{source_rows}</tbody></table></div><p class="detail-footnote market-claim-note">Verification is a claim made by the named Registry Source; it is not a security, compatibility, quality, or official endorsement by deeplugin.store.</p></div></section>
   <section class="market-related"><div class="section-heading"><div><p class="kicker">MORE IN {esc(category.upper())}</p><h2>Related plugins</h2></div><a href="../market.html?q={esc(category, attribute=True)}">Browse category →</a></div><div class="market-related-grid">{related_html}</div></section>
 </main>
@@ -1735,6 +1758,7 @@ def write_store_site(db: sqlite3.Connection, dataset_version: str, generated_at:
             render_market_detail(plugin, market_registry, related, config),
             encoding="utf-8",
         )
+    write_growth_assets(DB_PATH, MARKET_REGISTRY_PATH, DOCS, config["site_url"])
     site_url = config["site_url"].rstrip("/")
     sitemap = render_sitemap(records, market_plugins, site_url)
     (DOCS / "sitemap.xml").write_text(sitemap, encoding="utf-8")

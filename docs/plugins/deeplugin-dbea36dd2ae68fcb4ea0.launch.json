@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-dbea36dd2ae68fcb4ea0",
+    "name": "deepseek-harness-wallet",
+    "author": "feibi-mochi",
+    "category": "model",
+    "version": null,
+    "homepage": "https://github.com/feibi-mochi/deepseek-harness-wallet",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-dbea36dd2ae68fcb4ea0.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-dbea36dd2ae68fcb4ea0.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "deepseek-harness-wallet",
+    "command": "dsh plugin --profile web add deepseek-harness-wallet",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-dbea36dd2ae68fcb4ea0，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-dbea36dd2ae68fcb4ea0.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-dbea36dd2ae68fcb4ea0.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "deepseek-harness-wallet 已收录到 DeepSeek Harness Plugin Store。多供应商钱包标签：官方 DeepSeek 余额、本会话花费与 token、第三方合计 token、一键充值、低余额提醒。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-dbea36dd2ae68fcb4ea0.html",
+    "en": "deepseek-harness-wallet is now listed on the DeepSeek Harness Plugin Store. Multi-provider wallet chip: official DeepSeek balance, per-session cost & tokens, third-party token totals, recharge shortcut, low-balance alerts.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-dbea36dd2ae68fcb4ea0.html"
+  }
+}

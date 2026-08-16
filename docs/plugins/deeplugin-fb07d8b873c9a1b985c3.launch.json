@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-fb07d8b873c9a1b985c3",
+    "name": "dsh-web-mobile",
+    "author": "mexiaosqwq",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/mexiaosqwq/dsh-web-mobile",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-fb07d8b873c9a1b985c3.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-fb07d8b873c9a1b985c3.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:mexiaosqwq/dsh-web-mobile",
+    "command": "dsh plugin --profile web add github:mexiaosqwq/dsh-web-mobile",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-fb07d8b873c9a1b985c3，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-fb07d8b873c9a1b985c3.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-fb07d8b873c9a1b985c3.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-web-mobile 已收录到 DeepSeek Harness Plugin Store。DSH Web UI 移动端适配：窄屏下侧边栏变为贴合内容的 overlay 抽屉、会话独占全宽，设置面板改为近全宽 sheet。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-fb07d8b873c9a1b985c3.html",
+    "en": "dsh-web-mobile is now listed on the DeepSeek Harness Plugin Store. Mobile-adaptive layout for the DSH Web UI: the sidebar becomes a content-hugging overlay drawer, the conversation gets the full width, and the settings panel becomes a near-full-width sheet.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-fb07d8b873c9a1b985c3.html"
+  }
+}

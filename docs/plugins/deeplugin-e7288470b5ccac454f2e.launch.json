@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-e7288470b5ccac454f2e",
+    "name": "dsh-minimal-first-turn",
+    "author": "ZRui-C",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/ZRui-C/dsh-minimal-first-turn",
+    "firstObservedAt": "2026-08-16T08:41:44Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-e7288470b5ccac454f2e.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-e7288470b5ccac454f2e.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-minimal-first-turn",
+    "command": "dsh plugin --profile web add dsh-minimal-first-turn",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-e7288470b5ccac454f2e，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-e7288470b5ccac454f2e.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-e7288470b5ccac454f2e.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-minimal-first-turn 已收录到 DeepSeek Harness Plugin Store。Web 根会话的首轮精简：先使用持久 bash 与 str_replace_editor，移除自动工作区和技能上下文；首次工具调用或回复后恢复所选预设，带持久 composer 开关。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e7288470b5ccac454f2e.html",
+    "en": "dsh-minimal-first-turn is now listed on the DeepSeek Harness Plugin Store. Minimal-compatible first turn for Web root sessions: starts with persistent bash and str_replace_editor, removes automatic workspace and skill context, then restores the selected preset after the first tool call or reply; includes a persistent composer toggle.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e7288470b5ccac454f2e.html"
+  }
+}

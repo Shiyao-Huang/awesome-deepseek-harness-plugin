@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-fc0cc76d645375e86400",
+    "name": "dsh-session-move",
+    "author": "reinocheong",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/reinocheong/dsh-session-move",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-fc0cc76d645375e86400.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-fc0cc76d645375e86400.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:reinocheong/dsh-session-move",
+    "command": "dsh plugin --profile web add github:reinocheong/dsh-session-move",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-fc0cc76d645375e86400，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-fc0cc76d645375e86400.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-fc0cc76d645375e86400.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-session-move 已收录到 DeepSeek Harness Plugin Store。在 Web 侧边栏把会话移动到别的文件夹（拖拽或菜单选择），带风险确认地永久删除会话，以及 AI 重命名会话（总结整个对话并自动纠正错别字）；每个操作都提供 agent 工具。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-fc0cc76d645375e86400.html",
+    "en": "dsh-session-move is now listed on the DeepSeek Harness Plugin Store. Move a session to another folder from the Web UI via drag & drop or a menu picker, permanently delete a session with a risk-consent dialog, and AI-rename a session by summarizing the whole conversation (typo-aware). Each action also ships as an agent tool.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-fc0cc76d645375e86400.html"
+  }
+}

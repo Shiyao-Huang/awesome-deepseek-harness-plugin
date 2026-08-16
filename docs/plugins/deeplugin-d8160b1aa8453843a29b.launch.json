@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-d8160b1aa8453843a29b",
+    "name": "dsh-memory-protocol",
+    "author": "baaai123",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/baaai123/dsh-memory-protocol",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-d8160b1aa8453843a29b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-d8160b1aa8453843a29b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:baaai123/dsh-memory-protocol",
+    "command": "dsh plugin --profile web add github:baaai123/dsh-memory-protocol",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-d8160b1aa8453843a29b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-d8160b1aa8453843a29b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-d8160b1aa8453843a29b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-memory-protocol 已收录到 DeepSeek Harness Plugin Store。记忆强制协议插件：桥接 opencode-memory MCP 服务器，工具调用前强制 memory_weave、每轮自动存档、自动注入记忆上下文。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-d8160b1aa8453843a29b.html",
+    "en": "dsh-memory-protocol is now listed on the DeepSeek Harness Plugin Store. Memory protocol enforcement plugin: bridges the opencode-memory MCP server, forces memory_weave before tool calls, auto-ingests turns, and injects memory context into agent steps.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-d8160b1aa8453843a29b.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-ea63d597ebbb21f37481",
+    "name": "dsh-recommend",
+    "author": "zp-home",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/zp-home/dsh-recommend",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-ea63d597ebbb21f37481.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-ea63d597ebbb21f37481.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-recommend",
+    "command": "dsh plugin --profile web add dsh-recommend",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-ea63d597ebbb21f37481，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-ea63d597ebbb21f37481.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-ea63d597ebbb21f37481.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-recommend 已收录到 DeepSeek Harness Plugin Store。DSH 插件透明排行与推荐：每日自动抓取 `dsh-plugin` 话题生态，公开评分模型，提供 rank/search/recommend 工具与设置页榜单。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-ea63d597ebbb21f37481.html",
+    "en": "dsh-recommend is now listed on the DeepSeek Harness Plugin Store. Transparent rankings and recommendations for the DSH plugin ecosystem: daily auto-fetched topic data, an open scoring model, and rank/search/recommend tools with a settings-page leaderboard.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-ea63d597ebbb21f37481.html"
+  }
+}

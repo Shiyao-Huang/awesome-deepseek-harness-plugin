@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-deepread — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-c7edfbdc684da8cd67d3.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-c7edfbdc684da8cd67d3.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c7edfbdc684da8cd67d3.html"/>
+  <entry>
+    <title>Updated: dsh-deepread</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-c7edfbdc684da8cd67d3/77cc1e466703d25f</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c7edfbdc684da8cd67d3.html"/>
+    <author><name>xiehuan123</name></author>
+    <category term="tools"/>
+    <summary>DeepRead: deep-reading assistant with five modes (quick / deep / knowledge map with four confidence levels / Feynman reading / whole book), batch comparison, budget preflight, and transparent background-job progress, from WeChat article links / local .pdf (built-in pure-JS extractor) / pasted text, with optional MD / FreeMind / styled HTML export. Exact install spec: github:xiehuan123/dsh-deepread. Source event: beancookie/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-deepread</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-c7edfbdc684da8cd67d3/7cc2b014d07ab963</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c7edfbdc684da8cd67d3.html"/>
+    <author><name>xiehuan123</name></author>
+    <category term="tools"/>
+    <summary>DeepRead: deep-reading assistant with five modes (quick / deep / knowledge map with four confidence levels / Feynman reading / whole book), batch comparison, budget preflight, and transparent background-job progress, from WeChat article links / local .pdf (built-in pure-JS extractor) / pasted text, with optional MD / FreeMind / styled HTML export. Exact install spec: github:xiehuan123/dsh-deepread. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

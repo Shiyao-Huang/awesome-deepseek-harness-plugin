@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-report-studio — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-b0dd8433dccfc777da15.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-b0dd8433dccfc777da15.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b0dd8433dccfc777da15.html"/>
+  <entry>
+    <title>New: dsh-report-studio</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-b0dd8433dccfc777da15/7cc2b014d07ab963</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b0dd8433dccfc777da15.html"/>
+    <author><name>ciceroyang</name></author>
+    <category term="tools"/>
+    <summary>Turn a DSH session into daily/weekly/handoff/article reports with verifiable receipts. Exact install spec: github:ciceroyang/dsh-report-studio. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

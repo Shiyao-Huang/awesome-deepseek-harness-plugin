@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-574a05b3ddca83d85dc0",
+    "name": "dsh-codex-tools",
+    "author": "SPYQWER1",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/SPYQWER1/dsh-codex-tools",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-574a05b3ddca83d85dc0.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-574a05b3ddca83d85dc0.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-codex-tools",
+    "command": "dsh plugin --profile web add dsh-codex-tools",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-574a05b3ddca83d85dc0，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-574a05b3ddca83d85dc0.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-574a05b3ddca83d85dc0.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-codex-tools 已收录到 DeepSeek Harness Plugin Store。基于 Codex 的 `web_search`、`image_gen` 与 `image_vision` 工具，复用 ChatGPT OAuth 登录态为 DeepSeek Harness 提供网页搜索、生图与识图能力。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-574a05b3ddca83d85dc0.html",
+    "en": "dsh-codex-tools is now listed on the DeepSeek Harness Plugin Store. Codex-backed `web_search`, `image_gen`, and `image_vision` tools for DeepSeek Harness, reusing ChatGPT OAuth login state.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-574a05b3ddca83d85dc0.html"
+  }
+}

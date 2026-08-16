@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-25d4d2792b599490d040",
+    "name": "dsh-chat-index-rail",
+    "author": "Mobai-read",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/Mobai-read/dsh-chat-index-rail",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-25d4d2792b599490d040.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-25d4d2792b599490d040.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-chat-index-rail",
+    "command": "dsh plugin --profile web add dsh-chat-index-rail",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-25d4d2792b599490d040，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-25d4d2792b599490d040.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-25d4d2792b599490d040.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-chat-index-rail 已收录到 DeepSeek Harness Plugin Store。纯客户端对话输入目录条：每条用户消息一根横条，两级悬停预览（15 字，移入气泡展开 40 字）、点击跳转、滚动跟随高亮；静态 npm 包，无宿主半。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-25d4d2792b599490d040.html",
+    "en": "dsh-chat-index-rail is now listed on the DeepSeek Harness Plugin Store. Client-only right-edge chat input index rail: one bar per user message, two-stage hover preview (15 chars, expandable to 40), click-to-jump, and scroll-follow highlight; static npm bundle with no host half.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-25d4d2792b599490d040.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-b7f33b396cf91edb6f34",
+    "name": "DeepSeek-Harness-Hanako-Memory",
+    "author": "moononnn",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/moononnn/DeepSeek-Harness-Hanako-Memory",
+    "firstObservedAt": "2026-08-16T05:04:11Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-b7f33b396cf91edb6f34.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-b7f33b396cf91edb6f34.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:moononnn/deepseek-harness-hanako-memory",
+    "command": "dsh plugin --profile web add github:moononnn/deepseek-harness-hanako-memory",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-b7f33b396cf91edb6f34，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-b7f33b396cf91edb6f34.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b7f33b396cf91edb6f34.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "DeepSeek-Harness-Hanako-Memory 已收录到 DeepSeek Harness Plugin Store。Hana 式助手管理：可视化配置助手预设（卡片、四性格「元」、头像裁剪），并完整复刻 Hana 记忆系统（滚动摘要、分层编译、SQLite 事实库、深度记忆）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b7f33b396cf91edb6f34.html",
+    "en": "DeepSeek-Harness-Hanako-Memory is now listed on the DeepSeek Harness Plugin Store. Hana-style assistant manager for DSH: visual preset management (cards, yuan personalities, avatar cropping) plus a full Hana memory stack (rolling summaries, layered compilation, SQLite fact store, deep memory).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b7f33b396cf91edb6f34.html"
+  }
+}

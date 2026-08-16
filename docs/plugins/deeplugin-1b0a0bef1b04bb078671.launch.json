@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-1b0a0bef1b04bb078671",
+    "name": "github-explore",
+    "author": "Fectivnfy112357",
+    "category": "skill",
+    "version": null,
+    "homepage": "https://github.com/Fectivnfy112357/github-explore",
+    "firstObservedAt": "2026-08-16T14:38:49Z",
+    "lastChangedAt": "2026-08-16T14:38:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-1b0a0bef1b04bb078671.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-1b0a0bef1b04bb078671.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github-explore",
+    "command": "dsh plugin --profile web add github-explore",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-1b0a0bef1b04bb078671，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-1b0a0bef1b04bb078671.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-1b0a0bef1b04bb078671.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "github-explore 已收录到 DeepSeek Harness Plugin Store。基于 gh CLI 的 GitHub 搜索/发现/审计技能包（SKILL.md 打包）：仓库搜索、多轴探索、趋势、仓库概览、相似项目、代码搜索、issue/PR 搜索与组织审计；以 dsh bundle 形式安装（并已发布 npm）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-1b0a0bef1b04bb078671.html",
+    "en": "github-explore is now listed on the DeepSeek Harness Plugin Store. GitHub search, discovery and audit scripts wrapped as a SKILL.md pack around the gh CLI: repo search, multi-axis explore, trending, repo summaries, similar projects, code search, issue/PR search and org audits; ships as a dsh bundle (and on npm).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-1b0a0bef1b04bb078671.html"
+  }
+}

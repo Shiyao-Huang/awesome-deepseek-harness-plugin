@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-c5ed606d2ef360a21c87",
+    "name": "dsh-theme-kit",
+    "author": "ink5897",
+    "category": "theme",
+    "version": null,
+    "homepage": "https://github.com/ink5897/dsh-theme-kit",
+    "firstObservedAt": "2026-08-16T13:41:06Z",
+    "lastChangedAt": "2026-08-16T13:41:06Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-c5ed606d2ef360a21c87.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-c5ed606d2ef360a21c87.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-theme-kit",
+    "command": "dsh plugin --profile web add dsh-theme-kit",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-c5ed606d2ef360a21c87，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-c5ed606d2ef360a21c87.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-c5ed606d2ef360a21c87.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-theme-kit 已收录到 DeepSeek Harness Plugin Store。32 款预设主题（莫兰迪 / 马卡龙 / 中国传统色）、动态与静态壁纸、纸纹纹理、分区透明度与文字深浅，附按键桌宠。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c5ed606d2ef360a21c87.html",
+    "en": "dsh-theme-kit is now listed on the DeepSeek Harness Plugin Store. 32 preset themes across three palettes (Morandi, Macaron, Chinese traditional), animated and static wallpapers, paper textures, per-zone opacity and text depth, plus a keyboard desktop pet.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-c5ed606d2ef360a21c87.html"
+  }
+}

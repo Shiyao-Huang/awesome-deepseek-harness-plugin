@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a44f12b92ee63ba9ffd8",
+    "name": "DSH-EvoResearch#evoresearch-plugin",
+    "author": "Karbo123",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/Karbo123/DSH-EvoResearch/tree/main/packages/evoresearch-plugin",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a44f12b92ee63ba9ffd8.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a44f12b92ee63ba9ffd8.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:karbo123/dsh-evoresearch#path:/packages/evoresearch-plugin",
+    "command": "dsh plugin --profile web add github:karbo123/dsh-evoresearch#path:/packages/evoresearch-plugin",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a44f12b92ee63ba9ffd8，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a44f12b92ee63ba9ffd8.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a44f12b92ee63ba9ffd8.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "DSH-EvoResearch#evoresearch-plugin 已收录到 DeepSeek Harness Plugin Store。科研 agent 套件：长程目标控制（可审计证据链）、定时任务、多智能体专家团队、自进化科研记忆（FTS5 + RRF 召回）、科研项目工作区与自定义工作台界面。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a44f12b92ee63ba9ffd8.html",
+    "en": "DSH-EvoResearch#evoresearch-plugin is now listed on the DeepSeek Harness Plugin Store. Research agent suite: long-horizon goal control with auditable evidence chains, cron scheduling, multi-agent expert teams, self-evolving research memory (FTS5 + RRF recall), project workspaces, and a custom workspace UI.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a44f12b92ee63ba9ffd8.html"
+  }
+}

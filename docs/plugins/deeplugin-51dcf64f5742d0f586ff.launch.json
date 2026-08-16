@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-51dcf64f5742d0f586ff",
+    "name": "dsh-plugins#plugins/dsh-balance-plugin",
+    "author": "luokai-demo",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/luokai-demo/dsh-plugins/tree/main/plugins/dsh-balance-plugin",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-51dcf64f5742d0f586ff.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-51dcf64f5742d0f586ff.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-balance-plugin",
+    "command": "dsh plugin --profile web add dsh-balance-plugin",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-51dcf64f5742d0f586ff，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-51dcf64f5742d0f586ff.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-51dcf64f5742d0f586ff.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugins#plugins/dsh-balance-plugin 已收录到 DeepSeek Harness Plugin Store。侧边栏底部的 DeepSeek 钱包余额：信用卡图标配余额数字，按剩余额度着色（≥ ¥2 绿色、¥0–2 黄色、≤ ¥0 红色），挂载时、每轮对话结束和点击时刷新；余额变动时带符号差额上飘淡出。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-51dcf64f5742d0f586ff.html",
+    "en": "dsh-plugins#plugins/dsh-balance-plugin is now listed on the DeepSeek Harness Plugin Store. DeepSeek wallet balance at the sidebar foot: a credit-card icon with the amount tinted by remaining balance (green over ¥2, amber ¥0–2, red below), refreshed on mount, per turn-end, and on click; a signed delta floats up and fades on each balance change.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-51dcf64f5742d0f586ff.html"
+  }
+}

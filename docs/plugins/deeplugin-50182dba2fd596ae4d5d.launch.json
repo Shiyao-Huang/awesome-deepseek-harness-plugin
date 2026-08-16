@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-50182dba2fd596ae4d5d",
+    "name": "dsh-agent-team-room",
+    "author": "ishuowang",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/ishuowang/dsh-agent-team-room",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-50182dba2fd596ae4d5d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-50182dba2fd596ae4d5d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:ishuowang/dsh-agent-team-room",
+    "command": "dsh plugin --profile web add github:ishuowang/dsh-agent-team-room",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-50182dba2fd596ae4d5d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-50182dba2fd596ae4d5d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-50182dba2fd596ae4d5d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-agent-team-room 已收录到 DeepSeek Harness Plugin Store。在不合并对话历史的前提下，将多个独立 DSH Session 与 provider-backed 成员组成持久原生 Room，支持绑定精确成员身份的行首 `@` 提及、定向投递、广播和 Leader 权限控制。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-50182dba2fd596ae4d5d.html",
+    "en": "dsh-agent-team-room is now listed on the DeepSeek Harness Plugin Store. Coordinate independent DSH Sessions and provider-backed members without merging their histories, using persistent native Rooms with identity-bound leading `@` mentions, direct delivery, broadcasts, and leader-scoped controls.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-50182dba2fd596ae4d5d.html"
+  }
+}

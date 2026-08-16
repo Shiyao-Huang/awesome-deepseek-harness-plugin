@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-636f37c61db6b4e3ac2e",
+    "name": "dsh-mcp-lens",
+    "author": "labmimors",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/labmimors/dsh-mcp-lens",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-636f37c61db6b4e3ac2e.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-636f37c61db6b4e3ac2e.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-mcp-lens",
+    "command": "dsh plugin --profile web add dsh-mcp-lens",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-636f37c61db6b4e3ac2e，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-636f37c61db6b4e3ac2e.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-636f37c61db6b4e3ac2e.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-mcp-lens 已收录到 DeepSeek Harness Plugin Store。渐进披露 MCP 网关：用 `mcp_search` 检索大型远程工具目录，再由 `mcp_call` 按精确 schema 调用，并采用惰性连接与有界缓存。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-636f37c61db6b4e3ac2e.html",
+    "en": "dsh-mcp-lens is now listed on the DeepSeek Harness Plugin Store. Progressive-disclosure MCP gateway that searches large remote catalogs through `mcp_search`, then invokes exact schemas through `mcp_call` with lazy connections and bounded caches.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-636f37c61db6b4e3ac2e.html"
+  }
+}

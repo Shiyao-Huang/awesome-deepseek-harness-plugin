@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-d2b2e9c8072893b53db1",
+    "name": "noatmark-dsh-plugin",
+    "author": "ylwl1997",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/ylwl1997/noatmark-dsh-plugin",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-d2b2e9c8072893b53db1.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-d2b2e9c8072893b53db1.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:ylwl1997/noatmark-dsh-plugin",
+    "command": "dsh plugin --profile web add github:ylwl1997/noatmark-dsh-plugin",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-d2b2e9c8072893b53db1，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-d2b2e9c8072893b53db1.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-d2b2e9c8072893b53db1.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "noatmark-dsh-plugin 已收录到 DeepSeek Harness Plugin Store。文本卫生 dsh 插件：净化不可信文本、扫描隐形字符、清洗 LLM 格式、转义 CSV 公式注入。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-d2b2e9c8072893b53db1.html",
+    "en": "noatmark-dsh-plugin is now listed on the DeepSeek Harness Plugin Store. Text hygiene as a dsh plugin: sanitize untrusted text, scan invisible characters, clean LLM formatting, and escape CSV formula injection.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-d2b2e9c8072893b53db1.html"
+  }
+}

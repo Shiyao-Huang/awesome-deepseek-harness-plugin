@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-466b53ac9f0c4166f67f",
+    "name": "dsh-vision",
+    "author": "xiaoshihou514",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/xiaoshihou514/dsh-vision",
+    "firstObservedAt": "2026-08-16T03:13:50Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-466b53ac9f0c4166f67f.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-466b53ac9f0c4166f67f.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:xiaoshihou514/dsh-vision",
+    "command": "dsh plugin --profile web add github:xiaoshihou514/dsh-vision",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-466b53ac9f0c4166f67f，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-466b53ac9f0c4166f67f.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-466b53ac9f0c4166f67f.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-vision 已收录到 DeepSeek Harness Plugin Store。极简的原生视觉能力增强，支持免费的智谱模型或本地千问视觉模型。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-466b53ac9f0c4166f67f.html",
+    "en": "dsh-vision is now listed on the DeepSeek Harness Plugin Store. Native vision capability extension, using either Zhipu (free) or Qwen-VL (local).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-466b53ac9f0c4166f67f.html"
+  }
+}

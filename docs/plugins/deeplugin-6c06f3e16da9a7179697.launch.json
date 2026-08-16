@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-6c06f3e16da9a7179697",
+    "name": "dsh-plugin-mm-vision",
+    "author": "Elohia",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/Elohia/dsh-plugin-mm-vision",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-6c06f3e16da9a7179697.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-6c06f3e16da9a7179697.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:elohia/dsh-plugin-mm-vision",
+    "command": "dsh plugin --profile web add github:elohia/dsh-plugin-mm-vision",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-6c06f3e16da9a7179697，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-6c06f3e16da9a7179697.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-6c06f3e16da9a7179697.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-mm-vision 已收录到 DeepSeek Harness Plugin Store。通感编码器（Synesthesia Encoder）：调用视觉模型把图片翻译成紧凑的结构化空间文字（画布/元素/百分比坐标），让纯文本 LLM 获得像素级看图能力（`mm_vision` 工具）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-6c06f3e16da9a7179697.html",
+    "en": "dsh-plugin-mm-vision is now listed on the DeepSeek Harness Plugin Store. Synesthesia Encoder for DSH: a vision model translates images into compact structured spatial text (canvas/elements/percentage coordinates), giving text-only LLMs pixel-level image understanding via the `mm_vision` tool.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-6c06f3e16da9a7179697.html"
+  }
+}

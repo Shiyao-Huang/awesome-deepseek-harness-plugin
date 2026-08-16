@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-d02936371e92673e1829",
+    "name": "dsh-us-stocks",
+    "author": "Realyujie",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/Realyujie/dsh-us-stocks",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-d02936371e92673e1829.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-d02936371e92673e1829.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-us-stocks",
+    "command": "dsh plugin --profile web add dsh-us-stocks",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-d02936371e92673e1829，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-d02936371e92673e1829.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-d02936371e92673e1829.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-us-stocks 已收录到 DeepSeek Harness Plugin Store。美股行情、历史 K 线、财务报表、分析师共识与新闻，数据来自 yahoo-finance2。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-d02936371e92673e1829.html",
+    "en": "dsh-us-stocks is now listed on the DeepSeek Harness Plugin Store. US stock quotes, price history, financial statements, analyst consensus and news via yahoo-finance2.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-d02936371e92673e1829.html"
+  }
+}

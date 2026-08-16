@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-f9792c8e90d5b7ae6b7e",
+    "name": "dsh-zhihu-dashboard",
+    "author": "kexuejin",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/kexuejin/dsh-zhihu-dashboard",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-f9792c8e90d5b7ae6b7e.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-f9792c8e90d5b7ae6b7e.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:kexuejin/dsh-zhihu-dashboard",
+    "command": "dsh plugin --profile web add github:kexuejin/dsh-zhihu-dashboard",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-f9792c8e90d5b7ae6b7e，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-f9792c8e90d5b7ae6b7e.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-f9792c8e90d5b7ae6b7e.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-zhihu-dashboard 已收录到 DeepSeek Harness Plugin Store。知乎面板：热榜（带趋势标记）、关注动态（收藏/创作/关注的人）、帖子追踪（问题/关键词/关注的人，支持自动创意简报），并提供 5 个对话工具（zhihu_search / hot / answer / global_search / followees）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-f9792c8e90d5b7ae6b7e.html",
+    "en": "dsh-zhihu-dashboard is now listed on the DeepSeek Harness Plugin Store. Zhihu (知乎) dashboard: hot list with trend arrows, follow feed (favorites/creations/followees), post tracking (question/keyword/person) with auto-briefs, and five agent tools (zhihu_search/hot/answer/global_search/followees).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-f9792c8e90d5b7ae6b7e.html"
+  }
+}

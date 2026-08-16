@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-c94c337163fae77a4d28",
+    "name": "review-quote-sh",
+    "author": "Nothree-code",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/Nothree-code/review-quote-sh",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-c94c337163fae77a4d28.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-c94c337163fae77a4d28.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:nothree-code/review-quote-sh",
+    "command": "dsh plugin --profile web add github:nothree-code/review-quote-sh",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-c94c337163fae77a4d28，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-c94c337163fae77a4d28.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-c94c337163fae77a4d28.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "review-quote-sh 已收录到 DeepSeek Harness Plugin Store。对话消息审查与引用：多模型并行互审（代码/回复审查、严重度分级、综合汇总）、引用问答胶囊、评审历史与偏好记忆。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c94c337163fae77a4d28.html",
+    "en": "review-quote-sh is now listed on the DeepSeek Harness Plugin Store. Message review and quote chips for conversations: multi-model cross review (code/reply) with severity grading and summaries, review history, and host-persisted preferences.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-c94c337163fae77a4d28.html"
+  }
+}

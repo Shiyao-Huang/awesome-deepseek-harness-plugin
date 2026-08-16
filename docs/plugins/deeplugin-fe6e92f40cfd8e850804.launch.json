@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-fe6e92f40cfd8e850804",
+    "name": "dsh-companion",
+    "author": "beijingwahw",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/beijingwahw/dsh-companion",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-fe6e92f40cfd8e850804.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-fe6e92f40cfd8e850804.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:beijingwahw/dsh-companion",
+    "command": "dsh plugin --profile web add github:beijingwahw/dsh-companion",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-fe6e92f40cfd8e850804，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-fe6e92f40cfd8e850804.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-fe6e92f40cfd8e850804.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-companion 已收录到 DeepSeek Harness Plugin Store。四模块会话伴侣：对话智能导出（Markdown/PDF/JSON/PNG 长图、隐私脱敏、批量 ZIP）、上下文交接摘要（模板保存与导入继承）、API 成本优化（官方动态计价、峰谷调度、日/月双档预算、模型路由）、全局对话检索与对话内搜索（Ctrl+F、CSS Custom Highlight API）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-fe6e92f40cfd8e850804.html",
+    "en": "dsh-companion is now listed on the DeepSeek Harness Plugin Store. Four-module session companion: smart conversation export (Markdown/PDF/JSON/PNG long-image with privacy redaction and batch ZIP), context handoff summaries with template save/import, API cost optimization (live official pricing, peak/off-peak scheduling, daily/monthly budgets, model routing), and global conversation search with in-chat find (Ctrl+F, CSS Custom Highlight API).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-fe6e92f40cfd8e850804.html"
+  }
+}

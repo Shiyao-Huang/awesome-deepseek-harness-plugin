@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-e21a09899bc2fe70fae8",
+    "name": "dsh-archived-conversations",
+    "author": "AKS1st",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/AKS1st/dsh-archived-conversations",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-e21a09899bc2fe70fae8.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-e21a09899bc2fe70fae8.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:aks1st/dsh-archived-conversations",
+    "command": "dsh plugin --profile web add github:aks1st/dsh-archived-conversations",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-e21a09899bc2fe70fae8，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-e21a09899bc2fe70fae8.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-e21a09899bc2fe70fae8.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-archived-conversations 已收录到 DeepSeek Harness Plugin Store。侧边栏底部的已归档对话列表，可只读预览最近消息；针对产品刻意隐藏且无法重新打开的归档会话。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e21a09899bc2fe70fae8.html",
+    "en": "dsh-archived-conversations is now listed on the DeepSeek Harness Plugin Store. Archived conversations list in the sidebar footer with read-only previews of the most recent messages, for sessions the product deliberately keeps hidden and unreopenable.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e21a09899bc2fe70fae8.html"
+  }
+}

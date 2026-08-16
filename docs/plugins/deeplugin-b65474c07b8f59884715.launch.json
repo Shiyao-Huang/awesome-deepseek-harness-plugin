@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-b65474c07b8f59884715",
+    "name": "dsh-client-ui-skins",
+    "author": "caoyiwei850",
+    "category": "theme",
+    "version": null,
+    "homepage": "https://github.com/caoyiwei850/dsh-client-ui-skins",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-b65474c07b8f59884715.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-b65474c07b8f59884715.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:caoyiwei850/dsh-client-ui-skins",
+    "command": "dsh plugin --profile web add github:caoyiwei850/dsh-client-ui-skins",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-b65474c07b8f59884715，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-b65474c07b8f59884715.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b65474c07b8f59884715.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-client-ui-skins 已收录到 DeepSeek Harness Plugin Store。DSH Web 换肤插件：4 套内置皮肤 + 自定义图片皮肤，图片作为全界面背景，配色自动跟随图片主色调。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b65474c07b8f59884715.html",
+    "en": "dsh-client-ui-skins is now listed on the DeepSeek Harness Plugin Store. Skin plugin for the DSH Web UI: 4 built-in skins plus custom image skins with the photo as a full-interface background and the palette following its dominant hue.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b65474c07b8f59884715.html"
+  }
+}

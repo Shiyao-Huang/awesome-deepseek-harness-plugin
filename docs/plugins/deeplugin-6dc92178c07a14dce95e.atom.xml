@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-token-heatmap — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-6dc92178c07a14dce95e.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-6dc92178c07a14dce95e.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-6dc92178c07a14dce95e.html"/>
+  <entry>
+    <title>Updated: dsh-token-heatmap</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-6dc92178c07a14dce95e/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-6dc92178c07a14dce95e.html"/>
+    <author><name>KIDLi1412</name></author>
+    <category term="ui"/>
+    <summary>GitHub-style daily token-usage heatmap on the new-session screen with a selectable calendar-year view, green/blue color schemes, and today / this-month / all-time totals. Exact install spec: @kidli1412/dsh-token-heatmap. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-token-heatmap</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-6dc92178c07a14dce95e/7e5b8321bc7d21b1</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-6dc92178c07a14dce95e.html"/>
+    <author><name>KIDLi1412</name></author>
+    <category term="ui"/>
+    <summary>GitHub-style daily token-usage heatmap on the new-session screen with a selectable calendar-year view, green/blue color schemes, and today / this-month / all-time totals. Exact install spec: @kidli1412/dsh-token-heatmap. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

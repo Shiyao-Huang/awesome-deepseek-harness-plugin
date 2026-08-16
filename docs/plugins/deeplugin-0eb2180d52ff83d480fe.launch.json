@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-0eb2180d52ff83d480fe",
+    "name": "dsh-mermaid",
+    "author": "AKS1st",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/AKS1st/dsh-mermaid",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-0eb2180d52ff83d480fe.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-0eb2180d52ff83d480fe.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:aks1st/dsh-mermaid",
+    "command": "dsh plugin --profile web add github:aks1st/dsh-mermaid",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-0eb2180d52ff83d480fe，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-0eb2180d52ff83d480fe.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-0eb2180d52ff83d480fe.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-mermaid 已收录到 DeepSeek Harness Plugin Store。把 DSH Web 会话消息中的 Mermaid 代码围栏渲染为惰性加载的 SVG 图表，严格消毒并跟随明暗主题。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-0eb2180d52ff83d480fe.html",
+    "en": "dsh-mermaid is now listed on the DeepSeek Harness Plugin Store. Render Mermaid code fences in DSH Web chat messages as lazy-loaded SVG diagrams with strict sanitization and light/dark theme follow.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-0eb2180d52ff83d480fe.html"
+  }
+}

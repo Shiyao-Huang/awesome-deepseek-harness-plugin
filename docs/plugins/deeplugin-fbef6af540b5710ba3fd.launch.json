@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-fbef6af540b5710ba3fd",
+    "name": "dsh-web-restart",
+    "author": "1123762794",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/1123762794/dsh-web-restart",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-fbef6af540b5710ba3fd.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-fbef6af540b5710ba3fd.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:1123762794/dsh-web-restart",
+    "command": "dsh plugin --profile web add github:1123762794/dsh-web-restart",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-fbef6af540b5710ba3fd，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-fbef6af540b5710ba3fd.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-fbef6af540b5710ba3fd.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-web-restart 已收录到 DeepSeek Harness Plugin Store。DSH Web 界面一键重启按钮：侧边栏底部按钮，单击即重启 dsh web 进程，且重启后按钮常驻。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-fbef6af540b5710ba3fd.html",
+    "en": "dsh-web-restart is now listed on the DeepSeek Harness Plugin Store. One-click restart button for the DSH Web UI: a sidebar footer button that restarts the dsh web process with a single click and persists across the restart it triggers.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-fbef6af540b5710ba3fd.html"
+  }
+}

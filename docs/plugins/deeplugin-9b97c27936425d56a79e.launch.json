@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-9b97c27936425d56a79e",
+    "name": "dsh-ikun-pet",
+    "author": "eric-song-dev",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/eric-song-dev/dsh-ikun-pet",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-9b97c27936425d56a79e.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-9b97c27936425d56a79e.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-ikun-pet",
+    "command": "dsh plugin --profile web add dsh-ikun-pet",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-9b97c27936425d56a79e，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-9b97c27936425d56a79e.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-9b97c27936425d56a79e.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-ikun-pet 已收录到 DeepSeek Harness Plugin Store。ikun 桌宠填满「Deep diving...」状态行下方整行区块：坤宠动图沿 0%→100% 进度条行走，每 20% 切换动作与文案，完成时系统级播放「你干嘛~哎哟」提示音。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-9b97c27936425d56a79e.html",
+    "en": "dsh-ikun-pet is now listed on the DeepSeek Harness Plugin Store. An ikun (basketball meme) pet that fills the dock under the \"Deep diving...\" status row during replies: a sprite-sheet pet walks a 0→100% progress bar, switching animation and text every 20%, and plays a system-level \"nǐ gàn ma~\" voice cue at completion.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-9b97c27936425d56a79e.html"
+  }
+}

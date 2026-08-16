@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-6e8534dc7fefb0bb7955",
+    "name": "dsh-vision-bridge",
+    "author": "ximengxiaolan",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/ximengxiaolan/dsh-vision-bridge",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-6e8534dc7fefb0bb7955.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-6e8534dc7fefb0bb7955.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:ximengxiaolan/dsh-vision-bridge",
+    "command": "dsh plugin --profile web add github:ximengxiaolan/dsh-vision-bridge",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-6e8534dc7fefb0bb7955，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-6e8534dc7fefb0bb7955.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-6e8534dc7fefb0bb7955.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-vision-bridge 已收录到 DeepSeek Harness Plugin Store。输入框贴图自动识别：由 OpenAI 兼容视觉模型转成文字描述后，再交给纯文本 DeepSeek 模型处理。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-6e8534dc7fefb0bb7955.html",
+    "en": "dsh-vision-bridge is now listed on the DeepSeek Harness Plugin Store. Composer-attached images are transcribed to text by an OpenAI-compatible vision model before reaching text-only DeepSeek models.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-6e8534dc7fefb0bb7955.html"
+  }
+}

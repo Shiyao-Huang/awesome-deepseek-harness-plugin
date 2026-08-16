@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-79b892f1b72ad04f11dc",
+    "name": "dsh-docker",
+    "author": "Jesse-njx",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/Jesse-njx/dsh-docker",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-79b892f1b72ad04f11dc.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-79b892f1b72ad04f11dc.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:jesse-njx/dsh-docker",
+    "command": "dsh plugin --profile web add github:jesse-njx/dsh-docker",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-79b892f1b72ad04f11dc，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-79b892f1b72ad04f11dc.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-79b892f1b72ad04f11dc.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-docker 已收录到 DeepSeek Harness Plugin Store。类型安全、带护栏的容器控制：ps/logs/inspect/exec/start/stop 与 compose up/down，JSON 输出、项目感知定位、破坏性操作需审批。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-79b892f1b72ad04f11dc.html",
+    "en": "dsh-docker is now listed on the DeepSeek Harness Plugin Store. Typed, guarded container control: ps/logs/inspect/exec/start/stop and compose up/down with JSON output, project-aware targeting, and approval-gated destructive ops.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-79b892f1b72ad04f11dc.html"
+  }
+}

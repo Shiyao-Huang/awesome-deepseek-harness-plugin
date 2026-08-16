@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-0091abbf994fc811701d",
+    "name": "dsh-plugin-search",
+    "author": "shinjiyu",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/shinjiyu/dsh-plugin-search",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-0091abbf994fc811701d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-0091abbf994fc811701d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:shinjiyu/dsh-plugin-search",
+    "command": "dsh plugin --profile web add github:shinjiyu/dsh-plugin-search",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-0091abbf994fc811701d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-0091abbf994fc811701d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-0091abbf994fc811701d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-search 已收录到 DeepSeek Harness Plugin Store。不用官方 DeepSeek API 也能用内置 web_search：关掉 web-search-deepseek，默认走 Tavily keyless。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-0091abbf994fc811701d.html",
+    "en": "dsh-plugin-search is now listed on the DeepSeek Harness Plugin Store. Keep the built-in web_search tool without an official DeepSeek API key: disable web-search-deepseek and use Tavily keyless by default.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-0091abbf994fc811701d.html"
+  }
+}

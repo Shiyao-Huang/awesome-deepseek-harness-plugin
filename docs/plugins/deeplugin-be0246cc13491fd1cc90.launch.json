@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-be0246cc13491fd1cc90",
+    "name": "dsh-ui-usage-billing",
+    "author": "kenz1117",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/kenz1117/dsh-ui-usage-billing",
+    "firstObservedAt": "2026-08-16T09:56:16Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-be0246cc13491fd1cc90.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-be0246cc13491fd1cc90.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@kenz1117/dsh-ui-usage-billing",
+    "command": "dsh plugin --profile web add @kenz1117/dsh-ui-usage-billing",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-be0246cc13491fd1cc90，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-be0246cc13491fd1cc90.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-be0246cc13491fd1cc90.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-ui-usage-billing 已收录到 DeepSeek Harness Plugin Store。侧边栏计费仪表盘：从会话日志聚合真实用量（按模型/按日统计调用、Token、缓存），按最新多厂商官方价格估算人民币费用，订阅套餐（coding/token/agent）通道豁免计费，并带各厂商健康状态圆点。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-be0246cc13491fd1cc90.html",
+    "en": "dsh-ui-usage-billing is now listed on the DeepSeek Harness Plugin Store. Sidebar billing dashboard: real usage aggregated from session logs (per-model and per-day calls/tokens/cache), cost estimated in CNY from a current multi-provider pricing catalog, subscription-plan (coding/token/agent) routes exempt, and per-provider health dots.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-be0246cc13491fd1cc90.html"
+  }
+}

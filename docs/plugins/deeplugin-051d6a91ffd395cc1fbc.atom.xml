@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-xiangqi — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-051d6a91ffd395cc1fbc.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-051d6a91ffd395cc1fbc.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-051d6a91ffd395cc1fbc.html"/>
+  <entry>
+    <title>Updated: dsh-xiangqi</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-051d6a91ffd395cc1fbc/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-051d6a91ffd395cc1fbc.html"/>
+    <author><name>ovdoesw</name></author>
+    <category term="fun"/>
+    <summary>A draggable mascot invites you to play Xiangqi (Chinese chess) while the AI thinks, with a built-in engine, move-record export, and optional multi-model commentary. Exact install spec: github:ovdoesw/dsh-xiangqi. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-xiangqi</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-051d6a91ffd395cc1fbc/e1ab6d4a0ce81c55</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-051d6a91ffd395cc1fbc.html"/>
+    <author><name>ovdoesw</name></author>
+    <category term="fun"/>
+    <summary>A draggable mascot invites you to play Xiangqi (Chinese chess) while the AI thinks, with a built-in engine, move-record export, and optional multi-model commentary. Exact install spec: github:ovdoesw/dsh-xiangqi. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-xiangqi</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-051d6a91ffd395cc1fbc/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-051d6a91ffd395cc1fbc.html"/>
+    <author><name>ovdoesw</name></author>
+    <category term="fun"/>
+    <summary>A draggable mascot invites you to play Xiangqi (Chinese chess) while the AI thinks, with a built-in engine, move-record export, and optional multi-model commentary. Exact install spec: github:ovdoesw/dsh-xiangqi. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

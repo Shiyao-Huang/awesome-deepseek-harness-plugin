@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-b68a5f368165b3ea0d19",
+    "name": "dsh-deepseek-quota-left",
+    "author": "dk33333333",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/dk33333333/dsh-deepseek-quota-left",
+    "firstObservedAt": "2026-08-16T08:41:44Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-b68a5f368165b3ea0d19.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-b68a5f368165b3ea0d19.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:dk33333333/dsh-deepseek-quota-left",
+    "command": "dsh plugin --profile web add github:dk33333333/dsh-deepseek-quota-left",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-b68a5f368165b3ea0d19，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-b68a5f368165b3ea0d19.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b68a5f368165b3ea0d19.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-deepseek-quota-left 已收录到 DeepSeek Harness Plugin Store。DeepSeek API 额度面板折叠为左侧边框把手：点击展开查看余额、官方精确今日已消费（配置平台 token 后）与实时对话费用；dsh-deepseek-quota 的修改版。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b68a5f368165b3ea0d19.html",
+    "en": "dsh-deepseek-quota-left is now listed on the DeepSeek Harness Plugin Store. DeepSeek API quota panel collapsed into a left-edge handle for the Web UI: click to expand balance, official today's consumption (with platform token) and live conversation cost; fork of dsh-deepseek-quota.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b68a5f368165b3ea0d19.html"
+  }
+}

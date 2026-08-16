@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-987a7fc5fe2c5f71a6be",
+    "name": "blender",
+    "author": "CheshireJCat",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/CheshireJCat/blender",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-987a7fc5fe2c5f71a6be.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-987a7fc5fe2c5f71a6be.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-blender",
+    "command": "dsh plugin --profile web add dsh-blender",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-987a7fc5fe2c5f71a6be，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-987a7fc5fe2c5f71a6be.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-987a7fc5fe2c5f71a6be.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "blender 已收录到 DeepSeek Harness Plugin Store。Blender 3D 生产插件：提供 30 个建模/重建 Skill、13 个运行时工具和 26 个确定性 Helper，覆盖参考图拟合、渲染、验证、动画与可移植格式导出；npm 包名 `dsh-blender`。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-987a7fc5fe2c5f71a6be.html",
+    "en": "blender is now listed on the DeepSeek Harness Plugin Store. Blender 3D production plugin with 30 modeling/reconstruction skills, 13 runtime tools, and 26 deterministic helpers for reference fitting, rendering, validation, animation, and portable export; installable as `dsh-blender`.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-987a7fc5fe2c5f71a6be.html"
+  }
+}

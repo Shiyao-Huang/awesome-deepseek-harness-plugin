@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-0b98a1fa792d99a3df07",
+    "name": "dsh-dingtalk-channel",
+    "author": "ttmouse",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/ttmouse/dsh-dingtalk-channel",
+    "firstObservedAt": "2026-08-16T01:57:51Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-0b98a1fa792d99a3df07.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-0b98a1fa792d99a3df07.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-dingtalk-channel",
+    "command": "dsh plugin --profile web add dsh-dingtalk-channel",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-0b98a1fa792d99a3df07，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-0b98a1fa792d99a3df07.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-0b98a1fa792d99a3df07.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-dingtalk-channel 已收录到 DeepSeek Harness Plugin Store。钉钉 IM 双向 channel（Stream 模式）：每条单聊/群聊驱动一个 agent，思考与回复通过 WebSocket 长连接回流消息，免公网回调。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-0b98a1fa792d99a3df07.html",
+    "en": "dsh-dingtalk-channel is now listed on the DeepSeek Harness Plugin Store. DingTalk IM channel via Stream-mode WebSocket: each chat drives its own tooled agent; replies stream back as messages, no public callback URL needed.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-0b98a1fa792d99a3df07.html"
+  }
+}

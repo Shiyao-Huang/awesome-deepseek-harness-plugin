@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-319d47f690b2e3de1bb9",
+    "name": "dsh-msg-hub",
+    "author": "AbcdefgXW",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/AbcdefgXW/dsh-msg-hub",
+    "firstObservedAt": "2026-08-16T09:56:16Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-319d47f690b2e3de1bb9.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-319d47f690b2e3de1bb9.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-msg-hub",
+    "command": "dsh plugin --profile web add dsh-msg-hub",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-319d47f690b2e3de1bb9，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-319d47f690b2e3de1bb9.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-319d47f690b2e3de1bb9.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-msg-hub 已收录到 DeepSeek Harness Plugin Store。IM 渠道桥：微信（ilinkai）/ QQ / 飞书接入，支持主动推送——定时任务可唤醒渠道 bot 并把 AI 回复推送到手机。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-319d47f690b2e3de1bb9.html",
+    "en": "dsh-msg-hub is now listed on the DeepSeek Harness Plugin Store. IM channel bridge: WeChat (ilinkai) / QQ / Feishu with proactive push — wake the channel bot from scheduled tasks and deliver AI replies to your phone.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-319d47f690b2e3de1bb9.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-cb547c13828da006e077",
+    "name": "dsh-MusicPlayer",
+    "author": "xiekai886",
+    "category": "fun",
+    "version": null,
+    "homepage": "https://github.com/xiekai886/dsh-MusicPlayer",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-cb547c13828da006e077.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-cb547c13828da006e077.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:xiekai886/dsh-musicplayer",
+    "command": "dsh plugin --profile web add github:xiekai886/dsh-musicplayer",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-cb547c13828da006e077，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-cb547c13828da006e077.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-cb547c13828da006e077.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-MusicPlayer 已收录到 DeepSeek Harness Plugin Store。可折叠/展开、自由拖动的悬浮音乐播放器，接入网易云音乐，支持歌单导入和按歌名或歌手搜索单曲导入，边对话边听歌。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-cb547c13828da006e077.html",
+    "en": "dsh-MusicPlayer is now listed on the DeepSeek Harness Plugin Store. A collapsible/expandable draggable floating music player with NetEase Cloud Music playlist import and song/artist search — chat and listen at the same time.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-cb547c13828da006e077.html"
+  }
+}

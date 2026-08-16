@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-813b5048fc0945987c9e",
+    "name": "dsh-sub2api",
+    "author": "GodD6366",
+    "category": "model",
+    "version": null,
+    "homepage": "https://github.com/GodD6366/dsh-sub2api",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-813b5048fc0945987c9e.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-813b5048fc0945987c9e.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@godd6366/dsh-sub2api",
+    "command": "dsh plugin --profile web add @godd6366/dsh-sub2api",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-813b5048fc0945987c9e，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-813b5048fc0945987c9e.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-813b5048fc0945987c9e.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-sub2api 已收录到 DeepSeek Harness Plugin Store。将 sub2api 网关接入 DeepSeek Harness：用一个 base URL 统一管理 OpenAI / Claude / Grok / Gemini 等多供应商路由，支持按 key 发现模型、用量查询与全局视觉/图像生成工具。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-813b5048fc0945987c9e.html",
+    "en": "dsh-sub2api is now listed on the DeepSeek Harness Plugin Store. Connect a sub2api gateway to DeepSeek Harness: OpenAI-compatible multi-provider routes (OpenAI / Claude / Grok / Gemini) behind one base URL, with per-key model discovery, usage lookup, and global vision/image tools.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-813b5048fc0945987c9e.html"
+  }
+}

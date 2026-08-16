@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-1c4a9e66afe82917249a",
+    "name": "dsh-im-hub",
+    "author": "ThreeBody6666",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/ThreeBody6666/dsh-im-hub",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-1c4a9e66afe82917249a.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-1c4a9e66afe82917249a.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-im-hub",
+    "command": "dsh plugin --profile web add dsh-im-hub",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-1c4a9e66afe82917249a，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-1c4a9e66afe82917249a.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-1c4a9e66afe82917249a.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-im-hub 已收录到 DeepSeek Harness Plugin Store。多平台 IM 网关：飞书（Lark）WebSocket 长连接（无需公网）、企业微信 AES 加密回调、Telegram 长轮询；每会话独立 agent、白名单访问、Web GUI 可视化设置卡片。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-1c4a9e66afe82917249a.html",
+    "en": "dsh-im-hub is now listed on the DeepSeek Harness Plugin Store. Multi-platform IM gateway for DSH: Feishu (Lark) WebSocket long connection (no public URL), WeCom AES-encrypted callbacks, and Telegram long polling — per-chat agent sessions, whitelist access, and a visual settings card in the web GUI.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-1c4a9e66afe82917249a.html"
+  }
+}

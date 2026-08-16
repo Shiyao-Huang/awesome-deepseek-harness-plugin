@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-acb6f67388502981b604",
+    "name": "unified-agent-memory",
+    "author": "Noelune",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/Noelune/unified-agent-memory",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-acb6f67388502981b604.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-acb6f67388502981b604.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-unified-agent-memory",
+    "command": "dsh plugin --profile web add dsh-unified-agent-memory",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-acb6f67388502981b604，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-acb6f67388502981b604.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-acb6f67388502981b604.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "unified-agent-memory 已收录到 DeepSeek Harness Plugin Store。多 Agent 共享一个 Obsidian vault：零依赖 Python core（检索/晋升/裁决/遗忘）+ vault 模板 + dsh 插件（memory_search/show/submit/status）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-acb6f67388502981b604.html",
+    "en": "unified-agent-memory is now listed on the DeepSeek Harness Plugin Store. One shared Obsidian vault for every agent: dependency-free Python core (search/promote/adjudicate/forget), vault template, dsh plugin (memory_search/show/submit/status).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-acb6f67388502981b604.html"
+  }
+}

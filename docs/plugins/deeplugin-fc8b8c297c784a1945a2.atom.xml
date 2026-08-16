@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>deepseek-harness-forge-plugins#forge-gates — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-fc8b8c297c784a1945a2.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-fc8b8c297c784a1945a2.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fc8b8c297c784a1945a2.html"/>
+  <entry>
+    <title>Updated: deepseek-harness-forge-plugins#forge-gates</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-fc8b8c297c784a1945a2/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fc8b8c297c784a1945a2.html"/>
+    <author><name>jinguanghai</name></author>
+    <category term="tools"/>
+    <summary>Real-compute verification gates: math simplification, logic proofs, regex validation, E-prover FOL, state-machine checks, and code repair, backed by Go-compiled binaries with prebuilt Windows executables. Exact install spec: github:jinguanghai/deepseek-harness-forge-plugins#path:/plugins/forge-gates. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: deepseek-harness-forge-plugins#forge-gates</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-fc8b8c297c784a1945a2/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fc8b8c297c784a1945a2.html"/>
+    <author><name>jinguanghai</name></author>
+    <category term="tools"/>
+    <summary>Real-compute verification gates: math simplification, logic proofs, regex validation, E-prover FOL, state-machine checks, and code repair, backed by Go-compiled binaries with prebuilt Windows executables. Exact install spec: github:jinguanghai/deepseek-harness-forge-plugins#path:/plugins/forge-gates. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: deepseek-harness-forge-plugins#forge-gates</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-fc8b8c297c784a1945a2/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fc8b8c297c784a1945a2.html"/>
+    <author><name>jinguanghai</name></author>
+    <category term="tools"/>
+    <summary>Real-compute verification gates: math simplification, logic proofs, regex validation, E-prover FOL, state-machine checks, and code repair, backed by Go-compiled binaries with prebuilt Windows executables. Exact install spec: github:jinguanghai/deepseek-harness-forge-plugins#path:/plugins/forge-gates. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-bbf28021e2e95aa2ab32",
+    "name": "dsh-plugins#turn-scrubber",
+    "author": "wsxwj123",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/wsxwj123/dsh-plugins/tree/main/packages/turn-scrubber",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-bbf28021e2e95aa2ab32.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-bbf28021e2e95aa2ab32.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:wsxwj123/dsh-plugins#path:/packages/turn-scrubber",
+    "command": "dsh plugin --profile web add github:wsxwj123/dsh-plugins#path:/packages/turn-scrubber",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-bbf28021e2e95aa2ab32，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-bbf28021e2e95aa2ab32.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-bbf28021e2e95aa2ab32.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugins#turn-scrubber 已收录到 DeepSeek Harness Plugin Store。右侧紧凑回合刻度条，悬停显示回合摘要，点击跳转到对应用户回合。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-bbf28021e2e95aa2ab32.html",
+    "en": "dsh-plugins#turn-scrubber is now listed on the DeepSeek Harness Plugin Store. Compact right-edge turn rail with hover summaries and click-to-jump navigation.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-bbf28021e2e95aa2ab32.html"
+  }
+}

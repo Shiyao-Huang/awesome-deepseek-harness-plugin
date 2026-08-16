@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-4e2df63b8938b4d49f1d",
+    "name": "deepseek-harness-desktop#packages/dsh-desktop-base",
+    "author": "ningbainb",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/ningbainb/deepseek-harness-desktop/tree/main/packages/dsh-desktop-base",
+    "firstObservedAt": "2026-08-16T09:56:16Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-4e2df63b8938b4d49f1d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-4e2df63b8938b4d49f1d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:ningbainb/deepseek-harness-desktop#path:/packages/dsh-desktop-base",
+    "command": "dsh plugin --profile web add github:ningbainb/deepseek-harness-desktop#path:/packages/dsh-desktop-base",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-4e2df63b8938b4d49f1d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-4e2df63b8938b4d49f1d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-4e2df63b8938b4d49f1d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "deepseek-harness-desktop#packages/dsh-desktop-base 已收录到 DeepSeek Harness Plugin Store。桌面版基础功能聚合包：按固定版本安装 DSH Web UI 合集、dshmarket、Codex Connect 与推理强度控制。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-4e2df63b8938b4d49f1d.html",
+    "en": "deepseek-harness-desktop#packages/dsh-desktop-base is now listed on the DeepSeek Harness Plugin Store. Desktop feature aggregate that installs the DSH Web UI collection, dshmarket, Codex Connect, and reasoning-effort controls at pinned versions.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-4e2df63b8938b4d49f1d.html"
+  }
+}

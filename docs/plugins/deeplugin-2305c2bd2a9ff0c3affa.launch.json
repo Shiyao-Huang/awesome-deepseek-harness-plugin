@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-2305c2bd2a9ff0c3affa",
+    "name": "dsh-restart",
+    "author": "anweat",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/anweat/dsh-restart",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-2305c2bd2a9ff0c3affa.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-2305c2bd2a9ff0c3affa.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-restart",
+    "command": "dsh plugin --profile web add dsh-restart",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-2305c2bd2a9ff0c3affa，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-2305c2bd2a9ff0c3affa.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-2305c2bd2a9ff0c3affa.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-restart 已收录到 DeepSeek Harness Plugin Store。DSH 重启插件：可配置的重启方式（Node 原生/旧 PowerShell 适配）、重启后自动继续的提示词、可选看门狗自动拉起。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-2305c2bd2a9ff0c3affa.html",
+    "en": "dsh-restart is now listed on the DeepSeek Harness Plugin Store. Restart DSH: configurable restart method (Node native / legacy PowerShell), post-restart continue prompt, optional watchdog auto-relaunch.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-2305c2bd2a9ff0c3affa.html"
+  }
+}

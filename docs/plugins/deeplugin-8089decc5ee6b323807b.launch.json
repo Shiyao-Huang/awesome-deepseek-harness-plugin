@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-8089decc5ee6b323807b",
+    "name": "dsh-plugin-clinic",
+    "author": "ayahunter",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/ayahunter/dsh-plugin-clinic",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-8089decc5ee6b323807b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-8089decc5ee6b323807b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:ayahunter/dsh-plugin-clinic",
+    "command": "dsh plugin --profile web add github:ayahunter/dsh-plugin-clinic",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-8089decc5ee6b323807b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-8089decc5ee6b323807b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-8089decc5ee6b323807b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-clinic 已收录到 DeepSeek Harness Plugin Store。已安装 DSH 插件集合的只读体检诊所：加载健康、依赖完整、版本兼容、安装脚本风险、重复与 patch 引用，交付模型工具、设置面板与 JSON 报告。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-8089decc5ee6b323807b.html",
+    "en": "dsh-plugin-clinic is now listed on the DeepSeek Harness Plugin Store. Read-only health clinic for the installed DSH plugin set: loader health, dependency integrity, version compatibility, install-script risk, duplicates and patch integrity, delivered as a model tool, a Settings dashboard and JSON reports.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-8089decc5ee6b323807b.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-0f0d1a69489564413143",
+    "name": "dsh-design-skills",
+    "author": "zhaiyateng",
+    "category": "skill",
+    "version": null,
+    "homepage": "https://github.com/zhaiyateng/dsh-design-skills",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-0f0d1a69489564413143.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-0f0d1a69489564413143.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:zhaiyateng/dsh-design-skills",
+    "command": "dsh plugin --profile web add github:zhaiyateng/dsh-design-skills",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-0f0d1a69489564413143，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-0f0d1a69489564413143.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-0f0d1a69489564413143.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-design-skills 已收录到 DeepSeek Harness Plugin Store。设计美学技能包：10 种风格（深色 SaaS、极简白、新拟态、粗野主义、毛玻璃、日式极简、便当盒、赛博朋克、蒸汽波、装饰艺术），每种含 token、组件规则、禁用清单与验收清单，附可运行落地页 demo。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-0f0d1a69489564413143.html",
+    "en": "dsh-design-skills is now listed on the DeepSeek Harness Plugin Store. Design-aesthetics skill pack (10 styles: dark SaaS, minimal white, neumorphism, brutalism, glassmorphism, Japanese minimal, bento grid, cyberpunk, vaporwave, art deco) with runnable landing-page demos: tokens, component rules, forbidden lists, and acceptance checklists per style.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-0f0d1a69489564413143.html"
+  }
+}

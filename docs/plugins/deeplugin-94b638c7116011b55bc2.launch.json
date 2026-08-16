@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-94b638c7116011b55bc2",
+    "name": "dsh-lark-bridge",
+    "author": "imetn",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/imetn/dsh-lark-bridge",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-94b638c7116011b55bc2.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-94b638c7116011b55bc2.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:imetn/dsh-lark-bridge",
+    "command": "dsh plugin --profile web add github:imetn/dsh-lark-bridge",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-94b638c7116011b55bc2，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-94b638c7116011b55bc2.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-94b638c7116011b55bc2.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-lark-bridge 已收录到 DeepSeek Harness Plugin Store。DeepSeek Harness 的飞书/Lark 双向控制器，支持 Project 与 Session 路由、交互卡片、审批、附件和任务控制。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-94b638c7116011b55bc2.html",
+    "en": "dsh-lark-bridge is now listed on the DeepSeek Harness Plugin Store. Bidirectional Lark/Feishu controller for DeepSeek Harness with project and session routing, interactive cards, approvals, attachments, and task controls.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-94b638c7116011b55bc2.html"
+  }
+}

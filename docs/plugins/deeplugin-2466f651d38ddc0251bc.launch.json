@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-2466f651d38ddc0251bc",
+    "name": "dsh-pixel-studio#dsh-cli-anything-aseprite",
+    "author": "KongChengZhi",
+    "category": "fun",
+    "version": null,
+    "homepage": "https://github.com/KongChengZhi/dsh-pixel-studio/tree/main/dsh-cli-anything-aseprite",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-2466f651d38ddc0251bc.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-2466f651d38ddc0251bc.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:kongchengzhi/dsh-pixel-studio#path:/dsh-cli-anything-aseprite",
+    "command": "dsh plugin --profile web add github:kongchengzhi/dsh-pixel-studio#path:/dsh-cli-anything-aseprite",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-2466f651d38ddc0251bc，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-2466f651d38ddc0251bc.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-2466f651d38ddc0251bc.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-pixel-studio#dsh-cli-anything-aseprite 已收录到 DeepSeek Harness Plugin Store。Aseprite 风格像素画工作室：AI 像人类一样分步绘制精灵，支持选区、图层、动画帧、渐变、对称、参考层与 rgb16 4096 色，每一步实时渲染为 ANSI 终端帧。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-2466f651d38ddc0251bc.html",
+    "en": "dsh-pixel-studio#dsh-cli-anything-aseprite is now listed on the DeepSeek Harness Plugin Store. Aseprite-style pixel art studio: the AI draws sprites stroke by stroke with selections, layers, animation frames, gradients, symmetry and reference layers, each step rendered live as ANSI terminal frames.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-2466f651d38ddc0251bc.html"
+  }
+}

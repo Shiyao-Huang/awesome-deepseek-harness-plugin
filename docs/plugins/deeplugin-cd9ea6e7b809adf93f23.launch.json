@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-cd9ea6e7b809adf93f23",
+    "name": "dsh-message-rail",
+    "author": "wx-yss",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/wx-yss/dsh-message-rail",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-cd9ea6e7b809adf93f23.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-cd9ea6e7b809adf93f23.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-message-rail",
+    "command": "dsh plugin --profile web add dsh-message-rail",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-cd9ea6e7b809adf93f23，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-cd9ea6e7b809adf93f23.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-cd9ea6e7b809adf93f23.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-message-rail 已收录到 DeepSeek Harness Plugin Store。Codex 风格左侧消息导航轨道：每条用户消息一个刻度，悬停预览、点击跳转，全历史一次索引。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-cd9ea6e7b809adf93f23.html",
+    "en": "dsh-message-rail is now listed on the DeepSeek Harness Plugin Store. Codex-style left-side message navigation rail for the Web UI: one tick per user message, hover previews, and click-to-jump across the whole history.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-cd9ea6e7b809adf93f23.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-e22d68bca3961a841f12",
+    "name": "dsh-doctor",
+    "author": "asdf17128",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/jorinyang/dsh-doctor",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-e22d68bca3961a841f12.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-e22d68bca3961a841f12.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:asdf17128/dsh-doctor",
+    "command": "dsh plugin --profile web add github:asdf17128/dsh-doctor",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-e22d68bca3961a841f12，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-e22d68bca3961a841f12.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-e22d68bca3961a841f12.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-doctor 已收录到 DeepSeek Harness Plugin Store。注册 `config_doctor` 工具，检查 harness 自身配置里那些会静默通过启动的问题：patch 整体替换 config 而丢失的字段、指向不存在 entry id 的 patch、工具重名冲突。只读。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e22d68bca3961a841f12.html",
+    "en": "dsh-doctor is now listed on the DeepSeek Harness Plugin Store. Registers a `config_doctor` tool that checks the harness's own configuration for problems that boot silently: fields a patch dropped by whole-config replacement, patches targeting missing entry ids, and tool-name collisions. Read-only.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e22d68bca3961a841f12.html"
+  }
+}

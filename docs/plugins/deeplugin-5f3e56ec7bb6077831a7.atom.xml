@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>capital-generation — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-5f3e56ec7bb6077831a7.atom.xml</id>
+  <updated>2026-08-16T14:38:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-5f3e56ec7bb6077831a7.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-5f3e56ec7bb6077831a7.html"/>
+  <entry>
+    <title>New: capital-generation</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-5f3e56ec7bb6077831a7/ea75554e2a868342</id>
+    <updated>2026-08-16T14:38:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-5f3e56ec7bb6077831a7.html"/>
+    <author><name>v587d</name></author>
+    <category term="tools"/>
+    <summary>China A-share financial data MCP server for the harness: 11 fin_data__* tools (quotes/K-lines/financials/calendar/special-data/announcements/EDB/reconcile/funds/indices) over THS free official REST (primary) + AKShare (fallback) + Wind (exclusive domains), with observable degradation, context-budget compression (result-side -72.2% measured), and an offline 10-year market-data lake; BYOK. Exact install spec: github:v587d/capital-generation. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-open-with — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-ad8a3536377913906276.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-ad8a3536377913906276.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ad8a3536377913906276.html"/>
+  <entry>
+    <title>Updated: dsh-open-with</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-ad8a3536377913906276/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ad8a3536377913906276.html"/>
+    <author><name>ChuanTianML</name></author>
+    <category term="notify"/>
+    <summary>Open registered workspaces from the Web UI in a detected or configured local editor, terminal, or file manager, with a remembered per-browser preference. Exact install spec: dsh-open-with. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-open-with</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-ad8a3536377913906276/6f2ac25403078bce</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ad8a3536377913906276.html"/>
+    <author><name>ChuanTianML</name></author>
+    <category term="notify"/>
+    <summary>Open registered workspaces from the Web UI in a detected or configured local editor, terminal, or file manager, with a remembered per-browser preference. Exact install spec: dsh-open-with. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

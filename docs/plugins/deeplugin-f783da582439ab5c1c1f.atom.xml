@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>awesome-dsh-skills — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-f783da582439ab5c1c1f.atom.xml</id>
+  <updated>2026-08-16T14:38:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-f783da582439ab5c1c1f.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f783da582439ab5c1c1f.html"/>
+  <entry>
+    <title>New: awesome-dsh-skills</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-f783da582439ab5c1c1f/ea75554e2a868342</id>
+    <updated>2026-08-16T14:38:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f783da582439ab5c1c1f.html"/>
+    <author><name>hackerFish</name></author>
+    <category term="skill"/>
+    <summary>12 tested engineering skills (git commit, code review, test-first, plugin dev, debugging, changelog, PR review, task breakdown, and more): every SKILL.md passes a format validator aligned with the official skill rules plus an isolated load smoke test. Exact install spec: github:hackerfish/awesome-dsh-skills. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

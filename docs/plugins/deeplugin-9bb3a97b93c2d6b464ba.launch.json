@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-9bb3a97b93c2d6b464ba",
+    "name": "dsh-sxs-anti-bot-http",
+    "author": "yangyunsong023",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/yangyunsong023/dsh-sxs-anti-bot-http",
+    "firstObservedAt": "2026-08-16T08:41:44Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-9bb3a97b93c2d6b464ba.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-9bb3a97b93c2d6b464ba.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:yangyunsong023/dsh-sxs-anti-bot-http",
+    "command": "dsh plugin --profile web add github:yangyunsong023/dsh-sxs-anti-bot-http",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-9bb3a97b93c2d6b464ba，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-9bb3a97b93c2d6b464ba.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-9bb3a97b93c2d6b464ba.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-sxs-anti-bot-http 已收录到 DeepSeek Harness Plugin Store。反爬 HTTP 工具：UA 池轮换、指数退避重试、反爬墙检测（验证码/安全验证）与自适应限流，提炼自 SXS 生产采集体系（每日数百万请求）——工具：`sxs_fetch` / `sxs_fetch_json` / `sxs_rate_status`。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-9bb3a97b93c2d6b464ba.html",
+    "en": "dsh-sxs-anti-bot-http is now listed on the DeepSeek Harness Plugin Store. Anti-bot HTTP fetch tools hardened by SXS's production scraping stack (millions of requests/day): UA-pool rotation, retry with exponential backoff, anti-bot wall detection (captcha / verification challenges) and adaptive rate limiting — tools: `sxs_fetch` / `sxs_fetch_json` / `sxs_rate_status`.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-9bb3a97b93c2d6b464ba.html"
+  }
+}

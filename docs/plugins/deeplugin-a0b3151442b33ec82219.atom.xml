@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-movein-permissions — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-a0b3151442b33ec82219.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-a0b3151442b33ec82219.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a0b3151442b33ec82219.html"/>
+  <entry>
+    <title>Updated: dsh-movein-permissions</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-a0b3151442b33ec82219/ccd114c86c4860ba</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a0b3151442b33ec82219.html"/>
+    <author><name>sjh9714</name></author>
+    <category term="dev"/>
+    <summary>Fine grained per tool permission rules for DSH at the tools/pre-execute gate, deny and ask lists in Claude Code rule syntax (Bash(rm -rf:*), Read(_secrets_), mcp__server__tool), works standalone without migrating. Exact install spec: dsh-movein-permissions. Source event: zoahdev/dsh-subscribe; changed: description_i18n.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-movein-permissions</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-a0b3151442b33ec82219/e1ab6d4a0ce81c55</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a0b3151442b33ec82219.html"/>
+    <author><name>sjh9714</name></author>
+    <category term="dev"/>
+    <summary>Fine grained per tool permission rules for DSH at the tools/pre-execute gate, deny and ask lists in Claude Code rule syntax (Bash(rm -rf:*), Read(_secrets_), mcp__server__tool), works standalone without migrating. Exact install spec: dsh-movein-permissions. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-movein-permissions</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-a0b3151442b33ec82219/68531a96d9f9913c</id>
+    <updated>2026-08-16T03:13:50Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a0b3151442b33ec82219.html"/>
+    <author><name>sjh9714</name></author>
+    <category term="dev"/>
+    <summary>Fine grained per tool permission rules for DSH at the tools/pre-execute gate, deny and ask lists in Claude Code rule syntax (Bash(rm -rf:*), Read(_secrets_), mcp__server__tool), works standalone without migrating. Exact install spec: dsh-movein-permissions. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description_i18n.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-movein-permissions</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-a0b3151442b33ec82219/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a0b3151442b33ec82219.html"/>
+    <author><name>sjh9714</name></author>
+    <category term="dev"/>
+    <summary>Fine grained per tool permission rules for DSH at the tools/pre-execute gate, deny and ask lists in Claude Code rule syntax (Bash(rm -rf:*), Read(_secrets_), mcp__server__tool), works standalone without migrating. Exact install spec: dsh-movein-permissions. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-movein-permissions</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-a0b3151442b33ec82219/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a0b3151442b33ec82219.html"/>
+    <author><name>sjh9714</name></author>
+    <category term="dev"/>
+    <summary>Fine grained per tool permission rules for DSH at the tools/pre-execute gate, deny and ask lists in Claude Code rule syntax (Bash(rm -rf:*), Read(_secrets_), mcp__server__tool), works standalone without migrating. Exact install spec: dsh-movein-permissions. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

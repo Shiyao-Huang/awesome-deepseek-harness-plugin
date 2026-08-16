@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-fff895cb1becda89a4de",
+    "name": "dsh-permgate",
+    "author": "MrWeiCodes",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/MrWeiCodes/dsh-permgate",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-fff895cb1becda89a4de.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-fff895cb1becda89a4de.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:mrweicodes/dsh-permgate",
+    "command": "dsh plugin --profile web add github:mrweicodes/dsh-permgate",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-fff895cb1becda89a4de，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-fff895cb1becda89a4de.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-fff895cb1becda89a4de.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-permgate 已收录到 DeepSeek Harness Plugin Store。细粒度权限网关：按分类（工作区外目录/命令/读写文件/子代理/重复操作）逐项审查工具调用，全局/项目双级白黑名单、快捷工具默认值、自定义规则，中英文审批弹窗（内联 diff 详情、自定义拒绝意见）与底层沙箱升级流程。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-fff895cb1becda89a4de.html",
+    "en": "dsh-permgate is now listed on the DeepSeek Harness Plugin Store. Fine-grained permission gateway: per-category tool-call review (outside-workspace directories, commands, file read/write, subagents, repeated actions) with global & per-project allow/deny exceptions, quick-tool defaults, custom rules, a bilingual approval modal with inline diff details, custom rejection reasons and a sandbox-upgrade flow.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-fff895cb1becda89a4de.html"
+  }
+}

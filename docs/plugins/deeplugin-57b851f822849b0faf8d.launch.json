@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-57b851f822849b0faf8d",
+    "name": "dsh-usage-chart",
+    "author": "Max-Samson",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/Max-Samson/dsh-usage-chart",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-57b851f822849b0faf8d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-57b851f822849b0faf8d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-usage-chart",
+    "command": "dsh plugin --profile web add dsh-usage-chart",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-57b851f822849b0faf8d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-57b851f822849b0faf8d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-57b851f822849b0faf8d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-usage-chart 已收录到 DeepSeek Harness Plugin Store。输入框下方的用量/成本/余额仪表盘：实时指标指示器 + 零依赖 SVG 用量图表，按轮次统计用量、估算成本并实时查询 DeepSeek 账户余额。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-57b851f822849b0faf8d.html",
+    "en": "dsh-usage-chart is now listed on the DeepSeek Harness Plugin Store. Token, cost, and balance dashboard under the composer: live indicator plus zero-dependency SVG charts for per-turn usage, estimated cost, and DeepSeek account balance.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-57b851f822849b0faf8d.html"
+  }
+}

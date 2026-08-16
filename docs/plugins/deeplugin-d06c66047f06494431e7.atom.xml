@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-notion — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-d06c66047f06494431e7.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-d06c66047f06494431e7.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d06c66047f06494431e7.html"/>
+  <entry>
+    <title>Updated: dsh-notion</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-d06c66047f06494431e7/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d06c66047f06494431e7.html"/>
+    <author><name>mingzeng21</name></author>
+    <category term="notify"/>
+    <summary>Connect dsh to Notion via the official Notion MCP (OAuth + PKCE): search, read, and write pages, databases, and comments through `mcp__notion__*` tools. Exact install spec: github:mingzeng21/dsh-notion. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-notion</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-d06c66047f06494431e7/e1ab6d4a0ce81c55</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d06c66047f06494431e7.html"/>
+    <author><name>mingzeng21</name></author>
+    <category term="notify"/>
+    <summary>Connect dsh to Notion via the official Notion MCP (OAuth + PKCE): search, read, and write pages, databases, and comments through `mcp__notion__*` tools. Exact install spec: github:mingzeng21/dsh-notion. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-notion</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-d06c66047f06494431e7/656f2ea871eef1c6</id>
+    <updated>2026-08-16T00:51:32Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d06c66047f06494431e7.html"/>
+    <author><name>mingzeng21</name></author>
+    <category term="notify"/>
+    <summary>Connect dsh to Notion via the official Notion MCP (OAuth + PKCE): search, read, and write pages, databases, and comments through `mcp__notion__*` tools. Exact install spec: github:mingzeng21/dsh-notion. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

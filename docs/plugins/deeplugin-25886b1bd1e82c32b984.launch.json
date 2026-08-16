@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-25886b1bd1e82c32b984",
+    "name": "dsh-Kimi-WebBridge",
+    "author": "MicroHEROX",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/MicroHEROX/dsh-Kimi-WebBridge",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-25886b1bd1e82c32b984.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-25886b1bd1e82c32b984.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:microherox/dsh-kimi-webbridge",
+    "command": "dsh plugin --profile web add github:microherox/dsh-kimi-webbridge",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-25886b1bd1e82c32b984，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-25886b1bd1e82c32b984.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-25886b1bd1e82c32b984.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-Kimi-WebBridge 已收录到 DeepSeek Harness Plugin Store。通过本地 Kimi WebBridge 守护进程驱动用户的真实浏览器：navigate、find-tab、snapshot、click、fill、evaluate、CDP、screenshot、network、upload、PDF 导出与标签管理工具，复用浏览器已登录会话。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-25886b1bd1e82c32b984.html",
+    "en": "dsh-Kimi-WebBridge is now listed on the DeepSeek Harness Plugin Store. Drive the user's real browser through the local Kimi WebBridge daemon: navigate, find-tab, snapshot, click, fill, evaluate, CDP, screenshot, network, upload, PDF export and tab-management tools that reuse existing login sessions.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-25886b1bd1e82c32b984.html"
+  }
+}

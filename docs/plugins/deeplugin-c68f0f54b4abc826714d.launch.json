@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-c68f0f54b4abc826714d",
+    "name": "dsh-cyber-particle",
+    "author": "AKS1st",
+    "category": "theme",
+    "version": null,
+    "homepage": "https://github.com/AKS1st/dsh-cyber-particle",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T13:41:06Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-c68f0f54b4abc826714d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-c68f0f54b4abc826714d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:aks1st/dsh-cyber-particle",
+    "command": "dsh plugin --profile web add github:aks1st/dsh-cyber-particle",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-c68f0f54b4abc826714d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-c68f0f54b4abc826714d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-c68f0f54b4abc826714d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-cyber-particle 已收录到 DeepSeek Harness Plugin Store。为 DSH Web 界面提供粒子网络动态背景：全屏覆盖、点击穿透、零运行时依赖；以及开放事件源：其他插件可注入 notifier 服务（ctx.notifier）并订阅 dsh-notifier/sent 发送事件——复用通知能力而无需耦合。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c68f0f54b4abc826714d.html",
+    "en": "dsh-cyber-particle is now listed on the DeepSeek Harness Plugin Store. Particle-network background overlay for the DSH Web shell: full-screen, click-through, zero runtime dependencies.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-c68f0f54b4abc826714d.html"
+  }
+}

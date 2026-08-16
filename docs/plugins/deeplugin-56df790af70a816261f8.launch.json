@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-56df790af70a816261f8",
+    "name": "dsh-deep-whale",
+    "author": "Small-tailqwq",
+    "category": "theme",
+    "version": null,
+    "homepage": "https://github.com/Small-tailqwq/dsh-deep-whale",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-56df790af70a816261f8.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-56df790af70a816261f8.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:small-tailqwq/dsh-deep-whale",
+    "command": "dsh plugin --profile web add github:small-tailqwq/dsh-deep-whale",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-56df790af70a816261f8，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-56df790af70a816261f8.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-56df790af70a816261f8.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-deep-whale 已收录到 DeepSeek Harness Plugin Store。DSH Web 鲸鱼娘皮肤系列（深海女仆工坊 maid-atelier）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-56df790af70a816261f8.html",
+    "en": "dsh-deep-whale is now listed on the DeepSeek Harness Plugin Store. Whale-girl skin series for the DSH Web UI (maid-atelier).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-56df790af70a816261f8.html"
+  }
+}

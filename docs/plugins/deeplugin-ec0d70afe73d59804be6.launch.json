@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-ec0d70afe73d59804be6",
+    "name": "dsh-skill-picker",
+    "author": "a735624258",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/a735624258/dsh-skill-picker",
+    "firstObservedAt": "2026-08-16T08:41:44Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-ec0d70afe73d59804be6.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-ec0d70afe73d59804be6.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-skill-picker",
+    "command": "dsh plugin --profile web add dsh-skill-picker",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-ec0d70afe73d59804be6，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-ec0d70afe73d59804be6.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-ec0d70afe73d59804be6.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-skill-picker 已收录到 DeepSeek Harness Plugin Store。WorkBuddy 同款技能选择器：输入框旁 ⚡ 按钮弹出全部技能列表，支持搜索与最近/常用排序，点选即插入官方 `/技能名` 手势，随消息发出自动加载执行。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-ec0d70afe73d59804be6.html",
+    "en": "dsh-skill-picker is now listed on the DeepSeek Harness Plugin Store. WorkBuddy-style skill picker: a button beside the composer opens a searchable list of installed skills; picking one inserts the official /skill-name gesture, so the skill loads with your message.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-ec0d70afe73d59804be6.html"
+  }
+}

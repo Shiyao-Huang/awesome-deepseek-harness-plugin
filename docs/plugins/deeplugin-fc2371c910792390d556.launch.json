@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-fc2371c910792390d556",
+    "name": "dsh-memory",
+    "author": "Jesse-njx",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/Jesse-njx/dsh-memory",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-fc2371c910792390d556.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-fc2371c910792390d556.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:jesse-njx/dsh-memory",
+    "command": "dsh plugin --profile web add github:jesse-njx/dsh-memory",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-fc2371c910792390d556，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-fc2371c910792390d556.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-fc2371c910792390d556.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-memory 已收录到 DeepSeek Harness Plugin Store。基于 DSH 无损会话日志的引用式记忆：蒸馏出的事实带 `(sessionId, eventRange)` 引用，可随时展开回原始日志片段。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-fc2371c910792390d556.html",
+    "en": "dsh-memory is now listed on the DeepSeek Harness Plugin Store. Cited memory over DSH's lossless session log: distilled facts carry `(sessionId, eventRange)` citations that expand back to the exact original log excerpt.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-fc2371c910792390d556.html"
+  }
+}

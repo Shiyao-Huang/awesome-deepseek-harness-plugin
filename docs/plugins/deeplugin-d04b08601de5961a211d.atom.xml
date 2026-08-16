@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Co-Engram — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-d04b08601de5961a211d.atom.xml</id>
+  <updated>2026-08-16T13:41:06Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-d04b08601de5961a211d.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d04b08601de5961a211d.html"/>
+  <entry>
+    <title>New: Co-Engram</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-d04b08601de5961a211d/60715e29601bb9d9</id>
+    <updated>2026-08-16T13:41:06Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d04b08601de5961a211d.html"/>
+    <author><name>Co-Engram</name></author>
+    <category term="memory"/>
+    <summary>Self-evolving team memory as plain Markdown in git: a native Cordis plugin that registers 38 bare-name memory tools plus a prompt-signals section re-evaluated at every assembly, with RPE reinforcement, decay and sleep consolidation; shares one data repo with its Claude Code (MCP) and OpenClaw hosts; verified against DSH 0.1.0-rc.6. Exact install spec: github:co-engram/co-engram. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

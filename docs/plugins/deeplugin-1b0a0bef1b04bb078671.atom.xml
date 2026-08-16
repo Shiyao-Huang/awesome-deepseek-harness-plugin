@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>github-explore — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-1b0a0bef1b04bb078671.atom.xml</id>
+  <updated>2026-08-16T14:38:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-1b0a0bef1b04bb078671.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1b0a0bef1b04bb078671.html"/>
+  <entry>
+    <title>New: github-explore</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-1b0a0bef1b04bb078671/ea75554e2a868342</id>
+    <updated>2026-08-16T14:38:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1b0a0bef1b04bb078671.html"/>
+    <author><name>Fectivnfy112357</name></author>
+    <category term="skill"/>
+    <summary>GitHub search, discovery and audit scripts wrapped as a SKILL.md pack around the gh CLI: repo search, multi-axis explore, trending, repo summaries, similar projects, code search, issue/PR search and org audits; ships as a dsh bundle (and on npm). Exact install spec: github-explore. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

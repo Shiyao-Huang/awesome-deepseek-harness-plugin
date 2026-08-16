@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-ff2959ba5a159ea2baa4",
+    "name": "dsh-ha-orchestrator",
+    "author": "Saktawdi",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/Saktawdi/dsh-ha-orchestrator",
+    "firstObservedAt": "2026-08-16T13:41:06Z",
+    "lastChangedAt": "2026-08-16T13:41:06Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-ff2959ba5a159ea2baa4.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-ff2959ba5a159ea2baa4.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-ha-orchestrator",
+    "command": "dsh plugin --profile web add dsh-ha-orchestrator",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-ff2959ba5a159ea2baa4，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-ff2959ba5a159ea2baa4.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-ff2959ba5a159ea2baa4.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-ha-orchestrator 已收录到 DeepSeek Harness Plugin Store。模型高可用故障回退（隔离/熔断/探测恢复）与子智能体编排（fanout/pipeline/supervisor），附带双语设置界面。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-ff2959ba5a159ea2baa4.html",
+    "en": "dsh-ha-orchestrator is now listed on the DeepSeek Harness Plugin Store. Model high-availability failover (quarantine, circuit breaking, probe recovery) and subagent orchestration (fanout/pipeline/supervisor) with bilingual settings UI.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-ff2959ba5a159ea2baa4.html"
+  }
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>godot-bridge — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-a6f8242ec842ba75312b.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-a6f8242ec842ba75312b.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a6f8242ec842ba75312b.html"/>
+  <entry>
+    <title>Updated: godot-bridge</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-a6f8242ec842ba75312b/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a6f8242ec842ba75312b.html"/>
+    <author><name>Smalldy</name></author>
+    <category term="tools"/>
+    <summary>DSH↔Godot engine runtime bridge: launch and drive a running Godot 4.x game through its in-game TCP interaction server — 8 tools (scene/UI inspection, GDScript eval, input simulation, screenshots, headless static ops, script validation), replaces godot-mcp. Exact install spec: github:smalldy/godot-bridge. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: godot-bridge</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-a6f8242ec842ba75312b/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a6f8242ec842ba75312b.html"/>
+    <author><name>Smalldy</name></author>
+    <category term="tools"/>
+    <summary>DSH↔Godot engine runtime bridge: launch and drive a running Godot 4.x game through its in-game TCP interaction server — 8 tools (scene/UI inspection, GDScript eval, input simulation, screenshots, headless static ops, script validation), replaces godot-mcp. Exact install spec: github:smalldy/godot-bridge. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: godot-bridge</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-a6f8242ec842ba75312b/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a6f8242ec842ba75312b.html"/>
+    <author><name>Smalldy</name></author>
+    <category term="tools"/>
+    <summary>DSH↔Godot engine runtime bridge: launch and drive a running Godot 4.x game through its in-game TCP interaction server — 8 tools (scene/UI inspection, GDScript eval, input simulation, screenshots, headless static ops, script validation), replaces godot-mcp. Exact install spec: github:smalldy/godot-bridge. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

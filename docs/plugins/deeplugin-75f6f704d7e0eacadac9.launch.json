@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-75f6f704d7e0eacadac9",
+    "name": "dsh-agfs",
+    "author": "openAGFS",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/openAGFS/dsh-agfs",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-75f6f704d7e0eacadac9.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-75f6f704d7e0eacadac9.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@open-agfs/dsh-agfs",
+    "command": "dsh plugin --profile web add @open-agfs/dsh-agfs",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-75f6f704d7e0eacadac9，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-75f6f704d7e0eacadac9.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-75f6f704d7e0eacadac9.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-agfs 已收录到 DeepSeek Harness Plugin Store。文件浏览器 Web 应用：React 前端与 REST API 由宿主 webserver 托管，/dsh-agfs 命令自动定位当前工作区，附 browse_files 模型工具。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-75f6f704d7e0eacadac9.html",
+    "en": "dsh-agfs is now listed on the DeepSeek Harness Plugin Store. File-browser web app for DSH: React frontend and REST API served by the host webserver, a /dsh-agfs command that opens at the current session workspace, and a browse_files model tool.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-75f6f704d7e0eacadac9.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-05f9bbdeadac4c5f1b89",
+    "name": "dsh-deepseek-vision",
+    "author": "siegfly",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/siegfly/dsh-deepseek-vision",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-05f9bbdeadac4c5f1b89.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-05f9bbdeadac4c5f1b89.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-deepseek-vision",
+    "command": "dsh plugin --profile web add dsh-deepseek-vision",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-05f9bbdeadac4c5f1b89，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-05f9bbdeadac4c5f1b89.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-05f9bbdeadac4c5f1b89.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-deepseek-vision 已收录到 DeepSeek Harness Plugin Store。视觉语言网关：注册支持图片输入的 DeepSeek provider 路由，图片先由可配置 VL 模型（默认 Qwen-VL）描述成文字再发送。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-05f9bbdeadac4c5f1b89.html",
+    "en": "dsh-deepseek-vision is now listed on the DeepSeek Harness Plugin Store. A vision-language gateway provider route: pasted images are described by a configurable VL model (Qwen-VL by default) before the DeepSeek wire.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-05f9bbdeadac4c5f1b89.html"
+  }
+}

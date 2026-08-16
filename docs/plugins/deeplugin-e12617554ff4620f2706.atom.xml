@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>DSH GenUI — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-e12617554ff4620f2706.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-e12617554ff4620f2706.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e12617554ff4620f2706.html"/>
+  <entry>
+    <title>Updated: DSH GenUI</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-e12617554ff4620f2706/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e12617554ff4620f2706.html"/>
+    <author><name>omdsh-dev</name></author>
+    <category term="tools"/>
+    <summary>Interactive UI components rendered inline in assistant messages. Exact install spec: github:omdsh-dev/dsh-genui. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: DSH GenUI</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-e12617554ff4620f2706/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e12617554ff4620f2706.html"/>
+    <author><name>omdsh-dev</name></author>
+    <category term="tools"/>
+    <summary>Interactive UI components rendered inline in assistant messages. Exact install spec: github:omdsh-dev/dsh-genui. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: DSH GenUI</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-e12617554ff4620f2706/19f118ecfd65ceec</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e12617554ff4620f2706.html"/>
+    <author><name>omdsh-dev</name></author>
+    <category term="tools"/>
+    <summary>Interactive UI components rendered inline in assistant messages. Exact install spec: github:omdsh-dev/dsh-genui. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: DSH GenUI</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-e12617554ff4620f2706/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e12617554ff4620f2706.html"/>
+    <author><name>omdsh-dev</name></author>
+    <category term="tools"/>
+    <summary>Interactive UI components rendered inline in assistant messages. Exact install spec: github:omdsh-dev/dsh-genui. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

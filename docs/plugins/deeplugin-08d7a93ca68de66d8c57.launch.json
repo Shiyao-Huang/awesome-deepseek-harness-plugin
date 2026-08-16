@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-08d7a93ca68de66d8c57",
+    "name": "dsh-devtools",
+    "author": "izz-BLUE",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/izz-BLUE/dsh-devtools",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-08d7a93ca68de66d8c57.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-08d7a93ca68de66d8c57.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-devtools",
+    "command": "dsh plugin --profile web add dsh-devtools",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-08d7a93ca68de66d8c57，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-08d7a93ca68de66d8c57.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-08d7a93ca68de66d8c57.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-devtools 已收录到 DeepSeek Harness Plugin Store。面向 DSH Agent 的运行时分析器：查看 Turn/Step 轨迹、模型与工具耗时、Provider 用量、重试与错误，实时与历史会话都能看。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-08d7a93ca68de66d8c57.html",
+    "en": "dsh-devtools is now listed on the DeepSeek Harness Plugin Store. Metadata-first runtime profiler for DSH agents: turn/step traces, model and tool wall-time timelines, provider usage, retries, errors, and live or historical sessions.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-08d7a93ca68de66d8c57.html"
+  }
+}

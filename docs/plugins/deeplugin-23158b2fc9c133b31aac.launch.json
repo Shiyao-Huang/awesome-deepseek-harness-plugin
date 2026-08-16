@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-23158b2fc9c133b31aac",
+    "name": "dsh-LorebookMD",
+    "author": "609476965",
+    "category": "fun",
+    "version": null,
+    "homepage": "https://github.com/609476965/dsh-LorebookMD",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-23158b2fc9c133b31aac.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-23158b2fc9c133b31aac.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:609476965/dsh-lorebookmd",
+    "command": "dsh plugin --profile web add github:609476965/dsh-lorebookmd",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-23158b2fc9c133b31aac，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-23158b2fc9c133b31aac.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-23158b2fc9c133b31aac.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-LorebookMD 已收录到 DeepSeek Harness Plugin Store。导入酒馆（SillyTavern/TavernAI）角色卡与世界书，落地为本地 Markdown 设定文档，激活创作模式后根据用户输入、参考世界书创作小说。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-23158b2fc9c133b31aac.html",
+    "en": "dsh-LorebookMD is now listed on the DeepSeek Harness Plugin Store. Import SillyTavern/TavernAI character cards and world books, save them as local Markdown lore documents, and generate novel prose from your prompts with the world settings as reference.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-23158b2fc9c133b31aac.html"
+  }
+}

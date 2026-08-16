@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-3319a2ab2c3f8ee6ffd0",
+    "name": "dsh-background-agents",
+    "author": "PerryLink",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/PerryLink/dsh-background-agents",
+    "firstObservedAt": "2026-08-16T13:41:06Z",
+    "lastChangedAt": "2026-08-16T13:41:06Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-3319a2ab2c3f8ee6ffd0.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-3319a2ab2c3f8ee6ffd0.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-background-agents",
+    "command": "dsh plugin --profile web add dsh-background-agents",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-3319a2ab2c3f8ee6ffd0，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-3319a2ab2c3f8ee6ffd0.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-3319a2ab2c3f8ee6ffd0.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-background-agents 已收录到 DeepSeek Harness Plugin Store。官方子代理接缝上的持久化后台子代理：任意会话中启动，Web 侧边栏看进度、随时留言与打断，支持按子代理限定工具、人格与委托深度。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-3319a2ab2c3f8ee6ffd0.html",
+    "en": "dsh-background-agents is now listed on the DeepSeek Harness Plugin Store. Durable background child agents on the official subagent seam: start from any session, watch progress in the Web UI sidebar, message and interrupt any time, with per-child tool scoping, persona and delegation-depth caps.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-3319a2ab2c3f8ee6ffd0.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-1185a281571f99ae169d",
+    "name": "chicheng-gate",
+    "author": "534119219",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/534119219/chicheng-gate",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-1185a281571f99ae169d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-1185a281571f99ae169d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:534119219/chicheng-gate",
+    "command": "dsh plugin --profile web add github:534119219/chicheng-gate",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-1185a281571f99ae169d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-1185a281571f99ae169d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-1185a281571f99ae169d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "chicheng-gate 已收录到 DeepSeek Harness Plugin Store。DSH Web 插件：局域网/远程访问控制、frpc 内网穿透、面板密码门禁与手机端 UI 适配。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-1185a281571f99ae169d.html",
+    "en": "chicheng-gate is now listed on the DeepSeek Harness Plugin Store. LAN / remote-access control, frpc NAT tunneling, a panel password gate, and mobile UI adaptation for the DSH Web GUI.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-1185a281571f99ae169d.html"
+  }
+}

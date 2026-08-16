@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-937cbe4420cf73987c2d",
+    "name": "dsh-git-hygiene",
+    "author": "lucky8197",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/lucky8197/dsh-git-hygiene",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-937cbe4420cf73987c2d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-937cbe4420cf73987c2d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:lucky8197/dsh-git-hygiene",
+    "command": "dsh plugin --profile web add github:lucky8197/dsh-git-hygiene",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-937cbe4420cf73987c2d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-937cbe4420cf73987c2d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-937cbe4420cf73987c2d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-git-hygiene 已收录到 DeepSeek Harness Plugin Store。Git 卫生巡检：只读扫描已合并/过期分支、大文件、未跟踪文件与未提交修改，输出体检报告与清理建议，不自动删除任何东西。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-937cbe4420cf73987c2d.html",
+    "en": "dsh-git-hygiene is now listed on the DeepSeek Harness Plugin Store. Git hygiene checker: read-only scan of merged and stale branches, oversized tracked files, untracked files and uncommitted work, with cleanup suggestions (it never deletes anything).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-937cbe4420cf73987c2d.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-19fd5bacb018f65efebb",
+    "name": "dsh-mobile-css",
+    "author": "ook826092-cloud",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/ook826092-cloud/dsh-mobile-css",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-19fd5bacb018f65efebb.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-19fd5bacb018f65efebb.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:ook826092-cloud/dsh-mobile-css",
+    "command": "dsh plugin --profile web add github:ook826092-cloud/dsh-mobile-css",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-19fd5bacb018f65efebb，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-19fd5bacb018f65efebb.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-19fd5bacb018f65efebb.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-mobile-css 已收录到 DeepSeek Harness Plugin Store。DSH Web UI 移动端适配：紧凑排版、全宽输入卡（含光标修复）、抽屉式侧边栏（点击遮罩关闭）、两页式设置流程、响应式表格与统计、安全触控目标。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-19fd5bacb018f65efebb.html",
+    "en": "dsh-mobile-css is now listed on the DeepSeek Harness Plugin Store. Mobile adaptation for the DSH Web UI: compact typography, full-width composer with caret fix, drawer sidebar with overlay-close, two-page settings flow, responsive tables and stats, safe touch targets.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-19fd5bacb018f65efebb.html"
+  }
+}

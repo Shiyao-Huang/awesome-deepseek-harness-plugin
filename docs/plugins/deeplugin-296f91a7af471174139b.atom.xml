@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-toolbox-web — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-296f91a7af471174139b.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-296f91a7af471174139b.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-296f91a7af471174139b.html"/>
+  <entry>
+    <title>Updated: dsh-toolbox-web</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-296f91a7af471174139b/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-296f91a7af471174139b.html"/>
+    <author><name>AbcdefgXW</name></author>
+    <category term="tools"/>
+    <summary>Toolbox plugin for the Web UI: session/trash/subdirectory/search/preset/config management, tag grouping, long-message collapse, and a scheduled heartbeat with optional IM channel push. Exact install spec: dsh-toolbox-web. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-toolbox-web</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-296f91a7af471174139b/7e5b8321bc7d21b1</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-296f91a7af471174139b.html"/>
+    <author><name>AbcdefgXW</name></author>
+    <category term="tools"/>
+    <summary>Toolbox plugin for the Web UI: session/trash/subdirectory/search/preset/config management, tag grouping, long-message collapse, and a scheduled heartbeat with optional IM channel push. Exact install spec: dsh-toolbox-web. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

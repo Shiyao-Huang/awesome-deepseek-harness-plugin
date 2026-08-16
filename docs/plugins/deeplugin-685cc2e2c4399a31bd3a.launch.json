@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-685cc2e2c4399a31bd3a",
+    "name": "dsh-msgrail",
+    "author": "futongxu9-maker",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/futongxu9-maker/dsh-msgrail",
+    "firstObservedAt": "2026-08-16T03:13:50Z",
+    "lastChangedAt": "2026-08-16T03:13:50Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-685cc2e2c4399a31bd3a.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-685cc2e2c4399a31bd3a.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:futongxu9-maker/dsh-msgrail",
+    "command": "dsh plugin --profile web add github:futongxu9-maker/dsh-msgrail",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-685cc2e2c4399a31bd3a，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-685cc2e2c4399a31bd3a.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-685cc2e2c4399a31bd3a.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-msgrail 已收录到 DeepSeek Harness Plugin Store。对话右缘消息轨道：每条用户消息一个品牌色圆点，悬停预览、点击跳转、自动加载未加载历史，纯插件零宿主侵入。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-685cc2e2c4399a31bd3a.html",
+    "en": "dsh-msgrail is now listed on the DeepSeek Harness Plugin Store. Message-index rail at the conversation's right edge: one brand-colored dot per user message, hover to preview, click to jump, auto-loads older history; pure plugin with no host patching.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-685cc2e2c4399a31bd3a.html"
+  }
+}

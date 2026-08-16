@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-6c4924e66b9dddfd70fd",
+    "name": "dsh-memory-meow",
+    "author": "Phant0Meow",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/Phant0Meow/dsh-memory-meow",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-6c4924e66b9dddfd70fd.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-6c4924e66b9dddfd70fd.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "meow-memory",
+    "command": "dsh plugin --profile web add meow-memory",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-6c4924e66b9dddfd70fd，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-6c4924e66b9dddfd70fd.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-6c4924e66b9dddfd70fd.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-memory-meow 已收录到 DeepSeek Harness Plugin Store。项目级跨会话记忆：node:sqlite 六层存储（soul/user/project/fact/lesson/topic），首条用户消息缓存友好注入，memory_remember/search/find_similar/read/update 工具，按窗口夜间整理（dream）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-6c4924e66b9dddfd70fd.html",
+    "en": "dsh-memory-meow is now listed on the DeepSeek Harness Plugin Store. Project-scoped cross-session memory: six-layer SQLite store (soul/user/project/fact/lesson/topic) on node:sqlite, cache-friendly first-message injection, memory_remember/search/find_similar/read/update tools, and per-window nightly consolidation (\"dream\").\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-6c4924e66b9dddfd70fd.html"
+  }
+}

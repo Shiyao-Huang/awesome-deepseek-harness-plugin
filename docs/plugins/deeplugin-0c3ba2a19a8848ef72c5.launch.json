@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-0c3ba2a19a8848ef72c5",
+    "name": "dsh-ths-holdings",
+    "author": "PM25000",
+    "category": "fun",
+    "version": null,
+    "homepage": "https://github.com/PM25000/dsh-ths-holdings",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-0c3ba2a19a8848ef72c5.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-0c3ba2a19a8848ef72c5.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:pm25000/dsh-ths-holdings",
+    "command": "dsh plugin --profile web add github:pm25000/dsh-ths-holdings",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-0c3ba2a19a8848ef72c5，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-0c3ba2a19a8848ef72c5.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-0c3ba2a19a8848ef72c5.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-ths-holdings 已收录到 DeepSeek Harness Plugin Store。悬浮卡片，自动同步同花顺投资账本的真实持仓盈亏，显示今日盈亏、上证指数和当日走势图，无需手动添加股票。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-0c3ba2a19a8848ef72c5.html",
+    "en": "dsh-ths-holdings is now listed on the DeepSeek Harness Plugin Store. Floating card showing your real position P&L (今日盈亏), Shanghai Composite Index, and intraday chart, auto-synced from the Tonghuashun investment-ledger — no manual watchlist setup.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-0c3ba2a19a8848ef72c5.html"
+  }
+}

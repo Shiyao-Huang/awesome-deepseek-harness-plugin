@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-392f9999f36265a12ae6",
+    "name": "token-usage-counter",
+    "author": "Mu-scorpio",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/Mu-scorpio/token-usage-counter",
+    "firstObservedAt": "2026-08-16T09:56:16Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-392f9999f36265a12ae6.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-392f9999f36265a12ae6.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-token-usage-counter",
+    "command": "dsh plugin --profile web add dsh-token-usage-counter",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-392f9999f36265a12ae6，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-392f9999f36265a12ae6.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-392f9999f36265a12ae6.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "token-usage-counter 已收录到 DeepSeek Harness Plugin Store。持久化 provider 上报的 Token 用量统计，支持按会话、按模型和按日活跃度查看。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-392f9999f36265a12ae6.html",
+    "en": "token-usage-counter is now listed on the DeepSeek Harness Plugin Store. Persistent provider-reported token usage totals with per-session, per-model, and daily activity statistics.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-392f9999f36265a12ae6.html"
+  }
+}

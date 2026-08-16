@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-6985ca61985122c958b9",
+    "name": "dsh-plugin-mineru",
+    "author": "HuanLinOTO",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/HuanLinOTO/dsh-plugin-mineru",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-6985ca61985122c958b9.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-6985ca61985122c958b9.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:huanlinoto/dsh-plugin-mineru",
+    "command": "dsh plugin --profile web add github:huanlinoto/dsh-plugin-mineru",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-6985ca61985122c958b9，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-6985ca61985122c958b9.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-6985ca61985122c958b9.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-mineru 已收录到 DeepSeek Harness Plugin Store。向模型暴露 MineRU 文档解析工具。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-6985ca61985122c958b9.html",
+    "en": "dsh-plugin-mineru is now listed on the DeepSeek Harness Plugin Store. Expose MineRU document parsing tools to the model.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-6985ca61985122c958b9.html"
+  }
+}

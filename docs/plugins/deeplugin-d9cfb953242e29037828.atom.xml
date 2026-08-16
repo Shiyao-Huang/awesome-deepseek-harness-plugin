@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>find-dsh-plugins — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-d9cfb953242e29037828.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-d9cfb953242e29037828.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d9cfb953242e29037828.html"/>
+  <entry>
+    <title>Updated: find-dsh-plugins</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-d9cfb953242e29037828/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d9cfb953242e29037828.html"/>
+    <author><name>JazzuLu</name></author>
+    <category term="skill"/>
+    <summary>Conversational DSH plugin finder: four-source unified index, BM25 pre-filter plus LLM semantic ranking, candidates carry evidence grades and local static security audit, safe install flow with post-install verification. Exact install spec: github:jazzulu/find-dsh-plugins. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: find-dsh-plugins</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-d9cfb953242e29037828/6f2ac25403078bce</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d9cfb953242e29037828.html"/>
+    <author><name>JazzuLu</name></author>
+    <category term="skill"/>
+    <summary>Conversational DSH plugin finder: four-source unified index, BM25 pre-filter plus LLM semantic ranking, candidates carry evidence grades and local static security audit, safe install flow with post-install verification. Exact install spec: github:jazzulu/find-dsh-plugins. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

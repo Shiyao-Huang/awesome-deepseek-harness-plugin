@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-ui-appearance — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-5e7d5429240bbf68fd37.atom.xml</id>
+  <updated>2026-08-16T13:41:06Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-5e7d5429240bbf68fd37.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-5e7d5429240bbf68fd37.html"/>
+  <entry>
+    <title>New: dsh-ui-appearance</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-5e7d5429240bbf68fd37/60715e29601bb9d9</id>
+    <updated>2026-08-16T13:41:06Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-5e7d5429240bbf68fd37.html"/>
+    <author><name>TQSY114514</name></author>
+    <category term="theme"/>
+    <summary>Appearance customization for the DeepSeek Harness WebUI: theme palette, wallpaper and video backgrounds, translucency and glassmorphism. Exact install spec: dsh-ui-appearance. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

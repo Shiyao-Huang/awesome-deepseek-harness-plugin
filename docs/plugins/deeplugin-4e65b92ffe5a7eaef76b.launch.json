@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-4e65b92ffe5a7eaef76b",
+    "name": "dsh-weekly-digest",
+    "author": "lucky8197",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/lucky8197/dsh-weekly-digest",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-4e65b92ffe5a7eaef76b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-4e65b92ffe5a7eaef76b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:lucky8197/dsh-weekly-digest",
+    "command": "dsh plugin --profile web add github:lucky8197/dsh-weekly-digest",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-4e65b92ffe5a7eaef76b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-4e65b92ffe5a7eaef76b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-4e65b92ffe5a7eaef76b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-weekly-digest 已收录到 DeepSeek Harness Plugin Store。周报生成器：聚合最近 N 天的 git 提交、会话活动与每日记忆，自动生成 Markdown 周报，全程只读。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-4e65b92ffe5a7eaef76b.html",
+    "en": "dsh-weekly-digest is now listed on the DeepSeek Harness Plugin Store. Weekly digest generator: aggregates git commits, DSH session activity and daily memory entries into a Markdown weekly report, read-only.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-4e65b92ffe5a7eaef76b.html"
+  }
+}

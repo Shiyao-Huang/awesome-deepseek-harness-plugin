@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-c0815ef700c292c337f8",
+    "name": "dsh-plugins#skin-gallery",
+    "author": "wsxwj123",
+    "category": "theme",
+    "version": null,
+    "homepage": "https://github.com/wsxwj123/dsh-plugins/tree/main/packages/skin-gallery",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-c0815ef700c292c337f8.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-c0815ef700c292c337f8.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:wsxwj123/dsh-plugins#path:/packages/skin-gallery",
+    "command": "dsh plugin --profile web add github:wsxwj123/dsh-plugins#path:/packages/skin-gallery",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-c0815ef700c292c337f8，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-c0815ef700c292c337f8.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-c0815ef700c292c337f8.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugins#skin-gallery 已收录到 DeepSeek Harness Plugin Store。9 个完整 dsh-web-ui 皮肤复刻，支持自定义皮肤包导入、试穿、应用、删除、恢复默认，并修正气泡与代码块可读性。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c0815ef700c292c337f8.html",
+    "en": "dsh-plugins#skin-gallery is now listed on the DeepSeek Harness Plugin Store. Nine complete dsh-web-ui skin replicas with custom skin-pack import, preview, apply, delete, restore-default, and readability fixes for bubbles and code blocks.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-c0815ef700c292c337f8.html"
+  }
+}

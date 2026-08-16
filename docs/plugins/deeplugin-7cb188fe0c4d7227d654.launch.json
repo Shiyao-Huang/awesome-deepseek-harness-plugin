@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-7cb188fe0c4d7227d654",
+    "name": "dsh-issue-tracker",
+    "author": "xxiaoxiong",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/xxiaoxiong/dsh-issue-tracker",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-7cb188fe0c4d7227d654.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-7cb188fe0c4d7227d654.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:xxiaoxiong/dsh-issue-tracker",
+    "command": "dsh plugin --profile web add github:xxiaoxiong/dsh-issue-tracker",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-7cb188fe0c4d7227d654，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-7cb188fe0c4d7227d654.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-7cb188fe0c4d7227d654.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-issue-tracker 已收录到 DeepSeek Harness Plugin Store。Jira Cloud 工单集成，提供 8 个模型工具用于工单查询、项目与流转查询、创建、更新、评论和状态流转；写操作默认关闭并支持 dry-run。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-7cb188fe0c4d7227d654.html",
+    "en": "dsh-issue-tracker is now listed on the DeepSeek Harness Plugin Store. Jira Cloud issue-tracker integration exposing eight model tools for issue search, project and transition lookup, creation, updates, comments, and transitions; writes are opt-in and support dry-run.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-7cb188fe0c4d7227d654.html"
+  }
+}

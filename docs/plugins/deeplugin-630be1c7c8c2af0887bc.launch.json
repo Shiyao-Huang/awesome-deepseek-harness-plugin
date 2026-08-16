@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-630be1c7c8c2af0887bc",
+    "name": "dsh-sxs-news-collector",
+    "author": "yangyunsong023",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/yangyunsong023/dsh-sxs-news-collector",
+    "firstObservedAt": "2026-08-16T08:41:44Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-630be1c7c8c2af0887bc.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-630be1c7c8c2af0887bc.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:yangyunsong023/dsh-sxs-news-collector",
+    "command": "dsh plugin --profile web add github:yangyunsong023/dsh-sxs-news-collector",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-630be1c7c8c2af0887bc，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-630be1c7c8c2af0887bc.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-630be1c7c8c2af0887bc.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-sxs-news-collector 已收录到 DeepSeek Harness Plugin Store。时事热点采集：一次调用聚合百度热搜 / 头条热榜 / 抖音热点 / 微博热搜（微博可选 cookie），返回标题+热度值，供内容创作借势——工具：`sxs_news_hot`。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-630be1c7c8c2af0887bc.html",
+    "en": "dsh-sxs-news-collector is now listed on the DeepSeek Harness Plugin Store. Trending-topics collector aggregating Baidu / Toutiao / Douyin / Weibo hot lists in one call (Weibo optional cookie), returning titles with heat values for content creators — tool: `sxs_news_hot`.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-630be1c7c8c2af0887bc.html"
+  }
+}

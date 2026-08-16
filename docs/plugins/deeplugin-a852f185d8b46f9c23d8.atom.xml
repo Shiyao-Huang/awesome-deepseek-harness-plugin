@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>pbr-render — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-a852f185d8b46f9c23d8.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-a852f185d8b46f9c23d8.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a852f185d8b46f9c23d8.html"/>
+  <entry>
+    <title>Updated: pbr-render</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-a852f185d8b46f9c23d8/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a852f185d8b46f9c23d8.html"/>
+    <author><name>dhb861832993-star</name></author>
+    <category term="ui"/>
+    <summary>PBR 3D model preview for game art: GLB/GLTF with textures, IBL environment lighting, orbit controls, and a material channel inspector (baseColor/normal/roughness/metallic/AO/emissive/wireframe); scalar channels shown as grayscale per PBR spec, via the pbr3d fence and pbr_render tool. Exact install spec: github:dhb861832993-star/pbr-render. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: pbr-render</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-a852f185d8b46f9c23d8/7e5b8321bc7d21b1</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a852f185d8b46f9c23d8.html"/>
+    <author><name>dhb861832993-star</name></author>
+    <category term="ui"/>
+    <summary>PBR 3D model preview for game art: GLB/GLTF with textures, IBL environment lighting, orbit controls, and a material channel inspector (baseColor/normal/roughness/metallic/AO/emissive/wireframe); scalar channels shown as grayscale per PBR spec, via the pbr3d fence and pbr_render tool. Exact install spec: github:dhb861832993-star/pbr-render. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

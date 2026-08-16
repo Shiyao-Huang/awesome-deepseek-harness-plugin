@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a2f1c2f593e1d2629c23",
+    "name": "dsh-catppuccin",
+    "author": "NoNameLeGo",
+    "category": "theme",
+    "version": null,
+    "homepage": "https://github.com/NoNameLeGo/dsh-catppuccin",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a2f1c2f593e1d2629c23.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a2f1c2f593e1d2629c23.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@nonamelego/dsh-catppuccin",
+    "command": "dsh plugin --profile web add @nonamelego/dsh-catppuccin",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a2f1c2f593e1d2629c23，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a2f1c2f593e1d2629c23.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a2f1c2f593e1d2629c23.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-catppuccin 已收录到 DeepSeek Harness Plugin Store。DSH Web GUI 的 Catppuccin 主题插件：Latte、Frappé、Macchiato、Mocha 四套主题接入原生主题系统，一键切换并记住选择。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a2f1c2f593e1d2629c23.html",
+    "en": "dsh-catppuccin is now listed on the DeepSeek Harness Plugin Store. Catppuccin themes for the DSH Web GUI: Latte, Frappé, Macchiato and Mocha registered into the native theme runtime, one-click switching with a persisted choice.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a2f1c2f593e1d2629c23.html"
+  }
+}

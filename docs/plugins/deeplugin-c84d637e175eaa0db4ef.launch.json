@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-c84d637e175eaa0db4ef",
+    "name": "dsh-image-search",
+    "author": "zimai233",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/zimai233/dsh-image-search",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-c84d637e175eaa0db4ef.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-c84d637e175eaa0db4ef.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:zimai233/dsh-image-search",
+    "command": "dsh plugin --profile web add github:zimai233/dsh-image-search",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-c84d637e175eaa0db4ef，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-c84d637e175eaa0db4ef.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-c84d637e175eaa0db4ef.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-image-search 已收录到 DeepSeek Harness Plugin Store。多引擎反向识图聚合：Google Lens、百度、Yandex、TinEye、SauceNAO、IQDB、Ascii2d。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c84d637e175eaa0db4ef.html",
+    "en": "dsh-image-search is now listed on the DeepSeek Harness Plugin Store. Multi-engine reverse image search aggregator: Google Lens, Baidu, Yandex, TinEye, SauceNAO, IQDB, Ascii2d.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-c84d637e175eaa0db4ef.html"
+  }
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-crosstalk — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-b142b2ed9d030ec8bef4.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-b142b2ed9d030ec8bef4.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b142b2ed9d030ec8bef4.html"/>
+  <entry>
+    <title>Updated: dsh-crosstalk</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-b142b2ed9d030ec8bef4/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b142b2ed9d030ec8bef4.html"/>
+    <author><name>Jesse-njx</name></author>
+    <category term="session"/>
+    <summary>Cross-session messaging for DSH: any session on the machine can list and message any other, Claude Code-style, via a local heartbeat registry and inbox. Exact install spec: github:jesse-njx/dsh-crosstalk. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-crosstalk</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-b142b2ed9d030ec8bef4/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b142b2ed9d030ec8bef4.html"/>
+    <author><name>Jesse-njx</name></author>
+    <category term="session"/>
+    <summary>Cross-session messaging for DSH: any session on the machine can list and message any other, Claude Code-style, via a local heartbeat registry and inbox. Exact install spec: github:jesse-njx/dsh-crosstalk. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-crosstalk</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-b142b2ed9d030ec8bef4/19f118ecfd65ceec</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b142b2ed9d030ec8bef4.html"/>
+    <author><name>Jesse-njx</name></author>
+    <category term="session"/>
+    <summary>Cross-session messaging for DSH: any session on the machine can list and message any other, Claude Code-style, via a local heartbeat registry and inbox. Exact install spec: github:jesse-njx/dsh-crosstalk. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-crosstalk</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-b142b2ed9d030ec8bef4/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b142b2ed9d030ec8bef4.html"/>
+    <author><name>Jesse-njx</name></author>
+    <category term="session"/>
+    <summary>Cross-session messaging for DSH: any session on the machine can list and message any other, Claude Code-style, via a local heartbeat registry and inbox. Exact install spec: github:jesse-njx/dsh-crosstalk. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

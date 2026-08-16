@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-anthropic-fonts — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-9c96dfd82af0173c731e.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-9c96dfd82af0173c731e.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9c96dfd82af0173c731e.html"/>
+  <entry>
+    <title>Updated: dsh-anthropic-fonts</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-9c96dfd82af0173c731e/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9c96dfd82af0173c731e.html"/>
+    <author><name>Isilsolme</name></author>
+    <category term="theme"/>
+    <summary>Anthropic Sans, Serif, and Mono fonts for the DSH Web UI, with Source Han fallback for CJK. Exact install spec: dsh-anthropic-fonts. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-anthropic-fonts</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-9c96dfd82af0173c731e/e1ab6d4a0ce81c55</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9c96dfd82af0173c731e.html"/>
+    <author><name>Isilsolme</name></author>
+    <category term="theme"/>
+    <summary>Anthropic Sans, Serif, and Mono fonts for the DSH Web UI, with Source Han fallback for CJK. Exact install spec: dsh-anthropic-fonts. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-anthropic-fonts</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-9c96dfd82af0173c731e/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9c96dfd82af0173c731e.html"/>
+    <author><name>Isilsolme</name></author>
+    <category term="theme"/>
+    <summary>Anthropic Sans, Serif, and Mono fonts for the DSH Web UI, with Source Han fallback for CJK. Exact install spec: dsh-anthropic-fonts. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

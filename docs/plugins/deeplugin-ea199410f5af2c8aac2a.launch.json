@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-ea199410f5af2c8aac2a",
+    "name": "dsh-zotero",
+    "author": "Vncntvx",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/Vncntvx/dsh-zotero",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-ea199410f5af2c8aac2a.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-ea199410f5af2c8aac2a.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-zotero",
+    "command": "dsh plugin --profile web add dsh-zotero",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-ea199410f5af2c8aac2a，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-ea199410f5af2c8aac2a.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-ea199410f5af2c8aac2a.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-zotero 已收录到 DeepSeek Harness Plugin Store。让 Agent 搜索、阅读并引用本地 Zotero 文献库：找文献、查看笔记与批注、按问题取证、打开原文、生成引用。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-ea199410f5af2c8aac2a.html",
+    "en": "dsh-zotero is now listed on the DeepSeek Harness Plugin Store. Let agents search, read, and cite your local Zotero library: find papers, view notes and annotations, pull evidence by question, open the source document, and generate citations.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-ea199410f5af2c8aac2a.html"
+  }
+}

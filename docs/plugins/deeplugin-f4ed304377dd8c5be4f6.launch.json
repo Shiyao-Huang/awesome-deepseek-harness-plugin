@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-f4ed304377dd8c5be4f6",
+    "name": "dsh-ci-context",
+    "author": "lucas-ward",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/lucas-ward/dsh-ci-context",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-f4ed304377dd8c5be4f6.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-f4ed304377dd8c5be4f6.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:lucas-ward/dsh-ci-context",
+    "command": "dsh plugin --profile web add github:lucas-ward/dsh-ci-context",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-f4ed304377dd8c5be4f6，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-f4ed304377dd8c5be4f6.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-f4ed304377dd8c5be4f6.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-ci-context 已收录到 DeepSeek Harness Plugin Store。将白名单内的 GitHub Actions 与 GitLab CI 运行元数据注入 Agent 上下文，不读取日志、凭据或服务商 API。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-f4ed304377dd8c5be4f6.html",
+    "en": "dsh-ci-context is now listed on the DeepSeek Harness Plugin Store. Injects allowlisted GitHub Actions and GitLab CI run metadata into agent context without reading logs, credentials, or provider APIs.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-f4ed304377dd8c5be4f6.html"
+  }
+}

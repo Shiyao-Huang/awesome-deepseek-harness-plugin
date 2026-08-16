@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-76b33c6f003bae7ef2c5",
+    "name": "dsh-achievements",
+    "author": "luumod",
+    "category": "fun",
+    "version": null,
+    "homepage": "https://github.com/luumod/dsh-achievements",
+    "firstObservedAt": "2026-08-16T05:04:11Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-76b33c6f003bae7ef2c5.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-76b33c6f003bae7ef2c5.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:luumod/dsh-achievements",
+    "command": "dsh plugin --profile web add github:luumod/dsh-achievements",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-76b33c6f003bae7ef2c5，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-76b33c6f003bae7ef2c5.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-76b33c6f003bae7ef2c5.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-achievements 已收录到 DeepSeek Harness Plugin Store。成就与游戏化插件：按回合、工具调用、会话、连续天数与编码行为（编辑/读取/测试）解锁徽章，带徽章墙、解锁 toast 与 ctx.achievements SDK。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-76b33c6f003bae7ef2c5.html",
+    "en": "dsh-achievements is now listed on the DeepSeek Harness Plugin Store. Achievement and gamification plugin: unlock badges for turns, tool calls, sessions, daily streaks and coding behavior (edits/reads/tests), with a badge wall, unlock toasts and a ctx.achievements SDK.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-76b33c6f003bae7ef2c5.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-72f06b4e38b0406f19ca",
+    "name": "dsh-subagent-agy",
+    "author": "ZEM17",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/ZEM17/dsh-subagent-agy",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-72f06b4e38b0406f19ca.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-72f06b4e38b0406f19ca.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:zem17/dsh-subagent-agy",
+    "command": "dsh plugin --profile web add github:zem17/dsh-subagent-agy",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-72f06b4e38b0406f19ca，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-72f06b4e38b0406f19ca.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-72f06b4e38b0406f19ca.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-subagent-agy 已收录到 DeepSeek Harness Plugin Store。把 Google Antigravity CLI（agy）接入 DSH 作为产品子代理：用 Antigravity 登录态（无需 API key）委托 Gemini 编程智能体干活，支持对话续聊、后台流式进度、按路径识图与自动弹出登录窗口。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-72f06b4e38b0406f19ca.html",
+    "en": "dsh-subagent-agy is now listed on the DeepSeek Harness Plugin Store. Google Antigravity CLI (agy) as a DSH product subagent: delegate tasks to a Gemini coding agent with your Antigravity login (no API key), with conversation follow-ups, background streaming progress, image analysis by path, and a pop-up login window.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-72f06b4e38b0406f19ca.html"
+  }
+}

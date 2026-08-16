@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-any-background — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-69b93336c97ac8c3ebba.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-69b93336c97ac8c3ebba.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-69b93336c97ac8c3ebba.html"/>
+  <entry>
+    <title>Updated: dsh-any-background</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-69b93336c97ac8c3ebba/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-69b93336c97ac8c3ebba.html"/>
+    <author><name>Tkingxiao</name></author>
+    <category term="theme"/>
+    <summary>A DeepSeek Harness appearance plugin that lets you fully customize the Web UI with a custom theme color, background wallpaper, and fine-grained opacity controls. Exact install spec: dsh-any-background. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-any-background</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-69b93336c97ac8c3ebba/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-69b93336c97ac8c3ebba.html"/>
+    <author><name>Tkingxiao</name></author>
+    <category term="theme"/>
+    <summary>A DeepSeek Harness appearance plugin that lets you fully customize the Web UI with a custom theme color, background wallpaper, and fine-grained opacity controls. Exact install spec: dsh-any-background. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-any-background</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-69b93336c97ac8c3ebba/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-69b93336c97ac8c3ebba.html"/>
+    <author><name>Tkingxiao</name></author>
+    <category term="theme"/>
+    <summary>A DeepSeek Harness appearance plugin that lets you fully customize the Web UI with a custom theme color, background wallpaper, and fine-grained opacity controls. Exact install spec: dsh-any-background. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

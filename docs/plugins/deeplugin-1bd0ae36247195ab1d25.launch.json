@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-1bd0ae36247195ab1d25",
+    "name": "dsh-feishu-bridge",
+    "author": "wz-heng",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/wz-heng/dsh-feishu-bridge",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-1bd0ae36247195ab1d25.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-1bd0ae36247195ab1d25.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:wz-heng/dsh-feishu-bridge",
+    "command": "dsh plugin --profile web add github:wz-heng/dsh-feishu-bridge",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-1bd0ae36247195ab1d25，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-1bd0ae36247195ab1d25.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-1bd0ae36247195ab1d25.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-feishu-bridge 已收录到 DeepSeek Harness Plugin Store。Fail-closed 的飞书（Lark）channel 桥：和机器人聊天即驱动 dsh agent turn。仅经官方 Python SDK 集成（精确锁版）；白名单默认全拒、webhook 验签/时间窗/防重放、按 chat 粘性会话；中英双语文档。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-1bd0ae36247195ab1d25.html",
+    "en": "dsh-feishu-bridge is now listed on the DeepSeek Harness Plugin Store. Fail-closed Feishu (Lark) channel bridge: chat with a bot, get dsh agent turns back. Official-Python-SDK-only integration (exact-pinned); deny-by-default allowlist, webhook signature/timestamp/replay verification, per-chat sticky sessions; bilingual docs.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-1bd0ae36247195ab1d25.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-afd065abc3adbd959ee9",
+    "name": "dsh-bash-terminal",
+    "author": "MAXeaglet",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/MAXeaglet/dsh-bash-terminal",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-afd065abc3adbd959ee9.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-afd065abc3adbd959ee9.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:maxeaglet/dsh-bash-terminal",
+    "command": "dsh plugin --profile web add github:maxeaglet/dsh-bash-terminal",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-afd065abc3adbd959ee9，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-afd065abc3adbd959ee9.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-afd065abc3adbd959ee9.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-bash-terminal 已收录到 DeepSeek Harness Plugin Store。一个 shell 工具：Windows 上统一执行 PowerShell / Git Bash / WSL，外加交互式 PTY 终端，默认终端由用户在设置中选择。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-afd065abc3adbd959ee9.html",
+    "en": "dsh-bash-terminal is now listed on the DeepSeek Harness Plugin Store. One shell tool for PowerShell / Git Bash / WSL on Windows plus an interactive PTY terminal; the default terminal is chosen by the user in DSH settings.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-afd065abc3adbd959ee9.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-74d63c68cdd2be42e00b",
+    "name": "dsh-archived-chats",
+    "author": "Ultronen",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/Ultronen/dsh-archived-chats",
+    "firstObservedAt": "2026-08-16T01:57:51Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-74d63c68cdd2be42e00b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-74d63c68cdd2be42e00b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-archived-chats",
+    "command": "dsh plugin --profile web add dsh-archived-chats",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-74d63c68cdd2be42e00b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-74d63c68cdd2be42e00b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-74d63c68cdd2be42e00b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-archived-chats 已收录到 DeepSeek Harness Plugin Store。DSH 已归档聊天管理页：浏览、搜索、取消归档与删除已归档会话，按工作区分组；删除即生效、无需重启，后台驻留的会话也能当场彻底删除。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-74d63c68cdd2be42e00b.html",
+    "en": "dsh-archived-chats is now listed on the DeepSeek Harness Plugin Store. Archived Chats settings page for DeepSeek Harness: browse, search, unarchive, and delete archived sessions grouped by workspace — deletion takes effect immediately, no restart needed, even for sessions still resident in the background.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-74d63c68cdd2be42e00b.html"
+  }
+}

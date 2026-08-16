@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-0e940bda8c2f781bafb5",
+    "name": "dsh-pet#dsh-pet",
+    "author": "PC2005-cloud",
+    "category": "fun",
+    "version": null,
+    "homepage": "https://github.com/PC2005-cloud/dsh-pet/tree/main/dsh-pet",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-0e940bda8c2f781bafb5.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-0e940bda8c2f781bafb5.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-pet",
+    "command": "dsh plugin --profile web add dsh-pet",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-0e940bda8c2f781bafb5，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-0e940bda8c2f781bafb5.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-0e940bda8c2f781bafb5.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-pet#dsh-pet 已收录到 DeepSeek Harness Plugin Store。DSH Web UI 桌面宠物：25 个透明动画、屏幕漫游、点击反应与拖拽，附可复现的素材生成链。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-0e940bda8c2f781bafb5.html",
+    "en": "dsh-pet#dsh-pet is now listed on the DeepSeek Harness Plugin Store. Desktop pet for the DSH Web UI with 25 transparent animations, screen wandering, click reactions and drag, plus a reproducible asset-generation pipeline.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-0e940bda8c2f781bafb5.html"
+  }
+}

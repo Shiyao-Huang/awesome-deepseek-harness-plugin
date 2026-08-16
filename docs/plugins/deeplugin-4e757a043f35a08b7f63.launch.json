@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-4e757a043f35a08b7f63",
+    "name": "dsh-frosted-window",
+    "author": "SenryLee",
+    "category": "theme",
+    "version": null,
+    "homepage": "https://github.com/SenryLee/dsh-frosted-window",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-4e757a043f35a08b7f63.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-4e757a043f35a08b7f63.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:senrylee/dsh-frosted-window",
+    "command": "dsh plugin --profile web add github:senrylee/dsh-frosted-window",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-4e757a043f35a08b7f63，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-4e757a043f35a08b7f63.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-4e757a043f35a08b7f63.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-frosted-window 已收录到 DeepSeek Harness Plugin Store。上传图片作为整窗磨砂玻璃主题：侧栏/会话/详情同一层磨砂，保存/删除，官方浅色/深色/跟随系统仍有效。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-4e757a043f35a08b7f63.html",
+    "en": "dsh-frosted-window is now listed on the DeepSeek Harness Plugin Store. Upload an image as a full-window frosted-glass theme: sidebar/conversation/details share one frost layer, Save/Delete, official Light/Dark/System stay in charge.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-4e757a043f35a08b7f63.html"
+  }
+}

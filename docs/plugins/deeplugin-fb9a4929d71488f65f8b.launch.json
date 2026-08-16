@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-fb9a4929d71488f65f8b",
+    "name": "argo",
+    "author": "taxueseek",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/taxueseek/argo",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-fb9a4929d71488f65f8b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-fb9a4929d71488f65f8b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "argo-search",
+    "command": "dsh plugin --profile web add argo-search",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-fb9a4929d71488f65f8b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-fb9a4929d71488f65f8b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-fb9a4929d71488f65f8b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "argo 已收录到 DeepSeek Harness Plugin Store。专为 agent 打造的搜索工具：多语言，覆盖中文/英文/学术/代码/购物/金融/新闻/百科。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-fb9a4929d71488f65f8b.html",
+    "en": "argo is now listed on the DeepSeek Harness Plugin Store. Search built for agents: multilingual coverage across web, academic, code, shopping, finance, news, and encyclopedias.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-fb9a4929d71488f65f8b.html"
+  }
+}

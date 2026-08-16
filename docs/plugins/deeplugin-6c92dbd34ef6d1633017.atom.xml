@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>coding-coach — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-6c92dbd34ef6d1633017.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-6c92dbd34ef6d1633017.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-6c92dbd34ef6d1633017.html"/>
+  <entry>
+    <title>New: coding-coach</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-6c92dbd34ef6d1633017/7cc2b014d07ab963</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-6c92dbd34ef6d1633017.html"/>
+    <author><name>xiehuan123</name></author>
+    <category term="tools"/>
+    <summary>Coding Coach: a 35-skill bundle plus a full agent preset for non-developers (8-stage product→launch pipeline with engineering/product/UI skills), installable via npm (`dsh plugin add coding-coach`) and as a Claude Code plugin. Exact install spec: coding-coach. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

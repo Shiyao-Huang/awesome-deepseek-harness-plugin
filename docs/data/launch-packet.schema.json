@@ -1,0 +1,181 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://deeplugin.store/data/launch-packet.schema.json",
+  "title": "deeplugin.store author launch packet",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "version",
+    "plugin",
+    "links",
+    "install",
+    "badge",
+    "posts"
+  ],
+  "properties": {
+    "$schema": {
+      "const": "https://deeplugin.store/data/launch-packet.schema.json"
+    },
+    "version": {
+      "const": 1
+    },
+    "plugin": {
+      "$ref": "#/$defs/plugin"
+    },
+    "links": {
+      "$ref": "#/$defs/links"
+    },
+    "install": {
+      "$ref": "#/$defs/install"
+    },
+    "badge": {
+      "$ref": "#/$defs/badge"
+    },
+    "posts": {
+      "$ref": "#/$defs/posts"
+    }
+  },
+  "$defs": {
+    "plugin": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "author",
+        "category",
+        "version",
+        "homepage",
+        "firstObservedAt",
+        "lastChangedAt"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^deeplugin-[0-9a-f]{20}$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "author": {
+          "type": "string",
+          "minLength": 1
+        },
+        "category": {
+          "type": "string",
+          "minLength": 1
+        },
+        "version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "homepage": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "firstObservedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "lastChangedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "links": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "detail",
+        "feed",
+        "newFeed",
+        "updatedFeed"
+      ],
+      "properties": {
+        "detail": {
+          "type": "string",
+          "format": "uri"
+        },
+        "feed": {
+          "type": "string",
+          "format": "uri"
+        },
+        "newFeed": {
+          "type": "string",
+          "format": "uri"
+        },
+        "updatedFeed": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    },
+    "install": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "spec",
+        "command",
+        "agentRequest"
+      ],
+      "properties": {
+        "spec": {
+          "type": "string",
+          "minLength": 1
+        },
+        "command": {
+          "type": "string",
+          "minLength": 1
+        },
+        "agentRequest": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "badge": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "markdown",
+        "html"
+      ],
+      "properties": {
+        "markdown": {
+          "type": "string",
+          "minLength": 1
+        },
+        "html": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "posts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "zh",
+        "en"
+      ],
+      "properties": {
+        "zh": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}

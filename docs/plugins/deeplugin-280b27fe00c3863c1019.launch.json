@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-280b27fe00c3863c1019",
+    "name": "dsh-git-worktree",
+    "author": "wloops",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/wloops/dsh-git-worktree",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-280b27fe00c3863c1019.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-280b27fe00c3863c1019.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-git-worktree",
+    "command": "dsh plugin --profile web add dsh-git-worktree",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-280b27fe00c3863c1019，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-280b27fe00c3863c1019.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-280b27fe00c3863c1019.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-git-worktree 已收录到 DeepSeek Harness Plugin Store。Domi 级 git worktree 隔离与交付：.dsh-worktrees 永久 worktree，ready-for-review / apply / finish / discard 完整生命周期，冲突处理与安全清理（移植自 Domi 生产系统）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-280b27fe00c3863c1019.html",
+    "en": "dsh-git-worktree is now listed on the DeepSeek Harness Plugin Store. Domi-grade git worktree isolation and delivery: permanent worktrees under .dsh-worktrees, ready-for-review / apply / finish / discard lifecycle with conflict handling and safe cleanup (ported from Domi's production system).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-280b27fe00c3863c1019.html"
+  }
+}

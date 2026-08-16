@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-b06fec0400ec36313e98",
+    "name": "dsh-subagent-monitor",
+    "author": "Mombrane",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/Mombrane/dsh-subagent-monitor",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-b06fec0400ec36313e98.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-b06fec0400ec36313e98.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@leetoners/dsh-ui-subagent-monitor",
+    "command": "dsh plugin --profile web add @leetoners/dsh-ui-subagent-monitor",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-b06fec0400ec36313e98，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-b06fec0400ec36313e98.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b06fec0400ec36313e98.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-subagent-monitor 已收录到 DeepSeek Harness Plugin Store。Web UI 子代理实时监视面板：侧边栏底部入口 + 右上角常驻卡片面板，实时展示当前会话每个子代理的运行状态（运行中/耗时/终态）、树形缩进，一键跳转子代理会话并支持返回主会话，刷新自恢复、移动端默认隐藏。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b06fec0400ec36313e98.html",
+    "en": "dsh-subagent-monitor is now listed on the DeepSeek Harness Plugin Store. Live subagent run monitor for the Web UI: a sidebar footer trigger plus a fixed top-right card panel showing each subagent of the current session in real time (running/elapsed, terminal outcomes, tree indent), with one-click jump into the child conversation and a return button, refresh-surviving and mobile-hidden by default.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b06fec0400ec36313e98.html"
+  }
+}

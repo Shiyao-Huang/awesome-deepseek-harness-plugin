@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-95814513a0e4a1b7df51",
+    "name": "dsh-Remote",
+    "author": "Blank-not-black",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/Blank-not-black/dsh-Remote",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-95814513a0e4a1b7df51.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-95814513a0e4a1b7df51.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:blank-not-black/dsh-remote",
+    "command": "dsh plugin --profile web add github:blank-not-black/dsh-remote",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-95814513a0e4a1b7df51，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-95814513a0e4a1b7df51.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-95814513a0e4a1b7df51.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-Remote 已收录到 DeepSeek Harness Plugin Store。移动远程控制套件：原生侧边栏入口 + 管理抽屉的 bundle 插件，自带 Bearer 令牌网关自愈（局域网/Tailscale）；Android App 覆盖会话/审批/提问/goal；/fs/* 文件端点（Range 断点续传、2GB 上传）；多服务器测速自动切换；聊天记录离线缓存。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-95814513a0e4a1b7df51.html",
+    "en": "dsh-Remote is now listed on the DeepSeek Harness Plugin Store. Mobile remote-control suite: bundle plugin with native sidebar entry and admin drawer, self-healing bearer-token gateway over LAN/Tailscale, Android app (sessions/approvals/questions/goals), /fs/* file transfer (Range resume, 2GB upload), latency-based multi-server auto-switch, offline chat cache.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-95814513a0e4a1b7df51.html"
+  }
+}

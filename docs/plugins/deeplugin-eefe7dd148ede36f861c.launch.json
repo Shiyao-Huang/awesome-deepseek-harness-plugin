@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-eefe7dd148ede36f861c",
+    "name": "dsh-mcp-panel",
+    "author": "PerryLink",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/PerryLink/dsh-mcp-panel",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-eefe7dd148ede36f861c.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-eefe7dd148ede36f861c.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:perrylink/dsh-mcp-panel",
+    "command": "dsh plugin --profile web add github:perrylink/dsh-mcp-panel",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-eefe7dd148ede36f861c，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-eefe7dd148ede36f861c.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-eefe7dd148ede36f861c.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-mcp-panel 已收录到 DeepSeek Harness Plugin Store。官方 MCP 客户端（dsh-mcp-client）的只读运行时管理面板：/mcp 命令与设置页 MCP 页签展示连接状态、已注册工具、错误与重连计数，脱敏展示并提供启停 patch 建议。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-eefe7dd148ede36f861c.html",
+    "en": "dsh-mcp-panel is now listed on the DeepSeek Harness Plugin Store. Read-only runtime management panel for the official DSH MCP client: connection status, registered tools, errors, and reconnect counts through the /mcp command and a Settings tab, with sanitized display and enable/disable patch suggestions.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-eefe7dd148ede36f861c.html"
+  }
+}

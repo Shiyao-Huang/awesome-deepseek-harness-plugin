@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-3f99d742b5f1ad195a0b",
+    "name": "dsh-prompt-enhancer",
+    "author": "Fishsb",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/Fishsb/dsh-prompt-enhancer",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-3f99d742b5f1ad195a0b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-3f99d742b5f1ad195a0b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:fishsb/dsh-prompt-enhancer",
+    "command": "dsh plugin --profile web add github:fishsb/dsh-prompt-enhancer",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-3f99d742b5f1ad195a0b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-3f99d742b5f1ad195a0b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-3f99d742b5f1ad195a0b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-prompt-enhancer 已收录到 DeepSeek Harness Plugin Store。一键提示词增强：独立 LLM 调用把模糊草稿改写为更强的提示词，不满意可撤回。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-3f99d742b5f1ad195a0b.html",
+    "en": "dsh-prompt-enhancer is now listed on the DeepSeek Harness Plugin Store. One-click prompt enhancement: an independent LLM call rewrites your rough draft in the composer, fully undoable.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-3f99d742b5f1ad195a0b.html"
+  }
+}

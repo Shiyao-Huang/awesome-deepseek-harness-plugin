@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-image-gen — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-774aa6e85fd0617514bc.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-774aa6e85fd0617514bc.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-774aa6e85fd0617514bc.html"/>
+  <entry>
+    <title>Updated: dsh-image-gen</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-774aa6e85fd0617514bc/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-774aa6e85fd0617514bc.html"/>
+    <author><name>LeemanCheung</name></author>
+    <category term="tools"/>
+    <summary>GPT Image 2 `image_gen` with Codex subscription OAuth by default or explicit API-key mode: developing card, up to three live API partials, durable attachment replay/lightbox/download, text-only model output, and bounded credential-safe requests. Exact install spec: github:leemancheung/dsh-image-gen. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-image-gen</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-774aa6e85fd0617514bc/e1ab6d4a0ce81c55</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-774aa6e85fd0617514bc.html"/>
+    <author><name>LeemanCheung</name></author>
+    <category term="tools"/>
+    <summary>GPT Image 2 `image_gen` with Codex subscription OAuth by default or explicit API-key mode: developing card, up to three live API partials, durable attachment replay/lightbox/download, text-only model output, and bounded credential-safe requests. Exact install spec: github:leemancheung/dsh-image-gen. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-image-gen</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-774aa6e85fd0617514bc/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-774aa6e85fd0617514bc.html"/>
+    <author><name>LeemanCheung</name></author>
+    <category term="tools"/>
+    <summary>GPT Image 2 `image_gen` with Codex subscription OAuth by default or explicit API-key mode: developing card, up to three live API partials, durable attachment replay/lightbox/download, text-only model output, and bounded credential-safe requests. Exact install spec: github:leemancheung/dsh-image-gen. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

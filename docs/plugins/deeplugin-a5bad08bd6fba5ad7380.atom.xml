@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-calculator — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-a5bad08bd6fba5ad7380.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-a5bad08bd6fba5ad7380.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a5bad08bd6fba5ad7380.html"/>
+  <entry>
+    <title>Updated: dsh-calculator</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-a5bad08bd6fba5ad7380/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a5bad08bd6fba5ad7380.html"/>
+    <author><name>bobcat848</name></author>
+    <category term="ui"/>
+    <summary>DeepSeek API spend (current session and all sessions) and account balance in the aside panel, with official pricing and peak/off-peak support. Exact install spec: github:bobcat848/dsh-calculator. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-calculator</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-a5bad08bd6fba5ad7380/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a5bad08bd6fba5ad7380.html"/>
+    <author><name>bobcat848</name></author>
+    <category term="ui"/>
+    <summary>DeepSeek API spend (current session and all sessions) and account balance in the aside panel, with official pricing and peak/off-peak support. Exact install spec: github:bobcat848/dsh-calculator. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-calculator</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-a5bad08bd6fba5ad7380/19f118ecfd65ceec</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a5bad08bd6fba5ad7380.html"/>
+    <author><name>bobcat848</name></author>
+    <category term="ui"/>
+    <summary>DeepSeek API spend (current session and all sessions) and account balance in the aside panel, with official pricing and peak/off-peak support. Exact install spec: github:bobcat848/dsh-calculator. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-calculator</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-a5bad08bd6fba5ad7380/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a5bad08bd6fba5ad7380.html"/>
+    <author><name>bobcat848</name></author>
+    <category term="ui"/>
+    <summary>DeepSeek API spend (current session and all sessions) and account balance in the aside panel, with official pricing and peak/off-peak support. Exact install spec: github:bobcat848/dsh-calculator. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

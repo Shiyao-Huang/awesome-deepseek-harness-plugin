@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-54a9eeb3021db235c276",
+    "name": "dsh-chat-import",
+    "author": "Nwflower",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/Nwflower/dsh-chat-import",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-54a9eeb3021db235c276.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-54a9eeb3021db235c276.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:nwflower/dsh-chat-import",
+    "command": "dsh plugin --profile web add github:nwflower/dsh-chat-import",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-54a9eeb3021db235c276，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-54a9eeb3021db235c276.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-54a9eeb3021db235c276.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-chat-import 已收录到 DeepSeek Harness Plugin Store。把 Claude Code / Codex / ChatGPT / Cursor / Gemini / Reasonix / opencode 的聊天记录全保真导入为可续聊的 DSH 会话。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-54a9eeb3021db235c276.html",
+    "en": "dsh-chat-import is now listed on the DeepSeek Harness Plugin Store. Import Claude Code / Codex / ChatGPT / Cursor / Gemini / Reasonix / opencode chat histories as resumable DeepSeek Harness sessions.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-54a9eeb3021db235c276.html"
+  }
+}

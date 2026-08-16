@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-5b58e82aa80f9eb063a5",
+    "name": "dsh-translate-pro",
+    "author": "ShiXiangYu2",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/ShiXiangYu2/dsh-translate-pro",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-5b58e82aa80f9eb063a5.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-5b58e82aa80f9eb063a5.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:shixiangyu2/dsh-translate-pro",
+    "command": "dsh plugin --profile web add github:shixiangyu2/dsh-translate-pro",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-5b58e82aa80f9eb063a5，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-5b58e82aa80f9eb063a5.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-5b58e82aa80f9eb063a5.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-translate-pro 已收录到 DeepSeek Harness Plugin Store。专业翻译：18 种目标语言、4 种风格（正式/口语/技术/直译）、术语表控制译名、整文件翻译（README/文档/字幕）并保留 Markdown 与代码块格式；经 SiliconFlow 调用 DeepSeek。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-5b58e82aa80f9eb063a5.html",
+    "en": "dsh-translate-pro is now listed on the DeepSeek Harness Plugin Store. Professional translation for DSH: 18 target languages, 4 styles (formal/casual/technical/literal), glossary-controlled terminology, and whole-file translation (README/docs/subtitles) with Markdown/code-block format preservation; powered by DeepSeek via SiliconFlow.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-5b58e82aa80f9eb063a5.html"
+  }
+}

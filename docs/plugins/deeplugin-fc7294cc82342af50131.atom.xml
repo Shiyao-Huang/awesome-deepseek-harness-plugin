@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>SpecWorkflow — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-fc7294cc82342af50131.atom.xml</id>
+  <updated>2026-08-16T13:41:06Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-fc7294cc82342af50131.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fc7294cc82342af50131.html"/>
+  <entry>
+    <title>New: SpecWorkflow</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-fc7294cc82342af50131/60715e29601bb9d9</id>
+    <updated>2026-08-16T13:41:06Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fc7294cc82342af50131.html"/>
+    <author><name>MoonCoder-HAPPY</name></author>
+    <category term="workflow"/>
+    <summary>Registers a SpecWorkflow skill pack for requirement clarification, implementation specs, execution, delivery review, repair planning, bug diagnosis, and source-backed research. Exact install spec: specworkflow. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

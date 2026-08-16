@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-bbc62313df29b27635ff",
+    "name": "dsh-sampling-sliders",
+    "author": "Semidia",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/Semidia/dsh-sampling-sliders",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-bbc62313df29b27635ff.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-bbc62313df29b27635ff.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:semidia/dsh-sampling-sliders",
+    "command": "dsh plugin --profile web add github:semidia/dsh-sampling-sliders",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-bbc62313df29b27635ff，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-bbc62313df29b27635ff.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-bbc62313df29b27635ff.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-sampling-sliders 已收录到 DeepSeek Harness Plugin Store。对话输入区的模型采样滑杆（temperature / maxTokens）：通过 agent/request 钩子对所有供应商的每次请求生效，支持热调/持久化两种模式。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-bbc62313df29b27635ff.html",
+    "en": "dsh-sampling-sliders is now listed on the DeepSeek Harness Plugin Store. Model sampling sliders (temperature / maxTokens) in the composer: override every model request for all providers via the agent/request hook, with hot/persist modes.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-bbc62313df29b27635ff.html"
+  }
+}

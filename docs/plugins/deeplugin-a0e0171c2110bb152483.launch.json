@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a0e0171c2110bb152483",
+    "name": "dsh-genome",
+    "author": "Elohia",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/Elohia/dsh-genome",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a0e0171c2110bb152483.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a0e0171c2110bb152483.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:elohia/dsh-genome",
+    "command": "dsh plugin --profile web add github:elohia/dsh-genome",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a0e0171c2110bb152483，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a0e0171c2110bb152483.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a0e0171c2110bb152483.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-genome 已收录到 DeepSeek Harness Plugin Store。能力转化与组装引擎（钱学森工程控制论/系统论框架）：静态常驻层管理 skill/MCP/插件三库、自动吸收技能与工具度量，驱动负反馈进化闭环（scan Sick/Weak → mutate → select 晋升/淘汰 → 30s 回滚）；含 Web UI 面板与 GitHub dsh-plugin 商店桥。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a0e0171c2110bb152483.html",
+    "en": "dsh-genome is now listed on the DeepSeek Harness Plugin Store. Capability transform & assembly engine (Qian Xuesen cybernetics/systems framework): static resident layer manages the skill/MCP/plugin registries, auto-absorbs skills and tool metrics, and drives a negative-feedback evolution loop (scan Sick/Weak → mutate → select promote/reject → 30s rollback); includes a Web UI panel and a GitHub dsh-plugin store bridge.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a0e0171c2110bb152483.html"
+  }
+}

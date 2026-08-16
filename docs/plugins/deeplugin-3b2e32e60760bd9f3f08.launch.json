@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-3b2e32e60760bd9f3f08",
+    "name": "dsh-model-router",
+    "author": "superboy911",
+    "category": "model",
+    "version": null,
+    "homepage": "https://github.com/superboy911/dsh-model-router",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-3b2e32e60760bd9f3f08.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-3b2e32e60760bd9f3f08.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:superboy911/dsh-model-router",
+    "command": "dsh plugin --profile web add github:superboy911/dsh-model-router",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-3b2e32e60760bd9f3f08，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-3b2e32e60760bd9f3f08.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-3b2e32e60760bd9f3f08.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-model-router 已收录到 DeepSeek Harness Plugin Store。DSH 关键词路由与隔离生图插件：确定性关键词路由、白名单模型切换与隔离的 image_gen 生图通道。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-3b2e32e60760bd9f3f08.html",
+    "en": "dsh-model-router is now listed on the DeepSeek Harness Plugin Store. Deterministic keyword routing, allowlisted model switching, and an isolated image_gen channel for DeepSeek Harness.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-3b2e32e60760bd9f3f08.html"
+  }
+}

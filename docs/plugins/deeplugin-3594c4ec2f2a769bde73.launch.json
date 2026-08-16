@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-3594c4ec2f2a769bde73",
+    "name": "dsh-scheduler",
+    "author": "yangyongzhen",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/yangyongzhen/dsh-scheduler",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-3594c4ec2f2a769bde73.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-3594c4ec2f2a769bde73.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:yangyongzhen/dsh-scheduler",
+    "command": "dsh plugin --profile web add github:yangyongzhen/dsh-scheduler",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-3594c4ec2f2a769bde73，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-3594c4ec2f2a769bde73.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-3594c4ec2f2a769bde73.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-scheduler 已收录到 DeepSeek Harness Plugin Store。cron / 一次性定时任务：按调度执行 shell 命令或投递 webhook，结果可推送到 ServerChan / 钉钉 / 飞书 / 通用 Webhook。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-3594c4ec2f2a769bde73.html",
+    "en": "dsh-scheduler is now listed on the DeepSeek Harness Plugin Store. Cron/one-shot scheduled tasks: run shell commands or fire webhooks on a schedule, with optional ServerChan/DingTalk/Feishu/webhook delivery of results.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-3594c4ec2f2a769bde73.html"
+  }
+}

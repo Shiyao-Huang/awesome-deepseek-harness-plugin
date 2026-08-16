@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-8eb885fd9d40db6b4f4d",
+    "name": "dsh-vision",
+    "author": "54xkeee",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/54xkeee/dsh-vision",
+    "firstObservedAt": "2026-08-16T08:41:44Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-8eb885fd9d40db6b4f4d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-8eb885fd9d40db6b4f4d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-vision-web",
+    "command": "dsh plugin --profile web add dsh-vision-web",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-8eb885fd9d40db6b4f4d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-8eb885fd9d40db6b4f4d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-8eb885fd9d40db6b4f4d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-vision 已收录到 DeepSeek Harness Plugin Store。纯文本 DeepSeek 的识图插件：默认走豆包 Web（零成本、免 API key，经 Windows CDP 桥接驱动已登录 Chrome），另有反重力额度（flash/pro）与 Gemini 降级通道；档位自动升级、视觉证据记忆与会话压缩恢复、内容哈希缓存、双语客户端面板。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-8eb885fd9d40db6b4f4d.html",
+    "en": "dsh-vision is now listed on the DeepSeek Harness Plugin Store. Vision for text-only DeepSeek via Doubao Web by default (zero-cost, no API key — drives your logged-in Chrome through a Windows CDP bridge), with Antigravity IDE quota (flash/pro) or Gemini fallback; auto detail escalation, vision evidence memory with compaction rehydration, content-hash cache, and a bilingual client panel.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-8eb885fd9d40db6b4f4d.html"
+  }
+}

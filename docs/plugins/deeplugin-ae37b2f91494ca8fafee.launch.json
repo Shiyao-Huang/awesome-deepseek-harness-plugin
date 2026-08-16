@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-ae37b2f91494ca8fafee",
+    "name": "dsh-api-balance",
+    "author": "GPIOX",
+    "category": "model",
+    "version": null,
+    "homepage": "https://github.com/GPIOX/dsh-api-balance",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-ae37b2f91494ca8fafee.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-ae37b2f91494ca8fafee.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:gpiox/dsh-api-balance",
+    "command": "dsh plugin --profile web add github:gpiox/dsh-api-balance",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-ae37b2f91494ca8fafee，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-ae37b2f91494ca8fafee.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-ae37b2f91494ca8fafee.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-api-balance 已收录到 DeepSeek Harness Plugin Store。DeepSeek Harness 悬浮 API 余额徽章：实时显示 DeepSeek / Moonshot / OpenAI / 自定义接口余额；可拖动缩放、亚克力质感、文字颜色随下方内容明暗自适应。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-ae37b2f91494ca8fafee.html",
+    "en": "dsh-api-balance is now listed on the DeepSeek Harness Plugin Store. Floating API-balance badge for DeepSeek Harness: live balance for DeepSeek, Moonshot, OpenAI and custom endpoints; draggable, resizable, frosted-glass look, with text color adapting to the content beneath.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-ae37b2f91494ca8fafee.html"
+  }
+}

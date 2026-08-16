@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-497be91732e6a446eef9",
+    "name": "dsh-voice",
+    "author": "3274375092",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/3274375092/dsh-voice",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-497be91732e6a446eef9.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-497be91732e6a446eef9.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:3274375092/dsh-voice",
+    "command": "dsh plugin --profile web add github:3274375092/dsh-voice",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-497be91732e6a446eef9，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-497be91732e6a446eef9.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-497be91732e6a446eef9.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-voice 已收录到 DeepSeek Harness Plugin Store。语音输入插件：对着麦克风说话，识别后的文字作为普通聊天消息发送（本地模型或浏览器语音识别）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-497be91732e6a446eef9.html",
+    "en": "dsh-voice is now listed on the DeepSeek Harness Plugin Store. Voice input for DeepSeek Harness: speak into the microphone and the recognized text is submitted as a normal chat message, via local or browser speech recognition.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-497be91732e6a446eef9.html"
+  }
+}

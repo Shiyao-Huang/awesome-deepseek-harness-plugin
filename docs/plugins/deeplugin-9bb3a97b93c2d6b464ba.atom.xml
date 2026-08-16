@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-sxs-anti-bot-http — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-9bb3a97b93c2d6b464ba.atom.xml</id>
+  <updated>2026-08-16T08:41:44Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-9bb3a97b93c2d6b464ba.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9bb3a97b93c2d6b464ba.html"/>
+  <entry>
+    <title>New: dsh-sxs-anti-bot-http</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-9bb3a97b93c2d6b464ba/86daab3b27b8f569</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9bb3a97b93c2d6b464ba.html"/>
+    <author><name>yangyunsong023</name></author>
+    <category term="tools"/>
+    <summary>Anti-bot HTTP fetch tools hardened by SXS's production scraping stack (millions of requests/day): UA-pool rotation, retry with exponential backoff, anti-bot wall detection (captcha / verification challenges) and adaptive rate limiting — tools: `sxs_fetch` / `sxs_fetch_json` / `sxs_rate_status`. Exact install spec: github:yangyunsong023/dsh-sxs-anti-bot-http. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

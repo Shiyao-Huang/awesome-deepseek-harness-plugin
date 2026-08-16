@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>prompt-for-me — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-66868eca234949f2e7b7.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-66868eca234949f2e7b7.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-66868eca234949f2e7b7.html"/>
+  <entry>
+    <title>Updated: prompt-for-me</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-66868eca234949f2e7b7/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-66868eca234949f2e7b7.html"/>
+    <author><name>ChuanTianML</name></author>
+    <category term="ui"/>
+    <summary>Context-aware next-message suggestions in the DSH composer, with repeated Trigger cycling and explicit user review before sending. Exact install spec: github:chuantianml/prompt-for-me. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: prompt-for-me</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-66868eca234949f2e7b7/6f2ac25403078bce</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-66868eca234949f2e7b7.html"/>
+    <author><name>ChuanTianML</name></author>
+    <category term="ui"/>
+    <summary>Context-aware next-message suggestions in the DSH composer, with repeated Trigger cycling and explicit user review before sending. Exact install spec: github:chuantianml/prompt-for-me. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

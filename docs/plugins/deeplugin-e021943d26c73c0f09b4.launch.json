@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-e021943d26c73c0f09b4",
+    "name": "dsh-voice-call",
+    "author": "PandaPolo",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/PandaPolo/dsh-voice-call",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-e021943d26c73c0f09b4.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-e021943d26c73c0f09b4.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-voice-call",
+    "command": "dsh plugin --profile web add dsh-voice-call",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-e021943d26c73c0f09b4，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-e021943d26c73c0f09b4.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-e021943d26c73c0f09b4.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-voice-call 已收录到 DeepSeek Harness Plugin Store。agent 主动打来的语音电话：`offer_call` 向人类振铃（接听/拒接/稍后再说），接听后由本地 CrispASR + Qwen3-TTS 合成并播放（9 个音色，含 2 个中文方言）；拒接则把决定返回给 agent。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e021943d26c73c0f09b4.html",
+    "en": "dsh-voice-call is now listed on the DeepSeek Harness Plugin Store. Agent-initiated voice calls: `offer_call` rings the human (接听/拒接/稍后再说); accepted calls synthesize and play locally via CrispASR + Qwen3-TTS (9 speakers, 2 Chinese dialects), rejected calls return the decision to the agent.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e021943d26c73c0f09b4.html"
+  }
+}

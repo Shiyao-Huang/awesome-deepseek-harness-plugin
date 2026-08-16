@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-e18d76b5536b8ee0f5cb",
+    "name": "dsh-plugin-advisor",
+    "author": "ChengxiuCDP",
+    "category": "market",
+    "version": null,
+    "homepage": "https://github.com/ChengxiuCDP/dsh-plugin-advisor",
+    "firstObservedAt": "2026-08-16T13:41:06Z",
+    "lastChangedAt": "2026-08-16T13:41:06Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-e18d76b5536b8ee0f5cb.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-e18d76b5536b8ee0f5cb.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:chengxiucdp/dsh-plugin-advisor",
+    "command": "dsh plugin --profile web add github:chengxiucdp/dsh-plugin-advisor",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-e18d76b5536b8ee0f5cb，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-e18d76b5536b8ee0f5cb.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-e18d76b5536b8ee0f5cb.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-advisor 已收录到 DeepSeek Harness Plugin Store。质量感知的会话内插件发现：find_dsh_plugins 工具基于每日更新的质量评分索引（可安装声明 / 精选收录 / 许可证 / 活跃度）对 dsh-plugin topic 全量排序，并叠加实时 gh 搜索——零 LLM API 成本，每条结果附风险徽章与精确安装命令。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e18d76b5536b8ee0f5cb.html",
+    "en": "dsh-plugin-advisor is now listed on the DeepSeek Harness Plugin Store. Quality-aware in-agent plugin discovery: a find_dsh_plugins tool that ranks the whole dsh-plugin topic through a daily quality-scored index (installable manifest, curated listing, license, activity) merged with a live gh search — zero LLM API cost, risk flags and exact install commands in every result.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e18d76b5536b8ee0f5cb.html"
+  }
+}

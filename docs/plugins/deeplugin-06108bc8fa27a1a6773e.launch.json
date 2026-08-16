@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-06108bc8fa27a1a6773e",
+    "name": "plugin-switch",
+    "author": "cynch18",
+    "category": "market",
+    "version": null,
+    "homepage": "https://github.com/cynch18/plugin-switch",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-06108bc8fa27a1a6773e.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-06108bc8fa27a1a6773e.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:cynch18/plugin-switch",
+    "command": "dsh plugin --profile web add github:cynch18/plugin-switch",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-06108bc8fa27a1a6773e，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-06108bc8fa27a1a6773e.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-06108bc8fa27a1a6773e.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "plugin-switch 已收录到 DeepSeek Harness Plugin Store。插件清单页滑块开关：在设置 → 插件 → 插件清单实时启用/停用任意插件，无需重启；支持分组/筛选、批量开关、撤销与自动备份。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-06108bc8fa27a1a6773e.html",
+    "en": "plugin-switch is now listed on the DeepSeek Harness Plugin Store. Toggle switches for the plugin inventory: enable/disable any plugin live from Settings → Plugins → Plugin list without restarting, with groups/filters, bulk toggle, undo, and backup.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-06108bc8fa27a1a6773e.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a8ddc0616a2d159257fa",
+    "name": "dsh-memoria-extra",
+    "author": "jiayan-xu",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/jiayan-xu/dsh-memoria-extra",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a8ddc0616a2d159257fa.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a8ddc0616a2d159257fa.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:jiayan-xu/dsh-memoria-extra",
+    "command": "dsh plugin --profile web add github:jiayan-xu/dsh-memoria-extra",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a8ddc0616a2d159257fa，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a8ddc0616a2d159257fa.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a8ddc0616a2d159257fa.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-memoria-extra 已收录到 DeepSeek Harness Plugin Store。memoria 进阶工具：会话上下文注入（画像+召回）、近期决策、健康报告、命名空间白名单、记忆关系图与实体搜索；dsh-memoria 的伴生插件。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a8ddc0616a2d159257fa.html",
+    "en": "dsh-memoria-extra is now listed on the DeepSeek Harness Plugin Store. Advanced memoria tools: session context injection (profile + recall), recent decisions, health report, namespace allowlist, memory relation graph, and entity search; companion to dsh-memoria.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a8ddc0616a2d159257fa.html"
+  }
+}

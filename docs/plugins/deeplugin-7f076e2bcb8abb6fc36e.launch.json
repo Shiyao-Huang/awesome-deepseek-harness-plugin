@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-7f076e2bcb8abb6fc36e",
+    "name": "dsh-multi-folder",
+    "author": "AngelosZou",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/AngelosZou/dsh-multi-folder",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-7f076e2bcb8abb6fc36e.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-7f076e2bcb8abb6fc36e.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-multi-folder",
+    "command": "dsh plugin --profile web add dsh-multi-folder",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-7f076e2bcb8abb6fc36e，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-7f076e2bcb8abb6fc36e.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-7f076e2bcb8abb6fc36e.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-multi-folder 已收录到 DeepSeek Harness Plugin Store。为 DSH 项目提供副工作目录：agent 保持主工作区为 cwd，同时对已配置的副目录获得同等读写/执行权限，可在会话头部与新会话页配置。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-7f076e2bcb8abb6fc36e.html",
+    "en": "dsh-multi-folder is now listed on the DeepSeek Harness Plugin Store. Secondary working directories for a DSH project: the agent keeps the primary workspace as cwd and gains equal read/write/exec permissions on configured secondary directories, configurable from the session header and the new-session page.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-7f076e2bcb8abb6fc36e.html"
+  }
+}

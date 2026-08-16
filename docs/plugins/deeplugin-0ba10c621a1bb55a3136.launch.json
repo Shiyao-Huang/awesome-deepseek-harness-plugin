@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-0ba10c621a1bb55a3136",
+    "name": "dsh-acp-enhanced",
+    "author": "grunmin",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/grunmin/dsh-acp-enhanced",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-0ba10c621a1bb55a3136.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-0ba10c621a1bb55a3136.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-acp-enhanced",
+    "command": "dsh plugin --profile web add dsh-acp-enhanced",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-0ba10c621a1bb55a3136，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-0ba10c621a1bb55a3136.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-0ba10c621a1bb55a3136.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-acp-enhanced 已收录到 DeepSeek Harness Plugin Store。增强版 ACP 服务器：块级与推理流式、用量遥测、模型/推理强度切换、权限预设、会话恢复/归档、每会话 MCP servers、Zed 文件/终端转发。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-0ba10c621a1bb55a3136.html",
+    "en": "dsh-acp-enhanced is now listed on the DeepSeek Harness Plugin Store. Enhanced ACP server for DeepSeek Harness: block & reasoning streaming, usage telemetry, model/effort switching, permission presets, session resume/archive, per-session MCP servers, and Zed file/terminal forwarding.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-0ba10c621a1bb55a3136.html"
+  }
+}

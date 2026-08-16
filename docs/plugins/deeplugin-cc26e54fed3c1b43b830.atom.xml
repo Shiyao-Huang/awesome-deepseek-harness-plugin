@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>sandbox-nono — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-cc26e54fed3c1b43b830.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-cc26e54fed3c1b43b830.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-cc26e54fed3c1b43b830.html"/>
+  <entry>
+    <title>Updated: sandbox-nono</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-cc26e54fed3c1b43b830/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-cc26e54fed3c1b43b830.html"/>
+    <author><name>omdsh-dev</name></author>
+    <category term="dev"/>
+    <summary>Support for the nono sandbox backend. Exact install spec: github:omdsh-dev/sandbox-nono. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: sandbox-nono</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-cc26e54fed3c1b43b830/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-cc26e54fed3c1b43b830.html"/>
+    <author><name>omdsh-dev</name></author>
+    <category term="dev"/>
+    <summary>Support for the nono sandbox backend. Exact install spec: github:omdsh-dev/sandbox-nono. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: sandbox-nono</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-cc26e54fed3c1b43b830/19f118ecfd65ceec</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-cc26e54fed3c1b43b830.html"/>
+    <author><name>omdsh-dev</name></author>
+    <category term="dev"/>
+    <summary>Support for the nono sandbox backend. Exact install spec: github:omdsh-dev/sandbox-nono. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: sandbox-nono</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-cc26e54fed3c1b43b830/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-cc26e54fed3c1b43b830.html"/>
+    <author><name>omdsh-dev</name></author>
+    <category term="dev"/>
+    <summary>Support for the nono sandbox backend. Exact install spec: github:omdsh-dev/sandbox-nono. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

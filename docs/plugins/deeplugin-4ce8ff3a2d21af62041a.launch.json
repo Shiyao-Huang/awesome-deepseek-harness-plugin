@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-4ce8ff3a2d21af62041a",
+    "name": "pet-whale",
+    "author": "nzl153",
+    "category": "fun",
+    "version": null,
+    "homepage": "https://github.com/nzl153/pet-whale",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-4ce8ff3a2d21af62041a.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-4ce8ff3a2d21af62041a.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "pet-whale",
+    "command": "dsh plugin --profile web add pet-whale",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-4ce8ff3a2d21af62041a，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-4ce8ff3a2d21af62041a.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-4ce8ff3a2d21af62041a.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "pet-whale 已收录到 DeepSeek Harness Plugin Store。官方鲸鱼轮廓的桌宠：纯 SVG 动画随 agent 状态切换（思考／工作／完成／报错），可戳可拖、双击翻滚，光标停留在身侧会自己避让，7 套色板并跟随亮暗主题，附网页预览可直接试玩。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-4ce8ff3a2d21af62041a.html",
+    "en": "pet-whale is now listed on the DeepSeek Harness Plugin Store. Desktop pet drawn from the official whale outline: pure-SVG animation follows agent state (thinking, working, celebrating, error), with poke and double-click flip interactions, cursor avoidance, 7 palettes, light/dark theme sync, and a playable web preview.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-4ce8ff3a2d21af62041a.html"
+  }
+}

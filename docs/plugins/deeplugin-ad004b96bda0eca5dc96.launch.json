@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-ad004b96bda0eca5dc96",
+    "name": "dsh-queue-plus",
+    "author": "starslittle",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/starslittle/dsh-queue-plus",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-ad004b96bda0eca5dc96.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-ad004b96bda0eca5dc96.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:starslittle/dsh-queue-plus",
+    "command": "dsh plugin --profile web add github:starslittle/dsh-queue-plus",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-ad004b96bda0eca5dc96，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-ad004b96bda0eca5dc96.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-ad004b96bda0eca5dc96.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-queue-plus 已收录到 DeepSeek Harness Plugin Store。DSH 排队消息增强面板，支持编辑、删除、插话、排序和批量删除。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-ad004b96bda0eca5dc96.html",
+    "en": "dsh-queue-plus is now listed on the DeepSeek Harness Plugin Store. A simple DSH queue panel for editing, removing, steering, reordering, and bulk removal.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-ad004b96bda0eca5dc96.html"
+  }
+}

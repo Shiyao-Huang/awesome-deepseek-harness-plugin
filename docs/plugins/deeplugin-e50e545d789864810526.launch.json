@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-e50e545d789864810526",
+    "name": "dsh-md-preview",
+    "author": "LeslieWylie",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/LeslieWylie/dsh-md-preview",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-e50e545d789864810526.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-e50e545d789864810526.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:lesliewylie/dsh-md-preview",
+    "command": "dsh plugin --profile web add github:lesliewylie/dsh-md-preview",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-e50e545d789864810526，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-e50e545d789864810526.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-e50e545d789864810526.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-md-preview 已收录到 DeepSeek Harness Plugin Store。把 Markdown 渲染为自包含的独立 HTML 页面：提供在 headless 配置下同样可用的 `md_html_render` 工具，以及在网页端浏览、预览、编辑并导出本地 `.md` 文件的抽屉；两个入口共用同一个渲染器，无运行时依赖。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e50e545d789864810526.html",
+    "en": "dsh-md-preview is now listed on the DeepSeek Harness Plugin Store. Render Markdown to a standalone, self-contained HTML page: an `md_html_render` tool that works in a headless profile, plus a web drawer to browse, preview, edit and export local `.md` files; both share one renderer, with no runtime dependencies.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e50e545d789864810526.html"
+  }
+}

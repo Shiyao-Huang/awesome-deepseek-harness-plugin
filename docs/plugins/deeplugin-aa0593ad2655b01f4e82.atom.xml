@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>deeplugin market — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-aa0593ad2655b01f4e82.atom.xml</id>
+  <updated>2026-08-16T08:41:44Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-aa0593ad2655b01f4e82.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-aa0593ad2655b01f4e82.html"/>
+  <entry>
+    <title>Updated: deeplugin market</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-aa0593ad2655b01f4e82/57e16a35885e9486</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-aa0593ad2655b01f4e82.html"/>
+    <author><name>Shiyao-Huang</name></author>
+    <category term="market"/>
+    <summary>Search the attributed DeepSeek Harness plugin Store by natural-language intent, inspect sources, and run approved install and management actions. Exact install spec: github:shiyao-huang/awesome-deepseek-harness-plugin#path:/plugin. Source event: Shiyao-Huang/awesome-deepseek-harness-plugin; changed: description, description_i18n, plugin_version, tags_json.</summary>
+  </entry>
+  <entry>
+    <title>New: deeplugin market</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-aa0593ad2655b01f4e82/9cf8cee989b3ca44</id>
+    <updated>2026-08-15T23:49:10Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-aa0593ad2655b01f4e82.html"/>
+    <author><name>Shiyao-Huang</name></author>
+    <category term="market"/>
+    <summary>Search the attributed DeepSeek Harness plugin Store by natural-language intent, inspect sources, and run approved install and management actions. Exact install spec: github:shiyao-huang/awesome-deepseek-harness-plugin#path:/plugin. Source event: Shiyao-Huang/awesome-deepseek-harness-plugin; changed: listed.</summary>
+  </entry>
+</feed>

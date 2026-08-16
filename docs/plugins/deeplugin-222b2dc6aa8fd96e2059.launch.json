@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-222b2dc6aa8fd96e2059",
+    "name": "dsh-llm-deepseek-vision",
+    "author": "NagasakiSoyo-ui",
+    "category": "model",
+    "version": null,
+    "homepage": "https://github.com/NagasakiSoyo-ui/dsh-llm-deepseek-vision",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-222b2dc6aa8fd96e2059.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-222b2dc6aa8fd96e2059.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:nagasakisoyo-ui/dsh-llm-deepseek-vision",
+    "command": "dsh plugin --profile web add github:nagasakisoyo-ui/dsh-llm-deepseek-vision",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-222b2dc6aa8fd96e2059，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-222b2dc6aa8fd96e2059.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-222b2dc6aa8fd96e2059.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-llm-deepseek-vision 已收录到 DeepSeek Harness Plugin Store。视觉增强的 DeepSeek 适配器：由视觉模型把图片描述成文字，纯文本 DeepSeek 模型再基于描述推理。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-222b2dc6aa8fd96e2059.html",
+    "en": "dsh-llm-deepseek-vision is now listed on the DeepSeek Harness Plugin Store. Vision-augmented DeepSeek adapter: a vision-capable model describes image input, then a text-only DeepSeek model reasons over the description.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-222b2dc6aa8fd96e2059.html"
+  }
+}

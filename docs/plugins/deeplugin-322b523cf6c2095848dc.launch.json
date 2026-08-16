@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-322b523cf6c2095848dc",
+    "name": "dsh-api-balance",
+    "author": "02Muller25",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/02Muller25/dsh-api-balance",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-322b523cf6c2095848dc.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-322b523cf6c2095848dc.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:02muller25/dsh-api-balance",
+    "command": "dsh plugin --profile web add github:02muller25/dsh-api-balance",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-322b523cf6c2095848dc，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-322b523cf6c2095848dc.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-322b523cf6c2095848dc.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-api-balance 已收录到 DeepSeek Harness Plugin Store。输入框下方实时显示 DeepSeek API 账户余额，支持手动刷新与自定义间隔自动刷新。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-322b523cf6c2095848dc.html",
+    "en": "dsh-api-balance is now listed on the DeepSeek Harness Plugin Store. Real-time DeepSeek API account balance in the composer dock with manual or custom-interval auto-refresh.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-322b523cf6c2095848dc.html"
+  }
+}

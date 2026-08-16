@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-e2e42f23cebc162040e3",
+    "name": "dsh-notify-center",
+    "author": "SingleOne",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/SingleOne/dsh-notify-center",
+    "firstObservedAt": "2026-08-16T08:41:44Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-e2e42f23cebc162040e3.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-e2e42f23cebc162040e3.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:singleone/dsh-notify-center",
+    "command": "dsh plugin --profile web add github:singleone/dsh-notify-center",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-e2e42f23cebc162040e3，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-e2e42f23cebc162040e3.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-e2e42f23cebc162040e3.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-notify-center 已收录到 DeepSeek Harness Plugin Store。回合完成、失败和待审批时发送跨平台本机通知与 Webhook，支持结果过滤、内容规则、隐私控制和失败重试。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e2e42f23cebc162040e3.html",
+    "en": "dsh-notify-center is now listed on the DeepSeek Harness Plugin Store. Native desktop and webhook notifications for turn completions, failures, and approval requests, with outcome filters, content rules, privacy controls, and retrying delivery.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e2e42f23cebc162040e3.html"
+  }
+}

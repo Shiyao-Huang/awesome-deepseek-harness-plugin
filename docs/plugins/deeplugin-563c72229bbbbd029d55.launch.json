@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-563c72229bbbbd029d55",
+    "name": "dsh-chinese-traditional-wisdom-skill",
+    "author": "dhicoc",
+    "category": "skill",
+    "version": null,
+    "homepage": "https://github.com/dhicoc/dsh-chinese-traditional-wisdom-skill",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-563c72229bbbbd029d55.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-563c72229bbbbd029d55.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:dhicoc/dsh-chinese-traditional-wisdom-skill",
+    "command": "dsh plugin --profile web add github:dhicoc/dsh-chinese-traditional-wisdom-skill",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-563c72229bbbbd029d55，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-563c72229bbbbd029d55.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-563c72229bbbbd029d55.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-chinese-traditional-wisdom-skill 已收录到 DeepSeek Harness Plugin Store。完整中华传统智慧（玄枢 / XuanShu）技能包，封装为 DeepSeek Harness Cordis 插件：八字、紫微斗数、六爻、梅花易数、奇门遁甲、大六壬、太乙、五运六气、中医体质与风水推算，内置本地确定性引擎与可视化 Dashboard。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-563c72229bbbbd029d55.html",
+    "en": "dsh-chinese-traditional-wisdom-skill is now listed on the DeepSeek Harness Plugin Store. Complete chinese-traditional-wisdom (玄枢 / XuanShu) skill pack as a DeepSeek Harness Cordis plugin: bazi, ziwei-doushu, liuyao, meihua, qimen, daliuren, taiyi, wuyun-liuqi, constitution and fengshui calculation, with a local deterministic engine and a visualization dashboard.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-563c72229bbbbd029d55.html"
+  }
+}

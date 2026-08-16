@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-5cfa9c36bedb989b9696",
+    "name": "dsh-screen-agent",
+    "author": "lak321",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/lak321/dsh-screen-agent",
+    "firstObservedAt": "2026-08-16T13:41:06Z",
+    "lastChangedAt": "2026-08-16T13:41:06Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-5cfa9c36bedb989b9696.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-5cfa9c36bedb989b9696.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:lak321/dsh-screen-agent",
+    "command": "dsh plugin --profile web add github:lak321/dsh-screen-agent",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-5cfa9c36bedb989b9696，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-5cfa9c36bedb989b9696.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-5cfa9c36bedb989b9696.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-screen-agent 已收录到 DeepSeek Harness Plugin Store。桌面与网页自动化：📸 多屏截图 + 🔍 Windows OCR（文字+像素坐标）+ 🖱️ 鼠标点击/拖拽 + ⌨️ 中文打字/按键 + 🪟 窗口激活，含实战打磨的画图能力（鼠标加速度补偿、画布定位、贝塞尔曲线，可在画图中绘制图形）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-5cfa9c36bedb989b9696.html",
+    "en": "dsh-screen-agent is now listed on the DeepSeek Harness Plugin Store. Desktop and web automation: 📸 multi-screen screenshots, 🔍 Windows OCR (text + pixel coordinates), 🖱️ mouse click/drag, ⌨️ Chinese typing/keys, and 🪟 window activation, with battle-tested drawing in Paint (mouse acceleration compensation, canvas positioning, Bézier curves).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-5cfa9c36bedb989b9696.html"
+  }
+}

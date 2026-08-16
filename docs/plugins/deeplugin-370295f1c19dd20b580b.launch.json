@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-370295f1c19dd20b580b",
+    "name": "dsh-change-review",
+    "author": "cirelir",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/cirelir/dsh-change-review",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-370295f1c19dd20b580b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-370295f1c19dd20b580b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:cirelir/dsh-change-review",
+    "command": "dsh plugin --profile web add github:cirelir/dsh-change-review",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-370295f1c19dd20b580b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-370295f1c19dd20b580b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-370295f1c19dd20b580b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-change-review 已收录到 DeepSeek Harness Plugin Store。会话修改审查插件：追踪会话内 write/edit 工具调用并展示 diff 对比；会话隔离、子代理聚合、SSE 实时推送、角标与颜色自定义。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-370295f1c19dd20b580b.html",
+    "en": "dsh-change-review is now listed on the DeepSeek Harness Plugin Store. Session change-review plugin for DeepSeek Harness: tracks write/edit tool calls per session and renders line-level diffs with customizable colors, with session isolation, subagent aggregation, and SSE live updates.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-370295f1c19dd20b580b.html"
+  }
+}

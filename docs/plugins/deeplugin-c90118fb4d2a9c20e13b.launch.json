@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-c90118fb4d2a9c20e13b",
+    "name": "dsh-agentmemory",
+    "author": "Yiipu",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/Yiipu/dsh-agentmemory",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-c90118fb4d2a9c20e13b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-c90118fb4d2a9c20e13b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:yiipu/dsh-agentmemory",
+    "command": "dsh plugin --profile web add github:yiipu/dsh-agentmemory",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-c90118fb4d2a9c20e13b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-c90118fb4d2a9c20e13b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-c90118fb4d2a9c20e13b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-agentmemory 已收录到 DeepSeek Harness Plugin Store。DSH ↔ agentmemory 会话记忆桥：把会话生命周期镜像到本地 agentmemory 守护进程（REST），提供 memory_recall / memory_remember 工具，并通过 agent/pre-step 按会话注入记忆上下文窗口。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c90118fb4d2a9c20e13b.html",
+    "en": "dsh-agentmemory is now listed on the DeepSeek Harness Plugin Store. DSH ↔ agentmemory session-memory bridge: mirrors session lifecycle into a local agentmemory daemon (REST), exposes memory_recall / memory_remember tools, and injects a per-session memory context window via agent/pre-step.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-c90118fb4d2a9c20e13b.html"
+  }
+}

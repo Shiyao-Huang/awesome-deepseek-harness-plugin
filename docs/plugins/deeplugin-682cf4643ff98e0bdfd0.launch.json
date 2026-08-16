@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-682cf4643ff98e0bdfd0",
+    "name": "dsh-web-attention-badge",
+    "author": "Luaphes",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/Luaphes/dsh-web-attention-badge",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-682cf4643ff98e0bdfd0.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-682cf4643ff98e0bdfd0.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-web-attention-badge",
+    "command": "dsh plugin --profile web add dsh-web-attention-badge",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-682cf4643ff98e0bdfd0，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-682cf4643ff98e0bdfd0.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-682cf4643ff98e0bdfd0.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-web-attention-badge 已收录到 DeepSeek Harness Plugin Store。会话需要你时三处同时亮起：角标、标签页标题计数、按状态换色的鲸鱼 favicon。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-682cf4643ff98e0bdfd0.html",
+    "en": "dsh-web-attention-badge is now listed on the DeepSeek Harness Plugin Store. Attention reminders: frame badge, tab-title count, and a status-colored whale favicon for sessions waiting for input or finished unopened.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-682cf4643ff98e0bdfd0.html"
+  }
+}

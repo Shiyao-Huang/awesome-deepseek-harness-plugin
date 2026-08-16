@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-evolve — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-927665eddd8357acbd75.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-927665eddd8357acbd75.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-927665eddd8357acbd75.html"/>
+  <entry>
+    <title>Updated: dsh-evolve</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-927665eddd8357acbd75/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-927665eddd8357acbd75.html"/>
+    <author><name>william-jin-cmu</name></author>
+    <category term="dev"/>
+    <summary>Self-evolution: the agent hot-mounts/removes persistent plugins on itself mid-session. Exact install spec: github:william-jin-cmu/dsh-evolve. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-evolve</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-927665eddd8357acbd75/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-927665eddd8357acbd75.html"/>
+    <author><name>william-jin-cmu</name></author>
+    <category term="dev"/>
+    <summary>Self-evolution: the agent hot-mounts/removes persistent plugins on itself mid-session. Exact install spec: github:william-jin-cmu/dsh-evolve. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-evolve</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-927665eddd8357acbd75/19f118ecfd65ceec</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-927665eddd8357acbd75.html"/>
+    <author><name>william-jin-cmu</name></author>
+    <category term="dev"/>
+    <summary>Self-evolution: the agent hot-mounts/removes persistent plugins on itself mid-session. Exact install spec: github:william-jin-cmu/dsh-evolve. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-evolve</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-927665eddd8357acbd75/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-927665eddd8357acbd75.html"/>
+    <author><name>william-jin-cmu</name></author>
+    <category term="dev"/>
+    <summary>Self-evolution: the agent hot-mounts/removes persistent plugins on itself mid-session. Exact install spec: github:william-jin-cmu/dsh-evolve. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

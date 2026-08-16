@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-6cd483e4074c2fb99160",
+    "name": "dsh-plugins#dsh-vision-tool",
+    "author": "TZHR-invest",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/TZHR-invest/dsh-plugins/tree/main/packages/dsh-vision",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-6cd483e4074c2fb99160.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-6cd483e4074c2fb99160.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:tzhr-invest/dsh-plugins#path:/packages/dsh-vision",
+    "command": "dsh plugin --profile web add github:tzhr-invest/dsh-plugins#path:/packages/dsh-vision",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-6cd483e4074c2fb99160，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-6cd483e4074c2fb99160.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-6cd483e4074c2fb99160.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugins#dsh-vision-tool 已收录到 DeepSeek Harness Plugin Store。Agent 可调用的视觉工具：通过你配置的任意 OpenAI 兼容视觉端点描述本地图片，支持多模型交叉核对，不内置任何密钥。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-6cd483e4074c2fb99160.html",
+    "en": "dsh-plugins#dsh-vision-tool is now listed on the DeepSeek Harness Plugin Store. Agent-callable vision tool that describes local images via any OpenAI-compatible vision endpoint you configure, with an optional multi-model cross-check and no built-in keys.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-6cd483e4074c2fb99160.html"
+  }
+}

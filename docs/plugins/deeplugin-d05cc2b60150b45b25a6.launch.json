@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-d05cc2b60150b45b25a6",
+    "name": "adhdgofly-dsh-ext",
+    "author": "zuoguyoupan2023",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/zuoguyoupan2023/adhdgofly-dsh-ext",
+    "firstObservedAt": "2026-08-16T09:56:16Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-d05cc2b60150b45b25a6.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-d05cc2b60150b45b25a6.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:zuoguyoupan2023/adhdgofly-dsh-ext",
+    "command": "dsh plugin --profile web add github:zuoguyoupan2023/adhdgofly-dsh-ext",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-d05cc2b60150b45b25a6，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-d05cc2b60150b45b25a6.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-d05cc2b60150b45b25a6.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "adhdgofly-dsh-ext 已收录到 DeepSeek Harness Plugin Store。在 DSH Web 已渲染的 Markdown 中做词性高亮：名词绿、动词红、形容/副词紫，支持深/浅色板、词性开关与流式防抖。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-d05cc2b60150b45b25a6.html",
+    "en": "adhdgofly-dsh-ext is now listed on the DeepSeek Harness Plugin Store. Highlights parts of speech (nouns green, verbs red, adjectives/adverbs purple) in rendered DSH Web Markdown, with light/dark palettes, toggles, and stream-aware updates.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-d05cc2b60150b45b25a6.html"
+  }
+}

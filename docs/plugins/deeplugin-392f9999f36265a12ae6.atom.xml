@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>token-usage-counter — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-392f9999f36265a12ae6.atom.xml</id>
+  <updated>2026-08-16T09:56:16Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-392f9999f36265a12ae6.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-392f9999f36265a12ae6.html"/>
+  <entry>
+    <title>Updated: token-usage-counter</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-392f9999f36265a12ae6/d947fc14d81f9c69</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-392f9999f36265a12ae6.html"/>
+    <author><name>Mu-scorpio</name></author>
+    <category term="ui"/>
+    <summary>Persistent provider-reported token usage totals with per-session, per-model, and daily activity statistics. Exact install spec: dsh-token-usage-counter. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: token-usage-counter</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-392f9999f36265a12ae6/7e5b8321bc7d21b1</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-392f9999f36265a12ae6.html"/>
+    <author><name>Mu-scorpio</name></author>
+    <category term="ui"/>
+    <summary>Persistent provider-reported token usage totals with per-session, per-model, and daily activity statistics. Exact install spec: dsh-token-usage-counter. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

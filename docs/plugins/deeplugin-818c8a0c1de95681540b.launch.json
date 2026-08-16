@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-818c8a0c1de95681540b",
+    "name": "dsh-deeptutor",
+    "author": "TecFancy",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/TecFancy/dsh-deeptutor",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-818c8a0c1de95681540b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-818c8a0c1de95681540b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-deeptutor",
+    "command": "dsh plugin --profile web add dsh-deeptutor",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-818c8a0c1de95681540b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-818c8a0c1de95681540b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-818c8a0c1de95681540b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-deeptutor 已收录到 DeepSeek Harness Plugin Store。DeepTutor 学习辅导桥接插件：通过 deeptutor_run / deeptutor_kb / deeptutor_note 工具为 agent 接入深度讲解、自测题、学习路径规划、个人知识库检索（RAG）与笔记归档。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-818c8a0c1de95681540b.html",
+    "en": "dsh-deeptutor is now listed on the DeepSeek Harness Plugin Store. DeepTutor tutoring bridge: deep explanations, self-test questions, learning-path planning, personal knowledge-base search (RAG), and note archiving via deeptutor_run / deeptutor_kb / deeptutor_note tools.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-818c8a0c1de95681540b.html"
+  }
+}

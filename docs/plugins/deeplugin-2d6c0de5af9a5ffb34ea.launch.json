@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-2d6c0de5af9a5ffb34ea",
+    "name": "dsh-tool-writing",
+    "author": "x2802490130-prog",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/x2802490130-prog/dsh-tool-writing",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-2d6c0de5af9a5ffb34ea.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-2d6c0de5af9a5ffb34ea.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-tool-writing",
+    "command": "dsh plugin --profile web add dsh-tool-writing",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-2d6c0de5af9a5ffb34ea，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-2d6c0de5af9a5ffb34ea.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-2d6c0de5af9a5ffb34ea.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-tool-writing 已收录到 DeepSeek Harness Plugin Store。写文引擎：用独立 DeepSeek key 分流并发生成草稿/细纲/点子，设定与伏笔管理、语义向量检索、书库（饲料区）、用量总账、机械校对与本地连载计划。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-2d6c0de5af9a5ffb34ea.html",
+    "en": "dsh-tool-writing is now listed on the DeepSeek Harness Plugin Store. A web-novel writing engine for DeepSeek Harness: parallel drafting, outlining and brainstorming with a separate DeepSeek key, lore and foreshadowing management, semantic vector retrieval, a corpus library, usage ledger, mechanical proofreading, and a local serialization plan.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-2d6c0de5af9a5ffb34ea.html"
+  }
+}

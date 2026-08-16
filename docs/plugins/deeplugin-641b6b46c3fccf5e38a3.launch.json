@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-641b6b46c3fccf5e38a3",
+    "name": "dsh-deepseek-quota-bar",
+    "author": "jiangli07",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/jiangli07/dsh-deepseek-quota-bar",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-641b6b46c3fccf5e38a3.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-641b6b46c3fccf5e38a3.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-deepseek-quota-bar",
+    "command": "dsh plugin --profile web add dsh-deepseek-quota-bar",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-641b6b46c3fccf5e38a3，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-641b6b46c3fccf5e38a3.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-641b6b46c3fccf5e38a3.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-deepseek-quota-bar 已收录到 DeepSeek Harness Plugin Store。可拖动透明余额卡片：余额/月初额度血条、今日/本月用量（配置平台 token 后为官方精确数据）、当前对话费用。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-641b6b46c3fccf5e38a3.html",
+    "en": "dsh-deepseek-quota-bar is now listed on the DeepSeek Harness Plugin Store. Draggable transparent balance card with a blood-bar of remaining balance vs month-opening, today/month spend (official when the platform token is configured), and session cost.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-641b6b46c3fccf5e38a3.html"
+  }
+}

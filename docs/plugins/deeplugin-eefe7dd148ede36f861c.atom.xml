@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-mcp-panel — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-eefe7dd148ede36f861c.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-eefe7dd148ede36f861c.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-eefe7dd148ede36f861c.html"/>
+  <entry>
+    <title>New: dsh-mcp-panel</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-eefe7dd148ede36f861c/7cc2b014d07ab963</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-eefe7dd148ede36f861c.html"/>
+    <author><name>PerryLink</name></author>
+    <category term="dev"/>
+    <summary>Read-only runtime management panel for the official DSH MCP client: connection status, registered tools, errors, and reconnect counts through the /mcp command and a Settings tab, with sanitized display and enable/disable patch suggestions. Exact install spec: github:perrylink/dsh-mcp-panel. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

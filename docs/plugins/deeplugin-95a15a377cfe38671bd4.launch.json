@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-95a15a377cfe38671bd4",
+    "name": "dsh-ocgo-lite",
+    "author": "OK-wx",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/OK-wx/dsh-ocgo-lite",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-95a15a377cfe38671bd4.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-95a15a377cfe38671bd4.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:ok-wx/dsh-ocgo-lite",
+    "command": "dsh plugin --profile web add github:ok-wx/dsh-ocgo-lite",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-95a15a377cfe38671bd4，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-95a15a377cfe38671bd4.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-95a15a377cfe38671bd4.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-ocgo-lite 已收录到 DeepSeek Harness Plugin Store。输入框下方常驻 OpenCode Go 用量条：5 小时/每周/每月配额圆环，DSH 会话 token 与花费统计（官方实时定价），支持按模型与按「本次会话」范围联动明细（本次会话实时更新），一键复制 API Key。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-95a15a377cfe38671bd4.html",
+    "en": "dsh-ocgo-lite is now listed on the DeepSeek Harness Plugin Store. OpenCode Go usage bar in the composer dock: rolling/weekly/monthly quota rings, DSH-session token & cost stats priced with live official rates, per-model and current-session scope breakdowns with live per-session updates, one-click API key copy.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-95a15a377cfe38671bd4.html"
+  }
+}

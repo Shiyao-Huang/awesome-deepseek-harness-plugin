@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-6b5af1ea79e59a17fe4d",
+    "name": "dsh-automation",
+    "author": "titanwings",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/titanwings/dsh-automation",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-6b5af1ea79e59a17fe4d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-6b5af1ea79e59a17fe4d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:titanwings/dsh-automation",
+    "command": "dsh plugin --profile web add github:titanwings/dsh-automation",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-6b5af1ea79e59a17fe4d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-6b5af1ea79e59a17fe4d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-6b5af1ea79e59a17fe4d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-automation 已收录到 DeepSeek Harness Plugin Store。定时任务：让 Coding 任务按计划在全新 Agent Session 中运行，保留可审计历史。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-6b5af1ea79e59a17fe4d.html",
+    "en": "dsh-automation is now listed on the DeepSeek Harness Plugin Store. Scheduled coding runs in fresh agent sessions with auditable history.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-6b5af1ea79e59a17fe4d.html"
+  }
+}

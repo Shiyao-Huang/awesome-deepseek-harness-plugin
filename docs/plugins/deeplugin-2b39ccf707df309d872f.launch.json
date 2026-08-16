@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-2b39ccf707df309d872f",
+    "name": "TokenLedger",
+    "author": "zh667",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/zh667/TokenLedger",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-2b39ccf707df309d872f.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-2b39ccf707df309d872f.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-tokenledger",
+    "command": "dsh plugin --profile web add dsh-tokenledger",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-2b39ccf707df309d872f，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-2b39ccf707df309d872f.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-2b39ccf707df309d872f.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "TokenLedger 已收录到 DeepSeek Harness Plugin Store。侧边栏用量面板：把 Token 归属到实际服务该请求的中转站，站点从已有的 provider 配置中读出，无需额外配置；含今日/本月/累计三窗口、按站点与模型下钻、一年活跃度热力图，以及 New API / Sub2API / DeepSeek 余额。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-2b39ccf707df309d872f.html",
+    "en": "TokenLedger is now listed on the DeepSeek Harness Plugin Store. Sidebar usage panel that attributes tokens to the relay site that served each request, read from your existing provider config: today/month/all-time totals, per-site and per-model breakdowns, a year activity heatmap, and New API / Sub2API / DeepSeek balances.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-2b39ccf707df309d872f.html"
+  }
+}

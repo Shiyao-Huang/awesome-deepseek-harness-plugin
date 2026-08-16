@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>mirage#dsh — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-f063ac2395ebca4243b0.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-f063ac2395ebca4243b0.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f063ac2395ebca4243b0.html"/>
+  <entry>
+    <title>Updated: mirage#dsh</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-f063ac2395ebca4243b0/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f063ac2395ebca4243b0.html"/>
+    <author><name>strukto-ai</name></author>
+    <category term="dev"/>
+    <summary>Swaps the filesystem and bash providers for a mirage virtual workspace: file tools and shell commands run over mounted resources (RAM, S3, Redis, Slack, Gmail, Notion, Postgres) instead of the host disk, with per-mount read/write/exec modes, per-command sandbox routing (monty, pyodide, quickjs in process; docker, e2b, daytona remote), and installed CLIs (git, gh, slack, linear, ntn, gws, or one you register) as head words in the virtual terminal. Exact install spec: @struktoai/mirage-dsh. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: mirage#dsh</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-f063ac2395ebca4243b0/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f063ac2395ebca4243b0.html"/>
+    <author><name>strukto-ai</name></author>
+    <category term="dev"/>
+    <summary>Swaps the filesystem and bash providers for a mirage virtual workspace: file tools and shell commands run over mounted resources (RAM, S3, Redis, Slack, Gmail, Notion, Postgres) instead of the host disk, with per-mount read/write/exec modes, per-command sandbox routing (monty, pyodide, quickjs in process; docker, e2b, daytona remote), and installed CLIs (git, gh, slack, linear, ntn, gws, or one you register) as head words in the virtual terminal. Exact install spec: @struktoai/mirage-dsh. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: mirage#dsh</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-f063ac2395ebca4243b0/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f063ac2395ebca4243b0.html"/>
+    <author><name>strukto-ai</name></author>
+    <category term="dev"/>
+    <summary>Swaps the filesystem and bash providers for a mirage virtual workspace: file tools and shell commands run over mounted resources (RAM, S3, Redis, Slack, Gmail, Notion, Postgres) instead of the host disk, with per-mount read/write/exec modes, per-command sandbox routing (monty, pyodide, quickjs in process; docker, e2b, daytona remote), and installed CLIs (git, gh, slack, linear, ntn, gws, or one you register) as head words in the virtual terminal. Exact install spec: @struktoai/mirage-dsh. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

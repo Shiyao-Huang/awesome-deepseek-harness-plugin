@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-ebf138669cb2106bfdbe",
+    "name": "dsh-chatnode-wechat",
+    "author": "Jesse-njx",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/Jesse-njx/dsh-chatnode-wechat",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-ebf138669cb2106bfdbe.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-ebf138669cb2106bfdbe.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:jesse-njx/dsh-chatnode-wechat",
+    "command": "dsh plugin --profile web add github:jesse-njx/dsh-chatnode-wechat",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-ebf138669cb2106bfdbe，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-ebf138669cb2106bfdbe.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-ebf138669cb2106bfdbe.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-chatnode-wechat 已收录到 DeepSeek Harness Plugin Store。通过 iLink 网关在微信里与 DSH agent 聊天、监控与审批：双向文本、会话切换、进度摘要与编号审批提示。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-ebf138669cb2106bfdbe.html",
+    "en": "dsh-chatnode-wechat is now listed on the DeepSeek Harness Plugin Store. Chat with, monitor, and approve your DSH agents from WeChat via the iLink gateway: text both ways, session targeting, digest heartbeats, and numbered approval prompts.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-ebf138669cb2106bfdbe.html"
+  }
+}

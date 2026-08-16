@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-992cccf322a00c60020c",
+    "name": "dsh-peer-link",
+    "author": "czm15053",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/czm15053/dsh-peer-link",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-992cccf322a00c60020c.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-992cccf322a00c60020c.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:czm15053/dsh-peer-link",
+    "command": "dsh plugin --profile web add github:czm15053/dsh-peer-link",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-992cccf322a00c60020c，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-992cccf322a00c60020c.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-992cccf322a00c60020c.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-peer-link 已收录到 DeepSeek Harness Plugin Store。让 dsh 和 Claude Code 会话直接互发消息，附带可点击的会话列表卡片（搜索/刷新/弹窗发送）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-992cccf322a00c60020c.html",
+    "en": "dsh-peer-link is now listed on the DeepSeek Harness Plugin Store. Let dsh and Claude Code sessions message each other directly; comes with a clickable peer list card (sort/search/send/refresh).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-992cccf322a00c60020c.html"
+  }
+}

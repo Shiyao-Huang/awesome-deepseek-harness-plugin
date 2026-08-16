@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a830efc01611628a743d",
+    "name": "dsh-side-chat",
+    "author": "heartmove",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/heartmove/dsh-side-chat",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a830efc01611628a743d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a830efc01611628a743d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:heartmove/dsh-side-chat",
+    "command": "dsh plugin --profile web add github:heartmove/dsh-side-chat",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a830efc01611628a743d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a830efc01611628a743d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a830efc01611628a743d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-side-chat 已收录到 DeepSeek Harness Plugin Store。选中对话片段，在右侧面板的侧边聊天中提问（按会话隔离）；AI 回复可原文或摘要后带回主会话。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a830efc01611628a743d.html",
+    "en": "dsh-side-chat is now listed on the DeepSeek Harness Plugin Store. Select part of a conversation and ask about it in a right-side side chat; bring AI replies back to the main chat directly or as a summary.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a830efc01611628a743d.html"
+  }
+}

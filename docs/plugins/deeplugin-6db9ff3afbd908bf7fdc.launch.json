@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-6db9ff3afbd908bf7fdc",
+    "name": "tuning-engines-cli#tuningengines-dsh-plugin",
+    "author": "cerebrixos-org",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/cerebrixos-org/tuning-engines-cli/tree/main/packages/tuningengines-dsh-plugin",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-6db9ff3afbd908bf7fdc.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-6db9ff3afbd908bf7fdc.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:cerebrixos-org/tuning-engines-cli#path:/packages/tuningengines-dsh-plugin",
+    "command": "dsh plugin --profile web add github:cerebrixos-org/tuning-engines-cli#path:/packages/tuningengines-dsh-plugin",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-6db9ff3afbd908bf7fdc，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-6db9ff3afbd908bf7fdc.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-6db9ff3afbd908bf7fdc.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "tuning-engines-cli#tuningengines-dsh-plugin 已收录到 DeepSeek Harness Plugin Store。将不含原始内容的 DSH 回合、模型、工具、审批、重试和错误事件导出到 Tuning Engines，用于受治理的追踪、策略评估、成本分析和 Work Session 审阅，并提供磁盘持久化重试队列。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-6db9ff3afbd908bf7fdc.html",
+    "en": "tuning-engines-cli#tuningengines-dsh-plugin is now listed on the DeepSeek Harness Plugin Store. Exports metadata-only DSH turn, model, tool, approval, retry, and error events to Tuning Engines for governed traces, policy evaluation, cost analysis, and Work Session review, with a disk-backed retry queue.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-6db9ff3afbd908bf7fdc.html"
+  }
+}

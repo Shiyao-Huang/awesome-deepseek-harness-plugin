@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-proof — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-f96cb41a33d62fc199f4.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-f96cb41a33d62fc199f4.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f96cb41a33d62fc199f4.html"/>
+  <entry>
+    <title>Updated: dsh-proof</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-f96cb41a33d62fc199f4/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f96cb41a33d62fc199f4.html"/>
+    <author><name>EvilIrving</name></author>
+    <category term="workflow"/>
+    <summary>Independent read-only acceptance layer: spawns a read-only verifier before each top-level turn closes and steers non-pass gaps back into the agent. Exact install spec: github:evilirving/dsh-proof. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-proof</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-f96cb41a33d62fc199f4/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f96cb41a33d62fc199f4.html"/>
+    <author><name>EvilIrving</name></author>
+    <category term="workflow"/>
+    <summary>Independent read-only acceptance layer: spawns a read-only verifier before each top-level turn closes and steers non-pass gaps back into the agent. Exact install spec: github:evilirving/dsh-proof. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-proof</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-f96cb41a33d62fc199f4/19f118ecfd65ceec</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f96cb41a33d62fc199f4.html"/>
+    <author><name>EvilIrving</name></author>
+    <category term="workflow"/>
+    <summary>Independent read-only acceptance layer: spawns a read-only verifier before each top-level turn closes and steers non-pass gaps back into the agent. Exact install spec: github:evilirving/dsh-proof. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-proof</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-f96cb41a33d62fc199f4/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f96cb41a33d62fc199f4.html"/>
+    <author><name>EvilIrving</name></author>
+    <category term="workflow"/>
+    <summary>Independent read-only acceptance layer: spawns a read-only verifier before each top-level turn closes and steers non-pass gaps back into the agent. Exact install spec: github:evilirving/dsh-proof. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

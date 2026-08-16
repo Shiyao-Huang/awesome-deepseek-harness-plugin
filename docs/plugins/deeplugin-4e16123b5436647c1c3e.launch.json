@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-4e16123b5436647c1c3e",
+    "name": "dsh-cognition",
+    "author": "scd13150",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/scd13150/dsh-cognition",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-4e16123b5436647c1c3e.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-4e16123b5436647c1c3e.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:scd13150/dsh-cognition",
+    "command": "dsh plugin --profile web add github:scd13150/dsh-cognition",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-4e16123b5436647c1c3e，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-4e16123b5436647c1c3e.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-4e16123b5436647c1c3e.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-cognition 已收录到 DeepSeek Harness Plugin Store。给 DSH agent 的项目记忆:历史相似编辑作为先例出现、越界修改被 scope 锁拦下、认知跨会话持续积累(47 次上游验收修复、去 gold 化 20/20)。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-4e16123b5436647c1c3e.html",
+    "en": "dsh-cognition is now listed on the DeepSeek Harness Plugin Store. Project memory for coding agents on DeepSeek Harness: similar past edits surface as precedents, out-of-scope edits are blocked, and cognition persists across sessions (47 upstream-verified fixes, gold-free 20-task run).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-4e16123b5436647c1c3e.html"
+  }
+}

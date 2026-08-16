@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-ec13659d09cd7ee861c6",
+    "name": "dsh-git-graph",
+    "author": "WhitePlusMS",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/WhitePlusMS/dsh-git-graph",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-ec13659d09cd7ee861c6.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-ec13659d09cd7ee861c6.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:whiteplusms/dsh-git-graph",
+    "command": "dsh plugin --profile web add github:whiteplusms/dsh-git-graph",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-ec13659d09cd7ee861c6，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-ec13659d09cd7ee861c6.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-ec13659d09cd7ee861c6.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-git-graph 已收录到 DeepSeek Harness Plugin Store。Chat 和 Trajectory 旁的独立 Git Graph 视图：提交拓扑、本地/远程/tag 引用、HEAD 与工作区状态、搜索、筛选、首父模式、刷新和加载更多。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-ec13659d09cd7ee861c6.html",
+    "en": "dsh-git-graph is now listed on the DeepSeek Harness Plugin Store. Dedicated read-only Git Graph view beside Chat and Trajectory: commit topology, local/remote/tag refs, HEAD and working-tree status, search, filtering, first-parent mode, refresh, and load more.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-ec13659d09cd7ee861c6.html"
+  }
+}

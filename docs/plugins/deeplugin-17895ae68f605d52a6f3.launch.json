@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-17895ae68f605d52a6f3",
+    "name": "dsh-usage-meter",
+    "author": "V-dev-388",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/V-dev-388/dsh-usage-meter",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-17895ae68f605d52a6f3.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-17895ae68f605d52a6f3.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-usage-meter",
+    "command": "dsh plugin --profile web add dsh-usage-meter",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-17895ae68f605d52a6f3，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-17895ae68f605d52a6f3.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-17895ae68f605d52a6f3.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-usage-meter 已收录到 DeepSeek Harness Plugin Store。设置页用量仪表盘：按服务商/模型汇总全部会话 token 用量，含今日/近 7 天/近 30 天趋势柱状图与缓存命中率。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-17895ae68f605d52a6f3.html",
+    "en": "dsh-usage-meter is now listed on the DeepSeek Harness Plugin Store. Settings-page usage dashboard: per-provider/model token summary across all sessions, with today/7-day/30-day CSS-bar trends and a cache-hit rate.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-17895ae68f605d52a6f3.html"
+  }
+}

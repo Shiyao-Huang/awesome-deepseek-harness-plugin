@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-bb8c16d8e8ce43464e18",
+    "name": "harness-widgets",
+    "author": "Physicolor",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/Physicolor/harness-widgets",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-bb8c16d8e8ce43464e18.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-bb8c16d8e8ce43464e18.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "harness-widgets",
+    "command": "dsh plugin --profile web add harness-widgets",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-bb8c16d8e8ce43464e18，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-bb8c16d8e8ce43464e18.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-bb8c16d8e8ce43464e18.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "harness-widgets 已收录到 DeepSeek Harness Plugin Store。DSH Web UI 右侧部件栏：实时会话统计（轮次/LLM 与工具耗时/首 token 延迟/速率/缓存/tokens）与 OpenCode Go 套餐用量（同源代理）；可扩展部件注册表，为更多平台用量部件、视觉表现、实用工具与外部接口集成打基础。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-bb8c16d8e8ce43464e18.html",
+    "en": "harness-widgets is now listed on the DeepSeek Harness Plugin Store. Right-hand widget rail for the DSH Web UI: live session stats (turns, LLM/tool time, TTFT, speed, cache, tokens) and OpenCode Go quota via a same-origin host proxy; extensible widget registry for more platform usage widgets, visuals, utility actions and external integrations.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-bb8c16d8e8ce43464e18.html"
+  }
+}

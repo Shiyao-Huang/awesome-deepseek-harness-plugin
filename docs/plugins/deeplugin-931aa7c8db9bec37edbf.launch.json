@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-931aa7c8db9bec37edbf",
+    "name": "dsh-emoji",
+    "author": "hellodigua",
+    "category": "fun",
+    "version": null,
+    "homepage": "https://github.com/hellodigua/dsh-emoji",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T08:41:44Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-931aa7c8db9bec37edbf.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-931aa7c8db9bec37edbf.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:hellodigua/dsh-emoji",
+    "command": "dsh plugin --profile web add github:hellodigua/dsh-emoji",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-931aa7c8db9bec37edbf，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-931aa7c8db9bec37edbf.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-931aa7c8db9bec37edbf.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-emoji 已收录到 DeepSeek Harness Plugin Store。为 AI 回复自动添加表情。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-931aa7c8db9bec37edbf.html",
+    "en": "dsh-emoji is now listed on the DeepSeek Harness Plugin Store. Automatically add emojis to AI replies.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-931aa7c8db9bec37edbf.html"
+  }
+}

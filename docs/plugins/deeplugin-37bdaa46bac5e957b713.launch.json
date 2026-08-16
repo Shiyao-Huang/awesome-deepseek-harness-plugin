@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-37bdaa46bac5e957b713",
+    "name": "dsh-subagent-model-picker",
+    "author": "ringoage",
+    "category": "model",
+    "version": null,
+    "homepage": "https://github.com/ringoage/dsh-subagent-model-picker",
+    "firstObservedAt": "2026-08-16T08:41:44Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-37bdaa46bac5e957b713.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-37bdaa46bac5e957b713.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:ringoage/dsh-subagent-model-picker",
+    "command": "dsh plugin --profile web add github:ringoage/dsh-subagent-model-picker",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-37bdaa46bac5e957b713，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-37bdaa46bac5e957b713.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-37bdaa46bac5e957b713.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-subagent-model-picker 已收录到 DeepSeek Harness Plugin Store。主模型选择器旁的子代理模型选择器：按会话选择模型与思考程度，应用到所有进程内子代理。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-37bdaa46bac5e957b713.html",
+    "en": "dsh-subagent-model-picker is now listed on the DeepSeek Harness Plugin Store. A GUI subagent-model selector beside the main model seat: pick a model and reasoning effort per session, applied to every in-process subagent.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-37bdaa46bac5e957b713.html"
+  }
+}

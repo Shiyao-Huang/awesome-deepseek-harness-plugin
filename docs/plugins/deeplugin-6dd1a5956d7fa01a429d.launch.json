@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-6dd1a5956d7fa01a429d",
+    "name": "dsh-desktop-windowos",
+    "author": "RAFOLIE",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/RAFOLIE/dsh-desktop-windowos",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-6dd1a5956d7fa01a429d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-6dd1a5956d7fa01a429d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-desktop-plugin",
+    "command": "dsh plugin --profile web add dsh-desktop-plugin",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-6dd1a5956d7fa01a429d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-6dd1a5956d7fa01a429d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-6dd1a5956d7fa01a429d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-desktop-windowos 已收录到 DeepSeek Harness Plugin Store。Windows 托盘桌面壳：自动从 GitHub Releases 安装并升级 exe、创建应用与网页端两个桌面快捷方式，并提供 desktop_launch 工具在对话中一键启动。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-6dd1a5956d7fa01a429d.html",
+    "en": "dsh-desktop-windowos is now listed on the DeepSeek Harness Plugin Store. Windows tray desktop shell: auto-installs and auto-updates the exe from GitHub Releases, creates desktop shortcuts for both the app and the web UI, and exposes a desktop_launch tool to start it from the conversation.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-6dd1a5956d7fa01a429d.html"
+  }
+}

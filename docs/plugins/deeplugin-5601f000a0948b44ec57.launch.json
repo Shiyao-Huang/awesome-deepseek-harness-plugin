@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-5601f000a0948b44ec57",
+    "name": "dsh-self-improved",
+    "author": "madage",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/madage/dsh-self-improved",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-5601f000a0948b44ec57.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-5601f000a0948b44ec57.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:madage/dsh-self-improved",
+    "command": "dsh plugin --profile web add github:madage/dsh-self-improved",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-5601f000a0948b44ec57，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-5601f000a0948b44ec57.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-5601f000a0948b44ec57.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-self-improved 已收录到 DeepSeek Harness Plugin Store。DeepSeek Harness 长期记忆与自进化插件：L0 对话捕获 → L1 记忆提取 → L2 场景归纳 → L3 用户画像，自动召回注入 + 技能合成，纯本地（SQLite FTS5 + jieba，可选向量召回）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-5601f000a0948b44ec57.html",
+    "en": "dsh-self-improved is now listed on the DeepSeek Harness Plugin Store. Long-term memory & self-evolving plugin for DSH: L0 capture → L1 memory extraction → L2 scene grouping → L3 user persona, auto recall injection, skill synthesis, fully local (SQLite FTS5 + jieba, optional vector recall).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-5601f000a0948b44ec57.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-5aec9645deb36d5d8bab",
+    "name": "dsh-task-control",
+    "author": "p2coder",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/p2coder/dsh-task-control",
+    "firstObservedAt": "2026-08-16T00:51:32Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-5aec9645deb36d5d8bab.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-5aec9645deb36d5d8bab.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:p2coder/dsh-task-control",
+    "command": "dsh plugin --profile web add github:p2coder/dsh-task-control",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-5aec9645deb36d5d8bab，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-5aec9645deb36d5d8bab.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-5aec9645deb36d5d8bab.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-task-control 已收录到 DeepSeek Harness Plugin Store。在输入区暂停/恢复/取消正在运行的对话任务：强制暂停立即中断并记住被中断的工具，安全暂停等工具/推理完成后再落地，恢复时需确认；默认暂停粒度可在设置中配置（出厂 safe wait）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-5aec9645deb36d5d8bab.html",
+    "en": "dsh-task-control is now listed on the DeepSeek Harness Plugin Store. Pause / resume / cancel the in-flight conversation task from the composer area: forced pause interrupts immediately and remembers the interrupted tool, safe pause lands after the tool or reasoning finishes, resume asks for confirmation, and the default pause granularity is configurable in the settings.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-5aec9645deb36d5d8bab.html"
+  }
+}

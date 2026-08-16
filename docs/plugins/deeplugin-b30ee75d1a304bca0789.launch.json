@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-b30ee75d1a304bca0789",
+    "name": "deepseek-harness-orchestrate",
+    "author": "apheli0os",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/apheli0os/deepseek-harness-orchestrate",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-b30ee75d1a304bca0789.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-b30ee75d1a304bca0789.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-tool-orchestrate",
+    "command": "dsh plugin --profile web add dsh-tool-orchestrate",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-b30ee75d1a304bca0789，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-b30ee75d1a304bca0789.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b30ee75d1a304bca0789.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "deepseek-harness-orchestrate 已收录到 DeepSeek Harness Plugin Store。DSH 声明式任务 DAG 编排：校验依赖图，通过工作流子智能体并行执行拓扑任务层，并确定性传播失败。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b30ee75d1a304bca0789.html",
+    "en": "deepseek-harness-orchestrate is now listed on the DeepSeek Harness Plugin Store. Declarative task-DAG orchestration for DSH: validates dependency graphs, runs topological task layers in parallel through workflow-backed subagents, and propagates failures deterministically.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b30ee75d1a304bca0789.html"
+  }
+}

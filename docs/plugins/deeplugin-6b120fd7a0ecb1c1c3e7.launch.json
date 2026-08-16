@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-6b120fd7a0ecb1c1c3e7",
+    "name": "dsh-dingo",
+    "author": "february2015",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/february2015/dsh-dingo",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-6b120fd7a0ecb1c1c3e7.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-6b120fd7a0ecb1c1c3e7.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:february2015/dsh-dingo",
+    "command": "dsh plugin --profile web add github:february2015/dsh-dingo",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-6b120fd7a0ecb1c1c3e7，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-6b120fd7a0ecb1c1c3e7.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-6b120fd7a0ecb1c1c3e7.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-dingo 已收录到 DeepSeek Harness Plugin Store。多对话并行的声音提醒 + 对话直达：当前对话当/当当（crisp 清脆档），其他对话叮/叮叮（soft 柔和档）+ 右上角小卡片，点一下直达对应对话。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-6b120fd7a0ecb1c1c3e7.html",
+    "en": "dsh-dingo is now listed on the DeepSeek Harness Plugin Store. Sound reminders with one-click jump for concurrent sessions: the current session gets crisp dang/dang-dang tones, other sessions a soft ding/ding-ding plus a top-right card that jumps straight to the replying conversation.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-6b120fd7a0ecb1c1c3e7.html"
+  }
+}

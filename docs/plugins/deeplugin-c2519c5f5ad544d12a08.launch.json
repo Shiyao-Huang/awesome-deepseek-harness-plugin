@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-c2519c5f5ad544d12a08",
+    "name": "mstar-harness",
+    "author": "btspoony",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/btspoony/mstar-harness",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-15T22:14:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-c2519c5f5ad544d12a08.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-c2519c5f5ad544d12a08.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:btspoony/mstar-harness",
+    "command": "dsh plugin --profile web add github:btspoony/mstar-harness",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-c2519c5f5ad544d12a08，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-c2519c5f5ad544d12a08.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-c2519c5f5ad544d12a08.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "mstar-harness 已收录到 DeepSeek Harness Plugin Store。技能驱动的 harness/loop 工程化工作流插件。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c2519c5f5ad544d12a08.html",
+    "en": "mstar-harness is now listed on the DeepSeek Harness Plugin Store. Skill-driven harness/loop engineering workflow agent plugin.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-c2519c5f5ad544d12a08.html"
+  }
+}

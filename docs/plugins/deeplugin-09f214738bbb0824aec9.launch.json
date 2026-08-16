@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-09f214738bbb0824aec9",
+    "name": "dsh-plugin",
+    "author": "plur-ai",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/PicGo/dsh-plugin",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-16T09:56:16Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-09f214738bbb0824aec9.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-09f214738bbb0824aec9.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:plur-ai/dsh-plugin",
+    "command": "dsh plugin --profile web add github:plur-ai/dsh-plugin",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-09f214738bbb0824aec9，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-09f214738bbb0824aec9.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-09f214738bbb0824aec9.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin 已收录到 DeepSeek Harness Plugin Store。PLUR 记忆在每次组装时渲染进系统提示词，而非以工具调用形式暴露，因此记忆块是被替换而不是追加，整段会话的上下文长度保持不变。全本地混合检索（BM25 + BGE，RRF 融合）、可直接编辑的纯 YAML 存储、按工作区划分 scope，并提供 /plur-memory 浏览器界面。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-09f214738bbb0824aec9.html",
+    "en": "dsh-plugin is now listed on the DeepSeek Harness Plugin Store. PLUR memory rendered into the system prompt on each assembly rather than exposed as a tool call, so the block is replaced instead of appended and context stays flat across a session. Fully local hybrid search (BM25 + BGE fused with RRF), plain YAML storage you can edit, per-workspace scoping, and a /plur-memory browser.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-09f214738bbb0824aec9.html"
+  }
+}

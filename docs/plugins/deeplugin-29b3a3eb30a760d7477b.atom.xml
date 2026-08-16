@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-turn-marks — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-29b3a3eb30a760d7477b.atom.xml</id>
+  <updated>2026-08-15T22:14:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-29b3a3eb30a760d7477b.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-29b3a3eb30a760d7477b.html"/>
+  <entry>
+    <title>Updated: dsh-turn-marks</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-29b3a3eb30a760d7477b/39c4cd8ba93a4acf</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-29b3a3eb30a760d7477b.html"/>
+    <author><name>magicOF2</name></author>
+    <category term="ui"/>
+    <summary>Left-edge turn-marks strip in chat: one bar per user message, click to jump to that message, hover for a preview, active bar turns white. Exact install spec: github:magicof2/dsh-turn-marks. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-turn-marks</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-29b3a3eb30a760d7477b/e1d2ae6b34bd984b</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-29b3a3eb30a760d7477b.html"/>
+    <author><name>magicOF2</name></author>
+    <category term="ui"/>
+    <summary>Left-edge turn-marks strip in chat: one bar per user message, click to jump to that message, hover for a preview, active bar turns white. Exact install spec: github:magicof2/dsh-turn-marks. Source event: dsh-market/dsh-market; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-turn-marks</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-29b3a3eb30a760d7477b/0aa1d725c44f3843</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-29b3a3eb30a760d7477b.html"/>
+    <author><name>magicOF2</name></author>
+    <category term="ui"/>
+    <summary>Left-edge turn-marks strip in chat: one bar per user message, click to jump to that message, hover for a preview, active bar turns white. Exact install spec: github:magicof2/dsh-turn-marks. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>
