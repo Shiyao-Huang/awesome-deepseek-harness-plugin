@@ -21,11 +21,11 @@
 <text x="28" y="250" font-size="14">reddit</text>
 <rect x="245" y="235" width="620" height="20" rx="10" fill="#e8e2d6"/>
 <rect x="245" y="235" width="2" height="20" rx="10" fill="#7b6d8d"/>
-<text x="878" y="250" text-anchor="end" font-size="14" font-weight="700">47</text>
+<text x="878" y="250" text-anchor="end" font-size="14" font-weight="700">50</text>
 <text x="28" y="292" font-size="14">youtube</text>
 <rect x="245" y="277" width="620" height="20" rx="10" fill="#e8e2d6"/>
 <rect x="245" y="277" width="1" height="20" rx="10" fill="#e07a5f"/>
-<text x="878" y="292" text-anchor="end" font-size="14" font-weight="700">28</text>
+<text x="878" y="292" text-anchor="end" font-size="14" font-weight="700">29</text>
 <text x="28" y="334" font-size="14">web</text>
 <rect x="245" y="319" width="620" height="20" rx="10" fill="#e8e2d6"/>
 <rect x="245" y="319" width="0" height="20" rx="10" fill="#3d5a80"/>
@@ -37,7 +37,7 @@
 <text x="28" y="418" font-size="14">wechat</text>
 <rect x="245" y="403" width="620" height="20" rx="10" fill="#e8e2d6"/>
 <rect x="245" y="403" width="0" height="20" rx="10" fill="#4f6d7a"/>
-<text x="878" y="418" text-anchor="end" font-size="14" font-weight="700">6</text>
+<text x="878" y="418" text-anchor="end" font-size="14" font-weight="700">7</text>
 <text x="28" y="460" font-size="14">linuxdo</text>
 <rect x="245" y="445" width="620" height="20" rx="10" fill="#e8e2d6"/>
 <rect x="245" y="445" width="0" height="20" rx="10" fill="#5da399"/>

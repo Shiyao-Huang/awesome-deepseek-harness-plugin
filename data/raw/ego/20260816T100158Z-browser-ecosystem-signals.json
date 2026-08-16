@@ -1,0 +1,122 @@
+{
+  "collected_at": "2026-08-16T10:01:58Z",
+  "collector": "codex ego-browser task space 50",
+  "capture_kind": "ego-lite-visible-dom",
+  "observations": [
+    {
+      "platform": "youtube",
+      "query": "DeepSeek Harness plugin",
+      "source_url": "https://www.youtube.com/watch?v=MxbsbHr2lrE",
+      "collected_at": "2026-08-16T10:01:58Z",
+      "collector": "codex ego-browser task space 50",
+      "method": "ego-browser visible DOM and Open Graph metadata",
+      "status": "ok",
+      "result_count": 1,
+      "notes": "The visible page exposed playback duration but no reliable public interaction count; unknown metrics remain NULL.",
+      "items": [
+        {
+          "platform": "youtube",
+          "external_id": "MxbsbHr2lrE",
+          "url": "https://www.youtube.com/watch?v=MxbsbHr2lrE",
+          "item_type": "video",
+          "title": "DeepSeek Harness Setup: Free Claude Code in 10 Minutes",
+          "content_text": "Set up DeepSeek Harness ( fastest growing repo in GitHub history) and get the full Claude Code experience for free with open-source models like Kimi, GLM and...",
+          "media_kind": "video",
+          "media_url": "https://www.youtube.com/watch?v=MxbsbHr2lrE",
+          "thumbnail_url": "https://i.ytimg.com/vi/MxbsbHr2lrE/maxresdefault.jpg",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://i.ytimg.com/vi/MxbsbHr2lrE/maxresdefault.jpg",
+              "thumbnail_url": "https://i.ytimg.com/vi/MxbsbHr2lrE/maxresdefault.jpg",
+              "rights_note": "Third-party YouTube thumbnail URL; not mirrored locally."
+            }
+          ],
+          "tags": ["youtube", "video", "setup"],
+          "raw_capture": {
+            "pageUrl": "https://www.youtube.com/watch?v=MxbsbHr2lrE",
+            "documentTitle": "DeepSeek Harness Setup: Free Claude Code in 10 Minutes - YouTube",
+            "ogTitle": "DeepSeek Harness Setup: Free Claude Code in 10 Minutes",
+            "ogDescription": "Set up DeepSeek Harness ( fastest growing repo in GitHub history) and get the full Claude Code experience for free with open-source models like Kimi, GLM and...",
+            "ogImage": "https://i.ytimg.com/vi/MxbsbHr2lrE/maxresdefault.jpg",
+            "visibleText": "This is the fastest\n0:01 / 18:26"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "reddit",
+      "query": "DeepSeek Harness",
+      "source_url": "https://www.reddit.com/r/codex/comments/1vo2jwu/deepseek_harness_may_have_a_higher_ceiling_than/",
+      "collected_at": "2026-08-16T10:01:58Z",
+      "collector": "codex ego-browser task space 50",
+      "method": "ego-browser visible DOM text",
+      "status": "ok",
+      "result_count": 1,
+      "notes": "Public post and visible comments captured; no reliable interaction count was exposed.",
+      "items": [
+        {
+          "platform": "reddit",
+          "external_id": "1vo2jwu",
+          "url": "https://www.reddit.com/r/codex/comments/1vo2jwu/deepseek_harness_may_have_a_higher_ceiling_than/",
+          "item_type": "post",
+          "title": "DeepSeek Harness may have a higher ceiling than Codex because almost everything is replaceable",
+          "author": "WindowChoice6765",
+          "published_label": "2d ago",
+          "content_text": "I had mentally filed DeepSeek Harness under \"yet another Codex clone.\" Then I opened the architecture page and got stuck on one sentence: \"everything is a plugin.\" My first reaction was, sure, every new developer tool says that. But the docs keep going into parts most plugin systems never touch, including the session log and agent loop. This looks more like a box of parts that happens to ship assembled. Calling Codex closed would still be silly. Its CLI, SDK, and App Server are open source, and it already supports Skills, Plugins, and MCP. If I had actual work to finish this afternoon, I would pick Codex without much debate. It is much further along. What caught my attention in Harness sits lower in the stack. Most documented Codex extension points add something to the agent you already have. Harness lets developers replace more of the machinery underneath it. The sandbox section was the bit that finally clicked for me. Filesystem and subprocess access are separate providers. A team could move execution into a remote sandbox without rebuilding the tool layer around it. The model connection is another socket. It can point to a local server or a third-party OpenAI-compatible gateway such as OpenRouter or ZenMux, while the rest of the setup stays put. It is boring infrastructure, and I mean that as a compliment. If those interfaces stop moving around, a company with strict execution rules could own its sandbox without carrying a full fork. A researcher could swap the agent loop and keep the same session format. The odd internal agent that only makes sense inside one team would not need to wait for DeepSeek to bless it as a first-party feature. Different people could rearrange the same box of parts and end up with agents that barely resemble one another. There is an annoying catch, of course. Harness is a developer preview, and its README explicitly warns about compatibility-breaking changes. A plugin system whose sockets change shape every release just gives you more things to fix on Saturday. There is also the ugly question of who owns a permission bug when the sandbox and model access come from different maintainers. Codex avoids a lot of that mess by being the more integrated product. You can install it and get on with your work. I am not ready to call it a Codex killer. What I want to see is fairly mundane: a community-maintained sandbox or agent-loop plugin that survives several Harness releases without every upgrade eating somebody's weekend. If that becomes normal, Harness could outgrow Codex as a platform even while Codex remains the nicer coding product. That is roughly where I landed after reading the docs. Codex is the building I could work in today. Harness is still a blueprint, but I keep looking at it and wondering where else the walls could go.",
+          "media_kind": "none",
+          "tags": ["reddit", "comparison", "architecture"],
+          "raw_capture": {
+            "visibleText": "r/codex · 2d ago · WindowChoice6765\nDeepSeek Harness may have a higher ceiling than Codex because almost everything is replaceable\nComparison\n\nI had mentally filed DeepSeek Harness under yet another Codex clone. Then I opened the architecture page and got stuck on one sentence: everything is a plugin. The post discusses replaceable session logs, agent loops, filesystem and subprocess providers, model gateways, preview compatibility risk, and compares the platform maturity with Codex.\n\nVisible comments: cavegod said the post felt AI-written but the project seemed interesting; DueCommunication9248 noted Codex is open source; ManikSahdev praised the modular design; sgt_darksideOfLuna noted the lack of a TUI."
+          }
+        }
+      ]
+    },
+    {
+      "platform": "reddit",
+      "query": "DeepSeek Harness plugin",
+      "source_url": "https://www.reddit.com/r/DeepSeek/comments/1vokok9/deepseek_harness_plugin_system_seems_kinda_fun/",
+      "collected_at": "2026-08-16T10:01:58Z",
+      "collector": "codex ego-browser task space 50",
+      "method": "ego-browser visible DOM text",
+      "status": "ok",
+      "result_count": 1,
+      "notes": "Public post and two visible comments captured; no reliable interaction count was exposed.",
+      "items": [
+        {
+          "platform": "reddit",
+          "external_id": "1vokok9",
+          "url": "https://www.reddit.com/r/DeepSeek/comments/1vokok9/deepseek_harness_plugin_system_seems_kinda_fun/",
+          "item_type": "post",
+          "title": "Deepseek Harness Plugin System Seems Kinda Fun",
+          "author": "Not_a_Cake_",
+          "published_label": "2d ago",
+          "content_text": "I asked DeepSeek V4 Pro to recreate the vscode-pets extension, and although it blatantly plagiarized and copied the code and sprites, I guess it works. Hopefully, I can use the harness to make some more useful plugins.",
+          "media_kind": "none",
+          "tags": ["reddit", "plugin", "vscode-pets"],
+          "raw_capture": {
+            "visibleText": "r/DeepSeek · 2d ago · Not_a_Cake_\nDeepseek Harness Plugin System Seems Kinda Fun\nFunny\n\nI asked DeepSeek V4 Pro to recreate the vscode-pets extension, and although it blatantly plagiarized and copied the code and sprites, I guess it works.\n\nHopefully, I can use the harness to make some more useful plugins.\n\nVisible comments: This-Marzipan-9239 said to enjoy it before a price hike; Eternality replied unless you have money."
+          }
+        }
+      ]
+    },
+    {
+      "platform": "web",
+      "query": "DeepSeek Harness plugin",
+      "source_url": "https://medium.com/@dinmaybrahma/deepseek-quietly-built-a-different-kind-of-ai-agent-framework-80e4775103f9",
+      "collected_at": "2026-08-16T10:01:58Z",
+      "collector": "codex ego-browser task space 50",
+      "method": "ego-browser visible DOM navigation",
+      "status": "error",
+      "result_count": null,
+      "notes": "Browser navigation ended at chrome-error://chromewebdata/ with ERR_CONNECTION_CLOSED; no content or interaction values asserted.",
+      "items": [],
+      "raw_capture": {
+        "requestedUrl": "https://medium.com/@dinmaybrahma/deepseek-quietly-built-a-different-kind-of-ai-agent-framework-80e4775103f9",
+        "pageUrl": "chrome-error://chromewebdata/",
+        "documentTitle": "dinmaybrahma.medium.com",
+        "visibleText": "Unable to access this website. dinmaybrahma.medium.com unexpectedly closed the connection. ERR_CONNECTION_CLOSED."
+      }
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 > 一个可重复更新的公开资料聚合体：仓库、插件、索引、文章、帖子、图片缩略图和视频链接。原始观测保留在 `data/raw/`，SQLite 是可查询的派生索引。
 
-当前数据集版本：**v20260816T110748Z**，完成时间：**2026-08-16T11:08:52Z**。共 **14,318** 条去重记录，覆盖 **14** 个平台，外部媒体资产 **1,237** 条。
+当前数据集版本：**v20260816T121216Z**，完成时间：**2026-08-16T12:12:16Z**。共 **14,323** 条去重记录，覆盖 **14** 个平台，外部媒体资产 **1,241** 条。
 
 ## 三句话结论
 
@@ -27,11 +27,11 @@
 | xiaohongshu | 156 | ego-browser visible DOM |
 | hacker_news | 102 | Algolia public search API |
 | x | 90 | ego-browser visible DOM |
-| reddit | 47 | ego-browser visible DOM |
-| youtube | 28 | ego-browser visible DOM |
+| reddit | 50 | ego-browser visible DOM |
+| youtube | 29 | ego-browser visible DOM |
 | web | 21 | public page metadata |
 | bilibili | 18 | public web metadata API |
-| wechat | 6 | ego-browser visible DOM |
+| wechat | 7 | ego-browser visible DOM |
 | linuxdo | 2 | ego-browser visible DOM |
 | official | 1 | ego-browser visible DOM |
 | v2ex | 1 | ego-browser visible DOM |
@@ -43,12 +43,12 @@
 | 分类 | 记录 | 带媒体 |
 | --- | ---: | ---: |
 | deepseek-harness-forks | 12,352 | 0 |
-| core-and-ecosystem | 1,335 | 240 |
-| index-and-marketplace | 190 | 42 |
-| ui-and-desktop | 189 | 5 |
+| core-and-ecosystem | 1,336 | 240 |
+| index-and-marketplace | 191 | 43 |
+| ui-and-desktop | 190 | 6 |
 | operations-and-safety | 109 | 1 |
-| multimedia-and-vision | 79 | 6 |
-| docs-and-learning | 42 | 9 |
+| multimedia-and-vision | 80 | 7 |
+| docs-and-learning | 43 | 9 |
 | agents-and-orchestration | 22 | 4 |
 
 ## 价值衡量摘要
@@ -57,13 +57,13 @@
 
 | 平台 | 记录 | value | band | confidence | 分类 |
 | --- | --- | ---: | :---: | ---: | --- |
-| github | [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 80.18 | A | 100.00 | ui-and-desktop |
-| github | [liustack/modlens](https://github.com/liustack/modlens) | 79.59 | B | 100.00 | multimedia-and-vision |
+| github | [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 80.17 | A | 100.00 | ui-and-desktop |
+| github | [liustack/modlens](https://github.com/liustack/modlens) | 79.58 | B | 100.00 | multimedia-and-vision |
 | github | [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | 78.89 | B | 100.00 | ui-and-desktop |
-| github | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 78.78 | B | 100.00 | core-and-ecosystem |
+| github | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 78.77 | B | 100.00 | core-and-ecosystem |
 | github | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 77.09 | B | 100.00 | ui-and-desktop |
 | github | [superdesigndev/superdesign-skill](https://github.com/superdesigndev/superdesign-skill) | 76.86 | B | 100.00 | core-and-ecosystem |
-| github | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 76.44 | B | 100.00 | ui-and-desktop |
+| github | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 76.43 | B | 100.00 | ui-and-desktop |
 | github | [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | 76.28 | B | 100.00 | multimedia-and-vision |
 | github | [GanyuanRan/Aegis](https://github.com/GanyuanRan/Aegis) | 75.84 | B | 100.00 | docs-and-learning |
 | github | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | 75.81 | B | 100.00 | core-and-ecosystem |

@@ -1,0 +1,119 @@
+{
+  "collected_at": "2026-08-16T11:57:12Z",
+  "collector": "codex ego-browser task space 55",
+  "capture_kind": "ego-lite-visible-dom",
+  "observations": [
+    {
+      "platform": "x",
+      "query": "\"DeepSeek Harness\" plugin",
+      "source_url": "https://x.com/search?q=%22DeepSeek%20Harness%22%20plugin&src=typed_query&f=live",
+      "collected_at": "2026-08-16T11:57:12Z",
+      "collector": "codex ego-browser task space 55",
+      "method": "ego-browser authenticated visible DOM search",
+      "status": "error",
+      "result_count": null,
+      "notes": "The authenticated Latest search page displayed 'Something went wrong. Try reloading.' No posts or interaction values were asserted.",
+      "items": [],
+      "raw_capture": {
+        "documentTitle": "\"DeepSeek Harness\" plugin - Search / X",
+        "visibleText": "Latest\nSomething went wrong. Try reloading.\nRetry"
+      }
+    },
+    {
+      "platform": "reddit",
+      "query": "\"DeepSeek Harness\" sorted new",
+      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpv12b/qwen_38_27b_with_dshdeepseek_harness_is_amazing/",
+      "collected_at": "2026-08-16T11:57:12Z",
+      "collector": "codex ego-browser task space 55",
+      "method": "ego-browser authenticated visible DOM search and direct post",
+      "status": "ok",
+      "result_count": 1,
+      "notes": "The direct post exposed 3 votes and 0 comments at collection time. Third-party media remains an external URL.",
+      "items": [
+        {
+          "platform": "reddit",
+          "external_id": "1vpv12b",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpv12b/qwen_38_27b_with_dshdeepseek_harness_is_amazing/",
+          "item_type": "post",
+          "title": "Qwen 3.8 27b with DSH(DeepSeek Harness) is Amazing!! Experiences so far and perfomance.",
+          "author": "cviperr33",
+          "published_label": "5m ago",
+          "content_text": "The author reports testing Qwen 3.8 27B with DeepSeek Harness for about 10 hours and roughly 10 million input tokens. They observed automatic context compression near 90K context without losing the task, report about 37 tokens/s on an RTX 3090 as context grows, and describe using UD Q4 K XL plus vision F16, 92K context, MTP and ngram. The author identifies speed and dense-model power use as the main drawbacks.",
+          "metrics": {
+            "points": 3,
+            "comments": 0,
+            "metric_source": "Reddit authenticated visible post DOM",
+            "observed_at": "2026-08-16T11:57:12Z"
+          },
+          "media_kind": "image",
+          "media_url": "https://preview.redd.it/qwen-3-8-27b-with-dsh-deepseek-harness-is-amazing-v0-wkg27e152qjh1.png?width=853&format=png&auto=webp&s=39404d120d2191b3ba12d0d36b271b2644022f05",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://preview.redd.it/qwen-3-8-27b-with-dsh-deepseek-harness-is-amazing-v0-wkg27e152qjh1.png?width=853&format=png&auto=webp&s=39404d120d2191b3ba12d0d36b271b2644022f05",
+              "thumbnail_url": "https://preview.redd.it/qwen-3-8-27b-with-dsh-deepseek-harness-is-amazing-v0-wkg27e152qjh1.png?width=853&format=png&auto=webp&s=39404d120d2191b3ba12d0d36b271b2644022f05",
+              "rights_note": "Third-party Reddit image URL; not mirrored locally."
+            }
+          ],
+          "tags": ["reddit", "local-model", "qwen", "experience"],
+          "raw_capture": {
+            "visibleText": "r/LocalLLaMA · 5m ago · cviperr33\nQwen 3.8 27b with DSH(DeepSeek Harness) is Amazing!! Experiences so far and perfomance.\nDiscussion\n\nSo ive been trying different harnesses and coding agents with the new qwen 3.8, and after trying out many ive been mostly impressed by deekseek harness. The author reports a 10-hour run, about 10 million input tokens, automatic compression near 90K context, RTX 3090 throughput, and the exact quant/context settings.\n\n3 votes · 0 comments"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "wechat",
+      "query": "DeepSeek Harness",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzYyMzcwMTExNw==&mid=2247483774&idx=1",
+      "collected_at": "2026-08-16T11:57:12Z",
+      "collector": "codex ego-browser task space 55",
+      "method": "ego-browser Sogou WeChat public search and visible article DOM",
+      "status": "ok",
+      "result_count": 1,
+      "notes": "The public search result resolved to the visible WeChat article. Like, share, recommend, and comment controls exposed no numeric values, so all interaction metrics remain NULL.",
+      "items": [
+        {
+          "platform": "wechat",
+          "external_id": "MzYyMzcwMTExNw==-2247483774-1",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzYyMzcwMTExNw==&mid=2247483774&idx=1",
+          "item_type": "article",
+          "title": "DeepSeek Harness App 来了！但不是官方的",
+          "author": "程序员zimo",
+          "published_label": "10小时前",
+          "content_text": "文章讨论 DeepSeek Harness 官方目前提供基于 Node.js 和 Web UI 的客户端、尚无官方跨端 App，并询问既有 TypeScript 技术栈与 DeepSeek 跨端 App 经验为何尚未转化为官方 DSH App。",
+          "media_kind": "image",
+          "media_url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/scKNfq6xPRrQy6yYPrxAobeKCes5LUs62UcLPIg1y76poOZIDzJXqw0qRr056SXhpt4guZ6MjCaJUiaUVZsj6RziaUEeiajKnlDf1gVx0nKhuw/0?wx_fmt=jpeg",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/scKNfq6xPRrQy6yYPrxAobeKCes5LUs62UcLPIg1y76poOZIDzJXqw0qRr056SXhpt4guZ6MjCaJUiaUVZsj6RziaUEeiajKnlDf1gVx0nKhuw/0?wx_fmt=jpeg",
+              "thumbnail_url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/scKNfq6xPRrQy6yYPrxAobeKCes5LUs62UcLPIg1y76poOZIDzJXqw0qRr056SXhpt4guZ6MjCaJUiaUVZsj6RziaUEeiajKnlDf1gVx0nKhuw/0?wx_fmt=jpeg",
+              "rights_note": "Third-party WeChat Open Graph image URL; not mirrored locally."
+            }
+          ],
+          "tags": ["wechat", "article", "app", "desktop"],
+          "raw_capture": {
+            "documentTitle": "DeepSeek Harness App 来了！但不是官方的",
+            "visibleText": "DeepSeek Harness App 来了！但不是官方的\n\nDeepSeek Harness 其实让我很疑惑。官方给出来的是一个基于 Node.js、基于 Web UI 启动的 Web 客户端，并没有官方的跨端 App。\n\nDeepSeek Harness 这个项目使用的是 TypeScript，如果要部署一个官方 App 的话，其实没有太大难度；而且 DeepSeek 本身就有跨端的 App，所以在这上面对于官方来说没有什么技术问题。\n\n我非常疑惑为什么官方没有做自己的官方跨端 App 呢？\n\n程序员zimo · 上海 · 10小时前\n赞 · 分享 · 推荐 · 写留言"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "xiaohongshu",
+      "query": "DeepSeek Harness",
+      "source_url": "https://www.xiaohongshu.com/search_result?keyword=DeepSeek%20Harness",
+      "collected_at": "2026-08-16T11:57:12Z",
+      "collector": "codex ego-browser task space 55",
+      "method": "ego-browser authenticated visible search DOM",
+      "status": "ok",
+      "result_count": 0,
+      "notes": "The search page was visible and returned cards, but this bounded pass found no sufficiently distinct new plugin object beyond already indexed results. This zero is the count of selected new observations, not an interaction metric.",
+      "items": [],
+      "raw_capture": {
+        "visibleText": "Authenticated DeepSeek Harness search result cards were visible, including existing high-signal tutorial results; no new item was selected in this pass."
+      }
+    }
+  ]
+}

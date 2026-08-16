@@ -1372,6 +1372,7 @@
 | github | [dsh-ticktick](https://github.com/zhengjy01/dsh-ticktick) | 0 ★, 0 forks | zhengjy01 |
 | github | [dsh-startup-guard](https://github.com/aokamoaki/dsh-startup-guard) | 0 ★, 0 forks | aokamoaki |
 | github | [dsh-git-worktree](https://github.com/LaoYueHanNi/dsh-git-worktree) | 0 ★, 0 forks | LaoYueHanNi |
+| reddit | [Deepseek Harness Plugin System Seems Kinda Fun](https://www.reddit.com/r/DeepSeek/comments/1vokok9/deepseek_harness_plugin_system_seems_kinda_fun) | — | Not_a_Cake_ |
 
 ## deepseek-harness-forks
 
@@ -13780,6 +13781,7 @@
 | x | [DeepSeek Harness (dsh) is an open-source agent harness developed by DeepSeek AI. It uses an architecture where everything is a plugin, and is powered by Cordis, whose design is de](https://x.com/intelixai_com/status/2088690119859380317) | 0 ♥, 24 views, 0 replies | intelixai |
 | x | [Playing with the Deepseek harness today. The plugin architecture is pretty attractive @deepseek_ai . It&#x27;s a little awkward not having it&#x27;s own contained web container right now, b](https://x.com/_benjaminsmall/status/2088650040810021310) | 0 ♥, 43 views, 0 replies | Ben Small |
 | github | [dsh-wallpaper](https://github.com/keke050/dsh-wallpaper) | 0 ★, 0 forks | keke050 |
+| reddit | [DeepSeek Harness may have a higher ceiling than Codex because almost everything is replaceable](https://www.reddit.com/r/codex/comments/1vo2jwu/deepseek_harness_may_have_a_higher_ceiling_than) | — | WindowChoice6765 |
 
 ## index-and-marketplace
 
@@ -13977,6 +13979,7 @@
 | github | [dsh-token-heatmap](https://github.com/KIDLi1412/dsh-token-heatmap) | 0 ★, 0 forks | KIDLi1412 |
 | github | [dsh-tool-github](https://github.com/NEAZ71eve/dsh-tool-github) | 0 ★, 0 forks | NEAZ71eve |
 | github | [dsh-msg-hub](https://github.com/AbcdefgXW/dsh-msg-hub) | 0 ★, 0 forks | AbcdefgXW |
+| youtube | [DeepSeek Harness Setup: Free Claude Code in 10 Minutes](https://www.youtube.com/watch?v=MxbsbHr2lrE) | — |  |
 
 ## multimedia-and-vision
 
@@ -14021,6 +14024,7 @@
 | github | [dsh-vision-bridge](https://github.com/ximengxiaolan/dsh-vision-bridge) | 3 ★, 0 forks | ximengxiaolan |
 | github | [dsh-llm-vision-bridge](https://github.com/Einskyle/dsh-llm-vision-bridge) | 3 ★, 0 forks | Einskyle |
 | github | [dsh-codex-tools](https://github.com/SPYQWER1/dsh-codex-tools) | 3 ★, 0 forks | SPYQWER1 |
+| reddit | [Qwen 3.8 27b with DSH(DeepSeek Harness) is Amazing!! Experiences so far and perfomance.](https://www.reddit.com/r/LocalLLaMA/comments/1vpv12b/qwen_38_27b_with_dshdeepseek_harness_is_amazing) | 3 points, 0 comments | cviperr33 |
 | github | [dsh-image-to-path](https://github.com/cesaryike/dsh-image-to-path) | 2 ★, 0 forks | cesaryike |
 | hacker_news | [DSP Programming for VST Instruments and Effects?](https://news.ycombinator.com/item?id=10217950) | 2 points, 3 comments | ninjakeyboard |
 | hacker_news | [How to use HEVC/4K Video Streams in HTML5 without Plugins](https://news.ycombinator.com/item?id=10346803) | 2 points, 0 comments | slederer |
@@ -14375,3 +14379,4 @@
 | github | [dsh-cost-crystal](https://github.com/xxvk/dsh-cost-crystal) | 0 ★, 0 forks | xxvk |
 | github | [dsh-console](https://github.com/Isanti2016/dsh-console) | 0 ★, 0 forks | Isanti2016 |
 | github | [dsh-native-launcher](https://github.com/ingleav626-art/dsh-native-launcher) | 0 ★, 0 forks | ingleav626-art |
+| wechat | [DeepSeek Harness App 来了！但不是官方的](https://mp.weixin.qq.com/s?__biz=MzYyMzcwMTExNw==&mid=2247483774&idx=1) | — | 程序员zimo |
