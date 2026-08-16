@@ -5,6 +5,8 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 5m ago | reddit | post | [Qwen 3.8 27b with DSH(DeepSeek Harness) is Amazing!! Experiences so far and perfomance.](https://www.reddit.com/r/LocalLLaMA/comments/1vpv12b/qwen_38_27b_with_dshdeepseek_harness_is_amazing) | cviperr33 | multimedia-and-vision |
+| 10小时前 | wechat | article | [DeepSeek Harness App 来了！但不是官方的](https://mp.weixin.qq.com/s?__biz=MzYyMzcwMTExNw==&mid=2247483774&idx=1) | 程序员zimo | ui-and-desktop |
 | 2026-08-16T11:07:39Z | github | fork | [Y0m1ya/deepseek-harness](https://github.com/Y0m1ya/deepseek-harness) | Y0m1ya | deepseek-harness-forks |
 | 2026-08-16T11:07:25Z | github | fork | [brainx/deepseek-harness](https://github.com/brainx/deepseek-harness) | brainx | deepseek-harness-forks |
 | 2026-08-16T11:07:05Z | github | fork | [mlaa4ml/deepseek-harness](https://github.com/mlaa4ml/deepseek-harness) | mlaa4ml | deepseek-harness-forks |
@@ -92,6 +94,9 @@
 | 2026-08-16T10:05:55Z | github | fork | [BBBBBunny/deepseek-harness](https://github.com/BBBBBunny/deepseek-harness) | BBBBBunny | deepseek-harness-forks |
 | 2026-08-16T10:04:56Z | github | fork | [ququjing/deepseek-harness](https://github.com/ququjing/deepseek-harness) | ququjing | deepseek-harness-forks |
 | 2026-08-16T10:03:01Z | github | fork | [liangzai528/deepseek-harness](https://github.com/liangzai528/deepseek-harness) | liangzai528 | deepseek-harness-forks |
+| 2d ago | reddit | post | [DeepSeek Harness may have a higher ceiling than Codex because almost everything is replaceable](https://www.reddit.com/r/codex/comments/1vo2jwu/deepseek_harness_may_have_a_higher_ceiling_than) | WindowChoice6765 | docs-and-learning |
+| 2d ago | reddit | post | [Deepseek Harness Plugin System Seems Kinda Fun](https://www.reddit.com/r/DeepSeek/comments/1vokok9/deepseek_harness_plugin_system_seems_kinda_fun) | Not_a_Cake_ | core-and-ecosystem |
+| 2026-08-16T10:01:58Z | youtube | video | [DeepSeek Harness Setup: Free Claude Code in 10 Minutes](https://www.youtube.com/watch?v=MxbsbHr2lrE) |  | index-and-marketplace |
 | 2026-08-16T10:01:26Z | github | fork | [4c466w5vfv-web/deepseek-harness](https://github.com/4c466w5vfv-web/deepseek-harness) | 4c466w5vfv-web | deepseek-harness-forks |
 | 2026-08-16T10:00:48Z | github | fork | [civitasnovadeveloper/deepseek-harness](https://github.com/civitasnovadeveloper/deepseek-harness) | civitasnovadeveloper | deepseek-harness-forks |
 | 2026-08-16T09:59:07Z | github | fork | [reliXQ/deepseek-harness](https://github.com/reliXQ/deepseek-harness) | reliXQ | deepseek-harness-forks |
