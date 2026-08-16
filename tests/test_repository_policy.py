@@ -60,6 +60,13 @@ class RepositoryPolicyTests(unittest.TestCase):
                 workflow,
             )
 
+    def test_generated_publisher_rebuilds_forks_before_other_projections(self) -> None:
+        publisher = (ROOT / "scripts" / "publish_generated_commit.sh").read_text(encoding="utf-8")
+        fork_build = publisher.index('python3 "$publish_worktree/scripts/build_fork_index.py"')
+        other_builds = publisher.index('make -C "$publish_worktree" build')
+
+        self.assertLess(fork_build, other_builds)
+
 
 if __name__ == "__main__":
     unittest.main()
