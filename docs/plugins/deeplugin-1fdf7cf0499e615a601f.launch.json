@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-1fdf7cf0499e615a601f",
+    "name": "dsh-plugin-vet",
+    "author": "wulun811",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/wulun811/dsh-plugin-vet",
+    "firstObservedAt": "2026-08-16T22:38:05Z",
+    "lastChangedAt": "2026-08-16T22:38:05Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-1fdf7cf0499e615a601f.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-1fdf7cf0499e615a601f.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@jieai/dsh-plugin-vet",
+    "command": "dsh plugin --profile web add @jieai/dsh-plugin-vet",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-1fdf7cf0499e615a601f，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-1fdf7cf0499e615a601f.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-1fdf7cf0499e615a601f.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-vet 已收录到 DeepSeek Harness Plugin Store。DSH 插件信任流水线：确定性静态扫描判定、可选运行时守卫与蜜罐诱饵、agent 审查协议技能与浏览器盾牌状态灯，只报警不执法。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-1fdf7cf0499e615a601f.html",
+    "en": "dsh-plugin-vet is now listed on the DeepSeek Harness Plugin Store. Plugin trust pipeline for DeepSeek Harness: deterministic static scan with verdicts, opt-in runtime guard with honeypot lures, agent audit-protocol skill, and a browser shield status light. Alarm-only, never an enforcer.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-1fdf7cf0499e615a601f.html"
+  }
+}

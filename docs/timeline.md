@@ -5,6 +5,7 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 2026-08-16T21:06:21Z | hacker_news | story | [Why is the GitHub trending page weirdly excluding DeepSeek projects?](https://news.ycombinator.com/item?id=49323677) | tianyicui | index-and-marketplace |
 | 2026-08-16T20:38:45Z | github | ecosystem-reference | [JohnXu22786/docs-retriever](https://github.com/JohnXu22786/docs-retriever) | JohnXu22786 | core-and-ecosystem |
 | 2026-08-16T20:38:45Z | github | ecosystem-reference | [JohnXu22786/fs-mcp](https://github.com/JohnXu22786/fs-mcp) | JohnXu22786 | index-and-marketplace |
 | 2026-08-16T20:38:45Z | github | ecosystem-reference | [OpenTritium/dsh-codex-shim](https://github.com/OpenTritium/dsh-codex-shim) | OpenTritium | core-and-ecosystem |
@@ -14388,6 +14389,7 @@
 | 2026-01-31T08:15:39Z | github | repository | [Leslie-SSS/seeWxapkg](https://github.com/Leslie-SSS/seeWxapkg) | Leslie-SSS | core-and-ecosystem |
 | 2026-01-24T03:29:18Z | github | repository | [XiaoMaColtAI/math-modeling-skill](https://github.com/XiaoMaColtAI/math-modeling-skill) | XiaoMaColtAI | core-and-ecosystem |
 | 2026-08-15 | github | repository | [superdesigndev/superdesign-skill](https://github.com/superdesigndev/superdesign-skill) | superdesigndev | core-and-ecosystem |
+| 2026-01-19T18:21:01Z | github | repository | [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) | Hmbown | core-and-ecosystem |
 | 2026-01-19T14:06:37Z | github | repository | [isomoes/ikanban](https://github.com/isomoes/ikanban) | isomoes | agents-and-orchestration |
 | 2026-01-15T18:45:08Z | github | repository | [alvinunreal/oh-my-opencode-slim](https://github.com/alvinunreal/oh-my-opencode-slim) | alvinunreal | core-and-ecosystem |
 | 2026-01-14T01:14:04Z | github | repository | [Q00/ouroboros](https://github.com/Q00/ouroboros) | Q00 | core-and-ecosystem |

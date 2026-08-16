@@ -1,13 +1,13 @@
 # 趋势 Trends — 生态增长、活跃度与价值分布
 
-> 生成时间 2026-08-16T20:41:30Z。增长曲线来自仓库创建日期；活跃度来自全平台发布日期；价值分布来自当前 value matrix；增量仅在存在多快照时计算。
+> 生成时间 2026-08-16T22:41:40Z。增长曲线来自仓库创建日期；活跃度来自全平台发布日期；价值分布来自当前 value matrix；增量仅在存在多快照时计算。
 
 ## 生态增长（GitHub dsh-plugin 仓库/日）
 
 ![growth](assets/trends-growth.svg)
 
 - 开源日 **2026-08-13** 当天新增 **3,305** 个插件仓库；次日再增 5,774 个。
-- 累计收录（本库观察到的）**12,878** 个仓库；topic 全量见 `sources` 表。
+- 累计收录（本库观察到的）**12,879** 个仓库；topic 全量见 `sources` 表。
 
 | 周 | 新增仓库 |
 |---|---:|
@@ -37,7 +37,7 @@
 | 2026-08-13 | 3,346 |
 | 2026-08-14 | 5,815 |
 | 2026-08-15 | 2,480 |
-| 2026-08-16 | 1,120 |
+| 2026-08-16 | 1,121 |
 
 ## 价值分布（当前 dataset）
 
@@ -46,9 +46,9 @@
 | 档 | 条目 | 平均 value |
 |---|---:|---:|
 | A | 1 | 80.3 |
-| B | 242 | 64.2 |
-| C | 1,587 | 52.6 |
-| D | 12,636 | 33.7 |
+| B | 240 | 64.3 |
+| C | 1,589 | 52.6 |
+| D | 12,638 | 33.7 |
 
 ## 增速榜（互动/天，含价值档）
 
@@ -56,49 +56,49 @@
 
 | 平台 | 条目 | 价值档 | 互动/天 |
 |---|---|---|---:|
-| github | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | B | 46,512 |
-| x | [DeepSeek Harness v0.1 is now available in Developer Preview!](https://x.com/deepseek_ai/status/2087887408440164663) | B | 8,059 |
-| bilibili | [【热门AI鉴定】DeepSeek Harness是什么？强在哪里？Harness实测效果如何？一口气搞懂！](https://www.bilibili.com/video/BV11CgF6uE4k) | C | 7,690 |
-| github | [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | B | 3,004 |
-| github | [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | B | 2,048 |
-| bilibili | [一个视频带你了解 DeepSeek新模型 + Harness ！｜ 赛博赵云，七进七出救阿斗。](https://www.bilibili.com/video/BV1qFuf6SEEX) | C | 1,673 |
-| github | [xiaobright/dsh-anchored-standard](https://github.com/xiaobright/dsh-anchored-standard) | B | 1,403 |
-| github | [nexu-io/open-design](https://github.com/nexu-io/open-design) | B | 974 |
-| github | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | B | 946 |
-| x | [Tianyi Cui @tianyi · 13h Thank you! Pi is many DeepSeek rese](https://x.com/tianyi/status/2088306143772946499) | C | 902 |
-| x | [Pinned Tianyi Cui @tianyi · Aug 13 DeepSeek Harness was just](https://x.com/tianyi/status/2087888089759015218) | B | 891 |
-| x | [DeepSeek published their harness. 24K stars already. it’s a ](https://x.com/Hesamation/status/2087917006448173519) | B | 864 |
-| github | [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | A | 821 |
-| x | [Armin Ronacher ⇌ @mitsuhiko · 21h I don&#x27;t think the DeepSeek](https://x.com/mitsuhiko/status/2088189145952731317) | B | 785 |
-| x | [Ollama now supports the DeepSeek Harness.](https://x.com/ollama/status/2088392765021528319) | C | 592 |
+| github | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | B | 45,541 |
+| x | [DeepSeek Harness v0.1 is now available in Developer Preview!](https://x.com/deepseek_ai/status/2087887408440164663) | B | 7,862 |
+| bilibili | [【热门AI鉴定】DeepSeek Harness是什么？强在哪里？Harness实测效果如何？一口气搞懂！](https://www.bilibili.com/video/BV11CgF6uE4k) | C | 7,464 |
+| github | [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | B | 2,940 |
+| github | [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | B | 2,014 |
+| bilibili | [一个视频带你了解 DeepSeek新模型 + Harness ！｜ 赛博赵云，七进七出救阿斗。](https://www.bilibili.com/video/BV1qFuf6SEEX) | C | 1,628 |
+| github | [xiaobright/dsh-anchored-standard](https://github.com/xiaobright/dsh-anchored-standard) | B | 1,357 |
+| github | [nexu-io/open-design](https://github.com/nexu-io/open-design) | B | 973 |
+| github | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | B | 945 |
+| x | [Pinned Tianyi Cui @tianyi · Aug 13 DeepSeek Harness was just](https://x.com/tianyi/status/2087888089759015218) | B | 869 |
+| x | [Tianyi Cui @tianyi · 13h Thank you! Pi is many DeepSeek rese](https://x.com/tianyi/status/2088306143772946499) | C | 869 |
+| x | [DeepSeek published their harness. 24K stars already. it’s a ](https://x.com/Hesamation/status/2087917006448173519) | B | 842 |
+| github | [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | A | 809 |
+| x | [Armin Ronacher ⇌ @mitsuhiko · 21h I don&#x27;t think the DeepSeek](https://x.com/mitsuhiko/status/2088189145952731317) | B | 760 |
+| x | [Ollama now supports the DeepSeek Harness.](https://x.com/ollama/status/2088392765021528319) | C | 567 |
 
 ## 快照增量（GitHub stars，需 ≥2 次观测）
 
 | 仓库 | 快照数 | Δstars |
 |---|---:|---:|
-| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 37 | +29,035 |
-| [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | 36 | +5,819 |
-| [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | 56 | +3,359 |
-| [xiaobright/dsh-anchored-standard](https://github.com/xiaobright/dsh-anchored-standard) | 36 | +1,984 |
-| [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 36 | +1,273 |
-| [nexu-io/open-design](https://github.com/nexu-io/open-design) | 35 | +973 |
-| [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 30 | +960 |
-| [liustack/modlens](https://github.com/liustack/modlens) | 35 | +924 |
-| [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 35 | +768 |
+| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 38 | +29,451 |
+| [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | 37 | +5,856 |
+| [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | 58 | +3,411 |
+| [xiaobright/dsh-anchored-standard](https://github.com/xiaobright/dsh-anchored-standard) | 37 | +1,992 |
+| [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 37 | +1,286 |
+| [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 31 | +1,007 |
+| [nexu-io/open-design](https://github.com/nexu-io/open-design) | 36 | +987 |
+| [liustack/modlens](https://github.com/liustack/modlens) | 36 | +927 |
+| [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 36 | +772 |
 | [dsh-routing-suite](https://github.com/yjh051108/dsh-routing-suite) | 2 | +716 |
 
 ## 采集运行历史
 
 | dataset | 时间 | 触发 | 状态 | raw 文件 | item 观测 |
 |---|---|---|---|---:|---:|
+| v20260816T224135Z | 2026-08-16T22:41:35Z | scheduled | succeeded | 1 | 252 |
+| v20260816T224132Z | 2026-08-16T22:41:32Z | source-monitor | succeeded | 1 | 8 |
 | v20260816T204126Z | 2026-08-16T20:41:26Z | scheduled | succeeded | 1 | 250 |
 | v20260816T204106Z | 2026-08-16T20:41:06Z | source-monitor | succeeded | 1 | 14 |
 | v20260816T185105Z | 2026-08-16T18:51:05Z | reconcile | succeeded | 2 | 2,069 |
 | v20260816T185047Z | 2026-08-16T18:50:47Z | scheduled | succeeded | 1 | 246 |
 | v20260816T185044Z | 2026-08-16T18:50:44Z | source-monitor | succeeded | 1 | 16 |
 | v20260816T164235Z | 2026-08-16T16:42:35Z | scheduled | succeeded | 1 | 249 |
-| v20260816T164232Z | 2026-08-16T16:42:32Z | source-monitor | succeeded | 1 | 46 |
-| v20260816T160658Z | 2026-08-16T16:06:58Z | seed | succeeded | 1 | 0 |
 
 ## 如何持续追踪
 

@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/dawnliming/dsh-chinese-mode",
     "firstObservedAt": "2026-08-16T08:41:44Z",
-    "lastChangedAt": "2026-08-16T09:56:16Z"
+    "lastChangedAt": "2026-08-16T22:38:05Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-a102325bcdf2db4e35d9.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a102325bcdf2db4e35d9.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-chinese-mode 已收录到 DeepSeek Harness Plugin Store。全局中文模式：输入框「中」字开关，开启即向任意 preset 的 system prompt 注入中文要求，锚定模式晋升后自动生效。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a102325bcdf2db4e35d9.html",
-    "en": "dsh-chinese-mode is now listed on the DeepSeek Harness Plugin Store. Global Simplified-Chinese mode: a 中 switch in the input box that injects a Chinese-language requirement into every session's system prompt when enabled, skipping anchored presets' pre-promotion round.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a102325bcdf2db4e35d9.html"
+    "zh": "dsh-chinese-mode 已收录到 DeepSeek Harness Plugin Store。全局中文模式：输入框旁的「中」字开关，开启后向任意预设的系统提示注入语言要求，各区域可分别设为中文或英文；锚定模式下，锚定预设的思考强制为英文。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a102325bcdf2db4e35d9.html",
+    "en": "dsh-chinese-mode is now listed on the DeepSeek Harness Plugin Store. Global Simplified-Chinese mode: a 中 switch in the input box that injects language requirements (Chinese or English per region) into every session's system prompt; anchored mode forces English thinking for anchored presets.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a102325bcdf2db4e35d9.html"
   }
 }

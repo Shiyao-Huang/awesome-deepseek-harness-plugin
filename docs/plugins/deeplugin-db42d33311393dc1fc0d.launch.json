@@ -3,13 +3,13 @@
   "version": 1,
   "plugin": {
     "id": "deeplugin-db42d33311393dc1fc0d",
-    "name": "dsh-vscode-review",
+    "name": "dsh-vscode-review#dsh-review",
     "author": "Tlyer233",
     "category": "ui",
     "version": null,
     "homepage": "https://github.com/Tlyer233/dsh-vscode-review/tree/main/packages/dsh-review",
     "firstObservedAt": "2026-08-15T22:14:49Z",
-    "lastChangedAt": "2026-08-16T09:56:16Z"
+    "lastChangedAt": "2026-08-16T22:38:05Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-db42d33311393dc1fc0d.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-db42d33311393dc1fc0d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-vscode-review 已收录到 DeepSeek Harness Plugin Store。把 AI 每次文件写入/编辑记录为 before/after 快照，供 VS Code 内联 review 使用（逐块接受/撤回、单文件撤销，不依赖 git）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-db42d33311393dc1fc0d.html",
-    "en": "dsh-vscode-review is now listed on the DeepSeek Harness Plugin Store. Journals every AI file write/edit into before/after snapshots for an inline VS Code review flow (accept/reject hunks, per-file undo, no git).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-db42d33311393dc1fc0d.html"
+    "zh": "dsh-vscode-review#dsh-review 已收录到 DeepSeek Harness Plugin Store。把 AI 每次文件写入/编辑记录为 before/after 快照，供 VS Code 内联 review 使用（逐块接受/撤回、单文件撤销，不依赖 git）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-db42d33311393dc1fc0d.html",
+    "en": "dsh-vscode-review#dsh-review is now listed on the DeepSeek Harness Plugin Store. Journals every AI file write/edit into before/after snapshots for an inline VS Code review flow (accept/reject hunks, per-file undo, no git).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-db42d33311393dc1fc0d.html"
   }
 }

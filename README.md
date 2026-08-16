@@ -7,7 +7,7 @@ DeepSeek Harness / DSH 插件生态的公开资料聚合 repo：把 GitHub 仓�
 <!-- landing:start -->
 ## Start here — the DSH signal desk
 
-> 这里不是又一份静态 Awesome List，而是一张持续更新的 DeepSeek Harness 生态地图：先看最值得点开的仓库、帖子和视频，再沿着 raw、SQLite、时间轴回到证据。当前批次 **v20260816T204126Z**（2026-08-16）：**14,466** 条去重记录、**14** 个平台、**1,256** 个媒体引用。
+> 这里不是又一份静态 Awesome List，而是一张持续更新的 DeepSeek Harness 生态地图：先看最值得点开的仓库、帖子和视频，再沿着 raw、SQLite、时间轴回到证据。当前批次 **v20260816T224135Z**（2026-08-16）：**14,468** 条去重记录、**14** 个平台、**1,257** 个媒体引用。
 
 [打开 dsh store](docs/index.html) · [看价值矩阵](docs/value-matrix.md) · [看趋势](docs/trends.md) · [下载查询 SQLite](https://github.com/Shiyao-Huang/awesome-deepseek-harness-plugin/releases/download/dataset-latest/aggregator.sqlite3)
 
@@ -17,8 +17,8 @@ DeepSeek Harness / DSH 插件生态的公开资料聚合 repo：把 GitHub 仓�
 
 | 入口 | 为什么值得看 | 当前信号 |
 | --- | --- | ---: |
-| [官方核心 · deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | DSH 的源头仓库；所有插件和能力最终回到这里核验。 | ★ stars 130,416 |
-| [高关注插件 · zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 真实可见的 UI / 桌面扩展，适合从“能不能直接用”开始。 | ★ stars 3,404 |
+| [官方核心 · deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | DSH 的源头仓库；所有插件和能力最终回到这里核验。 | ★ stars 130,832 |
+| [高关注插件 · zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 真实可见的 UI / 桌面扩展，适合从“能不能直接用”开始。 | ★ stars 3,417 |
 | [新文章 · 如何用 GLM 5.3，开发 DeepSeek Harness 插件](https://mp.weixin.qq.com/s/HrOgdg7ZBKQlvGM-xPeKtw) | 一篇文章串起模型接入、插件契约、skill、附件和 inspector；8 image · 1 video。 | counters NULL |
 
 ### 新：一篇文章与一项社区补充
@@ -63,20 +63,20 @@ dsh plugin --profile web add dsh-skills dsh-attachments dsh-inspector
 | 4 | [alexdolbun/deepseek-harness](https://github.com/alexdolbun/deepseek-harness) | 1 | 80.0 (observed) | 25.810 | 47.502 | ok | 未观察到相对 upstream 的文件修改；目标线索是“DeepSeek Harness”。 |
 | 5 | [zchuhui/deepseek-harness](https://github.com/zchuhui/deepseek-harness) | 1 | 48.7 (observed) | 46.345 | 47.302 | ok | 新增约 10 个提交并修改 300 个文件，主要涉及 配置、文档、CI/构建、其他文件；目标线索是“DeepSeek Harness: Everything is a Plugin”。 |
 
-> 价值档当前分布：**A 1 · B 242 · C 1,587 · D 12,636**。分数只用于安排复核优先级；不同平台的 stars、likes、views、points 不相加，缺失互动数不补零。
+> 价值档当前分布：**A 1 · B 240 · C 1,589 · D 12,638**。分数只用于安排复核优先级；不同平台的 stars、likes、views、points 不相加，缺失互动数不补零。
 
 <!-- landing:end -->
 
 ## 当前快照
 
 <!-- snapshot:start -->
-公开查询 SQLite 当前包含 **14,466 条去重记录**、**14 个来源平台**、**122,252 条指标历史**、**1,256 个媒体资产引用**、**306 条详情记录**和 **1,106 个去重 raw provenance**。当前批次 **v20260816T204126Z** 于 **2026-08-16T20:41:30Z** 完成；价值矩阵为当前批次的 14,466 条记录提供六维评分。完整原始 JSON 位于压缩权威 SQLite；公开查询库保留 raw SHA-256、路径、字节数、采集时间和批次，并去除可由 `data/raw/` 或完整库恢复的重复 JSON blob。
+公开查询 SQLite 当前包含 **14,468 条去重记录**、**14 个来源平台**、**122,471 条指标历史**、**1,257 个媒体资产引用**、**306 条详情记录**和 **1,108 个去重 raw provenance**。当前批次 **v20260816T224135Z** 于 **2026-08-16T22:41:40Z** 完成；价值矩阵为当前批次的 14,468 条记录提供六维评分。完整原始 JSON 位于压缩权威 SQLite；公开查询库保留 raw SHA-256、路径、字节数、采集时间和批次，并去除可由 `data/raw/` 或完整库恢复的重复 JSON blob。
 
 | 来源 | 去重记录 | 采集内容 |
 | --- | ---: | --- |
-| GitHub | 13,983 | 官方仓库、topic、社区索引候选和 stars/forks/issues |
+| GitHub | 13,984 | 官方仓库、topic、社区索引候选和 stars/forks/issues |
 | 小红书 | 157 | 搜索卡片、作者、点赞、缩略图和详情文本 |
-| Hacker News | 104 | 精确短语搜索、points/comments 和讨论链接 |
+| Hacker News | 105 | 精确短语搜索、points/comments 和讨论链接 |
 | X | 90 | 公开帖子、图片/视频链接和 replies/reposts/likes/views |
 | Reddit | 51 | 公开讨论、分数、评论和正文证据 |
 | YouTube | 29 | 视频标题、频道、观看数和缩略图 |

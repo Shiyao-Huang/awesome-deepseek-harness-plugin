@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-9bc18f0cb11794a366f1",
+    "name": "fs-mcp",
+    "author": "JohnXu22786",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/JohnXu22786/fs-mcp",
+    "firstObservedAt": "2026-08-16T22:38:05Z",
+    "lastChangedAt": "2026-08-16T22:38:05Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-9bc18f0cb11794a366f1.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-9bc18f0cb11794a366f1.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:johnxu22786/fs-mcp",
+    "command": "dsh plugin --profile web add github:johnxu22786/fs-mcp",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-9bc18f0cb11794a366f1，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-9bc18f0cb11794a366f1.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-9bc18f0cb11794a366f1.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "fs-mcp 已收录到 DeepSeek Harness Plugin Store。paddock：面向 agent 的本地文件系统 MCP server——读写、目录操作、文件名与正文检索全部约束在可配置「围场」目录内，零运行时依赖，dsh bundle 接入。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-9bc18f0cb11794a366f1.html",
+    "en": "fs-mcp is now listed on the DeepSeek Harness Plugin Store. Paddock: constrained local filesystem MCP server for agents — text read/write, directory ops, filename and content search confined to configurable zones, with zero runtime dependencies and a dsh bundle.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-9bc18f0cb11794a366f1.html"
+  }
+}

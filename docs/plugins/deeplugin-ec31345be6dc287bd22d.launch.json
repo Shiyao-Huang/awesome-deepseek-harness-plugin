@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-ec31345be6dc287bd22d",
+    "name": "docs-retriever",
+    "author": "JohnXu22786",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/JohnXu22786/docs-retriever",
+    "firstObservedAt": "2026-08-16T22:38:05Z",
+    "lastChangedAt": "2026-08-16T22:38:05Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-ec31345be6dc287bd22d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-ec31345be6dc287bd22d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:johnxu22786/docs-retriever",
+    "command": "dsh plugin --profile web add github:johnxu22786/docs-retriever",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-ec31345be6dc287bd22d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-ec31345be6dc287bd22d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-ec31345be6dc287bd22d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "docs-retriever 已收录到 DeepSeek Harness Plugin Store。doctrove：面向编码 agent 的版本化库文档检索 MCP server——目录检索、版本选择与按主题提取带相关度排序的文档片段，零运行时依赖，dsh bundle 接入。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-ec31345be6dc287bd22d.html",
+    "en": "docs-retriever is now listed on the DeepSeek Harness Plugin Store. Doctrove: versioned library documentation retrieval MCP server for coding agents — catalog lookup, version selection and focus-ranked doc extraction, with zero runtime dependencies and a dsh bundle.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-ec31345be6dc287bd22d.html"
+  }
+}
