@@ -8,6 +8,7 @@ import json
 import sqlite3
 import sys
 from pathlib import Path
+from typing import Any
 
 import collect
 import monitor_sources
@@ -21,10 +22,36 @@ INTEGER_FIELDS = (
 )
 
 
+def metric_values(path: Path) -> dict[MetricKey, tuple[Any, ...]]:
+    """Return normalized metric values keyed by their immutable identity."""
+
+    connection = sqlite3.connect(f"file:{path.resolve()}?mode=ro", uri=True)
+    connection.row_factory = sqlite3.Row
+    try:
+        rows = connection.execute(
+            """
+            SELECT
+                i.canonical_url, m.observed_at, m.metric_source,
+                m.likes, m.replies, m.reposts, m.comments, m.bookmarks, m.views, m.points,
+                m.stars, m.forks, m.open_issues, m.subscribers, m.favorites, m.shares,
+                m.coins, m.danmaku, m.upvote_ratio
+            FROM metrics AS m
+            JOIN items AS i ON i.id = m.item_id
+            """
+        ).fetchall()
+    finally:
+        connection.close()
+    return {
+        (str(row[0]), str(row[1]), str(row[2])): tuple(row[index] for index in range(3, len(row)))
+        for row in rows
+    }
+
+
 def replay_missing_metrics(baseline: Path, database: Path) -> tuple[int, int]:
     """Restore only metric keys previously present in the authoritative baseline."""
 
     baseline_history = metric_history(baseline)
+    baseline_values = metric_values(baseline)
     current_history = metric_history(database)
     changed = {
         key for key in set(baseline_history) & set(current_history)
@@ -112,7 +139,10 @@ def replay_missing_metrics(baseline: Path, database: Path) -> tuple[int, int]:
                         continue
                     integers = [collect.metric_int(metrics.get(field)) for field in INTEGER_FIELDS]
                     upvote_ratio = collect.metric_float(metrics.get("upvote_ratio"))
-                    if not any(value is not None for value in (*integers, upvote_ratio)):
+                    values = (*integers, upvote_ratio)
+                    if not any(value is not None for value in values):
+                        continue
+                    if values != baseline_values[key]:
                         continue
                     metric_run_id = missing[key][0]
                     cursor = connection.execute(
@@ -126,7 +156,7 @@ def replay_missing_metrics(baseline: Path, database: Path) -> tuple[int, int]:
                         ON CONFLICT(item_id, observed_at, metric_source) DO NOTHING
                         """,
                         (
-                            item_id, metric_run_id, metric_observed_at, *integers, upvote_ratio,
+                            item_id, metric_run_id, metric_observed_at, *values,
                             metric_source, json.dumps(metrics, ensure_ascii=False, sort_keys=True),
                         ),
                     )

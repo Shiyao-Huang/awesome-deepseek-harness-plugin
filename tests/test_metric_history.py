@@ -117,7 +117,10 @@ class MetricHistoryTests(unittest.TestCase):
                     collection_run_id INTEGER,
                     observed_at TEXT NOT NULL,
                     metric_source TEXT NOT NULL,
-                    stars INTEGER,
+                    likes INTEGER, replies INTEGER, reposts INTEGER, comments INTEGER,
+                    bookmarks INTEGER, views INTEGER, points INTEGER, stars INTEGER,
+                    forks INTEGER, open_issues INTEGER, subscribers INTEGER, favorites INTEGER,
+                    shares INTEGER, coins INTEGER, danmaku INTEGER, upvote_ratio REAL,
                     raw_json TEXT NOT NULL DEFAULT '{}'
                 );
                 INSERT INTO collection_runs VALUES (1, 'v20260816T000000Z');
@@ -138,6 +141,14 @@ class MetricHistoryTests(unittest.TestCase):
             "observations": [{
                 "collected_at": "2026-08-16T00:00:00Z",
                 "items": [
+                    {
+                        "url": "https://github.com/owner/plugin",
+                        "metrics": {
+                            "stars": 99,
+                            "metric_source": "GitHub repository API via upstream index",
+                            "observed_at": "2026-08-16T00:00:00Z",
+                        },
+                    },
                     {
                         "url": "https://github.com/owner/plugin",
                         "metrics": {
