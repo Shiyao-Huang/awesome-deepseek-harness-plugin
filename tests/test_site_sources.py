@@ -134,6 +134,26 @@ class MarketAccessPageTests(unittest.TestCase):
         self.assertIn("1</strong><span>attributed registries", page)
         self.assertIn("变更操作必须批准", page)
 
+    def test_home_labels_global_and_market_dataset_versions_separately(self) -> None:
+        market_registry = {
+            "datasetVersion": "v-market-older",
+            "plugins": [],
+        }
+
+        page = build_site.render_home(
+            [],
+            "v-global-latest",
+            "2026-08-16T06:37:59Z",
+            self.config,
+            [],
+            [],
+            market_registry,
+        )
+
+        self.assertIn("ECOSYSTEM DATASET · v-global-latest", page)
+        self.assertIn("MARKET REGISTRY · v-market-older", page)
+        self.assertIn("UPDATED · 2026-08-16", page)
+
     def test_market_page_projects_exact_install_id_spec_and_source_claim(self) -> None:
         registry = {
             "count": 2,
