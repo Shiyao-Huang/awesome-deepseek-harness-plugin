@@ -357,6 +357,7 @@
 | bilibili | [DeepSeek V4接入Codex完整实战：从0开发AI数据分析Agent，40轮提示词驱动300万行数据分析，自动生成可追溯数据报告](https://www.bilibili.com/video/BV1Rtut6FEW3) | 9 ♥, 723 views, 2 replies, 32 favorites, 2 shares, 4 coins, 1 danmaku | 赋范课堂 |
 | xiaohongshu | [DeepSeek Harness 背后技术揭秘](https://www.xiaohongshu.com/explore/6a80b85a0000000029030686) | 9 ♥ | 机智的哒哒学姐 |
 | xiaohongshu | [DeepSeek Harness 必装插件分享（个人实测](https://www.xiaohongshu.com/explore/6a7f5ce00000000025002e94) | 9 ♥ | 和AI一起成长 |
+| reddit | [Deepseek v4 Pro 0813 - Minimal Preset on DSH vs other models](https://www.reddit.com/r/DeepSeek/comments/1vpcutr/deepseek_v4_pro_0813_minimal_preset_on_dsh_vs) | 9 ♥, 2 comments | Ok_Shelter_2181 |
 | github | [vlln/dsh-task-status](https://github.com/vlln/dsh-task-status) | 8 ★, 0 forks | vlln |
 | github | [weijiafu14/pi2dsh](https://github.com/weijiafu14/pi2dsh) | 8 ★, 1 forks | weijiafu14 |
 | github | [N0zoM1z0/th08](https://github.com/N0zoM1z0/th08) | 8 ★, 1 forks | N0zoM1z0 |
@@ -371,6 +372,7 @@
 | hacker_news | [Show HN: Try Benzi – A coding harness/agent beating Claude Code itself on Sonnet](https://news.ycombinator.com/item?id=49226627) | 8 points, 0 comments | showhz |
 | hacker_news | [ResourceD – Toolkit for helping DevOps to write automation tools](https://news.ycombinator.com/item?id=10400212) | 8 points, 1 comments | didip |
 | xiaohongshu | [拆解 deepseek-harness 六大核心创新](https://www.xiaohongshu.com/explore/6a7ee779000000002403c656) | 8 ♥ | 一颗恒星 |
+| reddit | [Deepseek Harness (dsh) Plugin to show the cost per task, peak hours.](https://www.reddit.com/r/DeepSeek/comments/1vph1ig/deepseek_harness_dsh_plugin_to_show_the_cost_per) | 8 ♥, 0 comments | Snoo_57113 |
 | x | [It&#x27;s a DeepSeek-Harness plugin now](https://x.com/BruzWJ/status/2088122325418065976) | 7 ♥, 876 views, 2 replies | BruzWJ |
 | github | [omdsh-dev/dsh-plugin-skills](https://github.com/omdsh-dev/dsh-plugin-skills) | 7 ★, 1 forks | omdsh-dev |
 | github | [unknowbug/RE-Framework](https://github.com/unknowbug/RE-Framework) | 7 ★, 2 forks | unknowbug |
@@ -666,7 +668,7 @@
 | x | [Top AI News - 2026/08/15 Anthropic released its second Risk Report under the Responsible Scaling Policy. Covering February–July 2026, it evaluates catastrophic risks from misali](https://x.com/FrontieraTechIT/status/2088709383542964329) | 1 ♥, 22 views, 2 replies | Frontiera Tech |
 | x | [Have you tested out the new deepseek harness, their plugin system is AMAZING, you can literally change everything, everything is a plugin. I think thats the ideal shape a plugin sy](https://x.com/PracurserTweets/status/2088706850468573566) | 1 ♥, 57 views, 0 replies | pracurser |
 | x | [DeepSeek Harness → Hermes Agent 微信《剑火纪元》全自动部署任务 你现在是我的： 本机部署、配置、调试、验收执行 Agent。 你的职责不是陪我玩游戏。 你的职责是： 尽可能快速、准确、低错误率地，把 Hermes Agent 部署成一个通过微信长期陪我游玩《剑火纪元·西方幻想人生模拟器》的常驻 AI](https://x.com/hetzerLin/status/2088657025094111540) | 1 ♥, 717 views, 0 replies | Linx_OKX | 我爱Misa |
-| reddit | [DeepSeek Harness vs Pi Agent are they converging on the same philosophy?](https://www.reddit.com/r/OpenSourceAI/comments/1vpaglh/deepseek_harness_vs_pi_agent_are_they_converging) | 1 ♥, 0 comments |  |
+| reddit | [DeepSeek Harness vs Pi Agent  are they converging on the same philosophy?](https://www.reddit.com/r/OpenSourceAI/comments/1vpaglh/deepseek_harness_vs_pi_agent_are_they_converging) | 1 ♥, 1 comments | Certain_Net_3408 |
 | reddit | [DeepSeek Harness(DSH) first time using edit-timeline](https://www.reddit.com/r/edit_timeline/comments/1vp8oa8/deepseek_harnessdsh_first_time_using_edittimeline) | 1 ♥, 0 comments |  |
 | reddit | [Customising deepseek harness with AI Chat](https://www.reddit.com/r/DeepSeek/comments/1vp6bl0/customising_deepseek_harness_with_ai_chat) | 1 ♥, 0 comments |  |
 | reddit | [Created a DSH plugin for Cross Session Messaging](https://www.reddit.com/r/DeepSeek/comments/1voy8d8/created_a_dsh_plugin_for_cross_session_messaging) | 1 ♥, 0 comments |  |
@@ -707,6 +709,8 @@
 | xiaohongshu | [DeepSeek Harness到底是什么](https://www.xiaohongshu.com/explore/6a7e8199000000003301bccb) | 1 ♥ | 打工人的AI外挂 |
 | xiaohongshu | [出海需求挖掘--deepseek harness](https://www.xiaohongshu.com/explore/6a7e59830000000008012c60) | 1 ♥ | 出海小茶馆 |
 | github | [xxiaoxiong/dsh-kubernetes](https://github.com/xxiaoxiong/dsh-kubernetes) | 1 ★, 0 forks | xxiaoxiong |
+| reddit | [DeepSeek Harness: A Concrete Step Toward Self-Evolving AI Systems](https://www.reddit.com/r/DeepSeek/comments/1vpmdg9/deepseek_harness_a_concrete_step_toward) | 1 ♥, 1 comments | Able_Improvement_753 |
+| reddit | [A resource for navigating the booming DSH plugin ecosystem](https://www.reddit.com/r/DeepSeek/comments/1vplhkb/a_resource_for_navigating_the_booming_dsh_plugin) | 1 ♥, 2 comments | No-Weight1118 |
 | hacker_news | [https://news.ycombinator.com/item?id=49298627](https://news.ycombinator.com/item?id=49298627) | — | tornikeo |
 | hacker_news | [https://news.ycombinator.com/item?id=49293650](https://news.ycombinator.com/item?id=49293650) | — | scotty79 |
 | hacker_news | [https://news.ycombinator.com/item?id=49292294](https://news.ycombinator.com/item?id=49292294) | — | z_rho_one |
@@ -1089,6 +1093,7 @@
 | github | [dsh-whale-galgame](https://github.com/JAdpp/dsh-whale-galgame) | 0 ★, 0 forks | JAdpp |
 | github | [moononnn/DeepSeek-Harness-Hanako-Memory](https://github.com/moononnn/DeepSeek-Harness-Hanako-Memory) | 0 ★, 0 forks | moononnn |
 | github | [luumod/dsh-achievements](https://github.com/luumod/dsh-achievements) | 0 ★, 0 forks | luumod |
+| reddit | [DeepSeek Harness in Claude Code](https://www.reddit.com/r/DeepSeek/comments/1vpknqx/deepseek_harness_in_claude_code) | 0 ♥, 0 comments | SubstantialMess523 |
 
 ## deepseek-harness-forks
 
@@ -12442,6 +12447,7 @@
 | hacker_news | [Launch HN: Optic (YC S18) – Automate Routine Programming](https://news.ycombinator.com/item?id=17560059) | 183 points, 48 comments | addcn |
 | xiaohongshu | [给DeepSeek Harness做了一个插件市场](https://www.xiaohongshu.com/explore/6a7f1a21000000002402e4fa) | 156 ♥ | Awesome |
 | github | [bruc3van/awesome-dsh-plugin](https://github.com/bruc3van/awesome-dsh-plugin) | 152 ★, 37 forks | bruc3van |
+| reddit | [100K+ GITHUB STARS IN JUST 2 DAYS: DeepSeek Harness just became one of the fastest open-source projects to hit 10K stars. 100K stars. OpenClaw held the record before. but DeepSeek just shattered it.](https://www.reddit.com/r/tech_x/comments/1vpbjvk/100k_github_stars_in_just_2_days_deepseek_harness) | 140 ♥, 38 comments | Current-Guide5944 |
 | xiaohongshu | [dsh创造github历史了，收集目前较火dsh插件](https://www.xiaohongshu.com/explore/6a7de59b0000000028008dbd) | 106 ♥ | 豆奶与程序猫 |
 | github | [Nagi-ovo/dsh-find-plugins](https://github.com/Nagi-ovo/dsh-find-plugins) | 102 ★, 1 forks | Nagi-ovo |
 | github | [hikariming/dshfind](https://github.com/hikariming/dshfind) | 88 ★, 3 forks | hikariming |
@@ -12478,7 +12484,6 @@
 | x | [机器之心 JIQIZHIXIN @jiqizhixin DeepSeek Harness is officially open-sourced! Four modes. Open-model support. An “everything is a plugin” archite](https://x.com/jiqizhixin/status/2088059717608202301) | 12 ♥, 1,297 views, 2 replies |  |
 | hacker_news | [Show HN: Hm – a task runner with a Python DSL, growing into a CI/CD system](https://news.ycombinator.com/item?id=48296828) | 12 points, 1 comments | suis_siva |
 | hacker_news | [Show HN: ZenStack-Open source toolkit simplifies your Prisma stack](https://news.ycombinator.com/item?id=36598597) | 12 points, 3 comments | zenstack |
-| reddit | [100K+ GITHUB STARS IN JUST 2 DAYS: DeepSeek Harness just became one of the fastest open-source projects to hit 10K stars. 100K stars. OpenClaw held the record before. but DeepSeek just shattered it.](https://www.reddit.com/r/tech_x/comments/1vpbjvk/100k_github_stars_in_just_2_days_deepseek_harness) | 12 ♥, 7 comments |  |
 | github | [PivotStackIntelligence/dsh-github](https://github.com/PivotStackIntelligence/dsh-github) | 10 ★, 1 forks | PivotStackIntelligence |
 | github | [2BingLing/dsh-market](https://github.com/2BingLing/dsh-market) | 9 ★, 1 forks | 2BingLing |
 | github | [white0dew/awesome-dsh-plugins](https://github.com/white0dew/awesome-dsh-plugins) | 9 ★, 4 forks | white0dew |
