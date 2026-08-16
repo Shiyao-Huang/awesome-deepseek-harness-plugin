@@ -2,7 +2,7 @@
 
 > 一个可重复更新的公开资料聚合体：仓库、插件、索引、文章、帖子、图片缩略图和视频链接。原始观测保留在 `data/raw/`，SQLite 是可查询的派生索引。
 
-当前数据集版本：**v20260816T033755Z**，完成时间：**2026-08-16T03:37:55Z**。共 **12,979** 条去重记录，覆盖 **14** 个平台，外部媒体资产 **940** 条。
+当前数据集版本：**v20260816T035742Z**，完成时间：**2026-08-16T03:57:42Z**。共 **12,984** 条去重记录，覆盖 **14** 个平台，外部媒体资产 **950** 条。
 
 ## 三句话结论
 
@@ -27,7 +27,7 @@
 | hacker_news | 101 | Algolia public search API |
 | x | 77 | ego-browser visible DOM |
 | xiaohongshu | 76 | ego-browser visible DOM |
-| reddit | 35 | ego-browser visible DOM |
+| reddit | 40 | ego-browser visible DOM |
 | youtube | 28 | ego-browser visible DOM |
 | web | 21 | public page metadata |
 | bilibili | 18 | public web metadata API |
@@ -43,7 +43,7 @@
 | 分类 | 记录 | 带媒体 |
 | --- | ---: | ---: |
 | deepseek-harness-forks | 11,254 | 0 |
-| core-and-ecosystem | 1,038 | 159 |
+| core-and-ecosystem | 1,043 | 164 |
 | ui-and-desktop | 233 | 4 |
 | index-and-marketplace | 181 | 35 |
 | operations-and-safety | 107 | 1 |
