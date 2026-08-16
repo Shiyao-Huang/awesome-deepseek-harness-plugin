@@ -48,6 +48,18 @@ class RepositoryPolicyTests(unittest.TestCase):
             self.assertIn("scripts/publish_generated_commit.sh", workflow)
             self.assertNotIn("git rebase", workflow)
 
+    def test_refresh_workflow_publish_commands_use_yaml_block_scalars(self) -> None:
+        for name in ("refresh-index.yml", "refresh-forks.yml"):
+            workflow = (ROOT / ".github" / "workflows" / name).read_text(encoding="utf-8")
+            self.assertIn(
+                'run: |\n          scripts/publish_generated_commit.sh "data: ',
+                workflow,
+            )
+            self.assertNotIn(
+                'run: scripts/publish_generated_commit.sh "data: ',
+                workflow,
+            )
+
 
 if __name__ == "__main__":
     unittest.main()
