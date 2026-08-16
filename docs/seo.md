@@ -1,6 +1,6 @@
 # Store deployment and SEO
 
-The generated store is the static homepage at `docs/index.html`. `scripts/build_views.py` rebuilds the homepage, one crawlable page per registry record under `docs/skills/`, `docs/data/catalog.json`, the deployable local-media mirror under `docs/media/`, `robots.txt`, `sitemap.xml`, and `CNAME` from the SQLite database.
+The generated store is the static homepage at `docs/index.html`. `scripts/build_views.py` rebuilds the homepage, the installable plugin Store at `docs/market.html` from the same `docs/data/market-registry.json` consumed by Market Plugin, one crawlable page per ecosystem record under `docs/skills/`, `docs/data/catalog.json`, the deployable local-media mirror under `docs/media/`, `robots.txt`, `sitemap.xml`, and `CNAME`.
 
 ## GitHub Pages
 

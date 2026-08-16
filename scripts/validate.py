@@ -172,7 +172,20 @@ def validate_rich_media_site(connection: sqlite3.Connection, item_count: int) ->
     video_ns = "http://www.google.com/schemas/sitemap-video/1.1"
     entries = sitemap_root.findall(f"{{{sitemap_ns}}}url")
     locations = [entry.findtext(f"{{{sitemap_ns}}}loc") for entry in entries]
-    assert len(entries) == item_count + 9
+    required_static_locations = {
+        "https://deeplugin.store/",
+        "https://deeplugin.store/market.html",
+        "https://deeplugin.store/report.html",
+        "https://deeplugin.store/timeline.html",
+        "https://deeplugin.store/categories.html",
+        "https://deeplugin.store/directories.html",
+        "https://deeplugin.store/sources.html",
+        "https://deeplugin.store/forks.html",
+        "https://deeplugin.store/register.html",
+        "https://deeplugin.store/register-agent.html",
+    }
+    assert required_static_locations.issubset(set(locations))
+    assert len(entries) == item_count + len(required_static_locations)
     assert len(set(locations)) == len(locations)
     image_entries = sitemap_root.findall(f".//{{{image_ns}}}image")
     video_entries = sitemap_root.findall(f".//{{{video_ns}}}video")

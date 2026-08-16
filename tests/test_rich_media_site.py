@@ -17,6 +17,17 @@ import build_site
 
 
 class RichMediaSiteProjectionTests(unittest.TestCase):
+    def test_market_page_projects_the_agent_registry(self) -> None:
+        registry = json.loads((ROOT / "docs" / "data" / "market-registry.json").read_text(encoding="utf-8"))
+        page = (ROOT / "docs" / "market.html").read_text(encoding="utf-8")
+        first = registry["plugins"][0]
+
+        self.assertEqual(page.count('class="skill-card market-plugin-card"'), registry["count"])
+        self.assertIn(first["id"], page)
+        self.assertIn(first["install"]["spec"], page)
+        self.assertIn(f'dsh plugin --profile web add {first["install"]["spec"]}', page)
+        self.assertIn("https://deeplugin.store/market.html", (ROOT / "docs" / "sitemap.xml").read_text(encoding="utf-8"))
+
     def test_detail_page_version_changes_only_with_record_evidence(self) -> None:
         with build_site.connection() as db:
             record = build_site.load_records(db)[0]
