@@ -2,7 +2,7 @@
 
 > 一个可重复更新的公开资料聚合体：仓库、插件、索引、文章、帖子、图片缩略图和视频链接。原始观测保留在 `data/raw/`，SQLite 是可查询的派生索引。
 
-当前数据集版本：**v20260816T104136Z**，完成时间：**2026-08-16T10:41:40Z**。共 **13,220** 条去重记录，覆盖 **14** 个平台，外部媒体资产 **1,237** 条。
+当前数据集版本：**v20260816T110748Z**，完成时间：**2026-08-16T11:08:52Z**。共 **14,318** 条去重记录，覆盖 **14** 个平台，外部媒体资产 **1,237** 条。
 
 ## 三句话结论
 
@@ -23,7 +23,7 @@
 
 | 平台 | 去重记录 | 采集方式 |
 | --- | ---: | --- |
-| github | 12,746 | public REST API |
+| github | 13,844 | public REST API |
 | xiaohongshu | 156 | ego-browser visible DOM |
 | hacker_news | 102 | Algolia public search API |
 | x | 90 | ego-browser visible DOM |
@@ -42,7 +42,7 @@
 
 | 分类 | 记录 | 带媒体 |
 | --- | ---: | ---: |
-| deepseek-harness-forks | 11,254 | 0 |
+| deepseek-harness-forks | 12,352 | 0 |
 | core-and-ecosystem | 1,335 | 240 |
 | index-and-marketplace | 190 | 42 |
 | ui-and-desktop | 189 | 5 |
@@ -62,10 +62,10 @@
 | github | [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | 78.89 | B | 100.00 | ui-and-desktop |
 | github | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 78.78 | B | 100.00 | core-and-ecosystem |
 | github | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 77.09 | B | 100.00 | ui-and-desktop |
-| github | [superdesigndev/superdesign-skill](https://github.com/superdesigndev/superdesign-skill) | 76.87 | B | 100.00 | core-and-ecosystem |
+| github | [superdesigndev/superdesign-skill](https://github.com/superdesigndev/superdesign-skill) | 76.86 | B | 100.00 | core-and-ecosystem |
 | github | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 76.44 | B | 100.00 | ui-and-desktop |
 | github | [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | 76.28 | B | 100.00 | multimedia-and-vision |
-| github | [GanyuanRan/Aegis](https://github.com/GanyuanRan/Aegis) | 75.85 | B | 100.00 | docs-and-learning |
+| github | [GanyuanRan/Aegis](https://github.com/GanyuanRan/Aegis) | 75.84 | B | 100.00 | docs-and-learning |
 | github | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | 75.81 | B | 100.00 | core-and-ecosystem |
 
 ## 高互动/高关注记录
