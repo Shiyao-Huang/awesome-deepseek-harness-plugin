@@ -6,12 +6,12 @@
 <rect x="300" y="74" width="600" height="22" rx="11" fill="#e8e2d6"/>
 <rect x="300" y="74" width="13" height="22" rx="11" fill="#ef8354"/>
 <text x="912" y="92" text-anchor="end" font-size="15" font-weight="700">258</text>
-<text x="28" y="138" font-size="15">band C（avg value 51.9）</text>
+<text x="28" y="138" font-size="15">band C（avg value 51.7）</text>
 <rect x="300" y="120" width="600" height="22" rx="11" fill="#e8e2d6"/>
-<rect x="300" y="120" width="68" height="22" rx="11" fill="#4f6d7a"/>
-<text x="912" y="138" text-anchor="end" font-size="15" font-weight="700">1,303</text>
+<rect x="300" y="120" width="69" height="22" rx="11" fill="#4f6d7a"/>
+<text x="912" y="138" text-anchor="end" font-size="15" font-weight="700">1,335</text>
 <text x="28" y="184" font-size="15">band D（avg value 33.8）</text>
 <rect x="300" y="166" width="600" height="22" rx="11" fill="#e8e2d6"/>
 <rect x="300" y="166" width="600" height="22" rx="11" fill="#5da399"/>
-<text x="912" y="184" text-anchor="end" font-size="15" font-weight="700">11,484</text>
+<text x="912" y="184" text-anchor="end" font-size="15" font-weight="700">11,506</text>
 </svg>

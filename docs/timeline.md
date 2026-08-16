@@ -5,24 +5,78 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 2小时前 | xiaohongshu | note | [20 分钟看懂 DeepSeek Harness 总体架构](https://www.xiaohongshu.com/explore/6a81333b000000003300b98f) | AI架构师Leo | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [AI小白要装的3个DeepSeek Harness插件！](https://www.xiaohongshu.com/explore/6a7e6aa90000000008011c7a) | 科技小亮AGI | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [DeepSeek Harness](https://www.xiaohongshu.com/explore/6a7dbcde000000002500641d) | LBunny | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [DeepSeek Harness 不是给新手小白用的](https://www.xiaohongshu.com/explore/6a7e93c3000000002202d2dd) | 木东 | core-and-ecosystem |
+| 1天前 | xiaohongshu | note | [DeepSeek Harness 保姆级上手教程🔥](https://www.xiaohongshu.com/explore/6a7dcb5b000000000502b423) | 库森说AI | core-and-ecosystem |
+| 1天前 | xiaohongshu | note | [DeepSeek Harness 十卡入门](https://www.xiaohongshu.com/explore/6a7ed51e0000000008010eb5) | 陈Sir｜独立应用开发者 | core-and-ecosystem |
+| 4天前 | xiaohongshu | note | [DeepSeek Harness 即将上线！](https://www.xiaohongshu.com/explore/6a7ad7e30000000029031ca5) | 李清 | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [DeepSeek Harness 安装，使用，没有惊喜。](https://www.xiaohongshu.com/explore/6a7de321000000002403d22f) | Ai学习的老章 | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [DeepSeek Harness 实测](https://www.xiaohongshu.com/explore/6a7dd3a800000000290326ff) | MinimalCoder | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [DeepSeek Harness 开箱体验](https://www.xiaohongshu.com/explore/6a7dda7b0000000028032df5) | 比尔达 | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [DeepSeek Harness 的定位示范了什么叫品味](https://www.xiaohongshu.com/explore/6a7dc6e8000000002202ee68) | 衣正元 | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [DeepSeek Harness 配色方案插件](https://www.xiaohongshu.com/explore/6a7e71c4000000002402e88a) | 嗡嗡嗡 | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [DeepSeek Harness 重构智能体框架](https://www.xiaohongshu.com/explore/6a7df4890000000008013b81) | Fantastic AI888 | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [DeepSeek Harness 面向小白的简单科普](https://www.xiaohongshu.com/explore/6a7dd36b000000002702176b) | 杨老师Up | core-and-ecosystem |
+| 1天前 | xiaohongshu | note | [DeepSeek Harness保姆级安装教程来啦！](https://www.xiaohongshu.com/explore/6a7faba9000000002c007d06) | 跟着阿亮学AI | core-and-ecosystem |
+| 3小时前 | xiaohongshu | note | [DeepSeek Harness变成DIY 确实会整活](https://www.xiaohongshu.com/explore/6a7ec10c000000002202f001) | 班味克星AIGC | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [DeepSeek Harness多模态避坑](https://www.xiaohongshu.com/explore/6a7e816b00000000320305bd) | 不只是鹦鹉博主 | core-and-ecosystem |
+| 1天前 | xiaohongshu | note | [DeepSeek Harness将是一个伟大的产品](https://www.xiaohongshu.com/explore/6a7ee00d000000000502bafc) | 酒神实验室 | core-and-ecosystem |
+| 1天前 | xiaohongshu | note | [DeepSeek Harness深度拆解：](https://www.xiaohongshu.com/explore/6a7ee41400000000060075a5) | 会点编程的小财务 | core-and-ecosystem |
+| 1天前 | xiaohongshu | note | [DeepSeek Harness深度解读](https://www.xiaohongshu.com/explore/6a7ee56300000000080111f8) | 懂王Ai | core-and-ecosystem |
+| 昨天 20:47 | xiaohongshu | note | [DeepSeek Harness的机器人接入插件来了](https://www.xiaohongshu.com/explore/6a804419000000002500b558) | 三只蟹AI说 | core-and-ecosystem |
+| 1天前 | xiaohongshu | note | [DeepSeek Harness，到底是什么？](https://www.xiaohongshu.com/explore/6a7ee1b000000000280063be) | 司徒深霜 | core-and-ecosystem |
+| 1天前 | xiaohongshu | note | [DeepSeek Harness｜AI 从聊天到帮你干活儿](https://www.xiaohongshu.com/explore/6a7eca2e000000000502079c) | 爆品解码 | core-and-ecosystem |
+| 4天前 | xiaohongshu | note | [DeepSeek V4Pro+Harness吊打Fable？](https://www.xiaohongshu.com/explore/6a7bdbb2000000002402dd1b) | 小蚁AIGC | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [DeepSeek harness 启动！](https://www.xiaohongshu.com/explore/6a7dd50f0000000032023dfa) | AIGC赛博摆渡人 | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [DeepSeek harness一键安装来了！](https://www.xiaohongshu.com/explore/6a7e82170000000025003ca0) | 词元AI编程 | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [DeepSeek harness工程解读](https://www.xiaohongshu.com/explore/6a7e5fda000000003400f24f) | 浅忆 | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [DeepSeek × Harness，能直接做视频吗？](https://www.xiaohongshu.com/explore/6a7df151000000003303669a) | Pakco | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [DeepSeek为什么用 Cordis 做 Harness](https://www.xiaohongshu.com/explore/6a7e58e9000000002c00753c) | yuqingteck | core-and-ecosystem |
+| 1天前 | xiaohongshu | note | [DeepSeek把全世界变成分布式Harness团队](https://www.xiaohongshu.com/explore/6a7edbbc000000003501436f) | Koji杨远骋 | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [Deepseek Harness Cordis 插件机制](https://www.xiaohongshu.com/explore/6a7dc014000000003400ce55) | Charlescen | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [GitHub星探-DeepSeekHarness](https://www.xiaohongshu.com/explore/6a7e79400000000033033d88) | 黑鬼云 | index-and-marketplace |
+| 1天前 | xiaohongshu | note | [VS Code 也能用上 DeepSeekHarness 了！](https://www.xiaohongshu.com/explore/6a7fd0220000000022030d2f) | Junven 小土 | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [deepseek harness 创造模式 有点意思](https://www.xiaohongshu.com/explore/6a7de06e00000000250160a8) | 大眼仔看世界 | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [deepseek harness 工具/插件/mcp添加指南](https://www.xiaohongshu.com/explore/6a7ddae3000000002203284a) | NBIS at least 600 | core-and-ecosystem |
+| 1天前 | xiaohongshu | note | [deepseek harness插件商店来了](https://www.xiaohongshu.com/explore/6a7ee5660000000033037d0d) | AI信使 | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [一切皆插件！DeepSeek Harness发布！](https://www.xiaohongshu.com/explore/6a7dd2cc000000000502a577) | canner13 | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [一文看懂DeepSeek Harness](https://www.xiaohongshu.com/explore/6a7e6b6c000000002c000e39) | 硅基AI智造局 | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [也是能在手机上跑deepseek harness](https://www.xiaohongshu.com/explore/6a7eaec0000000000801383a) | 梦白忘黑 | core-and-ecosystem |
+| 05-21 | xiaohongshu | note | [前天市垣联创加盟DeepSeek，负责Harness团队](https://www.xiaohongshu.com/explore/6a0e9d9c0000000035024aad) | Top华人科创社区 | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [史上最短 DeepSeek Harness 上手教程](https://www.xiaohongshu.com/explore/6a7dd92b0000000008013975) | 小黑的AI实验室 | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [安装Deepseek Harness以及桌面图标启动](https://www.xiaohongshu.com/explore/6a7ddf74000000003303796f) | Ww | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [就在刚刚，DeepSeek 把自己的 Harness 开源](https://www.xiaohongshu.com/explore/6a7dc79b0000000022017de5) | 独立开发北城 | core-and-ecosystem |
+| 1天前 | xiaohongshu | note | [感觉说的对，搞钱还得看Deepseek Harness](https://www.xiaohongshu.com/explore/6a7f3ad300000000260378ba) | 卡皮Jacky搞钱情报挖掘机 | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [我参与过 DeepSeek Harness 生态？](https://www.xiaohongshu.com/explore/6a7dcac3000000000502b046) | 夕色琉璃 | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [我理解的DeepSeek Harness](https://www.xiaohongshu.com/explore/6a7e78ac0000000025004bb9) | AllInAI | core-and-ecosystem |
+| 1天前 | xiaohongshu | note | [我的dsh插件市场更新啦](https://www.xiaohongshu.com/explore/6a7fe433000000002500450d) | Awesome | index-and-marketplace |
+| 1天前 | xiaohongshu | note | [新手必装的deepseek harness插件](https://www.xiaohongshu.com/explore/6a7efdb30000000005033aa3) | AI磊叔 | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [用DeepseekHarness三毛钱开发了个小游戏！](https://www.xiaohongshu.com/explore/6a7dda390000000008013fb0) | 生活易如反掌 | core-and-ecosystem |
+| 昨天 21:03 | xiaohongshu | note | [用deepseek harness搭了个aix科研平台](https://www.xiaohongshu.com/explore/6a8063b90000000026037007) | 德富巧克力 | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [给 DSH 插件装了个 MCP 入口](https://www.xiaohongshu.com/explore/6a7de9840000000032033b7e) | Bob | core-and-ecosystem |
+| 1天前 | xiaohongshu | note | [自定义DeepSeek Harness交互优化展示！](https://www.xiaohongshu.com/explore/6a7ebe2800000000080123f9) | 少女阿原 | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [连夜给DeepSeek Harness做了个「透视镜」](https://www.xiaohongshu.com/explore/6a7e92000000000025011eab) | Moondust | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [🤖DeepSeek 开源 Harness v0.1](https://www.xiaohongshu.com/explore/6a7e66e8000000002702186f) | 白头鹰AI出海 | core-and-ecosystem |
 | 2026年8月16日 00:11 江苏 | wechat | article | [DeepSeek Harness 开始](https://mp.weixin.qq.com/s?__biz=MzIwMjM3ODM2OQ==&mid=2247485602&idx=1) | GoCoding | index-and-marketplace |
 | 2026年8月15日 21:30 广东 | wechat | article | [DeepSeek Harness 的 10 个热门插件，从榜单到用法](https://mp.weixin.qq.com/s?__biz=MzUxNjczOTc4MA==&mid=2247487218&idx=1) | 虾看虾说 | index-and-marketplace |
 | 2026年8月16日 11:29 四川 | wechat | article | [Deepseek Harness插件](https://mp.weixin.qq.com/s?__biz=MzcxMDI3MjI5OQ==&mid=2247483681&idx=1) | OminiKit | index-and-marketplace |
 | 48分钟前 | xiaohongshu | note | [DeepSeek Harness 保姆级安装教程🔥](https://www.xiaohongshu.com/explore/6a8138e80000000005028657) | 是啊糖糖啊AI版 | core-and-ecosystem |
 | 11小时前 | xiaohongshu | note | [DeepSeek Harness 必装的6个插件](https://www.xiaohongshu.com/explore/6a809f790000000021022ebc) | 同旭AI | core-and-ecosystem |
-| 12小时前 | xiaohongshu | note | [DeepSeek Harness 爆改自媒体工作台！](https://www.xiaohongshu.com/explore/6a809282000000003302d961) | oil欧呦 | core-and-ecosystem |
+| 14小时前 | xiaohongshu | note | [DeepSeek Harness 爆改自媒体工作台！](https://www.xiaohongshu.com/explore/6a809282000000003302d961) | oil欧呦 | core-and-ecosystem |
 | 10小时前 | xiaohongshu | note | [DeepSeek Harness--万物皆插件「任务完成](https://www.xiaohongshu.com/explore/6a80ad8a0000000025015a78) | 404 | core-and-ecosystem |
 | 2小时前 | xiaohongshu | note | [DeepSeek Harness实测：能做任何Agent吗？](https://www.xiaohongshu.com/explore/6a81182a000000002c007ae0) | 斑马MVP实验室 | core-and-ecosystem |
-| 8小时前 | xiaohongshu | note | [Deepseek Harness接入机器人的插件发布了](https://www.xiaohongshu.com/explore/6a80be8a000000000502044d) | 三只蟹AI说 | core-and-ecosystem |
-| 12小时前 | xiaohongshu | note | [Deepseek Harness！插件工作原理浅析！](https://www.xiaohongshu.com/explore/6a8098de00000000250061b7) | AI产品狙击手 | core-and-ecosystem |
+| 10小时前 | xiaohongshu | note | [Deepseek Harness接入机器人的插件发布了](https://www.xiaohongshu.com/explore/6a80be8a000000000502044d) | 三只蟹AI说 | core-and-ecosystem |
+| 13小时前 | xiaohongshu | note | [Deepseek Harness！插件工作原理浅析！](https://www.xiaohongshu.com/explore/6a8098de00000000250061b7) | AI产品狙击手 | core-and-ecosystem |
 | 1小时前 | xiaohongshu | note | [Deepseek harness 速通教程！万物皆插件！](https://www.xiaohongshu.com/explore/6a812931000000002500fa87) | PM刘搞定（AI版） | core-and-ecosystem |
 | 3小时前 | xiaohongshu | note | [Deepseek-harness-desktop：一键安装的DSH](https://www.xiaohongshu.com/explore/6a80950a0000000006005bb1) | 枫叶学长的ai笔记 | ui-and-desktop |
 | 赞 | xiaohongshu | note | [Fitzgerald Pond](https://www.xiaohongshu.com/explore/6a808fc0000000003301d970) | 12小时前 | core-and-ecosystem |
 | 4小时前 | xiaohongshu | note | [deepseek harness手机远程-黑鲸鱼和蓝鲸](https://www.xiaohongshu.com/explore/6a80f696000000003202322e) | M阿嚏 | core-and-ecosystem |
 | 2小时前 | xiaohongshu | note | [免费deepseek-harness详细中文教程](https://www.xiaohongshu.com/explore/6a81255f000000002800682c) | Fitzgerald Pond | core-and-ecosystem |
 | 11小时前 | xiaohongshu | note | [全网最简单deepseek harness安装教程](https://www.xiaohongshu.com/explore/6a80a91a000000003301c01f) | CC的变现笔记 | core-and-ecosystem |
-| 2小时前 | xiaohongshu | note | [小白必看！三分钟吃透Deepseek Harness](https://www.xiaohongshu.com/explore/6a8090650000000022030125) | FredTalk | core-and-ecosystem |
-| 46分钟前 | xiaohongshu | note | [我给 Obsidian 弄了 DeepSeek-Harness 插件](https://www.xiaohongshu.com/explore/6a80b7c10000000006006164) | EVOLVE | core-and-ecosystem |
+| 4小时前 | xiaohongshu | note | [小白必看！三分钟吃透Deepseek Harness](https://www.xiaohongshu.com/explore/6a8090650000000022030125) | FredTalk | core-and-ecosystem |
+| 35分钟前 | xiaohongshu | note | [我给 Obsidian 弄了 DeepSeek-Harness 插件](https://www.xiaohongshu.com/explore/6a80b7c10000000006006164) | EVOLVE | core-and-ecosystem |
 | 1小时前 | xiaohongshu | note | [收藏！DeepSeek Harness 必备插件！](https://www.xiaohongshu.com/explore/6a809e0d000000002403eb4b) | 程序员少北晨 | core-and-ecosystem |
 | 5小时前 | xiaohongshu | note | [本地部署DeepSeekHarness和千问3.8-27B](https://www.xiaohongshu.com/explore/6a80f759000000003300baea) | ZZ 是画渣 | core-and-ecosystem |
 | 11小时前 | xiaohongshu | note | [秒懂deepseekharness牛在哪儿？不是开源](https://www.xiaohongshu.com/explore/6a80a5b80000000022017d2b) | 笨鸟怎么飞 | core-and-ecosystem |
@@ -74,12 +128,12 @@
 | 1h ago | reddit | post | [A resource for navigating the booming DSH plugin ecosystem](https://www.reddit.com/r/DeepSeek/comments/1vplhkb/a_resource_for_navigating_the_booming_dsh_plugin) | No-Weight1118 | core-and-ecosystem |
 | 昨天 11:08 | xiaohongshu | note | [DeepSeek Harness 10大实用高⭐插件](https://www.xiaohongshu.com/explore/6a7fd835000000002800a264) | 马克波MarkWave | core-and-ecosystem |
 | 1天前 | xiaohongshu | note | [DeepSeek Harness 必装插件分享（个人实测](https://www.xiaohongshu.com/explore/6a7f5ce00000000025002e94) | 和AI一起成长 | core-and-ecosystem |
-| 5小时前 | xiaohongshu | note | [DeepSeek Harness 背后技术揭秘](https://www.xiaohongshu.com/explore/6a80b85a0000000029030686) | 机智的哒哒学姐 | core-and-ecosystem |
+| 6小时前 | xiaohongshu | note | [DeepSeek Harness 背后技术揭秘](https://www.xiaohongshu.com/explore/6a80b85a0000000029030686) | 机智的哒哒学姐 | core-and-ecosystem |
 | 昨天 20:06 | xiaohongshu | note | [DeepSeek Harness 赌的是 Plugin Scaling](https://www.xiaohongshu.com/explore/6a8055950000000022017b5e) | 观想人间的一团云 | core-and-ecosystem |
 | 1天前 | xiaohongshu | note | [DeepSeek Harness，二开真的太爽了。。](https://www.xiaohongshu.com/explore/6a7ed6230000000028002351) | 阿东玩AI | core-and-ecosystem |
 | 2天前 | xiaohongshu | note | [Deepseek Harness！可以自己迭代自己！](https://www.xiaohongshu.com/explore/6a7ded1500000000250048d1) | Wisdomqin | core-and-ecosystem |
-| 1天前 | xiaohongshu | note | [deepseek harness插件商店来了！](https://www.xiaohongshu.com/explore/6a7ea0b60000000022017f2d) | 无敌老可爱 | core-and-ecosystem |
-| 7小时前 | xiaohongshu | note | [从零开始做第一个 DeepSeek Harness 插件](https://www.xiaohongshu.com/explore/6a80b425000000002c0066c6) | 艾林AI | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [deepseek harness插件商店来了！](https://www.xiaohongshu.com/explore/6a7ea0b60000000022017f2d) | 无敌老可爱 | core-and-ecosystem |
+| 11小时前 | xiaohongshu | note | [从零开始做第一个 DeepSeek Harness 插件](https://www.xiaohongshu.com/explore/6a80b425000000002c0066c6) | 艾林AI | core-and-ecosystem |
 | 1天前 | xiaohongshu | note | [拆解 DeepSeek Harness：一切皆插件](https://www.xiaohongshu.com/explore/6a7f19270000000033037c21) | 00的AI产品手记 | core-and-ecosystem |
 | 昨天 18:56 | xiaohongshu | note | [插件推荐：DeepSeek Harness必装！](https://www.xiaohongshu.com/explore/6a8045ea0000000022017e77) | 图灵邮差 | core-and-ecosystem |
 | 昨天 20:04 | xiaohongshu | note | [零基础DeepSeekHarness做工作台保姆级教程](https://www.xiaohongshu.com/explore/6a7ff1cb00000000250022ce) | AI樟榆树 | core-and-ecosystem |
@@ -91,9 +145,9 @@
 | 2026-08-16 | github | plugin | [dsh-no-setup-mode](https://github.com/johnnycls/dsh-no-setup-mode) | johnnycls | core-and-ecosystem |
 | 1天前 | xiaohongshu | note | [DeepSeek Harness 像 foobar2000？](https://www.xiaohongshu.com/explore/6a7ee9020000000028008fb1) | zlbigger | core-and-ecosystem |
 | 1天前 | xiaohongshu | note | [DeepSeek Harness 四步安装教程](https://www.xiaohongshu.com/explore/6a7e4e240000000024025cd0) | Jack拆世界 | core-and-ecosystem |
-| 10小时前 | xiaohongshu | note | [DeepSeek Harness 的 12,293 次提交](https://www.xiaohongshu.com/explore/6a7df058000000003300df36) | TOMATOFQY | core-and-ecosystem |
-| 1天前 | xiaohongshu | note | [DeepSeek Harness到底是什么](https://www.xiaohongshu.com/explore/6a7e8199000000003301bccb) | 打工人的AI外挂 | core-and-ecosystem |
-| 1天前 | xiaohongshu | note | [DeepSeek Harness发布，我们确定了一个事情](https://www.xiaohongshu.com/explore/6a7eafd90000000022013f7b) | LangAlpha | Ginlix AI | core-and-ecosystem |
+| 12小时前 | xiaohongshu | note | [DeepSeek Harness 的 12,293 次提交](https://www.xiaohongshu.com/explore/6a7df058000000003300df36) | TOMATOFQY | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [DeepSeek Harness到底是什么](https://www.xiaohongshu.com/explore/6a7e8199000000003301bccb) | 打工人的AI外挂 | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [DeepSeek Harness发布，我们确定了一个事情](https://www.xiaohongshu.com/explore/6a7eafd90000000022013f7b) | LangAlpha | Ginlix AI | core-and-ecosystem |
 | 1天前 | xiaohongshu | note | [DeepSeek Harness已来，一起搞懂它](https://www.xiaohongshu.com/explore/6a7ecd2f0000000025007982) | 出前一廷🍜（HKU烹饪版） | core-and-ecosystem |
 | 2天前 | xiaohongshu | note | [DeepSeek Harness：插件时代来了吗](https://www.xiaohongshu.com/explore/6a7dcaa60000000025003f53) | 阿阿阿阿景（专业回收AI垃圾） | core-and-ecosystem |
 | 1天前 | xiaohongshu | note | [Deepseek Harness！](https://www.xiaohongshu.com/explore/6a7dc2a400000000220308ac) | 浅川 | core-and-ecosystem |
@@ -531,7 +585,7 @@
 | 9h ago | reddit | post | [New Deepseek harness only available on Web ? Not as Windows App ?](https://www.reddit.com/r/DeepSeek/comments/1vp0cy8/new_deepseek_harness_only_available_on_web_not_as) |  | core-and-ecosystem |
 | 2h ago | reddit | post | [OpenRouter has launched Ori Harness: Run your existing agent CLI on OpenRouter with any model](https://www.reddit.com/r/AIDeveloperNews/comments/1vpa0a1/openrouter_has_launched_ori_harness_run_your) |  | core-and-ecosystem |
 | 2026-08-15T19:56:51Z | github | fork | [MauricioPerera/deepseek-harness](https://github.com/MauricioPerera/deepseek-harness) | MauricioPerera | deepseek-harness-forks |
-| 1天前 | xiaohongshu | note | [7分钟解读DeepSeek Harness](https://www.xiaohongshu.com/explore/6a7ea5430000000006006ce6) | 晓辉博士 | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [7分钟解读DeepSeek Harness](https://www.xiaohongshu.com/explore/6a7ea5430000000006006ce6) | 晓辉博士 | core-and-ecosystem |
 | 昨天 20:18 | xiaohongshu | note | [Cordis: DeepSeek Harness的底层插件框架](https://www.xiaohongshu.com/explore/6a802523000000002403d50a) | 源点PI | core-and-ecosystem |
 | 昨天 18:14 | xiaohongshu | note | [DeepSeek Harness MCP 可视化插件](https://www.xiaohongshu.com/explore/6a803c0700000000060042a8) | 等一个狗子 | core-and-ecosystem |
 | 2天前 | xiaohongshu | note | [DeepSeek Harness 开源了，竟用 TS + Node](https://www.xiaohongshu.com/explore/6a7dd2be000000003302d268) | 五月君 | core-and-ecosystem |
@@ -541,17 +595,17 @@
 | 昨天 19:02 | xiaohongshu | note | [DeepSeek Harness完美嵌入Obsidian侧边栏](https://www.xiaohongshu.com/explore/6a80027d0000000032032dde) | Blank[[ ]] | core-and-ecosystem |
 | 1天前 | xiaohongshu | note | [DeepSeek Harness开发被曝大量使用 Codex](https://www.xiaohongshu.com/explore/6a7f2d13000000002c002923) | 硅基处长 | core-and-ecosystem |
 | 06-23 | xiaohongshu | note | [DeepSeek大佬贴小广告，究竟发生了什么](https://www.xiaohongshu.com/explore/6a3913ae000000000f01dea3) | 大厂显微镜 | core-and-ecosystem |
-| 2天前 | xiaohongshu | note | [DeepSeek最适合的Harness来了](https://www.xiaohongshu.com/explore/6a7d424a000000002402dfaa) | 量子位 | core-and-ecosystem |
+| 3天前 | xiaohongshu | note | [DeepSeek最适合的Harness来了](https://www.xiaohongshu.com/explore/6a7d424a000000002402dfaa) | 量子位 | core-and-ecosystem |
 | 05-21 | xiaohongshu | note | [DeepSeek，不如你把这个人直接招了吧！](https://www.xiaohongshu.com/explore/6a0e8448000000003701c08a) | 量子位 | core-and-ecosystem |
 | 昨天 14:54 | xiaohongshu | note | [Deepseek harness配置，远程及插件管理](https://www.xiaohongshu.com/explore/6a7fb6be000000003400ca9e) | 好多鱼 | core-and-ecosystem |
 | 昨天 11:44 | xiaohongshu | note | [QQ Bot，支持接入 DeepSeek Harness](https://www.xiaohongshu.com/explore/6a7fe0840000000022032f5e) | QQ | core-and-ecosystem |
-| 1天前 | xiaohongshu | note | [[转自X]怒喷Deepseek Harness](https://www.xiaohongshu.com/explore/6a7e0cc6000000002402d6ae) | Agent好文推荐 | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [[转自X]怒喷Deepseek Harness](https://www.xiaohongshu.com/explore/6a7e0cc6000000002402d6ae) | Agent好文推荐 | core-and-ecosystem |
 | 2天前 | xiaohongshu | note | [deepseek harness 终于来了!!](https://www.xiaohongshu.com/explore/6a7dcb5900000000320216e8) | Jemini | core-and-ecosystem |
 | 1天前 | xiaohongshu | note | [dsh到底在解决什么问题？](https://www.xiaohongshu.com/explore/6a7e99f700000000320326d3) | 404 | core-and-ecosystem |
 | 1天前 | xiaohongshu | note | [怒花500，DeepSeek Harness普通人要不要试](https://www.xiaohongshu.com/explore/6a7ec5be000000000502afa1) | 南鸢 | core-and-ecosystem |
 | 1天前 | xiaohongshu | note | [我给 Harness 做了一只会看状态的鲸鱼🐋](https://www.xiaohongshu.com/explore/6a7ef32c000000002402e0b2) | koko | core-and-ecosystem |
-| 1天前 | xiaohongshu | note | [手机上安装运行Deepseek harness](https://www.xiaohongshu.com/explore/6a7e65b30000000032032cf6) | Jemini | core-and-ecosystem |
-| 昨天 13:34 | xiaohongshu | note | [浅测DeepSeek Harness（用户向）](https://www.xiaohongshu.com/explore/6a7deaee00000000260379a2) | 善良兄 | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [手机上安装运行Deepseek harness](https://www.xiaohongshu.com/explore/6a7e65b30000000032032cf6) | Jemini | core-and-ecosystem |
+| 1天前 | xiaohongshu | note | [浅测DeepSeek Harness（用户向）](https://www.xiaohongshu.com/explore/6a7deaee00000000260379a2) | 善良兄 | core-and-ecosystem |
 | 2026-08-15T19:52:31Z | github | fork | [YDERO3452/deepseek-harness](https://github.com/YDERO3452/deepseek-harness) | YDERO3452 | deepseek-harness-forks |
 | 2026-08-15T19:50:41Z | github | fork | [Mby159/deepseek-harness](https://github.com/Mby159/deepseek-harness) | Mby159 | deepseek-harness-forks |
 | 5m | x | post | [. @deepseek_ai ha publicado DeepSeek Harness, una infraestructura open source para construir y ejecutar agentes. La decisión de arquitectura más interesante es que &quot;todo es un pl](https://x.com/baumannzone/status/2088714922553217041) | Jorge Baumann | core-and-ecosystem |
@@ -2725,10 +2779,10 @@
 | 2026-08-15T06:18:36Z | github | fork | [code-hero/deepseek-harness](https://github.com/code-hero/deepseek-harness) | code-hero | deepseek-harness-forks |
 | 2026-08-15T06:18:07Z | zhihu | question | [怎么看 DeepSeek Harness 正式开源，采用一切皆插件的架构？](https://www.zhihu.com/question/2071348486667237276) |  | core-and-ecosystem |
 | 1天前 | xiaohongshu | note | [DeepSeek Harness 当前十大高⭐插件](https://www.xiaohongshu.com/explore/6a7ed7b700000000080122d4) | 三木 | core-and-ecosystem |
-| 1天前 | xiaohongshu | note | [DeepSeek Harness 把一切做成 Plugin](https://www.xiaohongshu.com/explore/6a7e7cf20000000035016891) | 犹在镜中 | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [DeepSeek Harness 把一切做成 Plugin](https://www.xiaohongshu.com/explore/6a7e7cf20000000035016891) | 犹在镜中 | core-and-ecosystem |
 | 1天前 | xiaohongshu | note | [DeepSeek Harness 插件入门分享](https://www.xiaohongshu.com/explore/6a7deb1c0000000025003450) | Algebra | core-and-ecosystem |
 | 5小时前 | xiaohongshu | note | [DeepSeek Harness工作台搭建](https://www.xiaohongshu.com/explore/6a7f1798000000002202c208) | 老董的北漂生活日记 | core-and-ecosystem |
-| 1天前 | xiaohongshu | note | [DeepSeek Harness建模实测](https://www.xiaohongshu.com/explore/6a7ddcbf0000000025007681) | LBunny | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [DeepSeek Harness建模实测](https://www.xiaohongshu.com/explore/6a7ddcbf0000000025007681) | LBunny | core-and-ecosystem |
 | 1天前 | xiaohongshu | note | [DeepSeek Harness很好，但不适合大多数人](https://www.xiaohongshu.com/explore/6a7eb71f0000000021021060) | 吃太饱骑士 | core-and-ecosystem |
 | 昨天 20:20 | xiaohongshu | note | [DeepSeek Harness插件机制解析](https://www.xiaohongshu.com/explore/6a7f081800000000280076d3) | MING&#x27;s Agent舱 | core-and-ecosystem |
 | 2天前 | xiaohongshu | note | [DeepSeek Harness装上皮肤顺眼多了](https://www.xiaohongshu.com/explore/6a7e82660000000025004904) | 量子位 | core-and-ecosystem |
@@ -2736,8 +2790,8 @@
 | 1天前 | xiaohongshu | note | [dsh创造github历史了，收集目前较火dsh插件](https://www.xiaohongshu.com/explore/6a7de59b0000000028008dbd) | 豆奶与程序猫 | index-and-marketplace |
 | 1天前 | xiaohongshu | note | [v4 pro+harness，距离fable5 仍有一定差距](https://www.xiaohongshu.com/explore/6a7dd42b000000002403fa6e) | Amor. | core-and-ecosystem |
 | 2天前 | xiaohongshu | note | [从0开始成为DeepSeek Harness高手](https://www.xiaohongshu.com/explore/6a7e6b100000000029032f61) | 野生AI研究员 | core-and-ecosystem |
-| 1天前 | xiaohongshu | note | [全网首发! DeepSeek Harness背后的论文解析](https://www.xiaohongshu.com/explore/6a7dc6030000000025013f0b) | 王刀仔 | core-and-ecosystem |
-| 1天前 | xiaohongshu | note | [写了一个DeepSeek Harness接入微信的插件](https://www.xiaohongshu.com/explore/6a7e94f5000000002402c800) | 菜菜在AI | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [全网首发! DeepSeek Harness背后的论文解析](https://www.xiaohongshu.com/explore/6a7dc6030000000025013f0b) | 王刀仔 | core-and-ecosystem |
+| 2天前 | xiaohongshu | note | [写了一个DeepSeek Harness接入微信的插件](https://www.xiaohongshu.com/explore/6a7e94f5000000002402c800) | 菜菜在AI | core-and-ecosystem |
 | 3天前 | xiaohongshu | note | [千问给DeepSeek装上了眼睛，能看图看视频](https://www.xiaohongshu.com/explore/6a7b40c70000000029030c1c) | 潦草学者 | core-and-ecosystem |
 | 1天前 | xiaohongshu | note | [太开心能参加DeepSeek Harness内测！！](https://www.xiaohongshu.com/explore/6a7dcc860000000033037926) | Monet | core-and-ecosystem |
 | 昨天 14:56 | xiaohongshu | note | [文件](https://www.xiaohongshu.com/explore/6a7ebc1f00000000060043d0) | 才巨智能 | operations-and-safety |
@@ -2747,7 +2801,7 @@
 | 2小时前 | xiaohongshu | note | [https://www.xiaohongshu.com/explore/6a7f266d000000002701caf2](https://www.xiaohongshu.com/explore/6a7f266d000000002701caf2) | AI大白话 | core-and-ecosystem |
 | 昨天 18:54 | xiaohongshu | note | [DeepSeek Harness，一盘为了论文包的饺子](https://www.xiaohongshu.com/explore/6a7ef3c800000000050337e7) | 电波曲奇 | operations-and-safety |
 | 42分钟前 | xiaohongshu | note | [DeepSeek把最值钱的东西免费了？](https://www.xiaohongshu.com/explore/6a7ffaad00000000210206ba) | 喵哇ppj | operations-and-safety |
-| 昨天 21:41 | xiaohongshu | note | [deepseek harness娘](https://www.xiaohongshu.com/explore/6a7f1b1b000000002701e3ca) | 在不n | operations-and-safety |
+| 1天前 | xiaohongshu | note | [deepseek harness娘](https://www.xiaohongshu.com/explore/6a7f1b1b000000002701e3ca) | 在不n | core-and-ecosystem |
 | 3小时前 | xiaohongshu | note | [从0到1带你速通 DeepSeek Harness](https://www.xiaohongshu.com/explore/6a7fd09b000000002500c8d9) | 韩有谁 | operations-and-safety |
 | 2026-08-15T06:17:40Z | github | fork | [SYQ1001/deepseek-harness](https://github.com/SYQ1001/deepseek-harness) | SYQ1001 | deepseek-harness-forks |
 | 2026-08-15T06:17:16Z | github | fork | [putewind/deepseek-harness](https://github.com/putewind/deepseek-harness) | putewind | deepseek-harness-forks |

@@ -2,7 +2,7 @@
 
 > 一个可重复更新的公开资料聚合体：仓库、插件、索引、文章、帖子、图片缩略图和视频链接。原始观测保留在 `data/raw/`，SQLite 是可查询的派生索引。
 
-当前数据集版本：**v20260816T055031Z**，完成时间：**2026-08-16T05:50:31Z**。共 **13,045** 条去重记录，覆盖 **14** 个平台，外部媒体资产 **1,068** 条。
+当前数据集版本：**v20260816T063759Z**，完成时间：**2026-08-16T06:37:59Z**。共 **13,099** 条去重记录，覆盖 **14** 个平台，外部媒体资产 **1,233** 条。
 
 ## 三句话结论
 
@@ -24,8 +24,8 @@
 | 平台 | 去重记录 | 采集方式 |
 | --- | ---: | --- |
 | github | 12,625 | public REST API |
+| xiaohongshu | 156 | ego-browser visible DOM |
 | hacker_news | 102 | Algolia public search API |
-| xiaohongshu | 102 | ego-browser visible DOM |
 | x | 90 | ego-browser visible DOM |
 | reddit | 47 | ego-browser visible DOM |
 | youtube | 28 | ego-browser visible DOM |
@@ -43,10 +43,10 @@
 | 分类 | 记录 | 带媒体 |
 | --- | ---: | ---: |
 | deepseek-harness-forks | 11,254 | 0 |
-| core-and-ecosystem | 1,215 | 187 |
-| index-and-marketplace | 176 | 40 |
+| core-and-ecosystem | 1,268 | 240 |
+| index-and-marketplace | 178 | 42 |
 | ui-and-desktop | 164 | 5 |
-| operations-and-safety | 102 | 1 |
+| operations-and-safety | 101 | 1 |
 | multimedia-and-vision | 73 | 6 |
 | docs-and-learning | 40 | 9 |
 | agents-and-orchestration | 21 | 4 |
@@ -58,9 +58,9 @@
 | 平台 | 记录 | value | band | confidence | 分类 |
 | --- | --- | ---: | :---: | ---: | --- |
 | github | [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 78.71 | B | 100.00 | core-and-ecosystem |
-| github | [dsh-web-ui#packages/dsh-web-ui-all](https://github.com/zhu1090093659/dsh-web-ui) | 77.55 | B | 100.00 | ui-and-desktop |
+| github | [dsh-web-ui#packages/dsh-web-ui-all](https://github.com/zhu1090093659/dsh-web-ui) | 77.54 | B | 100.00 | ui-and-desktop |
 | github | [modlens](https://github.com/liustack/modlens) | 76.96 | B | 100.00 | multimedia-and-vision |
-| github | [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 76.32 | B | 100.00 | ui-and-desktop |
+| github | [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 76.31 | B | 100.00 | ui-and-desktop |
 | github | [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | 76.28 | B | 100.00 | ui-and-desktop |
 | github | [dsh-deep-whale#maid-atelier](https://github.com/Small-tailqwq/dsh-deep-whale) | 75.70 | B | 100.00 | core-and-ecosystem |
 | github | [treg](https://github.com/superdesigndev/treg) | 75.37 | B | 100.00 | operations-and-safety |
