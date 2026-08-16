@@ -44,6 +44,7 @@ for ((attempt = 1; attempt <= max_attempts; attempt++)); do
   cp "$full_database" "$publish_worktree/data/aggregator-full.sqlite3.zst"
 
   make -C "$publish_worktree" restore-full
+  python3 "$publish_worktree/scripts/build_fork_index.py"
   make -C "$publish_worktree" build
   make -C "$publish_worktree" archive-full
   make -C "$publish_worktree" public-db
