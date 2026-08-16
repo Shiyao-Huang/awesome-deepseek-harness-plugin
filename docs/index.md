@@ -2,7 +2,7 @@
 
 > 一个可重复更新的公开资料聚合体：仓库、插件、索引、文章、帖子、图片缩略图和视频链接。原始观测保留在 `data/raw/`，SQLite 是可查询的派生索引。
 
-当前数据集版本：**v20260816T042011Z**，完成时间：**2026-08-16T04:20:11Z**。共 **12,997** 条去重记录，覆盖 **14** 个平台，外部媒体资产 **1,003** 条。
+当前数据集版本：**v20260816T052421Z**，完成时间：**2026-08-16T05:24:21Z**。共 **13,008** 条去重记录，覆盖 **14** 个平台，外部媒体资产 **1,005** 条。
 
 ## 三句话结论
 
@@ -23,8 +23,8 @@
 
 | 平台 | 去重记录 | 采集方式 |
 | --- | ---: | --- |
-| github | 12,615 | public REST API |
-| hacker_news | 101 | Algolia public search API |
+| github | 12,625 | public REST API |
+| hacker_news | 102 | Algolia public search API |
 | x | 90 | ego-browser visible DOM |
 | xiaohongshu | 76 | ego-browser visible DOM |
 | reddit | 40 | ego-browser visible DOM |
@@ -43,11 +43,11 @@
 | 分类 | 记录 | 带媒体 |
 | --- | ---: | ---: |
 | deepseek-harness-forks | 11,254 | 0 |
-| core-and-ecosystem | 1,047 | 167 |
+| core-and-ecosystem | 1,055 | 167 |
 | ui-and-desktop | 233 | 4 |
-| index-and-marketplace | 186 | 38 |
+| index-and-marketplace | 188 | 38 |
 | operations-and-safety | 107 | 1 |
-| multimedia-and-vision | 89 | 6 |
+| multimedia-and-vision | 90 | 6 |
 | docs-and-learning | 44 | 9 |
 | agents-and-orchestration | 37 | 4 |
 
@@ -57,16 +57,16 @@
 
 | 平台 | 记录 | value | band | confidence | 分类 |
 | --- | --- | ---: | :---: | ---: | --- |
-| github | [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 80.01 | A | 100.00 | ui-and-desktop |
-| github | [liustack/modlens](https://github.com/liustack/modlens) | 79.43 | B | 100.00 | multimedia-and-vision |
-| github | [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | 78.74 | B | 100.00 | ui-and-desktop |
-| github | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 78.69 | B | 100.00 | core-and-ecosystem |
+| github | [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 80.05 | A | 100.00 | ui-and-desktop |
+| github | [liustack/modlens](https://github.com/liustack/modlens) | 79.47 | B | 100.00 | multimedia-and-vision |
+| github | [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | 78.78 | B | 100.00 | ui-and-desktop |
+| github | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 78.71 | B | 100.00 | core-and-ecosystem |
 | github | [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness) | 77.44 | B | 100.00 | operations-and-safety |
-| github | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 76.96 | B | 100.00 | ui-and-desktop |
-| github | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 76.26 | B | 100.00 | ui-and-desktop |
-| github | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | 75.68 | B | 100.00 | core-and-ecosystem |
-| github | [Lum1104/dsh-browser](https://github.com/Lum1104/dsh-browser) | 75.36 | B | 100.00 | ui-and-desktop |
-| github | [superdesigndev/superdesign-skill](https://github.com/superdesigndev/superdesign-skill) | 75.36 | B | 100.00 | core-and-ecosystem |
+| github | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 76.99 | B | 100.00 | ui-and-desktop |
+| github | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 76.32 | B | 100.00 | ui-and-desktop |
+| github | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | 75.70 | B | 100.00 | core-and-ecosystem |
+| github | [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | 75.53 | B | 100.00 | multimedia-and-vision |
+| github | [Lum1104/dsh-browser](https://github.com/Lum1104/dsh-browser) | 75.40 | B | 100.00 | ui-and-desktop |
 
 ## 高互动/高关注记录
 
