@@ -17,6 +17,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 import build_public_db
 import collect
 import materialize_raw_snapshots
+import reconcile_raw_snapshots
 
 
 class EgoGitHubAdapterTests(unittest.TestCase):
@@ -116,6 +117,99 @@ class SeedSelectionTests(unittest.TestCase):
 
         selected = import_files.call_args.args[1]
         self.assertEqual(selected, [included])
+
+    def test_reconcile_imports_only_unregistered_checked_in_raw(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            raw_dir = root / "data" / "raw"
+            database = root / "aggregator.sqlite3"
+            known = raw_dir / "known.json"
+            fresh = raw_dir / "xiaohongshu" / "fresh.json"
+            for path, label, collected_at in (
+                (known, "known", "2026-08-16T01:00:00Z"),
+                (fresh, "fresh", "2026-08-16T02:00:00Z"),
+            ):
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text(json.dumps({
+                    "collected_at": collected_at,
+                    "observations": [{
+                        "platform": "web",
+                        "query": label,
+                        "source_url": f"https://example.com/{label}",
+                        "collected_at": collected_at,
+                        "items": [{
+                            "platform": "web",
+                            "external_id": label,
+                            "url": f"https://example.com/{label}",
+                            "title": label,
+                        }],
+                    }],
+                }), encoding="utf-8")
+
+            collect.init_db(database)
+            with collect.connect(database) as connection:
+                run_id, _, _ = collect.begin_collection_run(connection, "seed")
+                stats = collect.import_files(connection, [known], run_id)
+                collect.finish_collection_run(connection, run_id, stats)
+
+            args = argparse.Namespace(db=database)
+            version, stats = reconcile_raw_snapshots.reconcile(args.db, raw_dir)
+            repeated_version, repeated_stats = reconcile_raw_snapshots.reconcile(args.db, raw_dir)
+
+            with collect.connect(database) as connection:
+                raw_count = connection.execute("SELECT COUNT(*) FROM raw_snapshots").fetchone()[0]
+                triggers = [
+                    str(row[0])
+                    for row in connection.execute("SELECT trigger FROM collection_runs ORDER BY id")
+                ]
+
+        self.assertEqual(raw_count, 2)
+        self.assertEqual(triggers, ["seed", "reconcile"])
+        self.assertIsNotNone(version)
+        self.assertEqual(stats.raw_files_seen, 1)
+        self.assertIsNone(repeated_version)
+        self.assertEqual(repeated_stats.raw_files_seen, 0)
+
+    def test_reconcile_preserves_progress_when_later_raw_is_invalid(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            raw_dir = root / "data" / "raw"
+            database = root / "aggregator.sqlite3"
+            valid = raw_dir / "01-valid.json"
+            invalid = raw_dir / "02-invalid.json"
+            raw_dir.mkdir(parents=True)
+            valid.write_text(json.dumps({
+                "collected_at": "2026-08-16T01:00:00Z",
+                "observations": [{
+                    "platform": "web",
+                    "query": "valid",
+                    "source_url": "https://example.com/valid",
+                    "collected_at": "2026-08-16T01:00:00Z",
+                    "items": [{
+                        "platform": "web",
+                        "external_id": "valid",
+                        "url": "https://example.com/valid",
+                        "title": "valid",
+                    }],
+                }],
+            }), encoding="utf-8")
+            invalid.write_text("{", encoding="utf-8")
+
+            with self.assertRaises(json.JSONDecodeError):
+                reconcile_raw_snapshots.reconcile(database, raw_dir)
+
+            with collect.connect(database) as connection:
+                run = connection.execute(
+                    "SELECT status, raw_files_seen, item_observations, new_items, error_message "
+                    "FROM collection_runs"
+                ).fetchone()
+                raw_count = connection.execute("SELECT COUNT(*) FROM raw_snapshots").fetchone()[0]
+                item_count = connection.execute("SELECT COUNT(*) FROM items").fetchone()[0]
+
+        self.assertEqual(tuple(run[:4]), ("error", 2, 1, 1))
+        self.assertIn("Expecting property name", str(run[4]))
+        self.assertEqual(raw_count, 1)
+        self.assertEqual(item_count, 1)
 
 
 class RawMaterializationTests(unittest.TestCase):

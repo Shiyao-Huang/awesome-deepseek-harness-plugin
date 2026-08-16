@@ -67,6 +67,13 @@ class RepositoryPolicyTests(unittest.TestCase):
 
         self.assertLess(fork_build, other_builds)
 
+    def test_generated_publisher_reconciles_committed_raw_before_build(self) -> None:
+        publisher = (ROOT / "scripts" / "publish_generated_commit.sh").read_text(encoding="utf-8")
+        reconcile = publisher.index('scripts/reconcile_raw_snapshots.py')
+        fork_build = publisher.index('python3 "$publish_worktree/scripts/build_fork_index.py"')
+
+        self.assertLess(reconcile, fork_build)
+
     def test_refresh_workflows_publish_one_full_database_build(self) -> None:
         publisher = (ROOT / "scripts" / "publish_generated_commit.sh").read_text(encoding="utf-8")
         self.assertIn('cp "$source_database" "$publish_worktree/data/aggregator.sqlite3"', publisher)
