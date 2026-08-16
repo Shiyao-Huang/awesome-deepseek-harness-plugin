@@ -1,17 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="920" height="238" viewBox="0 0 920 238">
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="284" viewBox="0 0 920 284">
 <style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#253237} .muted{fill:#6b7a80;font-size:12px}</style>
 <rect width="100%" height="100%" rx="18" fill="#fbfaf7"/>
 <text x="28" y="34" font-size="20" font-weight="700">Value-band distribution — current dataset</text>
-<text x="28" y="92" font-size="15">band B（avg value 63.2）</text>
+<text x="28" y="92" font-size="15">band A（avg value 80.3）</text>
 <rect x="300" y="74" width="600" height="22" rx="11" fill="#e8e2d6"/>
-<rect x="300" y="74" width="17" height="22" rx="11" fill="#ef8354"/>
-<text x="912" y="92" text-anchor="end" font-size="15" font-weight="700">365</text>
-<text x="28" y="138" font-size="15">band C（avg value 52.5）</text>
+<rect x="300" y="74" width="0" height="22" rx="11" fill="#ef8354"/>
+<text x="912" y="92" text-anchor="end" font-size="15" font-weight="700">1</text>
+<text x="28" y="138" font-size="15">band B（avg value 64.2）</text>
 <rect x="300" y="120" width="600" height="22" rx="11" fill="#e8e2d6"/>
-<rect x="300" y="120" width="69" height="22" rx="11" fill="#4f6d7a"/>
-<text x="912" y="138" text-anchor="end" font-size="15" font-weight="700">1,465</text>
-<text x="28" y="184" font-size="15">band D（avg value 33.7）</text>
+<rect x="300" y="120" width="11" height="22" rx="11" fill="#4f6d7a"/>
+<text x="912" y="138" text-anchor="end" font-size="15" font-weight="700">242</text>
+<text x="28" y="184" font-size="15">band C（avg value 52.6）</text>
 <rect x="300" y="166" width="600" height="22" rx="11" fill="#e8e2d6"/>
-<rect x="300" y="166" width="600" height="22" rx="11" fill="#5da399"/>
-<text x="912" y="184" text-anchor="end" font-size="15" font-weight="700">12,629</text>
+<rect x="300" y="166" width="75" height="22" rx="11" fill="#5da399"/>
+<text x="912" y="184" text-anchor="end" font-size="15" font-weight="700">1,587</text>
+<text x="28" y="230" font-size="15">band D（avg value 33.7）</text>
+<rect x="300" y="212" width="600" height="22" rx="11" fill="#e8e2d6"/>
+<rect x="300" y="212" width="600" height="22" rx="11" fill="#d4a373"/>
+<text x="912" y="230" text-anchor="end" font-size="15" font-weight="700">12,636</text>
 </svg>
