@@ -5,11 +5,14 @@ import {defineTool} from '@deepseek-ai/dsh-tools'
 
 import {
   installPlan,
+  isSafePackageName,
   pluginDetails,
   registryStats,
+  resolveInstallTarget,
   searchPlugins,
   validateRegistry,
 } from './market.js'
+import {installedPlugins, runDshPlugin, safeProfileName} from './runtime.js'
 
 
 export const name = 'deeplugin-market'
@@ -48,8 +51,15 @@ export async function loadRegistry(signal) {
 }
 
 
-/** Create the four market tools around an injectable registry loader. */
-export function createTools(registryLoader = loadRegistry) {
+function successfulPluginCommand(result, action) {
+  if (result.exitCode === 0) return result
+  const detail = result.stderr || result.stdout || `exit code ${result.exitCode}`
+  throw new Error(`dsh plugin ${action} failed: ${detail}`)
+}
+
+
+/** Create the market tools around injectable registry and DSH command adapters. */
+export function createTools(registryLoader = loadRegistry, pluginRunner = runDshPlugin) {
   return [
     defineTool({
       name: 'deeplugin_search',
@@ -160,6 +170,7 @@ export function createTools(registryLoader = loadRegistry) {
             profile: {type: 'string', required: true},
             count: {type: 'integer', required: true},
             commands: {type: 'array', required: true, items: {type: 'string'}},
+            plugins: {type: 'array', required: true, items: {type: 'object', additionalProperties: true}},
             missing: {type: 'array', required: true, items: {type: 'string'}},
             requiresConfirmation: {type: 'boolean', required: true},
             note: {type: 'string', required: true},
@@ -167,7 +178,9 @@ export function createTools(registryLoader = loadRegistry) {
         },
         render: (_args, value) => [{
           type: 'text',
-          text: `${value.count} reviewable command(s):\n${value.commands.join('\n')}\n${value.note}`,
+          text: `${value.count} reviewable command(s):\n${value.plugins.map((plugin) => (
+            `- ${plugin.name} (${plugin.id})\n  ${plugin.spec}\n  sources: ${plugin.sources.map((source) => source.registry).join(', ')}`
+          )).join('\n')}\n${value.note}`,
         }],
       },
       async execute(args, execution) {
@@ -178,6 +191,124 @@ export function createTools(registryLoader = loadRegistry) {
       },
       presentCall: (args) => ({card: 'generic', title: `deeplugin install plan: ${args.profile ?? 'web'}`, kind: 'other', rawInput: args}),
     }),
+    defineTool({
+      name: 'deeplugin_install',
+      description: 'Install one known registry plugin into a DSH profile after the user approves this exact tool call. Call deeplugin_details or deeplugin_install_plan first so the user can review sources and the exact install identity.',
+      parameters: {
+        id: {type: 'string', required: true, description: 'Stable deeplugin registry id returned by deeplugin_search'},
+        spec: {type: 'string', required: true, description: 'Exact install spec returned by deeplugin_details or deeplugin_install_plan'},
+        profile: {type: 'string', description: 'Target DSH profile; default web'},
+      },
+      output: {
+        schema: {
+          type: 'object',
+          additionalProperties: false,
+          properties: {
+            id: {type: 'string', required: true},
+            name: {type: 'string', required: true},
+            spec: {type: 'string', required: true},
+            profile: {type: 'string', required: true},
+            exitCode: {type: 'integer', required: true},
+            stdout: {type: 'string', required: true},
+            stderr: {type: 'string', required: true},
+            restartRequired: {type: 'boolean', required: true},
+          },
+        },
+        render: (_args, value) => [{
+          type: 'text',
+          text: `Installed ${value.name} (${value.id}) into DSH profile ${value.profile}. Restart that profile to activate the updated plugin set.`,
+        }],
+      },
+      async execute(args, execution) {
+        const target = resolveInstallTarget(await registryLoader(execution?.signal), {id: args.id})
+        if (args.spec !== target.spec) throw new Error(`install spec does not match registry id ${target.id}`)
+        const profile = safeProfileName(args.profile ?? 'web')
+        const result = successfulPluginCommand(
+          await pluginRunner({profile, action: 'add', target: target.spec}, execution),
+          'add',
+        )
+        return {
+          id: target.id,
+          name: target.name,
+          spec: target.spec,
+          profile,
+          exitCode: result.exitCode,
+          stdout: result.stdout,
+          stderr: result.stderr,
+          restartRequired: true,
+        }
+      },
+      presentCall: (args) => ({card: 'generic', title: `Install deeplugin ${args.id}`, kind: 'execute', rawInput: args}),
+    }),
+    defineTool({
+      name: 'deeplugin_manage',
+      description: 'List plugins installed in a DSH profile, or update/remove one installed package. Update and remove always require approval for the exact tool call.',
+      parameters: {
+        action: {type: 'string', required: true, enum: ['list', 'update', 'remove'], description: 'Management action'},
+        package: {type: 'string', description: 'Exact installed package name; required for update/remove'},
+        profile: {type: 'string', description: 'Target DSH profile; default web'},
+      },
+      output: {
+        schema: {
+          type: 'object',
+          additionalProperties: false,
+          properties: {
+            action: {type: 'string', required: true},
+            profile: {type: 'string', required: true},
+            package: {required: true, oneOf: [{type: 'string'}, {type: 'null'}]},
+            installed: {type: 'array', required: true, items: {type: 'object', additionalProperties: true}},
+            exitCode: {type: 'integer', required: true},
+            stdout: {type: 'string', required: true},
+            stderr: {type: 'string', required: true},
+            restartRequired: {type: 'boolean', required: true},
+          },
+        },
+        render: (_args, value) => [{
+          type: 'text',
+          text: value.action === 'list'
+            ? `${value.installed.length} installed profile plugin(s):\n${value.installed.map((plugin) => `- ${plugin.name}@${plugin.version ?? 'unknown'}`).join('\n')}`
+            : `${value.action} completed for ${value.package} in profile ${value.profile}. Restart that profile to activate the updated plugin set.`,
+        }],
+      },
+      async execute(args, execution) {
+        const profile = safeProfileName(args.profile ?? 'web')
+        if (args.action === 'list') {
+          const result = successfulPluginCommand(await pluginRunner({profile, action: 'list'}, execution), 'list')
+          return {
+            action: 'list',
+            profile,
+            package: null,
+            installed: installedPlugins(result.stdout),
+            exitCode: result.exitCode,
+            stdout: result.stdout,
+            stderr: result.stderr,
+            restartRequired: false,
+          }
+        }
+        if (!['update', 'remove'].includes(args.action)) throw new Error(`unsupported management action: ${args.action}`)
+        if (!isSafePackageName(args.package)) throw new Error('update/remove requires an exact installed npm package name')
+        const result = successfulPluginCommand(
+          await pluginRunner({profile, action: args.action, target: args.package}, execution),
+          args.action,
+        )
+        return {
+          action: args.action,
+          profile,
+          package: args.package,
+          installed: [],
+          exitCode: result.exitCode,
+          stdout: result.stdout,
+          stderr: result.stderr,
+          restartRequired: true,
+        }
+      },
+      presentCall: (args) => ({
+        card: 'generic',
+        title: args.action === 'list' ? `List plugins in ${args.profile ?? 'web'}` : `${args.action} plugin ${args.package ?? 'unknown'}`,
+        kind: args.action === 'list' ? 'read' : 'execute',
+        rawInput: args,
+      }),
+    }),
   ]
 }
 
@@ -187,4 +318,20 @@ export function apply(ctx) {
   for (const tool of createTools()) {
     ctx.effect(() => ctx.tools.register(tool), `deeplugin-market: ${tool.name}`)
   }
+  ctx.on('tools/pre-execute', async (execution, next) => {
+    const args = execution.arguments ?? {}
+    if (execution.name === 'deeplugin_install') {
+      return {
+        kind: 'ask',
+        reason: `Install registry plugin ${String(args.id ?? 'unknown')} with exact spec ${String(args.spec ?? 'missing')} into DSH profile ${safeProfileName(args.profile ?? 'web')}.`,
+      }
+    }
+    if (execution.name === 'deeplugin_manage' && ['update', 'remove'].includes(args.action)) {
+      return {
+        kind: 'ask',
+        reason: `${args.action} installed package ${String(args.package ?? 'unknown')} in DSH profile ${safeProfileName(args.profile ?? 'web')}.`,
+      }
+    }
+    return next()
+  })
 }

@@ -3,8 +3,10 @@ import test from 'node:test'
 
 import {
   installPlan,
+  isSafePackageName,
   pluginDetails,
   registryStats,
+  resolveInstallTarget,
   searchPlugins,
   validateRegistry,
 } from '../lib/market.js'
@@ -89,11 +91,28 @@ test('install plan only emits known registry specs and requires explicit confirm
     profile: 'dev',
     count: 1,
     commands: ['dsh plugin --profile dev add @alpha/search-files'],
+    plugins: [{
+      id: 'deeplugin-a',
+      name: 'Search Files',
+      spec: '@alpha/search-files',
+      homepage: 'https://github.com/alpha/search-files',
+      verified: true,
+      sources: [{registry: 'alpha/registry'}],
+    }],
     missing: ['missing'],
     requiresConfirmation: true,
-    note: 'Review source attribution and commands with the user. Run only after the user explicitly confirms installation.',
+    note: 'Review source attribution and commands with the user. After confirmation, call deeplugin_install with each selected registry id and its exact spec.',
   })
   assert.equal(installPlan(REGISTRY, {ids: 'deeplugin-b', profile: 'bad; profile'}).profile, 'web')
+})
+
+
+test('install execution resolves only known registry ids and package management names', () => {
+  assert.equal(resolveInstallTarget(REGISTRY, {id: 'deeplugin-b'}).spec, 'github:beta/search-web')
+  assert.throws(() => resolveInstallTarget(REGISTRY, {id: 'missing'}), /unknown or unsafe/)
+  assert.equal(isSafePackageName('@alpha/search-files'), true)
+  assert.equal(isSafePackageName('github:alpha/search-files'), false)
+  assert.equal(isSafePackageName('alpha; rm -rf /'), false)
 })
 
 

@@ -87,6 +87,29 @@ export function pluginDetails(registry, {id, spec} = {}) {
 }
 
 
+/** Resolve one registry id to its safe install identity. */
+export function resolveInstallTarget(registry, {id} = {}) {
+  const plugin = registry.plugins.find((candidate) => candidate.id === id)
+  if (!plugin || !isSafeInstallSpec(plugin.install?.spec)) {
+    throw new Error(`unknown or unsafe deeplugin registry id: ${id ?? 'missing'}`)
+  }
+  return {
+    id: plugin.id,
+    name: plugin.name,
+    spec: plugin.install.spec,
+    homepage: plugin.homepage,
+    verified: plugin.verified === true,
+    sources: plugin.sources,
+  }
+}
+
+
+/** Return whether a package name is safe to pass as one remove/update argv value. */
+export function isSafePackageName(value) {
+  return typeof value === 'string' && NPM_SPEC.test(value)
+}
+
+
 /** Summarize the current registry without replacing missing metrics with zero. */
 export function registryStats(registry) {
   const byCategory = {}
@@ -109,6 +132,7 @@ export function installPlan(registry, {ids = '', profile = 'web'} = {}) {
     ? ids.map(String)
     : String(ids ?? '').split(',').map((value) => value.trim()).filter(Boolean)
   const commands = []
+  const plugins = []
   const missing = []
   for (const id of [...new Set(requested)]) {
     const plugin = registry.plugins.find((candidate) => candidate.id === id)
@@ -117,13 +141,22 @@ export function installPlan(registry, {ids = '', profile = 'web'} = {}) {
       continue
     }
     commands.push(`dsh plugin --profile ${safeProfile} add ${plugin.install.spec}`)
+    plugins.push({
+      id: plugin.id,
+      name: plugin.name,
+      spec: plugin.install.spec,
+      homepage: plugin.homepage,
+      verified: plugin.verified === true,
+      sources: plugin.sources,
+    })
   }
   return {
     profile: safeProfile,
     count: commands.length,
     commands,
+    plugins,
     missing,
     requiresConfirmation: true,
-    note: 'Review source attribution and commands with the user. Run only after the user explicitly confirms installation.',
+    note: 'Review source attribution and commands with the user. After confirmation, call deeplugin_install with each selected registry id and its exact spec.',
   }
 }

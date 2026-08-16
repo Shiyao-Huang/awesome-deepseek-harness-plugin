@@ -27,22 +27,45 @@ const REGISTRY = {
 }
 
 
-test('tool handlers expose search, details, stats, and confirmation-gated install plans', async () => {
-  const tools = createTools(async () => REGISTRY)
+test('tool handlers expose discovery, confirmed installation, and profile management', async () => {
+  const requests = []
+  const runner = async (request) => {
+    requests.push(request)
+    if (request.action === 'list') {
+      return {exitCode: 0, stdout: '[{"dependencies":{"@owner/example":{"version":"1.0.0","path":"/plugins/example"}}}]', stderr: ''}
+    }
+    return {exitCode: 0, stdout: 'done', stderr: ''}
+  }
+  const tools = createTools(async () => REGISTRY, runner)
   assert.deepEqual(
     tools.map((tool) => tool.name),
-    ['deeplugin_search', 'deeplugin_details', 'deeplugin_stats', 'deeplugin_install_plan'],
+    ['deeplugin_search', 'deeplugin_details', 'deeplugin_stats', 'deeplugin_install_plan', 'deeplugin_install', 'deeplugin_manage'],
   )
   assert.equal((await tools[0].execute({query: 'example'}, {})).plugins[0].id, 'deeplugin-a')
   assert.equal((await tools[1].execute({id: 'deeplugin-a'}, {})).plugin.author, 'owner')
   assert.equal((await tools[2].execute({}, {})).total, 1)
   assert.equal((await tools[3].execute({ids: 'deeplugin-a'}, {})).requiresConfirmation, true)
+  assert.equal((await tools[4].execute({id: 'deeplugin-a', spec: '@owner/example', profile: 'web'}, {})).spec, '@owner/example')
+  await assert.rejects(
+    tools[4].execute({id: 'deeplugin-a', spec: '@owner/other', profile: 'web'}, {}),
+    /does not match registry id/,
+  )
+  assert.deepEqual((await tools[5].execute({action: 'list', profile: 'web'}, {})).installed, [{
+    name: '@owner/example',
+    version: '1.0.0',
+    path: '/plugins/example',
+  }])
+  assert.deepEqual(requests, [
+    {profile: 'web', action: 'add', target: '@owner/example'},
+    {profile: 'web', action: 'list'},
+  ])
 })
 
 
-test('apply registers every tool through a disposable Cordis effect', () => {
+test('apply registers tools and approval-gates every mutating operation', async () => {
   const registered = []
   const labels = []
+  const listeners = new Map()
   const ctx = {
     tools: {
       register(tool) {
@@ -54,11 +77,24 @@ test('apply registers every tool through a disposable Cordis effect', () => {
       labels.push(label)
       callback()
     },
+    on(name, listener) {
+      listeners.set(name, listener)
+    },
   }
 
   apply(ctx)
 
-  assert.deepEqual(registered, ['deeplugin_search', 'deeplugin_details', 'deeplugin_stats', 'deeplugin_install_plan'])
-  assert.equal(labels.length, 4)
+  assert.deepEqual(registered, ['deeplugin_search', 'deeplugin_details', 'deeplugin_stats', 'deeplugin_install_plan', 'deeplugin_install', 'deeplugin_manage'])
+  assert.equal(labels.length, 6)
   assert.ok(labels.every((label) => label.startsWith('deeplugin-market: ')))
+  const gate = listeners.get('tools/pre-execute')
+  assert.deepEqual(await gate({name: 'deeplugin_install', arguments: {id: 'deeplugin-a', spec: '@owner/example', profile: 'web'}}, () => ({kind: 'allow'})), {
+    kind: 'ask',
+    reason: 'Install registry plugin deeplugin-a with exact spec @owner/example into DSH profile web.',
+  })
+  assert.deepEqual(await gate({name: 'deeplugin_manage', arguments: {action: 'remove', package: '@owner/example'}}, () => ({kind: 'allow'})), {
+    kind: 'ask',
+    reason: 'remove installed package @owner/example in DSH profile web.',
+  })
+  assert.deepEqual(await gate({name: 'deeplugin_manage', arguments: {action: 'list'}}, () => ({kind: 'allow'})), {kind: 'allow'})
 })
