@@ -5,6 +5,11 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 2026-08-16 | github | plugin | [dsh-archived-chats](https://github.com/Ultronen/dsh-archived-chats) | Ultronen | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-browser](https://github.com/wqty123/dsh-browser) | wqty123 | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-dingtalk-channel](https://github.com/ttmouse/dsh-dingtalk-channel) | ttmouse | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-liquid-glass](https://github.com/Ultronen/dsh-liquid-glass) | Ultronen | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-no-setup-mode](https://github.com/johnnycls/dsh-no-setup-mode) | johnnycls | core-and-ecosystem |
 | 1天前 | xiaohongshu | note | [DeepSeek Harness 像 foobar2000？](https://www.xiaohongshu.com/explore/6a7ee9020000000028008fb1) | zlbigger | core-and-ecosystem |
 | 1天前 | xiaohongshu | note | [DeepSeek Harness 四步安装教程](https://www.xiaohongshu.com/explore/6a7e4e240000000024025cd0) | Jack拆世界 | core-and-ecosystem |
 | 7小时前 | xiaohongshu | note | [DeepSeek Harness 的 12,293 次提交](https://www.xiaohongshu.com/explore/6a7df058000000003300df36) | TOMATOFQY | core-and-ecosystem |
@@ -12866,6 +12871,7 @@
 | 2026-02-05T10:51:17Z | github | repository | [mergisi/awesome-openclaw-agents](https://github.com/mergisi/awesome-openclaw-agents) | mergisi | index-and-marketplace |
 | 2026-02-05T07:48:16Z | github | repository | [labring/sealos-skills](https://github.com/labring/sealos-skills) | labring | multimedia-and-vision |
 | 2026-02-02T18:10:31Z | github | repository | [Minara-AI/minara-skills](https://github.com/Minara-AI/minara-skills) | Minara-AI | core-and-ecosystem |
+| 2026-02-02T09:52:10Z | github | repository | [GCWing/BitFun](https://github.com/GCWing/BitFun) | GCWing | ui-and-desktop |
 | 2026-02-01T13:53:31Z | github | repository | [yuukiLike/zeromd](https://github.com/yuukiLike/zeromd) | yuukiLike | index-and-marketplace |
 | 2026-01-31T08:15:39Z | github | repository | [Leslie-SSS/seeWxapkg](https://github.com/Leslie-SSS/seeWxapkg) | Leslie-SSS | core-and-ecosystem |
 | 2026-01-24T03:29:18Z | github | repository | [XiaoMaColtAI/math-modeling-skill](https://github.com/XiaoMaColtAI/math-modeling-skill) | XiaoMaColtAI | core-and-ecosystem |
