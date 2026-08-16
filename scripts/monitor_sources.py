@@ -646,7 +646,7 @@ def normalized_raw_payload(raw_path: str, collected_at: str, payload_json: str) 
 
 
 def reconcile_listing_item_collisions(connection: Any) -> dict[str, int]:
-    """Restore source-native item fields and remove legacy Listing-to-item writes."""
+    """Restore source-native item fields while preserving dated evidence."""
 
     target_rows = connection.execute(
         """
@@ -766,21 +766,6 @@ def reconcile_listing_item_collisions(connection: Any) -> dict[str, int]:
         )
         restored += 1
 
-    metric_cursor = connection.execute(
-        """
-        DELETE FROM metrics
-        WHERE metric_source IN (?, ?)
-          AND collection_run_id IS NOT (SELECT first_seen_run_id FROM items WHERE id = metrics.item_id)
-          AND NOT (
-              metric_source = 'GitHub repository API via ego-browser source capture'
-              AND EXISTS (
-                  SELECT 1 FROM upstream_repositories
-                  WHERE source_url = (SELECT canonical_url FROM items WHERE id = metrics.item_id)
-              )
-          )
-        """,
-        tuple(sorted(LISTING_METRIC_SOURCES)),
-    )
     link_cursor = connection.execute(
         """
         DELETE FROM item_observations
@@ -803,7 +788,7 @@ def reconcile_listing_item_collisions(connection: Any) -> dict[str, int]:
     )
     return {
         "restored_items": restored,
-        "removed_metrics": max(0, metric_cursor.rowcount),
+        "removed_metrics": 0,
         "removed_item_observations": max(0, link_cursor.rowcount),
     }
 

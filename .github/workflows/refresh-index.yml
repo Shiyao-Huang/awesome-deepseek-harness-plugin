@@ -36,6 +36,7 @@ jobs:
             gh release download dataset-latest --pattern aggregator-full.sqlite3.zst --dir data --clobber
           fi
           make restore-full
+          cp data/aggregator.sqlite3 "$RUNNER_TEMP/aggregator-before.sqlite3"
 
       - name: Refresh versioned core dataset
         env:
@@ -43,6 +44,8 @@ jobs:
         run: make core-collect
 
       - name: Rebuild on latest main and commit refreshed index
+        env:
+          APPEND_ONLY_BASELINE_DB: ${{ runner.temp }}/aggregator-before.sqlite3
         run: |
           scripts/publish_generated_commit.sh "data: refresh public ecosystem index" data/raw index docs plugin/data README.md
 

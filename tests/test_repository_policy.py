@@ -78,6 +78,19 @@ class RepositoryPolicyTests(unittest.TestCase):
         self.assertNotIn("make core-refresh", core)
         self.assertNotIn("Rebuild projections and database assets", forks)
 
+    def test_refresh_workflows_gate_append_only_metrics_before_push(self) -> None:
+        publisher = (ROOT / "scripts" / "publish_generated_commit.sh").read_text(encoding="utf-8")
+        validation = publisher.index('scripts/validate_append_only.py')
+        commit = publisher.index('git -C "$publish_worktree" commit')
+        push = publisher.index('git -C "$publish_worktree" push')
+        self.assertLess(validation, commit)
+        self.assertLess(validation, push)
+
+        for name in ("refresh-index.yml", "refresh-forks.yml"):
+            workflow = (ROOT / ".github" / "workflows" / name).read_text(encoding="utf-8")
+            self.assertIn('cp data/aggregator.sqlite3 "$RUNNER_TEMP/aggregator-before.sqlite3"', workflow)
+            self.assertIn("APPEND_ONLY_BASELINE_DB: ${{ runner.temp }}/aggregator-before.sqlite3", workflow)
+
 
 if __name__ == "__main__":
     unittest.main()
