@@ -14,6 +14,7 @@
 }
 
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 html { overflow-x: hidden; scroll-behavior: smooth; }
 body { overflow-x: hidden; margin: 0; background: var(--paper); color: var(--ink); font: 15px/1.55 Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
 a { color: inherit; text-decoration: none; }
