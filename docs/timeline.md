@@ -13006,6 +13006,7 @@
 | 2026-07-21T14:01:02Z | hacker_news | story | [Show HN: Aeon.WorX – A generic object lifecycle management system (like PLM/PDM)](https://news.ycombinator.com/item?id=48992492) | xeonax | index-and-marketplace |
 | 2026-07-20T10:00:23.495000+0000 | reddit | post | [Best harness for DeepSeek V4?](https://www.reddit.com/r/DeepSeek/comments/1v1h58u/best_harness_for_deepseek_v4) | spicyfiremelon | core-and-ecosystem |
 | 2026-07-19T09:43:37Z | github | repository | [N0zoM1z0/vocaloid-mcp](https://github.com/N0zoM1z0/vocaloid-mcp) | N0zoM1z0 | core-and-ecosystem |
+| 2026-07-19T03:15:21Z | github | repository | [Prism-Shadow/penguin-harness](https://github.com/Prism-Shadow/penguin-harness) | Prism-Shadow | core-and-ecosystem |
 | 2026-08-14 | github | repository | [taxueseek/argo](https://github.com/taxueseek/argo) | taxueseek | core-and-ecosystem |
 | 2026-07-18T04:05:26Z | github | repository | [shuguang1994/project-blueprint](https://github.com/shuguang1994/project-blueprint) | shuguang1994 | core-and-ecosystem |
 | 2026-07-17T14:21:25Z | hacker_news | story | [Is GPT-5.6 Sol Max Worth It?](https://news.ycombinator.com/item?id=48947713) | yohji1984 | index-and-marketplace |
