@@ -38,7 +38,9 @@
   }
   if (typeof document === "undefined") return;
 
-  const catalogPage = ["home", "market"].includes(document.body.dataset.page);
+  const catalogPage = ["home", "market"].includes(document.body.dataset.page)
+    && ["catalog-grid", "search-input", "sort-select", "result-summary", "no-results", "clear-filters"]
+      .every((id) => document.getElementById(id));
   if (catalogPage) {
     const cards = Array.from(document.querySelectorAll(".skill-card"));
     const grid = document.getElementById("catalog-grid");
