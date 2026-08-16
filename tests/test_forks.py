@@ -28,12 +28,10 @@ class WorkflowSafetyTests(unittest.TestCase):
 
     def test_core_refresh_commits_every_raw_evidence_namespace(self) -> None:
         workflow = (ROOT / ".github" / "workflows" / "refresh-index.yml").read_text()
-        commit_start = workflow.index("- name: Commit refreshed index")
-        commit_end = workflow.index("- name: Publish stable latest SQLite assets", commit_start)
 
         self.assertIn(
-            "git add data/raw index docs plugin/data README.md",
-            workflow[commit_start:commit_end],
+            'scripts/publish_generated_commit.sh "data: refresh public ecosystem index" data/raw index docs plugin/data README.md',
+            workflow,
         )
 
 

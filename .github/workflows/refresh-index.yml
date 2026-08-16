@@ -42,25 +42,8 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: make core-refresh
 
-      - name: Commit refreshed index
-        run: |
-          git add data/raw index docs plugin/data README.md
-          if git diff --cached --quiet; then
-            echo "No public-index changes"
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "data: refresh public ecosystem index"
-          for attempt in 1 2 3; do
-            git fetch origin main
-            git rebase --autostash origin/main
-            if git push origin HEAD:main; then
-              exit 0
-            fi
-            echo "main advanced during push; retrying ($attempt/3)" >&2
-          done
-          exit 1
+      - name: Rebuild on latest main and commit refreshed index
+        run: scripts/publish_generated_commit.sh "data: refresh public ecosystem index" data/raw index docs plugin/data README.md
 
       - name: Publish stable latest SQLite assets
         env:

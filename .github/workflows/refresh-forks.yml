@@ -68,25 +68,8 @@ jobs:
           make public-db
           python3 scripts/validate.py
 
-      - name: Commit refreshed Fork index
-        run: |
-          git add index docs plugin/data README.md
-          if git diff --cached --quiet; then
-            echo "No Fork-index changes"
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "data: refresh DeepSeek Harness fork network"
-          for attempt in 1 2 3; do
-            git fetch origin main
-            git rebase --autostash origin/main
-            if git push origin HEAD:main; then
-              exit 0
-            fi
-            echo "main advanced during push; retrying ($attempt/3)" >&2
-          done
-          exit 1
+      - name: Rebuild on latest main and commit refreshed Fork index
+        run: scripts/publish_generated_commit.sh "data: refresh DeepSeek Harness fork network" index docs plugin/data README.md
 
       - name: Publish stable latest SQLite assets
         env:

@@ -1,6 +1,43 @@
 (function () {
   "use strict";
 
+  const wordSegmenter = typeof Intl.Segmenter === "function"
+    ? new Intl.Segmenter(undefined, { granularity: "word" })
+    : null;
+  const queryStopWords = new Set([
+    "a", "an", "and", "can", "find", "for", "i", "install", "me", "need", "please",
+    "plugin", "plugins", "show", "that", "the", "to", "want", "with",
+    "一个", "一款", "可以", "帮", "帮我", "我", "找", "查找", "的", "能", "请", "需要", "想要", "安装", "插件",
+  ]);
+
+  function queryTerms(value) {
+    const query = String(value || "").trim().toLocaleLowerCase();
+    const segments = wordSegmenter
+      ? Array.from(wordSegmenter.segment(query)).filter((part) => part.isWordLike).map((part) => part.segment)
+      : query.split(/\s+/u);
+    return segments.filter((term) => (
+      !queryStopWords.has(term) && (term.length > 1 || /^[a-z0-9]$/u.test(term))
+    ));
+  }
+
+  function searchText(haystackValue, queryValue) {
+    const haystack = String(haystackValue || "").toLocaleLowerCase();
+    const query = String(queryValue || "").trim().toLocaleLowerCase();
+    const terms = queryTerms(query);
+    if (!query || terms.length === 0) return { matched: true, score: 0 };
+    const matchedTerms = terms.filter((term) => haystack.includes(term)).length;
+    const minimumTerms = terms.length <= 1 ? terms.length : Math.min(2, Math.ceil(terms.length / 2));
+    if (matchedTerms < minimumTerms) return { matched: false, score: 0 };
+    const phraseScore = haystack.includes(query) ? 80 : 0;
+    const coverageScore = Math.round(60 * matchedTerms / terms.length);
+    return { matched: true, score: phraseScore + matchedTerms * 20 + coverageScore };
+  }
+
+  if (typeof module !== "undefined" && module.exports) {
+    module.exports = { queryTerms, searchText };
+  }
+  if (typeof document === "undefined") return;
+
   const catalogPage = ["home", "market"].includes(document.body.dataset.page);
   if (catalogPage) {
     const cards = Array.from(document.querySelectorAll(".skill-card"));
@@ -15,19 +52,20 @@
 
     function apply() {
       const query = (search.value || "").trim().toLowerCase();
-      const visible = cards.filter((card) => {
+      const visible = cards.flatMap((card) => {
         const matchesFilter = active.type === "all" || card.dataset[active.type] === active.value;
-        const matchesQuery = !query || card.dataset.title.includes(query) || card.textContent.toLowerCase().includes(query);
-        card.hidden = !(matchesFilter && matchesQuery);
-        return matchesFilter && matchesQuery;
+        const match = searchText(`${card.dataset.title || ""} ${card.textContent || ""}`, query);
+        card.hidden = !(matchesFilter && match.matched);
+        return matchesFilter && match.matched ? [{ card, relevance: match.score }] : [];
       });
       const ordered = visible.slice().sort((a, b) => {
-        if (sort.value === "score") return Number(b.dataset.score) - Number(a.dataset.score);
-        if (sort.value === "latest") return b.dataset.seen.localeCompare(a.dataset.seen);
-        if (sort.value === "title") return a.dataset.title.localeCompare(b.dataset.title);
-        return Number(a.dataset.rank) - Number(b.dataset.rank);
+        if (query && b.relevance !== a.relevance) return b.relevance - a.relevance;
+        if (sort.value === "score") return Number(b.card.dataset.score) - Number(a.card.dataset.score);
+        if (sort.value === "latest") return b.card.dataset.seen.localeCompare(a.card.dataset.seen);
+        if (sort.value === "title") return a.card.dataset.title.localeCompare(b.card.dataset.title);
+        return Number(a.card.dataset.rank) - Number(b.card.dataset.rank);
       });
-      ordered.forEach((card) => grid.appendChild(card));
+      ordered.forEach(({ card }) => grid.appendChild(card));
       summary.textContent = `Showing ${visible.length.toLocaleString()} ${resultNoun}`;
       empty.hidden = visible.length !== 0;
     }
