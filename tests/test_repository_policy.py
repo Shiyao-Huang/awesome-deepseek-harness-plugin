@@ -60,6 +60,16 @@ class RepositoryPolicyTests(unittest.TestCase):
                 workflow,
             )
 
+    def test_publisher_rebuilds_fork_projection_from_the_full_archive(self) -> None:
+        publisher = (ROOT / "scripts" / "publish_generated_commit.sh").read_text(encoding="utf-8")
+
+        restore = publisher.index('make -C "$publish_worktree" restore-full')
+        fork_index = publisher.index('make -C "$publish_worktree" fork-index')
+        general_build = publisher.index('make -C "$publish_worktree" build')
+
+        self.assertLess(restore, fork_index)
+        self.assertLess(fork_index, general_build)
+
 
 if __name__ == "__main__":
     unittest.main()
