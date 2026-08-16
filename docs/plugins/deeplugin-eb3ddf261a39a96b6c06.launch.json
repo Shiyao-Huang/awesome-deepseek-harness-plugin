@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/PerryLink/dsh-output-styles",
     "firstObservedAt": "2026-08-15T22:14:49Z",
-    "lastChangedAt": "2026-08-16T08:41:44Z"
+    "lastChangedAt": "2026-08-16T18:48:18Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-eb3ddf261a39a96b6c06.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-eb3ddf261a39a96b6c06.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-output-styles 已收录到 DeepSeek Harness Plugin Store。运行时切换模型输出风格（对标 Claude Code outputStyles）：/style 命令、基于 output_style 域的按会话持久化、systemPrompt 注入、六个内置风格、自定义 Markdown/JSON 风格库与 Web 选择器。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-eb3ddf261a39a96b6c06.html",
-    "en": "dsh-output-styles is now listed on the DeepSeek Harness Plugin Store. Runtime-switchable model output styles with Claude Code outputStyles parity: a /style command, per-session persistence over the output_style domain, systemPrompt injection, six built-in styles, custom Markdown/JSON libraries, and a web picker.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-eb3ddf261a39a96b6c06.html"
+    "zh": "dsh-output-styles 已收录到 DeepSeek Harness Plugin Store。运行时切换模型输出风格（对标 Claude Code outputStyles），另加 output.render.* 呈现协议：/style 命令、按会话持久化、systemPrompt 注入、六个内置风格、Web 选择器，以及带按会话/按工具规则与 /export 的渲染器注册表。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-eb3ddf261a39a96b6c06.html",
+    "en": "dsh-output-styles is now listed on the DeepSeek Harness Plugin Store. Runtime-switchable model output styles with Claude Code outputStyles parity, plus the output.render.* presentation protocol: a /style command, per-session persistence, systemPrompt injection, six built-in styles, a web picker, and a renderer registry with per-session/per-tool rules and /export.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-eb3ddf261a39a96b6c06.html"
   }
 }

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-fcb5d21355d25770d5de",
+    "name": "dsh-plugin-guide",
+    "author": "PerryLink",
+    "category": "skill",
+    "version": null,
+    "homepage": "https://github.com/PerryLink/dsh-plugin-guide",
+    "firstObservedAt": "2026-08-16T18:48:18Z",
+    "lastChangedAt": "2026-08-16T18:48:18Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-fcb5d21355d25770d5de.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-fcb5d21355d25770d5de.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-plugin-guide",
+    "command": "dsh plugin --profile web add dsh-plugin-guide",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-fcb5d21355d25770d5de，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-fcb5d21355d25770d5de.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-fcb5d21355d25770d5de.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-guide 已收录到 DeepSeek Harness Plugin Store。DSH 插件开发知识库，作为按需加载的 agent 技能随 bundle 安装：官方约束、任务工作流、API 参考与社区踩坑，写插件时让 DSH 自己查。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-fcb5d21355d25770d5de.html",
+    "en": "dsh-plugin-guide is now listed on the DeepSeek Harness Plugin Store. The DSH plugin-development knowledge base as an on-demand agent skill: official constraints, task workflows, API reference and community gotchas, installed with the bundle so the agent can look things up while building a plugin.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-fcb5d21355d25770d5de.html"
+  }
+}

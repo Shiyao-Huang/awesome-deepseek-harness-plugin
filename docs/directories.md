@@ -4,21 +4,21 @@
 
 | 项目或网站 | 平台 | 公开指标 | 简介 |
 | --- | --- | ---: | --- |
-| [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | GitHub | 4,787 stars | A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表 |
-| [AdamPlatin123/awesome-dsh-plugins](https://github.com/AdamPlatin123/awesome-dsh-plugins) | GitHub | 1,049 stars | 前部索引仓库（Radar）：自动扫描发现的所有 dsh 插件候选；经测试合格的将移入后序精选目录仓库 |
-| [0xsline/awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness) | GitHub | 588 stars | DeepSeek Harness (DSH) ecosystem: curated plugins, tools, and infrastructure from dsh-external/hub and the public dsh-plugin topic. |
-| [bruc3van/awesome-dsh-plugin](https://github.com/bruc3van/awesome-dsh-plugin) | GitHub | 175 stars | 用 30 秒为你的 DeepSeek Harness（DSH）找到合适的插件。 这不是又一个仓库清单：GitHub 上所有打着 dsh-plugin 标签的仓库由脚本每天自动抓取，再经人工逐个核实——真插件进目录，蹭热度的进黑名单，每条剔除理由公开可查。并告诉你每个插件适合谁、从哪里开始。 |
-| [Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins](https://github.com/Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins) | GitHub | 90 stars | Curated DeepSeek Harness (DSH) plugins, extensions, tools, skills, clients, runtimes, integrations, and verified references — English and Chinese. |
+| [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | GitHub | 4,918 stars | A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表 |
+| [AdamPlatin123/awesome-dsh-plugins](https://github.com/AdamPlatin123/awesome-dsh-plugins) | GitHub | 1,050 stars | 前部索引仓库（Radar）：自动扫描发现的所有 dsh 插件候选；经测试合格的将移入后序精选目录仓库 |
+| [0xsline/awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness) | GitHub | 593 stars | DeepSeek Harness (DSH) ecosystem: curated plugins, tools, and infrastructure from dsh-external/hub and the public dsh-plugin topic. |
+| [awesome-dsh-plugin](https://github.com/bruc3van/awesome-dsh-plugin) | GitHub | 178 stars | Bilingual DSH plugin index. |
+| [Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins](https://github.com/Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins) | GitHub | 93 stars | Curated DeepSeek Harness (DSH) plugins, extensions, tools, skills, clients, runtimes, integrations, and verified references — English and Chinese. |
 | [hikariming/dshfind](https://github.com/hikariming/dshfind) | GitHub | 88 stars | DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices |
-| [bradeGithub/DSH-Plugins-Marketplace](https://github.com/bradeGithub/DSH-Plugins-Marketplace) | GitHub | 70 stars | DSH插件市场 / DSH Plugin Marketplace: 在 DeepSeek Harness Web GUI 中一键浏览、安装与更新 GitHub topic:dsh-plugin 的全部插件 \| browse, install & update all GitHub dsh-plugin plugins in the DSH Web GUI |
-| [Alex-Yanggg/awesome-DSH-plugin](https://github.com/Alex-Yanggg/awesome-DSH-plugin) | GitHub | 65 stars | A meticulously curated list of useful plugins, extensions, tools and development resources built for DSH, covering productivity enhancement, functional expansion, debugging utilities and custom development modules. |
-| [Sanqi-normal/dsh-webui-market-plugin](https://github.com/Sanqi-normal/dsh-webui-market-plugin) | GitHub | 56 stars | dsh Web GUI 社区插件市场：浏览 awesome-dsh-plugin.com 插件目录，一键安装/卸载到 profile。Community plugin market for the DeepSeek Harness (dsh) web GUI: browse, install and uninstall plugins into a profile. |
-| [Dominic789654/awesome-deepseek-harness](https://github.com/Dominic789654/awesome-deepseek-harness) | GitHub | 52 stars | A curated list of plugins, skills, MCP servers, patch/profile layers, orchestrators & UIs for DeepSeek Harness (DSH). Visualization · PPT · Coding · Agents · Loops (auto-research) and more. #dsh |
+| [awesome-deepseek-harness](https://github.com/Dominic789654/awesome-deepseek-harness) | GitHub | 86 stars | DSH plugins, skills, MCP servers, orchestrators, and UIs. |
+| [DSH-Plugins-Marketplace](https://github.com/bradeGithub/DSH-Plugins-Marketplace) | GitHub | 86 stars | 面向 GitHub dsh-plugin 话题的插件与技能市场：设置页内逛自动收录的全量索引（CI 每 2 小时刷新），一键安装带类型识别、安装脚本与宿主依赖遮蔽安全检查、环境变量密钥管理，并附 STANDARD.md 识别层规范。 |
+| [awesome-DSH-plugin](https://github.com/Alex-Yanggg/awesome-DSH-plugin) | GitHub | 66 stars | Curated DSH extensions and development resources. |
+| [dsh-webui-market-plugin](https://github.com/Sanqi-normal/dsh-webui-market-plugin) | GitHub | 63 stars | dsh Web GUI 内的社区插件市场：浏览 awesome-dsh-plugin.com 目录，从 设置 → 插件 → 插件市场 安装/卸载插件到 profile。 |
 | [beancookie/awesome-dsh-plugin](https://github.com/beancookie/awesome-dsh-plugin) | GitHub | 50 stars | Awesome DeepSeek Harness (DSH) Plugin |
 | [libukai/awesome-deepseek-harness](https://github.com/libukai/awesome-deepseek-harness) | GitHub | 47 stars | DeepSeek Harness 终极指南：快速入门、资源推荐、精选插件与实用工具 ｜The Ultimate Guide to DeepSeek Harness: QuickStart, Resources, Plugins&Toolkit |
-| [awesome-dsh-plugin/dsh-find-plugin](https://github.com/awesome-dsh-plugin/dsh-find-plugin) | GitHub | 28 stars | Find DSH plugins inside the agent — live GitHub dsh-plugin topic search, star-ranked / 会话内搜索发现 DSH 插件 |
+| [dsh-find-plugin](https://github.com/awesome-dsh-plugin/dsh-find-plugin) | GitHub | 36 stars | 会话内直接找插件：按关键词/分类搜索本精选 registry，返回描述与可直接执行的安装命令。 |
 | [ZASENJC/dsh-plugins-store](https://github.com/ZASENJC/dsh-plugins-store) | GitHub | 24 stars | 自动分类、收录和验证 GitHub dsh-plugin Topic 项目的静态 DSH 插件市场。 A static DSH plugin marketplace that automatically categorizes, curates, and verifies GitHub dsh-plugin Topic projects. |
-| [Noob-stupid/dsh-plugin-hub](https://github.com/Noob-stupid/dsh-plugin-hub) | GitHub | 19 stars | DeepSeek Harness (DSH) 插件管理面板：一键启用/停用插件 + GitHub dsh-plugin 插件市场，带插件详情与一键安装 \| Plugin manager & marketplace for DeepSeek Harness |
+| [dsh-plugin-hub](https://github.com/Noob-stupid/dsh-plugin-hub) | GitHub | 19 stars | 插件管理面板：已安装插件一键启用/停用，内置 GitHub dsh-plugin 插件市场，支持详情查看与一键安装。 |
 | [the-beating-light-of-the-nail/dsh-meme-hub](https://github.com/the-beating-light-of-the-nail/dsh-meme-hub) | GitHub | 17 stars | 🐋 The meme side of DeepSeek Harness — 贪玩蓝鲸/QQ2006/whale girls/mini-games · A curated tour of the wildest dsh plugins |
 | [YELEBAI/dsh-plugin-marketplace](https://github.com/YELEBAI/dsh-plugin-marketplace) | GitHub | 13 stars | Verified plugin marketplace and autonomous registry for DeepSeek Harness |
 | [Ericwong5021/deepseek-plugin-store](https://github.com/Ericwong5021/deepseek-plugin-store) | GitHub | 12 stars | DeepSeek Harness 独立社区插件商店：发现、安装并提交经过验证的插件、工具与扩展。 \| Independent community plugin directory. |

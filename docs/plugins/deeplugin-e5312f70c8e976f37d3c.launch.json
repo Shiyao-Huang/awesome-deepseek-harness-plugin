@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/PerryLink/dsh-claude-move",
     "firstObservedAt": "2026-08-16T13:41:06Z",
-    "lastChangedAt": "2026-08-16T13:41:06Z"
+    "lastChangedAt": "2026-08-16T18:48:18Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-e5312f70c8e976f37d3c.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-e5312f70c8e976f37d3c.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-claude-move 已收录到 DeepSeek Harness Plugin Store。把 Claude Code 的会话、记忆、技能与 CLAUDE.md 迁入 DSH 并无缝续用（claude_scan / import_claude / resume-claude / Web 面板）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e5312f70c8e976f37d3c.html",
-    "en": "dsh-claude-move is now listed on the DeepSeek Harness Plugin Store. Migrate Claude Code sessions, memory, skills and CLAUDE.md into DSH with seamless resume (claude_scan / import_claude / resume-claude / web panel).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e5312f70c8e976f37d3c.html"
+    "zh": "dsh-claude-move 已收录到 DeepSeek Harness Plugin Store。四合一迁移向导：把 Claude Code、Codex、OpenCode、Hermes 的会话、记忆、技能、指令与斜杠命令迁入 DSH（/move 向导，审批门 + 幂等 move.json，会话可续聊）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e5312f70c8e976f37d3c.html",
+    "en": "dsh-claude-move is now listed on the DeepSeek Harness Plugin Store. Four-source migration wizard: move Claude Code, Codex, OpenCode and Hermes sessions, memories, skills, instructions and slash commands into DSH (/move wizard with approval gate and idempotent move.json, resumable sessions).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e5312f70c8e976f37d3c.html"
   }
 }

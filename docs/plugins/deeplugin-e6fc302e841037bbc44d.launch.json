@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-e6fc302e841037bbc44d",
+    "name": "dsh-agent-canvas",
+    "author": "Lhy723",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/Lhy723/dsh-agent-canvas",
+    "firstObservedAt": "2026-08-16T18:48:18Z",
+    "lastChangedAt": "2026-08-16T18:48:18Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-e6fc302e841037bbc44d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-e6fc302e841037bbc44d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-agent-canvas",
+    "command": "dsh plugin --profile web add dsh-agent-canvas",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-e6fc302e841037bbc44d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-e6fc302e841037bbc44d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-e6fc302e841037bbc44d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-agent-canvas 已收录到 DeepSeek Harness Plugin Store。为 DSH Web 提供可交互画布，用于展示 Agent、Subagent、Workflow、Phase 与工具调用之间的关系。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e6fc302e841037bbc44d.html",
+    "en": "dsh-agent-canvas is now listed on the DeepSeek Harness Plugin Store. Interactive canvas for visualizing Agent, Subagent, Workflow, Phase, and tool relationships in DSH Web.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e6fc302e841037bbc44d.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-cd284b60ae0407ac9bb7",
+    "name": "dsh-whale-report",
+    "author": "SenmuuuuW",
+    "category": "usage",
+    "version": null,
+    "homepage": "https://github.com/SenmuuuuW/dsh-whale-report",
+    "firstObservedAt": "2026-08-16T18:48:18Z",
+    "lastChangedAt": "2026-08-16T18:48:18Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-cd284b60ae0407ac9bb7.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-cd284b60ae0407ac9bb7.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:senmuuuuw/dsh-whale-report",
+    "command": "dsh plugin --profile web add github:senmuuuuw/dsh-whale-report",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-cd284b60ae0407ac9bb7，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-cd284b60ae0407ac9bb7.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-cd284b60ae0407ac9bb7.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-whale-report 已收录到 DeepSeek Harness Plugin Store。深迹 DeepTrace — 从会话日志生成日报/周报/月报/年报/自定义区间报告：成本与 Token 拆解、8 条确定性洞察、协作复盘、实时模型余额、PDF/PNG/HTML 导出；只读，绝不改写历史。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-cd284b60ae0407ac9bb7.html",
+    "en": "dsh-whale-report is now listed on the DeepSeek Harness Plugin Store. DeepTrace — deterministic agent reports from session logs (daily/weekly/monthly/yearly/custom): cost & token breakdown, 8 insight rules, collaboration review, live provider balance, PDF/PNG/HTML export; read-only, never rewrites history.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-cd284b60ae0407ac9bb7.html"
+  }
+}

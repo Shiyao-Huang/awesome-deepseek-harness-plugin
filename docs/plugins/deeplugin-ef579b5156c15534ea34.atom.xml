@@ -12,7 +12,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ef579b5156c15534ea34.html"/>
     <author><name>gongyijie85</name></author>
     <category term="tools"/>
-    <summary>Read-only repo bootstrap scanner (repo_setup_scan tool): detects stack/tests/docs/git/db hints and recommends skill plugins, MCP servers and hygiene files (claude-code-setup counterpart). Exact install spec: dsh-repo-setup. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
+    <summary>Read-only repo bootstrap scanner (repo_setup_scan tool): detects stack/tests/docs/git/db and recommends plugins, MCP servers and hygiene files. Exact install spec: dsh-repo-setup. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
   </entry>
   <entry>
     <title>New: dsh-repo-setup</title>
@@ -21,6 +21,6 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ef579b5156c15534ea34.html"/>
     <author><name>gongyijie85</name></author>
     <category term="tools"/>
-    <summary>Read-only repo bootstrap scanner (repo_setup_scan tool): detects stack/tests/docs/git/db hints and recommends skill plugins, MCP servers and hygiene files (claude-code-setup counterpart). Exact install spec: dsh-repo-setup. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
+    <summary>Read-only repo bootstrap scanner (repo_setup_scan tool): detects stack/tests/docs/git/db and recommends plugins, MCP servers and hygiene files. Exact install spec: dsh-repo-setup. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

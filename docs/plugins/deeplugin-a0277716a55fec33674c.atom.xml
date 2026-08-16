@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-mmx-bridge — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-a0277716a55fec33674c.atom.xml</id>
+  <updated>2026-08-16T18:48:18Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-a0277716a55fec33674c.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a0277716a55fec33674c.html"/>
+  <entry>
+    <title>Updated: dsh-mmx-bridge</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-a0277716a55fec33674c/1c72d6ce4fc9ae9c</id>
+    <updated>2026-08-16T18:48:18Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a0277716a55fec33674c.html"/>
+    <author><name>welsione</name></author>
+    <category term="tools"/>
+    <summary>MiniMax multimodal bridge: one `mmx_bridge` tool covers image understanding/generation, video, TTS, music, cover, web search and quota; optional `web_search`/`read_image` takeover; inline players/image previews right in the Web GUI (npm: `dsh-mmx-bridge`). Exact install spec: dsh-mmx-bridge. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-mmx-bridge</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-a0277716a55fec33674c/c280f5d7903fcc8f</id>
+    <updated>2026-08-16T09:56:16Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a0277716a55fec33674c.html"/>
+    <author><name>welsione</name></author>
+    <category term="tools"/>
+    <summary>MiniMax multimodal bridge: one `mmx_bridge` tool covers image understanding/generation, video, TTS, music, cover, web search and quota; optional `web_search`/`read_image` takeover; inline players/image previews right in the Web GUI (npm: `dsh-mmx-bridge`). Exact install spec: dsh-mmx-bridge. Source event: zoahdev/dsh-subscribe; changed: active.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-mmx-bridge</title>
+    <id>tag:deeplugin.store,2026-08-16:deeplugin-a0277716a55fec33674c/d25939568b1ec3ec</id>
+    <updated>2026-08-16T08:41:44Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a0277716a55fec33674c.html"/>
+    <author><name>welsione</name></author>
+    <category term="tools"/>
+    <summary>MiniMax multimodal bridge: one `mmx_bridge` tool covers image understanding/generation, video, TTS, music, cover, web search and quota; optional `web_search`/`read_image` takeover; inline players/image previews right in the Web GUI (npm: `dsh-mmx-bridge`). Exact install spec: dsh-mmx-bridge. Source event: zoahdev/dsh-subscribe; changed: plugin_version, tags_json, registry_source_json.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-mmx-bridge</title>
+    <id>tag:deeplugin.store,2026-08-15:deeplugin-a0277716a55fec33674c/f3ce944d91fb517a</id>
+    <updated>2026-08-15T22:14:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a0277716a55fec33674c.html"/>
+    <author><name>welsione</name></author>
+    <category term="tools"/>
+    <summary>MiniMax multimodal bridge: one `mmx_bridge` tool covers image understanding/generation, video, TTS, music, cover, web search and quota; optional `web_search`/`read_image` takeover; inline players/image previews right in the Web GUI (npm: `dsh-mmx-bridge`). Exact install spec: dsh-mmx-bridge. Source event: zoahdev/dsh-subscribe; changed: listed.</summary>
+  </entry>
+</feed>

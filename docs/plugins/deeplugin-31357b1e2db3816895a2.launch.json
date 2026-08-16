@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-31357b1e2db3816895a2",
+    "name": "task-board",
+    "author": "JohnXu22786",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/JohnXu22786/task-board",
+    "firstObservedAt": "2026-08-16T18:48:18Z",
+    "lastChangedAt": "2026-08-16T18:48:18Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-31357b1e2db3816895a2.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-31357b1e2db3816895a2.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:johnxu22786/task-board",
+    "command": "dsh plugin --profile web add github:johnxu22786/task-board",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-31357b1e2db3816895a2，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-31357b1e2db3816895a2.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-31357b1e2db3816895a2.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "task-board 已收录到 DeepSeek Harness Plugin Store。事件溯源跨会话工作台账：任务登记、跟踪与结算，完整审计历史、看板导出，并将石板摘要注入每一轮模型上下文。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-31357b1e2db3816895a2.html",
+    "en": "task-board is now listed on the DeepSeek Harness Plugin Store. Event-sourced cross-session work ledger: register, track and settle tasks with full audit history, kanban export, and a board digest injected into every model turn.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-31357b1e2db3816895a2.html"
+  }
+}

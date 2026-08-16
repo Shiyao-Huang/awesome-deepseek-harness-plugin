@@ -12,7 +12,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a05f02effa63a7b86a37.html"/>
     <author><name>gongyijie85</name></author>
     <category term="skill"/>
-    <summary>Ponytail, lazy senior dev mode, for DSH: 6 skills (ponytail, ponytail-audit, ponytail-debt, ponytail-gain, ponytail-help, ponytail-review) adapted from DietrichGebert/ponytail (MIT). Exact install spec: dsh-ponytail-skills. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
+    <summary>Ponytail lazy senior dev mode: 6 skills adapted from DietrichGebert/ponytail. Exact install spec: dsh-ponytail-skills. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
   </entry>
   <entry>
     <title>New: dsh-ponytail</title>
@@ -21,6 +21,6 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a05f02effa63a7b86a37.html"/>
     <author><name>gongyijie85</name></author>
     <category term="skill"/>
-    <summary>Ponytail, lazy senior dev mode, for DSH: 6 skills (ponytail, ponytail-audit, ponytail-debt, ponytail-gain, ponytail-help, ponytail-review) adapted from DietrichGebert/ponytail (MIT). Exact install spec: dsh-ponytail-skills. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
+    <summary>Ponytail lazy senior dev mode: 6 skills adapted from DietrichGebert/ponytail. Exact install spec: dsh-ponytail-skills. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

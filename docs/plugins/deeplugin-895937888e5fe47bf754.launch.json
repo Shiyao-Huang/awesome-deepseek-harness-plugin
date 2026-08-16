@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-895937888e5fe47bf754",
+    "name": "pty-runner",
+    "author": "JohnXu22786",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/JohnXu22786/pty-runner",
+    "firstObservedAt": "2026-08-16T18:48:18Z",
+    "lastChangedAt": "2026-08-16T18:48:18Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-895937888e5fe47bf754.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-895937888e5fe47bf754.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:johnxu22786/pty-runner",
+    "command": "dsh plugin --profile web add github:johnxu22786/pty-runner",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-895937888e5fe47bf754，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-895937888e5fe47bf754.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-895937888e5fe47bf754.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "pty-runner 已收录到 DeepSeek Harness Plugin Store。dsh 后台终端作业管理插件：在独立 PTY 会话中运行长时进程，写入普通文本与转义控制序列，分页读取环形缓冲输出，并支持优雅或强制终止作业。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-895937888e5fe47bf754.html",
+    "en": "pty-runner is now listed on the DeepSeek Harness Plugin Store. Long-lived background terminal jobs for dsh: launch processes in a PTY, write input (including control sequences like Ctrl+C), page through ring-buffered output, and stop jobs gracefully or forcefully.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-895937888e5fe47bf754.html"
+  }
+}
