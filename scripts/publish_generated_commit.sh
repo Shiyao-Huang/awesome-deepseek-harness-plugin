@@ -44,6 +44,8 @@ for ((attempt = 1; attempt <= max_attempts; attempt++)); do
   fi
   cp "$source_database" "$publish_worktree/data/aggregator.sqlite3"
 
+  python3 "$publish_worktree/scripts/reconcile_raw_snapshots.py" \
+    --database "$publish_worktree/data/aggregator.sqlite3"
   python3 "$publish_worktree/scripts/build_fork_index.py"
   make -C "$publish_worktree" build
   make -C "$publish_worktree" archive-full
