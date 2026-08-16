@@ -26,11 +26,60 @@ class RichMediaSiteProjectionTests(unittest.TestCase):
         self.assertIn(first["id"], page)
         self.assertIn(first["install"]["spec"], page)
         self.assertIn(f'dsh plugin --profile web add {first["install"]["spec"]}', page)
-        self.assertIn("https://deeplugin.store/market.html", (ROOT / "docs" / "sitemap.xml").read_text(encoding="utf-8"))
+        self.assertIn(f'href="plugins/{first["id"]}.html"', page)
+        sitemap = (ROOT / "docs" / "sitemap.xml").read_text(encoding="utf-8")
+        self.assertIn("https://deeplugin.store/market.html", sitemap)
+        self.assertIn(f"https://deeplugin.store/plugins/{first['id']}.html", sitemap)
+
+    def test_market_registry_has_one_stable_detail_page_per_plugin(self) -> None:
+        registry = build_site.load_market_registry()
+        plugins = registry["plugins"]
+        assert isinstance(plugins, list)
+        generated = sorted((ROOT / "docs" / "plugins").glob("*.html"))
+
+        self.assertEqual(len(generated), len(plugins))
+        self.assertEqual(
+            {path.stem for path in generated},
+            {plugin["id"] for plugin in plugins if isinstance(plugin, dict)},
+        )
+
+    def test_market_detail_exposes_install_share_and_source_evidence(self) -> None:
+        registry = build_site.load_market_registry()
+        plugins = registry["plugins"]
+        assert isinstance(plugins, list)
+        plugin = plugins[0]
+        assert isinstance(plugin, dict)
+        page = (ROOT / "docs" / "plugins" / f"{plugin['id']}.html").read_text(encoding="utf-8")
+        canonical = f"https://deeplugin.store/plugins/{plugin['id']}.html"
+        command = f"dsh plugin --profile web add {plugin['install']['spec']}"
+
+        self.assertIn(f'<link rel="canonical" href="{canonical}">', page)
+        self.assertIn(plugin["id"], page)
+        self.assertIn(command, page)
+        self.assertIn("方式一 · 自己安装", page)
+        self.assertIn("方式二 · 交给 DEEPSEEK", page)
+        self.assertIn("等我明确批准后再安装", page)
+        self.assertIn("Copy link", page)
+        self.assertIn("Copy badge", page)
+        self.assertIn("assets/deeplugin-listed.svg", page)
+        self.assertIn("Verification is a claim made by the named Registry Source", page)
+        self.assertIn("not a security, compatibility, quality, or official endorsement", page)
+        self.assertIn('<script src="../assets/store.js" defer></script>', page)
+        match = re.search(r'<script type="application/ld\+json">(.*?)</script>', page)
+        self.assertIsNotNone(match)
+        assert match is not None
+        structured_data = json.loads(match.group(1))
+        self.assertEqual(structured_data.get("@type"), "SoftwareApplication")
+        self.assertEqual(structured_data.get("identifier"), plugin["id"])
+        self.assertEqual(structured_data.get("url"), canonical)
 
     def test_detail_page_version_changes_only_with_record_evidence(self) -> None:
         with build_site.connection() as db:
-            record = build_site.load_records(db)[0]
+            record = next(
+                record
+                for record in build_site.load_records(db)
+                if build_site.install_command(record)
+            )
         config = build_site.read_config()
 
         older_global = build_site.render_detail(record, "v-global-old", "2026-08-16T01:00:00Z", config)
@@ -39,6 +88,7 @@ class RichMediaSiteProjectionTests(unittest.TestCase):
         self.assertEqual(older_global, newer_global)
         self.assertIn(f"<dt>Evidence dataset</dt><dd>{record['evidence_dataset_version']}</dd>", newer_global)
         self.assertIn(f"Evidence updated {record['evidence_updated_at']}", newer_global)
+        self.assertIn('<script src="../assets/store.js" defer></script>', newer_global)
 
         updated_record = dict(record)
         updated_record["evidence_dataset_version"] = "v-record-new"

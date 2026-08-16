@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="184" height="28" viewBox="0 0 184 28" role="img" aria-label="Listed on deeplugin.store">
+  <rect width="184" height="28" fill="#1f2928"/>
+  <rect x="120" width="64" height="28" fill="#237a68"/>
+  <text x="10" y="18" fill="#fffdf8" font-family="Arial, sans-serif" font-size="11" font-weight="700">Listed on</text>
+  <text x="69" y="18" fill="#f1c96b" font-family="Arial, sans-serif" font-size="11" font-weight="700">deeplugin</text>
+  <text x="129" y="18" fill="#ffffff" font-family="Arial, sans-serif" font-size="11" font-weight="700">.store</text>
+</svg>

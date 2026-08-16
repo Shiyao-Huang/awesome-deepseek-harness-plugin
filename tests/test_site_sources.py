@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import sqlite3
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -166,6 +167,8 @@ class MarketAccessPageTests(unittest.TestCase):
             ".install-panel { display: grid; grid-template-columns: auto minmax(0, 1fr);",
             css,
         )
+        self.assertIn(".market-detail-main .detail-heading h1 { overflow-wrap: anywhere; }", css)
+        self.assertIn(".market-detail-main .detail-context > div { min-width: 0; }", css)
         self.assertIn(".install-panel .detail-footnote { grid-column: 1 / -1; margin: 0; }", css)
         self.assertIn(
             ".install-command { display: flex; align-items: center; gap: 10px; min-width: 0; width: 100%; }",
@@ -259,6 +262,32 @@ class MarketAccessPageTests(unittest.TestCase):
         self.assertIn("version <strong>NULL</strong>", page)
         self.assertIn("stars <strong>NULL</strong>", page)
         self.assertNotIn("stars <strong>0</strong>", page)
+        self.assertIn('href="plugins/deeplugin-aaaaaaaaaaaaaaaaaaaa.html">example-tool</a>', page)
+        self.assertIn('href="plugins/deeplugin-aaaaaaaaaaaaaaaaaaaa.html">Details →</a>', page)
+        self.assertIn('href="https://github.com/owner/example-tool" rel="noreferrer">Source ↗</a>', page)
+
+    def test_market_plugin_ids_are_validated_before_path_use(self) -> None:
+        valid = {"id": "deeplugin-0123456789abcdefabcd"}
+        invalid = {"id": "../market.html"}
+
+        self.assertEqual(
+            build_site.market_plugin_url(valid),
+            "plugins/deeplugin-0123456789abcdefabcd.html",
+        )
+        with self.assertRaisesRegex(ValueError, "invalid Market plugin id"):
+            build_site.market_plugin_url(invalid)
+
+    def test_generated_plugin_directory_drops_stale_pages(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            generated = Path(temporary) / "plugins"
+            generated.mkdir()
+            stale = generated / "deeplugin-stale.html"
+            stale.write_text("stale", encoding="utf-8")
+
+            build_site.reset_generated_directory(generated)
+
+            self.assertTrue(generated.is_dir())
+            self.assertFalse(stale.exists())
 
     def test_registration_pages_link_one_normative_guide(self) -> None:
         human = build_site.render_register_page(self.config)
