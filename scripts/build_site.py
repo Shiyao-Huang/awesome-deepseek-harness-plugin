@@ -20,6 +20,7 @@ SKILLS = DOCS / "skills"
 MEDIA = ROOT / "media"
 PUBLISHED_MEDIA = DOCS / "media"
 CONFIG_PATH = ROOT / "config" / "site.json"
+MARKET_REGISTRY_PATH = DATA / "market-registry.json"
 
 PLATFORM_LABELS = {
     "github": "GitHub",
@@ -141,6 +142,30 @@ def read_config() -> dict[str, str]:
     """Read deployment and canonical URL settings."""
 
     return json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
+
+
+def load_market_registry() -> dict[str, object]:
+    """Read the exact public Market registry shared by the website and Agent plugin."""
+
+    payload = json.loads(MARKET_REGISTRY_PATH.read_text(encoding="utf-8"))
+    if not isinstance(payload, dict):
+        raise ValueError("market registry must be a JSON object")
+    plugins = payload.get("plugins")
+    categories = payload.get("categories")
+    if not isinstance(plugins, list) or not isinstance(categories, dict):
+        raise ValueError("market registry must contain plugins and categories")
+    if payload.get("count") != len(plugins):
+        raise ValueError("market registry count does not match plugins")
+    for plugin in plugins:
+        install = plugin.get("install") if isinstance(plugin, dict) else None
+        if (
+            not isinstance(plugin, dict)
+            or not isinstance(plugin.get("id"), str)
+            or not isinstance(install, dict)
+            or not isinstance(install.get("spec"), str)
+        ):
+            raise ValueError("market registry contains an invalid plugin identity")
+    return payload
 
 
 def metric_values(row: sqlite3.Row) -> dict[str, int]:
@@ -695,6 +720,137 @@ def filter_buttons(records: list[dict[str, object]]) -> tuple[str, str]:
     return category_html, platform_html
 
 
+def market_observed_at(plugin: dict[str, object]) -> str:
+    """Return the latest attributed Listing observation for one Market plugin."""
+
+    sources = plugin.get("sources")
+    if not isinstance(sources, list):
+        return ""
+    observed = [
+        str(source.get("observedAt") or "")
+        for source in sources
+        if isinstance(source, dict) and source.get("observedAt")
+    ]
+    return max(observed, default="")
+
+
+def market_source_names(plugin: dict[str, object]) -> list[str]:
+    """Return stable Registry Source names attributed to one Market plugin."""
+
+    sources = plugin.get("sources")
+    if not isinstance(sources, list):
+        return []
+    return sorted({
+        str(source["registry"])
+        for source in sources
+        if isinstance(source, dict) and source.get("registry")
+    })
+
+
+def market_card_html(plugin: dict[str, object], category_label: str, rank: int) -> str:
+    """Render one installable Market registry entry without inferring its spec."""
+
+    install = plugin["install"]
+    assert isinstance(install, dict)
+    spec = str(install["spec"])
+    command = f"dsh plugin --profile web add {spec}"
+    name = str(plugin.get("name") or plugin["id"])
+    author = str(plugin.get("author") or "unknown")
+    description = str(plugin.get("description_zh") or plugin.get("description") or name)
+    homepage = str(plugin.get("homepage") or "")
+    source_names = market_source_names(plugin)
+    source_summary = ", ".join(source_names[:3])
+    if len(source_names) > 3:
+        source_summary += f" +{len(source_names) - 3}"
+    tags = plugin.get("tags")
+    search_terms = " ".join([
+        name,
+        author,
+        spec,
+        description,
+        " ".join(str(tag) for tag in tags) if isinstance(tags, list) else "",
+        " ".join(source_names),
+    ]).lower()
+    stars = plugin.get("stars")
+    score = int(stars) if isinstance(stars, int) else -1
+    stars_label = format_number(stars) if isinstance(stars, int) else "NULL"
+    version = str(plugin.get("version") or "NULL")
+    verified = plugin.get("verified") is True
+    verified_label = "source claim verified" if verified else "no verified source claim"
+    category = str(plugin.get("category") or "tools")
+    observed_at = market_observed_at(plugin)
+    source_link = homepage if valid_url(homepage) else "data/market-registry.json"
+    return f"""<article class="skill-card market-plugin-card" data-category="{esc(category, attribute=True)}" data-verified="{str(verified).lower()}" data-title="{esc(search_terms, attribute=True)}" data-rank="{rank}" data-score="{score}" data-seen="{esc(observed_at, attribute=True)}">
+  <div class="card-body">
+    <div class="card-meta"><span>{esc(category_label)}</span><span>{esc(author)}</span></div>
+    <h3><a href="{esc(source_link, attribute=True)}" rel="noreferrer">{esc(name)}</a></h3>
+    <p class="card-description">{esc(description)}</p>
+    <p class="market-plugin-id"><span>Registry ID</span><code>{esc(plugin['id'])}</code></p>
+    <div class="install-command"><code>{esc(spec)}</code><button class="copy-install" type="button" data-install="{esc(command, attribute=True)}" aria-label="Copy install command for {esc(name, attribute=True)}">Copy install</button></div>
+    <div class="market-plugin-proof"><span>version <strong>{esc(version)}</strong></span><span>stars <strong>{esc(stars_label)}</strong></span><span class="{'claim-verified' if verified else 'claim-unverified'}">{esc(verified_label)}</span></div>
+    <div class="card-actions"><span class="market-plugin-sources" title="{esc(', '.join(source_names), attribute=True)}">{esc(source_summary or 'source unreported')}</span><a class="card-view" href="{esc(source_link, attribute=True)}" rel="noreferrer">Source ↗</a></div>
+  </div>
+</article>"""
+
+
+def render_market_page(registry: dict[str, object], config: dict[str, str]) -> str:
+    """Render the human Store from the same registry consumed by the Agent plugin."""
+
+    plugins = registry["plugins"]
+    categories = registry["categories"]
+    assert isinstance(plugins, list)
+    assert isinstance(categories, dict)
+    category_counts: dict[str, int] = {}
+    registry_sources: set[str] = set()
+    cards: list[str] = []
+    for rank, plugin in enumerate(plugins, 1):
+        assert isinstance(plugin, dict)
+        category = str(plugin.get("category") or "tools")
+        category_counts[category] = category_counts.get(category, 0) + 1
+        registry_sources.update(market_source_names(plugin))
+        labels = categories.get(category)
+        category_label = str(labels.get("zh") or labels.get("en") or category) if isinstance(labels, dict) else category
+        cards.append(market_card_html(plugin, category_label, rank))
+    category_filters = []
+    for key, count in sorted(category_counts.items(), key=lambda pair: (-pair[1], pair[0])):
+        labels = categories.get(key)
+        label = str(labels.get("zh") or labels.get("en") or key) if isinstance(labels, dict) else key
+        category_filters.append(
+            f'<button class="filter-option" data-filter-type="category" data-filter-value="{esc(key, attribute=True)}"><span>{esc(label)}</span><em>{count}</em></button>'
+        )
+    verified_count = sum(plugin.get("verified") is True for plugin in plugins if isinstance(plugin, dict))
+    site_url = config["site_url"].rstrip("/")
+    image = f"{site_url}/media/screenshots/official.png"
+    item_list = [
+        {"@type": "ListItem", "position": rank, "url": plugin.get("homepage"), "name": plugin.get("name")}
+        for rank, plugin in enumerate(plugins[:24], 1)
+        if isinstance(plugin, dict) and valid_url(plugin.get("homepage"))
+    ]
+    description = "可搜索、带来源、可由 Agent 在批准后安装的 DeepSeek Harness 插件目录。"
+    head = page_head(
+        "Plugin Store — deeplugin.store",
+        description,
+        site_url + "/market.html",
+        image,
+        config,
+        extra_json_ld={"@type": "CollectionPage", "mainEntity": {"@type": "ItemList", "itemListElement": item_list}},
+    ).replace("{ASSET_PREFIX}", "")
+    market_plugin_command = "dsh plugin --profile web add github:Shiyao-Huang/awesome-deepseek-harness-plugin#path:/plugin"
+    return f"""{head}<body data-page="market" data-result-noun="plugins">
+{market_nav_html()}
+<main class="site-main market-page">
+  <section class="market-catalog-hero"><div><p class="kicker">INSTALLABLE MARKET · {esc(registry.get('datasetVersion'))}</p><h1>The DeepSeek Harness Plugin Store.</h1><p>这里的 {len(plugins):,} 个插件全部来自公开 Registry Listing 或直接提交；网页与 Agent 使用同一份稳定 ID、精确安装 spec 和来源归因。</p><div class="hero-actions"><a class="button button-primary" href="#market-directory">Browse plugins <span aria-hidden="true">↓</span></a><a class="button market-button-quiet" href="register.html">Register a plugin</a></div></div><div class="market-install"><span>INSTALL THE MARKET PLUGIN ONCE</span><code>{esc(market_plugin_command)}</code><button class="copy-install" type="button" data-install="{esc(market_plugin_command, attribute=True)}">Copy</button><div class="market-install-footer"><small>之后用自然语言搜索；Agent 展示来源与精确 spec，你批准后才安装。</small><a href="register-agent.html">Agent protocol ↗</a></div></div></section>
+  <section class="stats-row market-catalog-stats" aria-label="Market registry statistics"><div><strong>{len(plugins):,}</strong><span>installable plugins</span></div><div><strong>{verified_count:,}</strong><span>source verification claims</span></div><div><strong>{len(category_counts):,}</strong><span>categories</span></div><div><strong>{len(registry_sources):,}</strong><span>attributed registries</span></div></section>
+  <section class="directory-layout" id="market-directory">
+    <aside class="filters"><div class="filter-mobile-head"><span>Plugin filters</span><button id="clear-filters" class="text-button">Clear</button></div><div class="filter-group"><p class="filter-label">BROWSE</p><button class="filter-option is-selected" data-filter-type="all" data-filter-value="all"><span>All installable</span><em>{len(plugins)}</em></button><button class="filter-option" data-filter-type="verified" data-filter-value="true"><span>Source claim verified</span><em>{verified_count}</em></button></div><div class="filter-group"><p class="filter-label">CATEGORIES</p>{''.join(category_filters)}</div><div class="filter-note"><strong>One registry, two clients</strong><p>Cards come from <a href="data/market-registry.json">the same JSON</a> embedded in Market Plugin. Verified is an attributed source claim, not this Store's security or compatibility endorsement.</p></div></aside>
+    <div class="directory-content"><div class="directory-toolbar"><div><p class="kicker">THE STORE</p><h2>Find an installable plugin</h2><p id="result-summary">Showing {len(plugins):,} plugins</p></div><div class="toolbar-controls"><label class="search-field"><span aria-hidden="true">⌕</span><input id="search-input" type="search" placeholder="Search name, capability, spec, source..." autocomplete="off"><kbd>/</kbd></label><label class="sort-field"><span>Sort</span><select id="sort-select"><option value="rank">Registry order</option><option value="score">Most GitHub stars</option><option value="latest">Recently observed</option><option value="title">Title A–Z</option></select></label></div></div><div class="platform-summary"><span><b>{esc(registry.get('updated'))}</b> registry date</span><span><b>{esc(registry.get('generatedAt'))}</b> generated UTC</span><span><a href="data/market-registry.schema.json">JSON Schema ↗</a></span></div><div class="catalog-grid market-catalog-grid" id="catalog-grid">{''.join(cards)}</div><p class="no-results" id="no-results" hidden>No installable plugin matches this search. Clear a filter or try another phrase.</p></div>
+  </section>
+</main>
+{footer_html(data_path=config['public_database_url'])}
+<script src="assets/store.js" defer></script>
+</body></html>"""
+
+
 def page_head(title: str, description: str, canonical: str, image: str, config: dict[str, str], *, extra_json_ld: dict[str, object] | None = None) -> str:
     """Render shared SEO metadata and structured data."""
 
@@ -732,6 +888,12 @@ def nav_html(prefix: str = "") -> str:
     """Render the store navigation used by all static pages."""
 
     return f"""<header class="site-header"><a class="brand" href="{prefix}"><span class="brand-mark">dsh</span><span>store</span></a><nav><a class="nav-active" href="{prefix}">Directory</a><a href="{prefix}#hot">Hot</a><a href="{prefix}timeline.html">Timeline</a><a href="{prefix}directories.html">Directories</a><a href="{prefix}sources.html">Sources</a></nav><a class="header-source" href="https://github.com/Shiyao-Huang/awesome-deepseek-harness-plugin">GitHub <span aria-hidden="true">↗</span></a></header>"""
+
+
+def market_nav_html() -> str:
+    """Render Store navigation without rewriting every ecosystem detail page."""
+
+    return """<header class="site-header"><a class="brand" href="./"><span class="brand-mark">dsh</span><span>store</span></a><nav><a href="./">Directory</a><a class="nav-active" href="market.html">Store</a><a href="./#hot">Hot</a><a href="timeline.html">Timeline</a><a href="directories.html">Directories</a><a href="sources.html">Sources</a></nav><a class="header-source" href="https://github.com/Shiyao-Huang/awesome-deepseek-harness-plugin">GitHub <span aria-hidden="true">↗</span></a></header>"""
 
 
 def footer_html(prefix: str = "", *, data_path: str, readme_path: str | None = None, seo_path: str | None = None) -> str:
@@ -778,11 +940,11 @@ def render_home(records: list[dict[str, object]], dataset_version: str, generate
 {nav_html()}
 <main class="site-main">
   <section class="hero-store">
-    <div class="hero-copy"><p class="kicker">DSH PLUGIN SIGNALS · {esc(dataset_version)}</p><h1>See what is hot.<br><em>Use what works.</em></h1><p class="hero-lede">当前插件系统里的热门 GitHub 项目、帖子和视频。每条记录都能回到源头，明确的 dsh 插件可以直接复制安装命令。</p><div class="hero-actions"><a class="button button-primary" href="#hot">View hot signals <span aria-hidden="true">↓</span></a><a class="button button-quiet" href="#directory">Browse all <span aria-hidden="true">↓</span></a></div></div>
+    <div class="hero-copy"><p class="kicker">DSH PLUGIN SIGNALS · {esc(dataset_version)}</p><h1>See what is hot.<br><em>Use what works.</em></h1><p class="hero-lede">当前插件系统里的热门 GitHub 项目、帖子和视频。每条记录都能回到源头，明确的 dsh 插件可以直接复制安装命令。</p><div class="hero-actions"><a class="button button-primary" href="market.html">Browse installable plugins <span aria-hidden="true">→</span></a><a class="button button-quiet" href="#hot">View hot signals <span aria-hidden="true">↓</span></a></div></div>
     <div class="hero-panel"><div class="panel-label">LATEST SNAPSHOT</div><strong>{esc(date_label(generated_at))}</strong><p>Native counters only. Missing values stay NULL.</p><div class="signal-line"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div>
   </section>
   <section class="stats-row" aria-label="Dataset statistics"><div><strong>{stats['records']:,}</strong><span>records</span></div><div><strong>{stats['direct']:,}</strong><span>direct signals</span></div><div><strong>{stats['platforms']}</strong><span>platforms</span></div><div><strong>{stats['media']:,}</strong><span>with media</span></div></section>
-  <section class="market-band" aria-labelledby="market-heading"><div class="market-copy"><p class="kicker">DEEPSEEK HARNESS PLUGIN STORE</p><h2 id="market-heading">把分散在各处的好插件，收进一个可由 Agent 使用的 Store。</h2><p>deeplugin.store 聚合社区 Registry 和公开提交中的 DeepSeek Harness 插件，保留每个 Listing 的来源、版本与安装标识。人可以在这里浏览，Agent 可以搜索同一份注册表，并在你批准后完成安装和管理。</p><div class="market-outcomes"><span>来源可追溯</span><span>自然语言搜索</span><span>批准后安装</span></div><div class="market-links"><a class="button button-primary" href="#directory">Browse the Store</a><a class="button button-quiet" href="register.html">Register a plugin</a><a class="market-text-link" href="register-agent.html">Agent guide ↗</a><a class="market-text-link" href="data/market-registry.json">Registry JSON ↗</a><a class="market-text-link" href="data/market-registry.schema.json">Registry Schema ↗</a></div></div><div class="market-install"><span>01 · INSTALL THE MARKET PLUGIN</span><code>dsh plugin --profile web add github:Shiyao-Huang/awesome-deepseek-harness-plugin#path:/plugin</code><button class="copy-install" type="button" data-install="dsh plugin --profile web add github:Shiyao-Huang/awesome-deepseek-harness-plugin#path:/plugin" aria-label="Copy market plugin install command">Copy</button><div class="market-install-footer"><small>Every install requires explicit confirmation. 安装一次并重启 DSH；之后直接告诉 Agent 你需要什么插件。</small><a href="http://127.0.0.1:3080/">Open local DSH ↗</a></div></div></section>
+  <section class="market-band" aria-labelledby="market-heading"><div class="market-copy"><p class="kicker">DEEPSEEK HARNESS PLUGIN STORE</p><h2 id="market-heading">把分散在各处的好插件，收进一个可由 Agent 使用的 Store。</h2><p>deeplugin.store 聚合社区 Registry 和公开提交中的 DeepSeek Harness 插件，保留每个 Listing 的来源、版本与安装标识。人可以在这里浏览，Agent 可以搜索同一份注册表，并在你批准后完成安装和管理。</p><div class="market-outcomes"><span>来源可追溯</span><span>自然语言搜索</span><span>批准后安装</span></div><div class="market-links"><a class="button button-primary" href="market.html">Browse the Store</a><a class="button button-quiet" href="register.html">Register a plugin</a><a class="market-text-link" href="register-agent.html">Agent guide ↗</a><a class="market-text-link" href="data/market-registry.json">Registry JSON ↗</a><a class="market-text-link" href="data/market-registry.schema.json">Registry Schema ↗</a></div></div><div class="market-install"><span>01 · INSTALL THE MARKET PLUGIN</span><code>dsh plugin --profile web add github:Shiyao-Huang/awesome-deepseek-harness-plugin#path:/plugin</code><button class="copy-install" type="button" data-install="dsh plugin --profile web add github:Shiyao-Huang/awesome-deepseek-harness-plugin#path:/plugin" aria-label="Copy market plugin install command">Copy</button><div class="market-install-footer"><small>Every install requires explicit confirmation. 安装一次并重启 DSH；之后直接告诉 Agent 你需要什么插件。</small><a href="http://127.0.0.1:3080/">Open local DSH ↗</a></div></div></section>
   <ol class="market-flow" aria-label="From Store discovery to approved plugin installation"><li><span>01</span><strong>浏览 Store</strong><p>查看聚合的插件、原始来源、版本和公开信号。</p></li><li><span>02</span><strong>安装 Market Plugin</strong><p>复制上面的命令，安装后重启你的 DSH profile。</p></li><li><span>03</span><strong>直接描述需求</strong><p>对 Agent 说：“找一个能搜索公开网页的插件，并告诉我来源。”</p></li><li><span>04</span><strong>核对并批准</strong><p>Agent 展示来源和精确标识；你批准后才安装，也能继续列出、更新或卸载。</p></li></ol>
   <section class="hot-signals" id="hot"><div class="section-heading"><div><p class="kicker">HOT NOW</p><h2>What the plugin system is pulling forward</h2></div><p>项目看 stars，内容看各自平台的原生互动信号。</p></div><div class="hot-grid">{hot_tables}</div></section>
   <section class="spotlight"><div class="section-heading"><div><p class="kicker">EDITOR'S CUT</p><h2>What is moving now</h2></div><p>按平台原生指标排序；不同平台不混算。</p></div><div class="spotlight-grid">{spotlight_html(records)}</div></section>
@@ -1060,6 +1222,7 @@ def render_sitemap(records: list[dict[str, object]], site_url: str) -> str:
 
     static_paths = (
         "/",
+        "/market.html",
         "/report.html",
         "/timeline.html",
         "/categories.html",
@@ -1121,6 +1284,7 @@ def write_store_site(db: sqlite3.Connection, dataset_version: str, generated_at:
 
     config = read_config()
     records = load_records(db)
+    market_registry = load_market_registry()
     for record in records:
         record["dataset_version"] = dataset_version
     platform_counts = db.execute("SELECT platform, COUNT(*) AS count FROM items GROUP BY platform ORDER BY count DESC, platform").fetchall()
@@ -1141,6 +1305,7 @@ def write_store_site(db: sqlite3.Connection, dataset_version: str, generated_at:
     }
     (DATA / "catalog.json").write_text(json.dumps(catalog, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
     (DOCS / "index.html").write_text(render_home(records, dataset_version, generated_at, config, platform_counts, category_counts), encoding="utf-8")
+    (DOCS / "market.html").write_text(render_market_page(market_registry, config), encoding="utf-8")
     (DOCS / "timeline.html").write_text(render_timeline_page(db, dataset_version, config), encoding="utf-8")
     (DOCS / "categories.html").write_text(render_categories_page(records, config), encoding="utf-8")
     (DOCS / "directories.html").write_text(render_directories_page(records, config), encoding="utf-8")

@@ -1,8 +1,8 @@
 (function () {
   "use strict";
 
-  const home = document.body.dataset.page === "home";
-  if (home) {
+  const catalogPage = ["home", "market"].includes(document.body.dataset.page);
+  if (catalogPage) {
     const cards = Array.from(document.querySelectorAll(".skill-card"));
     const grid = document.getElementById("catalog-grid");
     const search = document.getElementById("search-input");
@@ -10,6 +10,7 @@
     const summary = document.getElementById("result-summary");
     const empty = document.getElementById("no-results");
     const clear = document.getElementById("clear-filters");
+    const resultNoun = document.body.dataset.resultNoun || "records";
     let active = { type: "all", value: "all" };
 
     function apply() {
@@ -27,7 +28,7 @@
         return Number(a.dataset.rank) - Number(b.dataset.rank);
       });
       ordered.forEach((card) => grid.appendChild(card));
-      summary.textContent = `Showing ${visible.length.toLocaleString()} records`;
+      summary.textContent = `Showing ${visible.length.toLocaleString()} ${resultNoun}`;
       empty.hidden = visible.length !== 0;
     }
 

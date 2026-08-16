@@ -111,12 +111,78 @@ class MarketAccessPageTests(unittest.TestCase):
     def test_home_links_registry_schema_guides_and_market_plugin(self) -> None:
         page = build_site.render_home([], "v-test", "2026-08-16T00:00:00Z", self.config, [], [])
 
+        self.assertIn('href="market.html"', page)
         self.assertIn('href="register.html"', page)
         self.assertIn('href="register-agent.html"', page)
         self.assertIn('href="data/market-registry.json"', page)
         self.assertIn('href="data/market-registry.schema.json"', page)
         self.assertIn("github:Shiyao-Huang/awesome-deepseek-harness-plugin#path:/plugin", page)
         self.assertIn("Every install requires explicit confirmation", page)
+
+    def test_market_page_projects_exact_install_id_spec_and_source_claim(self) -> None:
+        registry = {
+            "count": 2,
+            "datasetVersion": "v-market",
+            "updated": "2026-08-16",
+            "generatedAt": "2026-08-16T04:00:00Z",
+            "categories": {
+                "tools": {"en": "Tools", "zh": "工具"},
+                "memory": {"en": "Memory", "zh": "记忆"},
+            },
+            "plugins": [
+                {
+                    "id": "deeplugin-aaaaaaaaaaaaaaaaaaaa",
+                    "name": "example-tool",
+                    "author": "owner",
+                    "category": "tools",
+                    "description": "Public example tool.",
+                    "description_zh": "公开示例工具。",
+                    "install": {"target": "npm", "spec": "@owner/example-tool"},
+                    "version": "1.2.3",
+                    "homepage": "https://github.com/owner/example-tool",
+                    "verified": True,
+                    "stars": 12,
+                    "tags": ["search"],
+                    "sources": [{
+                        "registry": "owner/registry",
+                        "registryUrl": "https://github.com/owner/registry",
+                        "observedAt": "2026-08-16T03:00:00Z",
+                    }],
+                },
+                {
+                    "id": "deeplugin-bbbbbbbbbbbbbbbbbbbb",
+                    "name": "unknown-version",
+                    "author": "owner",
+                    "category": "memory",
+                    "description": "No metric values.",
+                    "description_zh": None,
+                    "install": {"target": "git", "spec": "github:owner/repo#path:/plugin"},
+                    "version": None,
+                    "homepage": "https://github.com/owner/repo",
+                    "verified": False,
+                    "stars": None,
+                    "tags": [],
+                    "sources": [{
+                        "registry": "other/registry",
+                        "registryUrl": "https://github.com/other/registry",
+                        "observedAt": "2026-08-16T02:00:00Z",
+                    }],
+                },
+            ],
+        }
+
+        page = build_site.render_market_page(registry, self.config)
+
+        self.assertEqual(page.count('class="skill-card market-plugin-card"'), 2)
+        self.assertIn('data-page="market" data-result-noun="plugins"', page)
+        self.assertIn("deeplugin-aaaaaaaaaaaaaaaaaaaa", page)
+        self.assertIn("@owner/example-tool", page)
+        self.assertIn("dsh plugin --profile web add @owner/example-tool", page)
+        self.assertIn("owner/registry", page)
+        self.assertIn("source claim verified", page)
+        self.assertIn("version <strong>NULL</strong>", page)
+        self.assertIn("stars <strong>NULL</strong>", page)
+        self.assertNotIn("stars <strong>0</strong>", page)
 
     def test_registration_pages_link_one_normative_guide(self) -> None:
         human = build_site.render_register_page(self.config)
