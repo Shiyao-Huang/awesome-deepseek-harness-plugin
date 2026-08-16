@@ -59,6 +59,7 @@ The SQLite table `index_records` mirrors these fields. The `raw_snapshots`, `obs
 - Items are unique by canonical URL and platform/external ID. Do not insert a second row for the same public object.
 - Media is unique by item, media kind, and URL.
 - Dated observation and metric rows are historical snapshots. They may repeat a value when a later collection run confirms the same public state; they must retain their collection date and dataset version.
+- `items.first_seen_at` and `items.last_seen_at` are the minimum and maximum dates of the item's linked observations; their run ids must point to observations at those boundaries. Replaying older raw evidence out of order must never move either boundary inward.
 - Missing interaction numbers are `NULL`, never an invented zero.
 - A failed run remains in `collection_runs` with `status=error`; do not hide failures by deleting the run.
 - Generated docs and `index/records.jsonl` must be rebuilt after a successful import.

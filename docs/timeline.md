@@ -2794,7 +2794,6 @@
 | 2天前 | xiaohongshu | note | [写了一个DeepSeek Harness接入微信的插件](https://www.xiaohongshu.com/explore/6a7e94f5000000002402c800) | 菜菜在AI | core-and-ecosystem |
 | 3天前 | xiaohongshu | note | [千问给DeepSeek装上了眼睛，能看图看视频](https://www.xiaohongshu.com/explore/6a7b40c70000000029030c1c) | 潦草学者 | core-and-ecosystem |
 | 1天前 | xiaohongshu | note | [太开心能参加DeepSeek Harness内测！！](https://www.xiaohongshu.com/explore/6a7dcc860000000033037926) | Monet | core-and-ecosystem |
-| 昨天 14:56 | xiaohongshu | note | [文件](https://www.xiaohongshu.com/explore/6a7ebc1f00000000060043d0) | 才巨智能 | operations-and-safety |
 | 1天前 | xiaohongshu | note | [给DeepSeek Harness做了一个插件市场](https://www.xiaohongshu.com/explore/6a7f1a21000000002402e4fa) | Awesome | index-and-marketplace |
 | 1天前 | xiaohongshu | note | [给deepseek harness开发了一个插件](https://www.xiaohongshu.com/explore/6a7f1cfc0000000026034f60) | 大模型产品经理 | core-and-ecosystem |
 | 1天前 | xiaohongshu | note | [给dsh加上眼睛！](https://www.xiaohongshu.com/explore/6a7dd8490000000024024ebd) | JJJYmmm | core-and-ecosystem |
@@ -2803,6 +2802,7 @@
 | 42分钟前 | xiaohongshu | note | [DeepSeek把最值钱的东西免费了？](https://www.xiaohongshu.com/explore/6a7ffaad00000000210206ba) | 喵哇ppj | operations-and-safety |
 | 1天前 | xiaohongshu | note | [deepseek harness娘](https://www.xiaohongshu.com/explore/6a7f1b1b000000002701e3ca) | 在不n | core-and-ecosystem |
 | 3小时前 | xiaohongshu | note | [从0到1带你速通 DeepSeek Harness](https://www.xiaohongshu.com/explore/6a7fd09b000000002500c8d9) | 韩有谁 | operations-and-safety |
+| 昨天 14:56 | xiaohongshu | note | [文件](https://www.xiaohongshu.com/explore/6a7ebc1f00000000060043d0) | 才巨智能 | operations-and-safety |
 | 2026-08-15T06:17:40Z | github | fork | [SYQ1001/deepseek-harness](https://github.com/SYQ1001/deepseek-harness) | SYQ1001 | deepseek-harness-forks |
 | 2026-08-15T06:17:16Z | github | fork | [putewind/deepseek-harness](https://github.com/putewind/deepseek-harness) | putewind | deepseek-harness-forks |
 | 2026-08-15T06:16:58Z | github | fork | [zhuxinkai777-maker/deepseek-harness](https://github.com/zhuxinkai777-maker/deepseek-harness) | zhuxinkai777-maker | deepseek-harness-forks |

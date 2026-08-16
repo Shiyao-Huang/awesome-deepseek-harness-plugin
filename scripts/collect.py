@@ -24,7 +24,7 @@ DB_PATH = ROOT / "data" / "aggregator.sqlite3"
 SCHEMA_PATH = ROOT / "src" / "schema.sql"
 CONFIG_PATH = ROOT / "config" / "queries.json"
 RAW_DIR = ROOT / "data" / "raw"
-SCHEMA_VERSION = 6
+SCHEMA_VERSION = 7
 
 
 @dataclass
@@ -424,6 +424,63 @@ def backfill_collection_runs(connection: sqlite3.Connection) -> None:
     )
 
 
+def repair_item_seen_ranges(connection: sqlite3.Connection) -> None:
+    """Align item date boundaries and run ids with their observation history."""
+
+    rows = connection.execute(
+        """
+        WITH ranked AS (
+            SELECT
+                io.item_id,
+                o.collected_at,
+                o.collection_run_id,
+                ROW_NUMBER() OVER (
+                    PARTITION BY io.item_id ORDER BY o.collected_at, o.id
+                ) AS first_rank,
+                ROW_NUMBER() OVER (
+                    PARTITION BY io.item_id ORDER BY o.collected_at DESC, o.id DESC
+                ) AS last_rank
+            FROM item_observations AS io
+            JOIN observations AS o ON o.id = io.observation_id
+        ),
+        boundaries AS (
+            SELECT
+                item_id,
+                MAX(CASE WHEN first_rank = 1 THEN collected_at END) AS first_seen_at,
+                MAX(CASE WHEN first_rank = 1 THEN collection_run_id END) AS first_seen_run_id,
+                MAX(CASE WHEN last_rank = 1 THEN collected_at END) AS last_seen_at,
+                MAX(CASE WHEN last_rank = 1 THEN collection_run_id END) AS last_seen_run_id
+            FROM ranked
+            GROUP BY item_id
+        )
+        SELECT
+            boundaries.item_id,
+            boundaries.first_seen_at,
+            boundaries.last_seen_at,
+            boundaries.first_seen_run_id,
+            boundaries.last_seen_run_id
+        FROM boundaries
+        JOIN items ON items.id = boundaries.item_id
+        WHERE items.first_seen_at IS NOT boundaries.first_seen_at
+           OR items.last_seen_at IS NOT boundaries.last_seen_at
+           OR items.first_seen_run_id IS NOT boundaries.first_seen_run_id
+           OR items.last_seen_run_id IS NOT boundaries.last_seen_run_id
+        """
+    ).fetchall()
+    connection.executemany(
+        """
+        UPDATE items
+        SET first_seen_at = ?, last_seen_at = ?,
+            first_seen_run_id = ?, last_seen_run_id = ?
+        WHERE id = ?
+        """,
+        [
+            (row[1], row[2], row[3], row[4], row[0])
+            for row in rows
+        ],
+    )
+
+
 def init_db(path: Path = DB_PATH) -> None:
     """Create or migrate the SQLite schema without discarding raw evidence."""
 
@@ -497,6 +554,7 @@ def init_db(path: Path = DB_PATH) -> None:
             "WHERE reputation_status = 'unobserved' AND overall_score = 0"
         )
         backfill_collection_runs(connection)
+        repair_item_seen_ranges(connection)
         connection.execute(f"PRAGMA user_version = {SCHEMA_VERSION}")
         connection.execute("CREATE UNIQUE INDEX IF NOT EXISTS idx_metrics_dedupe ON metrics(item_id, observed_at, metric_source)")
 
@@ -830,8 +888,18 @@ def upsert_item(
                 WHEN excluded.media_kind = 'video' OR items.media_kind = 'video' THEN 'video'
                 ELSE excluded.media_kind
             END,
-            last_seen_at=excluded.last_seen_at,
-            last_seen_run_id=excluded.last_seen_run_id,
+            first_seen_at=MIN(items.first_seen_at, excluded.first_seen_at),
+            first_seen_run_id=CASE
+                WHEN excluded.first_seen_at < items.first_seen_at
+                    THEN excluded.first_seen_run_id
+                ELSE COALESCE(items.first_seen_run_id, excluded.first_seen_run_id)
+            END,
+            last_seen_at=MAX(items.last_seen_at, excluded.last_seen_at),
+            last_seen_run_id=CASE
+                WHEN excluded.last_seen_at > items.last_seen_at
+                    THEN excluded.last_seen_run_id
+                ELSE COALESCE(items.last_seen_run_id, excluded.last_seen_run_id)
+            END,
             raw_json=excluded.raw_json
         """,
         values,
