@@ -40,7 +40,7 @@ jobs:
       - name: Refresh versioned core dataset
         env:
           GH_TOKEN: ${{ github.token }}
-        run: make core-refresh
+        run: make core-collect
 
       - name: Rebuild on latest main and commit refreshed index
         run: |

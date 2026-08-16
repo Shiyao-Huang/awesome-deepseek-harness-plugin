@@ -67,6 +67,17 @@ class RepositoryPolicyTests(unittest.TestCase):
 
         self.assertLess(fork_build, other_builds)
 
+    def test_refresh_workflows_publish_one_full_database_build(self) -> None:
+        publisher = (ROOT / "scripts" / "publish_generated_commit.sh").read_text(encoding="utf-8")
+        self.assertIn('cp "$source_database" "$publish_worktree/data/aggregator.sqlite3"', publisher)
+        self.assertNotIn('make -C "$publish_worktree" restore-full', publisher)
+
+        core = (ROOT / ".github" / "workflows" / "refresh-index.yml").read_text(encoding="utf-8")
+        forks = (ROOT / ".github" / "workflows" / "refresh-forks.yml").read_text(encoding="utf-8")
+        self.assertIn("run: make core-collect", core)
+        self.assertNotIn("make core-refresh", core)
+        self.assertNotIn("Rebuild projections and database assets", forks)
+
 
 if __name__ == "__main__":
     unittest.main()

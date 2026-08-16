@@ -11,6 +11,7 @@ commit_message=$1
 shift
 stage_paths=("$@")
 source_root=$(git rev-parse --show-toplevel)
+source_database="$source_root/data/aggregator.sqlite3"
 full_database="$source_root/data/aggregator-full.sqlite3.zst"
 public_database="$source_root/data/aggregator.sqlite3"
 max_attempts=${GENERATED_PUSH_MAX_ATTEMPTS:-3}
@@ -20,8 +21,8 @@ if [[ ! $max_attempts =~ ^[1-9][0-9]*$ ]]; then
   echo "GENERATED_PUSH_MAX_ATTEMPTS must be positive" >&2
   exit 2
 fi
-if [[ ! -f $full_database ]]; then
-  echo "missing complete database archive: $full_database" >&2
+if [[ ! -f $source_database ]]; then
+  echo "missing complete SQLite database: $source_database" >&2
   exit 1
 fi
 
@@ -41,9 +42,8 @@ for ((attempt = 1; attempt <= max_attempts; attempt++)); do
   if [[ -d $source_root/data/raw ]]; then
     rsync -a "$source_root/data/raw/" "$publish_worktree/data/raw/"
   fi
-  cp "$full_database" "$publish_worktree/data/aggregator-full.sqlite3.zst"
+  cp "$source_database" "$publish_worktree/data/aggregator.sqlite3"
 
-  make -C "$publish_worktree" restore-full
   python3 "$publish_worktree/scripts/build_fork_index.py"
   make -C "$publish_worktree" build
   make -C "$publish_worktree" archive-full

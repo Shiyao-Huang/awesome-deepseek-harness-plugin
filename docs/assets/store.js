@@ -128,13 +128,22 @@
     if (!command || button.disabled) return;
     const original = button.textContent;
     button.disabled = true;
+    button.setAttribute("aria-busy", "true");
+    button.dataset.copyState = "loading";
     button.textContent = "Copying...";
     try {
       await copyText(command);
+      button.dataset.copyState = "success";
       button.textContent = "Copied";
     } catch {
+      button.dataset.copyState = "error";
       button.textContent = "Copy failed";
     }
-    window.setTimeout(() => { button.disabled = false; button.textContent = original; }, 1400);
+    window.setTimeout(() => {
+      button.disabled = false;
+      button.removeAttribute("aria-busy");
+      delete button.dataset.copyState;
+      button.textContent = original;
+    }, 1400);
   });
 })();

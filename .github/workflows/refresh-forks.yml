@@ -61,13 +61,6 @@ jobs:
       - name: Build Fork projection from the complete database
         run: python3 scripts/build_fork_index.py
 
-      - name: Rebuild projections and database assets
-        run: |
-          make build
-          make archive-full
-          make public-db
-          python3 scripts/validate.py
-
       - name: Rebuild on latest main and commit refreshed Fork index
         run: |
           scripts/publish_generated_commit.sh "data: refresh DeepSeek Harness fork network" index docs plugin/data README.md

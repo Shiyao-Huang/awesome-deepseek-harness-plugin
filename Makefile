@@ -1,6 +1,6 @@
 PYTHON ?= python3
 
-.PHONY: init seed update sources forks forks-filtered fork-index restore-full archive-full public-db value market index build test check core-refresh schedule trends enrich readme
+.PHONY: init seed update sources forks forks-filtered fork-index restore-full archive-full public-db value market index build test check core-collect core-refresh schedule trends enrich readme
 
 init:
 	$(PYTHON) scripts/collect.py init
@@ -11,9 +11,11 @@ seed:
 update:
 	$(PYTHON) scripts/collect.py update
 
-core-refresh:
+core-collect:
 	stamp="$$(date -u +%Y%m%dT%H%M%SZ)"; $(PYTHON) scripts/monitor_sources.py --raw-output "data/raw/upstreams/$${stamp}.json"
 	stamp="$$(date -u +%Y%m%dT%H%M%SZ)"; $(PYTHON) scripts/collect.py update --trigger scheduled --raw-output "data/raw/api/$${stamp}.json"
+
+core-refresh: core-collect
 	$(MAKE) build
 	$(MAKE) archive-full
 	$(MAKE) public-db
