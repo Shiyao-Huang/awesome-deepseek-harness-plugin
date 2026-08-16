@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import shutil
 import sqlite3
 import sys
 import tempfile
@@ -323,7 +324,14 @@ class PublicDatabaseTests(unittest.TestCase):
             CREATE TABLE collection_runs(id INTEGER PRIMARY KEY, trigger TEXT);
             CREATE TABLE items(id INTEGER PRIMARY KEY, canonical_url TEXT, platform TEXT, external_id TEXT, raw_json TEXT);
             CREATE TABLE raw_snapshots(raw_sha256 TEXT, payload_json TEXT);
-            CREATE TABLE metrics(raw_json TEXT);
+            CREATE TABLE metrics(
+                id INTEGER PRIMARY KEY,
+                item_id INTEGER,
+                observed_at TEXT,
+                metric_source TEXT,
+                raw_json TEXT
+            );
+            CREATE UNIQUE INDEX idx_metrics_dedupe ON metrics(item_id, observed_at, metric_source);
             CREATE TABLE github_user_profiles(raw_json TEXT);
             CREATE TABLE upstream_entries(source_json TEXT);
             CREATE TABLE upstream_entry_observations(
@@ -341,7 +349,13 @@ class PublicDatabaseTests(unittest.TestCase):
                 raw_json TEXT
             );
             CREATE TABLE fork_commits(
+                id INTEGER PRIMARY KEY,
+                fork_id INTEGER,
                 snapshot_id INTEGER REFERENCES fork_snapshots(id) ON DELETE CASCADE,
+                committed_at TEXT,
+                authored_at TEXT,
+                last_seen_at TEXT,
+                first_seen_at TEXT,
                 raw_json TEXT
             );
             CREATE TABLE fork_rankings(
@@ -355,7 +369,7 @@ class PublicDatabaseTests(unittest.TestCase):
                 (1, 'https://example.com/1', 'web', '1', '{"raw": 1}'),
                 (2, 'https://example.com/2', 'web', '2', '{"raw": 2}');
             INSERT INTO raw_snapshots VALUES ('sha-1', '{"raw": 1}');
-            INSERT INTO metrics VALUES ('{"raw": 1}');
+            INSERT INTO metrics VALUES (1, 1, '2026-08-16T00:00:00Z', 'test', '{"raw": 1}');
             INSERT INTO github_user_profiles VALUES ('{"raw": 1}');
             INSERT INTO upstream_entries VALUES ('{"raw": 1}');
             INSERT INTO upstream_entry_observations VALUES
@@ -370,8 +384,14 @@ class PublicDatabaseTests(unittest.TestCase):
                 (4, 2, 2),
                 (5, 3, 1),
                 (6, 3, 2);
-            INSERT INTO fork_file_changes VALUES (5, '{"raw": 1}');
-            INSERT INTO fork_commits VALUES (1, '{"raw": 1}');
+            INSERT INTO fork_file_changes VALUES
+                (5, '{"raw": 1}'),
+                (6, '{"raw": 2}');
+            INSERT INTO fork_commits VALUES
+                (1, 1, 1, '2026-08-13T00:00:00Z', NULL, '2026-08-13T00:00:00Z', '2026-08-13T00:00:00Z', '{"raw": 1}'),
+                (2, 1, 1, '2026-08-14T00:00:00Z', NULL, '2026-08-14T00:00:00Z', '2026-08-14T00:00:00Z', '{"raw": 2}'),
+                (3, 1, 1, '2026-08-15T00:00:00Z', NULL, '2026-08-15T00:00:00Z', '2026-08-15T00:00:00Z', '{"raw": 3}'),
+                (4, 1, 1, '2026-08-16T00:00:00Z', NULL, '2026-08-16T00:00:00Z', '2026-08-16T00:00:00Z', '{"raw": 4}');
             INSERT INTO fork_rankings VALUES
                 (1, 1, '{"score": 1}'),
                 (2, 1, '{"score": 1}'),
@@ -403,11 +423,40 @@ class PublicDatabaseTests(unittest.TestCase):
             self.assertEqual(connection.execute("SELECT collection_run_id FROM value_assessments").fetchall(), [(2,), (2,)])
             self.assertEqual(connection.execute("SELECT DISTINCT collection_run_id FROM fork_rankings").fetchall(), [(2,)])
             self.assertEqual(connection.execute("SELECT DISTINCT components_json FROM fork_rankings").fetchall(), [("{}",)])
-            self.assertEqual(connection.execute("SELECT id FROM fork_snapshots ORDER BY id").fetchall(), [(1,), (2,), (4,), (5,), (6,)])
-            self.assertEqual(connection.execute("SELECT snapshot_id FROM fork_commits").fetchall(), [(1,)])
-            self.assertEqual(connection.execute("SELECT snapshot_id FROM fork_file_changes").fetchall(), [(5,)])
+            self.assertEqual(connection.execute("SELECT id FROM fork_snapshots ORDER BY id").fetchall(), [(1,), (2,), (4,), (6,)])
+            self.assertEqual(connection.execute("SELECT id FROM fork_commits ORDER BY id").fetchall(), [(2,), (3,), (4,)])
+            self.assertEqual(connection.execute("SELECT snapshot_id FROM fork_file_changes").fetchall(), [(6,)])
+            self.assertIsNone(
+                connection.execute(
+                    "SELECT 1 FROM sqlite_schema WHERE type = 'index' AND name = 'idx_metrics_dedupe'"
+                ).fetchone()
+            )
+            policy = json.loads(
+                connection.execute("SELECT stripped_fields_json FROM public_projection_metadata").fetchone()[0]
+            )
+            self.assertEqual(policy["dropped_indexes"], ["idx_metrics_dedupe"])
+            self.assertEqual(
+                connection.execute("SELECT projection_version FROM public_projection_metadata").fetchone()[0],
+                4,
+            )
             self.assertEqual(connection.execute("SELECT source_sha256 FROM public_projection_metadata").fetchone()[0], "a" * 64)
             connection.close()
+
+    def test_projection_verification_rejects_duplicate_metrics_without_write_index(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            source = Path(directory) / "source.sqlite3"
+            projected = Path(directory) / "projected.sqlite3"
+            self.create_database(source)
+            with sqlite3.connect(source) as connection:
+                connection.execute("DROP INDEX idx_metrics_dedupe")
+                connection.execute(
+                    "INSERT INTO metrics VALUES (2, 1, '2026-08-16T00:00:00Z', 'test', '{\"raw\": 2}')"
+                )
+            shutil.copyfile(source, projected)
+            run_id = build_public_db.project_database(projected, "a" * 64, "aggregator-full.sqlite3.zst")
+
+            with self.assertRaisesRegex(RuntimeError, "duplicate metric history key"):
+                build_public_db.verify_projection(source, projected, run_id, 95 * 1024 * 1024)
 
     def test_archive_mismatch_blocks_projection(self) -> None:
         with tempfile.TemporaryDirectory() as directory:

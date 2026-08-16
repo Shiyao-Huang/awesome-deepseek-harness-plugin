@@ -17,7 +17,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DB = ROOT / "data" / "aggregator.sqlite3"
 DEFAULT_FULL_ARCHIVE = ROOT / "data" / "aggregator-full.sqlite3.zst"
-PROJECTION_VERSION = 3
+PROJECTION_VERSION = 4
+PUBLIC_DROPPED_INDEXES = ("idx_metrics_dedupe",)
 STRIPPED_JSON_COLUMNS = (
     ("raw_snapshots", "payload_json"),
     ("items", "raw_json"),
@@ -28,20 +29,48 @@ STRIPPED_JSON_COLUMNS = (
     ("fork_rankings", "components_json"),
     ("upstream_entries", "source_json"),
 )
-FORK_SNAPSHOT_RETENTION = """
-    fork_snapshots.id = (
-        SELECT MAX(latest.id)
-        FROM fork_snapshots AS latest
-        WHERE latest.fork_id = fork_snapshots.fork_id
+FORK_COMMIT_RETENTION_IDS = """
+    SELECT id
+    FROM (
+        SELECT id, ROW_NUMBER() OVER (
+            PARTITION BY fork_id
+            ORDER BY COALESCE(committed_at, authored_at) DESC, id DESC
+        ) AS retention_rank
+        FROM fork_commits
     )
-    OR EXISTS (
-        SELECT 1 FROM fork_commits
-        WHERE fork_commits.snapshot_id = fork_snapshots.id
+    WHERE retention_rank <= 3
+"""
+FORK_FILE_CHANGE_SNAPSHOT_RETENTION_IDS = """
+    SELECT snapshot_id
+    FROM (
+        SELECT changes.snapshot_id, ROW_NUMBER() OVER (
+            PARTITION BY snapshots.fork_id
+            ORDER BY snapshots.collection_run_id DESC, changes.snapshot_id DESC
+        ) AS retention_rank
+        FROM fork_file_changes AS changes
+        JOIN fork_snapshots AS snapshots ON snapshots.id = changes.snapshot_id
+        GROUP BY snapshots.fork_id, snapshots.collection_run_id, changes.snapshot_id
     )
-    OR EXISTS (
-        SELECT 1 FROM fork_file_changes
-        WHERE fork_file_changes.snapshot_id = fork_snapshots.id
+    WHERE retention_rank = 1
+"""
+FORK_SNAPSHOT_RETENTION = f"""
+    fork_snapshots.id IN (
+        SELECT id
+        FROM (
+            SELECT id, ROW_NUMBER() OVER (
+                PARTITION BY fork_id
+                ORDER BY collection_run_id DESC, id DESC
+            ) AS retention_rank
+            FROM fork_snapshots
+        )
+        WHERE retention_rank = 1
     )
+    OR fork_snapshots.id IN (
+        SELECT snapshot_id
+        FROM fork_commits
+        WHERE id IN ({FORK_COMMIT_RETENTION_IDS})
+    )
+    OR fork_snapshots.id IN ({FORK_FILE_CHANGE_SNAPSHOT_RETENTION_IDS})
 """
 UPSTREAM_ENTRY_OBSERVATION_RETENTION = """
     upstream_entry_observations.id = (
@@ -201,11 +230,20 @@ def project_database(path: Path, source_sha256: str, archive_label: str) -> int:
             (int(latest_fork_ranking_run),),
         )
         connection.execute(
+            f"DELETE FROM fork_commits WHERE id NOT IN ({FORK_COMMIT_RETENTION_IDS})"
+        )
+        connection.execute(
+            "DELETE FROM fork_file_changes "
+            f"WHERE snapshot_id NOT IN ({FORK_FILE_CHANGE_SNAPSHOT_RETENTION_IDS})"
+        )
+        connection.execute(
             f"DELETE FROM fork_snapshots WHERE NOT ({FORK_SNAPSHOT_RETENTION})"
         )
         connection.execute(
             f"DELETE FROM upstream_entry_observations WHERE NOT ({UPSTREAM_ENTRY_OBSERVATION_RETENTION})"
         )
+        for index in PUBLIC_DROPPED_INDEXES:
+            connection.execute(f'DROP INDEX IF EXISTS "{index}"')
         connection.execute(
             """
             CREATE TABLE IF NOT EXISTS public_projection_metadata (
@@ -234,12 +272,15 @@ def project_database(path: Path, source_sha256: str, archive_label: str) -> int:
                 latest_value_run_id,
                 json.dumps(
                     {
+                        "dropped_indexes": list(PUBLIC_DROPPED_INDEXES),
                         "stripped_fields": [
                             f"{table}.{column}" for table, column in STRIPPED_JSON_COLUMNS
                         ],
                         "retention": {
+                            "fork_commits": "latest 3 per Fork",
+                            "fork_file_changes": "latest evidence snapshot per Fork",
                             "fork_rankings": "latest collection run",
-                            "fork_snapshots": "latest per Fork plus commit/file-evidence snapshots",
+                            "fork_snapshots": "latest per Fork plus retained commit/file-evidence snapshots",
                             "upstream_entry_observations": "latest per Registry Listing",
                             "value_assessments": "latest complete collection run",
                         },
@@ -299,6 +340,19 @@ def verify_projection(
                         f"SELECT COUNT(*) FROM fork_snapshots WHERE {FORK_SNAPSHOT_RETENTION}"
                     ).fetchone()[0]
                 )
+            elif table == "fork_commits":
+                expected = int(
+                    source_connection.execute(
+                        f"SELECT COUNT(*) FROM fork_commits WHERE id IN ({FORK_COMMIT_RETENTION_IDS})"
+                    ).fetchone()[0]
+                )
+            elif table == "fork_file_changes":
+                expected = int(
+                    source_connection.execute(
+                        "SELECT COUNT(*) FROM fork_file_changes "
+                        f"WHERE snapshot_id IN ({FORK_FILE_CHANGE_SNAPSHOT_RETENTION_IDS})"
+                    ).fetchone()[0]
+                )
             elif table == "upstream_entry_observations":
                 expected = int(
                     source_connection.execute(
@@ -332,10 +386,36 @@ def verify_projection(
                 "SELECT COUNT(*) - COUNT(DISTINCT raw_sha256) FROM raw_snapshots"
             ).fetchone()[0]
         )
+        duplicate_metric_keys = int(
+            output_connection.execute(
+                """
+                SELECT COUNT(*)
+                FROM (
+                    SELECT item_id, observed_at, metric_source
+                    FROM metrics
+                    GROUP BY item_id, observed_at, metric_source
+                    HAVING COUNT(*) > 1
+                )
+                """
+            ).fetchone()[0]
+        )
+        if duplicate_metric_keys:
+            raise RuntimeError(
+                f"public SQLite has {duplicate_metric_keys} duplicate metric history key(s)"
+            )
         if duplicate_urls or duplicate_external_ids or duplicate_raw_hashes:
             raise RuntimeError(
                 "deduplication invariant failed: "
                 f"urls={duplicate_urls}, external_ids={duplicate_external_ids}, raw_sha256={duplicate_raw_hashes}"
+            )
+        retained_write_indexes = output_connection.execute(
+            "SELECT name FROM sqlite_schema WHERE type = 'index' AND name IN (?)",
+            PUBLIC_DROPPED_INDEXES,
+        ).fetchall()
+        if retained_write_indexes:
+            raise RuntimeError(
+                "public SQLite retains write-only index(es): "
+                + ", ".join(str(row[0]) for row in retained_write_indexes)
             )
         return {
             "items": output_counts["items"],

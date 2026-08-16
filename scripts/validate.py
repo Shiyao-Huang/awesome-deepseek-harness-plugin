@@ -46,7 +46,8 @@ VALUE_MATRIX_FIELDS = {
     "value_score", "confidence_score", "value_band", "evidence_count", "source_count", "risk_flags",
 }
 PUBLIC_DB_MAX_BYTES = 95 * 1024 * 1024
-PUBLIC_PROJECTION_VERSION = 3
+PUBLIC_PROJECTION_VERSION = 4
+PUBLIC_DROPPED_INDEXES = ("idx_metrics_dedupe",)
 PUBLIC_STRIPPED_JSON_COLUMNS = (
     ("raw_snapshots", "payload_json"),
     ("items", "raw_json"),
@@ -283,11 +284,13 @@ def main() -> None:
         assert len(projection[0][1]) == 64
         assert projection[0][2]
         projection_policy = json.loads(projection[0][4])
+        assert projection_policy["dropped_indexes"] == list(PUBLIC_DROPPED_INDEXES)
         assert projection_policy["stripped_fields"] == [
             f"{table}.{column}" for table, column in PUBLIC_STRIPPED_JSON_COLUMNS
         ]
         assert set(projection_policy["retention"]) == {
-            "fork_rankings", "fork_snapshots", "upstream_entry_observations", "value_assessments",
+            "fork_commits", "fork_file_changes", "fork_rankings", "fork_snapshots",
+            "upstream_entry_observations", "value_assessments",
         }
         assert FULL_ARCHIVE_PATH.is_file() and FULL_ARCHIVE_PATH.stat().st_size > 0
         assert DB_PATH.stat().st_size <= PUBLIC_DB_MAX_BYTES
@@ -295,6 +298,10 @@ def main() -> None:
             assert connection.execute(
                 f'SELECT COUNT(*) FROM "{table}" WHERE "{column}" <> ?', ("{}",)
             ).fetchone()[0] == 0
+        assert connection.execute(
+            "SELECT COUNT(*) FROM sqlite_schema WHERE type = 'index' AND name IN (?)",
+            PUBLIC_DROPPED_INDEXES,
+        ).fetchone()[0] == 0
     assert connection.execute("SELECT COUNT(*) FROM items WHERE canonical_url = ''").fetchone()[0] == 0
     assert connection.execute("SELECT COUNT(*) FROM items WHERE raw_json IS NULL OR raw_json = ''").fetchone()[0] == 0
     assert connection.execute("SELECT COUNT(*) FROM metrics WHERE metric_source IS NULL OR metric_source = ''").fetchone()[0] == 0
@@ -313,6 +320,18 @@ def main() -> None:
         "SELECT COUNT(*) FROM (SELECT collection_run_id, ranking_version, rank FROM fork_rankings GROUP BY collection_run_id, ranking_version, rank HAVING COUNT(*) > 1)"
     ).fetchone()[0] == 0
     assert connection.execute("SELECT COUNT(*) FROM metrics WHERE item_id IS NULL OR metric_source = ''").fetchone()[0] == 0
+    duplicate_metric_keys = connection.execute(
+        """
+        SELECT COUNT(*)
+        FROM (
+            SELECT item_id, observed_at, metric_source
+            FROM metrics
+            GROUP BY item_id, observed_at, metric_source
+            HAVING COUNT(*) > 1
+        )
+        """
+    ).fetchone()[0]
+    assert duplicate_metric_keys == 0, f"{duplicate_metric_keys} duplicate metric history key(s)"
     assert connection.execute("SELECT COUNT(*) FROM collection_runs").fetchone()[0] > 0
     assert connection.execute("SELECT COUNT(*) FROM observations WHERE collection_run_id IS NULL").fetchone()[0] == 0
     assert connection.execute("SELECT COUNT(*) FROM metrics WHERE collection_run_id IS NULL").fetchone()[0] == 0
