@@ -1126,17 +1126,31 @@ def render_detail(record: dict[str, object], dataset_version: str, generated_at:
 </body></html>"""
 
 
-def table_page(title: str, heading: str, intro: str, body: str, config: dict[str, str], *, prefix: str = "") -> str:
+def table_page(
+    title: str,
+    heading: str,
+    intro: str,
+    body: str,
+    config: dict[str, str],
+    *,
+    prefix: str = "",
+    script_path: str | None = None,
+) -> str:
     """Render a compact HTML projection for a generated Markdown view."""
 
     site_url = config["site_url"].rstrip("/")
     canonical = site_url + "/" + title.lower() + ".html"
     head = page_head(title, intro, canonical, f"{site_url}/media/screenshots/official.png", config).replace("{ASSET_PREFIX}", prefix)
     home_prefix = prefix or "./"
+    script = (
+        f'\n<script src="{esc(script_path, attribute=True)}" defer></script>'
+        if script_path
+        else ""
+    )
     return f"""{head}<body>
 {nav_html(home_prefix)}
 <main class="site-main table-main"><div class="breadcrumbs"><a href="{home_prefix}">store</a><span>/</span><span>{esc(heading)}</span></div><section class="page-intro"><p class="kicker">PUBLIC PROJECTION · GENERATED FROM SQLITE</p><h1>{esc(heading)}</h1><p>{esc(intro)}</p></section>{body}</main>
-{footer_html(prefix, data_path=config["public_database_url"])}
+{footer_html(prefix, data_path=config["public_database_url"])}{script}
 </body></html>"""
 
 
@@ -1387,13 +1401,33 @@ def render_register_page(config: dict[str, str]) -> str:
     """Render the public human registration entry point."""
 
     repository = "https://github.com/Shiyao-Huang/awesome-deepseek-harness-plugin"
-    body = f'''<section class="guide-section"><div class="guide-primary"><p class="kicker">TWO REGISTRATION ROUTES</p><h2>Add one plugin or connect a public registry</h2><ol class="guide-steps"><li><strong>One plugin</strong><span>Add a contract-v2 Listing to <a href="{repository}/blob/main/registry/plugins.json">registry/plugins.json ↗</a>.</span></li><li><strong>Another registry</strong><span>Add its public repository and selected registry path or HTTPS URL to <a href="{repository}/blob/main/config/sources.json">config/sources.json ↗</a>.</span></li><li><strong>Next observation</strong><span>After merge, the next successful two-hour run preserves raw evidence, writes SQLite history, and rebuilds the market.</span></li></ol></div><aside class="guide-aside"><p class="filter-label">AUTHORITATIVE REFERENCES</p><a href="{repository}/blob/main/docs/register.md">Human field guide ↗</a><a href="data/market-registry.schema.json">Contract-v2 JSON Schema ↗</a><a href="data/market-registry.json">Current public registry ↗</a><a href="{repository}/compare">Open a pull request ↗</a></aside></section><section class="guide-rules"><p><strong>Identity</strong><span>Normalized install spec, not name or homepage.</span></p><p><strong>Missing data</strong><span>Use NULL; never estimate stars, versions, or metrics.</span></p><p><strong>Verification</strong><span>Source-attributed claim, never a security endorsement.</span></p><p><strong>Installation</strong><span>Plans require explicit user confirmation.</span></p></section>'''
+    site_url = config["site_url"].rstrip("/")
+    agent_guide_url = f"{site_url}/register-agent.html"
+    agent_source_url = (
+        "https://raw.githubusercontent.com/Shiyao-Huang/awesome-deepseek-harness-plugin/"
+        "main/docs/register-agent.md"
+    )
+    agent_request = f"""Help me register a DeepSeek Harness plugin or public registry with deeplugin.store.
+
+Read the complete Agent protocol first:
+{agent_guide_url}
+
+Read the source guide and public data contracts:
+{agent_source_url}
+{site_url}/data/market-registry.schema.json
+{site_url}/data/market-registry.json
+
+Inspect the public repository, package metadata, release/version evidence, and exact DeepSeek Harness installation documentation. Deduplicate by normalized install spec, use the narrowest registration route, preserve attributable facts, keep missing values NULL, and set contributor verification to false.
+
+Do not install anything, open a pull request, or write to an external service until I explicitly approve. If I have not supplied the plugin or registry URL, ask for it first. Then show me the proposed Listing, source evidence, changed files, and validation plan."""
+    body = f'''<section class="guide-section"><div class="guide-primary"><p class="kicker">TWO REGISTRATION ROUTES</p><h2>Add one plugin or connect a public registry</h2><div class="agent-handoff"><div class="agent-handoff-copy"><p class="filter-label">AGENT HANDOFF</p><strong>Give this registration task to your Agent.</strong><span>Copies the protocol URL, public contracts, workflow, and approval limits as one ready-to-run request.</span><code>{esc(agent_guide_url)}</code></div><div class="agent-handoff-actions"><button class="agent-handoff-button copy-install" type="button" data-install="{esc(agent_request, attribute=True)}" aria-label="Copy the Agent registration guide and task" aria-live="polite">Copy for Agent</button><a href="register-agent.html">Open Agent guide ↗</a></div></div><ol class="guide-steps"><li><strong>One plugin</strong><span>Add a contract-v2 Listing to <a href="{repository}/blob/main/registry/plugins.json">registry/plugins.json ↗</a>.</span></li><li><strong>Another registry</strong><span>Add its public repository and selected registry path or HTTPS URL to <a href="{repository}/blob/main/config/sources.json">config/sources.json ↗</a>.</span></li><li><strong>Next observation</strong><span>After merge, the next successful two-hour run preserves raw evidence, writes SQLite history, and rebuilds the market.</span></li></ol></div><aside class="guide-aside"><p class="filter-label">AUTHORITATIVE REFERENCES</p><a href="register-agent.html">Agent registration guide ↗</a><a href="{repository}/blob/main/docs/register.md">Human field guide ↗</a><a href="data/market-registry.schema.json">Contract-v2 JSON Schema ↗</a><a href="data/market-registry.json">Current public registry ↗</a><a href="{repository}/compare">Open a pull request ↗</a></aside></section><section class="guide-rules"><p><strong>Identity</strong><span>Normalized install spec, not name or homepage.</span></p><p><strong>Missing data</strong><span>Use NULL; never estimate stars, versions, or metrics.</span></p><p><strong>Verification</strong><span>Source-attributed claim, never a security endorsement.</span></p><p><strong>Installation</strong><span>Plans require explicit user confirmation.</span></p></section>'''
     return table_page(
         "register",
         "Register a plugin",
         "提交可追溯、可验证、可去重的 DeepSeek Harness 插件 Listing；单个插件和第三方 registry 都有明确入口。",
         body,
         config,
+        script_path="assets/store.js",
     )
 
 

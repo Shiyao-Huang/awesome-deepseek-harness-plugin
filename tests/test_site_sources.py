@@ -273,6 +273,19 @@ class MarketAccessPageTests(unittest.TestCase):
         self.assertIn("docs/register.md", agent)
         self.assertIn("Registration never authorizes installation", agent)
 
+    def test_human_registration_page_copies_agent_handoff(self) -> None:
+        page = build_site.render_register_page(self.config)
+        agent_page = build_site.render_register_agent_page(self.config)
+
+        self.assertIn('class="agent-handoff"', page)
+        self.assertIn('class="agent-handoff-button copy-install"', page)
+        self.assertIn('href="register-agent.html"', page)
+        self.assertIn("https://deeplugin.store/register-agent.html", page)
+        self.assertIn("https://raw.githubusercontent.com/", page)
+        self.assertIn("Do not install anything, open a pull request", page)
+        self.assertIn('<script src="assets/store.js" defer></script>', page)
+        self.assertNotIn("assets/store.js", agent_page)
+
 
 if __name__ == "__main__":
     unittest.main()
