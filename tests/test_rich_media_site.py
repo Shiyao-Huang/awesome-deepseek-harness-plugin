@@ -149,12 +149,15 @@ class RichMediaSiteProjectionTests(unittest.TestCase):
         self.assertIsNotNone(match)
         assert match is not None
         structured_data = json.loads(match.group(1))
+        with build_site.connection() as db:
+            record = next(record for record in build_site.load_records(db) if record["id"] == "id-1")
+        image = build_site.record_image(record)
+        self.assertIsNotNone(image)
+        assert image is not None
 
         self.assertEqual(
             structured_data.get("image"),
-            [
-                "https://sns-webpic-qc.xhscdn.com/202608151406/eac74e816482ded244a67b3a7230ee3e/spectrum/1040g34o323rht0ht6ub04ajpq9photfrc71ku70!nc_n_webp_mw_1"
-            ],
+            [build_site.absolute_media_url(image, build_site.read_config()["site_url"])],
         )
 
 
