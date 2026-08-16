@@ -1,0 +1,45 @@
+{
+  "collected_at": "2026-08-16T13:56:00Z",
+  "collector": "codex ego-browser task space 62",
+  "capture_kind": "ego-lite-visible-dom",
+  "observations": [
+    {
+      "platform": "x",
+      "query": "\"DeepSeek Harness\"",
+      "source_url": "https://x.com/search?q=%22DeepSeek%20Harness%22&src=typed_query&f=live",
+      "collected_at": "2026-08-16T13:56:00Z",
+      "collector": "codex ego-browser task space 62",
+      "method": "ego-browser authenticated visible DOM search",
+      "status": "error",
+      "result_count": null,
+      "notes": "The authenticated Latest search page displayed 'Something went wrong. Try reloading.' No posts or interaction values were asserted.",
+      "items": [],
+      "raw_capture": {"documentTitle": "\"DeepSeek Harness\" - Search / X", "visibleText": "Latest\nSomething went wrong. Try reloading.\nRetry"}
+    },
+    {
+      "platform": "reddit",
+      "query": "\"DeepSeek Harness\" sorted new",
+      "source_url": "https://www.reddit.com/r/AIFromChina/comments/1vpxnha/deepseek_harness_plugin_recommendations_round_2/",
+      "collected_at": "2026-08-16T13:56:00Z",
+      "collector": "codex ego-browser task space 62",
+      "method": "ego-browser authenticated visible DOM search and direct post",
+      "status": "ok",
+      "result_count": 1,
+      "notes": "The direct post exposed 1 vote and 0 comments at collection time and linked to a public Substack article. No third-party media was mirrored.",
+      "items": [{
+        "platform": "reddit",
+        "external_id": "1vpxnha",
+        "url": "https://www.reddit.com/r/AIFromChina/comments/1vpxnha/deepseek_harness_plugin_recommendations_round_2/",
+        "item_type": "post",
+        "title": "DeepSeek Harness Plugin Recommendations, Round 2",
+        "author": "ExternalNo2722",
+        "published_label": "4m ago",
+        "content_text": "A public Reddit link post titled 'DeepSeek Harness Plugin Recommendations, Round 2' linked to a public Substack article with the same title.",
+        "metrics": {"points": 1, "comments": 0, "metric_source": "Reddit authenticated visible post DOM", "observed_at": "2026-08-16T13:56:00Z"},
+        "refs": ["https://open.substack.com/pub/aidisruption/p/deepseek-harness-plugin-recommendations?r=2ajqea&utm_campaign=post-expanded-share&utm_medium=web"],
+        "tags": ["reddit", "plugin", "recommendations", "substack"],
+        "raw_capture": {"documentTitle": "DeepSeek Harness Plugin Recommendations, Round 2 : r/AIFromChina", "visibleText": "r/AIFromChina · 4m ago · ExternalNo2722\nDeepSeek Harness Plugin Recommendations, Round 2\nopen.substack.com\n1 vote · 0 comments"}
+      }]
+    }
+  ]
+}

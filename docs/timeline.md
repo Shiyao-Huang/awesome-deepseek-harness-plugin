@@ -19,6 +19,7 @@
 | 2026-08-16 | github | plugin | [dsh-settings-nav-organizer](https://github.com/zhengjy01/dsh-settings-nav-organizer) | zhengjy01 | core-and-ecosystem |
 | 2026-08-16 | github | plugin | [dsh-unarchive](https://github.com/edfrey0044/dsh-unarchive) | edfrey0044 | core-and-ecosystem |
 | 2026-08-16 | github | plugin | [github-explore](https://github.com/Fectivnfy112357/github-explore) | Fectivnfy112357 | index-and-marketplace |
+| 4m ago | reddit | post | [DeepSeek Harness Plugin Recommendations, Round 2](https://www.reddit.com/r/AIFromChina/comments/1vpxnha/deepseek_harness_plugin_recommendations_round_2) | ExternalNo2722 | core-and-ecosystem |
 | 2026-08-16 | github | plugin | [Co-Engram](https://github.com/Co-Engram/Co-Engram) | Co-Engram | core-and-ecosystem |
 | 2026-08-16 | github | plugin | [DSH-Session-Sync](https://github.com/hajimimaodie8/DSH-Session-Sync) | hajimimaodie8 | ui-and-desktop |
 | 2026-08-16T13:41:06Z | github | plugin | [DSH-Think-zh](https://github.com/Len7183/DSH-Think-zh) | Len7183 | core-and-ecosystem |

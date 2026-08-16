@@ -21,7 +21,7 @@
 <text x="28" y="250" font-size="14">reddit</text>
 <rect x="245" y="235" width="620" height="20" rx="10" fill="#e8e2d6"/>
 <rect x="245" y="235" width="2" height="20" rx="10" fill="#7b6d8d"/>
-<text x="878" y="250" text-anchor="end" font-size="14" font-weight="700">50</text>
+<text x="878" y="250" text-anchor="end" font-size="14" font-weight="700">51</text>
 <text x="28" y="292" font-size="14">youtube</text>
 <rect x="245" y="277" width="620" height="20" rx="10" fill="#e8e2d6"/>
 <rect x="245" y="277" width="1" height="20" rx="10" fill="#e07a5f"/>
