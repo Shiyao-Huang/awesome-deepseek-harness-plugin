@@ -31,4 +31,6 @@ The sitemap declares Google image and video namespaces. Captured public images b
 
 Detail pages render supported YouTube, Bilibili, and WeChat video references through external players. Unsupported video references remain reviewable source links and are never used as image URLs. Rights-cleared local captures are copied from `media/` into `docs/media/` for GitHub Pages; third-party media remains an external reference unless its rights note explicitly permits a local copy.
 
+Each detail page publishes the dataset version and timestamp of that record's latest material evidence. A collection run that does not observe the record updates the global homepage and catalog metadata without changing the detail page, keeping crawlable URLs stable while preserving record-level provenance.
+
 The site only publishes public metadata and attributed media references. It does not claim ownership of third-party screenshots, thumbnails, videos, or post content.
