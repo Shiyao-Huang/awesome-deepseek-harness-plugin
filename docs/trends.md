@@ -1,6 +1,6 @@
 # 趋势 Trends — 生态增长、活跃度与价值分布
 
-> 生成时间 2026-08-16T05:30:27Z。增长曲线来自仓库创建日期；活跃度来自全平台发布日期；价值分布来自当前 value matrix；增量仅在存在多快照时计算。
+> 生成时间 2026-08-16T05:50:31Z。增长曲线来自仓库创建日期；活跃度来自全平台发布日期；价值分布来自当前 value matrix；增量仅在存在多快照时计算。
 
 ## 生态增长（GitHub dsh-plugin 仓库/日）
 
@@ -34,9 +34,9 @@
 | 2026-08-10 | 12 |
 | 2026-08-11 | 11 |
 | 2026-08-12 | 21 |
-| 2026-08-13 | 3,340 |
-| 2026-08-14 | 5,805 |
-| 2026-08-15 | 2,476 |
+| 2026-08-13 | 3,345 |
+| 2026-08-14 | 5,811 |
+| 2026-08-15 | 2,478 |
 | 2026-08-16 | 25 |
 
 ## 价值分布（当前 dataset）
@@ -45,9 +45,9 @@
 
 | 档 | 条目 | 平均 value |
 |---|---:|---:|
-| B | 255 | 63.9 |
-| C | 1,292 | 51.8 |
-| D | 11,485 | 33.8 |
+| B | 258 | 63.9 |
+| C | 1,303 | 51.9 |
+| D | 11,484 | 33.8 |
 
 ## 增速榜（互动/天，含价值档）
 
@@ -55,21 +55,21 @@
 
 | 平台 | 条目 | 价值档 | 互动/天 |
 |---|---|---|---:|
-| github | [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | B | 52,101 |
-| bilibili | [【热门AI鉴定】DeepSeek Harness是什么？强在哪里？Harness实测效果如何？一口气搞懂！](https://www.bilibili.com/video/BV11CgF6uE4k) | C | 9,988 |
-| x | [DeepSeek @deepseek_ai DeepSeek Harness v0.1 is now available](https://x.com/deepseek_ai/status/2087887408440164663) | B | 9,676 |
-| github | [deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | B | 2,871 |
-| bilibili | [一个视频带你了解 DeepSeek新模型 + Harness ！｜ 赛博赵云，七进七出救阿斗。](https://www.bilibili.com/video/BV1qFuf6SEEX) | C | 2,125 |
-| github | [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | B | 1,749 |
-| github | [dsh-anchored-standard](https://github.com/xiaobright/dsh-anchored-standard) | B | 1,563 |
-| x | [Tianyi Cui @tianyi · 13h Thank you! Pi is many DeepSeek rese](https://x.com/tianyi/status/2088306143772946499) | B | 1,275 |
-| x | [Pinned Tianyi Cui @tianyi · Aug 13 DeepSeek Harness was just](https://x.com/tianyi/status/2087888089759015218) | B | 1,101 |
-| x | [Armin Ronacher ⇌ @mitsuhiko · 21h I don&#x27;t think the DeepSeek](https://x.com/mitsuhiko/status/2088189145952731317) | B | 1,053 |
-| x | [ℏεsam @Hesamation · Aug 13 DeepSeek published their harness.](https://x.com/Hesamation/status/2087917006448173519) | B | 1,048 |
+| github | [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | B | 51,836 |
+| bilibili | [【热门AI鉴定】DeepSeek Harness是什么？强在哪里？Harness实测效果如何？一口气搞懂！](https://www.bilibili.com/video/BV11CgF6uE4k) | C | 9,923 |
+| x | [DeepSeek Harness v0.1 is now available in Developer Preview!](https://x.com/deepseek_ai/status/2087887408440164663) | B | 9,906 |
+| github | [deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | B | 2,855 |
+| bilibili | [一个视频带你了解 DeepSeek新模型 + Harness ！｜ 赛博赵云，七进七出救阿斗。](https://www.bilibili.com/video/BV1qFuf6SEEX) | C | 2,113 |
+| github | [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | B | 1,740 |
+| github | [dsh-anchored-standard](https://github.com/xiaobright/dsh-anchored-standard) | B | 1,550 |
+| x | [Tianyi Cui @tianyi · 13h Thank you! Pi is many DeepSeek rese](https://x.com/tianyi/status/2088306143772946499) | B | 1,263 |
+| x | [Pinned Tianyi Cui @tianyi · Aug 13 DeepSeek Harness was just](https://x.com/tianyi/status/2087888089759015218) | B | 1,096 |
+| x | [DeepSeek published their harness. 24K stars already. it’s a ](https://x.com/Hesamation/status/2087917006448173519) | B | 1,068 |
+| x | [Armin Ronacher ⇌ @mitsuhiko · 21h I don&#x27;t think the DeepSeek](https://x.com/mitsuhiko/status/2088189145952731317) | B | 1,046 |
 | github | [open-design](https://github.com/nexu-io/open-design) | B | 975 |
 | github | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | B | 948 |
-| github | [dsh-web-ui#packages/dsh-web-ui-all](https://github.com/zhu1090093659/dsh-web-ui) | B | 796 |
-| bilibili | [🚀实测DeepSeek Harness从基础到高级用法！WebUI远程控制、多模型接入、执行轨迹、插件系统、任务分支、代](https://www.bilibili.com/video/BV1W7gP6CEEV) | B | 789 |
+| x | [Ollama now supports the DeepSeek Harness.](https://x.com/ollama/status/2088392765021528319) | C | 872 |
+| github | [dsh-web-ui#packages/dsh-web-ui-all](https://github.com/zhu1090093659/dsh-web-ui) | B | 793 |
 
 ## 快照增量（GitHub stars，需 ≥2 次观测）
 
@@ -90,14 +90,14 @@
 
 | dataset | 时间 | 触发 | 状态 | raw 文件 | item 观测 |
 |---|---|---|---|---:|---:|
-| v20260816T053027Z | 2026-08-16T05:30:27Z | seed | succeeded | 3 | 0 |
-| v20260816T052542Z | 2026-08-16T05:25:42Z | seed | succeeded | 4 | 2,208 |
-| v20260816T051834Z | 2026-08-16T05:18:34Z | seed | succeeded | 4 | 28 |
-| v20260816T050746Z | 2026-08-16T05:07:46Z | seed | succeeded | 4 | 30 |
+| v20260816T055031Z | 2026-08-16T05:50:31Z | raw-history-recovery | succeeded | 0 | 1,537 |
+| v20260816T054436Z | 2026-08-16T05:44:36Z | seed | succeeded | 2 | 432 |
+| v20260816T054152Z | 2026-08-16T05:41:52Z | seed | succeeded | 159 | 58 |
+| v20260816T052421Z | 2026-08-16T05:24:21Z | seed | succeeded | 1 | 18 |
+| v20260816T050521Z | 2026-08-16T05:05:21Z | scheduled | succeeded | 1 | 239 |
+| v20260816T050519Z | 2026-08-16T05:05:19Z | source-monitor | succeeded | 1 | 13 |
 | v20260816T035742Z | 2026-08-16T03:57:42Z | seed | succeeded | 2 | 7 |
 | v20260816T033755Z | 2026-08-16T03:37:55Z | seed | succeeded | 1 | 18 |
-| v20260816T031614Z | 2026-08-16T03:16:14Z | scheduled | succeeded | 1 | 236 |
-| v20260816T031612Z | 2026-08-16T03:16:12Z | source-monitor | succeeded | 1 | 26 |
 
 ## 如何持续追踪
 
