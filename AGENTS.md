@@ -106,12 +106,14 @@ Never use a destructive database reset or delete raw evidence to make a check pa
 - A store detail page uses the stable registry id (`skills/id-<n>.html`) and must display its dataset version, first/last seen dates, native platform metrics, public source URL, and media rights note when available.
 - When active Registry Listings exist, the detail page and machine-readable catalog must expose their source repository/path, exact install spec, declared version, attributed verification claim, observation dates, and raw snapshot id.
 - Third-party media remains an external URL reference unless permission is recorded. The site must never present missing interaction values as zero or combine metrics from different platforms.
+- `scripts/build_views.py` mirrors rights-cleared files from `media/` into generated `docs/media/`; this deployment copy does not turn a screenshot into raw evidence. Detail pages render supported public video URLs as external players, images as images, and every available media rights note beside the asset. Never render a watch-page URL as an image.
+- `docs/sitemap.xml` includes image entries for captured image references. It includes a video entry and emits `VideoObject` JSON-LD only when the database has a public player URL, captured thumbnail, and published date; never substitute `first_seen_at` for a missing publication date.
 - Hostinger only supplies DNS for `deeplugin.store`; GitHub Pages hosts the static files. Google Search Console verification and sitemap submission are manual account actions documented in `docs/seo.md`.
 
 <!-- gitnexus:start -->
 # GitNexus — Code Intelligence
 
-This project is indexed by GitNexus as **awesome-deepseek-harness-plugin** (13828 symbols, 15051 relationships, 81 execution flows). Use the GitNexus MCP tools to understand code, assess impact, and navigate safely.
+This project is indexed by GitNexus as **awesome-deepseek-harness-plugin** (13963 symbols, 15233 relationships, 84 execution flows). Use the GitNexus MCP tools to understand code, assess impact, and navigate safely.
 
 > Index stale? Run `node .gitnexus/run.cjs analyze` from the project root — it auto-selects an available runner. No `.gitnexus/run.cjs` yet? `npx gitnexus analyze` (npm 11 crash → `npm i -g gitnexus`; #1939).
 
