@@ -156,7 +156,12 @@ def velocity_chart(rows: list[sqlite3.Row]) -> None:
     write_svg("trends-velocity.svg", parts)
 
 
-def daily_series(connection: sqlite3.Connection, platform: str | None, days: int) -> list[sqlite3.Row]:
+def daily_series(
+    connection: sqlite3.Connection,
+    platform: str | None,
+    days: int | None,
+    reference_date: dt.date,
+) -> list[sqlite3.Row]:
     """Daily item counts by published_at, zero-filled across the window."""
 
     if platform:
@@ -180,7 +185,7 @@ def daily_series(connection: sqlite3.Connection, platform: str | None, days: int
     if not rows:
         return []
     start = dt.date.fromisoformat(rows[0]["day"])
-    end = max(dt.date.fromisoformat(rows[-1]["day"]), dt.date.today() - dt.timedelta(days=1))
+    end = max(dt.date.fromisoformat(rows[-1]["day"]), reference_date - dt.timedelta(days=1))
     counts = {row["day"]: row["n"] for row in rows}
     window = []
     for offset in range((end - start).days + 1):
@@ -206,10 +211,11 @@ def build(connection: sqlite3.Connection) -> None:
     generated_row = connection.execute(
         "SELECT COALESCE(finished_at, started_at) FROM collection_runs WHERE trigger <> 'legacy-migration' ORDER BY id DESC LIMIT 1"
     ).fetchone()
-    generated = str(generated_row[0]) if generated_row and generated_row[0] else dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+    generated = str(generated_row[0]) if generated_row and generated_row[0] else "1970-01-01T00:00:00Z"
+    reference_date = dt.datetime.fromisoformat(generated.replace("Z", "+00:00")).date()
 
-    github_growth = daily_series(connection, "github", days=None)
-    activity = daily_series(connection, None, days=90)
+    github_growth = daily_series(connection, "github", days=None, reference_date=reference_date)
+    activity = daily_series(connection, None, days=90, reference_date=reference_date)
     growth_chart(github_growth)
     activity_chart(activity)
 
@@ -230,7 +236,7 @@ def build(connection: sqlite3.Connection) -> None:
                  WHEN i.platform = 'hacker_news' THEN (COALESCE(m.points,0) + 3*COALESCE(m.comments,0))
                  WHEN i.platform = 'bilibili' THEN (COALESCE(m.views,0)/50.0 + COALESCE(m.likes,0))
                  ELSE (COALESCE(m.likes,0) + COALESCE(m.views,0)/100.0)
-               END * 1.0 / MAX(julianday('now') - julianday(COALESCE(i.published_at, i.first_seen_at)), 0.5) AS velocity
+               END * 1.0 / MAX(julianday(?) - julianday(COALESCE(i.published_at, i.first_seen_at)), 0.5) AS velocity
         FROM items i
         JOIN v_current_value_matrix v ON v.item_id = i.id
         LEFT JOIN metrics m ON m.id = (
@@ -238,7 +244,8 @@ def build(connection: sqlite3.Connection) -> None:
         )
         WHERE i.published_at IS NOT NULL
         ORDER BY velocity DESC LIMIT 15
-        """
+        """,
+        (generated,),
     ).fetchall()
     velocity_chart(velocity)
 

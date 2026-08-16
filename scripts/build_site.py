@@ -179,6 +179,7 @@ def load_records(db: sqlite3.Connection) -> list[dict[str, object]]:
             i.title, i.author, i.author_url, i.published_at, i.published_label,
             i.content_text, i.language, i.category, i.relevance, i.media_kind,
             i.first_seen_at, i.last_seen_at,
+            item_run.dataset_version AS item_dataset_version,
             ir.id AS registry_id, ir.rank, ir.stars AS registry_stars,
             ir.refs AS registry_refs, ir.picture AS registry_picture,
             vm.likes, vm.replies, vm.reposts, vm.comments, vm.bookmarks,
@@ -189,8 +190,15 @@ def load_records(db: sqlite3.Connection) -> list[dict[str, object]]:
              FROM metrics AS m
              WHERE m.item_id = i.id
              ORDER BY m.observed_at DESC, m.id DESC
-             LIMIT 1) AS metric_source
+             LIMIT 1) AS metric_source,
+            (SELECT cr.dataset_version
+             FROM metrics AS m
+             LEFT JOIN collection_runs AS cr ON cr.id = m.collection_run_id
+             WHERE m.item_id = i.id
+             ORDER BY m.observed_at DESC, m.id DESC
+             LIMIT 1) AS metric_dataset_version
         FROM items AS i
+        LEFT JOIN collection_runs AS item_run ON item_run.id = i.last_seen_run_id
         LEFT JOIN index_records AS ir ON ir.item_id = i.id
         LEFT JOIN v_latest_metrics AS vm ON vm.item_id = i.id
         ORDER BY COALESCE(ir.rank, 999999), i.id
@@ -225,10 +233,13 @@ def load_records(db: sqlite3.Connection) -> list[dict[str, object]]:
                ue.plugin_version, ue.verified, ue.tags_json,
                ue.source_path, ue.raw_snapshot_id,
                ue.first_seen_at, ue.last_seen_at,
+               listing_run.dataset_version,
                ur.full_name AS source_repository,
                ur.source_url AS source_repository_url
         FROM upstream_entries AS ue
         JOIN upstream_repositories AS ur ON ur.id = ue.repository_id
+        LEFT JOIN raw_snapshots AS listing_raw ON listing_raw.id = ue.raw_snapshot_id
+        LEFT JOIN collection_runs AS listing_run ON listing_run.id = listing_raw.collection_run_id
         WHERE ue.active = 1 AND ue.item_id IS NOT NULL
         ORDER BY ue.item_id,
                  ue.install_hint IS NULL,
@@ -262,6 +273,7 @@ def load_records(db: sqlite3.Connection) -> list[dict[str, object]]:
             "raw_snapshot_id": listing["raw_snapshot_id"],
             "first_seen_at": listing["first_seen_at"],
             "last_seen_at": listing["last_seen_at"],
+            "dataset_version": listing["dataset_version"],
             "source_repository": listing["source_repository"],
             "source_repository_url": listing["source_repository_url"],
         })
@@ -281,6 +293,25 @@ def load_records(db: sqlite3.Connection) -> list[dict[str, object]]:
             pictures = json.loads(row["registry_picture"] or "[]")
         except (TypeError, json.JSONDecodeError):
             pictures = []
+        listings = listings_by_item.get(int(row["id"]), [])
+        evidence_timestamps = [
+            str(timestamp)
+            for timestamp in [
+                row["last_seen_at"],
+                row["metric_observed_at"],
+                *(listing.get("last_seen_at") for listing in listings),
+            ]
+            if timestamp
+        ]
+        evidence_versions = [
+            (str(timestamp), str(version))
+            for timestamp, version in [
+                (row["last_seen_at"], row["item_dataset_version"]),
+                (row["metric_observed_at"], row["metric_dataset_version"]),
+                *((listing.get("last_seen_at"), listing.get("dataset_version")) for listing in listings),
+            ]
+            if timestamp and version
+        ]
         if not media:
             for picture in pictures:
                 if valid_url(picture) and picture != url:
@@ -317,8 +348,10 @@ def load_records(db: sqlite3.Connection) -> list[dict[str, object]]:
                 "first_seen_at": row["first_seen_at"],
                 "last_seen_at": row["last_seen_at"],
                 "dataset_version": None,
+                "evidence_dataset_version": max(evidence_versions)[1] if evidence_versions else None,
+                "evidence_updated_at": max(evidence_timestamps) if evidence_timestamps else row["last_seen_at"],
                 "refs": [ref for ref in refs if valid_url(ref)],
-                "listings": listings_by_item.get(int(row["id"]), []),
+                "listings": listings,
             }
         )
     return records
@@ -817,6 +850,8 @@ def render_listing_evidence(record: dict[str, object]) -> str:
 def render_detail(record: dict[str, object], dataset_version: str, generated_at: str, config: dict[str, str]) -> str:
     """Render a static, crawlable detail page for one store record."""
 
+    evidence_dataset_version = record.get("evidence_dataset_version") or dataset_version
+    evidence_updated_at = record.get("evidence_updated_at") or generated_at
     site_url = config["site_url"].rstrip("/")
     canonical = f"{site_url}/skills/{record['id']}.html"
     title = f"{record['title']} — dsh store"
@@ -868,11 +903,11 @@ def render_detail(record: dict[str, object], dataset_version: str, generated_at:
 <main class="site-main detail-main">
   <div class="breadcrumbs"><a href="../">store</a><span>/</span><span>{esc(record['platform_label'])}</span><span>/</span><span>{esc(record['id'])}</span></div>
   <section class="detail-heading"><div><p class="kicker">{esc(record['platform_label'])} · {esc(record['category_label'])}</p><h1>{esc(record['title'])}</h1><p class="detail-author">{esc(str(author))} · {esc(record['item_type'])} · {esc('direct signal' if record['relevance'] == 'direct' else 'related signal')}</p></div><a class="button button-primary" href="{esc(record['url'], attribute=True)}" rel="noreferrer">Open source <span aria-hidden="true">↗</span></a></section>
-  <section class="detail-grid"><div class="detail-primary"><p class="detail-description">{esc(record['description'])}</p><div class="install-panel"><p class="filter-label">SOURCE-DECLARED INSTALL</p>{source_action}</div><div class="detail-media"><div class="section-heading"><div><p class="kicker">MEDIA REFERENCES</p><h2>Captured in public view</h2></div><span>Local and external references · rights noted</span></div><div class="media-gallery">{gallery}</div></div></div><aside class="detail-sidebar"><div class="metric-grid">{metric_items}</div><div class="evidence-panel"><p class="filter-label">EVIDENCE</p><dl><div><dt>Registry ID</dt><dd>{esc(record['id'])}</dd></div><div><dt>Dataset</dt><dd>{esc(dataset_version)}</dd></div><div><dt>First seen</dt><dd>{esc(date_label(record['first_seen_at']))}</dd></div><div><dt>Last seen</dt><dd>{esc(date_label(record['last_seen_at']))}</dd></div><div><dt>Metric source</dt><dd>{esc(record['metric_source'] or 'unreported')}</dd></div><div><dt>Metric observed</dt><dd>{esc(record['metric_observed_at'] or 'NULL')}</dd></div></dl></div><div class="evidence-panel"><p class="filter-label">PUBLIC URL</p><a class="break-link" href="{esc(record['url'], attribute=True)}" rel="noreferrer">{esc(record['url'])}</a></div></aside></section>
+  <section class="detail-grid"><div class="detail-primary"><p class="detail-description">{esc(record['description'])}</p><div class="install-panel"><p class="filter-label">SOURCE-DECLARED INSTALL</p>{source_action}</div><div class="detail-media"><div class="section-heading"><div><p class="kicker">MEDIA REFERENCES</p><h2>Captured in public view</h2></div><span>Local and external references · rights noted</span></div><div class="media-gallery">{gallery}</div></div></div><aside class="detail-sidebar"><div class="metric-grid">{metric_items}</div><div class="evidence-panel"><p class="filter-label">EVIDENCE</p><dl><div><dt>Registry ID</dt><dd>{esc(record['id'])}</dd></div><div><dt>Evidence dataset</dt><dd>{esc(evidence_dataset_version)}</dd></div><div><dt>First seen</dt><dd>{esc(date_label(record['first_seen_at']))}</dd></div><div><dt>Last seen</dt><dd>{esc(date_label(record['last_seen_at']))}</dd></div><div><dt>Metric source</dt><dd>{esc(record['metric_source'] or 'unreported')}</dd></div><div><dt>Metric observed</dt><dd>{esc(record['metric_observed_at'] or 'NULL')}</dd></div></dl></div><div class="evidence-panel"><p class="filter-label">PUBLIC URL</p><a class="break-link" href="{esc(record['url'], attribute=True)}" rel="noreferrer">{esc(record['url'])}</a></div></aside></section>
 {listing_section}
   <section class="detail-context"><div><p class="kicker">CONTEXT</p><h2>Why it is here</h2></div><p>{esc(record['description'])}</p></section>
 {references_section}
-  <p class="detail-footnote">Page generated {esc(generated_at)}. Interaction numbers are platform-native snapshots; the evidence panel records the metric source and observation time. NULL means the public page did not expose a number at collection time.</p>
+  <p class="detail-footnote">Evidence updated {esc(evidence_updated_at)}. Interaction numbers are platform-native snapshots; the evidence panel records the metric source and observation time. NULL means the public page did not expose a number at collection time.</p>
 </main>
 {footer_html('../', data_path=config["public_database_url"])}
 </body></html>"""

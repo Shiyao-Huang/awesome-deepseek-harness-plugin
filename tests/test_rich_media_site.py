@@ -4,15 +4,39 @@ from __future__ import annotations
 
 import json
 import re
+import sys
 import unittest
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "scripts"))
+
+import build_site
 
 
 class RichMediaSiteProjectionTests(unittest.TestCase):
+    def test_detail_page_version_changes_only_with_record_evidence(self) -> None:
+        with build_site.connection() as db:
+            record = build_site.load_records(db)[0]
+        config = build_site.read_config()
+
+        older_global = build_site.render_detail(record, "v-global-old", "2026-08-16T01:00:00Z", config)
+        newer_global = build_site.render_detail(record, "v-global-new", "2026-08-16T03:00:00Z", config)
+
+        self.assertEqual(older_global, newer_global)
+        self.assertIn(f"<dt>Evidence dataset</dt><dd>{record['evidence_dataset_version']}</dd>", newer_global)
+        self.assertIn(f"Evidence updated {record['evidence_updated_at']}", newer_global)
+
+        updated_record = dict(record)
+        updated_record["evidence_dataset_version"] = "v-record-new"
+        updated_record["evidence_updated_at"] = "2026-08-16T03:00:00Z"
+        updated = build_site.render_detail(updated_record, "v-global-new", "2026-08-16T03:00:00Z", config)
+
+        self.assertNotEqual(newer_global, updated)
+        self.assertIn("<dt>Evidence dataset</dt><dd>v-record-new</dd>", updated)
+
     def test_local_media_assets_are_published_with_the_site(self) -> None:
         source = ROOT / "media" / "screenshots" / "official.png"
         published = ROOT / "docs" / "media" / "screenshots" / "official.png"
