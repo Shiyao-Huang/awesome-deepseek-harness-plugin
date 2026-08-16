@@ -153,6 +153,11 @@ class MarketAccessPageTests(unittest.TestCase):
         self.assertIn("1</strong><span>source verification claims", page)
         self.assertIn("1</strong><span>attributed registries", page)
 
+    def test_store_filters_keep_hidden_cards_out_of_layout(self) -> None:
+        css = (ROOT / "docs" / "assets" / "store.css").read_text(encoding="utf-8")
+
+        self.assertIn("[hidden] { display: none !important; }", css)
+
     def test_home_labels_global_and_market_dataset_versions_separately(self) -> None:
         market_registry = {
             "datasetVersion": "v-market-older",
