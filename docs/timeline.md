@@ -5,6 +5,16 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 2026-08-16 | github | plugin | [dsh-asimovbox](https://github.com/cerebrixos-org/dsh-asimovbox) | cerebrixos-org | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-opencode-usage](https://github.com/vinyumao/dsh-opencode-usage) | vinyumao | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-ponytail](https://github.com/gongyijie85/dsh-ponytail) | gongyijie85 | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-repo-setup](https://github.com/gongyijie85/dsh-repo-setup) | gongyijie85 | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-subagent-vision](https://github.com/niuniuaba/dsh-subagent-vision) | niuniuaba | multimedia-and-vision |
+| 2026-08-16 | github | plugin | [mattpocock-skills-dsh](https://github.com/gongyijie85/mattpocock-skills-dsh) | gongyijie85 | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [mmx-quota-tool](https://github.com/mtty-ai/mmx-quota-tool) | mtty-ai | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [qmd-autosearch](https://github.com/zhangzhenwen1/qmd-autosearch) | zhangzhenwen1 | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [write-chinese-long-screenplay](https://github.com/mudden2380078550-creator/write-chinese-long-screenplay) | mudden2380078550-creator | core-and-ecosystem |
+| 2026-08-16T04:13:41Z | hacker_news | story | [Show HN: DSH Plugin Directory – Every DeepSeek Harness Plugin](https://news.ycombinator.com/item?id=49316849) | niliu123 | index-and-marketplace |
 | 16m ago | reddit | post | [DeepSeek Harness: A Concrete Step Toward Self-Evolving AI Systems](https://www.reddit.com/r/DeepSeek/comments/1vpmdg9/deepseek_harness_a_concrete_step_toward) | Able_Improvement_753 | core-and-ecosystem |
 | 2026-08-16T03:13:50Z | github | ecosystem-reference | [WJNCT55555/dsh-achievements](https://github.com/WJNCT55555/dsh-achievements) | WJNCT55555 | ui-and-desktop |
 | 2026-08-16 | github | plugin | [dsh-desktop-pet](https://github.com/xiaoshihou514/dsh-desktop-pet) | xiaoshihou514 | ui-and-desktop |
@@ -12924,6 +12934,7 @@
 | 2025-11-30T10:41:27Z | github | repository | [CocoSgt/Giga-Peach](https://github.com/CocoSgt/Giga-Peach) | CocoSgt | core-and-ecosystem |
 | 2025-11-19T11:59:32Z | hacker_news | story | [Show HN: Q⊗DASH – Rust/Python quantum operator framework for graph-based QC](https://news.ycombinator.com/item?id=45978524) | dioniceOS | index-and-marketplace |
 | 2025-11-04T17:03:48Z | hacker_news | story | [Show HN: Tangent – Open‑source stream processor with native‑speed WASM plugins](https://news.ycombinator.com/item?id=45813256) | PublicEnemy111 | index-and-marketplace |
+| 2025-11-04T08:44:59Z | github | repository | [hyqibot/A-share-Ai](https://github.com/hyqibot/A-share-Ai) | hyqibot | index-and-marketplace |
 | 2025-10-31T14:15:28Z | github | repository | [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | shanraisshan | core-and-ecosystem |
 | 2025-10-24T11:08:44Z | github | repository | [lemony-ai/cascadeflow](https://github.com/lemony-ai/cascadeflow) | lemony-ai | core-and-ecosystem |
 | 2025-10-07T05:30:56Z | hacker_news | story | [Show HN: My first finished audio plugin. Minimal Bloat, Under 1000 LOC](https://news.ycombinator.com/item?id=45499664) | not_woowoo | index-and-marketplace |
