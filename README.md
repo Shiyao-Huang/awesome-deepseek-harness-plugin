@@ -7,7 +7,7 @@ DeepSeek Harness / DSH 插件生态的公开资料聚合 repo：把 GitHub 仓�
 <!-- landing:start -->
 ## Start here — the DSH signal desk
 
-> 这里不是又一份静态 Awesome List，而是一张持续更新的 DeepSeek Harness 生态地图：先看最值得点开的仓库、帖子和视频，再沿着 raw、SQLite、时间轴回到证据。当前批次 **v20260816T164235Z**（2026-08-16）：**14,449** 条去重记录、**14** 个平台、**1,253** 个媒体引用。
+> 这里不是又一份静态 Awesome List，而是一张持续更新的 DeepSeek Harness 生态地图：先看最值得点开的仓库、帖子和视频，再沿着 raw、SQLite、时间轴回到证据。当前批次 **v20260816T165726Z**（2026-08-16）：**14,449** 条去重记录、**14** 个平台、**1,253** 个媒体引用。
 
 [打开 dsh store](docs/index.html) · [看价值矩阵](docs/value-matrix.md) · [看趋势](docs/trends.md) · [下载查询 SQLite](https://github.com/Shiyao-Huang/awesome-deepseek-harness-plugin/releases/download/dataset-latest/aggregator.sqlite3)
 
@@ -17,8 +17,8 @@ DeepSeek Harness / DSH 插件生态的公开资料聚合 repo：把 GitHub 仓�
 
 | 入口 | 为什么值得看 | 当前信号 |
 | --- | --- | ---: |
-| [官方核心 · deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | DSH 的源头仓库；所有插件和能力最终回到这里核验。 | ★ stars 129,001 |
-| [高关注插件 · zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 真实可见的 UI / 桌面扩展，适合从“能不能直接用”开始。 | ★ stars 3,345 |
+| [官方核心 · deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | DSH 的源头仓库；所有插件和能力最终回到这里核验。 | ★ stars 129,146 |
+| [高关注插件 · zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 真实可见的 UI / 桌面扩展，适合从“能不能直接用”开始。 | ★ stars 3,352 |
 | [新文章 · 如何用 GLM 5.3，开发 DeepSeek Harness 插件](https://mp.weixin.qq.com/s/HrOgdg7ZBKQlvGM-xPeKtw) | 一篇文章串起模型接入、插件契约、skill、附件和 inspector；8 image · 1 video。 | counters NULL |
 
 ### 新：一篇文章与一项社区补充
@@ -29,7 +29,7 @@ DeepSeek Harness / DSH 插件生态的公开资料聚合 repo：把 GitHub 仓�
 | 插件 | 用途 |
 | --- | --- |
 | [CocoSgt/dsh-nsfw](https://github.com/CocoSgt/dsh-nsfw) | 由仓库驱动的 DeepSeek 鲸鱼娘全年龄漫画收藏与分享站。 · ★ stars 12 |
-| [CocoSgt/dsh-skills](https://github.com/CocoSgt/dsh-skills) | 索引和加载项目里的 skill，支持完整 `.skill` 文件。 · ★ stars 8 |
+| [CocoSgt/dsh-skills](https://github.com/CocoSgt/dsh-skills) | 索引和加载项目里的 skill，支持完整 `.skill` 文件。 · ★ stars 9 |
 | [CocoSgt/dsh-attachments](https://github.com/CocoSgt/dsh-attachments) | 为 DSH 增加文件/图片附件与继续引用能力。 · ★ stars 8 |
 | [CocoSgt/dsh-inspector](https://github.com/CocoSgt/dsh-inspector) | 查看生效的约束文件和当前被索引的 skill。 · ★ stars 6 |
 
@@ -70,7 +70,7 @@ dsh plugin --profile web add dsh-skills dsh-attachments dsh-inspector
 ## 当前快照
 
 <!-- snapshot:start -->
-公开查询 SQLite 当前包含 **14,449 条去重记录**、**14 个来源平台**、**120,684 条指标历史**、**1,253 个媒体资产引用**、**306 条详情记录**和 **1,100 个去重 raw provenance**。当前批次 **v20260816T164235Z** 于 **2026-08-16T16:42:39Z** 完成；价值矩阵为当前批次的 14,449 条记录提供六维评分。完整原始 JSON 位于压缩权威 SQLite；公开查询库保留 raw SHA-256、路径、字节数、采集时间和批次，并去除可由 `data/raw/` 或完整库恢复的重复 JSON blob。
+公开查询 SQLite 当前包含 **14,449 条去重记录**、**14 个来源平台**、**120,898 条指标历史**、**1,253 个媒体资产引用**、**306 条详情记录**和 **1,102 个去重 raw provenance**。当前批次 **v20260816T165726Z** 于 **2026-08-16T16:57:31Z** 完成；价值矩阵为当前批次的 14,449 条记录提供六维评分。完整原始 JSON 位于压缩权威 SQLite；公开查询库保留 raw SHA-256、路径、字节数、采集时间和批次，并去除可由 `data/raw/` 或完整库恢复的重复 JSON blob。
 
 | 来源 | 去重记录 | 采集内容 |
 | --- | ---: | --- |
