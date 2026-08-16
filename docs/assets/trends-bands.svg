@@ -8,10 +8,10 @@
 <text x="912" y="92" text-anchor="end" font-size="15" font-weight="700">272</text>
 <text x="28" y="138" font-size="15">band C（avg value 51.2）</text>
 <rect x="300" y="120" width="600" height="22" rx="11" fill="#e8e2d6"/>
-<rect x="300" y="120" width="61" height="22" rx="11" fill="#4f6d7a"/>
-<text x="912" y="138" text-anchor="end" font-size="15" font-weight="700">1,182</text>
+<rect x="300" y="120" width="62" height="22" rx="11" fill="#4f6d7a"/>
+<text x="912" y="138" text-anchor="end" font-size="15" font-weight="700">1,191</text>
 <text x="28" y="184" font-size="15">band D（avg value 33.9）</text>
 <rect x="300" y="166" width="600" height="22" rx="11" fill="#e8e2d6"/>
 <rect x="300" y="166" width="600" height="22" rx="11" fill="#5da399"/>
-<text x="912" y="184" text-anchor="end" font-size="15" font-weight="700">11,496</text>
+<text x="912" y="184" text-anchor="end" font-size="15" font-weight="700">11,498</text>
 </svg>
