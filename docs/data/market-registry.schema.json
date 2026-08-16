@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://deeplugin.store/data/market-registry.schema.json",
-  "title": "deeplugin.store DeepSeek Harness market registry v2",
+  "title": "deeplugin.store DeepSeek Harness market registry v3",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -9,16 +9,18 @@
     "updated",
     "count",
     "verifiedCount",
+    "packCount",
     "note",
     "categories",
-    "plugins"
+    "plugins",
+    "packs"
   ],
   "properties": {
     "$schema": {
       "const": "https://deeplugin.store/data/market-registry.schema.json"
     },
     "version": {
-      "const": 2
+      "const": 3
     },
     "updated": {
       "type": "string",
@@ -42,6 +44,10 @@
       "type": "integer",
       "minimum": 0
     },
+    "packCount": {
+      "type": "integer",
+      "minimum": 0
+    },
     "note": {
       "type": "string",
       "minLength": 1
@@ -56,6 +62,12 @@
       "type": "array",
       "items": {
         "$ref": "#/$defs/plugin"
+      }
+    },
+    "packs": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/pack"
       }
     }
   },
@@ -140,6 +152,12 @@
         "version": {
           "type": [
             "string",
+            "null"
+          ]
+        },
+        "rawSnapshotId": {
+          "type": [
+            "integer",
             "null"
           ]
         },
@@ -248,6 +266,246 @@
           "minItems": 1,
           "items": {
             "$ref": "#/$defs/source"
+          }
+        }
+      }
+    },
+    "packProvenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "registry",
+        "registryUrl",
+        "sourceRef",
+        "listingId",
+        "rawSnapshotId",
+        "observedAt",
+        "spec"
+      ],
+      "properties": {
+        "registry": {
+          "type": "string"
+        },
+        "registryUrl": {
+          "type": "string",
+          "format": "uri"
+        },
+        "sourceRef": {
+          "type": "string"
+        },
+        "listingId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "rawSnapshotId": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "observedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "spec": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "packMember": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "order",
+        "pluginId",
+        "name",
+        "install",
+        "relationship",
+        "group",
+        "reason",
+        "reason_zh",
+        "available",
+        "version",
+        "homepage",
+        "provenance"
+      ],
+      "properties": {
+        "order": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "pluginId": {
+          "type": "string",
+          "pattern": "^deeplugin-[0-9a-f]{20}$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "install": {
+          "$ref": "#/$defs/install"
+        },
+        "relationship": {
+          "enum": [
+            "required",
+            "alternative",
+            "complement"
+          ]
+        },
+        "group": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reason_zh": {
+          "type": "string",
+          "minLength": 1
+        },
+        "available": {
+          "type": "boolean"
+        },
+        "version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "homepage": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "provenance": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/packProvenance"
+          }
+        }
+      }
+    },
+    "pack": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "slug",
+        "version",
+        "name",
+        "name_zh",
+        "description",
+        "description_zh",
+        "task",
+        "task_zh",
+        "maintainer",
+        "observedAt",
+        "datasetVersion",
+        "source",
+        "memberCount",
+        "installable",
+        "missingMembers",
+        "missingVersions",
+        "members"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^deeplugin-pack-[0-9a-f]{20}$"
+        },
+        "slug": {
+          "type": "string",
+          "minLength": 1
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name_zh": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description_zh": {
+          "type": "string",
+          "minLength": 1
+        },
+        "task": {
+          "type": "string",
+          "minLength": 1
+        },
+        "task_zh": {
+          "type": "string",
+          "minLength": 1
+        },
+        "maintainer": {
+          "type": "string",
+          "minLength": 1
+        },
+        "observedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "datasetVersion": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "path",
+            "sha256"
+          ],
+          "properties": {
+            "path": {
+              "type": "string",
+              "minLength": 1
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{64}$"
+            }
+          }
+        },
+        "memberCount": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "installable": {
+          "type": "boolean"
+        },
+        "missingMembers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "missingVersions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "members": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/packMember"
           }
         }
       }

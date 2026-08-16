@@ -4,6 +4,7 @@ import test from 'node:test'
 import {
   installPlan,
   isSafePackageName,
+  packDetails,
   pluginDetails,
   registryStats,
   resolveInstallTarget,
@@ -13,10 +14,11 @@ import {
 
 
 const REGISTRY = {
-  version: 2,
+  version: 3,
   updated: '2026-08-16',
   count: 3,
   verifiedCount: 1,
+  packCount: 1,
   plugins: [
     {
       id: 'deeplugin-a',
@@ -64,6 +66,52 @@ const REGISTRY = {
       sources: [{registry: 'gamma/registry'}],
     },
   ],
+  packs: [{
+    id: 'deeplugin-pack-aaaaaaaaaaaaaaaaaaaa',
+    slug: 'connected-search',
+    version: '1.0.0',
+    name: 'Connected search',
+    name_zh: '联网搜索',
+    description: 'Search files and the public web.',
+    description_zh: '搜索文件和公开网页。',
+    task: 'Search local and public sources.',
+    task_zh: '搜索本地与公开来源。',
+    maintainer: 'deeplugin.store',
+    observedAt: '2026-08-16T08:00:00Z',
+    datasetVersion: 'pack-v20260816T080000Z',
+    source: {path: 'registry/packs.json', sha256: 'a'.repeat(64)},
+    memberCount: 2,
+    installable: true,
+    missingMembers: [],
+    missingVersions: ['deeplugin-b'],
+    members: [{
+      order: 1,
+      pluginId: 'deeplugin-a',
+      name: 'Search Files',
+      install: {target: 'npm', spec: '@alpha/search-files'},
+      relationship: 'complement',
+      group: 'search-stack',
+      reason: 'Search local files.',
+      reason_zh: '搜索本地文件。',
+      available: true,
+      version: '1.0.0',
+      homepage: 'https://github.com/alpha/search-files',
+      provenance: [{registry: 'alpha/registry', rawSnapshotId: 1, spec: '@alpha/search-files'}],
+    }, {
+      order: 2,
+      pluginId: 'deeplugin-b',
+      name: 'Search Web',
+      install: {target: 'git', spec: 'github:beta/search-web'},
+      relationship: 'complement',
+      group: 'search-stack',
+      reason: 'Search public sources.',
+      reason_zh: '搜索公开来源。',
+      available: true,
+      version: null,
+      homepage: 'https://github.com/beta/search-web',
+      provenance: [{registry: 'beta/registry', rawSnapshotId: 2, spec: 'github:beta/search-web'}],
+    }],
+  }],
 }
 
 
@@ -89,6 +137,20 @@ test('details resolve an exact registry id or install spec with source attributi
 })
 
 
+test('pack details preserve alternatives, complements, missing versions, and provenance', () => {
+  const pack = packDetails(REGISTRY, {id: 'deeplugin-pack-aaaaaaaaaaaaaaaaaaaa'}).pack
+
+  assert.equal(pack.version, '1.0.0')
+  assert.deepEqual(pack.missingVersions, ['deeplugin-b'])
+  assert.deepEqual(pack.members.map((member) => [member.pluginId, member.relationship, member.group]), [
+    ['deeplugin-a', 'complement', 'search-stack'],
+    ['deeplugin-b', 'complement', 'search-stack'],
+  ])
+  assert.equal(pack.members[0].provenance[0].rawSnapshotId, 1)
+  assert.equal(packDetails(REGISTRY, {id: 'missing'}).pack, null)
+})
+
+
 test('install plan only emits known registry specs and requires explicit confirmation', () => {
   assert.deepEqual(installPlan(REGISTRY, {ids: 'deeplugin-a,missing', profile: 'dev'}), {
     profile: 'dev',
@@ -107,6 +169,35 @@ test('install plan only emits known registry specs and requires explicit confirm
     note: 'Review source attribution and commands with the user. After confirmation, call deeplugin_install with each selected registry id and its exact spec.',
   })
   assert.equal(installPlan(REGISTRY, {ids: 'deeplugin-b', profile: 'bad; profile'}).profile, 'web')
+})
+
+
+test('pack install plan shows every member but still requires one approval per selected plugin', () => {
+  const plan = installPlan(REGISTRY, {packId: 'deeplugin-pack-aaaaaaaaaaaaaaaaaaaa', profile: 'research'})
+
+  assert.equal(plan.pack.id, 'deeplugin-pack-aaaaaaaaaaaaaaaaaaaa')
+  assert.deepEqual(plan.commands, [
+    'dsh plugin --profile research add @alpha/search-files',
+    'dsh plugin --profile research add github:beta/search-web',
+  ])
+  assert.deepEqual(plan.plugins.map((plugin) => ({
+    id: plugin.id,
+    relationship: plugin.relationship,
+    group: plugin.group,
+    version: plugin.version,
+  })), [{
+    id: 'deeplugin-a',
+    relationship: 'complement',
+    group: 'search-stack',
+    version: '1.0.0',
+  }, {
+    id: 'deeplugin-b',
+    relationship: 'complement',
+    group: 'search-stack',
+    version: null,
+  }])
+  assert.equal(plan.requiresConfirmation, true)
+  assert.match(plan.note, /one deeplugin_install call per selected member/)
 })
 
 
@@ -131,6 +222,7 @@ test('stats preserve missing metrics and explain verified as source claims', () 
 
 test('registry validation rejects count drift and unsafe install specs', () => {
   assert.equal(validateRegistry(REGISTRY), true)
+  assert.equal(validateRegistry({...REGISTRY, version: 2}), false)
   assert.equal(validateRegistry({...REGISTRY, count: 2}), false)
   assert.equal(validateRegistry({
     ...REGISTRY,

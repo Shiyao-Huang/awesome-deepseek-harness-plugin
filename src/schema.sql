@@ -1,5 +1,5 @@
 PRAGMA foreign_keys = ON;
-PRAGMA user_version = 7;
+PRAGMA user_version = 8;
 
 CREATE TABLE IF NOT EXISTS sources (
     id INTEGER PRIMARY KEY,
@@ -143,6 +143,51 @@ CREATE TABLE IF NOT EXISTS upstream_entry_observations (
     source_path TEXT,
     source_line INTEGER,
     UNIQUE(entry_id, collection_run_id)
+);
+
+CREATE TABLE IF NOT EXISTS plugin_packs (
+    id TEXT PRIMARY KEY,
+    slug TEXT NOT NULL UNIQUE,
+    current_version TEXT NOT NULL,
+    active INTEGER NOT NULL CHECK (active IN (0, 1)),
+    maintainer TEXT NOT NULL,
+    first_observed_at TEXT NOT NULL,
+    last_observed_at TEXT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS plugin_pack_versions (
+    pack_id TEXT NOT NULL REFERENCES plugin_packs(id) ON DELETE CASCADE,
+    version TEXT NOT NULL,
+    dataset_version TEXT NOT NULL,
+    name_en TEXT NOT NULL,
+    name_zh TEXT NOT NULL,
+    description_en TEXT NOT NULL,
+    description_zh TEXT NOT NULL,
+    task_en TEXT NOT NULL,
+    task_zh TEXT NOT NULL,
+    observed_at TEXT NOT NULL,
+    source_path TEXT NOT NULL,
+    source_sha256 TEXT NOT NULL,
+    definition_json TEXT NOT NULL,
+    PRIMARY KEY(pack_id, version)
+);
+
+CREATE TABLE IF NOT EXISTS plugin_pack_members (
+    pack_id TEXT NOT NULL,
+    pack_version TEXT NOT NULL,
+    member_order INTEGER NOT NULL CHECK (member_order > 0),
+    deeplugin_id TEXT NOT NULL,
+    expected_name TEXT NOT NULL,
+    install_spec TEXT NOT NULL,
+    relationship TEXT NOT NULL CHECK (relationship IN ('required', 'alternative', 'complement')),
+    member_group TEXT NOT NULL,
+    reason_en TEXT NOT NULL,
+    reason_zh TEXT NOT NULL,
+    definition_json TEXT NOT NULL,
+    PRIMARY KEY(pack_id, pack_version, member_order),
+    UNIQUE(pack_id, pack_version, deeplugin_id),
+    FOREIGN KEY(pack_id, pack_version)
+        REFERENCES plugin_pack_versions(pack_id, version) ON DELETE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS fork_networks (
@@ -484,6 +529,8 @@ CREATE INDEX IF NOT EXISTS idx_items_last_seen ON items(last_seen_at);
 CREATE INDEX IF NOT EXISTS idx_upstream_entries_current ON upstream_entries(repository_id, active, entry_kind);
 CREATE INDEX IF NOT EXISTS idx_upstream_registry_snapshots_run ON upstream_registry_snapshots(collection_run_id, repository_id);
 CREATE INDEX IF NOT EXISTS idx_upstream_entry_observations_run ON upstream_entry_observations(collection_run_id, entry_id);
+CREATE INDEX IF NOT EXISTS idx_plugin_pack_versions_observed ON plugin_pack_versions(observed_at DESC);
+CREATE INDEX IF NOT EXISTS idx_plugin_pack_members_plugin ON plugin_pack_members(deeplugin_id);
 CREATE INDEX IF NOT EXISTS idx_index_records_item ON index_records(item_id);
 CREATE INDEX IF NOT EXISTS idx_index_records_rank ON index_records(rank);
 CREATE INDEX IF NOT EXISTS idx_details_status ON item_details(status);

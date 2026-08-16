@@ -293,6 +293,50 @@ button { color: inherit; }
 .hero-copy .hero-actions { margin-top: 12px; }
 .market-guide[data-market-lang="zh"] [data-copy-lang="en"],
 .market-guide[data-market-lang="en"] [data-copy-lang="zh"] { display: none !important; }
+.task-packs { padding: 52px 0 44px; border-bottom: 1px solid var(--line); }
+.task-packs .section-heading { align-items: end; }
+.task-packs .section-heading > p { max-width: 430px; }
+.task-pack-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin-top: 22px; }
+.task-pack-card { display: grid; align-content: start; min-width: 0; min-height: 410px; padding: 24px; border: 1px solid var(--ink); background: var(--surface); box-shadow: var(--shadow); }
+.task-pack-card:nth-child(2) { background: #edf3ee; }
+.task-pack-card:nth-child(3) { background: #f6ead5; }
+.task-pack-meta { display: flex; align-items: center; justify-content: space-between; gap: 12px; color: var(--muted); font: 800 9px ui-monospace, SFMono-Regular, Menlo, monospace; text-transform: uppercase; }
+.task-pack-card h3 { margin: 28px 0 12px; font-size: 30px; line-height: 1.05; }
+.task-pack-card > p { min-height: 58px; margin: 0; color: var(--muted); font-size: 13px; line-height: 1.55; }
+.task-pack-card ul { display: grid; gap: 8px; margin: 22px 0; padding: 0; list-style: none; }
+.task-pack-card li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 12px; padding: 9px 0; border-top: 1px solid var(--line); font-size: 11px; }
+.task-pack-card li strong { min-width: 0; overflow-wrap: anywhere; }
+.task-pack-card li span { color: var(--muted); font: 9px ui-monospace, SFMono-Regular, Menlo, monospace; }
+.task-pack-actions { display: grid; grid-template-columns: 1fr; gap: 7px; margin-top: auto; }
+.task-pack-actions a, .task-pack-actions button { display: grid; place-items: center; min-height: 40px; padding: 0 12px; border: 1px solid var(--ink); background: transparent; color: var(--ink); cursor: pointer; font-size: 10px; font-weight: 800; text-align: center; }
+.task-pack-actions button { background: var(--ink); color: var(--surface); }
+.task-pack-actions button:disabled { border-color: var(--line); background: var(--line); color: var(--muted); cursor: not-allowed; }
+.pack-summary { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, .45fr); gap: 30px; padding: 28px 0 42px; border-bottom: 1px solid var(--line); }
+.pack-summary p { max-width: 760px; margin: 0 0 14px; color: var(--muted); font-size: 17px; line-height: 1.6; }
+.pack-review-action { display: grid; align-content: start; gap: 8px; }
+.pack-review-action button, .pack-review-action a { display: grid; place-items: center; min-height: 44px; padding: 0 14px; border: 1px solid var(--ink); background: var(--ink); color: var(--surface); cursor: pointer; font-size: 11px; font-weight: 800; text-align: center; }
+.pack-review-action a { background: transparent; color: var(--ink); }
+.pack-review-action button:disabled { border-color: var(--line); background: var(--line); color: var(--muted); cursor: not-allowed; }
+.pack-member-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; padding: 42px 0; }
+.pack-member-card { display: grid; align-content: start; min-width: 0; padding: 22px; border: 1px solid var(--line); background: var(--surface); }
+.pack-member-card h2 { margin: 22px 0 14px; overflow-wrap: anywhere; font-size: 22px; }
+.pack-member-card > p { margin: 0 0 10px; color: var(--muted); font-size: 12px; line-height: 1.5; }
+.pack-member-card dl { display: grid; gap: 0; margin: 16px 0; border-top: 1px solid var(--line); }
+.pack-member-card dl div { display: grid; grid-template-columns: 90px minmax(0, 1fr); gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.pack-member-card dt { color: var(--muted); font-size: 9px; text-transform: uppercase; }
+.pack-member-card dd { margin: 0; overflow-wrap: anywhere; font: 10px ui-monospace, SFMono-Regular, Menlo, monospace; }
+.pack-member-command { display: grid; gap: 8px; margin-top: auto; }
+.pack-member-command code { padding: 11px; overflow-wrap: anywhere; background: var(--paper); color: var(--green); font: 10px/1.45 ui-monospace, SFMono-Regular, Menlo, monospace; }
+.pack-member-command button { min-height: 36px; border: 0; background: var(--green); color: #fff; cursor: pointer; font-size: 10px; font-weight: 800; }
+.pack-member-unavailable { padding: 11px; border: 1px solid var(--orange); color: var(--orange) !important; }
+.home-browse { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: 40px; padding: 56px 0; border-top: 1px solid var(--line); }
+.home-browse h2 { margin: 8px 0 14px; font-size: 34px; }
+.home-browse > div > p { color: var(--muted); line-height: 1.6; }
+.home-browse-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 22px; }
+.home-category-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+.home-category-grid a { display: grid; align-content: center; min-height: 72px; padding: 12px; border: 1px solid var(--line); background: var(--surface); }
+.home-category-grid span { font-size: 13px; font-weight: 800; }
+.home-category-grid small { margin-top: 5px; color: var(--muted); }
 .market-install-guide { display: block; padding: 58px 0 44px; }
 .market-guide-head { display: flex; align-items: end; justify-content: space-between; gap: 24px; }
 .market-guide-head h2, .market-demo-head h2 { margin: 0; font-size: 36px; line-height: 1.08; }
@@ -346,11 +390,15 @@ button { color: inherit; }
   .chat-frames { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 900px) {
+  .task-pack-grid, .pack-member-grid { grid-template-columns: 1fr; }
+  .task-pack-card { min-height: 0; }
+  .pack-summary, .home-browse { grid-template-columns: 1fr; }
   .install-route-grid { grid-template-columns: 1fr; }
   .install-route { min-height: 0; }
   .chat-frame { min-height: 0; }
 }
 @media (max-width: 640px) {
+  .home-category-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .market-guide-head, .market-demo-head { align-items: start; flex-direction: column; }
   .market-guide-head h2, .market-demo-head h2 { font-size: 29px; }
   .market-demo-head > p { max-width: none; text-align: left; }

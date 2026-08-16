@@ -6,6 +6,7 @@ import {defineTool} from '@deepseek-ai/dsh-tools'
 import {
   installPlan,
   isSafePackageName,
+  packDetails,
   pluginDetails,
   registryStats,
   resolveInstallTarget,
@@ -37,7 +38,7 @@ export async function loadRegistry(signal) {
     const combined = AbortSignal.any([signal ?? timeout.signal, timeout.signal])
     const response = await fetch(REGISTRY_URL, {
       signal: combined,
-      headers: {'User-Agent': 'deeplugin-market/0.3'},
+      headers: {'User-Agent': 'deeplugin-market/0.4'},
     })
     if (!response.ok) throw new Error(`registry HTTP ${response.status}`)
     const registry = await response.json()
@@ -131,6 +132,41 @@ export function createTools(registryLoader = loadRegistry, pluginRunner = runDsh
       presentCall: (args) => ({card: 'generic', title: `deeplugin details: ${args.id ?? args.spec ?? 'unknown'}`, kind: 'read', rawInput: args}),
     }),
     defineTool({
+      name: 'deeplugin_pack_details',
+      description: 'Read one versioned Plugin Pack by stable id or slug. Returns every required, alternative, and complementary member, including missing versions and Listing/raw provenance. This tool never installs anything.',
+      parameters: {
+        id: {type: 'string', description: 'Stable deeplugin-pack registry id'},
+        slug: {type: 'string', description: 'Source-controlled Pack slug'},
+      },
+      output: {
+        schema: {
+          type: 'object',
+          additionalProperties: false,
+          properties: {
+            pack: {
+              oneOf: [
+                {type: 'object', additionalProperties: true},
+                {type: 'null'},
+              ],
+              required: true,
+            },
+          },
+        },
+        render: (_args, value) => [{
+          type: 'text',
+          text: value.pack
+            ? `${value.pack.name} (${value.pack.id}, v${value.pack.version})\n${value.pack.members.map((member) => (
+              `- ${member.name} (${member.pluginId}) · ${member.relationship}/${member.group} · ${member.available ? `available, version ${member.version ?? 'not reported'}` : 'unavailable'}\n  ${member.install.spec}\n  sources: ${member.provenance.map((source) => source.registry).join(', ') || 'none'}`
+            )).join('\n')}\nInstallable as reviewed: ${value.pack.installable ? 'yes' : 'no; inspect missing members'}`
+            : 'No Plugin Pack matched that id or slug.',
+        }],
+      },
+      async execute(args, execution) {
+        return packDetails(await registryLoader(execution?.signal), args)
+      },
+      presentCall: (args) => ({card: 'generic', title: `deeplugin Pack: ${args.id ?? args.slug ?? 'unknown'}`, kind: 'read', rawInput: args}),
+    }),
+    defineTool({
       name: 'deeplugin_stats',
       description: 'Report current deeplugin registry counts, source verification claims, update date, and category distribution.',
       parameters: {},
@@ -157,9 +193,10 @@ export function createTools(registryLoader = loadRegistry, pluginRunner = runDsh
     }),
     defineTool({
       name: 'deeplugin_install_plan',
-      description: 'Build exact dsh plugin add commands for stable registry ids. This tool never executes installation; show the source attribution and commands, then require explicit user confirmation before running them.',
+      description: 'Build exact dsh plugin add commands for stable registry ids or one versioned Pack. This tool never executes installation; show every relationship, source, missing version, and command, then require explicit user confirmation for each selected member.',
       parameters: {
         ids: {type: 'string', description: 'Comma-separated stable ids returned by deeplugin_search'},
+        packId: {type: 'string', description: 'Optional stable Pack id returned by deeplugin_pack_details; lists every available member'},
         profile: {type: 'string', description: 'Target DSH profile; default web'},
       },
       output: {
@@ -172,6 +209,12 @@ export function createTools(registryLoader = loadRegistry, pluginRunner = runDsh
             commands: {type: 'array', required: true, items: {type: 'string'}},
             plugins: {type: 'array', required: true, items: {type: 'object', additionalProperties: true}},
             missing: {type: 'array', required: true, items: {type: 'string'}},
+            pack: {
+              oneOf: [
+                {type: 'object', additionalProperties: true},
+                {type: 'null'},
+              ],
+            },
             requiresConfirmation: {type: 'boolean', required: true},
             note: {type: 'string', required: true},
           },
@@ -186,6 +229,7 @@ export function createTools(registryLoader = loadRegistry, pluginRunner = runDsh
       async execute(args, execution) {
         return installPlan(await registryLoader(execution?.signal), {
           ids: args.ids ?? '',
+          packId: args.packId,
           profile: args.profile ?? 'web',
         })
       },

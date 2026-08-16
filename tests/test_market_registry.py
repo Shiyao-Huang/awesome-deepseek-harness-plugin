@@ -768,7 +768,7 @@ class RegistryPersistenceTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             database = Path(directory) / "registry.sqlite3"
             legacy_schema = collect.SCHEMA_PATH.read_text(encoding="utf-8")
-            legacy_schema = legacy_schema.replace("PRAGMA user_version = 7;", "PRAGMA user_version = 5;")
+            legacy_schema = legacy_schema.replace("PRAGMA user_version = 8;", "PRAGMA user_version = 5;")
             legacy_schema = legacy_schema.replace(
                 "    listing_key TEXT NOT NULL,\n    entry_name TEXT NOT NULL,",
                 "    entry_name TEXT NOT NULL,",
@@ -818,7 +818,7 @@ class RegistryPersistenceTests(unittest.TestCase):
                 ).fetchone()
                 self.assertEqual(tuple(parent), (1, "install:github:owner/monorepo#path:/one", "one"))
                 self.assertEqual(tuple(history), (1, "install:github:owner/monorepo#path:/one", "one"))
-                self.assertEqual(migrated.execute("PRAGMA user_version").fetchone()[0], 7)
+                self.assertEqual(migrated.execute("PRAGMA user_version").fetchone()[0], 8)
                 self.assertEqual(migrated.execute("PRAGMA foreign_key_check").fetchall(), [])
 
     def test_failed_source_does_not_deactivate_last_successful_listing(self) -> None:

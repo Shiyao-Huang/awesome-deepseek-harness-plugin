@@ -16,7 +16,7 @@ export function isSafeInstallSpec(spec) {
 
 /** Validate the registry invariants required by all market tools. */
 export function validateRegistry(registry) {
-  if (!registry || registry.version !== 2 || !Array.isArray(registry.plugins)) return false
+  if (!registry || registry.version !== 3 || !Array.isArray(registry.plugins) || !Array.isArray(registry.packs)) return false
   if (registry.count !== registry.plugins.length) return false
   const ids = new Set()
   const specs = new Set()
@@ -32,7 +32,33 @@ export function validateRegistry(registry) {
       verifiedCount += 1
     }
   }
-  return registry.verifiedCount === verifiedCount
+  if (registry.verifiedCount !== verifiedCount || registry.packCount !== registry.packs.length) return false
+  const packIds = new Set()
+  for (const pack of registry.packs) {
+    if (!pack || typeof pack.id !== 'string' || packIds.has(pack.id) || !Array.isArray(pack.members)) return false
+    packIds.add(pack.id)
+    if (pack.memberCount !== pack.members.length || pack.members.length === 0) return false
+    const memberIds = new Set()
+    const unavailable = []
+    const missingVersions = []
+    for (const member of pack.members) {
+      if (!member || memberIds.has(member.pluginId) || !isSafeInstallSpec(member.install?.spec)) return false
+      memberIds.add(member.pluginId)
+      if (!['required', 'alternative', 'complement'].includes(member.relationship)) return false
+      if (typeof member.group !== 'string' || !Array.isArray(member.provenance)) return false
+      const plugin = registry.plugins.find((candidate) => candidate.id === member.pluginId)
+      const available = Boolean(plugin && plugin.install?.spec === member.install.spec)
+      if (member.available !== available) return false
+      if (!available) unavailable.push(member.pluginId)
+      if (available && !plugin.version) missingVersions.push(member.pluginId)
+      if (member.version !== (available ? plugin.version : null)) return false
+      if (member.provenance.some((source) => source?.spec !== member.install.spec)) return false
+    }
+    if (pack.installable !== (unavailable.length === 0)) return false
+    if (JSON.stringify(pack.missingMembers) !== JSON.stringify(unavailable)) return false
+    if (JSON.stringify(pack.missingVersions) !== JSON.stringify(missingVersions)) return false
+  }
+  return true
 }
 
 
@@ -125,6 +151,15 @@ export function pluginDetails(registry, {id, spec} = {}) {
 }
 
 
+/** Resolve one exact Plugin Pack with every member relationship and provenance record. */
+export function packDetails(registry, {id, slug} = {}) {
+  const pack = registry.packs.find((candidate) => (
+    (id && candidate.id === id) || (slug && candidate.slug === slug)
+  )) ?? null
+  return {pack}
+}
+
+
 /** Resolve one registry id to its safe install identity. */
 export function resolveInstallTarget(registry, {id} = {}) {
   const plugin = registry.plugins.find((candidate) => candidate.id === id)
@@ -164,9 +199,14 @@ export function registryStats(registry) {
 
 
 /** Build reviewable commands for known plugins without executing an installation. */
-export function installPlan(registry, {ids = '', profile = 'web'} = {}) {
+export function installPlan(registry, {ids = '', packId, profile = 'web'} = {}) {
   const safeProfile = /^[A-Za-z0-9_-]+$/.test(String(profile)) ? String(profile) : 'web'
-  const requested = Array.isArray(ids)
+  const pack = packId
+    ? registry.packs.find((candidate) => candidate.id === packId) ?? null
+    : null
+  const requested = pack
+    ? pack.members.filter((member) => member.available).map((member) => member.pluginId)
+    : Array.isArray(ids)
     ? ids.map(String)
     : String(ids ?? '').split(',').map((value) => value.trim()).filter(Boolean)
   const commands = []
@@ -179,6 +219,7 @@ export function installPlan(registry, {ids = '', profile = 'web'} = {}) {
       continue
     }
     commands.push(`dsh plugin --profile ${safeProfile} add ${plugin.install.spec}`)
+    const packMember = pack?.members.find((member) => member.pluginId === plugin.id)
     plugins.push({
       id: plugin.id,
       name: plugin.name,
@@ -186,15 +227,27 @@ export function installPlan(registry, {ids = '', profile = 'web'} = {}) {
       homepage: plugin.homepage,
       verified: plugin.verified === true,
       sources: plugin.sources,
+      ...(packMember ? {
+        version: packMember.version,
+        relationship: packMember.relationship,
+        group: packMember.group,
+        reason: packMember.reason,
+        reason_zh: packMember.reason_zh,
+        provenance: packMember.provenance,
+      } : {}),
     })
   }
-  return {
+  const result = {
     profile: safeProfile,
     count: commands.length,
     commands,
     plugins,
     missing,
     requiresConfirmation: true,
-    note: 'Review source attribution and commands with the user. After confirmation, call deeplugin_install with each selected registry id and its exact spec.',
+    note: pack
+      ? 'Review every member, relationship, missing version, source, and command. After confirmation, use one deeplugin_install call per selected member; this plan never installs a Pack in bulk.'
+      : 'Review source attribution and commands with the user. After confirmation, call deeplugin_install with each selected registry id and its exact spec.',
   }
+  if (packId) result.pack = pack
+  return result
 }

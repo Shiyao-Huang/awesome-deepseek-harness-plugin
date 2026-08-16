@@ -1,0 +1,159 @@
+{
+  "version": 1,
+  "packs": [
+    {
+      "slug": "connected-research",
+      "version": "1.0.0",
+      "active": true,
+      "maintainer": "deeplugin.store",
+      "observedAt": "2026-08-16T15:45:59Z",
+      "datasetVersion": "pack-v20260816T154559Z",
+      "name": {
+        "en": "Connected research",
+        "zh": "联网研究"
+      },
+      "description": {
+        "en": "Find public sources, preserve citations, and turn the evidence into a research result.",
+        "zh": "查找公开来源、保留引用，并把证据整理成研究结果。"
+      },
+      "task": {
+        "en": "Research a question with current public evidence and reviewable citations.",
+        "zh": "用当前公开证据和可复核引用研究一个问题。"
+      },
+      "members": [
+        {
+          "pluginId": "deeplugin-96573e2aed0feb244d07",
+          "name": "modsearch",
+          "installSpec": "@liustack/modsearch",
+          "relationship": "complement",
+          "group": "research-stack",
+          "reason": {
+            "en": "Search public web and social sources with citations.",
+            "zh": "检索公开网页与社交来源并保留引用。"
+          }
+        },
+        {
+          "pluginId": "deeplugin-309f700fde85412d86c0",
+          "name": "dsh-deep-research",
+          "installSpec": "github:omdsh-dev/dsh-deep-research",
+          "relationship": "complement",
+          "group": "research-stack",
+          "reason": {
+            "en": "Plan and synthesize a multi-step research result.",
+            "zh": "规划并综合多步骤研究结果。"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "session-memory-choose-one",
+      "version": "1.0.0",
+      "active": true,
+      "maintainer": "deeplugin.store",
+      "observedAt": "2026-08-16T15:45:59Z",
+      "datasetVersion": "pack-v20260816T154559Z",
+      "name": {
+        "en": "Session memory — choose one",
+        "zh": "会话记忆——三选一"
+      },
+      "description": {
+        "en": "Compare three alternative memory providers before selecting one for a profile.",
+        "zh": "比较三个互相替代的记忆提供方，再为一个 Profile 选择其中一个。"
+      },
+      "task": {
+        "en": "Keep useful context across sessions with one reviewed memory provider.",
+        "zh": "选择一个经过审阅的记忆提供方，在会话之间保留有用上下文。"
+      },
+      "members": [
+        {
+          "pluginId": "deeplugin-6c5aa90f174273ec7103",
+          "name": "OpenViking#examples/dsh-memory-plugin",
+          "installSpec": "github:volcengine/openviking#path:/examples/dsh-memory-plugin",
+          "relationship": "alternative",
+          "group": "memory-provider",
+          "reason": {
+            "en": "One source-declared memory-provider option.",
+            "zh": "一个由来源声明的记忆提供方选项。"
+          }
+        },
+        {
+          "pluginId": "deeplugin-ba41ff575c19abd30013",
+          "name": "hindsight#coding-agents",
+          "installSpec": "@vectorize-io/hindsight-coding-agents",
+          "relationship": "alternative",
+          "group": "memory-provider",
+          "reason": {
+            "en": "An alternative memory-provider option for coding-agent workflows.",
+            "zh": "面向编码 Agent 工作流的另一个记忆提供方选项。"
+          }
+        },
+        {
+          "pluginId": "deeplugin-122de4daa75ac5690a4d",
+          "name": "dsh-mneme#dsh-mneme",
+          "installSpec": "github:modusensus/dsh-mneme#path:/dsh-mneme",
+          "relationship": "alternative",
+          "group": "memory-provider",
+          "reason": {
+            "en": "A third source-declared memory-provider option.",
+            "zh": "第三个由来源声明的记忆提供方选项。"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "mobile-remote",
+      "version": "1.0.0",
+      "active": true,
+      "maintainer": "deeplugin.store",
+      "observedAt": "2026-08-16T15:45:59Z",
+      "datasetVersion": "pack-v20260816T154559Z",
+      "name": {
+        "en": "Mobile and remote control",
+        "zh": "移动与远程控制"
+      },
+      "description": {
+        "en": "Choose a remote interface and optionally add completion notifications.",
+        "zh": "选择一个远程交互界面，并可搭配任务完成通知。"
+      },
+      "task": {
+        "en": "Reach a DeepSeek Harness profile away from the terminal and know when work finishes.",
+        "zh": "离开终端时仍能访问 DeepSeek Harness Profile，并在任务完成时收到通知。"
+      },
+      "members": [
+        {
+          "pluginId": "deeplugin-ffc905da5f4166690b1e",
+          "name": "dsh-pocket",
+          "installSpec": "dsh-pocket",
+          "relationship": "alternative",
+          "group": "remote-interface",
+          "reason": {
+            "en": "One source-declared mobile access option.",
+            "zh": "一个由来源声明的移动访问选项。"
+          }
+        },
+        {
+          "pluginId": "deeplugin-fb07d8b873c9a1b985c3",
+          "name": "dsh-web-mobile",
+          "installSpec": "github:mexiaosqwq/dsh-web-mobile",
+          "relationship": "alternative",
+          "group": "remote-interface",
+          "reason": {
+            "en": "An alternative web/mobile access option.",
+            "zh": "另一个 Web/移动访问选项。"
+          }
+        },
+        {
+          "pluginId": "deeplugin-da0694d9ba6b206bff0b",
+          "name": "dsh-notify-on-complete",
+          "installSpec": "github:pitetow/dsh-notify-on-complete",
+          "relationship": "complement",
+          "group": "completion-signal",
+          "reason": {
+            "en": "Add a completion signal after choosing a remote interface.",
+            "zh": "在选择远程界面后补充任务完成提醒。"
+          }
+        }
+      ]
+    }
+  ]
+}

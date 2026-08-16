@@ -24,7 +24,8 @@ DB_PATH = ROOT / "data" / "aggregator.sqlite3"
 SCHEMA_PATH = ROOT / "src" / "schema.sql"
 CONFIG_PATH = ROOT / "config" / "queries.json"
 RAW_DIR = ROOT / "data" / "raw"
-SCHEMA_VERSION = 7
+PACK_DEFINITIONS_PATH = ROOT / "registry" / "packs.json"
+SCHEMA_VERSION = 8
 
 
 @dataclass
@@ -481,7 +482,136 @@ def repair_item_seen_ranges(connection: sqlite3.Connection) -> None:
     )
 
 
-def init_db(path: Path = DB_PATH) -> None:
+def stable_pack_id(slug: str) -> str:
+    """Derive an opaque stable Plugin Pack id from its source-controlled slug."""
+
+    digest = hashlib.sha256(slug.encode("utf-8")).hexdigest()[:20]
+    return f"deeplugin-pack-{digest}"
+
+
+def sync_plugin_packs(connection: sqlite3.Connection, path: Path) -> None:
+    """Append source-controlled Plugin Pack versions to SQLite and select their current state."""
+
+    if not path.is_file():
+        return
+    document = load_json(path)
+    if not isinstance(document, dict) or document.get("version") != 1:
+        raise RuntimeError(f"Plugin Pack definitions must use contract version 1: {path}")
+    packs = document.get("packs")
+    if not isinstance(packs, list):
+        raise RuntimeError(f"Plugin Pack definitions must contain a packs array: {path}")
+    try:
+        source_path = str(path.resolve().relative_to(ROOT))
+    except ValueError:
+        source_path = str(path)
+    for definition in packs:
+        if not isinstance(definition, dict):
+            raise RuntimeError(f"Plugin Pack definition must be an object: {path}")
+        slug = str(definition.get("slug") or "").strip()
+        version = str(definition.get("version") or "").strip()
+        maintainer = str(definition.get("maintainer") or "").strip()
+        observed_at = str(definition.get("observedAt") or "").strip()
+        dataset_version = str(definition.get("datasetVersion") or "").strip()
+        active = definition.get("active")
+        localized = {}
+        for field in ("name", "description", "task"):
+            value = definition.get(field)
+            if not isinstance(value, dict):
+                raise RuntimeError(f"Plugin Pack {slug or '<missing>'} requires bilingual {field}")
+            localized[field] = {
+                "en": str(value.get("en") or "").strip(),
+                "zh": str(value.get("zh") or "").strip(),
+            }
+            if not all(localized[field].values()):
+                raise RuntimeError(f"Plugin Pack {slug or '<missing>'} requires bilingual {field}")
+        members = definition.get("members")
+        if not slug or not version or not maintainer or not observed_at or not dataset_version:
+            raise RuntimeError(f"Plugin Pack identity, version, maintainer, and dates are required: {path}")
+        if not isinstance(active, bool) or not isinstance(members, list) or not members:
+            raise RuntimeError(f"Plugin Pack {slug} requires active and at least one member")
+        canonical = json.dumps(definition, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+        source_sha256 = hashlib.sha256(canonical.encode("utf-8")).hexdigest()
+        pack_id = stable_pack_id(slug)
+        existing_version = connection.execute(
+            "SELECT source_sha256 FROM plugin_pack_versions WHERE pack_id = ? AND version = ?",
+            (pack_id, version),
+        ).fetchone()
+        if existing_version is not None and str(existing_version[0]) != source_sha256:
+            raise RuntimeError(
+                f"Plugin Pack {slug} version {version} changed without a version bump"
+            )
+        connection.execute(
+            """
+            INSERT INTO plugin_packs(
+                id, slug, current_version, active, maintainer,
+                first_observed_at, last_observed_at
+            ) VALUES (?, ?, ?, ?, ?, ?, ?)
+            ON CONFLICT(id) DO UPDATE SET
+                slug = excluded.slug,
+                current_version = excluded.current_version,
+                active = excluded.active,
+                maintainer = excluded.maintainer,
+                first_observed_at = MIN(plugin_packs.first_observed_at, excluded.first_observed_at),
+                last_observed_at = MAX(plugin_packs.last_observed_at, excluded.last_observed_at)
+            """,
+            (pack_id, slug, version, int(active), maintainer, observed_at, observed_at),
+        )
+        connection.execute(
+            """
+            INSERT OR IGNORE INTO plugin_pack_versions(
+                pack_id, version, dataset_version, name_en, name_zh,
+                description_en, description_zh, task_en, task_zh,
+                observed_at, source_path, source_sha256, definition_json
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """,
+            (
+                pack_id, version, dataset_version,
+                localized["name"]["en"], localized["name"]["zh"],
+                localized["description"]["en"], localized["description"]["zh"],
+                localized["task"]["en"], localized["task"]["zh"],
+                observed_at, source_path, source_sha256, canonical,
+            ),
+        )
+        connection.execute(
+            "UPDATE plugin_pack_versions SET source_path = ? "
+            "WHERE pack_id = ? AND version = ? AND source_sha256 = ?",
+            (source_path, pack_id, version, source_sha256),
+        )
+        for order, member in enumerate(members, start=1):
+            if not isinstance(member, dict):
+                raise RuntimeError(f"Plugin Pack {slug} member {order} must be an object")
+            reason = member.get("reason")
+            if not isinstance(reason, dict):
+                raise RuntimeError(f"Plugin Pack {slug} member {order} requires a bilingual reason")
+            values = {
+                "plugin_id": str(member.get("pluginId") or "").strip(),
+                "name": str(member.get("name") or "").strip(),
+                "spec": str(member.get("installSpec") or "").strip(),
+                "relationship": str(member.get("relationship") or "").strip(),
+                "group": str(member.get("group") or "").strip(),
+                "reason_en": str(reason.get("en") or "").strip(),
+                "reason_zh": str(reason.get("zh") or "").strip(),
+            }
+            if not all(values.values()) or values["relationship"] not in {"required", "alternative", "complement"}:
+                raise RuntimeError(f"Plugin Pack {slug} member {order} is incomplete")
+            member_json = json.dumps(member, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+            connection.execute(
+                """
+                INSERT OR IGNORE INTO plugin_pack_members(
+                    pack_id, pack_version, member_order, deeplugin_id,
+                    expected_name, install_spec, relationship, member_group,
+                    reason_en, reason_zh, definition_json
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                """,
+                (
+                    pack_id, version, order, values["plugin_id"], values["name"],
+                    values["spec"], values["relationship"], values["group"],
+                    values["reason_en"], values["reason_zh"], member_json,
+                ),
+            )
+
+
+def init_db(path: Path = DB_PATH, *, pack_definitions: Path = PACK_DEFINITIONS_PATH) -> None:
     """Create or migrate the SQLite schema without discarding raw evidence."""
 
     with connect(path) as connection:
@@ -555,6 +685,7 @@ def init_db(path: Path = DB_PATH) -> None:
         )
         backfill_collection_runs(connection)
         repair_item_seen_ranges(connection)
+        sync_plugin_packs(connection, pack_definitions)
         connection.execute(f"PRAGMA user_version = {SCHEMA_VERSION}")
         connection.execute("CREATE UNIQUE INDEX IF NOT EXISTS idx_metrics_dedupe ON metrics(item_id, observed_at, metric_source)")
 
