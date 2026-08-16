@@ -10,9 +10,15 @@ fi
 note=$1
 tag=${DATASET_RELEASE_TAG:-dataset-latest}
 retry_delay=${RELEASE_RETRY_DELAY:-2}
+max_attempts=${RELEASE_MAX_ATTEMPTS:-8}
 assets=(data/aggregator.sqlite3 data/aggregator-full.sqlite3.zst)
 
-for attempt in 1 2 3; do
+if [[ ! $retry_delay =~ ^[0-9]+$ || ! $max_attempts =~ ^[1-9][0-9]*$ ]]; then
+  echo "RELEASE_RETRY_DELAY must be non-negative and RELEASE_MAX_ATTEMPTS must be positive" >&2
+  exit 2
+fi
+
+for ((attempt = 1; attempt <= max_attempts; attempt++)); do
   if gh release upload "$tag" "${assets[@]}" --clobber; then
     if gh release edit "$tag" \
       --title "Latest DeepSeek Harness ecosystem dataset" \
@@ -26,14 +32,14 @@ for attempt in 1 2 3; do
       --title "Latest DeepSeek Harness ecosystem dataset" \
       --notes "$note" \
       --latest; then
-      echo "Release creation raced another publisher; retrying ($attempt/3)" >&2
+      echo "Release creation raced another publisher; retrying ($attempt/$max_attempts)" >&2
     fi
   fi
 
-  if [[ $attempt -lt 3 ]]; then
+  if [[ $attempt -lt $max_attempts ]]; then
     sleep $((retry_delay * attempt))
   fi
 done
 
-echo "Failed to publish stable SQLite assets after 3 attempts" >&2
+echo "Failed to publish stable SQLite assets after $max_attempts attempts" >&2
 exit 1

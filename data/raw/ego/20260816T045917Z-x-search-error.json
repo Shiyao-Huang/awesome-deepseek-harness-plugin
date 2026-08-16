@@ -1,0 +1,29 @@
+{
+  "capture_kind": "visible-dom",
+  "captured_at": "2026-08-16T04:59:17Z",
+  "collector": "ego-browser/ego-lite",
+  "method": "public X search visible DOM/text",
+  "status": "error",
+  "page_url": "https://x.com/search?q=deepseek-harness&src=typed_query",
+  "page_title": "deepseek-harness - Search / X",
+  "visible_text": "To view keyboard shortcuts, press question mark\nView keyboard shortcuts\nTop\nLatest\nPeople\nMedia\nLists\nSee new posts\nSomething went wrong. Try reloading.\nRetry\nSearch filters\nPeople\nFrom anyone\nPeople you follow\nLocation\nAnywhere\nNear you\nAdvanced search\nToday’s News\nAvengers Heroes Return for New Infinity Defense Ride at Disney California Adventure\n1 hour ago · Entertainment · 3,093 posts\nTatis Jr.'s 115.5 mph Homer Powers Padres' Comeback Win Over Guardians\n1 day ago · Sports · 5,947 posts\nMarvel Reveals Star-Studded Cast for 2028 X-Men Movie\n2 days ago · Entertainment · 817.5K posts\nTrending now\nWhat’s happening\nWhere the Hype Begins\nWatch LIVE out-of-market preseason games with NFL+. Subscription Req'd\nPromoted by NFL\nSports · Trending\n#UFC330\nTrending with Garry, Islam Makhachev\nSports · Trending\nPrates\nTrending with The UFC\nCombat Sports · Trending\nDern\nTrending with Robertson, Edson Barboza\nShow more\nWho to follow\nRichard Dawkins\n@RichardDawkins\nFollow\nForbes\n@Forbes\nFollow\nNeil deGrasse Tyson\n@neiltyson\nFollow\nShow more\nTerms\n ·\nPrivacy\n ·\nCookies\n ·\nAccessibility\n ·\nUS TIDA\n ·\nAds Info\n ·\nMore\n© 2026 X Corp.",
+  "source": {
+    "platform": "x",
+    "query": "deepseek-harness",
+    "url": "https://x.com/search?q=deepseek-harness&src=typed_query"
+  },
+  "observations": [
+    {
+      "platform": "x",
+      "query": "deepseek-harness",
+      "source_url": "https://x.com/search?q=deepseek-harness&src=typed_query",
+      "collected_at": "2026-08-16T04:59:17Z",
+      "collector": "ego-browser/ego-lite",
+      "method": "public X search visible DOM/text",
+      "status": "error",
+      "result_count": null,
+      "notes": "The public page exposed “Something went wrong. Try reloading.” after a second permitted public query; no results or interaction metrics asserted and no access control was bypassed.",
+      "items": []
+    }
+  ]
+}

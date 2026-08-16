@@ -1,0 +1,1012 @@
+{
+  "capture_kind": "visible-dom",
+  "captured_at": "2026-08-16T05:05:19.682Z",
+  "collector": "ego-browser/ego-lite",
+  "method": "public Xiaohongshu search result DOM",
+  "status": "ok",
+  "page_url": "https://www.xiaohongshu.com/search_result/?keyword=deepseek%20harness&type=51",
+  "page_title": "deepseek harness - 小红书搜索",
+  "visible_text": "首页\n点点\nai\nRED\n直播\n发布\n通知\n99+\n消息\n我\n\n沪ICP备13030189号 | 营业执照 | 2026沪公网安备31010102002533号 | 增值电信业务经营许可证：沪B2-20150021 | 医疗器械网络交易服务第三方平台备案：(沪)网械平台备字[2019]第00006号 | 互联网药品信息服务资格证书：(沪)-经营性-2023-0144 | 违法不良信息举报电话：4006676810 | 上海市互联网举报中心 | 网上有害信息举报专区 | 自营经营者信息 | 网络文化经营许可证：沪网文[2021]1545-113号 | 个性化推荐算法 网信算备310101216601302230019号\n\n© 2014-2026\n\n行吟信息科技（上海）有限公司\n\n地址：上海市黄浦区马当路388号C座\n\n电话：9501-3888\n\n更多\n关于我们\n\n沪ICP备13030189号 | 营业执照 | 2026沪公网安备31010102002533号 | 增值电信业务经营许可证：沪B2-20150021 | 医疗器械网络交易服务第三方平台备案：(沪)网械平台备字[2019]第00006号 | 互联网药品信息服务资格证书：(沪)-经营性-2023-0144 | 违法不良信息举报电话：4006676810 | 上海市互联网举报中心 | 网上有害信息举报专区 | 自营经营者信息 | 网络文化经营许可证：沪网文[2021]1545-113号 | 个性化推荐算法 网信算备310101216601302230019号\n\n© 2014-2026\n\n行吟信息科技（上海）有限公司\n\n地址：上海市黄浦区马当路388号C座\n\n电话：9501-3888\n\n全部\n图文\n视频\n用户\n筛选\n综合\n更新\n桌面版\n上线\n拟人\n测评\n指令大全\n插件\n头像\n公测版\n实时翻译\n小白必看！三分钟吃透Deepseek Harness\nFredTalk\n2小时前\n43\nDeepSeek Harness 爆改自媒体工作台！\noil欧呦\n12小时前\n205\ndeepseek harness手机远程-黑鲸鱼和蓝鲸\nM阿嚏\n4小时前\n9\nDeepSeek Harness 必装的6个插件\n同旭AI\n11小时前\n58\nDeepSeek Harness 背后技术揭秘\n机智的哒哒学姐\n5小时前\n12\nDeepseek harness 速通教程！万物皆插件！\nPM刘搞定（AI版）\n1小时前\n23\n大家都在搜\nharness什么时候上线\nharness和codex区别\ndeepseekletme\ndeepseek gui\n我给 Obsidian 弄了 DeepSeek-Harness 插件\nEVOLVE\n46分钟前\n22\nFitzgerald Pond\n12小时前\n赞\nDeepseek-harness-desktop：一键安装的DSH\n枫叶学长的ai笔记\n3小时前\n7\nDeepseek Harness接入机器人的插件发布了\n三只蟹AI说\n8小时前\n7\n免费deepseek-harness详细中文教程\nFitzgerald Pond\n2小时前\n1\nDeepseek Harness！插件工作原理浅析！\nAI产品狙击手\n12小时前\n32\nDeepSeek Harness实测：能做任何Agent吗？\n斑马MVP实验室\n2小时前\n40\n秒懂deepseekharness牛在哪儿？不是开源\n笨鸟怎么飞\n11小时前\n160\n装好DeepSeek Harness，这一件事必做！ #har\nhappy life\n12小时前\n13\n大家都在搜\ndeepseekagent什么时候上线\n哪个harness最好用\ndeepseek harness开通步骤\ndeepseek flash\n收藏！DeepSeek Harness 必备插件！\n程序员少北晨\n1小时前\n9\n全网最简单deepseek harness安装教程\nCC的变现笔记\n11小时前\n54\nDeepSeek Harness 保姆级安装教程🔥\n是啊糖糖啊AI版\n48分钟前\n2\nDeepSeek Harness--万物皆插件「任务完成\n404\n10小时前\n4\n本地部署DeepSeekHarness和千问3.8-27B\nZZ 是画渣\n5小时前\n11\n活动",
+  "capture": {
+    "page_url": "https://www.xiaohongshu.com/search_result/?keyword=deepseek%20harness&type=51",
+    "page_title": "deepseek harness - 小红书搜索",
+    "visible_text": "首页\n点点\nai\nRED\n直播\n发布\n通知\n99+\n消息\n我\n\n沪ICP备13030189号 | 营业执照 | 2026沪公网安备31010102002533号 | 增值电信业务经营许可证：沪B2-20150021 | 医疗器械网络交易服务第三方平台备案：(沪)网械平台备字[2019]第00006号 | 互联网药品信息服务资格证书：(沪)-经营性-2023-0144 | 违法不良信息举报电话：4006676810 | 上海市互联网举报中心 | 网上有害信息举报专区 | 自营经营者信息 | 网络文化经营许可证：沪网文[2021]1545-113号 | 个性化推荐算法 网信算备310101216601302230019号\n\n© 2014-2026\n\n行吟信息科技（上海）有限公司\n\n地址：上海市黄浦区马当路388号C座\n\n电话：9501-3888\n\n更多\n关于我们\n\n沪ICP备13030189号 | 营业执照 | 2026沪公网安备31010102002533号 | 增值电信业务经营许可证：沪B2-20150021 | 医疗器械网络交易服务第三方平台备案：(沪)网械平台备字[2019]第00006号 | 互联网药品信息服务资格证书：(沪)-经营性-2023-0144 | 违法不良信息举报电话：4006676810 | 上海市互联网举报中心 | 网上有害信息举报专区 | 自营经营者信息 | 网络文化经营许可证：沪网文[2021]1545-113号 | 个性化推荐算法 网信算备310101216601302230019号\n\n© 2014-2026\n\n行吟信息科技（上海）有限公司\n\n地址：上海市黄浦区马当路388号C座\n\n电话：9501-3888\n\n全部\n图文\n视频\n用户\n筛选\n综合\n更新\n桌面版\n上线\n拟人\n测评\n指令大全\n插件\n头像\n公测版\n实时翻译\n小白必看！三分钟吃透Deepseek Harness\nFredTalk\n2小时前\n43\nDeepSeek Harness 爆改自媒体工作台！\noil欧呦\n12小时前\n205\ndeepseek harness手机远程-黑鲸鱼和蓝鲸\nM阿嚏\n4小时前\n9\nDeepSeek Harness 必装的6个插件\n同旭AI\n11小时前\n58\nDeepSeek Harness 背后技术揭秘\n机智的哒哒学姐\n5小时前\n12\nDeepseek harness 速通教程！万物皆插件！\nPM刘搞定（AI版）\n1小时前\n23\n大家都在搜\nharness什么时候上线\nharness和codex区别\ndeepseekletme\ndeepseek gui\n我给 Obsidian 弄了 DeepSeek-Harness 插件\nEVOLVE\n46分钟前\n22\nFitzgerald Pond\n12小时前\n赞\nDeepseek-harness-desktop：一键安装的DSH\n枫叶学长的ai笔记\n3小时前\n7\nDeepseek Harness接入机器人的插件发布了\n三只蟹AI说\n8小时前\n7\n免费deepseek-harness详细中文教程\nFitzgerald Pond\n2小时前\n1\nDeepseek Harness！插件工作原理浅析！\nAI产品狙击手\n12小时前\n32\nDeepSeek Harness实测：能做任何Agent吗？\n斑马MVP实验室\n2小时前\n40\n秒懂deepseekharness牛在哪儿？不是开源\n笨鸟怎么飞\n11小时前\n160\n装好DeepSeek Harness，这一件事必做！ #har\nhappy life\n12小时前\n13\n大家都在搜\ndeepseekagent什么时候上线\n哪个harness最好用\ndeepseek harness开通步骤\ndeepseek flash\n收藏！DeepSeek Harness 必备插件！\n程序员少北晨\n1小时前\n9\n全网最简单deepseek harness安装教程\nCC的变现笔记\n11小时前\n54\nDeepSeek Harness 保姆级安装教程🔥\n是啊糖糖啊AI版\n48分钟前\n2\nDeepSeek Harness--万物皆插件「任务完成\n404\n10小时前\n4\n本地部署DeepSeekHarness和千问3.8-27B\nZZ 是画渣\n5小时前\n11\n活动",
+    "cards": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a8090650000000022030125",
+        "text": "小白必看！三分钟吃透Deepseek Harness\nFredTalk\n2小时前\n43",
+        "images": [
+          "https://sns-webpic-qc.xhscdn.com/202608161305/e949941cb5816d75fc239ad0be800d55/spectrum/1040g0k0323tp021k70004a4rhl910a8maqfrhuo!nc_n_webp_mw_1",
+          "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo323sg9opkgm004a4rhl910a8mqab21to?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+        ]
+      },
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a809282000000003302d961",
+        "text": "DeepSeek Harness 爆改自媒体工作台！\noil欧呦\n12小时前\n205",
+        "images": [
+          "https://sns-webpic-qc.xhscdn.com/202608161305/83e7f22794368b571f13296d6a14b398/spectrum/1040g0k0323t82hp8n2005nqdvr5g8lotcsk7b10!nc_n_webp_mw_1",
+          "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo313itvfcvg6405nqdvr5g8lot7l3qem0?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+        ]
+      },
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a80f696000000003202322e",
+        "text": "deepseek harness手机远程-黑鲸鱼和蓝鲸\nM阿嚏\n4小时前\n9",
+        "images": [
+          "https://sns-webpic-qc.xhscdn.com/202608161305/9f59f4d3c60daaf6306d8842c3971cff/1040g008323tk6q98n0004a76n3o7fgnb6cifs6g!nc_n_webp_mw_1",
+          "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo323p5713bn4004a76n3o7fgnb1gne7ig?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+        ]
+      },
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a809f790000000021022ebc",
+        "text": "DeepSeek Harness 必装的6个插件\n同旭AI\n11小时前\n58",
+        "images": [
+          "https://sns-webpic-qc.xhscdn.com/202608161305/f9ac61bd25e355f87408c7b953796c42/spectrum/1040g34o323t9llq5n2105p4880hk3usdpathsh0!nc_n_webp_mw_1",
+          "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31b2ud04e7e5g5p4880hk3usdtpih440?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+        ]
+      },
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a80b85a0000000029030686",
+        "text": "DeepSeek Harness 背后技术揭秘\n机智的哒哒学姐\n5小时前\n12",
+        "images": [
+          "https://sns-webpic-qc.xhscdn.com/202608161305/9d55b8b1b4e75ce458ce4ed2e6aaedee/spectrum/1040g34o323tclffs70105nvi4gl087mplbmbmjg!nc_n_webp_mw_1",
+          "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31t17t4dk5s005nvi4gl087mpr7olfc0?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+        ]
+      },
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a812931000000002500fa87",
+        "text": "Deepseek harness 速通教程！万物皆插件！\nPM刘搞定（AI版）\n1小时前\n23",
+        "images": [
+          "https://sns-webpic-qc.xhscdn.com/202608161305/92e0a6bebac7649ae88407b1546d4f5a/spectrum/1040g34o323tqdof6741g4a6pllaeh92tmjca6d0!nc_n_webp_mw_1",
+          "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31torrn3rg80g4a6pllaeh92t1u4u2ng?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+        ]
+      },
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a80b7c10000000006006164",
+        "text": "我给 Obsidian 弄了 DeepSeek-Harness 插件\nEVOLVE\n46分钟前\n22",
+        "images": [
+          "https://sns-webpic-qc.xhscdn.com/202608161305/a64b8c94dfd4b1208aaadc6212c2fa30/spectrum/1040g0k0323tb8b6i0m005odcp2gk0pq69jnp0eg!nc_n_webp_mw_1",
+          "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo323t8jo5e72005odcp2gk0pq6vve0at0?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+        ]
+      },
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a808fc0000000003301d970",
+        "text": "Fitzgerald Pond\n12小时前\n赞",
+        "images": [
+          "https://sns-webpic-qc.xhscdn.com/202608161305/fc7aabd17f6dec3dc7a0bbcf22dbe6df/1040g008323t7mnec7k605ohg49mk1k8pjadapt8!nc_n_webp_mw_1",
+          "https://sns-avatar-qc.xhscdn.com/avatar/53ba1722242c3e9344db7b0fc2e1005f.jpg?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+        ]
+      },
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a80950a0000000006005bb1",
+        "text": "Deepseek-harness-desktop：一键安装的DSH\n枫叶学长的ai笔记\n3小时前\n7",
+        "images": [
+          "https://sns-webpic-qc.xhscdn.com/202608161305/05aec153fbcf77344355ca0033cfb943/spectrum/1040g0k0323t7tqfc0m005qattmtttlb4tfclhc0!nc_n_webp_mw_1",
+          "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31vk35r102g005qattmtttlb4f1bqbdo?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+        ]
+      },
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a80be8a000000000502044d",
+        "text": "Deepseek Harness接入机器人的插件发布了\n三只蟹AI说\n8小时前\n7",
+        "images": [
+          "https://sns-webpic-qc.xhscdn.com/202608161305/64d5f6c633dbeeaaafe1c6dc35c6b4c5/notes_pre_post/1040g3k0323tdbi76go6g5p5t50dl7bvn4u6c1to!nc_n_webp_mw_1",
+          "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31usv7q342q6g5p5t50dl7bvnem7mtu8?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+        ]
+      },
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a81255f000000002800682c",
+        "text": "免费deepseek-harness详细中文教程\nFitzgerald Pond\n2小时前\n1",
+        "images": [
+          "https://sns-webpic-qc.xhscdn.com/202608161305/ac8894617c8a1ed1c15dc41e31defbbe/notes_pre_post/1040g3k0323tol36an2605p1pq0b45csufvuhob8!nc_n_webp_mw_1",
+          "https://sns-avatar-qc.xhscdn.com/avatar/53ba1722242c3e9344db7b0fc2e1005f.jpg?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+        ]
+      },
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a8098de00000000250061b7",
+        "text": "Deepseek Harness！插件工作原理浅析！\nAI产品狙击手\n12小时前\n32",
+        "images": [
+          "https://sns-webpic-qc.xhscdn.com/202608161305/c31e38176704f8f6ab1d69411f6880e7/spectrum/1040g0k0323t8qg0vmu0049hrgdfpuqeavdqfqto!nc_n_webp_mw_1",
+          "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31mp9euhhli1049hrgdfpuqeal7cgt5o?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+        ]
+      },
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a81182a000000002c007ae0",
+        "text": "DeepSeek Harness实测：能做任何Agent吗？\n斑马MVP实验室\n2小时前\n40",
+        "images": [
+          "https://sns-webpic-qc.xhscdn.com/202608161305/12c993d1801449d4bac66f07cca7e35d/1040g2sg323tob6is72kg5pk23fbhojpq6rc141g!nc_n_webp_mw_1",
+          "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31hqp5upp4q6g5pk23fbhojpqd6nps5o?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+        ]
+      },
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a80a5b80000000022017d2b",
+        "text": "秒懂deepseekharness牛在哪儿？不是开源\n笨鸟怎么飞\n11小时前\n160",
+        "images": [
+          "https://sns-webpic-qc.xhscdn.com/202608161305/27eb5e77f6a9efa5aafb1938c11a9514/spectrum/1040g34o323taf3s66u005pj70v30ud3rj8t6qn8!nc_n_webp_mw_1",
+          "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31tt9mqj47e0g5pj70v30ud3rkc782p8?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+        ]
+      },
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a808e57000000002202d6bd",
+        "text": "装好DeepSeek Harness，这一件事必做！ #har\nhappy life\n12小时前\n13",
+        "images": [
+          "https://sns-webpic-qc.xhscdn.com/202608161305/43f36ae1dc2aba706699c65bae862c76/1040g008323t7jafd7u0040bt294fctdk4mfbvlg!nc_n_webp_mw_1",
+          "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo321cv65i9na0040bt294fctdkkk1ok70?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+        ]
+      },
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a809e0d000000002403eb4b",
+        "text": "收藏！DeepSeek Harness 必备插件！\n程序员少北晨\n1小时前\n9",
+        "images": [
+          "https://sns-webpic-qc.xhscdn.com/202608161305/179119cb06aae5448280a5721f087c98/spectrum/1040g0k0323t9fadvgm00498dooonvc67712vqv8!nc_n_webp_mw_1",
+          "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31mtefloimm00498dooonvc67k3hq938?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+        ]
+      },
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a80a91a000000003301c01f",
+        "text": "全网最简单deepseek harness安装教程\nCC的变现笔记\n11小时前\n54",
+        "images": [
+          "https://sns-webpic-qc.xhscdn.com/202608161305/8682c930d1cb93478a39c1396266313b/1040g2sg323tarr670oe05q5j5ct6klvqhbmn0eo!nc_n_webp_mw_1",
+          "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo322s66j9onk005q5j5ct6klvqpkjmun8?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+        ]
+      },
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a8138e80000000005028657",
+        "text": "DeepSeek Harness 保姆级安装教程🔥\n是啊糖糖啊AI版\n48分钟前\n2",
+        "images": [
+          "https://sns-webpic-qc.xhscdn.com/202608161305/c86a7a428e054a1cc01c4a35927fd4ee/spectrum/1040g34o323ts32thn2105n2qukg61dbp591oqr8!nc_n_webp_mw_1",
+          "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31ib9vegi080g5n2qukg61dbp3hsgh4g?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+        ]
+      },
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a80ad8a0000000025015a78",
+        "text": "DeepSeek Harness--万物皆插件「任务完成\n404\n10小时前\n4",
+        "images": [
+          "https://sns-webpic-qc.xhscdn.com/202608161305/c6d75a66ce3ad4a01e9b656d794c6656/spectrum/1040g34o323tb9ihf6u5g5n4unh44ap6e3koi0m0!nc_n_webp_mw_1",
+          "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31vggai25k85g5n4unh44ap6epcr3eu8?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+        ]
+      },
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a80f759000000003300baea",
+        "text": "本地部署DeepSeekHarness和千问3.8-27B\nZZ 是画渣\n5小时前\n11",
+        "images": [
+          "https://sns-webpic-qc.xhscdn.com/202608161305/5214cca0a7c794546d773b4a877577ff/spectrum/1040g34o323tjso170m005ot3ni1pgkvv047m4h0!nc_n_webp_mw_1",
+          "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31q8qcc4c7o6g5ot3ni1pgkvvu6n604g?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+        ]
+      }
+    ]
+  },
+  "observations": [
+    {
+      "platform": "xiaohongshu",
+      "query": "deepseek harness",
+      "source_url": "https://www.xiaohongshu.com/search_result/?keyword=deepseek%20harness&type=51",
+      "collected_at": "2026-08-16T05:05:19.682Z",
+      "collector": "ego-browser/ego-lite",
+      "method": "public Xiaohongshu search result DOM",
+      "status": "ok",
+      "result_count": 20,
+      "notes": "Public Xiaohongshu search cards; media remains external with a rights note.",
+      "items": [
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a8090650000000022030125",
+          "url": "https://www.xiaohongshu.com/explore/6a8090650000000022030125",
+          "item_type": "note",
+          "title": "小白必看！三分钟吃透Deepseek Harness",
+          "author": "FredTalk",
+          "published_label": "2小时前",
+          "content_text": "小白必看！三分钟吃透Deepseek Harness\nFredTalk\n2小时前\n43",
+          "media_kind": "image",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608161305/e949941cb5816d75fc239ad0be800d55/spectrum/1040g0k0323tp021k70004a4rhl910a8maqfrhuo!nc_n_webp_mw_1",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            },
+            {
+              "kind": "image",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo323sg9opkgm004a4rhl910a8mqab21to?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            }
+          ],
+          "metrics": {
+            "likes": 43,
+            "metric_source": "Xiaohongshu visible search card",
+            "observed_at": "2026-08-16T05:05:19.682Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "DeepSeek Harness",
+            "search"
+          ],
+          "raw_capture": {
+            "url": "https://www.xiaohongshu.com/explore/6a8090650000000022030125",
+            "text": "小白必看！三分钟吃透Deepseek Harness\nFredTalk\n2小时前\n43",
+            "images": [
+              "https://sns-webpic-qc.xhscdn.com/202608161305/e949941cb5816d75fc239ad0be800d55/spectrum/1040g0k0323tp021k70004a4rhl910a8maqfrhuo!nc_n_webp_mw_1",
+              "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo323sg9opkgm004a4rhl910a8mqab21to?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            ]
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a809282000000003302d961",
+          "url": "https://www.xiaohongshu.com/explore/6a809282000000003302d961",
+          "item_type": "note",
+          "title": "DeepSeek Harness 爆改自媒体工作台！",
+          "author": "oil欧呦",
+          "published_label": "12小时前",
+          "content_text": "DeepSeek Harness 爆改自媒体工作台！\noil欧呦\n12小时前\n205",
+          "media_kind": "image",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608161305/83e7f22794368b571f13296d6a14b398/spectrum/1040g0k0323t82hp8n2005nqdvr5g8lotcsk7b10!nc_n_webp_mw_1",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            },
+            {
+              "kind": "image",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo313itvfcvg6405nqdvr5g8lot7l3qem0?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            }
+          ],
+          "metrics": {
+            "likes": 205,
+            "metric_source": "Xiaohongshu visible search card",
+            "observed_at": "2026-08-16T05:05:19.682Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "DeepSeek Harness",
+            "search"
+          ],
+          "raw_capture": {
+            "url": "https://www.xiaohongshu.com/explore/6a809282000000003302d961",
+            "text": "DeepSeek Harness 爆改自媒体工作台！\noil欧呦\n12小时前\n205",
+            "images": [
+              "https://sns-webpic-qc.xhscdn.com/202608161305/83e7f22794368b571f13296d6a14b398/spectrum/1040g0k0323t82hp8n2005nqdvr5g8lotcsk7b10!nc_n_webp_mw_1",
+              "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo313itvfcvg6405nqdvr5g8lot7l3qem0?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            ]
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a80f696000000003202322e",
+          "url": "https://www.xiaohongshu.com/explore/6a80f696000000003202322e",
+          "item_type": "note",
+          "title": "deepseek harness手机远程-黑鲸鱼和蓝鲸",
+          "author": "M阿嚏",
+          "published_label": "4小时前",
+          "content_text": "deepseek harness手机远程-黑鲸鱼和蓝鲸\nM阿嚏\n4小时前\n9",
+          "media_kind": "image",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608161305/9f59f4d3c60daaf6306d8842c3971cff/1040g008323tk6q98n0004a76n3o7fgnb6cifs6g!nc_n_webp_mw_1",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            },
+            {
+              "kind": "image",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo323p5713bn4004a76n3o7fgnb1gne7ig?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            }
+          ],
+          "metrics": {
+            "likes": 9,
+            "metric_source": "Xiaohongshu visible search card",
+            "observed_at": "2026-08-16T05:05:19.682Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "DeepSeek Harness",
+            "search"
+          ],
+          "raw_capture": {
+            "url": "https://www.xiaohongshu.com/explore/6a80f696000000003202322e",
+            "text": "deepseek harness手机远程-黑鲸鱼和蓝鲸\nM阿嚏\n4小时前\n9",
+            "images": [
+              "https://sns-webpic-qc.xhscdn.com/202608161305/9f59f4d3c60daaf6306d8842c3971cff/1040g008323tk6q98n0004a76n3o7fgnb6cifs6g!nc_n_webp_mw_1",
+              "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo323p5713bn4004a76n3o7fgnb1gne7ig?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            ]
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a809f790000000021022ebc",
+          "url": "https://www.xiaohongshu.com/explore/6a809f790000000021022ebc",
+          "item_type": "note",
+          "title": "DeepSeek Harness 必装的6个插件",
+          "author": "同旭AI",
+          "published_label": "11小时前",
+          "content_text": "DeepSeek Harness 必装的6个插件\n同旭AI\n11小时前\n58",
+          "media_kind": "image",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608161305/f9ac61bd25e355f87408c7b953796c42/spectrum/1040g34o323t9llq5n2105p4880hk3usdpathsh0!nc_n_webp_mw_1",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            },
+            {
+              "kind": "image",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31b2ud04e7e5g5p4880hk3usdtpih440?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            }
+          ],
+          "metrics": {
+            "likes": 58,
+            "metric_source": "Xiaohongshu visible search card",
+            "observed_at": "2026-08-16T05:05:19.682Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "DeepSeek Harness",
+            "search"
+          ],
+          "raw_capture": {
+            "url": "https://www.xiaohongshu.com/explore/6a809f790000000021022ebc",
+            "text": "DeepSeek Harness 必装的6个插件\n同旭AI\n11小时前\n58",
+            "images": [
+              "https://sns-webpic-qc.xhscdn.com/202608161305/f9ac61bd25e355f87408c7b953796c42/spectrum/1040g34o323t9llq5n2105p4880hk3usdpathsh0!nc_n_webp_mw_1",
+              "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31b2ud04e7e5g5p4880hk3usdtpih440?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            ]
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a80b85a0000000029030686",
+          "url": "https://www.xiaohongshu.com/explore/6a80b85a0000000029030686",
+          "item_type": "note",
+          "title": "DeepSeek Harness 背后技术揭秘",
+          "author": "机智的哒哒学姐",
+          "published_label": "5小时前",
+          "content_text": "DeepSeek Harness 背后技术揭秘\n机智的哒哒学姐\n5小时前\n12",
+          "media_kind": "image",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608161305/9d55b8b1b4e75ce458ce4ed2e6aaedee/spectrum/1040g34o323tclffs70105nvi4gl087mplbmbmjg!nc_n_webp_mw_1",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            },
+            {
+              "kind": "image",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31t17t4dk5s005nvi4gl087mpr7olfc0?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            }
+          ],
+          "metrics": {
+            "likes": 12,
+            "metric_source": "Xiaohongshu visible search card",
+            "observed_at": "2026-08-16T05:05:19.682Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "DeepSeek Harness",
+            "search"
+          ],
+          "raw_capture": {
+            "url": "https://www.xiaohongshu.com/explore/6a80b85a0000000029030686",
+            "text": "DeepSeek Harness 背后技术揭秘\n机智的哒哒学姐\n5小时前\n12",
+            "images": [
+              "https://sns-webpic-qc.xhscdn.com/202608161305/9d55b8b1b4e75ce458ce4ed2e6aaedee/spectrum/1040g34o323tclffs70105nvi4gl087mplbmbmjg!nc_n_webp_mw_1",
+              "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31t17t4dk5s005nvi4gl087mpr7olfc0?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            ]
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a812931000000002500fa87",
+          "url": "https://www.xiaohongshu.com/explore/6a812931000000002500fa87",
+          "item_type": "note",
+          "title": "Deepseek harness 速通教程！万物皆插件！",
+          "author": "PM刘搞定（AI版）",
+          "published_label": "1小时前",
+          "content_text": "Deepseek harness 速通教程！万物皆插件！\nPM刘搞定（AI版）\n1小时前\n23",
+          "media_kind": "image",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608161305/92e0a6bebac7649ae88407b1546d4f5a/spectrum/1040g34o323tqdof6741g4a6pllaeh92tmjca6d0!nc_n_webp_mw_1",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            },
+            {
+              "kind": "image",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31torrn3rg80g4a6pllaeh92t1u4u2ng?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            }
+          ],
+          "metrics": {
+            "likes": 23,
+            "metric_source": "Xiaohongshu visible search card",
+            "observed_at": "2026-08-16T05:05:19.682Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "DeepSeek Harness",
+            "search"
+          ],
+          "raw_capture": {
+            "url": "https://www.xiaohongshu.com/explore/6a812931000000002500fa87",
+            "text": "Deepseek harness 速通教程！万物皆插件！\nPM刘搞定（AI版）\n1小时前\n23",
+            "images": [
+              "https://sns-webpic-qc.xhscdn.com/202608161305/92e0a6bebac7649ae88407b1546d4f5a/spectrum/1040g34o323tqdof6741g4a6pllaeh92tmjca6d0!nc_n_webp_mw_1",
+              "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31torrn3rg80g4a6pllaeh92t1u4u2ng?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            ]
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a80b7c10000000006006164",
+          "url": "https://www.xiaohongshu.com/explore/6a80b7c10000000006006164",
+          "item_type": "note",
+          "title": "我给 Obsidian 弄了 DeepSeek-Harness 插件",
+          "author": "EVOLVE",
+          "published_label": "46分钟前",
+          "content_text": "我给 Obsidian 弄了 DeepSeek-Harness 插件\nEVOLVE\n46分钟前\n22",
+          "media_kind": "image",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608161305/a64b8c94dfd4b1208aaadc6212c2fa30/spectrum/1040g0k0323tb8b6i0m005odcp2gk0pq69jnp0eg!nc_n_webp_mw_1",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            },
+            {
+              "kind": "image",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo323t8jo5e72005odcp2gk0pq6vve0at0?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            }
+          ],
+          "metrics": {
+            "likes": 22,
+            "metric_source": "Xiaohongshu visible search card",
+            "observed_at": "2026-08-16T05:05:19.682Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "DeepSeek Harness",
+            "search"
+          ],
+          "raw_capture": {
+            "url": "https://www.xiaohongshu.com/explore/6a80b7c10000000006006164",
+            "text": "我给 Obsidian 弄了 DeepSeek-Harness 插件\nEVOLVE\n46分钟前\n22",
+            "images": [
+              "https://sns-webpic-qc.xhscdn.com/202608161305/a64b8c94dfd4b1208aaadc6212c2fa30/spectrum/1040g0k0323tb8b6i0m005odcp2gk0pq69jnp0eg!nc_n_webp_mw_1",
+              "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo323t8jo5e72005odcp2gk0pq6vve0at0?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            ]
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a808fc0000000003301d970",
+          "url": "https://www.xiaohongshu.com/explore/6a808fc0000000003301d970",
+          "item_type": "note",
+          "title": "Fitzgerald Pond",
+          "author": "12小时前",
+          "published_label": "赞",
+          "content_text": "Fitzgerald Pond\n12小时前\n赞",
+          "media_kind": "image",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608161305/fc7aabd17f6dec3dc7a0bbcf22dbe6df/1040g008323t7mnec7k605ohg49mk1k8pjadapt8!nc_n_webp_mw_1",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            },
+            {
+              "kind": "image",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/53ba1722242c3e9344db7b0fc2e1005f.jpg?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            }
+          ],
+          "metrics": {
+            "likes": null,
+            "metric_source": "Xiaohongshu visible search card",
+            "observed_at": "2026-08-16T05:05:19.682Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "DeepSeek Harness",
+            "search"
+          ],
+          "raw_capture": {
+            "url": "https://www.xiaohongshu.com/explore/6a808fc0000000003301d970",
+            "text": "Fitzgerald Pond\n12小时前\n赞",
+            "images": [
+              "https://sns-webpic-qc.xhscdn.com/202608161305/fc7aabd17f6dec3dc7a0bbcf22dbe6df/1040g008323t7mnec7k605ohg49mk1k8pjadapt8!nc_n_webp_mw_1",
+              "https://sns-avatar-qc.xhscdn.com/avatar/53ba1722242c3e9344db7b0fc2e1005f.jpg?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            ]
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a80950a0000000006005bb1",
+          "url": "https://www.xiaohongshu.com/explore/6a80950a0000000006005bb1",
+          "item_type": "note",
+          "title": "Deepseek-harness-desktop：一键安装的DSH",
+          "author": "枫叶学长的ai笔记",
+          "published_label": "3小时前",
+          "content_text": "Deepseek-harness-desktop：一键安装的DSH\n枫叶学长的ai笔记\n3小时前\n7",
+          "media_kind": "image",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608161305/05aec153fbcf77344355ca0033cfb943/spectrum/1040g0k0323t7tqfc0m005qattmtttlb4tfclhc0!nc_n_webp_mw_1",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            },
+            {
+              "kind": "image",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31vk35r102g005qattmtttlb4f1bqbdo?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            }
+          ],
+          "metrics": {
+            "likes": 7,
+            "metric_source": "Xiaohongshu visible search card",
+            "observed_at": "2026-08-16T05:05:19.682Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "DeepSeek Harness",
+            "search"
+          ],
+          "raw_capture": {
+            "url": "https://www.xiaohongshu.com/explore/6a80950a0000000006005bb1",
+            "text": "Deepseek-harness-desktop：一键安装的DSH\n枫叶学长的ai笔记\n3小时前\n7",
+            "images": [
+              "https://sns-webpic-qc.xhscdn.com/202608161305/05aec153fbcf77344355ca0033cfb943/spectrum/1040g0k0323t7tqfc0m005qattmtttlb4tfclhc0!nc_n_webp_mw_1",
+              "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31vk35r102g005qattmtttlb4f1bqbdo?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            ]
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a80be8a000000000502044d",
+          "url": "https://www.xiaohongshu.com/explore/6a80be8a000000000502044d",
+          "item_type": "note",
+          "title": "Deepseek Harness接入机器人的插件发布了",
+          "author": "三只蟹AI说",
+          "published_label": "8小时前",
+          "content_text": "Deepseek Harness接入机器人的插件发布了\n三只蟹AI说\n8小时前\n7",
+          "media_kind": "image",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608161305/64d5f6c633dbeeaaafe1c6dc35c6b4c5/notes_pre_post/1040g3k0323tdbi76go6g5p5t50dl7bvn4u6c1to!nc_n_webp_mw_1",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            },
+            {
+              "kind": "image",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31usv7q342q6g5p5t50dl7bvnem7mtu8?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            }
+          ],
+          "metrics": {
+            "likes": 7,
+            "metric_source": "Xiaohongshu visible search card",
+            "observed_at": "2026-08-16T05:05:19.682Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "DeepSeek Harness",
+            "search"
+          ],
+          "raw_capture": {
+            "url": "https://www.xiaohongshu.com/explore/6a80be8a000000000502044d",
+            "text": "Deepseek Harness接入机器人的插件发布了\n三只蟹AI说\n8小时前\n7",
+            "images": [
+              "https://sns-webpic-qc.xhscdn.com/202608161305/64d5f6c633dbeeaaafe1c6dc35c6b4c5/notes_pre_post/1040g3k0323tdbi76go6g5p5t50dl7bvn4u6c1to!nc_n_webp_mw_1",
+              "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31usv7q342q6g5p5t50dl7bvnem7mtu8?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            ]
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a81255f000000002800682c",
+          "url": "https://www.xiaohongshu.com/explore/6a81255f000000002800682c",
+          "item_type": "note",
+          "title": "免费deepseek-harness详细中文教程",
+          "author": "Fitzgerald Pond",
+          "published_label": "2小时前",
+          "content_text": "免费deepseek-harness详细中文教程\nFitzgerald Pond\n2小时前\n1",
+          "media_kind": "image",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608161305/ac8894617c8a1ed1c15dc41e31defbbe/notes_pre_post/1040g3k0323tol36an2605p1pq0b45csufvuhob8!nc_n_webp_mw_1",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            },
+            {
+              "kind": "image",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/53ba1722242c3e9344db7b0fc2e1005f.jpg?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            }
+          ],
+          "metrics": {
+            "likes": 1,
+            "metric_source": "Xiaohongshu visible search card",
+            "observed_at": "2026-08-16T05:05:19.682Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "DeepSeek Harness",
+            "search"
+          ],
+          "raw_capture": {
+            "url": "https://www.xiaohongshu.com/explore/6a81255f000000002800682c",
+            "text": "免费deepseek-harness详细中文教程\nFitzgerald Pond\n2小时前\n1",
+            "images": [
+              "https://sns-webpic-qc.xhscdn.com/202608161305/ac8894617c8a1ed1c15dc41e31defbbe/notes_pre_post/1040g3k0323tol36an2605p1pq0b45csufvuhob8!nc_n_webp_mw_1",
+              "https://sns-avatar-qc.xhscdn.com/avatar/53ba1722242c3e9344db7b0fc2e1005f.jpg?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            ]
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a8098de00000000250061b7",
+          "url": "https://www.xiaohongshu.com/explore/6a8098de00000000250061b7",
+          "item_type": "note",
+          "title": "Deepseek Harness！插件工作原理浅析！",
+          "author": "AI产品狙击手",
+          "published_label": "12小时前",
+          "content_text": "Deepseek Harness！插件工作原理浅析！\nAI产品狙击手\n12小时前\n32",
+          "media_kind": "image",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608161305/c31e38176704f8f6ab1d69411f6880e7/spectrum/1040g0k0323t8qg0vmu0049hrgdfpuqeavdqfqto!nc_n_webp_mw_1",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            },
+            {
+              "kind": "image",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31mp9euhhli1049hrgdfpuqeal7cgt5o?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            }
+          ],
+          "metrics": {
+            "likes": 32,
+            "metric_source": "Xiaohongshu visible search card",
+            "observed_at": "2026-08-16T05:05:19.682Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "DeepSeek Harness",
+            "search"
+          ],
+          "raw_capture": {
+            "url": "https://www.xiaohongshu.com/explore/6a8098de00000000250061b7",
+            "text": "Deepseek Harness！插件工作原理浅析！\nAI产品狙击手\n12小时前\n32",
+            "images": [
+              "https://sns-webpic-qc.xhscdn.com/202608161305/c31e38176704f8f6ab1d69411f6880e7/spectrum/1040g0k0323t8qg0vmu0049hrgdfpuqeavdqfqto!nc_n_webp_mw_1",
+              "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31mp9euhhli1049hrgdfpuqeal7cgt5o?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            ]
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a81182a000000002c007ae0",
+          "url": "https://www.xiaohongshu.com/explore/6a81182a000000002c007ae0",
+          "item_type": "note",
+          "title": "DeepSeek Harness实测：能做任何Agent吗？",
+          "author": "斑马MVP实验室",
+          "published_label": "2小时前",
+          "content_text": "DeepSeek Harness实测：能做任何Agent吗？\n斑马MVP实验室\n2小时前\n40",
+          "media_kind": "image",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608161305/12c993d1801449d4bac66f07cca7e35d/1040g2sg323tob6is72kg5pk23fbhojpq6rc141g!nc_n_webp_mw_1",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            },
+            {
+              "kind": "image",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31hqp5upp4q6g5pk23fbhojpqd6nps5o?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            }
+          ],
+          "metrics": {
+            "likes": 40,
+            "metric_source": "Xiaohongshu visible search card",
+            "observed_at": "2026-08-16T05:05:19.682Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "DeepSeek Harness",
+            "search"
+          ],
+          "raw_capture": {
+            "url": "https://www.xiaohongshu.com/explore/6a81182a000000002c007ae0",
+            "text": "DeepSeek Harness实测：能做任何Agent吗？\n斑马MVP实验室\n2小时前\n40",
+            "images": [
+              "https://sns-webpic-qc.xhscdn.com/202608161305/12c993d1801449d4bac66f07cca7e35d/1040g2sg323tob6is72kg5pk23fbhojpq6rc141g!nc_n_webp_mw_1",
+              "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31hqp5upp4q6g5pk23fbhojpqd6nps5o?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            ]
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a80a5b80000000022017d2b",
+          "url": "https://www.xiaohongshu.com/explore/6a80a5b80000000022017d2b",
+          "item_type": "note",
+          "title": "秒懂deepseekharness牛在哪儿？不是开源",
+          "author": "笨鸟怎么飞",
+          "published_label": "11小时前",
+          "content_text": "秒懂deepseekharness牛在哪儿？不是开源\n笨鸟怎么飞\n11小时前\n160",
+          "media_kind": "image",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608161305/27eb5e77f6a9efa5aafb1938c11a9514/spectrum/1040g34o323taf3s66u005pj70v30ud3rj8t6qn8!nc_n_webp_mw_1",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            },
+            {
+              "kind": "image",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31tt9mqj47e0g5pj70v30ud3rkc782p8?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            }
+          ],
+          "metrics": {
+            "likes": 160,
+            "metric_source": "Xiaohongshu visible search card",
+            "observed_at": "2026-08-16T05:05:19.682Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "DeepSeek Harness",
+            "search"
+          ],
+          "raw_capture": {
+            "url": "https://www.xiaohongshu.com/explore/6a80a5b80000000022017d2b",
+            "text": "秒懂deepseekharness牛在哪儿？不是开源\n笨鸟怎么飞\n11小时前\n160",
+            "images": [
+              "https://sns-webpic-qc.xhscdn.com/202608161305/27eb5e77f6a9efa5aafb1938c11a9514/spectrum/1040g34o323taf3s66u005pj70v30ud3rj8t6qn8!nc_n_webp_mw_1",
+              "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31tt9mqj47e0g5pj70v30ud3rkc782p8?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            ]
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a808e57000000002202d6bd",
+          "url": "https://www.xiaohongshu.com/explore/6a808e57000000002202d6bd",
+          "item_type": "note",
+          "title": "装好DeepSeek Harness，这一件事必做！ #har",
+          "author": "happy life",
+          "published_label": "12小时前",
+          "content_text": "装好DeepSeek Harness，这一件事必做！ #har\nhappy life\n12小时前\n13",
+          "media_kind": "image",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608161305/43f36ae1dc2aba706699c65bae862c76/1040g008323t7jafd7u0040bt294fctdk4mfbvlg!nc_n_webp_mw_1",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            },
+            {
+              "kind": "image",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo321cv65i9na0040bt294fctdkkk1ok70?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            }
+          ],
+          "metrics": {
+            "likes": 13,
+            "metric_source": "Xiaohongshu visible search card",
+            "observed_at": "2026-08-16T05:05:19.682Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "DeepSeek Harness",
+            "search"
+          ],
+          "raw_capture": {
+            "url": "https://www.xiaohongshu.com/explore/6a808e57000000002202d6bd",
+            "text": "装好DeepSeek Harness，这一件事必做！ #har\nhappy life\n12小时前\n13",
+            "images": [
+              "https://sns-webpic-qc.xhscdn.com/202608161305/43f36ae1dc2aba706699c65bae862c76/1040g008323t7jafd7u0040bt294fctdk4mfbvlg!nc_n_webp_mw_1",
+              "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo321cv65i9na0040bt294fctdkkk1ok70?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            ]
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a809e0d000000002403eb4b",
+          "url": "https://www.xiaohongshu.com/explore/6a809e0d000000002403eb4b",
+          "item_type": "note",
+          "title": "收藏！DeepSeek Harness 必备插件！",
+          "author": "程序员少北晨",
+          "published_label": "1小时前",
+          "content_text": "收藏！DeepSeek Harness 必备插件！\n程序员少北晨\n1小时前\n9",
+          "media_kind": "image",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608161305/179119cb06aae5448280a5721f087c98/spectrum/1040g0k0323t9fadvgm00498dooonvc67712vqv8!nc_n_webp_mw_1",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            },
+            {
+              "kind": "image",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31mtefloimm00498dooonvc67k3hq938?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            }
+          ],
+          "metrics": {
+            "likes": 9,
+            "metric_source": "Xiaohongshu visible search card",
+            "observed_at": "2026-08-16T05:05:19.682Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "DeepSeek Harness",
+            "search"
+          ],
+          "raw_capture": {
+            "url": "https://www.xiaohongshu.com/explore/6a809e0d000000002403eb4b",
+            "text": "收藏！DeepSeek Harness 必备插件！\n程序员少北晨\n1小时前\n9",
+            "images": [
+              "https://sns-webpic-qc.xhscdn.com/202608161305/179119cb06aae5448280a5721f087c98/spectrum/1040g0k0323t9fadvgm00498dooonvc67712vqv8!nc_n_webp_mw_1",
+              "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31mtefloimm00498dooonvc67k3hq938?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            ]
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a80a91a000000003301c01f",
+          "url": "https://www.xiaohongshu.com/explore/6a80a91a000000003301c01f",
+          "item_type": "note",
+          "title": "全网最简单deepseek harness安装教程",
+          "author": "CC的变现笔记",
+          "published_label": "11小时前",
+          "content_text": "全网最简单deepseek harness安装教程\nCC的变现笔记\n11小时前\n54",
+          "media_kind": "image",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608161305/8682c930d1cb93478a39c1396266313b/1040g2sg323tarr670oe05q5j5ct6klvqhbmn0eo!nc_n_webp_mw_1",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            },
+            {
+              "kind": "image",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo322s66j9onk005q5j5ct6klvqpkjmun8?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            }
+          ],
+          "metrics": {
+            "likes": 54,
+            "metric_source": "Xiaohongshu visible search card",
+            "observed_at": "2026-08-16T05:05:19.682Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "DeepSeek Harness",
+            "search"
+          ],
+          "raw_capture": {
+            "url": "https://www.xiaohongshu.com/explore/6a80a91a000000003301c01f",
+            "text": "全网最简单deepseek harness安装教程\nCC的变现笔记\n11小时前\n54",
+            "images": [
+              "https://sns-webpic-qc.xhscdn.com/202608161305/8682c930d1cb93478a39c1396266313b/1040g2sg323tarr670oe05q5j5ct6klvqhbmn0eo!nc_n_webp_mw_1",
+              "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo322s66j9onk005q5j5ct6klvqpkjmun8?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            ]
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a8138e80000000005028657",
+          "url": "https://www.xiaohongshu.com/explore/6a8138e80000000005028657",
+          "item_type": "note",
+          "title": "DeepSeek Harness 保姆级安装教程🔥",
+          "author": "是啊糖糖啊AI版",
+          "published_label": "48分钟前",
+          "content_text": "DeepSeek Harness 保姆级安装教程🔥\n是啊糖糖啊AI版\n48分钟前\n2",
+          "media_kind": "image",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608161305/c86a7a428e054a1cc01c4a35927fd4ee/spectrum/1040g34o323ts32thn2105n2qukg61dbp591oqr8!nc_n_webp_mw_1",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            },
+            {
+              "kind": "image",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31ib9vegi080g5n2qukg61dbp3hsgh4g?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            }
+          ],
+          "metrics": {
+            "likes": 2,
+            "metric_source": "Xiaohongshu visible search card",
+            "observed_at": "2026-08-16T05:05:19.682Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "DeepSeek Harness",
+            "search"
+          ],
+          "raw_capture": {
+            "url": "https://www.xiaohongshu.com/explore/6a8138e80000000005028657",
+            "text": "DeepSeek Harness 保姆级安装教程🔥\n是啊糖糖啊AI版\n48分钟前\n2",
+            "images": [
+              "https://sns-webpic-qc.xhscdn.com/202608161305/c86a7a428e054a1cc01c4a35927fd4ee/spectrum/1040g34o323ts32thn2105n2qukg61dbp591oqr8!nc_n_webp_mw_1",
+              "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31ib9vegi080g5n2qukg61dbp3hsgh4g?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            ]
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a80ad8a0000000025015a78",
+          "url": "https://www.xiaohongshu.com/explore/6a80ad8a0000000025015a78",
+          "item_type": "note",
+          "title": "DeepSeek Harness--万物皆插件「任务完成",
+          "author": "404",
+          "published_label": "10小时前",
+          "content_text": "DeepSeek Harness--万物皆插件「任务完成\n404\n10小时前\n4",
+          "media_kind": "image",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608161305/c6d75a66ce3ad4a01e9b656d794c6656/spectrum/1040g34o323tb9ihf6u5g5n4unh44ap6e3koi0m0!nc_n_webp_mw_1",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            },
+            {
+              "kind": "image",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31vggai25k85g5n4unh44ap6epcr3eu8?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            }
+          ],
+          "metrics": {
+            "likes": 4,
+            "metric_source": "Xiaohongshu visible search card",
+            "observed_at": "2026-08-16T05:05:19.682Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "DeepSeek Harness",
+            "search"
+          ],
+          "raw_capture": {
+            "url": "https://www.xiaohongshu.com/explore/6a80ad8a0000000025015a78",
+            "text": "DeepSeek Harness--万物皆插件「任务完成\n404\n10小时前\n4",
+            "images": [
+              "https://sns-webpic-qc.xhscdn.com/202608161305/c6d75a66ce3ad4a01e9b656d794c6656/spectrum/1040g34o323tb9ihf6u5g5n4unh44ap6e3koi0m0!nc_n_webp_mw_1",
+              "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31vggai25k85g5n4unh44ap6epcr3eu8?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            ]
+          }
+        },
+        {
+          "platform": "xiaohongshu",
+          "external_id": "6a80f759000000003300baea",
+          "url": "https://www.xiaohongshu.com/explore/6a80f759000000003300baea",
+          "item_type": "note",
+          "title": "本地部署DeepSeekHarness和千问3.8-27B",
+          "author": "ZZ 是画渣",
+          "published_label": "5小时前",
+          "content_text": "本地部署DeepSeekHarness和千问3.8-27B\nZZ 是画渣\n5小时前\n11",
+          "media_kind": "image",
+          "media": [
+            {
+              "kind": "image",
+              "url": "https://sns-webpic-qc.xhscdn.com/202608161305/5214cca0a7c794546d773b4a877577ff/spectrum/1040g34o323tjso170m005ot3ni1pgkvv047m4h0!nc_n_webp_mw_1",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            },
+            {
+              "kind": "image",
+              "url": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31q8qcc4c7o6g5ot3ni1pgkvvu6n604g?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip",
+              "rights_note": "Publicly visible third-party URL; retained as an external reference only."
+            }
+          ],
+          "metrics": {
+            "likes": 11,
+            "metric_source": "Xiaohongshu visible search card",
+            "observed_at": "2026-08-16T05:05:19.682Z"
+          },
+          "tags": [
+            "xiaohongshu",
+            "DeepSeek Harness",
+            "search"
+          ],
+          "raw_capture": {
+            "url": "https://www.xiaohongshu.com/explore/6a80f759000000003300baea",
+            "text": "本地部署DeepSeekHarness和千问3.8-27B\nZZ 是画渣\n5小时前\n11",
+            "images": [
+              "https://sns-webpic-qc.xhscdn.com/202608161305/5214cca0a7c794546d773b4a877577ff/spectrum/1040g34o323tjso170m005ot3ni1pgkvv047m4h0!nc_n_webp_mw_1",
+              "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31q8qcc4c7o6g5ot3ni1pgkvvu6n604g?imageView2/2/w/80/format/jpg?imageView2/2/w/60/format/webp|imageMogr2/strip"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
