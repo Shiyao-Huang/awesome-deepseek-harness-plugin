@@ -1,6 +1,6 @@
 # deeplugin-market
 
-Agent-facing access to [deeplugin.store](https://deeplugin.store), a public Store that brings attributed DeepSeek Harness plugin listings from community registries and direct submissions into one searchable catalog. Install this Market Plugin once, then ask your Agent in natural language to discover, inspect, install, list, update, or remove plugins.
+Agent-facing access to [deeplugin.store](https://deeplugin.store), a public Store that brings attributed DeepSeek Harness plugin listings from community registries and direct submissions into one searchable catalog. Install this Market Plugin once, then ask your Agent in natural language to discover, inspect, install, list, update, or remove plugins. Conversational Chinese and English searches discard request boilerplate, match capabilities across names, tags, descriptions, install specs, and attributed registries, then rank by term coverage before GitHub stars.
 
 ## Install
 
@@ -36,7 +36,7 @@ The runtime invokes `dsh plugin` with argument arrays and never constructs a she
 
 ## 中文
 
-把 [deeplugin.store](https://deeplugin.store) 接入 DeepSeek Harness。这个 Store 将社区 Registry 和直接提交中的插件聚合成一个带来源、可搜索、可安装的目录。Market Plugin 只需安装一次，之后就可以直接用自然语言让 Agent 搜索、核对来源、安装和管理其他插件。
+把 [deeplugin.store](https://deeplugin.store) 接入 DeepSeek Harness。这个 Store 将社区 Registry 和直接提交中的插件聚合成一个带来源、可搜索、可安装的目录。Market Plugin 只需安装一次，之后就可以直接用自然语言让 Agent 搜索、核对来源、安装和管理其他插件。中英文口语化查询会去掉“帮我找一个插件”之类请求套话，在名称、标签、中英文描述、安装 spec 和来源 Registry 中按关键能力覆盖度排序。
 
 ```sh
 dsh plugin --profile web add github:Shiyao-Huang/awesome-deepseek-harness-plugin#path:/plugin

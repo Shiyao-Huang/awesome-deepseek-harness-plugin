@@ -18,19 +18,22 @@
       "name": "deeplugin market",
       "author": "Shiyao-Huang",
       "category": "market",
-      "description": "Search the attributed DeepSeek Harness plugin market and create reviewable install plans.",
-      "description_zh": "搜索带来源归因的 DeepSeek Harness 插件市场，并生成可审查的安装计划。",
+      "description": "Search the attributed DeepSeek Harness plugin Store by natural-language intent, inspect sources, and run approved install and management actions.",
+      "description_zh": "用自然语言搜索带来源归因的 DeepSeek Harness 插件 Store，核对来源，并在批准后完成安装与管理。",
       "install": {
         "target": "git",
         "spec": "github:shiyao-huang/awesome-deepseek-harness-plugin#path:/plugin"
       },
-      "version": "0.1.0",
+      "version": "0.3.0",
       "homepage": "https://github.com/Shiyao-Huang/awesome-deepseek-harness-plugin/tree/main/plugin",
       "verified": false,
       "stars": null,
       "tags": [
         "discovery",
+        "install",
+        "management",
         "market",
+        "natural-language",
         "registry"
       ],
       "source": {

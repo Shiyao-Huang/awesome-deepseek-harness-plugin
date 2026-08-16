@@ -73,6 +73,9 @@ test('search ranks matching plugins and supports category and source-verified fi
     ['deeplugin-b', 'deeplugin-a'],
   )
   assert.equal(searchPlugins(REGISTRY, {query: '搜索工作区'}).plugins[0].id, 'deeplugin-a')
+  assert.equal(searchPlugins(REGISTRY, {query: 'find a plugin for public web search'}).plugins[0].id, 'deeplugin-b')
+  assert.equal(searchPlugins(REGISTRY, {query: '帮我找一个搜索公开网页的插件'}).plugins[0].id, 'deeplugin-b')
+  assert.equal(searchPlugins(REGISTRY, {query: 'beta/registry'}).plugins[0].id, 'deeplugin-b')
   assert.equal(searchPlugins(REGISTRY, {category: 'memory'}).total, 1)
   assert.equal(searchPlugins(REGISTRY, {verifiedOnly: true}).plugins[0].id, 'deeplugin-a')
   assert.equal(searchPlugins(REGISTRY, {limit: 1}).plugins.length, 1)
