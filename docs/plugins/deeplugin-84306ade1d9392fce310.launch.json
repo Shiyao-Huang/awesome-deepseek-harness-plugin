@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/xmutfyh/dsh-plugin-writing-guard",
     "firstObservedAt": "2026-08-15T22:14:49Z",
-    "lastChangedAt": "2026-08-16T09:56:16Z"
+    "lastChangedAt": "2026-08-17T13:07:24Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-84306ade1d9392fce310.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-84306ade1d9392fce310.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-plugin-writing-guard 已收录到 DeepSeek Harness Plugin Store。论文写作守卫：本地规则扫描修改过程残留、防御性写作与 AI 写作痕迹（破折号滥用、不是X而是Y、LLM 高频词、三连排比），论文文件写入后增量自动审计（writing_audit / writing_rules）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-84306ade1d9392fce310.html",
-    "en": "dsh-plugin-writing-guard is now listed on the DeepSeek Harness Plugin Store. Academic writing guard: local-regex linter for revision-process residue, defensive writing and AI-writing tells (em-dash abuse, not-X-but-Y, LLM word spikes, rule of three), with incremental auto-audit on paper file writes (writing_audit + writing_rules).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-84306ade1d9392fce310.html"
+    "zh": "dsh-plugin-writing-guard 已收录到 DeepSeek Harness Plugin Store。论文写作守卫（中英双语）：去掉 AI 式防御性写作，润色时守住科学证据（数字/引用/主张强度/零结果/scope），并按目标期刊校准写作风格（Journal Profile + Journal Fit）。纯本地正则/统计，零网络零 LLM；提供 writing_rules / writing_audit / writing_style_profile / writing_journal_profile，论文写入后自动审计。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-84306ade1d9392fce310.html",
+    "en": "dsh-plugin-writing-guard is now listed on the DeepSeek Harness Plugin Store. Academic writing guard (EN/ZH bilingual): removes AI-style defensive writing, protects scientific evidence (numbers, citations, claim strength, null findings, scope) during polishing, and calibrates writing toward a target journal (Journal Profile + Journal Fit). Deterministic local regex/statistics, zero network/LLM; writing_rules / writing_audit / writing_style_profile / writing_journal_profile with auto-audit on paper writes.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-84306ade1d9392fce310.html"
   }
 }

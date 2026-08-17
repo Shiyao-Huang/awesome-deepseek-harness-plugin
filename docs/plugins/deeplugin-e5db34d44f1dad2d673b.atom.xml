@@ -12,7 +12,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e5db34d44f1dad2d673b.html"/>
     <author><name>omdsh-dev</name></author>
     <category term="memory"/>
-    <summary>Deep Mnemon integration: local three-tier memory (Runtime Memory, retrievable Documents, supervised Memory Spaces). Exact install spec: dsh-mnemon. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+    <summary>Cross-agent, local-first persistent memory plugin for DeepSeek Harness (DSH), powered by Mnemon. It shares long-term memory across Mnemon-enabled agents and adds runtime memory, searchable project documents, semantic recall, knowledge graph, and a Sidebar UI. Exact install spec: dsh-mnemon. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
   </entry>
   <entry>
     <title>Updated: dsh-mnemon</title>
@@ -21,7 +21,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e5db34d44f1dad2d673b.html"/>
     <author><name>omdsh-dev</name></author>
     <category term="memory"/>
-    <summary>Deep Mnemon integration: local three-tier memory (Runtime Memory, retrievable Documents, supervised Memory Spaces). Exact install spec: dsh-mnemon. Source event: dsh-market/dsh-market; changed: sources.</summary>
+    <summary>Cross-agent, local-first persistent memory plugin for DeepSeek Harness (DSH), powered by Mnemon. It shares long-term memory across Mnemon-enabled agents and adds runtime memory, searchable project documents, semantic recall, knowledge graph, and a Sidebar UI. Exact install spec: dsh-mnemon. Source event: dsh-market/dsh-market; changed: sources.</summary>
   </entry>
   <entry>
     <title>Updated: dsh-mnemon</title>
@@ -30,7 +30,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e5db34d44f1dad2d673b.html"/>
     <author><name>omdsh-dev</name></author>
     <category term="memory"/>
-    <summary>Deep Mnemon integration: local three-tier memory (Runtime Memory, retrievable Documents, supervised Memory Spaces). Exact install spec: dsh-mnemon. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+    <summary>Cross-agent, local-first persistent memory plugin for DeepSeek Harness (DSH), powered by Mnemon. It shares long-term memory across Mnemon-enabled agents and adds runtime memory, searchable project documents, semantic recall, knowledge graph, and a Sidebar UI. Exact install spec: dsh-mnemon. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
   </entry>
   <entry>
     <title>New: dsh-mnemon</title>
@@ -39,6 +39,6 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e5db34d44f1dad2d673b.html"/>
     <author><name>omdsh-dev</name></author>
     <category term="memory"/>
-    <summary>Deep Mnemon integration: local three-tier memory (Runtime Memory, retrievable Documents, supervised Memory Spaces). Exact install spec: dsh-mnemon. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+    <summary>Cross-agent, local-first persistent memory plugin for DeepSeek Harness (DSH), powered by Mnemon. It shares long-term memory across Mnemon-enabled agents and adds runtime memory, searchable project documents, semantic recall, knowledge graph, and a Sidebar UI. Exact install spec: dsh-mnemon. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

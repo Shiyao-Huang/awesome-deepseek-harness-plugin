@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-c2a9a1617a214b273701",
+    "name": "dsh-oauth-mcp-client",
+    "author": "springbrand-lab",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/springbrand-lab/dsh-oauth-mcp-client",
+    "firstObservedAt": "2026-08-17T13:07:24Z",
+    "lastChangedAt": "2026-08-17T13:07:24Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-c2a9a1617a214b273701.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-c2a9a1617a214b273701.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:springbrand-lab/dsh-oauth-mcp-client",
+    "command": "dsh plugin --profile web add github:springbrand-lab/dsh-oauth-mcp-client",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-c2a9a1617a214b273701，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-c2a9a1617a214b273701.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-c2a9a1617a214b273701.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-oauth-mcp-client 已收录到 DeepSeek Harness Plugin Store。面向 Streamable HTTP 服务的 OAuth 2.1 MCP 客户端：在设置页添加连接，通过浏览器登录（PKCE + 动态客户端注册），其工具随即注册进 DSH；令牌存于凭据服务，连接写入 profile。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c2a9a1617a214b273701.html",
+    "en": "dsh-oauth-mcp-client is now listed on the DeepSeek Harness Plugin Store. OAuth 2.1 MCP client for Streamable HTTP servers: add a connection in Settings, sign in through the browser (PKCE with dynamic client registration), and have its tools registered in DSH, with tokens kept in the credential service and the connection written to the profile.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-c2a9a1617a214b273701.html"
+  }
+}

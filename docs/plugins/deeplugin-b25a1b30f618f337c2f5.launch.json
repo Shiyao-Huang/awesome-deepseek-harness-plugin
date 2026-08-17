@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-b25a1b30f618f337c2f5",
+    "name": "dsh-vision#vision-route",
+    "author": "314857493",
+    "category": "vision",
+    "version": null,
+    "homepage": "https://github.com/314857493/dsh-vision/tree/main/packages/vision-route",
+    "firstObservedAt": "2026-08-17T13:07:24Z",
+    "lastChangedAt": "2026-08-17T13:07:24Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-b25a1b30f618f337c2f5.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-b25a1b30f618f337c2f5.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-vision-proxy-route",
+    "command": "dsh plugin --profile web add dsh-vision-proxy-route",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-b25a1b30f618f337c2f5，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-b25a1b30f618f337c2f5.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b25a1b30f618f337c2f5.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-vision#vision-route 已收录到 DeepSeek Harness Plugin Store。注册 `deepseek-vision` 路由：Web GUI 直接粘贴图片，由免费智谱 GLM 视觉模型转译为文字后，再交给 DeepSeek 适配器作答。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b25a1b30f618f337c2f5.html",
+    "en": "dsh-vision#vision-route is now listed on the DeepSeek Harness Plugin Store. Registers a `deepseek-vision` provider route: the Web GUI accepts pasted images and transcribes them to text via the free Zhipu GLM vision API before delegating to the DeepSeek adapter.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b25a1b30f618f337c2f5.html"
+  }
+}

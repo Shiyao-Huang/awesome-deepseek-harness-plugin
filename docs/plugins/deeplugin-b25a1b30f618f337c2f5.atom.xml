@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-vision#vision-route — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-b25a1b30f618f337c2f5.atom.xml</id>
+  <updated>2026-08-17T13:07:24Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-b25a1b30f618f337c2f5.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b25a1b30f618f337c2f5.html"/>
+  <entry>
+    <title>New: dsh-vision#vision-route</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-b25a1b30f618f337c2f5/0c602b7f7f0ce8f7</id>
+    <updated>2026-08-17T13:07:24Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b25a1b30f618f337c2f5.html"/>
+    <author><name>314857493</name></author>
+    <category term="vision"/>
+    <summary>Registers a `deepseek-vision` provider route: the Web GUI accepts pasted images and transcribes them to text via the free Zhipu GLM vision API before delegating to the DeepSeek adapter. Exact install spec: dsh-vision-proxy-route. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

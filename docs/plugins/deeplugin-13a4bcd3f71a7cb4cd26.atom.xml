@@ -11,7 +11,7 @@
     <updated>2026-08-16T09:56:16Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-13a4bcd3f71a7cb4cd26.html"/>
     <author><name>bowenliang123</name></author>
-    <category term="memory"/>
+    <category term="ui"/>
     <summary>Context insight panel: see what the model's context window is made of and how it evolves — composition vs. window size, per-request history, compression/injection events, and per-message token stats. Exact install spec: dsh-context. Source event: zoahdev/dsh-subscribe; changed: tags_json.</summary>
   </entry>
   <entry>
@@ -20,7 +20,7 @@
     <updated>2026-08-16T03:13:50Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-13a4bcd3f71a7cb4cd26.html"/>
     <author><name>bowenliang123</name></author>
-    <category term="memory"/>
+    <category term="ui"/>
     <summary>Context insight panel: see what the model's context window is made of and how it evolves — composition vs. window size, per-request history, compression/injection events, and per-message token stats. Exact install spec: dsh-context. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
   </entry>
   <entry>
@@ -29,7 +29,7 @@
     <updated>2026-08-15T22:14:49Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-13a4bcd3f71a7cb4cd26.html"/>
     <author><name>bowenliang123</name></author>
-    <category term="memory"/>
+    <category term="ui"/>
     <summary>Context insight panel: see what the model's context window is made of and how it evolves — composition vs. window size, per-request history, compression/injection events, and per-message token stats. Exact install spec: dsh-context. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
   </entry>
   <entry>
@@ -38,7 +38,7 @@
     <updated>2026-08-15T22:14:49Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-13a4bcd3f71a7cb4cd26.html"/>
     <author><name>bowenliang123</name></author>
-    <category term="memory"/>
+    <category term="ui"/>
     <summary>Context insight panel: see what the model's context window is made of and how it evolves — composition vs. window size, per-request history, compression/injection events, and per-message token stats. Exact install spec: dsh-context. Source event: dsh-market/dsh-market; changed: sources.</summary>
   </entry>
   <entry>
@@ -47,7 +47,7 @@
     <updated>2026-08-15T22:14:49Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-13a4bcd3f71a7cb4cd26.html"/>
     <author><name>bowenliang123</name></author>
-    <category term="memory"/>
+    <category term="ui"/>
     <summary>Context insight panel: see what the model's context window is made of and how it evolves — composition vs. window size, per-request history, compression/injection events, and per-message token stats. Exact install spec: dsh-context. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

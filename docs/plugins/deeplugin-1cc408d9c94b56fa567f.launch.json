@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-1cc408d9c94b56fa567f",
+    "name": "dsh-verify",
+    "author": "263311487-ux",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/263311487-ux/dsh-verify",
+    "firstObservedAt": "2026-08-17T13:07:24Z",
+    "lastChangedAt": "2026-08-17T13:07:24Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-1cc408d9c94b56fa567f.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-1cc408d9c94b56fa567f.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-verify",
+    "command": "dsh plugin --profile web add dsh-verify",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-1cc408d9c94b56fa567f，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-1cc408d9c94b56fa567f.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-1cc408d9c94b56fa567f.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-verify 已收录到 DeepSeek Harness Plugin Store。独立浏览器验收测试：JSON 清单驱动真实 Chromium，断言计算样式与像素差异，输出 HTML 报告 + 0/1 退出码；提供 npm CLI、GitHub Action 与 MCP Server。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-1cc408d9c94b56fa567f.html",
+    "en": "dsh-verify is now listed on the DeepSeek Harness Plugin Store. Independent browser acceptance testing for agent deliverables: JSON spec drives real headless Chromium, asserts computed styles and pixel diffs, returns an HTML report and 0/1 exit code; ships npm CLI, GitHub Action, and MCP server.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-1cc408d9c94b56fa567f.html"
+  }
+}

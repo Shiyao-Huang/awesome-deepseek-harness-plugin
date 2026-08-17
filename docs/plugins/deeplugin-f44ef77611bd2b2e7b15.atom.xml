@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-plugin-muapi — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-f44ef77611bd2b2e7b15.atom.xml</id>
+  <updated>2026-08-17T13:07:24Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-f44ef77611bd2b2e7b15.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f44ef77611bd2b2e7b15.html"/>
+  <entry>
+    <title>New: dsh-plugin-muapi</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-f44ef77611bd2b2e7b15/0c602b7f7f0ce8f7</id>
+    <updated>2026-08-17T13:07:24Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f44ef77611bd2b2e7b15.html"/>
+    <author><name>SamurAIGPT</name></author>
+    <category term="tools"/>
+    <summary>MuApi media-generation tool: a muapi_generate tool that submits and polls jobs against any of MuApi's 100+ image, video, audio, and 3D models through one x-api-key. Exact install spec: github:samuraigpt/dsh-plugin-muapi. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

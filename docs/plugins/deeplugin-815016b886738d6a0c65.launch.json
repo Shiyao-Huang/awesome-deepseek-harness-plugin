@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-815016b886738d6a0c65",
+    "name": "dsh-plugin-market",
+    "author": "springbrand-lab",
+    "category": "market",
+    "version": null,
+    "homepage": "https://github.com/springbrand-lab/dsh-plugin-market",
+    "firstObservedAt": "2026-08-17T13:07:24Z",
+    "lastChangedAt": "2026-08-17T13:07:24Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-815016b886738d6a0c65.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-815016b886738d6a0c65.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@springbrand/dsh-plugin-marketplace",
+    "command": "dsh plugin --profile web add @springbrand/dsh-plugin-marketplace",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-815016b886738d6a0c65，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-815016b886738d6a0c65.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-815016b886738d6a0c65.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-market 已收录到 DeepSeek Harness Plugin Store。设置页里的插件市场，可操作本机任意 profile 而不只是当前运行的那个：在 web、headless 及其他 profile 上安装、更新、卸载，带安装脚本风险提示，已装视图同时覆盖目录之外的 profile 依赖，改动当前 profile 时自动重启 DSH。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-815016b886738d6a0c65.html",
+    "en": "dsh-plugin-market is now listed on the DeepSeek Harness Plugin Store. Plugin marketplace in Settings that targets any local profile, not just the running one: install, update and remove across web, headless and other profiles, with install-script warnings, an installed view that also covers non-catalog profile dependencies, and an automatic DSH restart when the current profile changes.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-815016b886738d6a0c65.html"
+  }
+}

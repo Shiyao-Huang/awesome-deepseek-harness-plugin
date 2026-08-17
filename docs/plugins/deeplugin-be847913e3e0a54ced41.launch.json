@@ -5,7 +5,7 @@
     "id": "deeplugin-be847913e3e0a54ced41",
     "name": "dsh-plugin-workshop",
     "author": "yyyyukari",
-    "category": "market",
+    "category": "ui",
     "version": null,
     "homepage": "https://github.com/yyyyukari/dsh-plugin-workshop",
     "firstObservedAt": "2026-08-15T22:14:49Z",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-be847913e3e0a54ced41.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-plugin-workshop 已收录到 DeepSeek Harness Plugin Store。创意工坊式插件浏览器：侧栏常驻入口，搜索/最热/最新/近 7-90 天飙升榜、中文关键词映射、描述与 README 机翻、插件特征验证过滤、一键安装/更新。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-be847913e3e0a54ced41.html",
-    "en": "dsh-plugin-workshop is now listed on the DeepSeek Harness Plugin Store. Steam Workshop-style in-app plugin browser: search, hot/newest/trending (7/30/90-day) sorting, Chinese keyword mapping, bilingual descriptions and README translation, plugin-signature filtering, and one-click install/update.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-be847913e3e0a54ced41.html"
+    "zh": "dsh-plugin-workshop 已收录到 DeepSeek Harness Plugin Store。创意工坊式插件浏览器：一键安装/更新/卸载。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-be847913e3e0a54ced41.html",
+    "en": "dsh-plugin-workshop is now listed on the DeepSeek Harness Plugin Store. Steam Workshop-style in-app plugin browser with one-click install/update/uninstall.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-be847913e3e0a54ced41.html"
   }
 }

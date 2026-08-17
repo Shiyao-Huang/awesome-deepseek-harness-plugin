@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-e5db34d44f1dad2d673b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-mnemon 已收录到 DeepSeek Harness Plugin Store。Mnemon 深度集成：本地三层记忆（Runtime Memory、可检索 Documents、受监督 Memory Spaces）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e5db34d44f1dad2d673b.html",
-    "en": "dsh-mnemon is now listed on the DeepSeek Harness Plugin Store. Deep Mnemon integration: local three-tier memory (Runtime Memory, retrievable Documents, supervised Memory Spaces).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e5db34d44f1dad2d673b.html"
+    "zh": "dsh-mnemon 已收录到 DeepSeek Harness Plugin Store。由 Mnemon 驱动的 DeepSeek Harness（DSH）跨 Agent、本地优先的持久记忆插件。它可在支持 Mnemon 的 Agent 之间共享长期记忆，并提供运行时记忆、可检索项目档案、语义召回、知识图谱和 Sidebar UI。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e5db34d44f1dad2d673b.html",
+    "en": "dsh-mnemon is now listed on the DeepSeek Harness Plugin Store. Cross-agent, local-first persistent memory plugin for DeepSeek Harness (DSH), powered by Mnemon. It shares long-term memory across Mnemon-enabled agents and adds runtime memory, searchable project documents, semantic recall, knowledge graph, and a Sidebar UI.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e5db34d44f1dad2d673b.html"
   }
 }

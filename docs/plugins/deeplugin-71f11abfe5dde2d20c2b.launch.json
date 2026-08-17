@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-71f11abfe5dde2d20c2b",
+    "name": "dsh-vision#vision-tool",
+    "author": "314857493",
+    "category": "vision",
+    "version": null,
+    "homepage": "https://github.com/314857493/dsh-vision/tree/main/packages/vision-tool",
+    "firstObservedAt": "2026-08-17T13:07:24Z",
+    "lastChangedAt": "2026-08-17T13:07:24Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-71f11abfe5dde2d20c2b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-71f11abfe5dde2d20c2b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-vision-free-eyes",
+    "command": "dsh plugin --profile web add dsh-vision-free-eyes",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-71f11abfe5dde2d20c2b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-71f11abfe5dde2d20c2b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-71f11abfe5dde2d20c2b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-vision#vision-tool 已收录到 DeepSeek Harness Plugin Store。给 DeepSeek Harness 的纯文本模型补上免费识图：`vision` 工具直连智谱 GLM 视觉 API 描述/OCR 图片文件（glm-4v-flash 降级链），无需任何外部 CLI。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-71f11abfe5dde2d20c2b.html",
+    "en": "dsh-vision#vision-tool is now listed on the DeepSeek Harness Plugin Store. Model-facing `vision` tool for DeepSeek Harness: describe and OCR image files by calling the free Zhipu GLM vision API directly (glm-4v-flash fallback chain), no external CLI required.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-71f11abfe5dde2d20c2b.html"
+  }
+}

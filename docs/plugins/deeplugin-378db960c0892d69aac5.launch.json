@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-378db960c0892d69aac5",
+    "name": "dsh-turn-cost",
+    "author": "WFMinerva",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/WFMinerva/dsh-turn-cost",
+    "firstObservedAt": "2026-08-17T13:07:24Z",
+    "lastChangedAt": "2026-08-17T13:07:24Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-378db960c0892d69aac5.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-378db960c0892d69aac5.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-turn-cost",
+    "command": "dsh plugin --profile web add dsh-turn-cost",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-378db960c0892d69aac5，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-378db960c0892d69aac5.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-378db960c0892d69aac5.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-turn-cost 已收录到 DeepSeek Harness Plugin Store。每条 AI 回复下方显示该轮真实花费：人民币、官方峰谷价、缓存读占比；纯本地读会话日志，零上报零密钥。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-378db960c0892d69aac5.html",
+    "en": "dsh-turn-cost is now listed on the DeepSeek Harness Plugin Store. Per-turn real cost under every assistant reply: CNY at official peak/off-peak rates with cache-hit ratio; reads local session logs only, zero telemetry, zero keys.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-378db960c0892d69aac5.html"
+  }
+}

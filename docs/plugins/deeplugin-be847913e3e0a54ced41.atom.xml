@@ -11,8 +11,8 @@
     <updated>2026-08-15T22:14:49Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-be847913e3e0a54ced41.html"/>
     <author><name>yyyyukari</name></author>
-    <category term="market"/>
-    <summary>Steam Workshop-style in-app plugin browser: search, hot/newest/trending (7/30/90-day) sorting, Chinese keyword mapping, bilingual descriptions and README translation, plugin-signature filtering, and one-click install/update. Exact install spec: github:yyyyukari/dsh-plugin-workshop. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+    <category term="ui"/>
+    <summary>Steam Workshop-style in-app plugin browser with one-click install/update/uninstall. Exact install spec: github:yyyyukari/dsh-plugin-workshop. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
   </entry>
   <entry>
     <title>Updated: dsh-plugin-workshop</title>
@@ -20,8 +20,8 @@
     <updated>2026-08-15T22:14:49Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-be847913e3e0a54ced41.html"/>
     <author><name>yyyyukari</name></author>
-    <category term="market"/>
-    <summary>Steam Workshop-style in-app plugin browser: search, hot/newest/trending (7/30/90-day) sorting, Chinese keyword mapping, bilingual descriptions and README translation, plugin-signature filtering, and one-click install/update. Exact install spec: github:yyyyukari/dsh-plugin-workshop. Source event: dsh-market/dsh-market; changed: sources.</summary>
+    <category term="ui"/>
+    <summary>Steam Workshop-style in-app plugin browser with one-click install/update/uninstall. Exact install spec: github:yyyyukari/dsh-plugin-workshop. Source event: dsh-market/dsh-market; changed: sources.</summary>
   </entry>
   <entry>
     <title>Updated: dsh-plugin-workshop</title>
@@ -29,8 +29,8 @@
     <updated>2026-08-15T22:14:49Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-be847913e3e0a54ced41.html"/>
     <author><name>yyyyukari</name></author>
-    <category term="market"/>
-    <summary>Steam Workshop-style in-app plugin browser: search, hot/newest/trending (7/30/90-day) sorting, Chinese keyword mapping, bilingual descriptions and README translation, plugin-signature filtering, and one-click install/update. Exact install spec: github:yyyyukari/dsh-plugin-workshop. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+    <category term="ui"/>
+    <summary>Steam Workshop-style in-app plugin browser with one-click install/update/uninstall. Exact install spec: github:yyyyukari/dsh-plugin-workshop. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
   </entry>
   <entry>
     <title>New: dsh-plugin-workshop</title>
@@ -38,7 +38,7 @@
     <updated>2026-08-15T22:14:49Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-be847913e3e0a54ced41.html"/>
     <author><name>yyyyukari</name></author>
-    <category term="market"/>
-    <summary>Steam Workshop-style in-app plugin browser: search, hot/newest/trending (7/30/90-day) sorting, Chinese keyword mapping, bilingual descriptions and README translation, plugin-signature filtering, and one-click install/update. Exact install spec: github:yyyyukari/dsh-plugin-workshop. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+    <category term="ui"/>
+    <summary>Steam Workshop-style in-app plugin browser with one-click install/update/uninstall. Exact install spec: github:yyyyukari/dsh-plugin-workshop. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

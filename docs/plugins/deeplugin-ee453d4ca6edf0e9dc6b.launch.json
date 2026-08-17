@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-ee453d4ca6edf0e9dc6b",
+    "name": "dsh-mcp-view",
+    "author": "stopchewing",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/stopchewing/dsh-mcp-view",
+    "firstObservedAt": "2026-08-17T13:07:24Z",
+    "lastChangedAt": "2026-08-17T13:07:24Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-ee453d4ca6edf0e9dc6b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-ee453d4ca6edf0e9dc6b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-mcp-view",
+    "command": "dsh plugin --profile web add dsh-mcp-view",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-ee453d4ca6edf0e9dc6b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-ee453d4ca6edf0e9dc6b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-ee453d4ca6edf0e9dc6b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-mcp-view 已收录到 DeepSeek Harness Plugin Store。MCP 服务器与工具清单面板：侧边栏一键悬浮面板，按服务器分组展示全部 MCP 工具（传输方式、端点、JSON Schema、最近使用时间），默认折叠、支持搜索与实时刷新；最近使用时间来自真实会话日志。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-ee453d4ca6edf0e9dc6b.html",
+    "en": "dsh-mcp-view is now listed on the DeepSeek Harness Plugin Store. MCP servers & tools inventory panel: one-click floating panel from the sidebar that lists every MCP server and tool (transport, endpoint, JSON schema, last-used time), grouped by server, collapsed by default, with live search and refresh; last-used times come from real session logs.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-ee453d4ca6edf0e9dc6b.html"
+  }
+}

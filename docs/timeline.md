@@ -5,6 +5,27 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 2026-08-17T13:07:24Z | github | ecosystem-reference | [314857493/dsh-visionvision-tool](https://github.com/314857493/dsh-vision) | 314857493 | multimedia-and-vision |
+| 2026-08-17 | github | plugin | [dsh-auth-gateway](https://github.com/xbzbing/dsh-auth-gateway) | xbzbing | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-codex-connect-plus](https://github.com/stoneface10/dsh-codex-connect-plus) | stoneface10 | multimedia-and-vision |
+| 2026-08-17 | github | plugin | [dsh-conversation-minimap](https://github.com/Braidy-Wu/dsh-conversation-minimap) | Braidy-Wu | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-deepseek-balance](https://github.com/Choi-Peng/dsh-deepseek-balance) | Choi-Peng | operations-and-safety |
+| 2026-08-17 | github | plugin | [dsh-email-push-master](https://github.com/JamesYasR/dsh-email-push-master) | JamesYasR | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-mc-launcher](https://github.com/hellosky983/dsh-mc-launcher) | hellosky983 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-mcp-view](https://github.com/stopchewing/dsh-mcp-view) | stopchewing | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-oomol](https://github.com/oomol-lab/dsh-oomol) | oomol-lab | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-openviking](https://github.com/Rxiain/dsh-openviking) | Rxiain | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-plugin-market](https://github.com/springbrand-lab/dsh-plugin-market) | springbrand-lab | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-plugin-muapi](https://github.com/SamurAIGPT/dsh-plugin-muapi) | SamurAIGPT | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-prompt-self](https://github.com/Hua1Q1nG/dsh-prompt-self) | Hua1Q1nG | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-remote](https://github.com/xgone/dsh-remote) | xgone | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-skin-universe](https://github.com/springbrand-lab/dsh-skin-universe) | springbrand-lab | ui-and-desktop |
+| 2026-08-17 | github | plugin | [dsh-stats-panel](https://github.com/zhang-jiazhi/dsh-stats-panel) | zhang-jiazhi | operations-and-safety |
+| 2026-08-17 | github | plugin | [dsh-turn-cost](https://github.com/WFMinerva/dsh-turn-cost) | WFMinerva | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-verify](https://github.com/263311487-ux/dsh-verify) | 263311487-ux | index-and-marketplace |
+| 2026-08-17 | github | plugin | [dsh-vision-bridge](https://github.com/GXX182/dsh-vision-bridge) | GXX182 | multimedia-and-vision |
+| 2026-08-17 | github | plugin | [dsh-wallpaper-skin](https://github.com/ddbj-hub/dsh-wallpaper-skin) | ddbj-hub | index-and-marketplace |
+| 2026-08-17 | github | plugin | [dsh-web-auth](https://github.com/SummerSec/dsh-web-auth) | SummerSec | core-and-ecosystem |
 | 2026-08-17 | github | plugin | [DeepSeek-Harness-Desktop](https://github.com/Ch0uHuaZ1/DeepSeek-Harness-Desktop) | Ch0uHuaZ1 | ui-and-desktop |
 | 2026-08-17 | github | plugin | [dsh-cite](https://github.com/STARDUSTLC666/dsh-cite) | STARDUSTLC666 | core-and-ecosystem |
 | 2026-08-17 | github | plugin | [dsh-code-security](https://github.com/STARDUSTLC666/dsh-code-security) | STARDUSTLC666 | operations-and-safety |
@@ -14385,6 +14406,7 @@
 | 2026-07-28T05:45:33Z | github | repository | [cofy-x/axern](https://github.com/cofy-x/axern) | cofy-x | operations-and-safety |
 | 2026-07-27T02:45:03Z | github | repository | [MaimoryLab/BootAgent](https://github.com/MaimoryLab/BootAgent) | MaimoryLab | ui-and-desktop |
 | 2026-07-25T12:13:33Z | github | repository | [morluto/flameox](https://github.com/morluto/flameox) | morluto | core-and-ecosystem |
+| 2026-07-24T14:14:07Z | github | repository | [chuspeeism/dashi-taskboard](https://github.com/chuspeeism/dashi-taskboard) | chuspeeism | core-and-ecosystem |
 | 2026-07-23T09:35:08Z | github | repository | [ccch1mneyyy/working-activity](https://github.com/ccch1mneyyy/working-activity) | ccch1mneyyy | core-and-ecosystem |
 | 2026-07-23T09:08:45Z | github | repository | [morluto/jacobian](https://github.com/morluto/jacobian) | morluto | core-and-ecosystem |
 | 2026-07-22T17:28:39Z | hacker_news | story | [Grok is a surprisingly good automated theorem prover](https://news.ycombinator.com/item?id=49010310) | henryrobbins00 | index-and-marketplace |
@@ -14458,6 +14480,7 @@
 | 2026-05-05T17:45:17Z | github | repository | [WeirdSky924/agent-handoff-skill](https://github.com/WeirdSky924/agent-handoff-skill) | WeirdSky924 | core-and-ecosystem |
 | 2026-05-05T16:40:06Z | github | repository | [paean-ai/deeptide](https://github.com/paean-ai/deeptide) | paean-ai | core-and-ecosystem |
 | 2026-05-04T22:18:51Z | github | repository | [WenyuChiou/awesome-agentic-ai-zh](https://github.com/WenyuChiou/awesome-agentic-ai-zh) | WenyuChiou | index-and-marketplace |
+| 2026-05-04T19:14:46Z | github | ecosystem-reference | [alvinunreal/openpets](https://github.com/alvinunreal/openpets) | alvinunreal | ui-and-desktop |
 | 2026-05-04T16:03:21Z | github | repository | [firstintent/ccteam](https://github.com/firstintent/ccteam) | firstintent | core-and-ecosystem |
 | 2026-05-02T07:51:35Z | github | repository | [crafter-station/petdex](https://github.com/crafter-station/petdex) | crafter-station | core-and-ecosystem |
 | 2026-05-01T11:26:20Z | hacker_news | story | [Show HN: BetterClaw – Compile a paragraph into a workflow that gates agent tools](https://news.ycombinator.com/item?id=47973502) | infamous-oven | index-and-marketplace |
@@ -14469,6 +14492,7 @@
 | 2026-04-27T06:37:38Z | github | repository | [deepseek-ai/awesome-deepseek-agent](https://github.com/deepseek-ai/awesome-deepseek-agent) | deepseek-ai | index-and-marketplace |
 | 2026-04-25T09:19:13Z | github | repository | [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) | freestylefly | index-and-marketplace |
 | 2026-04-21T21:21:14Z | hacker_news | story | [Show HN: I built a coding agent that works with 8k context local models](https://news.ycombinator.com/item?id=47854640) | razvanneculai | operations-and-safety |
+| 2026-04-21T08:27:02Z | github | repository | [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | esengine | core-and-ecosystem |
 | 2026-04-20T12:31:22Z | github | repository | [Ariestar/sivtr](https://github.com/Ariestar/sivtr) | Ariestar | core-and-ecosystem |
 | 2026-04-16T05:54:32Z | github | repository | [kangarooking/cangjie-skill](https://github.com/kangarooking/cangjie-skill) | kangarooking | core-and-ecosystem |
 | 2026-04-15T05:27:37Z | github | repository | [tt-a1i/archify](https://github.com/tt-a1i/archify) | tt-a1i | docs-and-learning |
@@ -14558,6 +14582,7 @@
 | 2025-11-04T17:03:48Z | hacker_news | story | [Show HN: Tangent – Open‑source stream processor with native‑speed WASM plugins](https://news.ycombinator.com/item?id=45813256) | PublicEnemy111 | index-and-marketplace |
 | 2025-11-04T08:44:59Z | github | repository | [hyqibot/A-share-Ai](https://github.com/hyqibot/A-share-Ai) | hyqibot | index-and-marketplace |
 | 2025-10-31T14:15:28Z | github | repository | [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | shanraisshan | core-and-ecosystem |
+| 2025-10-28T15:09:32Z | github | repository | [EverMind-AI/EverOS](https://github.com/EverMind-AI/EverOS) | EverMind-AI | core-and-ecosystem |
 | 2025-10-24T11:08:44Z | github | repository | [lemony-ai/cascadeflow](https://github.com/lemony-ai/cascadeflow) | lemony-ai | core-and-ecosystem |
 | 2025-10-07T05:30:56Z | hacker_news | story | [Show HN: My first finished audio plugin. Minimal Bloat, Under 1000 LOC](https://news.ycombinator.com/item?id=45499664) | not_woowoo | index-and-marketplace |
 | 2025-10-04T23:42:35Z | github | repository | [Nagi-ovo/voyager](https://github.com/Nagi-ovo/voyager) | Nagi-ovo | ui-and-desktop |

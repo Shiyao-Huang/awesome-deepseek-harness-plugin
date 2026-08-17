@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-f71bbed109d6804cd14f",
+    "name": "dsh-stats-panel",
+    "author": "zhang-jiazhi",
+    "category": "usage",
+    "version": null,
+    "homepage": "https://github.com/zhang-jiazhi/dsh-stats-panel",
+    "firstObservedAt": "2026-08-17T13:07:24Z",
+    "lastChangedAt": "2026-08-17T13:07:24Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-f71bbed109d6804cd14f.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-f71bbed109d6804cd14f.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:zhang-jiazhi/dsh-stats-panel",
+    "command": "dsh plugin --profile web add github:zhang-jiazhi/dsh-stats-panel",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-f71bbed109d6804cd14f，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-f71bbed109d6804cd14f.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-f71bbed109d6804cd14f.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-stats-panel 已收录到 DeepSeek Harness Plugin Store。DeepSeek Harness Token 用量统计。按渠道区分统计，官方渠道自动显示余额，套餐渠道显示 5 小时/7 天/30 天用量余量，人民币计费估算，含每日图表与模型分布，集成在设置页侧边菜单。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-f71bbed109d6804cd14f.html",
+    "en": "dsh-stats-panel is now listed on the DeepSeek Harness Plugin Store. Token usage statistics for DeepSeek Harness. Per-channel usage with balances and plan quotas for mainstream providers, CNY cost estimates, and daily charts — a settings-sidebar section.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-f71bbed109d6804cd14f.html"
+  }
+}

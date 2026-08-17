@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-ba229f629e99fc1a103d",
+    "name": "dsh-prompt-self",
+    "author": "Hua1Q1nG",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/Hua1Q1nG/dsh-prompt-self",
+    "firstObservedAt": "2026-08-17T13:07:24Z",
+    "lastChangedAt": "2026-08-17T13:07:24Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-ba229f629e99fc1a103d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-ba229f629e99fc1a103d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:hua1q1ng/dsh-prompt-self",
+    "command": "dsh plugin --profile web add github:hua1q1ng/dsh-prompt-self",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-ba229f629e99fc1a103d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-ba229f629e99fc1a103d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-ba229f629e99fc1a103d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-prompt-self 已收录到 DeepSeek Harness Plugin Store。按学习到的 Prompt 画像改写每个请求，并自动更新习惯清单、防幻觉规则与学习记录。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-ba229f629e99fc1a103d.html",
+    "en": "dsh-prompt-self is now listed on the DeepSeek Harness Plugin Store. Rewrites each request against a learned prompt profile and automatically updates habits, anti-hallucination rules, and learning records.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-ba229f629e99fc1a103d.html"
+  }
+}

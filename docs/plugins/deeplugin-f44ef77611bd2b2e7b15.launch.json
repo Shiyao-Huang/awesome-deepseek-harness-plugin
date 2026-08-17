@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-f44ef77611bd2b2e7b15",
+    "name": "dsh-plugin-muapi",
+    "author": "SamurAIGPT",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/SamurAIGPT/dsh-plugin-muapi",
+    "firstObservedAt": "2026-08-17T13:07:24Z",
+    "lastChangedAt": "2026-08-17T13:07:24Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-f44ef77611bd2b2e7b15.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-f44ef77611bd2b2e7b15.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:samuraigpt/dsh-plugin-muapi",
+    "command": "dsh plugin --profile web add github:samuraigpt/dsh-plugin-muapi",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-f44ef77611bd2b2e7b15，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-f44ef77611bd2b2e7b15.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-f44ef77611bd2b2e7b15.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-muapi 已收录到 DeepSeek Harness Plugin Store。MuApi 媒体生成工具：muapi_generate 工具通过一个 x-api-key 提交并轮询 MuApi 100 多个图片、视频、音频与 3D 模型的生成任务。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-f44ef77611bd2b2e7b15.html",
+    "en": "dsh-plugin-muapi is now listed on the DeepSeek Harness Plugin Store. MuApi media-generation tool: a muapi_generate tool that submits and polls jobs against any of MuApi's 100+ image, video, audio, and 3D models through one x-api-key.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-f44ef77611bd2b2e7b15.html"
+  }
+}

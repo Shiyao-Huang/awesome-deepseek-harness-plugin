@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/xmanrui/dsh-im",
     "firstObservedAt": "2026-08-16T08:41:44Z",
-    "lastChangedAt": "2026-08-16T09:56:16Z"
+    "lastChangedAt": "2026-08-17T13:07:24Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-413158b73d8720aa2c9f.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-413158b73d8720aa2c9f.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-im 已收录到 DeepSeek Harness Plugin Store。通过扫码把IM机器人接入DeepSeek Harness（支持飞书、微信、钉钉等）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-413158b73d8720aa2c9f.html",
-    "en": "dsh-im is now listed on the DeepSeek Harness Plugin Store. Connect IM bots to DeepSeek Harness by scanning QR codes (supports Feishu, Weixin, DingTalk, and more).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-413158b73d8720aa2c9f.html"
+    "zh": "dsh-im 已收录到 DeepSeek Harness Plugin Store。通过二维码或机器人凭据将 IM 机器人接入 DeepSeek Harness（支持飞书、微信、钉钉、企业微信、QQ、Slack、Telegram、Discord 和 WhatsApp 共 9 种渠道）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-413158b73d8720aa2c9f.html",
+    "en": "dsh-im is now listed on the DeepSeek Harness Plugin Store. Connect IM bots to DeepSeek Harness via QR codes or bot credentials (9 channels: Feishu, WeChat, DingTalk, WeCom, QQ, Slack, Telegram, Discord, and WhatsApp).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-413158b73d8720aa2c9f.html"
   }
 }

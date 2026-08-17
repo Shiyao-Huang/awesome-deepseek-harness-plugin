@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-vision#vision-tool — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-71f11abfe5dde2d20c2b.atom.xml</id>
+  <updated>2026-08-17T13:07:24Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-71f11abfe5dde2d20c2b.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-71f11abfe5dde2d20c2b.html"/>
+  <entry>
+    <title>New: dsh-vision#vision-tool</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-71f11abfe5dde2d20c2b/0c602b7f7f0ce8f7</id>
+    <updated>2026-08-17T13:07:24Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-71f11abfe5dde2d20c2b.html"/>
+    <author><name>314857493</name></author>
+    <category term="vision"/>
+    <summary>Model-facing `vision` tool for DeepSeek Harness: describe and OCR image files by calling the free Zhipu GLM vision API directly (glm-4v-flash fallback chain), no external CLI required. Exact install spec: dsh-vision-free-eyes. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>
