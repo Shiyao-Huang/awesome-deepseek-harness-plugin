@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-994f67dd0340a15ce846",
+    "name": "dsh-with-pencil",
+    "author": "IWAIBAOLI",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/IWAIBAOLI/dsh-with-pencil",
+    "firstObservedAt": "2026-08-17T18:59:27Z",
+    "lastChangedAt": "2026-08-17T18:59:27Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-994f67dd0340a15ce846.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-994f67dd0340a15ce846.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-with-pencil",
+    "command": "dsh plugin --profile web add dsh-with-pencil",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-994f67dd0340a15ce846，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-994f67dd0340a15ce846.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-994f67dd0340a15ce846.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-with-pencil 已收录到 DeepSeek Harness Plugin Store。将官方 pen.dev Pencil 设计能力接入 DeepSeek Harness：桥接官方 CLI，Agent 可在会话中编辑 .pen 文件，并针对 DeepSeek 纯文本模型做了专门优化。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-994f67dd0340a15ce846.html",
+    "en": "dsh-with-pencil is now listed on the DeepSeek Harness Plugin Store. Bring the official pen.dev Pencil into DeepSeek Harness via the official CLI: in-conversation .pen editing tools, optimized specifically for DeepSeek's text-only model.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-994f67dd0340a15ce846.html"
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-guide-dog — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-35f2047ec28f0229a16b.atom.xml</id>
+  <updated>2026-08-17T18:59:27Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-35f2047ec28f0229a16b.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-35f2047ec28f0229a16b.html"/>
+  <entry>
+    <title>New: dsh-guide-dog</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-35f2047ec28f0229a16b/59c65580ae50a773</id>
+    <updated>2026-08-17T18:59:27Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-35f2047ec28f0229a16b.html"/>
+    <author><name>AtropinolTT</name></author>
+    <category term="vision"/>
+    <summary>MiniMax-powered multimodal plugin: real-time voice call mode (streaming conversation, floating dock UI), voice mode and mic voice input, plus image/video/music/speech generation and vision inspection tools. Exact install spec: github:atropinoltt/dsh-guide-dog. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

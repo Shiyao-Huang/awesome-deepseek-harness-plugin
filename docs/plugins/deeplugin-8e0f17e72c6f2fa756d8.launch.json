@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-8e0f17e72c6f2fa756d8",
+    "name": "snippet-expander",
+    "author": "JohnXu22786",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/JohnXu22786/snippet-expander",
+    "firstObservedAt": "2026-08-17T18:59:27Z",
+    "lastChangedAt": "2026-08-17T18:59:27Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-8e0f17e72c6f2fa756d8.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-8e0f17e72c6f2fa756d8.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:johnxu22786/snippet-expander",
+    "command": "dsh plugin --profile web add github:johnxu22786/snippet-expander",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-8e0f17e72c6f2fa756d8，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-8e0f17e72c6f2fa756d8.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-8e0f17e72c6f2fa756d8.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "snippet-expander 已收录到 DeepSeek Harness Plugin Store。Steno：发送前的行内 #tag 快捷展开——多库、别名、{{变量}}、递归防护。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-8e0f17e72c6f2fa756d8.html",
+    "en": "snippet-expander is now listed on the DeepSeek Harness Plugin Store. Steno: inline #tag shorthand expansion before send — multi-library, aliases, {{variables}}, recursion guards.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-8e0f17e72c6f2fa756d8.html"
+  }
+}

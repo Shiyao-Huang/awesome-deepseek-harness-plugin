@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>memory-vault — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-4fa116f7c0be776ed3d7.atom.xml</id>
+  <updated>2026-08-17T18:59:27Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-4fa116f7c0be776ed3d7.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-4fa116f7c0be776ed3d7.html"/>
+  <entry>
+    <title>New: memory-vault</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-4fa116f7c0be776ed3d7/5de666e5ec393108</id>
+    <updated>2026-08-17T18:59:27Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-4fa116f7c0be776ed3d7.html"/>
+    <author><name>JohnXu22786</name></author>
+    <category term="memory"/>
+    <summary>Cross-session persistent memory for coding agents: SQLite local storage, hybrid keyword/semantic retrieval, Web and MCP interfaces. Exact install spec: github:johnxu22786/memory-vault. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

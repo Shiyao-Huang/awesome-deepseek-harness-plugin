@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>spec-driven — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-f059de2bd310f1539deb.atom.xml</id>
+  <updated>2026-08-17T18:59:27Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-f059de2bd310f1539deb.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f059de2bd310f1539deb.html"/>
+  <entry>
+    <title>New: spec-driven</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-f059de2bd310f1539deb/5de666e5ec393108</id>
+    <updated>2026-08-17T18:59:27Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f059de2bd310f1539deb.html"/>
+    <author><name>JohnXu22786</name></author>
+    <category term="skill"/>
+    <summary>keel (龙骨): spec-driven development discipline skill pack — spec first, verify assumptions, prevent over-engineering. Exact install spec: github:johnxu22786/spec-driven. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

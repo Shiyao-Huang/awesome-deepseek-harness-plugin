@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>task-board — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-31357b1e2db3816895a2.atom.xml</id>
-  <updated>2026-08-16T18:48:18Z</updated>
+  <updated>2026-08-17T18:59:27Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-31357b1e2db3816895a2.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-31357b1e2db3816895a2.html"/>
+  <entry>
+    <title>Updated: task-board</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-31357b1e2db3816895a2/28c8ffb95028ff64</id>
+    <updated>2026-08-17T18:59:27Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-31357b1e2db3816895a2.html"/>
+    <author><name>JohnXu22786</name></author>
+    <category term="workflow"/>
+    <summary>Event-sourced cross-session work ledger: register, track and settle tasks with full audit history, kanban export, and a board digest injected into every model turn. Exact install spec: github:johnxu22786/task-board. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
   <entry>
     <title>New: task-board</title>
     <id>tag:deeplugin.store,2026-08-16:deeplugin-31357b1e2db3816895a2/45054e5428d0febb</id>

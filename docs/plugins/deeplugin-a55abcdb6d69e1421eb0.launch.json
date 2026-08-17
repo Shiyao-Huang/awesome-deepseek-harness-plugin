@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a55abcdb6d69e1421eb0",
+    "name": "ouroboros#integrations/dsh-plugin",
+    "author": "Q00",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/Q00/ouroboros/tree/main/integrations/dsh-plugin",
+    "firstObservedAt": "2026-08-17T18:59:27Z",
+    "lastChangedAt": "2026-08-17T18:59:27Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a55abcdb6d69e1421eb0.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a55abcdb6d69e1421eb0.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:q00/ouroboros#path:/integrations/dsh-plugin",
+    "command": "dsh plugin --profile web add github:q00/ouroboros#path:/integrations/dsh-plugin",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a55abcdb6d69e1421eb0，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a55abcdb6d69e1421eb0.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a55abcdb6d69e1421eb0.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "ouroboros#integrations/dsh-plugin 已收录到 DeepSeek Harness Plugin Store。通过 DSH MCP 客户端挂载 Ouroboros 的纯配置包，在 DSH 中提供 36 个涵盖需求访谈、Seed、执行、评估与演化流程的工具。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a55abcdb6d69e1421eb0.html",
+    "en": "ouroboros#integrations/dsh-plugin is now listed on the DeepSeek Harness Plugin Store. Config-only bundle that mounts Ouroboros through the DSH MCP client, exposing 36 interview, Seed, execution, evaluation, and evolution workflow tools in DSH.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a55abcdb6d69e1421eb0.html"
+  }
+}

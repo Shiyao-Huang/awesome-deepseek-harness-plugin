@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-project-manager — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-ff892b863fc2efdd8e28.atom.xml</id>
+  <updated>2026-08-17T18:59:27Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-ff892b863fc2efdd8e28.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ff892b863fc2efdd8e28.html"/>
+  <entry>
+    <title>New: dsh-project-manager</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-ff892b863fc2efdd8e28/59c65580ae50a773</id>
+    <updated>2026-08-17T18:59:27Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ff892b863fc2efdd8e28.html"/>
+    <author><name>br1nosense</name></author>
+    <category term="dev"/>
+    <summary>Manage development projects from the DSH web UI in a draggable floating window: add/remove, one-click start/stop/restart, hot-reload restart on file changes, and real-time persistent logs. Exact install spec: github:br1nosense/dsh-project-manager. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

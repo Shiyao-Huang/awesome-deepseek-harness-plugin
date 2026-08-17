@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>safety-net — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-3e8ee47b9f51d1f04955.atom.xml</id>
-  <updated>2026-08-16T16:39:22Z</updated>
+  <updated>2026-08-17T18:59:27Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-3e8ee47b9f51d1f04955.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-3e8ee47b9f51d1f04955.html"/>
+  <entry>
+    <title>Updated: safety-net</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-3e8ee47b9f51d1f04955/28c8ffb95028ff64</id>
+    <updated>2026-08-17T18:59:27Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-3e8ee47b9f51d1f04955.html"/>
+    <author><name>JohnXu22786</name></author>
+    <category term="tools"/>
+    <summary>Destructive-command interception gate for dsh: parses shell semantics, judges risk against 41 built-in rules, and holds irreversible rm -rf, git reset --hard, and git push --force style commands at a confirmation gate. Exact install spec: github:johnxu22786/safety-net. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
   <entry>
     <title>New: safety-net</title>
     <id>tag:deeplugin.store,2026-08-16:deeplugin-3e8ee47b9f51d1f04955/3bdb45cc79abc5a6</id>

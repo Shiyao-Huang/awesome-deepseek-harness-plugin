@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-e5bdca017ba6e35b4dfb",
+    "name": "codegraph",
+    "author": "JohnXu22786",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/JohnXu22786/codegraph",
+    "firstObservedAt": "2026-08-17T18:59:27Z",
+    "lastChangedAt": "2026-08-17T18:59:27Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-e5bdca017ba6e35b4dfb.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-e5bdca017ba6e35b4dfb.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:johnxu22786/codegraph",
+    "command": "dsh plugin --profile web add github:johnxu22786/codegraph",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-e5bdca017ba6e35b4dfb，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-e5bdca017ba6e35b4dfb.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-e5bdca017ba6e35b4dfb.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "codegraph 已收录到 DeepSeek Harness Plugin Store。代码知识图谱：把符号、调用点与导入索引进 SQLite，回答调用/依赖问题。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e5bdca017ba6e35b4dfb.html",
+    "en": "codegraph is now listed on the DeepSeek Harness Plugin Store. Code knowledge graph: indexes symbols, call sites and imports into SQLite, answers call/dependency questions.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e5bdca017ba6e35b4dfb.html"
+  }
+}

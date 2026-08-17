@@ -2,9 +2,189 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>deeplugin.store — Updated plugins</title>
   <id>https://deeplugin.store/feeds/updated.atom.xml</id>
-  <updated>2026-08-17T16:48:37Z</updated>
+  <updated>2026-08-17T18:59:27Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/feeds/updated.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/market.html"/>
+  <entry>
+    <title>Updated: docs-retriever</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-ec31345be6dc287bd22d/28c8ffb95028ff64</id>
+    <updated>2026-08-17T18:59:27Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ec31345be6dc287bd22d.html"/>
+    <author><name>JohnXu22786</name></author>
+    <category term="tools"/>
+    <summary>Doctrove: versioned library documentation retrieval MCP server for coding agents — catalog lookup, version selection and focus-ranked doc extraction, with zero runtime dependencies and a dsh bundle. Exact install spec: github:johnxu22786/docs-retriever. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: skill-framework</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-c6c4f93ab538401f23d8/28c8ffb95028ff64</id>
+    <updated>2026-08-17T18:59:27Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c6c4f93ab538401f23d8.html"/>
+    <author><name>JohnXu22786</name></author>
+    <category term="skill"/>
+    <summary>Bundles an engineering-methodology skill library as one Cordis plugin: 14 Agent Skills (planning, testing, debugging, review, delivery) registered on ctx.skills for DeepSeek Harness. Exact install spec: github:johnxu22786/skill-framework. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: computer-control</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-b868b030bad58b2403a4/28c8ffb95028ff64</id>
+    <updated>2026-08-17T18:59:27Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b868b030bad58b2403a4.html"/>
+    <author><name>JohnXu22786</name></author>
+    <category term="tools"/>
+    <summary>Desktop (native) control for dsh as a stdio JSON-RPC bridge over a Python core: capture the screen, inject pointer/keyboard input, drive accessibility-tree actions, and gate high-risk operations behind required confirmations. Exact install spec: github:johnxu22786/computer-control. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: worktree-mgr</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-b69557b2a52a6cbe4e61/28c8ffb95028ff64</id>
+    <updated>2026-08-17T18:59:27Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b69557b2a52a6cbe4e61.html"/>
+    <author><name>JohnXu22786</name></author>
+    <category term="tools"/>
+    <summary>Per-task isolated git worktrees with a full create/sync/finish lifecycle: task names auto-derive branches, merge targets are double-checked, and batch cleanup is built in — zero manual git operations. Exact install spec: github:johnxu22786/worktree-mgr. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: session-titler</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-addc613942e7a356ab9d/28c8ffb95028ff64</id>
+    <updated>2026-08-17T18:59:27Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-addc613942e7a356ab9d.html"/>
+    <author><name>JohnXu22786</name></author>
+    <category term="session"/>
+    <summary>Two-phase session captioning: instant keyword titles while the conversation is busy, then cheapest-budget-model refinement plus a one-line summary once it goes idle. Exact install spec: github:johnxu22786/session-titler. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: fs-mcp</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-9bc18f0cb11794a366f1/28c8ffb95028ff64</id>
+    <updated>2026-08-17T18:59:27Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9bc18f0cb11794a366f1.html"/>
+    <author><name>JohnXu22786</name></author>
+    <category term="tools"/>
+    <summary>Paddock: constrained local filesystem MCP server for agents — text read/write, directory ops, filename and content search confined to configurable zones, with zero runtime dependencies and a dsh bundle. Exact install spec: github:johnxu22786/fs-mcp. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: pty-runner</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-895937888e5fe47bf754/28c8ffb95028ff64</id>
+    <updated>2026-08-17T18:59:27Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-895937888e5fe47bf754.html"/>
+    <author><name>JohnXu22786</name></author>
+    <category term="tools"/>
+    <summary>Long-lived background terminal jobs for dsh: launch processes in a PTY, write input (including control sequences like Ctrl+C), page through ring-buffered output, and stop jobs gracefully or forcefully. Exact install spec: github:johnxu22786/pty-runner. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: github-mcp</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-833d45744c3debd6d60d/28c8ffb95028ff64</id>
+    <updated>2026-08-17T18:59:27Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-833d45744c3debd6d60d.html"/>
+    <author><name>JohnXu22786</name></author>
+    <category term="tools"/>
+    <summary>GitHub workbench MCP server (dsh bundle): 23 MCP tools for repos, issues, PRs, code review, and search, with zero runtime dependencies and PAT/OAuth auth. Exact install spec: github:johnxu22786/github-mcp. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: file-planning</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-73de17481a0af05ab5f0/28c8ffb95028ff64</id>
+    <updated>2026-08-17T18:59:27Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-73de17481a0af05ab5f0.html"/>
+    <author><name>JohnXu22786</name></author>
+    <category term="workflow"/>
+    <summary>Disk-persisted execution planning for DSH: milestone/step state machines, dependency gating, an audit event stream, and a deterministic completion gate via dsh tools, CLI, or skill. Exact install spec: github:johnxu22786/file-planning. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-memory-meow</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-6c4924e66b9dddfd70fd/b208ca65d5ab8226</id>
+    <updated>2026-08-17T18:59:27Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-6c4924e66b9dddfd70fd.html"/>
+    <author><name>Phant0Meow</name></author>
+    <category term="memory"/>
+    <summary>Project-scoped cross-session memory: six-layer SQLite store (soul/user/project/fact/lesson/topic) on node:sqlite, cache-friendly first-message injection, memory_remember/search/find_similar/read/update tools, and per-window nightly consolidation ("dream"). Exact install spec: meow-memory. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
+  </entry>
+  <entry>
+    <title>Updated: notifier</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-65946147244182d17b66/28c8ffb95028ff64</id>
+    <updated>2026-08-17T18:59:27Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-65946147244182d17b66.html"/>
+    <author><name>JohnXu22786</name></author>
+    <category term="notify"/>
+    <summary>Desktop notifications and tones when a task finishes, waits for approval, or errors — native on macOS, Windows and Linux with zero runtime dependencies. Exact install spec: github:johnxu22786/notifier. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-agent-team-gui</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-4af28386664ef1bd7d59/9cd5266f6432029b</id>
+    <updated>2026-08-17T18:59:27Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-4af28386664ef1bd7d59.html"/>
+    <author><name>toolclub</name></author>
+    <category term="workflow"/>
+    <summary>Persistent multi-model squads configured in Settings and selected in the Composer, with per-member model/tool policies; the main Agent dynamically plans each send as a bounded DAG with bounded reviewer/repair loops, while Run Center tracks retries and per-member tokens from official Harness usage events. Exact install spec: github:toolclub/dsh-agent-team-gui. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
+  <entry>
+    <title>Updated: command-scout</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-449905b1416386914a68/28c8ffb95028ff64</id>
+    <updated>2026-08-17T18:59:27Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-449905b1416386914a68.html"/>
+    <author><name>JohnXu22786</name></author>
+    <category term="tools"/>
+    <summary>Scans a project's declared build commands — Makefile targets, package.json scripts, just recipes, deno tasks — and exposes them as ready-to-run agent tools. Exact install spec: github:johnxu22786/command-scout. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: safety-net</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-3e8ee47b9f51d1f04955/28c8ffb95028ff64</id>
+    <updated>2026-08-17T18:59:27Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-3e8ee47b9f51d1f04955.html"/>
+    <author><name>JohnXu22786</name></author>
+    <category term="tools"/>
+    <summary>Destructive-command interception gate for dsh: parses shell semantics, judges risk against 41 built-in rules, and holds irreversible rm -rf, git reset --hard, and git push --force style commands at a confirmation gate. Exact install spec: github:johnxu22786/safety-net. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: context-pruner</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-3179b97c8bc01e922a32/28c8ffb95028ff64</id>
+    <updated>2026-08-17T18:59:27Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-3179b97c8bc01e922a32.html"/>
+    <author><name>JohnXu22786</name></author>
+    <category term="memory"/>
+    <summary>Session context triage for long DeepSeek Harness sessions: deterministic screeners trim stale, duplicate, failed, and oversized content through the official ctx.compaction seam. Exact install spec: github:johnxu22786/context-pruner. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: task-board</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-31357b1e2db3816895a2/28c8ffb95028ff64</id>
+    <updated>2026-08-17T18:59:27Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-31357b1e2db3816895a2.html"/>
+    <author><name>JohnXu22786</name></author>
+    <category term="workflow"/>
+    <summary>Event-sourced cross-session work ledger: register, track and settle tasks with full audit history, kanban export, and a board digest injected into every model turn. Exact install spec: github:johnxu22786/task-board. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: browser-automation</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-303d7469a1bb7484a4c1/28c8ffb95028ff64</id>
+    <updated>2026-08-17T18:59:27Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-303d7469a1bb7484a4c1.html"/>
+    <author><name>JohnXu22786</name></author>
+    <category term="tools"/>
+    <summary>Real-browser automation for dsh via an MCP server (Playwright core): navigate, click, fill, type, screenshot, and act on accessibility snapshots with numbered references - all 22 web_* tools re-exposed to the harness over stdio. Exact install spec: github:johnxu22786/browser-automation. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: secret-guard</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-0f179403efc4cb950a64/28c8ffb95028ff64</id>
+    <updated>2026-08-17T18:59:27Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-0f179403efc4cb950a64.html"/>
+    <author><name>JohnXu22786</name></author>
+    <category term="tools"/>
+    <summary>Blocks agents from reading or writing sensitive files (.env, credentials, key material), masks leaked secret-shaped values in tool results, keeps an audit journal, and exposes safe sg_* inspection tools that never print raw values. Exact install spec: github:johnxu22786/secret-guard. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: hooks-adapter</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-0c44bbc7b424bb31b395/28c8ffb95028ff64</id>
+    <updated>2026-08-17T18:59:27Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-0c44bbc7b424bb31b395.html"/>
+    <author><name>JohnXu22786</name></author>
+    <category term="dev"/>
+    <summary>Reuses hooks declared in Claude Code, Codex and opencode configs on dsh, executing shell, webhook, oracle and proxy handlers with zero runtime dependencies. Exact install spec: github:johnxu22786/hooks-adapter. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: adversarial-review</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-07abe4483c67d95ecf90/28c8ffb95028ff64</id>
+    <updated>2026-08-17T18:59:27Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-07abe4483c67d95ecf90.html"/>
+    <author><name>JohnXu22786</name></author>
+    <category term="dev"/>
+    <summary>Adversarial multi-lens code review: parallel correctness/security/maintainability lenses attack a diff, with deterministic severity grading, suppression rules and incremental review history. Exact install spec: github:johnxu22786/adversarial-review. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
   <entry>
     <title>Updated: dsh-remote</title>
     <id>tag:deeplugin.store,2026-08-17:deeplugin-edc255075902a2cc2fc5/9645f5543e82aa9a</id>
@@ -67,15 +247,6 @@
     <author><name>ruby1304</name></author>
     <category term="vision"/>
     <summary>Vision for any DSH route: paste images in the Web composer with intent-aware auto-analysis, delegate workspace image reads to a Kimi/MiniMax vision subagent, and materialize pasted originals for editing. Exact install spec: dsh-vision-subagent. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-agent-team-gui</title>
-    <id>tag:deeplugin.store,2026-08-17:deeplugin-4af28386664ef1bd7d59/cf3251a43a11c2a5</id>
-    <updated>2026-08-17T14:45:53Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-4af28386664ef1bd7d59.html"/>
-    <author><name>toolclub</name></author>
-    <category term="workflow"/>
-    <summary>Persistent multi-model agent squads that collaborate on ordinary sends, with per-agent primary and fallback model/tool policies, per-project defaults, and a run centre showing plans, retries, and provider-reported token usage. Exact install spec: github:toolclub/dsh-agent-team-gui. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
   </entry>
   <entry>
     <title>Updated: dsh-mc-launcher</title>
@@ -733,176 +904,5 @@
     <author><name>maxiaovivi</name></author>
     <category term="tools"/>
     <summary>CloakBrowser-powered native browser tools with per-agent isolated sessions, bounded snapshots, ref-based interaction, screenshots, and safe routing. Exact install spec: github:maxiaovivi/dsh-cloak-browser. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-client-ui-writing</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-fd0f67c92b2b9e8d2afe/d947fc14d81f9c69</id>
-    <updated>2026-08-16T09:56:16Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fd0f67c92b2b9e8d2afe.html"/>
-    <author><name>x2802490130-prog</name></author>
-    <category term="ui"/>
-    <summary>Client-side writing panel for the Web UI: project volumes and stats, corpus library, full-text search, evolution version-chain diffs, and an SVG thread graph, shown only in writing-preset sessions. Exact install spec: dsh-client-ui-writing. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-vscode-theme</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-fc6745206f4df6271775/d947fc14d81f9c69</id>
-    <updated>2026-08-16T09:56:16Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fc6745206f4df6271775.html"/>
-    <author><name>Sim-xia</name></author>
-    <category term="theme"/>
-    <summary>Imports .vsix theme files made for Visual Studio Code and applies them to the DSH Web UI. Exact install spec: github:sim-xia/dsh-vscode-theme. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-web-restart</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-fbef6af540b5710ba3fd/d947fc14d81f9c69</id>
-    <updated>2026-08-16T09:56:16Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fbef6af540b5710ba3fd.html"/>
-    <author><name>1123762794</name></author>
-    <category term="ui"/>
-    <summary>One-click restart button for the DSH Web UI: a sidebar footer button that restarts the dsh web process with a single click and persists across the restart it triggers. Exact install spec: github:1123762794/dsh-web-restart. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-quicksight</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-fb2e4bb773113b23467e/d947fc14d81f9c69</id>
-    <updated>2026-08-16T09:56:16Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fb2e4bb773113b23467e.html"/>
-    <author><name>Isanti2016</name></author>
-    <category term="tools"/>
-    <summary>Two-tier image reading for text-only models: fast local OCR (RapidOCR, offline) first, vision-model fallback (modlens). Exact install spec: dsh-quicksight. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-web-preview-float</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-fa21a293c92b2da2cfc6/d947fc14d81f9c69</id>
-    <updated>2026-08-16T09:56:16Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fa21a293c92b2da2cfc6.html"/>
-    <author><name>WJNCT55555</name></author>
-    <category term="ui"/>
-    <summary>Google AI Studio-style floating preview for the Web UI: a draggable/resizable iframe preview with aspect-ratio and resolution presets, plus a VS Code-style code window with direct editing, confirmed writes, and session-log recording. Exact install spec: github:wjnct55555/dsh-web-preview-float. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-zhihu-dashboard</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-f9792c8e90d5b7ae6b7e/d947fc14d81f9c69</id>
-    <updated>2026-08-16T09:56:16Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f9792c8e90d5b7ae6b7e.html"/>
-    <author><name>kexuejin</name></author>
-    <category term="tools"/>
-    <summary>Zhihu (知乎) dashboard: hot list with trend arrows, follow feed (favorites/creations/followees), post tracking (question/keyword/person) with auto-briefs, and five agent tools (zhihu_search/hot/answer/global_search/followees). Exact install spec: github:kexuejin/dsh-zhihu-dashboard. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-chat-tidy</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-f956476b3966117a5c62/d947fc14d81f9c69</id>
-    <updated>2026-08-16T09:56:16Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f956476b3966117a5c62.html"/>
-    <author><name>ChuanTianML</name></author>
-    <category term="ui"/>
-    <summary>One stylesheet that retypesets the DSH conversation to measured Codex metrics: 14/22 px body, tighter heading ladder, list and block rhythm, blockquote bar and table cells, with no settings to choose and before/after captures in the README. Exact install spec: dsh-chat-tidy. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-incognito</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-f956454ecb0bcb48f94c/d947fc14d81f9c69</id>
-    <updated>2026-08-16T09:56:16Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f956454ecb0bcb48f94c.html"/>
-    <author><name>HuiHuitie-zhu</name></author>
-    <category term="session"/>
-    <summary>Incognito sessions: a standalone ephemeral sub-agent with its own preset (no parent context) and full toolset, draggable floating window, burned to zero traces on close. Exact install spec: dsh-incognito. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-exa-mcp</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-f75f767ca465bb76d03e/d947fc14d81f9c69</id>
-    <updated>2026-08-16T09:56:16Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f75f767ca465bb76d03e.html"/>
-    <author><name>MicroHEROX</name></author>
-    <category term="tools"/>
-    <summary>Mounts the hosted Exa search MCP endpoint (https://mcp.exa.ai/mcp) through the in-box @deepseek-ai/dsh-mcp-client bridge: web_search_exa and web_fetch_exa tools, anonymous on the free tier or with your own EXA_API_KEY. Exact install spec: dsh-exa-mcp. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-tui</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-f67b164f254761d6cdb8/d947fc14d81f9c69</id>
-    <updated>2026-08-16T09:56:16Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f67b164f254761d6cdb8.html"/>
-    <author><name>xiaoshihou514</name></author>
-    <category term="ui"/>
-    <summary>Clean and simple TUI. Exact install spec: github:xiaoshihou514/dsh-tui. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: sendpage-mcp</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-f414977da3a917b65032/d947fc14d81f9c69</id>
-    <updated>2026-08-16T09:56:16Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f414977da3a917b65032.html"/>
-    <author><name>jcaiagent7143-ui</name></author>
-    <category term="tools"/>
-    <summary>Publish an HTML document as a shareable link that opens in one tap and previews as a card in chat apps; publish, update, and export to PNG/PDF/Word. Exact install spec: github:jcaiagent7143-ui/sendpage-mcp. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-cdp-browser</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-f38c019431bb794ab279/d947fc14d81f9c69</id>
-    <updated>2026-08-16T09:56:16Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f38c019431bb794ab279.html"/>
-    <author><name>zaiwenJ</name></author>
-    <category term="tools"/>
-    <summary>CDP bridge to an already-running Chrome/Edge for DSH: screenshots, pixel assertions, DOM/CSS checks, and page JS evaluation over HTTP + WebSocket, with zero child processes, zero npm dependencies, and zero per-use approval. Exact install spec: github:zaiwenj/dsh-cdp-browser. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-hyperframes</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-f386060c43afc09b3672/d947fc14d81f9c69</id>
-    <updated>2026-08-16T09:56:16Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f386060c43afc09b3672.html"/>
-    <author><name>STARDUSTLC666</name></author>
-    <category term="skill"/>
-    <summary>Five official HyperFrames by HeyGen skills: HTML video / CLI / registry / website-to-video / GSAP reference. Exact install spec: dsh-hyperframes. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-plugin-uisfx</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-f34412abafa55486f38d/d947fc14d81f9c69</id>
-    <updated>2026-08-16T09:56:16Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f34412abafa55486f38d.html"/>
-    <author><name>XanthanL</name></author>
-    <category term="ui"/>
-    <summary>Semantic UI sound effects powered by uisfx: task start/success/failure and per-button cues, settings UI with instant preview, 12 sound packs, Host-persisted preferences, and `ctx.uisfx` service for other plugins. Exact install spec: dsh-plugin-uisfx. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: awesome-dsh</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-f299b2db46fec6deb6fd/d947fc14d81f9c69</id>
-    <updated>2026-08-16T09:56:16Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f299b2db46fec6deb6fd.html"/>
-    <author><name>stakeswky</name></author>
-    <category term="market"/>
-    <summary>Turns a stated need into a plugin choice: an agent skill that queries a catalog of the whole `dsh-plugin` topic (2600+ repos, recrawled every 6 hours, Chinese descriptions from Workers AI) through a ranked search API, then hands back the matching `dsh plugin add` command. Exact install spec: github:stakeswky/awesome-dsh. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-code-runtime-container</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-f0944bfa561709e9db61/d947fc14d81f9c69</id>
-    <updated>2026-08-16T09:56:16Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f0944bfa561709e9db61.html"/>
-    <author><name>tancheng33</name></author>
-    <category term="dev"/>
-    <summary>Container-isolated backend for the `ctx.codeRuntime` seam: each Code Mode program runs in a fresh container with no network, a read-only rootfs, dropped capabilities, and kernel-enforced memory, CPU and pid ceilings. Exact install spec: github:tancheng33/dsh-code-runtime-container. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: TMCRA-Agent-Memory</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-ef921c770cc37dab392a/d947fc14d81f9c69</id>
-    <updated>2026-08-16T09:56:16Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ef921c770cc37dab392a.html"/>
-    <author><name>reshuibuduo</name></author>
-    <category term="memory"/>
-    <summary>Technical-preview local graph memory for DSH and Codex: recalls owner-global and current-project evidence before each turn, writes USER and ASSISTANT records separately, and preserves project, session, actor, and source provenance for a visual atlas and cited knowledge pages. Exact install spec: github:reshuibuduo/tmcra-agent-memory. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-prompt-manager</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-eee84d2e2d6abe2d6d0f/d947fc14d81f9c69</id>
-    <updated>2026-08-16T09:56:16Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-eee84d2e2d6abe2d6d0f.html"/>
-    <author><name>SaiSenBox</name></author>
-    <category term="session"/>
-    <summary>Browser-local prompt library with a composer picker for injecting multiple session-scoped system prompts, branch inheritance, bilingual UI, favorites, and JSON backups. Exact install spec: dsh-prompt-manager. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-credentials-vault</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-eeddc687ee6b22ba8221/d947fc14d81f9c69</id>
-    <updated>2026-08-16T09:56:16Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-eeddc687ee6b22ba8221.html"/>
-    <author><name>tancheng33</name></author>
-    <category term="dev"/>
-    <summary>HashiCorp Vault backend for the credential seam: KV v2/v1, AppRole machine auth, per-operation reads so rotation needs no restart, and compare-and-swap writes. Exact install spec: github:tancheng33/dsh-credentials-vault. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
   </entry>
 </feed>

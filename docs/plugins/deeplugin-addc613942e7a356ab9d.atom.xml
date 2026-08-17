@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>session-titler — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-addc613942e7a356ab9d.atom.xml</id>
-  <updated>2026-08-16T18:48:18Z</updated>
+  <updated>2026-08-17T18:59:27Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-addc613942e7a356ab9d.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-addc613942e7a356ab9d.html"/>
+  <entry>
+    <title>Updated: session-titler</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-addc613942e7a356ab9d/28c8ffb95028ff64</id>
+    <updated>2026-08-17T18:59:27Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-addc613942e7a356ab9d.html"/>
+    <author><name>JohnXu22786</name></author>
+    <category term="session"/>
+    <summary>Two-phase session captioning: instant keyword titles while the conversation is busy, then cheapest-budget-model refinement plus a one-line summary once it goes idle. Exact install spec: github:johnxu22786/session-titler. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
   <entry>
     <title>New: session-titler</title>
     <id>tag:deeplugin.store,2026-08-16:deeplugin-addc613942e7a356ab9d/45054e5428d0febb</id>

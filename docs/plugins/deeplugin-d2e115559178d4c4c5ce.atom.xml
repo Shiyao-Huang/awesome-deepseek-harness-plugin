@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-fish-tts — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-d2e115559178d4c4c5ce.atom.xml</id>
+  <updated>2026-08-17T18:59:27Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-d2e115559178d4c4c5ce.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d2e115559178d4c4c5ce.html"/>
+  <entry>
+    <title>New: dsh-fish-tts</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-d2e115559178d4c4c5ce/59c65580ae50a773</id>
+    <updated>2026-08-17T18:59:27Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d2e115559178d4c4c5ce.html"/>
+    <author><name>MaRi23333</name></author>
+    <category term="voice"/>
+    <summary>Reads assistant replies aloud via Fish Audio API only (bring your own key): per-message read-aloud, auto-read toggle, and a settings page for model, voice reference_id, encrypted API key, and proxy. Exact install spec: github:mari23333/dsh-fish-tts. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

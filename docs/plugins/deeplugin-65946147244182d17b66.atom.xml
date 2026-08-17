@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>notifier — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-65946147244182d17b66.atom.xml</id>
-  <updated>2026-08-16T16:39:22Z</updated>
+  <updated>2026-08-17T18:59:27Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-65946147244182d17b66.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-65946147244182d17b66.html"/>
+  <entry>
+    <title>Updated: notifier</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-65946147244182d17b66/28c8ffb95028ff64</id>
+    <updated>2026-08-17T18:59:27Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-65946147244182d17b66.html"/>
+    <author><name>JohnXu22786</name></author>
+    <category term="notify"/>
+    <summary>Desktop notifications and tones when a task finishes, waits for approval, or errors — native on macOS, Windows and Linux with zero runtime dependencies. Exact install spec: github:johnxu22786/notifier. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
   <entry>
     <title>New: notifier</title>
     <id>tag:deeplugin.store,2026-08-16:deeplugin-65946147244182d17b66/3bdb45cc79abc5a6</id>

@@ -5,6 +5,24 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 2026-08-17 | github | plugin | [chicheng-push](https://github.com/534119219/chicheng-push) | 534119219 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [codegraph](https://github.com/JohnXu22786/codegraph) | JohnXu22786 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [docgen](https://github.com/JohnXu22786/docgen) | JohnXu22786 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-auto-open-web](https://github.com/jinsiyu/dsh-auto-open-web) | jinsiyu | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-eye-vision](https://github.com/AlloyPlane/dsh-eye-vision) | AlloyPlane | multimedia-and-vision |
+| 2026-08-17 | github | plugin | [dsh-fish-tts](https://github.com/MaRi23333/dsh-fish-tts) | MaRi23333 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-guide-dog](https://github.com/AtropinolTT/dsh-guide-dog) | AtropinolTT | docs-and-learning |
+| 2026-08-14 | github | plugin | [dsh-meow-memory](https://github.com/Phant0Meow/dsh-meow-memory) | Phant0Meow | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-net-tools](https://github.com/izwarm195/dsh-net-tools) | izwarm195 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-project-manager](https://github.com/br1nosense/dsh-project-manager) | br1nosense | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-read-url](https://github.com/2672243194/dsh-read-url) | 2672243194 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-with-pencil](https://github.com/IWAIBAOLI/dsh-with-pencil) | IWAIBAOLI | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [memory-vault](https://github.com/JohnXu22786/memory-vault) | JohnXu22786 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [model-catalog](https://github.com/JohnXu22786/model-catalog) | JohnXu22786 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [skill-manager](https://github.com/JohnXu22786/skill-manager) | JohnXu22786 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [snippet-expander](https://github.com/JohnXu22786/snippet-expander) | JohnXu22786 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [spec-driven](https://github.com/JohnXu22786/spec-driven) | JohnXu22786 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [statusline](https://github.com/JohnXu22786/statusline) | JohnXu22786 | core-and-ecosystem |
 | 2026-08-17 | github | plugin | [DSH-CODEX-SUBSCRIPTION-POOL](https://github.com/Eve-146T/DSH-CODEX-SUBSCRIPTION-POOL) | Eve-146T | core-and-ecosystem |
 | 2026-08-17 | github | plugin | [arch-doc](https://github.com/duyanta123/arch-doc) | duyanta123 | core-and-ecosystem |
 | 2026-08-17 | github | plugin | [chicheng-cron](https://github.com/534119219/chicheng-cron) | 534119219 | core-and-ecosystem |

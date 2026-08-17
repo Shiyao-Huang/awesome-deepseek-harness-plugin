@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>computer-control — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-b868b030bad58b2403a4.atom.xml</id>
-  <updated>2026-08-17T03:14:45Z</updated>
+  <updated>2026-08-17T18:59:27Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-b868b030bad58b2403a4.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b868b030bad58b2403a4.html"/>
+  <entry>
+    <title>Updated: computer-control</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-b868b030bad58b2403a4/28c8ffb95028ff64</id>
+    <updated>2026-08-17T18:59:27Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b868b030bad58b2403a4.html"/>
+    <author><name>JohnXu22786</name></author>
+    <category term="tools"/>
+    <summary>Desktop (native) control for dsh as a stdio JSON-RPC bridge over a Python core: capture the screen, inject pointer/keyboard input, drive accessibility-tree actions, and gate high-risk operations behind required confirmations. Exact install spec: github:johnxu22786/computer-control. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
   <entry>
     <title>New: computer-control</title>
     <id>tag:deeplugin.store,2026-08-17:deeplugin-b868b030bad58b2403a4/6c8bd3aed28b3563</id>
