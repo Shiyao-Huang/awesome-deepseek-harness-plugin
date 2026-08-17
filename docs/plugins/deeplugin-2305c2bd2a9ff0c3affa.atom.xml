@@ -11,7 +11,7 @@
     <updated>2026-08-15T22:14:49Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-2305c2bd2a9ff0c3affa.html"/>
     <author><name>anweat</name></author>
-    <category term="dev"/>
+    <category term="fun"/>
     <summary>Restart DSH: configurable restart method (Node native / legacy PowerShell), post-restart continue prompt, optional watchdog auto-relaunch. Exact install spec: dsh-restart. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
   </entry>
   <entry>
@@ -20,7 +20,7 @@
     <updated>2026-08-15T22:14:49Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-2305c2bd2a9ff0c3affa.html"/>
     <author><name>anweat</name></author>
-    <category term="dev"/>
+    <category term="fun"/>
     <summary>Restart DSH: configurable restart method (Node native / legacy PowerShell), post-restart continue prompt, optional watchdog auto-relaunch. Exact install spec: dsh-restart. Source event: dsh-market/dsh-market; changed: sources.</summary>
   </entry>
   <entry>
@@ -29,7 +29,7 @@
     <updated>2026-08-15T22:14:49Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-2305c2bd2a9ff0c3affa.html"/>
     <author><name>anweat</name></author>
-    <category term="dev"/>
+    <category term="fun"/>
     <summary>Restart DSH: configurable restart method (Node native / legacy PowerShell), post-restart continue prompt, optional watchdog auto-relaunch. Exact install spec: dsh-restart. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
   </entry>
   <entry>
@@ -38,7 +38,7 @@
     <updated>2026-08-15T22:14:49Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-2305c2bd2a9ff0c3affa.html"/>
     <author><name>anweat</name></author>
-    <category term="dev"/>
+    <category term="fun"/>
     <summary>Restart DSH: configurable restart method (Node native / legacy PowerShell), post-restart continue prompt, optional watchdog auto-relaunch. Exact install spec: dsh-restart. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

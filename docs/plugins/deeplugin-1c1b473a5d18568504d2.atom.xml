@@ -12,7 +12,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1c1b473a5d18568504d2.html"/>
     <author><name>gongyijie85</name></author>
     <category term="skill"/>
-    <summary>Matt Pocock full promoted skill set (25 SKILL.md: grilling, writing-for-agents, wait-what, TDD, code review, wayfinder, ask-matt router) ported to DSH. Exact install spec: mattpocock-skills-dsh. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
+    <summary>Matt Pocock's full promoted skill set (25 SKILL.md files: grilling, writing-for-agents, wait-what, TDD, code-review, wayfinder, ask-matt router and more) as a DeepSeek Harness plugin, adapted from mattpocock/skills (MIT). Exact install spec: mattpocock-skills-dsh. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
   </entry>
   <entry>
     <title>New: mattpocock-skills-dsh</title>
@@ -21,6 +21,6 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1c1b473a5d18568504d2.html"/>
     <author><name>gongyijie85</name></author>
     <category term="skill"/>
-    <summary>Matt Pocock full promoted skill set (25 SKILL.md: grilling, writing-for-agents, wait-what, TDD, code review, wayfinder, ask-matt router) ported to DSH. Exact install spec: mattpocock-skills-dsh. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
+    <summary>Matt Pocock's full promoted skill set (25 SKILL.md files: grilling, writing-for-agents, wait-what, TDD, code-review, wayfinder, ask-matt router and more) as a DeepSeek Harness plugin, adapted from mattpocock/skills (MIT). Exact install spec: mattpocock-skills-dsh. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

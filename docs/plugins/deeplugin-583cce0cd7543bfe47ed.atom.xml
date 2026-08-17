@@ -11,7 +11,7 @@
     <updated>2026-08-15T22:14:49Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-583cce0cd7543bfe47ed.html"/>
     <author><name>anweat</name></author>
-    <category term="tools"/>
+    <category term="fun"/>
     <summary>Self-contained browser runtime: Playwright (chromium) + OpenCLI as plugin-local dependencies (global reuse fallback), exposes a `browser` service and 9 interactive browser tools. Exact install spec: @anweat/dsh-browser. Source event: dsh-market/dsh-market; changed: sources.</summary>
   </entry>
   <entry>
@@ -20,7 +20,7 @@
     <updated>2026-08-15T22:14:49Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-583cce0cd7543bfe47ed.html"/>
     <author><name>anweat</name></author>
-    <category term="tools"/>
+    <category term="fun"/>
     <summary>Self-contained browser runtime: Playwright (chromium) + OpenCLI as plugin-local dependencies (global reuse fallback), exposes a `browser` service and 9 interactive browser tools. Exact install spec: @anweat/dsh-browser. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
   </entry>
   <entry>
@@ -29,7 +29,7 @@
     <updated>2026-08-15T22:14:49Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-583cce0cd7543bfe47ed.html"/>
     <author><name>anweat</name></author>
-    <category term="tools"/>
+    <category term="fun"/>
     <summary>Self-contained browser runtime: Playwright (chromium) + OpenCLI as plugin-local dependencies (global reuse fallback), exposes a `browser` service and 9 interactive browser tools. Exact install spec: @anweat/dsh-browser. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

@@ -5,7 +5,7 @@
     "id": "deeplugin-9a884a8e8a4e2bfb3184",
     "name": "Code2Skill",
     "author": "leechen298",
-    "category": "dev",
+    "category": "skill",
     "version": null,
     "homepage": "https://github.com/leechen298/Code2Skill",
     "firstObservedAt": "2026-08-15T22:14:49Z",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-9a884a8e8a4e2bfb3184.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "Code2Skill 已收录到 DeepSeek Harness Plugin Store。从用户授权的源码生成 Function、MCP 工具、工作流 Skill 与离线测试包。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-9a884a8e8a4e2bfb3184.html",
-    "en": "Code2Skill is now listed on the DeepSeek Harness Plugin Store. Generate Functions, MCP tools, workflow Skills, and offline test packages from user-authorized source code.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-9a884a8e8a4e2bfb3184.html"
+    "zh": "Code2Skill 已收录到 DeepSeek Harness Plugin Store。从现有代码生成 Function、MCP、Agent Skill 和离线测试包，并作为可安装的 DSH Bundle 分发。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-9a884a8e8a4e2bfb3184.html",
+    "en": "Code2Skill is now listed on the DeepSeek Harness Plugin Store. Generates Function, MCP, Agent Skill, and offline test packages from existing code as an installable DSH bundle.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-9a884a8e8a4e2bfb3184.html"
   }
 }

@@ -5,6 +5,11 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 2026-08-17T09:02:37Z | github | ecosystem-reference | [ChatCCC](https://github.com/wzj998/ChatCCC) | wzj998 | core-and-ecosystem |
+| 2026-08-17T09:02:37Z | github | plugin | [dsh-plugin-guard](https://github.com/lxzy-7/dsh-plugin-guard) | lxzy-7 | core-and-ecosystem |
+| 2026-08-17T09:02:37Z | github | plugin | [dsh-plugin-jinji](https://github.com/quan2005/dsh-plugin-jinji) | quan2005 | core-and-ecosystem |
+| 2026-08-17T09:02:37Z | github | plugin | [dsh-repo-context](https://github.com/qing3a/dsh-repo-context) | qing3a | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-skill-curator](https://github.com/gwrsfsfeefdsfs/dsh-skill-curator) | gwrsfsfeefdsfs | core-and-ecosystem |
 | 2026-08-17 | github | plugin | [dsh-auth-tunnel](https://github.com/ai-eks/dsh-auth-tunnel) | ai-eks | core-and-ecosystem |
 | 2026-08-17 | github | plugin | [dsh-auto-compact](https://github.com/songoao25/dsh-auto-compact) | songoao25 | core-and-ecosystem |
 | 2026-08-17 | github | plugin | [dsh-chrome](https://github.com/stuarthu/dsh-chrome) | stuarthu | core-and-ecosystem |
@@ -14446,6 +14451,7 @@
 | 2026-04-25T09:19:13Z | github | repository | [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) | freestylefly | index-and-marketplace |
 | 2026-04-21T21:21:14Z | hacker_news | story | [Show HN: I built a coding agent that works with 8k context local models](https://news.ycombinator.com/item?id=47854640) | razvanneculai | operations-and-safety |
 | 2026-04-20T12:31:22Z | github | repository | [Ariestar/sivtr](https://github.com/Ariestar/sivtr) | Ariestar | core-and-ecosystem |
+| 2026-04-16T05:54:32Z | github | repository | [kangarooking/cangjie-skill](https://github.com/kangarooking/cangjie-skill) | kangarooking | core-and-ecosystem |
 | 2026-04-15T05:27:37Z | github | repository | [tt-a1i/archify](https://github.com/tt-a1i/archify) | tt-a1i | docs-and-learning |
 | 2026-04-14T00:51:32Z | github | repository | [morluto/rea](https://github.com/morluto/rea) | morluto | core-and-ecosystem |
 | 2026-04-11T11:49:55Z | github | repository | [syncable-dev/memtrace-public](https://github.com/syncable-dev/memtrace-public) | syncable-dev | core-and-ecosystem |

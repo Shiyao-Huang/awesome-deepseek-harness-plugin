@@ -11,8 +11,8 @@
     <updated>2026-08-17T03:14:45Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-260184ba8eb28647965d.html"/>
     <author><name>moon09300731</name></author>
-    <category term="vision"/>
-    <summary>Full vision-capability bundle for DeepSeek Harness: a vision_understand tool (OpenAI-compatible vision APIs, free Zhipu GLM-4V-Flash by default) plus paste/drag-and-drop/button entry points for image recognition. Exact install spec: dsh-vision-tools. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+    <category term="tools"/>
+    <summary>Full vision-capability bundle for DeepSeek Harness: a `vision_understand` tool (OpenAI-compatible vision APIs, free Zhipu GLM-4V-Flash by default) plus paste/drag-and-drop/button entry points for image recognition. Exact install spec: dsh-vision-tools. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
   </entry>
   <entry>
     <title>New: dsh-vision-tools</title>
@@ -20,7 +20,7 @@
     <updated>2026-08-17T03:14:45Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-260184ba8eb28647965d.html"/>
     <author><name>moon09300731</name></author>
-    <category term="vision"/>
-    <summary>Full vision-capability bundle for DeepSeek Harness: a vision_understand tool (OpenAI-compatible vision APIs, free Zhipu GLM-4V-Flash by default) plus paste/drag-and-drop/button entry points for image recognition. Exact install spec: dsh-vision-tools. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+    <category term="tools"/>
+    <summary>Full vision-capability bundle for DeepSeek Harness: a `vision_understand` tool (OpenAI-compatible vision APIs, free Zhipu GLM-4V-Flash by default) plus paste/drag-and-drop/button entry points for image recognition. Exact install spec: dsh-vision-tools. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

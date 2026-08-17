@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a05f02effa63a7b86a37.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-ponytail 已收录到 DeepSeek Harness Plugin Store。Ponytail 最懒资深工程师模式：6 个技能，改编自 DietrichGebert/ponytail。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a05f02effa63a7b86a37.html",
-    "en": "dsh-ponytail is now listed on the DeepSeek Harness Plugin Store. Ponytail lazy senior dev mode: 6 skills adapted from DietrichGebert/ponytail.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a05f02effa63a7b86a37.html"
+    "zh": "dsh-ponytail 已收录到 DeepSeek Harness Plugin Store。最懒资深工程师模式（Ponytail）的 DSH 移植：6 个技能（ponytail、ponytail-audit、ponytail-debt、ponytail-gain、ponytail-help、ponytail-review），改编自 DietrichGebert/ponytail（MIT）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a05f02effa63a7b86a37.html",
+    "en": "dsh-ponytail is now listed on the DeepSeek Harness Plugin Store. Ponytail, lazy senior dev mode, for DSH: 6 skills (ponytail, ponytail-audit, ponytail-debt, ponytail-gain, ponytail-help, ponytail-review) adapted from DietrichGebert/ponytail (MIT).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a05f02effa63a7b86a37.html"
   }
 }

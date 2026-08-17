@@ -5,7 +5,7 @@
     "id": "deeplugin-260184ba8eb28647965d",
     "name": "dsh-vision-tools",
     "author": "moon09300731",
-    "category": "vision",
+    "category": "tools",
     "version": null,
     "homepage": "https://github.com/moon09300731/dsh-vision-tools",
     "firstObservedAt": "2026-08-17T03:14:45Z",
@@ -28,6 +28,6 @@
   },
   "posts": {
     "zh": "dsh-vision-tools 已收录到 DeepSeek Harness Plugin Store。DeepSeek Harness 视觉能力全家桶：vision_understand 工具（OpenAI 兼容视觉 API，默认免费智谱 GLM-4V-Flash）+ 粘贴/拖拽/按钮三入口识图。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-260184ba8eb28647965d.html",
-    "en": "dsh-vision-tools is now listed on the DeepSeek Harness Plugin Store. Full vision-capability bundle for DeepSeek Harness: a vision_understand tool (OpenAI-compatible vision APIs, free Zhipu GLM-4V-Flash by default) plus paste/drag-and-drop/button entry points for image recognition.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-260184ba8eb28647965d.html"
+    "en": "dsh-vision-tools is now listed on the DeepSeek Harness Plugin Store. Full vision-capability bundle for DeepSeek Harness: a `vision_understand` tool (OpenAI-compatible vision APIs, free Zhipu GLM-4V-Flash by default) plus paste/drag-and-drop/button entry points for image recognition.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-260184ba8eb28647965d.html"
   }
 }

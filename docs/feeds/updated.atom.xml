@@ -93,7 +93,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-7f1805189239231d770d.html"/>
     <author><name>daetz-coder</name></author>
     <category term="ui"/>
-    <summary>Multi-window wall for the DSH Web UI: run and monitor N conversations side-by-side in one screen, with auto-discovery, per-window controls, and an authenticated LAN gateway for phone/tablet access. Exact install spec: dsh-multi-chat. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+    <summary>A multi-window wall for the DSH Web UI: run and monitor N conversations side-by-side in one screen, with auto-discovery, per-window controls, and an authenticated LAN gateway for phone/tablet access. Exact install spec: dsh-multi-chat. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
   </entry>
   <entry>
     <title>Updated: dsh-sxs-news-collector</title>
@@ -183,7 +183,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-903165ddbc134f8cb6cd.html"/>
     <author><name>moon09300731</name></author>
     <category term="tools"/>
-    <summary>Risk-gated approval automation for DeepSeek Harness: flash pre-classifies whether a write/command is irreversible — safe operations are auto-approved, dangerous ones are escalated to human approval (fail-safe). Exact install spec: dsh-approval-gate. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+    <summary>Risk-gated approval automation: flash pre-classifies whether a write/command is irreversible — safe operations are auto-approved, dangerous ones are escalated to human approval (fail-safe). Exact install spec: dsh-approval-gate. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
   </entry>
   <entry>
     <title>Updated: dsh-voice-input-plugin</title>
@@ -254,8 +254,8 @@
     <updated>2026-08-17T03:14:45Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-260184ba8eb28647965d.html"/>
     <author><name>moon09300731</name></author>
-    <category term="vision"/>
-    <summary>Full vision-capability bundle for DeepSeek Harness: a vision_understand tool (OpenAI-compatible vision APIs, free Zhipu GLM-4V-Flash by default) plus paste/drag-and-drop/button entry points for image recognition. Exact install spec: dsh-vision-tools. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+    <category term="tools"/>
+    <summary>Full vision-capability bundle for DeepSeek Harness: a `vision_understand` tool (OpenAI-compatible vision APIs, free Zhipu GLM-4V-Flash by default) plus paste/drag-and-drop/button entry points for image recognition. Exact install spec: dsh-vision-tools. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
   </entry>
   <entry>
     <title>Updated: claude2dsh</title>
@@ -453,7 +453,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ef579b5156c15534ea34.html"/>
     <author><name>gongyijie85</name></author>
     <category term="tools"/>
-    <summary>Read-only repo bootstrap scanner (repo_setup_scan tool): detects stack/tests/docs/git/db and recommends plugins, MCP servers and hygiene files. Exact install spec: dsh-repo-setup. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
+    <summary>Read-only repo bootstrap scanner (repo_setup_scan tool): detects stack/tests/docs/git/db hints and recommends skill plugins, MCP servers and hygiene files (claude-code-setup counterpart). Exact install spec: dsh-repo-setup. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
   </entry>
   <entry>
     <title>Updated: dsh-expert-mode</title>
@@ -507,7 +507,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a05f02effa63a7b86a37.html"/>
     <author><name>gongyijie85</name></author>
     <category term="skill"/>
-    <summary>Ponytail lazy senior dev mode: 6 skills adapted from DietrichGebert/ponytail. Exact install spec: dsh-ponytail-skills. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
+    <summary>Ponytail, lazy senior dev mode, for DSH: 6 skills (ponytail, ponytail-audit, ponytail-debt, ponytail-gain, ponytail-help, ponytail-review) adapted from DietrichGebert/ponytail (MIT). Exact install spec: dsh-ponytail-skills. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
   </entry>
   <entry>
     <title>Updated: dsh-plugin-vetting</title>
@@ -534,7 +534,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1c1b473a5d18568504d2.html"/>
     <author><name>gongyijie85</name></author>
     <category term="skill"/>
-    <summary>Matt Pocock full promoted skill set (25 SKILL.md: grilling, writing-for-agents, wait-what, TDD, code review, wayfinder, ask-matt router) ported to DSH. Exact install spec: mattpocock-skills-dsh. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
+    <summary>Matt Pocock's full promoted skill set (25 SKILL.md files: grilling, writing-for-agents, wait-what, TDD, code-review, wayfinder, ask-matt router and more) as a DeepSeek Harness plugin, adapted from mattpocock/skills (MIT). Exact install spec: mattpocock-skills-dsh. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
   </entry>
   <entry>
     <title>Updated: dsh-mneme#dsh-mneme</title>

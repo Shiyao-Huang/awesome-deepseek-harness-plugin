@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b1a68fb4f270afab006c.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-tool-vision 已收录到 DeepSeek Harness Plugin Store。本地优先的结构化视觉插件：图片交给本地 OpenAI 兼容 VLM，返回 JSON 证据（摘要、逐字 OCR、版面区域、实体/关系、配色、显式不确定项），带反幻觉回退与可选粘贴/上传桥；零云端成本，图片不出本机。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b1a68fb4f270afab006c.html",
-    "en": "dsh-tool-vision is now listed on the DeepSeek Harness Plugin Store. Local-first structured vision for text-only agents: images go to a local OpenAI-compatible VLM and come back as JSON evidence (summary, verbatim OCR, layout regions, entities/relations, colors, explicit uncertainty), with anti-hallucination fallback and an optional paste/upload bridge; zero cloud cost, images never leave the machine.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b1a68fb4f270afab006c.html"
+    "zh": "dsh-tool-vision 已收录到 DeepSeek Harness Plugin Store。为纯文本 DeepSeek Harness 提供本地优先视觉：由本地 VLM（LM Studio / Ollama / vLLM）产出结构化 JSON 证据（OCR / 版面 / 语义），零 API 成本，图片数据完全不出本机。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b1a68fb4f270afab006c.html",
+    "en": "dsh-tool-vision is now listed on the DeepSeek Harness Plugin Store. Local-first vision for the text-only DeepSeek Harness: a local VLM (LM Studio / Ollama / vLLM) produces structured JSON evidence (OCR / layout / semantics) at zero API cost, with image data never leaving the machine.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b1a68fb4f270afab006c.html"
   }
 }

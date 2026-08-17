@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-903165ddbc134f8cb6cd.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-approval-gate 已收录到 DeepSeek Harness Plugin Store。DeepSeek Harness 自动审批门控：Flash 预判写入/命令是否不可回补，安全操作自动批准、危险操作转人工（fail-safe）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-903165ddbc134f8cb6cd.html",
-    "en": "dsh-approval-gate is now listed on the DeepSeek Harness Plugin Store. Risk-gated approval automation for DeepSeek Harness: flash pre-classifies whether a write/command is irreversible — safe operations are auto-approved, dangerous ones are escalated to human approval (fail-safe).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-903165ddbc134f8cb6cd.html"
+    "zh": "dsh-approval-gate 已收录到 DeepSeek Harness Plugin Store。自动审批门控：Flash 预判写入/命令是否不可回补，安全操作自动批准、危险操作转人工（fail-safe）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-903165ddbc134f8cb6cd.html",
+    "en": "dsh-approval-gate is now listed on the DeepSeek Harness Plugin Store. Risk-gated approval automation: flash pre-classifies whether a write/command is irreversible — safe operations are auto-approved, dangerous ones are escalated to human approval (fail-safe).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-903165ddbc134f8cb6cd.html"
   }
 }

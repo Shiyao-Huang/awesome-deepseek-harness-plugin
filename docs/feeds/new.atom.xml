@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>deeplugin.store — New plugins</title>
   <id>https://deeplugin.store/feeds/new.atom.xml</id>
-  <updated>2026-08-17T07:17:53Z</updated>
+  <updated>2026-08-17T09:02:37Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/feeds/new.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/market.html"/>
+  <entry>
+    <title>New: dsh-skill-curator</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-110643a0d87934802285/b2d92726275edd10</id>
+    <updated>2026-08-17T09:02:37Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-110643a0d87934802285.html"/>
+    <author><name>gwrsfsfeefdsfs</name></author>
+    <category term="skill"/>
+    <summary>Meta-skill for DSH skill experience feedback and knowledge accumulation: feeds fixes back into skills and records a searchable knowledge base (keyword + local bge semantic retrieval, 7-point write-back checklist, anti-bloat archiving), with self-validation and event-hook tools. Exact install spec: github:gwrsfsfeefdsfs/dsh-skill-curator. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
   <entry>
     <title>New: dsh-hot-reload</title>
     <id>tag:deeplugin.store,2026-08-17:deeplugin-fff416d66b76a8e884f0/13faa91943e27f3b</id>
@@ -318,7 +327,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-7f1805189239231d770d.html"/>
     <author><name>daetz-coder</name></author>
     <category term="ui"/>
-    <summary>Multi-window wall for the DSH Web UI: run and monitor N conversations side-by-side in one screen, with auto-discovery, per-window controls, and an authenticated LAN gateway for phone/tablet access. Exact install spec: dsh-multi-chat. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+    <summary>A multi-window wall for the DSH Web UI: run and monitor N conversations side-by-side in one screen, with auto-discovery, per-window controls, and an authenticated LAN gateway for phone/tablet access. Exact install spec: dsh-multi-chat. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
   <entry>
     <title>New: dsh-cve-audit</title>
@@ -750,7 +759,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-903165ddbc134f8cb6cd.html"/>
     <author><name>moon09300731</name></author>
     <category term="tools"/>
-    <summary>Risk-gated approval automation for DeepSeek Harness: flash pre-classifies whether a write/command is irreversible — safe operations are auto-approved, dangerous ones are escalated to human approval (fail-safe). Exact install spec: dsh-approval-gate. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+    <summary>Risk-gated approval automation: flash pre-classifies whether a write/command is irreversible — safe operations are auto-approved, dangerous ones are escalated to human approval (fail-safe). Exact install spec: dsh-approval-gate. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
   <entry>
     <title>New: dsh-plugin-nintendo</title>
@@ -895,14 +904,5 @@
     <author><name>says693</name></author>
     <category term="fun"/>
     <summary>Popup guardian for session logs: opens with the Web UI on a configurable reminder interval (10 min-3 h), with one-click incremental backup of every session.jsonl(.zstd) under ~/.dsh/sessions in raw or readable chat-log format. Exact install spec: github:says693/dsh-log-memory. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: weshop-dsh-plugin</title>
-    <id>tag:deeplugin.store,2026-08-17:deeplugin-5103949fd4e7665b33c2/6c8bd3aed28b3563</id>
-    <updated>2026-08-17T03:14:45Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-5103949fd4e7665b33c2.html"/>
-    <author><name>weshopai</name></author>
-    <category term="ui"/>
-    <summary>Infinite-canvas e-commerce visual workspace for product photography, virtual try-on, background edits, and video, synced live with the Harness conversation. Exact install spec: weshop-dsh-plugin. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

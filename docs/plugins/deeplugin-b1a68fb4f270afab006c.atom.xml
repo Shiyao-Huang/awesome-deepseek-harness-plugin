@@ -12,7 +12,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b1a68fb4f270afab006c.html"/>
     <author><name>gloryxpnv</name></author>
     <category term="tools"/>
-    <summary>Local-first structured vision for text-only agents: images go to a local OpenAI-compatible VLM and come back as JSON evidence (summary, verbatim OCR, layout regions, entities/relations, colors, explicit uncertainty), with anti-hallucination fallback and an optional paste/upload bridge; zero cloud cost, images never leave the machine. Exact install spec: github:gloryxpnv/dsh-tool-vision. Source event: dsh-market/dsh-market; changed: sources.</summary>
+    <summary>Local-first vision for the text-only DeepSeek Harness: a local VLM (LM Studio / Ollama / vLLM) produces structured JSON evidence (OCR / layout / semantics) at zero API cost, with image data never leaving the machine. Exact install spec: github:gloryxpnv/dsh-tool-vision. Source event: dsh-market/dsh-market; changed: sources.</summary>
   </entry>
   <entry>
     <title>Updated: dsh-tool-vision</title>
@@ -21,7 +21,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b1a68fb4f270afab006c.html"/>
     <author><name>gloryxpnv</name></author>
     <category term="tools"/>
-    <summary>Local-first structured vision for text-only agents: images go to a local OpenAI-compatible VLM and come back as JSON evidence (summary, verbatim OCR, layout regions, entities/relations, colors, explicit uncertainty), with anti-hallucination fallback and an optional paste/upload bridge; zero cloud cost, images never leave the machine. Exact install spec: github:gloryxpnv/dsh-tool-vision. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+    <summary>Local-first vision for the text-only DeepSeek Harness: a local VLM (LM Studio / Ollama / vLLM) produces structured JSON evidence (OCR / layout / semantics) at zero API cost, with image data never leaving the machine. Exact install spec: github:gloryxpnv/dsh-tool-vision. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
   </entry>
   <entry>
     <title>Updated: dsh-tool-vision</title>
@@ -30,7 +30,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b1a68fb4f270afab006c.html"/>
     <author><name>gloryxpnv</name></author>
     <category term="tools"/>
-    <summary>Local-first structured vision for text-only agents: images go to a local OpenAI-compatible VLM and come back as JSON evidence (summary, verbatim OCR, layout regions, entities/relations, colors, explicit uncertainty), with anti-hallucination fallback and an optional paste/upload bridge; zero cloud cost, images never leave the machine. Exact install spec: github:gloryxpnv/dsh-tool-vision. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+    <summary>Local-first vision for the text-only DeepSeek Harness: a local VLM (LM Studio / Ollama / vLLM) produces structured JSON evidence (OCR / layout / semantics) at zero API cost, with image data never leaving the machine. Exact install spec: github:gloryxpnv/dsh-tool-vision. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
   </entry>
   <entry>
     <title>New: dsh-tool-vision</title>
@@ -39,6 +39,6 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b1a68fb4f270afab006c.html"/>
     <author><name>gloryxpnv</name></author>
     <category term="tools"/>
-    <summary>Local-first structured vision for text-only agents: images go to a local OpenAI-compatible VLM and come back as JSON evidence (summary, verbatim OCR, layout regions, entities/relations, colors, explicit uncertainty), with anti-hallucination fallback and an optional paste/upload bridge; zero cloud cost, images never leave the machine. Exact install spec: github:gloryxpnv/dsh-tool-vision. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+    <summary>Local-first vision for the text-only DeepSeek Harness: a local VLM (LM Studio / Ollama / vLLM) produces structured JSON evidence (OCR / layout / semantics) at zero API cost, with image data never leaving the machine. Exact install spec: github:gloryxpnv/dsh-tool-vision. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

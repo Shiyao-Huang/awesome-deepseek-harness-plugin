@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-70a19132b0d0f2e18b18.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-harmony 已收录到 DeepSeek Harness Plugin Store。在运行时修改 DSH 插件代码，并提供 Patch 排序、检查和热重载。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-70a19132b0d0f2e18b18.html",
-    "en": "dsh-harmony is now listed on the DeepSeek Harness Plugin Store. Modifies DSH plugin code at runtime, with ordered patches, inspection, and hot reload.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-70a19132b0d0f2e18b18.html"
+    "zh": "dsh-harmony 已收录到 DeepSeek Harness Plugin Store。让一个 DSH 插件在运行时修改另一个插件的代码，并提供 Patch 排序、冲突检查和热重载。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-70a19132b0d0f2e18b18.html",
+    "en": "dsh-harmony is now listed on the DeepSeek Harness Plugin Store. Lets one DSH plugin modify another plugin's code at runtime, with Patch ordering, conflict checks, and hot reload.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-70a19132b0d0f2e18b18.html"
   }
 }

@@ -12,7 +12,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-70a19132b0d0f2e18b18.html"/>
     <author><name>CH4ACKO3</name></author>
     <category term="dev"/>
-    <summary>Modifies DSH plugin code at runtime, with ordered patches, inspection, and hot reload. Exact install spec: dsh-harmony. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+    <summary>Lets one DSH plugin modify another plugin's code at runtime, with Patch ordering, conflict checks, and hot reload. Exact install spec: dsh-harmony. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
   </entry>
   <entry>
     <title>Updated: dsh-harmony</title>
@@ -21,7 +21,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-70a19132b0d0f2e18b18.html"/>
     <author><name>CH4ACKO3</name></author>
     <category term="dev"/>
-    <summary>Modifies DSH plugin code at runtime, with ordered patches, inspection, and hot reload. Exact install spec: dsh-harmony. Source event: dsh-market/dsh-market; changed: sources.</summary>
+    <summary>Lets one DSH plugin modify another plugin's code at runtime, with Patch ordering, conflict checks, and hot reload. Exact install spec: dsh-harmony. Source event: dsh-market/dsh-market; changed: sources.</summary>
   </entry>
   <entry>
     <title>Updated: dsh-harmony</title>
@@ -30,7 +30,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-70a19132b0d0f2e18b18.html"/>
     <author><name>CH4ACKO3</name></author>
     <category term="dev"/>
-    <summary>Modifies DSH plugin code at runtime, with ordered patches, inspection, and hot reload. Exact install spec: dsh-harmony. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+    <summary>Lets one DSH plugin modify another plugin's code at runtime, with Patch ordering, conflict checks, and hot reload. Exact install spec: dsh-harmony. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
   </entry>
   <entry>
     <title>New: dsh-harmony</title>
@@ -39,6 +39,6 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-70a19132b0d0f2e18b18.html"/>
     <author><name>CH4ACKO3</name></author>
     <category term="dev"/>
-    <summary>Modifies DSH plugin code at runtime, with ordered patches, inspection, and hot reload. Exact install spec: dsh-harmony. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+    <summary>Lets one DSH plugin modify another plugin's code at runtime, with Patch ordering, conflict checks, and hot reload. Exact install spec: dsh-harmony. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>
