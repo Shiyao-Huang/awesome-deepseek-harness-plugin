@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-c1af1da04b2e2df14f8f",
+    "name": "dsh-lark-bridge",
+    "author": "JMOKSZ",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/JMOKSZ/dsh-lark-bridge",
+    "firstObservedAt": "2026-08-17T10:50:21Z",
+    "lastChangedAt": "2026-08-17T10:50:21Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-c1af1da04b2e2df14f8f.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-c1af1da04b2e2df14f8f.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:jmoksz/dsh-lark-bridge",
+    "command": "dsh plugin --profile web add github:jmoksz/dsh-lark-bridge",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-c1af1da04b2e2df14f8f，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-c1af1da04b2e2df14f8f.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-c1af1da04b2e2df14f8f.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-lark-bridge 已收录到 DeepSeek Harness Plugin Store。飞书入口插件：一条命令安装，流式进度卡片带工具面板、提问/审批按钮卡片、附件处理与 feishu_send 主动推送。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c1af1da04b2e2df14f8f.html",
+    "en": "dsh-lark-bridge is now listed on the DeepSeek Harness Plugin Store. Feishu (Lark) bridge for DeepSeek Harness: one-command install, streaming progress cards with a tool panel, ask/approval button cards, attachments, and proactive feishu_send pushes.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-c1af1da04b2e2df14f8f.html"
+  }
+}

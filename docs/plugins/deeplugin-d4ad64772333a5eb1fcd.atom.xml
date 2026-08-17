@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-user-experience — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-d4ad64772333a5eb1fcd.atom.xml</id>
+  <updated>2026-08-17T10:50:21Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-d4ad64772333a5eb1fcd.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d4ad64772333a5eb1fcd.html"/>
+  <entry>
+    <title>New: dsh-user-experience</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-d4ad64772333a5eb1fcd/49fe39fe02837098</id>
+    <updated>2026-08-17T10:50:21Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d4ad64772333a5eb1fcd.html"/>
+    <author><name>DietCokewithSugar</name></author>
+    <category term="dev"/>
+    <summary>Finds potential UX issues in your project: automatically reviews React/TypeScript code, pinpoints each problem, and gives concrete suggestions. Exact install spec: dsh-user-experience. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

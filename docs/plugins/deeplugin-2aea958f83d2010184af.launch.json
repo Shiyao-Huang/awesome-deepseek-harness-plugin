@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-2aea958f83d2010184af",
+    "name": "dsh-flakefinder",
+    "author": "STARDUSTLC666",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/STARDUSTLC666/dsh-flakefinder",
+    "firstObservedAt": "2026-08-17T10:50:21Z",
+    "lastChangedAt": "2026-08-17T10:50:21Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-2aea958f83d2010184af.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-2aea958f83d2010184af.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-flakefinder",
+    "command": "dsh plugin --profile web add dsh-flakefinder",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-2aea958f83d2010184af，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-2aea958f83d2010184af.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-2aea958f83d2010184af.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-flakefinder 已收录到 DeepSeek Harness Plugin Store。测试稳定性工具：重复运行 vitest/jest/pytest/node:test，识别 flaky 用例，历史留档与隔离清单。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-2aea958f83d2010184af.html",
+    "en": "dsh-flakefinder is now listed on the DeepSeek Harness Plugin Store. Test-stability tools: repeatedly run vitest/jest/pytest/node:test suites, classify flaky cases, keep history and maintain a quarantine manifest.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-2aea958f83d2010184af.html"
+  }
+}

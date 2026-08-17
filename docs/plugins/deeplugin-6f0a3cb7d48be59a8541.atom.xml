@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-minimal-ptc — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-6f0a3cb7d48be59a8541.atom.xml</id>
+  <updated>2026-08-17T10:50:21Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-6f0a3cb7d48be59a8541.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-6f0a3cb7d48be59a8541.html"/>
+  <entry>
+    <title>New: dsh-minimal-ptc</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-6f0a3cb7d48be59a8541/49fe39fe02837098</id>
+    <updated>2026-08-17T10:50:21Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-6f0a3cb7d48be59a8541.html"/>
+    <author><name>STARDUSTLC666</name></author>
+    <category term="workflow"/>
+    <summary>Minimal prompt x full PTC tools: one-line persona, Code Mode SDK, subagents, workflows, web search, and Windows Git Bash. Exact install spec: dsh-minimal-ptc. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

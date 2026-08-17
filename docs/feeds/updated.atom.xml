@@ -2,9 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>deeplugin.store — Updated plugins</title>
   <id>https://deeplugin.store/feeds/updated.atom.xml</id>
-  <updated>2026-08-17T07:17:53Z</updated>
+  <updated>2026-08-17T10:50:21Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/feeds/updated.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/market.html"/>
+  <entry>
+    <title>Updated: dsh-answer-pet</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-f8c4be5bb6431f71a4bd/fba6636dac3c0b43</id>
+    <updated>2026-08-17T10:50:21Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f8c4be5bb6431f71a4bd.html"/>
+    <author><name>Nanki-nn</name></author>
+    <category term="ui"/>
+    <summary>Extensible animated response pet with blue-whale, orange-cat, and silver-shaded-cat themes, per-session progress, model and tool-call traces, token counts, output speed, elapsed time, and collapsible multi-session status cards. Exact install spec: github:nanki-nn/dsh-answer-pet. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-cyber-particle</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-c68f0f54b4abc826714d/fba6636dac3c0b43</id>
+    <updated>2026-08-17T10:50:21Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c68f0f54b4abc826714d.html"/>
+    <author><name>AKS1st</name></author>
+    <category term="theme"/>
+    <summary>Particle-network background overlay for the DSH Web shell: full-screen, click-through, zero runtime dependencies. Exact install spec: github:aks1st/dsh-cyber-particle. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-popout-sidebar</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-b9480fde18764c1155ec/fba6636dac3c0b43</id>
+    <updated>2026-08-17T10:50:21Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b9480fde18764c1155ec.html"/>
+    <author><name>e2mcc</name></author>
+    <category term="ui"/>
+    <summary>Pop-out sidebar: lists artifacts and a file tree with multiple preview formats, pops out into a separate browser tab you can drag to another monitor, and coexists with other sidebar plugins simultaneously. Exact install spec: github:e2mcc/dsh-popout-sidebar. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-user-experience</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-479a865da3ec9039e941/d4a4c6d0b93a5487</id>
+    <updated>2026-08-17T10:50:21Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-479a865da3ec9039e941.html"/>
+    <author><name>DietCokewithSugar</name></author>
+    <category term="dev"/>
+    <summary>Finds potential UX issues in your project: automatically reviews React/TypeScript code, pinpoints each problem, and gives concrete suggestions. Exact install spec: github:dietcokewithsugar/dsh-user-experience. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
+  </entry>
   <entry>
     <title>Updated: dsh-feishu-chat</title>
     <id>tag:deeplugin.store,2026-08-17:deeplugin-e0bc7d8878fed8de0b9a/5240f68c8f95184b</id>
@@ -166,15 +202,6 @@
     <author><name>kirigayakazima</name></author>
     <category term="ui"/>
     <summary>Vendor-based usage dashboard: per-provider token/cache/output KPI, a 53-week heatmap, trend chart with hourly "today" view, model drilldown, cost estimation, CSV export, and health cards (TTFT, generation speed, peak context, error rate). Exact install spec: github:kirigayakazima/dsh-usage-vendor-stats. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-cyber-particle</title>
-    <id>tag:deeplugin.store,2026-08-17:deeplugin-c68f0f54b4abc826714d/9f5a499cab165628</id>
-    <updated>2026-08-17T03:14:45Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c68f0f54b4abc826714d.html"/>
-    <author><name>AKS1st</name></author>
-    <category term="theme"/>
-    <summary>Particle-network background overlay for the DSH Web shell: full-screen, click-through, zero runtime dependencies. Exact install spec: github:aks1st/dsh-cyber-particle. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
   </entry>
   <entry>
     <title>Updated: dsh-approval-gate</title>
@@ -877,32 +904,5 @@
     <author><name>Jiao-XXX</name></author>
     <category term="workflow"/>
     <summary>Adds an `auto` permission preset between workspace-write and danger-full-access: a classifier grants routine sandbox escalations once, while dangerous or uncertain requests still go to a human. Exact install spec: dsh-auto-approve. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-wechat-mp</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-e390e9ee5e5442f726e9/d947fc14d81f9c69</id>
-    <updated>2026-08-16T09:56:16Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e390e9ee5e5442f726e9.html"/>
-    <author><name>coolbreezecoin</name></author>
-    <category term="tools"/>
-    <summary>Turns markdown into a WeChat Official Account (微信公众号) draft: inlines every CSS rule onto its element because the editor discards `&lt;style&gt;` blocks and class names, uploads each local image through WeChat's own endpoint so it is not filtered out, and creates the draft; it never broadcasts. Exact install spec: dsh-wechat-mp. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-free-search</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-e3765167a98cced6ca4b/d947fc14d81f9c69</id>
-    <updated>2026-08-16T09:56:16Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e3765167a98cced6ca4b.html"/>
-    <author><name>DDDMUC</name></author>
-    <category term="tools"/>
-    <summary>Free, keyless web search for DSH: 7 engines (DuckDuckGo/Bing/SearXNG free + Exa/Perplexity/DeepSeek paid), auto-failover, settings-page UI with API key inputs and official links, web_fetch, and an engine test tool. Exact install spec: dsh-free-search. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-notify-center</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-e2e42f23cebc162040e3/d947fc14d81f9c69</id>
-    <updated>2026-08-16T09:56:16Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e2e42f23cebc162040e3.html"/>
-    <author><name>SingleOne</name></author>
-    <category term="notify"/>
-    <summary>Native desktop and webhook notifications for turn completions, failures, and approval requests, with outcome filters, content rules, privacy controls, and retrying delivery. Exact install spec: github:singleone/dsh-notify-center. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
   </entry>
 </feed>

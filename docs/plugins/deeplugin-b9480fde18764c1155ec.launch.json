@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/e2mcc/dsh-popout-sidebar",
     "firstObservedAt": "2026-08-17T07:17:53Z",
-    "lastChangedAt": "2026-08-17T07:17:53Z"
+    "lastChangedAt": "2026-08-17T10:50:21Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-b9480fde18764c1155ec.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b9480fde18764c1155ec.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-popout-sidebar 已收录到 DeepSeek Harness Plugin Store。侧边栏展示代理产物（写入或编辑的文件），并可弹出为独立浏览器标签页。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b9480fde18764c1155ec.html",
-    "en": "dsh-popout-sidebar is now listed on the DeepSeek Harness Plugin Store. Sidebar that lists agent artifacts (files written or edited) and can pop out into a separate browser tab.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b9480fde18764c1155ec.html"
+    "zh": "dsh-popout-sidebar 已收录到 DeepSeek Harness Plugin Store。可弹出式侧边栏：侧边栏展示产物与文件树，支持多种文件预览形式；并可弹出为独立浏览器标签页（可拖至另一显示器）；兼容其他sidebar插件，可以同时显示。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b9480fde18764c1155ec.html",
+    "en": "dsh-popout-sidebar is now listed on the DeepSeek Harness Plugin Store. Pop-out sidebar: lists artifacts and a file tree with multiple preview formats, pops out into a separate browser tab you can drag to another monitor, and coexists with other sidebar plugins simultaneously.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b9480fde18764c1155ec.html"
   }
 }

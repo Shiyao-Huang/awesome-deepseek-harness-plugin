@@ -5,6 +5,25 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 2026-08-17 | github | plugin | [DeepSeek-Harness-Desktop](https://github.com/Ch0uHuaZ1/DeepSeek-Harness-Desktop) | Ch0uHuaZ1 | ui-and-desktop |
+| 2026-08-17 | github | plugin | [dsh-cite](https://github.com/STARDUSTLC666/dsh-cite) | STARDUSTLC666 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-code-security](https://github.com/STARDUSTLC666/dsh-code-security) | STARDUSTLC666 | operations-and-safety |
+| 2026-08-17 | github | plugin | [dsh-docker](https://github.com/STARDUSTLC666/dsh-docker) | STARDUSTLC666 | multimedia-and-vision |
+| 2026-08-17 | github | plugin | [dsh-evolution-lab](https://github.com/JayDong9130/dsh-evolution-lab) | JayDong9130 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-flakefinder](https://github.com/STARDUSTLC666/dsh-flakefinder) | STARDUSTLC666 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-git-proxy](https://github.com/wjt0321/dsh-git-proxy) | wjt0321 | index-and-marketplace |
+| 2026-08-17 | github | plugin | [dsh-history](https://github.com/chenproton/dsh-history) | chenproton | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-joi-channel-theme](https://github.com/tpmoonchefryan/dsh-joi-channel-theme) | tpmoonchefryan | ui-and-desktop |
+| 2026-08-17 | github | plugin | [dsh-lark-bridge](https://github.com/JMOKSZ/dsh-lark-bridge) | JMOKSZ | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-minimal-ptc](https://github.com/STARDUSTLC666/dsh-minimal-ptc) | STARDUSTLC666 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-plugin-doctor](https://github.com/white-sand-grand/dsh-plugin-doctor) | white-sand-grand | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-ppt](https://github.com/STARDUSTLC666/dsh-ppt) | STARDUSTLC666 | core-and-ecosystem |
+| 2026-08-17T10:50:21Z | github | plugin | [dsh-recall（风神）](https://github.com/fengshenx/dsh-recall) | fengshenx | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-sql](https://github.com/STARDUSTLC666/dsh-sql) | STARDUSTLC666 | core-and-ecosystem |
+| 2026-08-17T10:50:21Z | github | plugin | [dsh-tool-turbo](https://github.com/Electricitysheep/dsh-tool-turbo) | Electricitysheep | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-windows-ocr](https://github.com/maxwell-feng/dsh-windows-ocr) | maxwell-feng | multimedia-and-vision |
+| 2026-08-17 | github | plugin | [dsh-yogacara](https://github.com/tancheng33/dsh-yogacara) | tancheng33 | core-and-ecosystem |
+| 2026-08-17T10:50:21Z | github | plugin | [memorylake-ai/memorylake-harnessdsh-plugin](https://github.com/memorylake-ai/memorylake-harness) | memorylake-ai | docs-and-learning |
 | 2026-08-17T09:02:37Z | github | ecosystem-reference | [ChatCCC](https://github.com/wzj998/ChatCCC) | wzj998 | core-and-ecosystem |
 | 2026-08-17T09:02:37Z | github | plugin | [dsh-plugin-guard](https://github.com/lxzy-7/dsh-plugin-guard) | lxzy-7 | core-and-ecosystem |
 | 2026-08-17T09:02:37Z | github | plugin | [dsh-plugin-jinji](https://github.com/quan2005/dsh-plugin-jinji) | quan2005 | core-and-ecosystem |
@@ -14465,6 +14484,7 @@
 | 2026-04-01T15:37:13Z | github | repository | [HKUDS/OpenHarness](https://github.com/HKUDS/OpenHarness) | HKUDS | core-and-ecosystem |
 | 2026-04-01T09:52:20Z | github | repository | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | HKUDS | core-and-ecosystem |
 | 2026-03-31T18:26:14Z | hacker_news | story | [Show HN: Domscribe – Deterministic DOM-to-source mapping for AI coding agents](https://news.ycombinator.com/item?id=47591487) | NarratorTD | index-and-marketplace |
+| 2026-03-31T08:13:20Z | github | repository | [Jesseovo/last30days-skill-cn](https://github.com/Jesseovo/last30days-skill-cn) | Jesseovo | core-and-ecosystem |
 | 2026-03-30T05:22:23Z | github | repository | [titanwings/colleague-skill](https://github.com/titanwings/colleague-skill) | titanwings | core-and-ecosystem |
 | 2026-03-29T15:39:49Z | github | repository | [ai-boost/awesome-harness-engineering](https://github.com/ai-boost/awesome-harness-engineering) | ai-boost | index-and-marketplace |
 | 2026-03-29T12:28:19Z | github | repository | [walkinglabs/learn-harness-engineering](https://github.com/walkinglabs/learn-harness-engineering) | walkinglabs | docs-and-learning |

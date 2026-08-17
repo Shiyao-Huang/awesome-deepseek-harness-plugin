@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-sql — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-7f2616a8fa022bda79ed.atom.xml</id>
+  <updated>2026-08-17T10:50:21Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-7f2616a8fa022bda79ed.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-7f2616a8fa022bda79ed.html"/>
+  <entry>
+    <title>New: dsh-sql</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-7f2616a8fa022bda79ed/49fe39fe02837098</id>
+    <updated>2026-08-17T10:50:21Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-7f2616a8fa022bda79ed.html"/>
+    <author><name>STARDUSTLC666</name></author>
+    <category term="tools"/>
+    <summary>Database tools for agents: list/query/exec/schema across SQLite/MySQL/PostgreSQL, with lexer-grade read-only protection, row caps and an approval-gated write path. Exact install spec: dsh-sql. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

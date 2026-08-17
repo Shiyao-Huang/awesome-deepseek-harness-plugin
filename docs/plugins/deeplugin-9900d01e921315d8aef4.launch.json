@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-9900d01e921315d8aef4",
+    "name": "dsh-code-security",
+    "author": "STARDUSTLC666",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/STARDUSTLC666/dsh-code-security",
+    "firstObservedAt": "2026-08-17T10:50:21Z",
+    "lastChangedAt": "2026-08-17T10:50:21Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-9900d01e921315d8aef4.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-9900d01e921315d8aef4.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-code-security",
+    "command": "dsh plugin --profile web add dsh-code-security",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-9900d01e921315d8aef4，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-9900d01e921315d8aef4.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-9900d01e921315d8aef4.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-code-security 已收录到 DeepSeek Harness Plugin Store。确定性代码安全审查：40+ 规则、密钥熵检测、staged diff 审查、SARIF 导出、基线接受与 SBOM-lite 依赖清单。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-9900d01e921315d8aef4.html",
+    "en": "dsh-code-security is now listed on the DeepSeek Harness Plugin Store. Deterministic code security review: 40+ rules, secret entropy detection, staged-diff review, SARIF export, baseline acceptance and SBOM-lite dependency inventory.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-9900d01e921315d8aef4.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-5f1a19dee72d4354076b",
+    "name": "dsh-windows-ocr",
+    "author": "maxwell-feng",
+    "category": "vision",
+    "version": null,
+    "homepage": "https://github.com/maxwell-feng/dsh-windows-ocr",
+    "firstObservedAt": "2026-08-17T10:50:21Z",
+    "lastChangedAt": "2026-08-17T10:50:21Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-5f1a19dee72d4354076b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-5f1a19dee72d4354076b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@maxwell-feng/dsh-windows-ocr",
+    "command": "dsh plugin --profile web add @maxwell-feng/dsh-windows-ocr",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-5f1a19dee72d4354076b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-5f1a19dee72d4354076b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-5f1a19dee72d4354076b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-windows-ocr 已收录到 DeepSeek Harness Plugin Store。本地 Windows 引擎（Windows.Media.Ocr）识别附加图片：只把识别出的文字发送给模型，图片字节不进入上下文；视觉直通可选开启。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-5f1a19dee72d4354076b.html",
+    "en": "dsh-windows-ocr is now listed on the DeepSeek Harness Plugin Store. Local OCR for attached images via the built-in Windows engine (Windows.Media.Ocr): only the recognized text is sent to the model, never the image bytes; vision passthrough is opt-in.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-5f1a19dee72d4354076b.html"
+  }
+}

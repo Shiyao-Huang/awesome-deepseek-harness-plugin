@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-cb40da1419b8581f1d06",
+    "name": "dsh-git-proxy",
+    "author": "wjt0321",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/wjt0321/dsh-git-proxy",
+    "firstObservedAt": "2026-08-17T10:50:21Z",
+    "lastChangedAt": "2026-08-17T10:50:21Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-cb40da1419b8581f1d06.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-cb40da1419b8581f1d06.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:wjt0321/dsh-git-proxy",
+    "command": "dsh plugin --profile web add github:wjt0321/dsh-git-proxy",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-cb40da1419b8581f1d06，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-cb40da1419b8581f1d06.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-cb40da1419b8581f1d06.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-git-proxy 已收录到 DeepSeek Harness Plugin Store。Web UI 按需 GitHub 代理：一键开关 git/SSH 代理并测试连通性。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-cb40da1419b8581f1d06.html",
+    "en": "dsh-git-proxy is now listed on the DeepSeek Harness Plugin Store. On-demand GitHub proxy for the Web UI: one-click git/SSH proxy toggle with connectivity tests.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-cb40da1419b8581f1d06.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-3da71ba574828a432c54",
+    "name": "dsh-history",
+    "author": "chenproton",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/chenproton/dsh-history",
+    "firstObservedAt": "2026-08-17T10:50:21Z",
+    "lastChangedAt": "2026-08-17T10:50:21Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-3da71ba574828a432c54.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-3da71ba574828a432c54.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-history",
+    "command": "dsh plugin --profile web add dsh-history",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-3da71ba574828a432c54，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-3da71ba574828a432c54.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-3da71ba574828a432c54.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-history 已收录到 DeepSeek Harness Plugin Store。会话历史消息查看：列出当前会话全部你发送的消息，支持排序、搜索、一键复制与点击跳转定位（目标未加载时自动加载更早历史）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-3da71ba574828a432c54.html",
+    "en": "dsh-history is now listed on the DeepSeek Harness Plugin Store. Browse every message you sent in the current session: full-history listing with newest-first sort, text filter, one-click copy, and click-to-jump that auto-loads earlier history when the target is not yet loaded.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-3da71ba574828a432c54.html"
+  }
+}

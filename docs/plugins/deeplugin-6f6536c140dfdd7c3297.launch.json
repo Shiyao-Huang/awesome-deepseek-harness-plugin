@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-6f6536c140dfdd7c3297",
+    "name": "dsh-evolution-lab",
+    "author": "JayDong9130",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/JayDong9130/dsh-evolution-lab",
+    "firstObservedAt": "2026-08-17T10:50:21Z",
+    "lastChangedAt": "2026-08-17T10:50:21Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-6f6536c140dfdd7c3297.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-6f6536c140dfdd7c3297.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-evolution-lab",
+    "command": "dsh plugin --profile web add dsh-evolution-lab",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-6f6536c140dfdd7c3297，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-6f6536c140dfdd7c3297.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-6f6536c140dfdd7c3297.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-evolution-lab 已收录到 DeepSeek Harness Plugin Store。带证据的 Skill 自进化：脱敏轨迹学习、隔离提案、竞技场验证、金丝雀监控与自动回滚。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-6f6536c140dfdd7c3297.html",
+    "en": "dsh-evolution-lab is now listed on the DeepSeek Harness Plugin Store. Evidence-backed Skill self-evolution for DeepSeek Harness: redacted trajectory learning, quarantined proposals, arena validation, canary monitoring, automatic rollback.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-6f6536c140dfdd7c3297.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-51239d3ed6db11b85786",
+    "name": "dsh-ppt",
+    "author": "STARDUSTLC666",
+    "category": "skill",
+    "version": null,
+    "homepage": "https://github.com/STARDUSTLC666/dsh-ppt",
+    "firstObservedAt": "2026-08-17T10:50:21Z",
+    "lastChangedAt": "2026-08-17T10:50:21Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-51239d3ed6db11b85786.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-51239d3ed6db11b85786.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-ppt",
+    "command": "dsh plugin --profile web add dsh-ppt",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-51239d3ed6db11b85786，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-51239d3ed6db11b85786.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-51239d3ed6db11b85786.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-ppt 已收录到 DeepSeek Harness Plugin Store。演示文稿技能与工具：一句话或一篇文档生成 HTML 放映与可编辑 PPTX，内置 5 套主题，可配置默认主题/语言，中英双语。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-51239d3ed6db11b85786.html",
+    "en": "dsh-ppt is now listed on the DeepSeek Harness Plugin Store. Presentation skill and tools: one sentence or one document to an HTML slideshow plus editable PPTX, with five built-in themes, default theme/language config and bilingual support.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-51239d3ed6db11b85786.html"
+  }
+}

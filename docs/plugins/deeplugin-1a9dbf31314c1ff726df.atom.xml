@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-joi-channel-theme — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-1a9dbf31314c1ff726df.atom.xml</id>
+  <updated>2026-08-17T10:50:21Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-1a9dbf31314c1ff726df.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1a9dbf31314c1ff726df.html"/>
+  <entry>
+    <title>New: dsh-joi-channel-theme</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-1a9dbf31314c1ff726df/49fe39fe02837098</id>
+    <updated>2026-08-17T10:50:21Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1a9dbf31314c1ff726df.html"/>
+    <author><name>tpmoonchefryan</name></author>
+    <category term="theme"/>
+    <summary>Two-suit VTuber theme for Joi: Flowers and Library are separate token systems for light and dark, with a standing portrait and a whale girl napping on the headline of the new-session page, two chibi companions above the composer that follow the turn state, a duo sidebar mark, and a context meter shaped as a ripening mandarin; a third card returns the stock DeepSeek look with the plugin still installed. Exact install spec: dsh-joi-channel-theme. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

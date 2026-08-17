@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-1a9dbf31314c1ff726df",
+    "name": "dsh-joi-channel-theme",
+    "author": "tpmoonchefryan",
+    "category": "theme",
+    "version": null,
+    "homepage": "https://github.com/tpmoonchefryan/dsh-joi-channel-theme",
+    "firstObservedAt": "2026-08-17T10:50:21Z",
+    "lastChangedAt": "2026-08-17T10:50:21Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-1a9dbf31314c1ff726df.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-1a9dbf31314c1ff726df.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-joi-channel-theme",
+    "command": "dsh plugin --profile web add dsh-joi-channel-theme",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-1a9dbf31314c1ff726df，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-1a9dbf31314c1ff726df.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-1a9dbf31314c1ff726df.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-joi-channel-theme 已收录到 DeepSeek Harness Plugin Store。轴伊 Joi 双衣装主题：Flowers 与 Library 是各自成套的明暗令牌体系，新会话页有立绘与趴在标题上的鲸鱼娘，输入框上方两只 Q 版角色随本回合状态换表情，侧栏字标换成二人合影，上下文占用由一颗渐熟的橘子表示；第三张卡可在保持插件安装的前提下切回 DeepSeek 原生外观。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-1a9dbf31314c1ff726df.html",
+    "en": "dsh-joi-channel-theme is now listed on the DeepSeek Harness Plugin Store. Two-suit VTuber theme for Joi: Flowers and Library are separate token systems for light and dark, with a standing portrait and a whale girl napping on the headline of the new-session page, two chibi companions above the composer that follow the turn state, a duo sidebar mark, and a context meter shaped as a ripening mandarin; a third card returns the stock DeepSeek look with the plugin still installed.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-1a9dbf31314c1ff726df.html"
+  }
+}

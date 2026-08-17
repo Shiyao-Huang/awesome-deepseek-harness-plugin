@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/Nanki-nn/dsh-answer-pet",
     "firstObservedAt": "2026-08-15T22:14:49Z",
-    "lastChangedAt": "2026-08-15T22:14:49Z"
+    "lastChangedAt": "2026-08-17T10:50:21Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-f8c4be5bb6431f71a4bd.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-f8c4be5bb6431f71a4bd.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-answer-pet 已收录到 DeepSeek Harness Plugin Store。蓝鲸桌面宠物：按会话实时展示回答进度、模型动作与工具调用轨迹、token、输出速率与耗时，并支持多会话状态卡片展开和收起。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-f8c4be5bb6431f71a4bd.html",
-    "en": "dsh-answer-pet is now listed on the DeepSeek Harness Plugin Store. Animated blue-whale desktop pet with per-session response progress, model activity and tool-call traces, token counts, output speed, elapsed time, and collapsible multi-session status cards.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-f8c4be5bb6431f71a4bd.html"
+    "zh": "dsh-answer-pet 已收录到 DeepSeek Harness Plugin Store。可扩展回答状态宠物，内置蓝鲸、橘猫和银渐层猫主题；按会话实时展示回答进度、模型动作与工具调用轨迹、token、输出速率与耗时，并支持多会话状态卡片展开和收起。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-f8c4be5bb6431f71a4bd.html",
+    "en": "dsh-answer-pet is now listed on the DeepSeek Harness Plugin Store. Extensible animated response pet with blue-whale, orange-cat, and silver-shaded-cat themes, per-session progress, model and tool-call traces, token counts, output speed, elapsed time, and collapsible multi-session status cards.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-f8c4be5bb6431f71a4bd.html"
   }
 }

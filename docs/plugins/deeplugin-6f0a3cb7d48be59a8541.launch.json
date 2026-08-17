@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-6f0a3cb7d48be59a8541",
+    "name": "dsh-minimal-ptc",
+    "author": "STARDUSTLC666",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/STARDUSTLC666/dsh-minimal-ptc",
+    "firstObservedAt": "2026-08-17T10:50:21Z",
+    "lastChangedAt": "2026-08-17T10:50:21Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-6f0a3cb7d48be59a8541.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-6f0a3cb7d48be59a8541.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-minimal-ptc",
+    "command": "dsh plugin --profile web add dsh-minimal-ptc",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-6f0a3cb7d48be59a8541，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-6f0a3cb7d48be59a8541.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-6f0a3cb7d48be59a8541.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-minimal-ptc 已收录到 DeepSeek Harness Plugin Store。极简提示词 × PTC 全量工具：一句人格、Code Mode SDK、子代理、工作流、联网搜索与 Windows Git Bash。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-6f0a3cb7d48be59a8541.html",
+    "en": "dsh-minimal-ptc is now listed on the DeepSeek Harness Plugin Store. Minimal prompt x full PTC tools: one-line persona, Code Mode SDK, subagents, workflows, web search, and Windows Git Bash.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-6f0a3cb7d48be59a8541.html"
+  }
+}
