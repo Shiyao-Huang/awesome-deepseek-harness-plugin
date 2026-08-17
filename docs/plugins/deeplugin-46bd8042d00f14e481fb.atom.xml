@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>dsh-quant — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-46bd8042d00f14e481fb.atom.xml</id>
-  <updated>2026-08-16T16:39:22Z</updated>
+  <updated>2026-08-17T07:17:53Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-46bd8042d00f14e481fb.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-46bd8042d00f14e481fb.html"/>
+  <entry>
+    <title>Updated: dsh-quant</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-46bd8042d00f14e481fb/20bfbac48d7b1a11</id>
+    <updated>2026-08-17T07:17:53Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-46bd8042d00f14e481fb.html"/>
+    <author><name>pengpengyi92</name></author>
+    <category term="tools"/>
+    <summary>Quantitative R&amp;D toolkit for DeepSeek Harness — 46 tools across six domains covering market data, indicators, factor evaluation, walk-forward ML validation, risk, options, bonds and fund simulation, with an end-to-end research pipeline. Exact install spec: github:pengpengyi92/dsh-quant. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
   <entry>
     <title>New: dsh-quant</title>
     <id>tag:deeplugin.store,2026-08-16:deeplugin-46bd8042d00f14e481fb/3bdb45cc79abc5a6</id>
@@ -12,6 +21,6 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-46bd8042d00f14e481fb.html"/>
     <author><name>pengpengyi92</name></author>
     <category term="tools"/>
-    <summary>Quantitative R&amp;D toolkit for DeepSeek Harness — 37 tools across six domains covering market data, technical indicators, factor evaluation, backtests, risk metrics and fund simulation. Exact install spec: github:pengpengyi92/dsh-quant. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+    <summary>Quantitative R&amp;D toolkit for DeepSeek Harness — 46 tools across six domains covering market data, indicators, factor evaluation, walk-forward ML validation, risk, options, bonds and fund simulation, with an end-to-end research pipeline. Exact install spec: github:pengpengyi92/dsh-quant. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

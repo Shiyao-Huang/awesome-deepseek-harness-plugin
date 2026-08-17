@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-73be7f12aa6e4dc47a6f",
+    "name": "dsh-session-actions",
+    "author": "xingyingyuzhui",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/xingyingyuzhui/dsh-session-actions",
+    "firstObservedAt": "2026-08-17T07:17:53Z",
+    "lastChangedAt": "2026-08-17T07:17:53Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-73be7f12aa6e4dc47a6f.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-73be7f12aa6e4dc47a6f.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:xingyingyuzhui/dsh-session-actions",
+    "command": "dsh plugin --profile web add github:xingyingyuzhui/dsh-session-actions",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-73be7f12aa6e4dc47a6f，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-73be7f12aa6e4dc47a6f.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-73be7f12aa6e4dc47a6f.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-session-actions 已收录到 DeepSeek Harness Plugin Store。会话行菜单增强：置顶会话、复制会话 ID、导出结构化 Markdown、弹窗确认后永久删除会话。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-73be7f12aa6e4dc47a6f.html",
+    "en": "dsh-session-actions is now listed on the DeepSeek Harness Plugin Store. Session row menu extras for DeepSeek Harness: pin sessions, copy session id, export structured Markdown, and permanently delete sessions.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-73be7f12aa6e4dc47a6f.html"
+  }
+}

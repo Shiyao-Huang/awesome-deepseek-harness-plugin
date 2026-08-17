@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-e9b24ef0f6a414339ca8",
+    "name": "dsh-pet-remielle",
+    "author": "Gin-7",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/Gin-7/dsh-pet-remielle",
+    "firstObservedAt": "2026-08-17T07:17:53Z",
+    "lastChangedAt": "2026-08-17T07:17:53Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-e9b24ef0f6a414339ca8.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-e9b24ef0f6a414339ca8.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:gin-7/dsh-pet-remielle",
+    "command": "dsh plugin --profile web add github:gin-7/dsh-pet-remielle",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-e9b24ef0f6a414339ca8，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-e9b24ef0f6a414339ca8.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-e9b24ef0f6a414339ca8.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-pet-remielle 已收录到 DeepSeek Harness Plugin Store。蕾米埃尔(绝区零)桌宠：随 DSH 工作状态切换动画表情。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e9b24ef0f6a414339ca8.html",
+    "en": "dsh-pet-remielle is now listed on the DeepSeek Harness Plugin Store. A Remielle(ZZZ) desktop pet for the dsh web GUI that switches animated sticker moods with the harness work state.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e9b24ef0f6a414339ca8.html"
+  }
+}

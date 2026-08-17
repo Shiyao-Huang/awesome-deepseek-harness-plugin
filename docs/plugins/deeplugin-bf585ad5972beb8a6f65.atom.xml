@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-vision-plugin — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-bf585ad5972beb8a6f65.atom.xml</id>
+  <updated>2026-08-17T07:17:53Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-bf585ad5972beb8a6f65.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-bf585ad5972beb8a6f65.html"/>
+  <entry>
+    <title>New: dsh-vision-plugin</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-bf585ad5972beb8a6f65/13faa91943e27f3b</id>
+    <updated>2026-08-17T07:17:53Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-bf585ad5972beb8a6f65.html"/>
+    <author><name>ld-1101</name></author>
+    <category term="vision"/>
+    <summary>Give your text-only model eyes - chat image attachments are auto-described via a vision model (default prompt), with iterative re-parsing through model-generated prompts when details are missing; system/custom model modes + GUI config panel, key-safe secret handling, and a small host patch for DSH 0.1.0-rc.6 (see repo README). Exact install spec: github:ld-1101/dsh-vision-plugin. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

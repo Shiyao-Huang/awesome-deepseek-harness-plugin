@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-6d88d030df77e737540a",
+    "name": "dsh-auto-compact",
+    "author": "songoao25",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/songoao25/dsh-auto-compact",
+    "firstObservedAt": "2026-08-17T07:17:53Z",
+    "lastChangedAt": "2026-08-17T07:17:53Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-6d88d030df77e737540a.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-6d88d030df77e737540a.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:songoao25/dsh-auto-compact",
+    "command": "dsh plugin --profile web add github:songoao25/dsh-auto-compact",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-6d88d030df77e737540a，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-6d88d030df77e737540a.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-6d88d030df77e737540a.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-auto-compact 已收录到 DeepSeek Harness Plugin Store。为 DSH 智能体预设注入增强的自动压缩默认值：一键应用调优的触发阈值/保留比例与分模型策略，幂等执行、自动备份、可回滚。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-6d88d030df77e737540a.html",
+    "en": "dsh-auto-compact is now listed on the DeepSeek Harness Plugin Store. Enhanced auto-compaction defaults for DeepSeek Harness agent presets: apply tuned threshold/retention budgets and per-model policies with one command, idempotent with backups and rollback.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-6d88d030df77e737540a.html"
+  }
+}

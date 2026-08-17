@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-f94aae3c604bb2de4cd3",
+    "name": "AI-Novel-Writer#dsh-ai-novel-writer",
+    "author": "EthanYoQ",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/EthanYoQ/AI-Novel-Writer/tree/master/plugins/dsh-ai-novel-writer",
+    "firstObservedAt": "2026-08-17T07:17:53Z",
+    "lastChangedAt": "2026-08-17T07:17:53Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-f94aae3c604bb2de4cd3.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-f94aae3c604bb2de4cd3.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:ethanyoq/ai-novel-writer#path:/plugins/dsh-ai-novel-writer",
+    "command": "dsh plugin --profile web add github:ethanyoq/ai-novel-writer#path:/plugins/dsh-ai-novel-writer",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-f94aae3c604bb2de4cd3，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-f94aae3c604bb2de4cd3.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-f94aae3c604bb2de4cd3.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "AI-Novel-Writer#dsh-ai-novel-writer 已收录到 DeepSeek Harness Plugin Store。安装专用 AI 小说创作预设与工作台：提供带修订号的本地项目资产、紧凑侧边工作台，以及需要原生审批的逐文件变更。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-f94aae3c604bb2de4cd3.html",
+    "en": "AI-Novel-Writer#dsh-ai-novel-writer is now listed on the DeepSeek Harness Plugin Store. Installs a dedicated AI novel-writing preset and workbench: revisioned local project assets, a compact side drawer, and native approval-gated single-file changes.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-f94aae3c604bb2de4cd3.html"
+  }
+}

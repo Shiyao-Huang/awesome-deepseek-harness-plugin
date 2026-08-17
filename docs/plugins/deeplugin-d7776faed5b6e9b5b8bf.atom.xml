@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-contract-drafting-agent — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-d7776faed5b6e9b5b8bf.atom.xml</id>
+  <updated>2026-08-17T07:17:53Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-d7776faed5b6e9b5b8bf.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d7776faed5b6e9b5b8bf.html"/>
+  <entry>
+    <title>New: dsh-contract-drafting-agent</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-d7776faed5b6e9b5b8bf/13faa91943e27f3b</id>
+    <updated>2026-08-17T07:17:53Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d7776faed5b6e9b5b8bf.html"/>
+    <author><name>songoao25</name></author>
+    <category term="skill"/>
+    <summary>Contract-drafting agent preset: 11-stage lawyer workflow with 5-way parallel AI review, decision gates, and domain packs for general, employment and equity-investment contracts. Exact install spec: github:songoao25/dsh-contract-drafting-agent. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

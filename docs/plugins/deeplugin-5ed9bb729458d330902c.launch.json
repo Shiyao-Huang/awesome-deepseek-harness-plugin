@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-5ed9bb729458d330902c",
+    "name": "dsh-plugin-recommend",
+    "author": "863683348",
+    "category": "market",
+    "version": null,
+    "homepage": "https://github.com/863683348/dsh-plugin-recommend",
+    "firstObservedAt": "2026-08-17T07:17:53Z",
+    "lastChangedAt": "2026-08-17T07:17:53Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-5ed9bb729458d330902c.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-5ed9bb729458d330902c.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:863683348/dsh-plugin-recommend",
+    "command": "dsh plugin --profile web add github:863683348/dsh-plugin-recommend",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-5ed9bb729458d330902c，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-5ed9bb729458d330902c.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-5ed9bb729458d330902c.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-recommend 已收录到 DeepSeek Harness Plugin Store。DSH 插件推荐器：按需求描述、分类与标签在 1100+ 条内嵌市场目录中搜索并排序插件，返回匹配理由，支持从 awesome-dsh-plugin README 在线刷新目录。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-5ed9bb729458d330902c.html",
+    "en": "dsh-plugin-recommend is now listed on the DeepSeek Harness Plugin Store. Plugin recommender for DSH: search and rank plugins from an embedded 1100+ entry marketplace catalog by need description, category and tags, with match reasons and a live catalog refresh from the awesome-dsh-plugin README.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-5ed9bb729458d330902c.html"
+  }
+}

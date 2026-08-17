@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-9a8559be2d8c5af8078b",
+    "name": "geml#integrations/dsh-plugin",
+    "author": "geml-spec",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/geml-spec/geml/tree/main/integrations/dsh-plugin",
+    "firstObservedAt": "2026-08-17T07:17:53Z",
+    "lastChangedAt": "2026-08-17T07:17:53Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-9a8559be2d8c5af8078b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-9a8559be2d8c5af8078b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@geml/dsh-plugin",
+    "command": "dsh plugin --profile web add @geml/dsh-plugin",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-9a8559be2d8c5af8078b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-9a8559be2d8c5af8078b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-9a8559be2d8c5af8078b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "geml#integrations/dsh-plugin 已收录到 DeepSeek Harness Plugin Store。按块寻址的文档读写：MCP server 提供 geml_get / geml_set / geml_check 等工具，Agent 只取回或改写 Markdown、GEML 文档中的某一个块，而不是整篇文件。另带 GEML 写作技能，以及把项目调用图构建为 GEML codemap 并浏览的代码图谱技能。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-9a8559be2d8c5af8078b.html",
+    "en": "geml#integrations/dsh-plugin is now listed on the DeepSeek Harness Plugin Store. Block-addressed document editing: an MCP server exposing geml_get / geml_set / geml_check and friends, so an agent reads or rewrites one addressed block of a Markdown or GEML document instead of the whole file. Ships the GEML authoring skill and a code-graph skill that builds and navigates a project call graph as GEML codemaps.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-9a8559be2d8c5af8078b.html"
+  }
+}

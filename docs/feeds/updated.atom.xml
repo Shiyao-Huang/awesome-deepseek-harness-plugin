@@ -2,9 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>deeplugin.store — Updated plugins</title>
   <id>https://deeplugin.store/feeds/updated.atom.xml</id>
-  <updated>2026-08-17T04:59:26Z</updated>
+  <updated>2026-08-17T07:17:53Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/feeds/updated.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/market.html"/>
+  <entry>
+    <title>Updated: dsh-feishu-chat</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-e0bc7d8878fed8de0b9a/5240f68c8f95184b</id>
+    <updated>2026-08-17T07:17:53Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e0bc7d8878fed8de0b9a.html"/>
+    <author><name>Qing45</name></author>
+    <category term="notify"/>
+    <summary>Two-way Feishu (Lark) chat bridge for DeepSeek Harness over the official WebSocket long connection: messages route to the bound workspace's latest session and replies return automatically; bot credentials and workspace routing are configurable from the settings page. Exact install spec: github:qing45/dsh-feishu-chat. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-plugin-audit</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-a067b64fa7ba9d67ccf0/20bfbac48d7b1a11</id>
+    <updated>2026-08-17T07:17:53Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a067b64fa7ba9d67ccf0.html"/>
+    <author><name>863683348</name></author>
+    <category term="dev"/>
+    <summary>Ecosystem-wide plugin health audit: syncs the dsh-plugin topic into a local scored catalog (maintenance / docs / npm + weekly downloads / ecosystem, 0-100, A-D), static security scan with high-finding grade veto, star history snapshots, web leaderboard and agent tools. Exact install spec: dsh-audit. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-workbench</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-59dee17ff8998a2a01ac/5240f68c8f95184b</id>
+    <updated>2026-08-17T07:17:53Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-59dee17ff8998a2a01ac.html"/>
+    <author><name>Dely0</name></author>
+    <category term="workflow"/>
+    <summary>Calendar and hierarchical task workbench: AI-assisted intake clarification, consultation, decomposition, execution with user acceptance, and review, plus reminders and per-task AI session workspaces. Exact install spec: github:dely0/dsh-workbench. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-quant</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-46bd8042d00f14e481fb/20bfbac48d7b1a11</id>
+    <updated>2026-08-17T07:17:53Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-46bd8042d00f14e481fb.html"/>
+    <author><name>pengpengyi92</name></author>
+    <category term="tools"/>
+    <summary>Quantitative R&amp;D toolkit for DeepSeek Harness — 46 tools across six domains covering market data, indicators, factor evaluation, walk-forward ML validation, risk, options, bonds and fund simulation, with an end-to-end research pipeline. Exact install spec: github:pengpengyi92/dsh-quant. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
   <entry>
     <title>Updated: dsh-taskswarm</title>
     <id>tag:deeplugin.store,2026-08-17:deeplugin-f4a50f02a4d64ce9b3c7/53adf6a0d3e188cd</id>
@@ -868,41 +904,5 @@
     <author><name>SingleOne</name></author>
     <category term="notify"/>
     <summary>Native desktop and webhook notifications for turn completions, failures, and approval requests, with outcome filters, content rules, privacy controls, and retrying delivery. Exact install spec: github:singleone/dsh-notify-center. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-cost-crystal</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-e27d387e2ec1c8db1cb0/d947fc14d81f9c69</id>
-    <updated>2026-08-16T09:56:16Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e27d387e2ec1c8db1cb0.html"/>
-    <author><name>xxvk</name></author>
-    <category term="ui"/>
-    <summary>Floating cost crystal for the Web UI: balance card, real-time tok/s, peak/off-peak billing countdown, last-24h spend, and a 🔮 next-message cost forecast, all timezone-aware. Exact install spec: github:xxvk/dsh-cost-crystal. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-doctor</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-e22d68bca3961a841f12/d947fc14d81f9c69</id>
-    <updated>2026-08-16T09:56:16Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e22d68bca3961a841f12.html"/>
-    <author><name>asdf17128</name></author>
-    <category term="dev"/>
-    <summary>Registers a `config_doctor` tool that checks the harness's own configuration for problems that boot silently: fields a patch dropped by whole-config replacement, patches targeting missing entry ids, and tool-name collisions. Read-only. Exact install spec: github:asdf17128/dsh-doctor. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-archived-conversations</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-e21a09899bc2fe70fae8/d947fc14d81f9c69</id>
-    <updated>2026-08-16T09:56:16Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e21a09899bc2fe70fae8.html"/>
-    <author><name>AKS1st</name></author>
-    <category term="ui"/>
-    <summary>Archived conversations list in the sidebar footer with read-only previews of the most recent messages, for sessions the product deliberately keeps hidden and unreopenable. Exact install spec: github:aks1st/dsh-archived-conversations. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: deepseek-harness-genui</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-e1e425697179652ecd9b/d947fc14d81f9c69</id>
-    <updated>2026-08-16T09:56:16Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e1e425697179652ecd9b.html"/>
-    <author><name>pengyue-polaron</name></author>
-    <category term="ui"/>
-    <summary>Code-first React and TypeScript task apps rendered inline, in Canvas, full screen, or on localhost, with interaction state available to later agent turns and approval-gated MCP and API access. Exact install spec: dsh-plugin-genui. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
   </entry>
 </feed>

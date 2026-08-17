@@ -5,6 +5,25 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 2026-08-17 | github | plugin | [dsh-auth-tunnel](https://github.com/ai-eks/dsh-auth-tunnel) | ai-eks | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-auto-compact](https://github.com/songoao25/dsh-auto-compact) | songoao25 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-chrome](https://github.com/stuarthu/dsh-chrome) | stuarthu | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-contract-drafting-agent](https://github.com/songoao25/dsh-contract-drafting-agent) | songoao25 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-hot-reload](https://github.com/stuarthu/dsh-hot-reload) | stuarthu | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-personal-workbench](https://github.com/Dely0/dsh-personal-workbench) | Dely0 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-pet-remielle](https://github.com/Gin-7/dsh-pet-remielle) | Gin-7 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-plugin-recommend](https://github.com/863683348/dsh-plugin-recommend) | 863683348 | index-and-marketplace |
+| 2026-08-17 | github | plugin | [dsh-plugin-verify](https://github.com/863683348/dsh-plugin-verify) | 863683348 | index-and-marketplace |
+| 2026-08-17 | github | plugin | [dsh-plugin-weaknet-adaptor](https://github.com/jiay98528-dev/dsh-plugin-weaknet-adaptor) | jiay98528-dev | operations-and-safety |
+| 2026-08-17 | github | plugin | [dsh-popout-sidebar](https://github.com/e2mcc/dsh-popout-sidebar) | e2mcc | ui-and-desktop |
+| 2026-08-17 | github | plugin | [dsh-preset-anchored-standard](https://github.com/ruby1304/dsh-preset-anchored-standard) | ruby1304 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-session-actions](https://github.com/xingyingyuzhui/dsh-session-actions) | xingyingyuzhui | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-skin-toggle](https://github.com/tiantyu/dsh-skin-toggle) | tiantyu | ui-and-desktop |
+| 2026-08-17 | github | plugin | [dsh-tui-app](https://github.com/kouyichi/dsh-tui-app) | kouyichi | ui-and-desktop |
+| 2026-08-17 | github | plugin | [dsh-update-notifier](https://github.com/stuarthu/dsh-update-notifier) | stuarthu | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-vision-plugin](https://github.com/ld-1101/dsh-vision-plugin) | ld-1101 | multimedia-and-vision |
+| 2026-08-17 | github | plugin | [dsh-xueqiu](https://github.com/kangjinghang/dsh-xueqiu) | kangjinghang | core-and-ecosystem |
+| 2026-08-17T07:17:53Z | github | plugin | [geml-spec/gemlintegrations/dsh-plugin](https://github.com/geml-spec/geml) | geml-spec | core-and-ecosystem |
 | 2026-08-17T04:59:26Z | github | ecosystem-reference | [Jnpz](https://github.com/pazz11/Jnpz) | pazz11 | core-and-ecosystem |
 | 2026-08-17T04:59:26Z | github | ecosystem-reference | [OffPeak](https://github.com/christophersmith2737-commits/OffPeak) | christophersmith2737-commits | core-and-ecosystem |
 | 2026-08-17T04:59:26Z | github | ecosystem-reference | [ax-feishu-bridge](https://github.com/AX1202/ax-feishu-bridge) | AX1202 | core-and-ecosystem |
@@ -14429,6 +14448,7 @@
 | 2026-04-20T12:31:22Z | github | repository | [Ariestar/sivtr](https://github.com/Ariestar/sivtr) | Ariestar | core-and-ecosystem |
 | 2026-04-15T05:27:37Z | github | repository | [tt-a1i/archify](https://github.com/tt-a1i/archify) | tt-a1i | docs-and-learning |
 | 2026-04-14T00:51:32Z | github | repository | [morluto/rea](https://github.com/morluto/rea) | morluto | core-and-ecosystem |
+| 2026-04-11T11:49:55Z | github | repository | [syncable-dev/memtrace-public](https://github.com/syncable-dev/memtrace-public) | syncable-dev | core-and-ecosystem |
 | 2026-04-10T03:03:36Z | github | repository | [openma-ai/open-managed-agents](https://github.com/openma-ai/open-managed-agents) | openma-ai | core-and-ecosystem |
 | 2026-04-07T10:08:59Z | github | repository | [TencentCloud/tencentmeeting-cli](https://github.com/TencentCloud/tencentmeeting-cli) | TencentCloud | core-and-ecosystem |
 | 2026-04-07T06:34:26Z | github | repository | [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | TencentCloud | index-and-marketplace |
@@ -14491,6 +14511,7 @@
 | 2026-02-02T09:52:10Z | github | repository | [GCWing/BitFun](https://github.com/GCWing/BitFun) | GCWing | ui-and-desktop |
 | 2026-02-01T13:53:31Z | github | repository | [yuukiLike/zeromd](https://github.com/yuukiLike/zeromd) | yuukiLike | index-and-marketplace |
 | 2026-01-31T08:15:39Z | github | repository | [Leslie-SSS/seeWxapkg](https://github.com/Leslie-SSS/seeWxapkg) | Leslie-SSS | core-and-ecosystem |
+| 2026-01-30T16:00:53Z | github | repository | [Enderfga/claw-orchestrator](https://github.com/Enderfga/claw-orchestrator) | Enderfga | agents-and-orchestration |
 | 2026-01-24T03:29:18Z | github | repository | [XiaoMaColtAI/math-modeling-skill](https://github.com/XiaoMaColtAI/math-modeling-skill) | XiaoMaColtAI | core-and-ecosystem |
 | 2026-08-15 | github | repository | [superdesigndev/superdesign-skill](https://github.com/superdesigndev/superdesign-skill) | superdesigndev | core-and-ecosystem |
 | 2026-01-19T18:21:01Z | github | repository | [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) | Hmbown | core-and-ecosystem |
@@ -14546,6 +14567,7 @@
 | 2023-07-05T11:02:00Z | hacker_news | story | [Show HN: ZenStack-Open source toolkit simplifies your Prisma stack](https://news.ycombinator.com/item?id=36598597) | zenstack | index-and-marketplace |
 | 2023-06-26T19:39:32Z | github | repository | [ollama/ollama](https://github.com/ollama/ollama) | ollama | core-and-ecosystem |
 | 2023-05-19T03:02:29Z | github | repository | [BradyFU/Awesome-Multimodal-Large-Language-Models](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) | BradyFU | index-and-marketplace |
+| 2023-05-06T17:27:54Z | github | repository | [Anil-matcha/awesome-deepseek-harness](https://github.com/Anil-matcha/awesome-deepseek-harness) | Anil-matcha | index-and-marketplace |
 | 2023-04-02T04:06:56Z | github | repository | [ikaijua/Awesome-AITools](https://github.com/ikaijua/Awesome-AITools) | ikaijua | index-and-marketplace |
 | 2023-02-27T06:01:53Z | github | repository | [GreyDGL/PentestGPT](https://github.com/GreyDGL/PentestGPT) | GreyDGL | core-and-ecosystem |
 | 2023-02-17T14:12:21Z | github | repository | [Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) | Hannibal046 | index-and-marketplace |

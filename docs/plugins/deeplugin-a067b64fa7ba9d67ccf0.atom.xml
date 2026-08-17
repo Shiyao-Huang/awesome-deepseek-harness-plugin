@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>dsh-plugin-audit — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-a067b64fa7ba9d67ccf0.atom.xml</id>
-  <updated>2026-08-17T03:14:45Z</updated>
+  <updated>2026-08-17T07:17:53Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-a067b64fa7ba9d67ccf0.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a067b64fa7ba9d67ccf0.html"/>
+  <entry>
+    <title>Updated: dsh-plugin-audit</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-a067b64fa7ba9d67ccf0/20bfbac48d7b1a11</id>
+    <updated>2026-08-17T07:17:53Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a067b64fa7ba9d67ccf0.html"/>
+    <author><name>863683348</name></author>
+    <category term="dev"/>
+    <summary>Ecosystem-wide plugin health audit: syncs the dsh-plugin topic into a local scored catalog (maintenance / docs / npm + weekly downloads / ecosystem, 0-100, A-D), static security scan with high-finding grade veto, star history snapshots, web leaderboard and agent tools. Exact install spec: dsh-audit. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
   <entry>
     <title>New: dsh-plugin-audit</title>
     <id>tag:deeplugin.store,2026-08-17:deeplugin-a067b64fa7ba9d67ccf0/6c8bd3aed28b3563</id>
@@ -12,6 +21,6 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a067b64fa7ba9d67ccf0.html"/>
     <author><name>863683348</name></author>
     <category term="dev"/>
-    <summary>Syncs the GitHub dsh-plugin topic into a local catalog, probes npm, static-scans plugin files for security, and scores every plugin (maintenance, docs, npm, ecosystem) with agent tools and a web leaderboard. Exact install spec: dsh-audit. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+    <summary>Ecosystem-wide plugin health audit: syncs the dsh-plugin topic into a local scored catalog (maintenance / docs / npm + weekly downloads / ecosystem, 0-100, A-D), static security scan with high-finding grade veto, star history snapshots, web leaderboard and agent tools. Exact install spec: dsh-audit. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-5c84dfc79ad0582c04f9",
+    "name": "dsh-preset-anchored-standard",
+    "author": "ruby1304",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/ruby1304/dsh-preset-anchored-standard",
+    "firstObservedAt": "2026-08-17T07:17:53Z",
+    "lastChangedAt": "2026-08-17T07:17:53Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-5c84dfc79ad0582c04f9.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-5c84dfc79ad0582c04f9.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:ruby1304/dsh-preset-anchored-standard",
+    "command": "dsh plugin --profile web add github:ruby1304/dsh-preset-anchored-standard",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-5c84dfc79ad0582c04f9，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-5c84dfc79ad0582c04f9.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-5c84dfc79ad0582c04f9.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-preset-anchored-standard 已收录到 DeepSeek Harness Plugin Store。Minimal 锚定的 agent preset：request #1 仅保留真实 bash + str_replace_editor 工具对并剥离自动注入上下文，晋升后开放完整 Standard 工具目录，并注入一次性后台 job 提示纠正 sleep 前台轮询惯性。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-5c84dfc79ad0582c04f9.html",
+    "en": "dsh-preset-anchored-standard is now listed on the DeepSeek Harness Plugin Store. Minimal-anchored agent preset: request #1 keeps the real bash + str_replace_editor pair with auto-injected context stripped, then promotion unlocks the full Standard catalog and posts a one-shot background-jobs notice against sleep-polling habits.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-5c84dfc79ad0582c04f9.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-91878418af481aab89c4",
+    "name": "dsh-tui-app",
+    "author": "kouyichi",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/kouyichi/dsh-tui-app",
+    "firstObservedAt": "2026-08-17T07:17:53Z",
+    "lastChangedAt": "2026-08-17T07:17:53Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-91878418af481aab89c4.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-91878418af481aab89c4.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:kouyichi/dsh-tui-app",
+    "command": "dsh plugin --profile web add github:kouyichi/dsh-tui-app",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-91878418af481aab89c4，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-91878418af481aab89c4.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-91878418af481aab89c4.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-tui-app 已收录到 DeepSeek Harness Plugin Store。dsh 交互式终端聊天应用：流式对话、工具卡片、任务面板、全文搜索、轨迹回放、多会话标签与 A2A 派发（Ink 实现）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-91878418af481aab89c4.html",
+    "en": "dsh-tui-app is now listed on the DeepSeek Harness Plugin Store. Interactive terminal chat app for dsh: streaming conversation, tool cards, jobs panel, full-text search, trajectory replay, multi-session tabs, and A2A dispatch (Ink-based).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-91878418af481aab89c4.html"
+  }
+}

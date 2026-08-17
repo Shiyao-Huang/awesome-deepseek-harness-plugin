@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-bf585ad5972beb8a6f65",
+    "name": "dsh-vision-plugin",
+    "author": "ld-1101",
+    "category": "vision",
+    "version": null,
+    "homepage": "https://github.com/ld-1101/dsh-vision-plugin",
+    "firstObservedAt": "2026-08-17T07:17:53Z",
+    "lastChangedAt": "2026-08-17T07:17:53Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-bf585ad5972beb8a6f65.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-bf585ad5972beb8a6f65.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:ld-1101/dsh-vision-plugin",
+    "command": "dsh plugin --profile web add github:ld-1101/dsh-vision-plugin",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-bf585ad5972beb8a6f65，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-bf585ad5972beb8a6f65.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-bf585ad5972beb8a6f65.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-vision-plugin 已收录到 DeepSeek Harness Plugin Store。让纯文本模型也能看图：发图自动用视觉模型描述（默认提示词），描述不足时对话模型自动生成更具体的提示词重新解析；系统模型/自定义双模式 + GUI 可视化配置、Key 脱敏安全、针对 DSH 0.1.0-rc.6 的宿主小补丁（见仓库 README）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-bf585ad5972beb8a6f65.html",
+    "en": "dsh-vision-plugin is now listed on the DeepSeek Harness Plugin Store. Give your text-only model eyes - chat image attachments are auto-described via a vision model (default prompt), with iterative re-parsing through model-generated prompts when details are missing; system/custom model modes + GUI config panel, key-safe secret handling, and a small host patch for DSH 0.1.0-rc.6 (see repo README).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-bf585ad5972beb8a6f65.html"
+  }
+}

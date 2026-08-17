@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-4282ddc21f61f1466fa9",
+    "name": "dsh-auth-tunnel",
+    "author": "ai-eks",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/ai-eks/dsh-auth-tunnel",
+    "firstObservedAt": "2026-08-17T07:17:53Z",
+    "lastChangedAt": "2026-08-17T07:17:53Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-4282ddc21f61f1466fa9.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-4282ddc21f61f1466fa9.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:ai-eks/dsh-auth-tunnel",
+    "command": "dsh plugin --profile web add github:ai-eks/dsh-auth-tunnel",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-4282ddc21f61f1466fa9，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-4282ddc21f61f1466fa9.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-4282ddc21f61f1466fa9.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-auth-tunnel 已收录到 DeepSeek Harness Plugin Store。通过快速或命名 Cloudflare Tunnel 为 DSH Web GUI 提供密码保护的公网访问，并代理 HTTP/WebSocket 流量、改用应用内目录选择器。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-4282ddc21f61f1466fa9.html",
+    "en": "dsh-auth-tunnel is now listed on the DeepSeek Harness Plugin Store. Password-gated public access for the DSH Web GUI through quick or named Cloudflare Tunnels, with HTTP/WebSocket proxying and an in-app directory picker.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-4282ddc21f61f1466fa9.html"
+  }
+}

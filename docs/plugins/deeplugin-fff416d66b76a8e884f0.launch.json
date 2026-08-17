@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-fff416d66b76a8e884f0",
+    "name": "dsh-hot-reload",
+    "author": "stuarthu",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/stuarthu/dsh-hot-reload",
+    "firstObservedAt": "2026-08-17T07:17:53Z",
+    "lastChangedAt": "2026-08-17T07:17:53Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-fff416d66b76a8e884f0.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-fff416d66b76a8e884f0.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-hot-reload",
+    "command": "dsh plugin --profile web add dsh-hot-reload",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-fff416d66b76a8e884f0，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-fff416d66b76a8e884f0.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-fff416d66b76a8e884f0.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-hot-reload 已收录到 DeepSeek Harness Plugin Store。插件升级后在运行中的 dsh 内直接重载，无需重启；重载失败时回滚到旧版本并提示手动重启。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-fff416d66b76a8e884f0.html",
+    "en": "dsh-hot-reload is now listed on the DeepSeek Harness Plugin Store. Reloads an upgraded plugin inside the running dsh process instead of restarting it, and rolls back to the old version when a reload fails.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-fff416d66b76a8e884f0.html"
+  }
+}

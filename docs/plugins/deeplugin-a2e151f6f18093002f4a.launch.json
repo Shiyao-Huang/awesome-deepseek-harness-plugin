@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a2e151f6f18093002f4a",
+    "name": "dsh-plugin-weaknet-adaptor",
+    "author": "jiay98528-dev",
+    "category": "model",
+    "version": null,
+    "homepage": "https://github.com/jiay98528-dev/dsh-plugin-weaknet-adaptor",
+    "firstObservedAt": "2026-08-17T07:17:53Z",
+    "lastChangedAt": "2026-08-17T07:17:53Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a2e151f6f18093002f4a.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a2e151f6f18093002f4a.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-plugin-weaknet-adaptor",
+    "command": "dsh plugin --profile web add dsh-plugin-weaknet-adaptor",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a2e151f6f18093002f4a，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a2e151f6f18093002f4a.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a2e151f6f18093002f4a.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-weaknet-adaptor 已收录到 DeepSeek Harness Plugin Store。弱网适配器：模型流式请求的长退避透明重试（上限 10 分钟）、本地响应重放缓存、心跳自动重连、降级模式 token 节流，并提供中英双语设置页。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a2e151f6f18093002f4a.html",
+    "en": "dsh-plugin-weaknet-adaptor is now listed on the DeepSeek Harness Plugin Store. Weak-network adaptor: transparent long-backoff model-stream retries (10-min cap), local response replay cache, heartbeat auto-reconnect, and degraded-mode token economy, with a bilingual (zh/en) settings page.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a2e151f6f18093002f4a.html"
+  }
+}

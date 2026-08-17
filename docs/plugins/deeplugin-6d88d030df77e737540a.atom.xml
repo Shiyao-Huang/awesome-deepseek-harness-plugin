@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-auto-compact — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-6d88d030df77e737540a.atom.xml</id>
+  <updated>2026-08-17T07:17:53Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-6d88d030df77e737540a.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-6d88d030df77e737540a.html"/>
+  <entry>
+    <title>New: dsh-auto-compact</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-6d88d030df77e737540a/13faa91943e27f3b</id>
+    <updated>2026-08-17T07:17:53Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-6d88d030df77e737540a.html"/>
+    <author><name>songoao25</name></author>
+    <category term="memory"/>
+    <summary>Enhanced auto-compaction defaults for DeepSeek Harness agent presets: apply tuned threshold/retention budgets and per-model policies with one command, idempotent with backups and rollback. Exact install spec: github:songoao25/dsh-auto-compact. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

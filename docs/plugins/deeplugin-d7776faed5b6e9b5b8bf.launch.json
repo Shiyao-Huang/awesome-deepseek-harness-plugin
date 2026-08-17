@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-d7776faed5b6e9b5b8bf",
+    "name": "dsh-contract-drafting-agent",
+    "author": "songoao25",
+    "category": "skill",
+    "version": null,
+    "homepage": "https://github.com/songoao25/dsh-contract-drafting-agent",
+    "firstObservedAt": "2026-08-17T07:17:53Z",
+    "lastChangedAt": "2026-08-17T07:17:53Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-d7776faed5b6e9b5b8bf.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-d7776faed5b6e9b5b8bf.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:songoao25/dsh-contract-drafting-agent",
+    "command": "dsh plugin --profile web add github:songoao25/dsh-contract-drafting-agent",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-d7776faed5b6e9b5b8bf，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-d7776faed5b6e9b5b8bf.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-d7776faed5b6e9b5b8bf.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-contract-drafting-agent 已收录到 DeepSeek Harness Plugin Store。合同起草模式：11 阶段律师工作流，五路并行 AI 评审与决策门，内置通用/劳动/股权三类合同领域包。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-d7776faed5b6e9b5b8bf.html",
+    "en": "dsh-contract-drafting-agent is now listed on the DeepSeek Harness Plugin Store. Contract-drafting agent preset: 11-stage lawyer workflow with 5-way parallel AI review, decision gates, and domain packs for general, employment and equity-investment contracts.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-d7776faed5b6e9b5b8bf.html"
+  }
+}

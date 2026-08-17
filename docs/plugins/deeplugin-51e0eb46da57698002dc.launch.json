@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-51e0eb46da57698002dc",
+    "name": "dsh-xueqiu",
+    "author": "kangjinghang",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/kangjinghang/dsh-xueqiu",
+    "firstObservedAt": "2026-08-17T07:17:53Z",
+    "lastChangedAt": "2026-08-17T07:17:53Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-51e0eb46da57698002dc.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-51e0eb46da57698002dc.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:kangjinghang/dsh-xueqiu",
+    "command": "dsh plugin --profile web add github:kangjinghang/dsh-xueqiu",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-51e0eb46da57698002dc，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-51e0eb46da57698002dc.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-51e0eb46da57698002dc.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-xueqiu 已收录到 DeepSeek Harness Plugin Store。雪球行情面板：嵌入输入框上方，免登录查看 A股/港美股行情、指数与自选股，K线蜡烛图（成交量/均线/十字光标）、热榜、搜索、7×24 快讯，另有可拖动迷你指数徽章。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-51e0eb46da57698002dc.html",
+    "en": "dsh-xueqiu is now listed on the DeepSeek Harness Plugin Store. Xueqiu (Snowball) market panel docked above the composer: A-share/HK/US quotes and indices, watchlist, candlestick K-line with volume, MAs and crosshair tooltip, hot list, search, 7x24 news, plus a draggable mini index badge — no login needed.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-51e0eb46da57698002dc.html"
+  }
+}
