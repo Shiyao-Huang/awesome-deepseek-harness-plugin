@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-b276c69e00ee616761e2",
+    "name": "dsh-session-cost",
+    "author": "Lzh3070",
+    "category": "usage",
+    "version": null,
+    "homepage": "https://github.com/Lzh3070/dsh-session-cost",
+    "firstObservedAt": "2026-08-17T16:48:37Z",
+    "lastChangedAt": "2026-08-17T16:48:37Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-b276c69e00ee616761e2.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-b276c69e00ee616761e2.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:lzh3070/dsh-session-cost",
+    "command": "dsh plugin --profile web add github:lzh3070/dsh-session-cost",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-b276c69e00ee616761e2，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-b276c69e00ee616761e2.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b276c69e00ee616761e2.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-session-cost 已收录到 DeepSeek Harness Plugin Store。输入框右侧会话成本芯片：按官方价表（含 2026-08-17 峰谷价）逐消息计价当前会话的 DeepSeek API 花费，悬停查看计价明细、今日(DSH) 消耗与账户余额；仅 DeepSeek 模型计价，其他模型不计价不显示。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b276c69e00ee616761e2.html",
+    "en": "dsh-session-cost is now listed on the DeepSeek Harness Plugin Store. Composer cost chip: prices the current session DeepSeek API spend message-by-message with the official pricing table (incl. the 2026-08-17 peak/off-peak policy); hover for the breakdown, today (DSH) total and account balance. DeepSeek models only.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b276c69e00ee616761e2.html"
+  }
+}

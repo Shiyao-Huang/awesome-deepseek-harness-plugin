@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-24bded43f05befccda45",
+    "name": "dsh-wechat-mp-studio",
+    "author": "FuncWei",
+    "category": "skill",
+    "version": null,
+    "homepage": "https://github.com/FuncWei/dsh-wechat-mp-studio",
+    "firstObservedAt": "2026-08-17T16:48:37Z",
+    "lastChangedAt": "2026-08-17T16:48:37Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-24bded43f05befccda45.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-24bded43f05befccda45.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:funcwei/dsh-wechat-mp-studio",
+    "command": "dsh plugin --profile web add github:funcwei/dsh-wechat-mp-studio",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-24bded43f05befccda45，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-24bded43f05befccda45.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-24bded43f05befccda45.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-wechat-mp-studio 已收录到 DeepSeek Harness Plugin Store。微信公众号内容生产工作台：防低创作度结构轮换写作法、低创作度整改实战、祝福图视觉基线、gpt-image 配图管线与 OCR 验收、小绿书草稿网页接口实测参数。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-24bded43f05befccda45.html",
+    "en": "dsh-wechat-mp-studio is now listed on the DeepSeek Harness Plugin Store. WeChat Official Account content studio: anti-homogenization rotation writing, low-creativity remediation playbook, blessing-image visual baseline, gpt-image pipeline with OCR acceptance, and the measured xiaolvshu draft web API.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-24bded43f05befccda45.html"
+  }
+}

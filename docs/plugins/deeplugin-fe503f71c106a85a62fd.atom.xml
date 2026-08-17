@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>DSH-CODEX-SUBSCRIPTION-POOL — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-fe503f71c106a85a62fd.atom.xml</id>
+  <updated>2026-08-17T16:48:37Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-fe503f71c106a85a62fd.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fe503f71c106a85a62fd.html"/>
+  <entry>
+    <title>New: DSH-CODEX-SUBSCRIPTION-POOL</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-fe503f71c106a85a62fd/dca3a98484f178ed</id>
+    <updated>2026-08-17T16:48:37Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fe503f71c106a85a62fd.html"/>
+    <author><name>Eve-146T</name></author>
+    <category term="model"/>
+    <summary>Use your ChatGPT/Codex subscriptions in DSH, with image generation and web search support. Exact install spec: github:eve-146t/dsh-codex-subscription-pool. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-55285f41f488fe8b2e21",
+    "name": "dsh-cc-ecosystem",
+    "author": "Bcy2020",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/Bcy2020/dsh-cc-ecosystem",
+    "firstObservedAt": "2026-08-17T16:48:37Z",
+    "lastChangedAt": "2026-08-17T16:48:37Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-55285f41f488fe8b2e21.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-55285f41f488fe8b2e21.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:bcy2020/dsh-cc-ecosystem",
+    "command": "dsh plugin --profile web add github:bcy2020/dsh-cc-ecosystem",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-55285f41f488fe8b2e21，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-55285f41f488fe8b2e21.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-55285f41f488fe8b2e21.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-cc-ecosystem 已收录到 DeepSeek Harness Plugin Store。运行时把 Claude Code 全家桶原样加载进 DSH：.claude/ 的技能、斜杠命令、规则、权限（deny/ask/allow）、子代理与 hooks，以及 Claude Code 插件（plugin.json / marketplace / 技能 / 代理 / MCP）——内存 IR 解析层，.claude 始终是唯一事实来源，零回写。六个可安装包：loader、skills、permissions、agents、hooks、mcp。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-55285f41f488fe8b2e21.html",
+    "en": "dsh-cc-ecosystem is now listed on the DeepSeek Harness Plugin Store. Load Claude Code assets into DSH at runtime — skills, slash commands, rules, permission rules (deny/ask/allow), subagents and hooks from .claude/ plus Claude Code plugins (plugin.json / marketplace / skills / agents / MCP), via a memory-IR parse layer that keeps .claude as the source of truth with no writes back. Six installable packages: loader, skills, permissions, agents, hooks, mcp.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-55285f41f488fe8b2e21.html"
+  }
+}

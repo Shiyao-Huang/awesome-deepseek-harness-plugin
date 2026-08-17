@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-0b41bb9f41744c998554",
+    "name": "dsh-md-notes",
+    "author": "XieZongChen",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/XieZongChen/dsh-md-notes",
+    "firstObservedAt": "2026-08-17T16:48:37Z",
+    "lastChangedAt": "2026-08-17T16:48:37Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-0b41bb9f41744c998554.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-0b41bb9f41744c998554.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-md-notes",
+    "command": "dsh plugin --profile web add dsh-md-notes",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-0b41bb9f41744c998554，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-0b41bb9f41744c998554.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-0b41bb9f41744c998554.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-md-notes 已收录到 DeepSeek Harness Plugin Store。DSH 的 MD 笔记管理插件：提供完整的 **MD 笔记管理器** 和 **MD 笔记编辑器**，对话内容可快速记入笔记。笔记可 **同步 Git 仓库** 维护。对话时可将笔记 **加入上下文**。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-0b41bb9f41744c998554.html",
+    "en": "dsh-md-notes is now listed on the DeepSeek Harness Plugin Store. A markdown notes manager for DSH: full **MD notes manager** and **MD notes editor**, quickly capture conversations into notes, maintain notes by **syncing to Git repositories**, and **bring notes into the conversation context**.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-0b41bb9f41744c998554.html"
+  }
+}

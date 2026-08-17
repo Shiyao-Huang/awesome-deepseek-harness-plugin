@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>dsh-catppuccin — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-a2f1c2f593e1d2629c23.atom.xml</id>
-  <updated>2026-08-16T09:56:16Z</updated>
+  <updated>2026-08-17T16:48:37Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-a2f1c2f593e1d2629c23.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a2f1c2f593e1d2629c23.html"/>
+  <entry>
+    <title>Updated: dsh-catppuccin</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-a2f1c2f593e1d2629c23/8e233dc79057465e</id>
+    <updated>2026-08-17T16:48:37Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a2f1c2f593e1d2629c23.html"/>
+    <author><name>NoNameLeGo</name></author>
+    <category term="theme"/>
+    <summary>Catppuccin themes for the DSH Web GUI: Latte, Frappé, Macchiato and Mocha registered into the native theme runtime, one-click switching with a persisted choice. Exact install spec: @nonamelego/dsh-catppuccin. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: entry_name, page_url, description, description_i18n.</summary>
+  </entry>
   <entry>
     <title>Updated: dsh-catppuccin</title>
     <id>tag:deeplugin.store,2026-08-16:deeplugin-a2f1c2f593e1d2629c23/d947fc14d81f9c69</id>

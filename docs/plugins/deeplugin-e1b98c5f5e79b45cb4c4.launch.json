@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-e1b98c5f5e79b45cb4c4",
+    "name": "arch-doc",
+    "author": "duyanta123",
+    "category": "docs",
+    "version": null,
+    "homepage": "https://github.com/duyanta123/arch-doc",
+    "firstObservedAt": "2026-08-17T16:48:37Z",
+    "lastChangedAt": "2026-08-17T16:48:37Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-e1b98c5f5e79b45cb4c4.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-e1b98c5f5e79b45cb4c4.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:duyanta123/arch-doc",
+    "command": "dsh plugin --profile web add github:duyanta123/arch-doc",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-e1b98c5f5e79b45cb4c4，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-e1b98c5f5e79b45cb4c4.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-e1b98c5f5e79b45cb4c4.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "arch-doc 已收录到 DeepSeek Harness Plugin Store。分析代码库并生成架构文档：模块职责、依赖关系、入口点与运行方式。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e1b98c5f5e79b45cb4c4.html",
+    "en": "arch-doc is now listed on the DeepSeek Harness Plugin Store. Analyze a codebase and generate architecture documentation: module responsibilities, dependencies, entry points and run methods.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e1b98c5f5e79b45cb4c4.html"
+  }
+}

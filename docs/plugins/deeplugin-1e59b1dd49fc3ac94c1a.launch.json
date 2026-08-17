@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-1e59b1dd49fc3ac94c1a",
+    "name": "iterate-plugin",
+    "author": "jingzhao-l",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/jingzhao-l/iterate-plugin",
+    "firstObservedAt": "2026-08-17T16:48:37Z",
+    "lastChangedAt": "2026-08-17T16:48:37Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-1e59b1dd49fc3ac94c1a.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-1e59b1dd49fc3ac94c1a.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:jingzhao-l/iterate-plugin",
+    "command": "dsh plugin --profile web add github:jingzhao-l/iterate-plugin",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-1e59b1dd49fc3ac94c1a，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-1e59b1dd49fc3ac94c1a.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-1e59b1dd49fc3ac94c1a.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "iterate-plugin 已收录到 DeepSeek Harness Plugin Store。把 iterate 技能跑成自主闭环：规划、并行审查、原子修复、验证、循环、自动停止，并支持纯评审的 dry-run 模式与元评审最终报告。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-1e59b1dd49fc3ac94c1a.html",
+    "en": "iterate-plugin is now listed on the DeepSeek Harness Plugin Store. Turns the iterate skill into an autonomous closed-loop harness — plan, parallel review, atomic fixes, validate, loop, auto-stop — plus a dry-run review-only mode and a meta-review that audits the report and emits a final review report.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-1e59b1dd49fc3ac94c1a.html"
+  }
+}

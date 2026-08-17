@@ -5,6 +5,27 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 2026-08-17 | github | plugin | [DSH-CODEX-SUBSCRIPTION-POOL](https://github.com/Eve-146T/DSH-CODEX-SUBSCRIPTION-POOL) | Eve-146T | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [arch-doc](https://github.com/duyanta123/arch-doc) | duyanta123 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [chicheng-cron](https://github.com/534119219/chicheng-cron) | 534119219 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [chicheng-stats](https://github.com/534119219/chicheng-stats) | 534119219 | operations-and-safety |
+| 2026-08-17 | github | plugin | [dsh-branch-review](https://github.com/chouyong/dsh-branch-review) | chouyong | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-cc-ecosystem](https://github.com/Bcy2020/dsh-cc-ecosystem) | Bcy2020 | index-and-marketplace |
+| 2026-08-17 | github | plugin | [dsh-cursor-acp](https://github.com/loeanxi/dsh-cursor-acp) | loeanxi | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-data-insight](https://github.com/duyanta123/dsh-data-insight) | duyanta123 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-effect-doctor](https://github.com/chouyong/dsh-effect-doctor) | chouyong | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-fork-diff](https://github.com/chouyong/dsh-fork-diff) | chouyong | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-mem0](https://github.com/orangeshinee/dsh-mem0) | orangeshinee | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-messaging](https://github.com/534119219/dsh-messaging) | 534119219 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-pilot](https://github.com/Viger1/dsh-pilot) | Viger1 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-preset-scaffold](https://github.com/duyanta123/dsh-preset-scaffold) | duyanta123 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-preview](https://github.com/Viger1/dsh-preview) | Viger1 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-session-cost](https://github.com/Lzh3070/dsh-session-cost) | Lzh3070 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-team](https://github.com/huxint/dsh-team) | huxint | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-vision-solution](https://github.com/br1nosense/dsh-vision-solution) | br1nosense | multimedia-and-vision |
+| 2026-08-17 | github | plugin | [dsh-wechat-mp-studio](https://github.com/FuncWei/dsh-wechat-mp-studio) | FuncWei | multimedia-and-vision |
+| 2026-08-17 | github | plugin | [iterate-plugin](https://github.com/jingzhao-l/iterate-plugin) | jingzhao-l | core-and-ecosystem |
+| 2026-08-17T16:32:27Z | hacker_news | story | [Ask HN: What&#x27;s the Best Agent Harness?](https://news.ycombinator.com/item?id=49333747) | cakbeslik | core-and-ecosystem |
 | 2026-08-17T14:45:53Z | github | ecosystem-reference | [NoNameLeGo/dsh-catppuccin-theme](https://github.com/NoNameLeGo/dsh-catppuccin-theme) | NoNameLeGo | ui-and-desktop |
 | 2026-08-17 | github | plugin | [dsh-bill](https://github.com/Jannchie/dsh-bill) | Jannchie | core-and-ecosystem |
 | 2026-08-17 | github | plugin | [dsh-custom-ui](https://github.com/nailing10086-zx/dsh-custom-ui) | nailing10086-zx | core-and-ecosystem |
@@ -14632,6 +14653,7 @@
 | 2023-06-26T19:39:32Z | github | repository | [ollama/ollama](https://github.com/ollama/ollama) | ollama | core-and-ecosystem |
 | 2023-05-19T03:02:29Z | github | repository | [BradyFU/Awesome-Multimodal-Large-Language-Models](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) | BradyFU | index-and-marketplace |
 | 2023-05-06T17:27:54Z | github | repository | [Anil-matcha/awesome-deepseek-harness](https://github.com/Anil-matcha/awesome-deepseek-harness) | Anil-matcha | index-and-marketplace |
+| 2023-05-06T17:27:54Z | github | repository | [Anil-matcha/awesome-dsh-plugin](https://github.com/Anil-matcha/awesome-dsh-plugin) | Anil-matcha | index-and-marketplace |
 | 2023-04-02T04:06:56Z | github | repository | [ikaijua/Awesome-AITools](https://github.com/ikaijua/Awesome-AITools) | ikaijua | index-and-marketplace |
 | 2023-02-27T06:01:53Z | github | repository | [GreyDGL/PentestGPT](https://github.com/GreyDGL/PentestGPT) | GreyDGL | core-and-ecosystem |
 | 2023-02-17T14:12:21Z | github | repository | [Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) | Hannibal046 | index-and-marketplace |

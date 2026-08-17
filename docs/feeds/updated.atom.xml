@@ -2,9 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>deeplugin.store — Updated plugins</title>
   <id>https://deeplugin.store/feeds/updated.atom.xml</id>
-  <updated>2026-08-17T14:45:53Z</updated>
+  <updated>2026-08-17T16:48:37Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/feeds/updated.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/market.html"/>
+  <entry>
+    <title>Updated: dsh-remote</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-edc255075902a2cc2fc5/9645f5543e82aa9a</id>
+    <updated>2026-08-17T16:48:37Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-edc255075902a2cc2fc5.html"/>
+    <author><name>xgone</name></author>
+    <category term="dev"/>
+    <summary>Remote access &amp; authentication for the DeepSeek Harness web UI: account/password login gate, MFA (TOTP), signed session cookies, role-based access, in-browser directory picker, and an account-management settings page. Exact install spec: @xgone/dsh-remote. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-catppuccin</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-a2f1c2f593e1d2629c23/8e233dc79057465e</id>
+    <updated>2026-08-17T16:48:37Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a2f1c2f593e1d2629c23.html"/>
+    <author><name>NoNameLeGo</name></author>
+    <category term="theme"/>
+    <summary>Catppuccin themes for the DSH Web GUI: Latte, Frappé, Macchiato and Mocha registered into the native theme runtime, one-click switching with a persisted choice. Exact install spec: @nonamelego/dsh-catppuccin. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: entry_name, page_url, description, description_i18n.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dshmobile#dshmobile-plugin</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-1ac679cd36d04ec9ad61/412bedfcf7dca08f</id>
+    <updated>2026-08-17T16:48:37Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1ac679cd36d04ec9ad61.html"/>
+    <author><name>zdx8637-gitdog</name></author>
+    <category term="session"/>
+    <summary>Phone access to DSH over a self-hosted relay (WSS via your own TLS-terminating proxy): bundle plugin with bridge supervisor and QR login, a native Android app, and server-side device revocation. Exact install spec: github:zdx8637-gitdog/dshmobile#path:/plugins/dshmobile-plugin. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
   <entry>
     <title>Updated: agent_team_gui</title>
     <id>tag:deeplugin.store,2026-08-17:deeplugin-db5f477866921cb988d1/ff019e41100c47f9</id>
@@ -877,32 +904,5 @@
     <author><name>tancheng33</name></author>
     <category term="dev"/>
     <summary>HashiCorp Vault backend for the credential seam: KV v2/v1, AppRole machine auth, per-operation reads so rotation needs no restart, and compare-and-swap writes. Exact install spec: github:tancheng33/dsh-credentials-vault. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dshp</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-eea44d04dc4a1fd91f52/d947fc14d81f9c69</id>
-    <updated>2026-08-16T09:56:16Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-eea44d04dc4a1fd91f52.html"/>
-    <author><name>asdf17128</name></author>
-    <category term="tools"/>
-    <summary>Registers `list_profiles` and `export_profile`, so the agent can show what setups exist and hand back a whole profile — bundle order, plugin versions and patch — as one portable file to share. Read-only. Exact install spec: github:asdf17128/dshp. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-tool-bandit-search</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-ee28c29b1f79802df143/d947fc14d81f9c69</id>
-    <updated>2026-08-16T09:56:16Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ee28c29b1f79802df143.html"/>
-    <author><name>siruignaw-sys</name></author>
-    <category term="tools"/>
-    <summary>A `search` tool that learns to pick between fast and thorough search strategies using a contextual bandit (Thompson sampling), improving from real usage instead of a fixed heuristic. Exact install spec: github:siruignaw-sys/dsh-tool-bandit-search. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-homepage-skin</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-ec860023331cc7f8422f/d947fc14d81f9c69</id>
-    <updated>2026-08-16T09:56:16Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ec860023331cc7f8422f.html"/>
-    <author><name>yushi-xxh</name></author>
-    <category term="fun"/>
-    <summary>Adds the DeepSeek Harness homepage background to dsh web: WebGL fluid light, dot-line grid and a digital point-cloud whale, with dark and light palettes. Exact install spec: dsh-homepage-skin. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
   </entry>
 </feed>

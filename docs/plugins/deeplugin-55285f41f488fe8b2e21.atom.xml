@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-cc-ecosystem — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-55285f41f488fe8b2e21.atom.xml</id>
+  <updated>2026-08-17T16:48:37Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-55285f41f488fe8b2e21.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-55285f41f488fe8b2e21.html"/>
+  <entry>
+    <title>New: dsh-cc-ecosystem</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-55285f41f488fe8b2e21/dca3a98484f178ed</id>
+    <updated>2026-08-17T16:48:37Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-55285f41f488fe8b2e21.html"/>
+    <author><name>Bcy2020</name></author>
+    <category term="dev"/>
+    <summary>Load Claude Code assets into DSH at runtime — skills, slash commands, rules, permission rules (deny/ask/allow), subagents and hooks from .claude/ plus Claude Code plugins (plugin.json / marketplace / skills / agents / MCP), via a memory-IR parse layer that keeps .claude as the source of truth with no writes back. Six installable packages: loader, skills, permissions, agents, hooks, mcp. Exact install spec: github:bcy2020/dsh-cc-ecosystem. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

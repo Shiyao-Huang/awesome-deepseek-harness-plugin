@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>iterate-plugin — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-1e59b1dd49fc3ac94c1a.atom.xml</id>
+  <updated>2026-08-17T16:48:37Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-1e59b1dd49fc3ac94c1a.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1e59b1dd49fc3ac94c1a.html"/>
+  <entry>
+    <title>New: iterate-plugin</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-1e59b1dd49fc3ac94c1a/dca3a98484f178ed</id>
+    <updated>2026-08-17T16:48:37Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1e59b1dd49fc3ac94c1a.html"/>
+    <author><name>jingzhao-l</name></author>
+    <category term="workflow"/>
+    <summary>Turns the iterate skill into an autonomous closed-loop harness — plan, parallel review, atomic fixes, validate, loop, auto-stop — plus a dry-run review-only mode and a meta-review that audits the report and emits a final review report. Exact install spec: github:jingzhao-l/iterate-plugin. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

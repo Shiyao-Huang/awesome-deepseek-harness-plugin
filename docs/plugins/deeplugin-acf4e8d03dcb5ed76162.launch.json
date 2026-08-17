@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-acf4e8d03dcb5ed76162",
+    "name": "dsh-preset-scaffold",
+    "author": "duyanta123",
+    "category": "skill",
+    "version": null,
+    "homepage": "https://github.com/duyanta123/dsh-preset-scaffold",
+    "firstObservedAt": "2026-08-17T16:48:37Z",
+    "lastChangedAt": "2026-08-17T16:48:37Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-acf4e8d03dcb5ed76162.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-acf4e8d03dcb5ed76162.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:duyanta123/dsh-preset-scaffold",
+    "command": "dsh plugin --profile web add github:duyanta123/dsh-preset-scaffold",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-acf4e8d03dcb5ed76162，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-acf4e8d03dcb5ed76162.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-acf4e8d03dcb5ed76162.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-preset-scaffold 已收录到 DeepSeek Harness Plugin Store。DSH 项目初始化脚手架预设：严格 5 阶段初始化流程 + 工程规范 + 六套可运行模板（node-ts / react-vite / python / go / spring-boot / monorepo）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-acf4e8d03dcb5ed76162.html",
+    "en": "dsh-preset-scaffold is now listed on the DeepSeek Harness Plugin Store. DSH project scaffold preset: strict 5-phase init runbook, engineering standards and six runnable starter templates (node-ts / react-vite / python / go / spring-boot / monorepo).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-acf4e8d03dcb5ed76162.html"
+  }
+}

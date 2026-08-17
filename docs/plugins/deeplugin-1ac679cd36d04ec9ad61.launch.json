@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/zdx8637-gitdog/dshmobile/tree/main/plugins/dshmobile-plugin",
     "firstObservedAt": "2026-08-17T14:45:53Z",
-    "lastChangedAt": "2026-08-17T14:45:53Z"
+    "lastChangedAt": "2026-08-17T16:48:37Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-1ac679cd36d04ec9ad61.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-1ac679cd36d04ec9ad61.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dshmobile#dshmobile-plugin 已收录到 DeepSeek Harness Plugin Store。移动端远程控制套件：含桥接守护与扫码登录的 bundle 插件、原生 Android 应用，以及自建中继（WSS 由你自己的 TLS 终止代理提供），并支持服务端设备吊销。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-1ac679cd36d04ec9ad61.html",
-    "en": "dshmobile#dshmobile-plugin is now listed on the DeepSeek Harness Plugin Store. Mobile remote-control suite: bundle plugin with bridge supervisor and QR login, a native Android app, and a self-hosted relay (WSS via your own TLS-terminating proxy), with server-side device revocation.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-1ac679cd36d04ec9ad61.html"
+    "zh": "dshmobile#dshmobile-plugin 已收录到 DeepSeek Harness Plugin Store。通过自建中继从手机访问 DSH（WSS 由你自己的 TLS 终止代理提供）：含桥接守护与扫码登录的 bundle 插件、原生 Android 应用，并支持服务端设备吊销。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-1ac679cd36d04ec9ad61.html",
+    "en": "dshmobile#dshmobile-plugin is now listed on the DeepSeek Harness Plugin Store. Phone access to DSH over a self-hosted relay (WSS via your own TLS-terminating proxy): bundle plugin with bridge supervisor and QR login, a native Android app, and server-side device revocation.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-1ac679cd36d04ec9ad61.html"
   }
 }

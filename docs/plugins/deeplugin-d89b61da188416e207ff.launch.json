@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-d89b61da188416e207ff",
+    "name": "dsh-mem0",
+    "author": "orangeshinee",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/orangeshinee/dsh-mem0",
+    "firstObservedAt": "2026-08-17T16:48:37Z",
+    "lastChangedAt": "2026-08-17T16:48:37Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-d89b61da188416e207ff.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-d89b61da188416e207ff.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:orangeshinee/dsh-mem0",
+    "command": "dsh plugin --profile web add github:orangeshinee/dsh-mem0",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-d89b61da188416e207ff，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-d89b61da188416e207ff.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-d89b61da188416e207ff.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-mem0 已收录到 DeepSeek Harness Plugin Store。自托管 mem0 记忆读写插件：agent 直接读写自有 mem0 服务（增删查改、搜索、历史、重置、状态），并带设置面板配置卡片。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-d89b61da188416e207ff.html",
+    "en": "dsh-mem0 is now listed on the DeepSeek Harness Plugin Store. Agent tools for a self-hosted mem0 server: add, search, get, update, delete, history, reset and status memories, with a settings-panel configuration card.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-d89b61da188416e207ff.html"
+  }
+}

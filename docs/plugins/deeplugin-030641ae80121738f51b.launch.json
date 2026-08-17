@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-030641ae80121738f51b",
+    "name": "dsh-branch-review",
+    "author": "chouyong",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/chouyong/dsh-branch-review",
+    "firstObservedAt": "2026-08-17T16:48:37Z",
+    "lastChangedAt": "2026-08-17T16:48:37Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-030641ae80121738f51b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-030641ae80121738f51b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:chouyong/dsh-branch-review",
+    "command": "dsh plugin --profile web add github:chouyong/dsh-branch-review",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-030641ae80121738f51b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-030641ae80121738f51b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-030641ae80121738f51b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-branch-review 已收录到 DeepSeek Harness Plugin Store。为相关 DSH 会话分支记录人工决策：保留、淘汰或待跟进，并保存理由、标签与外部链接。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-030641ae80121738f51b.html",
+    "en": "dsh-branch-review is now listed on the DeepSeek Harness Plugin Store. Track human decisions for related DSH session branches: keep, discard, or follow up with reasons, labels, and external links.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-030641ae80121738f51b.html"
+  }
+}

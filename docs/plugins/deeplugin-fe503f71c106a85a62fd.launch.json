@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-fe503f71c106a85a62fd",
+    "name": "DSH-CODEX-SUBSCRIPTION-POOL",
+    "author": "Eve-146T",
+    "category": "model",
+    "version": null,
+    "homepage": "https://github.com/Eve-146T/DSH-CODEX-SUBSCRIPTION-POOL",
+    "firstObservedAt": "2026-08-17T16:48:37Z",
+    "lastChangedAt": "2026-08-17T16:48:37Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-fe503f71c106a85a62fd.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-fe503f71c106a85a62fd.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:eve-146t/dsh-codex-subscription-pool",
+    "command": "dsh plugin --profile web add github:eve-146t/dsh-codex-subscription-pool",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-fe503f71c106a85a62fd，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-fe503f71c106a85a62fd.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-fe503f71c106a85a62fd.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "DSH-CODEX-SUBSCRIPTION-POOL 已收录到 DeepSeek Harness Plugin Store。在 DSH 中使用你的 ChatGPT/Codex 订阅，并支持图像生成和 Web 搜索。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-fe503f71c106a85a62fd.html",
+    "en": "DSH-CODEX-SUBSCRIPTION-POOL is now listed on the DeepSeek Harness Plugin Store. Use your ChatGPT/Codex subscriptions in DSH, with image generation and web search support.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-fe503f71c106a85a62fd.html"
+  }
+}

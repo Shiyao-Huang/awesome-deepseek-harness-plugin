@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-cursor-acp — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-142c4143431ee04bce60.atom.xml</id>
+  <updated>2026-08-17T16:48:37Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-142c4143431ee04bce60.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-142c4143431ee04bce60.html"/>
+  <entry>
+    <title>New: dsh-cursor-acp</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-142c4143431ee04bce60/dca3a98484f178ed</id>
+    <updated>2026-08-17T16:48:37Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-142c4143431ee04bce60.html"/>
+    <author><name>loeanxi</name></author>
+    <category term="dev"/>
+    <summary>Hands standalone jobs to the Cursor CLI signed in on the same machine, with child-model settings and a read-only connectivity test. Exact install spec: dsh-cursor-acp. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

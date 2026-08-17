@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-91e8960cc29d023c1b1a",
+    "name": "chicheng-stats",
+    "author": "534119219",
+    "category": "usage",
+    "version": null,
+    "homepage": "https://github.com/534119219/chicheng-stats",
+    "firstObservedAt": "2026-08-17T16:48:37Z",
+    "lastChangedAt": "2026-08-17T16:48:37Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-91e8960cc29d023c1b1a.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-91e8960cc29d023c1b1a.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:534119219/chicheng-stats",
+    "command": "dsh plugin --profile web add github:534119219/chicheng-stats",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-91e8960cc29d023c1b1a，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-91e8960cc29d023c1b1a.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-91e8960cc29d023c1b1a.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "chicheng-stats 已收录到 DeepSeek Harness Plugin Store。高度可配置的 DSH 用量统计插件：侧边栏文字/卡片组件加统计弹窗，提供按提供方与按模型的请求/Token 统计、缓存命中率、趋势图与首字节/总耗时明细。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-91e8960cc29d023c1b1a.html",
+    "en": "chicheng-stats is now listed on the DeepSeek Harness Plugin Store. Configurable DSH usage statistics: a sidebar text/card widget plus a detail dialog with per-provider and per-model breakdowns, cache-hit rates, token trends, and latency details (TTFT and duration).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-91e8960cc29d023c1b1a.html"
+  }
+}

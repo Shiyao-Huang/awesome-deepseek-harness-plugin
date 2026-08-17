@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-0b8b5d73f2c8b628b584",
+    "name": "dsh-pilot",
+    "author": "Viger1",
+    "category": "browser",
+    "version": null,
+    "homepage": "https://github.com/Viger1/dsh-pilot",
+    "firstObservedAt": "2026-08-17T16:48:37Z",
+    "lastChangedAt": "2026-08-17T16:48:37Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-0b8b5d73f2c8b628b584.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-0b8b5d73f2c8b628b584.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-pilot",
+    "command": "dsh plugin --profile web add dsh-pilot",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-0b8b5d73f2c8b628b584，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-0b8b5d73f2c8b628b584.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-0b8b5d73f2c8b628b584.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-pilot 已收录到 DeepSeek Harness Plugin Store。按无障碍 ref 操控浏览器：导航、把页面快照成 ref 树、操作元素、等待条件；域名策略跟随会话审批状态，并由请求拦截层强制执行。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-0b8b5d73f2c8b628b584.html",
+    "en": "dsh-pilot is now listed on the DeepSeek Harness Plugin Store. Browser operation by accessibility refs: navigate, snapshot the page as a ref tree, act on elements, and wait for conditions; the origin policy follows the session approval stance and is enforced by request interception.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-0b8b5d73f2c8b628b584.html"
+  }
+}

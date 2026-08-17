@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>dshmobile#dshmobile-plugin — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-1ac679cd36d04ec9ad61.atom.xml</id>
-  <updated>2026-08-17T14:45:53Z</updated>
+  <updated>2026-08-17T16:48:37Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-1ac679cd36d04ec9ad61.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1ac679cd36d04ec9ad61.html"/>
+  <entry>
+    <title>Updated: dshmobile#dshmobile-plugin</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-1ac679cd36d04ec9ad61/412bedfcf7dca08f</id>
+    <updated>2026-08-17T16:48:37Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1ac679cd36d04ec9ad61.html"/>
+    <author><name>zdx8637-gitdog</name></author>
+    <category term="session"/>
+    <summary>Phone access to DSH over a self-hosted relay (WSS via your own TLS-terminating proxy): bundle plugin with bridge supervisor and QR login, a native Android app, and server-side device revocation. Exact install spec: github:zdx8637-gitdog/dshmobile#path:/plugins/dshmobile-plugin. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
   <entry>
     <title>New: dshmobile#dshmobile-plugin</title>
     <id>tag:deeplugin.store,2026-08-17:deeplugin-1ac679cd36d04ec9ad61/0f76ea6add3d3e1e</id>
@@ -12,6 +21,6 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1ac679cd36d04ec9ad61.html"/>
     <author><name>zdx8637-gitdog</name></author>
     <category term="session"/>
-    <summary>Mobile remote-control suite: bundle plugin with bridge supervisor and QR login, a native Android app, and a self-hosted relay (WSS via your own TLS-terminating proxy), with server-side device revocation. Exact install spec: github:zdx8637-gitdog/dshmobile#path:/plugins/dshmobile-plugin. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+    <summary>Phone access to DSH over a self-hosted relay (WSS via your own TLS-terminating proxy): bundle plugin with bridge supervisor and QR login, a native Android app, and server-side device revocation. Exact install spec: github:zdx8637-gitdog/dshmobile#path:/plugins/dshmobile-plugin. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>
