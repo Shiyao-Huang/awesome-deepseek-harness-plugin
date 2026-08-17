@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-9b6db4a15a353b025bb6",
+    "name": "dsh-plan-switch",
+    "author": "a903067276-rgb",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/a903067276-rgb/dsh-plan-switch",
+    "firstObservedAt": "2026-08-17T03:14:45Z",
+    "lastChangedAt": "2026-08-17T03:14:45Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-9b6db4a15a353b025bb6.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-9b6db4a15a353b025bb6.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:a903067276-rgb/dsh-plan-switch",
+    "command": "dsh plugin --profile web add github:a903067276-rgb/dsh-plan-switch",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-9b6db4a15a353b025bb6，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-9b6db4a15a353b025bb6.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-9b6db4a15a353b025bb6.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plan-switch 已收录到 DeepSeek Harness Plugin Store。输入框一键进/出 Plan 模式（/plan 的快捷点击），常驻小按钮。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-9b6db4a15a353b025bb6.html",
+    "en": "dsh-plan-switch is now listed on the DeepSeek Harness Plugin Store. One-click enter/exit Plan mode for the DSH web input bar, a quick-click shortcut for /plan.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-9b6db4a15a353b025bb6.html"
+  }
+}

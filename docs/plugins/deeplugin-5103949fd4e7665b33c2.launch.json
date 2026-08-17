@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-5103949fd4e7665b33c2",
+    "name": "weshop-dsh-plugin",
+    "author": "weshopai",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/weshopai/weshop-dsh-plugin",
+    "firstObservedAt": "2026-08-17T03:14:45Z",
+    "lastChangedAt": "2026-08-17T03:14:45Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-5103949fd4e7665b33c2.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-5103949fd4e7665b33c2.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "weshop-dsh-plugin",
+    "command": "dsh plugin --profile web add weshop-dsh-plugin",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-5103949fd4e7665b33c2，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-5103949fd4e7665b33c2.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-5103949fd4e7665b33c2.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "weshop-dsh-plugin 已收录到 DeepSeek Harness Plugin Store。电商可视化工作区：在无限画布上完成产品图、虚拟试穿、背景处理与视频生成，并与 Harness 对话实时同步。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-5103949fd4e7665b33c2.html",
+    "en": "weshop-dsh-plugin is now listed on the DeepSeek Harness Plugin Store. Infinite-canvas e-commerce visual workspace for product photography, virtual try-on, background edits, and video, synced live with the Harness conversation.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-5103949fd4e7665b33c2.html"
+  }
+}

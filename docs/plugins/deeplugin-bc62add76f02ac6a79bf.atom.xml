@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-plugins#dsh-system-proxy — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-bc62add76f02ac6a79bf.atom.xml</id>
+  <updated>2026-08-17T03:14:45Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-bc62add76f02ac6a79bf.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-bc62add76f02ac6a79bf.html"/>
+  <entry>
+    <title>New: dsh-plugins#dsh-system-proxy</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-bc62add76f02ac6a79bf/6c8bd3aed28b3563</id>
+    <updated>2026-08-17T03:14:45Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-bc62add76f02ac6a79bf.html"/>
+    <author><name>DamonKoy</name></author>
+    <category term="dev"/>
+    <summary>System proxy detection (scutil/env/PAC) with a status tool and a proxy_export bash snippet tool. Exact install spec: github:damonkoy/dsh-plugins#path:/packages/dsh-system-proxy. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

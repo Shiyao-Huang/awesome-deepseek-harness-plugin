@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-813bbb79d0e90a2f0f20",
+    "name": "dsh-desktop#plugin",
+    "author": "ReachGa0",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/ReachGa0/dsh-desktop/tree/main/plugin",
+    "firstObservedAt": "2026-08-17T03:14:45Z",
+    "lastChangedAt": "2026-08-17T03:14:45Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-813bbb79d0e90a2f0f20.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-813bbb79d0e90a2f0f20.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-desktop-windows-launcher",
+    "command": "dsh plugin --profile web add dsh-desktop-windows-launcher",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-813bbb79d0e90a2f0f20，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-813bbb79d0e90a2f0f20.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-813bbb79d0e90a2f0f20.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-desktop#plugin 已收录到 DeepSeek Harness Plugin Store。dsh 插件（dsh-desktop-launcher）：在对话中一键启动 dsh-desktop Windows Electron 桌面壳——双击即用、无需终端；支持选区截图提问（GPU 实时框选、自动粘贴到聊天框、配合识图插件 AI 直接看图回答）、系统托盘、会话管理、环境自动引导、可换端口、单实例锁。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-813bbb79d0e90a2f0f20.html",
+    "en": "dsh-desktop#plugin is now listed on the DeepSeek Harness Plugin Store. DSH plugin (dsh-desktop-launcher) that launches the dsh-desktop Windows Electron shell from the conversation: double-click to run the DSH web in a standalone window, region screenshot with GPU-accelerated selection that auto-pastes into the chat (works with vision bridges), system tray, session manager, auto environment setup, configurable port, single-instance lock.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-813bbb79d0e90a2f0f20.html"
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-plugins#dsh-memories — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-432c7d688e794bcdd64a.atom.xml</id>
+  <updated>2026-08-17T03:14:45Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-432c7d688e794bcdd64a.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-432c7d688e794bcdd64a.html"/>
+  <entry>
+    <title>New: dsh-plugins#dsh-memories</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-432c7d688e794bcdd64a/6c8bd3aed28b3563</id>
+    <updated>2026-08-17T03:14:45Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-432c7d688e794bcdd64a.html"/>
+    <author><name>DamonKoy</name></author>
+    <category term="memory"/>
+    <summary>Project-scoped persistent key-value memories with set/get/list/delete/search model tools and JSON-file storage. Exact install spec: github:damonkoy/dsh-plugins#path:/packages/dsh-memories. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

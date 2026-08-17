@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-0b6937fa680d481e180a",
+    "name": "dsh-codex-subscription",
+    "author": "WSL043",
+    "category": "model",
+    "version": null,
+    "homepage": "https://github.com/WSL043/dsh-codex-subscription",
+    "firstObservedAt": "2026-08-17T03:14:45Z",
+    "lastChangedAt": "2026-08-17T03:14:45Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-0b6937fa680d481e180a.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-0b6937fa680d481e180a.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-codex-subscription",
+    "command": "dsh plugin --profile web add dsh-codex-subscription",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-0b6937fa680d481e180a，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-0b6937fa680d481e180a.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-0b6937fa680d481e180a.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-codex-subscription 已收录到 DeepSeek Harness Plugin Store。内置 ChatGPT OAuth 的 Codex 模型提供方：可切换订阅联网搜索，在设置页显示普通 Codex 与 Spark 独立额度；无需 API Key 或 Codex CLI。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-0b6937fa680d481e180a.html",
+    "en": "dsh-codex-subscription is now listed on the DeepSeek Harness Plugin Store. Built-in ChatGPT OAuth provider for Codex models, selectable subscription web search, backend quota for standard Codex and Spark, and a DSH settings UI; no API key or Codex CLI required.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-0b6937fa680d481e180a.html"
+  }
+}

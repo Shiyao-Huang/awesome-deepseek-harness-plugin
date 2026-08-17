@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-plugin-qcc — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-6830fce770c974b38115.atom.xml</id>
+  <updated>2026-08-17T03:14:45Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-6830fce770c974b38115.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-6830fce770c974b38115.html"/>
+  <entry>
+    <title>New: dsh-plugin-qcc</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-6830fce770c974b38115/6c8bd3aed28b3563</id>
+    <updated>2026-08-17T03:14:45Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-6830fce770c974b38115.html"/>
+    <author><name>Samge0</name></author>
+    <category term="tools"/>
+    <summary>Qichacha (企查查) enterprise data source as a dynamic Cordis plugin: 5 agent tools (auth with QR login, company search, knowledge search, tool search, tool execute) covering 100+ data dimensions (business registration, shareholders, judicial, IP), plus a settings-page account manager; network/file IO via DSH subprocess spawning node -e, credentials interop with the local BizOwl client. Exact install spec: github:samge0/dsh-plugin-qcc. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

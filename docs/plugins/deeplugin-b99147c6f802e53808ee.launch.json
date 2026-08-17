@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-b99147c6f802e53808ee",
+    "name": "dsh-voice-ai-girlfriend-plugin",
+    "author": "beiyege-01",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/beiyege-01/dsh-voice-ai-girlfriend-plugin",
+    "firstObservedAt": "2026-08-17T03:14:45Z",
+    "lastChangedAt": "2026-08-17T03:14:45Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-b99147c6f802e53808ee.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-b99147c6f802e53808ee.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:beiyege-01/dsh-voice-ai-girlfriend-plugin",
+    "command": "dsh plugin --profile web add github:beiyege-01/dsh-voice-ai-girlfriend-plugin",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-b99147c6f802e53808ee，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-b99147c6f802e53808ee.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b99147c6f802e53808ee.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-voice-ai-girlfriend-plugin 已收录到 DeepSeek Harness Plugin Store。Web UI 语音 AI 女友：FunASR 麦克风语音输入、Qwen3-TTS 语音回复、数字人动画窗、QQ 双向聊天（文本/语音/图片推送，经 NapCat）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b99147c6f802e53808ee.html",
+    "en": "dsh-voice-ai-girlfriend-plugin is now listed on the DeepSeek Harness Plugin Store. Voice AI girlfriend for the Web UI: FunASR mic input, Qwen3-TTS spoken replies, companion animation window, and two-way QQ chat (text/voice/image push) via NapCat.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b99147c6f802e53808ee.html"
+  }
+}

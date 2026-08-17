@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-618019f767b72a27e8bf",
+    "name": "dsh-plugin-manager",
+    "author": "2768651338",
+    "category": "market",
+    "version": null,
+    "homepage": "https://github.com/2768651338/dsh-plugin-manager",
+    "firstObservedAt": "2026-08-17T03:14:45Z",
+    "lastChangedAt": "2026-08-17T03:14:45Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-618019f767b72a27e8bf.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-618019f767b72a27e8bf.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:2768651338/dsh-plugin-manager",
+    "command": "dsh plugin --profile web add github:2768651338/dsh-plugin-manager",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-618019f767b72a27e8bf，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-618019f767b72a27e8bf.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-618019f767b72a27e8bf.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-manager 已收录到 DeepSeek Harness Plugin Store。设置 → 插件里的插件管理页：已装插件中文名与白话描述、一键启停、界面内改备注，支持搜索与筛选。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-618019f767b72a27e8bf.html",
+    "en": "dsh-plugin-manager is now listed on the DeepSeek Harness Plugin Store. A plugin manager tab in Settings → Plugins: Chinese names and plain-language descriptions for every installed plugin, one-click enable/disable, in-UI notes editing, and search/filter over the installed catalog.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-618019f767b72a27e8bf.html"
+  }
+}

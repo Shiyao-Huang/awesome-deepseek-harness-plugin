@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/AKS1st/dsh-cyber-particle",
     "firstObservedAt": "2026-08-15T22:14:49Z",
-    "lastChangedAt": "2026-08-16T13:41:06Z"
+    "lastChangedAt": "2026-08-17T03:14:45Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-c68f0f54b4abc826714d.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-c68f0f54b4abc826714d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-cyber-particle 已收录到 DeepSeek Harness Plugin Store。为 DSH Web 界面提供粒子网络动态背景：全屏覆盖、点击穿透、零运行时依赖；以及开放事件源：其他插件可注入 notifier 服务（ctx.notifier）并订阅 dsh-notifier/sent 发送事件——复用通知能力而无需耦合。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c68f0f54b4abc826714d.html",
+    "zh": "dsh-cyber-particle 已收录到 DeepSeek Harness Plugin Store。为 DSH Web 界面提供粒子网络动态背景：全屏覆盖、点击穿透、零运行时依赖；以及开放事件源：其他插件可注入 notifier 服务（ctx.notifier）并订阅 dsh-notifier/sent 发送事件——复用通知能力而无需耦合；以及身份体系（v0.7）：配对码准入（任意私聊 /pair，首位核销者成为 owner）、复合键绑定、成员角色、空白名单引导态。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c68f0f54b4abc826714d.html",
     "en": "dsh-cyber-particle is now listed on the DeepSeek Harness Plugin Store. Particle-network background overlay for the DSH Web shell: full-screen, click-through, zero runtime dependencies.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-c68f0f54b4abc826714d.html"
   }
 }

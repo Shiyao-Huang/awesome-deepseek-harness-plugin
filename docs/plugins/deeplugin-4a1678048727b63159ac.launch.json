@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-4a1678048727b63159ac",
+    "name": "dsh-yolo-mode",
+    "author": "SeverusZh",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/SeverusZh/dsh-yolo-mode",
+    "firstObservedAt": "2026-08-17T03:14:45Z",
+    "lastChangedAt": "2026-08-17T03:14:45Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-4a1678048727b63159ac.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-4a1678048727b63159ac.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-yolo-mode",
+    "command": "dsh plugin --profile web add dsh-yolo-mode",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-4a1678048727b63159ac，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-4a1678048727b63159ac.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-4a1678048727b63159ac.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-yolo-mode 已收录到 DeepSeek Harness Plugin Store。沙箱升权申请的 LLM 自动审批：内置预设，fail-closed 兜底。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-4a1678048727b63159ac.html",
+    "en": "dsh-yolo-mode is now listed on the DeepSeek Harness Plugin Store. LLM auto-approval for sandbox escalation requests, with presets and a fail-closed fallback.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-4a1678048727b63159ac.html"
+  }
+}

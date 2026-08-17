@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-b0993dbbd20b993f9d5d",
+    "name": "dshmath-manim",
+    "author": "phelpsyacht",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/phelpsyacht/dshmath-manim",
+    "firstObservedAt": "2026-08-17T03:14:45Z",
+    "lastChangedAt": "2026-08-17T03:14:45Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-b0993dbbd20b993f9d5d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-b0993dbbd20b993f9d5d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:phelpsyacht/dshmath-manim",
+    "command": "dsh plugin --profile web add github:phelpsyacht/dshmath-manim",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-b0993dbbd20b993f9d5d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-b0993dbbd20b993f9d5d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b0993dbbd20b993f9d5d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dshmath-manim 已收录到 DeepSeek Harness Plugin Store。基于 Manim CE 的数学动画插件：6 个内置模板（函数/导数/积分/几何/极坐标/3D 曲面）+ 零代码技能包（math-animation / manim-codegen），模型说人话即可生成动画视频，含 AST 静态安全校验。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b0993dbbd20b993f9d5d.html",
+    "en": "dshmath-manim is now listed on the DeepSeek Harness Plugin Store. Manim CE based math animation plugin: 6 built-in templates (function/derivative/integral/geometry/polar/3D surface) plus a zero-code skill pack (math-animation / manim-codegen) - natural language to animated math videos, with AST static security validation.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b0993dbbd20b993f9d5d.html"
+  }
+}

@@ -3,13 +3,13 @@
   "version": 1,
   "plugin": {
     "id": "deeplugin-dbea36dd2ae68fcb4ea0",
-    "name": "deepseek-harness-wallet",
+    "name": "deepseek-harness-control-center",
     "author": "feibi-mochi",
     "category": "model",
     "version": null,
     "homepage": "https://github.com/feibi-mochi/deepseek-harness-wallet",
     "firstObservedAt": "2026-08-15T22:14:49Z",
-    "lastChangedAt": "2026-08-16T09:56:16Z"
+    "lastChangedAt": "2026-08-17T03:14:45Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-dbea36dd2ae68fcb4ea0.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-dbea36dd2ae68fcb4ea0.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "deepseek-harness-wallet 已收录到 DeepSeek Harness Plugin Store。多供应商钱包标签：官方 DeepSeek 余额、本会话花费与 token、第三方合计 token、一键充值、低余额提醒。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-dbea36dd2ae68fcb4ea0.html",
-    "en": "deepseek-harness-wallet is now listed on the DeepSeek Harness Plugin Store. Multi-provider wallet chip: official DeepSeek balance, per-session cost & tokens, third-party token totals, recharge shortcut, low-balance alerts.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-dbea36dd2ae68fcb4ea0.html"
+    "zh": "deepseek-harness-control-center 已收录到 DeepSeek Harness Plugin Store。DeepSeek Harness 监控、提醒、充值与会话控制中心：查看官方余额、本会话花费与 token、第三方 token 合计，提供完成提醒、官方充值、灵活布局及 Agent 辅助的会话控制。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-dbea36dd2ae68fcb4ea0.html",
+    "en": "deepseek-harness-control-center is now listed on the DeepSeek Harness Plugin Store. DeepSeek Harness control center for official balance monitoring, per-session costs and tokens, third-party token totals, completion alerts, official recharge, flexible layouts, and agent-assisted session controls.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-dbea36dd2ae68fcb4ea0.html"
   }
 }

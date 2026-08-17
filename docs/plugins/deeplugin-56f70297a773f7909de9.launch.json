@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/corrinehu/dsh-chat-imagine",
     "firstObservedAt": "2026-08-16T00:51:32Z",
-    "lastChangedAt": "2026-08-16T09:56:16Z"
+    "lastChangedAt": "2026-08-17T03:14:45Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-56f70297a773f7909de9.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-56f70297a773f7909de9.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-chat-imagine 已收录到 DeepSeek Harness Plugin Store。通过已配置的 OpenAI 兼容生图模型或本机 MiniMax CLI，在 DeepSeek Harness 对话中生成并展示图片。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-56f70297a773f7909de9.html",
-    "en": "dsh-chat-imagine is now listed on the DeepSeek Harness Plugin Store. Generates images in DeepSeek Harness through configured OpenAI-compatible image models or a local MiniMax CLI, and displays the result in chat.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-56f70297a773f7909de9.html"
+    "zh": "dsh-chat-imagine 已收录到 DeepSeek Harness Plugin Store。在 DSH 聊天窗口自动调用生图工具（API 渠道，或本机 CLI：已支持 mmx / codex / agy）并展示图片。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-56f70297a773f7909de9.html",
+    "en": "dsh-chat-imagine is now listed on the DeepSeek Harness Plugin Store. Automatically generates and displays images in the DSH chat via API channels or local CLIs (supports mmx / codex / agy).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-56f70297a773f7909de9.html"
   }
 }

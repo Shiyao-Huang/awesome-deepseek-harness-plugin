@@ -11,7 +11,7 @@
     <updated>2026-08-16T08:41:44Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-4c1509196bf65c6c23cb.html"/>
     <author><name>loongsuite</name></author>
-    <category term="dev"/>
+    <category term="notify"/>
     <summary>Converts session, agent-loop, LLM, and tool lifecycle events into OpenTelemetry GenAI traces and metrics, exported over standard OTLP/HTTP to any compatible backend, with content capture off by default. Exact install spec: @loongsuite/dsh-plugin. Source event: dsh-market/dsh-market; changed: sources.</summary>
   </entry>
   <entry>
@@ -20,7 +20,7 @@
     <updated>2026-08-16T05:04:11Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-4c1509196bf65c6c23cb.html"/>
     <author><name>loongsuite</name></author>
-    <category term="dev"/>
+    <category term="notify"/>
     <summary>Converts session, agent-loop, LLM, and tool lifecycle events into OpenTelemetry GenAI traces and metrics, exported over standard OTLP/HTTP to any compatible backend, with content capture off by default. Exact install spec: @loongsuite/dsh-plugin. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active, entry_name, page_url, description, description_i18n.</summary>
   </entry>
   <entry>
@@ -29,7 +29,7 @@
     <updated>2026-08-16T00:51:32Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-4c1509196bf65c6c23cb.html"/>
     <author><name>loongsuite</name></author>
-    <category term="dev"/>
+    <category term="notify"/>
     <summary>Converts session, agent-loop, LLM, and tool lifecycle events into OpenTelemetry GenAI traces and metrics, exported over standard OTLP/HTTP to any compatible backend, with content capture off by default. Exact install spec: @loongsuite/dsh-plugin. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
   </entry>
   <entry>
@@ -38,7 +38,7 @@
     <updated>2026-08-15T22:14:49Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-4c1509196bf65c6c23cb.html"/>
     <author><name>loongsuite</name></author>
-    <category term="dev"/>
+    <category term="notify"/>
     <summary>Converts session, agent-loop, LLM, and tool lifecycle events into OpenTelemetry GenAI traces and metrics, exported over standard OTLP/HTTP to any compatible backend, with content capture off by default. Exact install spec: @loongsuite/dsh-plugin. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

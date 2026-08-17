@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>dsh-cyber-particle — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-c68f0f54b4abc826714d.atom.xml</id>
-  <updated>2026-08-16T13:41:06Z</updated>
+  <updated>2026-08-17T03:14:45Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-c68f0f54b4abc826714d.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c68f0f54b4abc826714d.html"/>
+  <entry>
+    <title>Updated: dsh-cyber-particle</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-c68f0f54b4abc826714d/9f5a499cab165628</id>
+    <updated>2026-08-17T03:14:45Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c68f0f54b4abc826714d.html"/>
+    <author><name>AKS1st</name></author>
+    <category term="theme"/>
+    <summary>Particle-network background overlay for the DSH Web shell: full-screen, click-through, zero runtime dependencies. Exact install spec: github:aks1st/dsh-cyber-particle. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
   <entry>
     <title>Updated: dsh-cyber-particle</title>
     <id>tag:deeplugin.store,2026-08-16:deeplugin-c68f0f54b4abc826714d/148e80b87113502b</id>

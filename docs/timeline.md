@@ -5,6 +5,31 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 2026-08-17T03:14:45Z | github | ecosystem-reference | [DamonKoy/dsh-web-uidsh-tool-describe-image](https://github.com/DamonKoy/dsh-web-ui) | DamonKoy | multimedia-and-vision |
+| 2026-08-17 | github | plugin | [browser-automation](https://github.com/JohnXu22786/browser-automation) | JohnXu22786 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [computer-control](https://github.com/JohnXu22786/computer-control) | JohnXu22786 | core-and-ecosystem |
+| 2026-08-17T03:14:45Z | github | plugin | [cuboteam/Ditdsh-plugin-dit](https://github.com/cuboteam/Dit) | cuboteam | core-and-ecosystem |
+| 2026-08-14 | github | plugin | [deepseek-harness-control-center](https://github.com/feibi-mochi/deepseek-harness-control-center) | feibi-mochi | operations-and-safety |
+| 2026-08-17 | github | plugin | [dsh-approval-gate](https://github.com/moon09300731/dsh-approval-gate) | moon09300731 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-file-upload](https://github.com/a903067276-rgb/dsh-file-upload) | a903067276-rgb | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-github-connector](https://github.com/kaziii/dsh-github-connector) | kaziii | index-and-marketplace |
+| 2026-08-17 | github | plugin | [dsh-llm-balance](https://github.com/a839408177/dsh-llm-balance) | a839408177 | operations-and-safety |
+| 2026-08-17 | github | plugin | [dsh-llm-cost](https://github.com/chenyinrusi/dsh-llm-cost) | chenyinrusi | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-log-memory](https://github.com/says693/dsh-log-memory) | says693 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-need-finder](https://github.com/863683348/dsh-need-finder) | 863683348 | docs-and-learning |
+| 2026-08-17 | github | plugin | [dsh-plan-switch](https://github.com/a903067276-rgb/dsh-plan-switch) | a903067276-rgb | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-plugin-audit](https://github.com/863683348/dsh-plugin-audit) | 863683348 | index-and-marketplace |
+| 2026-08-17 | github | plugin | [dsh-plugin-manager](https://github.com/2768651338/dsh-plugin-manager) | 2768651338 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-plugin-nintendo](https://github.com/beancookie/dsh-plugin-nintendo) | beancookie | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-projection-guard](https://github.com/DamonKoy/dsh-projection-guard) | DamonKoy | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-rules](https://github.com/rj-jiangyichen/dsh-rules) | rj-jiangyichen | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-single-instance-guard](https://github.com/Tang-mm95/dsh-single-instance-guard) | Tang-mm95 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-token-billing](https://github.com/2006spy/dsh-token-billing) | 2006spy | operations-and-safety |
+| 2026-08-17 | github | plugin | [dsh-ui-tweaks](https://github.com/wlj521/dsh-ui-tweaks) | wlj521 | ui-and-desktop |
+| 2026-08-17 | github | plugin | [dsh-vision-tools](https://github.com/moon09300731/dsh-vision-tools) | moon09300731 | multimedia-and-vision |
+| 2026-08-17 | github | plugin | [dsh-voice-ai-girlfriend-plugin](https://github.com/beiyege-01/dsh-voice-ai-girlfriend-plugin) | beiyege-01 | ui-and-desktop |
+| 2026-08-17 | github | plugin | [dsh-voice-live](https://github.com/tangzheng202202/dsh-voice-live) | tangzheng202202 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dshmath-manim](https://github.com/phelpsyacht/dshmath-manim) | phelpsyacht | core-and-ecosystem |
 | 2026-08-17T01:57:07Z | github | ecosystem-reference | [1052326311/dsh-plan-lattice](https://github.com/1052326311/dsh-plan-lattice) | 1052326311 | core-and-ecosystem |
 | 2026-08-17T01:57:07Z | github | ecosystem-reference | [Hyp6666/dsh-open-eyes](https://github.com/Hyp6666/dsh-open-eyes) | Hyp6666 | multimedia-and-vision |
 | 2026-08-17T01:57:07Z | github | ecosystem-reference | [LeslieWylie/agent-loop-workflow](https://github.com/LeslieWylie/agent-loop-workflow) | LeslieWylie | agents-and-orchestration |
@@ -14359,6 +14384,7 @@
 | 2026-03-31T18:26:14Z | hacker_news | story | [Show HN: Domscribe – Deterministic DOM-to-source mapping for AI coding agents](https://news.ycombinator.com/item?id=47591487) | NarratorTD | index-and-marketplace |
 | 2026-03-30T05:22:23Z | github | repository | [titanwings/colleague-skill](https://github.com/titanwings/colleague-skill) | titanwings | core-and-ecosystem |
 | 2026-03-29T15:39:49Z | github | repository | [ai-boost/awesome-harness-engineering](https://github.com/ai-boost/awesome-harness-engineering) | ai-boost | index-and-marketplace |
+| 2026-03-29T12:28:19Z | github | repository | [walkinglabs/learn-harness-engineering](https://github.com/walkinglabs/learn-harness-engineering) | walkinglabs | docs-and-learning |
 | 2026-03-28T19:02:15Z | github | repository | [hashgraph-online/hol-guard](https://github.com/hashgraph-online/hol-guard) | hashgraph-online | core-and-ecosystem |
 | 2026-03-26T11:40:33Z | github | repository | [hyhmrright/brooks-lint](https://github.com/hyhmrright/brooks-lint) | hyhmrright | docs-and-learning |
 | 2026-03-24T15:58:22Z | github | repository | [alvinreal/awesome-opensource-ai](https://github.com/alvinreal/awesome-opensource-ai) | alvinreal | index-and-marketplace |

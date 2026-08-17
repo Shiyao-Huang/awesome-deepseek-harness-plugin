@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-usage-vendor-stats — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-3f58f508d59b636b67dc.atom.xml</id>
+  <updated>2026-08-17T03:14:45Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-3f58f508d59b636b67dc.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-3f58f508d59b636b67dc.html"/>
+  <entry>
+    <title>New: dsh-usage-vendor-stats</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-3f58f508d59b636b67dc/6c8bd3aed28b3563</id>
+    <updated>2026-08-17T03:14:45Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-3f58f508d59b636b67dc.html"/>
+    <author><name>kirigayakazima</name></author>
+    <category term="usage"/>
+    <summary>Vendor-based usage dashboard: per-provider token/cache/output KPI, a 53-week heatmap, trend chart with hourly "today" view, model drilldown, cost estimation, CSV export, and health cards (TTFT, generation speed, peak context, error rate). Exact install spec: dsh-usage-vendor-stats. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>dsh-codex-subscription — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-07d36aec1e5bdfc63737.atom.xml</id>
-  <updated>2026-08-16T09:56:16Z</updated>
+  <updated>2026-08-17T03:14:45Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-07d36aec1e5bdfc63737.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-07d36aec1e5bdfc63737.html"/>
+  <entry>
+    <title>Updated: dsh-codex-subscription</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-07d36aec1e5bdfc63737/d4785c186d69cba0</id>
+    <updated>2026-08-17T03:14:45Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-07d36aec1e5bdfc63737.html"/>
+    <author><name>WSL043</name></author>
+    <category term="model"/>
+    <summary>Built-in ChatGPT OAuth provider for Codex models, selectable subscription web search, backend quota for standard Codex and Spark, and a DSH settings UI; no API key or Codex CLI required. Exact install spec: github:wsl043/dsh-codex-subscription. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
+  </entry>
   <entry>
     <title>Updated: dsh-codex-subscription</title>
     <id>tag:deeplugin.store,2026-08-16:deeplugin-07d36aec1e5bdfc63737/d947fc14d81f9c69</id>

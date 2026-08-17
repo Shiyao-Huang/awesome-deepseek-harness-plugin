@@ -11,7 +11,7 @@
     <updated>2026-08-16T09:56:16Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-05f9bbdeadac4c5f1b89.html"/>
     <author><name>siegfly</name></author>
-    <category term="tools"/>
+    <category term="model"/>
     <summary>A vision-language gateway provider route: pasted images are described by a configurable VL model (Qwen-VL by default) before the DeepSeek wire. Exact install spec: dsh-deepseek-vision. Source event: zoahdev/dsh-subscribe; changed: description, description_i18n, tags_json, registry_source_json.</summary>
   </entry>
   <entry>
@@ -20,7 +20,7 @@
     <updated>2026-08-16T08:41:44Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-05f9bbdeadac4c5f1b89.html"/>
     <author><name>siegfly</name></author>
-    <category term="tools"/>
+    <category term="model"/>
     <summary>A vision-language gateway provider route: pasted images are described by a configurable VL model (Qwen-VL by default) before the DeepSeek wire. Exact install spec: dsh-deepseek-vision. Source event: zoahdev/dsh-subscribe; changed: plugin_version, tags_json, registry_source_json.</summary>
   </entry>
   <entry>
@@ -29,7 +29,7 @@
     <updated>2026-08-16T08:41:44Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-05f9bbdeadac4c5f1b89.html"/>
     <author><name>siegfly</name></author>
-    <category term="tools"/>
+    <category term="model"/>
     <summary>A vision-language gateway provider route: pasted images are described by a configurable VL model (Qwen-VL by default) before the DeepSeek wire. Exact install spec: dsh-deepseek-vision. Source event: dsh-market/dsh-market; changed: sources.</summary>
   </entry>
   <entry>
@@ -38,7 +38,7 @@
     <updated>2026-08-15T22:14:49Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-05f9bbdeadac4c5f1b89.html"/>
     <author><name>siegfly</name></author>
-    <category term="tools"/>
+    <category term="model"/>
     <summary>A vision-language gateway provider route: pasted images are described by a configurable VL model (Qwen-VL by default) before the DeepSeek wire. Exact install spec: dsh-deepseek-vision. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
   </entry>
   <entry>
@@ -47,7 +47,7 @@
     <updated>2026-08-15T22:14:49Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-05f9bbdeadac4c5f1b89.html"/>
     <author><name>siegfly</name></author>
-    <category term="tools"/>
+    <category term="model"/>
     <summary>A vision-language gateway provider route: pasted images are described by a configurable VL model (Qwen-VL by default) before the DeepSeek wire. Exact install spec: dsh-deepseek-vision. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

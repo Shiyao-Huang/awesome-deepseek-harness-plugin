@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-session-manager — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-7b3aad978848a0c73758.atom.xml</id>
+  <updated>2026-08-17T03:14:45Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-7b3aad978848a0c73758.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-7b3aad978848a0c73758.html"/>
+  <entry>
+    <title>New: dsh-session-manager</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-7b3aad978848a0c73758/6c8bd3aed28b3563</id>
+    <updated>2026-08-17T03:14:45Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-7b3aad978848a0c73758.html"/>
+    <author><name>hkkz9522</name></author>
+    <category term="session"/>
+    <summary>Delete conversations with a confirmation dialog and manage archived sessions (archive/unarchive) in the DeepSeek Harness web UI. Exact install spec: dsh-session-manager. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

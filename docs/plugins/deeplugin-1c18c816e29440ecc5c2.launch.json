@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-1c18c816e29440ecc5c2",
+    "name": "dsh-open-eyes",
+    "author": "Hyp6666",
+    "category": "vision",
+    "version": null,
+    "homepage": "https://github.com/Hyp6666/dsh-open-eyes",
+    "firstObservedAt": "2026-08-17T03:14:45Z",
+    "lastChangedAt": "2026-08-17T03:14:45Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-1c18c816e29440ecc5c2.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-1c18c816e29440ecc5c2.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-open-eyes",
+    "command": "dsh plugin --profile web add dsh-open-eyes",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-1c18c816e29440ecc5c2，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-1c18c816e29440ecc5c2.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-1c18c816e29440ecc5c2.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-open-eyes 已收录到 DeepSeek Harness Plugin Store。为纯文本 DeepSeek 路由提供视觉桥接：通过可配置的 OpenAI Responses、Chat Completions 或 Anthropic Messages 端点分析附件与本地图片，同时保持支持图片的路由走原生路径。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-1c18c816e29440ecc5c2.html",
+    "en": "dsh-open-eyes is now listed on the DeepSeek Harness Plugin Store. Vision bridge for text-only DeepSeek routes that analyzes attached and local images through configurable OpenAI Responses, Chat Completions, or Anthropic Messages endpoints while leaving image-capable routes native.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-1c18c816e29440ecc5c2.html"
+  }
+}

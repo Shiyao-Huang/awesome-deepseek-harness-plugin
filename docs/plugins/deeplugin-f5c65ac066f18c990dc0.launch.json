@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-f5c65ac066f18c990dc0",
+    "name": "dsh-web-ui#dsh-remote-web-ui",
+    "author": "DamonKoy",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/DamonKoy/dsh-web-ui/tree/main/packages/dsh-remote-web-ui",
+    "firstObservedAt": "2026-08-17T03:14:45Z",
+    "lastChangedAt": "2026-08-17T03:14:45Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-f5c65ac066f18c990dc0.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-f5c65ac066f18c990dc0.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:damonkoy/dsh-web-ui#path:/packages/dsh-remote-web-ui",
+    "command": "dsh plugin --profile web add github:damonkoy/dsh-web-ui#path:/packages/dsh-remote-web-ui",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-f5c65ac066f18c990dc0，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-f5c65ac066f18c990dc0.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-f5c65ac066f18c990dc0.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-web-ui#dsh-remote-web-ui 已收录到 DeepSeek Harness Plugin Store。dsh web GUI 移动端远程控制：扫码配对 QR 入口、一次性配对 token。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-f5c65ac066f18c990dc0.html",
+    "en": "dsh-web-ui#dsh-remote-web-ui is now listed on the DeepSeek Harness Plugin Store. Mobile remote control for the dsh web GUI: scan-to-pair QR entry with one-time pairing tokens.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-f5c65ac066f18c990dc0.html"
+  }
+}

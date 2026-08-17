@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-7b3aad978848a0c73758",
+    "name": "dsh-session-manager",
+    "author": "hkkz9522",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/hkkz9522/dsh-session-manager",
+    "firstObservedAt": "2026-08-17T03:14:45Z",
+    "lastChangedAt": "2026-08-17T03:14:45Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-7b3aad978848a0c73758.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-7b3aad978848a0c73758.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-session-manager",
+    "command": "dsh plugin --profile web add dsh-session-manager",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-7b3aad978848a0c73758，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-7b3aad978848a0c73758.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-7b3aad978848a0c73758.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-session-manager 已收录到 DeepSeek Harness Plugin Store。在 DeepSeek Harness Web 中删除对话（二次确认），并管理归档会话（移入/移出归档）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-7b3aad978848a0c73758.html",
+    "en": "dsh-session-manager is now listed on the DeepSeek Harness Plugin Store. Delete conversations with a confirmation dialog and manage archived sessions (archive/unarchive) in the DeepSeek Harness web UI.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-7b3aad978848a0c73758.html"
+  }
+}

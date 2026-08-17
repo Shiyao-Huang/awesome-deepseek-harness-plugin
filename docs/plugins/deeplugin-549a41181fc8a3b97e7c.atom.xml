@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-log-memory — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-549a41181fc8a3b97e7c.atom.xml</id>
+  <updated>2026-08-17T03:14:45Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-549a41181fc8a3b97e7c.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-549a41181fc8a3b97e7c.html"/>
+  <entry>
+    <title>New: dsh-log-memory</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-549a41181fc8a3b97e7c/6c8bd3aed28b3563</id>
+    <updated>2026-08-17T03:14:45Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-549a41181fc8a3b97e7c.html"/>
+    <author><name>says693</name></author>
+    <category term="fun"/>
+    <summary>Popup guardian for session logs: opens with the Web UI on a configurable reminder interval (10 min-3 h), with one-click incremental backup of every session.jsonl(.zstd) under ~/.dsh/sessions in raw or readable chat-log format. Exact install spec: github:says693/dsh-log-memory. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

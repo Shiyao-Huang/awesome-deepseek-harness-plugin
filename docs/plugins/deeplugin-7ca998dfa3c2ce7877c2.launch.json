@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-7ca998dfa3c2ce7877c2",
+    "name": "dsh-web-ui#dsh-tool-describe-image",
+    "author": "DamonKoy",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/DamonKoy/dsh-web-ui/tree/main/packages/dsh-tool-describe-image",
+    "firstObservedAt": "2026-08-17T03:14:45Z",
+    "lastChangedAt": "2026-08-17T03:14:45Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-7ca998dfa3c2ce7877c2.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-7ca998dfa3c2ce7877c2.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:damonkoy/dsh-web-ui#path:/packages/dsh-tool-describe-image",
+    "command": "dsh plugin --profile web add github:damonkoy/dsh-web-ui#path:/packages/dsh-tool-describe-image",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-7ca998dfa3c2ce7877c2，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-7ca998dfa3c2ce7877c2.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-7ca998dfa3c2ce7877c2.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-web-ui#dsh-tool-describe-image 已收录到 DeepSeek Harness Plugin Store。describe_image 模型工具：让纯文本模型通过视觉语言模型获得图像理解能力。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-7ca998dfa3c2ce7877c2.html",
+    "en": "dsh-web-ui#dsh-tool-describe-image is now listed on the DeepSeek Harness Plugin Store. Gives a text-only model image understanding via a vision-language model, exposed as a `describe_image` tool.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-7ca998dfa3c2ce7877c2.html"
+  }
+}

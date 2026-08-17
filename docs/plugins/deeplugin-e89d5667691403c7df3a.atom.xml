@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-web-ui#dsh-web-ui-all — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-e89d5667691403c7df3a.atom.xml</id>
+  <updated>2026-08-17T03:14:45Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-e89d5667691403c7df3a.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e89d5667691403c7df3a.html"/>
+  <entry>
+    <title>New: dsh-web-ui#dsh-web-ui-all</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-e89d5667691403c7df3a/6c8bd3aed28b3563</id>
+    <updated>2026-08-17T03:14:45Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e89d5667691403c7df3a.html"/>
+    <author><name>DamonKoy</name></author>
+    <category term="ui"/>
+    <summary>DSH Web UI family aggregator: one-click install of all feature plugins (task-board, git-graph, pet, remote-web-ui, live-stats, web-ui-settings). Exact install spec: github:damonkoy/dsh-web-ui#path:/packages/dsh-web-ui-all. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

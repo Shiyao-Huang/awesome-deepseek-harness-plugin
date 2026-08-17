@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-plan-switch — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-9b6db4a15a353b025bb6.atom.xml</id>
+  <updated>2026-08-17T03:14:45Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-9b6db4a15a353b025bb6.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9b6db4a15a353b025bb6.html"/>
+  <entry>
+    <title>New: dsh-plan-switch</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-9b6db4a15a353b025bb6/6c8bd3aed28b3563</id>
+    <updated>2026-08-17T03:14:45Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9b6db4a15a353b025bb6.html"/>
+    <author><name>a903067276-rgb</name></author>
+    <category term="ui"/>
+    <summary>One-click enter/exit Plan mode for the DSH web input bar, a quick-click shortcut for /plan. Exact install spec: github:a903067276-rgb/dsh-plan-switch. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

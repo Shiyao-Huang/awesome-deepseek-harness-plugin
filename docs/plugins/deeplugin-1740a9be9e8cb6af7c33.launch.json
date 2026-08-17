@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-1740a9be9e8cb6af7c33",
+    "name": "dsh-web-ui#dsh-liangshen",
+    "author": "DamonKoy",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/DamonKoy/dsh-web-ui/tree/main/packages/dsh-liangshen",
+    "firstObservedAt": "2026-08-17T03:14:45Z",
+    "lastChangedAt": "2026-08-17T03:14:45Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-1740a9be9e8cb6af7c33.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-1740a9be9e8cb6af7c33.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:damonkoy/dsh-web-ui#path:/packages/dsh-liangshen",
+    "command": "dsh plugin --profile web add github:damonkoy/dsh-web-ui#path:/packages/dsh-liangshen",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-1740a9be9e8cb6af7c33，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-1740a9be9e8cb6af7c33.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-1740a9be9e8cb6af7c33.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-web-ui#dsh-liangshen 已收录到 DeepSeek Harness Plugin Store。dsh web GUI 的梁神 agent 预设：两阶段锚定标准预设。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-1740a9be9e8cb6af7c33.html",
+    "en": "dsh-web-ui#dsh-liangshen is now listed on the DeepSeek Harness Plugin Store. LiangShen (梁神) agent preset for the dsh web GUI: a two-phase anchored-standard preset.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-1740a9be9e8cb6af7c33.html"
+  }
+}

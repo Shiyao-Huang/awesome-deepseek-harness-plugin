@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-feishu — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-fe2bcff36d6ac25d1c8a.atom.xml</id>
+  <updated>2026-08-17T03:14:45Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-fe2bcff36d6ac25d1c8a.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fe2bcff36d6ac25d1c8a.html"/>
+  <entry>
+    <title>New: dsh-feishu</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-fe2bcff36d6ac25d1c8a/6c8bd3aed28b3563</id>
+    <updated>2026-08-17T03:14:45Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fe2bcff36d6ac25d1c8a.html"/>
+    <author><name>PGZXB</name></author>
+    <category term="notify"/>
+    <summary>Feishu (Lark) UI for DeepSeek Harness — a panel-driven control console: every slash command is a button on the ⚙️ control-panel card, in-card approvals and questions, live streaming cards, and one-QR app setup. Exact install spec: github:pgzxb/dsh-feishu. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

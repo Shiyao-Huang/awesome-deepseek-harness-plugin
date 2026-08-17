@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-0e8673f7cef5a8e5aac2",
+    "name": "dsh-status-bar",
+    "author": "Starlight-bananice",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/Starlight-bananice/dsh-status-bar",
+    "firstObservedAt": "2026-08-17T03:14:45Z",
+    "lastChangedAt": "2026-08-17T03:14:45Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-0e8673f7cef5a8e5aac2.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-0e8673f7cef5a8e5aac2.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:starlight-bananice/dsh-status-bar",
+    "command": "dsh plugin --profile web add github:starlight-bananice/dsh-status-bar",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-0e8673f7cef5a8e5aac2，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-0e8673f7cef5a8e5aac2.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-0e8673f7cef5a8e5aac2.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-status-bar 已收录到 DeepSeek Harness Plugin Store。输入栏下可配置的 17 段会话状态栏，提供实时 TPS、按模型分别计价的费用估算，以及用量与费用弹窗。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-0e8673f7cef5a8e5aac2.html",
+    "en": "dsh-status-bar is now listed on the DeepSeek Harness Plugin Store. A configurable 17-segment session status bar for the dsh composer dock with live TPS, per-model cost estimation, and a usage & cost dialog.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-0e8673f7cef5a8e5aac2.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-6830fce770c974b38115",
+    "name": "dsh-plugin-qcc",
+    "author": "Samge0",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/Samge0/dsh-plugin-qcc",
+    "firstObservedAt": "2026-08-17T03:14:45Z",
+    "lastChangedAt": "2026-08-17T03:14:45Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-6830fce770c974b38115.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-6830fce770c974b38115.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:samge0/dsh-plugin-qcc",
+    "command": "dsh plugin --profile web add github:samge0/dsh-plugin-qcc",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-6830fce770c974b38115，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-6830fce770c974b38115.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-6830fce770c974b38115.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-qcc 已收录到 DeepSeek Harness Plugin Store。企查查企业数据源动态 Cordis 插件：5 个 agent 工具（扫码登录认证、企业快搜、知识库检索、工具发现、取数执行），覆盖工商/股东/司法/知识产权等 100+ 数据维度，附设置页账号管理；网络与文件 IO 经 DSH subprocess 拉起 node -e 完成，凭证与本地 BizOwl 客户端互通。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-6830fce770c974b38115.html",
+    "en": "dsh-plugin-qcc is now listed on the DeepSeek Harness Plugin Store. Qichacha (企查查) enterprise data source as a dynamic Cordis plugin: 5 agent tools (auth with QR login, company search, knowledge search, tool search, tool execute) covering 100+ data dimensions (business registration, shareholders, judicial, IP), plus a settings-page account manager; network/file IO via DSH subprocess spawning node -e, credentials interop with the local BizOwl client.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-6830fce770c974b38115.html"
+  }
+}

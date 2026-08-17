@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-b868b030bad58b2403a4",
+    "name": "computer-control",
+    "author": "JohnXu22786",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/JohnXu22786/computer-control",
+    "firstObservedAt": "2026-08-17T03:14:45Z",
+    "lastChangedAt": "2026-08-17T03:14:45Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-b868b030bad58b2403a4.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-b868b030bad58b2403a4.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:johnxu22786/computer-control",
+    "command": "dsh plugin --profile web add github:johnxu22786/computer-control",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-b868b030bad58b2403a4，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-b868b030bad58b2403a4.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b868b030bad58b2403a4.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "computer-control 已收录到 DeepSeek Harness Plugin Store。桌面(native)控制:dsh 经 stdio JSON-RPC 桥接 Python 核心;支持截屏、指针/键盘注入、无障碍树语义操作,并以强制确认为高风险操作把关。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b868b030bad58b2403a4.html",
+    "en": "computer-control is now listed on the DeepSeek Harness Plugin Store. Desktop (native) control for dsh as a stdio JSON-RPC bridge over a Python core: capture the screen, inject pointer/keyboard input, drive accessibility-tree actions, and gate high-risk operations behind required confirmations.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b868b030bad58b2403a4.html"
+  }
+}

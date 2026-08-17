@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-7e2ab75ad0ab80671ecd",
+    "name": "dsh-token-billing",
+    "author": "2006spy",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/2006spy/dsh-token-billing",
+    "firstObservedAt": "2026-08-17T03:14:45Z",
+    "lastChangedAt": "2026-08-17T03:14:45Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-7e2ab75ad0ab80671ecd.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-7e2ab75ad0ab80671ecd.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:2006spy/dsh-token-billing",
+    "command": "dsh plugin --profile web add github:2006spy/dsh-token-billing",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-7e2ab75ad0ab80671ecd，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-7e2ab75ad0ab80671ecd.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-7e2ab75ad0ab80671ecd.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-token-billing 已收录到 DeepSeek Harness Plugin Store。DSH Web 实时 token 计费插件：官网人民币价直接计费、高峰/错峰自动切换、价格实时跟随官网、可视化自定义模型价格、多币种兜底。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-7e2ab75ad0ab80671ecd.html",
+    "en": "dsh-token-billing is now listed on the DeepSeek Harness Plugin Store. Real-time token billing for DSH web: official DeepSeek CNY pricing with automatic peak/off-peak switching, hourly price sync from the official site, visual custom model prices, and multi-currency fallback.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-7e2ab75ad0ab80671ecd.html"
+  }
+}

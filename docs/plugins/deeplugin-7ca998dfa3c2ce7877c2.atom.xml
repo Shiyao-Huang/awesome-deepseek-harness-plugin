@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-web-ui#dsh-tool-describe-image — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-7ca998dfa3c2ce7877c2.atom.xml</id>
+  <updated>2026-08-17T03:14:45Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-7ca998dfa3c2ce7877c2.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-7ca998dfa3c2ce7877c2.html"/>
+  <entry>
+    <title>New: dsh-web-ui#dsh-tool-describe-image</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-7ca998dfa3c2ce7877c2/6c8bd3aed28b3563</id>
+    <updated>2026-08-17T03:14:45Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-7ca998dfa3c2ce7877c2.html"/>
+    <author><name>DamonKoy</name></author>
+    <category term="tools"/>
+    <summary>Gives a text-only model image understanding via a vision-language model, exposed as a `describe_image` tool. Exact install spec: github:damonkoy/dsh-web-ui#path:/packages/dsh-tool-describe-image. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

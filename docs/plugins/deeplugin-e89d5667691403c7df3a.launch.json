@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-e89d5667691403c7df3a",
+    "name": "dsh-web-ui#dsh-web-ui-all",
+    "author": "DamonKoy",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/DamonKoy/dsh-web-ui/tree/main/packages/dsh-web-ui-all",
+    "firstObservedAt": "2026-08-17T03:14:45Z",
+    "lastChangedAt": "2026-08-17T03:14:45Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-e89d5667691403c7df3a.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-e89d5667691403c7df3a.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:damonkoy/dsh-web-ui#path:/packages/dsh-web-ui-all",
+    "command": "dsh plugin --profile web add github:damonkoy/dsh-web-ui#path:/packages/dsh-web-ui-all",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-e89d5667691403c7df3a，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-e89d5667691403c7df3a.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-e89d5667691403c7df3a.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-web-ui#dsh-web-ui-all 已收录到 DeepSeek Harness Plugin Store。DSH Web UI 全家桶聚合插件：一键安装全部功能插件（task-board/git-graph/pet/remote-web-ui/live-stats/web-ui-settings）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e89d5667691403c7df3a.html",
+    "en": "dsh-web-ui#dsh-web-ui-all is now listed on the DeepSeek Harness Plugin Store. DSH Web UI family aggregator: one-click install of all feature plugins (task-board, git-graph, pet, remote-web-ui, live-stats, web-ui-settings).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e89d5667691403c7df3a.html"
+  }
+}

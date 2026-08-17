@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-7f5b71967d5c6ae5b0a6",
+    "name": "dsh-ui-tweaks",
+    "author": "wlj521",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/wlj521/dsh-ui-tweaks",
+    "firstObservedAt": "2026-08-17T03:14:45Z",
+    "lastChangedAt": "2026-08-17T03:14:45Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-7f5b71967d5c6ae5b0a6.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-7f5b71967d5c6ae5b0a6.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-ui-tweaks",
+    "command": "dsh plugin --profile web add dsh-ui-tweaks",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-7f5b71967d5c6ae5b0a6，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-7f5b71967d5c6ae5b0a6.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-7f5b71967d5c6ae5b0a6.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-ui-tweaks 已收录到 DeepSeek Harness Plugin Store。从设置面板实时调教 DSH 网页对话界面：消息字体大小、Claude Desktop 风格 Markdown 表格、对话框宽度、可选时间线侧栏，以及带分支管理、逐文件 Diff 和提交推送功能的 GitBar。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-7f5b71967d5c6ae5b0a6.html",
+    "en": "dsh-ui-tweaks is now listed on the DeepSeek Harness Plugin Store. Live-tune the DSH Web conversation UI from Settings: message font size, Claude Desktop-style markdown tables, dialog width, an optional timeline rail, and a GitBar with branch management, per-file diff, and commit & push.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-7f5b71967d5c6ae5b0a6.html"
+  }
+}

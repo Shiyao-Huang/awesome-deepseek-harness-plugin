@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-web-ui#dsh-web-ui-settings — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-be3131dbfc50764e39a9.atom.xml</id>
+  <updated>2026-08-17T03:14:45Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-be3131dbfc50764e39a9.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-be3131dbfc50764e39a9.html"/>
+  <entry>
+    <title>New: dsh-web-ui#dsh-web-ui-settings</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-be3131dbfc50764e39a9/6c8bd3aed28b3563</id>
+    <updated>2026-08-17T03:14:45Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-be3131dbfc50764e39a9.html"/>
+    <author><name>DamonKoy</name></author>
+    <category term="ui"/>
+    <summary>Web UI plugin group card in the dsh settings page: enable switches and config for the dsh-web-ui family. Exact install spec: github:damonkoy/dsh-web-ui#path:/packages/dsh-web-ui-settings. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

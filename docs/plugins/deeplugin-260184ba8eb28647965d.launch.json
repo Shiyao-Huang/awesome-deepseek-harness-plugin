@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-260184ba8eb28647965d",
+    "name": "dsh-vision-tools",
+    "author": "moon09300731",
+    "category": "vision",
+    "version": null,
+    "homepage": "https://github.com/moon09300731/dsh-vision-tools",
+    "firstObservedAt": "2026-08-17T03:14:45Z",
+    "lastChangedAt": "2026-08-17T03:14:45Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-260184ba8eb28647965d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-260184ba8eb28647965d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-vision-tools",
+    "command": "dsh plugin --profile web add dsh-vision-tools",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-260184ba8eb28647965d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-260184ba8eb28647965d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-260184ba8eb28647965d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-vision-tools 已收录到 DeepSeek Harness Plugin Store。DeepSeek Harness 视觉能力全家桶：vision_understand 工具（OpenAI 兼容视觉 API，默认免费智谱 GLM-4V-Flash）+ 粘贴/拖拽/按钮三入口识图。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-260184ba8eb28647965d.html",
+    "en": "dsh-vision-tools is now listed on the DeepSeek Harness Plugin Store. Full vision-capability bundle for DeepSeek Harness: a vision_understand tool (OpenAI-compatible vision APIs, free Zhipu GLM-4V-Flash by default) plus paste/drag-and-drop/button entry points for image recognition.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-260184ba8eb28647965d.html"
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-projection-guard — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-85a8b3d7488395ad77c7.atom.xml</id>
+  <updated>2026-08-17T03:14:45Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-85a8b3d7488395ad77c7.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-85a8b3d7488395ad77c7.html"/>
+  <entry>
+    <title>New: dsh-projection-guard</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-85a8b3d7488395ad77c7/6c8bd3aed28b3563</id>
+    <updated>2026-08-17T03:14:45Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-85a8b3d7488395ad77c7.html"/>
+    <author><name>DamonKoy</name></author>
+    <category term="session"/>
+    <summary>Guards the persisted session-projection cache: per-row JSON degradation so one misbehaving projection unit (e.g. a third-party plugin storing a Map) can never stall session titles or the whole cache again, plus a startup self-heal that backfills missing titles. Exact install spec: github:damonkoy/dsh-projection-guard. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

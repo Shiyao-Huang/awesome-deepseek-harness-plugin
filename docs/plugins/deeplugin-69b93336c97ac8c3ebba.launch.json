@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/Tkingxiao/dsh-any-background",
     "firstObservedAt": "2026-08-15T22:14:49Z",
-    "lastChangedAt": "2026-08-15T22:14:49Z"
+    "lastChangedAt": "2026-08-17T03:14:45Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-69b93336c97ac8c3ebba.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-69b93336c97ac8c3ebba.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-any-background 已收录到 DeepSeek Harness Plugin Store。自定义外观插件：换背景图（可调大小和位置）、用色轮自定义主题色，主界面和设置界面的透明度都能单独调。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-69b93336c97ac8c3ebba.html",
-    "en": "dsh-any-background is now listed on the DeepSeek Harness Plugin Store. A DeepSeek Harness appearance plugin that lets you fully customize the Web UI with a custom theme color, background wallpaper, and fine-grained opacity controls.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-69b93336c97ac8c3ebba.html"
+    "zh": "dsh-any-background 已收录到 DeepSeek Harness Plugin Store。一个主题外观插件，让你完全自定义 Web 端的主题色、背景壁纸，以及主页分部位精细的透明度与模糊度控制，还可导出导入主题设置进行分享。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-69b93336c97ac8c3ebba.html",
+    "en": "dsh-any-background is now listed on the DeepSeek Harness Plugin Store. A theme appearance plugin that lets you fully customize the Web UI with custom theme colors, background wallpapers, and fine-grained transparency and blur controls for each section of the homepage, plus import/export support for easy theme sharing.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-69b93336c97ac8c3ebba.html"
   }
 }

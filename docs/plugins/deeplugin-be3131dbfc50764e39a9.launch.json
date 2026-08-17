@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-be3131dbfc50764e39a9",
+    "name": "dsh-web-ui#dsh-web-ui-settings",
+    "author": "DamonKoy",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/DamonKoy/dsh-web-ui/tree/main/packages/dsh-web-ui-settings",
+    "firstObservedAt": "2026-08-17T03:14:45Z",
+    "lastChangedAt": "2026-08-17T03:14:45Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-be3131dbfc50764e39a9.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-be3131dbfc50764e39a9.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:damonkoy/dsh-web-ui#path:/packages/dsh-web-ui-settings",
+    "command": "dsh plugin --profile web add github:damonkoy/dsh-web-ui#path:/packages/dsh-web-ui-settings",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-be3131dbfc50764e39a9，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-be3131dbfc50764e39a9.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-be3131dbfc50764e39a9.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-web-ui#dsh-web-ui-settings 已收录到 DeepSeek Harness Plugin Store。dsh 设置页的 Web UI 插件组卡片：dsh-web-ui 全家插件的开关与配置。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-be3131dbfc50764e39a9.html",
+    "en": "dsh-web-ui#dsh-web-ui-settings is now listed on the DeepSeek Harness Plugin Store. Web UI plugin group card in the dsh settings page: enable switches and config for the dsh-web-ui family.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-be3131dbfc50764e39a9.html"
+  }
+}

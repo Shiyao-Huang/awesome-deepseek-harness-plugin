@@ -5,9 +5,9 @@
     "id": "deeplugin-4c1509196bf65c6c23cb",
     "name": "dsh-plugin",
     "author": "loongsuite",
-    "category": "dev",
+    "category": "notify",
     "version": null,
-    "homepage": "https://github.com/loongsuite/dsh-plugin",
+    "homepage": "https://github.com/loongsuite/pilot-dsh",
     "firstObservedAt": "2026-08-15T22:14:49Z",
     "lastChangedAt": "2026-08-16T08:41:44Z"
   },

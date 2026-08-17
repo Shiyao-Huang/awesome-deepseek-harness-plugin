@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-26bcd9814c2532d452e5",
+    "name": "dsh-web-ui#dsh-aionui-panel",
+    "author": "DamonKoy",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/DamonKoy/dsh-web-ui/tree/main/packages/dsh-aionui-panel",
+    "firstObservedAt": "2026-08-17T03:14:45Z",
+    "lastChangedAt": "2026-08-17T03:14:45Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-26bcd9814c2532d452e5.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-26bcd9814c2532d452e5.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:damonkoy/dsh-web-ui#path:/packages/dsh-aionui-panel",
+    "command": "dsh plugin --profile web add github:damonkoy/dsh-web-ui#path:/packages/dsh-aionui-panel",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-26bcd9814c2532d452e5，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-26bcd9814c2532d452e5.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-26bcd9814c2532d452e5.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-web-ui#dsh-aionui-panel 已收录到 DeepSeek Harness Plugin Store。dsh web GUI 右侧面板系统：像素级还原 AionUi 的资源树 + 预览（文件树、差异视图、预览）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-26bcd9814c2532d452e5.html",
+    "en": "dsh-web-ui#dsh-aionui-panel is now listed on the DeepSeek Harness Plugin Store. Right-panel system for the dsh web GUI: a pixel-faithful AionUi Explorer + Preview (file tree, diff view, preview).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-26bcd9814c2532d452e5.html"
+  }
+}

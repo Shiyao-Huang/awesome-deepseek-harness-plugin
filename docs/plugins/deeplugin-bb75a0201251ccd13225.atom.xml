@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>organize-workspace-sessions — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-bb75a0201251ccd13225.atom.xml</id>
+  <updated>2026-08-17T03:14:45Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-bb75a0201251ccd13225.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-bb75a0201251ccd13225.html"/>
+  <entry>
+    <title>New: organize-workspace-sessions</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-bb75a0201251ccd13225/6c8bd3aed28b3563</id>
+    <updated>2026-08-17T03:14:45Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-bb75a0201251ccd13225.html"/>
+    <author><name>caoqinnan-web</name></author>
+    <category term="session"/>
+    <summary>Organize DeepSeek Harness workspace sessions by renaming them as 类别｜主题 and reporting archive, rename, and review suggestions. Exact install spec: github:caoqinnan-web/organize-workspace-sessions. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>
