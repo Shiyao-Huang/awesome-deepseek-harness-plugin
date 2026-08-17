@@ -5,6 +5,27 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 2026-08-17T01:57:07Z | github | ecosystem-reference | [1052326311/dsh-plan-lattice](https://github.com/1052326311/dsh-plan-lattice) | 1052326311 | core-and-ecosystem |
+| 2026-08-17T01:57:07Z | github | ecosystem-reference | [Hyp6666/dsh-open-eyes](https://github.com/Hyp6666/dsh-open-eyes) | Hyp6666 | multimedia-and-vision |
+| 2026-08-17T01:57:07Z | github | ecosystem-reference | [LeslieWylie/agent-loop-workflow](https://github.com/LeslieWylie/agent-loop-workflow) | LeslieWylie | agents-and-orchestration |
+| 2026-08-17T01:57:07Z | github | ecosystem-reference | [LeslieWylie/review-workflow](https://github.com/LeslieWylie/review-workflow) | LeslieWylie | agents-and-orchestration |
+| 2026-08-17T01:57:07Z | github | ecosystem-reference | [PGZXB/dsh-feishu](https://github.com/PGZXB/dsh-feishu) | PGZXB | core-and-ecosystem |
+| 2026-08-17T01:57:07Z | github | ecosystem-reference | [SZMY-haruhi/dsh-tavily](https://github.com/SZMY-haruhi/dsh-tavily) | SZMY-haruhi | core-and-ecosystem |
+| 2026-08-17T01:57:07Z | github | ecosystem-reference | [Samge0/dsh-plugin-qcc](https://github.com/Samge0/dsh-plugin-qcc) | Samge0 | core-and-ecosystem |
+| 2026-08-17T01:57:07Z | github | plugin | [SeverusZh/dsh-plugin-subagent-director](https://github.com/SeverusZh/dsh-plugin-subagent-director) | SeverusZh | agents-and-orchestration |
+| 2026-08-17T01:57:07Z | github | ecosystem-reference | [SeverusZh/dsh-yolo-mode](https://github.com/SeverusZh/dsh-yolo-mode) | SeverusZh | operations-and-safety |
+| 2026-08-17T01:57:07Z | github | ecosystem-reference | [Starlight-bananice/dsh-status-bar](https://github.com/Starlight-bananice/dsh-status-bar) | Starlight-bananice | core-and-ecosystem |
+| 2026-08-17T01:57:07Z | github | ecosystem-reference | [Taler97/dsh-rollback](https://github.com/Taler97/dsh-rollback) | Taler97 | multimedia-and-vision |
+| 2026-08-17T01:57:07Z | github | ecosystem-reference | [ayahunter/dsh-trail](https://github.com/ayahunter/dsh-trail) | ayahunter | core-and-ecosystem |
+| 2026-08-17T01:57:07Z | github | ecosystem-reference | [caoqinnan-web/organize-workspace-sessions](https://github.com/caoqinnan-web/organize-workspace-sessions) | caoqinnan-web | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-client-ui-custom](https://github.com/yoli-mi/dsh-client-ui-custom) | yoli-mi | core-and-ecosystem |
+| 2026-08-16 | github | plugin | [dsh-novel-writer](https://github.com/siweina/dsh-novel-writer) | siweina | ui-and-desktop |
+| 2026-08-17T01:57:07Z | github | plugin | [dsh-reviewer-bot](https://github.com/chaojixinren/dsh-reviewer-bot) | chaojixinren | index-and-marketplace |
+| 2026-08-16 | github | plugin | [dsh-theme-firefly](https://github.com/Liu-ZA-81/dsh-theme-firefly) | Liu-ZA-81 | ui-and-desktop |
+| 2026-08-17T01:57:07Z | github | ecosystem-reference | [hkkz9522/dsh-session-manager](https://github.com/hkkz9522/dsh-session-manager) | hkkz9522 | ui-and-desktop |
+| 2026-08-17T01:57:07Z | github | ecosystem-reference | [jsoncode/dsh-jenkins](https://github.com/jsoncode/dsh-jenkins) | jsoncode | core-and-ecosystem |
+| 2026-08-17T01:57:07Z | github | ecosystem-reference | [kingOfSoySauce/dsh-liang-skin](https://github.com/kingOfSoySauce/dsh-liang-skin) | kingOfSoySauce | ui-and-desktop |
+| 2026-08-17T01:57:07Z | github | ecosystem-reference | [literaf/dsh-ai4scholar](https://github.com/literaf/dsh-ai4scholar) | literaf | operations-and-safety |
 | 2026-08-16T21:06:21Z | hacker_news | story | [Why is the GitHub trending page weirdly excluding DeepSeek projects?](https://news.ycombinator.com/item?id=49323677) | tianyicui | index-and-marketplace |
 | 2026-08-16T20:38:45Z | github | ecosystem-reference | [JohnXu22786/docs-retriever](https://github.com/JohnXu22786/docs-retriever) | JohnXu22786 | core-and-ecosystem |
 | 2026-08-16T20:38:45Z | github | ecosystem-reference | [JohnXu22786/fs-mcp](https://github.com/JohnXu22786/fs-mcp) | JohnXu22786 | index-and-marketplace |

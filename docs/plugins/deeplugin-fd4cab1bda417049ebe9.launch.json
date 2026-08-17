@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-fd4cab1bda417049ebe9",
+    "name": "dsh-self-evolving",
+    "author": "timwhitez",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/timwhitez/dsh-self-evolving",
+    "firstObservedAt": "2026-08-17T01:57:07Z",
+    "lastChangedAt": "2026-08-17T01:57:07Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-fd4cab1bda417049ebe9.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-fd4cab1bda417049ebe9.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:timwhitez/dsh-self-evolving",
+    "command": "dsh plugin --profile web add github:timwhitez/dsh-self-evolving",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-fd4cab1bda417049ebe9，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-fd4cab1bda417049ebe9.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-fd4cab1bda417049ebe9.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-self-evolving 已收录到 DeepSeek Harness Plugin Store。证据优先、可崩溃恢复的自进化引擎：有界生成 Cordis 候选插件、一次性真实 Loader 准入、Harbor 评估，并保留可审计的日志化谱系。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-fd4cab1bda417049ebe9.html",
+    "en": "dsh-self-evolving is now listed on the DeepSeek Harness Plugin Store. Evidence-first, crash-resumable self-evolution engine for DSH: bounded Cordis candidate generation, one-shot real-Loader admission, Harbor evaluation, and an auditable journaled lineage.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-fd4cab1bda417049ebe9.html"
+  }
+}

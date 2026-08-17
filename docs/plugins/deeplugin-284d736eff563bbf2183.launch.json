@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-284d736eff563bbf2183",
+    "name": "dsh-client-ui-custom",
+    "author": "yoli-mi",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/yoli-mi/dsh-client-ui-custom",
+    "firstObservedAt": "2026-08-17T01:57:07Z",
+    "lastChangedAt": "2026-08-17T01:57:07Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-284d736eff563bbf2183.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-284d736eff563bbf2183.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:yoli-mi/dsh-client-ui-custom",
+    "command": "dsh plugin --profile web add github:yoli-mi/dsh-client-ui-custom",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-284d736eff563bbf2183，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-284d736eff563bbf2183.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-284d736eff563bbf2183.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-client-ui-custom 已收录到 DeepSeek Harness Plugin Store。Web 外观主题定制（壁纸、毛玻璃、强调色、预设）、键盘快捷键、用量统计、插件市场、浮动历史条与用户消息 Markdown 渲染。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-284d736eff563bbf2183.html",
+    "en": "dsh-client-ui-custom is now listed on the DeepSeek Harness Plugin Store. Web theming (wallpaper, glass, accent, presets), keyboard shortcuts, usage stats, a plugin marketplace, a floating history strip, and user-message Markdown rendering.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-284d736eff563bbf2183.html"
+  }
+}

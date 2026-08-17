@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-novel-writer — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-365f9473bb19ba95da1e.atom.xml</id>
+  <updated>2026-08-17T01:57:07Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-365f9473bb19ba95da1e.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-365f9473bb19ba95da1e.html"/>
+  <entry>
+    <title>New: dsh-novel-writer</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-365f9473bb19ba95da1e/c7a2a922b0daabc1</id>
+    <updated>2026-08-17T01:57:07Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-365f9473bb19ba95da1e.html"/>
+    <author><name>siweina</name></author>
+    <category term="tools"/>
+    <summary>Novel writing assistant: chapter library, sentence-pattern analysis (9 categories / emotion curve / style fingerprint), style check, plot tracking, batch import and continuation writing, with per-tool Web UI toggles. Exact install spec: github:siweina/dsh-novel-writer. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

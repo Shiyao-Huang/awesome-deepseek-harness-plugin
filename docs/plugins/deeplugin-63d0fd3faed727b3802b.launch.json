@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-63d0fd3faed727b3802b",
+    "name": "dsh-theme-firefly",
+    "author": "Liu-ZA-81",
+    "category": "theme",
+    "version": null,
+    "homepage": "https://github.com/Liu-ZA-81/dsh-theme-firefly",
+    "firstObservedAt": "2026-08-17T01:57:07Z",
+    "lastChangedAt": "2026-08-17T01:57:07Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-63d0fd3faed727b3802b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-63d0fd3faed727b3802b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:liu-za-81/dsh-theme-firefly",
+    "command": "dsh plugin --profile web add github:liu-za-81/dsh-theme-firefly",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-63d0fd3faed727b3802b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-63d0fd3faed727b3802b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-63d0fd3faed727b3802b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-theme-firefly 已收录到 DeepSeek Harness Plugin Store。崩坏：星穹铁道「流萤」主题：立绘/动态壁纸、萤火绿霓虹配色、开屏变身动画、萤火氛围粒子、背景音乐、打字音效与按对话触发的表情包彩蛋。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-63d0fd3faed727b3802b.html",
+    "en": "dsh-theme-firefly is now listed on the DeepSeek Harness Plugin Store. A Honkai: Star Rail \"Firefly\" theme: wallpaper/video backgrounds, firefly-green neon palette, transformation boot animation, ambient particles, BGM, typewriter SFX, and context-aware emote easter eggs.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-63d0fd3faed727b3802b.html"
+  }
+}
