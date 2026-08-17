@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-e0138d991db9217fc407",
+    "name": "dsh-tools",
+    "author": "qq1376868542-lang",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/qq1376868542-lang/dsh-tools",
+    "firstObservedAt": "2026-08-17T14:45:53Z",
+    "lastChangedAt": "2026-08-17T14:45:53Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-e0138d991db9217fc407.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-e0138d991db9217fc407.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-tools",
+    "command": "dsh plugin --profile web add dsh-tools",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-e0138d991db9217fc407，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-e0138d991db9217fc407.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-e0138d991db9217fc407.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-tools 已收录到 DeepSeek Harness Plugin Store。面向 dsh web profile 的个人工具箱，各功能可单独开关：任务完成桌面通知、一键重启、会话删除、插件启停、更新检查，以及若干界面小工具。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e0138d991db9217fc407.html",
+    "en": "dsh-tools is now listed on the DeepSeek Harness Plugin Store. Personal toolbox for the dsh web profile with per-feature toggles: task-done desktop notifications, one-click restart, session deletion, plugin enable/disable, update checks, and UI utilities.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e0138d991db9217fc407.html"
+  }
+}

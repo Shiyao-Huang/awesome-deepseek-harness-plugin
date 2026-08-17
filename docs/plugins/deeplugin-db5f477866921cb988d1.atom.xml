@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>agent_team_gui — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-db5f477866921cb988d1.atom.xml</id>
-  <updated>2026-08-15T22:14:49Z</updated>
+  <updated>2026-08-17T14:45:53Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-db5f477866921cb988d1.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-db5f477866921cb988d1.html"/>
+  <entry>
+    <title>Updated: agent_team_gui</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-db5f477866921cb988d1/ff019e41100c47f9</id>
+    <updated>2026-08-17T14:45:53Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-db5f477866921cb988d1.html"/>
+    <author><name>toolclub</name></author>
+    <category term="workflow"/>
+    <summary>Reusable agent squads with per-agent provider/model routes and tool policies, serial/parallel dispatch, spawn/fork/chain context modes, and a Web management panel. Exact install spec: github:toolclub/agent_team_gui. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
+  </entry>
   <entry>
     <title>Updated: agent_team_gui</title>
     <id>tag:deeplugin.store,2026-08-15:deeplugin-db5f477866921cb988d1/39c4cd8ba93a4acf</id>

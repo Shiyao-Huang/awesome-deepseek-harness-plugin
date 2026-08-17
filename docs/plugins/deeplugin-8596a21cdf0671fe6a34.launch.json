@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-8596a21cdf0671fe6a34",
+    "name": "dsh-bill",
+    "author": "Jannchie",
+    "category": "usage",
+    "version": null,
+    "homepage": "https://github.com/Jannchie/dsh-bill",
+    "firstObservedAt": "2026-08-17T14:45:53Z",
+    "lastChangedAt": "2026-08-17T14:45:53Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-8596a21cdf0671fe6a34.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-8596a21cdf0671fe6a34.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-bill",
+    "command": "dsh plugin --profile web add dsh-bill",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-8596a21cdf0671fe6a34，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-8596a21cdf0671fe6a34.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-8596a21cdf0671fe6a34.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-bill 已收录到 DeepSeek Harness Plugin Store。按在线价格目录计价的费用统计（models.dev + OpenRouter，8000+ 模型，每次调用按自身时刻定价）：每轮成本行、把花费归因到工具输出 / 模型输出 / 系统提示词 / 终端命令的「费用」标签页、预算、月度预测、约 166 种实时汇率货币，以及 bill_stats agent 工具。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-8596a21cdf0671fe6a34.html",
+    "en": "dsh-bill is now listed on the DeepSeek Harness Plugin Store. Cost tracking priced from an online catalogue (models.dev + OpenRouter, 8000+ models, each call priced at its own instant): a per-turn cost line, a Cost tab attributing spend to tool output / model output / system prompt / commands, budget, monthly forecast, ~166 live-rate currencies, and a bill_stats agent tool.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-8596a21cdf0671fe6a34.html"
+  }
+}

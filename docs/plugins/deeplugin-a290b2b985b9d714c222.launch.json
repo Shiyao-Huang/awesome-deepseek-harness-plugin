@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a290b2b985b9d714c222",
+    "name": "sage-mem",
+    "author": "gezi-wen",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/gezi-wen/sage-mem",
+    "firstObservedAt": "2026-08-17T14:45:53Z",
+    "lastChangedAt": "2026-08-17T14:45:53Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a290b2b985b9d714c222.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a290b2b985b9d714c222.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "sage-mem",
+    "command": "dsh plugin --profile web add sage-mem",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a290b2b985b9d714c222，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a290b2b985b9d714c222.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a290b2b985b9d714c222.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "sage-mem 已收录到 DeepSeek Harness Plugin Store。基于文件的跨会话记忆：纯 Markdown 记忆文件，检索结果自动注入；格式与 Claude Code 的 CLAUDE.md 及记忆文件兼容，迁移即手工复制文件。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a290b2b985b9d714c222.html",
+    "en": "sage-mem is now listed on the DeepSeek Harness Plugin Store. File-based cross-session memory: plain Markdown memory files with automatic retrieval injection, format-compatible with Claude Code's CLAUDE.md and memory files, so migrating is a manual file copy.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a290b2b985b9d714c222.html"
+  }
+}

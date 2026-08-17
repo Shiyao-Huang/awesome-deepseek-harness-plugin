@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-remote-ssh-ops — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-95a1cad25e976a97d355.atom.xml</id>
+  <updated>2026-08-17T14:45:53Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-95a1cad25e976a97d355.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-95a1cad25e976a97d355.html"/>
+  <entry>
+    <title>New: dsh-remote-ssh-ops</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-95a1cad25e976a97d355/0f76ea6add3d3e1e</id>
+    <updated>2026-08-17T14:45:53Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-95a1cad25e976a97d355.html"/>
+    <author><name>weisiren000</name></author>
+    <category term="tools"/>
+    <summary>SSH remote ops for DSH: pair servers over SSH or a one-time-code remote-hostd, then run commands, manage background jobs, and read or write remote files with reviewable changes (host_pair/host_bash/host_jobs/host_read_file/host_write_file/host_review_changes). Exact install spec: github:weisiren000/dsh-remote-ssh-ops. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/RevolutionLA/dsh-dream-skin",
     "firstObservedAt": "2026-08-15T22:14:49Z",
-    "lastChangedAt": "2026-08-16T08:41:44Z"
+    "lastChangedAt": "2026-08-17T14:45:53Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-bf426f1e2abe4bb98622.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-bf426f1e2abe4bb98622.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-dream-skin 已收录到 DeepSeek Harness Plugin Store。一键换肤插件：8 套原创主题、背景壁纸（透明度/模糊）、强调色、主题包导入/导出+分享链接、收藏与随机，纯原生 token 系统接入。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-bf426f1e2abe4bb98622.html",
-    "en": "dsh-dream-skin is now listed on the DeepSeek Harness Plugin Store. One-command skin plugin: 8 original themes, translucent wallpaper with opacity/blur, per-user accent, and shareable theme-pack import/export, favorites and surprise-me — purely native on DSH's token system.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-bf426f1e2abe4bb98622.html"
+    "zh": "dsh-dream-skin 已收录到 DeepSeek Harness Plugin Store。DSH Web 一键换肤插件：8 套原创主题、背景壁纸（透明度/模糊/渐变/URL）、每用户强调色、主题包导入导出与分享链接、收藏与随机，纯原生 token 系统。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-bf426f1e2abe4bb98622.html",
+    "en": "dsh-dream-skin is now listed on the DeepSeek Harness Plugin Store. One-command skinning for DSH Web: 8 original themes, wallpaper (opacity/blur/gradient/URL), per-user accent, and shareable theme-pack import/export + favorites + surprise-me. Purely native on DSH's token system.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-bf426f1e2abe4bb98622.html"
   }
 }

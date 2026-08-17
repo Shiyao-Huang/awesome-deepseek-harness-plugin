@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-35f6f57bf20fa73ca4a1",
+    "name": "dsh-llm-local-token",
+    "author": "tianxia--",
+    "category": "model",
+    "version": null,
+    "homepage": "https://github.com/tianxia--/dsh-llm-local-token",
+    "firstObservedAt": "2026-08-17T14:45:53Z",
+    "lastChangedAt": "2026-08-17T14:45:53Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-35f6f57bf20fa73ca4a1.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-35f6f57bf20fa73ca4a1.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:tianxia--/dsh-llm-local-token",
+    "command": "dsh plugin --profile web add github:tianxia--/dsh-llm-local-token",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-35f6f57bf20fa73ca4a1，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-35f6f57bf20fa73ca4a1.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-35f6f57bf20fa73ca4a1.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-llm-local-token 已收录到 DeepSeek Harness Plugin Store。复用本机 Codex CLI 与 Claude Code 的 OAuth 凭据注册 OpenAI Codex 和 Anthropic 模型路由，并在 Web 中显示订阅用量。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-35f6f57bf20fa73ca4a1.html",
+    "en": "dsh-llm-local-token is now listed on the DeepSeek Harness Plugin Store. Reuses local Codex CLI and Claude Code OAuth credentials as OpenAI Codex and Anthropic model routes, with subscription usage shown in Web.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-35f6f57bf20fa73ca4a1.html"
+  }
+}

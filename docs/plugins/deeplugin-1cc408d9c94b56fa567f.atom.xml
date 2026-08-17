@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>dsh-verify — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-1cc408d9c94b56fa567f.atom.xml</id>
-  <updated>2026-08-17T13:07:24Z</updated>
+  <updated>2026-08-17T14:45:53Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-1cc408d9c94b56fa567f.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1cc408d9c94b56fa567f.html"/>
+  <entry>
+    <title>Updated: dsh-verify</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-1cc408d9c94b56fa567f/b7dff3fde2fb2358</id>
+    <updated>2026-08-17T14:45:53Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1cc408d9c94b56fa567f.html"/>
+    <author><name>263311487-ux</name></author>
+    <category term="tools"/>
+    <summary>Independent browser acceptance testing for agent deliverables: JSON spec drives real headless Chromium, asserts computed styles and pixel diffs, returns an HTML report and 0/1 exit code; ships npm CLI, GitHub Action, and MCP server. Exact install spec: dsh-verify. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
   <entry>
     <title>New: dsh-verify</title>
     <id>tag:deeplugin.store,2026-08-17:deeplugin-1cc408d9c94b56fa567f/a8d9d0ce738ddf8d</id>

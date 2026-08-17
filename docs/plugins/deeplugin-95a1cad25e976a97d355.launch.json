@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-95a1cad25e976a97d355",
+    "name": "dsh-remote-ssh-ops",
+    "author": "weisiren000",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/weisiren000/dsh-remote-ssh-ops",
+    "firstObservedAt": "2026-08-17T14:45:53Z",
+    "lastChangedAt": "2026-08-17T14:45:53Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-95a1cad25e976a97d355.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-95a1cad25e976a97d355.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:weisiren000/dsh-remote-ssh-ops",
+    "command": "dsh plugin --profile web add github:weisiren000/dsh-remote-ssh-ops",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-95a1cad25e976a97d355，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-95a1cad25e976a97d355.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-95a1cad25e976a97d355.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-remote-ssh-ops 已收录到 DeepSeek Harness Plugin Store。DSH SSH 远程运维：通过 SSH 或一次性配对码的 remote-hostd 连接服务器，执行命令、管理后台任务、读写远程文件并审阅变更（host_pair/host_bash/host_jobs/host_read_file/host_write_file/host_review_changes）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-95a1cad25e976a97d355.html",
+    "en": "dsh-remote-ssh-ops is now listed on the DeepSeek Harness Plugin Store. SSH remote ops for DSH: pair servers over SSH or a one-time-code remote-hostd, then run commands, manage background jobs, and read or write remote files with reviewable changes (host_pair/host_bash/host_jobs/host_read_file/host_write_file/host_review_changes).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-95a1cad25e976a97d355.html"
+  }
+}

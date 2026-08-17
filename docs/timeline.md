@@ -5,6 +5,19 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 2026-08-17T14:45:53Z | github | ecosystem-reference | [NoNameLeGo/dsh-catppuccin-theme](https://github.com/NoNameLeGo/dsh-catppuccin-theme) | NoNameLeGo | ui-and-desktop |
+| 2026-08-17 | github | plugin | [dsh-bill](https://github.com/Jannchie/dsh-bill) | Jannchie | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-custom-ui](https://github.com/nailing10086-zx/dsh-custom-ui) | nailing10086-zx | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-effort-slider](https://github.com/2768651338/dsh-effort-slider) | 2768651338 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-eyes](https://github.com/Leeminjing/dsh-eyes) | Leeminjing | multimedia-and-vision |
+| 2026-08-17 | github | plugin | [dsh-ivory](https://github.com/ZJUZhiyuCai/dsh-ivory) | ZJUZhiyuCai | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-llm-local-token](https://github.com/tianxia--/dsh-llm-local-token) | tianxia-- | operations-and-safety |
+| 2026-08-17 | github | plugin | [dsh-remote-ssh-ops](https://github.com/weisiren000/dsh-remote-ssh-ops) | weisiren000 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-tools](https://github.com/qq1376868542-lang/dsh-tools) | qq1376868542-lang | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [open-sea-skin](https://github.com/d-dev0101/open-sea-skin) | d-dev0101 | ui-and-desktop |
+| 2026-08-17 | github | plugin | [sage-mem](https://github.com/gezi-wen/sage-mem) | gezi-wen | core-and-ecosystem |
+| 2026-08-17T14:45:53Z | github | plugin | [zdx8637-gitdog/dshmobiledshmobile-plugin](https://github.com/zdx8637-gitdog/dshmobile) | zdx8637-gitdog | core-and-ecosystem |
+| 2026-08-17T13:39:47Z | hacker_news | story | [Show HN: Deepseek Harness Plugin - Turn DS into Trading Analyst](https://news.ycombinator.com/item?id=49330671) | celineycn | core-and-ecosystem |
 | 2026-08-17T13:07:24Z | github | ecosystem-reference | [314857493/dsh-visionvision-tool](https://github.com/314857493/dsh-vision) | 314857493 | multimedia-and-vision |
 | 2026-08-17 | github | plugin | [dsh-auth-gateway](https://github.com/xbzbing/dsh-auth-gateway) | xbzbing | core-and-ecosystem |
 | 2026-08-17 | github | plugin | [dsh-codex-connect-plus](https://github.com/stoneface10/dsh-codex-connect-plus) | stoneface10 | multimedia-and-vision |

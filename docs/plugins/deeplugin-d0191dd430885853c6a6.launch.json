@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/alvinunreal/openpets/tree/main/packages/dsh",
     "firstObservedAt": "2026-08-17T13:07:24Z",
-    "lastChangedAt": "2026-08-17T13:07:24Z"
+    "lastChangedAt": "2026-08-17T14:45:53Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-d0191dd430885853c6a6.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-d0191dd430885853c6a6.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "openpets#dsh 已收录到 DeepSeek Harness Plugin Store。Bridges DeepSeek Harness lifecycle status, errors, and approval requests to a locally running OpenPets desktop companion.\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-d0191dd430885853c6a6.html",
+    "zh": "openpets#dsh 已收录到 DeepSeek Harness Plugin Store。将 DeepSeek Harness 的生命周期状态、错误与审批请求，桥接到本地运行的 OpenPets 桌面伙伴。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-d0191dd430885853c6a6.html",
     "en": "openpets#dsh is now listed on the DeepSeek Harness Plugin Store. Bridges DeepSeek Harness lifecycle status, errors, and approval requests to a locally running OpenPets desktop companion.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-d0191dd430885853c6a6.html"
   }
 }

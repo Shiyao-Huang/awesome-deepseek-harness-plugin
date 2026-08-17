@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-db2c174205acb5adb8af",
+    "name": "dsh-custom-ui",
+    "author": "nailing10086-zx",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/nailing10086-zx/dsh-custom-ui",
+    "firstObservedAt": "2026-08-17T14:45:53Z",
+    "lastChangedAt": "2026-08-17T14:45:53Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-db2c174205acb5adb8af.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-db2c174205acb5adb8af.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:nailing10086-zx/dsh-custom-ui",
+    "command": "dsh plugin --profile web add github:nailing10086-zx/dsh-custom-ui",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-db2c174205acb5adb8af，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-db2c174205acb5adb8af.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-db2c174205acb5adb8af.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-custom-ui 已收录到 DeepSeek Harness Plugin Store。右侧文件树侧栏，可打开工作区文件；并在输入框状态行显示 DeepSeek 账户余额。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-db2c174205acb5adb8af.html",
+    "en": "dsh-custom-ui is now listed on the DeepSeek Harness Plugin Store. Right-side file-tree sidebar that opens workspace files, plus a DeepSeek account balance meter in the composer stats line.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-db2c174205acb5adb8af.html"
+  }
+}

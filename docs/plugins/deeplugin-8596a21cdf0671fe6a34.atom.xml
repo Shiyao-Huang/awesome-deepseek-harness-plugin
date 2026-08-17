@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-bill — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-8596a21cdf0671fe6a34.atom.xml</id>
+  <updated>2026-08-17T14:45:53Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-8596a21cdf0671fe6a34.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8596a21cdf0671fe6a34.html"/>
+  <entry>
+    <title>New: dsh-bill</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-8596a21cdf0671fe6a34/0f76ea6add3d3e1e</id>
+    <updated>2026-08-17T14:45:53Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8596a21cdf0671fe6a34.html"/>
+    <author><name>Jannchie</name></author>
+    <category term="usage"/>
+    <summary>Cost tracking priced from an online catalogue (models.dev + OpenRouter, 8000+ models, each call priced at its own instant): a per-turn cost line, a Cost tab attributing spend to tool output / model output / system prompt / commands, budget, monthly forecast, ~166 live-rate currencies, and a bill_stats agent tool. Exact install spec: dsh-bill. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>
