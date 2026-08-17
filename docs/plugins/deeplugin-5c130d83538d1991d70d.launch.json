@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-5c130d83538d1991d70d",
+    "name": "dsh-skill-manager",
+    "author": "LIU20030725",
+    "category": "skill",
+    "version": null,
+    "homepage": "https://github.com/LIU20030725/dsh-skill-manager",
+    "firstObservedAt": "2026-08-17T04:59:26Z",
+    "lastChangedAt": "2026-08-17T04:59:26Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-5c130d83538d1991d70d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-5c130d83538d1991d70d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:liu20030725/dsh-skill-manager",
+    "command": "dsh plugin --profile web add github:liu20030725/dsh-skill-manager",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-5c130d83538d1991d70d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-5c130d83538d1991d70d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-5c130d83538d1991d70d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-skill-manager 已收录到 DeepSeek Harness Plugin Store。在 DeepSeek Harness 中按分类、标签和集合文件夹管理你的 agent 技能，自带设置面板与输入框文件夹技能挑选器。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-5c130d83538d1991d70d.html",
+    "en": "dsh-skill-manager is now listed on the DeepSeek Harness Plugin Store. Manage and organize your agent skills by category, tags and collections in DeepSeek Harness, with a settings panel and a slash-command folder picker.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-5c130d83538d1991d70d.html"
+  }
+}

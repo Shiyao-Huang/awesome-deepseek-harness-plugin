@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-gov — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-fdbe7f261aff10f5b372.atom.xml</id>
+  <updated>2026-08-17T04:59:26Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-fdbe7f261aff10f5b372.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fdbe7f261aff10f5b372.html"/>
+  <entry>
+    <title>New: dsh-gov</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-fdbe7f261aff10f5b372/4e8024ade33c4b17</id>
+    <updated>2026-08-17T04:59:26Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fdbe7f261aff10f5b372.html"/>
+    <author><name>863683348</name></author>
+    <category term="dev"/>
+    <summary>Agent governance suite: policy-based tool gating (allow/deny/ask with wildcards and priorities), a structured JSONL audit trail, and per-agent token quotas against the host token meter, with state under $DSH_HOME/gov. Exact install spec: github:863683348/dsh-gov. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

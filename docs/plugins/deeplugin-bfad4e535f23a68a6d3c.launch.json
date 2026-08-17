@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-bfad4e535f23a68a6d3c",
+    "name": "dsh-what-changed",
+    "author": "sjh9714",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/sjh9714/dsh-what-changed",
+    "firstObservedAt": "2026-08-17T04:59:26Z",
+    "lastChangedAt": "2026-08-17T04:59:26Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-bfad4e535f23a68a6d3c.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-bfad4e535f23a68a6d3c.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-what-changed",
+    "command": "dsh plugin --profile web add dsh-what-changed",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-bfad4e535f23a68a6d3c，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-bfad4e535f23a68a6d3c.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-bfad4e535f23a68a6d3c.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-what-changed 已收录到 DeepSeek Harness Plugin Store。整会话改动审阅。会话顶栏列出本次 Agent 写过的每个文件与逐处改动，被权限拒绝的写入单独计数不算改动，数据来自 session projection。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-bfad4e535f23a68a6d3c.html",
+    "en": "dsh-what-changed is now listed on the DeepSeek Harness Plugin Store. Session-wide file change review. Lists every file the agent wrote this session with its hunks, counts refused writes separately from changes, and folds from a session projection.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-bfad4e535f23a68a6d3c.html"
+  }
+}

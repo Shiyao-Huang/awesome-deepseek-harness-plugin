@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-84e8f260eaec5b21086a",
+    "name": "dsh-trend-radar",
+    "author": "863683348",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/863683348/dsh-trend-radar",
+    "firstObservedAt": "2026-08-17T04:59:26Z",
+    "lastChangedAt": "2026-08-17T04:59:26Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-84e8f260eaec5b21086a.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-84e8f260eaec5b21086a.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:863683348/dsh-trend-radar",
+    "command": "dsh plugin --profile web add github:863683348/dsh-trend-radar",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-84e8f260eaec5b21086a，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-84e8f260eaec5b21086a.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-84e8f260eaec5b21086a.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-trend-radar 已收录到 DeepSeek Harness Plugin Store。生态行情面板：把 dsh-plugin topic 与 awesome 收录列表快照成本地历史，产出周报（新增插件、star 增速、类别热度、收录覆盖率），并支持关键词雷达监控新品与 star 突增。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-84e8f260eaec5b21086a.html",
+    "en": "dsh-trend-radar is now listed on the DeepSeek Harness Plugin Store. Ecosystem trend dashboard (行情面板): snapshot the dsh-plugin topic and the awesome list into local history, then report weekly trends — new plugins, star gainers, category heat, awesome coverage — plus a keyword radar for new plugins and star surges.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-84e8f260eaec5b21086a.html"
+  }
+}

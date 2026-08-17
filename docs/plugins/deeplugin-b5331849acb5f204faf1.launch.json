@@ -7,9 +7,9 @@
     "author": "Airmetro",
     "category": "dev",
     "version": null,
-    "homepage": "https://github.com/YZz-S/dsh-update-checker",
+    "homepage": "https://github.com/Airmetro/dsh-update-checker",
     "firstObservedAt": "2026-08-15T22:14:49Z",
-    "lastChangedAt": "2026-08-16T09:56:16Z"
+    "lastChangedAt": "2026-08-17T04:59:26Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-b5331849acb5f204faf1.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b5331849acb5f204faf1.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-update-checker 已收录到 DeepSeek Harness Plugin Store。自动检查 DeepSeek Harness 与第三方插件在 npm 上的最新版本，GUI 顶部横幅跟随系统语言提示，支持一键更新并重启服务。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b5331849acb5f204faf1.html",
-    "en": "dsh-update-checker is now listed on the DeepSeek Harness Plugin Store. Checks the latest DeepSeek Harness and third-party plugin versions from npm, shows a locale-aware banner in the GUI, and offers one-click update with a restart watchdog.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b5331849acb5f204faf1.html"
+    "zh": "dsh-update-checker 已收录到 DeepSeek Harness Plugin Store。全栈更新管理：对 DeepSeek Harness 主程序与每个已装第三方插件做 npm/GitHub Release 双源 semver 比对，GUI 横幅随系统语言（中/英）逐项提示可更新插件；一键更新主程序或任意插件，自动备份可回滚、插件经临时目录安装不碰其它包、更新后看门狗自动重启服务。「检查更新」设置页提供逐插件版本状态灯、实时更新进度与横幅/通知开关。跨机器零配置。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b5331849acb5f204faf1.html",
+    "en": "dsh-update-checker is now listed on the DeepSeek Harness Plugin Store. Update management for the whole stack: compares DeepSeek Harness and every installed third-party plugin against npm and GitHub releases (semver-aware), shows a locale-aware banner (zh/en) with per-plugin update status, and provides one-click updates with automatic backup/rollback, temp-dir installs that never touch other packages, and a watchdog-guarded restart. A settings page adds per-plugin version lamps, live update progress, and banner/notification toggles. Zero-config on any machine.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b5331849acb5f204faf1.html"
   }
 }

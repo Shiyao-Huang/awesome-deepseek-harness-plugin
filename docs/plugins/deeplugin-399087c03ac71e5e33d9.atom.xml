@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-live2d-companion — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-399087c03ac71e5e33d9.atom.xml</id>
+  <updated>2026-08-17T04:59:26Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-399087c03ac71e5e33d9.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-399087c03ac71e5e33d9.html"/>
+  <entry>
+    <title>New: dsh-live2d-companion</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-399087c03ac71e5e33d9/4e8024ade33c4b17</id>
+    <updated>2026-08-17T04:59:26Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-399087c03ac71e5e33d9.html"/>
+    <author><name>Tisitan</name></author>
+    <category term="fun"/>
+    <summary>Live2D desk pet for DSH: 8-state AI status lamp, web widget, and always-on-top transparent Electron pet window with expressions, motions, and chat bubbles. Exact install spec: github:tisitan/dsh-live2d-companion. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

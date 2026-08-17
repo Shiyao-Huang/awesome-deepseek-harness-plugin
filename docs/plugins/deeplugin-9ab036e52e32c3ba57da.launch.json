@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-9ab036e52e32c3ba57da",
+    "name": "dsh-feed",
+    "author": "863683348",
+    "category": "market",
+    "version": null,
+    "homepage": "https://github.com/863683348/dsh-feed",
+    "firstObservedAt": "2026-08-17T04:59:26Z",
+    "lastChangedAt": "2026-08-17T04:59:26Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-9ab036e52e32c3ba57da.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-9ab036e52e32c3ba57da.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:863683348/dsh-feed",
+    "command": "dsh plugin --profile web add github:863683348/dsh-feed",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-9ab036e52e32c3ba57da，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-9ab036e52e32c3ba57da.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-9ab036e52e32c3ba57da.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-feed 已收录到 DeepSeek Harness Plugin Store。跨生态聚合数据层（\"聚合的聚合\"）：把 GitHub dsh-plugin 主题与 npm registry 归一化为开放 JSON 索引，供模型工具、CLI 与轻量 stdio MCP 服务查询。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-9ab036e52e32c3ba57da.html",
+    "en": "dsh-feed is now listed on the DeepSeek Harness Plugin Store. Cross-ecosystem aggregation data layer: syncs the GitHub dsh-plugin topic and the npm registry into one open JSON index, queried by model tools, a CLI, and a minimal stdio MCP server.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-9ab036e52e32c3ba57da.html"
+  }
+}

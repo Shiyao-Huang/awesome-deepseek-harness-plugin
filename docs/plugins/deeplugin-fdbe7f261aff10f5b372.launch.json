@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-fdbe7f261aff10f5b372",
+    "name": "dsh-gov",
+    "author": "863683348",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/863683348/dsh-gov",
+    "firstObservedAt": "2026-08-17T04:59:26Z",
+    "lastChangedAt": "2026-08-17T04:59:26Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-fdbe7f261aff10f5b372.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-fdbe7f261aff10f5b372.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:863683348/dsh-gov",
+    "command": "dsh plugin --profile web add github:863683348/dsh-gov",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-fdbe7f261aff10f5b372，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-fdbe7f261aff10f5b372.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-fdbe7f261aff10f5b372.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-gov 已收录到 DeepSeek Harness Plugin Store。Agent 治理套件：基于策略的工具门禁（allow/deny/ask，支持通配符与优先级）、结构化 JSONL 审计日志、基于宿主 token 计量的按 agent 配额，状态存于 $DSH_HOME/gov。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-fdbe7f261aff10f5b372.html",
+    "en": "dsh-gov is now listed on the DeepSeek Harness Plugin Store. Agent governance suite: policy-based tool gating (allow/deny/ask with wildcards and priorities), a structured JSONL audit trail, and per-agent token quotas against the host token meter, with state under $DSH_HOME/gov.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-fdbe7f261aff10f5b372.html"
+  }
+}

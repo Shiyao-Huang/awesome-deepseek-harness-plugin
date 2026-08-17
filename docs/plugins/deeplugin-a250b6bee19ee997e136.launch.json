@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a250b6bee19ee997e136",
+    "name": "dsh-recipe",
+    "author": "863683348",
+    "category": "market",
+    "version": null,
+    "homepage": "https://github.com/863683348/dsh-recipe",
+    "firstObservedAt": "2026-08-17T04:59:26Z",
+    "lastChangedAt": "2026-08-17T04:59:26Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a250b6bee19ee997e136.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a250b6bee19ee997e136.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:863683348/dsh-recipe",
+    "command": "dsh plugin --profile web add github:863683348/dsh-recipe",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a250b6bee19ee997e136，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a250b6bee19ee997e136.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a250b6bee19ee997e136.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-recipe 已收录到 DeepSeek Harness Plugin Store。把 dsh 插件打包成场景配方（\"插件界的 dotfiles\"）：recipe 工具可列出、搜索、应用并组合现成插件环境，带有序安装序列。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a250b6bee19ee997e136.html",
+    "en": "dsh-recipe is now listed on the DeepSeek Harness Plugin Store. Scenario bundles of dsh plugins (插件界的 dotfiles): a recipe tool that lists, searches, applies and composes ready-made plugin environments with ordered install sequences.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a250b6bee19ee997e136.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-d0d815476c4cddfb761c",
+    "name": "dsh-web-search-firecrawl",
+    "author": "elves-ai",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/elves-ai/dsh-web-search-firecrawl",
+    "firstObservedAt": "2026-08-17T04:59:26Z",
+    "lastChangedAt": "2026-08-17T04:59:26Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-d0d815476c4cddfb761c.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-d0d815476c4cddfb761c.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@elves-ai/dsh-web-search-firecrawl",
+    "command": "dsh plugin --profile web add @elves-ai/dsh-web-search-firecrawl",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-d0d815476c4cddfb761c，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-d0d815476c4cddfb761c.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-d0d815476c4cddfb761c.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-web-search-firecrawl 已收录到 DeepSeek Harness Plugin Store。基于 Firecrawl 的网页搜索提供方：替换内置 web_search 的后端，并提供 API Key、结果数量等字段的设置卡片。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-d0d815476c4cddfb761c.html",
+    "en": "dsh-web-search-firecrawl is now listed on the DeepSeek Harness Plugin Store. Firecrawl-backed web search provider for the built-in web_search tool, with a settings card for the API key and result limits.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-d0d815476c4cddfb761c.html"
+  }
+}

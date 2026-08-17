@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/zhtx2024/dsh-skin-switcher",
     "firstObservedAt": "2026-08-15T22:14:49Z",
-    "lastChangedAt": "2026-08-15T22:14:49Z"
+    "lastChangedAt": "2026-08-17T04:59:26Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-3ac329306b554bb5a1ab.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-3ac329306b554bb5a1ab.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-skin-switcher 已收录到 DeepSeek Harness Plugin Store。在设置界面新增「皮肤」页，自动发现已安装皮肤并一键切换，支持一键恢复官方默认外观。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-3ac329306b554bb5a1ab.html",
-    "en": "dsh-skin-switcher is now listed on the DeepSeek Harness Plugin Store. Adds a Skins page to Settings that auto-discovers installed skins for one-click switching, with one-click restore to the official default look.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-3ac329306b554bb5a1ab.html"
+    "zh": "dsh-skin-switcher 已收录到 DeepSeek Harness Plugin Store。设置面板皮肤管理器：自动扫描已安装的 Web UI 皮肤并一键切换，profile 补丁自动维护。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-3ac329306b554bb5a1ab.html",
+    "en": "dsh-skin-switcher is now listed on the DeepSeek Harness Plugin Store. A settings-panel skin manager that auto-discovers installed Web UI skins, switches between them in one click, and maintains the profile patch automatically.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-3ac329306b554bb5a1ab.html"
   }
 }

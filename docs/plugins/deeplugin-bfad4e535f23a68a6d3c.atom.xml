@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-what-changed — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-bfad4e535f23a68a6d3c.atom.xml</id>
+  <updated>2026-08-17T04:59:26Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-bfad4e535f23a68a6d3c.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-bfad4e535f23a68a6d3c.html"/>
+  <entry>
+    <title>New: dsh-what-changed</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-bfad4e535f23a68a6d3c/ca83a4227ad4db78</id>
+    <updated>2026-08-17T04:59:26Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-bfad4e535f23a68a6d3c.html"/>
+    <author><name>sjh9714</name></author>
+    <category term="session"/>
+    <summary>Session-wide file change review. Lists every file the agent wrote this session with its hunks, counts refused writes separately from changes, and folds from a session projection. Exact install spec: dsh-what-changed. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

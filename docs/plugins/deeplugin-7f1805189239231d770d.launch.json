@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-7f1805189239231d770d",
+    "name": "dsh-multi-chat",
+    "author": "daetz-coder",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/daetz-coder/dsh-multi-chat",
+    "firstObservedAt": "2026-08-17T04:59:26Z",
+    "lastChangedAt": "2026-08-17T04:59:26Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-7f1805189239231d770d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-7f1805189239231d770d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-multi-chat",
+    "command": "dsh plugin --profile web add dsh-multi-chat",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-7f1805189239231d770d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-7f1805189239231d770d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-7f1805189239231d770d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-multi-chat 已收录到 DeepSeek Harness Plugin Store。在 DSH Web 界面里并排运行、监控多个对话实例：多窗口墙 + 自动发现 + 单窗控制，内置带口令认证的局域网网关，手机/平板也能看。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-7f1805189239231d770d.html",
+    "en": "dsh-multi-chat is now listed on the DeepSeek Harness Plugin Store. Multi-window wall for the DSH Web UI: run and monitor N conversations side-by-side in one screen, with auto-discovery, per-window controls, and an authenticated LAN gateway for phone/tablet access.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-7f1805189239231d770d.html"
+  }
+}

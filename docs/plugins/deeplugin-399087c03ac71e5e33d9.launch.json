@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-399087c03ac71e5e33d9",
+    "name": "dsh-live2d-companion",
+    "author": "Tisitan",
+    "category": "fun",
+    "version": null,
+    "homepage": "https://github.com/Tisitan/dsh-live2d-companion",
+    "firstObservedAt": "2026-08-17T04:59:26Z",
+    "lastChangedAt": "2026-08-17T04:59:26Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-399087c03ac71e5e33d9.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-399087c03ac71e5e33d9.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:tisitan/dsh-live2d-companion",
+    "command": "dsh plugin --profile web add github:tisitan/dsh-live2d-companion",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-399087c03ac71e5e33d9，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-399087c03ac71e5e33d9.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-399087c03ac71e5e33d9.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-live2d-companion 已收录到 DeepSeek Harness Plugin Store。DSH 的 Live2D 桌宠：8 态 AI 状态灯 + 网页挂件 + 置顶透明 Electron 桌宠窗，表情/动作/气泡齐全，换模型自动适配。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-399087c03ac71e5e33d9.html",
+    "en": "dsh-live2d-companion is now listed on the DeepSeek Harness Plugin Store. Live2D desk pet for DSH: 8-state AI status lamp, web widget, and always-on-top transparent Electron pet window with expressions, motions, and chat bubbles.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-399087c03ac71e5e33d9.html"
+  }
+}

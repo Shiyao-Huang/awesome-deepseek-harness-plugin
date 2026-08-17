@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-1898fcc3c869f79eb8be",
+    "name": "harmony-next.skills",
+    "author": "linhay",
+    "category": "skill",
+    "version": null,
+    "homepage": "https://github.com/linhay/harmony-next.skills",
+    "firstObservedAt": "2026-08-17T04:59:26Z",
+    "lastChangedAt": "2026-08-17T04:59:26Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-1898fcc3c869f79eb8be.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-1898fcc3c869f79eb8be.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:linhay/harmony-next.skills",
+    "command": "dsh plugin --profile web add github:linhay/harmony-next.skills",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-1898fcc3c869f79eb8be，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-1898fcc3c869f79eb8be.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-1898fcc3c869f79eb8be.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "harmony-next.skills 已收录到 DeepSeek Harness Plugin Store。为 DeepSeek Harness 提供 HarmonyOS NEXT 技能包、离线 API 参考及 DevEco、HDC 与模拟器自动化指南。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-1898fcc3c869f79eb8be.html",
+    "en": "harmony-next.skills is now listed on the DeepSeek Harness Plugin Store. HarmonyOS NEXT skill bundle for DeepSeek Harness with offline API references and DevEco, HDC, and emulator automation guidance.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-1898fcc3c869f79eb8be.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-c47df993920174219f45",
+    "name": "dsh-vision-plugin",
+    "author": "nexsjournal",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/nexsjournal/dsh-vision-plugin",
+    "firstObservedAt": "2026-08-17T04:59:26Z",
+    "lastChangedAt": "2026-08-17T04:59:26Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-c47df993920174219f45.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-c47df993920174219f45.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:nexsjournal/dsh-vision-plugin",
+    "command": "dsh plugin --profile web add github:nexsjournal/dsh-vision-plugin",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-c47df993920174219f45，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-c47df993920174219f45.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-c47df993920174219f45.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-vision-plugin 已收录到 DeepSeek Harness Plugin Store。给模型目录装上「图片输入」勾选框，自定义模型声明后可直接收图；附带可选的 BYO 视觉中继。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c47df993920174219f45.html",
+    "en": "dsh-vision-plugin is now listed on the DeepSeek Harness Plugin Store. Installs an image-input checkbox into the Models catalog so a custom model can declare image input and receive images directly; includes an optional BYO vision relay.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-c47df993920174219f45.html"
+  }
+}

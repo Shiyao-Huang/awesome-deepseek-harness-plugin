@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-starter-zh — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-70d8962c701deebc4fbb.atom.xml</id>
+  <updated>2026-08-17T04:59:26Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-70d8962c701deebc4fbb.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-70d8962c701deebc4fbb.html"/>
+  <entry>
+    <title>New: dsh-starter-zh</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-70d8962c701deebc4fbb/4e8024ade33c4b17</id>
+    <updated>2026-08-17T04:59:26Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-70d8962c701deebc4fbb.html"/>
+    <author><name>863683348</name></author>
+    <category term="skill"/>
+    <summary>Beginner starter pack for DeepSeek Harness: welcome flow, 0→1 learning path, scenario-based plugin recommendations and a self-check checklist, paired with the dsh-handbook-zh Chinese tutorial repo. Exact install spec: github:863683348/dsh-starter-zh. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

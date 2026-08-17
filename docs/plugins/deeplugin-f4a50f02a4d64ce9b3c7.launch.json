@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-f4a50f02a4d64ce9b3c7",
+    "name": "dsh-taskswarm",
+    "author": "february2015",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/february2015/dsh-taskswarm",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-17T04:59:26Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-f4a50f02a4d64ce9b3c7.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-f4a50f02a4d64ce9b3c7.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:february2015/dsh-taskswarm",
+    "command": "dsh plugin --profile web add github:february2015/dsh-taskswarm",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-f4a50f02a4d64ce9b3c7，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-f4a50f02a4d64ce9b3c7.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-f4a50f02a4d64ce9b3c7.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-taskswarm 已收录到 DeepSeek Harness Plugin Store。TaskPlane 的 DSH 移植版：按依赖分波、多 lane 并行执行（git worktree 隔离），任务包 + 跨模型评审 + 崩溃可恢复。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-f4a50f02a4d64ce9b3c7.html",
+    "en": "dsh-taskswarm is now listed on the DeepSeek Harness Plugin Store. DSH port of TaskPlane: dependency-ordered waves run in parallel git-worktree lanes, with task packets, cross-model review, and crash recovery.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-f4a50f02a4d64ce9b3c7.html"
+  }
+}

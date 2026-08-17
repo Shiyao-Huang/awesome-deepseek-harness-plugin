@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-data-insight — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-23e7866ea142216b1faa.atom.xml</id>
+  <updated>2026-08-17T04:59:26Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-23e7866ea142216b1faa.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-23e7866ea142216b1faa.html"/>
+  <entry>
+    <title>New: dsh-data-insight</title>
+    <id>tag:deeplugin.store,2026-08-17:deeplugin-23e7866ea142216b1faa/4e8024ade33c4b17</id>
+    <updated>2026-08-17T04:59:26Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-23e7866ea142216b1faa.html"/>
+    <author><name>ClaireXi99</name></author>
+    <category term="tools"/>
+    <summary>Data analysis toolkit: CSV/TSV/JSON profiling, IQR and z-score anomaly detection, structured summarization with quality issues, and code-free filter/group/aggregate queries. Exact install spec: github:clairexi99/dsh-data-insight. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

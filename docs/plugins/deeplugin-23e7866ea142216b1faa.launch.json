@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-23e7866ea142216b1faa",
+    "name": "dsh-data-insight",
+    "author": "ClaireXi99",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/ClaireXi99/dsh-data-insight",
+    "firstObservedAt": "2026-08-17T04:59:26Z",
+    "lastChangedAt": "2026-08-17T04:59:26Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-23e7866ea142216b1faa.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-23e7866ea142216b1faa.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:clairexi99/dsh-data-insight",
+    "command": "dsh plugin --profile web add github:clairexi99/dsh-data-insight",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-23e7866ea142216b1faa，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-23e7866ea142216b1faa.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-23e7866ea142216b1faa.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-data-insight 已收录到 DeepSeek Harness Plugin Store。数据分析工具包：CSV/TSV/JSON 数据画像、IQR 与 z-score 异常检测、带质量问题提示的结构化摘要、以及无需写代码的筛选/分组/聚合查询。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-23e7866ea142216b1faa.html",
+    "en": "dsh-data-insight is now listed on the DeepSeek Harness Plugin Store. Data analysis toolkit: CSV/TSV/JSON profiling, IQR and z-score anomaly detection, structured summarization with quality issues, and code-free filter/group/aggregate queries.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-23e7866ea142216b1faa.html"
+  }
+}

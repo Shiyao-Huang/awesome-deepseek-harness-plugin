@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-23dc00f01a81693d9213",
+    "name": "dsh-plugin-manager",
+    "author": "nonentity303",
+    "category": "market",
+    "version": null,
+    "homepage": "https://github.com/nonentity303/dsh-plugin-manager",
+    "firstObservedAt": "2026-08-17T04:59:26Z",
+    "lastChangedAt": "2026-08-17T04:59:26Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-23dc00f01a81693d9213.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-23dc00f01a81693d9213.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-plugin-manager-pro",
+    "command": "dsh plugin --profile web add dsh-plugin-manager-pro",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-23dc00f01a81693d9213，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-23dc00f01a81693d9213.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-23dc00f01a81693d9213.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-manager 已收录到 DeepSeek Harness Plugin Store。插件管理器与救砖中心：按必要程度分组启停、多更新源（npm / 插件超市 / GitHub）、浏览器下载优先与目录自动安装、P2P 兜底、启动前自检与坏包隔离。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-23dc00f01a81693d9213.html",
+    "en": "dsh-plugin-manager is now listed on the DeepSeek Harness Plugin Store. Plugin manager with a rescue center: grouped enable/disable by necessity, multi update sources (npm / dshfind market / GitHub), browser-first downloads with an auto-install folder, P2P fallback, pre-boot self-check and broken-bundle quarantine.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-23dc00f01a81693d9213.html"
+  }
+}

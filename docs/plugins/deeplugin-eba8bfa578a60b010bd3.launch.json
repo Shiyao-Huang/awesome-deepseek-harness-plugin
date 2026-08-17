@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-eba8bfa578a60b010bd3",
+    "name": "dsh-plugin-academic-writing",
+    "author": "863683348",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/863683348/dsh-plugin-academic-writing",
+    "firstObservedAt": "2026-08-17T04:59:26Z",
+    "lastChangedAt": "2026-08-17T04:59:26Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-eba8bfa578a60b010bd3.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-eba8bfa578a60b010bd3.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-plugin-academic-writing",
+    "command": "dsh plugin --profile web add dsh-plugin-academic-writing",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-eba8bfa578a60b010bd3，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-eba8bfa578a60b010bd3.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-eba8bfa578a60b010bd3.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-academic-writing 已收录到 DeepSeek Harness Plugin Store。为 DSH agent 提供学术写作工具包：论文大纲、标题与摘要骨架、GB/T 7714 / APA / MLA 引文格式化、措辞质检与投稿前清单。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-eba8bfa578a60b010bd3.html",
+    "en": "dsh-plugin-academic-writing is now listed on the DeepSeek Harness Plugin Store. Academic writing toolkit for DSH agents: paper outlines, title and abstract skeletons, GB/T 7714 / APA / MLA citations, phrasing QA, and a pre-submission checklist.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-eba8bfa578a60b010bd3.html"
+  }
+}
