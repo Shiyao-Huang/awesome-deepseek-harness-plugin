@@ -361,6 +361,7 @@
 | 2026-08-16 20:31 Asia/Shanghai | xiaohongshu | note | [别再按 Star 装 DSH 插件了](https://www.xiaohongshu.com/explore/6a81adb70000000032020f38) | Severus S | ecosystem |
 | 5m ago | reddit | post | [Qwen 3.8 27b with DSH(DeepSeek Harness) is Amazing!! Experiences so far and perfomance.](https://www.reddit.com/r/LocalLLaMA/comments/1vpv12b/qwen_38_27b_with_dshdeepseek_harness_is_amazing) | cviperr33 | multimedia-and-vision |
 | 10小时前 | wechat | article | [DeepSeek Harness App 来了！但不是官方的](https://mp.weixin.qq.com/s?__biz=MzYyMzcwMTExNw==&mid=2247483774&idx=1) | 程序员zimo | ui-and-desktop |
+| 2026-08-16T11:38:42Z | github | repository | [Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report](https://github.com/Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report) | Tiger3807861189 | core-and-ecosystem |
 | 2026-08-16T11:07:39Z | github | fork | [Y0m1ya/deepseek-harness](https://github.com/Y0m1ya/deepseek-harness) | Y0m1ya | deepseek-harness-forks |
 | 2026-08-16T11:07:25Z | github | fork | [brainx/deepseek-harness](https://github.com/brainx/deepseek-harness) | brainx | deepseek-harness-forks |
 | 2026-08-16T11:07:05Z | github | fork | [mlaa4ml/deepseek-harness](https://github.com/mlaa4ml/deepseek-harness) | mlaa4ml | deepseek-harness-forks |
