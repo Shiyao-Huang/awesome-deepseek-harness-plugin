@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-d5f53f55fc4ad87c5231",
+    "name": "dsh-telegram-channel",
+    "author": "hi-wenw",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/hi-wenw/dsh-telegram-channel",
+    "firstObservedAt": "2026-08-18T13:10:14Z",
+    "lastChangedAt": "2026-08-18T13:10:14Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-d5f53f55fc4ad87c5231.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-d5f53f55fc4ad87c5231.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:hi-wenw/dsh-telegram-channel",
+    "command": "dsh plugin --profile web add github:hi-wenw/dsh-telegram-channel",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-d5f53f55fc4ad87c5231，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-d5f53f55fc4ad87c5231.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-d5f53f55fc4ad87c5231.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-telegram-channel 已收录到 DeepSeek Harness Plugin Store。Telegram 手机遥控器：附着本机正在跑的 Web 会话，支持 /sessions 工作区→会话选择、/last 查看上次问答、/model 切换模型，以及原生 Rich Message 回复。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-d5f53f55fc4ad87c5231.html",
+    "en": "dsh-telegram-channel is now listed on the DeepSeek Harness Plugin Store. Telegram mobile remote that attaches the phone to a live DeepSeek Harness Web session: workspace-then-session picker (/sessions), /last for the previous Q/A, /model switch, and native Rich Message replies.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-d5f53f55fc4ad87c5231.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-20ef5993f3fcf9fa4a15",
+    "name": "dsh-system-monitor",
+    "author": "jackma5477001",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/jackma5477001/dsh-system-monitor",
+    "firstObservedAt": "2026-08-18T13:10:14Z",
+    "lastChangedAt": "2026-08-18T13:10:14Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-20ef5993f3fcf9fa4a15.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-20ef5993f3fcf9fa4a15.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:jackma5477001/dsh-system-monitor",
+    "command": "dsh plugin --profile web add github:jackma5477001/dsh-system-monitor",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-20ef5993f3fcf9fa4a15，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-20ef5993f3fcf9fa4a15.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-20ef5993f3fcf9fa4a15.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-system-monitor 已收录到 DeepSeek Harness Plugin Store。在 DSH Web 界面右上角实时显示运行 DSH 服务端机器的 CPU 与内存使用情况。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-20ef5993f3fcf9fa4a15.html",
+    "en": "dsh-system-monitor is now listed on the DeepSeek Harness Plugin Store. Displays real-time CPU and memory usage for the machine running the DSH Web server.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-20ef5993f3fcf9fa4a15.html"
+  }
+}

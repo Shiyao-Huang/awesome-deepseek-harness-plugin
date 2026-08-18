@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>dsh-mneme#dsh-mneme — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-122de4daa75ac5690a4d.atom.xml</id>
-  <updated>2026-08-16T13:41:06Z</updated>
+  <updated>2026-08-18T13:10:14Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-122de4daa75ac5690a4d.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-122de4daa75ac5690a4d.html"/>
+  <entry>
+    <title>Updated: dsh-mneme#dsh-mneme</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-122de4daa75ac5690a4d/282cd75301042e71</id>
+    <updated>2026-08-18T13:10:14Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-122de4daa75ac5690a4d.html"/>
+    <author><name>modusensus</name></author>
+    <category term="memory"/>
+    <summary>Cross-session memory engine for DeepSeek Harness: SQLite store + human-editable Markdown mirror, autoDream consolidation, offline semantic search (local vector/rerank/clustering), entity-attribute-timeline, Sleep Mode, custom-model autoSummarize, and 7 memory tools. Exact install spec: github:modusensus/dsh-mneme#path:/dsh-mneme. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
   <entry>
     <title>Updated: dsh-mneme#dsh-mneme</title>
     <id>tag:deeplugin.store,2026-08-16:deeplugin-122de4daa75ac5690a4d/148e80b87113502b</id>
@@ -12,7 +21,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-122de4daa75ac5690a4d.html"/>
     <author><name>modusensus</name></author>
     <category term="memory"/>
-    <summary>Structured memory engine for DeepSeek Harness. Offline semantic search, entity-attribute-timeline, autoDream self-consolidation, and human-editable Markdown storage. Exact install spec: github:modusensus/dsh-mneme#path:/dsh-mneme. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+    <summary>Cross-session memory engine for DeepSeek Harness: SQLite store + human-editable Markdown mirror, autoDream consolidation, offline semantic search (local vector/rerank/clustering), entity-attribute-timeline, Sleep Mode, custom-model autoSummarize, and 7 memory tools. Exact install spec: github:modusensus/dsh-mneme#path:/dsh-mneme. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
   </entry>
   <entry>
     <title>Updated: dsh-mneme#dsh-mneme</title>
@@ -21,7 +30,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-122de4daa75ac5690a4d.html"/>
     <author><name>modusensus</name></author>
     <category term="memory"/>
-    <summary>Structured memory engine for DeepSeek Harness. Offline semantic search, entity-attribute-timeline, autoDream self-consolidation, and human-editable Markdown storage. Exact install spec: github:modusensus/dsh-mneme#path:/dsh-mneme. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+    <summary>Cross-session memory engine for DeepSeek Harness: SQLite store + human-editable Markdown mirror, autoDream consolidation, offline semantic search (local vector/rerank/clustering), entity-attribute-timeline, Sleep Mode, custom-model autoSummarize, and 7 memory tools. Exact install spec: github:modusensus/dsh-mneme#path:/dsh-mneme. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
   </entry>
   <entry>
     <title>Updated: dsh-mneme#dsh-mneme</title>
@@ -30,7 +39,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-122de4daa75ac5690a4d.html"/>
     <author><name>modusensus</name></author>
     <category term="memory"/>
-    <summary>Structured memory engine for DeepSeek Harness. Offline semantic search, entity-attribute-timeline, autoDream self-consolidation, and human-editable Markdown storage. Exact install spec: github:modusensus/dsh-mneme#path:/dsh-mneme. Source event: dsh-market/dsh-market; changed: sources.</summary>
+    <summary>Cross-session memory engine for DeepSeek Harness: SQLite store + human-editable Markdown mirror, autoDream consolidation, offline semantic search (local vector/rerank/clustering), entity-attribute-timeline, Sleep Mode, custom-model autoSummarize, and 7 memory tools. Exact install spec: github:modusensus/dsh-mneme#path:/dsh-mneme. Source event: dsh-market/dsh-market; changed: sources.</summary>
   </entry>
   <entry>
     <title>New: dsh-mneme#dsh-mneme</title>
@@ -39,6 +48,6 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-122de4daa75ac5690a4d.html"/>
     <author><name>modusensus</name></author>
     <category term="memory"/>
-    <summary>Structured memory engine for DeepSeek Harness. Offline semantic search, entity-attribute-timeline, autoDream self-consolidation, and human-editable Markdown storage. Exact install spec: github:modusensus/dsh-mneme#path:/dsh-mneme. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+    <summary>Cross-session memory engine for DeepSeek Harness: SQLite store + human-editable Markdown mirror, autoDream consolidation, offline semantic search (local vector/rerank/clustering), entity-attribute-timeline, Sleep Mode, custom-model autoSummarize, and 7 memory tools. Exact install spec: github:modusensus/dsh-mneme#path:/dsh-mneme. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

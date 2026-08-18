@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-5d9c48e09377f9e26f6b",
+    "name": "dsh-sound-cue",
+    "author": "Nixz0824",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/Nixz0824/dsh-sound-cue",
+    "firstObservedAt": "2026-08-18T13:10:14Z",
+    "lastChangedAt": "2026-08-18T13:10:14Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-5d9c48e09377f9e26f6b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-5d9c48e09377f9e26f6b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:nixz0824/dsh-sound-cue",
+    "command": "dsh plugin --profile web add github:nixz0824/dsh-sound-cue",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-5d9c48e09377f9e26f6b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-5d9c48e09377f9e26f6b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-5d9c48e09377f9e26f6b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-sound-cue 已收录到 DeepSeek Harness Plugin Store。会话需要你操作（审批、提问或计划确认）以及任务完成时播放不同的短提示音。Web Audio 现场合成，无弹窗、无系统通知。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-5d9c48e09377f9e26f6b.html",
+    "en": "dsh-sound-cue is now listed on the DeepSeek Harness Plugin Store. Short Web Audio cues when a session needs your attention (approval, question, or plan review) and when a task finishes. No popups or OS notifications.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-5d9c48e09377f9e26f6b.html"
+  }
+}

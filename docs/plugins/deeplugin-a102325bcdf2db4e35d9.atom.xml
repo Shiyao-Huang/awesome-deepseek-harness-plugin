@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>dsh-chinese-mode — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-a102325bcdf2db4e35d9.atom.xml</id>
-  <updated>2026-08-16T22:38:05Z</updated>
+  <updated>2026-08-18T13:10:14Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-a102325bcdf2db4e35d9.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a102325bcdf2db4e35d9.html"/>
+  <entry>
+    <title>Updated: dsh-chinese-mode</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-a102325bcdf2db4e35d9/282cd75301042e71</id>
+    <updated>2026-08-18T13:10:14Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a102325bcdf2db4e35d9.html"/>
+    <author><name>dawnliming</name></author>
+    <category term="model"/>
+    <summary>Global Chinese mode: a compact pill switch beside the composer that injects a language requirement into any preset's system prompt (complete personas excepted); reply, thinking and tool output each toggle between Chinese and English, and anchored presets are supported. Exact install spec: github:dawnliming/dsh-chinese-mode. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
   <entry>
     <title>Updated: dsh-chinese-mode</title>
     <id>tag:deeplugin.store,2026-08-16:deeplugin-a102325bcdf2db4e35d9/843400e1aeec0922</id>
@@ -12,7 +21,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a102325bcdf2db4e35d9.html"/>
     <author><name>dawnliming</name></author>
     <category term="model"/>
-    <summary>Global Simplified-Chinese mode: a 中 switch in the input box that injects language requirements (Chinese or English per region) into every session's system prompt; anchored mode forces English thinking for anchored presets. Exact install spec: github:dawnliming/dsh-chinese-mode. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+    <summary>Global Chinese mode: a compact pill switch beside the composer that injects a language requirement into any preset's system prompt (complete personas excepted); reply, thinking and tool output each toggle between Chinese and English, and anchored presets are supported. Exact install spec: github:dawnliming/dsh-chinese-mode. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
   </entry>
   <entry>
     <title>Updated: dsh-chinese-mode</title>
@@ -21,7 +30,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a102325bcdf2db4e35d9.html"/>
     <author><name>dawnliming</name></author>
     <category term="model"/>
-    <summary>Global Simplified-Chinese mode: a 中 switch in the input box that injects language requirements (Chinese or English per region) into every session's system prompt; anchored mode forces English thinking for anchored presets. Exact install spec: github:dawnliming/dsh-chinese-mode. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+    <summary>Global Chinese mode: a compact pill switch beside the composer that injects a language requirement into any preset's system prompt (complete personas excepted); reply, thinking and tool output each toggle between Chinese and English, and anchored presets are supported. Exact install spec: github:dawnliming/dsh-chinese-mode. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
   </entry>
   <entry>
     <title>New: dsh-chinese-mode</title>
@@ -30,6 +39,6 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a102325bcdf2db4e35d9.html"/>
     <author><name>dawnliming</name></author>
     <category term="model"/>
-    <summary>Global Simplified-Chinese mode: a 中 switch in the input box that injects language requirements (Chinese or English per region) into every session's system prompt; anchored mode forces English thinking for anchored presets. Exact install spec: github:dawnliming/dsh-chinese-mode. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+    <summary>Global Chinese mode: a compact pill switch beside the composer that injects a language requirement into any preset's system prompt (complete personas excepted); reply, thinking and tool output each toggle between Chinese and English, and anchored presets are supported. Exact install spec: github:dawnliming/dsh-chinese-mode. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

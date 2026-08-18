@@ -5,6 +5,32 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 2026-08-18T13:10:14Z | github | plugin | [CN Boot](https://github.com/zoahdev/dsh-cn-boot) | zoahdev | index-and-marketplace |
+| 2026-08-18T13:10:14Z | github | plugin | [LLMs Forge](https://github.com/zoahdev/dsh-llms-forge) | zoahdev | core-and-ecosystem |
+| 2026-08-18T13:10:14Z | github | plugin | [Timesheet](https://github.com/zoahdev/dsh-timesheet) | zoahdev | operations-and-safety |
+| 2026-08-18 | github | plugin | [dknowc-dsh](https://github.com/dylanzhangzx/dknowc-dsh) | dylanzhangzx | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-Kingdom](https://github.com/lusblead/dsh-Kingdom) | lusblead | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-agentmail](https://github.com/agentmail-to/dsh-agentmail) | agentmail-to | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-argp](https://github.com/yoza10635/dsh-argp) | yoza10635 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-bull-bear](https://github.com/potoior/dsh-bull-bear) | potoior | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-file-mention](https://github.com/sunshaobei/dsh-file-mention) | sunshaobei | operations-and-safety |
+| 2026-08-18 | github | plugin | [dsh-im-connect](https://github.com/MichengAI/dsh-im-connect) | MichengAI | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-input-history](https://github.com/sunshaobei/dsh-input-history) | sunshaobei | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-mpkg-wallpaper](https://github.com/XHR666/dsh-mpkg-wallpaper) | XHR666 | docs-and-learning |
+| 2026-08-18 | github | plugin | [dsh-process-fold](https://github.com/uigdwunm/dsh-process-fold) | uigdwunm | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-prompt-polish](https://github.com/jinhuoooo/dsh-prompt-polish) | jinhuoooo | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-recall-unread](https://github.com/hg1048596-pixel/dsh-recall-unread) | hg1048596-pixel | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-risk-guard](https://github.com/shuxue6662-a11y/dsh-risk-guard) | shuxue6662-a11y | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-session-review](https://github.com/sunshaobei/dsh-session-review) | sunshaobei | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-sleep-send](https://github.com/Awu12277/dsh-sleep-send) | Awu12277 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-sound-cue](https://github.com/Nixz0824/dsh-sound-cue) | Nixz0824 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-stock-watch](https://github.com/Bob-Bo1/dsh-stock-watch) | Bob-Bo1 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-stt-input](https://github.com/baisama-cloud/dsh-stt-input) | baisama-cloud | ui-and-desktop |
+| 2026-08-18 | github | plugin | [dsh-system-monitor](https://github.com/jackma5477001/dsh-system-monitor) | jackma5477001 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-token-usage-sidebar](https://github.com/y2zyyr/dsh-token-usage-sidebar) | y2zyyr | ui-and-desktop |
+| 2026-08-18 | github | plugin | [dsh-tool-imagegen](https://github.com/Github-CJX/dsh-tool-imagegen) | Github-CJX | index-and-marketplace |
+| 2026-08-18 | github | plugin | [dsh-usage-stats-plus](https://github.com/Nixz0824/dsh-usage-stats-plus) | Nixz0824 | operations-and-safety |
+| 2026-08-18 | github | plugin | [eco-dsh-plugins](https://github.com/xiejianjun000/eco-dsh-plugins) | xiejianjun000 | core-and-ecosystem |
 | 2026-08-18T10:48:49Z | github | plugin | [Dep Audit](https://github.com/zoahdev/dsh-dep-audit) | zoahdev | core-and-ecosystem |
 | 2026-08-18 | github | plugin | [dsh-canvas-preview](https://github.com/jiuyuechuwuhao/dsh-canvas-preview) | jiuyuechuwuhao | core-and-ecosystem |
 | 2026-08-18 | github | plugin | [dsh-change-budget](https://github.com/Raphaelutumn/dsh-change-budget) | Raphaelutumn | core-and-ecosystem |
@@ -14656,6 +14682,7 @@
 | 2026-06-25T22:56:27Z | hacker_news | story | [Show HN: DeepSeek Flash inverted the economics of agent products](https://news.ycombinator.com/item?id=48680260) | arjunchint | multimedia-and-vision |
 | 2026-06-25T09:29:20Z | github | repository | [zhoushoujianwork/easyeda-agent](https://github.com/zhoushoujianwork/easyeda-agent) | zhoushoujianwork | core-and-ecosystem |
 | 2026-06-24T10:22:37Z | hacker_news | story | [Ask HN: How to avoid LLMs struggling with Lisp parens?](https://news.ycombinator.com/item?id=48657691) | chriswarbo | core-and-ecosystem |
+| 2026-06-23T11:59:58Z | github | repository | [mindscale-noah/MindMemOS](https://github.com/mindscale-noah/MindMemOS) | mindscale-noah | core-and-ecosystem |
 | 2026-06-23T05:41:53Z | github | repository | [huawolf/news-agent](https://github.com/huawolf/news-agent) | huawolf | core-and-ecosystem |
 | 2026-06-22T07:24:40Z | github | repository | [Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill) | Tencent | core-and-ecosystem |
 | 2026-06-21T15:28:35Z | github | repository | [humblebanana/open-record-replay](https://github.com/humblebanana/open-record-replay) | humblebanana | ui-and-desktop |

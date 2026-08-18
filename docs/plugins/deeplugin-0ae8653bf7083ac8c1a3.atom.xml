@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dknowc-dsh — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-0ae8653bf7083ac8c1a3.atom.xml</id>
+  <updated>2026-08-18T13:10:14Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-0ae8653bf7083ac8c1a3.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-0ae8653bf7083ac8c1a3.html"/>
+  <entry>
+    <title>New: dknowc-dsh</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-0ae8653bf7083ac8c1a3/dbae5706cae32da0</id>
+    <updated>2026-08-18T13:10:14Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-0ae8653bf7083ac8c1a3.html"/>
+    <author><name>dylanzhangzx</name></author>
+    <category term="skill"/>
+    <summary>Trusted office suite for government/enterprise work by Beijing Caizhi Technology (深知可信智能): three skills — trusted consulting (policy/regulation Q&amp;A with citation markers + provenance HTML), trusted search (authoritative policy/standard retrieval with traceable HTML + clean Markdown), and official-document writing (draft/rewrite/Word/red-head delivery); all interfaces go through the dknowc trusted workbench MCP (Bearer auth), products land in the session workspace, one-time key setup persists for later sessions; ships on npm as dknowc-dsh. Exact install spec: github:dylanzhangzx/dknowc-dsh. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-sound-cue — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-5d9c48e09377f9e26f6b.atom.xml</id>
+  <updated>2026-08-18T13:10:14Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-5d9c48e09377f9e26f6b.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-5d9c48e09377f9e26f6b.html"/>
+  <entry>
+    <title>New: dsh-sound-cue</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-5d9c48e09377f9e26f6b/dbae5706cae32da0</id>
+    <updated>2026-08-18T13:10:14Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-5d9c48e09377f9e26f6b.html"/>
+    <author><name>Nixz0824</name></author>
+    <category term="notify"/>
+    <summary>Short Web Audio cues when a session needs your attention (approval, question, or plan review) and when a task finishes. No popups or OS notifications. Exact install spec: github:nixz0824/dsh-sound-cue. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

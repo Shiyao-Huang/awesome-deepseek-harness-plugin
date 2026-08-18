@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-4c97da2d4bf2501cc709",
+    "name": "CN Boot",
+    "author": "zoahdev",
+    "category": "dev",
+    "version": "0.1.0",
+    "homepage": "https://github.com/zoahdev/dsh-cn-boot",
+    "firstObservedAt": "2026-08-18T13:10:14Z",
+    "lastChangedAt": "2026-08-18T13:10:14Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-4c97da2d4bf2501cc709.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-4c97da2d4bf2501cc709.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-cn-boot",
+    "command": "dsh plugin --profile web add dsh-cn-boot",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-4c97da2d4bf2501cc709，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-4c97da2d4bf2501cc709.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-4c97da2d4bf2501cc709.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "CN Boot 已收录到 DeepSeek Harness Plugin Store。DeepSeek Harness 国内网络引导：探测 npm/npmmirror/GitHub/HuggingFace/Gitee 与本地代理，读取注册表配置，推荐镜像/代理并生成 PowerShell + bash 引导脚本。默认只读，apply 需显式开启。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-4c97da2d4bf2501cc709.html",
+    "en": "CN Boot is now listed on the DeepSeek Harness Plugin Store. China-network bootstrap for DeepSeek Harness: probes npm/npmmirror/GitHub/HuggingFace/Gitee and local proxies, reads registry config, recommends mirrors/proxy, generates a PowerShell + bash bootstrap. Read-only by default; apply is explicit.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-4c97da2d4bf2501cc709.html"
+  }
+}

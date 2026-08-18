@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-9856e11b29b7565e57d2",
+    "name": "Timesheet",
+    "author": "zoahdev",
+    "category": "dev",
+    "version": "0.1.0",
+    "homepage": "https://github.com/zoahdev/dsh-timesheet",
+    "firstObservedAt": "2026-08-18T13:10:14Z",
+    "lastChangedAt": "2026-08-18T13:10:14Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-9856e11b29b7565e57d2.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-9856e11b29b7565e57d2.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-timesheet",
+    "command": "dsh plugin --profile web add dsh-timesheet",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-9856e11b29b7565e57d2，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-9856e11b29b7565e57d2.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-9856e11b29b7565e57d2.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "Timesheet 已收录到 DeepSeek Harness Plugin Store。从 dsh 会话日志做基于 turn 的时间跟踪：总计、按天/项目/供应商/来源汇总、工具调用次数、失败率与首 token 延迟。CLI + agent 可调用 timesheet 工具，输出 dsh-timesheet/v1 报告。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-9856e11b29b7565e57d2.html",
+    "en": "Timesheet is now listed on the DeepSeek Harness Plugin Store. Turn-based time tracking from dsh session logs: totals, per-day/project/provider/source rollups, tool-call counts, failure rates, and time-to-first-token. CLI + agent-callable timesheet tool with dsh-timesheet/v1 reports.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-9856e11b29b7565e57d2.html"
+  }
+}

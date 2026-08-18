@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-79349f5fcaaa4af57017",
+    "name": "dsh-token-usage-sidebar",
+    "author": "y2zyyr",
+    "category": "usage",
+    "version": null,
+    "homepage": "https://github.com/y2zyyr/dsh-token-usage-sidebar",
+    "firstObservedAt": "2026-08-18T13:10:14Z",
+    "lastChangedAt": "2026-08-18T13:10:14Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-79349f5fcaaa4af57017.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-79349f5fcaaa4af57017.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@y2zyyr/dsh-token-usage-sidebar",
+    "command": "dsh plugin --profile web add @y2zyyr/dsh-token-usage-sidebar",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-79349f5fcaaa4af57017，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-79349f5fcaaa4af57017.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-79349f5fcaaa4af57017.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-token-usage-sidebar 已收录到 DeepSeek Harness Plugin Store。为 DSH Web 持久保存 provider 上报的 Token 用量，提供侧边栏摘要，以及按范围、Token 类别、供应商和模型查看的设置页明细。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-79349f5fcaaa4af57017.html",
+    "en": "dsh-token-usage-sidebar is now listed on the DeepSeek Harness Plugin Store. Persistent provider-reported token usage for DSH Web, with a sidebar summary and settings-page breakdowns by range, token type, provider, and model.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-79349f5fcaaa4af57017.html"
+  }
+}

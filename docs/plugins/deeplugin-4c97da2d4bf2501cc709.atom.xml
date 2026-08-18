@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>CN Boot — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-4c97da2d4bf2501cc709.atom.xml</id>
+  <updated>2026-08-18T13:10:14Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-4c97da2d4bf2501cc709.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-4c97da2d4bf2501cc709.html"/>
+  <entry>
+    <title>New: CN Boot</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-4c97da2d4bf2501cc709/1a3acaa871b974d5</id>
+    <updated>2026-08-18T13:10:14Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-4c97da2d4bf2501cc709.html"/>
+    <author><name>zoahdev</name></author>
+    <category term="dev"/>
+    <summary>China-network bootstrap for DeepSeek Harness: probes npm/npmmirror/GitHub/HuggingFace/Gitee and local proxies, reads registry config, recommends mirrors/proxy, generates a PowerShell + bash bootstrap. Read-only by default; apply is explicit. Exact install spec: dsh-cn-boot. Source event: zoahdev/dsh-subscribe; changed: listed.</summary>
+  </entry>
+</feed>

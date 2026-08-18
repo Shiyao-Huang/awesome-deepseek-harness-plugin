@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-dff8f98a11d2d2342c70",
+    "name": "dsh-agentmail",
+    "author": "agentmail-to",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/agentmail-to/dsh-agentmail",
+    "firstObservedAt": "2026-08-18T13:10:14Z",
+    "lastChangedAt": "2026-08-18T13:10:14Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-dff8f98a11d2d2342c70.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-dff8f98a11d2d2342c70.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-agentmail",
+    "command": "dsh plugin --profile web add dsh-agentmail",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-dff8f98a11d2d2342c70，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-dff8f98a11d2d2342c70.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-dff8f98a11d2d2342c70.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-agentmail 已收录到 DeepSeek Harness Plugin Store。用 AgentMail 给 agent 配一个自己的收件箱：发信、读信、搜索与打标签共十一个工具；收到的邮件按邮件线程分派，每个线程对应一个独立会话；所有外发邮件都要过审批与收件人白名单。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-dff8f98a11d2d2342c70.html",
+    "en": "dsh-agentmail is now listed on the DeepSeek Harness Plugin Store. Gives an agent its own email inbox through AgentMail — eleven tools for sending, reading and labelling mail, plus inbound mail delivered into one harness session per email thread, with an approval gate and recipient allowlist on everything outbound.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-dff8f98a11d2d2342c70.html"
+  }
+}

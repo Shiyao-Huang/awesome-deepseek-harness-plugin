@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-cd23831c34d6ca4d55d2",
+    "name": "dsh-plugin-kit#rss",
+    "author": "hyzyn",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/hyzyn/dsh-plugin-kit/tree/main/packages/rss",
+    "firstObservedAt": "2026-08-18T13:10:14Z",
+    "lastChangedAt": "2026-08-18T13:10:14Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-cd23831c34d6ca4d55d2.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-cd23831c34d6ca4d55d2.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:hyzyn/dsh-plugin-kit#path:/packages/rss",
+    "command": "dsh plugin --profile web add github:hyzyn/dsh-plugin-kit#path:/packages/rss",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-cd23831c34d6ca4d55d2，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-cd23831c34d6ca4d55d2.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-cd23831c34d6ca4d55d2.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-kit#rss 已收录到 DeepSeek Harness Plugin Store。DSH 的 RSS/新闻聚合插件：内置渠道库 + awesome-rsshub-routes 精选订阅源目录 + 自定义源（保存时真实抓取校验），每天自动汇总成「今日值得读」Markdown 并注入 systemPrompt；带 Web 设置卡片与侧边栏阅读弹窗。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-cd23831c34d6ca4d55d2.html",
+    "en": "dsh-plugin-kit#rss is now listed on the DeepSeek Harness Plugin Store. Daily RSS/Atom news digest for DSH: built-in channels plus a curated awesome-rsshub-routes catalog and custom feeds (validated on save), aggregated into one \"今日值得读\" Markdown digest each day and injected into the system prompt; Web GUI settings card and sidebar reader.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-cd23831c34d6ca4d55d2.html"
+  }
+}

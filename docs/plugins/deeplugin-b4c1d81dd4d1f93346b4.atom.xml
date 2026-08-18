@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-tool-imagegen — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-b4c1d81dd4d1f93346b4.atom.xml</id>
+  <updated>2026-08-18T13:10:14Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-b4c1d81dd4d1f93346b4.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b4c1d81dd4d1f93346b4.html"/>
+  <entry>
+    <title>New: dsh-tool-imagegen</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-b4c1d81dd4d1f93346b4/dbae5706cae32da0</id>
+    <updated>2026-08-18T13:10:14Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b4c1d81dd4d1f93346b4.html"/>
+    <author><name>Github-CJX</name></author>
+    <category term="tools"/>
+    <summary>OpenAI-compatible image generation for DSH Desktop: the model calls generate_image in chat and the images render inline in the conversation. Exact install spec: github:github-cjx/dsh-tool-imagegen. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

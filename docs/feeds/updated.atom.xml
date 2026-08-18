@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>deeplugin.store — Updated plugins</title>
   <id>https://deeplugin.store/feeds/updated.atom.xml</id>
-  <updated>2026-08-18T10:48:49Z</updated>
+  <updated>2026-08-18T13:10:14Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/feeds/updated.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/market.html"/>
+  <entry>
+    <title>Updated: dsh-chinese-mode</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-a102325bcdf2db4e35d9/282cd75301042e71</id>
+    <updated>2026-08-18T13:10:14Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a102325bcdf2db4e35d9.html"/>
+    <author><name>dawnliming</name></author>
+    <category term="model"/>
+    <summary>Global Chinese mode: a compact pill switch beside the composer that injects a language requirement into any preset's system prompt (complete personas excepted); reply, thinking and tool output each toggle between Chinese and English, and anchored presets are supported. Exact install spec: github:dawnliming/dsh-chinese-mode. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-mneme#dsh-mneme</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-122de4daa75ac5690a4d/282cd75301042e71</id>
+    <updated>2026-08-18T13:10:14Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-122de4daa75ac5690a4d.html"/>
+    <author><name>modusensus</name></author>
+    <category term="memory"/>
+    <summary>Cross-session memory engine for DeepSeek Harness: SQLite store + human-editable Markdown mirror, autoDream consolidation, offline semantic search (local vector/rerank/clustering), entity-attribute-timeline, Sleep Mode, custom-model autoSummarize, and 7 memory tools. Exact install spec: github:modusensus/dsh-mneme#path:/dsh-mneme. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
   <entry>
     <title>Updated: dsh-status-rotator</title>
     <id>tag:deeplugin.store,2026-08-18:deeplugin-c928c671876f548d48d9/8be2e47c600c2829</id>
@@ -834,15 +852,6 @@
     <summary>Review Changes panel above the web composer with a VS Code sidebar bridge: send editor selections, drag files/folders as tags, and batch accept/reject every listed file. Exact install spec: github:tlyer233/dsh-vscode-review#path:/packages/dsh-review-changes. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: entry_name.</summary>
   </entry>
   <entry>
-    <title>Updated: dsh-chinese-mode</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-a102325bcdf2db4e35d9/843400e1aeec0922</id>
-    <updated>2026-08-16T22:38:05Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a102325bcdf2db4e35d9.html"/>
-    <author><name>dawnliming</name></author>
-    <category term="model"/>
-    <summary>Global Simplified-Chinese mode: a 中 switch in the input box that injects language requirements (Chinese or English per region) into every session's system prompt; anchored mode forces English thinking for anchored presets. Exact install spec: github:dawnliming/dsh-chinese-mode. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
-  </entry>
-  <entry>
     <title>Updated: dsh-session-pin</title>
     <id>tag:deeplugin.store,2026-08-16:deeplugin-eeeecc3353435d9312aa/215836be8a895860</id>
     <updated>2026-08-16T18:48:18Z</updated>
@@ -895,14 +904,5 @@
     <author><name>PerryLink</name></author>
     <category term="skill"/>
     <summary>Security-audit methodology skill pack plus the plugin_vet supply-chain gate: eight agent skills (secret scan, dependency audit, supply-chain review, prompt-injection review, audit orchestration, threat modeling, vuln intel, incident response) in Chinese and English editions, with an npm provider bundle that mounts the skills and registers the automated plugin_vet pre-install scanner. Exact install spec: github:perrylink/dsh-skill-pack-security. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
-  </entry>
-  <entry>
-    <title>Updated: godot-bridge</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-a6f8242ec842ba75312b/7015190629e27ba8</id>
-    <updated>2026-08-16T16:39:22Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a6f8242ec842ba75312b.html"/>
-    <author><name>Smalldy</name></author>
-    <category term="tools"/>
-    <summary>DSH↔Godot engine runtime bridge: launch and drive a running Godot 4.x game through its in-game TCP interaction server — 16 tools (runtime control via ~130 game commands, scene/UI inspection, GDScript eval, input simulation, screenshots, headless static ops, project editing, export, script validation, engine-path setup), replaces godot-mcp. Exact install spec: github:smalldy/godot-bridge. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
   </entry>
 </feed>

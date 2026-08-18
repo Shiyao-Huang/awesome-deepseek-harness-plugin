@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-system-monitor — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-20ef5993f3fcf9fa4a15.atom.xml</id>
+  <updated>2026-08-18T13:10:14Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-20ef5993f3fcf9fa4a15.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-20ef5993f3fcf9fa4a15.html"/>
+  <entry>
+    <title>New: dsh-system-monitor</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-20ef5993f3fcf9fa4a15/dbae5706cae32da0</id>
+    <updated>2026-08-18T13:10:14Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-20ef5993f3fcf9fa4a15.html"/>
+    <author><name>jackma5477001</name></author>
+    <category term="ui"/>
+    <summary>Displays real-time CPU and memory usage for the machine running the DSH Web server. Exact install spec: github:jackma5477001/dsh-system-monitor. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

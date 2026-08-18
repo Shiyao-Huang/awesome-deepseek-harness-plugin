@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-b3fbabe978f193925ca4",
+    "name": "dsh-plugin-hub#packages/dsh-web-file-preview",
+    "author": "wingsky-1",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/wingsky-1/dsh-plugin-hub/tree/main/packages/dsh-web-file-preview",
+    "firstObservedAt": "2026-08-18T13:10:14Z",
+    "lastChangedAt": "2026-08-18T13:10:14Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-b3fbabe978f193925ca4.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-b3fbabe978f193925ca4.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@wingsky-1/dsh-web-file-preview",
+    "command": "dsh plugin --profile web add @wingsky-1/dsh-web-file-preview",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-b3fbabe978f193925ca4，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-b3fbabe978f193925ca4.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b3fbabe978f193925ca4.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-hub#packages/dsh-web-file-preview 已收录到 DeepSeek Harness Plugin Store。在 web 端预览对话中的文件链接（图片 / 文本 / Markdown / 代码高亮 / git diff）：点击链接即可弹窗预览，替代桌面原生打开；loopback 围栏 + 弱 ETag/304 缓存 + DOMPurify 消毒。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b3fbabe978f193925ca4.html",
+    "en": "dsh-plugin-hub#packages/dsh-web-file-preview is now listed on the DeepSeek Harness Plugin Store. Preview conversation file links in the web UI (images / text / Markdown / highlighted code / git diff) — click a link to open a preview modal instead of the desktop opener; loopback-fenced routes with weak ETag/304 caching and DOMPurify sanitization.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b3fbabe978f193925ca4.html"
+  }
+}

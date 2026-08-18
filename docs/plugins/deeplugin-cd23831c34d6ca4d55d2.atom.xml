@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-plugin-kit#rss — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-cd23831c34d6ca4d55d2.atom.xml</id>
+  <updated>2026-08-18T13:10:14Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-cd23831c34d6ca4d55d2.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-cd23831c34d6ca4d55d2.html"/>
+  <entry>
+    <title>New: dsh-plugin-kit#rss</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-cd23831c34d6ca4d55d2/dbae5706cae32da0</id>
+    <updated>2026-08-18T13:10:14Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-cd23831c34d6ca4d55d2.html"/>
+    <author><name>hyzyn</name></author>
+    <category term="tools"/>
+    <summary>Daily RSS/Atom news digest for DSH: built-in channels plus a curated awesome-rsshub-routes catalog and custom feeds (validated on save), aggregated into one "今日值得读" Markdown digest each day and injected into the system prompt; Web GUI settings card and sidebar reader. Exact install spec: github:hyzyn/dsh-plugin-kit#path:/packages/rss. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

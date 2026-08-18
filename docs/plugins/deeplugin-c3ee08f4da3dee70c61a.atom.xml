@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-stock-watch — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-c3ee08f4da3dee70c61a.atom.xml</id>
+  <updated>2026-08-18T13:10:14Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-c3ee08f4da3dee70c61a.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c3ee08f4da3dee70c61a.html"/>
+  <entry>
+    <title>New: dsh-stock-watch</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-c3ee08f4da3dee70c61a/dbae5706cae32da0</id>
+    <updated>2026-08-18T13:10:14Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c3ee08f4da3dee70c61a.html"/>
+    <author><name>Bob-Bo1</name></author>
+    <category term="fun"/>
+    <summary>Local-first A-share portfolio and watchlist monitor for DSH: sidebar quotes, holdings P&amp;L, browser add/edit/delete, and JSON persistence. Exact install spec: github:bob-bo1/dsh-stock-watch. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

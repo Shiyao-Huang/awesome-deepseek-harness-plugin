@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-4c5efc3590c21373f46b",
+    "name": "dsh-risk-guard",
+    "author": "shuxue6662-a11y",
+    "category": "security",
+    "version": null,
+    "homepage": "https://github.com/shuxue6662-a11y/dsh-risk-guard",
+    "firstObservedAt": "2026-08-18T13:10:14Z",
+    "lastChangedAt": "2026-08-18T13:10:14Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-4c5efc3590c21373f46b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-4c5efc3590c21373f46b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-risk-guard",
+    "command": "dsh plugin --profile web add dsh-risk-guard",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-4c5efc3590c21373f46b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-4c5efc3590c21373f46b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-4c5efc3590c21373f46b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-risk-guard 已收录到 DeepSeek Harness Plugin Store。零打扰审计与保险丝拦截：静默记录每次工具调用并做纯规则风险评分（含累积加分、风险等级分布、归档保留期清理），只拦不可逆灾难（受保护路径删除、磁盘擦除、force push 到受保护分支/引用、凭据外发），/risk-guard 输出脱敏操作账单并支持 --since 时间过滤。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-4c5efc3590c21373f46b.html",
+    "en": "dsh-risk-guard is now listed on the DeepSeek Harness Plugin Store. Zero-interruption audit and fuse blocking for DeepSeek Harness: silently records every tool call with deterministic risk scoring, cumulative-risk bonuses, risk-level breakdowns and retention-based cleanup; blocks irreversible catastrophes (protected-path deletion, disk wipe, force-push to protected branches/refs, credential exfiltration), and renders a redacted /risk-guard operation bill with --since filtering.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-4c5efc3590c21373f46b.html"
+  }
+}

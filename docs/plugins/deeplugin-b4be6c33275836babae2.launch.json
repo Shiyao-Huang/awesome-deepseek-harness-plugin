@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-b4be6c33275836babae2",
+    "name": "dsh-bull-bear",
+    "author": "potoior",
+    "category": "fun",
+    "version": null,
+    "homepage": "https://github.com/potoior/dsh-bull-bear",
+    "firstObservedAt": "2026-08-18T13:10:14Z",
+    "lastChangedAt": "2026-08-18T13:10:14Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-b4be6c33275836babae2.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-b4be6c33275836babae2.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:potoior/dsh-bull-bear",
+    "command": "dsh plugin --profile web add github:potoior/dsh-bull-bear",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-b4be6c33275836babae2，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-b4be6c33275836babae2.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b4be6c33275836babae2.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-bull-bear 已收录到 DeepSeek Harness Plugin Store。DSH 的实时行情牛熊桌宠：由自选组合平均涨跌驱动，收益越接近 20% 跑得越猛；带自选面板可搜索添加股票，还有展示每只标的涨跌的实时赛跑。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b4be6c33275836babae2.html",
+    "en": "dsh-bull-bear is now listed on the DeepSeek Harness Plugin Store. Real-time quote bull/bear desk pet for DSH: a portfolio-average-driven pet that runs faster and jumps higher the closer gains reach 20%, with a watchlist panel for searching and adding stocks plus a live \"race\" of how each holding is moving.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b4be6c33275836babae2.html"
+  }
+}
