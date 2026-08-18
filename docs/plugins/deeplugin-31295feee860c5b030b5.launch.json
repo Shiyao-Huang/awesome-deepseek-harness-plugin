@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-31295feee860c5b030b5",
+    "name": "dsh-tool-vision",
+    "author": "wanshichenguang",
+    "category": "vision",
+    "version": null,
+    "homepage": "https://github.com/wanshichenguang/dsh-tool-vision",
+    "firstObservedAt": "2026-08-18T03:11:15Z",
+    "lastChangedAt": "2026-08-18T03:11:15Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-31295feee860c5b030b5.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-31295feee860c5b030b5.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:wanshichenguang/dsh-tool-vision",
+    "command": "dsh plugin --profile web add github:wanshichenguang/dsh-tool-vision",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-31295feee860c5b030b5，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-31295feee860c5b030b5.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-31295feee860c5b030b5.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-tool-vision 已收录到 DeepSeek Harness Plugin Store。通过 DashScope OpenAI 兼容视觉接口提供 image_describe 识图工具；在纯文本模型会话中，将粘贴图片保存为模型可读取的本地路径，并在聊天记录中回显图片。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-31295feee860c5b030b5.html",
+    "en": "dsh-tool-vision is now listed on the DeepSeek Harness Plugin Store. Adds an image_describe tool backed by the DashScope OpenAI-compatible vision API; on text-only sessions, pasted images are stored as local paths for the model and rendered inline in the chat transcript.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-31295feee860c5b030b5.html"
+  }
+}

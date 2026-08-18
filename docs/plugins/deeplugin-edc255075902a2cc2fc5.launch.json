@@ -5,7 +5,7 @@
     "id": "deeplugin-edc255075902a2cc2fc5",
     "name": "dsh-remote",
     "author": "xgone",
-    "category": "dev",
+    "category": "security",
     "version": null,
     "homepage": "https://github.com/xgone/dsh-remote",
     "firstObservedAt": "2026-08-17T13:07:24Z",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-edc255075902a2cc2fc5.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-remote 已收录到 DeepSeek Harness Plugin Store。DeepSeek Harness 网页端远程访问与认证：账号/密码登录门、MFA（TOTP 两步验证）、签名会话 Cookie、基于角色的访问控制、浏览器内目录选择器，以及账号管理设置页。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-edc255075902a2cc2fc5.html",
-    "en": "dsh-remote is now listed on the DeepSeek Harness Plugin Store. Remote access & authentication for the DeepSeek Harness web UI: account/password login gate, MFA (TOTP), signed session cookies, role-based access, in-browser directory picker, and an account-management settings page.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-edc255075902a2cc2fc5.html"
+    "zh": "dsh-remote 已收录到 DeepSeek Harness Plugin Store。DeepSeek Harness 网页端远程访问与认证：账号/密码登录门、MFA（TOTP 两步验证）、签名会话 Cookie、基于角色的访问控制、浏览器内目录选择器、账号管理设置页，界面支持中英双语。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-edc255075902a2cc2fc5.html",
+    "en": "dsh-remote is now listed on the DeepSeek Harness Plugin Store. Remote access & authentication for DeepSeek Harness web UI: account/password login gate, MFA (TOTP), signed session cookies, role-based access, in-browser directory picker, account management settings, fully localized in English and Chinese.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-edc255075902a2cc2fc5.html"
   }
 }

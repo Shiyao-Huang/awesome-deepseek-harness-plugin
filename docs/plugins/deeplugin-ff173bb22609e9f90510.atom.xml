@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-observe — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-ff173bb22609e9f90510.atom.xml</id>
+  <updated>2026-08-18T03:11:15Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-ff173bb22609e9f90510.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ff173bb22609e9f90510.html"/>
+  <entry>
+    <title>New: dsh-observe</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-ff173bb22609e9f90510/cb80cd3c03250761</id>
+    <updated>2026-08-18T03:11:15Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ff173bb22609e9f90510.html"/>
+    <author><name>PerryLink</name></author>
+    <category term="dev"/>
+    <summary>Exports the session event stream to OpenTelemetry OTLP and Langfuse as sanitized, buffered traces and metrics, off by default. Exact install spec: dsh-observe. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

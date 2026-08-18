@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-f2f01b65b8a1bd8b9062",
+    "name": "dsh-media-skills",
+    "author": "MJorgin",
+    "category": "vision",
+    "version": null,
+    "homepage": "https://github.com/MJorgin/dsh-media-skills",
+    "firstObservedAt": "2026-08-18T03:11:15Z",
+    "lastChangedAt": "2026-08-18T03:11:15Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-f2f01b65b8a1bd8b9062.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-f2f01b65b8a1bd8b9062.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:mjorgin/dsh-media-skills",
+    "command": "dsh plugin --profile web add github:mjorgin/dsh-media-skills",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-f2f01b65b8a1bd8b9062，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-f2f01b65b8a1bd8b9062.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-f2f01b65b8a1bd8b9062.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-media-skills 已收录到 DeepSeek Harness Plugin Store。面向纯文本模型的免费视觉桥与生图：粘贴读图、GLM-4V-Flash 与 Gemini 引擎故障转移、modlens 同款结构化证据输出，并自动播种免费视觉模型路由。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-f2f01b65b8a1bd8b9062.html",
+    "en": "dsh-media-skills is now listed on the DeepSeek Harness Plugin Store. Free vision bridge and image generation for text-only models: paste-image reading, GLM-4V-Flash and Gemini engine failover, ModLens-style structured evidence, and a seeded free vision model route.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-f2f01b65b8a1bd8b9062.html"
+  }
+}

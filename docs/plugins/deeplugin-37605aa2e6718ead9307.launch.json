@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-37605aa2e6718ead9307",
+    "name": "dsh-trilium",
+    "author": "MineRPi",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/MineRPi/dsh-trilium",
+    "firstObservedAt": "2026-08-18T03:11:15Z",
+    "lastChangedAt": "2026-08-18T03:11:15Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-37605aa2e6718ead9307.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-37605aa2e6718ead9307.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-trilium",
+    "command": "dsh plugin --profile web add dsh-trilium",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-37605aa2e6718ead9307，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-37605aa2e6718ead9307.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-37605aa2e6718ead9307.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-trilium 已收录到 DeepSeek Harness Plugin Store。通过 ETAPI 把 Trilium 笔记库接入 agent，提供 20 个工具：记忆读写（remember/recall + 自动注入索引）、笔记管理（CRUD/克隆/属性/修订）、全文搜索、周报工作流、附件、日历笔记、备份导入，独立设置卡片，配置 0600 落盘。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-37605aa2e6718ead9307.html",
+    "en": "dsh-trilium is now listed on the DeepSeek Harness Plugin Store. Connect Trilium notes to the DSH agent via ETAPI with 20 agent tools: durable memory (remember/recall + auto-injected index), note management (CRUD/clone/attributes/revisions), full-text search, weekly-report workflow, attachments, calendar notes, backup/import, and a settings card.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-37605aa2e6718ead9307.html"
+  }
+}

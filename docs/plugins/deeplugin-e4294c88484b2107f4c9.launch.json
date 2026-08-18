@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-e4294c88484b2107f4c9",
+    "name": "dsh-whale-galgame",
+    "author": "JAdpp",
+    "category": "fun",
+    "version": null,
+    "homepage": "https://github.com/JAdpp/dsh-whale-galgame",
+    "firstObservedAt": "2026-08-18T03:11:15Z",
+    "lastChangedAt": "2026-08-18T03:11:15Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-e4294c88484b2107f4c9.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-e4294c88484b2107f4c9.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-whale-galgame",
+    "command": "dsh plugin --profile web add dsh-whale-galgame",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-e4294c88484b2107f4c9，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-e4294c88484b2107f4c9.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-e4294c88484b2107f4c9.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-whale-galgame 已收录到 DeepSeek Harness Plugin Store。多角色 Galgame 对话界面：角色与回复模型可独立切换，分角色保存好感度、记忆、对话历史与 CG 图鉴，并根据 Harness 跨会话任务事件做出角色回应。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e4294c88484b2107f4c9.html",
+    "en": "dsh-whale-galgame is now listed on the DeepSeek Harness Plugin Store. Multi-character Galgame conversation view with separate character and reply-model selection, per-character affection, memory, dialogue history, and CG galleries, plus responses informed by task events across Harness sessions.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e4294c88484b2107f4c9.html"
+  }
+}

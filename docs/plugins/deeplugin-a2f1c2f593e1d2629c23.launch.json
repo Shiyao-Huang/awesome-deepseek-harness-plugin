@@ -3,7 +3,7 @@
   "version": 1,
   "plugin": {
     "id": "deeplugin-a2f1c2f593e1d2629c23",
-    "name": "dsh-catppuccin",
+    "name": "dsh-catppuccin-theme",
     "author": "NoNameLeGo",
     "category": "theme",
     "version": null,
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a2f1c2f593e1d2629c23.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-catppuccin 已收录到 DeepSeek Harness Plugin Store。DSH Web GUI 的 Catppuccin 主题插件：Latte、Frappé、Macchiato、Mocha 四套主题接入原生主题系统，一键切换并记住选择。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a2f1c2f593e1d2629c23.html",
-    "en": "dsh-catppuccin is now listed on the DeepSeek Harness Plugin Store. Catppuccin themes for the DSH Web GUI: Latte, Frappé, Macchiato and Mocha registered into the native theme runtime, one-click switching with a persisted choice.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a2f1c2f593e1d2629c23.html"
+    "zh": "dsh-catppuccin-theme 已收录到 DeepSeek Harness Plugin Store。DSH Web GUI 的 Catppuccin 主题插件：Latte、Frappé、Macchiato、Mocha 四套主题接入原生主题系统，一键切换并记住选择；另附可开关的玻璃质感皮肤，顶栏、侧边栏、输入框、统计行与轨迹视图的磨砂玻璃效果可自由调节。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a2f1c2f593e1d2629c23.html",
+    "en": "dsh-catppuccin-theme is now listed on the DeepSeek Harness Plugin Store. Catppuccin themes plus a toggleable glassmorphism skin for the DSH Web GUI: Latte, Frappé, Macchiato and Mocha registered into the native theme runtime, one-click switching with a persisted choice, and adjustable frosted glass for the top bar, sidebar, composer, stats line and trajectory view.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a2f1c2f593e1d2629c23.html"
   }
 }

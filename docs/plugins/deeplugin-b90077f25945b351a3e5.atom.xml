@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-archive-manager — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-b90077f25945b351a3e5.atom.xml</id>
+  <updated>2026-08-18T03:11:15Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-b90077f25945b351a3e5.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b90077f25945b351a3e5.html"/>
+  <entry>
+    <title>New: dsh-archive-manager</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-b90077f25945b351a3e5/cb80cd3c03250761</id>
+    <updated>2026-08-18T03:11:15Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b90077f25945b351a3e5.html"/>
+    <author><name>MichengAI</name></author>
+    <category term="session"/>
+    <summary>Adds an archived-sessions page in Settings to search, restore, and delete archived DeepSeek Harness sessions by workspace. Exact install spec: @michengai/dsh-archive-manager. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

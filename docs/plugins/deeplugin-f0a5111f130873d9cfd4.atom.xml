@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>flowix#dsh-flowix-memory — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-f0a5111f130873d9cfd4.atom.xml</id>
+  <updated>2026-08-18T03:11:15Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-f0a5111f130873d9cfd4.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f0a5111f130873d9cfd4.html"/>
+  <entry>
+    <title>New: flowix#dsh-flowix-memory</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-f0a5111f130873d9cfd4/cb80cd3c03250761</id>
+    <updated>2026-08-18T03:11:15Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f0a5111f130873d9cfd4.html"/>
+    <author><name>text2future</name></author>
+    <category term="memory"/>
+    <summary>Registers the local flowix-cli MCP server so the agent can search, read, create, and edit Flowix memos and mind-map artifacts. Exact install spec: github:text2future/flowix#path:/app/flowix-dsh-host/bundles/dsh-flowix-memory. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

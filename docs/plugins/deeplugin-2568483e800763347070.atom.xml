@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-config-manager — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-2568483e800763347070.atom.xml</id>
+  <updated>2026-08-18T03:11:15Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-2568483e800763347070.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-2568483e800763347070.html"/>
+  <entry>
+    <title>New: dsh-config-manager</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-2568483e800763347070/cb80cd3c03250761</id>
+    <updated>2026-08-18T03:11:15Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-2568483e800763347070.html"/>
+    <author><name>xiajiajun516</name></author>
+    <category term="tools"/>
+    <summary>One-click backup, export, import and migration of a whole DSH config: settings, plugins, MCP, skills and workspaces. Secrets are excluded by default and, if you opt in, are AES-256-GCM encrypted rather than written in the clear; imports preview first and auto-backup with rollback, profiles hold multiple setups, and remote sync pushes portable config through a private Git repo with secrets excluded. Exact install spec: dsh-config-manager. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

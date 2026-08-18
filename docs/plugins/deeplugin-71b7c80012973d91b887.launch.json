@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-71b7c80012973d91b887",
+    "name": "dsh-llm-grok",
+    "author": "NOirBRight",
+    "category": "model",
+    "version": null,
+    "homepage": "https://github.com/NOirBRight/dsh-llm-grok",
+    "firstObservedAt": "2026-08-18T03:11:15Z",
+    "lastChangedAt": "2026-08-18T03:11:15Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-71b7c80012973d91b887.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-71b7c80012973d91b887.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:noirbright/dsh-llm-grok",
+    "command": "dsh plugin --profile web add github:noirbright/dsh-llm-grok",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-71b7c80012973d91b887，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-71b7c80012973d91b887.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-71b7c80012973d91b887.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-llm-grok 已收录到 DeepSeek Harness Plugin Store。xAI Grok 订阅聊天：用 SuperGrok 或 X Premium+ 的 OAuth 登录，选择要显示的模型子集，经 Grok CLI 代理走 Responses，并始终开启服务端 web_search 与 x_search。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-71b7c80012973d91b887.html",
+    "en": "dsh-llm-grok is now listed on the DeepSeek Harness Plugin Store. xAI Grok subscription chat: SuperGrok or X Premium+ OAuth, a displayed model subset, Responses through the Grok CLI proxy, and always-on server-side web_search and x_search.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-71b7c80012973d91b887.html"
+  }
+}

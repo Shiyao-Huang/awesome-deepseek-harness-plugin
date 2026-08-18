@@ -5,6 +5,43 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 2026-08-18T03:11:15Z | github | ecosystem-reference | [AntaresCorn/dsh-auto-reviewer](https://github.com/AntaresCorn/dsh-auto-reviewer) | AntaresCorn | operations-and-safety |
+| 2026-08-18T03:11:15Z | github | ecosystem-reference | [JimchengChina/dsh-frontier-repro](https://github.com/JimchengChina/dsh-frontier-repro) | JimchengChina | core-and-ecosystem |
+| 2026-08-18T03:11:15Z | github | plugin | [Max-Null/dsh-plugin-center](https://github.com/Max-Null/dsh-plugin-center) | Max-Null | core-and-ecosystem |
+| 2026-08-18T03:11:15Z | github | plugin | [TianYa-DAO/dsh-wallpaper-engineplugin](https://github.com/TianYa-DAO/dsh-wallpaper-engine) | TianYa-DAO | ui-and-desktop |
+| 2026-08-18T03:11:15Z | github | ecosystem-reference | [Viger1/dsh-review](https://github.com/Viger1/dsh-review) | Viger1 | operations-and-safety |
+| 2026-08-18T03:11:15Z | github | ecosystem-reference | [Winter-And-You-Gone/dsh-turn-fold](https://github.com/Winter-And-You-Gone/dsh-turn-fold) | Winter-And-You-Gone | operations-and-safety |
+| 2026-08-18T03:11:15Z | github | ecosystem-reference | [YooRarely/dsh-open-explorer](https://github.com/YooRarely/dsh-open-explorer) | YooRarely | core-and-ecosystem |
+| 2026-08-18T03:11:15Z | github | ecosystem-reference | [changingwang/dsh-stage-gate](https://github.com/changingwang/dsh-stage-gate) | changingwang | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dashr](https://github.com/fgm-builds/dashr) | fgm-builds | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-agency-agents](https://github.com/MichengAI/dsh-agency-agents) | MichengAI | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-agent-conductor](https://github.com/MJorgin/dsh-agent-conductor) | MJorgin | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-archive-manager](https://github.com/MichengAI/dsh-archive-manager) | MichengAI | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-automation](https://github.com/MichengAI/dsh-automation) | MichengAI | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-butler-memory](https://github.com/AndyYang12345/dsh-butler-memory) | AndyYang12345 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-character-profiler](https://github.com/MlittleFriend/dsh-character-profiler) | MlittleFriend | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-config-manager](https://github.com/xiajiajun516/dsh-config-manager) | xiajiajun516 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-layered-memory](https://github.com/JunNanLYS/dsh-layered-memory) | JunNanLYS | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-library](https://github.com/PerryLink/dsh-library) | PerryLink | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-llm-grok](https://github.com/NOirBRight/dsh-llm-grok) | NOirBRight | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-mcp-bridge](https://github.com/Chhlafiu4312/dsh-mcp-bridge) | Chhlafiu4312 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-media-skills](https://github.com/MJorgin/dsh-media-skills) | MJorgin | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-mindseye](https://github.com/kanchengw/dsh-mindseye) | kanchengw | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-model-reasoning](https://github.com/TikaFlow/dsh-model-reasoning) | TikaFlow | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-observe](https://github.com/PerryLink/dsh-observe) | PerryLink | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-obvious-grid](https://github.com/ray062/dsh-obvious-grid) | ray062 | operations-and-safety |
+| 2026-08-18 | github | plugin | [dsh-omv](https://github.com/bx33661/dsh-omv) | bx33661 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-plugin-sodamem](https://github.com/SodaMem/dsh-plugin-sodamem) | SodaMem | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-projects](https://github.com/WenhongPan/dsh-projects) | WenhongPan | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-skill-manager](https://github.com/yanglaofish/dsh-skill-manager) | yanglaofish | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-skills-manager](https://github.com/MichengAI/dsh-skills-manager) | MichengAI | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-skin-nebula](https://github.com/lyq3/dsh-skin-nebula) | lyq3 | ui-and-desktop |
+| 2026-08-18 | github | plugin | [dsh-test-drive](https://github.com/PerryLink/dsh-test-drive) | PerryLink | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-tool-vision](https://github.com/wanshichenguang/dsh-tool-vision) | wanshichenguang | multimedia-and-vision |
+| 2026-08-18 | github | plugin | [dsh-trilium](https://github.com/MineRPi/dsh-trilium) | MineRPi | core-and-ecosystem |
+| 2026-08-18T03:11:15Z | github | ecosystem-reference | [omicverse/dsh-omicos](https://github.com/omicverse/dsh-omicos) | omicverse | core-and-ecosystem |
+| 2026-08-18T03:11:15Z | github | ecosystem-reference | [opencues/opencuesintegrations-dsh](https://github.com/opencues/opencues) | opencues | core-and-ecosystem |
+| 2026-08-18T03:04:35Z | hacker_news | story | [Show HN: An n8n-like orchestration toolkit for DeepSeek harnesses](https://news.ycombinator.com/item?id=49340759) | darrenzhang | agents-and-orchestration |
 | 2026-08-17 | github | plugin | [dsh-kb-rag](https://github.com/Breeze136/dsh-kb-rag) | Breeze136 | core-and-ecosystem |
 | 2026-08-17 | github | plugin | [dsh-odette-skin](https://github.com/lkdx0220/Genshin-odette-skin-dsh) | lkdx0220 | ui-and-desktop |
 | 2026-08-17 | github | plugin | [dsh-plugin-task-panel](https://github.com/xiaogu619520/dsh-plugin-task-panel) | xiaogu619520 | operations-and-safety |
@@ -14648,6 +14685,7 @@
 | 2025-09-23T13:27:02Z | hacker_news | story | [Show HN: Enhance – a work in progress TUI for GitHub Actions](https://news.ycombinator.com/item?id=45346710) | dlvhdr | index-and-marketplace |
 | 2025-09-22T00:01:14Z | github | repository | [awesome-opencode/awesome-opencode](https://github.com/awesome-opencode/awesome-opencode) | awesome-opencode | index-and-marketplace |
 | 2025-08-25T03:57:40Z | github | repository | [Devin-AXIS/iPolloWork](https://github.com/Devin-AXIS/iPolloWork) | Devin-AXIS | multimedia-and-vision |
+| 2025-07-06T09:51:27Z | github | repository | [MemTensor/MemOS](https://github.com/MemTensor/MemOS) | MemTensor | operations-and-safety |
 | 2025-06-29T15:34:15Z | github | repository | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | shareAI-lab | core-and-ecosystem |
 | 2025-06-20T20:02:18Z | hacker_news | story | [Show HN: TONE3000 – Community for Neural Amp Modeling with 90k+ models trained](https://news.ycombinator.com/item?id=44331497) | woodybury | index-and-marketplace |
 | 2025-06-20T05:25:56Z | github | repository | [kuangre123/iosdev](https://github.com/kuangre123/iosdev) | kuangre123 | core-and-ecosystem |

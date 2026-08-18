@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-1828e5034c48cffce499",
+    "name": "dsh-skill-manager",
+    "author": "yanglaofish",
+    "category": "skill",
+    "version": null,
+    "homepage": "https://github.com/yanglaofish/dsh-skill-manager",
+    "firstObservedAt": "2026-08-18T03:11:15Z",
+    "lastChangedAt": "2026-08-18T03:11:15Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-1828e5034c48cffce499.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-1828e5034c48cffce499.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:yanglaofish/dsh-skill-manager",
+    "command": "dsh plugin --profile web add github:yanglaofish/dsh-skill-manager",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-1828e5034c48cffce499，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-1828e5034c48cffce499.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-1828e5034c48cffce499.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-skill-manager 已收录到 DeepSeek Harness Plugin Store。DSH 技能生命周期管理插件：全局 / 工作区 / 会话三层模型下查看、编辑、导入、启用/停用技能，设置页与对话页统一管理界面，支持跨层全文搜索与分页。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-1828e5034c48cffce499.html",
+    "en": "dsh-skill-manager is now listed on the DeepSeek Harness Plugin Store. Skill lifecycle manager for DSH: list / edit / import / enable / disable skills under a global-workspace-session three-layer model, with unified settings & conversation UI, cross-layer search and pagination.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-1828e5034c48cffce499.html"
+  }
+}

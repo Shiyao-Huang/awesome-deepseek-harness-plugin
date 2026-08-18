@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-b90077f25945b351a3e5",
+    "name": "dsh-archive-manager",
+    "author": "MichengAI",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/MichengAI/dsh-archive-manager",
+    "firstObservedAt": "2026-08-18T03:11:15Z",
+    "lastChangedAt": "2026-08-18T03:11:15Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-b90077f25945b351a3e5.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-b90077f25945b351a3e5.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@michengai/dsh-archive-manager",
+    "command": "dsh plugin --profile web add @michengai/dsh-archive-manager",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-b90077f25945b351a3e5，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-b90077f25945b351a3e5.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b90077f25945b351a3e5.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-archive-manager 已收录到 DeepSeek Harness Plugin Store。在设置里增加已归档会话页，可按工作区搜索、恢复和删除已归档会话。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b90077f25945b351a3e5.html",
+    "en": "dsh-archive-manager is now listed on the DeepSeek Harness Plugin Store. Adds an archived-sessions page in Settings to search, restore, and delete archived DeepSeek Harness sessions by workspace.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b90077f25945b351a3e5.html"
+  }
+}

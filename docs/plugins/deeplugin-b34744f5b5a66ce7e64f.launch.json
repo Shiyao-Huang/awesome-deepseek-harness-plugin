@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-b34744f5b5a66ce7e64f",
+    "name": "dsh-agency-agents",
+    "author": "MichengAI",
+    "category": "skill",
+    "version": null,
+    "homepage": "https://github.com/MichengAI/dsh-agency-agents",
+    "firstObservedAt": "2026-08-18T03:11:15Z",
+    "lastChangedAt": "2026-08-18T03:11:15Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-b34744f5b5a66ce7e64f.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-b34744f5b5a66ce7e64f.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@michengai/dsh-agency-agents",
+    "command": "dsh plugin --profile web add @michengai/dsh-agency-agents",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-b34744f5b5a66ce7e64f，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-b34744f5b5a66ce7e64f.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b34744f5b5a66ce7e64f.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-agency-agents 已收录到 DeepSeek Harness Plugin Store。增加可召唤的领域专家名单，专家以子代理运行，主会话保留任务和最终答复。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b34744f5b5a66ce7e64f.html",
+    "en": "dsh-agency-agents is now listed on the DeepSeek Harness Plugin Store. Adds a summonable domain-expert roster that runs as subagents while the parent session keeps the task and final answer.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b34744f5b5a66ce7e64f.html"
+  }
+}

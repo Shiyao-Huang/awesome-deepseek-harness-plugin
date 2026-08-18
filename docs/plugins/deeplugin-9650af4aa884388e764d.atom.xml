@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-library — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-9650af4aa884388e764d.atom.xml</id>
+  <updated>2026-08-18T03:11:15Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-9650af4aa884388e764d.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9650af4aa884388e764d.html"/>
+  <entry>
+    <title>New: dsh-library</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-9650af4aa884388e764d/cb80cd3c03250761</id>
+    <updated>2026-08-18T03:11:15Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9650af4aa884388e764d.html"/>
+    <author><name>PerryLink</name></author>
+    <category term="memory"/>
+    <summary>Turns local markdown and text documents into a queryable knowledge base with hybrid semantic and keyword search, citation verification, and source injection. Exact install spec: dsh-library. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

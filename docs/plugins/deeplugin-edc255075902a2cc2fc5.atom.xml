@@ -11,8 +11,8 @@
     <updated>2026-08-17T16:48:37Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-edc255075902a2cc2fc5.html"/>
     <author><name>xgone</name></author>
-    <category term="dev"/>
-    <summary>Remote access &amp; authentication for the DeepSeek Harness web UI: account/password login gate, MFA (TOTP), signed session cookies, role-based access, in-browser directory picker, and an account-management settings page. Exact install spec: @xgone/dsh-remote. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
+    <category term="security"/>
+    <summary>Remote access &amp; authentication for DeepSeek Harness web UI: account/password login gate, MFA (TOTP), signed session cookies, role-based access, in-browser directory picker, account management settings, fully localized in English and Chinese. Exact install spec: @xgone/dsh-remote. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
   </entry>
   <entry>
     <title>New: dsh-remote</title>
@@ -20,7 +20,7 @@
     <updated>2026-08-17T13:07:24Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-edc255075902a2cc2fc5.html"/>
     <author><name>xgone</name></author>
-    <category term="dev"/>
-    <summary>Remote access &amp; authentication for the DeepSeek Harness web UI: account/password login gate, MFA (TOTP), signed session cookies, role-based access, in-browser directory picker, and an account-management settings page. Exact install spec: @xgone/dsh-remote. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
+    <category term="security"/>
+    <summary>Remote access &amp; authentication for DeepSeek Harness web UI: account/password login gate, MFA (TOTP), signed session cookies, role-based access, in-browser directory picker, account management settings, fully localized in English and Chinese. Exact install spec: @xgone/dsh-remote. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

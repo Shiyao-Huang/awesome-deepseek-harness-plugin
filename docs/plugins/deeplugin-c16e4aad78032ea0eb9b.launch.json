@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-c16e4aad78032ea0eb9b",
+    "name": "dsh-plugin-sodamem",
+    "author": "SodaMem",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/SodaMem/dsh-plugin-sodamem",
+    "firstObservedAt": "2026-08-18T03:11:15Z",
+    "lastChangedAt": "2026-08-18T03:11:15Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-c16e4aad78032ea0eb9b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-c16e4aad78032ea0eb9b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-plugin-sodamem",
+    "command": "dsh plugin --profile web add dsh-plugin-sodamem",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-c16e4aad78032ea0eb9b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-c16e4aad78032ea0eb9b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-c16e4aad78032ea0eb9b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-sodamem 已收录到 DeepSeek Harness Plugin Store。基于 SodaMem 守护进程的双时间轴记忆：每轮组装提示词时注入检索结果，回合结束后自动写回，读路径不经工具调用也不额外调用模型；每条召回的事实都标注来源回合并带有效期，失效的事实不再被检索到。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c16e4aad78032ea0eb9b.html",
+    "en": "dsh-plugin-sodamem is now listed on the DeepSeek Harness Plugin Store. Bi-temporal memory backed by a SodaMem daemon: recall is contributed to the prompt while each turn is assembled and every closed turn is ingested, with no tool call and no model call on the read path; each recalled fact cites the turn it came from and carries validity dates, so superseded facts stop being retrieved.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-c16e4aad78032ea0eb9b.html"
+  }
+}

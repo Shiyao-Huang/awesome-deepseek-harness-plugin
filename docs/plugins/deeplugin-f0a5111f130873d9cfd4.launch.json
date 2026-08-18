@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-f0a5111f130873d9cfd4",
+    "name": "flowix#dsh-flowix-memory",
+    "author": "text2future",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/text2future/flowix/tree/main/app/flowix-dsh-host/bundles/dsh-flowix-memory",
+    "firstObservedAt": "2026-08-18T03:11:15Z",
+    "lastChangedAt": "2026-08-18T03:11:15Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-f0a5111f130873d9cfd4.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-f0a5111f130873d9cfd4.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:text2future/flowix#path:/app/flowix-dsh-host/bundles/dsh-flowix-memory",
+    "command": "dsh plugin --profile web add github:text2future/flowix#path:/app/flowix-dsh-host/bundles/dsh-flowix-memory",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-f0a5111f130873d9cfd4，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-f0a5111f130873d9cfd4.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-f0a5111f130873d9cfd4.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "flowix#dsh-flowix-memory 已收录到 DeepSeek Harness Plugin Store。将本地 flowix-cli 注册为 MCP 服务，让 agent 可以搜索、读取、创建和编辑 Flowix 备忘与思维导图产物。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-f0a5111f130873d9cfd4.html",
+    "en": "flowix#dsh-flowix-memory is now listed on the DeepSeek Harness Plugin Store. Registers the local flowix-cli MCP server so the agent can search, read, create, and edit Flowix memos and mind-map artifacts.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-f0a5111f130873d9cfd4.html"
+  }
+}

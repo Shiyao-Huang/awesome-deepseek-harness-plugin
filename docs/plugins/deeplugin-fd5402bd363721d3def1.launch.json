@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-fd5402bd363721d3def1",
+    "name": "dsh-skills-manager",
+    "author": "MichengAI",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/MichengAI/dsh-skills-manager",
+    "firstObservedAt": "2026-08-18T03:11:15Z",
+    "lastChangedAt": "2026-08-18T03:11:15Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-fd5402bd363721d3def1.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-fd5402bd363721d3def1.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@michengai/dsh-skills-manager",
+    "command": "dsh plugin --profile web add @michengai/dsh-skills-manager",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-fd5402bd363721d3def1，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-fd5402bd363721d3def1.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-fd5402bd363721d3def1.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-skills-manager 已收录到 DeepSeek Harness Plugin Store。在设置里管理本地 DSH 技能，并只读查看公共 Agent 技能。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-fd5402bd363721d3def1.html",
+    "en": "dsh-skills-manager is now listed on the DeepSeek Harness Plugin Store. Manages local DeepSeek Harness skills in Settings and shows shared Agent skills as read-only.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-fd5402bd363721d3def1.html"
+  }
+}

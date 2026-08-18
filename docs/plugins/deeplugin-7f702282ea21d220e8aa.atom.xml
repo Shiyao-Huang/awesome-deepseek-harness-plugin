@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>dsh-agent-conductor — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-7f702282ea21d220e8aa.atom.xml</id>
-  <updated>2026-08-16T09:56:16Z</updated>
+  <updated>2026-08-18T03:11:15Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-7f702282ea21d220e8aa.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-7f702282ea21d220e8aa.html"/>
+  <entry>
+    <title>Updated: dsh-agent-conductor</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-7f702282ea21d220e8aa/c0edc8728e0f28f6</id>
+    <updated>2026-08-18T03:11:15Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-7f702282ea21d220e8aa.html"/>
+    <author><name>akqwpeter-prog</name></author>
+    <category term="tools"/>
+    <summary>Dispatch self-contained tasks from DSH to 11 external agent CLIs (Codex, Claude Code, TraeCode, OpenCode, Gemini, Cursor, Kimi, Qwen, Copilot, WorkBuddy, Grok): a host-only bundle registering the conductor_dispatch tool plus an auto-triggered conductor skill. Exact install spec: github:akqwpeter-prog/dsh-agent-conductor. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
+  </entry>
   <entry>
     <title>Updated: dsh-agent-conductor</title>
     <id>tag:deeplugin.store,2026-08-16:deeplugin-7f702282ea21d220e8aa/d947fc14d81f9c69</id>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-tool-vision — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-31295feee860c5b030b5.atom.xml</id>
+  <updated>2026-08-18T03:11:15Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-31295feee860c5b030b5.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-31295feee860c5b030b5.html"/>
+  <entry>
+    <title>New: dsh-tool-vision</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-31295feee860c5b030b5/cb80cd3c03250761</id>
+    <updated>2026-08-18T03:11:15Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-31295feee860c5b030b5.html"/>
+    <author><name>wanshichenguang</name></author>
+    <category term="vision"/>
+    <summary>Adds an image_describe tool backed by the DashScope OpenAI-compatible vision API; on text-only sessions, pasted images are stored as local paths for the model and rendered inline in the chat transcript. Exact install spec: github:wanshichenguang/dsh-tool-vision. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>
