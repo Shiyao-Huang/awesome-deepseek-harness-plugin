@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>dsh-knowledge — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-bb3595c9fbaa693d5e0b.atom.xml</id>
-  <updated>2026-08-15T22:14:49Z</updated>
+  <updated>2026-08-18T07:06:23Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-bb3595c9fbaa693d5e0b.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-bb3595c9fbaa693d5e0b.html"/>
+  <entry>
+    <title>Updated: dsh-knowledge</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-bb3595c9fbaa693d5e0b/e0a0e9ee6d1b7227</id>
+    <updated>2026-08-18T07:06:23Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-bb3595c9fbaa693d5e0b.html"/>
+    <author><name>ICCuse</name></author>
+    <category term="memory"/>
+    <summary>Bridge into a global Markdown knowledge base shared with the Codex kb.cmd CLI: kb_add/kb_search/kb_show/kb_timeline tools with byte-compatible frontmatter. Exact install spec: github:iccuse/dsh-knowledge. Source event: beancookie/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
   <entry>
     <title>Updated: dsh-knowledge</title>
     <id>tag:deeplugin.store,2026-08-15:deeplugin-bb3595c9fbaa693d5e0b/39c4cd8ba93a4acf</id>

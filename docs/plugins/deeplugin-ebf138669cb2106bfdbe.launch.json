@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/Jesse-njx/dsh-chatnode-wechat",
     "firstObservedAt": "2026-08-15T22:14:49Z",
-    "lastChangedAt": "2026-08-15T22:14:49Z"
+    "lastChangedAt": "2026-08-18T07:06:23Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-ebf138669cb2106bfdbe.html",
@@ -28,6 +28,6 @@
   },
   "posts": {
     "zh": "dsh-chatnode-wechat 已收录到 DeepSeek Harness Plugin Store。通过 iLink 网关在微信里与 DSH agent 聊天、监控与审批：双向文本、会话切换、进度摘要与编号审批提示。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-ebf138669cb2106bfdbe.html",
-    "en": "dsh-chatnode-wechat is now listed on the DeepSeek Harness Plugin Store. Chat with, monitor, and approve your DSH agents from WeChat via the iLink gateway: text both ways, session targeting, digest heartbeats, and numbered approval prompts.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-ebf138669cb2106bfdbe.html"
+    "en": "dsh-chatnode-wechat is now listed on the DeepSeek Harness Plugin Store. Chat with, monitor, and approve your DSH agents from WeChat via the iLink gateway: text both ways, session switching, progress digests, and numbered approval prompts.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-ebf138669cb2106bfdbe.html"
   }
 }

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-565a532358225f5a7c86",
+    "name": "dsh-prompt",
+    "author": "FeatherHunter",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/FeatherHunter/dsh-prompt",
+    "firstObservedAt": "2026-08-18T07:06:23Z",
+    "lastChangedAt": "2026-08-18T07:06:23Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-565a532358225f5a7c86.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-565a532358225f5a7c86.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:featherhunter/dsh-prompt",
+    "command": "dsh plugin --profile web add github:featherhunter/dsh-prompt",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-565a532358225f5a7c86，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-565a532358225f5a7c86.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-565a532358225f5a7c86.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-prompt 已收录到 DeepSeek Harness Plugin Store。输入框旁的 prompt 工具箱面板：24 条内置深度模板 + 自定义模板，/prompt 触发源 + 智能推荐悬浮卡，点选即插入当前对话。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-565a532358225f5a7c86.html",
+    "en": "dsh-prompt is now listed on the DeepSeek Harness Plugin Store. Right-side prompt toolbox panel with 24 built-in deep templates plus user-defined ones, accessible via the /prompt slash trigger and a context-aware floating suggestion card; one-click inserts the selected prompt into the composer.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-565a532358225f5a7c86.html"
+  }
+}

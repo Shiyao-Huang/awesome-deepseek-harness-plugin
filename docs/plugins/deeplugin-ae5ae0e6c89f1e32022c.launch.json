@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-ae5ae0e6c89f1e32022c",
+    "name": "dsh-plugins-store",
+    "author": "DshMarketPlace",
+    "category": "market",
+    "version": null,
+    "homepage": "https://github.com/DshMarketPlace/dsh-plugins-store",
+    "firstObservedAt": "2026-08-18T07:06:23Z",
+    "lastChangedAt": "2026-08-18T07:06:23Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-ae5ae0e6c89f1e32022c.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-ae5ae0e6c89f1e32022c.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dshmarketplace-plugin",
+    "command": "dsh plugin --profile web add dshmarketplace-plugin",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-ae5ae0e6c89f1e32022c，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-ae5ae0e6c89f1e32022c.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-ae5ae0e6c89f1e32022c.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugins-store 已收录到 DeepSeek Harness Plugin Store。不离开 harness 就能找插件、装插件：/store 命令、设置页的插件标签页、两个可供 agent 调用的工具和一个随包技能，安装前先确认并列出检测到的风险项。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-ae5ae0e6c89f1e32022c.html",
+    "en": "dsh-plugins-store is now listed on the DeepSeek Harness Plugin Store. Browse and install DSH plugins without leaving the harness: a /store command, a Settings → Plugins tab, two agent-callable tools and a bundled skill, with an approval gate that lists the detected risk flags before anything installs.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-ae5ae0e6c89f1e32022c.html"
+  }
+}

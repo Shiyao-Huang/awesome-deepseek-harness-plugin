@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-3894a6cdb791823c88c1",
+    "name": "dsh-codex-meter",
+    "author": "ChrisZhangWG",
+    "category": "usage",
+    "version": null,
+    "homepage": "https://github.com/ChrisZhangWG/dsh-codex-meter",
+    "firstObservedAt": "2026-08-18T07:06:23Z",
+    "lastChangedAt": "2026-08-18T07:06:23Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-3894a6cdb791823c88c1.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-3894a6cdb791823c88c1.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:chriszhangwg/dsh-codex-meter",
+    "command": "dsh plugin --profile web add github:chriszhangwg/dsh-codex-meter",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-3894a6cdb791823c88c1，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-3894a6cdb791823c88c1.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-3894a6cdb791823c88c1.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-codex-meter 已收录到 DeepSeek Harness Plugin Store。在设置中添加 DeepSeek API 用量仪表板，显示余额、官方 Token 与费用分析、趋势、上下文警告及实时 API 活动。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-3894a6cdb791823c88c1.html",
+    "en": "dsh-codex-meter is now listed on the DeepSeek Harness Plugin Store. Adds a Settings Usage dashboard for DeepSeek API balance, official token and cost analysis, trends, context warnings, and live API activity.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-3894a6cdb791823c88c1.html"
+  }
+}

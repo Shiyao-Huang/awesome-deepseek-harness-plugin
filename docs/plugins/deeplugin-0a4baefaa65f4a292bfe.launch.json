@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/lkdx0220/Genshin-odette-skin-dsh",
     "firstObservedAt": "2026-08-18T01:52:58Z",
-    "lastChangedAt": "2026-08-18T01:52:58Z"
+    "lastChangedAt": "2026-08-18T07:06:23Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-0a4baefaa65f4a292bfe.html",
@@ -28,6 +28,6 @@
   },
   "posts": {
     "zh": "dsh-odette-skin 已收录到 DeepSeek Harness Plugin Store。DSH 原神「奥黛塔」主题 UI 皮肤：深/浅双模式背景图 + 13 个主题 token 毛玻璃覆盖 + 侧栏 Q 版小兽皮肤开关，npm 即装即用。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-0a4baefaa65f4a292bfe.html",
-    "en": "dsh-odette-skin is now listed on the DeepSeek Harness Plugin Store. A Genshin Impact \"Odette\" themed DSH UI skin: dark/light dual-mode background images, frosted-glass overrides for 13 theme tokens, and a chibi mascot sidebar toggle; install via npm\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-0a4baefaa65f4a292bfe.html"
+    "en": "dsh-odette-skin is now listed on the DeepSeek Harness Plugin Store. A Genshin Impact \"Odette\" themed DSH UI skin: dark/light dual-mode background images, frosted-glass overrides for 13 theme tokens, and a chibi mascot sidebar toggle; install via npm.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-0a4baefaa65f4a292bfe.html"
   }
 }

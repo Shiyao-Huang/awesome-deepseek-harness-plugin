@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-prompt — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-565a532358225f5a7c86.atom.xml</id>
+  <updated>2026-08-18T07:06:23Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-565a532358225f5a7c86.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-565a532358225f5a7c86.html"/>
+  <entry>
+    <title>New: dsh-prompt</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-565a532358225f5a7c86/7a0467da94beed37</id>
+    <updated>2026-08-18T07:06:23Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-565a532358225f5a7c86.html"/>
+    <author><name>FeatherHunter</name></author>
+    <category term="ui"/>
+    <summary>Right-side prompt toolbox panel with 24 built-in deep templates plus user-defined ones, accessible via the /prompt slash trigger and a context-aware floating suggestion card; one-click inserts the selected prompt into the composer. Exact install spec: github:featherhunter/dsh-prompt. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

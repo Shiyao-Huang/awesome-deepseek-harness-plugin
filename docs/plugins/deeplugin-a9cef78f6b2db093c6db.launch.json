@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a9cef78f6b2db093c6db",
+    "name": "codex-to-dsh-pet#dsh-codex-pet",
+    "author": "Signalight",
+    "category": "fun",
+    "version": null,
+    "homepage": "https://github.com/Signalight/codex-to-dsh-pet/tree/main/packages/dsh-codex-pet",
+    "firstObservedAt": "2026-08-18T07:06:23Z",
+    "lastChangedAt": "2026-08-18T07:06:23Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a9cef78f6b2db093c6db.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a9cef78f6b2db093c6db.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@signalight/dsh-codex-pet",
+    "command": "dsh plugin --profile web add @signalight/dsh-codex-pet",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a9cef78f6b2db093c6db，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a9cef78f6b2db093c6db.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a9cef78f6b2db093c6db.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "codex-to-dsh-pet#dsh-codex-pet 已收录到 DeepSeek Harness Plugin Store。DSH 网页 GUI 实时桌宠：可把任何 Codex 桌宠图集（webp/png/gif，v1/v2 自动识别）转换为 DSH 中可拖拽的悬浮桌宠。支持拖拽/挥手/跳跃，v2 桌宠的眼睛实时追踪活动鼠标，随 agent 状态切换姿势；进度气泡反映工作状态；「设置 → 桌宠」图形界面可导入、切换与调整桌宠；内置一只原创示例桌宠（娜斯佳），用户桌宠存放在 ~/.dsh/pets。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a9cef78f6b2db093c6db.html",
+    "en": "codex-to-dsh-pet#dsh-codex-pet is now listed on the DeepSeek Harness Plugin Store. DSH web-GUI pet runtime that renders any Codex spritesheet-atlas pet (v1/v2) as a draggable overlay: drag/wave/jump, v2 mouse-tracking eyes that follow the active mouse, live agent-status poses, progress bubbles, and an in-GUI atlas importer; ships one original CC BY-NC demo pet (nastya), and user pets live in ~/.dsh/pets.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a9cef78f6b2db093c6db.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-bbfd2a9b9f48322c4584",
+    "name": "dsh-mascot",
+    "author": "falser101",
+    "category": "fun",
+    "version": null,
+    "homepage": "https://github.com/falser101/dsh-mascot",
+    "firstObservedAt": "2026-08-18T07:06:23Z",
+    "lastChangedAt": "2026-08-18T07:06:23Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-bbfd2a9b9f48322c4584.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-bbfd2a9b9f48322c4584.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:falser101/dsh-mascot",
+    "command": "dsh plugin --profile web add github:falser101/dsh-mascot",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-bbfd2a9b9f48322c4584，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-bbfd2a9b9f48322c4584.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-bbfd2a9b9f48322c4584.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-mascot 已收录到 DeepSeek Harness Plugin Store。可拖拽的猫狗悬浮伴侣，表情随当前会话变化，在 Companion 设置页里换皮肤。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-bbfd2a9b9f48322c4584.html",
+    "en": "dsh-mascot is now listed on the DeepSeek Harness Plugin Store. Draggable floating cat-or-dog companion for the dsh web GUI that changes expression with the session and is configured on a Companion settings page.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-bbfd2a9b9f48322c4584.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-797239b9883e492e6f5b",
+    "name": "dsh-mattpocock-skills-deck",
+    "author": "FeatherHunter",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/FeatherHunter/dsh-mattpocock-skills-deck",
+    "firstObservedAt": "2026-08-18T07:06:23Z",
+    "lastChangedAt": "2026-08-18T07:06:23Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-797239b9883e492e6f5b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-797239b9883e492e6f5b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:featherhunter/dsh-mattpocock-skills-deck",
+    "command": "dsh plugin --profile web add github:featherhunter/dsh-mattpocock-skills-deck",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-797239b9883e492e6f5b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-797239b9883e492e6f5b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-797239b9883e492e6f5b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-mattpocock-skills-deck 已收录到 DeepSeek Harness Plugin Store。Matt Pocock 技能套件的 DSH 控制面板：右侧 details 列打开；含 wayfinder 决策地图、issue 行级 triage / 修复 / 讨论 / 执行按钮、9 项核心套件探测 + 20 个技能雷达、环境检查、跨会话 handoff 交接。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-797239b9883e492e6f5b.html",
+    "en": "dsh-mattpocock-skills-deck is now listed on the DeepSeek Harness Plugin Store. Right-side details panel that turns the Matt Pocock skills collection into a DSH quest board: wayfinder decision maps, per-issue triage / fix / discuss / execute actions, 9-item core-skill probe plus 20-skill radar, environment checks, and one-click handoff across sessions.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-797239b9883e492e6f5b.html"
+  }
+}

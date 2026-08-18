@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-1f078152c3befba2fd2f",
+    "name": "dsh-custom-theme-import",
+    "author": "Juryorca",
+    "category": "theme",
+    "version": null,
+    "homepage": "https://github.com/Juryorca/dsh-custom-theme-import",
+    "firstObservedAt": "2026-08-18T07:06:23Z",
+    "lastChangedAt": "2026-08-18T07:06:23Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-1f078152c3befba2fd2f.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-1f078152c3befba2fd2f.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:juryorca/dsh-custom-theme-import",
+    "command": "dsh plugin --profile web add github:juryorca/dsh-custom-theme-import",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-1f078152c3befba2fd2f，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-1f078152c3befba2fd2f.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-1f078152c3befba2fd2f.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-custom-theme-import 已收录到 DeepSeek Harness Plugin Store。DSH Web 自定义主题导入插件：支持本地路径/GitHub 集合一键导入、主题预览与实时刷新、托管主题库；格式轻量，作者可直接改 CSS/DOM 文件热加载，适合个人主题开发与分享。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-1f078152c3befba2fd2f.html",
+    "en": "dsh-custom-theme-import is now listed on the DeepSeek Harness Plugin Store. DSH Web custom theme importer: one-click import from local paths or GitHub theme collections, live preview and refresh, hosted theme library; the lightweight format lets authors edit CSS/DOM files and hot-reload, making it a friendly option for personal theme development and sharing.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-1f078152c3befba2fd2f.html"
+  }
+}

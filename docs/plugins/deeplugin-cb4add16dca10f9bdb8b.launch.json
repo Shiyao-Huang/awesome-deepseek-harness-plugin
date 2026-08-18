@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/pk7j7sqryy-ops/dsh-token-pet",
     "firstObservedAt": "2026-08-15T22:14:49Z",
-    "lastChangedAt": "2026-08-15T22:14:49Z"
+    "lastChangedAt": "2026-08-18T07:06:23Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-cb4add16dca10f9bdb8b.html",
@@ -28,6 +28,6 @@
   },
   "posts": {
     "zh": "dsh-token-pet 已收录到 DeepSeek Harness Plugin Store。会话头部卡通用量小部件：布布玩偶 + 上下文占用/会话累计/构成，附日期周几、天气、3 天预报与极端天气预警（雨滴/雪花动画），跟随主题色。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-cb4add16dca10f9bdb8b.html",
-    "en": "dsh-token-pet is now listed on the DeepSeek Harness Plugin Store. Cute token-usage widget in the session header: context occupancy, session usage and breakdown, plus date/weekday, weather, 3-day forecast and severe-weather alerts.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-cb4add16dca10f9bdb8b.html"
+    "en": "dsh-token-pet is now listed on the DeepSeek Harness Plugin Store. Cute token-usage widget in the session header: a Bubu doll plus context occupancy, session usage and breakdown, with date/weekday, weather, 3-day forecast and severe-weather alerts (raindrop/snowflake animation), following the theme color.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-cb4add16dca10f9bdb8b.html"
   }
 }

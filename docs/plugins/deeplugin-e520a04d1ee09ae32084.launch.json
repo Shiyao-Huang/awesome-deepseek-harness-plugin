@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-e520a04d1ee09ae32084",
+    "name": "dsh-python-env",
+    "author": "AngelosZou",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/AngelosZou/dsh-python-env",
+    "firstObservedAt": "2026-08-18T07:06:23Z",
+    "lastChangedAt": "2026-08-18T07:06:23Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-e520a04d1ee09ae32084.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-e520a04d1ee09ae32084.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-python-env",
+    "command": "dsh plugin --profile web add dsh-python-env",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-e520a04d1ee09ae32084，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-e520a04d1ee09ae32084.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-e520a04d1ee09ae32084.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-python-env 已收录到 DeepSeek Harness Plugin Store。封装了Python虚拟环境管理指令，减少Agent使用终端指令管理环境时遇到的网络问题和权限问题，兼容不同操作系统，工具内部设置自动网络与镜像路由。工具严格受给定读写权限限制。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e520a04d1ee09ae32084.html",
+    "en": "dsh-python-env is now listed on the DeepSeek Harness Plugin Store. Wraps Python virtual environment management commands: reduces the network and permission problems agents hit when managing environments through terminal commands, works across operating systems, and routes installs automatically through mirrors and local proxies. The tools are strictly confined by the granted read/write permissions.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e520a04d1ee09ae32084.html"
+  }
+}

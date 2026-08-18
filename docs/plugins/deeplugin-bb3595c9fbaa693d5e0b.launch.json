@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/ICCuse/dsh-knowledge",
     "firstObservedAt": "2026-08-15T22:14:49Z",
-    "lastChangedAt": "2026-08-15T22:14:49Z"
+    "lastChangedAt": "2026-08-18T07:06:23Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-bb3595c9fbaa693d5e0b.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-bb3595c9fbaa693d5e0b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-knowledge 已收录到 DeepSeek Harness Plugin Store。全局知识库桥：kb_add/kb_search/kb_show/kb_timeline 读写与 Codex 共享的 D:\\knowledge（格式逐字节兼容）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-bb3595c9fbaa693d5e0b.html",
+    "zh": "dsh-knowledge 已收录到 DeepSeek Harness Plugin Store。全局 Markdown 知识库桥：kb_add/kb_search/kb_show/kb_timeline 读写与 Codex kb.cmd CLI 共享的知识库（格式逐字节兼容）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-bb3595c9fbaa693d5e0b.html",
     "en": "dsh-knowledge is now listed on the DeepSeek Harness Plugin Store. Bridge into a global Markdown knowledge base shared with the Codex kb.cmd CLI: kb_add/kb_search/kb_show/kb_timeline tools with byte-compatible frontmatter.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-bb3595c9fbaa693d5e0b.html"
   }
 }

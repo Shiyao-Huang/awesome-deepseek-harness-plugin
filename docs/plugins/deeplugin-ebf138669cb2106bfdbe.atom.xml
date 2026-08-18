@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>dsh-chatnode-wechat — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-ebf138669cb2106bfdbe.atom.xml</id>
-  <updated>2026-08-15T22:14:49Z</updated>
+  <updated>2026-08-18T07:06:23Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-ebf138669cb2106bfdbe.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ebf138669cb2106bfdbe.html"/>
+  <entry>
+    <title>Updated: dsh-chatnode-wechat</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-ebf138669cb2106bfdbe/113a77b2a480693b</id>
+    <updated>2026-08-18T07:06:23Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ebf138669cb2106bfdbe.html"/>
+    <author><name>Jesse-njx</name></author>
+    <category term="notify"/>
+    <summary>Chat with, monitor, and approve your DSH agents from WeChat via the iLink gateway: text both ways, session switching, progress digests, and numbered approval prompts. Exact install spec: github:jesse-njx/dsh-chatnode-wechat. Source event: beancookie/awesome-dsh-plugin; changed: description_i18n.</summary>
+  </entry>
   <entry>
     <title>Updated: dsh-chatnode-wechat</title>
     <id>tag:deeplugin.store,2026-08-15:deeplugin-ebf138669cb2106bfdbe/39c4cd8ba93a4acf</id>
@@ -12,7 +21,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ebf138669cb2106bfdbe.html"/>
     <author><name>Jesse-njx</name></author>
     <category term="notify"/>
-    <summary>Chat with, monitor, and approve your DSH agents from WeChat via the iLink gateway: text both ways, session targeting, digest heartbeats, and numbered approval prompts. Exact install spec: github:jesse-njx/dsh-chatnode-wechat. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+    <summary>Chat with, monitor, and approve your DSH agents from WeChat via the iLink gateway: text both ways, session switching, progress digests, and numbered approval prompts. Exact install spec: github:jesse-njx/dsh-chatnode-wechat. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
   </entry>
   <entry>
     <title>Updated: dsh-chatnode-wechat</title>
@@ -21,7 +30,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ebf138669cb2106bfdbe.html"/>
     <author><name>Jesse-njx</name></author>
     <category term="notify"/>
-    <summary>Chat with, monitor, and approve your DSH agents from WeChat via the iLink gateway: text both ways, session targeting, digest heartbeats, and numbered approval prompts. Exact install spec: github:jesse-njx/dsh-chatnode-wechat. Source event: dsh-market/dsh-market; changed: sources.</summary>
+    <summary>Chat with, monitor, and approve your DSH agents from WeChat via the iLink gateway: text both ways, session switching, progress digests, and numbered approval prompts. Exact install spec: github:jesse-njx/dsh-chatnode-wechat. Source event: dsh-market/dsh-market; changed: sources.</summary>
   </entry>
   <entry>
     <title>Updated: dsh-chatnode-wechat</title>
@@ -30,7 +39,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ebf138669cb2106bfdbe.html"/>
     <author><name>Jesse-njx</name></author>
     <category term="notify"/>
-    <summary>Chat with, monitor, and approve your DSH agents from WeChat via the iLink gateway: text both ways, session targeting, digest heartbeats, and numbered approval prompts. Exact install spec: github:jesse-njx/dsh-chatnode-wechat. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+    <summary>Chat with, monitor, and approve your DSH agents from WeChat via the iLink gateway: text both ways, session switching, progress digests, and numbered approval prompts. Exact install spec: github:jesse-njx/dsh-chatnode-wechat. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
   </entry>
   <entry>
     <title>New: dsh-chatnode-wechat</title>
@@ -39,6 +48,6 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ebf138669cb2106bfdbe.html"/>
     <author><name>Jesse-njx</name></author>
     <category term="notify"/>
-    <summary>Chat with, monitor, and approve your DSH agents from WeChat via the iLink gateway: text both ways, session targeting, digest heartbeats, and numbered approval prompts. Exact install spec: github:jesse-njx/dsh-chatnode-wechat. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+    <summary>Chat with, monitor, and approve your DSH agents from WeChat via the iLink gateway: text both ways, session switching, progress digests, and numbered approval prompts. Exact install spec: github:jesse-njx/dsh-chatnode-wechat. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

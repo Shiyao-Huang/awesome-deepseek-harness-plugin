@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>dsh-expert-mode — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-e413694ef21a213b8bdf.atom.xml</id>
-  <updated>2026-08-16T13:41:06Z</updated>
+  <updated>2026-08-18T07:06:23Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-e413694ef21a213b8bdf.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e413694ef21a213b8bdf.html"/>
+  <entry>
+    <title>Updated: dsh-expert-mode</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-e413694ef21a213b8bdf/a993e9f5db3209e3</id>
+    <updated>2026-08-18T07:06:23Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e413694ef21a213b8bdf.html"/>
+    <author><name>Asher-2000</name></author>
+    <category term="tools"/>
+    <summary>Expert-mode agent preset for DeepSeek Harness (v0.3.0, bilingual EN/ZH): a chief coordinator plus 11 domain-expert subagents with automatic task delegation. New: Three-Anchor constraint (recall/convergence/anti-drift per turn) and Near-distance Guidance (identity/task/output template per expert). Experts: data analyst, copywriter, legal review, product manager, frontend, UI/UX, architect, social media ops, growth hacker, quant finance, finance. Exact install spec: github:asher-2000/dsh-expert-mode. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
   <entry>
     <title>Updated: dsh-expert-mode</title>
     <id>tag:deeplugin.store,2026-08-16:deeplugin-e413694ef21a213b8bdf/148e80b87113502b</id>
@@ -12,7 +21,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e413694ef21a213b8bdf.html"/>
     <author><name>Asher-2000</name></author>
     <category term="tools"/>
-    <summary>Expert-mode agent preset for DeepSeek Harness, now BILINGUAL: English "Expert Mode" preset (Chief Coordinator + 11 fully-English domain-expert subagents) and Chinese 「专家模式」 preset (首席协调官). Experts: data analyst, copywriter, legal review, product manager, frontend, UI/UX, architect, social media ops, growth hacker, quant finance, finance — with automatic task delegation. Exact install spec: github:asher-2000/dsh-expert-mode. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+    <summary>Expert-mode agent preset for DeepSeek Harness (v0.3.0, bilingual EN/ZH): a chief coordinator plus 11 domain-expert subagents with automatic task delegation. New: Three-Anchor constraint (recall/convergence/anti-drift per turn) and Near-distance Guidance (identity/task/output template per expert). Experts: data analyst, copywriter, legal review, product manager, frontend, UI/UX, architect, social media ops, growth hacker, quant finance, finance. Exact install spec: github:asher-2000/dsh-expert-mode. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
   </entry>
   <entry>
     <title>Updated: dsh-expert-mode</title>
@@ -21,7 +30,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e413694ef21a213b8bdf.html"/>
     <author><name>Asher-2000</name></author>
     <category term="tools"/>
-    <summary>Expert-mode agent preset for DeepSeek Harness, now BILINGUAL: English "Expert Mode" preset (Chief Coordinator + 11 fully-English domain-expert subagents) and Chinese 「专家模式」 preset (首席协调官). Experts: data analyst, copywriter, legal review, product manager, frontend, UI/UX, architect, social media ops, growth hacker, quant finance, finance — with automatic task delegation. Exact install spec: github:asher-2000/dsh-expert-mode. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+    <summary>Expert-mode agent preset for DeepSeek Harness (v0.3.0, bilingual EN/ZH): a chief coordinator plus 11 domain-expert subagents with automatic task delegation. New: Three-Anchor constraint (recall/convergence/anti-drift per turn) and Near-distance Guidance (identity/task/output template per expert). Experts: data analyst, copywriter, legal review, product manager, frontend, UI/UX, architect, social media ops, growth hacker, quant finance, finance. Exact install spec: github:asher-2000/dsh-expert-mode. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
   </entry>
   <entry>
     <title>Updated: dsh-expert-mode</title>
@@ -30,7 +39,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e413694ef21a213b8bdf.html"/>
     <author><name>Asher-2000</name></author>
     <category term="tools"/>
-    <summary>Expert-mode agent preset for DeepSeek Harness, now BILINGUAL: English "Expert Mode" preset (Chief Coordinator + 11 fully-English domain-expert subagents) and Chinese 「专家模式」 preset (首席协调官). Experts: data analyst, copywriter, legal review, product manager, frontend, UI/UX, architect, social media ops, growth hacker, quant finance, finance — with automatic task delegation. Exact install spec: github:asher-2000/dsh-expert-mode. Source event: dsh-market/dsh-market; changed: sources.</summary>
+    <summary>Expert-mode agent preset for DeepSeek Harness (v0.3.0, bilingual EN/ZH): a chief coordinator plus 11 domain-expert subagents with automatic task delegation. New: Three-Anchor constraint (recall/convergence/anti-drift per turn) and Near-distance Guidance (identity/task/output template per expert). Experts: data analyst, copywriter, legal review, product manager, frontend, UI/UX, architect, social media ops, growth hacker, quant finance, finance. Exact install spec: github:asher-2000/dsh-expert-mode. Source event: dsh-market/dsh-market; changed: sources.</summary>
   </entry>
   <entry>
     <title>New: dsh-expert-mode</title>
@@ -39,6 +48,6 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e413694ef21a213b8bdf.html"/>
     <author><name>Asher-2000</name></author>
     <category term="tools"/>
-    <summary>Expert-mode agent preset for DeepSeek Harness, now BILINGUAL: English "Expert Mode" preset (Chief Coordinator + 11 fully-English domain-expert subagents) and Chinese 「专家模式」 preset (首席协调官). Experts: data analyst, copywriter, legal review, product manager, frontend, UI/UX, architect, social media ops, growth hacker, quant finance, finance — with automatic task delegation. Exact install spec: github:asher-2000/dsh-expert-mode. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+    <summary>Expert-mode agent preset for DeepSeek Harness (v0.3.0, bilingual EN/ZH): a chief coordinator plus 11 domain-expert subagents with automatic task delegation. New: Three-Anchor constraint (recall/convergence/anti-drift per turn) and Near-distance Guidance (identity/task/output template per expert). Experts: data analyst, copywriter, legal review, product manager, frontend, UI/UX, architect, social media ops, growth hacker, quant finance, finance. Exact install spec: github:asher-2000/dsh-expert-mode. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

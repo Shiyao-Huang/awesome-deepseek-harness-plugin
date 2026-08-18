@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-task-worktree — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-7425e59f9fadf8890b62.atom.xml</id>
+  <updated>2026-08-18T07:06:23Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-7425e59f9fadf8890b62.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-7425e59f9fadf8890b62.html"/>
+  <entry>
+    <title>New: dsh-task-worktree</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-7425e59f9fadf8890b62/cd3975def2b07881</id>
+    <updated>2026-08-18T07:06:23Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-7425e59f9fadf8890b62.html"/>
+    <author><name>Letter2025</name></author>
+    <category term="tools"/>
+    <summary>Complete task-scoped git worktrees: per-repo manifest for durable state, worktree-&lt;name&gt; branches, bring-back to main or direct commit, optional carry-over of uncommitted main changes (modeled on Qoder / Codex / Claude Code). Exact install spec: dsh-task-worktree. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

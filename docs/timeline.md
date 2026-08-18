@@ -5,6 +5,64 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 2026-08-18T07:06:23Z | github | ecosystem-reference | [CiteCiter](https://github.com/kirkchinese/CiteCiter) | kirkchinese | core-and-ecosystem |
+| 2026-08-18T07:06:23Z | github | ecosystem-reference | [DSH-chat](https://github.com/MarkJun236/DSH-chat) | MarkJun236 | core-and-ecosystem |
+| 2026-08-18T07:06:23Z | github | ecosystem-reference | [Flowboard](https://github.com/juntaoding/Flowboard) | juntaoding | core-and-ecosystem |
+| 2026-08-18T07:06:23Z | github | ecosystem-reference | [Minke](https://github.com/lencx/Minke) | lencx | core-and-ecosystem |
+| 2026-08-18T07:06:23Z | github | ecosystem-reference | [Signalight/codex-to-dsh-petdsh-codex-pet](https://github.com/Signalight/codex-to-dsh-pet) | Signalight | multimedia-and-vision |
+| 2026-08-18T07:06:23Z | github | ecosystem-reference | [SpecFusion](https://github.com/wxkingstar/SpecFusion) | wxkingstar | core-and-ecosystem |
+| 2026-08-18T07:06:23Z | github | ecosystem-reference | [better-session-management](https://github.com/boyun-zhang/better-session-management) | boyun-zhang | core-and-ecosystem |
+| 2026-08-18T07:06:23Z | github | plugin | [deepseek-harness-pr-review](https://github.com/nexpeakcore/deepseek-harness-pr-review) | nexpeakcore | core-and-ecosystem |
+| 2026-08-18T07:06:23Z | github | plugin | [dsh-acp](https://github.com/dushaobindoudou/dsh-acp) | dushaobindoudou | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-approval-translator](https://github.com/xiyuepcl/dsh-approval-translator) | xiyuepcl | core-and-ecosystem |
+| 2026-08-18T07:06:23Z | github | plugin | [dsh-ask-peer](https://github.com/zzhzz/dsh-ask-peer) | zzhzz | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-codex-meter](https://github.com/ChrisZhangWG/dsh-codex-meter) | ChrisZhangWG | operations-and-safety |
+| 2026-08-18T07:06:23Z | github | plugin | [dsh-comfyui-node-development](https://github.com/shouwang37/dsh-comfyui-node-development) | shouwang37 | core-and-ecosystem |
+| 2026-08-18T07:06:23Z | github | plugin | [dsh-cost-guard](https://github.com/chenzhiyong1994/dsh-cost-guard) | chenzhiyong1994 | core-and-ecosystem |
+| 2026-08-18T07:06:23Z | github | plugin | [dsh-cost-tracker](https://github.com/lyfZhixing/dsh-cost-tracker) | lyfZhixing | core-and-ecosystem |
+| 2026-08-18T07:06:23Z | github | plugin | [dsh-custom-provider-reasoning](https://github.com/534119219/dsh-custom-provider-reasoning) | 534119219 | core-and-ecosystem |
+| 2026-08-18T07:06:23Z | github | plugin | [dsh-custom-provider-settings](https://github.com/supersealwqas/dsh-custom-provider-settings) | supersealwqas | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-custom-theme-import](https://github.com/Juryorca/dsh-custom-theme-import) | Juryorca | index-and-marketplace |
+| 2026-08-18T07:06:23Z | github | plugin | [dsh-damage-pulse](https://github.com/wssfk12138/dsh-damage-pulse) | wssfk12138 | core-and-ecosystem |
+| 2026-08-18T07:06:23Z | github | ecosystem-reference | [dsh-feng-gu](https://github.com/KeqingMoe/dsh-feng-gu) | KeqingMoe | core-and-ecosystem |
+| 2026-08-18T07:06:23Z | github | plugin | [dsh-firecrawl](https://github.com/firecrawl/dsh-firecrawl) | firecrawl | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-focus-overlay](https://github.com/boogoo619/dsh-focus-overlay) | boogoo619 | core-and-ecosystem |
+| 2026-08-18T07:06:23Z | github | plugin | [dsh-github-bridge](https://github.com/gaolei-mark43/dsh-github-bridge) | gaolei-mark43 | index-and-marketplace |
+| 2026-08-18T07:06:23Z | github | plugin | [dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) | shanliuling | multimedia-and-vision |
+| 2026-08-18T07:06:23Z | github | plugin | [dsh-input-traffic](https://github.com/drscrewdriver/dsh-input-traffic) | drscrewdriver | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-mascot](https://github.com/falser101/dsh-mascot) | falser101 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-mattpocock-skills-deck](https://github.com/FeatherHunter/dsh-mattpocock-skills-deck) | FeatherHunter | core-and-ecosystem |
+| 2026-08-18T07:06:23Z | github | plugin | [dsh-memoir](https://github.com/Qinling-Melon-Farmers/dsh-memoir) | Qinling-Melon-Farmers | core-and-ecosystem |
+| 2026-08-18T07:06:23Z | github | ecosystem-reference | [dsh-mobile-shell](https://github.com/Yui-Little/dsh-mobile-shell) | Yui-Little | core-and-ecosystem |
+| 2026-08-18T07:06:23Z | github | plugin | [dsh-novel-writer](https://github.com/akira399/dsh-novel-writer) | akira399 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-omi-voice](https://github.com/PolinniZhong/dsh-omi-voice) | PolinniZhong | core-and-ecosystem |
+| 2026-08-18T07:06:23Z | github | plugin | [dsh-plugin-codegraph](https://github.com/CC19990113/dsh-plugin-codegraph) | CC19990113 | core-and-ecosystem |
+| 2026-08-18T07:06:23Z | github | plugin | [dsh-plugin-skill-manager-gui](https://github.com/luoying2334/dsh-plugin-skill-manager-gui) | luoying2334 | core-and-ecosystem |
+| 2026-08-18T07:06:23Z | github | plugin | [dsh-plugin-vision-bridge](https://github.com/c-ling/dsh-plugin-vision-bridge) | c-ling | multimedia-and-vision |
+| 2026-08-18T07:06:23Z | github | ecosystem-reference | [dsh-plugins](https://github.com/Horizon215/dsh-plugins) | Horizon215 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-plugins-store](https://github.com/DshMarketPlace/dsh-plugins-store) | DshMarketPlace | index-and-marketplace |
+| 2026-08-18 | github | plugin | [dsh-prompt](https://github.com/FeatherHunter/dsh-prompt) | FeatherHunter | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-python-env](https://github.com/AngelosZou/dsh-python-env) | AngelosZou | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-rule-engine](https://github.com/jilian-dsh/dsh-rule-engine) | jilian-dsh | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-rules-manager](https://github.com/jilian-dsh/dsh-rules-manager) | jilian-dsh | core-and-ecosystem |
+| 2026-08-18T07:06:23Z | github | plugin | [dsh-skill-mcp-panel](https://github.com/Fishquito7/dsh-skill-mcp-panel) | Fishquito7 | core-and-ecosystem |
+| 2026-08-18T07:06:23Z | github | plugin | [dsh-skills-manager](https://github.com/BAIKAI23333/dsh-skills-manager) | BAIKAI23333 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-task-worktree](https://github.com/Letter2025/dsh-task-worktree) | Letter2025 | core-and-ecosystem |
+| 2026-08-18T07:06:23Z | github | plugin | [dsh-team-task](https://github.com/Ready22Race/dsh-team-task) | Ready22Race | core-and-ecosystem |
+| 2026-08-18T07:06:23Z | github | plugin | [dsh-thinking-levels-settings](https://github.com/blackteaYES/dsh-thinking-levels-settings) | blackteaYES | core-and-ecosystem |
+| 2026-08-18T07:06:23Z | github | plugin | [dsh-trading](https://github.com/maddogfinance/dsh-trading) | maddogfinance | core-and-ecosystem |
+| 2026-08-18T07:06:23Z | github | plugin | [dsh-usage-monitor](https://github.com/NOirBRight/dsh-usage-monitor) | NOirBRight | core-and-ecosystem |
+| 2026-08-18T07:06:23Z | github | ecosystem-reference | [dsh-valuz-genui](https://github.com/valuz-ai/dsh-valuz-genui) | valuz-ai | core-and-ecosystem |
+| 2026-08-18T07:06:23Z | github | plugin | [dsh-vision](https://github.com/yepyeel/dsh-vision) | yepyeel | multimedia-and-vision |
+| 2026-08-18T07:06:23Z | github | plugin | [dsh-web-search-anysearch](https://github.com/mcxianyujun/dsh-web-search-anysearch) | mcxianyujun | core-and-ecosystem |
+| 2026-08-18T07:06:23Z | github | plugin | [dsh-withskillhub](https://github.com/lhwu1/dsh-withskillhub) | lhwu1 | index-and-marketplace |
+| 2026-08-18T07:06:23Z | github | plugin | [dsh-wm](https://github.com/WayneJin0918/dsh-wm) | WayneJin0918 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [lunheng-article-pipeline-dsh](https://github.com/zuoyunlai/lunheng-article-pipeline-dsh) | zuoyunlai | core-and-ecosystem |
+| 2026-08-18T07:06:23Z | github | ecosystem-reference | [rapid-mlx-dsh-provider](https://github.com/raullenchai/rapid-mlx-dsh-provider) | raullenchai | core-and-ecosystem |
+| 2026-08-18T07:06:23Z | github | ecosystem-reference | [recruiting-copilot](https://github.com/Viy1204/recruiting-copilot) | Viy1204 | core-and-ecosystem |
+| 2026-08-18T07:06:23Z | github | ecosystem-reference | [toolshrink](https://github.com/unclecode/toolshrink) | unclecode | core-and-ecosystem |
+| 2026-08-18T06:48:39Z | hacker_news | story | [DSHPlugin – DeepSeek Harness plugins with install, compatibility and repo data](https://news.ycombinator.com/item?id=49342212) | yanng404 | core-and-ecosystem |
+| 2026-08-18T06:38:21Z | hacker_news | story | [DeepSeek Harness](https://news.ycombinator.com/item?id=49342132) | gscott | core-and-ecosystem |
 | 2026-08-18 | github | plugin | [dsh-agent-skills](https://github.com/minivv/dsh-agent-skills) | minivv | core-and-ecosystem |
 | 2026-08-18 | github | plugin | [dsh-capability-optimizer](https://github.com/hezhongtang/dsh-capability-optimizer) | hezhongtang | core-and-ecosystem |
 | 2026-08-18 | github | plugin | [dsh-client-ui-quote](https://github.com/skyhancloud/dsh-client-ui-quote) | skyhancloud | core-and-ecosystem |
@@ -14574,6 +14632,7 @@
 | 2026-05-21T02:04:35Z | hacker_news | story | [Building DeepSeek&#x27;s Answer to Claude Code](https://news.ycombinator.com/item?id=48216937) | dlcmh | core-and-ecosystem |
 | 2026-05-20T04:31:50Z | hacker_news | story | [Show HN: GoPOSIX – a Go-native POSIX userland, ~97% BusyBox-compatible](https://news.ycombinator.com/item?id=48203114) | ramayac | index-and-marketplace |
 | 2026-05-19T23:39:43Z | hacker_news | story | [Show HN: Alint, a fast linter for repository structure and hygiene](https://news.ycombinator.com/item?id=48201140) | aleqs | index-and-marketplace |
+| 2026-05-19T09:33:54Z | github | repository | [Javis603/token-monitor](https://github.com/Javis603/token-monitor) | Javis603 | ui-and-desktop |
 | 2026-05-18T06:00:24Z | hacker_news | story | [Ask HN: Which AI harness comes close to Claude Code?](https://news.ycombinator.com/item?id=48176033) | shivang2607 | core-and-ecosystem |
 | 2026-05-11T11:07:04Z | github | repository | [morlay/deepseek-harness](https://github.com/morlay/deepseek-harness) | morlay | index-and-marketplace |
 | 2026-05-10T06:59:59Z | github | repository | [zoyluoblue/mc_aiplayer](https://github.com/zoyluoblue/mc_aiplayer) | zoyluoblue | core-and-ecosystem |
@@ -14657,6 +14716,7 @@
 | 2026-02-15T14:46:31Z | hacker_news | story | [Show HN: Typemux-cc – .venv-aware Python LSP proxy for Claude Code (no restarts)](https://news.ycombinator.com/item?id=47024098) | K-dash | index-and-marketplace |
 | 2026-02-15T12:36:33Z | github | repository | [edison7009/EchoBird](https://github.com/edison7009/EchoBird) | edison7009 | ui-and-desktop |
 | 2026-02-13T12:38:31Z | github | repository | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | diegosouzapw | ui-and-desktop |
+| 2026-02-12T09:56:20Z | github | repository | [netease-youdao/LobsterAI](https://github.com/netease-youdao/LobsterAI) | netease-youdao | ui-and-desktop |
 | 2026-02-11T13:45:46Z | hacker_news | story | [Show HN: I extract recipes from TikTok, Instagram, and the messy web](https://news.ycombinator.com/item?id=46974890) | sklaiber | multimedia-and-vision |
 | 2026-02-11T13:38:38Z | hacker_news | story | [Show HN: I extract recipes from TikTok, Instagram, and the messy web](https://news.ycombinator.com/item?id=46974801) | sklaiber | multimedia-and-vision |
 | 2026-02-10T09:15:25Z | github | repository | [alaliqing/claude-paper](https://github.com/alaliqing/claude-paper) | alaliqing | docs-and-learning |
@@ -14728,6 +14788,7 @@
 | 2023-07-05T11:02:00Z | hacker_news | story | [Show HN: ZenStack-Open source toolkit simplifies your Prisma stack](https://news.ycombinator.com/item?id=36598597) | zenstack | index-and-marketplace |
 | 2023-06-26T19:39:32Z | github | repository | [ollama/ollama](https://github.com/ollama/ollama) | ollama | core-and-ecosystem |
 | 2023-05-19T03:02:29Z | github | repository | [BradyFU/Awesome-Multimodal-Large-Language-Models](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) | BradyFU | index-and-marketplace |
+| 2023-05-09T14:12:37Z | github | repository | [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) | Anil-matcha | multimedia-and-vision |
 | 2023-05-06T17:27:54Z | github | repository | [Anil-matcha/awesome-deepseek-harness](https://github.com/Anil-matcha/awesome-deepseek-harness) | Anil-matcha | index-and-marketplace |
 | 2023-05-06T17:27:54Z | github | repository | [Anil-matcha/awesome-dsh-plugin](https://github.com/Anil-matcha/awesome-dsh-plugin) | Anil-matcha | index-and-marketplace |
 | 2023-04-02T04:06:56Z | github | repository | [ikaijua/Awesome-AITools](https://github.com/ikaijua/Awesome-AITools) | ikaijua | index-and-marketplace |

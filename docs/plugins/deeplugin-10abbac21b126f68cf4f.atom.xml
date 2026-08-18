@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-focus-overlay — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-10abbac21b126f68cf4f.atom.xml</id>
+  <updated>2026-08-18T07:06:23Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-10abbac21b126f68cf4f.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-10abbac21b126f68cf4f.html"/>
+  <entry>
+    <title>New: dsh-focus-overlay</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-10abbac21b126f68cf4f/7a0467da94beed37</id>
+    <updated>2026-08-18T07:06:23Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-10abbac21b126f68cf4f.html"/>
+    <author><name>boogoo619</name></author>
+    <category term="ui"/>
+    <summary>Focus mode with a full-screen reading overlay that hides the header and composer and folds AI tool calls into summaries. Exact install spec: dsh-focus-overlay. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>
