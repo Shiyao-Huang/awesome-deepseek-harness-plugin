@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-7c9833e40c0866eeb37d",
+    "name": "dsh-plugin-remote",
+    "author": "siberiah2o",
+    "category": "remote",
+    "version": null,
+    "homepage": "https://github.com/siberiah2o/dsh-plugin-remote",
+    "firstObservedAt": "2026-08-18T16:51:43Z",
+    "lastChangedAt": "2026-08-18T16:51:43Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-7c9833e40c0866eeb37d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-7c9833e40c0866eeb37d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:siberiah2o/dsh-plugin-remote",
+    "command": "dsh plugin --profile web add github:siberiah2o/dsh-plugin-remote",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-7c9833e40c0866eeb37d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-7c9833e40c0866eeb37d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-7c9833e40c0866eeb37d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-remote 已收录到 DeepSeek Harness Plugin Store。DSH Web 远程访问网关：登录鉴权 + 到本机服务的 HTTP/WebSocket 反向代理，无需 --trusted-host。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-7c9833e40c0866eeb37d.html",
+    "en": "dsh-plugin-remote is now listed on the DeepSeek Harness Plugin Store. Remote access gateway for the DSH Web GUI: login auth plus an HTTP/WebSocket reverse proxy to the loopback server, no --trusted-host needed.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-7c9833e40c0866eeb37d.html"
+  }
+}

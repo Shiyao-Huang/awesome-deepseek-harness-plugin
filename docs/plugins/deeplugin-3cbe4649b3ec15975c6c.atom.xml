@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-skin-universe#dsh-web-ui-all — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-3cbe4649b3ec15975c6c.atom.xml</id>
+  <updated>2026-08-18T16:51:43Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-3cbe4649b3ec15975c6c.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-3cbe4649b3ec15975c6c.html"/>
+  <entry>
+    <title>New: dsh-skin-universe#dsh-web-ui-all</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-3cbe4649b3ec15975c6c/734e2388d02377c1</id>
+    <updated>2026-08-18T16:51:43Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-3cbe4649b3ec15975c6c.html"/>
+    <author><name>springbrand-lab</name></author>
+    <category term="ui"/>
+    <summary>Web GUI bundle for DSH: a task board with cron scheduling, a Git branch graph, a file and change side panel, an SSH terminal with SFTP and port forwarding, QR-paired mobile remote control, a desktop companion, live token statistics, and five installable themes. Exact install spec: github:springbrand-lab/dsh-skin-universe#path:/packages/dsh-web-ui-all. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

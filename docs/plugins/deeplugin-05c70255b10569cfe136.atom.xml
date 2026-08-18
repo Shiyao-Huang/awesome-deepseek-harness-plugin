@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>pdf-background-gray-codex-skill#dsh-pdf-background-gray — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-05c70255b10569cfe136.atom.xml</id>
+  <updated>2026-08-18T16:51:43Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-05c70255b10569cfe136.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-05c70255b10569cfe136.html"/>
+  <entry>
+    <title>New: pdf-background-gray-codex-skill#dsh-pdf-background-gray</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-05c70255b10569cfe136/734e2388d02377c1</id>
+    <updated>2026-08-18T16:51:43Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-05c70255b10569cfe136.html"/>
+    <author><name>zjsthmjialin</name></author>
+    <category term="docs"/>
+    <summary>Registers the remove-pdf-background-gray skill for DSH: whitens gray/off-white scan backgrounds in image-based PDFs while preserving resolution, page geometry, and anti-aliased text edges (lossless Flate write-back), via a single Python script (pypdf + Pillow + numpy). Exact install spec: dsh-pdf-background-gray. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

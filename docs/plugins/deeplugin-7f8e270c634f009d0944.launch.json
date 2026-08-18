@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-7f8e270c634f009d0944",
+    "name": "stylotrace#dsh-plugin-stylotrace",
+    "author": "zhangyoufu-123",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/zhangyoufu-123/stylotrace/tree/main/extras/dsh-plugin-stylotrace",
+    "firstObservedAt": "2026-08-18T16:51:43Z",
+    "lastChangedAt": "2026-08-18T16:51:43Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-7f8e270c634f009d0944.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-7f8e270c634f009d0944.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-plugin-stylotrace",
+    "command": "dsh plugin --profile web add dsh-plugin-stylotrace",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-7f8e270c634f009d0944，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-7f8e270c634f009d0944.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-7f8e270c634f009d0944.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "stylotrace#dsh-plugin-stylotrace 已收录到 DeepSeek Harness Plugin Store。面向 DSH 的深度协作写作 Agent：从用户的编辑对学习个人写作风格，完整 澄清→大纲→逐节写作→红队审计→读者群像 流程，项目自动提炼成实验报告/产品介绍/综述/README，41 个 MCP 工具，Web 端选中改进与文件内嵌预览。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-7f8e270c634f009d0944.html",
+    "en": "stylotrace#dsh-plugin-stylotrace is now listed on the DeepSeek Harness Plugin Store. Deep-collaboration writing agent for DSH: per-user writing-style learning from edit pairs, clarify→outline→section-writing→red-team→reader-gallery flow, project-to-report synthesis (lab report / product intro / survey / README), 41 MCP tools, and web selection-improve UI with in-app file preview.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-7f8e270c634f009d0944.html"
+  }
+}

@@ -5,6 +5,20 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 2026-08-18T16:51:43Z | github | plugin | [Disk Audit](https://github.com/zoahdev/dsh-disk-audit) | zoahdev | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-all-usage](https://github.com/ParticleLight/dsh-all-usage) | ParticleLight | operations-and-safety |
+| 2026-08-18 | github | plugin | [dsh-balance](https://github.com/GeekRicardo/dsh-balance) | GeekRicardo | operations-and-safety |
+| 2026-08-18 | github | plugin | [dsh-computer-use-win](https://github.com/Yu-tao-Li/dsh-computer-use-win) | Yu-tao-Li | multimedia-and-vision |
+| 2026-08-18 | github | plugin | [dsh-github-picker](https://github.com/bitxeno/dsh-github-picker) | bitxeno | index-and-marketplace |
+| 2026-08-18 | github | plugin | [dsh-icon-theme](https://github.com/yzke/dsh-icon-theme) | yzke | ui-and-desktop |
+| 2026-08-18 | github | plugin | [dsh-music-player](https://github.com/kendu76/dsh-music-player) | kendu76 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-origin-plugin](https://github.com/Fantasality/dsh-origin-plugin) | Fantasality | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-plugin-balance](https://github.com/lmmzss-jk/dsh-plugin-balance) | lmmzss-jk | operations-and-safety |
+| 2026-08-18 | github | plugin | [dsh-plugin-remote](https://github.com/siberiah2o/dsh-plugin-remote) | siberiah2o | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-rate-limiter](https://github.com/Xidong-AI/dsh-rate-limiter) | Xidong-AI | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-search-failover](https://github.com/Walvez/dsh-search-failover) | Walvez | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-session-recovery](https://github.com/Coprexist/dsh-session-recovery) | Coprexist | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-start](https://github.com/zhengjy01/dsh-start) | zhengjy01 | core-and-ecosystem |
 | 2026-08-18T14:55:11Z | github | plugin | [Discussions Radar](https://github.com/zoahdev/dsh-discussions-radar) | zoahdev | core-and-ecosystem |
 | 2026-08-18T14:55:11Z | github | plugin | [Firstrun](https://github.com/zoahdev/dsh-firstrun) | zoahdev | docs-and-learning |
 | 2026-08-18T14:55:11Z | github | plugin | [README Forge](https://github.com/zoahdev/dsh-readme-forge) | zoahdev | core-and-ecosystem |
@@ -14766,6 +14780,7 @@
 | 2026-04-13T22:11:53Z | github | repository | [getagentseal/codeburn](https://github.com/getagentseal/codeburn) | getagentseal | operations-and-safety |
 | 2026-04-11T11:49:55Z | github | repository | [syncable-dev/memtrace-public](https://github.com/syncable-dev/memtrace-public) | syncable-dev | core-and-ecosystem |
 | 2026-04-10T03:03:36Z | github | repository | [openma-ai/open-managed-agents](https://github.com/openma-ai/open-managed-agents) | openma-ai | core-and-ecosystem |
+| 2026-04-08T00:21:23Z | github | repository | [tong-io/tongflow](https://github.com/tong-io/tongflow) | tong-io | core-and-ecosystem |
 | 2026-04-07T10:08:59Z | github | repository | [TencentCloud/tencentmeeting-cli](https://github.com/TencentCloud/tencentmeeting-cli) | TencentCloud | core-and-ecosystem |
 | 2026-04-07T06:34:26Z | github | repository | [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | TencentCloud | index-and-marketplace |
 | 2026-04-06T10:33:23Z | github | repository | [YunTaiHua/illusion-agent](https://github.com/YunTaiHua/illusion-agent) | YunTaiHua | core-and-ecosystem |

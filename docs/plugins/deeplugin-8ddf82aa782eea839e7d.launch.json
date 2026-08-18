@@ -3,13 +3,13 @@
   "version": 1,
   "plugin": {
     "id": "deeplugin-8ddf82aa782eea839e7d",
-    "name": "dsh-save-money",
+    "name": "dsh-save-money#plugin",
     "author": "zhu168",
     "category": "usage",
     "version": null,
     "homepage": "https://github.com/zhu168/dsh-save-money",
     "firstObservedAt": "2026-08-18T13:10:14Z",
-    "lastChangedAt": "2026-08-18T13:10:14Z"
+    "lastChangedAt": "2026-08-18T16:51:43Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-8ddf82aa782eea839e7d.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-8ddf82aa782eea839e7d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-save-money 已收录到 DeepSeek Harness Plugin Store。自定义时间窗口自动暂停/恢复任务，高峰时段节省 API 费用；含账户余额显示和 10 分钟粒度的消费柱状图。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-8ddf82aa782eea839e7d.html",
-    "en": "dsh-save-money is now listed on the DeepSeek Harness Plugin Store. Pause and resume tasks automatically during user-defined time windows to avoid peak-hour API costs; includes account balance display and 10-minute granularity spend bar chart.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-8ddf82aa782eea839e7d.html"
+    "zh": "dsh-save-money#plugin 已收录到 DeepSeek Harness Plugin Store。自定义时间窗口自动暂停/恢复任务，高峰时段节省 API 费用；含账户余额显示和 10 分钟粒度的消费柱状图。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-8ddf82aa782eea839e7d.html",
+    "en": "dsh-save-money#plugin is now listed on the DeepSeek Harness Plugin Store. Pause and resume tasks automatically during user-defined time windows to avoid peak-hour API costs; includes account balance display and 10-minute granularity spend bar chart.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-8ddf82aa782eea839e7d.html"
   }
 }

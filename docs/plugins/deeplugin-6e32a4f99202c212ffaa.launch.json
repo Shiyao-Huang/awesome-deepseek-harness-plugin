@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-6e32a4f99202c212ffaa",
+    "name": "dsh-start",
+    "author": "zhengjy01",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/zhengjy01/dsh-start",
+    "firstObservedAt": "2026-08-18T16:51:43Z",
+    "lastChangedAt": "2026-08-18T16:51:43Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-6e32a4f99202c212ffaa.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-6e32a4f99202c212ffaa.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-start",
+    "command": "dsh plugin --profile web add dsh-start",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-6e32a4f99202c212ffaa，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-6e32a4f99202c212ffaa.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-6e32a4f99202c212ffaa.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-start 已收录到 DeepSeek Harness Plugin Store。macOS 上 DSH Web 的一键启停启动器：前台/后台启动、停止、状态、防重复启动、自动打开浏览器，并可用脚本构建程序坞版 DSH.app。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-6e32a4f99202c212ffaa.html",
+    "en": "dsh-start is now listed on the DeepSeek Harness Plugin Store. One-click start/stop launcher for DSH Web on macOS — start (foreground/daemon), stop, status, duplicate-launch guard, auto browser open, plus a Dock-able DSH.app built by script.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-6e32a4f99202c212ffaa.html"
+  }
+}

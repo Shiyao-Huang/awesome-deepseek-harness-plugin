@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-ec788b3df914ce9c6c55",
+    "name": "dsh-compressor#dsh-compressor",
+    "author": "lifeodyssey",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/lifeodyssey/dsh-compressor/tree/main/plugins/dsh-compressor",
+    "firstObservedAt": "2026-08-18T16:51:43Z",
+    "lastChangedAt": "2026-08-18T16:51:43Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-ec788b3df914ce9c6c55.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-ec788b3df914ce9c6c55.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-compressor",
+    "command": "dsh plugin --profile web add dsh-compressor",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-ec788b3df914ce9c6c55，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-ec788b3df914ce9c6c55.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-ec788b3df914ce9c6c55.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-compressor#dsh-compressor 已收录到 DeepSeek Harness Plugin Store。Headroom 的精简移植，在不影响模型上下文缓存以及 Agent 性能的情况下，压缩工具的输出，至多减少 20% 的上下文。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-ec788b3df914ce9c6c55.html",
+    "en": "dsh-compressor#dsh-compressor is now listed on the DeepSeek Harness Plugin Store. A slim port of Headroom: compresses tool output, cuts up to 20% of context, without affecting the model's context cache or agent performance.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-ec788b3df914ce9c6c55.html"
+  }
+}

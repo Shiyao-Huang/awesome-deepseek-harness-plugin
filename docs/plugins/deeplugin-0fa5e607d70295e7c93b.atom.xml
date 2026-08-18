@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>argo#dsh-plugin — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-0fa5e607d70295e7c93b.atom.xml</id>
+  <updated>2026-08-18T16:51:43Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-0fa5e607d70295e7c93b.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-0fa5e607d70295e7c93b.html"/>
+  <entry>
+    <title>New: argo#dsh-plugin</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-0fa5e607d70295e7c93b/734e2388d02377c1</id>
+    <updated>2026-08-18T16:51:43Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-0fa5e607d70295e7c93b.html"/>
+    <author><name>taxueseek</name></author>
+    <category term="tools"/>
+    <summary>Search built for agents: multilingual coverage across web, academic, code, shopping, finance, news, and encyclopedias. Exact install spec: github:taxueseek/argo#path:/packages/dsh-plugin. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

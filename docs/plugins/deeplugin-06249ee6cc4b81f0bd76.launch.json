@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-06249ee6cc4b81f0bd76",
+    "name": "dsh-session-recovery",
+    "author": "Coprexist",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/Coprexist/dsh-session-recovery",
+    "firstObservedAt": "2026-08-18T16:51:43Z",
+    "lastChangedAt": "2026-08-18T16:51:43Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-06249ee6cc4b81f0bd76.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-06249ee6cc4b81f0bd76.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:coprexist/dsh-session-recovery",
+    "command": "dsh plugin --profile web add github:coprexist/dsh-session-recovery",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-06249ee6cc4b81f0bd76，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-06249ee6cc4b81f0bd76.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-06249ee6cc4b81f0bd76.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-session-recovery 已收录到 DeepSeek Harness Plugin Store。从原始磁盘恢复被删除或损坏的 dsh 会话（session.jsonl.zstd）与记忆库（memory.db），并通过 web 界面中的 /session-repair 命令修复重建后无法续接的会话。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-06249ee6cc4b81f0bd76.html",
+    "en": "dsh-session-recovery is now listed on the DeepSeek Harness Plugin Store. Recover deleted or corrupted dsh sessions (session.jsonl.zstd) and memory (memory.db) from the raw disk, and repair rebuilt sessions that fail to resume via the /session-repair command in the web UI.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-06249ee6cc4b81f0bd76.html"
+  }
+}

@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>dsh-session-flow — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-5495066a7740b52e8c34.atom.xml</id>
-  <updated>2026-08-16T09:56:16Z</updated>
+  <updated>2026-08-18T16:51:43Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-5495066a7740b52e8c34.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-5495066a7740b52e8c34.html"/>
+  <entry>
+    <title>Updated: dsh-session-flow</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-5495066a7740b52e8c34/5254024e6b0a31d1</id>
+    <updated>2026-08-18T16:51:43Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-5495066a7740b52e8c34.html"/>
+    <author><name>YeqingTang</name></author>
+    <category term="session"/>
+    <summary>Cross-session archive: overview workbench, folded timeline, subagent lineage, full-text search, rule+LLM summaries, ZIP export, live tracking. Native session-page embeds: turn rail, docked right panel, rename (official-synced), conclusion digest, health monitoring + header chip (stall detection). Exact install spec: dsh-session-flow. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
   <entry>
     <title>Updated: dsh-session-flow</title>
     <id>tag:deeplugin.store,2026-08-16:deeplugin-5495066a7740b52e8c34/d947fc14d81f9c69</id>
@@ -12,7 +21,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-5495066a7740b52e8c34.html"/>
     <author><name>YeqingTang</name></author>
     <category term="session"/>
-    <summary>Cross-session archive: overview workbench, folded timeline, subagent lineage, content search, rule+LLM summaries, ZIP export, live tracking. Exact install spec: dsh-session-flow. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+    <summary>Cross-session archive: overview workbench, folded timeline, subagent lineage, full-text search, rule+LLM summaries, ZIP export, live tracking. Native session-page embeds: turn rail, docked right panel, rename (official-synced), conclusion digest, health monitoring + header chip (stall detection). Exact install spec: dsh-session-flow. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
   </entry>
   <entry>
     <title>Updated: dsh-session-flow</title>
@@ -21,7 +30,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-5495066a7740b52e8c34.html"/>
     <author><name>YeqingTang</name></author>
     <category term="session"/>
-    <summary>Cross-session archive: overview workbench, folded timeline, subagent lineage, content search, rule+LLM summaries, ZIP export, live tracking. Exact install spec: dsh-session-flow. Source event: dsh-market/dsh-market; changed: sources.</summary>
+    <summary>Cross-session archive: overview workbench, folded timeline, subagent lineage, full-text search, rule+LLM summaries, ZIP export, live tracking. Native session-page embeds: turn rail, docked right panel, rename (official-synced), conclusion digest, health monitoring + header chip (stall detection). Exact install spec: dsh-session-flow. Source event: dsh-market/dsh-market; changed: sources.</summary>
   </entry>
   <entry>
     <title>New: dsh-session-flow</title>
@@ -30,6 +39,6 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-5495066a7740b52e8c34.html"/>
     <author><name>YeqingTang</name></author>
     <category term="session"/>
-    <summary>Cross-session archive: overview workbench, folded timeline, subagent lineage, content search, rule+LLM summaries, ZIP export, live tracking. Exact install spec: dsh-session-flow. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+    <summary>Cross-session archive: overview workbench, folded timeline, subagent lineage, full-text search, rule+LLM summaries, ZIP export, live tracking. Native session-page embeds: turn rail, docked right panel, rename (official-synced), conclusion digest, health monitoring + header chip (stall detection). Exact install spec: dsh-session-flow. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

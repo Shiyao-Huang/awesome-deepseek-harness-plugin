@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-5344be3906da40832bce",
+    "name": "inspiration-deck-workshop#dsh-inspiration-deck-workshop",
+    "author": "zjsthmjialin",
+    "category": "docs",
+    "version": null,
+    "homepage": "https://github.com/zjsthmjialin/inspiration-deck-workshop/tree/master/dsh-inspiration-deck-workshop",
+    "firstObservedAt": "2026-08-18T16:51:43Z",
+    "lastChangedAt": "2026-08-18T16:51:43Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-5344be3906da40832bce.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-5344be3906da40832bce.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-inspiration-deck-workshop",
+    "command": "dsh plugin --profile web add dsh-inspiration-deck-workshop",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-5344be3906da40832bce，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-5344be3906da40832bce.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-5344be3906da40832bce.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "inspiration-deck-workshop#dsh-inspiration-deck-workshop 已收录到 DeepSeek Harness Plugin Store。注册灵感演示工坊技能：本地静态 HTML 演示文稿（6 套 deck 模板、25+ 布局、23 套主题与动效展示馆），带 validate 校验与 PNG/PDF 导出 CLI 和 smoke 测试，零运行时依赖。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-5344be3906da40832bce.html",
+    "en": "inspiration-deck-workshop#dsh-inspiration-deck-workshop is now listed on the DeepSeek Harness Plugin Store. Registers the Inspiration Deck Workshop skill for DSH: local static HTML presentation decks (6 deck templates, 25+ layouts, 23 themes & motion showroom) with a validate + PNG/PDF export CLI and smoke tests, zero runtime dependencies.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-5344be3906da40832bce.html"
+  }
+}

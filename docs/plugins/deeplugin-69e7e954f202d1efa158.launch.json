@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-69e7e954f202d1efa158",
+    "name": "dsh-browser#bridge-browser",
+    "author": "Lum1104",
+    "category": "browser",
+    "version": null,
+    "homepage": "https://github.com/Lum1104/dsh-browser/tree/main/packages/browser/bridge-browser",
+    "firstObservedAt": "2026-08-18T16:51:43Z",
+    "lastChangedAt": "2026-08-18T16:51:43Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-69e7e954f202d1efa158.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-69e7e954f202d1efa158.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:lum1104/dsh-browser#path:/packages/browser/bridge-browser",
+    "command": "dsh plugin --profile web add github:lum1104/dsh-browser#path:/packages/browser/bridge-browser",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-69e7e954f202d1efa158，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-69e7e954f202d1efa158.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-69e7e954f202d1efa158.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-browser#bridge-browser 已收录到 DeepSeek Harness Plugin Store。Chrome 侧边栏扩展，让 DSH 直接操控你的浏览器，无需视觉能力。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-69e7e954f202d1efa158.html",
+    "en": "dsh-browser#bridge-browser is now listed on the DeepSeek Harness Plugin Store. Chrome sidebar extension that lets DSH operate your browser directly, no vision capabilities required.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-69e7e954f202d1efa158.html"
+  }
+}

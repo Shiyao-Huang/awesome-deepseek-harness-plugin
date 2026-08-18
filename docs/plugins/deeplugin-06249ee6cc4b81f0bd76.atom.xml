@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-session-recovery — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-06249ee6cc4b81f0bd76.atom.xml</id>
+  <updated>2026-08-18T16:51:43Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-06249ee6cc4b81f0bd76.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-06249ee6cc4b81f0bd76.html"/>
+  <entry>
+    <title>New: dsh-session-recovery</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-06249ee6cc4b81f0bd76/734e2388d02377c1</id>
+    <updated>2026-08-18T16:51:43Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-06249ee6cc4b81f0bd76.html"/>
+    <author><name>Coprexist</name></author>
+    <category term="session"/>
+    <summary>Recover deleted or corrupted dsh sessions (session.jsonl.zstd) and memory (memory.db) from the raw disk, and repair rebuilt sessions that fail to resume via the /session-repair command in the web UI. Exact install spec: github:coprexist/dsh-session-recovery. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

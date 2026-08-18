@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-05c70255b10569cfe136",
+    "name": "pdf-background-gray-codex-skill#dsh-pdf-background-gray",
+    "author": "zjsthmjialin",
+    "category": "docs",
+    "version": null,
+    "homepage": "https://github.com/zjsthmjialin/pdf-background-gray-codex-skill/tree/main/dsh-pdf-background-gray",
+    "firstObservedAt": "2026-08-18T16:51:43Z",
+    "lastChangedAt": "2026-08-18T16:51:43Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-05c70255b10569cfe136.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-05c70255b10569cfe136.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-pdf-background-gray",
+    "command": "dsh plugin --profile web add dsh-pdf-background-gray",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-05c70255b10569cfe136，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-05c70255b10569cfe136.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-05c70255b10569cfe136.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "pdf-background-gray-codex-skill#dsh-pdf-background-gray 已收录到 DeepSeek Harness Plugin Store。注册 remove-pdf-background-gray 技能：去除扫描 PDF 的灰色/米白底色，保持分辨率、页面几何与抗锯齿文字边缘（无损 Flate 写回），核心为单文件 Python 脚本（pypdf + Pillow + numpy）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-05c70255b10569cfe136.html",
+    "en": "pdf-background-gray-codex-skill#dsh-pdf-background-gray is now listed on the DeepSeek Harness Plugin Store. Registers the remove-pdf-background-gray skill for DSH: whitens gray/off-white scan backgrounds in image-based PDFs while preserving resolution, page geometry, and anti-aliased text edges (lossless Flate write-back), via a single Python script (pypdf + Pillow + numpy).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-05c70255b10569cfe136.html"
+  }
+}

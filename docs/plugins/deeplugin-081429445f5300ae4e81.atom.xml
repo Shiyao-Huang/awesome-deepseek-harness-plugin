@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>dsh-plugin-manager — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-081429445f5300ae4e81.atom.xml</id>
-  <updated>2026-08-15T22:14:49Z</updated>
+  <updated>2026-08-18T16:51:43Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-081429445f5300ae4e81.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-081429445f5300ae4e81.html"/>
+  <entry>
+    <title>Updated: dsh-plugin-manager</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-081429445f5300ae4e81/fdf5c15329c98b31</id>
+    <updated>2026-08-18T16:51:43Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-081429445f5300ae4e81.html"/>
+    <author><name>Jesse-njx</name></author>
+    <category term="market"/>
+    <summary>The `dsh pm` plugin manager: multi-source search (awesome list + GitHub + npm), install/remove/update per profile, and a doctor audit of manifests, bundle patches, and version drift. Exact install spec: github:jesse-njx/dsh-plugin-manager. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
+  </entry>
   <entry>
     <title>Updated: dsh-plugin-manager</title>
     <id>tag:deeplugin.store,2026-08-15:deeplugin-081429445f5300ae4e81/39c4cd8ba93a4acf</id>

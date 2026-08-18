@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-f4311ed651abc40d431e",
+    "name": "dsh-balance",
+    "author": "GeekRicardo",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/GeekRicardo/dsh-balance",
+    "firstObservedAt": "2026-08-18T16:51:43Z",
+    "lastChangedAt": "2026-08-18T16:51:43Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-f4311ed651abc40d431e.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-f4311ed651abc40d431e.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:geekricardo/dsh-balance",
+    "command": "dsh plugin --profile web add github:geekricardo/dsh-balance",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-f4311ed651abc40d431e，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-f4311ed651abc40d431e.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-f4311ed651abc40d431e.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-balance 已收录到 DeepSeek Harness Plugin Store。输入框下方按 provider 展示 DeepSeek、Kimi Coding、OpenCode Go、智谱、MiniMax、OpenRouter、OpenAI Codex 的余额/用量，2 秒轮询、5 分钟缓存。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-f4311ed651abc40d431e.html",
+    "en": "dsh-balance is now listed on the DeepSeek Harness Plugin Store. Composer-dock balance/usage readout for DeepSeek, Kimi Coding, OpenCode Go, Zhipu, MiniMax, OpenRouter and OpenAI Codex — provider-based, 2s polling, 5min cache.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-f4311ed651abc40d431e.html"
+  }
+}

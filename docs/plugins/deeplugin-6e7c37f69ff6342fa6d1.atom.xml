@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>DeepSeek-Harness-Desktop#desktop-launcher-plugin — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-6e7c37f69ff6342fa6d1.atom.xml</id>
+  <updated>2026-08-18T16:51:43Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-6e7c37f69ff6342fa6d1.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-6e7c37f69ff6342fa6d1.html"/>
+  <entry>
+    <title>New: DeepSeek-Harness-Desktop#desktop-launcher-plugin</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-6e7c37f69ff6342fa6d1/734e2388d02377c1</id>
+    <updated>2026-08-18T16:51:43Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-6e7c37f69ff6342fa6d1.html"/>
+    <author><name>Ch0uHuaZ1</name></author>
+    <category term="usage"/>
+    <summary>Adds a Desktop card to the settings page that detects the DeepSeek Harness Desktop app and launches it with one click. Exact install spec: github:ch0uhuaz1/deepseek-harness-desktop#path:/packages/desktop-launcher-plugin. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

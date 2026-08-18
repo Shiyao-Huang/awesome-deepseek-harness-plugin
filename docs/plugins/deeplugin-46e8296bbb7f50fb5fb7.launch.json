@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-46e8296bbb7f50fb5fb7",
+    "name": "plugin-registry#console",
+    "author": "vlln",
+    "category": "market",
+    "version": null,
+    "homepage": "https://github.com/vlln/plugin-registry/tree/main/packages/plugin/console",
+    "firstObservedAt": "2026-08-18T16:51:43Z",
+    "lastChangedAt": "2026-08-18T16:51:43Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-46e8296bbb7f50fb5fb7.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-46e8296bbb7f50fb5fb7.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:vlln/plugin-registry#path:/packages/plugin/console",
+    "command": "dsh plugin --profile web add github:vlln/plugin-registry#path:/packages/plugin/console",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-46e8296bbb7f50fb5fb7，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-46e8296bbb7f50fb5fb7.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-46e8296bbb7f50fb5fb7.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "plugin-registry#console 已收录到 DeepSeek Harness Plugin Store。插件生态基建：浏览器面板管理官方 repository 插件（0 patch）+ make-dsh-plugin 插件开发引导技能。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-46e8296bbb7f50fb5fb7.html",
+    "en": "plugin-registry#console is now listed on the DeepSeek Harness Plugin Store. Ecosystem infrastructure: a thin browser console for managing official repository plugins (zero patches) plus a make-dsh-plugin skill for guided plugin development.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-46e8296bbb7f50fb5fb7.html"
+  }
+}

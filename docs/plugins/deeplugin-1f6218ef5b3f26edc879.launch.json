@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-1f6218ef5b3f26edc879",
+    "name": "dsh-rate-limiter",
+    "author": "Xidong-AI",
+    "category": "usage",
+    "version": null,
+    "homepage": "https://github.com/Xidong-AI/dsh-rate-limiter",
+    "firstObservedAt": "2026-08-18T16:51:43Z",
+    "lastChangedAt": "2026-08-18T16:51:43Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-1f6218ef5b3f26edc879.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-1f6218ef5b3f26edc879.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@xidong-ai/dsh-rate-limiter",
+    "command": "dsh plugin --profile web add @xidong-ai/dsh-rate-limiter",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-1f6218ef5b3f26edc879，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-1f6218ef5b3f26edc879.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-1f6218ef5b3f26edc879.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-rate-limiter 已收录到 DeepSeek Harness Plugin Store。按 provider 令牌桶主动限速，超限请求在发出前延迟排队而非失败，避免触发上游 429。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-1f6218ef5b3f26edc879.html",
+    "en": "dsh-rate-limiter is now listed on the DeepSeek Harness Plugin Store. Proactive per-provider token-bucket rate limiting that queues over-limit requests before they are sent, preventing upstream 429 errors.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-1f6218ef5b3f26edc879.html"
+  }
+}

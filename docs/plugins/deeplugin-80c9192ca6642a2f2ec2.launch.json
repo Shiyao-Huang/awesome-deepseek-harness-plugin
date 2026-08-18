@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-80c9192ca6642a2f2ec2",
+    "name": "LiuHe#bundle",
+    "author": "wulun811",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/wulun811/LiuHe/tree/master/malong/dsh/bundle",
+    "firstObservedAt": "2026-08-18T16:51:43Z",
+    "lastChangedAt": "2026-08-18T16:51:43Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-80c9192ca6642a2f2ec2.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-80c9192ca6642a2f2ec2.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@jieai/dsh-malong-bridge",
+    "command": "dsh plugin --profile web add @jieai/dsh-malong-bridge",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-80c9192ca6642a2f2ec2，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-80c9192ca6642a2f2ec2.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-80c9192ca6642a2f2ec2.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "LiuHe#bundle 已收录到 DeepSeek Harness Plugin Store。将 LiuHe MCP 代码工具集（44 个工具）桥接进 dsh web：repo_map、符号搜索、带容错匹配的 edit_batch、带撤销日志的事务性编辑，以及确定性质量门禁——由崩溃隔离的 Rust tree-sitter 解析守护进程和 SQLite 索引支撑。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-80c9192ca6642a2f2ec2.html",
+    "en": "LiuHe#bundle is now listed on the DeepSeek Harness Plugin Store. Bridges the LiuHe MCP code toolkit (44 tools) into dsh web: repo_map, symbol search, edit_batch with tolerant matching, transactional edits with undo journal, and deterministic quality gates — backed by a crash-isolated Rust tree-sitter parse daemon and SQLite index.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-80c9192ca6642a2f2ec2.html"
+  }
+}

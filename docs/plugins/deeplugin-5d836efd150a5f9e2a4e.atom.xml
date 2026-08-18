@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-minimax-usage#trusted-plugin — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-5d836efd150a5f9e2a4e.atom.xml</id>
+  <updated>2026-08-18T16:51:43Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-5d836efd150a5f9e2a4e.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-5d836efd150a5f9e2a4e.html"/>
+  <entry>
+    <title>New: dsh-minimax-usage#trusted-plugin</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-5d836efd150a5f9e2a4e/734e2388d02377c1</id>
+    <updated>2026-08-18T16:51:43Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-5d836efd150a5f9e2a4e.html"/>
+    <author><name>Floating-Dreaming</name></author>
+    <category term="usage"/>
+    <summary>Adds a "用量" section to the DSH Settings page that shows your MiniMax Token Plan usage (5h and weekly windows with reset countdowns), per-model breakdown, and video bonus credits; fetches `/v1/token_plan/remains` via a trusted plugin that holds the API key, auto-hides when no key is configured. MIT. Exact install spec: @floatingdeaming/minimax-usage. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

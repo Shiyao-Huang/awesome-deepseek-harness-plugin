@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-b397d8938349c21b2ee8",
+    "name": "chrome-faithful#dsh-plugin-chrome-faithful",
+    "author": "bpc-oss",
+    "category": "browser",
+    "version": null,
+    "homepage": "https://github.com/bpc-oss/chrome-faithful/tree/main/packages/dsh-plugin-chrome-faithful",
+    "firstObservedAt": "2026-08-18T16:51:43Z",
+    "lastChangedAt": "2026-08-18T16:51:43Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-b397d8938349c21b2ee8.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-b397d8938349c21b2ee8.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:bpc-oss/chrome-faithful#path:/packages/dsh-plugin-chrome-faithful",
+    "command": "dsh plugin --profile web add github:bpc-oss/chrome-faithful#path:/packages/dsh-plugin-chrome-faithful",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-b397d8938349c21b2ee8，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-b397d8938349c21b2ee8.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b397d8938349c21b2ee8.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "chrome-faithful#dsh-plugin-chrome-faithful 已收录到 DeepSeek Harness Plugin Store。按精确 Profile 名控制你真实已登录的 Chrome 浏览器：MCP 服务器 + MV3 扩展 + 认证本地桥接，提供标签页、定位器、文件注入、媒体导出与持久滚动采集，不使用调试 Profile 或远程调试端口。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b397d8938349c21b2ee8.html",
+    "en": "chrome-faithful#dsh-plugin-chrome-faithful is now listed on the DeepSeek Harness Plugin Store. Exact-profile control of your real logged-in Chrome browser: an MCP server plus MV3 extension and authenticated localhost bridge for tabs, locators, file injection, media export, and durable scroll capture, with no debug profile or remote-debugging port.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b397d8938349c21b2ee8.html"
+  }
+}

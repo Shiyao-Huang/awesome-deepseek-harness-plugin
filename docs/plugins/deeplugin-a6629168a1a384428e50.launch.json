@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a6629168a1a384428e50",
+    "name": "dsh-messaging#messaging-core",
+    "author": "534119219",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/534119219/dsh-messaging/tree/main/packages/messaging-core",
+    "firstObservedAt": "2026-08-18T16:51:43Z",
+    "lastChangedAt": "2026-08-18T16:51:43Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a6629168a1a384428e50.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a6629168a1a384428e50.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:534119219/dsh-messaging#path:/packages/messaging-core",
+    "command": "dsh plugin --profile web add github:534119219/dsh-messaging#path:/packages/messaging-core",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a6629168a1a384428e50，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a6629168a1a384428e50.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a6629168a1a384428e50.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-messaging#messaging-core 已收录到 DeepSeek Harness Plugin Store。DeepSeek Harness 的统一消息网关：一个插件接入 27 个 IM 平台（Telegram、QQ、微信、Discord、WhatsApp、飞书等），支持扫码授权、每平台独立工作区、斜杠命令与 Web 配置弹窗。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a6629168a1a384428e50.html",
+    "en": "dsh-messaging#messaging-core is now listed on the DeepSeek Harness Plugin Store. Unified messaging gateway for DeepSeek Harness: 27 IM platforms (Telegram, QQ, WeChat, Discord, WhatsApp, Feishu and more) in one plugin, with QR scan-to-authorize, per-platform workspaces, slash commands, and a web setup dialog.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a6629168a1a384428e50.html"
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>mstar-harness#dsh — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-8e4eefe19690896833b6.atom.xml</id>
+  <updated>2026-08-18T16:51:43Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-8e4eefe19690896833b6.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8e4eefe19690896833b6.html"/>
+  <entry>
+    <title>New: mstar-harness#dsh</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-8e4eefe19690896833b6/734e2388d02377c1</id>
+    <updated>2026-08-18T16:51:43Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8e4eefe19690896833b6.html"/>
+    <author><name>btspoony</name></author>
+    <category term="workflow"/>
+    <summary>Skill-driven harness/loop engineering workflow agent plugin. Exact install spec: @mstar-harness/dsh. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-f16d798e241f5cbe8613",
+    "name": "dsh-computer-use-win",
+    "author": "Yu-tao-Li",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/Yu-tao-Li/dsh-computer-use-win",
+    "firstObservedAt": "2026-08-18T16:51:43Z",
+    "lastChangedAt": "2026-08-18T16:51:43Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-f16d798e241f5cbe8613.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-f16d798e241f5cbe8613.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:yu-tao-li/dsh-computer-use-win",
+    "command": "dsh plugin --profile web add github:yu-tao-li/dsh-computer-use-win",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-f16d798e241f5cbe8613，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-f16d798e241f5cbe8613.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-f16d798e241f5cbe8613.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-computer-use-win 已收录到 DeepSeek Harness Plugin Store。为 DeepSeek Harness 提供 Windows 电脑操控：MCP stdio 服务器 + PowerShell UIA 后端，22 个桌面工具（UIA 树、截图、键鼠输入、OCR、窗口管理、急停保护）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-f16d798e241f5cbe8613.html",
+    "en": "dsh-computer-use-win is now listed on the DeepSeek Harness Plugin Store. Windows computer use for DeepSeek Harness: an MCP stdio server over a PowerShell UIA backend exposing 22 desktop tools (UIA tree, screenshots, typed input, OCR, window management, failsafe).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-f16d798e241f5cbe8613.html"
+  }
+}

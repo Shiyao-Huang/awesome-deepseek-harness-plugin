@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Disk Audit — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-cb692af1e3dd7ffeb384.atom.xml</id>
+  <updated>2026-08-18T16:51:43Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-cb692af1e3dd7ffeb384.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-cb692af1e3dd7ffeb384.html"/>
+  <entry>
+    <title>New: Disk Audit</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-cb692af1e3dd7ffeb384/1028137055802915</id>
+    <updated>2026-08-18T16:51:43Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-cb692af1e3dd7ffeb384.html"/>
+    <author><name>zoahdev</name></author>
+    <category term="dev"/>
+    <summary>Disk-usage audit for dsh data directories: total size, per-directory breakdown, largest files, oversized-file warnings (session logs can hit hundreds of MB) and cleanup suggestions. CLI + agent-callable disk_audit tool with dsh-disk-audit/v1 reports. Exact install spec: dsh-disk-audit. Source event: zoahdev/dsh-subscribe; changed: listed.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-1966e2099698d52d0729",
+    "name": "TMCRA-Agent-Memory#deepseek-harness-local",
+    "author": "reshuibuduo",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/reshuibuduo/TMCRA-Agent-Memory/tree/main/integrations/deepseek-harness-local",
+    "firstObservedAt": "2026-08-18T16:51:43Z",
+    "lastChangedAt": "2026-08-18T16:51:43Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-1966e2099698d52d0729.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-1966e2099698d52d0729.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:reshuibuduo/tmcra-agent-memory#path:/integrations/deepseek-harness-local",
+    "command": "dsh plugin --profile web add github:reshuibuduo/tmcra-agent-memory#path:/integrations/deepseek-harness-local",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-1966e2099698d52d0729，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-1966e2099698d52d0729.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-1966e2099698d52d0729.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "TMCRA-Agent-Memory#deepseek-harness-local 已收录到 DeepSeek Harness Plugin Store。面向 DSH 与 Codex 的技术预览版本机图记忆：每轮前从用户全局与当前项目作用域召回证据，分别保存 USER 与 ASSISTANT 记录，并保留项目、会话、角色和来源信息，用于可视化图谱与带证据引用的知识页。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-1966e2099698d52d0729.html",
+    "en": "TMCRA-Agent-Memory#deepseek-harness-local is now listed on the DeepSeek Harness Plugin Store. Technical-preview local graph memory for DSH and Codex: recalls owner-global and current-project evidence before each turn, writes USER and ASSISTANT records separately, and preserves project, session, actor, and source provenance for a visual atlas and cited knowledge pages.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-1966e2099698d52d0729.html"
+  }
+}

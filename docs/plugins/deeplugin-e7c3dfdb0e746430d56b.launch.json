@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-e7c3dfdb0e746430d56b",
+    "name": "dsh-rules-manager#dsh-rules-manager",
+    "author": "jilian-dsh",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/jilian-dsh/dsh-rules-manager/tree/main/dsh-rules-manager",
+    "firstObservedAt": "2026-08-18T16:51:43Z",
+    "lastChangedAt": "2026-08-18T16:51:43Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-e7c3dfdb0e746430d56b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-e7c3dfdb0e746430d56b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:jilian-dsh/dsh-rules-manager#path:/dsh-rules-manager",
+    "command": "dsh plugin --profile web add github:jilian-dsh/dsh-rules-manager#path:/dsh-rules-manager",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-e7c3dfdb0e746430d56b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-e7c3dfdb0e746430d56b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-e7c3dfdb0e746430d56b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-rules-manager#dsh-rules-manager 已收录到 DeepSeek Harness Plugin Store。dsh 规则、命令与技能管理：/rules 斜杠命令、设置面板可视化编辑规则（增改禁用删除、自由区域支持）、带参数的自定义命令、技能管理、AGENTS.md 自动备份与一键恢复。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e7c3dfdb0e746430d56b.html",
+    "en": "dsh-rules-manager#dsh-rules-manager is now listed on the DeepSeek Harness Plugin Store. Rules, commands & skills manager for dsh: /rules slash command, settings panel with visual rule editing (add/edit/disable/delete, free-zone support), user-defined custom commands with {input} arguments, skill management, and automatic backup & one-click restore of AGENTS.md.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e7c3dfdb0e746430d56b.html"
+  }
+}

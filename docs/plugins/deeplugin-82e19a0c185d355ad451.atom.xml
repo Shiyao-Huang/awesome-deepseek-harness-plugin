@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-music-player — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-82e19a0c185d355ad451.atom.xml</id>
+  <updated>2026-08-18T16:51:43Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-82e19a0c185d355ad451.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-82e19a0c185d355ad451.html"/>
+  <entry>
+    <title>New: dsh-music-player</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-82e19a0c185d355ad451/734e2388d02377c1</id>
+    <updated>2026-08-18T16:51:43Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-82e19a0c185d355ad451.html"/>
+    <author><name>kendu76</name></author>
+    <category term="fun"/>
+    <summary>Play your own local music in the DSH web UI: the host scans a local folder (default ~/Music) and streams it over HTTP, with a now-playing bar (prev/play/stop, loop modes, volume, live spectrum) and a draggable playlist panel, plus a model-invokable `music_play` tool. Exact install spec: dsh-music-player. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

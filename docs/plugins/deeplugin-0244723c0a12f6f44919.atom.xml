@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>oss-prompt-optimizer — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-0244723c0a12f6f44919.atom.xml</id>
-  <updated>2026-08-17T04:59:26Z</updated>
+  <updated>2026-08-18T16:51:43Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-0244723c0a12f6f44919.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-0244723c0a12f6f44919.html"/>
+  <entry>
+    <title>Updated: oss-prompt-optimizer</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-0244723c0a12f6f44919/5254024e6b0a31d1</id>
+    <updated>2026-08-18T16:51:43Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-0244723c0a12f6f44919.html"/>
+    <author><name>seven282</name></author>
+    <category term="tools"/>
+    <summary>Optimize a raw instruction into a professional prompt through the harness llm service — four-section (Role / Task / Context / Format) or a headerless plain-text style. Context-aware by default: the recent conversation is injected as background and may enrich the ## Context section. Long outputs resume from the truncation point with auto-expanded budgets; validated results are cached (identical requests cost zero model calls); a unified call budget bounds worst-case cost. Composer ✨ one-click optimize, undo, cancel and a token-cost hint; prompt_optimize tool (optimize + iterate), auto-optimize hook, auto-detected zh/en role document. Exact install spec: oss-prompt-optimizer. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
   <entry>
     <title>Updated: oss-prompt-optimizer</title>
     <id>tag:deeplugin.store,2026-08-17:deeplugin-0244723c0a12f6f44919/3797d25538c1d242</id>
@@ -12,7 +21,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-0244723c0a12f6f44919.html"/>
     <author><name>seven282</name></author>
     <category term="tools"/>
-    <summary>Optimize a raw instruction into a professional prompt through the harness llm service — four-section (Role / Task / Context / Format) by default, or a headerless plain-text style (outputStyle: 'plain') that cuts token usage. Composer ✨ one-click optimize &amp; undo, prompt_optimize tool, auto-optimize hook, configurable meta-prompt. Exact install spec: oss-prompt-optimizer. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+    <summary>Optimize a raw instruction into a professional prompt through the harness llm service — four-section (Role / Task / Context / Format) or a headerless plain-text style. Context-aware by default: the recent conversation is injected as background and may enrich the ## Context section. Long outputs resume from the truncation point with auto-expanded budgets; validated results are cached (identical requests cost zero model calls); a unified call budget bounds worst-case cost. Composer ✨ one-click optimize, undo, cancel and a token-cost hint; prompt_optimize tool (optimize + iterate), auto-optimize hook, auto-detected zh/en role document. Exact install spec: oss-prompt-optimizer. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
   </entry>
   <entry>
     <title>New: oss-prompt-optimizer</title>
@@ -21,6 +30,6 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-0244723c0a12f6f44919.html"/>
     <author><name>seven282</name></author>
     <category term="tools"/>
-    <summary>Optimize a raw instruction into a professional prompt through the harness llm service — four-section (Role / Task / Context / Format) by default, or a headerless plain-text style (outputStyle: 'plain') that cuts token usage. Composer ✨ one-click optimize &amp; undo, prompt_optimize tool, auto-optimize hook, configurable meta-prompt. Exact install spec: oss-prompt-optimizer. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+    <summary>Optimize a raw instruction into a professional prompt through the harness llm service — four-section (Role / Task / Context / Format) or a headerless plain-text style. Context-aware by default: the recent conversation is injected as background and may enrich the ## Context section. Long outputs resume from the truncation point with auto-expanded budgets; validated results are cached (identical requests cost zero model calls); a unified call budget bounds worst-case cost. Composer ✨ one-click optimize, undo, cancel and a token-cost hint; prompt_optimize tool (optimize + iterate), auto-optimize hook, auto-detected zh/en role document. Exact install spec: oss-prompt-optimizer. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

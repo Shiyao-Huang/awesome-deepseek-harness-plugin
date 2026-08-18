@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>deepseek-harness-tui#npm — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-895b59397401c05a7bec.atom.xml</id>
+  <updated>2026-08-18T16:51:43Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-895b59397401c05a7bec.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-895b59397401c05a7bec.html"/>
+  <entry>
+    <title>New: deepseek-harness-tui#npm</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-895b59397401c05a7bec/734e2388d02377c1</id>
+    <updated>2026-08-18T16:51:43Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-895b59397401c05a7bec.html"/>
+    <author><name>openma-ai</name></author>
+    <category term="ui"/>
+    <summary>A Rust/ratatui terminal client that speaks the DSH SDK JSON-RPC protocol directly and runs standalone or as a profile bundle. Exact install spec: @openma/deepseek-harness-tui. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-cb692af1e3dd7ffeb384",
+    "name": "Disk Audit",
+    "author": "zoahdev",
+    "category": "dev",
+    "version": "0.1.0",
+    "homepage": "https://github.com/zoahdev/dsh-disk-audit",
+    "firstObservedAt": "2026-08-18T16:51:43Z",
+    "lastChangedAt": "2026-08-18T16:51:43Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-cb692af1e3dd7ffeb384.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-cb692af1e3dd7ffeb384.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-disk-audit",
+    "command": "dsh plugin --profile web add dsh-disk-audit",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-cb692af1e3dd7ffeb384，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-cb692af1e3dd7ffeb384.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-cb692af1e3dd7ffeb384.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "Disk Audit 已收录到 DeepSeek Harness Plugin Store。dsh 数据目录磁盘占用审计：总大小、按目录拆分、最大文件、超大文件告警（会话日志可达数百 MB）与清理建议。CLI + agent 可调用 disk_audit 工具，输出 dsh-disk-audit/v1 报告。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-cb692af1e3dd7ffeb384.html",
+    "en": "Disk Audit is now listed on the DeepSeek Harness Plugin Store. Disk-usage audit for dsh data directories: total size, per-directory breakdown, largest files, oversized-file warnings (session logs can hit hundreds of MB) and cleanup suggestions. CLI + agent-callable disk_audit tool with dsh-disk-audit/v1 reports.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-cb692af1e3dd7ffeb384.html"
+  }
+}

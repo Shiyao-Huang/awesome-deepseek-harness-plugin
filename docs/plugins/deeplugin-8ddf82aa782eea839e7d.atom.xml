@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>dsh-save-money — release evidence</title>
+  <title>dsh-save-money#plugin — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-8ddf82aa782eea839e7d.atom.xml</id>
-  <updated>2026-08-18T13:10:14Z</updated>
+  <updated>2026-08-18T16:51:43Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-8ddf82aa782eea839e7d.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8ddf82aa782eea839e7d.html"/>
   <entry>
-    <title>New: dsh-save-money</title>
+    <title>Updated: dsh-save-money#plugin</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-8ddf82aa782eea839e7d/3c4ab70fcb67ce81</id>
+    <updated>2026-08-18T16:51:43Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8ddf82aa782eea839e7d.html"/>
+    <author><name>zhu168</name></author>
+    <category term="usage"/>
+    <summary>Pause and resume tasks automatically during user-defined time windows to avoid peak-hour API costs; includes account balance display and 10-minute granularity spend bar chart. Exact install spec: dsh-save-money. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: entry_name, page_url.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-save-money#plugin</title>
     <id>tag:deeplugin.store,2026-08-18:deeplugin-8ddf82aa782eea839e7d/dbae5706cae32da0</id>
     <updated>2026-08-18T13:10:14Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8ddf82aa782eea839e7d.html"/>

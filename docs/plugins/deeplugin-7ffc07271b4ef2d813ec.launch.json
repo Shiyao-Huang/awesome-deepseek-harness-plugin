@@ -3,13 +3,13 @@
   "version": 1,
   "plugin": {
     "id": "deeplugin-7ffc07271b4ef2d813ec",
-    "name": "Stata-AI-Skill",
+    "name": "Stata-AI-Skill#dsh-plugin",
     "author": "ZihaoVistonWang",
     "category": "skill",
     "version": null,
     "homepage": "https://github.com/ZihaoVistonWang/Stata-AI-Skill",
     "firstObservedAt": "2026-08-17T03:14:45Z",
-    "lastChangedAt": "2026-08-17T03:14:45Z"
+    "lastChangedAt": "2026-08-18T16:51:43Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-7ffc07271b4ef2d813ec.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-7ffc07271b4ef2d813ec.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "Stata-AI-Skill 已收录到 DeepSeek Harness Plugin Store。在 DeepSeek Harness 中运行 Stata：Stata AI Skill 原生服务随 DSH 自动启动（内置 macOS/Windows 多平台二进制），无需手动配置即可跑回归、do 文件与计量工作流。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-7ffc07271b4ef2d813ec.html",
-    "en": "Stata-AI-Skill is now listed on the DeepSeek Harness Plugin Store. Run Stata through DeepSeek Harness: the native Stata AI Skill service auto-starts with DSH (macOS/Windows binaries bundled), so you can run regressions, do-files and econometrics workflows with no manual setup.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-7ffc07271b4ef2d813ec.html"
+    "zh": "Stata-AI-Skill#dsh-plugin 已收录到 DeepSeek Harness Plugin Store。在 DeepSeek Harness 中运行 Stata：Stata AI Skill 原生服务随 DSH 自动启动（内置 macOS/Windows 多平台二进制），无需手动配置即可跑回归、do 文件与计量工作流。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-7ffc07271b4ef2d813ec.html",
+    "en": "Stata-AI-Skill#dsh-plugin is now listed on the DeepSeek Harness Plugin Store. Run Stata through DeepSeek Harness: the native Stata AI Skill service auto-starts with DSH (macOS/Windows binaries bundled), so you can run regressions, do-files and econometrics workflows with no manual setup.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-7ffc07271b4ef2d813ec.html"
   }
 }

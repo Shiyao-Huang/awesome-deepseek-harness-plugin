@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-9c06a2c7534dff9e704f",
+    "name": "dsh-plugin-balance",
+    "author": "lmmzss-jk",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/lmmzss-jk/dsh-plugin-balance",
+    "firstObservedAt": "2026-08-18T16:51:43Z",
+    "lastChangedAt": "2026-08-18T16:51:43Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-9c06a2c7534dff9e704f.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-9c06a2c7534dff9e704f.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@lmmzss/dsh-plugin-balance",
+    "command": "dsh plugin --profile web add @lmmzss/dsh-plugin-balance",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-9c06a2c7534dff9e704f，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-9c06a2c7534dff9e704f.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-9c06a2c7534dff9e704f.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-balance 已收录到 DeepSeek Harness Plugin Store。DSH Web 余额与会话用量插件：头部余额按钮（Session log 左侧），下拉展示账户余额、实时 token 明细（缓存未命中/命中、缓存写入、输出）、缓存命中率，以及按官方峰谷价自动切换的费用估算。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-9c06a2c7534dff9e704f.html",
+    "en": "dsh-plugin-balance is now listed on the DeepSeek Harness Plugin Store. Balance and live session usage for the DSH web UI: header balance button (left of the Session log), dropdown with account balance, real-time token breakdown (cache miss/hit, cache write, output), cache hit rate, and official-rate cost estimates with peak/off-peak auto-switch.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-9c06a2c7534dff9e704f.html"
+  }
+}

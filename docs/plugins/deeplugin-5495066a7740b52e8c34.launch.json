@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/YeqingTang/dsh-session-flow",
     "firstObservedAt": "2026-08-16T00:51:32Z",
-    "lastChangedAt": "2026-08-16T09:56:16Z"
+    "lastChangedAt": "2026-08-18T16:51:43Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-5495066a7740b52e8c34.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-5495066a7740b52e8c34.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-session-flow 已收录到 DeepSeek Harness Plugin Store。跨会话档案柜：总览工作台、折叠时间线、子代理血缘、内容检索、规则+LLM 双模式摘要、ZIP 导出、实时跟踪。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-5495066a7740b52e8c34.html",
-    "en": "dsh-session-flow is now listed on the DeepSeek Harness Plugin Store. Cross-session archive: overview workbench, folded timeline, subagent lineage, content search, rule+LLM summaries, ZIP export, live tracking.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-5495066a7740b52e8c34.html"
+    "zh": "dsh-session-flow 已收录到 DeepSeek Harness Plugin Store。跨会话档案柜：总览工作台、折叠时间线、子代理血缘、全文检索、双模式摘要、ZIP 导出、实时跟踪。会话流标签页嵌入原生会话页：轮次悬浮条、详情并入右栏、会话重命名（对齐官方即时同步）、结论摘要行、健康监控与头部芯片（疑似卡死识别）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-5495066a7740b52e8c34.html",
+    "en": "dsh-session-flow is now listed on the DeepSeek Harness Plugin Store. Cross-session archive: overview workbench, folded timeline, subagent lineage, full-text search, rule+LLM summaries, ZIP export, live tracking. Native session-page embeds: turn rail, docked right panel, rename (official-synced), conclusion digest, health monitoring + header chip (stall detection).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-5495066a7740b52e8c34.html"
   }
 }

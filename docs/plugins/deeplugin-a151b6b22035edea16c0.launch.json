@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a151b6b22035edea16c0",
+    "name": "dsh-icon-theme",
+    "author": "yzke",
+    "category": "theme",
+    "version": null,
+    "homepage": "https://github.com/yzke/dsh-icon-theme",
+    "firstObservedAt": "2026-08-18T16:51:43Z",
+    "lastChangedAt": "2026-08-18T16:51:43Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a151b6b22035edea16c0.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a151b6b22035edea16c0.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-icon-theme",
+    "command": "dsh plugin --profile web add dsh-icon-theme",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a151b6b22035edea16c0，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a151b6b22035edea16c0.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a151b6b22035edea16c0.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-icon-theme 已收录到 DeepSeek Harness Plugin Store。为 DSH 设置和侧边栏自动分配并支持自定义的 Fluent 风格图标，离线内置 SVG，默认保留插件原图标。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a151b6b22035edea16c0.html",
+    "en": "dsh-icon-theme is now listed on the DeepSeek Harness Plugin Store. Automatic and user-customizable Fluent-style icons for DSH Settings and sidebar actions, with offline SVG packs and original-icon preservation.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a151b6b22035edea16c0.html"
+  }
+}

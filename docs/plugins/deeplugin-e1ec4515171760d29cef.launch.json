@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-e1ec4515171760d29cef",
+    "name": "dsh-github-picker",
+    "author": "bitxeno",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/bitxeno/dsh-github-picker",
+    "firstObservedAt": "2026-08-18T16:51:43Z",
+    "lastChangedAt": "2026-08-18T16:51:43Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-e1ec4515171760d29cef.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-e1ec4515171760d29cef.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:bitxeno/dsh-github-picker",
+    "command": "dsh plugin --profile web add github:bitxeno/dsh-github-picker",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-e1ec4515171760d29cef，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-e1ec4515171760d29cef.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-e1ec4515171760d29cef.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-github-picker 已收录到 DeepSeek Harness Plugin Store。输入框右下角 GitHub 图标打开当前仓库的 issue/PR 搜索弹窗，数据来自本机 gh CLI，点选即以 URL 或 @owner/repo#number 形式插入引用。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e1ec4515171760d29cef.html",
+    "en": "dsh-github-picker is now listed on the DeepSeek Harness Plugin Store. Composer GitHub picker: click the GitHub icon at the bottom-right of the input box to search the workspace repository's issues and pull requests via the gh CLI, and insert the reference as a URL or @owner/repo#number mention.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e1ec4515171760d29cef.html"
+  }
+}

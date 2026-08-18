@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-fa39ccf561106334945a",
+    "name": "dsh-search-failover",
+    "author": "Walvez",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/Walvez/dsh-search-failover",
+    "firstObservedAt": "2026-08-18T16:51:43Z",
+    "lastChangedAt": "2026-08-18T16:51:43Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-fa39ccf561106334945a.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-fa39ccf561106334945a.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-search-failover",
+    "command": "dsh plugin --profile web add dsh-search-failover",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-fa39ccf561106334945a，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-fa39ccf561106334945a.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-fa39ccf561106334945a.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-search-failover 已收录到 DeepSeek Harness Plugin Store。原生 web_search 的搜索池：8 个免费/付费后端自动故障转移与额度感知熔断，设置页管理 API Key、自定义 SearXNG 实例、failover/rotate 策略切换与 SerpApi 实时额度查询。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-fa39ccf561106334945a.html",
+    "en": "dsh-search-failover is now listed on the DeepSeek Harness Plugin Store. Web search pool for the native web_search tool: fails over across 8 free/paid backends with quota-aware circuit breaking, settings-page API key management, custom SearXNG instances, failover/rotate strategy switching and live SerpApi quota.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-fa39ccf561106334945a.html"
+  }
+}

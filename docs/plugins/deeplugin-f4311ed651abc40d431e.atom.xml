@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-balance — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-f4311ed651abc40d431e.atom.xml</id>
+  <updated>2026-08-18T16:51:43Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-f4311ed651abc40d431e.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f4311ed651abc40d431e.html"/>
+  <entry>
+    <title>New: dsh-balance</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-f4311ed651abc40d431e/734e2388d02377c1</id>
+    <updated>2026-08-18T16:51:43Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f4311ed651abc40d431e.html"/>
+    <author><name>GeekRicardo</name></author>
+    <category term="ui"/>
+    <summary>Composer-dock balance/usage readout for DeepSeek, Kimi Coding, OpenCode Go, Zhipu, MiniMax, OpenRouter and OpenAI Codex — provider-based, 2s polling, 5min cache. Exact install spec: github:geekricardo/dsh-balance. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

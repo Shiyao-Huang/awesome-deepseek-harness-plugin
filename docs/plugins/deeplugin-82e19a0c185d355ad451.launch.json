@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-82e19a0c185d355ad451",
+    "name": "dsh-music-player",
+    "author": "kendu76",
+    "category": "fun",
+    "version": null,
+    "homepage": "https://github.com/kendu76/dsh-music-player",
+    "firstObservedAt": "2026-08-18T16:51:43Z",
+    "lastChangedAt": "2026-08-18T16:51:43Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-82e19a0c185d355ad451.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-82e19a0c185d355ad451.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-music-player",
+    "command": "dsh plugin --profile web add dsh-music-player",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-82e19a0c185d355ad451，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-82e19a0c185d355ad451.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-82e19a0c185d355ad451.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-music-player 已收录到 DeepSeek Harness Plugin Store。在 DSH Web 界面播放本地音乐：Host 扫描本地音乐目录（默认 ~/Music）并以 HTTP 流式播放，提供正在播放条（上一首/播放/停止、循环模式、音量、实时频谱）与可拖动的播放列表面板，并注册 `music_play` 模型工具让 agent 直接播放。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-82e19a0c185d355ad451.html",
+    "en": "dsh-music-player is now listed on the DeepSeek Harness Plugin Store. Play your own local music in the DSH web UI: the host scans a local folder (default ~/Music) and streams it over HTTP, with a now-playing bar (prev/play/stop, loop modes, volume, live spectrum) and a draggable playlist panel, plus a model-invokable `music_play` tool.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-82e19a0c185d355ad451.html"
+  }
+}
