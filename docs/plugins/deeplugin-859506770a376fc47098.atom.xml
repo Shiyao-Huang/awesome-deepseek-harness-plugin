@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-anchored-monitor — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-859506770a376fc47098.atom.xml</id>
+  <updated>2026-08-18T22:44:25Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-859506770a376fc47098.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-859506770a376fc47098.html"/>
+  <entry>
+    <title>New: dsh-anchored-monitor</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-859506770a376fc47098/2de79dee397422dd</id>
+    <updated>2026-08-18T22:44:25Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-859506770a376fc47098.html"/>
+    <author><name>Aik358</name></author>
+    <category term="ui"/>
+    <summary>A whip for DeepSeek V4 Pro: it watches the reasoning fingerprint of every thinking block and pulls the model back when it slips from focused "We will / I will" mode into scattered "let me" mode. Exact install spec: @a9i5k4/dsh-anchored-monitor. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

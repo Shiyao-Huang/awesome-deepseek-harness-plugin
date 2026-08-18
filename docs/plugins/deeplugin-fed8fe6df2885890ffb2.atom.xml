@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-conversation-rail — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-fed8fe6df2885890ffb2.atom.xml</id>
+  <updated>2026-08-18T22:44:25Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-fed8fe6df2885890ffb2.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fed8fe6df2885890ffb2.html"/>
+  <entry>
+    <title>New: dsh-conversation-rail</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-fed8fe6df2885890ffb2/2de79dee397422dd</id>
+    <updated>2026-08-18T22:44:25Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fed8fe6df2885890ffb2.html"/>
+    <author><name>dingyi580</name></author>
+    <category term="ui"/>
+    <summary>Left-edge conversation rail for the Web UI: one bar per turn, length scaled to the turn text, hover for a question and answer preview, click to jump; bars come from a host-side outline of the whole session log, so turns outside the loaded window are drawn too and history is paged in on click. Exact install spec: github:dingyi580/dsh-conversation-rail. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

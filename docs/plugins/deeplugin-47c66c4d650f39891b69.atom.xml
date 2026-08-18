@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-ui-agents-pixe — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-47c66c4d650f39891b69.atom.xml</id>
+  <updated>2026-08-18T22:44:25Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-47c66c4d650f39891b69.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-47c66c4d650f39891b69.html"/>
+  <entry>
+    <title>New: dsh-ui-agents-pixe</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-47c66c4d650f39891b69/2de79dee397422dd</id>
+    <updated>2026-08-18T22:44:25Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-47c66c4d650f39891b69.html"/>
+    <author><name>EternalNight996</name></author>
+    <category term="ui"/>
+    <summary>Adds a "Work Roles" tab and a pixel-art office overlay to the DeepSeek Harness Web UI: 508 built-in role cards (The Agency 255 + agency-agents-zh 253) with search, EN/ZH toggle and department filter; draggable Canvas 2D pixel characters that stand, type and pace, with idle chat that can plug into AI. One-command npm install, no dsh source changes. Exact install spec: dsh-ui-agents-pixe. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

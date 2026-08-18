@@ -2,9 +2,99 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>deeplugin.store — New plugins</title>
   <id>https://deeplugin.store/feeds/new.atom.xml</id>
-  <updated>2026-08-18T20:43:41Z</updated>
+  <updated>2026-08-18T22:44:25Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/feeds/new.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/market.html"/>
+  <entry>
+    <title>New: dsh-conversation-rail</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-fed8fe6df2885890ffb2/2de79dee397422dd</id>
+    <updated>2026-08-18T22:44:25Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fed8fe6df2885890ffb2.html"/>
+    <author><name>dingyi580</name></author>
+    <category term="ui"/>
+    <summary>Left-edge conversation rail for the Web UI: one bar per turn, length scaled to the turn text, hover for a question and answer preview, click to jump; bars come from a host-side outline of the whole session log, so turns outside the loaded window are drawn too and history is paged in on click. Exact install spec: github:dingyi580/dsh-conversation-rail. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-anchored-monitor</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-859506770a376fc47098/2de79dee397422dd</id>
+    <updated>2026-08-18T22:44:25Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-859506770a376fc47098.html"/>
+    <author><name>Aik358</name></author>
+    <category term="ui"/>
+    <summary>A whip for DeepSeek V4 Pro: it watches the reasoning fingerprint of every thinking block and pulls the model back when it slips from focused "We will / I will" mode into scattered "let me" mode. Exact install spec: @a9i5k4/dsh-anchored-monitor. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-roleplay</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-7887b3d0fbee88a58275/2de79dee397422dd</id>
+    <updated>2026-08-18T22:44:25Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-7887b3d0fbee88a58275.html"/>
+    <author><name>chinosk6</name></author>
+    <category term="fun"/>
+    <summary>Role-play conversations with character cards, in-chat character-card authoring and editing, and image generation through configurable backends. Exact install spec: dsh-roleplay. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-stock-terminal</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-77347f1a4595c297c432/2de79dee397422dd</id>
+    <updated>2026-08-18T22:44:25Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-77347f1a4595c297c432.html"/>
+    <author><name>linhut</name></author>
+    <category term="theme"/>
+    <summary>Stock market skin + real-time ticker plugin for DSH Web GUI: candlestick (K-line) popup with day/week/month periods, watchlist with pinyin fuzzy search, portfolio P&amp;L tracker, trading session indicators, support for A-share/HK/US/crypto/forex. Exact install spec: github:linhut/dsh-stock-terminal. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-frostfin</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-6b235c37caaef342e717/2de79dee397422dd</id>
+    <updated>2026-08-18T22:44:25Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-6b235c37caaef342e717.html"/>
+    <author><name>pzc2004</name></author>
+    <category term="dev"/>
+    <summary>Use Kimi Code as the DSH agent loop over ACP, with approvals, slash commands, and local/remote (ssh+tmux) session attach. Exact install spec: github:pzc2004/dsh-frostfin. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-trading</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-5f4cd5e155f4ffe624b9/2de79dee397422dd</id>
+    <updated>2026-08-18T22:44:25Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-5f4cd5e155f4ffe624b9.html"/>
+    <author><name>maddogfinance</name></author>
+    <category term="tools"/>
+    <summary>Research-only trading workbench bundle: typed market-data provider seam with a CSV reference provider, multi-timeframe indicator regime snapshot and OHLCV tools, interactive chart cards in dsh web with provenance-gated model annotations, and a risk-guard denying execution-shaped tool calls at tools/pre-execute. Exact install spec: github:maddogfinance/dsh-trading. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-taintguard</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-5212ef79a5ba7420fdfb/2de79dee397422dd</id>
+    <updated>2026-08-18T22:44:25Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-5212ef79a5ba7420fdfb.html"/>
+    <author><name>sashankh</name></author>
+    <category term="security"/>
+    <summary>Taints the agent when tool results carry untrusted content, gates the privileged calls that follow, and refuses credentials passed to network-capable tools in every mode. Exact install spec: github:sashankh/dsh-taintguard. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-ui-agents-pixe</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-47c66c4d650f39891b69/2de79dee397422dd</id>
+    <updated>2026-08-18T22:44:25Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-47c66c4d650f39891b69.html"/>
+    <author><name>EternalNight996</name></author>
+    <category term="ui"/>
+    <summary>Adds a "Work Roles" tab and a pixel-art office overlay to the DeepSeek Harness Web UI: 508 built-in role cards (The Agency 255 + agency-agents-zh 253) with search, EN/ZH toggle and department filter; draggable Canvas 2D pixel characters that stand, type and pace, with idle chat that can plug into AI. One-command npm install, no dsh source changes. Exact install spec: dsh-ui-agents-pixe. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-skill-hub</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-163eb1d2ce42cc0c772f/2de79dee397422dd</id>
+    <updated>2026-08-18T22:44:25Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-163eb1d2ce42cc0c772f.html"/>
+    <author><name>cheshireez</name></author>
+    <category term="skill"/>
+    <summary>In-GUI skill hub for DeepSeek Harness: browse, search, toggle, inspect, diagnose and scaffold local skills from the official ctx.skills registry, plus a skill market with tracked source sync and one-click update-all. Exact install spec: dsh-skill-hub. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-theme</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-15d87204c869fc30f12a/2de79dee397422dd</id>
+    <updated>2026-08-18T22:44:25Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-15d87204c869fc30f12a.html"/>
+    <author><name>mux9056-bot</name></author>
+    <category term="theme"/>
+    <summary>Theme pack for the DSH Web UI: 30 drop-in CSS themes with light and dark variants, integrated into Settings → General with a programmatic API. Exact install spec: dsh-theme. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
   <entry>
     <title>New: dsh-peak-cost-mode</title>
     <id>tag:deeplugin.store,2026-08-18:deeplugin-f01e273e5e18161818ef/61c311dc4d545928</id>
@@ -814,95 +904,5 @@
     <author><name>zoahdev</name></author>
     <category term="dev"/>
     <summary>Generate README.md for dsh plugin repositories from package.json + cordis.patch.yml + source layout: install/CLI/tools/dev/license sections, deterministic, read-only by default. CLI + agent-callable readme_forge tool. Exact install spec: dsh-readme-forge. Source event: zoahdev/dsh-subscribe; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-replay</title>
-    <id>tag:deeplugin.store,2026-08-18:deeplugin-0c009a8fd58227048d3c/c9baccb628f71fbe</id>
-    <updated>2026-08-18T14:55:11Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-0c009a8fd58227048d3c.html"/>
-    <author><name>MingoZhou</name></author>
-    <category term="session"/>
-    <summary>Replay sessions on a playable timeline with per-step token usage, audit sensitive operations, estimate cost, view fork lineage, compare sessions, and export standalone HTML replays. Exact install spec: @mingozhou/dsh-replay. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-recall-unread</title>
-    <id>tag:deeplugin.store,2026-08-18:deeplugin-e7a403c285717975f447/dbae5706cae32da0</id>
-    <updated>2026-08-18T13:10:14Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e7a403c285717975f447.html"/>
-    <author><name>hg1048596-pixel</name></author>
-    <category term="ui"/>
-    <summary>Adds a strip above the composer to recall sent-but-unread (steering) text messages before the model reads them. Exact install spec: github:hg1048596-pixel/dsh-recall-unread. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-agentmail</title>
-    <id>tag:deeplugin.store,2026-08-18:deeplugin-dff8f98a11d2d2342c70/dbae5706cae32da0</id>
-    <updated>2026-08-18T13:10:14Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-dff8f98a11d2d2342c70.html"/>
-    <author><name>agentmail-to</name></author>
-    <category term="tools"/>
-    <summary>Gives an agent its own email inbox through AgentMail — eleven tools for sending, reading and labelling mail, plus inbound mail delivered into one harness session per email thread, with an approval gate and recipient allowlist on everything outbound. Exact install spec: dsh-agentmail. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-telegram-channel</title>
-    <id>tag:deeplugin.store,2026-08-18:deeplugin-d5f53f55fc4ad87c5231/dbae5706cae32da0</id>
-    <updated>2026-08-18T13:10:14Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d5f53f55fc4ad87c5231.html"/>
-    <author><name>hi-wenw</name></author>
-    <category term="notify"/>
-    <summary>Telegram mobile remote that attaches the phone to a live DeepSeek Harness Web session: workspace-then-session picker (/sessions), /last for the previous Q/A, /model switch, and native Rich Message replies. Exact install spec: github:hi-wenw/dsh-telegram-channel. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-plugin-kit#rss</title>
-    <id>tag:deeplugin.store,2026-08-18:deeplugin-cd23831c34d6ca4d55d2/dbae5706cae32da0</id>
-    <updated>2026-08-18T13:10:14Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-cd23831c34d6ca4d55d2.html"/>
-    <author><name>hyzyn</name></author>
-    <category term="tools"/>
-    <summary>Daily RSS/Atom news digest for DSH: built-in channels plus a curated awesome-rsshub-routes catalog and custom feeds (validated on save), aggregated into one "今日值得读" Markdown digest each day and injected into the system prompt; Web GUI settings card and sidebar reader. Exact install spec: github:hyzyn/dsh-plugin-kit#path:/packages/rss. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-input-history</title>
-    <id>tag:deeplugin.store,2026-08-18:deeplugin-c95d7ed55bb20dc89214/dbae5706cae32da0</id>
-    <updated>2026-08-18T13:10:14Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c95d7ed55bb20dc89214.html"/>
-    <author><name>sunshaobei</name></author>
-    <category term="ui"/>
-    <summary>Standalone arrow-key input history for the DSH web composer: ↑/↓ recalls sent prompts from one global ring shared across all sessions and workspaces, persisted to localStorage with an overridable cap. Exact install spec: github:sunshaobei/dsh-input-history. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-stock-watch</title>
-    <id>tag:deeplugin.store,2026-08-18:deeplugin-c3ee08f4da3dee70c61a/dbae5706cae32da0</id>
-    <updated>2026-08-18T13:10:14Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c3ee08f4da3dee70c61a.html"/>
-    <author><name>Bob-Bo1</name></author>
-    <category term="fun"/>
-    <summary>Local-first A-share portfolio and watchlist monitor for DSH: sidebar quotes, holdings P&amp;L, browser add/edit/delete, and JSON persistence. Exact install spec: github:bob-bo1/dsh-stock-watch. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: LLMs Forge</title>
-    <id>tag:deeplugin.store,2026-08-18:deeplugin-bba9c07e5181cc8b0a0e/1a3acaa871b974d5</id>
-    <updated>2026-08-18T13:10:14Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-bba9c07e5181cc8b0a0e.html"/>
-    <author><name>zoahdev</name></author>
-    <category term="dev"/>
-    <summary>Generate llms.txt for dsh plugin repositories from package.json + README — AI-readable discovery files, zero runtime dependencies. CLI + agent-callable llms_forge tool; read-only by default. Exact install spec: dsh-llms-forge. Source event: zoahdev/dsh-subscribe; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-mpkg-wallpaper</title>
-    <id>tag:deeplugin.store,2026-08-18:deeplugin-b7d449c4d1a8313ef5fe/dbae5706cae32da0</id>
-    <updated>2026-08-18T13:10:14Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b7d449c4d1a8313ef5fe.html"/>
-    <author><name>XHR666</name></author>
-    <category term="ui"/>
-    <summary>Load Wallpaper Engine .mpkg files as the DSH web background: embedded video, time-of-day switching, unified frosted blur, local wallpaper library &amp; rotation. Exact install spec: github:xhr666/dsh-mpkg-wallpaper. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-tool-imagegen</title>
-    <id>tag:deeplugin.store,2026-08-18:deeplugin-b4c1d81dd4d1f93346b4/dbae5706cae32da0</id>
-    <updated>2026-08-18T13:10:14Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b4c1d81dd4d1f93346b4.html"/>
-    <author><name>Github-CJX</name></author>
-    <category term="tools"/>
-    <summary>OpenAI-compatible image generation for DSH Desktop: the model calls generate_image in chat and the images render inline in the conversation. Exact install spec: github:github-cjx/dsh-tool-imagegen. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

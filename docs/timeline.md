@@ -5,6 +5,15 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 2026-08-18 | github | plugin | [dsh-anchored-monitor](https://github.com/Aik358/dsh-anchored-monitor) | Aik358 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-conversation-rail](https://github.com/dingyi580/dsh-conversation-rail) | dingyi580 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-frostfin](https://github.com/pzc2004/dsh-frostfin) | pzc2004 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-roleplay](https://github.com/chinosk6/dsh-roleplay) | chinosk6 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-skill-hub](https://github.com/cheshireez/dsh-skill-hub) | cheshireez | index-and-marketplace |
+| 2026-08-18 | github | plugin | [dsh-stock-terminal](https://github.com/linhut/dsh-stock-terminal) | linhut | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-taintguard](https://github.com/sashankh/dsh-taintguard) | sashankh | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-theme](https://github.com/mux9056-bot/dsh-theme) | mux9056-bot | ui-and-desktop |
+| 2026-08-18 | github | plugin | [dsh-ui-agents-pixe](https://github.com/EternalNight996/dsh-ui-agents-pixe) | EternalNight996 | core-and-ecosystem |
 | 2026-08-18T20:43:41Z | github | ecosystem-reference | [bpc-oss/dsh-verificationdsh-verification](https://github.com/bpc-oss/dsh-verification) | bpc-oss | core-and-ecosystem |
 | 2026-08-18T20:43:41Z | github | plugin | [dingminhua/dsh-subagent-default-modelplugin](https://github.com/dingminhua/dsh-subagent-default-model) | dingminhua | agents-and-orchestration |
 | 2026-08-18 | github | plugin | [dsh-auto-exit](https://github.com/xiaxingtianxia2-glitch/dsh-auto-exit) | xiaxingtianxia2-glitch | ui-and-desktop |
@@ -14902,6 +14911,7 @@
 | 2025-06-29T15:34:15Z | github | repository | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | shareAI-lab | core-and-ecosystem |
 | 2025-06-20T20:02:18Z | hacker_news | story | [Show HN: TONE3000 – Community for Neural Amp Modeling with 90k+ models trained](https://news.ycombinator.com/item?id=44331497) | woodybury | index-and-marketplace |
 | 2025-06-20T05:25:56Z | github | repository | [kuangre123/iosdev](https://github.com/kuangre123/iosdev) | kuangre123 | core-and-ecosystem |
+| 2025-05-23T08:31:26Z | github | repository | [TencentCloudBase/CloudBase-AI-Toolkit](https://github.com/TencentCloudBase/CloudBase-AI-Toolkit) | TencentCloudBase | core-and-ecosystem |
 | 2025-05-20T16:35:20Z | hacker_news | story | [Show HN: Rocketship – Open-source E2E testing that&#x27;s self-hostable](https://news.ycombinator.com/item?id=44043446) | magius18 | agents-and-orchestration |
 | 2025-05-14T05:23:02Z | github | repository | [HKUDS/DeepCode](https://github.com/HKUDS/DeepCode) | HKUDS | agents-and-orchestration |
 | 2025-05-07T02:50:19Z | github | repository | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | bytedance | agents-and-orchestration |

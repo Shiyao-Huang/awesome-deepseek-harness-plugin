@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-trading — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-5f4cd5e155f4ffe624b9.atom.xml</id>
+  <updated>2026-08-18T22:44:25Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-5f4cd5e155f4ffe624b9.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-5f4cd5e155f4ffe624b9.html"/>
+  <entry>
+    <title>New: dsh-trading</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-5f4cd5e155f4ffe624b9/2de79dee397422dd</id>
+    <updated>2026-08-18T22:44:25Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-5f4cd5e155f4ffe624b9.html"/>
+    <author><name>maddogfinance</name></author>
+    <category term="tools"/>
+    <summary>Research-only trading workbench bundle: typed market-data provider seam with a CSV reference provider, multi-timeframe indicator regime snapshot and OHLCV tools, interactive chart cards in dsh web with provenance-gated model annotations, and a risk-guard denying execution-shaped tool calls at tools/pre-execute. Exact install spec: github:maddogfinance/dsh-trading. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

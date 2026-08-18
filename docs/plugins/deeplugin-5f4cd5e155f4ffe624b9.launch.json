@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-5f4cd5e155f4ffe624b9",
+    "name": "dsh-trading",
+    "author": "maddogfinance",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/maddogfinance/dsh-trading",
+    "firstObservedAt": "2026-08-18T22:44:25Z",
+    "lastChangedAt": "2026-08-18T22:44:25Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-5f4cd5e155f4ffe624b9.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-5f4cd5e155f4ffe624b9.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:maddogfinance/dsh-trading",
+    "command": "dsh plugin --profile web add github:maddogfinance/dsh-trading",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-5f4cd5e155f4ffe624b9，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-5f4cd5e155f4ffe624b9.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-5f4cd5e155f4ffe624b9.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-trading 已收录到 DeepSeek Harness Plugin Store。只读交易研究工作台 bundle：带类型的行情数据接缝（含 CSV 参考数据源）、多周期指标 regime 快照与 OHLCV 工具、dsh web 交互式 K 线卡（模型标注需溯源并经价格区间校验）、以及在 tools/pre-execute 拦截下单形工具调用的 risk-guard。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-5f4cd5e155f4ffe624b9.html",
+    "en": "dsh-trading is now listed on the DeepSeek Harness Plugin Store. Research-only trading workbench bundle: typed market-data provider seam with a CSV reference provider, multi-timeframe indicator regime snapshot and OHLCV tools, interactive chart cards in dsh web with provenance-gated model annotations, and a risk-guard denying execution-shaped tool calls at tools/pre-execute.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-5f4cd5e155f4ffe624b9.html"
+  }
+}

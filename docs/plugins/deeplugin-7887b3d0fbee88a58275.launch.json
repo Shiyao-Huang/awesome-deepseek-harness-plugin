@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-7887b3d0fbee88a58275",
+    "name": "dsh-roleplay",
+    "author": "chinosk6",
+    "category": "fun",
+    "version": null,
+    "homepage": "https://github.com/chinosk6/dsh-roleplay",
+    "firstObservedAt": "2026-08-18T22:44:25Z",
+    "lastChangedAt": "2026-08-18T22:44:25Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-7887b3d0fbee88a58275.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-7887b3d0fbee88a58275.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-roleplay",
+    "command": "dsh plugin --profile web add dsh-roleplay",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-7887b3d0fbee88a58275，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-7887b3d0fbee88a58275.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-7887b3d0fbee88a58275.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-roleplay 已收录到 DeepSeek Harness Plugin Store。角色扮演插件：支持角色卡对话、在对话中创作与编辑角色卡，可接入生图后端生成插图。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-7887b3d0fbee88a58275.html",
+    "en": "dsh-roleplay is now listed on the DeepSeek Harness Plugin Store. Role-play conversations with character cards, in-chat character-card authoring and editing, and image generation through configurable backends.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-7887b3d0fbee88a58275.html"
+  }
+}

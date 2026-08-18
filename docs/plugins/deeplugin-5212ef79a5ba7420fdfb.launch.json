@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-5212ef79a5ba7420fdfb",
+    "name": "dsh-taintguard",
+    "author": "sashankh",
+    "category": "security",
+    "version": null,
+    "homepage": "https://github.com/sashankh/dsh-taintguard",
+    "firstObservedAt": "2026-08-18T22:44:25Z",
+    "lastChangedAt": "2026-08-18T22:44:25Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-5212ef79a5ba7420fdfb.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-5212ef79a5ba7420fdfb.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:sashankh/dsh-taintguard",
+    "command": "dsh plugin --profile web add github:sashankh/dsh-taintguard",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-5212ef79a5ba7420fdfb，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-5212ef79a5ba7420fdfb.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-5212ef79a5ba7420fdfb.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-taintguard 已收录到 DeepSeek Harness Plugin Store。当工具结果包含不可信内容时将代理标记为已污染，对随后的高权限调用进行拦截，并在所有模式下拒绝将凭据传递给可联网的工具。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-5212ef79a5ba7420fdfb.html",
+    "en": "dsh-taintguard is now listed on the DeepSeek Harness Plugin Store. Taints the agent when tool results carry untrusted content, gates the privileged calls that follow, and refuses credentials passed to network-capable tools in every mode.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-5212ef79a5ba7420fdfb.html"
+  }
+}

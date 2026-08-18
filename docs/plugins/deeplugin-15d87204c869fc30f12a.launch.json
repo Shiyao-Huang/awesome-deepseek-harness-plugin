@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-15d87204c869fc30f12a",
+    "name": "dsh-theme",
+    "author": "mux9056-bot",
+    "category": "theme",
+    "version": null,
+    "homepage": "https://github.com/mux9056-bot/dsh-theme",
+    "firstObservedAt": "2026-08-18T22:44:25Z",
+    "lastChangedAt": "2026-08-18T22:44:25Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-15d87204c869fc30f12a.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-15d87204c869fc30f12a.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-theme",
+    "command": "dsh plugin --profile web add dsh-theme",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-15d87204c869fc30f12a，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-15d87204c869fc30f12a.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-15d87204c869fc30f12a.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-theme 已收录到 DeepSeek Harness Plugin Store。DSH Web UI 主题包：30 款即插即用的 CSS 主题，每款含浅色与深色变体，集成于「设置 → 通用」，并提供程序化 API。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-15d87204c869fc30f12a.html",
+    "en": "dsh-theme is now listed on the DeepSeek Harness Plugin Store. Theme pack for the DSH Web UI: 30 drop-in CSS themes with light and dark variants, integrated into Settings → General with a programmatic API.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-15d87204c869fc30f12a.html"
+  }
+}
