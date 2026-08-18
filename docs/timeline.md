@@ -5,6 +5,11 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 2026-08-17 | github | plugin | [dsh-kb-rag](https://github.com/Breeze136/dsh-kb-rag) | Breeze136 | core-and-ecosystem |
+| 2026-08-17 | github | plugin | [dsh-odette-skin](https://github.com/lkdx0220/Genshin-odette-skin-dsh) | lkdx0220 | ui-and-desktop |
+| 2026-08-17 | github | plugin | [dsh-plugin-task-panel](https://github.com/xiaogu619520/dsh-plugin-task-panel) | xiaogu619520 | operations-and-safety |
+| 2026-08-18T01:37:37Z | hacker_news | story | [What Is DeepSeek-Harness? A Complete Introduction](https://news.ycombinator.com/item?id=49340079) | Justin3go | core-and-ecosystem |
+| 2026-08-17T23:13:21Z | hacker_news | story | [Cosyncing: Control DeepSeek Harness and other agents on your phone](https://news.ycombinator.com/item?id=49338977) | howardme1 | core-and-ecosystem |
 | 2026-08-17 | github | plugin | [chicheng-push](https://github.com/534119219/chicheng-push) | 534119219 | core-and-ecosystem |
 | 2026-08-17 | github | plugin | [codegraph](https://github.com/JohnXu22786/codegraph) | JohnXu22786 | core-and-ecosystem |
 | 2026-08-17 | github | plugin | [docgen](https://github.com/JohnXu22786/docgen) | JohnXu22786 | core-and-ecosystem |
@@ -14654,6 +14659,7 @@
 | 2025-02-13T05:47:46Z | github | repository | [liyupi/ai-guide](https://github.com/liyupi/ai-guide) | liyupi | docs-and-learning |
 | 2025-01-27T07:02:23Z | hacker_news | story | [Ask HN: How to get around or remove censorship in Deepseek-R1?](https://news.ycombinator.com/item?id=42838203) | jimmydoe | core-and-ecosystem |
 | 2025-01-11T10:11:05Z | github | repository | [punkpeye/awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients) | punkpeye | index-and-marketplace |
+| 2024-12-31T08:11:27Z | github | repository | [nanobrowser/nanobrowser](https://github.com/nanobrowser/nanobrowser) | nanobrowser | agents-and-orchestration |
 | 2024-11-22T13:20:25Z | hacker_news | story | [Show HN: Growflyer – Automate Your Business Marketing in Minutes](https://news.ycombinator.com/item?id=42213615) | kaizarbharmal | core-and-ecosystem |
 | 2024-10-24T03:42:18Z | github | repository | [Axorax/awesome-free-apps](https://github.com/Axorax/awesome-free-apps) | Axorax | index-and-marketplace |
 | 2024-08-29T15:49:16Z | hacker_news | story | [Show HN: Native SQL, type-safe, in-lined. Pick three](https://news.ycombinator.com/item?id=41392080) | owlstuffing | index-and-marketplace |

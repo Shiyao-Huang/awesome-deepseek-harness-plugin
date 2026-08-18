@@ -2,9 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>deeplugin.store — New plugins</title>
   <id>https://deeplugin.store/feeds/new.atom.xml</id>
-  <updated>2026-08-17T18:59:27Z</updated>
+  <updated>2026-08-18T01:52:58Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/feeds/new.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/market.html"/>
+  <entry>
+    <title>New: dsh-plugin-task-panel</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-713bba8af665d40065a5/b84585f3abb38792</id>
+    <updated>2026-08-18T01:52:58Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-713bba8af665d40065a5.html"/>
+    <author><name>xiaogu619520</name></author>
+    <category term="ui"/>
+    <summary>Task &amp; Context Summary Floating Panel (todo tracking, file/system token breakdown, 8-way resize, shortcut). Exact install spec: github:xiaogu619520/dsh-plugin-task-panel. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-kb-rag</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-5db01d2c9708f75bfb6c/b84585f3abb38792</id>
+    <updated>2026-08-18T01:52:58Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-5db01d2c9708f75bfb6c.html"/>
+    <author><name>Breeze136</name></author>
+    <category term="memory"/>
+    <summary>Local literature knowledge-base RAG: 8 tools (PDF/folder/Zotero ingest, hybrid BM25+vector+reranker search, cited QA with clickable DOI links, scope/strict modes, dedup/clear/stats), all-local bge embeddings + single-file SQLite, measured 242-doc/86s ingest and sub-second hot queries on 20k chunks. Exact install spec: github:breeze136/dsh-kb-rag. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-odette-skin</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-0a4baefaa65f4a292bfe/b84585f3abb38792</id>
+    <updated>2026-08-18T01:52:58Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-0a4baefaa65f4a292bfe.html"/>
+    <author><name>lkdx0220</name></author>
+    <category term="theme"/>
+    <summary>A Genshin Impact "Odette" themed DSH UI skin: dark/light dual-mode background images, frosted-glass overrides for 13 theme tokens, and a chibi mascot sidebar toggle; install via npm. Exact install spec: github:lkdx0220/genshin-odette-skin-dsh. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
   <entry>
     <title>New: dsh-project-manager</title>
     <id>tag:deeplugin.store,2026-08-17:deeplugin-ff892b863fc2efdd8e28/59c65580ae50a773</id>
@@ -877,32 +904,5 @@
     <author><name>stuarthu</name></author>
     <category term="dev"/>
     <summary>Reloads an upgraded plugin inside the running dsh process instead of restarting it, and rolls back to the old version when a reload fails. Exact install spec: dsh-hot-reload. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: AI-Novel-Writer#dsh-ai-novel-writer</title>
-    <id>tag:deeplugin.store,2026-08-17:deeplugin-f94aae3c604bb2de4cd3/13faa91943e27f3b</id>
-    <updated>2026-08-17T07:17:53Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f94aae3c604bb2de4cd3.html"/>
-    <author><name>EthanYoQ</name></author>
-    <category term="workflow"/>
-    <summary>Installs a dedicated AI novel-writing preset and workbench: revisioned local project assets, a compact side drawer, and native approval-gated single-file changes. Exact install spec: github:ethanyoq/ai-novel-writer#path:/plugins/dsh-ai-novel-writer. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-pet-remielle</title>
-    <id>tag:deeplugin.store,2026-08-17:deeplugin-e9b24ef0f6a414339ca8/13faa91943e27f3b</id>
-    <updated>2026-08-17T07:17:53Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e9b24ef0f6a414339ca8.html"/>
-    <author><name>Gin-7</name></author>
-    <category term="ui"/>
-    <summary>A Remielle(ZZZ) desktop pet for the dsh web GUI that switches animated sticker moods with the harness work state. Exact install spec: github:gin-7/dsh-pet-remielle. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-contract-drafting-agent</title>
-    <id>tag:deeplugin.store,2026-08-17:deeplugin-d7776faed5b6e9b5b8bf/13faa91943e27f3b</id>
-    <updated>2026-08-17T07:17:53Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d7776faed5b6e9b5b8bf.html"/>
-    <author><name>songoao25</name></author>
-    <category term="skill"/>
-    <summary>Contract-drafting agent preset: 11-stage lawyer workflow with 5-way parallel AI review, decision gates, and domain packs for general, employment and equity-investment contracts. Exact install spec: github:songoao25/dsh-contract-drafting-agent. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

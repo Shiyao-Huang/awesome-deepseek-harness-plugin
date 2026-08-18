@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-713bba8af665d40065a5",
+    "name": "dsh-plugin-task-panel",
+    "author": "xiaogu619520",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/xiaogu619520/dsh-plugin-task-panel",
+    "firstObservedAt": "2026-08-18T01:52:58Z",
+    "lastChangedAt": "2026-08-18T01:52:58Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-713bba8af665d40065a5.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-713bba8af665d40065a5.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:xiaogu619520/dsh-plugin-task-panel",
+    "command": "dsh plugin --profile web add github:xiaogu619520/dsh-plugin-task-panel",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-713bba8af665d40065a5，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-713bba8af665d40065a5.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-713bba8af665d40065a5.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-task-panel 已收录到 DeepSeek Harness Plugin Store。任务摘要与上下文用量监控浮动面板（待办事项跟踪、文件与系统 Token 占用统计、8向缩放与快捷键）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-713bba8af665d40065a5.html",
+    "en": "dsh-plugin-task-panel is now listed on the DeepSeek Harness Plugin Store. Task & Context Summary Floating Panel (todo tracking, file/system token breakdown, 8-way resize, shortcut).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-713bba8af665d40065a5.html"
+  }
+}

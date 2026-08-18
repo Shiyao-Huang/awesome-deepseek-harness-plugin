@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-plugin-task-panel — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-713bba8af665d40065a5.atom.xml</id>
+  <updated>2026-08-18T01:52:58Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-713bba8af665d40065a5.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-713bba8af665d40065a5.html"/>
+  <entry>
+    <title>New: dsh-plugin-task-panel</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-713bba8af665d40065a5/b84585f3abb38792</id>
+    <updated>2026-08-18T01:52:58Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-713bba8af665d40065a5.html"/>
+    <author><name>xiaogu619520</name></author>
+    <category term="ui"/>
+    <summary>Task &amp; Context Summary Floating Panel (todo tracking, file/system token breakdown, 8-way resize, shortcut). Exact install spec: github:xiaogu619520/dsh-plugin-task-panel. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>
