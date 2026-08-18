@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-design — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-d1240873d054d116ad5c.atom.xml</id>
+  <updated>2026-08-18T10:48:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-d1240873d054d116ad5c.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d1240873d054d116ad5c.html"/>
+  <entry>
+    <title>New: dsh-design</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-d1240873d054d116ad5c/f135107654d86f25</id>
+    <updated>2026-08-18T10:48:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d1240873d054d116ad5c.html"/>
+    <author><name>Viger1</name></author>
+    <category term="tools"/>
+    <summary>Measures design rules on the rendered page rather than in the CSS — type-scale count, WCAG AA contrast against the real composited backdrop, spacing-grid drift, palette size, tap targets, and the tells of generated UI such as violet gradients caught by hue angle; ships a design-system skill. Exact install spec: dsh-design. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

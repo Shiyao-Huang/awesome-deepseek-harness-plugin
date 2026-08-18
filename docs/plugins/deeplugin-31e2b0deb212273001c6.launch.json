@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-31e2b0deb212273001c6",
+    "name": "dsh-mc-agent",
+    "author": "hellosky983",
+    "category": "fun",
+    "version": null,
+    "homepage": "https://github.com/hellosky983/dsh-mc-agent",
+    "firstObservedAt": "2026-08-18T10:48:49Z",
+    "lastChangedAt": "2026-08-18T10:48:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-31e2b0deb212273001c6.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-31e2b0deb212273001c6.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:hellosky983/dsh-mc-agent",
+    "command": "dsh plugin --profile web add github:hellosky983/dsh-mc-agent",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-31e2b0deb212273001c6，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-31e2b0deb212273001c6.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-31e2b0deb212273001c6.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-mc-agent 已收录到 DeepSeek Harness Plugin Store。面向 DeepSeek Harness 的 AI 辅助 Minecraft：驱动自主的 Mineflayer 代理（生存、挖矿、聊天、实时地图）与视觉/控制工具，另内置启动器（微软登录、版本下载、游戏启动）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-31e2b0deb212273001c6.html",
+    "en": "dsh-mc-agent is now listed on the DeepSeek Harness Plugin Store. AI-assisted Minecraft for DeepSeek Harness: drive an autonomous Mineflayer agent (survival, mining, chat, live map) with vision/control tools, plus a built-in launcher (Microsoft sign-in, version download, game launch).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-31e2b0deb212273001c6.html"
+  }
+}

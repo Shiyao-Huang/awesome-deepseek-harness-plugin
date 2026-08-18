@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-65e8cf7b5a051e864dfc",
+    "name": "dsh-canvas-preview",
+    "author": "jiuyuechuwuhao",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/jiuyuechuwuhao/dsh-canvas-preview",
+    "firstObservedAt": "2026-08-18T10:48:49Z",
+    "lastChangedAt": "2026-08-18T10:48:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-65e8cf7b5a051e864dfc.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-65e8cf7b5a051e864dfc.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-canvas-preview",
+    "command": "dsh plugin --profile web add dsh-canvas-preview",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-65e8cf7b5a051e864dfc，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-65e8cf7b5a051e864dfc.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-65e8cf7b5a051e864dfc.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-canvas-preview 已收录到 DeepSeek Harness Plugin Store。Conversation Canvas 标签页：实时预览工作区内的 HTML artifact，并支持本地导出 PNG/JPG/SVG（`npx dsh-canvas-preview`）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-65e8cf7b5a051e864dfc.html",
+    "en": "dsh-canvas-preview is now listed on the DeepSeek Harness Plugin Store. Conversation Canvas tab: live-preview workspace HTML artifacts and export PNG/JPG/SVG locally (`npx dsh-canvas-preview`).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-65e8cf7b5a051e864dfc.html"
+  }
+}

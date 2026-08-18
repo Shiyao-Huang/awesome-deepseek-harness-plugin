@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-sound-lab — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-ac9e4cf7d58d10fb6746.atom.xml</id>
+  <updated>2026-08-18T10:48:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-ac9e4cf7d58d10fb6746.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ac9e4cf7d58d10fb6746.html"/>
+  <entry>
+    <title>New: dsh-sound-lab</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-ac9e4cf7d58d10fb6746/f135107654d86f25</id>
+    <updated>2026-08-18T10:48:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ac9e4cf7d58d10fb6746.html"/>
+    <author><name>miiaowuwu</name></author>
+    <category term="notify"/>
+    <summary>Event sounds for DSH: plays a chosen sound on session end, options popup, permission request and stop, with AI-generated character voice lines and a manageable sound library. Exact install spec: dsh-sound-lab. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

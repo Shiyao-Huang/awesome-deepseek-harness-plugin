@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-d1240873d054d116ad5c",
+    "name": "dsh-design",
+    "author": "Viger1",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/Viger1/dsh-design",
+    "firstObservedAt": "2026-08-18T10:48:49Z",
+    "lastChangedAt": "2026-08-18T10:48:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-d1240873d054d116ad5c.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-d1240873d054d116ad5c.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-design",
+    "command": "dsh plugin --profile web add dsh-design",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-d1240873d054d116ad5c，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-d1240873d054d116ad5c.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-d1240873d054d116ad5c.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-design 已收录到 DeepSeek Harness Plugin Store。在渲染后的页面上测量设计规则，而非解析 CSS——字号种类、与真实合成背景比对的 WCAG AA 对比度、间距栅格偏移、配色规模、点击区尺寸，以及「机器味指纹」（如按色相角度判定的紫色渐变）；内置 design-system 技能。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-d1240873d054d116ad5c.html",
+    "en": "dsh-design is now listed on the DeepSeek Harness Plugin Store. Measures design rules on the rendered page rather than in the CSS — type-scale count, WCAG AA contrast against the real composited backdrop, spacing-grid drift, palette size, tap targets, and the tells of generated UI such as violet gradients caught by hue angle; ships a design-system skill.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-d1240873d054d116ad5c.html"
+  }
+}

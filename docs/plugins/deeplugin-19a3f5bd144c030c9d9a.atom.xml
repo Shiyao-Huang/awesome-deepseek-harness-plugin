@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-file — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-19a3f5bd144c030c9d9a.atom.xml</id>
+  <updated>2026-08-18T10:48:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-19a3f5bd144c030c9d9a.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-19a3f5bd144c030c9d9a.html"/>
+  <entry>
+    <title>New: dsh-file</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-19a3f5bd144c030c9d9a/f135107654d86f25</id>
+    <updated>2026-08-18T10:48:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-19a3f5bd144c030c9d9a.html"/>
+    <author><name>chengzhi43</name></author>
+    <category term="ui"/>
+    <summary>VS Code-style file manager: browse the conversation workspace in a sidebar tree and edit files in the center column with Monaco, with theme import/export and Markdown preview. Exact install spec: github:chengzhi43/dsh-file. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

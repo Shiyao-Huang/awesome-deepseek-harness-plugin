@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-ccf817056bc1ef6a642f",
+    "name": "Dep Audit",
+    "author": "zoahdev",
+    "category": "security",
+    "version": "0.1.0",
+    "homepage": "https://github.com/zoahdev/dsh-dep-audit",
+    "firstObservedAt": "2026-08-18T10:48:49Z",
+    "lastChangedAt": "2026-08-18T10:48:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-ccf817056bc1ef6a642f.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-ccf817056bc1ef6a642f.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-dep-audit",
+    "command": "dsh plugin --profile web add dsh-dep-audit",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-ccf817056bc1ef6a642f，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-ccf817056bc1ef6a642f.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-ccf817056bc1ef6a642f.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "Dep Audit 已收录到 DeepSeek Harness Plugin Store。依赖供应链卫生审计：peer 范围可解析性、坏 dist-tag 检测（#2763 类）、过期/缺许可证/非注册表来源依赖，以及安装版本与声明的漂移。CLI + agent 可调用 dep_audit 工具，输出 dsh-dep-audit/v1 报告。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-ccf817056bc1ef6a642f.html",
+    "en": "Dep Audit is now listed on the DeepSeek Harness Plugin Store. Dependency supply-chain hygiene audit for DeepSeek Harness: peer-range resolvability, broken dist-tag detection (#2763 class), stale/missing-license/non-registry deps, and installed-vs-declared drift. CLI + agent-callable dep_audit tool with dsh-dep-audit/v1 reports.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-ccf817056bc1ef6a642f.html"
+  }
+}

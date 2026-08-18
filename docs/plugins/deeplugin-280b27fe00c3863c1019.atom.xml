@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>dsh-git-worktree — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-280b27fe00c3863c1019.atom.xml</id>
-  <updated>2026-08-16T09:56:16Z</updated>
+  <updated>2026-08-18T10:48:49Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-280b27fe00c3863c1019.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-280b27fe00c3863c1019.html"/>
+  <entry>
+    <title>Updated: dsh-git-worktree</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-280b27fe00c3863c1019/80f5795f146110ac</id>
+    <updated>2026-08-18T10:48:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-280b27fe00c3863c1019.html"/>
+    <author><name>wloops</name></author>
+    <category term="tools"/>
+    <summary>Domi-grade git worktree isolation and delivery: permanent worktrees under .dsh-worktrees, ready-for-review / apply / finish / discard lifecycle with conflict handling and safe cleanup (ported from Domi's production system). Exact install spec: dsh-git-worktree. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
   <entry>
     <title>Updated: dsh-git-worktree</title>
     <id>tag:deeplugin.store,2026-08-16:deeplugin-280b27fe00c3863c1019/d947fc14d81f9c69</id>

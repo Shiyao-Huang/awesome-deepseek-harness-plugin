@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-0e16b0406042a1c3734d",
+    "name": "dsh-web-artifact-designer",
+    "author": "xulelenlp",
+    "category": "skill",
+    "version": null,
+    "homepage": "https://github.com/xulelenlp/dsh-web-artifact-designer",
+    "firstObservedAt": "2026-08-18T10:48:49Z",
+    "lastChangedAt": "2026-08-18T10:48:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-0e16b0406042a1c3734d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-0e16b0406042a1c3734d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-web-artifact-designer",
+    "command": "dsh plugin --profile web add dsh-web-artifact-designer",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-0e16b0406042a1c3734d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-0e16b0406042a1c3734d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-0e16b0406042a1c3734d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-web-artifact-designer 已收录到 DeepSeek Harness Plugin Store。面向 DSH 的设计稿生成 skill（改编自 Anthropic canvas-design / web-artifacts-builder）：把设计需求做成可直接打开的自包含 HTML/SVG 设计稿（海报、信息图、落地页、图表、组件稿），内置交付前质量清单与「去 AI 味」反模式清单。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-0e16b0406042a1c3734d.html",
+    "en": "dsh-web-artifact-designer is now listed on the DeepSeek Harness Plugin Store. Design-artifact skill adapted from Anthropic canvas-design / web-artifacts-builder: turns a design brief into a self-contained HTML/SVG artifact (posters, infographics, landing pages, charts, component mockups) with a pre-delivery quality checklist and an anti-AI-look pattern list.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-0e16b0406042a1c3734d.html"
+  }
+}

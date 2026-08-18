@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-f0228fde3f24c05087e9",
+    "name": "dsh-lark-bot",
+    "author": "PlutoKeating",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/PlutoKeating/dsh-lark-bot",
+    "firstObservedAt": "2026-08-18T10:48:49Z",
+    "lastChangedAt": "2026-08-18T10:48:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-f0228fde3f24c05087e9.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-f0228fde3f24c05087e9.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-lark-bot",
+    "command": "dsh plugin --profile web add dsh-lark-bot",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-f0228fde3f24c05087e9，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-f0228fde3f24c05087e9.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-f0228fde3f24c05087e9.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-lark-bot 已收录到 DeepSeek Harness Plugin Store。把 DeepSeek Harness 装进飞书的桥接插件：扫码绑定 PersonalAgent、流式卡片、git worktree 项目工作区、scope 并行任务、多角色 Agent、跨会话通知、对话内模型/密钥管理，以及 dsh 崩溃后仍在飞书应答的安全网守护。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-f0228fde3f24c05087e9.html",
+    "en": "dsh-lark-bot is now listed on the DeepSeek Harness Plugin Store. Feishu/Lark bridge for DeepSeek Harness: scan-to-connect PersonalAgent binding, streaming cards, git-worktree project workspaces, parallel per-scope tasks, multi-role agents, cross-session notify, in-chat model/key management, and a safety-net guardian that still answers in Feishu after dsh crashes.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-f0228fde3f24c05087e9.html"
+  }
+}

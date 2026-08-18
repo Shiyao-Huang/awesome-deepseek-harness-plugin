@@ -5,6 +5,32 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 2026-08-18T10:48:49Z | github | plugin | [Dep Audit](https://github.com/zoahdev/dsh-dep-audit) | zoahdev | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-canvas-preview](https://github.com/jiuyuechuwuhao/dsh-canvas-preview) | jiuyuechuwuhao | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-change-budget](https://github.com/Raphaelutumn/dsh-change-budget) | Raphaelutumn | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-coding-subscription-oauth](https://github.com/lninghaha/dsh-coding-subscription-oauth) | lninghaha | operations-and-safety |
+| 2026-08-18 | github | plugin | [dsh-deepseek-pet](https://github.com/txlznbzsdj-collab/dsh-deepseek-pet) | txlznbzsdj-collab | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-design](https://github.com/Viger1/dsh-design) | Viger1 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-dracula-theme](https://github.com/ossFrankFrank/dsh-dracula-theme) | ossFrankFrank | ui-and-desktop |
+| 2026-08-18 | github | plugin | [dsh-engineering-workflow](https://github.com/82c86b8z86-stack/dsh-engineering-workflow) | 82c86b8z86-stack | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-file](https://github.com/chengzhi43/dsh-file) | chengzhi43 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-llm-codex](https://github.com/NOirBRight/dsh-llm-codex) | NOirBRight | multimedia-and-vision |
+| 2026-08-18 | github | plugin | [dsh-llm-failover](https://github.com/HB00/dsh-llm-failover) | HB00 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-mc-agent](https://github.com/hellosky983/dsh-mc-agent) | hellosky983 | core-and-ecosystem |
+| 2026-08-18T10:48:49Z | github | plugin | [dsh-mqtt](https://github.com/UllrAI/dsh-mqtt) | UllrAI | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-omni-bridge](https://github.com/baisama-cloud/dsh-omni-bridge) | baisama-cloud | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-sound-lab](https://github.com/miiaowuwu/dsh-sound-lab) | miiaowuwu | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-usage-dashboard-plus](https://github.com/1HelloMan1/dsh-usage-dashboard-plus) | 1HelloMan1 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-vision-fallback](https://github.com/1HelloMan1/dsh-vision-fallback) | 1HelloMan1 | multimedia-and-vision |
+| 2026-08-18 | github | plugin | [dsh-wallpaper-engine](https://github.com/ruijiaang-lab/dsh-wallpaper-engine) | ruijiaang-lab | docs-and-learning |
+| 2026-08-18 | github | plugin | [dsh-web-artifact-designer](https://github.com/xulelenlp/dsh-web-artifact-designer) | xulelenlp | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-whale-desktop-launcher](https://github.com/HUITianYi/dsh-whale-desktop-launcher) | HUITianYi | ui-and-desktop |
+| 2026-08-18 | github | plugin | [dsh-whale-pet](https://github.com/miku00039-01/dsh-whale-pet) | miku00039-01 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-wxauto-plugin](https://github.com/br1nosense/dsh-wxauto-plugin) | br1nosense | core-and-ecosystem |
+| 2026-08-18T10:48:49Z | github | ecosystem-reference | [heartleo/hn-clihacker-news](https://github.com/heartleo/hn-cli) | heartleo | core-and-ecosystem |
+| 2026-08-18T10:48:49Z | github | plugin | [hyzyn/dsh-plugin-kitsearch](https://github.com/hyzyn/dsh-plugin-kit) | hyzyn | ui-and-desktop |
+| 2026-08-18 | github | plugin | [mattpocock-skills-dsh](https://github.com/JUNQINGV587/mattpocock-skills-dsh) | JUNQINGV587 | core-and-ecosystem |
+| 2026-08-18T10:48:49Z | github | ecosystem-reference | [单机游戏内 AI 同伴「小汤圆」](https://github.com/qimidandapigu/dsh-xiaotangyuan-game) | qimidandapigu | core-and-ecosystem |
 | 2026-08-18 | github | plugin | [InfiniteDSH](https://github.com/vdnight89/InfiniteDSH) | vdnight89 | core-and-ecosystem |
 | 2026-08-18 | github | plugin | [deepseek-web-import](https://github.com/wpc0323/deepseek-web-import) | wpc0323 | core-and-ecosystem |
 | 2026-08-18 | github | plugin | [dsh-artifacts](https://github.com/zoahdev/dsh-artifacts) | zoahdev | core-and-ecosystem |

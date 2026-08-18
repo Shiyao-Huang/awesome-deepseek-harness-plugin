@@ -11,8 +11,8 @@
     <updated>2026-08-15T22:14:49Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9a884a8e8a4e2bfb3184.html"/>
     <author><name>leechen298</name></author>
-    <category term="skill"/>
-    <summary>Generates Function, MCP, Agent Skill, and offline test packages from existing code as an installable DSH bundle. Exact install spec: github:leechen298/code2skill. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+    <category term="dev"/>
+    <summary>Generate Functions, MCP tools, workflow Skills, and offline test packages from user-authorized source code. Exact install spec: github:leechen298/code2skill. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
   </entry>
   <entry>
     <title>Updated: Code2Skill</title>
@@ -20,8 +20,8 @@
     <updated>2026-08-15T22:14:49Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9a884a8e8a4e2bfb3184.html"/>
     <author><name>leechen298</name></author>
-    <category term="skill"/>
-    <summary>Generates Function, MCP, Agent Skill, and offline test packages from existing code as an installable DSH bundle. Exact install spec: github:leechen298/code2skill. Source event: dsh-market/dsh-market; changed: sources.</summary>
+    <category term="dev"/>
+    <summary>Generate Functions, MCP tools, workflow Skills, and offline test packages from user-authorized source code. Exact install spec: github:leechen298/code2skill. Source event: dsh-market/dsh-market; changed: sources.</summary>
   </entry>
   <entry>
     <title>Updated: Code2Skill</title>
@@ -29,8 +29,8 @@
     <updated>2026-08-15T22:14:49Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9a884a8e8a4e2bfb3184.html"/>
     <author><name>leechen298</name></author>
-    <category term="skill"/>
-    <summary>Generates Function, MCP, Agent Skill, and offline test packages from existing code as an installable DSH bundle. Exact install spec: github:leechen298/code2skill. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+    <category term="dev"/>
+    <summary>Generate Functions, MCP tools, workflow Skills, and offline test packages from user-authorized source code. Exact install spec: github:leechen298/code2skill. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
   </entry>
   <entry>
     <title>New: Code2Skill</title>
@@ -38,7 +38,7 @@
     <updated>2026-08-15T22:14:49Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9a884a8e8a4e2bfb3184.html"/>
     <author><name>leechen298</name></author>
-    <category term="skill"/>
-    <summary>Generates Function, MCP, Agent Skill, and offline test packages from existing code as an installable DSH bundle. Exact install spec: github:leechen298/code2skill. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+    <category term="dev"/>
+    <summary>Generate Functions, MCP tools, workflow Skills, and offline test packages from user-authorized source code. Exact install spec: github:leechen298/code2skill. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

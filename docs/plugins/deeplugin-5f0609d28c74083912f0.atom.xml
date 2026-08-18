@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-plugin-kit#search — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-5f0609d28c74083912f0.atom.xml</id>
+  <updated>2026-08-18T10:48:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-5f0609d28c74083912f0.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-5f0609d28c74083912f0.html"/>
+  <entry>
+    <title>New: dsh-plugin-kit#search</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-5f0609d28c74083912f0/f135107654d86f25</id>
+    <updated>2026-08-18T10:48:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-5f0609d28c74083912f0.html"/>
+    <author><name>hyzyn</name></author>
+    <category term="session"/>
+    <summary>Full-text global search for the DSH Web GUI: a sidebar search box that searches history sessions (via the sessionQuery index, with a per-session scan fallback) and settings panels, highlights matches, and jumps to the matching session or settings card. Exact install spec: github:hyzyn/dsh-plugin-kit#path:/packages/search. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

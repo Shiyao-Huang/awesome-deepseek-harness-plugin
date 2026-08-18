@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-7bb56aa94ea8e6c92716",
+    "name": "hn-cli#hacker-news",
+    "author": "heartleo",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/heartleo/hn-cli/tree/main/plugins/hacker-news",
+    "firstObservedAt": "2026-08-18T10:48:49Z",
+    "lastChangedAt": "2026-08-18T10:48:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-7bb56aa94ea8e6c92716.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-7bb56aa94ea8e6c92716.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-hacker-news",
+    "command": "dsh plugin --profile web add dsh-hacker-news",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-7bb56aa94ea8e6c92716，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-7bb56aa94ea8e6c92716.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-7bb56aa94ea8e6c92716.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "hn-cli#hacker-news 已收录到 DeepSeek Harness Plugin Store。用于获取 Hacker News 榜单、讨论串、搜索和用户资料的工具。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-7bb56aa94ea8e6c92716.html",
+    "en": "hn-cli#hacker-news is now listed on the DeepSeek Harness Plugin Store. Hacker News tools for feeds, discussion threads, search, and user profiles.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-7bb56aa94ea8e6c92716.html"
+  }
+}

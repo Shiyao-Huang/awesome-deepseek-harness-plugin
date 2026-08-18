@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-canvas-preview — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-65e8cf7b5a051e864dfc.atom.xml</id>
+  <updated>2026-08-18T10:48:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-65e8cf7b5a051e864dfc.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-65e8cf7b5a051e864dfc.html"/>
+  <entry>
+    <title>New: dsh-canvas-preview</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-65e8cf7b5a051e864dfc/f135107654d86f25</id>
+    <updated>2026-08-18T10:48:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-65e8cf7b5a051e864dfc.html"/>
+    <author><name>jiuyuechuwuhao</name></author>
+    <category term="ui"/>
+    <summary>Conversation Canvas tab: live-preview workspace HTML artifacts and export PNG/JPG/SVG locally (`npx dsh-canvas-preview`). Exact install spec: dsh-canvas-preview. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-d340c6b4564ee6781579",
+    "name": "mattpocock-skills-dsh",
+    "author": "JUNQINGV587",
+    "category": "skill",
+    "version": null,
+    "homepage": "https://github.com/JUNQINGV587/mattpocock-skills-dsh",
+    "firstObservedAt": "2026-08-18T10:48:49Z",
+    "lastChangedAt": "2026-08-18T10:48:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-d340c6b4564ee6781579.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-d340c6b4564ee6781579.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:junqingv587/mattpocock-skills-dsh",
+    "command": "dsh plugin --profile web add github:junqingv587/mattpocock-skills-dsh",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-d340c6b4564ee6781579，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-d340c6b4564ee6781579.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-d340c6b4564ee6781579.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "mattpocock-skills-dsh 已收录到 DeepSeek Harness Plugin Store。将 Matt Pocock 的 25 个精选工程与效率 Agent 技能（grilling、TDD、代码审查、领域建模等）移植为 DeepSeek Harness 插件包。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-d340c6b4564ee6781579.html",
+    "en": "mattpocock-skills-dsh is now listed on the DeepSeek Harness Plugin Store. DSH bundle porting Matt Pocock's 25 promoted engineering and productivity agent skills (grilling, TDD, code review, domain modeling, etc.).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-d340c6b4564ee6781579.html"
+  }
+}

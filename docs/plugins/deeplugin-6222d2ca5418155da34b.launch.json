@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-6222d2ca5418155da34b",
+    "name": "dsh-engineering-workflow",
+    "author": "82c86b8z86-stack",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/82c86b8z86-stack/dsh-engineering-workflow",
+    "firstObservedAt": "2026-08-18T10:48:49Z",
+    "lastChangedAt": "2026-08-18T10:48:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-6222d2ca5418155da34b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-6222d2ca5418155da34b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:82c86b8z86-stack/dsh-engineering-workflow",
+    "command": "dsh plugin --profile web add github:82c86b8z86-stack/dsh-engineering-workflow",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-6222d2ca5418155da34b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-6222d2ca5418155da34b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-6222d2ca5418155da34b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-engineering-workflow 已收录到 DeepSeek Harness Plugin Store。工程化工作流 agent preset：五阶段硬门禁（需求澄清、计划审批、TDD、子 Agent 并行、验证收尾），附 6 个改编自 obra/superpowers 的工作流技能。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-6222d2ca5418155da34b.html",
+    "en": "dsh-engineering-workflow is now listed on the DeepSeek Harness Plugin Store. Engineering workflow agent preset for dsh: five gated phases (requirements clarification, plan approval, TDD, parallel subagents, verified finishing) with six workflow skills adapted from obra/superpowers.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-6222d2ca5418155da34b.html"
+  }
+}

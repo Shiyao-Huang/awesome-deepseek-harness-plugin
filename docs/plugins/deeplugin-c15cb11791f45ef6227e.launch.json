@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-c15cb11791f45ef6227e",
+    "name": "deepseek-heartflow",
+    "author": "yun520-1",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/yun520-1/deepseek-heartflow",
+    "firstObservedAt": "2026-08-18T10:48:49Z",
+    "lastChangedAt": "2026-08-18T10:48:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-c15cb11791f45ef6227e.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-c15cb11791f45ef6227e.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:yun520-1/deepseek-heartflow",
+    "command": "dsh plugin --profile web add github:yun520-1/deepseek-heartflow",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-c15cb11791f45ef6227e，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-c15cb11791f45ef6227e.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-c15cb11791f45ef6227e.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "deepseek-heartflow 已收录到 DeepSeek Harness Plugin Store。心虫（AGI 第1层辨别门禁）作为 DSH 插件：47 维纯规则文本判别（heartflow_check 工具）+ 工具调用后自动输出监督（fail-closed，引擎缺失时拒绝放行）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c15cb11791f45ef6227e.html",
+    "en": "deepseek-heartflow is now listed on the DeepSeek Harness Plugin Store. HeartFlow (心虫) AGI layer-1 discriminator gate as a DSH plugin: 47-dimension rule-based text checking (heartflow_check tool) plus automatic output supervision at tools/post-execute, fail-closed when engine missing.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-c15cb11791f45ef6227e.html"
+  }
+}

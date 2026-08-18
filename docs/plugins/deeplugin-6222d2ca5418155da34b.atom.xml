@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-engineering-workflow — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-6222d2ca5418155da34b.atom.xml</id>
+  <updated>2026-08-18T10:48:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-6222d2ca5418155da34b.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-6222d2ca5418155da34b.html"/>
+  <entry>
+    <title>New: dsh-engineering-workflow</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-6222d2ca5418155da34b/f135107654d86f25</id>
+    <updated>2026-08-18T10:48:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-6222d2ca5418155da34b.html"/>
+    <author><name>82c86b8z86-stack</name></author>
+    <category term="workflow"/>
+    <summary>Engineering workflow agent preset for dsh: five gated phases (requirements clarification, plan approval, TDD, parallel subagents, verified finishing) with six workflow skills adapted from obra/superpowers. Exact install spec: github:82c86b8z86-stack/dsh-engineering-workflow. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

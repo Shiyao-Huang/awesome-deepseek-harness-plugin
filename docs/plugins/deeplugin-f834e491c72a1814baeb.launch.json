@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-f834e491c72a1814baeb",
+    "name": "dsh-status-rotator",
+    "author": "01Virex",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/01Virex/dsh-status-rotator",
+    "firstObservedAt": "2026-08-18T10:48:49Z",
+    "lastChangedAt": "2026-08-18T10:48:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-f834e491c72a1814baeb.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-f834e491c72a1814baeb.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-status-rotator",
+    "command": "dsh plugin --profile web add dsh-status-rotator",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-f834e491c72a1814baeb，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-f834e491c72a1814baeb.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-f834e491c72a1814baeb.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-status-rotator 已收录到 DeepSeek Harness Plugin Store。把回合状态那句 \"Deep diving...\" 替换成更有梗的自定义文案，按阶段轮换，支持打字机与流动渐变。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-f834e491c72a1814baeb.html",
+    "en": "dsh-status-rotator is now listed on the DeepSeek Harness Plugin Store. Replaces the \"Deep diving...\" turn-status label with rotating meme-worthy phrases, with typewriter and gradient effects.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-f834e491c72a1814baeb.html"
+  }
+}

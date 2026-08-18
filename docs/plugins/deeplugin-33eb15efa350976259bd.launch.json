@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/wefio/dsh-cache-miss",
     "firstObservedAt": "2026-08-18T08:55:48Z",
-    "lastChangedAt": "2026-08-18T08:55:48Z"
+    "lastChangedAt": "2026-08-18T10:48:49Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-33eb15efa350976259bd.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-33eb15efa350976259bd.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-cache-miss 已收录到 DeepSeek Harness Plugin Store。在重建了提示缓存的 assistant 回复下方显示一条黄色的缓存未命中提示。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-33eb15efa350976259bd.html",
-    "en": "dsh-cache-miss is now listed on the DeepSeek Harness Plugin Store. Yellow one-line prompt-cache-miss notice under assistant replies that rebuilt the prompt cache.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-33eb15efa350976259bd.html"
+    "zh": "dsh-cache-miss 已收录到 DeepSeek Harness Plugin Store。提示缓存未命中（cache miss）时，在重建缓存的 assistant 回复下方显示一条黄色缓存提示，展示未缓存（uncached）重新计费（re-billed）的输入 token、缓存命中 token 与首字延迟（TTFT）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-33eb15efa350976259bd.html",
+    "en": "dsh-cache-miss is now listed on the DeepSeek Harness Plugin Store. Yellow one-line notice for a prompt cache miss after the cache was rebuilt; shows re-billed uncached input tokens, cached hit tokens, and TTFT.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-33eb15efa350976259bd.html"
   }
 }

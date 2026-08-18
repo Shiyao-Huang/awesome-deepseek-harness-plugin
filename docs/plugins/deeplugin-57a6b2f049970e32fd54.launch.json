@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-57a6b2f049970e32fd54",
+    "name": "dsh-llm-codex",
+    "author": "NOirBRight",
+    "category": "model",
+    "version": null,
+    "homepage": "https://github.com/NOirBRight/dsh-llm-codex",
+    "firstObservedAt": "2026-08-18T10:48:49Z",
+    "lastChangedAt": "2026-08-18T10:48:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-57a6b2f049970e32fd54.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-57a6b2f049970e32fd54.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:noirbright/dsh-llm-codex",
+    "command": "dsh plugin --profile web add github:noirbright/dsh-llm-codex",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-57a6b2f049970e32fd54，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-57a6b2f049970e32fd54.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-57a6b2f049970e32fd54.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-llm-codex 已收录到 DeepSeek Harness Plugin Store。ChatGPT Codex 订阅聊天：官方 OAuth 登录，Sol/Terra/Luna 目录含 Fast 行，实时额度，以及可选的搜索与 view_image 工具。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-57a6b2f049970e32fd54.html",
+    "en": "dsh-llm-codex is now listed on the DeepSeek Harness Plugin Store. ChatGPT Codex subscription chat: official OAuth, a Sol/Terra/Luna catalog with Fast rows, live usage limits, and optional search and view_image tools.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-57a6b2f049970e32fd54.html"
+  }
+}

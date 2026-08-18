@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Dep Audit — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-ccf817056bc1ef6a642f.atom.xml</id>
+  <updated>2026-08-18T10:48:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-ccf817056bc1ef6a642f.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ccf817056bc1ef6a642f.html"/>
+  <entry>
+    <title>New: Dep Audit</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-ccf817056bc1ef6a642f/ef3e5d4cb610ec6c</id>
+    <updated>2026-08-18T10:48:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ccf817056bc1ef6a642f.html"/>
+    <author><name>zoahdev</name></author>
+    <category term="security"/>
+    <summary>Dependency supply-chain hygiene audit for DeepSeek Harness: peer-range resolvability, broken dist-tag detection (#2763 class), stale/missing-license/non-registry deps, and installed-vs-declared drift. CLI + agent-callable dep_audit tool with dsh-dep-audit/v1 reports. Exact install spec: dsh-dep-audit. Source event: zoahdev/dsh-subscribe; changed: listed.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-lark-bot — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-f0228fde3f24c05087e9.atom.xml</id>
+  <updated>2026-08-18T10:48:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-f0228fde3f24c05087e9.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f0228fde3f24c05087e9.html"/>
+  <entry>
+    <title>New: dsh-lark-bot</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-f0228fde3f24c05087e9/f135107654d86f25</id>
+    <updated>2026-08-18T10:48:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f0228fde3f24c05087e9.html"/>
+    <author><name>PlutoKeating</name></author>
+    <category term="notify"/>
+    <summary>Feishu/Lark bridge for DeepSeek Harness: scan-to-connect PersonalAgent binding, streaming cards, git-worktree project workspaces, parallel per-scope tasks, multi-role agents, cross-session notify, in-chat model/key management, and a safety-net guardian that still answers in Feishu after dsh crashes. Exact install spec: dsh-lark-bot. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

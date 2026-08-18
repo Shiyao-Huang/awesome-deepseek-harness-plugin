@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-5f0609d28c74083912f0",
+    "name": "dsh-plugin-kit#search",
+    "author": "hyzyn",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/hyzyn/dsh-plugin-kit/tree/main/packages/search",
+    "firstObservedAt": "2026-08-18T10:48:49Z",
+    "lastChangedAt": "2026-08-18T10:48:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-5f0609d28c74083912f0.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-5f0609d28c74083912f0.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:hyzyn/dsh-plugin-kit#path:/packages/search",
+    "command": "dsh plugin --profile web add github:hyzyn/dsh-plugin-kit#path:/packages/search",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-5f0609d28c74083912f0，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-5f0609d28c74083912f0.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-5f0609d28c74083912f0.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-kit#search 已收录到 DeepSeek Harness Plugin Store。DSH Web GUI 的全局搜索插件：侧边栏全局搜索框全文搜索历史会话（走 sessionQuery 全文索引，未启用时降级为逐会话扫描）与设置面板，关键词高亮，点击直达会话或对应设置卡片。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-5f0609d28c74083912f0.html",
+    "en": "dsh-plugin-kit#search is now listed on the DeepSeek Harness Plugin Store. Full-text global search for the DSH Web GUI: a sidebar search box that searches history sessions (via the sessionQuery index, with a per-session scan fallback) and settings panels, highlights matches, and jumps to the matching session or settings card.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-5f0609d28c74083912f0.html"
+  }
+}

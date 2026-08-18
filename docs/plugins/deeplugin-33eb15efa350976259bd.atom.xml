@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>dsh-cache-miss — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-33eb15efa350976259bd.atom.xml</id>
-  <updated>2026-08-18T08:55:48Z</updated>
+  <updated>2026-08-18T10:48:49Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-33eb15efa350976259bd.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-33eb15efa350976259bd.html"/>
+  <entry>
+    <title>Updated: dsh-cache-miss</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-33eb15efa350976259bd/80f5795f146110ac</id>
+    <updated>2026-08-18T10:48:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-33eb15efa350976259bd.html"/>
+    <author><name>wefio</name></author>
+    <category term="ui"/>
+    <summary>Yellow one-line notice for a prompt cache miss after the cache was rebuilt; shows re-billed uncached input tokens, cached hit tokens, and TTFT. Exact install spec: dsh-cache-miss. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
   <entry>
     <title>New: dsh-cache-miss</title>
     <id>tag:deeplugin.store,2026-08-18:deeplugin-33eb15efa350976259bd/dd281d53d0051a31</id>
@@ -12,6 +21,6 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-33eb15efa350976259bd.html"/>
     <author><name>wefio</name></author>
     <category term="ui"/>
-    <summary>Yellow one-line prompt-cache-miss notice under assistant replies that rebuilt the prompt cache. Exact install spec: dsh-cache-miss. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+    <summary>Yellow one-line notice for a prompt cache miss after the cache was rebuilt; shows re-billed uncached input tokens, cached hit tokens, and TTFT. Exact install spec: dsh-cache-miss. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

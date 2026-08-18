@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-vision-fallback — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-f9a50565c806307b0ba8.atom.xml</id>
+  <updated>2026-08-18T10:48:49Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-f9a50565c806307b0ba8.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f9a50565c806307b0ba8.html"/>
+  <entry>
+    <title>New: dsh-vision-fallback</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-f9a50565c806307b0ba8/f135107654d86f25</id>
+    <updated>2026-08-18T10:48:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f9a50565c806307b0ba8.html"/>
+    <author><name>1HelloMan1</name></author>
+    <category term="vision"/>
+    <summary>Routes chat images to a fixed OpenAI-compatible vision model, returns factual observations to the selected main model, and reuses session-scoped observations across replay, compaction, and restarts. Exact install spec: dsh-vision-fallback. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

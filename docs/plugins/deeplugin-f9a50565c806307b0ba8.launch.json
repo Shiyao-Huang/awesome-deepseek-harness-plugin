@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-f9a50565c806307b0ba8",
+    "name": "dsh-vision-fallback",
+    "author": "1HelloMan1",
+    "category": "vision",
+    "version": null,
+    "homepage": "https://github.com/1HelloMan1/dsh-vision-fallback",
+    "firstObservedAt": "2026-08-18T10:48:49Z",
+    "lastChangedAt": "2026-08-18T10:48:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-f9a50565c806307b0ba8.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-f9a50565c806307b0ba8.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-vision-fallback",
+    "command": "dsh plugin --profile web add dsh-vision-fallback",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-f9a50565c806307b0ba8，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-f9a50565c806307b0ba8.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-f9a50565c806307b0ba8.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-vision-fallback 已收录到 DeepSeek Harness Plugin Store。将聊天图片交给固定的 OpenAI 兼容视觉模型，把事实性观察交给当前主模型，并在事件回放、上下文压缩和重启时复用会话内观察。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-f9a50565c806307b0ba8.html",
+    "en": "dsh-vision-fallback is now listed on the DeepSeek Harness Plugin Store. Routes chat images to a fixed OpenAI-compatible vision model, returns factual observations to the selected main model, and reuses session-scoped observations across replay, compaction, and restarts.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-f9a50565c806307b0ba8.html"
+  }
+}

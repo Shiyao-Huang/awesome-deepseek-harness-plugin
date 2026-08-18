@@ -2,9 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>deeplugin.store — Updated plugins</title>
   <id>https://deeplugin.store/feeds/updated.atom.xml</id>
-  <updated>2026-08-18T08:55:48Z</updated>
+  <updated>2026-08-18T10:48:49Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/feeds/updated.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/market.html"/>
+  <entry>
+    <title>Updated: dsh-status-rotator</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-c928c671876f548d48d9/8be2e47c600c2829</id>
+    <updated>2026-08-18T10:48:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c928c671876f548d48d9.html"/>
+    <author><name>01Virex</name></author>
+    <category term="ui"/>
+    <summary>Replaces the "Deep diving..." turn-status label with rotating meme-worthy phrases, with typewriter and gradient effects. Exact install spec: github:01virex/dsh-status-rotator. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
+  </entry>
+  <entry>
+    <title>Updated: deepseek-heartflow</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-6c230535be17d8bd8b72/8be2e47c600c2829</id>
+    <updated>2026-08-18T10:48:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-6c230535be17d8bd8b72.html"/>
+    <author><name>yun520-1</name></author>
+    <category term="tools"/>
+    <summary>HeartFlow (心虫) AGI layer-1 discriminator gate as a DSH plugin: 47-dimension rule-based text checking (heartflow_check tool) plus automatic output supervision at tools/post-execute, fail-closed when engine missing. Exact install spec: @yun520-1/deepseek-heartflow. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-cache-miss</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-33eb15efa350976259bd/80f5795f146110ac</id>
+    <updated>2026-08-18T10:48:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-33eb15efa350976259bd.html"/>
+    <author><name>wefio</name></author>
+    <category term="ui"/>
+    <summary>Yellow one-line notice for a prompt cache miss after the cache was rebuilt; shows re-billed uncached input tokens, cached hit tokens, and TTFT. Exact install spec: dsh-cache-miss. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-git-worktree</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-280b27fe00c3863c1019/80f5795f146110ac</id>
+    <updated>2026-08-18T10:48:49Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-280b27fe00c3863c1019.html"/>
+    <author><name>wloops</name></author>
+    <category term="tools"/>
+    <summary>Domi-grade git worktree isolation and delivery: permanent worktrees under .dsh-worktrees, ready-for-review / apply / finish / discard lifecycle with conflict handling and safe cleanup (ported from Domi's production system). Exact install spec: dsh-git-worktree. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
   <entry>
     <title>Updated: spec-driven</title>
     <id>tag:deeplugin.store,2026-08-18:deeplugin-f059de2bd310f1539deb/d490947d4a0e9d46</id>
@@ -447,15 +483,6 @@
     <summary>Vision for any DSH route: paste images in the Web composer with intent-aware auto-analysis, delegate workspace image reads to a Kimi/MiniMax vision subagent, and materialize pasted originals for editing. Exact install spec: dsh-vision-subagent. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
   </entry>
   <entry>
-    <title>Updated: dsh-mc-launcher</title>
-    <id>tag:deeplugin.store,2026-08-17:deeplugin-2b5c7596ab97ab785753/cf3251a43a11c2a5</id>
-    <updated>2026-08-17T14:45:53Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-2b5c7596ab97ab785753.html"/>
-    <author><name>hellosky983</name></author>
-    <category term="fun"/>
-    <summary>Minecraft launcher for DeepSeek Harness: download and install versions, sign in with a Microsoft account, launch the game, and drive a Mineflayer bot with autonomous survival, in-game chat and a live map. Exact install spec: github:hellosky983/dsh-mc-launcher. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
-  </entry>
-  <entry>
     <title>Updated: TokenLedger</title>
     <id>tag:deeplugin.store,2026-08-17:deeplugin-2b39ccf707df309d872f/8001505a77a53ea6</id>
     <updated>2026-08-17T14:45:53Z</updated>
@@ -544,15 +571,6 @@
     <author><name>Qing45</name></author>
     <category term="notify"/>
     <summary>Two-way Feishu (Lark) chat bridge for DeepSeek Harness over the official WebSocket long connection: messages route to the bound workspace's latest session and replies return automatically; bot credentials and workspace routing are configurable from the settings page. Exact install spec: github:qing45/dsh-feishu-chat. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-plugin-audit</title>
-    <id>tag:deeplugin.store,2026-08-17:deeplugin-a067b64fa7ba9d67ccf0/20bfbac48d7b1a11</id>
-    <updated>2026-08-17T07:17:53Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a067b64fa7ba9d67ccf0.html"/>
-    <author><name>863683348</name></author>
-    <category term="dev"/>
-    <summary>Ecosystem-wide plugin health audit: syncs the dsh-plugin topic into a local scored catalog (maintenance / docs / npm + weekly downloads / ecosystem, 0-100, A-D), static security scan with high-finding grade veto, star history snapshots, web leaderboard and agent tools. Exact install spec: dsh-audit. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
   </entry>
   <entry>
     <title>Updated: dsh-workbench</title>
@@ -886,23 +904,5 @@
     <author><name>Smalldy</name></author>
     <category term="tools"/>
     <summary>DSH↔Godot engine runtime bridge: launch and drive a running Godot 4.x game through its in-game TCP interaction server — 16 tools (runtime control via ~130 game commands, scene/UI inspection, GDScript eval, input simulation, screenshots, headless static ops, project editing, export, script validation, engine-path setup), replaces godot-mcp. Exact install spec: github:smalldy/godot-bridge. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-composer-history</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-7fe832c977642aa07431/7015190629e27ba8</id>
-    <updated>2026-08-16T16:39:22Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-7fe832c977642aa07431.html"/>
-    <author><name>PerryLink</name></author>
-    <category term="ui"/>
-    <summary>Terminal-style input history for the web composer: edge-first arrow-key recall with exact draft/caret restore, browser-local persisted history, Ctrl+R reverse search, and sliding-context awareness; 0.5.0 adds a smart input layer — cross-session snippets (/save, /load), prompt templates with variables, reuse insights, and compaction-summary highlighting. Exact install spec: dsh-composer-history. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-chat-outline</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-55a14796d9aec910aa26/7015190629e27ba8</id>
-    <updated>2026-08-16T16:39:22Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-55a14796d9aec910aa26.html"/>
-    <author><name>liliuCourier</name></author>
-    <category term="ui"/>
-    <summary>Persistent conversation outline: per-turn questions and final replies, keyword filter, one-click jump, light/full history modes, and Ctrl/Shift+click to open the same position in the Trajectory view. Exact install spec: dsh-chat-outline. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
   </entry>
 </feed>

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-f107160ad01e3d999a53",
+    "name": "dsh-llm-failover",
+    "author": "HB00",
+    "category": "model",
+    "version": null,
+    "homepage": "https://github.com/HB00/dsh-llm-failover",
+    "firstObservedAt": "2026-08-18T10:48:49Z",
+    "lastChangedAt": "2026-08-18T10:48:49Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-f107160ad01e3d999a53.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-f107160ad01e3d999a53.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-llm-failover",
+    "command": "dsh plugin --profile web add dsh-llm-failover",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-f107160ad01e3d999a53，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-f107160ad01e3d999a53.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-f107160ad01e3d999a53.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-llm-failover 已收录到 DeepSeek Harness Plugin Store。限流或配额耗尽时自动切换模型提供方：可按提供方配置模型，带冷却机制与永久最终兜底。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-f107160ad01e3d999a53.html",
+    "en": "dsh-llm-failover is now listed on the DeepSeek Harness Plugin Store. Automatic provider failover on rate limits or quota exhaustion: switch between providers with configurable per-provider models, a cooldown, and a permanent last-entry fallback.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-f107160ad01e3d999a53.html"
+  }
+}
