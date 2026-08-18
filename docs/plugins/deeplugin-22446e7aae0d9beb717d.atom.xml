@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>README Forge — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-22446e7aae0d9beb717d.atom.xml</id>
+  <updated>2026-08-18T14:55:11Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-22446e7aae0d9beb717d.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-22446e7aae0d9beb717d.html"/>
+  <entry>
+    <title>New: README Forge</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-22446e7aae0d9beb717d/78174f4494c78a06</id>
+    <updated>2026-08-18T14:55:11Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-22446e7aae0d9beb717d.html"/>
+    <author><name>zoahdev</name></author>
+    <category term="dev"/>
+    <summary>Generate README.md for dsh plugin repositories from package.json + cordis.patch.yml + source layout: install/CLI/tools/dev/license sections, deterministic, read-only by default. CLI + agent-callable readme_forge tool. Exact install spec: dsh-readme-forge. Source event: zoahdev/dsh-subscribe; changed: listed.</summary>
+  </entry>
+</feed>

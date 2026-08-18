@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-powerdesk — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-9239b9648f29f6bbde42.atom.xml</id>
+  <updated>2026-08-18T14:55:11Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-9239b9648f29f6bbde42.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9239b9648f29f6bbde42.html"/>
+  <entry>
+    <title>New: dsh-powerdesk</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-9239b9648f29f6bbde42/c9baccb628f71fbe</id>
+    <updated>2026-08-18T14:55:11Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9239b9648f29f6bbde42.html"/>
+    <author><name>FleetingEcho</name></author>
+    <category term="dev"/>
+    <summary>A dockable IDE workbench for the DSH web UI: a GPU-accelerated terminal (restty renderer over a Rust PTY), a CodeMirror editor, a file explorer, notes, a sandboxed browser, and ripgrep content search. Exact install spec: github:fleetingecho/dsh-powerdesk. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-llm-github-copilot — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-25a667a576424d10d281.atom.xml</id>
+  <updated>2026-08-18T14:55:11Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-25a667a576424d10d281.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-25a667a576424d10d281.html"/>
+  <entry>
+    <title>New: dsh-llm-github-copilot</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-25a667a576424d10d281/c9baccb628f71fbe</id>
+    <updated>2026-08-18T14:55:11Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-25a667a576424d10d281.html"/>
+    <author><name>lujianjun19</name></author>
+    <category term="model"/>
+    <summary>GitHub Copilot LLM adapter: OAuth device-flow sign-in, live model discovery from the Copilot API, vision support for image-capable models (gpt-4.1, gpt-4o), and two wire protocols (Chat Completions and Responses API) with automatic endpoint routing per model. Exact install spec: @lujianjun19/dsh-llm-github-copilot. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

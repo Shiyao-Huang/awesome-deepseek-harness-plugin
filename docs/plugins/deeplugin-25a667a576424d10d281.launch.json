@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-25a667a576424d10d281",
+    "name": "dsh-llm-github-copilot",
+    "author": "lujianjun19",
+    "category": "model",
+    "version": null,
+    "homepage": "https://github.com/lujianjun19/dsh-llm-github-copilot",
+    "firstObservedAt": "2026-08-18T14:55:11Z",
+    "lastChangedAt": "2026-08-18T14:55:11Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-25a667a576424d10d281.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-25a667a576424d10d281.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@lujianjun19/dsh-llm-github-copilot",
+    "command": "dsh plugin --profile web add @lujianjun19/dsh-llm-github-copilot",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-25a667a576424d10d281，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-25a667a576424d10d281.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-25a667a576424d10d281.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-llm-github-copilot 已收录到 DeepSeek Harness Plugin Store。GitHub Copilot LLM 适配器：OAuth 设备码登录、从 Copilot API 动态发现模型、视觉模型图片输入支持（gpt-4.1、gpt-4o），以及 Chat Completions 与 Responses 双协议，按模型自动路由。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-25a667a576424d10d281.html",
+    "en": "dsh-llm-github-copilot is now listed on the DeepSeek Harness Plugin Store. GitHub Copilot LLM adapter: OAuth device-flow sign-in, live model discovery from the Copilot API, vision support for image-capable models (gpt-4.1, gpt-4o), and two wire protocols (Chat Completions and Responses API) with automatic endpoint routing per model.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-25a667a576424d10d281.html"
+  }
+}

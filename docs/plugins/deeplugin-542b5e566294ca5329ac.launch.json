@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-542b5e566294ca5329ac",
+    "name": "dsh-moonrise",
+    "author": "hanyi7867069-create",
+    "category": "theme",
+    "version": null,
+    "homepage": "https://github.com/hanyi7867069-create/dsh-moonrise",
+    "firstObservedAt": "2026-08-18T14:55:11Z",
+    "lastChangedAt": "2026-08-18T14:55:11Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-542b5e566294ca5329ac.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-542b5e566294ca5329ac.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:hanyi7867069-create/dsh-moonrise",
+    "command": "dsh plugin --profile web add github:hanyi7867069-create/dsh-moonrise",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-542b5e566294ca5329ac，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-542b5e566294ca5329ac.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-542b5e566294ca5329ac.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-moonrise 已收录到 DeepSeek Harness Plugin Store。月升暗色主题——深蓝夜色打底、琥珀月光点缀。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-542b5e566294ca5329ac.html",
+    "en": "dsh-moonrise is now listed on the DeepSeek Harness Plugin Store. Moonrise dark theme for the DSH Web UI, with deep indigo surfaces and warm amber accents.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-542b5e566294ca5329ac.html"
+  }
+}

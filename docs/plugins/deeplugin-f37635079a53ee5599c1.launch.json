@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-f37635079a53ee5599c1",
+    "name": "dsh-usage-monitor",
+    "author": "NOirBRight",
+    "category": "usage",
+    "version": null,
+    "homepage": "https://github.com/NOirBRight/dsh-usage-monitor",
+    "firstObservedAt": "2026-08-18T14:55:11Z",
+    "lastChangedAt": "2026-08-18T14:55:11Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-f37635079a53ee5599c1.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-f37635079a53ee5599c1.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:noirbright/dsh-usage-monitor",
+    "command": "dsh plugin --profile web add github:noirbright/dsh-usage-monitor",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-f37635079a53ee5599c1，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-f37635079a53ee5599c1.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-f37635079a53ee5599c1.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-usage-monitor 已收录到 DeepSeek Harness Plugin Store。设置页用量仪表盘：从会话日志汇总 token、请求、输出 token 与缓存命中率，含堆叠图，并按供应商、模型或工作区分组列表。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-f37635079a53ee5599c1.html",
+    "en": "dsh-usage-monitor is now listed on the DeepSeek Harness Plugin Store. Settings usage dashboard: tokens, requests, output tokens, and cache-hit rate from session logs, with a stacked chart and a breakdown table by provider, model, or workspace.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-f37635079a53ee5599c1.html"
+  }
+}

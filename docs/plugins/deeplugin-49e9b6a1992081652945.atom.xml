@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-query-jump — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-49e9b6a1992081652945.atom.xml</id>
+  <updated>2026-08-18T14:55:11Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-49e9b6a1992081652945.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-49e9b6a1992081652945.html"/>
+  <entry>
+    <title>New: dsh-query-jump</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-49e9b6a1992081652945/c9baccb628f71fbe</id>
+    <updated>2026-08-18T14:55:11Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-49e9b6a1992081652945.html"/>
+    <author><name>SocFeng</name></author>
+    <category term="session"/>
+    <summary>DSH WebUI session query navigation with a faint conversation-edge rail, a hover list of real user queries, and click-to-jump back to the matching bubble. Exact install spec: github:socfeng/dsh-query-jump. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

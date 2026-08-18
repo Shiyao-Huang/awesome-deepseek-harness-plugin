@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-22446e7aae0d9beb717d",
+    "name": "README Forge",
+    "author": "zoahdev",
+    "category": "dev",
+    "version": "0.1.0",
+    "homepage": "https://github.com/zoahdev/dsh-readme-forge",
+    "firstObservedAt": "2026-08-18T14:55:11Z",
+    "lastChangedAt": "2026-08-18T14:55:11Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-22446e7aae0d9beb717d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-22446e7aae0d9beb717d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-readme-forge",
+    "command": "dsh plugin --profile web add dsh-readme-forge",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-22446e7aae0d9beb717d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-22446e7aae0d9beb717d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-22446e7aae0d9beb717d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "README Forge 已收录到 DeepSeek Harness Plugin Store。为 dsh 插件仓库从 package.json + cordis.patch.yml + 源码布局生成 README.md：安装/CLI/工具/开发/许可证章节，确定性输出、默认只读。CLI + agent 可调用 readme_forge 工具。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-22446e7aae0d9beb717d.html",
+    "en": "README Forge is now listed on the DeepSeek Harness Plugin Store. Generate README.md for dsh plugin repositories from package.json + cordis.patch.yml + source layout: install/CLI/tools/dev/license sections, deterministic, read-only by default. CLI + agent-callable readme_forge tool.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-22446e7aae0d9beb717d.html"
+  }
+}

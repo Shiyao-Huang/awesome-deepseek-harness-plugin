@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-49e9b6a1992081652945",
+    "name": "dsh-query-jump",
+    "author": "SocFeng",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/SocFeng/dsh-query-jump",
+    "firstObservedAt": "2026-08-18T14:55:11Z",
+    "lastChangedAt": "2026-08-18T14:55:11Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-49e9b6a1992081652945.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-49e9b6a1992081652945.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:socfeng/dsh-query-jump",
+    "command": "dsh plugin --profile web add github:socfeng/dsh-query-jump",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-49e9b6a1992081652945，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-49e9b6a1992081652945.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-49e9b6a1992081652945.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-query-jump 已收录到 DeepSeek Harness Plugin Store。DSH WebUI 会话提问导航：对话区右缘淡色短横线，悬停列出真实用户提问，点击跳回对应气泡。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-49e9b6a1992081652945.html",
+    "en": "dsh-query-jump is now listed on the DeepSeek Harness Plugin Store. DSH WebUI session query navigation with a faint conversation-edge rail, a hover list of real user queries, and click-to-jump back to the matching bubble.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-49e9b6a1992081652945.html"
+  }
+}

@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>deeplugin.store — Updated plugins</title>
   <id>https://deeplugin.store/feeds/updated.atom.xml</id>
-  <updated>2026-08-18T13:10:14Z</updated>
+  <updated>2026-08-18T14:55:11Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/feeds/updated.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/market.html"/>
+  <entry>
+    <title>Updated: dsh-expert-mode</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-e413694ef21a213b8bdf/2f55afd7a0c11c72</id>
+    <updated>2026-08-18T14:55:11Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e413694ef21a213b8bdf.html"/>
+    <author><name>Asher-2000</name></author>
+    <category term="tools"/>
+    <summary>Expert-mode agent preset for DeepSeek Harness (v0.3.0, bilingual EN/ZH): a chief coordinator plus 11 domain-expert subagents with automatic task delegation. Features: Five-Anchor constraint (review/convergence/anti-drift/collaboration-check/resource-awareness per turn), Near-distance Guidance (identity/task/output template per expert), expert persistence, cross-expert communication protocol, cross review, and experience pool. Experts: data analyst, copywriter, legal review, product manager, frontend, UI/UX, architect, social media ops, growth hacker, quant finance, finance. Exact install spec: github:asher-2000/dsh-expert-mode. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-custom-theme-import</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-1f078152c3befba2fd2f/cf093bf0fe85ed65</id>
+    <updated>2026-08-18T14:55:11Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1f078152c3befba2fd2f.html"/>
+    <author><name>Juryorca</name></author>
+    <category term="theme"/>
+    <summary>DSH Web custom theme importer: one-click import from local paths or GitHub theme collections, live preview and refresh, hosted theme library; the lightweight format lets authors edit CSS/DOM files and hot-reload, making it a friendly option for personal theme development and sharing. Exact install spec: github:juryorca/dsh-custom-theme-import. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
   <entry>
     <title>Updated: dsh-chinese-mode</title>
     <id>tag:deeplugin.store,2026-08-18:deeplugin-a102325bcdf2db4e35d9/282cd75301042e71</id>
@@ -121,15 +139,6 @@
     <author><name>Jesse-njx</name></author>
     <category term="notify"/>
     <summary>Chat with, monitor, and approve your DSH agents from WeChat via the iLink gateway: text both ways, session switching, progress digests, and numbered approval prompts. Exact install spec: github:jesse-njx/dsh-chatnode-wechat. Source event: beancookie/awesome-dsh-plugin; changed: description_i18n.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-expert-mode</title>
-    <id>tag:deeplugin.store,2026-08-18:deeplugin-e413694ef21a213b8bdf/a993e9f5db3209e3</id>
-    <updated>2026-08-18T07:06:23Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e413694ef21a213b8bdf.html"/>
-    <author><name>Asher-2000</name></author>
-    <category term="tools"/>
-    <summary>Expert-mode agent preset for DeepSeek Harness (v0.3.0, bilingual EN/ZH): a chief coordinator plus 11 domain-expert subagents with automatic task delegation. New: Three-Anchor constraint (recall/convergence/anti-drift per turn) and Near-distance Guidance (identity/task/output template per expert). Experts: data analyst, copywriter, legal review, product manager, frontend, UI/UX, architect, social media ops, growth hacker, quant finance, finance. Exact install spec: github:asher-2000/dsh-expert-mode. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
   </entry>
   <entry>
     <title>Updated: dsh-custom-tool</title>
@@ -895,14 +904,5 @@
     <author><name>PerryLink</name></author>
     <category term="memory"/>
     <summary>Bounded, layered, approval-gated, auditable cross-session memory: a typed `ctx.memory` seam with a zero-dependency SQLite provider, a `memory` tool, and frozen snapshot injection, plus the dsh-memory-protocol v1 rehearsal with an adapter registry and a distributable conformance suite. Exact install spec: dsh-memento. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-skill-pack-security</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-ace18d3379b6953f293d/7015190629e27ba8</id>
-    <updated>2026-08-16T16:39:22Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ace18d3379b6953f293d.html"/>
-    <author><name>PerryLink</name></author>
-    <category term="skill"/>
-    <summary>Security-audit methodology skill pack plus the plugin_vet supply-chain gate: eight agent skills (secret scan, dependency audit, supply-chain review, prompt-injection review, audit orchestration, threat modeling, vuln intel, incident response) in Chinese and English editions, with an npm provider bundle that mounts the skills and registers the automated plugin_vet pre-install scanner. Exact install spec: github:perrylink/dsh-skill-pack-security. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
   </entry>
 </feed>

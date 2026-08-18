@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-content-lab — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-2e9338416ba2b72b018e.atom.xml</id>
+  <updated>2026-08-18T14:55:11Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-2e9338416ba2b72b018e.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-2e9338416ba2b72b018e.html"/>
+  <entry>
+    <title>New: dsh-content-lab</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-2e9338416ba2b72b018e/c9baccb628f71fbe</id>
+    <updated>2026-08-18T14:55:11Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-2e9338416ba2b72b018e.html"/>
+    <author><name>hanyi7867069-create</name></author>
+    <category term="tools"/>
+    <summary>Content workshop tools for DSH — topic, title, post and content-calendar generation through the built-in LLM. Exact install spec: github:hanyi7867069-create/dsh-content-lab. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

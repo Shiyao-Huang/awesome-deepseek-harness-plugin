@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-0c009a8fd58227048d3c",
+    "name": "dsh-replay",
+    "author": "MingoZhou",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/MingoZhou/dsh-replay",
+    "firstObservedAt": "2026-08-18T14:55:11Z",
+    "lastChangedAt": "2026-08-18T14:55:11Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-0c009a8fd58227048d3c.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-0c009a8fd58227048d3c.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@mingozhou/dsh-replay",
+    "command": "dsh plugin --profile web add @mingozhou/dsh-replay",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-0c009a8fd58227048d3c，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-0c009a8fd58227048d3c.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-0c009a8fd58227048d3c.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-replay 已收录到 DeepSeek Harness Plugin Store。在可播放的时间线上回放会话并显示逐步 token 用量，审计敏感操作，估算成本，查看 fork 血缘，对比会话，并可导出独立 HTML 回放。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-0c009a8fd58227048d3c.html",
+    "en": "dsh-replay is now listed on the DeepSeek Harness Plugin Store. Replay sessions on a playable timeline with per-step token usage, audit sensitive operations, estimate cost, view fork lineage, compare sessions, and export standalone HTML replays.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-0c009a8fd58227048d3c.html"
+  }
+}

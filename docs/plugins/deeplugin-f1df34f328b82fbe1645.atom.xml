@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-draw-gacha — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-f1df34f328b82fbe1645.atom.xml</id>
+  <updated>2026-08-18T14:55:11Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-f1df34f328b82fbe1645.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f1df34f328b82fbe1645.html"/>
+  <entry>
+    <title>New: dsh-draw-gacha</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-f1df34f328b82fbe1645/c9baccb628f71fbe</id>
+    <updated>2026-08-18T14:55:11Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f1df34f328b82fbe1645.html"/>
+    <author><name>Aik358</name></author>
+    <category term="fun"/>
+    <summary>Pull a 3D lever next to the send button and turn the model's reasoning signals into a pixel-art gacha reveal. Exact install spec: @a9i5k4/dsh-draw-gacha. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

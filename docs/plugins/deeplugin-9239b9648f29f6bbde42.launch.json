@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-9239b9648f29f6bbde42",
+    "name": "dsh-powerdesk",
+    "author": "FleetingEcho",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/FleetingEcho/dsh-powerdesk",
+    "firstObservedAt": "2026-08-18T14:55:11Z",
+    "lastChangedAt": "2026-08-18T14:55:11Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-9239b9648f29f6bbde42.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-9239b9648f29f6bbde42.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:fleetingecho/dsh-powerdesk",
+    "command": "dsh plugin --profile web add github:fleetingecho/dsh-powerdesk",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-9239b9648f29f6bbde42，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-9239b9648f29f6bbde42.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-9239b9648f29f6bbde42.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-powerdesk 已收录到 DeepSeek Harness Plugin Store。DSH Web 界面的可停靠 IDE 工作台：GPU 加速终端（restty 渲染器 + Rust PTY）、CodeMirror 编辑器、文件浏览器、笔记、沙箱浏览器，以及基于 ripgrep 的内容搜索。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-9239b9648f29f6bbde42.html",
+    "en": "dsh-powerdesk is now listed on the DeepSeek Harness Plugin Store. A dockable IDE workbench for the DSH web UI: a GPU-accelerated terminal (restty renderer over a Rust PTY), a CodeMirror editor, a file explorer, notes, a sandboxed browser, and ripgrep content search.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-9239b9648f29f6bbde42.html"
+  }
+}

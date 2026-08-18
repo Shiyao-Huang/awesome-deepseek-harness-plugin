@@ -5,6 +5,27 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 2026-08-18T14:55:11Z | github | plugin | [Discussions Radar](https://github.com/zoahdev/dsh-discussions-radar) | zoahdev | core-and-ecosystem |
+| 2026-08-18T14:55:11Z | github | plugin | [Firstrun](https://github.com/zoahdev/dsh-firstrun) | zoahdev | docs-and-learning |
+| 2026-08-18T14:55:11Z | github | plugin | [README Forge](https://github.com/zoahdev/dsh-readme-forge) | zoahdev | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-auto-paste](https://github.com/sakuraqqq/dsh-auto-paste) | sakuraqqq | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-auto-vision](https://github.com/NormanFxxkingRockwell/dsh-auto-vision) | NormanFxxkingRockwell | multimedia-and-vision |
+| 2026-08-18 | github | plugin | [dsh-content-lab](https://github.com/hanyi7867069-create/dsh-content-lab) | hanyi7867069-create | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-continual-harness](https://github.com/jasen215/dsh-continual-harness) | jasen215 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-convo-cost](https://github.com/ljr282341583/dsh-convo-cost) | ljr282341583 | operations-and-safety |
+| 2026-08-18 | github | plugin | [dsh-cue-bank](https://github.com/itr-del/dsh-cue-bank) | itr-del | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-draw-gacha](https://github.com/Aik358/dsh-draw-gacha) | Aik358 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-kimino-theme](https://github.com/niiang/dsh-kimino-theme) | niiang | ui-and-desktop |
+| 2026-08-18 | github | plugin | [dsh-llm-github-copilot](https://github.com/lujianjun19/dsh-llm-github-copilot) | lujianjun19 | index-and-marketplace |
+| 2026-08-18 | github | plugin | [dsh-moonrise](https://github.com/hanyi7867069-create/dsh-moonrise) | hanyi7867069-create | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-powerdesk](https://github.com/FleetingEcho/dsh-powerdesk) | FleetingEcho | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-query-jump](https://github.com/SocFeng/dsh-query-jump) | SocFeng | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-replay](https://github.com/MingoZhou/dsh-replay) | MingoZhou | operations-and-safety |
+| 2026-08-18 | github | plugin | [dsh-rule-manager](https://github.com/wzz3034026545/dsh-rule-manager) | wzz3034026545 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-tick-rail](https://github.com/caisiyang123/dsh-tick-rail) | caisiyang123 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [stylotrace](https://github.com/zhangyoufu-123/stylotrace) | zhangyoufu-123 | core-and-ecosystem |
+| 2026-08-18T13:49:52Z | hacker_news | story | [DeepSeek Harness vs. LangChain Deep Agents – what&#x27;s the actual difference?](https://news.ycombinator.com/item?id=49345619) | sockstack | core-and-ecosystem |
+| 2026-08-18T13:46:10Z | hacker_news | story | [DeepSeek Harness](https://news.ycombinator.com/item?id=49345565) | SweetSoftPillow | core-and-ecosystem |
 | 2026-08-18T13:10:14Z | github | plugin | [CN Boot](https://github.com/zoahdev/dsh-cn-boot) | zoahdev | index-and-marketplace |
 | 2026-08-18T13:10:14Z | github | plugin | [LLMs Forge](https://github.com/zoahdev/dsh-llms-forge) | zoahdev | core-and-ecosystem |
 | 2026-08-18T13:10:14Z | github | plugin | [Timesheet](https://github.com/zoahdev/dsh-timesheet) | zoahdev | operations-and-safety |

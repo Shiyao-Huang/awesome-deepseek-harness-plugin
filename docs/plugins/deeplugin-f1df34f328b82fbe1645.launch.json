@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-f1df34f328b82fbe1645",
+    "name": "dsh-draw-gacha",
+    "author": "Aik358",
+    "category": "fun",
+    "version": null,
+    "homepage": "https://github.com/Aik358/dsh-draw-gacha",
+    "firstObservedAt": "2026-08-18T14:55:11Z",
+    "lastChangedAt": "2026-08-18T14:55:11Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-f1df34f328b82fbe1645.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-f1df34f328b82fbe1645.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@a9i5k4/dsh-draw-gacha",
+    "command": "dsh plugin --profile web add @a9i5k4/dsh-draw-gacha",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-f1df34f328b82fbe1645，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-f1df34f328b82fbe1645.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-f1df34f328b82fbe1645.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-draw-gacha 已收录到 DeepSeek Harness Plugin Store。在发送按钮旁拉动 3D 拉杆，把模型思维链的文本信号变成一场像素风抽卡演出。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-f1df34f328b82fbe1645.html",
+    "en": "dsh-draw-gacha is now listed on the DeepSeek Harness Plugin Store. Pull a 3D lever next to the send button and turn the model's reasoning signals into a pixel-art gacha reveal.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-f1df34f328b82fbe1645.html"
+  }
+}
