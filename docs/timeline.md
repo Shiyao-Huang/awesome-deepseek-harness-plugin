@@ -5,6 +5,7 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 2026-08-18T18:59:40Z | github | plugin | [Quality Score](https://github.com/zoahdev/dsh-quality-score) | zoahdev | core-and-ecosystem |
 | 2026-08-18T16:51:43Z | github | plugin | [Disk Audit](https://github.com/zoahdev/dsh-disk-audit) | zoahdev | core-and-ecosystem |
 | 2026-08-18 | github | plugin | [dsh-all-usage](https://github.com/ParticleLight/dsh-all-usage) | ParticleLight | operations-and-safety |
 | 2026-08-18 | github | plugin | [dsh-balance](https://github.com/GeekRicardo/dsh-balance) | GeekRicardo | operations-and-safety |

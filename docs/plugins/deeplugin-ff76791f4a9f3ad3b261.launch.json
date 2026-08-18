@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-ff76791f4a9f3ad3b261",
+    "name": "Quality Score",
+    "author": "zoahdev",
+    "category": "dev",
+    "version": "0.1.0",
+    "homepage": "https://github.com/zoahdev/dsh-quality-score",
+    "firstObservedAt": "2026-08-18T18:59:40Z",
+    "lastChangedAt": "2026-08-18T18:59:40Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-ff76791f4a9f3ad3b261.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-ff76791f4a9f3ad3b261.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-quality-score",
+    "command": "dsh plugin --profile web add dsh-quality-score",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-ff76791f4a9f3ad3b261，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-ff76791f4a9f3ad3b261.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-ff76791f4a9f3ad3b261.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "Quality Score 已收录到 DeepSeek Harness Plugin Store。dsh 插件质量评分卡：0-100 分 + 等级 + 六项分项 + 修复建议，支持批量榜单。CLI + agent 可调用 quality_score 工具。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-ff76791f4a9f3ad3b261.html",
+    "en": "Quality Score is now listed on the DeepSeek Harness Plugin Store. Plugin quality scorecard for dsh: 0-100 with grade, 6 components, fix suggestions, batch leaderboard. CLI + agent-callable quality_score tool.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-ff76791f4a9f3ad3b261.html"
+  }
+}

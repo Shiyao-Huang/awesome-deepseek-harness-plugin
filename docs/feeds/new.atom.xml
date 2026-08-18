@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>deeplugin.store — New plugins</title>
   <id>https://deeplugin.store/feeds/new.atom.xml</id>
-  <updated>2026-08-18T16:51:43Z</updated>
+  <updated>2026-08-18T18:59:40Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/feeds/new.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/market.html"/>
+  <entry>
+    <title>New: Quality Score</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-ff76791f4a9f3ad3b261/1f6f84aec8d42a19</id>
+    <updated>2026-08-18T18:59:40Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ff76791f4a9f3ad3b261.html"/>
+    <author><name>zoahdev</name></author>
+    <category term="dev"/>
+    <summary>Plugin quality scorecard for dsh: 0-100 with grade, 6 components, fix suggestions, batch leaderboard. CLI + agent-callable quality_score tool. Exact install spec: dsh-quality-score. Source event: zoahdev/dsh-subscribe; changed: listed.</summary>
+  </entry>
   <entry>
     <title>New: dsh-search-failover</title>
     <id>tag:deeplugin.store,2026-08-18:deeplugin-fa39ccf561106334945a/734e2388d02377c1</id>
@@ -895,14 +904,5 @@
     <author><name>1HelloMan1</name></author>
     <category term="usage"/>
     <summary>Shows DeepSeek balance and estimated daily spend, merges external vision-call JSONL records, and adds a per-session dashboard with model statistics, TTFT, cache rate, call logs, cost estimates, filters, and CSV export. Exact install spec: dsh-usage-dashboard-plus. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-plugin-audit</title>
-    <id>tag:deeplugin.store,2026-08-18:deeplugin-d885042b101f8c55b642/f135107654d86f25</id>
-    <updated>2026-08-18T10:48:49Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d885042b101f8c55b642.html"/>
-    <author><name>863683348</name></author>
-    <category term="market"/>
-    <summary>Ecosystem-wide plugin health audit: syncs the dsh-plugin topic into a local scored catalog (maintenance / docs / npm + weekly downloads / ecosystem, 0-100, A-D), static security scan with high-finding grade veto, star history snapshots, web leaderboard and agent tools. Exact install spec: github:863683348/dsh-plugin-audit. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>
