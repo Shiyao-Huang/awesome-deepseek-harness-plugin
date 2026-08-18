@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-auto-exit — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-e306a37c2d5ba4b51dd1.atom.xml</id>
+  <updated>2026-08-18T20:43:41Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-e306a37c2d5ba4b51dd1.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e306a37c2d5ba4b51dd1.html"/>
+  <entry>
+    <title>New: dsh-auto-exit</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-e306a37c2d5ba4b51dd1/61c311dc4d545928</id>
+    <updated>2026-08-18T20:43:41Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e306a37c2d5ba4b51dd1.html"/>
+    <author><name>xiaxingtianxia2-glitch</name></author>
+    <category term="dev"/>
+    <summary>Exits the dsh CLI process automatically when the Web UI closes, with a configurable grace period and dry-run mode. Exact install spec: dsh-auto-exit. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>win11-oneocr — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-e0584596f12b849a79cc.atom.xml</id>
+  <updated>2026-08-18T20:43:41Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-e0584596f12b849a79cc.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e0584596f12b849a79cc.html"/>
+  <entry>
+    <title>New: win11-oneocr</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-e0584596f12b849a79cc/61c311dc4d545928</id>
+    <updated>2026-08-18T20:43:41Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e0584596f12b849a79cc.html"/>
+    <author><name>hawkhai</name></author>
+    <category term="vision"/>
+    <summary>Local Windows 11 OneOCR tool for DSH: `oneocr_recognize` returns OCR text and structured line/word polygons, confidence, rotation, and handwriting style. Exact install spec: github:hawkhai/win11-oneocr. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>dsh-theme-firefly — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-63d0fd3faed727b3802b.atom.xml</id>
-  <updated>2026-08-17T01:57:07Z</updated>
+  <updated>2026-08-18T20:43:41Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-63d0fd3faed727b3802b.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-63d0fd3faed727b3802b.html"/>
+  <entry>
+    <title>Updated: dsh-theme-firefly</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-63d0fd3faed727b3802b/c55ea47dbe151e6f</id>
+    <updated>2026-08-18T20:43:41Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-63d0fd3faed727b3802b.html"/>
+    <author><name>Liu-ZA-81</name></author>
+    <category term="theme"/>
+    <summary>A Honkai: Star Rail "Firefly" theme with wallpaper/video backgrounds, firefly-green neon palette, transformation boot animation, ambient particles, BGM, typewriter SFX, and context-aware emote easter eggs. Exact install spec: github:liu-za-81/dsh-theme-firefly. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
   <entry>
     <title>New: dsh-theme-firefly</title>
     <id>tag:deeplugin.store,2026-08-17:deeplugin-63d0fd3faed727b3802b/c7a2a922b0daabc1</id>
@@ -12,6 +21,6 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-63d0fd3faed727b3802b.html"/>
     <author><name>Liu-ZA-81</name></author>
     <category term="theme"/>
-    <summary>A Honkai: Star Rail "Firefly" theme: wallpaper/video backgrounds, firefly-green neon palette, transformation boot animation, ambient particles, BGM, typewriter SFX, and context-aware emote easter eggs. Exact install spec: github:liu-za-81/dsh-theme-firefly. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
+    <summary>A Honkai: Star Rail "Firefly" theme with wallpaper/video backgrounds, firefly-green neon palette, transformation boot animation, ambient particles, BGM, typewriter SFX, and context-aware emote easter eggs. Exact install spec: github:liu-za-81/dsh-theme-firefly. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

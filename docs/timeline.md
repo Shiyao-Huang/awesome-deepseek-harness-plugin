@@ -5,6 +5,29 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 2026-08-18T20:43:41Z | github | ecosystem-reference | [bpc-oss/dsh-verificationdsh-verification](https://github.com/bpc-oss/dsh-verification) | bpc-oss | core-and-ecosystem |
+| 2026-08-18T20:43:41Z | github | plugin | [dingminhua/dsh-subagent-default-modelplugin](https://github.com/dingminhua/dsh-subagent-default-model) | dingminhua | agents-and-orchestration |
+| 2026-08-18 | github | plugin | [dsh-auto-exit](https://github.com/xiaxingtianxia2-glitch/dsh-auto-exit) | xiaxingtianxia2-glitch | ui-and-desktop |
+| 2026-08-18 | github | plugin | [dsh-autoresume](https://github.com/shengyvself/dsh-autoresume) | shengyvself | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-daemon](https://github.com/chenkai2/dsh-daemon) | chenkai2 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-headroom](https://github.com/giter00/dsh-headroom) | giter00 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-multi-lang-ui](https://github.com/asd13006/dsh-multi-lang-ui) | asd13006 | ui-and-desktop |
+| 2026-08-18 | github | plugin | [dsh-patchouli](https://github.com/memorax-ai/dsh-patchouli) | memorax-ai | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-peak-cost-mode](https://github.com/moon09300731/dsh-peak-cost-mode) | moon09300731 | operations-and-safety |
+| 2026-08-18 | github | plugin | [dsh-quick-toc](https://github.com/LyaxZ/dsh-quick-toc) | LyaxZ | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-research](https://github.com/dsh-research/dsh-research) | dsh-research | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-serendipity](https://github.com/PocketSWPU/dsh-serendipity) | PocketSWPU | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-skill-7d-git-commit](https://github.com/7dgroup-ai/dsh-skill-7d-git-commit) | 7dgroup-ai | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-skill-mcp-center](https://github.com/Max-Null/dsh-skill-mcp-center) | Max-Null | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-stylevault](https://github.com/GptsApp/dsh-stylevault) | GptsApp | ui-and-desktop |
+| 2026-08-18 | github | plugin | [dsh-timeline](https://github.com/houyanchao/dsh-timeline) | houyanchao | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-web-launcher](https://github.com/ayingQAQ/dsh-web-launcher) | ayingQAQ | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-workspace-scope](https://github.com/Ri0n72Y/dsh-workspace-scope) | Ri0n72Y | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-wsl-workspace-picker](https://github.com/WilliamShi666/dsh-wsl-workspace-picker) | WilliamShi666 | ui-and-desktop |
+| 2026-08-18 | github | plugin | [gongwen-skill](https://github.com/linhut/gongwen-skill) | linhut | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [oh-my-dsh](https://github.com/llmpolska/oh-my-dsh) | llmpolska | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [wechat-ocr](https://github.com/hawkhai/wechat-ocr) | hawkhai | multimedia-and-vision |
+| 2026-08-18 | github | plugin | [win11-oneocr](https://github.com/hawkhai/win11-oneocr) | hawkhai | multimedia-and-vision |
 | 2026-08-18T18:59:40Z | github | plugin | [Quality Score](https://github.com/zoahdev/dsh-quality-score) | zoahdev | core-and-ecosystem |
 | 2026-08-18T16:51:43Z | github | plugin | [Disk Audit](https://github.com/zoahdev/dsh-disk-audit) | zoahdev | core-and-ecosystem |
 | 2026-08-18 | github | plugin | [dsh-all-usage](https://github.com/ParticleLight/dsh-all-usage) | ParticleLight | operations-and-safety |

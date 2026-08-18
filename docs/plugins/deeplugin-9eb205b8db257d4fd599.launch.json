@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/kanchengw/dsh-mindseye",
     "firstObservedAt": "2026-08-18T03:11:15Z",
-    "lastChangedAt": "2026-08-18T03:11:15Z"
+    "lastChangedAt": "2026-08-18T20:43:41Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-9eb205b8db257d4fd599.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-9eb205b8db257d4fd599.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-mindseye 已收录到 DeepSeek Harness Plugin Store。为纯文本 DeepSeek Harness 模型提供视觉能力：原生图片粘贴、分层证据记忆与缓存、意图驱动的工具选择。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-9eb205b8db257d4fd599.html",
-    "en": "dsh-mindseye is now listed on the DeepSeek Harness Plugin Store. Vision plugin for text-only DeepSeek Harness models: native image paste, layered evidence memory and cache, and intent-driven tool selection.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-9eb205b8db257d4fd599.html"
+    "zh": "dsh-mindseye 已收录到 DeepSeek Harness Plugin Store。为纯文本模型提供 DSH 视觉插件：原生图片理解与生成交互、分层证据记忆与缓存、意图驱动的 VLM 路由。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-9eb205b8db257d4fd599.html",
+    "en": "dsh-mindseye is now listed on the DeepSeek Harness Plugin Store. Plug-in vision for text-only models on DSH, with native interaction for image understanding and generation, layered evidence memory and cache, and intent-driven VLM router.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-9eb205b8db257d4fd599.html"
   }
 }

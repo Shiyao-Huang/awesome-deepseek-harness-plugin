@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>oh-my-dsh — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-4dac447ef3a5c1a5bd08.atom.xml</id>
+  <updated>2026-08-18T20:43:41Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-4dac447ef3a5c1a5bd08.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-4dac447ef3a5c1a5bd08.html"/>
+  <entry>
+    <title>New: oh-my-dsh</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-4dac447ef3a5c1a5bd08/61c311dc4d545928</id>
+    <updated>2026-08-18T20:43:41Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-4dac447ef3a5c1a5bd08.html"/>
+    <author><name>llmpolska</name></author>
+    <category term="model"/>
+    <summary>Tiered model routing for DeepSeek Harness: think/build model tiers, vision delegation (the vision model only describes images; the working model acts), image generation, and a high-impact guard. Exact install spec: github:llmpolska/oh-my-dsh. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

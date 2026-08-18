@@ -2,9 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>deeplugin.store — Updated plugins</title>
   <id>https://deeplugin.store/feeds/updated.atom.xml</id>
-  <updated>2026-08-18T16:51:43Z</updated>
+  <updated>2026-08-18T20:43:41Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/feeds/updated.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/market.html"/>
+  <entry>
+    <title>Updated: dsh-zotero</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-ea199410f5af2c8aac2a/4bd4213bf842bf42</id>
+    <updated>2026-08-18T20:43:41Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ea199410f5af2c8aac2a.html"/>
+    <author><name>Vncntvx</name></author>
+    <category term="tools"/>
+    <summary>Zotero as an evidence store for agents: search your library, inspect metadata and notes, retrieve evidence passages, open source PDFs, and generate citations and bibliographies. Exact install spec: dsh-zotero. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-mindseye</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-9eb205b8db257d4fd599/4bd4213bf842bf42</id>
+    <updated>2026-08-18T20:43:41Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9eb205b8db257d4fd599.html"/>
+    <author><name>kanchengw</name></author>
+    <category term="vision"/>
+    <summary>Plug-in vision for text-only models on DSH, with native interaction for image understanding and generation, layered evidence memory and cache, and intent-driven VLM router. Exact install spec: github:kanchengw/dsh-mindseye. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-theme-firefly</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-63d0fd3faed727b3802b/c55ea47dbe151e6f</id>
+    <updated>2026-08-18T20:43:41Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-63d0fd3faed727b3802b.html"/>
+    <author><name>Liu-ZA-81</name></author>
+    <category term="theme"/>
+    <summary>A Honkai: Star Rail "Firefly" theme with wallpaper/video backgrounds, firefly-green neon palette, transformation boot animation, ambient particles, BGM, typewriter SFX, and context-aware emote easter eggs. Exact install spec: github:liu-za-81/dsh-theme-firefly. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: StrataGate-AgentMemory#deepseek-harness</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-470d83aa92125ac7bb4b/4bd4213bf842bf42</id>
+    <updated>2026-08-18T20:43:41Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-470d83aa92125ac7bb4b.html"/>
+    <author><name>diqierjia</name></author>
+    <category term="memory"/>
+    <summary>Automatic, local-first cross-session memory for DeepSeek Harness: remembers user preferences, project decisions, conversations, and tool results; verifies recalled information against original messages before answering. Exact install spec: stratagate-dsh. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
   <entry>
     <title>Updated: argo</title>
     <id>tag:deeplugin.store,2026-08-18:deeplugin-fb9a4929d71488f65f8b/fdf5c15329c98b31</id>
@@ -868,41 +904,5 @@
     <author><name>february2015</name></author>
     <category term="workflow"/>
     <summary>DSH port of TaskPlane: dependency-ordered waves run in parallel git-worktree lanes, with task packets, cross-model review, and crash recovery. Exact install spec: github:february2015/dsh-taskswarm. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-taskswarm</title>
-    <id>tag:deeplugin.store,2026-08-17:deeplugin-f34abb435a46bcba98b2/0c90f08c3e915948</id>
-    <updated>2026-08-17T04:59:26Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f34abb435a46bcba98b2.html"/>
-    <author><name>february2015</name></author>
-    <category term="workflow"/>
-    <summary>DSH port of TaskPlane: dependency-ordered waves run in parallel git-worktree lanes, with task packets, cross-model review, and crash recovery. Exact install spec: dsh-taskswarm. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-update-checker</title>
-    <id>tag:deeplugin.store,2026-08-17:deeplugin-b5331849acb5f204faf1/3797d25538c1d242</id>
-    <updated>2026-08-17T04:59:26Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b5331849acb5f204faf1.html"/>
-    <author><name>Airmetro</name></author>
-    <category term="dev"/>
-    <summary>Update management for the whole stack: compares DeepSeek Harness and every installed third-party plugin against npm and GitHub releases (semver-aware), shows a locale-aware banner (zh/en) with per-plugin update status, and provides one-click updates with automatic backup/rollback, temp-dir installs that never touch other packages, and a watchdog-guarded restart. A settings page adds per-plugin version lamps, live update progress, and banner/notification toggles. Zero-config on any machine. Exact install spec: dsh-update-checker. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-vision-subagent</title>
-    <id>tag:deeplugin.store,2026-08-17:deeplugin-a72b3385383e6697dfd6/0c90f08c3e915948</id>
-    <updated>2026-08-17T04:59:26Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a72b3385383e6697dfd6.html"/>
-    <author><name>ruby1304</name></author>
-    <category term="memory"/>
-    <summary>Vision for text-only agents: a vision_agent tool that delegates image reading to a one-shot subagent on a configurable vision route (MiniMax/Kimi), plus a Codex-style paste bridge — images are analyzed on an isolated context and only text reaches the main session. Exact install spec: github:ruby1304/dsh-vision-subagent. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-sxs-anti-bot-http</title>
-    <id>tag:deeplugin.store,2026-08-17:deeplugin-9bb3a97b93c2d6b464ba/53adf6a0d3e188cd</id>
-    <updated>2026-08-17T04:59:26Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9bb3a97b93c2d6b464ba.html"/>
-    <author><name>yangyunsong023</name></author>
-    <category term="tools"/>
-    <summary>Anti-bot HTTP fetch tools hardened by SXS's production scraping stack (millions of requests/day): UA-pool rotation, retry with exponential backoff, anti-bot wall detection (captcha / verification challenges) and adaptive rate limiting — tools: `sxs_fetch` / `sxs_fetch_json` / `sxs_rate_status`. Exact install spec: github:yangyunsong023/dsh-sxs-anti-bot-http. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
   </entry>
 </feed>

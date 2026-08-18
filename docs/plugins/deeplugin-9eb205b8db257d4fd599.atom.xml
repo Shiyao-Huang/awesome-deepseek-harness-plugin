@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>dsh-mindseye — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-9eb205b8db257d4fd599.atom.xml</id>
-  <updated>2026-08-18T03:11:15Z</updated>
+  <updated>2026-08-18T20:43:41Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-9eb205b8db257d4fd599.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9eb205b8db257d4fd599.html"/>
+  <entry>
+    <title>Updated: dsh-mindseye</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-9eb205b8db257d4fd599/4bd4213bf842bf42</id>
+    <updated>2026-08-18T20:43:41Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9eb205b8db257d4fd599.html"/>
+    <author><name>kanchengw</name></author>
+    <category term="vision"/>
+    <summary>Plug-in vision for text-only models on DSH, with native interaction for image understanding and generation, layered evidence memory and cache, and intent-driven VLM router. Exact install spec: github:kanchengw/dsh-mindseye. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
   <entry>
     <title>New: dsh-mindseye</title>
     <id>tag:deeplugin.store,2026-08-18:deeplugin-9eb205b8db257d4fd599/cb80cd3c03250761</id>
@@ -12,6 +21,6 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9eb205b8db257d4fd599.html"/>
     <author><name>kanchengw</name></author>
     <category term="vision"/>
-    <summary>Vision plugin for text-only DeepSeek Harness models: native image paste, layered evidence memory and cache, and intent-driven tool selection. Exact install spec: github:kanchengw/dsh-mindseye. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+    <summary>Plug-in vision for text-only models on DSH, with native interaction for image understanding and generation, layered evidence memory and cache, and intent-driven VLM router. Exact install spec: github:kanchengw/dsh-mindseye. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

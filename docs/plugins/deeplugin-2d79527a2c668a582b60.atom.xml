@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-multi-lang-ui — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-2d79527a2c668a582b60.atom.xml</id>
+  <updated>2026-08-18T20:43:41Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-2d79527a2c668a582b60.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-2d79527a2c668a582b60.html"/>
+  <entry>
+    <title>New: dsh-multi-lang-ui</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-2d79527a2c668a582b60/61c311dc4d545928</id>
+    <updated>2026-08-18T20:43:41Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-2d79527a2c668a582b60.html"/>
+    <author><name>asd13006</name></author>
+    <category term="ui"/>
+    <summary>Add six languages (繁體中文, 日本語, 한국어, Français, Deutsch, Español) to the DeepSeek Harness Web UI language options, with hand-polished per-language translations and automatic fallbacks (Simplified-to-Traditional conversion for zh-TW, English for the others) covering upstream updates and third-party plugins. Exact install spec: github:asd13006/dsh-multi-lang-ui. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>gongwen-skill — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-383dcc682df0e38f9053.atom.xml</id>
+  <updated>2026-08-18T20:43:41Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-383dcc682df0e38f9053.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-383dcc682df0e38f9053.html"/>
+  <entry>
+    <title>New: gongwen-skill</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-383dcc682df0e38f9053/61c311dc4d545928</id>
+    <updated>2026-08-18T20:43:41Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-383dcc682df0e38f9053.html"/>
+    <author><name>linhut</name></author>
+    <category term="skill"/>
+    <summary>Chinese government document processing toolkit: GB/T 9704 format check, auto-fix, content revision (red annotation + strikethrough), template generation, Markdown-to-docx, and document header/footer/page-number injection for 24 official document types. Exact install spec: gongwen-skill. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-e0584596f12b849a79cc",
+    "name": "win11-oneocr",
+    "author": "hawkhai",
+    "category": "vision",
+    "version": null,
+    "homepage": "https://github.com/hawkhai/win11-oneocr",
+    "firstObservedAt": "2026-08-18T20:43:41Z",
+    "lastChangedAt": "2026-08-18T20:43:41Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-e0584596f12b849a79cc.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-e0584596f12b849a79cc.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:hawkhai/win11-oneocr",
+    "command": "dsh plugin --profile web add github:hawkhai/win11-oneocr",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-e0584596f12b849a79cc，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-e0584596f12b849a79cc.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-e0584596f12b849a79cc.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "win11-oneocr 已收录到 DeepSeek Harness Plugin Store。DSH 的本地 Windows 11 OneOCR 工具：`oneocr_recognize` 返回 OCR 文本，以及包含行/词多边形、置信度、旋转角度和手写体样式的结构化结果。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e0584596f12b849a79cc.html",
+    "en": "win11-oneocr is now listed on the DeepSeek Harness Plugin Store. Local Windows 11 OneOCR tool for DSH: `oneocr_recognize` returns OCR text and structured line/word polygons, confidence, rotation, and handwriting style.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e0584596f12b849a79cc.html"
+  }
+}

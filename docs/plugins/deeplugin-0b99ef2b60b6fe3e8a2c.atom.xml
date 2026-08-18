@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-serendipity — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-0b99ef2b60b6fe3e8a2c.atom.xml</id>
+  <updated>2026-08-18T20:43:41Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-0b99ef2b60b6fe3e8a2c.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-0b99ef2b60b6fe3e8a2c.html"/>
+  <entry>
+    <title>New: dsh-serendipity</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-0b99ef2b60b6fe3e8a2c/61c311dc4d545928</id>
+    <updated>2026-08-18T20:43:41Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-0b99ef2b60b6fe3e8a2c.html"/>
+    <author><name>PocketSWPU</name></author>
+    <category term="fun"/>
+    <summary>Turns the user into an RPG protagonist: after each finished user turn a random "adventure" may trigger, drawn from 700+ events across 7 themed pools (sci-fi, fantasy, ancient, anime, novels, wuxia, urban), growing six persistent attributes (strength, intelligence, agility, charisma, luck, vitality) with XP, levels and attribute-weighted story branches, configured via a settings-page UI. Exact install spec: github:pocketswpu/dsh-serendipity. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

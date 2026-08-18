@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-eac1046933d9372fe911",
+    "name": "dsh-research",
+    "author": "dsh-research",
+    "category": "market",
+    "version": null,
+    "homepage": "https://github.com/dsh-research/dsh-research",
+    "firstObservedAt": "2026-08-18T20:43:41Z",
+    "lastChangedAt": "2026-08-18T20:43:41Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-eac1046933d9372fe911.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-eac1046933d9372fe911.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-research",
+    "command": "dsh plugin --profile web add dsh-research",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-eac1046933d9372fe911，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-eac1046933d9372fe911.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-eac1046933d9372fe911.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-research 已收录到 DeepSeek Harness Plugin Store。精选科研插件市场：在设置里加一页「科研插件」，收录逐个读过代码的文献检索、文献管理、写作与科研工作台插件——一键安装、更新、卸载并钉住审读过的版本，面板内重启，只发一个网络请求（拉取自家目录）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-eac1046933d9372fe911.html",
+    "en": "dsh-research is now listed on the DeepSeek Harness Plugin Store. Curated research plugin market: adds a Research plugins page to Settings with hand-reviewed plugins for literature search, reference management, writing and workbenches — one-click install, update and remove pinned to the reviewed version, restart from the panel, and exactly one network request (its own catalog).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-eac1046933d9372fe911.html"
+  }
+}

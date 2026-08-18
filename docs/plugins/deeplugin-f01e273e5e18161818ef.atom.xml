@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-peak-cost-mode — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-f01e273e5e18161818ef.atom.xml</id>
+  <updated>2026-08-18T20:43:41Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-f01e273e5e18161818ef.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f01e273e5e18161818ef.html"/>
+  <entry>
+    <title>New: dsh-peak-cost-mode</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-f01e273e5e18161818ef/61c311dc4d545928</id>
+    <updated>2026-08-18T20:43:41Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f01e273e5e18161818ef.html"/>
+    <author><name>moon09300731</name></author>
+    <category term="notify"/>
+    <summary>Auto-switches the agent to ultra-compressed caveman-style output during DeepSeek peak-pricing hours (Beijing 09:00–12:00 / 14:00–18:00, price x2) and shows a status badge plus transition toasts. Exact install spec: dsh-peak-cost-mode. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

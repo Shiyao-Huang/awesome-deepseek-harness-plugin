@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/diqierjia/StrataGate-AgentMemory/tree/main/integrations/deepseek-harness",
     "firstObservedAt": "2026-08-16T13:41:06Z",
-    "lastChangedAt": "2026-08-16T13:41:06Z"
+    "lastChangedAt": "2026-08-18T20:43:41Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-470d83aa92125ac7bb4b.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-470d83aa92125ac7bb4b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "StrataGate-AgentMemory#deepseek-harness 已收录到 DeepSeek Harness Plugin Store。为 DeepSeek Harness 自动建立本地优先的跨会话长期记忆：以 Event/Element 卡片分层沉淀对话与工具结果，召回时检查证据充分性，并可展开回原始记录。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-470d83aa92125ac7bb4b.html",
-    "en": "StrataGate-AgentMemory#deepseek-harness is now listed on the DeepSeek Harness Plugin Store. Automatic, local-first cross-session memory for DeepSeek Harness: layered Event/Element cards, evidence-gated recall, and expansion back to original turns and tool results.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-470d83aa92125ac7bb4b.html"
+    "zh": "StrataGate-AgentMemory#deepseek-harness 已收录到 DeepSeek Harness Plugin Store。DeepSeek Harness 的自动本地跨会话记忆：记住用户偏好、项目决策、历史对话与工具结果；回答前检查证据，并可追溯到原始消息。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-470d83aa92125ac7bb4b.html",
+    "en": "StrataGate-AgentMemory#deepseek-harness is now listed on the DeepSeek Harness Plugin Store. Automatic, local-first cross-session memory for DeepSeek Harness: remembers user preferences, project decisions, conversations, and tool results; verifies recalled information against original messages before answering.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-470d83aa92125ac7bb4b.html"
   }
 }

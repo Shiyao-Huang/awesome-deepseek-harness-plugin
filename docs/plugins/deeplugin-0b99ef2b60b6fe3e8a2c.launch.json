@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-0b99ef2b60b6fe3e8a2c",
+    "name": "dsh-serendipity",
+    "author": "PocketSWPU",
+    "category": "fun",
+    "version": null,
+    "homepage": "https://github.com/PocketSWPU/dsh-serendipity",
+    "firstObservedAt": "2026-08-18T20:43:41Z",
+    "lastChangedAt": "2026-08-18T20:43:41Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-0b99ef2b60b6fe3e8a2c.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-0b99ef2b60b6fe3e8a2c.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:pocketswpu/dsh-serendipity",
+    "command": "dsh plugin --profile web add github:pocketswpu/dsh-serendipity",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-0b99ef2b60b6fe3e8a2c，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-0b99ef2b60b6fe3e8a2c.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-0b99ef2b60b6fe3e8a2c.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-serendipity 已收录到 DeepSeek Harness Plugin Store。把用户本人当作 RPG 主角：每轮对话结束后有几率触发随机「奇遇」，事件库 700+，覆盖科幻/玄幻/远古/动漫/小说/武侠/都市七大主题，增减力量/智力/敏捷/魅力/幸运/体魄六维属性，积累经验升级并随等级解锁更宏大的事件，含属性加权分支与设置页可视化配置。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-0b99ef2b60b6fe3e8a2c.html",
+    "en": "dsh-serendipity is now listed on the DeepSeek Harness Plugin Store. Turns the user into an RPG protagonist: after each finished user turn a random \"adventure\" may trigger, drawn from 700+ events across 7 themed pools (sci-fi, fantasy, ancient, anime, novels, wuxia, urban), growing six persistent attributes (strength, intelligence, agility, charisma, luck, vitality) with XP, levels and attribute-weighted story branches, configured via a settings-page UI.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-0b99ef2b60b6fe3e8a2c.html"
+  }
+}

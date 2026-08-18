@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-2d79527a2c668a582b60",
+    "name": "dsh-multi-lang-ui",
+    "author": "asd13006",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/asd13006/dsh-multi-lang-ui",
+    "firstObservedAt": "2026-08-18T20:43:41Z",
+    "lastChangedAt": "2026-08-18T20:43:41Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-2d79527a2c668a582b60.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-2d79527a2c668a582b60.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:asd13006/dsh-multi-lang-ui",
+    "command": "dsh plugin --profile web add github:asd13006/dsh-multi-lang-ui",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-2d79527a2c668a582b60，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-2d79527a2c668a582b60.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-2d79527a2c668a582b60.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-multi-lang-ui 已收录到 DeepSeek Harness Plugin Store。為 DeepSeek Harness Web UI 語言選單新增六種語言（繁體中文、日本語、한국어、Français、Deutsch、Español）：各語言逐條精譯，缺字串自動兜底（繁中即時簡轉繁、其他語言回退英文），官方更新與第三方插件都能覆蓋。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-2d79527a2c668a582b60.html",
+    "en": "dsh-multi-lang-ui is now listed on the DeepSeek Harness Plugin Store. Add six languages (繁體中文, 日本語, 한국어, Français, Deutsch, Español) to the DeepSeek Harness Web UI language options, with hand-polished per-language translations and automatic fallbacks (Simplified-to-Traditional conversion for zh-TW, English for the others) covering upstream updates and third-party plugins.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-2d79527a2c668a582b60.html"
+  }
+}

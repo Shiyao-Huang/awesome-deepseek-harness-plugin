@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-5b9350aa6e3c93c3ec45",
+    "name": "dsh-skill-mcp-center",
+    "author": "Max-Null",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/Max-Null/dsh-skill-mcp-center",
+    "firstObservedAt": "2026-08-18T20:43:41Z",
+    "lastChangedAt": "2026-08-18T20:43:41Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-5b9350aa6e3c93c3ec45.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-5b9350aa6e3c93c3ec45.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@max-null/dsh-skill-mcp-center",
+    "command": "dsh plugin --profile web add @max-null/dsh-skill-mcp-center",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-5b9350aa6e3c93c3ec45，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-5b9350aa6e3c93c3ec45.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-5b9350aa6e3c93c3ec45.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-skill-mcp-center 已收录到 DeepSeek Harness Plugin Store。DeepSeek Harness 技能与 MCP 管理中心：浏览并启停用户/项目技能，热增删改 MCP 服务器（免重启），侧边栏实时展示各服务器状态。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-5b9350aa6e3c93c3ec45.html",
+    "en": "dsh-skill-mcp-center is now listed on the DeepSeek Harness Plugin Store. Skill and MCP management center for DeepSeek Harness: browse and toggle user/project skills, add/edit/remove MCP servers hot without restart, with live per-session status in the sidebar.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-5b9350aa6e3c93c3ec45.html"
+  }
+}

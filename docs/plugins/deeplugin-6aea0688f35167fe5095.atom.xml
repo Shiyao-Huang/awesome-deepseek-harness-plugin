@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-subagent-default-model#plugin — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-6aea0688f35167fe5095.atom.xml</id>
+  <updated>2026-08-18T20:43:41Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-6aea0688f35167fe5095.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-6aea0688f35167fe5095.html"/>
+  <entry>
+    <title>New: dsh-subagent-default-model#plugin</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-6aea0688f35167fe5095/61c311dc4d545928</id>
+    <updated>2026-08-18T20:43:41Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-6aea0688f35167fe5095.html"/>
+    <author><name>dingminhua</name></author>
+    <category term="model"/>
+    <summary>Configurable default model for subagent delegations via settings.yaml, with single-model and multi-model round-robin or random strategies. Exact install spec: github:dingminhua/dsh-subagent-default-model#path:/plugin. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

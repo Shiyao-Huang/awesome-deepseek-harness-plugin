@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-13ef10d6102476264a06",
+    "name": "dsh-skill-7d-git-commit",
+    "author": "7dgroup-ai",
+    "category": "git",
+    "version": null,
+    "homepage": "https://github.com/7dgroup-ai/dsh-skill-7d-git-commit",
+    "firstObservedAt": "2026-08-18T20:43:41Z",
+    "lastChangedAt": "2026-08-18T20:43:41Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-13ef10d6102476264a06.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-13ef10d6102476264a06.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:7dgroup-ai/dsh-skill-7d-git-commit",
+    "command": "dsh plugin --profile web add github:7dgroup-ai/dsh-skill-7d-git-commit",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-13ef10d6102476264a06，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-13ef10d6102476264a06.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-13ef10d6102476264a06.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-skill-7d-git-commit 已收录到 DeepSeek Harness Plugin Store。提交前按 7DGroup 规范校验 git commit message（中文类型标签、长度与标点规则），作为 GitLab pre-receive 钩子的客户端前置校验。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-13ef10d6102476264a06.html",
+    "en": "dsh-skill-7d-git-commit is now listed on the DeepSeek Harness Plugin Store. Checks git commit messages against the 7DGroup convention (Chinese type tags, length and punctuation rules) before committing, as a client-side guard before GitLab pre-receive hooks.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-13ef10d6102476264a06.html"
+  }
+}

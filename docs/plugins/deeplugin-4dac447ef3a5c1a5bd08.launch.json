@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-4dac447ef3a5c1a5bd08",
+    "name": "oh-my-dsh",
+    "author": "llmpolska",
+    "category": "model",
+    "version": null,
+    "homepage": "https://github.com/llmpolska/oh-my-dsh",
+    "firstObservedAt": "2026-08-18T20:43:41Z",
+    "lastChangedAt": "2026-08-18T20:43:41Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-4dac447ef3a5c1a5bd08.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-4dac447ef3a5c1a5bd08.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:llmpolska/oh-my-dsh",
+    "command": "dsh plugin --profile web add github:llmpolska/oh-my-dsh",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-4dac447ef3a5c1a5bd08，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-4dac447ef3a5c1a5bd08.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-4dac447ef3a5c1a5bd08.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "oh-my-dsh 已收录到 DeepSeek Harness Plugin Store。面向 DeepSeek Harness 的分级模型路由：think/build 模型分级、视觉委派（视觉模型只负责描述图片，工作模型负责执行操作）、图片生成，以及高影响操作守卫。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-4dac447ef3a5c1a5bd08.html",
+    "en": "oh-my-dsh is now listed on the DeepSeek Harness Plugin Store. Tiered model routing for DeepSeek Harness: think/build model tiers, vision delegation (the vision model only describes images; the working model acts), image generation, and a high-impact guard.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-4dac447ef3a5c1a5bd08.html"
+  }
+}

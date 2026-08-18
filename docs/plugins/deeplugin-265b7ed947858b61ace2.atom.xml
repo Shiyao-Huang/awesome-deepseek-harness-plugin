@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-quick-toc — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-265b7ed947858b61ace2.atom.xml</id>
+  <updated>2026-08-18T20:43:41Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-265b7ed947858b61ace2.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-265b7ed947858b61ace2.html"/>
+  <entry>
+    <title>New: dsh-quick-toc</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-265b7ed947858b61ace2/61c311dc4d545928</id>
+    <updated>2026-08-18T20:43:41Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-265b7ed947858b61ace2.html"/>
+    <author><name>LyaxZ</name></author>
+    <category term="ui"/>
+    <summary>Conversation TOC for DeepSeek Harness: markdown heading outline grouped by turn, with auto-follow highlight and smooth jump navigation. Exact install spec: dsh-quick-toc. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

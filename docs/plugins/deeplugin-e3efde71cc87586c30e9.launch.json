@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-e3efde71cc87586c30e9",
+    "name": "dsh-web-launcher",
+    "author": "ayingQAQ",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/ayingQAQ/dsh-web-launcher",
+    "firstObservedAt": "2026-08-18T20:43:41Z",
+    "lastChangedAt": "2026-08-18T20:43:41Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-e3efde71cc87586c30e9.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-e3efde71cc87586c30e9.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:ayingqaq/dsh-web-launcher",
+    "command": "dsh plugin --profile web add github:ayingqaq/dsh-web-launcher",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-e3efde71cc87586c30e9，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-e3efde71cc87586c30e9.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-e3efde71cc87586c30e9.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-web-launcher 已收录到 DeepSeek Harness Plugin Store。DSH Web 的 Windows 桌面启动器插件，创建受管理的快捷方式，后续启动会在后台重启 DSH 并刷新已有浏览器页面。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e3efde71cc87586c30e9.html",
+    "en": "dsh-web-launcher is now listed on the DeepSeek Harness Plugin Store. Windows desktop launcher bundle for DSH Web that creates a managed shortcut, then restarts DSH in the background and refreshes the existing browser page.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e3efde71cc87586c30e9.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-f01e273e5e18161818ef",
+    "name": "dsh-peak-cost-mode",
+    "author": "moon09300731",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/moon09300731/dsh-peak-cost-mode",
+    "firstObservedAt": "2026-08-18T20:43:41Z",
+    "lastChangedAt": "2026-08-18T20:43:41Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-f01e273e5e18161818ef.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-f01e273e5e18161818ef.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-peak-cost-mode",
+    "command": "dsh plugin --profile web add dsh-peak-cost-mode",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-f01e273e5e18161818ef，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-f01e273e5e18161818ef.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-f01e273e5e18161818ef.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-peak-cost-mode 已收录到 DeepSeek Harness Plugin Store。在 DeepSeek 高峰计价时段（北京时间 09:00–12:00、14:00–18:00，价格 ×2）自动切换 caveman 超精简输出省 token，标题栏常驻状态徽章，档位切换时弹提醒。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-f01e273e5e18161818ef.html",
+    "en": "dsh-peak-cost-mode is now listed on the DeepSeek Harness Plugin Store. Auto-switches the agent to ultra-compressed caveman-style output during DeepSeek peak-pricing hours (Beijing 09:00–12:00 / 14:00–18:00, price x2) and shows a status badge plus transition toasts.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-f01e273e5e18161818ef.html"
+  }
+}

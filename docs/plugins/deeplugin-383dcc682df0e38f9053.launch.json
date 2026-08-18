@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-383dcc682df0e38f9053",
+    "name": "gongwen-skill",
+    "author": "linhut",
+    "category": "skill",
+    "version": null,
+    "homepage": "https://github.com/linhut/gongwen-skill",
+    "firstObservedAt": "2026-08-18T20:43:41Z",
+    "lastChangedAt": "2026-08-18T20:43:41Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-383dcc682df0e38f9053.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-383dcc682df0e38f9053.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "gongwen-skill",
+    "command": "dsh plugin --profile web add gongwen-skill",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-383dcc682df0e38f9053，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-383dcc682df0e38f9053.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-383dcc682df0e38f9053.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "gongwen-skill 已收录到 DeepSeek Harness Plugin Store。中文公文全流程处理工具：GB/T 9704 格式检查、自动修复、内容修订（红色标注+删除线）、模板生成、Markdown 转公文、版头/版记/页码注入，覆盖通知/请示/报告/函/会议纪要等 24 类公文。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-383dcc682df0e38f9053.html",
+    "en": "gongwen-skill is now listed on the DeepSeek Harness Plugin Store. Chinese government document processing toolkit: GB/T 9704 format check, auto-fix, content revision (red annotation + strikethrough), template generation, Markdown-to-docx, and document header/footer/page-number injection for 24 official document types.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-383dcc682df0e38f9053.html"
+  }
+}

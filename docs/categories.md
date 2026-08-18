@@ -8,13 +8,13 @@
 
 | 平台 | 标题 | 指标 | 作者 |
 | --- | --- | --- | --- |
-| github | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 80,257 ★, 11,001 forks | bytedance |
-| github | [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) | 25,642 ★, 2,469 forks | can1357 |
+| github | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 80,260 ★, 11,001 forks | bytedance |
+| github | [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) | 25,651 ★, 2,472 forks | can1357 |
 | youtube | [DeepSeek Harness - Its a Big Deal!](https://www.youtube.com/watch?v=NPO2CwHnfmI) | 21,000 views | Prompt Engineering |
 | x | [DeepSeek Harness v0.1 is now available in Developer Preview!](https://x.com/deepseek_ai/status/2087887408440164663) | 19,518 ♥, 3,994,414 views, 740 replies | DeepSeek |
-| github | [HKUDS/DeepCode](https://github.com/HKUDS/DeepCode) | 16,367 ★, 2,141 forks | HKUDS |
+| github | [HKUDS/DeepCode](https://github.com/HKUDS/DeepCode) | 16,368 ★, 2,141 forks | HKUDS |
 | github | [nanobrowser/nanobrowser](https://github.com/nanobrowser/nanobrowser) | 13,570 ★, 1,432 forks | nanobrowser |
-| github | [ZSeven-W/openpencil](https://github.com/ZSeven-W/openpencil) | 5,329 ★, 475 forks | ZSeven-W |
+| github | [ZSeven-W/openpencil](https://github.com/ZSeven-W/openpencil) | 5,330 ★, 475 forks | ZSeven-W |
 | github | [zhnt/loushang](https://github.com/zhnt/loushang) | 1,132 ★, 186 forks | zhnt |
 | github | [Enderfga/claw-orchestrator](https://github.com/Enderfga/claw-orchestrator) | 548 ★, 89 forks | Enderfga |
 | github | [yogsoth-ai/de-anthropocentric-research-engine](https://github.com/yogsoth-ai/de-anthropocentric-research-engine) | 371 ★, 32 forks | yogsoth-ai |
@@ -38,6 +38,7 @@
 | xiaohongshu | [DeepSeek Harness的过度设计与 Pi 的极简](https://www.xiaohongshu.com/explore/6a7fc6a90000000024025fef) | — | AI拯救打工人（幻觉版） |
 | github | [dsh-subagent-model-picker](https://github.com/ringoage/dsh-subagent-model-picker) | 0 ★, 0 forks | ringoage |
 | github | [dsh-agent-canvas](https://github.com/Lhy723/dsh-agent-canvas) | 0 ★, 0 forks | Lhy723 |
+| github | [dingminhua/dsh-subagent-default-modelplugin](https://github.com/dingminhua/dsh-subagent-default-model) | 0 ★, 0 forks | dingminhua |
 
 ## core-and-ecosystem
 
@@ -45,37 +46,37 @@
 
 | 平台 | 标题 | 指标 | 作者 |
 | --- | --- | --- | --- |
-| github | [ollama/ollama](https://github.com/ollama/ollama) | 178,888 ★, 17,460 forks | ollama |
-| github | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 159,747 ★, 16,685 forks | deepseek-ai |
-| github | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 107,834 ★, 10,473 forks | Graphify-Labs |
-| github | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | 74,576 ★, 12,063 forks | shareAI-lab |
+| github | [ollama/ollama](https://github.com/ollama/ollama) | 178,897 ★, 17,458 forks | ollama |
+| github | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 159,965 ★, 16,718 forks | deepseek-ai |
+| github | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 107,865 ★, 10,474 forks | Graphify-Labs |
+| github | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | 74,582 ★, 12,063 forks | shareAI-lab |
 | github | [headroom](https://github.com/headroomlabs-ai/headroom) | 66,438 ★, 5,097 forks | headroomlabs-ai |
-| github | [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | 64,669 ★, 6,429 forks | shanraisshan |
-| github | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 50,728 ★, 4,813 forks | CherryHQ |
-| github | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | 47,752 ★, 3,855 forks | hugohe3 |
-| github | [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | 42,931 ★, 3,413 forks | Imbad0202 |
-| github | [amruthpillai/reactive-resume](https://github.com/amruthpillai/reactive-resume) | 40,988 ★, 4,618 forks | amruthpillai |
-| github | [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) | 40,829 ★, 3,534 forks | Hmbown |
+| github | [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | 64,673 ★, 6,430 forks | shanraisshan |
+| github | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 50,730 ★, 4,813 forks | CherryHQ |
+| github | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | 47,755 ★, 3,855 forks | hugohe3 |
+| github | [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | 42,934 ★, 3,413 forks | Imbad0202 |
+| github | [amruthpillai/reactive-resume](https://github.com/amruthpillai/reactive-resume) | 40,995 ★, 4,618 forks | amruthpillai |
+| github | [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) | 40,830 ★, 3,534 forks | Hmbown |
 | youtube | [DeepSeek Harness 正式发布！ 开源一天狂揽 6.8 万星！V4 Pro 模型低调上线，AI Agent 部署与实测 \| 零度解说](https://www.youtube.com/watch?v=5G_afoTB1gs) | 37,000 views | 零度解说 |
-| github | [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | 34,772 ★, 2,310 forks | esengine |
-| github | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | 31,214 ★, 5,070 forks | HKUDS |
-| github | [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | 29,240 ★, 2,298 forks | volcengine |
+| github | [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | 34,777 ★, 2,310 forks | esengine |
+| github | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | 31,220 ★, 5,070 forks | HKUDS |
+| github | [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | 29,282 ★, 2,303 forks | volcengine |
 | github | [BigPizzaV3/CodexPlusPlus](https://github.com/BigPizzaV3/CodexPlusPlus) | 29,176 ★, 1,858 forks | BigPizzaV3 |
-| github | [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) | 27,149 ★, 2,319 forks | rohitg00 |
+| github | [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) | 27,151 ★, 2,319 forks | rohitg00 |
 | youtube | [🚀实测DeepSeek Harness从基础到高级用法！WebUI远程控制、多模型接入、执行轨迹、插件系统、任务分支、游戏开发、代码仓库issues和pr分析！竟然比Claude Code更强？](https://www.youtube.com/watch?v=Aqn7EP8shJw) | 25,000 views | AI超元域 |
-| github | [titanwings/colleague-skill](https://github.com/titanwings/colleague-skill) | 23,382 ★, 2,081 forks | titanwings |
+| github | [titanwings/colleague-skill](https://github.com/titanwings/colleague-skill) | 23,384 ★, 2,081 forks | titanwings |
 | github | [micro/go-micro](https://github.com/micro/go-micro) | 23,018 ★, 2,415 forks | micro |
 | github | [hindsight#coding-agents](https://github.com/vectorize-io/hindsight) | 20,034 ★, 1,418 forks | vectorize-io |
-| github | [1jehuang/jcode](https://github.com/1jehuang/jcode) | 17,927 ★, 2,011 forks | 1jehuang |
-| github | [HKUDS/OpenHarness](https://github.com/HKUDS/OpenHarness) | 15,414 ★, 2,507 forks | HKUDS |
-| github | [GreyDGL/PentestGPT](https://github.com/GreyDGL/PentestGPT) | 14,934 ★, 2,606 forks | GreyDGL |
+| github | [1jehuang/jcode](https://github.com/1jehuang/jcode) | 17,932 ★, 2,012 forks | 1jehuang |
+| github | [HKUDS/OpenHarness](https://github.com/HKUDS/OpenHarness) | 15,415 ★, 2,507 forks | HKUDS |
+| github | [GreyDGL/PentestGPT](https://github.com/GreyDGL/PentestGPT) | 14,935 ★, 2,606 forks | GreyDGL |
 | github | [wanshuiyin/Auto-claude-code-research-in-sleep](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | 14,858 ★, 1,308 forks | wanshuiyin |
-| github | [YishenTu/claudian](https://github.com/YishenTu/claudian) | 14,841 ★, 967 forks | YishenTu |
+| github | [YishenTu/claudian](https://github.com/YishenTu/claudian) | 14,842 ★, 967 forks | YishenTu |
 | bilibili | [【热门AI鉴定】DeepSeek Harness是什么？强在哪里？Harness实测效果如何？一口气搞懂！](https://www.bilibili.com/video/BV11CgF6uE4k) | 12,206 ♥, 446,982 views, 656 replies, 7,015 favorites, 1,927 shares, 2,764 coins, 252 danmaku | Git源宝 |
-| github | [EverMind-AI/EverOS](https://github.com/EverMind-AI/EverOS) | 12,128 ★, 891 forks | EverMind-AI |
+| github | [EverMind-AI/EverOS](https://github.com/EverMind-AI/EverOS) | 12,131 ★, 891 forks | EverMind-AI |
 | youtube | [DeepSeek Harness 首发实测 + 入门教程，夯爆了！梁神我错了](https://www.youtube.com/watch?v=6u5wah0BpBE) | 11,000 views | 程序员鱼皮 |
 | youtube | [DeepSeek&#x27;s New AI Harness Changes Everything](https://www.youtube.com/watch?v=uag_fnGyh10) | 10,000 views | Julian Goldie SEO |
-| github | [kangarooking/cangjie-skill](https://github.com/kangarooking/cangjie-skill) | 8,243 ★, 983 forks | kangarooking |
+| github | [kangarooking/cangjie-skill](https://github.com/kangarooking/cangjie-skill) | 8,244 ★, 983 forks | kangarooking |
 | github | [alvinunreal/oh-my-opencode-slim](https://github.com/alvinunreal/oh-my-opencode-slim) | 8,217 ★, 492 forks | alvinunreal |
 | github | [nndl/llm-beginner](https://github.com/nndl/llm-beginner) | 6,662 ★, 1,353 forks | nndl |
 | github | [Q00/ouroboros](https://github.com/Q00/ouroboros) | 5,549 ★, 556 forks | Q00 |
@@ -91,21 +92,21 @@
 | youtube | [DeepSeek Harness: Free Claude Code Rival Hits 24k Stars Day 1](https://www.youtube.com/watch?v=k2hi16y67Jo) | 3,772 views | Prism Labs |
 | xiaohongshu | [DeepSeek Harness 保姆级安装教程](https://www.xiaohongshu.com/explore/6a7e2d740000000025017880) | 3,769 ♥ | 杜耶Pro |
 | github | [EverMind-AI/Raven](https://github.com/EverMind-AI/Raven) | 3,559 ★, 64 forks | EverMind-AI |
-| github | [xiaobright/dsh-anchored-standard](https://github.com/xiaobright/dsh-anchored-standard) | 3,550 ★, 106 forks | xiaobright |
+| github | [xiaobright/dsh-anchored-standard](https://github.com/xiaobright/dsh-anchored-standard) | 3,554 ★, 106 forks | xiaobright |
 | github | [strukto-ai/mirage](https://github.com/strukto-ai/mirage) | 3,506 ★, 259 forks | strukto-ai |
 | youtube | [[DeepSeek&#x27;s Latest Open-Source Project] DeepSeek Harness Is Officially Here! In-Depth Analysis of...](https://www.youtube.com/watch?v=CAb1PaVBCEM) | 3,335 views | 鲲鹏Talk |
 | youtube | [DeepSeek Harness 快速上手：本地安装与运行](https://www.youtube.com/watch?v=Ykn3aQi7x7o) | 3,318 views | 01Coder |
 | youtube | [deepseek harness发布，评论两极分化？保姆级使用教程](https://www.youtube.com/watch?v=BUPHZkOwhXE) | 3,269 views | AI随风 |
 | github | [whiteguo233/OpenBiliClaw](https://github.com/whiteguo233/OpenBiliClaw) | 2,896 ★, 133 forks | whiteguo233 |
-| github | [foryourhealth111-pixel/Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) | 2,883 ★, 229 forks | foryourhealth111-pixel |
+| github | [foryourhealth111-pixel/Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) | 2,884 ★, 229 forks | foryourhealth111-pixel |
 | github | [imsai-sh/zhuzhiliao](https://github.com/imsai-sh/zhuzhiliao) | 2,836 ★, 342 forks | imsai-sh |
 | bilibili | [一个视频带你了解 DeepSeek新模型 + Harness ！｜ 赛博赵云，七进七出救阿斗。](https://www.bilibili.com/video/BV1qFuf6SEEX) | 2,800 ♥, 108,972 views, 930 replies, 856 favorites, 407 shares, 390 coins, 267 danmaku | 神烦老狗 |
 | github | [dsh-routing-suite](https://github.com/yjh051108/dsh-routing-suite) | 2,735 ★, 66 forks | yjh051108 |
 | youtube | [发布 24 小时冲 6 万 star！DeepSeek  Harness 从 0 开始 快速上手 ｜ 一切皆插件 ｜ 3必装插件分享](https://www.youtube.com/watch?v=LAOLbK_KH9g) | 2,594 views | 傅云飞飞 |
 | x | [DeepSeek published their harness. 24K stars already. it’s a React web app with everything designed to be a plugin: from agent loops, models, tools, to even sessions.](https://x.com/Hesamation/status/2087917006448173519) | 2,445 ♥, 277,997 views, 25 replies | ℏεsam |
 | github | [chuspeeism/dashi-taskboard](https://github.com/chuspeeism/dashi-taskboard) | 2,333 ★, 302 forks | chuspeeism |
+| github | [Tiger3807861189/J-Space-Cognition-Suite-V3.6](https://github.com/Tiger3807861189/J-Space-Cognition-Suite-V3.6) | 2,127 ★, 124 forks | Tiger3807861189 |
 | xiaohongshu | [从0开始成为DeepSeek Harness高手](https://www.xiaohongshu.com/explore/6a7e6b100000000029032f61) | 2,103 ♥ | 野生AI研究员 |
-| github | [Tiger3807861189/J-Space-Cognition-Suite-V3.6](https://github.com/Tiger3807861189/J-Space-Cognition-Suite-V3.6) | 2,094 ★, 126 forks | Tiger3807861189 |
 | youtube | [DeepSeek Harness + V4 Flash = The END of Claude Code?](https://www.youtube.com/watch?v=wvaWgFw-z88) | 1,962 views | Income stream surfers |
 | xiaohongshu | [7分钟解读DeepSeek Harness](https://www.xiaohongshu.com/explore/6a7ea5430000000006006ce6) | 1,960 ♥ | 晓辉博士 |
 | x | [Tianyi Cui @tianyi · 13h Thank you! Pi is many DeepSeek researchers and developers favorite daily drive. DSH reused Pi&#x27;s LLM adaptor package](https://x.com/tianyi/status/2088306143772946499) | 1,755 ♥, 145,784 views, 40 replies |  |
@@ -113,19 +114,19 @@
 | x | [Max For AI @MaxForAI · Aug 14 鉴于V4-Pro-0813和DeepSeek Harness的表现，我宣布梁文锋评价下调为梁子。 144 56 1.7K 235K](https://x.com/MaxForAI/status/2087933020431139080) | 1,719 ♥, 235,634 views, 144 replies | Max For AI |
 | github | [Prism-Shadow/penguin-harness](https://github.com/Prism-Shadow/penguin-harness) | 1,495 ★, 147 forks | Prism-Shadow |
 | github | [Jesseovo/last30days-skill-cn](https://github.com/Jesseovo/last30days-skill-cn) | 1,439 ★, 163 forks | Jesseovo |
-| github | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | 1,365 ★, 45 forks | Small-tailqwq |
+| github | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | 1,372 ★, 45 forks | Small-tailqwq |
 | youtube | [How to Develop a DeepSeek Harness Plugin?](https://www.youtube.com/watch?v=iieUVcoPjlI) | 1,172 views | 01Coder |
 | github | [Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill) | 1,148 ★, 95 forks | Tencent |
 | github | [paean-ai/deeptide](https://github.com/paean-ai/deeptide) | 1,080 ★, 134 forks | paean-ai |
-| github | [dsh-market/dsh-market](https://github.com/dsh-market/dsh-market) | 1,032 ★, 65 forks | dsh-market |
-| github | [Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report](https://github.com/Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report) | 974 ★, 59 forks | Tiger3807861189 |
+| github | [dsh-market/dsh-market](https://github.com/dsh-market/dsh-market) | 1,038 ★, 66 forks | dsh-market |
+| github | [Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report](https://github.com/Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report) | 982 ★, 59 forks | Tiger3807861189 |
 | github | [urzeye/ophel](https://github.com/urzeye/ophel) | 973 ★, 54 forks | urzeye |
 | x | [Tianyi Cui @tianyi · 13h 如果你人在杭州或周边，想给 DeepSeek Harness 组投简历看机会，请联系我。 DeepSeek Harness 组招聘深度学习研究员、研发工程师、产品经理、设计师、开发者关系、社区运营、项目经理，都热招中，全职实习都招](https://x.com/tianyi/status/2088304053193421218) | 955 ♥, 150,573 views, 158 replies | Tianyi Cui |
 | x | [Ollama now supports the DeepSeek Harness.](https://x.com/ollama/status/2088392765021528319) | 949 ♥, 73,825 views, 36 replies | ollama |
 | github | [mindscale-noah/MindMemOS](https://github.com/mindscale-noah/MindMemOS) | 938 ★, 91 forks | mindscale-noah |
-| github | [vostride/agent-qa](https://github.com/vostride/agent-qa) | 927 ★, 13 forks | vostride |
+| github | [vostride/agent-qa](https://github.com/vostride/agent-qa) | 929 ★, 13 forks | vostride |
 | youtube | [The Black Whale Is Coming for Claude Code — DeepSeek Harness](https://www.youtube.com/watch?v=jYDVr-K6HY0) | 915 views | Morgans Code |
-| github | [tong-io/tongflow](https://github.com/tong-io/tongflow) | 856 ★, 110 forks | tong-io |
+| github | [tong-io/tongflow](https://github.com/tong-io/tongflow) | 856 ★, 111 forks | tong-io |
 | xiaohongshu | [DeepSeek Harness装上皮肤顺眼多了](https://www.xiaohongshu.com/explore/6a7e82660000000025004904) | 834 ♥ | 量子位 |
 | github | [xyTom/coding-tools-mcp](https://github.com/xyTom/coding-tools-mcp) | 821 ★, 142 forks | xyTom |
 | github | [XiaoMaColtAI/math-modeling-skill](https://github.com/XiaoMaColtAI/math-modeling-skill) | 752 ★, 44 forks | XiaoMaColtAI |
@@ -157,7 +158,7 @@
 | github | [NanmiCoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) | 410 ★, 36 forks | NanmiCoder |
 | xiaohongshu | [DeepSeek最适合的Harness来了](https://www.xiaohongshu.com/explore/6a7d424a000000002402dfaa) | 408 ♥ | 量子位 |
 | github | [Ikalus1988/MisakaNet](https://github.com/Ikalus1988/MisakaNet) | 405 ★, 154 forks | Ikalus1988 |
-| github | [EthanYoQ/AI-Novel-Writer](https://github.com/EthanYoQ/AI-Novel-Writer) | 388 ★, 55 forks | EthanYoQ |
+| github | [EthanYoQ/AI-Novel-Writer](https://github.com/EthanYoQ/AI-Novel-Writer) | 389 ★, 55 forks | EthanYoQ |
 | github | [Better DeepSeek](https://github.com/EdgeTypE/better-deepseek) | 378 ★, 41 forks | EdgeTypE |
 | x | [Today, we are launching Ori DeepSeek Harness](https://x.com/OpenRouter/status/2088325665741496600) | 376 ♥, 40,601 views, 13 replies | OpenRouter |
 | xiaohongshu | [Deepseek Harness，纯Web形态+极致开放](https://www.xiaohongshu.com/explore/6a7df61900000000210215be) | 374 ♥ | 阿图AI |
@@ -165,7 +166,7 @@
 | github | [morluto/rea](https://github.com/morluto/rea) | 329 ★, 26 forks | morluto |
 | github | [Minara-AI/minara-skills](https://github.com/Minara-AI/minara-skills) | 328 ★, 35 forks | Minara-AI |
 | xiaohongshu | [写了一个DeepSeek Harness接入微信的插件](https://www.xiaohongshu.com/explore/6a7e94f5000000002402c800) | 318 ♥ | 菜菜在AI |
-| github | [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) | 317 ★, 4 forks | bowenliang123 |
+| github | [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) | 318 ★, 4 forks | bowenliang123 |
 | xiaohongshu | [DeepSeek Harness开发被曝大量使用 Codex](https://www.xiaohongshu.com/explore/6a7f2d13000000002c002923) | 310 ♥ | 硅基处长 |
 | x | [Yaowei Zheng @code_hiyouga · Aug 14 DeepSeek Harness (dsh) launched today, and reactions have been pretty mixed. I figured I&#x27;d share a few t](https://x.com/code_hiyouga/status/2087953180281954594) | 290 ♥, 19,365 views, 11 replies | Yaowei Zheng |
 | github | [WYH66666666/DSH-Transparent-UI-Plugin](https://github.com/WYH66666666/DSH-Transparent-UI-Plugin) | 289 ★, 13 forks | WYH66666666 |
@@ -915,6 +916,7 @@
 | github | [dsh-ask-peer](https://github.com/zzhzz/dsh-ask-peer) | 3 ★, 0 forks | zzhzz |
 | hacker_news | [DSHPlugin – DeepSeek Harness plugins with install, compatibility and repo data](https://news.ycombinator.com/item?id=49342212) | 3 points, 0 comments | yanng404 |
 | github | [dsh-rewind](https://github.com/SiriLee/dsh-rewind) | 3 ★, 0 forks | SiriLee |
+| github | [gongwen-skill](https://github.com/linhut/gongwen-skill) | 3 ★, 1 forks | linhut |
 | github | [dsh-everything-oauth](https://github.com/kam74515-boop/dsh-everything-oauth) | 2 ★, 1 forks | kam74515-boop |
 | github | [url-manager](https://github.com/Piccolo123/url-manager) | 2 ★, 1 forks | Piccolo123 |
 | github | [dsh-session-search](https://github.com/Tieboyh/dsh-session-search) | 2 ★, 0 forks | Tieboyh |
@@ -1106,6 +1108,7 @@
 | github | [dsh-deepseek-pet](https://github.com/txlznbzsdj-collab/dsh-deepseek-pet) | 2 ★, 0 forks | txlznbzsdj-collab |
 | github | [dsh-prompt-polish](https://github.com/jinhuoooo/dsh-prompt-polish) | 2 ★, 0 forks | jinhuoooo |
 | hacker_news | [DeepSeek Harness vs. LangChain Deep Agents – what&#x27;s the actual difference?](https://news.ycombinator.com/item?id=49345619) | 2 points, 0 comments | sockstack |
+| github | [dsh-serendipity](https://github.com/PocketSWPU/dsh-serendipity) | 2 ★, 0 forks | PocketSWPU |
 | x | [Xudong Han @Xudong07452910 · 6m 这个博客讲 Agent Harness 自进化中比较重要的一个问题： Harness 跑分提高了，到底哪里真的变好了？ 作者提出 Harness-Delta Attribution，把一次提升拆成三部分：过拟合、更多](https://x.com/Xudong07452910/status/2088508485713678421) | 1 ♥, 28 views | Xudong Han |
 | github | [dsh-tool-approval](https://github.com/ilharp/dsh-tool-approval) | 1 ★, 0 forks | ilharp |
 | github | [dsh-guardian](https://github.com/lonelymoon87/dsh-guardian) | 1 ★, 0 forks | lonelymoon87 |
@@ -1390,6 +1393,12 @@
 | github | [dsh-rate-limiter](https://github.com/Xidong-AI/dsh-rate-limiter) | 1 ★, 0 forks | Xidong-AI |
 | github | [dsh-session-recovery](https://github.com/Coprexist/dsh-session-recovery) | 1 ★, 0 forks | Coprexist |
 | github | [dsh-origin-plugin](https://github.com/Fantasality/dsh-origin-plugin) | 1 ★, 0 forks | Fantasality |
+| github | [dsh-web-launcher](https://github.com/ayingQAQ/dsh-web-launcher) | 1 ★, 0 forks | ayingQAQ |
+| github | [dsh-workspace-scope](https://github.com/Ri0n72Y/dsh-workspace-scope) | 1 ★, 0 forks | Ri0n72Y |
+| github | [dsh-patchouli](https://github.com/memorax-ai/dsh-patchouli) | 1 ★, 0 forks | memorax-ai |
+| github | [dsh-skill-7d-git-commit](https://github.com/7dgroup-ai/dsh-skill-7d-git-commit) | 1 ★, 0 forks | 7dgroup-ai |
+| github | [dsh-skill-mcp-center](https://github.com/Max-Null/dsh-skill-mcp-center) | 1 ★, 0 forks | Max-Null |
+| github | [dsh-research](https://github.com/dsh-research/dsh-research) | 1 ★, 0 forks | dsh-research |
 | hacker_news | [https://news.ycombinator.com/item?id=49298627](https://news.ycombinator.com/item?id=49298627) | — | tornikeo |
 | hacker_news | [https://news.ycombinator.com/item?id=49293650](https://news.ycombinator.com/item?id=49293650) | — | scotty79 |
 | hacker_news | [https://news.ycombinator.com/item?id=49292294](https://news.ycombinator.com/item?id=49292294) | — | z_rho_one |
@@ -1825,6 +1834,13 @@
 | github | [dsh-music-player](https://github.com/kendu76/dsh-music-player) | 0 ★, 0 forks | kendu76 |
 | github | [Disk Audit](https://github.com/zoahdev/dsh-disk-audit) | 0 ★, 0 forks | zoahdev |
 | github | [Quality Score](https://github.com/zoahdev/dsh-quality-score) | 0 ★, 0 forks | zoahdev |
+| github | [dsh-timeline](https://github.com/houyanchao/dsh-timeline) | 0 ★, 0 forks | houyanchao |
+| github | [dsh-quick-toc](https://github.com/LyaxZ/dsh-quick-toc) | 0 ★, 0 forks | LyaxZ |
+| github | [oh-my-dsh](https://github.com/llmpolska/oh-my-dsh) | 0 ★, 0 forks | llmpolska |
+| github | [dsh-headroom](https://github.com/giter00/dsh-headroom) | 0 ★, 0 forks | giter00 |
+| github | [bpc-oss/dsh-verificationdsh-verification](https://github.com/bpc-oss/dsh-verification) | 0 ★, 0 forks | bpc-oss |
+| github | [dsh-autoresume](https://github.com/shengyvself/dsh-autoresume) | 0 ★, 0 forks | shengyvself |
+| github | [dsh-daemon](https://github.com/chenkai2/dsh-daemon) | 0 ★, 0 forks | chenkai2 |
 
 ## deepseek-harness-forks
 
@@ -14193,12 +14209,12 @@
 | --- | --- | --- | --- |
 | youtube | [DeepSeek Harness: The End of Claude Code?](https://www.youtube.com/watch?v=qg9EyGOZd9U) | 42,000 views | NeuralNine |
 | github | [liyupi/ai-guide](https://github.com/liyupi/ai-guide) | 18,404 ★, 2,094 forks | liyupi |
-| github | [tt-a1i/archify](https://github.com/tt-a1i/archify) | 14,191 ★, 1,034 forks | tt-a1i |
-| github | [walkinglabs/learn-harness-engineering](https://github.com/walkinglabs/learn-harness-engineering) | 12,009 ★, 1,269 forks | walkinglabs |
+| github | [tt-a1i/archify](https://github.com/tt-a1i/archify) | 14,200 ★, 1,034 forks | tt-a1i |
+| github | [walkinglabs/learn-harness-engineering](https://github.com/walkinglabs/learn-harness-engineering) | 12,010 ★, 1,269 forks | walkinglabs |
 | youtube | [DeepSeek Harness Architecture: Insane Software Engineering Behind It](https://www.youtube.com/watch?v=1NyOG9z9RT0) | 9,180 views | Cloud Codes |
 | github | [hyhmrright/brooks-lint](https://github.com/hyhmrright/brooks-lint) | 1,379 ★, 61 forks | hyhmrright |
 | youtube | [DeepSeek Harness with Local Ollama: Complete Free Setup Guide](https://www.youtube.com/watch?v=b7kk768JEws) | 1,131 views | Ray Codes |
-| github | [GanyuanRan/Aegis](https://github.com/GanyuanRan/Aegis) | 1,057 ★, 49 forks | GanyuanRan |
+| github | [GanyuanRan/Aegis](https://github.com/GanyuanRan/Aegis) | 1,058 ★, 49 forks | GanyuanRan |
 | github | [alchaincyf/deepseek-harness-orange-book](https://github.com/alchaincyf/deepseek-harness-orange-book) | 642 ★, 58 forks | alchaincyf |
 | x | [Had a look at Cordis, the theory behind DeepSeek Harness&#x27;s plugin architecture. Quick thoughts:](https://x.com/zhengyaojiang/status/2088362370213216260) | 381 ♥, 33,406 views, 16 replies | Zhengyao Jiang |
 | github | [linhay/harmony-next.skills](https://github.com/linhay/harmony-next.skills) | 322 ★, 24 forks | linhay |
@@ -14260,24 +14276,24 @@
 
 | 平台 | 标题 | 指标 | 作者 |
 | --- | --- | --- | --- |
-| github | [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust) | 58,887 ★, 3,549 forks | rust-unofficial |
+| github | [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust) | 58,888 ★, 3,549 forks | rust-unofficial |
 | github | [Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) | 27,270 ★, 2,673 forks | Hannibal046 |
-| github | [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | 26,232 ★, 2,198 forks | OthmanAdi |
-| github | [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 22,942 ★, 2,092 forks | TencentCloud |
-| github | [EthicalML/awesome-production-machine-learning](https://github.com/EthicalML/awesome-production-machine-learning) | 20,851 ★, 2,590 forks | EthicalML |
+| github | [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | 26,233 ★, 2,198 forks | OthmanAdi |
+| github | [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 22,952 ★, 2,093 forks | TencentCloud |
+| github | [EthicalML/awesome-production-machine-learning](https://github.com/EthicalML/awesome-production-machine-learning) | 20,852 ★, 2,590 forks | EthicalML |
 | github | [BradyFU/Awesome-Multimodal-Large-Language-Models](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) | 17,981 ★, 1,133 forks | BradyFU |
-| github | [EvanLi/Github-Ranking](https://github.com/EvanLi/Github-Ranking) | 11,933 ★, 691 forks | EvanLi |
+| github | [EvanLi/Github-Ranking](https://github.com/EvanLi/Github-Ranking) | 11,935 ★, 691 forks | EvanLi |
 | github | [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) | 11,274 ★, 1,293 forks | freestylefly |
 | github | [awesome-opencode/awesome-opencode](https://github.com/awesome-opencode/awesome-opencode) | 9,639 ★, 757 forks | awesome-opencode |
 | github | [WangRongsheng/awesome-LLM-resources](https://github.com/WangRongsheng/awesome-LLM-resources) | 8,849 ★, 950 forks | WangRongsheng |
-| github | [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | 8,769 ★, 1,282 forks | awesome-dsh-plugin |
+| github | [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | 8,813 ★, 1,287 forks | awesome-dsh-plugin |
 | github | [ai-boost/awesome-prompts](https://github.com/ai-boost/awesome-prompts) | 8,713 ★, 840 forks | ai-boost |
-| github | [Axorax/awesome-free-apps](https://github.com/Axorax/awesome-free-apps) | 7,416 ★, 434 forks | Axorax |
+| github | [Axorax/awesome-free-apps](https://github.com/Axorax/awesome-free-apps) | 7,418 ★, 435 forks | Axorax |
 | github | [punkpeye/awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients) | 6,549 ★, 637 forks | punkpeye |
 | github | [aymericdamien/TopDeepLearning](https://github.com/aymericdamien/TopDeepLearning) | 6,268 ★, 1,246 forks | aymericdamien |
 | github | [promptslab/Awesome-Prompt-Engineering](https://github.com/promptslab/Awesome-Prompt-Engineering) | 6,259 ★, 750 forks | promptslab |
 | github | [ikaijua/Awesome-AITools](https://github.com/ikaijua/Awesome-AITools) | 6,140 ★, 734 forks | ikaijua |
-| github | [deepseek-ai/awesome-deepseek-agent](https://github.com/deepseek-ai/awesome-deepseek-agent) | 5,932 ★, 705 forks | deepseek-ai |
+| github | [deepseek-ai/awesome-deepseek-agent](https://github.com/deepseek-ai/awesome-deepseek-agent) | 5,934 ★, 705 forks | deepseek-ai |
 | github | [WenyuChiou/awesome-agentic-ai-zh](https://github.com/WenyuChiou/awesome-agentic-ai-zh) | 5,296 ★, 718 forks | WenyuChiou |
 | github | [alvinreal/awesome-opensource-ai](https://github.com/alvinreal/awesome-opensource-ai) | 4,564 ★, 611 forks | alvinreal |
 | github | [mergisi/awesome-openclaw-agents](https://github.com/mergisi/awesome-openclaw-agents) | 3,909 ★, 633 forks | mergisi |
@@ -14301,7 +14317,7 @@
 | github | [bruc3van/awesome-dsh-plugin](https://github.com/bruc3van/awesome-dsh-plugin) | 201 ★, 42 forks | bruc3van |
 | hacker_news | [Show HN: I made a better Perplexity for developers](https://news.ycombinator.com/item?id=40299091) | 185 points, 75 comments | jiayuanzhang |
 | hacker_news | [Launch HN: Optic (YC S18) – Automate Routine Programming](https://news.ycombinator.com/item?id=17560059) | 183 points, 48 comments | addcn |
-| github | [Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins](https://github.com/Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins) | 158 ★, 26 forks | Zhiyuan-Fan |
+| github | [Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins](https://github.com/Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins) | 160 ★, 26 forks | Zhiyuan-Fan |
 | xiaohongshu | [给DeepSeek Harness做了一个插件市场](https://www.xiaohongshu.com/explore/6a7f1a21000000002402e4fa) | 156 ♥ | Awesome |
 | reddit | [100K+ GITHUB STARS IN JUST 2 DAYS: DeepSeek Harness just became one of the fastest open-source projects to hit 10K stars. 100K stars. OpenClaw held the record before. but DeepSeek just shattered it.](https://www.reddit.com/r/tech_x/comments/1vpbjvk/100k_github_stars_in_just_2_days_deepseek_harness) | 154 ♥, 42 comments | Current-Guide5944 |
 | github | [Nagi-ovo/dsh-find-plugins](https://github.com/Nagi-ovo/dsh-find-plugins) | 132 ★, 1 forks | Nagi-ovo |
@@ -14496,12 +14512,12 @@
 
 | 平台 | 标题 | 指标 | 作者 |
 | --- | --- | --- | --- |
-| github | [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) | 26,630 ★, 4,696 forks | Anil-matcha |
-| github | [Devin-AXIS/iPolloWork](https://github.com/Devin-AXIS/iPolloWork) | 4,159 ★, 792 forks | Devin-AXIS |
-| github | [liustack/modlens](https://github.com/liustack/modlens) | 3,090 ★, 83 forks | liustack |
-| github | [Alisa0808/vox-director](https://github.com/Alisa0808/vox-director) | 1,366 ★, 194 forks | Alisa0808 |
+| github | [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) | 26,635 ★, 4,697 forks | Anil-matcha |
+| github | [Devin-AXIS/iPolloWork](https://github.com/Devin-AXIS/iPolloWork) | 4,166 ★, 794 forks | Devin-AXIS |
+| github | [liustack/modlens](https://github.com/liustack/modlens) | 3,092 ★, 83 forks | liustack |
+| github | [Alisa0808/vox-director](https://github.com/Alisa0808/vox-director) | 1,367 ★, 194 forks | Alisa0808 |
 | youtube | [DeepSeek Harness 能力很猛，很危险？源码深挖解读！](https://www.youtube.com/watch?v=CukbMYlDRrM) | 1,329 views | 三少科技 |
-| github | [Anionex/agent-vision-toolkit](https://github.com/Anionex/agent-vision-toolkit) | 1,040 ★, 36 forks | Anionex |
+| github | [Anionex/agent-vision-toolkit](https://github.com/Anionex/agent-vision-toolkit) | 1,042 ★, 36 forks | Anionex |
 | github | [PicGo/PicGo-Core](https://github.com/PicGo/PicGo-Core) | 978 ★, 100 forks | PicGo |
 | github | [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | 753 ★, 32 forks | ysr666 |
 | x | [ego @ego_agent · 15h We gave DeepSeek Harness its own browser. @deepseek_ai Paired with ego lite, it can navigate the web using your existin](https://x.com/ego_agent/status/2088279656231530551) | 316 ♥, 20,328 views, 11 replies | ego |
@@ -14609,6 +14625,8 @@
 | github | [dsh-vision-solution](https://github.com/br1nosense/dsh-vision-solution) | 0 ★, 0 forks | br1nosense |
 | github | [dsh-wechat-mp-studio](https://github.com/FuncWei/dsh-wechat-mp-studio) | 0 ★, 0 forks | FuncWei |
 | github | [dsh-llm-codex](https://github.com/NOirBRight/dsh-llm-codex) | 0 ★, 0 forks | NOirBRight |
+| github | [wechat-ocr](https://github.com/hawkhai/wechat-ocr) | 0 ★, 0 forks | hawkhai |
+| github | [win11-oneocr](https://github.com/hawkhai/win11-oneocr) | 0 ★, 0 forks | hawkhai |
 
 ## operations-and-safety
 
@@ -14616,8 +14634,8 @@
 
 | 平台 | 标题 | 指标 | 作者 |
 | --- | --- | --- | --- |
-| github | [MemTensor/MemOS](https://github.com/MemTensor/MemOS) | 10,763 ★, 994 forks | MemTensor |
-| github | [getagentseal/codeburn](https://github.com/getagentseal/codeburn) | 9,513 ★, 761 forks | getagentseal |
+| github | [MemTensor/MemOS](https://github.com/MemTensor/MemOS) | 10,764 ★, 994 forks | MemTensor |
+| github | [getagentseal/codeburn](https://github.com/getagentseal/codeburn) | 9,515 ★, 761 forks | getagentseal |
 | github | [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale) | 5,011 ★, 416 forks | junhoyeo |
 | github | [xiufengsun/TokenTracker](https://github.com/xiufengsun/TokenTracker) | 1,313 ★, 133 forks | xiufengsun |
 | github | [toby-bridges/api-relay-audit](https://github.com/toby-bridges/api-relay-audit) | 791 ★, 76 forks | toby-bridges |
@@ -14766,6 +14784,7 @@
 | github | [Timesheet](https://github.com/zoahdev/dsh-timesheet) | 0 ★, 0 forks | zoahdev |
 | github | [dsh-convo-cost](https://github.com/ljr282341583/dsh-convo-cost) | 0 ★, 0 forks | ljr282341583 |
 | github | [dsh-balance](https://github.com/GeekRicardo/dsh-balance) | 0 ★, 0 forks | GeekRicardo |
+| github | [dsh-peak-cost-mode](https://github.com/moon09300731/dsh-peak-cost-mode) | 0 ★, 0 forks | moon09300731 |
 
 ## ui-and-desktop
 
@@ -14773,18 +14792,18 @@
 
 | 平台 | 标题 | 指标 | 作者 |
 | --- | --- | --- | --- |
-| github | [nexu-io/open-design](https://github.com/nexu-io/open-design) | 88,833 ★, 10,258 forks | nexu-io |
-| github | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 50,377 ★, 6,862 forks | diegosouzapw |
+| github | [nexu-io/open-design](https://github.com/nexu-io/open-design) | 88,854 ★, 10,262 forks | nexu-io |
+| github | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 50,414 ★, 6,866 forks | diegosouzapw |
 | github | [Nagi-ovo/voyager](https://github.com/Nagi-ovo/voyager) | 19,647 ★, 651 forks | Nagi-ovo |
-| github | [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | 13,526 ★, 609 forks | anywhere-labs |
-| github | [YaoApp/yao](https://github.com/YaoApp/yao) | 7,688 ★, 689 forks | YaoApp |
+| github | [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | 13,542 ★, 609 forks | anywhere-labs |
+| github | [YaoApp/yao](https://github.com/YaoApp/yao) | 7,690 ★, 689 forks | YaoApp |
 | github | [rullerzhou-afk/clawd-on-desk](https://github.com/rullerzhou-afk/clawd-on-desk) | 5,971 ★, 619 forks | rullerzhou-afk |
 | github | [netease-youdao/LobsterAI](https://github.com/netease-youdao/LobsterAI) | 5,911 ★, 937 forks | netease-youdao |
-| github | [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 4,553 ★, 272 forks | zhu1090093659 |
+| github | [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 4,562 ★, 272 forks | zhu1090093659 |
 | github | [zhukunpenglinyutong/desktop-cc-gui](https://github.com/zhukunpenglinyutong/desktop-cc-gui) | 4,037 ★, 355 forks | zhukunpenglinyutong |
 | github | [edison7009/EchoBird](https://github.com/edison7009/EchoBird) | 3,075 ★, 345 forks | edison7009 |
-| github | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 2,170 ★, 140 forks | omdsh-dev |
-| github | [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | 1,964 ★, 85 forks | ccch1mneyyy |
+| github | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 2,171 ★, 140 forks | omdsh-dev |
+| github | [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | 1,965 ★, 85 forks | ccch1mneyyy |
 | github | [GCWing/BitFun](https://github.com/GCWing/BitFun) | 1,787 ★, 194 forks | GCWing |
 | github | [dsh-cc-tui](https://github.com/ccch1mneyyy/dsh-cc-tui) | 1,514 ★, 64 forks | ccch1mneyyy |
 | github | [Javis603/token-monitor](https://github.com/Javis603/token-monitor) | 1,443 ★, 133 forks | Javis603 |
@@ -14795,7 +14814,7 @@
 | bilibili | [🚀实测DeepSeek Harness从基础到高级用法！WebUI远程控制、多模型接入、执行轨迹、插件系统、任务分支、代码分析！比Claude Code更强？](https://www.bilibili.com/video/BV1W7gP6CEEV) | 856 ♥, 29,098 views, 157 replies, 880 favorites, 147 shares, 221 coins, 43 danmaku | AI超元域 |
 | github | [AMAP-ML/LongHorizon-Harness](https://github.com/AMAP-ML/LongHorizon-Harness) | 828 ★, 95 forks | AMAP-ML |
 | github | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 700 ★, 31 forks | Anionex |
-| github | [hairyf/deepseek-harness-desktop](https://github.com/hairyf/deepseek-harness-desktop) | 526 ★, 29 forks | hairyf |
+| github | [hairyf/deepseek-harness-desktop](https://github.com/hairyf/deepseek-harness-desktop) | 529 ★, 30 forks | hairyf |
 | github | [Nagi-ovo/dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | 499 ★, 4 forks | Nagi-ovo |
 | github | [vibeinging/deepseek-harness-desktop-app](https://github.com/vibeinging/deepseek-harness-desktop-app) | 395 ★, 7 forks | vibeinging |
 | github | [myYangyunfan/dsh_desktop](https://github.com/myYangyunfan/dsh_desktop) | 371 ★, 18 forks | myYangyunfan |
@@ -14962,6 +14981,7 @@
 | github | [hyzyn/dsh-plugin-kitsearch](https://github.com/hyzyn/dsh-plugin-kit) | 1 ★, 0 forks | hyzyn |
 | github | [dsh-token-usage-sidebar](https://github.com/y2zyyr/dsh-token-usage-sidebar) | 1 ★, 0 forks | y2zyyr |
 | github | [dsh-stt-input](https://github.com/baisama-cloud/dsh-stt-input) | 1 ★, 0 forks | baisama-cloud |
+| github | [dsh-auto-exit](https://github.com/xiaxingtianxia2-glitch/dsh-auto-exit) | 1 ★, 0 forks | xiaxingtianxia2-glitch |
 | github | [dsh-skins](https://github.com/dsh-external/dsh-skins) | — | dsh-external |
 | github | [dsh-opencode-server](https://github.com/dsh-external/dsh-opencode-server) | — | dsh-external |
 | github | [dsh-ux-simple](https://github.com/KhalilYamber/dsh-ux-simple) | 0 ★, 0 forks | KhalilYamber |
@@ -14998,3 +15018,6 @@
 | github | [dsh-whale-desktop-launcher](https://github.com/HUITianYi/dsh-whale-desktop-launcher) | 0 ★, 0 forks | HUITianYi |
 | github | [dsh-dracula-theme](https://github.com/ossFrankFrank/dsh-dracula-theme) | 0 ★, 0 forks | ossFrankFrank |
 | github | [dsh-icon-theme](https://github.com/yzke/dsh-icon-theme) | 0 ★, 0 forks | yzke |
+| github | [dsh-multi-lang-ui](https://github.com/asd13006/dsh-multi-lang-ui) | 0 ★, 0 forks | asd13006 |
+| github | [dsh-wsl-workspace-picker](https://github.com/WilliamShi666/dsh-wsl-workspace-picker) | 0 ★, 0 forks | WilliamShi666 |
+| github | [dsh-stylevault](https://github.com/GptsApp/dsh-stylevault) | 0 ★, 0 forks | GptsApp |
