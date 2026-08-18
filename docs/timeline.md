@@ -5,6 +5,31 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 2026-08-18 | github | plugin | [InfiniteDSH](https://github.com/vdnight89/InfiniteDSH) | vdnight89 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [deepseek-web-import](https://github.com/wpc0323/deepseek-web-import) | wpc0323 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-artifacts](https://github.com/zoahdev/dsh-artifacts) | zoahdev | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-client-ui-obsidian-memory](https://github.com/detongz/dsh-client-ui-obsidian-memory) | detongz | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-discord](https://github.com/suuuuuu-1/dsh-discord) | suuuuuu-1 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-dynamic-wallpaper](https://github.com/Willmylife/dsh-dynamic-wallpaper) | Willmylife | docs-and-learning |
+| 2026-08-18 | github | plugin | [dsh-edit-approval](https://github.com/SiriLee/dsh-edit-approval) | SiriLee | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-idle-deepcompute](https://github.com/cipher2026/dsh-idle-deepcompute) | cipher2026 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-jiey-browser](https://github.com/jiewaigongxing/dsh-jiey-browser) | jiewaigongxing | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-knowledge](https://github.com/lemoncat7/dsh-knowledge) | lemoncat7 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-llm-cursor](https://github.com/NOirBRight/dsh-llm-cursor) | NOirBRight | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-peak-indicator](https://github.com/future007s/dsh-peak-indicator) | future007s | operations-and-safety |
+| 2026-08-18 | github | plugin | [dsh-rewind](https://github.com/SiriLee/dsh-rewind) | SiriLee | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-screenshot](https://github.com/paicat1/dsh-screenshot) | paicat1 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-skills-manager](https://github.com/E83737664/dsh-skills-manager) | E83737664 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-skin-market](https://github.com/kingOfSoySauce/dsh-skin-market) | kingOfSoySauce | ui-and-desktop |
+| 2026-08-18 | github | plugin | [dsh-wallpaper-engine](https://github.com/elysia395/dsh-wallpaper-engine) | elysia395 | multimedia-and-vision |
+| 2026-08-18 | github | plugin | [dsh-wallpaper-engine](https://github.com/sakuraaa667/dsh-wallpaper-engine) | sakuraaa667 | docs-and-learning |
+| 2026-08-18 | github | plugin | [dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume) | Sutera-Diffusus | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [easy-archive](https://github.com/bainianlaoyao/easy-archive) | bainianlaoyao | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [huahua-dsh-plugin-orchestra](https://github.com/azure5100/huahua-dsh-plugin-orchestra) | azure5100 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [skill-bartender](https://github.com/akqwpeter-prog/skill-bartender) | akqwpeter-prog | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [visual-review](https://github.com/wang-bool/visual-review) | wang-bool | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [whale-on-desk](https://github.com/cookiesheep/whale-on-desk) | cookiesheep | core-and-ecosystem |
+| 2026-08-18T08:55:48Z | github | plugin | [wingsky-1/dsh-plugin-hubpackages/dsh-lan-proxy](https://github.com/wingsky-1/dsh-plugin-hub) | wingsky-1 | index-and-marketplace |
 | 2026-08-18T07:06:23Z | github | ecosystem-reference | [CiteCiter](https://github.com/kirkchinese/CiteCiter) | kirkchinese | core-and-ecosystem |
 | 2026-08-18T07:06:23Z | github | ecosystem-reference | [DSH-chat](https://github.com/MarkJun236/DSH-chat) | MarkJun236 | core-and-ecosystem |
 | 2026-08-18T07:06:23Z | github | ecosystem-reference | [Flowboard](https://github.com/juntaoding/Flowboard) | juntaoding | core-and-ecosystem |
@@ -14664,6 +14689,7 @@
 | 2026-04-16T05:54:32Z | github | repository | [kangarooking/cangjie-skill](https://github.com/kangarooking/cangjie-skill) | kangarooking | core-and-ecosystem |
 | 2026-04-15T05:27:37Z | github | repository | [tt-a1i/archify](https://github.com/tt-a1i/archify) | tt-a1i | docs-and-learning |
 | 2026-04-14T00:51:32Z | github | repository | [morluto/rea](https://github.com/morluto/rea) | morluto | core-and-ecosystem |
+| 2026-04-13T22:11:53Z | github | repository | [getagentseal/codeburn](https://github.com/getagentseal/codeburn) | getagentseal | operations-and-safety |
 | 2026-04-11T11:49:55Z | github | repository | [syncable-dev/memtrace-public](https://github.com/syncable-dev/memtrace-public) | syncable-dev | core-and-ecosystem |
 | 2026-04-10T03:03:36Z | github | repository | [openma-ai/open-managed-agents](https://github.com/openma-ai/open-managed-agents) | openma-ai | core-and-ecosystem |
 | 2026-04-07T10:08:59Z | github | repository | [TencentCloud/tencentmeeting-cli](https://github.com/TencentCloud/tencentmeeting-cli) | TencentCloud | core-and-ecosystem |
@@ -14677,6 +14703,7 @@
 | 2026-03-31T18:26:14Z | hacker_news | story | [Show HN: Domscribe – Deterministic DOM-to-source mapping for AI coding agents](https://news.ycombinator.com/item?id=47591487) | NarratorTD | index-and-marketplace |
 | 2026-03-31T08:13:20Z | github | repository | [Jesseovo/last30days-skill-cn](https://github.com/Jesseovo/last30days-skill-cn) | Jesseovo | core-and-ecosystem |
 | 2026-03-30T05:22:23Z | github | repository | [titanwings/colleague-skill](https://github.com/titanwings/colleague-skill) | titanwings | core-and-ecosystem |
+| 2026-03-30T04:20:54Z | github | repository | [toby-bridges/api-relay-audit](https://github.com/toby-bridges/api-relay-audit) | toby-bridges | operations-and-safety |
 | 2026-03-29T15:39:49Z | github | repository | [ai-boost/awesome-harness-engineering](https://github.com/ai-boost/awesome-harness-engineering) | ai-boost | index-and-marketplace |
 | 2026-03-29T12:28:19Z | github | repository | [walkinglabs/learn-harness-engineering](https://github.com/walkinglabs/learn-harness-engineering) | walkinglabs | docs-and-learning |
 | 2026-03-28T19:02:15Z | github | repository | [hashgraph-online/hol-guard](https://github.com/hashgraph-online/hol-guard) | hashgraph-online | core-and-ecosystem |

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-86d408a7dc9512bd366d",
+    "name": "dsh-artifacts",
+    "author": "zoahdev",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/zoahdev/dsh-artifacts",
+    "firstObservedAt": "2026-08-18T08:55:48Z",
+    "lastChangedAt": "2026-08-18T08:55:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-86d408a7dc9512bd366d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-86d408a7dc9512bd366d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-artifacts",
+    "command": "dsh plugin --profile web add dsh-artifacts",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-86d408a7dc9512bd366d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-86d408a7dc9512bd366d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-86d408a7dc9512bd366d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-artifacts 已收录到 DeepSeek Harness Plugin Store。把 Markdown + JSON 渲染成自包含 HTML 文档/卡片/仪表盘/画廊（CLI + 内置 artifact_render 工具）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-86d408a7dc9512bd366d.html",
+    "en": "dsh-artifacts is now listed on the DeepSeek Harness Plugin Store. Render Markdown + JSON into self-contained HTML documents, cards, dashboards, and galleries (CLI + artifact_render tool).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-86d408a7dc9512bd366d.html"
+  }
+}

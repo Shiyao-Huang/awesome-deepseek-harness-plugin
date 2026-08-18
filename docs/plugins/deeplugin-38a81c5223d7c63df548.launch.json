@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-38a81c5223d7c63df548",
+    "name": "dsh-edit-approval",
+    "author": "SiriLee",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/SiriLee/dsh-edit-approval",
+    "firstObservedAt": "2026-08-18T08:55:48Z",
+    "lastChangedAt": "2026-08-18T08:55:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-38a81c5223d7c63df548.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-38a81c5223d7c63df548.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-edit-approval",
+    "command": "dsh plugin --profile web add dsh-edit-approval",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-38a81c5223d7c63df548，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-38a81c5223d7c63df548.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-38a81c5223d7c63df548.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-edit-approval 已收录到 DeepSeek Harness Plugin Store。write/edit/str_replace_editor 编辑前审批：改动落盘前展示红绿行级 diff，选择同意一次或拒绝，带设置页总开关。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-38a81c5223d7c63df548.html",
+    "en": "dsh-edit-approval is now listed on the DeepSeek Harness Plugin Store. Per-edit approval for write/edit/str_replace_editor: shows a red/green line diff before the file is touched and asks approve once or reject, with a master switch in Settings.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-38a81c5223d7c63df548.html"
+  }
+}

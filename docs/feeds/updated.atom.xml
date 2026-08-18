@@ -2,9 +2,63 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>deeplugin.store — Updated plugins</title>
   <id>https://deeplugin.store/feeds/updated.atom.xml</id>
-  <updated>2026-08-18T07:06:23Z</updated>
+  <updated>2026-08-18T08:55:48Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/feeds/updated.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/market.html"/>
+  <entry>
+    <title>Updated: spec-driven</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-f059de2bd310f1539deb/d490947d4a0e9d46</id>
+    <updated>2026-08-18T08:55:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f059de2bd310f1539deb.html"/>
+    <author><name>JohnXu22786</name></author>
+    <category term="skill"/>
+    <summary>Spec-driven development discipline for dsh: five keel skills (anchor/spec/probe/build/audit), three review tools and six spec templates enforce specs-before-code, assumption verification and scope control. Exact install spec: github:johnxu22786/spec-driven. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: docgen</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-e61caf873bb10304e267/d490947d4a0e9d46</id>
+    <updated>2026-08-18T08:55:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e61caf873bb10304e267.html"/>
+    <author><name>JohnXu22786</name></author>
+    <category term="skill"/>
+    <summary>Document workshop skill pack: four pure-prompt Agent Skills that turn a codebase into READMEs, PR descriptions, changelogs and code reviews, installed into dsh via a dsh.bundle plugin row. Exact install spec: github:johnxu22786/docgen. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-what-changed</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-bfad4e535f23a68a6d3c/d490947d4a0e9d46</id>
+    <updated>2026-08-18T08:55:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-bfad4e535f23a68a6d3c.html"/>
+    <author><name>sjh9714</name></author>
+    <category term="session"/>
+    <summary>Session-wide file change review. Lists every file the agent wrote this session with its hunks, counts refused writes separately from changes, and folds from a session projection. Exact install spec: dsh-what-changed. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: snippet-expander</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-8e0f17e72c6f2fa756d8/d490947d4a0e9d46</id>
+    <updated>2026-08-18T08:55:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8e0f17e72c6f2fa756d8.html"/>
+    <author><name>JohnXu22786</name></author>
+    <category term="tools"/>
+    <summary>Expands #tag shorthand into snippet-library text before messages are sent; multi-library, aliases, variables and recursion guards. Exact install spec: github:johnxu22786/snippet-expander. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: model-catalog</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-57b4a5ff027bf567ceab/d490947d4a0e9d46</id>
+    <updated>2026-08-18T08:55:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-57b4a5ff027bf567ceab.html"/>
+    <author><name>JohnXu22786</name></author>
+    <category term="tools"/>
+    <summary>Auto-discovers model listings, pricing and capabilities from OpenAI-compatible API hosts, normalizes them, and emits ready-to-use model configs for dsh. Exact install spec: github:johnxu22786/model-catalog. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-history</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-3da71ba574828a432c54/d490947d4a0e9d46</id>
+    <updated>2026-08-18T08:55:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-3da71ba574828a432c54.html"/>
+    <author><name>chenproton</name></author>
+    <category term="session"/>
+    <summary>Browse every message you sent in the current session: full-history listing with newest-first sort, text filter, one-click copy, and click-to-jump that auto-loads earlier history when the target is not yet loaded. Exact install spec: dsh-history. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
   <entry>
     <title>Updated: dsh-chatnode-wechat</title>
     <id>tag:deeplugin.store,2026-08-18:deeplugin-ebf138669cb2106bfdbe/113a77b2a480693b</id>
@@ -850,59 +904,5 @@
     <author><name>liliuCourier</name></author>
     <category term="ui"/>
     <summary>Persistent conversation outline: per-turn questions and final replies, keyword filter, one-click jump, light/full history modes, and Ctrl/Shift+click to open the same position in the Trajectory view. Exact install spec: dsh-chat-outline. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
-  </entry>
-  <entry>
-    <title>Updated: Plugin Doctor</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-518fa47b92ec8f4fa151/21ab69fe46bcd3b2</id>
-    <updated>2026-08-16T16:39:22Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-518fa47b92ec8f4fa151.html"/>
-    <author><name>zoahdev</name></author>
-    <category term="tools"/>
-    <summary>Pre-publish health checks, preflight, profile shadow detection, env diagnostics. Exact install spec: github:zoahdev/dsh-plugin-doctor. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-smooth-stream</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-28a5ee01c07a91bc47c8/0643b9f0b0f4506b</id>
-    <updated>2026-08-16T16:39:22Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-28a5ee01c07a91bc47c8.html"/>
-    <author><name>SpookySandwich</name></author>
-    <category term="ui"/>
-    <summary>Better streaming text animation for DeepSeek Harness. Exact install spec: github:spookysandwich/dsh-smooth-stream. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-subscribe</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-e2d97b47dcad2b474c7d/3b6efa748c95883a</id>
-    <updated>2026-08-16T14:38:49Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e2d97b47dcad2b474c7d.html"/>
-    <author><name>zoahdev</name></author>
-    <category term="market"/>
-    <summary>Steam-style plugin marketplace: 539-plugin registry, one-command sync, in-harness market tools. Exact install spec: github:zoahdev/dsh-subscribe#path:/plugin. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-http-tools</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-bd2e6a9f0a3717a19ad0/e9f1e4b88b05a154</id>
-    <updated>2026-08-16T14:38:49Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-bd2e6a9f0a3717a19ad0.html"/>
-    <author><name>lussey820</name></author>
-    <category term="tools"/>
-    <summary>HTTP/API debugging toolset: full-control HTTP requests (method/headers/body/auth), curl command parsing and one-step execution, in-session request history with side-by-side response comparison, pagination-aware Link headers, and DeepSeek-branded UI cards (optional dsh-http-tools-ui). Exact install spec: dsh-http-tools. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-backup</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-b1e9d41c30d9860d596a/2730575b8e4da547</id>
-    <updated>2026-08-16T14:38:49Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b1e9d41c30d9860d596a.html"/>
-    <author><name>xiaoyuyu6420</name></author>
-    <category term="tools"/>
-    <summary>One-command backup &amp; restore of DSH user data: /backup, verify, restore, restart-surviving scheduled auto-backup, sha256 checksums and rotation (macOS/Linux/Windows). Exact install spec: github:xiaoyuyu6420/dsh-backup. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description_i18n.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-settings-nav-fold</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-7e1cdff3a05a372906b6/3b6efa748c95883a</id>
-    <updated>2026-08-16T14:38:49Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-7e1cdff3a05a372906b6.html"/>
-    <author><name>zhengjy01</name></author>
-    <category term="ui"/>
-    <summary>Fold plugin/extension settings entries in the DSH settings panel into one collapsible "Plugin entries" group row — one click to expand or collapse, auto-updating as plugins come and go. Exact install spec: dsh-settings-nav-fold. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
   </entry>
 </feed>

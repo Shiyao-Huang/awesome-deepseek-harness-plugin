@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-7b9aec3313a05538364b",
+    "name": "dsh-dynamic-wallpaper",
+    "author": "Willmylife",
+    "category": "theme",
+    "version": null,
+    "homepage": "https://github.com/Willmylife/dsh-dynamic-wallpaper",
+    "firstObservedAt": "2026-08-18T08:55:48Z",
+    "lastChangedAt": "2026-08-18T08:55:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-7b9aec3313a05538364b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-7b9aec3313a05538364b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:willmylife/dsh-dynamic-wallpaper",
+    "command": "dsh plugin --profile web add github:willmylife/dsh-dynamic-wallpaper",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-7b9aec3313a05538364b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-7b9aec3313a05538364b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-7b9aec3313a05538364b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-dynamic-wallpaper 已收录到 DeepSeek Harness Plugin Store。动态壁纸插件：8 种内置 Canvas 壁纸（粒子、流星雨、星际穿梭、波光、雨幕、气泡、字符雨、极光）加自定义视频背景，支持速度/密度/遮罩/模糊调节，配置持久化。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-7b9aec3313a05538364b.html",
+    "en": "dsh-dynamic-wallpaper is now listed on the DeepSeek Harness Plugin Store. Animated wallpaper plugin with 8 canvas backgrounds (particles, meteors, starfield, waves, rain, bubbles, matrix, aurora) plus custom video import, and speed/density/opacity/blur sliders with localStorage persistence.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-7b9aec3313a05538364b.html"
+  }
+}

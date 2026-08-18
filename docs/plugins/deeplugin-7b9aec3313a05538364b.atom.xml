@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-dynamic-wallpaper — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-7b9aec3313a05538364b.atom.xml</id>
+  <updated>2026-08-18T08:55:48Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-7b9aec3313a05538364b.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-7b9aec3313a05538364b.html"/>
+  <entry>
+    <title>New: dsh-dynamic-wallpaper</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-7b9aec3313a05538364b/dd281d53d0051a31</id>
+    <updated>2026-08-18T08:55:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-7b9aec3313a05538364b.html"/>
+    <author><name>Willmylife</name></author>
+    <category term="theme"/>
+    <summary>Animated wallpaper plugin with 8 canvas backgrounds (particles, meteors, starfield, waves, rain, bubbles, matrix, aurora) plus custom video import, and speed/density/opacity/blur sliders with localStorage persistence. Exact install spec: github:willmylife/dsh-dynamic-wallpaper. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-badae39f9741d7568920",
+    "name": "dsh-idle-deepcompute",
+    "author": "cipher2026",
+    "category": "fun",
+    "version": null,
+    "homepage": "https://github.com/cipher2026/dsh-idle-deepcompute",
+    "firstObservedAt": "2026-08-18T08:55:48Z",
+    "lastChangedAt": "2026-08-18T08:55:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-badae39f9741d7568920.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-badae39f9741d7568920.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:cipher2026/dsh-idle-deepcompute",
+    "command": "dsh plugin --profile web add github:cipher2026/dsh-idle-deepcompute",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-badae39f9741d7568920，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-badae39f9741d7568920.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-badae39f9741d7568920.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-idle-deepcompute 已收录到 DeepSeek Harness Plugin Store。终端风 AI 实验室挂机游戏：攒算力、训练升级模型、发论文，一路转生到 AGI/ASI。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-badae39f9741d7568920.html",
+    "en": "dsh-idle-deepcompute is now listed on the DeepSeek Harness Plugin Store. Terminal-style AI-lab idle game where you hoard compute, train and upgrade models, publish papers, and prestige from neural nets to ASI.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-badae39f9741d7568920.html"
+  }
+}

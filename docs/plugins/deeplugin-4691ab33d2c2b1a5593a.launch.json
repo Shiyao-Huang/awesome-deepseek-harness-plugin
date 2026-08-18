@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-4691ab33d2c2b1a5593a",
+    "name": "odai#odai-dsh-plugin",
+    "author": "orziz",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/orziz/odai/tree/main/dsh/plugin",
+    "firstObservedAt": "2026-08-18T08:55:48Z",
+    "lastChangedAt": "2026-08-18T08:55:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-4691ab33d2c2b1a5593a.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-4691ab33d2c2b1a5593a.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "odai-dsh-plugin",
+    "command": "dsh plugin --profile web add odai-dsh-plugin",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-4691ab33d2c2b1a5593a，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-4691ab33d2c2b1a5593a.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-4691ab33d2c2b1a5593a.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "odai#odai-dsh-plugin 已收录到 DeepSeek Harness Plugin Store。面向整个 DSH profile 的治理与路由 bundle，提供可配置的压缩调用与本地作用域语义记忆；兼容 DSH 0.1.0-rc.6 与 0.1.0-rc.7。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-4691ab33d2c2b1a5593a.html",
+    "en": "odai#odai-dsh-plugin is now listed on the DeepSeek Harness Plugin Store. Profile-wide DSH governance and routing bundle with configurable compaction calls and scoped local semantic memory; compatible with DSH 0.1.0-rc.6 and 0.1.0-rc.7.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-4691ab33d2c2b1a5593a.html"
+  }
+}

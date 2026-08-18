@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-cb68391c1e1a41279d58",
+    "name": "dsh-client-ui-obsidian-memory",
+    "author": "detongz",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/detongz/dsh-client-ui-obsidian-memory",
+    "firstObservedAt": "2026-08-18T08:55:48Z",
+    "lastChangedAt": "2026-08-18T08:55:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-cb68391c1e1a41279d58.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-cb68391c1e1a41279d58.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-client-ui-obsidian-memory",
+    "command": "dsh plugin --profile web add dsh-client-ui-obsidian-memory",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-cb68391c1e1a41279d58，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-cb68391c1e1a41279d58.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-cb68391c1e1a41279d58.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-client-ui-obsidian-memory 已收录到 DeepSeek Harness Plugin Store。基于本地 Obsidian/Codex 知识库的持久 AI 记忆：5 个 obsidian_memory_* 读写搜索工具，外加侧边栏知识库浏览器。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-cb68391c1e1a41279d58.html",
+    "en": "dsh-client-ui-obsidian-memory is now listed on the DeepSeek Harness Plugin Store. Persistent AI memory backed by a local Obsidian/Codex vault: five obsidian_memory_* read/write/search tools plus a sidebar vault browser.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-cb68391c1e1a41279d58.html"
+  }
+}

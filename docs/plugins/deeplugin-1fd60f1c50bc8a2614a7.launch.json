@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-1fd60f1c50bc8a2614a7",
+    "name": "dsh-plugin-hub#packages/dsh-gzip",
+    "author": "wingsky-1",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/wingsky-1/dsh-plugin-hub/tree/main/packages/dsh-gzip",
+    "firstObservedAt": "2026-08-18T08:55:48Z",
+    "lastChangedAt": "2026-08-18T08:55:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-1fd60f1c50bc8a2614a7.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-1fd60f1c50bc8a2614a7.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@wingsky-1/dsh-gzip",
+    "command": "dsh plugin --profile web add @wingsky-1/dsh-gzip",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-1fd60f1c50bc8a2614a7，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-1fd60f1c50bc8a2614a7.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-1fd60f1c50bc8a2614a7.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-hub#packages/dsh-gzip 已收录到 DeepSeek Harness Plugin Store。/api 响应 gzip 压缩，解决远程/低带宽访问时历史加载超时；SSE 与已编码响应自动豁免。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-1fd60f1c50bc8a2614a7.html",
+    "en": "dsh-plugin-hub#packages/dsh-gzip is now listed on the DeepSeek Harness Plugin Store. Gzip compression for /api responses, fixing history-load timeouts over remote/low-bandwidth connections; skips SSE and already-encoded responses.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-1fd60f1c50bc8a2614a7.html"
+  }
+}

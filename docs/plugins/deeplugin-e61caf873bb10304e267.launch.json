@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/JohnXu22786/docgen",
     "firstObservedAt": "2026-08-17T18:59:27Z",
-    "lastChangedAt": "2026-08-17T18:59:27Z"
+    "lastChangedAt": "2026-08-18T08:55:48Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-e61caf873bb10304e267.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-e61caf873bb10304e267.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "docgen 已收录到 DeepSeek Harness Plugin Store。文档工坊技能包：纯提示词文档生成——README、PR 描述、changelog 与代码审查。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e61caf873bb10304e267.html",
-    "en": "docgen is now listed on the DeepSeek Harness Plugin Store. Documentation workshop skill pack: pure-prompt doc generation — README, PR description, changelog, code review.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e61caf873bb10304e267.html"
+    "zh": "docgen 已收录到 DeepSeek Harness Plugin Store。文档工坊技能包：四个纯提示词 Agent Skills，从代码库生成 README、PR 描述、changelog 与代码审查意见，以 dsh.bundle 插件行接入 dsh，也可文件式发现免拷贝使用。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e61caf873bb10304e267.html",
+    "en": "docgen is now listed on the DeepSeek Harness Plugin Store. Document workshop skill pack: four pure-prompt Agent Skills that turn a codebase into READMEs, PR descriptions, changelogs and code reviews, installed into dsh via a dsh.bundle plugin row.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e61caf873bb10304e267.html"
   }
 }

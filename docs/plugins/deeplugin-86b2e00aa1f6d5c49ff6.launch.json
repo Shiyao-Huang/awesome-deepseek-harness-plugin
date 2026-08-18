@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-86b2e00aa1f6d5c49ff6",
+    "name": "dsh-plugin-hub#packages/dsh-lan-proxy",
+    "author": "wingsky-1",
+    "category": "remote",
+    "version": null,
+    "homepage": "https://github.com/wingsky-1/dsh-plugin-hub/tree/main/packages/dsh-lan-proxy",
+    "firstObservedAt": "2026-08-18T08:55:48Z",
+    "lastChangedAt": "2026-08-18T08:55:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-86b2e00aa1f6d5c49ff6.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-86b2e00aa1f6d5c49ff6.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@wingsky-1/dsh-lan-proxy",
+    "command": "dsh plugin --profile web add @wingsky-1/dsh-lan-proxy",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-86b2e00aa1f6d5c49ff6，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-86b2e00aa1f6d5c49ff6.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-86b2e00aa1f6d5c49ff6.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-hub#packages/dsh-lan-proxy 已收录到 DeepSeek Harness Plugin Store。局域网访问 dsh web UI：在 0.0.0.0 监听并把 HTTP/HTTPS 与 WebSocket/wss 转发到回环 web 服务器，带 DNS 重绑定防护与回环-only 上游白名单。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-86b2e00aa1f6d5c49ff6.html",
+    "en": "dsh-plugin-hub#packages/dsh-lan-proxy is now listed on the DeepSeek Harness Plugin Store. LAN access to the dsh web UI: forwards HTTP/HTTPS and WebSocket/wss from 0.0.0.0 to the loopback web server, with DNS-rebinding protection and a loopback-only upstream whitelist.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-86b2e00aa1f6d5c49ff6.html"
+  }
+}

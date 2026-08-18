@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-d9ed37170ef8566ffeac",
+    "name": "easy-archive",
+    "author": "bainianlaoyao",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/bainianlaoyao/easy-archive",
+    "firstObservedAt": "2026-08-18T08:55:48Z",
+    "lastChangedAt": "2026-08-18T08:55:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-d9ed37170ef8566ffeac.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-d9ed37170ef8566ffeac.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:bainianlaoyao/easy-archive",
+    "command": "dsh plugin --profile web add github:bainianlaoyao/easy-archive",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-d9ed37170ef8566ffeac，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-d9ed37170ef8566ffeac.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-d9ed37170ef8566ffeac.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "easy-archive 已收录到 DeepSeek Harness Plugin Store。工作区侧边栏行内两击归档：点一次变红确认，再点即归档，归档项不再出现在 ⋮ 菜单里。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-d9ed37170ef8566ffeac.html",
+    "en": "easy-archive is now listed on the DeepSeek Harness Plugin Store. Two-step inline archive on workspace sidebar rows — one click arms a red confirm, the second click archives; the archive entry is removed from the ⋮ menu.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-d9ed37170ef8566ffeac.html"
+  }
+}

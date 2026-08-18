@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-rewind — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-605b69e11255e78f3bcd.atom.xml</id>
+  <updated>2026-08-18T08:55:48Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-605b69e11255e78f3bcd.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-605b69e11255e78f3bcd.html"/>
+  <entry>
+    <title>New: dsh-rewind</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-605b69e11255e78f3bcd/dd281d53d0051a31</id>
+    <updated>2026-08-18T08:55:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-605b69e11255e78f3bcd.html"/>
+    <author><name>SiriLee</name></author>
+    <category term="session"/>
+    <summary>In-place conversation rewind in the same session window without forking (Claude Code /rewind semantics): a per-message ↶ button cuts the model context back to any user message, with an optional Claude-Code-style file restore from disk-persisted before-backups. Exact install spec: dsh-rewind-plugin. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

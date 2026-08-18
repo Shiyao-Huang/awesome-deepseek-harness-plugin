@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-f0bce44e51aab7cf8b1f",
+    "name": "visual-review",
+    "author": "wang-bool",
+    "category": "vision",
+    "version": null,
+    "homepage": "https://github.com/wang-bool/visual-review",
+    "firstObservedAt": "2026-08-18T08:55:48Z",
+    "lastChangedAt": "2026-08-18T08:55:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-f0bce44e51aab7cf8b1f.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-f0bce44e51aab7cf8b1f.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "visual-review",
+    "command": "dsh plugin --profile web add visual-review",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-f0bce44e51aab7cf8b1f，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-f0bce44e51aab7cf8b1f.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-f0bce44e51aab7cf8b1f.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "visual-review 已收录到 DeepSeek Harness Plugin Store。在 DSH Web 聊天界面内联渲染粘贴/上传的图片，并让纯文本模型“看见”图片：visual_review 工具优先调用任意 OpenAI 兼容多模态 API，未配置时回退本机 Qwen3-VL。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-f0bce44e51aab7cf8b1f.html",
+    "en": "visual-review is now listed on the DeepSeek Harness Plugin Store. Renders pasted/uploaded images inline in the DSH Web chat and gives text-only models vision: the model-invokable visual_review tool calls any OpenAI-compatible multimodal API first, falling back to a local Qwen3-VL worker.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-f0bce44e51aab7cf8b1f.html"
+  }
+}

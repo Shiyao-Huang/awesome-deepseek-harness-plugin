@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a8ae069e4514c87c61b0",
+    "name": "dsh-knowledge",
+    "author": "lemoncat7",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/lemoncat7/dsh-knowledge",
+    "firstObservedAt": "2026-08-18T08:55:48Z",
+    "lastChangedAt": "2026-08-18T08:55:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a8ae069e4514c87c61b0.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a8ae069e4514c87c61b0.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@lemoncat7/dsh-knowledge",
+    "command": "dsh plugin --profile web add @lemoncat7/dsh-knowledge",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a8ae069e4514c87c61b0，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a8ae069e4514c87c61b0.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a8ae069e4514c87c61b0.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-knowledge 已收录到 DeepSeek Harness Plugin Store。提供本地与远程知识库，支持项目和会话范围检索、可控回写以及内嵌 Web 管理台。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a8ae069e4514c87c61b0.html",
+    "en": "dsh-knowledge is now listed on the DeepSeek Harness Plugin Store. Provides local and remote knowledge bases with project- and session-scoped recall, controlled write-back, and an embedded Web management console.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a8ae069e4514c87c61b0.html"
+  }
+}

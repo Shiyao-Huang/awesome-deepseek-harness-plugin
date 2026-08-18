@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-d6f43e983d14d55baf5d",
+    "name": "dsh-wallpaper-engine",
+    "author": "elysia395",
+    "category": "theme",
+    "version": null,
+    "homepage": "https://github.com/elysia395/dsh-wallpaper-engine",
+    "firstObservedAt": "2026-08-18T08:55:48Z",
+    "lastChangedAt": "2026-08-18T08:55:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-d6f43e983d14d55baf5d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-d6f43e983d14d55baf5d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-plugin-wallpaper-engine",
+    "command": "dsh plugin --profile web add dsh-plugin-wallpaper-engine",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-d6f43e983d14d55baf5d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-d6f43e983d14d55baf5d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-d6f43e983d14d55baf5d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-wallpaper-engine 已收录到 DeepSeek Harness Plugin Store。在 DSH 网页界面后方渲染本机 Wallpaper Engine 的 Video/Web 壁纸，支持 iOS 风格液态玻璃效果，并可用滑动条调节模糊、暗化、边框与玻璃强度。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-d6f43e983d14d55baf5d.html",
+    "en": "dsh-wallpaper-engine is now listed on the DeepSeek Harness Plugin Store. Wallpaper Engine backgrounds for the DSH web GUI: renders local Video and Web wallpapers behind the chat with an iOS-style liquid glass effect and adjustable blur, dim, border and glass sliders.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-d6f43e983d14d55baf5d.html"
+  }
+}

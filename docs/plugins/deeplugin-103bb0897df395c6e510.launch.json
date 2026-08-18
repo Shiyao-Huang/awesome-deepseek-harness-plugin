@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-103bb0897df395c6e510",
+    "name": "deepseek-web-import",
+    "author": "wpc0323",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/wpc0323/deepseek-web-import",
+    "firstObservedAt": "2026-08-18T08:55:48Z",
+    "lastChangedAt": "2026-08-18T08:55:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-103bb0897df395c6e510.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-103bb0897df395c6e510.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:wpc0323/deepseek-web-import",
+    "command": "dsh plugin --profile web add github:wpc0323/deepseek-web-import",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-103bb0897df395c6e510，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-103bb0897df395c6e510.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-103bb0897df395c6e510.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "deepseek-web-import 已收录到 DeepSeek Harness Plugin Store。从设置页把 chat.deepseek.com 网页端对话导入为 DeepSeek Harness 会话，导入后可在其中继续对话。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-103bb0897df395c6e510.html",
+    "en": "deepseek-web-import is now listed on the DeepSeek Harness Plugin Store. Imports chat.deepseek.com web conversations into DeepSeek Harness as resumable sessions, from a settings-page UI.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-103bb0897df395c6e510.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-72d42badc2558aa5f0dc",
+    "name": "huahua-dsh-plugin-orchestra",
+    "author": "azure5100",
+    "category": "market",
+    "version": null,
+    "homepage": "https://github.com/azure5100/huahua-dsh-plugin-orchestra",
+    "firstObservedAt": "2026-08-18T08:55:48Z",
+    "lastChangedAt": "2026-08-18T08:55:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-72d42badc2558aa5f0dc.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-72d42badc2558aa5f0dc.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:azure5100/huahua-dsh-plugin-orchestra",
+    "command": "dsh plugin --profile web add github:azure5100/huahua-dsh-plugin-orchestra",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-72d42badc2558aa5f0dc，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-72d42badc2558aa5f0dc.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-72d42badc2558aa5f0dc.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "huahua-dsh-plugin-orchestra 已收录到 DeepSeek Harness Plugin Store。DSH 插件管理系统：插件清单与 AI 用途解读、变更日志、更新提醒、一键升级、自动备份与回滚，附带崩溃恢复。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-72d42badc2558aa5f0dc.html",
+    "en": "huahua-dsh-plugin-orchestra is now listed on the DeepSeek Harness Plugin Store. A plugin management system for DeepSeek Harness: plugin inventory with L0/L1/L2 AI purpose summaries, changelog tracking, update alerts, one-click upgrade, and backup/rollback with crash recovery.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-72d42badc2558aa5f0dc.html"
+  }
+}

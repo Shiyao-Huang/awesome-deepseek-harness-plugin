@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-917e970db7903d4f1aab",
+    "name": "dsh-llm-cursor",
+    "author": "NOirBRight",
+    "category": "model",
+    "version": null,
+    "homepage": "https://github.com/NOirBRight/dsh-llm-cursor",
+    "firstObservedAt": "2026-08-18T08:55:48Z",
+    "lastChangedAt": "2026-08-18T08:55:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-917e970db7903d4f1aab.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-917e970db7903d4f1aab.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:noirbright/dsh-llm-cursor",
+    "command": "dsh plugin --profile web add github:noirbright/dsh-llm-cursor",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-917e970db7903d4f1aab，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-917e970db7903d4f1aab.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-917e970db7903d4f1aab.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-llm-cursor 已收录到 DeepSeek Harness Plugin Store。非官方 Cursor 订阅聊天：Host 持有 CLI 会话登录，可编辑展示用模型目录，并显示订阅额度。Cursor 员工认定此类私有客户端用法违反 ToS。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-917e970db7903d4f1aab.html",
+    "en": "dsh-llm-cursor is now listed on the DeepSeek Harness Plugin Store. Unofficial Cursor subscription chat: Host-owned CLI session login, a displayed model catalog, and subscription usage rails. Cursor staff treat this class of private-client usage as against ToS.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-917e970db7903d4f1aab.html"
+  }
+}

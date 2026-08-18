@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-client-ui-obsidian-memory — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-cb68391c1e1a41279d58.atom.xml</id>
+  <updated>2026-08-18T08:55:48Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-cb68391c1e1a41279d58.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-cb68391c1e1a41279d58.html"/>
+  <entry>
+    <title>New: dsh-client-ui-obsidian-memory</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-cb68391c1e1a41279d58/dd281d53d0051a31</id>
+    <updated>2026-08-18T08:55:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-cb68391c1e1a41279d58.html"/>
+    <author><name>detongz</name></author>
+    <category term="memory"/>
+    <summary>Persistent AI memory backed by a local Obsidian/Codex vault: five obsidian_memory_* read/write/search tools plus a sidebar vault browser. Exact install spec: dsh-client-ui-obsidian-memory. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

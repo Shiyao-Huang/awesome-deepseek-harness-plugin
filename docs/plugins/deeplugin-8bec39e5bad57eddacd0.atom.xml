@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>InfiniteDSH — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-8bec39e5bad57eddacd0.atom.xml</id>
+  <updated>2026-08-18T08:55:48Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-8bec39e5bad57eddacd0.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8bec39e5bad57eddacd0.html"/>
+  <entry>
+    <title>New: InfiniteDSH</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-8bec39e5bad57eddacd0/dd281d53d0051a31</id>
+    <updated>2026-08-18T08:55:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8bec39e5bad57eddacd0.html"/>
+    <author><name>vdnight89</name></author>
+    <category term="skill"/>
+    <summary>Literary DSH plugin: one session is one book. Cover-card /new opens one of 19 realms, a prose-only 诸天万界DSH preset keeps the model writing fiction, keyword worldbook entries ground each turn, and /export-story typesets the session into a Markdown novel. Exact install spec: github:vdnight89/infinitedsh. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

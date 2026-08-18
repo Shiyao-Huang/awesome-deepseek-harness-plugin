@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-ebe229abdbdfc5890603",
+    "name": "dsh-plugin-hub#packages/dsh-idle-archive",
+    "author": "wingsky-1",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/wingsky-1/dsh-plugin-hub/tree/main/packages/dsh-idle-archive",
+    "firstObservedAt": "2026-08-18T08:55:48Z",
+    "lastChangedAt": "2026-08-18T08:55:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-ebe229abdbdfc5890603.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-ebe229abdbdfc5890603.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@wingsky-1/dsh-idle-archive",
+    "command": "dsh plugin --profile web add @wingsky-1/dsh-idle-archive",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-ebe229abdbdfc5890603，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-ebe229abdbdfc5890603.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-ebe229abdbdfc5890603.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-hub#packages/dsh-idle-archive 已收录到 DeepSeek Harness Plugin Store。会话闲置提醒：超过 N 小时未对话的会话弹窗询问是否归档，拒绝后进入静默期；归档走官方 archiveSession 接口。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-ebe229abdbdfc5890603.html",
+    "en": "dsh-plugin-hub#packages/dsh-idle-archive is now listed on the DeepSeek Harness Plugin Store. Idle session reminder: prompts to archive sessions untouched for N hours, with a snooze window after each refusal, using the official archiveSession API.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-ebe229abdbdfc5890603.html"
+  }
+}

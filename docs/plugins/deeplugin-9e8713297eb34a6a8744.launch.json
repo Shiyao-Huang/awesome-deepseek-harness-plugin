@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-9e8713297eb34a6a8744",
+    "name": "whale-on-desk",
+    "author": "cookiesheep",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/cookiesheep/whale-on-desk",
+    "firstObservedAt": "2026-08-18T08:55:48Z",
+    "lastChangedAt": "2026-08-18T08:55:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-9e8713297eb34a6a8744.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-9e8713297eb34a6a8744.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:cookiesheep/whale-on-desk",
+    "command": "dsh plugin --profile web add github:cookiesheep/whale-on-desk",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-9e8713297eb34a6a8744，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-9e8713297eb34a6a8744.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-9e8713297eb34a6a8744.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "whale-on-desk 已收录到 DeepSeek Harness Plugin Store。像素鲸鱼桌宠,29 个逐帧验收状态:等批准时贴屏敲玻璃并让标签页标题闪烁,任务完成开口汇报,并为 web 端提供斜杠命令面板。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-9e8713297eb34a6a8744.html",
+    "en": "whale-on-desk is now listed on the DeepSeek Harness Plugin Store. Pixel-art whale desktop companion with 29 frame-audited states — taps the glass and flashes the tab title when an approval waits, speaks a completion report when a turn ends, and adds a slash-command palette to the web client.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-9e8713297eb34a6a8744.html"
+  }
+}

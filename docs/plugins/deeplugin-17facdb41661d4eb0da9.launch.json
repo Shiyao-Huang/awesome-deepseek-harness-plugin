@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-17facdb41661d4eb0da9",
+    "name": "dsh-plugin-hub#packages/dsh-skill-explorer",
+    "author": "wingsky-1",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/wingsky-1/dsh-plugin-hub/tree/main/packages/dsh-skill-explorer",
+    "firstObservedAt": "2026-08-18T08:55:48Z",
+    "lastChangedAt": "2026-08-18T08:55:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-17facdb41661d4eb0da9.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-17facdb41661d4eb0da9.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@wingsky-1/dsh-skill-explorer",
+    "command": "dsh plugin --profile web add @wingsky-1/dsh-skill-explorer",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-17facdb41661d4eb0da9，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-17facdb41661d4eb0da9.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-17facdb41661d4eb0da9.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-hub#packages/dsh-skill-explorer 已收录到 DeepSeek Harness Plugin Store。DSH Web GUI 技能中心：按来源分级（系统内置/项目/用户/自定义/运行时）浏览已加载技能，支持创建、启用/禁用与删除（移入 .trash 可恢复）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-17facdb41661d4eb0da9.html",
+    "en": "dsh-plugin-hub#packages/dsh-skill-explorer is now listed on the DeepSeek Harness Plugin Store. Skill center in the DSH web GUI: browse loaded skills grouped by source (system / project / user / custom / runtime), with create, enable/disable, and delete (moves to .trash) actions.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-17facdb41661d4eb0da9.html"
+  }
+}

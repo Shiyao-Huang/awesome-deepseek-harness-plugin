@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>whale-on-desk — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-9e8713297eb34a6a8744.atom.xml</id>
+  <updated>2026-08-18T08:55:48Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-9e8713297eb34a6a8744.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9e8713297eb34a6a8744.html"/>
+  <entry>
+    <title>New: whale-on-desk</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-9e8713297eb34a6a8744/dd281d53d0051a31</id>
+    <updated>2026-08-18T08:55:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9e8713297eb34a6a8744.html"/>
+    <author><name>cookiesheep</name></author>
+    <category term="ui"/>
+    <summary>Pixel-art whale desktop companion with 29 frame-audited states — taps the glass and flashes the tab title when an approval waits, speaks a completion report when a turn ends, and adds a slash-command palette to the web client. Exact install spec: github:cookiesheep/whale-on-desk. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

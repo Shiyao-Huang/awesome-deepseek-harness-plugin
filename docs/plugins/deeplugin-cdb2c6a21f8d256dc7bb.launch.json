@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-cdb2c6a21f8d256dc7bb",
+    "name": "dsh-whale-musume",
+    "author": "Sutera-Diffusus",
+    "category": "fun",
+    "version": null,
+    "homepage": "https://github.com/Sutera-Diffusus/dsh-whale-musume",
+    "firstObservedAt": "2026-08-18T08:55:48Z",
+    "lastChangedAt": "2026-08-18T08:55:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-cdb2c6a21f8d256dc7bb.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-cdb2c6a21f8d256dc7bb.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:sutera-diffusus/dsh-whale-musume",
+    "command": "dsh plugin --profile web add github:sutera-diffusus/dsh-whale-musume",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-cdb2c6a21f8d256dc7bb，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-cdb2c6a21f8d256dc7bb.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-cdb2c6a21f8d256dc7bb.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-whale-musume 已收录到 DeepSeek Harness Plugin Store。元气鲸鱼娘桌宠：摸头养成、工作状态联动、494 条台词与 30 项成就，自带设置面板，全本地零遥测。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-cdb2c6a21f8d256dc7bb.html",
+    "en": "dsh-whale-musume is now listed on the DeepSeek Harness Plugin Store. A cute whale-girl desktop pet for the DeepSeek Harness Web UI: pat-to-raise growth, live work-state poses, 494 dialogue lines, 30 achievements and a built-in settings panel — all local, zero telemetry.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-cdb2c6a21f8d256dc7bb.html"
+  }
+}

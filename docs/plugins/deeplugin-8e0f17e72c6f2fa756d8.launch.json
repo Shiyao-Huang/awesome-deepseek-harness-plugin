@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/JohnXu22786/snippet-expander",
     "firstObservedAt": "2026-08-17T18:59:27Z",
-    "lastChangedAt": "2026-08-17T18:59:27Z"
+    "lastChangedAt": "2026-08-18T08:55:48Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-8e0f17e72c6f2fa756d8.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-8e0f17e72c6f2fa756d8.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "snippet-expander 已收录到 DeepSeek Harness Plugin Store。Steno：发送前的行内 #tag 快捷展开——多库、别名、{{变量}}、递归防护。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-8e0f17e72c6f2fa756d8.html",
-    "en": "snippet-expander is now listed on the DeepSeek Harness Plugin Store. Steno: inline #tag shorthand expansion before send — multi-library, aliases, {{variables}}, recursion guards.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-8e0f17e72c6f2fa756d8.html"
+    "zh": "snippet-expander 已收录到 DeepSeek Harness Plugin Store。发送前把消息中的 #tag 展开为片段库配置的正文；支持多片段库、别名、变量占位符与递归防护。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-8e0f17e72c6f2fa756d8.html",
+    "en": "snippet-expander is now listed on the DeepSeek Harness Plugin Store. Expands #tag shorthand into snippet-library text before messages are sent; multi-library, aliases, variables and recursion guards.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-8e0f17e72c6f2fa756d8.html"
   }
 }

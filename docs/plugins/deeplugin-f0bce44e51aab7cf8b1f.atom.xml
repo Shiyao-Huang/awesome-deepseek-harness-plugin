@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>visual-review — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-f0bce44e51aab7cf8b1f.atom.xml</id>
+  <updated>2026-08-18T08:55:48Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-f0bce44e51aab7cf8b1f.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f0bce44e51aab7cf8b1f.html"/>
+  <entry>
+    <title>New: visual-review</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-f0bce44e51aab7cf8b1f/dd281d53d0051a31</id>
+    <updated>2026-08-18T08:55:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f0bce44e51aab7cf8b1f.html"/>
+    <author><name>wang-bool</name></author>
+    <category term="vision"/>
+    <summary>Renders pasted/uploaded images inline in the DSH Web chat and gives text-only models vision: the model-invokable visual_review tool calls any OpenAI-compatible multimodal API first, falling back to a local Qwen3-VL worker. Exact install spec: visual-review. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

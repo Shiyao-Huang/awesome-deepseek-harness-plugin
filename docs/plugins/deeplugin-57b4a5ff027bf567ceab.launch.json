@@ -5,11 +5,11 @@
     "id": "deeplugin-57b4a5ff027bf567ceab",
     "name": "model-catalog",
     "author": "JohnXu22786",
-    "category": "model",
+    "category": "tools",
     "version": null,
     "homepage": "https://github.com/JohnXu22786/model-catalog",
     "firstObservedAt": "2026-08-17T18:59:27Z",
-    "lastChangedAt": "2026-08-17T18:59:27Z"
+    "lastChangedAt": "2026-08-18T08:55:48Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-57b4a5ff027bf567ceab.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-57b4a5ff027bf567ceab.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "model-catalog 已收录到 DeepSeek Harness Plugin Store。模型目录自动发现：从 OpenAI 兼容主机获取模型列表、价格与能力，归一化为即用配置。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-57b4a5ff027bf567ceab.html",
-    "en": "model-catalog is now listed on the DeepSeek Harness Plugin Store. Model catalog auto-discovery: fetches model listings, pricing and capabilities from OpenAI-compatible hosts into ready-to-use config.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-57b4a5ff027bf567ceab.html"
+    "zh": "model-catalog 已收录到 DeepSeek Harness Plugin Store。从 OpenAI 兼容 API 主机自动发现模型列表、定价与能力，归一化后生成 dsh 可直接使用的模型配置。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-57b4a5ff027bf567ceab.html",
+    "en": "model-catalog is now listed on the DeepSeek Harness Plugin Store. Auto-discovers model listings, pricing and capabilities from OpenAI-compatible API hosts, normalizes them, and emits ready-to-use model configs for dsh.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-57b4a5ff027bf567ceab.html"
   }
 }

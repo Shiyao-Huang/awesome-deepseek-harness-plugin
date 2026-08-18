@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-plugin-hub#packages/dsh-mcp-manager — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-0783cb9b63c14e85225b.atom.xml</id>
+  <updated>2026-08-18T08:55:48Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-0783cb9b63c14e85225b.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-0783cb9b63c14e85225b.html"/>
+  <entry>
+    <title>New: dsh-plugin-hub#packages/dsh-mcp-manager</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-0783cb9b63c14e85225b/dd281d53d0051a31</id>
+    <updated>2026-08-18T08:55:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-0783cb9b63c14e85225b.html"/>
+    <author><name>wingsky-1</name></author>
+    <category term="tools"/>
+    <summary>MCP server manager: side-panel with per-status server listing, stdio/streamable-http setup forms, mcpServers JSON import, exponential-backoff reconnect, and tools registered to the model as mcp__&lt;server&gt;__&lt;tool&gt;. Exact install spec: @wingsky-1/dsh-mcp-manager. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

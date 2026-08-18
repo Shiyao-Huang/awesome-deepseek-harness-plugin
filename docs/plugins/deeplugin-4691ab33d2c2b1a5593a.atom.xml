@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>odai#odai-dsh-plugin — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-4691ab33d2c2b1a5593a.atom.xml</id>
+  <updated>2026-08-18T08:55:48Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-4691ab33d2c2b1a5593a.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-4691ab33d2c2b1a5593a.html"/>
+  <entry>
+    <title>New: odai#odai-dsh-plugin</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-4691ab33d2c2b1a5593a/dd281d53d0051a31</id>
+    <updated>2026-08-18T08:55:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-4691ab33d2c2b1a5593a.html"/>
+    <author><name>orziz</name></author>
+    <category term="workflow"/>
+    <summary>Profile-wide DSH governance and routing bundle with configurable compaction calls and scoped local semantic memory; compatible with DSH 0.1.0-rc.6 and 0.1.0-rc.7. Exact install spec: odai-dsh-plugin. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

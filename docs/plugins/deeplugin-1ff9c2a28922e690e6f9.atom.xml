@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-discord — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-1ff9c2a28922e690e6f9.atom.xml</id>
+  <updated>2026-08-18T08:55:48Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-1ff9c2a28922e690e6f9.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1ff9c2a28922e690e6f9.html"/>
+  <entry>
+    <title>New: dsh-discord</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-1ff9c2a28922e690e6f9/dd281d53d0051a31</id>
+    <updated>2026-08-18T08:55:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1ff9c2a28922e690e6f9.html"/>
+    <author><name>suuuuuu-1</name></author>
+    <category term="notify"/>
+    <summary>Discord-native remote controller for DeepSeek Harness: drive persisted coding-agent sessions from DMs, mention-gated guild channels, and threads, with slash commands, progress updates, approvals, structured questions, and image and text attachments. Exact install spec: github:suuuuuu-1/dsh-discord. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-plugin-hub#packages/dsh-notifier — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-638ae8e0d9b2075275e8.atom.xml</id>
+  <updated>2026-08-18T08:55:48Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-638ae8e0d9b2075275e8.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-638ae8e0d9b2075275e8.html"/>
+  <entry>
+    <title>New: dsh-plugin-hub#packages/dsh-notifier</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-638ae8e0d9b2075275e8/dd281d53d0051a31</id>
+    <updated>2026-08-18T08:55:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-638ae8e0d9b2075275e8.html"/>
+    <author><name>wingsky-1</name></author>
+    <category term="notify"/>
+    <summary>Approval/completion/error event notifications: browser Notification plus native toasts (PowerShell WinRT on Windows, notify-send on Linux/macOS), quiet hours, same-kind error merging, and an independent switch for subagent completion. Exact install spec: @wingsky-1/dsh-notifier. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

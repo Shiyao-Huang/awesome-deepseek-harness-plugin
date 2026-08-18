@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-2f6a403f5cbed7b7c324",
+    "name": "dsh-plugin-hub#packages/dsh-opencode-usage",
+    "author": "wingsky-1",
+    "category": "usage",
+    "version": null,
+    "homepage": "https://github.com/wingsky-1/dsh-plugin-hub/tree/main/packages/dsh-opencode-usage",
+    "firstObservedAt": "2026-08-18T08:55:48Z",
+    "lastChangedAt": "2026-08-18T08:55:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-2f6a403f5cbed7b7c324.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-2f6a403f5cbed7b7c324.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@wingsky-1/dsh-opencode-usage",
+    "command": "dsh plugin --profile web add @wingsky-1/dsh-opencode-usage",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-2f6a403f5cbed7b7c324，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-2f6a403f5cbed7b7c324.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-2f6a403f5cbed7b7c324.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-hub#packages/dsh-opencode-usage 已收录到 DeepSeek Harness Plugin Store。OpenCode Go 套餐用量悬浮框：三窗口（rolling/weekly/monthly）消耗百分比常驻展示，展开为迷你面积图；后台采样官方 /v1/usage 接口，零本地计算。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-2f6a403f5cbed7b7c324.html",
+    "en": "dsh-plugin-hub#packages/dsh-opencode-usage is now listed on the DeepSeek Harness Plugin Store. OpenCode Go plan usage floating pill: three-window consumption percentages (rolling/weekly/monthly) with mini area charts, backed by background sampling against the official /v1/usage API.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-2f6a403f5cbed7b7c324.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-605b69e11255e78f3bcd",
+    "name": "dsh-rewind",
+    "author": "SiriLee",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/SiriLee/dsh-rewind",
+    "firstObservedAt": "2026-08-18T08:55:48Z",
+    "lastChangedAt": "2026-08-18T08:55:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-605b69e11255e78f3bcd.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-605b69e11255e78f3bcd.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-rewind-plugin",
+    "command": "dsh plugin --profile web add dsh-rewind-plugin",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-605b69e11255e78f3bcd，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-605b69e11255e78f3bcd.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-605b69e11255e78f3bcd.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-rewind 已收录到 DeepSeek Harness Plugin Store。同一会话窗口内的 in-place 对话回退（不 fork，Claude Code /rewind 语义）：每条消息的 ↶ 按钮把模型上下文回退到任意用户消息，可选用磁盘持久化的 before-backups 还原工作区文件。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-605b69e11255e78f3bcd.html",
+    "en": "dsh-rewind is now listed on the DeepSeek Harness Plugin Store. In-place conversation rewind in the same session window without forking (Claude Code /rewind semantics): a per-message ↶ button cuts the model context back to any user message, with an optional Claude-Code-style file restore from disk-persisted before-backups.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-605b69e11255e78f3bcd.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-8bec39e5bad57eddacd0",
+    "name": "InfiniteDSH",
+    "author": "vdnight89",
+    "category": "skill",
+    "version": null,
+    "homepage": "https://github.com/vdnight89/InfiniteDSH",
+    "firstObservedAt": "2026-08-18T08:55:48Z",
+    "lastChangedAt": "2026-08-18T08:55:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-8bec39e5bad57eddacd0.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-8bec39e5bad57eddacd0.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:vdnight89/infinitedsh",
+    "command": "dsh plugin --profile web add github:vdnight89/infinitedsh",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-8bec39e5bad57eddacd0，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-8bec39e5bad57eddacd0.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-8bec39e5bad57eddacd0.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "InfiniteDSH 已收录到 DeepSeek Harness Plugin Store。诸天万界DSH：一个会话就是一本书。封面开书，十九界任选，文学预设只写正文，规则书按关键词注入，/export-story 把整场会话誊成 Markdown 小说。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-8bec39e5bad57eddacd0.html",
+    "en": "InfiniteDSH is now listed on the DeepSeek Harness Plugin Store. Literary DSH plugin: one session is one book. Cover-card /new opens one of 19 realms, a prose-only 诸天万界DSH preset keeps the model writing fiction, keyword worldbook entries ground each turn, and /export-story typesets the session into a Markdown novel.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-8bec39e5bad57eddacd0.html"
+  }
+}
