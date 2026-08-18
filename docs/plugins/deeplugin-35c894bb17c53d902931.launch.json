@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-35c894bb17c53d902931",
+    "name": "dsh-ui-mobile",
+    "author": "jasondu",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/jasondu/dsh-ui-mobile",
+    "firstObservedAt": "2026-08-18T04:53:19Z",
+    "lastChangedAt": "2026-08-18T04:53:19Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-35c894bb17c53d902931.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-35c894bb17c53d902931.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:jasondu/dsh-ui-mobile",
+    "command": "dsh plugin --profile web add github:jasondu/dsh-ui-mobile",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-35c894bb17c53d902931，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-35c894bb17c53d902931.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-35c894bb17c53d902931.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-ui-mobile 已收录到 DeepSeek Harness Plugin Store。面向手机的 DeepSeek Harness 界面，提供可安装 PWA、响应式导航，以及 Agent 成功完成时的 Web Push 通知。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-35c894bb17c53d902931.html",
+    "en": "dsh-ui-mobile is now listed on the DeepSeek Harness Plugin Store. Mobile-first DeepSeek Harness UI with an installable PWA, responsive navigation, and Web Push notifications when an agent completes successfully.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-35c894bb17c53d902931.html"
+  }
+}

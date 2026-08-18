@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-c366c93b8292a85887a4",
+    "name": "dsh-devtoolbox",
+    "author": "jean3690",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/jean3690/dsh-devtoolbox",
+    "firstObservedAt": "2026-08-18T04:53:19Z",
+    "lastChangedAt": "2026-08-18T04:53:19Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-c366c93b8292a85887a4.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-c366c93b8292a85887a4.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-devtoolbox",
+    "command": "dsh plugin --profile web add dsh-devtoolbox",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-c366c93b8292a85887a4，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-c366c93b8292a85887a4.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-c366c93b8292a85887a4.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-devtoolbox 已收录到 DeepSeek Harness Plugin Store。DSH 本地工具箱：侧边栏独立页面内置 35 个纯本地小工具（文本、编码、哈希、提取、转换、速查表），另有 /toolbox 命令与配置驱动的 agent 工具注册。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c366c93b8292a85887a4.html",
+    "en": "dsh-devtoolbox is now listed on the DeepSeek Harness Plugin Store. Local toolbox for the DSH web GUI: 35 pure-client tools (text, encoding, hashing, extraction, conversion, reference tables) in a sidebar view, plus the /toolbox command and config-driven agent tool exposure.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-c366c93b8292a85887a4.html"
+  }
+}

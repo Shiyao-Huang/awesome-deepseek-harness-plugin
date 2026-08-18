@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-56eeb5aae3db1a309261",
+    "name": "dsh-memory-porter",
+    "author": "Shiye-10Pages",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/Shiye-10Pages/dsh-memory-porter",
+    "firstObservedAt": "2026-08-18T04:53:19Z",
+    "lastChangedAt": "2026-08-18T04:53:19Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-56eeb5aae3db1a309261.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-56eeb5aae3db1a309261.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-memory-porter",
+    "command": "dsh plugin --profile web add dsh-memory-porter",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-56eeb5aae3db1a309261，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-56eeb5aae3db1a309261.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-56eeb5aae3db1a309261.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-memory-porter 已收录到 DeepSeek Harness Plugin Store。把你在 Claude / ChatGPT 里已有的历史搬进 DSH：Claude 导出包里的 memories.json 零 token 瞬时入库，本机 Claude Code 记录免导出直读，历史对话用你在 DSH 里已配好的模型提纯。每条记忆都带由代码回原文核对的逐字证据——转述会被丢弃并计数，只在 AI 回复里找到的证据一律转人工确认而非直接入库。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-56eeb5aae3db1a309261.html",
+    "en": "dsh-memory-porter is now listed on the DeepSeek Harness Plugin Store. Brings your existing Claude / ChatGPT history into DSH: instant zero-token import of the memories.json inside a Claude export, local Claude Code transcripts with no export needed, and conversations distilled through the model you already configured in DSH. Every memory carries verbatim evidence checked against the source by code — a paraphrase is dropped and counted, and evidence found only in the assistant turns is always routed to review rather than stored.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-56eeb5aae3db1a309261.html"
+  }
+}

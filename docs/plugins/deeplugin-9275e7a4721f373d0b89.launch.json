@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-9275e7a4721f373d0b89",
+    "name": "dsh-shutdown-after-task",
+    "author": "virggle",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/virggle/dsh-shutdown-after-task",
+    "firstObservedAt": "2026-08-18T04:53:19Z",
+    "lastChangedAt": "2026-08-18T04:53:19Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-9275e7a4721f373d0b89.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-9275e7a4721f373d0b89.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:virggle/dsh-shutdown-after-task",
+    "command": "dsh plugin --profile web add github:virggle/dsh-shutdown-after-task",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-9275e7a4721f373d0b89，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-9275e7a4721f373d0b89.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-9275e7a4721f373d0b89.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-shutdown-after-task 已收录到 DeepSeek Harness Plugin Store。任务完成后自动关机：右下角按钮开启模式，任务成功完成后进入可取消的倒计时（取消走 shutdown /a），零运行时依赖。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-9275e7a4721f373d0b89.html",
+    "en": "dsh-shutdown-after-task is now listed on the DeepSeek Harness Plugin Store. Shut down Windows automatically after DeepSeek Harness tasks complete — a floating arm button plus a cancellable countdown banner (shutdown /a), zero runtime dependencies.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-9275e7a4721f373d0b89.html"
+  }
+}

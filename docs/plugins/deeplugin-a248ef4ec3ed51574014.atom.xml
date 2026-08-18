@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-agent-skills — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-a248ef4ec3ed51574014.atom.xml</id>
+  <updated>2026-08-18T04:53:19Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-a248ef4ec3ed51574014.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a248ef4ec3ed51574014.html"/>
+  <entry>
+    <title>New: dsh-agent-skills</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-a248ef4ec3ed51574014/2ff086a3ce2d4066</id>
+    <updated>2026-08-18T04:53:19Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a248ef4ec3ed51574014.html"/>
+    <author><name>minivv</name></author>
+    <category term="dev"/>
+    <summary>Browse, enable, disable, and manage Agent Skills from Claude Code, Codex, OpenCode, Gemini, and custom directories in the DSH settings panel. Exact install spec: dsh-agent-skills. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

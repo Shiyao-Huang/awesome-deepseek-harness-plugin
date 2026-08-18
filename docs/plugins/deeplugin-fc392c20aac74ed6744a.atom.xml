@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>opencues#integrations-dsh — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-fc392c20aac74ed6744a.atom.xml</id>
+  <updated>2026-08-18T04:53:19Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-fc392c20aac74ed6744a.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fc392c20aac74ed6744a.html"/>
+  <entry>
+    <title>New: opencues#integrations-dsh</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-fc392c20aac74ed6744a/2ff086a3ce2d4066</id>
+    <updated>2026-08-18T04:53:19Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fc392c20aac74ed6744a.html"/>
+    <author><name>opencues</name></author>
+    <category term="ui"/>
+    <summary>Word alternatives and underscore-gated fill-ins in the composer. End a line with _ and it is filled; misspellings are flagged as you type. Routes through the model dsh is already configured with, so it needs no API key. Exact install spec: @opencues/dsh. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

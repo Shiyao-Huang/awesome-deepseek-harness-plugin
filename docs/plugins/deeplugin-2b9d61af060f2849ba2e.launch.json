@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-2b9d61af060f2849ba2e",
+    "name": "dsh-open-explorer",
+    "author": "YooRarely",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/YooRarely/dsh-open-explorer",
+    "firstObservedAt": "2026-08-18T04:53:19Z",
+    "lastChangedAt": "2026-08-18T04:53:19Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-2b9d61af060f2849ba2e.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-2b9d61af060f2849ba2e.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:yoorarely/dsh-open-explorer",
+    "command": "dsh plugin --profile web add github:yoorarely/dsh-open-explorer",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-2b9d61af060f2849ba2e，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-2b9d61af060f2849ba2e.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-2b9d61af060f2849ba2e.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-open-explorer 已收录到 DeepSeek Harness Plugin Store。在 DSH 会话标题和工作区菜单中添加按钮，用系统文件管理器打开当前 Workspace 根目录。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-2b9d61af060f2849ba2e.html",
+    "en": "dsh-open-explorer is now listed on the DeepSeek Harness Plugin Store. Adds buttons to open the current DSH workspace root in the host file manager.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-2b9d61af060f2849ba2e.html"
+  }
+}

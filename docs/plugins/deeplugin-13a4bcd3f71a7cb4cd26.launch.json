@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/bowenliang123/dsh-context",
     "firstObservedAt": "2026-08-15T22:14:49Z",
-    "lastChangedAt": "2026-08-16T09:56:16Z"
+    "lastChangedAt": "2026-08-18T04:53:19Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-13a4bcd3f71a7cb4cd26.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-13a4bcd3f71a7cb4cd26.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-context 已收录到 DeepSeek Harness Plugin Store。上下文洞察面板：一眼看清模型上下文窗口的组成与变化——构成对照窗口大小、按请求历史趋势、压缩/注入事件、消息级 token 统计。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-13a4bcd3f71a7cb4cd26.html",
-    "en": "dsh-context is now listed on the DeepSeek Harness Plugin Store. Context insight panel: see what the model's context window is made of and how it evolves — composition vs. window size, per-request history, compression/injection events, and per-message token stats.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-13a4bcd3f71a7cb4cd26.html"
+    "zh": "dsh-context 已收录到 DeepSeek Harness Plugin Store。DSH 上下文洞察面板：Context 仪表盘 + /context命令 + Context 浏览器，查看 Context的分类组成、内容详情、演进趋势、压缩/注入事件、统计等一站式 Context 全生命周期管理。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-13a4bcd3f71a7cb4cd26.html",
+    "en": "dsh-context is now listed on the DeepSeek Harness Plugin Store. DSH context insight panel: Context dashboard + /context command + Context browser — one-stop context lifecycle management with categorized composition, content details, evolution trends, compaction/injection events, and stats.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-13a4bcd3f71a7cb4cd26.html"
   }
 }

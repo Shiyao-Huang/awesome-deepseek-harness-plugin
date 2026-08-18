@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-turn-fold — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-f0f8fc674dfced7cb1fe.atom.xml</id>
+  <updated>2026-08-18T04:53:19Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-f0f8fc674dfced7cb1fe.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f0f8fc674dfced7cb1fe.html"/>
+  <entry>
+    <title>New: dsh-turn-fold</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-f0f8fc674dfced7cb1fe/2ff086a3ce2d4066</id>
+    <updated>2026-08-18T04:53:19Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f0f8fc674dfced7cb1fe.html"/>
+    <author><name>Winter-And-You-Gone</name></author>
+    <category term="ui"/>
+    <summary>Automatically folds tool calls into Think-segment groups and collapses each finished turn into a single header showing duration, token, throughput, and cache-hit metrics. Exact install spec: github:winter-and-you-gone/dsh-turn-fold. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

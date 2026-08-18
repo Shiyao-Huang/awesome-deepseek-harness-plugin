@@ -5,6 +5,19 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 2026-08-18 | github | plugin | [dsh-agent-skills](https://github.com/minivv/dsh-agent-skills) | minivv | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-capability-optimizer](https://github.com/hezhongtang/dsh-capability-optimizer) | hezhongtang | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-client-ui-quote](https://github.com/skyhancloud/dsh-client-ui-quote) | skyhancloud | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-devtoolbox](https://github.com/jean3690/dsh-devtoolbox) | jean3690 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-file-preview](https://github.com/UndeadSheep/dsh-file-preview) | UndeadSheep | core-and-ecosystem |
+| 2026-08-14 | github | plugin | [dsh-meme](https://github.com/yyh-001/dsh-meme) | yyh-001 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-memory-porter](https://github.com/Shiye-10Pages/dsh-memory-porter) | Shiye-10Pages | operations-and-safety |
+| 2026-08-18 | github | plugin | [dsh-plugin-dit](https://github.com/cuboteam/dsh-plugin-dit) | cuboteam | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-plugin-nexterm](https://github.com/Samge0/dsh-plugin-nexterm) | Samge0 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-remote-workspace](https://github.com/Hefulalala/dsh-remote-workspace) | Hefulalala | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-shutdown-after-task](https://github.com/virggle/dsh-shutdown-after-task) | virggle | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-sticky-notes](https://github.com/flyhigao/dsh-sticky-notes) | flyhigao | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-ui-mobile](https://github.com/jasondu/dsh-ui-mobile) | jasondu | core-and-ecosystem |
 | 2026-08-18T03:11:15Z | github | ecosystem-reference | [AntaresCorn/dsh-auto-reviewer](https://github.com/AntaresCorn/dsh-auto-reviewer) | AntaresCorn | operations-and-safety |
 | 2026-08-18T03:11:15Z | github | ecosystem-reference | [JimchengChina/dsh-frontier-repro](https://github.com/JimchengChina/dsh-frontier-repro) | JimchengChina | core-and-ecosystem |
 | 2026-08-18T03:11:15Z | github | plugin | [Max-Null/dsh-plugin-center](https://github.com/Max-Null/dsh-plugin-center) | Max-Null | core-and-ecosystem |

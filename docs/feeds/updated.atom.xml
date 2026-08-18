@@ -2,9 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>deeplugin.store — Updated plugins</title>
   <id>https://deeplugin.store/feeds/updated.atom.xml</id>
-  <updated>2026-08-18T03:11:15Z</updated>
+  <updated>2026-08-18T04:53:19Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/feeds/updated.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/market.html"/>
+  <entry>
+    <title>Updated: dsh-movein</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-9efe167816318f863fa0/2e30ed01cf3778a6</id>
+    <updated>2026-08-18T04:53:19Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9efe167816318f863fa0.html"/>
+    <author><name>sjh9714</name></author>
+    <category term="dev"/>
+    <summary>Migrate and import a whole Claude Code or Codex setup into DSH. Skills, slash commands, MCP servers, hooks, subagents and permission rules, with a dry-run moving estimate, a migration diff report and a post-move doctor; installs as a plugin exposing a movein_from_claude_code tool so the agent can do the move for you. Exact install spec: dsh-movein. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-expression</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-661ee2f894748c82a3f9/1e5372ab8df5d28f</id>
+    <updated>2026-08-18T04:53:19Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-661ee2f894748c82a3f9.html"/>
+    <author><name>yyh-001</name></author>
+    <category term="fun"/>
+    <summary>Meme search, the fun way: describe the vibe, and the agent finds and sends a real meme that actually fits. Exact install spec: dsh-expression. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-harness-zh</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-3ca0dee24ab505438698/1e5372ab8df5d28f</id>
+    <updated>2026-08-18T04:53:19Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-3ca0dee24ab505438698.html"/>
+    <author><name>zjl1989-li</name></author>
+    <category term="tools"/>
+    <summary>Chinese localization for DeepSeek Harness: translates all system prompts, tool descriptions, and runtime contexts into Chinese at runtime via the system-prompt/assemble waterfall (1788 entries, zero source modification, uninstall restores English). Exact install spec: github:zjl1989-li/dsh-harness-zh. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-context</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-13a4bcd3f71a7cb4cd26/2e30ed01cf3778a6</id>
+    <updated>2026-08-18T04:53:19Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-13a4bcd3f71a7cb4cd26.html"/>
+    <author><name>bowenliang123</name></author>
+    <category term="ui"/>
+    <summary>DSH context insight panel: Context dashboard + /context command + Context browser — one-stop context lifecycle management with categorized composition, content details, evolution trends, compaction/injection events, and stats. Exact install spec: dsh-context. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
   <entry>
     <title>Updated: dsh-whale-galgame</title>
     <id>tag:deeplugin.store,2026-08-18:deeplugin-d86381e29b47a3f44cf4/c0edc8728e0f28f6</id>
@@ -868,41 +904,5 @@
     <author><name>gongyijie85</name></author>
     <category term="skill"/>
     <summary>Matt Pocock's skills in Chinese for DSH: all 25 SKILL.md translated to natural Chinese (technical terms kept in English with glosses), adapted from mattpocock/skills (MIT). Exact install spec: mattpocock-skills-dsh-zh. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-ponytail</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-a05f02effa63a7b86a37/15db592ccf84eb94</id>
-    <updated>2026-08-16T13:41:06Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a05f02effa63a7b86a37.html"/>
-    <author><name>gongyijie85</name></author>
-    <category term="skill"/>
-    <summary>Ponytail lazy senior dev mode: 6 skills adapted from DietrichGebert/ponytail. Exact install spec: dsh-ponytail-skills. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-plugin-vetting</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-702ddcb2463b653aff00/148e80b87113502b</id>
-    <updated>2026-08-16T13:41:06Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-702ddcb2463b653aff00.html"/>
-    <author><name>truelove-dreamer</name></author>
-    <category term="dev"/>
-    <summary>Vets third-party plugins before you trust them: static scan for malicious patterns (exfiltration, credential access, obfuscation, persistence) and over-privileged path use, transitive-dependency coverage, official-package hash baseline for supply-chain tamper detection, and an optional plugin-tool call gate. Exact install spec: dsh-plugin-vetting. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
-  </entry>
-  <entry>
-    <title>Updated: beav-deepseek-harness</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-548252e75b53481caed3/148e80b87113502b</id>
-    <updated>2026-08-16T13:41:06Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-548252e75b53481caed3.html"/>
-    <author><name>Jamailar</name></author>
-    <category term="tools"/>
-    <summary>Connects DSH to local Beav for Xiaohongshu (RED/RedNote) and social-media AI operations: topic research, knowledge, copywriting, image, audio, and short-video workflows with approval and artifact tracking. Exact install spec: beav-creator-dsh. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
-  </entry>
-  <entry>
-    <title>Updated: mattpocock-skills-dsh</title>
-    <id>tag:deeplugin.store,2026-08-16:deeplugin-1c1b473a5d18568504d2/15db592ccf84eb94</id>
-    <updated>2026-08-16T13:41:06Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1c1b473a5d18568504d2.html"/>
-    <author><name>gongyijie85</name></author>
-    <category term="skill"/>
-    <summary>Matt Pocock's full promoted skill set (25 SKILL.md files: grilling, writing-for-agents, wait-what, TDD, code-review, wayfinder, ask-matt router and more) as a DeepSeek Harness plugin, adapted from mattpocock/skills (MIT). Exact install spec: mattpocock-skills-dsh. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
   </entry>
 </feed>

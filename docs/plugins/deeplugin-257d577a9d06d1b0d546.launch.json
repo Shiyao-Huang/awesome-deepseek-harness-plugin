@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-257d577a9d06d1b0d546",
+    "name": "dsh-plugin-nexterm",
+    "author": "Samge0",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/Samge0/dsh-plugin-nexterm",
+    "firstObservedAt": "2026-08-18T04:53:19Z",
+    "lastChangedAt": "2026-08-18T04:53:19Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-257d577a9d06d1b0d546.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-257d577a9d06d1b0d546.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:samge0/dsh-plugin-nexterm",
+    "command": "dsh plugin --profile web add github:samge0/dsh-plugin-nexterm",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-257d577a9d06d1b0d546，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-257d577a9d06d1b0d546.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-257d577a9d06d1b0d546.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-nexterm 已收录到 DeepSeek Harness Plugin Store。在 DSH 会话中运维 Nexterm 托管的 SSH 机群：6 个 agent 工具（密码/TOTP/设备授权码登录认证、机群清单、单机执行、批量并行执行、预设健康检查、CPU/内存/磁盘监控），全走 Nexterm REST API，附极简设置页；DSH 机器上无需任何 SSH 私钥。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-257d577a9d06d1b0d546.html",
+    "en": "dsh-plugin-nexterm is now listed on the DeepSeek Harness Plugin Store. Nexterm fleet maintenance in a DSH session: 6 agent tools (auth with password/TOTP/device-code login, fleet listing, single-host exec, parallel batch exec, preset health checks, CPU/memory/disk monitoring) over the Nexterm REST API, plus a minimal settings page; no SSH private keys needed on the DSH machine.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-257d577a9d06d1b0d546.html"
+  }
+}

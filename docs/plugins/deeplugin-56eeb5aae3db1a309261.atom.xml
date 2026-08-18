@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-memory-porter — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-56eeb5aae3db1a309261.atom.xml</id>
+  <updated>2026-08-18T04:53:19Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-56eeb5aae3db1a309261.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-56eeb5aae3db1a309261.html"/>
+  <entry>
+    <title>New: dsh-memory-porter</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-56eeb5aae3db1a309261/2ff086a3ce2d4066</id>
+    <updated>2026-08-18T04:53:19Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-56eeb5aae3db1a309261.html"/>
+    <author><name>Shiye-10Pages</name></author>
+    <category term="memory"/>
+    <summary>Brings your existing Claude / ChatGPT history into DSH: instant zero-token import of the memories.json inside a Claude export, local Claude Code transcripts with no export needed, and conversations distilled through the model you already configured in DSH. Every memory carries verbatim evidence checked against the source by code — a paraphrase is dropped and counted, and evidence found only in the assistant turns is always routed to review rather than stored. Exact install spec: dsh-memory-porter. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>dsh-context — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-13a4bcd3f71a7cb4cd26.atom.xml</id>
-  <updated>2026-08-16T09:56:16Z</updated>
+  <updated>2026-08-18T04:53:19Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-13a4bcd3f71a7cb4cd26.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-13a4bcd3f71a7cb4cd26.html"/>
+  <entry>
+    <title>Updated: dsh-context</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-13a4bcd3f71a7cb4cd26/2e30ed01cf3778a6</id>
+    <updated>2026-08-18T04:53:19Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-13a4bcd3f71a7cb4cd26.html"/>
+    <author><name>bowenliang123</name></author>
+    <category term="ui"/>
+    <summary>DSH context insight panel: Context dashboard + /context command + Context browser — one-stop context lifecycle management with categorized composition, content details, evolution trends, compaction/injection events, and stats. Exact install spec: dsh-context. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
   <entry>
     <title>Updated: dsh-context</title>
     <id>tag:deeplugin.store,2026-08-16:deeplugin-13a4bcd3f71a7cb4cd26/702c2f23e0d41598</id>
@@ -12,7 +21,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-13a4bcd3f71a7cb4cd26.html"/>
     <author><name>bowenliang123</name></author>
     <category term="ui"/>
-    <summary>Context insight panel: see what the model's context window is made of and how it evolves — composition vs. window size, per-request history, compression/injection events, and per-message token stats. Exact install spec: dsh-context. Source event: zoahdev/dsh-subscribe; changed: tags_json.</summary>
+    <summary>DSH context insight panel: Context dashboard + /context command + Context browser — one-stop context lifecycle management with categorized composition, content details, evolution trends, compaction/injection events, and stats. Exact install spec: dsh-context. Source event: zoahdev/dsh-subscribe; changed: tags_json.</summary>
   </entry>
   <entry>
     <title>Updated: dsh-context</title>
@@ -21,7 +30,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-13a4bcd3f71a7cb4cd26.html"/>
     <author><name>bowenliang123</name></author>
     <category term="ui"/>
-    <summary>Context insight panel: see what the model's context window is made of and how it evolves — composition vs. window size, per-request history, compression/injection events, and per-message token stats. Exact install spec: dsh-context. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+    <summary>DSH context insight panel: Context dashboard + /context command + Context browser — one-stop context lifecycle management with categorized composition, content details, evolution trends, compaction/injection events, and stats. Exact install spec: dsh-context. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
   </entry>
   <entry>
     <title>Updated: dsh-context</title>
@@ -30,7 +39,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-13a4bcd3f71a7cb4cd26.html"/>
     <author><name>bowenliang123</name></author>
     <category term="ui"/>
-    <summary>Context insight panel: see what the model's context window is made of and how it evolves — composition vs. window size, per-request history, compression/injection events, and per-message token stats. Exact install spec: dsh-context. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+    <summary>DSH context insight panel: Context dashboard + /context command + Context browser — one-stop context lifecycle management with categorized composition, content details, evolution trends, compaction/injection events, and stats. Exact install spec: dsh-context. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
   </entry>
   <entry>
     <title>Updated: dsh-context</title>
@@ -39,7 +48,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-13a4bcd3f71a7cb4cd26.html"/>
     <author><name>bowenliang123</name></author>
     <category term="ui"/>
-    <summary>Context insight panel: see what the model's context window is made of and how it evolves — composition vs. window size, per-request history, compression/injection events, and per-message token stats. Exact install spec: dsh-context. Source event: dsh-market/dsh-market; changed: sources.</summary>
+    <summary>DSH context insight panel: Context dashboard + /context command + Context browser — one-stop context lifecycle management with categorized composition, content details, evolution trends, compaction/injection events, and stats. Exact install spec: dsh-context. Source event: dsh-market/dsh-market; changed: sources.</summary>
   </entry>
   <entry>
     <title>New: dsh-context</title>
@@ -48,6 +57,6 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-13a4bcd3f71a7cb4cd26.html"/>
     <author><name>bowenliang123</name></author>
     <category term="ui"/>
-    <summary>Context insight panel: see what the model's context window is made of and how it evolves — composition vs. window size, per-request history, compression/injection events, and per-message token stats. Exact install spec: dsh-context. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+    <summary>DSH context insight panel: Context dashboard + /context command + Context browser — one-stop context lifecycle management with categorized composition, content details, evolution trends, compaction/injection events, and stats. Exact install spec: dsh-context. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-omicos — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-a486a8c8d123002806ce.atom.xml</id>
+  <updated>2026-08-18T04:53:19Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-a486a8c8d123002806ce.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a486a8c8d123002806ce.html"/>
+  <entry>
+    <title>New: dsh-omicos</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-a486a8c8d123002806ce/2ff086a3ce2d4066</id>
+    <updated>2026-08-18T04:53:19Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a486a8c8d123002806ce.html"/>
+    <author><name>omicverse</name></author>
+    <category term="tools"/>
+    <summary>Runs OmicVerse/OmicOS bioinformatics analyses in a persistent Python kernel, with capability-catalog search, kernel inspection and an account tab. Exact install spec: @omicverse/dsh-omicos. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a248ef4ec3ed51574014",
+    "name": "dsh-agent-skills",
+    "author": "minivv",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/minivv/dsh-agent-skills",
+    "firstObservedAt": "2026-08-18T04:53:19Z",
+    "lastChangedAt": "2026-08-18T04:53:19Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a248ef4ec3ed51574014.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a248ef4ec3ed51574014.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-agent-skills",
+    "command": "dsh plugin --profile web add dsh-agent-skills",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a248ef4ec3ed51574014，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a248ef4ec3ed51574014.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a248ef4ec3ed51574014.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-agent-skills 已收录到 DeepSeek Harness Plugin Store。在 DSH 设置面板中浏览、启用、停用和管理来自 Claude Code、Codex、OpenCode、Gemini 及自定义目录的 Agent Skills。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a248ef4ec3ed51574014.html",
+    "en": "dsh-agent-skills is now listed on the DeepSeek Harness Plugin Store. Browse, enable, disable, and manage Agent Skills from Claude Code, Codex, OpenCode, Gemini, and custom directories in the DSH settings panel.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a248ef4ec3ed51574014.html"
+  }
+}

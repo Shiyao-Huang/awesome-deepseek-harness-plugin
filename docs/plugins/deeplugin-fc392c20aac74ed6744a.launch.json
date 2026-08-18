@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-fc392c20aac74ed6744a",
+    "name": "opencues#integrations-dsh",
+    "author": "opencues",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/opencues/opencues/tree/master/integrations/dsh",
+    "firstObservedAt": "2026-08-18T04:53:19Z",
+    "lastChangedAt": "2026-08-18T04:53:19Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-fc392c20aac74ed6744a.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-fc392c20aac74ed6744a.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@opencues/dsh",
+    "command": "dsh plugin --profile web add @opencues/dsh",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-fc392c20aac74ed6744a，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-fc392c20aac74ed6744a.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-fc392c20aac74ed6744a.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "opencues#integrations-dsh 已收录到 DeepSeek Harness Plugin Store。在输入框内提供同义词替换与以下划线触发的补全：一行以 _ 结尾即自动补全，拼写错误在输入时即时标出。它走 dsh 已配置好的模型，因此无需额外的 API key。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-fc392c20aac74ed6744a.html",
+    "en": "opencues#integrations-dsh is now listed on the DeepSeek Harness Plugin Store. Word alternatives and underscore-gated fill-ins in the composer. End a line with _ and it is filled; misspellings are flagged as you type. Routes through the model dsh is already configured with, so it needs no API key.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-fc392c20aac74ed6744a.html"
+  }
+}

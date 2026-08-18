@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-3f41ca494efcad9494fb",
+    "name": "dsh-plugin-translation",
+    "author": "863683348",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/863683348/dsh-plugin-translation",
+    "firstObservedAt": "2026-08-18T04:53:19Z",
+    "lastChangedAt": "2026-08-18T04:53:19Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-3f41ca494efcad9494fb.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-3f41ca494efcad9494fb.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-plugin-translation",
+    "command": "dsh plugin --profile web add dsh-plugin-translation",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-3f41ca494efcad9494fb，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-3f41ca494efcad9494fb.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-3f41ca494efcad9494fb.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-translation 已收录到 DeepSeek Harness Plugin Store。为 DSH agent 提供翻译工具包：句子分块、术语与术语表提取、译文质检（数字、单位、括号）、语气指南与工作区持久化翻译记忆。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-3f41ca494efcad9494fb.html",
+    "en": "dsh-plugin-translation is now listed on the DeepSeek Harness Plugin Store. Translation toolkit for DSH agents: sentence segmentation, term and glossary extraction, source-target QA (numbers, units, brackets), tone guides, and a durable workspace translation memory.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-3f41ca494efcad9494fb.html"
+  }
+}

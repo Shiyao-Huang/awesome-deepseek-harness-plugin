@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-06e504f6ef008bd45fd8",
+    "name": "NoLetMe",
+    "author": "Yuer6327",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/Yuer6327/NoLetMe",
+    "firstObservedAt": "2026-08-18T04:53:19Z",
+    "lastChangedAt": "2026-08-18T04:53:19Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-06e504f6ef008bd45fd8.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-06e504f6ef008bd45fd8.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-noletme",
+    "command": "dsh plugin --profile web add dsh-noletme",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-06e504f6ef008bd45fd8，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-06e504f6ef008bd45fd8.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-06e504f6ef008bd45fd8.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "NoLetMe 已收录到 DeepSeek Harness Plugin Store。实时追踪 DeepSeek Harness 网页对话中模型流式推理轨迹关键词统计的 UI 面板。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-06e504f6ef008bd45fd8.html",
+    "en": "NoLetMe is now listed on the DeepSeek Harness Plugin Store. Real-time 'We need…' and 'Let me…' reasoning-trajectory keyword stats for the DeepSeek Harness web chat.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-06e504f6ef008bd45fd8.html"
+  }
+}

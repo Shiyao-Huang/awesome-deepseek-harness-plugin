@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-plugin-nexterm — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-257d577a9d06d1b0d546.atom.xml</id>
+  <updated>2026-08-18T04:53:19Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-257d577a9d06d1b0d546.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-257d577a9d06d1b0d546.html"/>
+  <entry>
+    <title>New: dsh-plugin-nexterm</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-257d577a9d06d1b0d546/2ff086a3ce2d4066</id>
+    <updated>2026-08-18T04:53:19Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-257d577a9d06d1b0d546.html"/>
+    <author><name>Samge0</name></author>
+    <category term="tools"/>
+    <summary>Nexterm fleet maintenance in a DSH session: 6 agent tools (auth with password/TOTP/device-code login, fleet listing, single-host exec, parallel batch exec, preset health checks, CPU/memory/disk monitoring) over the Nexterm REST API, plus a minimal settings page; no SSH private keys needed on the DSH machine. Exact install spec: github:samge0/dsh-plugin-nexterm. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

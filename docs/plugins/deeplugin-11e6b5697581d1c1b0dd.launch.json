@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-11e6b5697581d1c1b0dd",
+    "name": "dsh-plugin-education",
+    "author": "863683348",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/863683348/dsh-plugin-education",
+    "firstObservedAt": "2026-08-18T04:53:19Z",
+    "lastChangedAt": "2026-08-18T04:53:19Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-11e6b5697581d1c1b0dd.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-11e6b5697581d1c1b0dd.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-plugin-education",
+    "command": "dsh plugin --profile web add dsh-plugin-education",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-11e6b5697581d1c1b0dd，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-11e6b5697581d1c1b0dd.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-11e6b5697581d1c1b0dd.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-education 已收录到 DeepSeek Harness Plugin Store。为 DSH agent 提供教育工具包：按学段的教案骨架、测验题与答案校验、分析式评分量规、Anki/markdown 闪卡与可读性分级。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-11e6b5697581d1c1b0dd.html",
+    "en": "dsh-plugin-education is now listed on the DeepSeek Harness Plugin Store. Education toolkit for DSH agents: lesson-plan skeletons by grade band, quiz scaffolding and answer-key validation, analytic rubrics, Anki/markdown flashcards, and readability levels.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-11e6b5697581d1c1b0dd.html"
+  }
+}
