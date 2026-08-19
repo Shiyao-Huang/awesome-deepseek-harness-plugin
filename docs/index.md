@@ -2,7 +2,7 @@
 
 > 一个可重复更新的公开资料聚合体：仓库、插件、索引、文章、帖子、图片缩略图和视频链接。原始观测保留在 `data/raw/`，SQLite 是可查询的派生索引。
 
-当前数据集版本：**v20260819T090206Z**，完成时间：**2026-08-19T09:02:10Z**。共 **15,022** 条去重记录，覆盖 **14** 个平台，外部媒体资产 **1,290** 条。
+当前数据集版本：**v20260819T105413Z**，完成时间：**2026-08-19T10:54:18Z**。共 **15,022** 条去重记录，覆盖 **14** 个平台，外部媒体资产 **1,290** 条。
 
 ## 三句话结论
 
@@ -58,38 +58,38 @@
 
 | 平台 | 记录 | value | band | confidence | 分类 |
 | --- | --- | ---: | :---: | ---: | --- |
-| github | [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 80.88 | A | 100.00 | ui-and-desktop |
-| github | [liustack/modlens](https://github.com/liustack/modlens) | 80.23 | A | 100.00 | multimedia-and-vision |
-| github | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 79.66 | B | 100.00 | ui-and-desktop |
-| github | [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | 79.48 | B | 100.00 | ui-and-desktop |
-| github | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 79.24 | B | 100.00 | core-and-ecosystem |
-| github | [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | 77.93 | B | 100.00 | multimedia-and-vision |
-| github | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 77.78 | B | 100.00 | ui-and-desktop |
-| github | [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) | 76.88 | B | 100.00 | core-and-ecosystem |
-| github | [superdesigndev/superdesign-skill](https://github.com/superdesigndev/superdesign-skill) | 76.60 | B | 100.00 | core-and-ecosystem |
-| github | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | 76.39 | B | 100.00 | core-and-ecosystem |
+| github | [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 80.89 | A | 100.00 | ui-and-desktop |
+| github | [liustack/modlens](https://github.com/liustack/modlens) | 80.24 | A | 100.00 | multimedia-and-vision |
+| github | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 79.68 | B | 100.00 | ui-and-desktop |
+| github | [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | 79.49 | B | 100.00 | ui-and-desktop |
+| github | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 79.25 | B | 100.00 | core-and-ecosystem |
+| github | [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | 77.95 | B | 100.00 | multimedia-and-vision |
+| github | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 77.80 | B | 100.00 | ui-and-desktop |
+| github | [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) | 76.90 | B | 100.00 | core-and-ecosystem |
+| github | [superdesigndev/superdesign-skill](https://github.com/superdesigndev/superdesign-skill) | 76.59 | B | 100.00 | core-and-ecosystem |
+| github | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | 76.40 | B | 100.00 | core-and-ecosystem |
 
 ## 高互动/高关注记录
 
 | 平台 | 标题 | 作者 | 指标 | 分类 |
 | --- | --- | --- | --- | --- |
-| github | [ollama/ollama](https://github.com/ollama/ollama) | ollama | 178,936 ★, 17,468 forks | core-and-ecosystem |
-| github | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-ai | 163,996 ★, 17,359 forks | core-and-ecosystem |
-| github | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | Graphify-Labs | 108,080 ★, 10,497 forks | core-and-ecosystem |
-| github | [nexu-io/open-design](https://github.com/nexu-io/open-design) | nexu-io | 89,134 ★, 10,294 forks | ui-and-desktop |
-| github | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | bytedance | 80,291 ★, 11,007 forks | agents-and-orchestration |
-| github | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | shareAI-lab | 74,632 ★, 12,070 forks | core-and-ecosystem |
+| github | [ollama/ollama](https://github.com/ollama/ollama) | ollama | 178,943 ★, 17,470 forks | core-and-ecosystem |
+| github | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-ai | 164,595 ★, 17,451 forks | core-and-ecosystem |
+| github | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | Graphify-Labs | 108,116 ★, 10,499 forks | core-and-ecosystem |
+| github | [nexu-io/open-design](https://github.com/nexu-io/open-design) | nexu-io | 89,164 ★, 10,298 forks | ui-and-desktop |
+| github | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | bytedance | 80,298 ★, 11,009 forks | agents-and-orchestration |
+| github | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | shareAI-lab | 74,645 ★, 12,070 forks | core-and-ecosystem |
 | github | [headroom](https://github.com/headroomlabs-ai/headroom) | headroomlabs-ai | 66,438 ★, 5,097 forks | core-and-ecosystem |
-| github | [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | shanraisshan | 64,692 ★, 6,434 forks | core-and-ecosystem |
-| github | [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust) | rust-unofficial | 58,895 ★, 3,549 forks | index-and-marketplace |
-| github | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | CherryHQ | 50,753 ★, 4,812 forks | core-and-ecosystem |
-| github | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | diegosouzapw | 50,718 ★, 6,906 forks | ui-and-desktop |
-| github | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | hugohe3 | 47,915 ★, 3,869 forks | core-and-ecosystem |
-| github | [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | Imbad0202 | 42,987 ★, 3,415 forks | core-and-ecosystem |
+| github | [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | shanraisshan | 64,694 ★, 6,434 forks | core-and-ecosystem |
+| github | [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust) | rust-unofficial | 58,896 ★, 3,549 forks | index-and-marketplace |
+| github | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | diegosouzapw | 50,772 ★, 6,917 forks | ui-and-desktop |
+| github | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | CherryHQ | 50,757 ★, 4,814 forks | core-and-ecosystem |
+| github | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | hugohe3 | 47,940 ★, 3,870 forks | core-and-ecosystem |
+| github | [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | Imbad0202 | 42,996 ★, 3,415 forks | core-and-ecosystem |
 | youtube | [DeepSeek Harness: The End of Claude Code?](https://www.youtube.com/watch?v=qg9EyGOZd9U) | NeuralNine | 42,000 views | docs-and-learning |
-| github | [amruthpillai/reactive-resume](https://github.com/amruthpillai/reactive-resume) | amruthpillai | 41,096 ★, 4,627 forks | core-and-ecosystem |
-| github | [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) | Hmbown | 40,827 ★, 3,533 forks | core-and-ecosystem |
+| github | [amruthpillai/reactive-resume](https://github.com/amruthpillai/reactive-resume) | amruthpillai | 41,110 ★, 4,628 forks | core-and-ecosystem |
+| github | [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) | Hmbown | 40,825 ★, 3,533 forks | core-and-ecosystem |
 | youtube | [DeepSeek Harness 正式发布！ 开源一天狂揽 6.8 万星！V4 Pro 模型低调上线，AI Agent 部署与实测 \| 零度解说](https://www.youtube.com/watch?v=5G_afoTB1gs) | 零度解说 | 37,000 views | core-and-ecosystem |
-| github | [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | esengine | 34,828 ★, 2,314 forks | core-and-ecosystem |
-| github | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | HKUDS | 31,249 ★, 5,070 forks | core-and-ecosystem |
-| github | [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | volcengine | 29,728 ★, 2,318 forks | core-and-ecosystem |
+| github | [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | esengine | 34,839 ★, 2,314 forks | core-and-ecosystem |
+| github | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | HKUDS | 31,256 ★, 5,071 forks | core-and-ecosystem |
+| github | [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | volcengine | 29,789 ★, 2,319 forks | core-and-ecosystem |
