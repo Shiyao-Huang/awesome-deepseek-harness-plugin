@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-978f7d44787096c614ee",
+    "name": "dsh-context7",
+    "author": "Nrxous",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/Nrxous/dsh-context7",
+    "firstObservedAt": "2026-08-19T13:11:54Z",
+    "lastChangedAt": "2026-08-19T13:11:54Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-978f7d44787096c614ee.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-978f7d44787096c614ee.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-context7",
+    "command": "dsh plugin --profile web add dsh-context7",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-978f7d44787096c614ee，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-978f7d44787096c614ee.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-978f7d44787096c614ee.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-context7 已收录到 DeepSeek Harness Plugin Store。通过 context7_search 与 context7_get_docs 工具，为 DSH 智能体从 context7.com 获取最新、可锁定版本的库文档与代码示例。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-978f7d44787096c614ee.html",
+    "en": "dsh-context7 is now listed on the DeepSeek Harness Plugin Store. Fetches up-to-date, version-pinned library documentation and code examples from context7.com for DSH agents via context7_search and context7_get_docs tools.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-978f7d44787096c614ee.html"
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-streaming-mcp-bridge — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-3beeaee71743da7291d3.atom.xml</id>
+  <updated>2026-08-19T13:11:54Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-3beeaee71743da7291d3.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-3beeaee71743da7291d3.html"/>
+  <entry>
+    <title>New: dsh-streaming-mcp-bridge</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-3beeaee71743da7291d3/d703201f0ce19815</id>
+    <updated>2026-08-19T13:11:54Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-3beeaee71743da7291d3.html"/>
+    <author><name>yabolee-kkk</name></author>
+    <category term="remote"/>
+    <summary>DeepSeek Harness streaming MCP bridge: live session events as MCP progress, plus ACP adapter for cc-connect/Feishu. Exact install spec: dsh-streaming-mcp-bridge. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

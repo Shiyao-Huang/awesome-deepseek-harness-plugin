@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-wsl-expose — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-7b3b59b64e5201556d50.atom.xml</id>
+  <updated>2026-08-19T13:11:54Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-7b3b59b64e5201556d50.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-7b3b59b64e5201556d50.html"/>
+  <entry>
+    <title>New: dsh-wsl-expose</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-7b3b59b64e5201556d50/d703201f0ce19815</id>
+    <updated>2026-08-19T13:11:54Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-7b3b59b64e5201556d50.html"/>
+    <author><name>jack-ranbo</name></author>
+    <category term="remote"/>
+    <summary>Expose the DSH Web GUI over IPv6 or IPv4 from WSL2 through a reverse proxy (Lucky): /wan up sets up the socat relay, Windows portproxy, firewall, and trusted-host fence, with a Settings card plus commands to configure the domain and ports. Exact install spec: dsh-wsl-expose. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

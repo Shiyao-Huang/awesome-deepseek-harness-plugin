@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-21db6c581654d472ab04",
+    "name": "dsh-llm-proxy",
+    "author": "superfish058",
+    "category": "model",
+    "version": null,
+    "homepage": "https://github.com/superfish058/dsh-llm-proxy",
+    "firstObservedAt": "2026-08-19T13:11:54Z",
+    "lastChangedAt": "2026-08-19T13:11:54Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-21db6c581654d472ab04.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-21db6c581654d472ab04.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@superfish058/dsh-llm-proxy",
+    "command": "dsh plugin --profile web add @superfish058/dsh-llm-proxy",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-21db6c581654d472ab04，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-21db6c581654d472ab04.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-21db6c581654d472ab04.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-llm-proxy 已收录到 DeepSeek Harness Plugin Store。按模型给 LLM 请求分流代理：勾选的模型走代理（Clash 等），其余直连；传输错误、429、5xx 自动重试，设置页实时生效。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-21db6c581654d472ab04.html",
+    "en": "dsh-llm-proxy is now listed on the DeepSeek Harness Plugin Store. Per-model proxy routing for LLM requests: selected models go through a proxy (Clash etc.) while the rest stay direct, with automatic retry on transport errors, 429 and 5xx, configured live from the settings page.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-21db6c581654d472ab04.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-6db2a57c246d4aa489a5",
+    "name": "xiwen#dsh-xiwen",
+    "author": "kaiwangleo",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/kaiwangleo/xiwen/tree/master/plugins/dsh-xiwen",
+    "firstObservedAt": "2026-08-19T13:11:54Z",
+    "lastChangedAt": "2026-08-19T13:11:54Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-6db2a57c246d4aa489a5.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-6db2a57c246d4aa489a5.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@kaiwangleo/dsh-xiwen",
+    "command": "dsh plugin --profile web add @kaiwangleo/dsh-xiwen",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-6db2a57c246d4aa489a5，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-6db2a57c246d4aa489a5.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-6db2a57c246d4aa489a5.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "xiwen#dsh-xiwen 已收录到 DeepSeek Harness Plugin Store。基于人工维护的表、字段和指标语义元数据，结合 Qdrant 与 Elasticsearch 召回，通过析问服务生成、校验并执行 MySQL 分析查询。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-6db2a57c246d4aa489a5.html",
+    "en": "xiwen#dsh-xiwen is now listed on the DeepSeek Harness Plugin Store. Semantic-layer analytics tool that uses curated table, column and metric metadata with Qdrant and Elasticsearch recall to generate, validate and execute MySQL analytical queries through the Xiwen service.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-6db2a57c246d4aa489a5.html"
+  }
+}

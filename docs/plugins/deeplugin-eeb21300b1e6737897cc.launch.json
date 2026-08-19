@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-eeb21300b1e6737897cc",
+    "name": "dsh-univer-office",
+    "author": "dream-num",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/dream-num/dsh-univer-office",
+    "firstObservedAt": "2026-08-19T13:11:54Z",
+    "lastChangedAt": "2026-08-19T13:11:54Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-eeb21300b1e6737897cc.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-eeb21300b1e6737897cc.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-univer-office",
+    "command": "dsh plugin --profile web add dsh-univer-office",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-eeb21300b1e6737897cc，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-eeb21300b1e6737897cc.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-eeb21300b1e6737897cc.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-univer-office 已收录到 DeepSeek Harness Plugin Store。在 DeepSeek Harness 中创建、编辑、检查和交付表格、文档、演示文稿、多维表格和画布，支持实时预览与 worktree 审阅。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-eeb21300b1e6737897cc.html",
+    "en": "dsh-univer-office is now listed on the DeepSeek Harness Plugin Store. Create, edit, inspect, and deliver spreadsheets, documents, presentations, databases, and canvases in DeepSeek Harness, with live preview and worktree review.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-eeb21300b1e6737897cc.html"
+  }
+}

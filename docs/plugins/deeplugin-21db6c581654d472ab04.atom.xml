@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-llm-proxy — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-21db6c581654d472ab04.atom.xml</id>
+  <updated>2026-08-19T13:11:54Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-21db6c581654d472ab04.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-21db6c581654d472ab04.html"/>
+  <entry>
+    <title>New: dsh-llm-proxy</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-21db6c581654d472ab04/d703201f0ce19815</id>
+    <updated>2026-08-19T13:11:54Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-21db6c581654d472ab04.html"/>
+    <author><name>superfish058</name></author>
+    <category term="model"/>
+    <summary>Per-model proxy routing for LLM requests: selected models go through a proxy (Clash etc.) while the rest stay direct, with automatic retry on transport errors, 429 and 5xx, configured live from the settings page. Exact install spec: @superfish058/dsh-llm-proxy. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

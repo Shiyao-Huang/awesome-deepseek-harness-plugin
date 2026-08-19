@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-session-surgeon — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-007e1e5c98864e791357.atom.xml</id>
+  <updated>2026-08-19T13:11:54Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-007e1e5c98864e791357.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-007e1e5c98864e791357.html"/>
+  <entry>
+    <title>New: dsh-session-surgeon</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-007e1e5c98864e791357/d703201f0ce19815</id>
+    <updated>2026-08-19T13:11:54Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-007e1e5c98864e791357.html"/>
+    <author><name>xiaoshenming</name></author>
+    <category term="session"/>
+    <summary>Repair DeepSeek Harness sessions that refuse to load, with a sidebar Session surgeon overlay and dry-run repair. Exact install spec: github:xiaoshenming/dsh-session-surgeon. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

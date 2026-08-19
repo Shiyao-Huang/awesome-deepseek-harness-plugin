@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a92bd22013bf8766e14f",
+    "name": "dsh-mcphub",
+    "author": "jinhongxun",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/jinhongxun/dsh-mcphub",
+    "firstObservedAt": "2026-08-19T13:11:54Z",
+    "lastChangedAt": "2026-08-19T13:11:54Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a92bd22013bf8766e14f.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a92bd22013bf8766e14f.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:jinhongxun/dsh-mcphub",
+    "command": "dsh plugin --profile web add github:jinhongxun/dsh-mcphub",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a92bd22013bf8766e14f，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a92bd22013bf8766e14f.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a92bd22013bf8766e14f.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-mcphub 已收录到 DeepSeek Harness Plugin Store。DSH 的 MCP 管理面板：每个服务器实时连接状态（绿点）、本地 stdio 服务器一键升级（pip/npx，自动处理 Windows 文件锁）、暂停/恢复/删除、添加表单直写 cordis.patch.yml、真实 initialize 握手探测与小白友好的使用说明。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a92bd22013bf8766e14f.html",
+    "en": "dsh-mcphub is now listed on the DeepSeek Harness Plugin Store. MCP management panel for DeepSeek Harness — live connection status per server (green dot), one-click pip/npx upgrades for local stdio servers with Windows file-lock handling, pause/resume/delete, an add-server form writing cordis.patch.yml, real initialize-handshake probes, and beginner-friendly usage help.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a92bd22013bf8766e14f.html"
+  }
+}

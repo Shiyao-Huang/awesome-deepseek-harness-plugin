@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-7b3b59b64e5201556d50",
+    "name": "dsh-wsl-expose",
+    "author": "jack-ranbo",
+    "category": "remote",
+    "version": null,
+    "homepage": "https://github.com/jack-ranbo/dsh-wsl-expose",
+    "firstObservedAt": "2026-08-19T13:11:54Z",
+    "lastChangedAt": "2026-08-19T13:11:54Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-7b3b59b64e5201556d50.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-7b3b59b64e5201556d50.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-wsl-expose",
+    "command": "dsh plugin --profile web add dsh-wsl-expose",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-7b3b59b64e5201556d50，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-7b3b59b64e5201556d50.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-7b3b59b64e5201556d50.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-wsl-expose 已收录到 DeepSeek Harness Plugin Store。从 WSL2 走 IPv6/IPv4 经反向代理（Lucky）把 DSH Web GUI 暴露到公网：/wan up 一键建立 socat 中继、Windows portproxy、防火墙与 trusted-host 白名单；域名与端口可在设置卡片或命令中配置。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-7b3b59b64e5201556d50.html",
+    "en": "dsh-wsl-expose is now listed on the DeepSeek Harness Plugin Store. Expose the DSH Web GUI over IPv6 or IPv4 from WSL2 through a reverse proxy (Lucky): /wan up sets up the socat relay, Windows portproxy, firewall, and trusted-host fence, with a Settings card plus commands to configure the domain and ports.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-7b3b59b64e5201556d50.html"
+  }
+}

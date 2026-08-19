@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-3e2ae30c190a65275df1",
+    "name": "dsh-deep-verbs",
+    "author": "Winter-And-You-Gone",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/Winter-And-You-Gone/dsh-deep-verbs",
+    "firstObservedAt": "2026-08-19T13:11:54Z",
+    "lastChangedAt": "2026-08-19T13:11:54Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-3e2ae30c190a65275df1.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-3e2ae30c190a65275df1.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:winter-and-you-gone/dsh-deep-verbs",
+    "command": "dsh plugin --profile web add github:winter-and-you-gone/dsh-deep-verbs",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-3e2ae30c190a65275df1，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-3e2ae30c190a65275df1.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-3e2ae30c190a65275df1.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-deep-verbs 已收录到 DeepSeek Harness Plugin Store。把内置 'Deep diving...' 思考状态行扩展为 53 条 deep 系英/中双语短语池：回合开场随机一条，随新思考段/工具调用事件轮换（最短间隔 3 秒），点击状态行切换中英文。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-3e2ae30c190a65275df1.html",
+    "en": "dsh-deep-verbs is now listed on the DeepSeek Harness Plugin Store. Rotates the model status line through a 53-phrase English/Chinese deep-theme pool: a random pick at turn start, event-driven switching on new thinking segments or tool calls (3s throttle), and a click on the status line toggles the language.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-3e2ae30c190a65275df1.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-96f333b4fe6efb0e70ca",
+    "name": "sandbase-harness",
+    "author": "sandbaseai",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/sandbaseai/sandbase-harness",
+    "firstObservedAt": "2026-08-15T22:14:49Z",
+    "lastChangedAt": "2026-08-19T13:11:54Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-96f333b4fe6efb0e70ca.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-96f333b4fe6efb0e70ca.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:sandbaseai/sandbase-harness",
+    "command": "dsh plugin --profile web add github:sandbaseai/sandbase-harness",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-96f333b4fe6efb0e70ca，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-96f333b4fe6efb0e70ca.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-96f333b4fe6efb0e70ca.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "sandbase-harness 已收录到 DeepSeek Harness Plugin Store。通过 stdio MCP 将 dsh 连接到本地 SandBase Harness 运行时，用于管理代理与会话、流式执行任务、检查产物和取消工作。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-96f333b4fe6efb0e70ca.html",
+    "en": "sandbase-harness is now listed on the DeepSeek Harness Plugin Store. Connects dsh to a local SandBase Harness runtime over stdio MCP for managing agents and sessions, streaming turns, inspecting artifacts and cancelling work.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-96f333b4fe6efb0e70ca.html"
+  }
+}

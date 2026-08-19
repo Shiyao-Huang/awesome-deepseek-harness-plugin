@@ -5,6 +5,18 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 2026-08-19 | github | plugin | [dsh-deep-verbs](https://github.com/Winter-And-You-Gone/dsh-deep-verbs) | Winter-And-You-Gone | core-and-ecosystem |
+| 2026-08-19 | github | plugin | [dsh-inline-comments](https://github.com/ruisenbai/dsh-inline-comments) | ruisenbai | core-and-ecosystem |
+| 2026-08-19 | github | plugin | [dsh-llm-proxy](https://github.com/superfish058/dsh-llm-proxy) | superfish058 | core-and-ecosystem |
+| 2026-08-19 | github | plugin | [dsh-mcphub](https://github.com/jinhongxun/dsh-mcphub) | jinhongxun | index-and-marketplace |
+| 2026-08-19 | github | plugin | [dsh-session-surgeon](https://github.com/xiaoshenming/dsh-session-surgeon) | xiaoshenming | core-and-ecosystem |
+| 2026-08-19 | github | plugin | [dsh-ssq-plugin](https://github.com/uriekang1211-bot/dsh-ssq-plugin) | uriekang1211-bot | core-and-ecosystem |
+| 2026-08-19 | github | plugin | [dsh-streaming-mcp-bridge](https://github.com/yabolee-kkk/dsh-streaming-mcp-bridge) | yabolee-kkk | core-and-ecosystem |
+| 2026-08-19 | github | plugin | [dsh-tool-generate-image](https://github.com/zclDragon/dsh-tool-generate-image) | zclDragon | multimedia-and-vision |
+| 2026-08-19 | github | plugin | [dsh-univer-office](https://github.com/dream-num/dsh-univer-office) | dream-num | core-and-ecosystem |
+| 2026-08-19 | github | plugin | [dsh-webui-launcher](https://github.com/YV3507/dsh-webui-launcher) | YV3507 | ui-and-desktop |
+| 2026-08-19 | github | plugin | [dsh-wsl-expose](https://github.com/jack-ranbo/dsh-wsl-expose) | jack-ranbo | core-and-ecosystem |
+| 2026-08-19T13:11:54Z | github | ecosystem-reference | [kaiwangleo/xiwendsh-xiwen](https://github.com/kaiwangleo/xiwen) | kaiwangleo | core-and-ecosystem |
 | 2026-08-19 | github | plugin | [deepseek-desk-rsi](https://github.com/huchunlinnk/deepseek-desk-rsi) | huchunlinnk | core-and-ecosystem |
 | 2026-08-19 | github | plugin | [dsh-budget](https://github.com/PerryLink/dsh-budget) | PerryLink | operations-and-safety |
 | 2026-08-19 | github | plugin | [dsh-click](https://github.com/PerryLink/dsh-click) | PerryLink | core-and-ecosystem |

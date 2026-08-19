@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-3b9588306e09311a7674",
+    "name": "dsh-ssq-plugin",
+    "author": "uriekang1211-bot",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/uriekang1211-bot/dsh-ssq-plugin",
+    "firstObservedAt": "2026-08-19T13:11:54Z",
+    "lastChangedAt": "2026-08-19T13:11:54Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-3b9588306e09311a7674.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-3b9588306e09311a7674.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:uriekang1211-bot/dsh-ssq-plugin",
+    "command": "dsh plugin --profile web add github:uriekang1211-bot/dsh-ssq-plugin",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-3b9588306e09311a7674，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-3b9588306e09311a7674.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-3b9588306e09311a7674.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-ssq-plugin 已收录到 DeepSeek Harness Plugin Store。双色球助手 DSH 插件：千期趋势追踪、6 种预测模型与集成投票、组合结构分析、胆拖/随机选号，对话中直接调用 ssq 工具。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-3b9588306e09311a7674.html",
+    "en": "dsh-ssq-plugin is now listed on the DeepSeek Harness Plugin Store. SSQ (China Welfare Lottery Double Color Ball) helper for DeepSeek Harness: 1000-draw trend tracking, six prediction models with ensemble voting, structure analysis and dan-tuo/random generation via the ssq tool.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-3b9588306e09311a7674.html"
+  }
+}
