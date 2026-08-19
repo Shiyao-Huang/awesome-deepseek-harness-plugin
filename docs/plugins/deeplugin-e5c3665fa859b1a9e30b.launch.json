@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-e5c3665fa859b1a9e30b",
+    "name": "dsh-scrape-webpage",
+    "author": "131CDA1",
+    "category": "browser",
+    "version": null,
+    "homepage": "https://github.com/131CDA1/dsh-scrape-webpage",
+    "firstObservedAt": "2026-08-19T04:53:59Z",
+    "lastChangedAt": "2026-08-19T04:53:59Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-e5c3665fa859b1a9e30b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-e5c3665fa859b1a9e30b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:131cda1/dsh-scrape-webpage",
+    "command": "dsh plugin --profile web add github:131cda1/dsh-scrape-webpage",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-e5c3665fa859b1a9e30b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-e5c3665fa859b1a9e30b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-e5c3665fa859b1a9e30b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-scrape-webpage 已收录到 DeepSeek Harness Plugin Store。抓取任意 http/https 网页，提取标题、描述、正文、标题结构与链接，输出字符/词数、阅读时长、语言等统计与高频关键词；支持下载内容图片到会话工作区供视觉分析，并通过 scrape.imageAnalyzer 服务分发给已注册的识图分析器。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e5c3665fa859b1a9e30b.html",
+    "en": "dsh-scrape-webpage is now listed on the DeepSeek Harness Plugin Store. Fetches any http/https page and returns title, description, main text, heading outline and links, with stats (char/word counts, reading time, language) and top keywords; can download content images to the session workspace for vision analysis and dispatch them to registered analyzers via the scrape.imageAnalyzer service.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e5c3665fa859b1a9e30b.html"
+  }
+}

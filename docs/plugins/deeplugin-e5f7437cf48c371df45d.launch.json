@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-e5f7437cf48c371df45d",
+    "name": "dsh-worlds",
+    "author": "frozo-ai",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/frozo-ai/dsh-worlds",
+    "firstObservedAt": "2026-08-19T04:53:59Z",
+    "lastChangedAt": "2026-08-19T04:53:59Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-e5f7437cf48c371df45d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-e5f7437cf48c371df45d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:frozo-ai/dsh-worlds",
+    "command": "dsh plugin --profile web add github:frozo-ai/dsh-worlds",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-e5f7437cf48c371df45d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-e5f7437cf48c371df45d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-e5f7437cf48c371df45d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-worlds 已收录到 DeepSeek Harness Plugin Store。通过提供 `ctx.fs` 与 `ctx.subprocess` 接缝，把 agent 的文件系统、bash 与 PTY 终端跑在 Docker 容器里；工作目录、环境变量与后台进程可在 harness 重启后存活。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e5f7437cf48c371df45d.html",
+    "en": "dsh-worlds is now listed on the DeepSeek Harness Plugin Store. Runs the agent's filesystem, bash and PTY terminals inside a Docker container by providing the `ctx.fs` and `ctx.subprocess` seams, so cwd, environment and background processes survive a harness restart.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e5f7437cf48c371df45d.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-523c0e12f60b3f96aadc",
+    "name": "dsh-plugin-console",
+    "author": "AlexYin-Tongji",
+    "category": "market",
+    "version": null,
+    "homepage": "https://github.com/AlexYin-Tongji/dsh-plugin-console",
+    "firstObservedAt": "2026-08-19T04:53:59Z",
+    "lastChangedAt": "2026-08-19T04:53:59Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-523c0e12f60b3f96aadc.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-523c0e12f60b3f96aadc.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-plugin-console",
+    "command": "dsh plugin --profile web add dsh-plugin-console",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-523c0e12f60b3f96aadc，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-523c0e12f60b3f96aadc.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-523c0e12f60b3f96aadc.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-console 已收录到 DeepSeek Harness Plugin Store。在 DeepSeek Harness 设置一级页面中浏览和管理社区插件目录，支持验证后安装与更新、删除、暂停与恢复、已安装状态查看及安全 README 预览。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-523c0e12f60b3f96aadc.html",
+    "en": "dsh-plugin-console is now listed on the DeepSeek Harness Plugin Store. Browse and manage the community plugin catalog from a first-level DeepSeek Harness Settings page, with verified installs and updates, removal, pause and resume, installed-package state, and sanitized README previews.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-523c0e12f60b3f96aadc.html"
+  }
+}

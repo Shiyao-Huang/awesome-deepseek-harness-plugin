@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-5e6531fe17c78b46a890",
+    "name": "dsh-capability-index",
+    "author": "777-Zen",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/777-Zen/dsh-capability-index",
+    "firstObservedAt": "2026-08-19T04:53:59Z",
+    "lastChangedAt": "2026-08-19T04:53:59Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-5e6531fe17c78b46a890.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-5e6531fe17c78b46a890.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:777-zen/dsh-capability-index",
+    "command": "dsh plugin --profile web add github:777-zen/dsh-capability-index",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-5e6531fe17c78b46a890，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-5e6531fe17c78b46a890.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-5e6531fe17c78b46a890.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-capability-index 已收录到 DeepSeek Harness Plugin Store。DSH agent 的插件库起飞检查：向运行时上下文注入按步骤触发的提示，让合适的已装插件从「碰巧想起」变成「可预期使用」。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-5e6531fe17c78b46a890.html",
+    "en": "dsh-capability-index is now listed on the DeepSeek Harness Plugin Store. Pre-flight plugin-library index for DSH agents: injects per-step trigger-table hints into the runtime context so suitable installed plugins get used predictably instead of opportunistically.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-5e6531fe17c78b46a890.html"
+  }
+}

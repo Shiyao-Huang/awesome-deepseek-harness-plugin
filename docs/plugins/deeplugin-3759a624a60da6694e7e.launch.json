@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/tuogusa/dsh-whale-background",
     "firstObservedAt": "2026-08-15T22:14:49Z",
-    "lastChangedAt": "2026-08-16T09:56:16Z"
+    "lastChangedAt": "2026-08-19T04:53:59Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-3759a624a60da6694e7e.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-3759a624a60da6694e7e.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-whale-background 已收录到 DeepSeek Harness Plugin Store。Web UI 鲸鱼娘壁纸背景，应用表面半透明磨砂。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-3759a624a60da6694e7e.html",
-    "en": "dsh-whale-background is now listed on the DeepSeek Harness Plugin Store. Whale-girl wallpaper background with a frosted semi-transparent app surface for the Web UI.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-3759a624a60da6694e7e.html"
+    "zh": "dsh-whale-background 已收录到 DeepSeek Harness Plugin Store。Web UI 鲸鱼娘壁纸背景，应用表面半透明磨砂；支持在设置页自定义图片、透明度与 contain/cover 铺放方式，远程图片自动预检并 no-referrer 加载。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-3759a624a60da6694e7e.html",
+    "en": "dsh-whale-background is now listed on the DeepSeek Harness Plugin Store. Whale-girl wallpaper background with a frosted semi-transparent app surface; customize image, opacity, and contain/cover from the Web settings, with remote image preflight and no-referrer loading.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-3759a624a60da6694e7e.html"
   }
 }

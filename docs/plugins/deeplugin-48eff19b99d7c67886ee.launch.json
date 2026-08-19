@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-48eff19b99d7c67886ee",
+    "name": "Awesome-DSH-Pet",
+    "author": "Awesome-AI-Pedia",
+    "category": "fun",
+    "version": null,
+    "homepage": "https://github.com/Awesome-AI-Pedia/Awesome-DSH-Pet",
+    "firstObservedAt": "2026-08-19T04:53:59Z",
+    "lastChangedAt": "2026-08-19T04:53:59Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-48eff19b99d7c67886ee.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-48eff19b99d7c67886ee.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:awesome-ai-pedia/awesome-dsh-pet",
+    "command": "dsh plugin --profile web add github:awesome-ai-pedia/awesome-dsh-pet",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-48eff19b99d7c67886ee，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-48eff19b99d7c67886ee.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-48eff19b99d7c67886ee.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "Awesome-DSH-Pet 已收录到 DeepSeek Harness Plugin Store。DSH Web GUI 的可扩展桌面宠物插件，支持投喂、玩耍、切换角色，并使用 Codex 8x9 spritesheet 添加自定义角色。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-48eff19b99d7c67886ee.html",
+    "en": "Awesome-DSH-Pet is now listed on the DeepSeek Harness Plugin Store. Extensible desktop-pet plugin for the DSH Web GUI, with feed / play / character-switch menus and Codex 8x9 spritesheet characters.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-48eff19b99d7c67886ee.html"
+  }
+}

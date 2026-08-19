@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-orcana#dsh-bundle — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-e7408a01b3eefc88b836.atom.xml</id>
+  <updated>2026-08-19T04:53:59Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-e7408a01b3eefc88b836.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e7408a01b3eefc88b836.html"/>
+  <entry>
+    <title>New: dsh-orcana#dsh-bundle</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-e7408a01b3eefc88b836/fcbeba65b8c724cd</id>
+    <updated>2026-08-19T04:53:59Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e7408a01b3eefc88b836.html"/>
+    <author><name>Leo-Ayh-Oday</name></author>
+    <category term="dev"/>
+    <summary>Runtime governor for DeepSeek Harness: zero-progress steering, generation-bound verification evidence, evidence-aware completion guarding, and task-profile tool restriction. Exact install spec: github:leo-ayh-oday/dsh-orcana#path:/packages/dsh-bundle. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/tuogusa/dsh-plugin-toggle",
     "firstObservedAt": "2026-08-15T22:14:49Z",
-    "lastChangedAt": "2026-08-16T08:41:44Z"
+    "lastChangedAt": "2026-08-19T04:53:59Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-1833fee24d16ec09cfeb.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-1833fee24d16ec09cfeb.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-plugin-toggle 已收录到 DeepSeek Harness Plugin Store。在 Web 设置面板中启用、停用或删除插件，运行时开关并持久化到 profile。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-1833fee24d16ec09cfeb.html",
-    "en": "dsh-plugin-toggle is now listed on the DeepSeek Harness Plugin Store. Toggle or delete plugins from the Web settings panel, with runtime enable and disable persisted to the profile.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-1833fee24d16ec09cfeb.html"
+    "zh": "dsh-plugin-toggle 已收录到 DeepSeek Harness Plugin Store。在 Web 设置面板中启用、停用、删除/撤回插件，并支持版本检测与 npm 插件更新；运行时开关持久化到 profile。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-1833fee24d16ec09cfeb.html",
+    "en": "dsh-plugin-toggle is now listed on the DeepSeek Harness Plugin Store. Toggle, delete, undo-delete, and check/update plugins from the Web settings panel; runtime enable/disable is persisted to the profile.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-1833fee24d16ec09cfeb.html"
   }
 }

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-124dada74576f89a5e34",
+    "name": "dsh-chat-history",
+    "author": "Stylelinzzz",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/Stylelinzzz/dsh-chat-history",
+    "firstObservedAt": "2026-08-19T04:53:59Z",
+    "lastChangedAt": "2026-08-19T04:53:59Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-124dada74576f89a5e34.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-124dada74576f89a5e34.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-chat-history",
+    "command": "dsh plugin --profile web add dsh-chat-history",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-124dada74576f89a5e34，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-124dada74576f89a5e34.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-124dada74576f89a5e34.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-chat-history 已收录到 DeepSeek Harness Plugin Store。在会话头部新增「目录」tab：把当前会话的用户消息整理成可点击的目录，自动翻页加载全部历史，点击即跳回对话并定位。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-124dada74576f89a5e34.html",
+    "en": "dsh-chat-history is now listed on the DeepSeek Harness Plugin Store. Adds a \"History\" conversation view tab listing the session's user messages as a clickable directory, with auto-paging and click-to-jump back into the chat.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-124dada74576f89a5e34.html"
+  }
+}

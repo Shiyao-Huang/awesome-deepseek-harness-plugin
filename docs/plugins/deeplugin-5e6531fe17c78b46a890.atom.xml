@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-capability-index — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-5e6531fe17c78b46a890.atom.xml</id>
+  <updated>2026-08-19T04:53:59Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-5e6531fe17c78b46a890.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-5e6531fe17c78b46a890.html"/>
+  <entry>
+    <title>New: dsh-capability-index</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-5e6531fe17c78b46a890/fcbeba65b8c724cd</id>
+    <updated>2026-08-19T04:53:59Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-5e6531fe17c78b46a890.html"/>
+    <author><name>777-Zen</name></author>
+    <category term="dev"/>
+    <summary>Pre-flight plugin-library index for DSH agents: injects per-step trigger-table hints into the runtime context so suitable installed plugins get used predictably instead of opportunistically. Exact install spec: github:777-zen/dsh-capability-index. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

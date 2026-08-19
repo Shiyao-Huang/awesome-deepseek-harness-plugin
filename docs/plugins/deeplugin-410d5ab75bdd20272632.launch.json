@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-410d5ab75bdd20272632",
+    "name": "dsh-mcp-lazy",
+    "author": "leaforbook",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/leaforbook/dsh-mcp-lazy",
+    "firstObservedAt": "2026-08-19T04:53:59Z",
+    "lastChangedAt": "2026-08-19T04:53:59Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-410d5ab75bdd20272632.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-410d5ab75bdd20272632.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:leaforbook/dsh-mcp-lazy",
+    "command": "dsh plugin --profile web add github:leaforbook/dsh-mcp-lazy",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-410d5ab75bdd20272632，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-410d5ab75bdd20272632.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-410d5ab75bdd20272632.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-mcp-lazy 已收录到 DeepSeek Harness Plugin Store。按需加载 MCP 工具，并在轮次结束时卸载闲置工具 Schema，减少发送给模型的工具目录及上下文 Token；同时保温连接以便快速复用。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-410d5ab75bdd20272632.html",
+    "en": "dsh-mcp-lazy is now listed on the DeepSeek Harness Plugin Store. Loads MCP tools on demand and unloads idle tool schemas at turn end, reducing the tool catalog and context tokens sent to the model while keeping connections warm for fast reuse.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-410d5ab75bdd20272632.html"
+  }
+}

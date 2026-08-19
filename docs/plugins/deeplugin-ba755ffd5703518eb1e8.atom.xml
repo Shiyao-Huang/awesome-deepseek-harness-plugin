@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-aigc-radar — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-ba755ffd5703518eb1e8.atom.xml</id>
+  <updated>2026-08-19T04:53:59Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-ba755ffd5703518eb1e8.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ba755ffd5703518eb1e8.html"/>
+  <entry>
+    <title>New: dsh-aigc-radar</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-ba755ffd5703518eb1e8/fcbeba65b8c724cd</id>
+    <updated>2026-08-19T04:53:59Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ba755ffd5703518eb1e8.html"/>
+    <author><name>Kaixxrua</name></author>
+    <category term="tools"/>
+    <summary>Search AIGC Radar's curated GitHub AI project library (500-star admission, bilingual zh/en tags, star-growth snapshots) over its MCP endpoint with native result cards; an agent/pre-step listener proactively suggests a reuse check before the agent writes code. Exact install spec: github:kaixxrua/dsh-aigc-radar. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

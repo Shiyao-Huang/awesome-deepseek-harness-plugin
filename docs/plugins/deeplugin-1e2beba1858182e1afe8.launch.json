@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/tuogusa/dsh-skill-manager",
     "firstObservedAt": "2026-08-15T22:14:49Z",
-    "lastChangedAt": "2026-08-16T09:56:16Z"
+    "lastChangedAt": "2026-08-19T04:53:59Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-1e2beba1858182e1afe8.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-1e2beba1858182e1afe8.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-skill-manager 已收录到 DeepSeek Harness Plugin Store。在 Web 设置面板中浏览、搜索并删除用户技能。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-1e2beba1858182e1afe8.html",
-    "en": "dsh-skill-manager is now listed on the DeepSeek Harness Plugin Store. Browse, search, and delete user skills from the Web settings panel.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-1e2beba1858182e1afe8.html"
+    "zh": "dsh-skill-manager 已收录到 DeepSeek Harness Plugin Store。在 Web 设置面板中浏览、搜索、删除/撤回并更新用户技能，支持从 GitHub/Gitee Release 检查技能更新。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-1e2beba1858182e1afe8.html",
+    "en": "dsh-skill-manager is now listed on the DeepSeek Harness Plugin Store. Browse, search, delete, undo-delete, and update user skills from the Web settings panel; checks GitHub/Gitee Releases for newer skill versions.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-1e2beba1858182e1afe8.html"
   }
 }

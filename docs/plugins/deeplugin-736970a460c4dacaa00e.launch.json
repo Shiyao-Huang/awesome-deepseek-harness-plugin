@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-736970a460c4dacaa00e",
+    "name": "deepseek-design#deepseek-ivideo",
+    "author": "Devin-AXIS",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/Devin-AXIS/deepseek-design/tree/main/packages/deepseek-ivideo",
+    "firstObservedAt": "2026-08-19T04:53:59Z",
+    "lastChangedAt": "2026-08-19T04:53:59Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-736970a460c4dacaa00e.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-736970a460c4dacaa00e.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:devin-axis/deepseek-design#path:/packages/deepseek-ivideo",
+    "command": "dsh plugin --profile web add github:devin-axis/deepseek-design#path:/packages/deepseek-ivideo",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-736970a460c4dacaa00e，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-736970a460c4dacaa00e.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-736970a460c4dacaa00e.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "deepseek-design#deepseek-ivideo 已收录到 DeepSeek Harness Plugin Store。可视化视频工作室，支持可编辑时间线、动画和素材控制、27 个模板、整段与选区级 AI 草稿衔接、校验、预览和导出。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-736970a460c4dacaa00e.html",
+    "en": "deepseek-design#deepseek-ivideo is now listed on the DeepSeek Harness Plugin Store. Visual video studio with an editable timeline, animation and media controls, 27 templates, whole-video and selection-aware AI draft handoff, validation, preview, and export.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-736970a460c4dacaa00e.html"
+  }
+}

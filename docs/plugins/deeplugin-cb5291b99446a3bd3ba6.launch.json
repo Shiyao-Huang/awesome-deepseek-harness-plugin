@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-cb5291b99446a3bd3ba6",
+    "name": "dsh-md-preview",
+    "author": "poiuyjie",
+    "category": "docs",
+    "version": null,
+    "homepage": "https://github.com/poiuyjie/dsh-md-preview",
+    "firstObservedAt": "2026-08-19T04:53:59Z",
+    "lastChangedAt": "2026-08-19T04:53:59Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-cb5291b99446a3bd3ba6.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-cb5291b99446a3bd3ba6.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:poiuyjie/dsh-md-preview",
+    "command": "dsh plugin --profile web add github:poiuyjie/dsh-md-preview",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-cb5291b99446a3bd3ba6，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-cb5291b99446a3bd3ba6.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-cb5291b99446a3bd3ba6.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-md-preview 已收录到 DeepSeek Harness Plugin Store。DSH Web 端可停靠的 Markdown 预览面板：与对话并排展示，会话级「最近打开 .md」列表，本地相对路径图片可直接渲染；点击对话中的 .md 引用改为并排预览而非唤起系统编辑器；跟随 shell 深浅色主题。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-cb5291b99446a3bd3ba6.html",
+    "en": "dsh-md-preview is now listed on the DeepSeek Harness Plugin Store. Dockable Markdown preview for the DSH Web UI: side-by-side with the conversation, a per-session recently-read .md list, local relative-path images render in place, and clicking an in-chat .md reference previews it instead of launching the system editor; follows the shell light/dark theme.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-cb5291b99446a3bd3ba6.html"
+  }
+}

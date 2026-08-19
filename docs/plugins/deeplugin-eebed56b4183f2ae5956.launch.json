@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-eebed56b4183f2ae5956",
+    "name": "dsh-tui-pro",
+    "author": "lk251066",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/lk251066/dsh-tui-pro",
+    "firstObservedAt": "2026-08-19T04:53:59Z",
+    "lastChangedAt": "2026-08-19T04:53:59Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-eebed56b4183f2ae5956.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-eebed56b4183f2ae5956.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@lk251066/dsh-tui",
+    "command": "dsh plugin --profile web add @lk251066/dsh-tui",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-eebed56b4183f2ae5956，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-eebed56b4183f2ae5956.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-eebed56b4183f2ae5956.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-tui-pro 已收录到 DeepSeek Harness Plugin Store。DeepSeek Harness 全屏终端工作台，提供独立持久助手、按工作区分组的项目会话、仅聊天区滚动，以及结构化思考、工具、diff、计划和子代理视图。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-eebed56b4183f2ae5956.html",
+    "en": "dsh-tui-pro is now listed on the DeepSeek Harness Plugin Store. A full-screen terminal workbench for DeepSeek Harness with a durable assistant, workspace-grouped project sessions, transcript-only scrolling, and structured thinking, tool, diff, plan, and subagent views.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-eebed56b4183f2ae5956.html"
+  }
+}

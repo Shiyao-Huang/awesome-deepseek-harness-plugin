@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>zzy-dsh-prompt-optimizer — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-ce48ffaddbb1b48c66c8.atom.xml</id>
+  <updated>2026-08-19T04:53:59Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-ce48ffaddbb1b48c66c8.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ce48ffaddbb1b48c66c8.html"/>
+  <entry>
+    <title>New: zzy-dsh-prompt-optimizer</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-ce48ffaddbb1b48c66c8/fcbeba65b8c724cd</id>
+    <updated>2026-08-19T04:53:59Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ce48ffaddbb1b48c66c8.html"/>
+    <author><name>zhengzeyong9527-droid</name></author>
+    <category term="ui"/>
+    <summary>Adds prompt optimization, cancellation, and undo controls to the DeepSeek Harness composer. Exact install spec: github:zhengzeyong9527-droid/zzy-dsh-prompt-optimizer. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

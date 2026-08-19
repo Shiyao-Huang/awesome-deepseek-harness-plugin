@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-7d57e2390aa71cf3a1d6",
+    "name": "dsh-live2d-pets",
+    "author": "cyanfish-x",
+    "category": "fun",
+    "version": null,
+    "homepage": "https://github.com/cyanfish-x/dsh-live2d-pets",
+    "firstObservedAt": "2026-08-19T04:53:59Z",
+    "lastChangedAt": "2026-08-19T04:53:59Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-7d57e2390aa71cf3a1d6.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-7d57e2390aa71cf3a1d6.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-live2d-pets",
+    "command": "dsh plugin --profile web add dsh-live2d-pets",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-7d57e2390aa71cf3a1d6，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-7d57e2390aa71cf3a1d6.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-7d57e2390aa71cf3a1d6.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-live2d-pets 已收录到 DeepSeek Harness Plugin Store。DSH Web GUI 的 Live2D 桌宠悬浮层：镜像 agent 思考/空闲/出错/完成/待审批状态，配动画与气泡，支持分部位触摸反应、拖动停靠、切换人设，以及通过 URL 或本地路径加载自定义模型。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-7d57e2390aa71cf3a1d6.html",
+    "en": "dsh-live2d-pets is now listed on the DeepSeek Harness Plugin Store. Live2D desk pet overlay for the DSH web GUI: mirrors agent state (thinking, idle, error, done, awaiting approval) with motions and speech bubbles, per-part touch reactions, drag-to-dock, switchable personas, and custom models via URL or local path.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-7d57e2390aa71cf3a1d6.html"
+  }
+}

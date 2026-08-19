@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>dsh-plugin-toggle — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-1833fee24d16ec09cfeb.atom.xml</id>
-  <updated>2026-08-16T08:41:44Z</updated>
+  <updated>2026-08-19T04:53:59Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-1833fee24d16ec09cfeb.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1833fee24d16ec09cfeb.html"/>
+  <entry>
+    <title>Updated: dsh-plugin-toggle</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-1833fee24d16ec09cfeb/d1a5597c1bee58fe</id>
+    <updated>2026-08-19T04:53:59Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1833fee24d16ec09cfeb.html"/>
+    <author><name>tuogusa</name></author>
+    <category term="market"/>
+    <summary>Toggle, delete, undo-delete, and check/update plugins from the Web settings panel; runtime enable/disable is persisted to the profile. Exact install spec: github:tuogusa/dsh-plugin-toggle. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
   <entry>
     <title>Updated: dsh-plugin-toggle</title>
     <id>tag:deeplugin.store,2026-08-16:deeplugin-1833fee24d16ec09cfeb/e1ab6d4a0ce81c55</id>
@@ -12,7 +21,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1833fee24d16ec09cfeb.html"/>
     <author><name>tuogusa</name></author>
     <category term="market"/>
-    <summary>Toggle or delete plugins from the Web settings panel, with runtime enable and disable persisted to the profile. Exact install spec: github:tuogusa/dsh-plugin-toggle. Source event: dsh-market/dsh-market; changed: sources.</summary>
+    <summary>Toggle, delete, undo-delete, and check/update plugins from the Web settings panel; runtime enable/disable is persisted to the profile. Exact install spec: github:tuogusa/dsh-plugin-toggle. Source event: dsh-market/dsh-market; changed: sources.</summary>
   </entry>
   <entry>
     <title>New: dsh-plugin-toggle</title>
@@ -21,6 +30,6 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1833fee24d16ec09cfeb.html"/>
     <author><name>tuogusa</name></author>
     <category term="market"/>
-    <summary>Toggle or delete plugins from the Web settings panel, with runtime enable and disable persisted to the profile. Exact install spec: github:tuogusa/dsh-plugin-toggle. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+    <summary>Toggle, delete, undo-delete, and check/update plugins from the Web settings panel; runtime enable/disable is persisted to the profile. Exact install spec: github:tuogusa/dsh-plugin-toggle. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

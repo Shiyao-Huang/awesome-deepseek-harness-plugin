@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>deepseek-design#deepseek-ivideo — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-736970a460c4dacaa00e.atom.xml</id>
+  <updated>2026-08-19T04:53:59Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-736970a460c4dacaa00e.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-736970a460c4dacaa00e.html"/>
+  <entry>
+    <title>New: deepseek-design#deepseek-ivideo</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-736970a460c4dacaa00e/fcbeba65b8c724cd</id>
+    <updated>2026-08-19T04:53:59Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-736970a460c4dacaa00e.html"/>
+    <author><name>Devin-AXIS</name></author>
+    <category term="ui"/>
+    <summary>Visual video studio with an editable timeline, animation and media controls, 27 templates, whole-video and selection-aware AI draft handoff, validation, preview, and export. Exact install spec: github:devin-axis/deepseek-design#path:/packages/deepseek-ivideo. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

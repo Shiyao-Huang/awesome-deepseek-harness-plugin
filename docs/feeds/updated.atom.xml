@@ -2,9 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>deeplugin.store — Updated plugins</title>
   <id>https://deeplugin.store/feeds/updated.atom.xml</id>
-  <updated>2026-08-19T03:13:48Z</updated>
+  <updated>2026-08-19T04:53:59Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/feeds/updated.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/market.html"/>
+  <entry>
+    <title>Updated: dsh-skin-digital-arcade</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-d897bade6583029e942e/d1a5597c1bee58fe</id>
+    <updated>2026-08-19T04:53:59Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d897bade6583029e942e.html"/>
+    <author><name>RizenHNT</name></author>
+    <category term="theme"/>
+    <summary>Digital arcade HUD skin: neon cyan/violet/magenta palette, Fusion Pixel fonts, animated sprites (city backdrop, data core, mascot), custom crosshair cursor; light and dark themes follow the system. Exact install spec: github:rizenhnt/dsh-skin-digital-arcade. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-harmony</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-70a19132b0d0f2e18b18/3cfb383cce45a4d0</id>
+    <updated>2026-08-19T04:53:59Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-70a19132b0d0f2e18b18.html"/>
+    <author><name>CH4ACKO3</name></author>
+    <category term="dev"/>
+    <summary>Lets one DSH plugin modify another plugin's code at runtime, with Patch ordering, conflict checks, and hot reload. Exact install spec: dsh-harmony. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-whale-background</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-3759a624a60da6694e7e/d1a5597c1bee58fe</id>
+    <updated>2026-08-19T04:53:59Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-3759a624a60da6694e7e.html"/>
+    <author><name>tuogusa</name></author>
+    <category term="theme"/>
+    <summary>Whale-girl wallpaper background with a frosted semi-transparent app surface; customize image, opacity, and contain/cover from the Web settings, with remote image preflight and no-referrer loading. Exact install spec: github:tuogusa/dsh-whale-background. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-skill-manager</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-1e2beba1858182e1afe8/d1a5597c1bee58fe</id>
+    <updated>2026-08-19T04:53:59Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1e2beba1858182e1afe8.html"/>
+    <author><name>tuogusa</name></author>
+    <category term="skill"/>
+    <summary>Browse, search, delete, undo-delete, and update user skills from the Web settings panel; checks GitHub/Gitee Releases for newer skill versions. Exact install spec: github:tuogusa/dsh-skill-manager. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-plugin-toggle</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-1833fee24d16ec09cfeb/d1a5597c1bee58fe</id>
+    <updated>2026-08-19T04:53:59Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1833fee24d16ec09cfeb.html"/>
+    <author><name>tuogusa</name></author>
+    <category term="market"/>
+    <summary>Toggle, delete, undo-delete, and check/update plugins from the Web settings panel; runtime enable/disable is persisted to the profile. Exact install spec: github:tuogusa/dsh-plugin-toggle. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
   <entry>
     <title>Updated: dsh-diff-viewer</title>
     <id>tag:deeplugin.store,2026-08-19:deeplugin-c709f441de290e8b5fa3/fc42283e2674d35f</id>
@@ -859,50 +904,5 @@
     <author><name>zh667</name></author>
     <category term="ui"/>
     <summary>Sidebar usage panel that attributes tokens to the relay site that served each request, read from your existing provider config: today/month/all-time totals, per-site and per-model breakdowns, a year activity heatmap, and New API / Sub2API / DeepSeek balances. Exact install spec: dsh-tokenledger. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-verify</title>
-    <id>tag:deeplugin.store,2026-08-17:deeplugin-1cc408d9c94b56fa567f/b7dff3fde2fb2358</id>
-    <updated>2026-08-17T14:45:53Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1cc408d9c94b56fa567f.html"/>
-    <author><name>263311487-ux</name></author>
-    <category term="tools"/>
-    <summary>Independent browser acceptance testing for agent deliverables: JSON spec drives real headless Chromium, asserts computed styles and pixel diffs, returns an HTML report and 0/1 exit code; ships npm CLI, GitHub Action, and MCP server. Exact install spec: dsh-verify. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-workspace-explorer</title>
-    <id>tag:deeplugin.store,2026-08-17:deeplugin-bfd6efc96b662ca0b401/4ff500e2f2e42625</id>
-    <updated>2026-08-17T13:07:24Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-bfd6efc96b662ca0b401.html"/>
-    <author><name>Jiyr0119</name></author>
-    <category term="ui"/>
-    <summary>Standalone workspace file-tree panel for the DSH web UI: a session-header icon opens an animated popup of the current workspace tree; click or drag a file to insert its reference into the composer, with search, inline preview, live settings, and zh/en i18n; single-purpose, zero-config, one-command install. Exact install spec: @jiyr0119/dsh-workspace-explorer. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-plugin-writing-guard</title>
-    <id>tag:deeplugin.store,2026-08-17:deeplugin-84306ade1d9392fce310/4ff500e2f2e42625</id>
-    <updated>2026-08-17T13:07:24Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-84306ade1d9392fce310.html"/>
-    <author><name>xmutfyh</name></author>
-    <category term="tools"/>
-    <summary>Academic writing guard (EN/ZH bilingual): removes AI-style defensive writing, protects scientific evidence (numbers, citations, claim strength, null findings, scope) during polishing, and calibrates writing toward a target journal (Journal Profile + Journal Fit). Deterministic local regex/statistics, zero network/LLM; writing_rules / writing_audit / writing_style_profile / writing_journal_profile with auto-audit on paper writes. Exact install spec: dsh-plugin-writing-guard. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-im</title>
-    <id>tag:deeplugin.store,2026-08-17:deeplugin-413158b73d8720aa2c9f/4ff500e2f2e42625</id>
-    <updated>2026-08-17T13:07:24Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-413158b73d8720aa2c9f.html"/>
-    <author><name>xmanrui</name></author>
-    <category term="notify"/>
-    <summary>Connect IM bots to DeepSeek Harness via QR codes or bot credentials (9 channels: Feishu, WeChat, DingTalk, WeCom, QQ, Slack, Telegram, Discord, and WhatsApp). Exact install spec: @xmanrui/dsh-im. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-answer-pet</title>
-    <id>tag:deeplugin.store,2026-08-17:deeplugin-f8c4be5bb6431f71a4bd/fba6636dac3c0b43</id>
-    <updated>2026-08-17T10:50:21Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f8c4be5bb6431f71a4bd.html"/>
-    <author><name>Nanki-nn</name></author>
-    <category term="ui"/>
-    <summary>Extensible animated response pet with blue-whale, orange-cat, and silver-shaded-cat themes, per-session progress, model and tool-call traces, token counts, output speed, elapsed time, and collapsible multi-session status cards. Exact install spec: github:nanki-nn/dsh-answer-pet. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
   </entry>
 </feed>

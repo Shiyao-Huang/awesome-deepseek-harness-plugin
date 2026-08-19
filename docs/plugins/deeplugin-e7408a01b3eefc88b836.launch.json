@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-e7408a01b3eefc88b836",
+    "name": "dsh-orcana#dsh-bundle",
+    "author": "Leo-Ayh-Oday",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/Leo-Ayh-Oday/dsh-orcana/tree/main/packages/dsh-bundle",
+    "firstObservedAt": "2026-08-19T04:53:59Z",
+    "lastChangedAt": "2026-08-19T04:53:59Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-e7408a01b3eefc88b836.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-e7408a01b3eefc88b836.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:leo-ayh-oday/dsh-orcana#path:/packages/dsh-bundle",
+    "command": "dsh plugin --profile web add github:leo-ayh-oday/dsh-orcana#path:/packages/dsh-bundle",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-e7408a01b3eefc88b836，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-e7408a01b3eefc88b836.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-e7408a01b3eefc88b836.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-orcana#dsh-bundle 已收录到 DeepSeek Harness Plugin Store。DeepSeek Harness 运行时治理器：零进展回合引导、按代际绑定的验证证据、基于证据的完成守卫，以及按任务配置限制工具集。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e7408a01b3eefc88b836.html",
+    "en": "dsh-orcana#dsh-bundle is now listed on the DeepSeek Harness Plugin Store. Runtime governor for DeepSeek Harness: zero-progress steering, generation-bound verification evidence, evidence-aware completion guarding, and task-profile tool restriction.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e7408a01b3eefc88b836.html"
+  }
+}

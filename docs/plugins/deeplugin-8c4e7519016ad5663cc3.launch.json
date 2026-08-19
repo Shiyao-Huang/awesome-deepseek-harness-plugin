@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-8c4e7519016ad5663cc3",
+    "name": "dsh-prompt-enhancer",
+    "author": "LCQ-1024",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/LCQ-1024/dsh-prompt-enhancer",
+    "firstObservedAt": "2026-08-19T04:53:59Z",
+    "lastChangedAt": "2026-08-19T04:53:59Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-8c4e7519016ad5663cc3.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-8c4e7519016ad5663cc3.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:lcq-1024/dsh-prompt-enhancer",
+    "command": "dsh plugin --profile web add github:lcq-1024/dsh-prompt-enhancer",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-8c4e7519016ad5663cc3，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-8c4e7519016ad5663cc3.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-8c4e7519016ad5663cc3.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-prompt-enhancer 已收录到 DeepSeek Harness Plugin Store。在 DSH 输入框添加提示词增强按钮，将草稿改写为可直接交给 Agent 执行的提示词。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-8c4e7519016ad5663cc3.html",
+    "en": "dsh-prompt-enhancer is now listed on the DeepSeek Harness Plugin Store. Adds a prompt-enhancement button to the DSH composer that rewrites drafts into agent-ready prompts.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-8c4e7519016ad5663cc3.html"
+  }
+}

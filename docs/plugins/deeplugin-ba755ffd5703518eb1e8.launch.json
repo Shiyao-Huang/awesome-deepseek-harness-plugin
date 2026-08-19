@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-ba755ffd5703518eb1e8",
+    "name": "dsh-aigc-radar",
+    "author": "Kaixxrua",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/Kaixxrua/dsh-aigc-radar",
+    "firstObservedAt": "2026-08-19T04:53:59Z",
+    "lastChangedAt": "2026-08-19T04:53:59Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-ba755ffd5703518eb1e8.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-ba755ffd5703518eb1e8.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:kaixxrua/dsh-aigc-radar",
+    "command": "dsh plugin --profile web add github:kaixxrua/dsh-aigc-radar",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-ba755ffd5703518eb1e8，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-ba755ffd5703518eb1e8.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-ba755ffd5703518eb1e8.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-aigc-radar 已收录到 DeepSeek Harness Plugin Store。检索 AIGC Radar 精选 GitHub AI 项目库（500 Stars 准入、中英双语标签、星标增长快照），经其 MCP 端点调用并以原生结果卡片展示；agent/pre-step 监听器在 agent 动手写代码前主动建议复用检查。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-ba755ffd5703518eb1e8.html",
+    "en": "dsh-aigc-radar is now listed on the DeepSeek Harness Plugin Store. Search AIGC Radar's curated GitHub AI project library (500-star admission, bilingual zh/en tags, star-growth snapshots) over its MCP endpoint with native result cards; an agent/pre-step listener proactively suggests a reuse check before the agent writes code.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-ba755ffd5703518eb1e8.html"
+  }
+}
