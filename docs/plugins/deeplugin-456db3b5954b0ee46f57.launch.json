@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-456db3b5954b0ee46f57",
+    "name": "dsh-harness-ops",
+    "author": "fakechris",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/fakechris/dsh-harness-ops",
+    "firstObservedAt": "2026-08-19T14:56:47Z",
+    "lastChangedAt": "2026-08-19T14:56:47Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-456db3b5954b0ee46f57.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-456db3b5954b0ee46f57.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:fakechris/dsh-harness-ops",
+    "command": "dsh plugin --profile web add github:fakechris/dsh-harness-ops",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-456db3b5954b0ee46f57，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-456db3b5954b0ee46f57.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-456db3b5954b0ee46f57.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-harness-ops 已收录到 DeepSeek Harness Plugin Store。DSH 自愈运维工具箱：官方每日快照 A/B 双槽轮换（验收通过才原子切换、一键回滚）、10s 守护自动拉起 web 并续接被打断的回合、web/agent 全挂时终端 dsh-doctor 一键诊断修复拉起。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-456db3b5954b0ee46f57.html",
+    "en": "dsh-harness-ops is now listed on the DeepSeek Harness Plugin Store. Self-healing DSH ops toolbox: official daily-snapshot A/B slot rotation (acceptance-gated atomic switch, one-click rollback), a 10s watchdog that auto-relaunches the web and resumes interrupted turns, and an out-of-band dsh-doctor (diagnosis → repair → relaunch) when web and agent are both down.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-456db3b5954b0ee46f57.html"
+  }
+}

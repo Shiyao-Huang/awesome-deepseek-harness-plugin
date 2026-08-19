@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-b3e695be979c409d6bde",
+    "name": "dsh-codegraph",
+    "author": "jiangzhenguo",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/jiangzhenguo/dsh-codegraph",
+    "firstObservedAt": "2026-08-19T14:56:47Z",
+    "lastChangedAt": "2026-08-19T14:56:47Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-b3e695be979c409d6bde.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-b3e695be979c409d6bde.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:jiangzhenguo/dsh-codegraph",
+    "command": "dsh plugin --profile web add github:jiangzhenguo/dsh-codegraph",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-b3e695be979c409d6bde，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-b3e695be979c409d6bde.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b3e695be979c409d6bde.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-codegraph 已收录到 DeepSeek Harness Plugin Store。DSH 插件，注册 13 个原生 codegraph_* 工具包装 codegraph CLI，让代理初始化、维护并查询预索引的代码知识图谱（符号查询、区域探索、节点轨迹、callers/callees、影响分析、受影响测试），无需 grep 文件。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b3e695be979c409d6bde.html",
+    "en": "dsh-codegraph is now listed on the DeepSeek Harness Plugin Store. DSH bundle that registers 13 native codegraph_* tools wrapping the codegraph CLI, so agents bootstrap, maintain, and query a pre-indexed code knowledge graph (symbol query, explore, node trail, callers/callees, impact, affected tests) instead of grepping files.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b3e695be979c409d6bde.html"
+  }
+}

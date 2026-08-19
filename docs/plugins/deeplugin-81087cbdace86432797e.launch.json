@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-81087cbdace86432797e",
+    "name": "dsh-selection-followup",
+    "author": "zzx-dear",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/zzx-dear/dsh-selection-followup",
+    "firstObservedAt": "2026-08-19T14:56:47Z",
+    "lastChangedAt": "2026-08-19T14:56:47Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-81087cbdace86432797e.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-81087cbdace86432797e.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:zzx-dear/dsh-selection-followup",
+    "command": "dsh plugin --profile web add github:zzx-dear/dsh-selection-followup",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-81087cbdace86432797e，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-81087cbdace86432797e.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-81087cbdace86432797e.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-selection-followup 已收录到 DeepSeek Harness Plugin Store。选中聊天回复中的任意文字，浮出「追问/复制」气泡：一键把选中内容作为引用填入输入框（问题由你输入），或一键复制。另附安装与实现文档。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-81087cbdace86432797e.html",
+    "en": "dsh-selection-followup is now listed on the DeepSeek Harness Plugin Store. Select any text in a DSH chat reply to get a floating Follow-up/Copy pill: one click quotes the selection into the composer so you can type your own follow-up question, or copies it.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-81087cbdace86432797e.html"
+  }
+}

@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>lunheng-article-pipeline-dsh — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-ed2b18b83b6f7d0356ef.atom.xml</id>
-  <updated>2026-08-18T07:06:23Z</updated>
+  <updated>2026-08-19T14:56:47Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-ed2b18b83b6f7d0356ef.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ed2b18b83b6f7d0356ef.html"/>
+  <entry>
+    <title>Updated: lunheng-article-pipeline-dsh</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-ed2b18b83b6f7d0356ef/61988a0db3e901e2</id>
+    <updated>2026-08-19T14:56:47Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ed2b18b83b6f7d0356ef.html"/>
+    <author><name>zuoyunlai</name></author>
+    <category term="skill"/>
+    <summary>Multi-agent deep long-form article pipeline skill for DeepSeek Harness, running 8 roles across 5 phases with parallel literature/data/case retrieval, a critical-companion review, M-Gate mechanical final check, independent G0-G13 audit and human verification gates. Exact install spec: github:zuoyunlai/lunheng-article-pipeline-dsh. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
   <entry>
     <title>New: lunheng-article-pipeline-dsh</title>
     <id>tag:deeplugin.store,2026-08-18:deeplugin-ed2b18b83b6f7d0356ef/7a0467da94beed37</id>
@@ -12,6 +21,6 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ed2b18b83b6f7d0356ef.html"/>
     <author><name>zuoyunlai</name></author>
     <category term="skill"/>
-    <summary>Multi-agent deep long-form article pipeline skill for DeepSeek Harness, running 7 roles across 5 phases with parallel literature/data/case retrieval, an evidence base, independent audit and human verification gates. Exact install spec: github:zuoyunlai/lunheng-article-pipeline-dsh. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+    <summary>Multi-agent deep long-form article pipeline skill for DeepSeek Harness, running 8 roles across 5 phases with parallel literature/data/case retrieval, a critical-companion review, M-Gate mechanical final check, independent G0-G13 audit and human verification gates. Exact install spec: github:zuoyunlai/lunheng-article-pipeline-dsh. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

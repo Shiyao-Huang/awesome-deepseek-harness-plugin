@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-2e6d793510fa675732ea",
+    "name": "dsh-capybara-notify",
+    "author": "zzx-dear",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/zzx-dear/dsh-capybara-notify",
+    "firstObservedAt": "2026-08-19T14:56:47Z",
+    "lastChangedAt": "2026-08-19T14:56:47Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-2e6d793510fa675732ea.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-2e6d793510fa675732ea.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:zzx-dear/dsh-capybara-notify",
+    "command": "dsh plugin --profile web add github:zzx-dear/dsh-capybara-notify",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-2e6d793510fa675732ea，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-2e6d793510fa675732ea.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-2e6d793510fa675732ea.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-capybara-notify 已收录到 DeepSeek Harness Plugin Store。水豚秘书：桌面宠物气泡+叮咚通知、告警收件箱 API、会话智能提醒（任务完成/需要确认/阻塞）、磁盘/HTTP/进程巡检脚本，以及每日高口碑插件推荐，另附 API 冒烟测试。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-2e6d793510fa675732ea.html",
+    "en": "dsh-capybara-notify is now listed on the DeepSeek Harness Plugin Store. Capybara secretary for DSH: desktop pet notifications with ding sound, alert inbox API, session-aware alerts (turn done / approval needed / turn blocked), check scripts, and daily high-star plugin recommendations.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-2e6d793510fa675732ea.html"
+  }
+}

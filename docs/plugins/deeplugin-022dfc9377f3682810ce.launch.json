@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-022dfc9377f3682810ce",
+    "name": "dsh-design-qa",
+    "author": "sunxin-ai",
+    "category": "vision",
+    "version": null,
+    "homepage": "https://github.com/sunxin-ai/dsh-design-qa",
+    "firstObservedAt": "2026-08-19T14:56:47Z",
+    "lastChangedAt": "2026-08-19T14:56:47Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-022dfc9377f3682810ce.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-022dfc9377f3682810ce.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-design-qa",
+    "command": "dsh plugin --profile web add dsh-design-qa",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-022dfc9377f3682810ce，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-022dfc9377f3682810ce.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-022dfc9377f3682810ce.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-design-qa 已收录到 DeepSeek Harness Plugin Store。给纯文本模型的设计稿保真判定：`deepseek_vision` 工具从任意 OpenAI 兼容视觉路由借来一只眼，让模型判断实现与设计稿是否一致——并附上支撑该判定的基准（4 组夹具、23 处注入缺陷、逐格原始输出）与其依赖的提问纪律。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-022dfc9377f3682810ce.html",
+    "en": "dsh-design-qa is now listed on the DeepSeek Harness Plugin Store. Design-fidelity QA for text-only models: a `deepseek_vision` tool borrows an eye from any OpenAI-compatible vision route, so the model can judge whether an implementation matches its mock — shipped with the benchmark behind that judgement (four fixtures, 23 injected defects, raw transcripts) and the questioning discipline it depends on.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-022dfc9377f3682810ce.html"
+  }
+}

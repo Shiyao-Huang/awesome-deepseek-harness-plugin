@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-ed45aa002dd9b90075b6",
+    "name": "dsh-undo-savepoint",
+    "author": "lire1131",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/lire1131/dsh-undo-savepoint",
+    "firstObservedAt": "2026-08-19T14:56:47Z",
+    "lastChangedAt": "2026-08-19T14:56:47Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-ed45aa002dd9b90075b6.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-ed45aa002dd9b90075b6.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:lire1131/dsh-undo-savepoint",
+    "command": "dsh plugin --profile web add github:lire1131/dsh-undo-savepoint",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-ed45aa002dd9b90075b6，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-ed45aa002dd9b90075b6.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-ed45aa002dd9b90075b6.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-undo-savepoint 已收录到 DeepSeek Harness Plugin Store。DSH 撤销/回退系统：配置变更自动存档，一键撤销/恢复/回退到任意版本，支持 WebUI 与离线 CLI/GUI 工具（DSH 启动失败也能救）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-ed45aa002dd9b90075b6.html",
+    "en": "dsh-undo-savepoint is now listed on the DeepSeek Harness Plugin Store. Undo/redo & rollback system for DSH: every config change is auto-snapshotted; undo/redo/restore to any version from the WebUI or the offline CLI/GUI tools (works even when DSH fails to boot).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-ed45aa002dd9b90075b6.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-3f0e5335afe0597b764d",
+    "name": "dsh-bloom-theme",
+    "author": "webkubor",
+    "category": "theme",
+    "version": null,
+    "homepage": "https://github.com/webkubor/dsh-bloom-theme",
+    "firstObservedAt": "2026-08-19T14:56:47Z",
+    "lastChangedAt": "2026-08-19T14:56:47Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-3f0e5335afe0597b764d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-3f0e5335afe0597b764d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@kubor/dsh-bloom-theme",
+    "command": "dsh plugin --profile web add @kubor/dsh-bloom-theme",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-3f0e5335afe0597b764d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-3f0e5335afe0597b764d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-3f0e5335afe0597b764d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-bloom-theme 已收录到 DeepSeek Harness Plugin Store。Bloom 莫兰迪主题：四款变体（雾蓝 mist、朱砂 cinnabar、花瓣 petal、涟漪 ripple）基于 OKLCH 调色，明暗切换不跳变，顶栏一键切换，八组「主色 + 底色」实测全部达到 WCAG AA。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-3f0e5335afe0597b764d.html",
+    "en": "dsh-bloom-theme is now listed on the DeepSeek Harness Plugin Store. Bloom Morandi theme: four variants (mist, cinnabar, petal, ripple) built on OKLCH so light and dark stay perceptually even, switchable from the top bar, with all eight foreground/background pairs measured at WCAG AA or better.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-3f0e5335afe0597b764d.html"
+  }
+}

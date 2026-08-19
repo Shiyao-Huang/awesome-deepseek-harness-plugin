@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-65c8e539d2d8f1919227",
+    "name": "DSH-dseyes",
+    "author": "Okkay712",
+    "category": "vision",
+    "version": null,
+    "homepage": "https://github.com/Okkay712/DSH-dseyes",
+    "firstObservedAt": "2026-08-19T14:56:47Z",
+    "lastChangedAt": "2026-08-19T14:56:47Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-65c8e539d2d8f1919227.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-65c8e539d2d8f1919227.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-dseyes",
+    "command": "dsh plugin --profile web add dsh-dseyes",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-65c8e539d2d8f1919227，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-65c8e539d2d8f1919227.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-65c8e539d2d8f1919227.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "DSH-dseyes 已收录到 DeepSeek Harness Plugin Store。为纯文本 DeepSeek 提供原生图片上传体验：在 Web GUI 粘贴/拖入图片即以缩略图附件进入会话，发送前由 host 用免费智谱 GLM-4V-Flash 视觉 API（glm-4v-flash 降级链）读取并替换为文字描述，DeepSeek 据此回答，原图保留在聊天历史中。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-65c8e539d2d8f1919227.html",
+    "en": "DSH-dseyes is now listed on the DeepSeek Harness Plugin Store. Native image attachments for text-only DeepSeek in the Web GUI: pasted or dropped images appear as thumbnails in the session, and before dispatch the host reads them with the free Zhipu GLM-4V-Flash vision API (glm-4v-flash fallback chain) and substitutes the description, so DeepSeek answers about the image while the original is kept in history.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-65c8e539d2d8f1919227.html"
+  }
+}

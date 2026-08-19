@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-afcab103abb9f8861375",
+    "name": "dsh-selection-toolbar",
+    "author": "suiyideali",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/suiyideali/dsh-selection-toolbar",
+    "firstObservedAt": "2026-08-19T14:56:47Z",
+    "lastChangedAt": "2026-08-19T14:56:47Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-afcab103abb9f8861375.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-afcab103abb9f8861375.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:suiyideali/dsh-selection-toolbar",
+    "command": "dsh plugin --profile web add github:suiyideali/dsh-selection-toolbar",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-afcab103abb9f8861375，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-afcab103abb9f8861375.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-afcab103abb9f8861375.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-selection-toolbar 已收录到 DeepSeek Harness Plugin Store。在对话中选中文本时显示浮动工具栏，提供复制、引用、询问、解释、翻译、总结与自定义提问操作。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-afcab103abb9f8861375.html",
+    "en": "dsh-selection-toolbar is now listed on the DeepSeek Harness Plugin Store. Shows a floating toolbar above text selected in a conversation, with copy, quote, ask, explain, translate, summarize, and custom prompt actions.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-afcab103abb9f8861375.html"
+  }
+}

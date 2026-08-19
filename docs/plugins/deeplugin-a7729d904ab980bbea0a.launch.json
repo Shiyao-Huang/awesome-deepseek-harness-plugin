@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a7729d904ab980bbea0a",
+    "name": "dsh-finreport",
+    "author": "SkyloveQiu",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/SkyloveQiu/dsh-finreport",
+    "firstObservedAt": "2026-08-19T14:56:47Z",
+    "lastChangedAt": "2026-08-19T14:56:47Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a7729d904ab980bbea0a.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a7729d904ab980bbea0a.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:skyloveqiu/dsh-finreport",
+    "command": "dsh plugin --profile web add github:skyloveqiu/dsh-finreport",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a7729d904ab980bbea0a，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a7729d904ab980bbea0a.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a7729d904ab980bbea0a.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-finreport 已收录到 DeepSeek Harness Plugin Store。DSH 定时双语财经日报：包含行情、新闻与宏观日历，支持每个目标独立配置时区，并通过 dsh-im 的八种通道投递。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a7729d904ab980bbea0a.html",
+    "en": "dsh-finreport is now listed on the DeepSeek Harness Plugin Store. Scheduled bilingual financial reports for DSH: market quotes, news and macro calendar, with per-target timezones and delivery through eight dsh-im channels.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a7729d904ab980bbea0a.html"
+  }
+}

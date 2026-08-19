@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-277bee449f832859d7b0",
+    "name": "dsh-nuphus-mcp",
+    "author": "mrpulor-gh",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/mrpulor-gh/dsh-nuphus-mcp",
+    "firstObservedAt": "2026-08-19T14:56:47Z",
+    "lastChangedAt": "2026-08-19T14:56:47Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-277bee449f832859d7b0.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-277bee449f832859d7b0.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-nuphus-mcp",
+    "command": "dsh plugin --profile web add dsh-nuphus-mcp",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-277bee449f832859d7b0，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-277bee449f832859d7b0.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-277bee449f832859d7b0.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-nuphus-mcp 已收录到 DeepSeek Harness Plugin Store。nuphus-mcp 官方 DSH 插件（由 nuphus-mcp 维护者发布）：桌面 + 浏览器自动化（38 个工具），配 PaddleOCR 元素感知与 Chrome CDP 浏览，经常驻 stdio MCP 子进程接入。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-277bee449f832859d7b0.html",
+    "en": "dsh-nuphus-mcp is now listed on the DeepSeek Harness Plugin Store. Official DSH plugin for nuphus-mcp (by the nuphus-mcp maintainers): desktop and browser automation (38 tools) with PaddleOCR element perception and Chrome CDP browsing, via a persistent stdio MCP child process.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-277bee449f832859d7b0.html"
+  }
+}

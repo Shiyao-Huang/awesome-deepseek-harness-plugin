@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-bbb3633bf32e61db05ed",
+    "name": "dsh-perm-guard",
+    "author": "a903067276-rgb",
+    "category": "security",
+    "version": null,
+    "homepage": "https://github.com/a903067276-rgb/dsh-perm-guard",
+    "firstObservedAt": "2026-08-19T14:56:47Z",
+    "lastChangedAt": "2026-08-19T14:56:47Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-bbb3633bf32e61db05ed.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-bbb3633bf32e61db05ed.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:a903067276-rgb/dsh-perm-guard",
+    "command": "dsh plugin --profile web add github:a903067276-rgb/dsh-perm-guard",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-bbb3633bf32e61db05ed，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-bbb3633bf32e61db05ed.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-bbb3633bf32e61db05ed.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-perm-guard 已收录到 DeepSeek Harness Plugin Store。自动审批权限守卫：介于 workspace-write 与 danger-full-access 之间的中间档——信任目录内安全操作自动放行，危险操作一律人工确认；11 个分类开关可调，自带审计记录。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-bbb3633bf32e61db05ed.html",
+    "en": "dsh-perm-guard is now listed on the DeepSeek Harness Plugin Store. Auto-approval permission guard: a middle tier between workspace-write and danger-full-access — auto-allows safe operations inside trust directories, always asks a human for destructive ones, with 11 per-category switches and an audit trail.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-bbb3633bf32e61db05ed.html"
+  }
+}

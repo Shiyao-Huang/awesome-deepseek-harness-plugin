@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-memory — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-c27b8104fbc6f84a439c.atom.xml</id>
+  <updated>2026-08-19T14:56:47Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-c27b8104fbc6f84a439c.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c27b8104fbc6f84a439c.html"/>
+  <entry>
+    <title>New: dsh-memory</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-c27b8104fbc6f84a439c/71476531b93f83d6</id>
+    <updated>2026-08-19T14:56:47Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c27b8104fbc6f84a439c.html"/>
+    <author><name>aqsk-BLG</name></author>
+    <category term="memory"/>
+    <summary>Layered file memory for DeepSeek Harness with workspace-scoped USER/MEMORY notes, background consolidation, and hybrid session recall. Exact install spec: dsh-file-memory. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

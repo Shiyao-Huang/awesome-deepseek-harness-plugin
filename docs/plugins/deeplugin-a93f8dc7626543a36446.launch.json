@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a93f8dc7626543a36446",
+    "name": "dsh-prompt-optimizer",
+    "author": "winditer",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/winditer/dsh-prompt-optimizer",
+    "firstObservedAt": "2026-08-19T14:56:47Z",
+    "lastChangedAt": "2026-08-19T14:56:47Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a93f8dc7626543a36446.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a93f8dc7626543a36446.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-prompt-optimizer",
+    "command": "dsh plugin --profile web add dsh-prompt-optimizer",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a93f8dc7626543a36446，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a93f8dc7626543a36446.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a93f8dc7626543a36446.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-prompt-optimizer 已收录到 DeepSeek Harness Plugin Store。在输入框按 ✨ 或 Alt+O 一键把草稿润色成更清晰、更结构化的 prompt；默认零配置复用当前会话模型（SSE 真流式、推理过程先出），也可自配任意 OpenAI 兼容端点。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a93f8dc7626543a36446.html",
+    "en": "dsh-prompt-optimizer is now listed on the DeepSeek Harness Plugin Store. Polishes the draft in the composer into a clearer, better-structured prompt from the ✨ button or Alt+O; streams the result live over SSE with reasoning shown first, and follows the session's default model with zero configuration or any OpenAI-compatible endpoint.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a93f8dc7626543a36446.html"
+  }
+}

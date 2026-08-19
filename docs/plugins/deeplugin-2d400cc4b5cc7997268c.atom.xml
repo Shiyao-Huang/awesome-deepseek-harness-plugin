@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-plugin-dit — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-2d400cc4b5cc7997268c.atom.xml</id>
+  <updated>2026-08-19T14:56:47Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-2d400cc4b5cc7997268c.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-2d400cc4b5cc7997268c.html"/>
+  <entry>
+    <title>Updated: dsh-plugin-dit</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-2d400cc4b5cc7997268c/fea84fc0669b5209</id>
+    <updated>2026-08-19T14:56:47Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-2d400cc4b5cc7997268c.html"/>
+    <author><name>cuboteam</name></author>
+    <category term="model"/>
+    <summary>DIT.ai provider bundle for DeepSeek Harness: installs 29 OpenAI Chat Completions models and 10 Anthropic Messages models from one DIT_API_KEY, with protocol-specific thinking configuration. Exact install spec: dsh-plugin-dit. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-plugin-dit</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-2d400cc4b5cc7997268c/4daf69c39c4bb2e8</id>
+    <updated>2026-08-18T07:06:23Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-2d400cc4b5cc7997268c.html"/>
+    <author><name>cuboteam</name></author>
+    <category term="model"/>
+    <summary>DIT.ai provider bundle for DeepSeek Harness: installs 29 OpenAI Chat Completions models and 10 Anthropic Messages models from one DIT_API_KEY, with protocol-specific thinking configuration. Exact install spec: dsh-plugin-dit. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-plugin-dit</title>
+    <id>tag:deeplugin.store,2026-08-18:deeplugin-2d400cc4b5cc7997268c/2ff086a3ce2d4066</id>
+    <updated>2026-08-18T04:53:19Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-2d400cc4b5cc7997268c.html"/>
+    <author><name>cuboteam</name></author>
+    <category term="model"/>
+    <summary>DIT.ai provider bundle for DeepSeek Harness: installs 29 OpenAI Chat Completions models and 10 Anthropic Messages models from one DIT_API_KEY, with protocol-specific thinking configuration. Exact install spec: dsh-plugin-dit. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-9e306b5893596d6bba37",
+    "name": "dsh-weave",
+    "author": "baixianger",
+    "category": "remote",
+    "version": null,
+    "homepage": "https://github.com/baixianger/dsh-weave",
+    "firstObservedAt": "2026-08-19T14:56:47Z",
+    "lastChangedAt": "2026-08-19T14:56:47Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-9e306b5893596d6bba37.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-9e306b5893596d6bba37.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-weave",
+    "command": "dsh plugin --profile web add dsh-weave",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-9e306b5893596d6bba37，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-9e306b5893596d6bba37.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-9e306b5893596d6bba37.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-weave 已收录到 DeepSeek Harness Plugin Store。基于 Iroh 的可信 DSH 主机网状网络：提供加密的节点发现、远程会话投递与连通状态。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-9e306b5893596d6bba37.html",
+    "en": "dsh-weave is now listed on the DeepSeek Harness Plugin Store. Trusted Iroh mesh networking for DSH hosts, with encrypted peer discovery, remote session delivery, and reachability status.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-9e306b5893596d6bba37.html"
+  }
+}

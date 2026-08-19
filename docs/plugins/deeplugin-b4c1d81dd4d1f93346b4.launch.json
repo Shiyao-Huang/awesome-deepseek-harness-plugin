@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/Github-CJX/dsh-tool-imagegen",
     "firstObservedAt": "2026-08-18T13:10:14Z",
-    "lastChangedAt": "2026-08-18T13:10:14Z"
+    "lastChangedAt": "2026-08-19T14:56:47Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-b4c1d81dd4d1f93346b4.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b4c1d81dd4d1f93346b4.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-tool-imagegen 已收录到 DeepSeek Harness Plugin Store。DSH Desktop 对话内联生图插件：模型在对话中调用 generate_image，图片直接显示在对话框内。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b4c1d81dd4d1f93346b4.html",
-    "en": "dsh-tool-imagegen is now listed on the DeepSeek Harness Plugin Store. OpenAI-compatible image generation for DSH Desktop: the model calls generate_image in chat and the images render inline in the conversation.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b4c1d81dd4d1f93346b4.html"
+    "zh": "dsh-tool-imagegen 已收录到 DeepSeek Harness Plugin Store。对话内联生图插件：模型在对话框直接出图，上传参考图即可图生图连续修改，附存储清理。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b4c1d81dd4d1f93346b4.html",
+    "en": "dsh-tool-imagegen is now listed on the DeepSeek Harness Plugin Store. OpenAI-compatible image generation in DSH Desktop chat: generate inline, upload or one-click edit reference images (image-to-image), with storage cleanup.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b4c1d81dd4d1f93346b4.html"
   }
 }

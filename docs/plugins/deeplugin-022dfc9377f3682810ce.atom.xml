@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-design-qa — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-022dfc9377f3682810ce.atom.xml</id>
+  <updated>2026-08-19T14:56:47Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-022dfc9377f3682810ce.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-022dfc9377f3682810ce.html"/>
+  <entry>
+    <title>New: dsh-design-qa</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-022dfc9377f3682810ce/71476531b93f83d6</id>
+    <updated>2026-08-19T14:56:47Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-022dfc9377f3682810ce.html"/>
+    <author><name>sunxin-ai</name></author>
+    <category term="vision"/>
+    <summary>Design-fidelity QA for text-only models: a `deepseek_vision` tool borrows an eye from any OpenAI-compatible vision route, so the model can judge whether an implementation matches its mock — shipped with the benchmark behind that judgement (four fixtures, 23 injected defects, raw transcripts) and the questioning discipline it depends on. Exact install spec: dsh-design-qa. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-6405c4e003c8931676b4",
+    "name": "dsh-search-enhance",
+    "author": "KKKneko",
+    "category": "browser",
+    "version": null,
+    "homepage": "https://github.com/KKKneko/dsh-search-enhance",
+    "firstObservedAt": "2026-08-19T14:56:47Z",
+    "lastChangedAt": "2026-08-19T14:56:47Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-6405c4e003c8931676b4.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-6405c4e003c8931676b4.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-search-enhance",
+    "command": "dsh plugin --profile web add dsh-search-enhance",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-6405c4e003c8931676b4，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-6405c4e003c8931676b4.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-6405c4e003c8931676b4.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-search-enhance 已收录到 DeepSeek Harness Plugin Store。提供 Grok-compatible 网页搜索、保留来源分页、Context7 与 Exa 文档检索、有界网页提取、站点映射、离线研究计划和只读诊断。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-6405c4e003c8931676b4.html",
+    "en": "dsh-search-enhance is now listed on the DeepSeek Harness Plugin Store. Grok-compatible web search with retained source pagination, Context7 and Exa documentation lookup, bounded page extraction, site mapping, offline research planning, and read-only diagnostics.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-6405c4e003c8931676b4.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-81810e59d8d679024107",
+    "name": "dsh-imessage",
+    "author": "photon-hq",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/photon-hq/dsh-imessage",
+    "firstObservedAt": "2026-08-19T14:56:47Z",
+    "lastChangedAt": "2026-08-19T14:56:47Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-81810e59d8d679024107.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-81810e59d8d679024107.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-imessage",
+    "command": "dsh plugin --profile web add dsh-imessage",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-81810e59d8d679024107，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-81810e59d8d679024107.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-81810e59d8d679024107.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-imessage 已收录到 DeepSeek Harness Plugin Store。通过 Photon 接入 DeepSeek Harness 的双向 iMessage 通道：按发件人白名单路由，支持会话命令、聊天内审批与提问，并提供用于设备授权和托管号码设置的 Settings 页面。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-81810e59d8d679024107.html",
+    "en": "dsh-imessage is now listed on the DeepSeek Harness Plugin Store. Two-way iMessage channel for DeepSeek Harness over Photon: sender allowlisting, session commands, in-chat approvals and questions, and a Settings page for device authorization and hosted-line setup.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-81810e59d8d679024107.html"
+  }
+}

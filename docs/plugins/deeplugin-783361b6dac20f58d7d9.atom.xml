@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-autovision — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-783361b6dac20f58d7d9.atom.xml</id>
+  <updated>2026-08-19T14:56:47Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-783361b6dac20f58d7d9.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-783361b6dac20f58d7d9.html"/>
+  <entry>
+    <title>New: dsh-autovision</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-783361b6dac20f58d7d9/71476531b93f83d6</id>
+    <updated>2026-08-19T14:56:47Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-783361b6dac20f58d7d9.html"/>
+    <author><name>Junkrat9527</name></author>
+    <category term="vision"/>
+    <summary>Vision for text-only dsh models: paste an image and a configured multimodal model transcribes it to text automatically — transparent twin routing, an agent-callable read-image tool, no built-in keys or relay. Exact install spec: @iroam2375/dsh-autovision. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

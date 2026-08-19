@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-harness-ops — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-456db3b5954b0ee46f57.atom.xml</id>
+  <updated>2026-08-19T14:56:47Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-456db3b5954b0ee46f57.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-456db3b5954b0ee46f57.html"/>
+  <entry>
+    <title>New: dsh-harness-ops</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-456db3b5954b0ee46f57/9283e67a99317d3c</id>
+    <updated>2026-08-19T14:56:47Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-456db3b5954b0ee46f57.html"/>
+    <author><name>fakechris</name></author>
+    <category term="dev"/>
+    <summary>Self-healing DSH ops toolbox: official daily-snapshot A/B slot rotation (acceptance-gated atomic switch, one-click rollback), a 10s watchdog that auto-relaunches the web and resumes interrupted turns, and an out-of-band dsh-doctor (diagnosis → repair → relaunch) when web and agent are both down. Exact install spec: github:fakechris/dsh-harness-ops. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

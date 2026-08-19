@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a110c12876520210c172",
+    "name": "dsh-hindsight-local-optimize",
+    "author": "Hua1Q1nG",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/Hua1Q1nG/dsh-hindsight-local-optimize",
+    "firstObservedAt": "2026-08-19T14:56:47Z",
+    "lastChangedAt": "2026-08-19T14:56:47Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a110c12876520210c172.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a110c12876520210c172.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:hua1q1ng/dsh-hindsight-local-optimize",
+    "command": "dsh plugin --profile web add github:hua1q1ng/dsh-hindsight-local-optimize",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a110c12876520210c172，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a110c12876520210c172.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a110c12876520210c172.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-hindsight-local-optimize 已收录到 DeepSeek Harness Plugin Store。为 DSH 桌面端官方 Hindsight 插件补齐本地记忆生命周期：一键启停 hindsight-embed 守护进程、开机自启、退出随停、隐藏 uv.exe 黑框，并支持把档案柜与模型装到其它盘。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a110c12876520210c172.html",
+    "en": "dsh-hindsight-local-optimize is now listed on the DeepSeek Harness Plugin Store. Local-memory lifecycle for the official Hindsight plugin on DSH desktop: one-click start/stop of the hindsight-embed daemon, auto-start on boot, stop on exit, hides the uv.exe console window, and installs the vault/models to another drive.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a110c12876520210c172.html"
+  }
+}

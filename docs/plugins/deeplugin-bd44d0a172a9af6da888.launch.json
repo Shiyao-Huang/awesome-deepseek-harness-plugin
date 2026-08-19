@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-bd44d0a172a9af6da888",
+    "name": "dsh-niao-message",
+    "author": "dsh-niao",
+    "category": "notify",
+    "version": null,
+    "homepage": "https://github.com/dsh-niao/dsh-niao-message",
+    "firstObservedAt": "2026-08-19T14:56:47Z",
+    "lastChangedAt": "2026-08-19T14:56:47Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-bd44d0a172a9af6da888.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-bd44d0a172a9af6da888.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-niao-message",
+    "command": "dsh plugin --profile web add dsh-niao-message",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-bd44d0a172a9af6da888，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-bd44d0a172a9af6da888.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-bd44d0a172a9af6da888.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-niao-message 已收录到 DeepSeek Harness Plugin Store。DeepSeek Harness 的 macOS 系统通知插件：任务中止、超限、阻塞、中断、出错、等待提问或批准、完成或子代理结束等事件通过 terminal-notifier 弹系统横幅；点击横幅打开指定应用，回到页面自动清空。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-bd44d0a172a9af6da888.html",
+    "en": "dsh-niao-message is now listed on the DeepSeek Harness Plugin Store. macOS system notifications for DeepSeek Harness: aborted, max-tokens, blocked, interrupted and error events, pending questions and approvals, and completion or subagent-end via terminal-notifier; clicking a banner opens a configured app and returning to the page auto-dismisses them.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-bd44d0a172a9af6da888.html"
+  }
+}

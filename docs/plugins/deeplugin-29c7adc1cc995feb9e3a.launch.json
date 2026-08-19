@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-29c7adc1cc995feb9e3a",
+    "name": "DSH-Balance-display",
+    "author": "yoiizesdev-crypto",
+    "category": "usage",
+    "version": null,
+    "homepage": "https://github.com/yoiizesdev-crypto/DSH-Balance-display",
+    "firstObservedAt": "2026-08-19T14:56:47Z",
+    "lastChangedAt": "2026-08-19T14:56:47Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-29c7adc1cc995feb9e3a.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-29c7adc1cc995feb9e3a.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:yoiizesdev-crypto/dsh-balance-display",
+    "command": "dsh plugin --profile web add github:yoiizesdev-crypto/dsh-balance-display",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-29c7adc1cc995feb9e3a，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-29c7adc1cc995feb9e3a.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-29c7adc1cc995feb9e3a.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "DSH-Balance-display 已收录到 DeepSeek Harness Plugin Store。侧边栏底部实时显示 DeepSeek 账户余额徽章：数字滚轮动画、多币种支持、余额趋势图、按 Key 用量统计（含安装前历史回填），并支持 GitHub 版本自动检查。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-29c7adc1cc995feb9e3a.html",
+    "en": "DSH-Balance-display is now listed on the DeepSeek Harness Plugin Store. Real-time DeepSeek account balance badge in the sidebar footer with odometer roll animation, multi-currency support, balance trend chart, per-key usage statistics with historical backfill, and GitHub version auto-check.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-29c7adc1cc995feb9e3a.html"
+  }
+}

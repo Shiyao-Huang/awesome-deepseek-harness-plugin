@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-e92d01fd970494cc2d3c",
+    "name": "dsh-mpkg-wallpaper",
+    "author": "XHR666",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/XHR666/dsh-mpkg-wallpaper",
+    "firstObservedAt": "2026-08-19T14:56:47Z",
+    "lastChangedAt": "2026-08-19T14:56:47Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-e92d01fd970494cc2d3c.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-e92d01fd970494cc2d3c.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-mpkg-wallpaper",
+    "command": "dsh plugin --profile web add dsh-mpkg-wallpaper",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-e92d01fd970494cc2d3c，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-e92d01fd970494cc2d3c.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-e92d01fd970494cc2d3c.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-mpkg-wallpaper 已收录到 DeepSeek Harness Plugin Store。在浏览器里直接加载 Wallpaper Engine 的 .mpkg 作为 DSH 网页背景：内嵌视频、多时段切换、统一磨砂虚化、本地壁纸库与轮换。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-e92d01fd970494cc2d3c.html",
+    "en": "dsh-mpkg-wallpaper is now listed on the DeepSeek Harness Plugin Store. Load Wallpaper Engine .mpkg files as the DSH web background: embedded video, time-of-day switching, unified frosted blur, local wallpaper library & rotation.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-e92d01fd970494cc2d3c.html"
+  }
+}

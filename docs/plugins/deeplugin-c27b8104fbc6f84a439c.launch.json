@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-c27b8104fbc6f84a439c",
+    "name": "dsh-memory",
+    "author": "aqsk-BLG",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/aqsk-BLG/dsh-memory",
+    "firstObservedAt": "2026-08-19T14:56:47Z",
+    "lastChangedAt": "2026-08-19T14:56:47Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-c27b8104fbc6f84a439c.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-c27b8104fbc6f84a439c.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-file-memory",
+    "command": "dsh plugin --profile web add dsh-file-memory",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-c27b8104fbc6f84a439c，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-c27b8104fbc6f84a439c.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-c27b8104fbc6f84a439c.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-memory 已收录到 DeepSeek Harness Plugin Store。DeepSeek Harness 分层文件记忆，提供工作区隔离的 USER/MEMORY 笔记、后台沉淀与混合会话召回。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c27b8104fbc6f84a439c.html",
+    "en": "dsh-memory is now listed on the DeepSeek Harness Plugin Store. Layered file memory for DeepSeek Harness with workspace-scoped USER/MEMORY notes, background consolidation, and hybrid session recall.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-c27b8104fbc6f84a439c.html"
+  }
+}

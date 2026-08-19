@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-token-cost — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-a2ecc6a6176d542526a7.atom.xml</id>
+  <updated>2026-08-19T14:56:47Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-a2ecc6a6176d542526a7.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a2ecc6a6176d542526a7.html"/>
+  <entry>
+    <title>New: dsh-token-cost</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-a2ecc6a6176d542526a7/71476531b93f83d6</id>
+    <updated>2026-08-19T14:56:47Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a2ecc6a6176d542526a7.html"/>
+    <author><name>gdy01</name></author>
+    <category term="usage"/>
+    <summary>Per-project LLM token usage and RMB cost in the DSH Web sidebar, split by input (cache miss), cache hit, and output with model price auto-pricing. Exact install spec: github:gdy01/dsh-token-cost. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

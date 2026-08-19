@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-7d96671f8a261369afde",
+    "name": "dsh-agent-preset-router",
+    "author": "CTWCTW9999",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/CTWCTW9999/dsh-agent-preset-router",
+    "firstObservedAt": "2026-08-19T14:56:47Z",
+    "lastChangedAt": "2026-08-19T14:56:47Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-7d96671f8a261369afde.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-7d96671f8a261369afde.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:ctwctw9999/dsh-agent-preset-router",
+    "command": "dsh plugin --profile web add github:ctwctw9999/dsh-agent-preset-router",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-7d96671f8a261369afde，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-7d96671f8a261369afde.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-7d96671f8a261369afde.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-agent-preset-router 已收录到 DeepSeek Harness Plugin Store。DSH 自动模式：用 Flash 模型为每个新会话自动判断最合适的 Agent 预设（标准/PTC/极简/创造）并直接执行，无需确认。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-7d96671f8a261369afde.html",
+    "en": "dsh-agent-preset-router is now listed on the DeepSeek Harness Plugin Store. Auto Mode for DSH: a flash-model router that auto-picks the best agent preset (standard/code/minimal/cordis) for each new session and executes immediately, no confirmation.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-7d96671f8a261369afde.html"
+  }
+}

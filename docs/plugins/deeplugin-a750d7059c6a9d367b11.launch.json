@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a750d7059c6a9d367b11",
+    "name": "dsh-message-copy-enhance",
+    "author": "Asianfleet",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/Asianfleet/dsh-message-copy-enhance",
+    "firstObservedAt": "2026-08-19T14:56:47Z",
+    "lastChangedAt": "2026-08-19T14:56:47Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a750d7059c6a9d367b11.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a750d7059c6a9d367b11.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-message-copy-enhance",
+    "command": "dsh plugin --profile web add dsh-message-copy-enhance",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a750d7059c6a9d367b11，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a750d7059c6a9d367b11.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a750d7059c6a9d367b11.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-message-copy-enhance 已收录到 DeepSeek Harness Plugin Store。将助手消息中选中的内容复制为 Markdown，保留链接、LaTeX 源码与代码块语言信息。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a750d7059c6a9d367b11.html",
+    "en": "dsh-message-copy-enhance is now listed on the DeepSeek Harness Plugin Store. Copy selections from assistant messages as Markdown, preserving links, LaTeX sources, and code-fence language info.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a750d7059c6a9d367b11.html"
+  }
+}

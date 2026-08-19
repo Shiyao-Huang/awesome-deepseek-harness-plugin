@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-file-mention — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-dca3b6a9d402bd191f4f.atom.xml</id>
+  <updated>2026-08-19T14:56:47Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-dca3b6a9d402bd191f4f.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-dca3b6a9d402bd191f4f.html"/>
+  <entry>
+    <title>New: dsh-file-mention</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-dca3b6a9d402bd191f4f/71476531b93f83d6</id>
+    <updated>2026-08-19T14:56:47Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-dca3b6a9d402bd191f4f.html"/>
+    <author><name>tipoLi5890</name></author>
+    <category term="ui"/>
+    <summary>Session-scoped @file/@folder mentions in the composer with Git-aware indexing, drag-drop and paste managed uploads, and validated path markers. Exact install spec: github:tipoli5890/dsh-file-mention. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

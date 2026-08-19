@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-262fcd2a4089aa8ae30e",
+    "name": "dsh-hover-approve",
+    "author": "wydddddcool",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/wydddddcool/dsh-hover-approve",
+    "firstObservedAt": "2026-08-19T14:56:47Z",
+    "lastChangedAt": "2026-08-19T14:56:47Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-262fcd2a4089aa8ae30e.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-262fcd2a4089aa8ae30e.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:wydddddcool/dsh-hover-approve",
+    "command": "dsh plugin --profile web add github:wydddddcool/dsh-hover-approve",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-262fcd2a4089aa8ae30e，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-262fcd2a4089aa8ae30e.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-262fcd2a4089aa8ae30e.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-hover-approve 已收录到 DeepSeek Harness Plugin Store。DSH Web 侧边栏锚定气泡：会话待授权、提问、计划确认、目标阻断时在会话行旁自动弹出并一键处理，无需点进会话。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-262fcd2a4089aa8ae30e.html",
+    "en": "dsh-hover-approve is now listed on the DeepSeek Harness Plugin Store. Anchors an approve/answer bubble to each DSH Web sidebar session row — one-click handling of authorization, questions, plan reviews and blocked goals without opening the conversation.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-262fcd2a4089aa8ae30e.html"
+  }
+}

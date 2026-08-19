@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>dsh-undo-plugin — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-a83ebfe0fccc42f60d4d.atom.xml</id>
-  <updated>2026-08-15T22:14:49Z</updated>
+  <updated>2026-08-19T14:56:47Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-a83ebfe0fccc42f60d4d.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a83ebfe0fccc42f60d4d.html"/>
+  <entry>
+    <title>Updated: dsh-undo-plugin</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-a83ebfe0fccc42f60d4d/a8acd338d0b17c81</id>
+    <updated>2026-08-19T14:56:47Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a83ebfe0fccc42f60d4d.html"/>
+    <author><name>lire1131</name></author>
+    <category term="tools"/>
+    <summary>Undo/redo &amp; rollback system for DSH: every config change is auto-snapshotted; undo/redo/restore to any version from the WebUI or the offline CLI/GUI tools (works even when DSH fails to boot). Exact install spec: github:lire1131/dsh-undo-plugin. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
+  </entry>
   <entry>
     <title>Updated: dsh-undo-plugin</title>
     <id>tag:deeplugin.store,2026-08-15:deeplugin-a83ebfe0fccc42f60d4d/39c4cd8ba93a4acf</id>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-service-console — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-45dac9954d51b3cc6aad.atom.xml</id>
+  <updated>2026-08-19T14:56:47Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-45dac9954d51b3cc6aad.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-45dac9954d51b3cc6aad.html"/>
+  <entry>
+    <title>New: dsh-service-console</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-45dac9954d51b3cc6aad/71476531b93f83d6</id>
+    <updated>2026-08-19T14:56:47Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-45dac9954d51b3cc6aad.html"/>
+    <author><name>Jiyr0119</name></author>
+    <category term="dev"/>
+    <summary>Local development service console for DSH: lists every listening service on the machine and lets users inspect, safely stop, or restart services that were started during development. Exact install spec: @jiyr0119/dsh-service-console. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

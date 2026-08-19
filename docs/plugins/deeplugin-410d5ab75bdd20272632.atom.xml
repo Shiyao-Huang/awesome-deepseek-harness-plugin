@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>dsh-mcp-lazy — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-410d5ab75bdd20272632.atom.xml</id>
-  <updated>2026-08-19T07:08:11Z</updated>
+  <updated>2026-08-19T14:56:47Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-410d5ab75bdd20272632.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-410d5ab75bdd20272632.html"/>
+  <entry>
+    <title>Updated: dsh-mcp-lazy</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-410d5ab75bdd20272632/61988a0db3e901e2</id>
+    <updated>2026-08-19T14:56:47Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-410d5ab75bdd20272632.html"/>
+    <author><name>leaforbook</name></author>
+    <category term="tools"/>
+    <summary>An MCP lazy-loading, dynamic tool-loading, and Tool Router plugin for DSH. It addresses context bloat, wasted tokens, oversized tool catalogs, and persistent tool schemas when many MCP servers are configured. The plugin searches, routes, and loads MCP tools on demand only when the current task needs them, then unloads idle tool schemas at turn end to reduce context usage and save tokens while keeping connections warm for fast reuse. Supports explicit activation, automatic routing, paginated tool-catalog refresh, bounded reconnection, and both stdio and Streamable HTTP MCP transports. Exact install spec: github:leaforbook/dsh-mcp-lazy. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
   <entry>
     <title>New: dsh-mcp-lazy</title>
     <id>tag:deeplugin.store,2026-08-19:deeplugin-410d5ab75bdd20272632/14996366b6307d90</id>
@@ -12,6 +21,6 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-410d5ab75bdd20272632.html"/>
     <author><name>leaforbook</name></author>
     <category term="tools"/>
-    <summary>Loads MCP tools on demand and unloads idle tool schemas at turn end, reducing the tool catalog and context tokens sent to the model while keeping connections warm for fast reuse. Exact install spec: github:leaforbook/dsh-mcp-lazy. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+    <summary>An MCP lazy-loading, dynamic tool-loading, and Tool Router plugin for DSH. It addresses context bloat, wasted tokens, oversized tool catalogs, and persistent tool schemas when many MCP servers are configured. The plugin searches, routes, and loads MCP tools on demand only when the current task needs them, then unloads idle tool schemas at turn end to reduce context usage and save tokens while keeping connections warm for fast reuse. Supports explicit activation, automatic routing, paginated tool-catalog refresh, bounded reconnection, and both stdio and Streamable HTTP MCP transports. Exact install spec: github:leaforbook/dsh-mcp-lazy. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

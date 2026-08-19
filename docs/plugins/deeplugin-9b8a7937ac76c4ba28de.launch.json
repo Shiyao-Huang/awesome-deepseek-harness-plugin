@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-9b8a7937ac76c4ba28de",
+    "name": "dsh-moon-light",
+    "author": "lihang-lh",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/lihang-lh/dsh-moon-light",
+    "firstObservedAt": "2026-08-19T14:56:47Z",
+    "lastChangedAt": "2026-08-19T14:56:47Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-9b8a7937ac76c4ba28de.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-9b8a7937ac76c4ba28de.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:lihang-lh/dsh-moon-light",
+    "command": "dsh plugin --profile web add github:lihang-lh/dsh-moon-light",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-9b8a7937ac76c4ba28de，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-9b8a7937ac76c4ba28de.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-9b8a7937ac76c4ba28de.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-moon-light 已收录到 DeepSeek Harness Plugin Store。DSH Web 界面边缘的跑马灯氛围光环：随会话状态自动变色（运行中绿色流动、完成粉色、有待处理黄色警告），设置面板可调颜色、光圈宽度、转速与闪动频率。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-9b8a7937ac76c4ba28de.html",
+    "en": "dsh-moon-light is now listed on the DeepSeek Harness Plugin Store. A marquee mood-light ring around the DSH web UI edge that reacts to session state, turning green while the agent works, pink when done, and yellow when something needs attention, with colors, ring width, rotation speed, and flash frequency configurable from the settings panel.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-9b8a7937ac76c4ba28de.html"
+  }
+}

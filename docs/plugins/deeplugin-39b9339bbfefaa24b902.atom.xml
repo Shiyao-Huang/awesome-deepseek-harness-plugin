@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-Almost_Full_Access — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-39b9339bbfefaa24b902.atom.xml</id>
+  <updated>2026-08-19T14:56:47Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-39b9339bbfefaa24b902.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-39b9339bbfefaa24b902.html"/>
+  <entry>
+    <title>New: dsh-Almost_Full_Access</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-39b9339bbfefaa24b902/71476531b93f83d6</id>
+    <updated>2026-08-19T14:56:47Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-39b9339bbfefaa24b902.html"/>
+    <author><name>Alnita-M</name></author>
+    <category term="security"/>
+    <summary>Permission mode between workspace-write and full access: shell commands are checked by deterministic rules and a subagent review; irreversible or system-level actions require explicit approval. Exact install spec: dsh-almost-full-access. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

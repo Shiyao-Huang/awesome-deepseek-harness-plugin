@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-f64291c87f65e4df21c1",
+    "name": "dsh-workbuddy-connect",
+    "author": "corrinehu",
+    "category": "model",
+    "version": null,
+    "homepage": "https://github.com/corrinehu/dsh-workbuddy-connect",
+    "firstObservedAt": "2026-08-19T14:56:47Z",
+    "lastChangedAt": "2026-08-19T14:56:47Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-f64291c87f65e4df21c1.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-f64291c87f65e4df21c1.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:corrinehu/dsh-workbuddy-connect",
+    "command": "dsh plugin --profile web add github:corrinehu/dsh-workbuddy-connect",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-f64291c87f65e4df21c1，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-f64291c87f65e4df21c1.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-f64291c87f65e4df21c1.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-workbuddy-connect 已收录到 DeepSeek Harness Plugin Store。将 WorkBuddy 桌面 App 包含的模型自动接入 DeepSeek Harness，在 DSH 对话窗口里零配置使用。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-f64291c87f65e4df21c1.html",
+    "en": "dsh-workbuddy-connect is now listed on the DeepSeek Harness Plugin Store. Brings the models in the WorkBuddy desktop app straight into DeepSeek Harness — zero configuration in the DSH chat.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-f64291c87f65e4df21c1.html"
+  }
+}

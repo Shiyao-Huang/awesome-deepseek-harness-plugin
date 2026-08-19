@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-fd5b6d98b003bf1e833a",
+    "name": "dsh-niao-quick-open",
+    "author": "dsh-niao",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/dsh-niao/dsh-niao-quick-open",
+    "firstObservedAt": "2026-08-19T14:56:47Z",
+    "lastChangedAt": "2026-08-19T14:56:47Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-fd5b6d98b003bf1e833a.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-fd5b6d98b003bf1e833a.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-niao-quick-open",
+    "command": "dsh plugin --profile web add dsh-niao-quick-open",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-fd5b6d98b003bf1e833a，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-fd5b6d98b003bf1e833a.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-fd5b6d98b003bf1e833a.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-niao-quick-open 已收录到 DeepSeek Harness Plugin Store。DeepSeek Harness 界面增强插件：工作区一键打开（复制路径、访达显示、自动发现编辑器打开）、用户消息导航条、会话待办标记、单列表增强与硬性重启按钮。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-fd5b6d98b003bf1e833a.html",
+    "en": "dsh-niao-quick-open is now listed on the DeepSeek Harness Plugin Store. UI enhancement suite for DeepSeek Harness: one-click workspace open (copy path, reveal in Finder, open in an auto-discovered editor), DeepSeek-web-style user-message nav rail, session to-do marks, flat-list polish, and a hard-restart button.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-fd5b6d98b003bf1e833a.html"
+  }
+}

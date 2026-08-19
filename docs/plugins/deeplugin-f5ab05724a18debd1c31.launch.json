@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-f5ab05724a18debd1c31",
+    "name": "dsh-noema",
+    "author": "ZSeven-W",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/ZSeven-W/dsh-noema",
+    "firstObservedAt": "2026-08-19T14:56:47Z",
+    "lastChangedAt": "2026-08-19T14:56:47Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-f5ab05724a18debd1c31.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-f5ab05724a18debd1c31.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@zseven-w/dsh-noema",
+    "command": "dsh plugin --profile web add @zseven-w/dsh-noema",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-f5ab05724a18debd1c31，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-f5ab05724a18debd1c31.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-f5ab05724a18debd1c31.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-noema 已收录到 DeepSeek Harness Plugin Store。为 DSH Agent 提供长期记忆——可检索、可检视的持久记忆，带回忆、搜索、浏览与知识图谱工具，支持从十个其他 AI 编码工具导入记忆，并附设置页。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-f5ab05724a18debd1c31.html",
+    "en": "dsh-noema is now listed on the DeepSeek Harness Plugin Store. Long-term memory for DSH agents — durable, inspectable memories with recall, search, browse and knowledge-graph tools, import from ten other AI coding tools, and a settings page.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-f5ab05724a18debd1c31.html"
+  }
+}

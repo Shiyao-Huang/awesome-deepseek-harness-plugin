@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-92ac1cbe59a99d5e89fc",
+    "name": "dsh-quick-launch",
+    "author": "acebang0303",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/acebang0303/dsh-quick-launch",
+    "firstObservedAt": "2026-08-19T14:56:47Z",
+    "lastChangedAt": "2026-08-19T14:56:47Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-92ac1cbe59a99d5e89fc.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-92ac1cbe59a99d5e89fc.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:acebang0303/dsh-quick-launch",
+    "command": "dsh plugin --profile web add github:acebang0303/dsh-quick-launch",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-92ac1cbe59a99d5e89fc，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-92ac1cbe59a99d5e89fc.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-92ac1cbe59a99d5e89fc.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-quick-launch 已收录到 DeepSeek Harness Plugin Store。一键创建、更新或删除 DeepSeek Harness 桌面快捷方式，图标可自定义上传切换，蓝白金鲸鱼悬浮按钮可拖动，点击旋转 90° 弹出面板。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-92ac1cbe59a99d5e89fc.html",
+    "en": "dsh-quick-launch is now listed on the DeepSeek Harness Plugin Store. One-click create, update or remove the DeepSeek Harness desktop shortcut with switchable custom icons and a draggable whale button.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-92ac1cbe59a99d5e89fc.html"
+  }
+}

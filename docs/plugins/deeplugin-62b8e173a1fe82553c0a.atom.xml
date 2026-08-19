@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-plugin-wiki-tools — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-62b8e173a1fe82553c0a.atom.xml</id>
+  <updated>2026-08-19T14:56:47Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-62b8e173a1fe82553c0a.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-62b8e173a1fe82553c0a.html"/>
+  <entry>
+    <title>New: dsh-plugin-wiki-tools</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-62b8e173a1fe82553c0a/71476531b93f83d6</id>
+    <updated>2026-08-19T14:56:47Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-62b8e173a1fe82553c0a.html"/>
+    <author><name>Lion-1209</name></author>
+    <category term="tools"/>
+    <summary>Native tools for an Obsidian wiki vault: wiki_query, wiki_write, wiki_rename, wiki_scaffold, wiki_archive, and wiki_lint cover BM25 search with link-graph context, bookkeeping writes with sha256 source tracking, vault-wide renames, mode scaffolds, source archiving, and health checks — with cross-process locks and optional git auto-commit. Exact install spec: dsh-plugin-wiki-tools. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

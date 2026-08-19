@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-nuphus-mcp — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-277bee449f832859d7b0.atom.xml</id>
+  <updated>2026-08-19T14:56:47Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-277bee449f832859d7b0.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-277bee449f832859d7b0.html"/>
+  <entry>
+    <title>New: dsh-nuphus-mcp</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-277bee449f832859d7b0/71476531b93f83d6</id>
+    <updated>2026-08-19T14:56:47Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-277bee449f832859d7b0.html"/>
+    <author><name>mrpulor-gh</name></author>
+    <category term="tools"/>
+    <summary>Official DSH plugin for nuphus-mcp (by the nuphus-mcp maintainers): desktop and browser automation (38 tools) with PaddleOCR element perception and Chrome CDP browsing, via a persistent stdio MCP child process. Exact install spec: dsh-nuphus-mcp. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

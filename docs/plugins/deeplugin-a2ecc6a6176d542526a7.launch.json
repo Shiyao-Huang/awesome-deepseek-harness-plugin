@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a2ecc6a6176d542526a7",
+    "name": "dsh-token-cost",
+    "author": "gdy01",
+    "category": "usage",
+    "version": null,
+    "homepage": "https://github.com/gdy01/dsh-token-cost",
+    "firstObservedAt": "2026-08-19T14:56:47Z",
+    "lastChangedAt": "2026-08-19T14:56:47Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a2ecc6a6176d542526a7.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a2ecc6a6176d542526a7.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:gdy01/dsh-token-cost",
+    "command": "dsh plugin --profile web add github:gdy01/dsh-token-cost",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a2ecc6a6176d542526a7，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a2ecc6a6176d542526a7.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a2ecc6a6176d542526a7.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-token-cost 已收录到 DeepSeek Harness Plugin Store。在 DSH Web 侧边栏按项目展示 LLM Token 用量与人民币花费，分别统计输入（未命中）、命中与输出，并按模型标准价格自动计价。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a2ecc6a6176d542526a7.html",
+    "en": "dsh-token-cost is now listed on the DeepSeek Harness Plugin Store. Per-project LLM token usage and RMB cost in the DSH Web sidebar, split by input (cache miss), cache hit, and output with model price auto-pricing.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a2ecc6a6176d542526a7.html"
+  }
+}

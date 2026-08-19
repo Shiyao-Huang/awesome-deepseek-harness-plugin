@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>dsh-airdrop — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-0ff2866bd7789a324dbb.atom.xml</id>
-  <updated>2026-08-19T01:55:30Z</updated>
+  <updated>2026-08-19T14:56:47Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-0ff2866bd7789a324dbb.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-0ff2866bd7789a324dbb.html"/>
+  <entry>
+    <title>Updated: dsh-airdrop</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-0ff2866bd7789a324dbb/61988a0db3e901e2</id>
+    <updated>2026-08-19T14:56:47Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-0ff2866bd7789a324dbb.html"/>
+    <author><name>demacia1314</name></author>
+    <category term="ui"/>
+    <summary>⭐ Drag-and-drop uploads of any file or whole folders, anywhere in the window; remote-safe — bytes go straight into the session workspace on the server, so a DSH deployed on a remote machine works exactly like localhost. Exact install spec: github:demacia1314/dsh-airdrop. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
   <entry>
     <title>New: dsh-airdrop</title>
     <id>tag:deeplugin.store,2026-08-19:deeplugin-0ff2866bd7789a324dbb/b02d9568b7c2fe39</id>
@@ -12,6 +21,6 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-0ff2866bd7789a324dbb.html"/>
     <author><name>demacia1314</name></author>
     <category term="ui"/>
-    <summary>Codex-app-style attachments for DSH: drop any file or folder anywhere in the window — bytes upload straight into the session workspace on the server, so remote servers and SSH tunnels work exactly like localhost. Exact install spec: github:demacia1314/dsh-airdrop. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+    <summary>⭐ Drag-and-drop uploads of any file or whole folders, anywhere in the window; remote-safe — bytes go straight into the session workspace on the server, so a DSH deployed on a remote machine works exactly like localhost. Exact install spec: github:demacia1314/dsh-airdrop. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

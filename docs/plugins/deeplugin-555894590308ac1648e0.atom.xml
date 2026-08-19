@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-arknights#pramanix-eyjafjalla — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-555894590308ac1648e0.atom.xml</id>
+  <updated>2026-08-19T14:56:47Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-555894590308ac1648e0.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-555894590308ac1648e0.html"/>
+  <entry>
+    <title>New: dsh-arknights#pramanix-eyjafjalla</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-555894590308ac1648e0/71476531b93f83d6</id>
+    <updated>2026-08-19T14:56:47Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-555894590308ac1648e0.html"/>
+    <author><name>DocJlm</name></author>
+    <category term="theme"/>
+    <summary>Arknights-inspired fan skin for the DSH Web UI featuring Pramanix and Eyjafjalla in a day/night celestial garden. Exact install spec: dsh-arknights. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

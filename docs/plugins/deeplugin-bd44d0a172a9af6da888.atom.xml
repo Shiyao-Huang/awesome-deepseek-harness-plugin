@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-niao-message — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-bd44d0a172a9af6da888.atom.xml</id>
+  <updated>2026-08-19T14:56:47Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-bd44d0a172a9af6da888.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-bd44d0a172a9af6da888.html"/>
+  <entry>
+    <title>New: dsh-niao-message</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-bd44d0a172a9af6da888/71476531b93f83d6</id>
+    <updated>2026-08-19T14:56:47Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-bd44d0a172a9af6da888.html"/>
+    <author><name>dsh-niao</name></author>
+    <category term="notify"/>
+    <summary>macOS system notifications for DeepSeek Harness: aborted, max-tokens, blocked, interrupted and error events, pending questions and approvals, and completion or subagent-end via terminal-notifier; clicking a banner opens a configured app and returning to the page auto-dismisses them. Exact install spec: dsh-niao-message. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>
