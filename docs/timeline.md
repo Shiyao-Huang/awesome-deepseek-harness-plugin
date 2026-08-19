@@ -5,6 +5,18 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 2026-08-19T01:55:30Z | github | plugin | [Neumannzc/dsh-archive-managerplugin](https://github.com/Neumannzc/dsh-archive-manager) | Neumannzc | core-and-ecosystem |
+| 2026-08-19 | github | plugin | [dph-fleet](https://github.com/polaris-smart/dph-fleet) | polaris-smart | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-airdrop](https://github.com/demacia1314/dsh-airdrop) | demacia1314 | core-and-ecosystem |
+| 2026-08-19 | github | plugin | [dsh-crew](https://github.com/stuarthu/dsh-crew) | stuarthu | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-diorama](https://github.com/ZaVang/dsh-diorama) | ZaVang | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-galgame-generator](https://github.com/baisama-cloud/dsh-galgame-generator) | baisama-cloud | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-logtimeline](https://github.com/anyuer678/dsh-logtimeline) | anyuer678 | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-session-mover](https://github.com/baisama-cloud/dsh-session-mover) | baisama-cloud | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-tool-lens](https://github.com/trench-xinxin/dsh-tool-lens) | trench-xinxin | core-and-ecosystem |
+| 2026-08-18 | github | plugin | [dsh-wallpaper](https://github.com/code-newbie-1/dsh-wallpaper) | code-newbie-1 | docs-and-learning |
+| 2026-08-19 | github | plugin | [dsh-zen-remote](https://github.com/KyoMio/dsh-zen-remote) | KyoMio | core-and-ecosystem |
+| 2026-08-19 | github | plugin | [ui-muyu](https://github.com/TongY1n/ui-muyu) | TongY1n | core-and-ecosystem |
 | 2026-08-18 | github | plugin | [dsh-anchored-monitor](https://github.com/Aik358/dsh-anchored-monitor) | Aik358 | core-and-ecosystem |
 | 2026-08-18 | github | plugin | [dsh-conversation-rail](https://github.com/dingyi580/dsh-conversation-rail) | dingyi580 | core-and-ecosystem |
 | 2026-08-18 | github | plugin | [dsh-frostfin](https://github.com/pzc2004/dsh-frostfin) | pzc2004 | core-and-ecosystem |

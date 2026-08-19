@@ -1,6 +1,6 @@
 # 趋势 Trends — 生态增长、活跃度与价值分布
 
-> 生成时间 2026-08-18T22:48:01Z。增长曲线来自仓库创建日期；活跃度来自全平台发布日期；价值分布来自当前 value matrix；增量仅在存在多快照时计算。
+> 生成时间 2026-08-19T02:00:09Z。增长曲线来自仓库创建日期；活跃度来自全平台发布日期；价值分布来自当前 value matrix；增量仅在存在多快照时计算。
 
 ## 生态增长（GitHub dsh-plugin 仓库/日）
 
@@ -46,9 +46,9 @@
 | 档 | 条目 | 平均 value |
 |---|---:|---:|
 | A | 2 | 80.5 |
-| B | 225 | 64.6 |
-| C | 2,091 | 52.6 |
-| D | 12,649 | 33.5 |
+| B | 226 | 64.6 |
+| C | 2,102 | 52.6 |
+| D | 12,649 | 33.4 |
 
 ## 增速榜（互动/天，含价值档）
 
@@ -56,49 +56,49 @@
 
 | 平台 | 条目 | 价值档 | 互动/天 |
 |---|---|---|---:|
-| github | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | B | 35,523 |
-| x | [DeepSeek Harness v0.1 is now available in Developer Preview!](https://x.com/deepseek_ai/status/2087887408440164663) | B | 4,947 |
-| bilibili | [【热门AI鉴定】DeepSeek Harness是什么？强在哪里？Harness实测效果如何？一口气搞懂！](https://www.bilibili.com/video/BV11CgF6uE4k) | C | 4,371 |
-| github | [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | B | 2,808 |
-| github | [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | B | 2,129 |
-| bilibili | [一个视频带你了解 DeepSeek新模型 + Harness ！｜ 赛博赵云，七进七出救阿斗。](https://www.bilibili.com/video/BV1qFuf6SEEX) | C | 983 |
+| github | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | B | 34,864 |
+| x | [DeepSeek Harness v0.1 is now available in Developer Preview!](https://x.com/deepseek_ai/status/2087887408440164663) | B | 4,828 |
+| bilibili | [【热门AI鉴定】DeepSeek Harness是什么？强在哪里？Harness实测效果如何？一口气搞懂！](https://www.bilibili.com/video/BV11CgF6uE4k) | C | 4,254 |
+| github | [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | B | 2,774 |
+| github | [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | B | 2,113 |
 | github | [nexu-io/open-design](https://github.com/nexu-io/open-design) | B | 970 |
-| github | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | B | 939 |
-| github | [xiaobright/dsh-anchored-standard](https://github.com/xiaobright/dsh-anchored-standard) | B | 864 |
-| github | [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | A | 759 |
-| x | [Pinned Tianyi Cui @tianyi · Aug 13 DeepSeek Harness was just](https://x.com/tianyi/status/2087888089759015218) | B | 547 |
-| x | [DeepSeek published their harness. 24K stars already. it’s a ](https://x.com/Hesamation/status/2087917006448173519) | B | 525 |
-| x | [Tianyi Cui @tianyi · 13h Thank you! Pi is many DeepSeek rese](https://x.com/tianyi/status/2088306143772946499) | C | 459 |
-| github | [Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-R](https://github.com/Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report) | C | 448 |
-| x | [Armin Ronacher ⇌ @mitsuhiko · 21h I don&#x27;t think the DeepSeek](https://x.com/mitsuhiko/status/2088189145952731317) | B | 427 |
+| bilibili | [一个视频带你了解 DeepSeek新模型 + Harness ！｜ 赛博赵云，七进七出救阿斗。](https://www.bilibili.com/video/BV1qFuf6SEEX) | C | 958 |
+| github | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | B | 938 |
+| github | [xiaobright/dsh-anchored-standard](https://github.com/xiaobright/dsh-anchored-standard) | B | 842 |
+| github | [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | A | 750 |
+| x | [Pinned Tianyi Cui @tianyi · Aug 13 DeepSeek Harness was just](https://x.com/tianyi/status/2087888089759015218) | B | 534 |
+| x | [DeepSeek published their harness. 24K stars already. it’s a ](https://x.com/Hesamation/status/2087917006448173519) | B | 512 |
+| x | [Tianyi Cui @tianyi · 13h Thank you! Pi is many DeepSeek rese](https://x.com/tianyi/status/2088306143772946499) | C | 445 |
+| github | [Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-R](https://github.com/Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report) | C | 432 |
+| x | [Armin Ronacher ⇌ @mitsuhiko · 21h I don&#x27;t think the DeepSeek](https://x.com/mitsuhiko/status/2088189145952731317) | B | 415 |
 
 ## 快照增量（GitHub stars，需 ≥2 次观测）
 
 | 仓库 | 快照数 | Δstars |
 |---|---:|---:|
-| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 61 | +58,788 |
-| [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | 60 | +10,575 |
-| [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | 105 | +7,223 |
-| [xiaobright/dsh-anchored-standard](https://github.com/xiaobright/dsh-anchored-standard) | 60 | +2,541 |
-| [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 60 | +2,433 |
-| [nexu-io/open-design](https://github.com/nexu-io/open-design) | 59 | +2,381 |
+| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 62 | +59,589 |
+| [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | 61 | +10,754 |
+| [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | 107 | +7,369 |
+| [xiaobright/dsh-anchored-standard](https://github.com/xiaobright/dsh-anchored-standard) | 61 | +2,552 |
+| [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 61 | +2,470 |
+| [nexu-io/open-design](https://github.com/nexu-io/open-design) | 60 | +2,436 |
 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 52 | +2,310 |
-| [liustack/modlens](https://github.com/liustack/modlens) | 59 | +1,662 |
-| [Tiger3807861189/J-Space-Cognition-Suite-V3.6](https://github.com/Tiger3807861189/J-Space-Cognition-Suite-V3.6) | 28 | +1,656 |
-| [tt-a1i/archify](https://github.com/tt-a1i/archify) | 57 | +1,532 |
+| [Tiger3807861189/J-Space-Cognition-Suite-V3.6](https://github.com/Tiger3807861189/J-Space-Cognition-Suite-V3.6) | 29 | +1,745 |
+| [liustack/modlens](https://github.com/liustack/modlens) | 60 | +1,683 |
+| [tt-a1i/archify](https://github.com/tt-a1i/archify) | 58 | +1,567 |
 
 ## 采集运行历史
 
 | dataset | 时间 | 触发 | 状态 | raw 文件 | item 观测 |
 |---|---|---|---|---:|---:|
+| v20260819T015959Z | 2026-08-19T01:59:59Z | scheduled | succeeded | 1 | 203 |
+| v20260819T015950Z | 2026-08-19T01:59:50Z | source-monitor | succeeded | 1 | 20 |
 | v20260818T224756Z | 2026-08-18T22:47:56Z | scheduled | succeeded | 1 | 263 |
 | v20260818T224749Z | 2026-08-18T22:47:49Z | source-monitor | succeeded | 1 | 17 |
 | v20260818T204653Z | 2026-08-18T20:46:53Z | scheduled | succeeded | 1 | 254 |
 | v20260818T204645Z | 2026-08-18T20:46:45Z | source-monitor | succeeded | 1 | 31 |
 | v20260818T190250Z | 2026-08-18T19:02:50Z | scheduled | succeeded | 1 | 261 |
 | v20260818T190242Z | 2026-08-18T19:02:42Z | source-monitor | succeeded | 1 | 9 |
-| v20260818T165555Z | 2026-08-18T16:55:55Z | scheduled | succeeded | 1 | 263 |
-| v20260818T165546Z | 2026-08-18T16:55:46Z | source-monitor | succeeded | 1 | 22 |
 
 ## 如何持续追踪
 

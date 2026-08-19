@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-0d30a376102e3398bf5d",
+    "name": "dsh-zen-remote",
+    "author": "KyoMio",
+    "category": "remote",
+    "version": null,
+    "homepage": "https://github.com/KyoMio/dsh-zen-remote",
+    "firstObservedAt": "2026-08-19T01:55:30Z",
+    "lastChangedAt": "2026-08-19T01:55:30Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-0d30a376102e3398bf5d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-0d30a376102e3398bf5d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-zen-remote",
+    "command": "dsh plugin --profile web add dsh-zen-remote",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-0d30a376102e3398bf5d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-0d30a376102e3398bf5d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-0d30a376102e3398bf5d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-zen-remote 已收录到 DeepSeek Harness Plugin Store。手机优先的移动端界面重排 + 配对码网关：经自建反代或 Cloudflare Tunnel 把 DSH 变成可安装、带推送的 PWA。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-0d30a376102e3398bf5d.html",
+    "en": "dsh-zen-remote is now listed on the DeepSeek Harness Plugin Store. Phone-first mobile UI rework plus a pairing-code gateway: use DSH from anywhere as an installable PWA with Web Push, behind your own reverse proxy or Cloudflare Tunnel.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-0d30a376102e3398bf5d.html"
+  }
+}

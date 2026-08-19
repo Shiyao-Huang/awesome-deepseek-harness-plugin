@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-ecc96a9974082bc265b1",
+    "name": "dsh-tool-lens",
+    "author": "trench-xinxin",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/trench-xinxin/dsh-tool-lens",
+    "firstObservedAt": "2026-08-19T01:55:30Z",
+    "lastChangedAt": "2026-08-19T01:55:30Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-ecc96a9974082bc265b1.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-ecc96a9974082bc265b1.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@trench-xinxin/dsh-tool-lens",
+    "command": "dsh plugin --profile web add @trench-xinxin/dsh-tool-lens",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-ecc96a9974082bc265b1，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-ecc96a9974082bc265b1.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-ecc96a9974082bc265b1.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-tool-lens 已收录到 DeepSeek Harness Plugin Store。确定性 AST 代码图谱与架构治理分析工具：调用链消歧、重构爆炸半径、循环依赖审计、领域切片与全栈 API 契约追踪。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-ecc96a9974082bc265b1.html",
+    "en": "dsh-tool-lens is now listed on the DeepSeek Harness Plugin Store. Deterministic AST code graph and architecture intelligence tool for call hierarchies, blast radius, circular dependencies, domain slices, and full-stack API contracts.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-ecc96a9974082bc265b1.html"
+  }
+}

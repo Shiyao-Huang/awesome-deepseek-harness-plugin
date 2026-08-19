@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-b4f256b8f3d64db19bb5",
+    "name": "tongflow#dsh-tongflow",
+    "author": "tong-io",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/tong-io/tongflow/tree/main/packages/dsh-tongflow",
+    "firstObservedAt": "2026-08-19T01:55:30Z",
+    "lastChangedAt": "2026-08-19T01:55:30Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-b4f256b8f3d64db19bb5.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-b4f256b8f3d64db19bb5.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-tongflow",
+    "command": "dsh plugin --profile web add dsh-tongflow",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-b4f256b8f3d64db19bb5，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-b4f256b8f3d64db19bb5.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b4f256b8f3d64db19bb5.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "tongflow#dsh-tongflow 已收录到 DeepSeek Harness Plugin Store。基于 TongFlow 的“片场”插件，用于图片、配音、音乐与视频制作：agent 为每个资产生成 TongFlow 工作流文件（.tongflow.json）并通过 TongFlow 插件执行，内嵌工作流画布，按镜头/角色/take 组织项目，附漫剧模板；以 @tongflow 开头的会话进入 Studio 界面。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b4f256b8f3d64db19bb5.html",
+    "en": "tongflow#dsh-tongflow is now listed on the DeepSeek Harness Plugin Store. TongFlow film-crew studio for image, voice, music and video production: the agent writes per-asset TongFlow workflow files (.tongflow.json) that run through TongFlow plugins, with an embedded workflow canvas, a shot/character/take project layout and a manga-drama template; sessions starting with @tongflow open the Studio view.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b4f256b8f3d64db19bb5.html"
+  }
+}

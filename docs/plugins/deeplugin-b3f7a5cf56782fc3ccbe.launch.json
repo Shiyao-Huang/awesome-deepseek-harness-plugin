@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-b3f7a5cf56782fc3ccbe",
+    "name": "dsh-archive-manager#plugin",
+    "author": "Neumannzc",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/Neumannzc/dsh-archive-manager/tree/main/plugin",
+    "firstObservedAt": "2026-08-19T01:55:30Z",
+    "lastChangedAt": "2026-08-19T01:55:30Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-b3f7a5cf56782fc3ccbe.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-b3f7a5cf56782fc3ccbe.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@tangzai/dsh-ui-archive-manager",
+    "command": "dsh plugin --profile web add @tangzai/dsh-ui-archive-manager",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-b3f7a5cf56782fc3ccbe，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-b3f7a5cf56782fc3ccbe.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b3f7a5cf56782fc3ccbe.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-archive-manager#plugin 已收录到 DeepSeek Harness Plugin Store。美化版归档管理设置页：按工作区分组展示归档会话，悬停即可取消归档，附相对时间显示。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b3f7a5cf56782fc3ccbe.html",
+    "en": "dsh-archive-manager#plugin is now listed on the DeepSeek Harness Plugin Store. Beautified archive-manager settings section listing archived sessions grouped by workspace, with a hover unarchive action and relative timestamps.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b3f7a5cf56782fc3ccbe.html"
+  }
+}

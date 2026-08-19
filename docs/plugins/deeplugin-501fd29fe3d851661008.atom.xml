@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-obsidian — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-501fd29fe3d851661008.atom.xml</id>
+  <updated>2026-08-19T01:55:30Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-501fd29fe3d851661008.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-501fd29fe3d851661008.html"/>
+  <entry>
+    <title>New: dsh-obsidian</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-501fd29fe3d851661008/b02d9568b7c2fe39</id>
+    <updated>2026-08-19T01:55:30Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-501fd29fe3d851661008.html"/>
+    <author><name>mingzeng21</name></author>
+    <category term="memory"/>
+    <summary>Connect dsh to a local Obsidian vault: search, read, write, move, and trash notes through `obsidian_*` tools. Exact install spec: dsh-obsidian. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

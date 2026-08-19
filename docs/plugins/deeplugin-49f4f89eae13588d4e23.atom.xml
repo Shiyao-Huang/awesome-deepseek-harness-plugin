@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>dsh-llm-cost — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-49f4f89eae13588d4e23.atom.xml</id>
-  <updated>2026-08-17T03:14:45Z</updated>
+  <updated>2026-08-19T01:55:30Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-49f4f89eae13588d4e23.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-49f4f89eae13588d4e23.html"/>
+  <entry>
+    <title>Updated: dsh-llm-cost</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-49f4f89eae13588d4e23/df9d434a95ecd996</id>
+    <updated>2026-08-19T01:55:30Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-49f4f89eae13588d4e23.html"/>
+    <author><name>chenyinrusi</name></author>
+    <category term="usage"/>
+    <summary>Per-turn and session-wide LLM cost metering: a dollar cost line under each message, a session cumulative total with hover breakdown, and an LLM+web price auto-refresh tool. Exact install spec: github:chenyinrusi/dsh-llm-cost. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
   <entry>
     <title>New: dsh-llm-cost</title>
     <id>tag:deeplugin.store,2026-08-17:deeplugin-49f4f89eae13588d4e23/6c8bd3aed28b3563</id>
@@ -12,6 +21,6 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-49f4f89eae13588d4e23.html"/>
     <author><name>chenyinrusi</name></author>
     <category term="usage"/>
-    <summary>Per-turn, per-step LLM cost metering: a costUsage session projection, a cost line under each message, and an LLM+web price auto-maintenance tool. Exact install spec: github:chenyinrusi/dsh-llm-cost. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+    <summary>Per-turn and session-wide LLM cost metering: a dollar cost line under each message, a session cumulative total with hover breakdown, and an LLM+web price auto-refresh tool. Exact install spec: github:chenyinrusi/dsh-llm-cost. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

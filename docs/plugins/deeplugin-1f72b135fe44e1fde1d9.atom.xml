@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>dsh-cost-meter — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-1f72b135fe44e1fde1d9.atom.xml</id>
-  <updated>2026-08-15T22:14:49Z</updated>
+  <updated>2026-08-19T01:55:30Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-1f72b135fe44e1fde1d9.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1f72b135fe44e1fde1d9.html"/>
+  <entry>
+    <title>Updated: dsh-cost-meter</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-1f72b135fe44e1fde1d9/5f572e2c3053e0f0</id>
+    <updated>2026-08-19T01:55:30Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1f72b135fe44e1fde1d9.html"/>
+    <author><name>Han-1413141</name></author>
+    <category term="ui"/>
+    <summary>Per-session and daily API cost, budget with usage %, official balance, history dashboard, and one-click official price sync with peak/off-peak pricing. Exact install spec: github:han-1413141/dsh-cost-meter. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
+  </entry>
   <entry>
     <title>Updated: dsh-cost-meter</title>
     <id>tag:deeplugin.store,2026-08-15:deeplugin-1f72b135fe44e1fde1d9/39c4cd8ba93a4acf</id>

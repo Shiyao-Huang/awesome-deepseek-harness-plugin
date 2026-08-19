@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>tongflow#dsh-tongflow — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-b4f256b8f3d64db19bb5.atom.xml</id>
+  <updated>2026-08-19T01:55:30Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-b4f256b8f3d64db19bb5.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b4f256b8f3d64db19bb5.html"/>
+  <entry>
+    <title>New: tongflow#dsh-tongflow</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-b4f256b8f3d64db19bb5/b02d9568b7c2fe39</id>
+    <updated>2026-08-19T01:55:30Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b4f256b8f3d64db19bb5.html"/>
+    <author><name>tong-io</name></author>
+    <category term="workflow"/>
+    <summary>TongFlow film-crew studio for image, voice, music and video production: the agent writes per-asset TongFlow workflow files (.tongflow.json) that run through TongFlow plugins, with an embedded workflow canvas, a shot/character/take project layout and a manga-drama template; sessions starting with @tongflow open the Studio view. Exact install spec: dsh-tongflow. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

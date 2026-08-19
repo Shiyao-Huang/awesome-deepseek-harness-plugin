@@ -12,7 +12,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-bfad4e535f23a68a6d3c.html"/>
     <author><name>sjh9714</name></author>
     <category term="session"/>
-    <summary>Session-wide file change review. Lists every file the agent wrote this session with its hunks, counts refused writes separately from changes, and folds from a session projection. Exact install spec: dsh-what-changed. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
+    <summary>Reviews every file the agent wrote in a session from the session header, with per-file hunks and refused writes counted apart from changes. Exact install spec: dsh-what-changed. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: sources.</summary>
   </entry>
   <entry>
     <title>New: dsh-what-changed</title>
@@ -21,6 +21,6 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-bfad4e535f23a68a6d3c.html"/>
     <author><name>sjh9714</name></author>
     <category term="session"/>
-    <summary>Session-wide file change review. Lists every file the agent wrote this session with its hunks, counts refused writes separately from changes, and folds from a session projection. Exact install spec: dsh-what-changed. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
+    <summary>Reviews every file the agent wrote in a session from the session header, with per-file hunks and refused writes counted apart from changes. Exact install spec: dsh-what-changed. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

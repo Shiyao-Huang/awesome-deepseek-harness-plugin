@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-bfad4e535f23a68a6d3c.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-what-changed 已收录到 DeepSeek Harness Plugin Store。整会话改动审阅。会话顶栏列出本次 Agent 写过的每个文件与逐处改动，被权限拒绝的写入单独计数不算改动，数据来自 session projection。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-bfad4e535f23a68a6d3c.html",
-    "en": "dsh-what-changed is now listed on the DeepSeek Harness Plugin Store. Session-wide file change review. Lists every file the agent wrote this session with its hunks, counts refused writes separately from changes, and folds from a session projection.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-bfad4e535f23a68a6d3c.html"
+    "zh": "dsh-what-changed 已收录到 DeepSeek Harness Plugin Store。在会话顶栏审阅本次会话 Agent 写过的所有文件，按文件列出逐处改动，被权限拒绝的写入单独计数不算改动。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-bfad4e535f23a68a6d3c.html",
+    "en": "dsh-what-changed is now listed on the DeepSeek Harness Plugin Store. Reviews every file the agent wrote in a session from the session header, with per-file hunks and refused writes counted apart from changes.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-bfad4e535f23a68a6d3c.html"
   }
 }

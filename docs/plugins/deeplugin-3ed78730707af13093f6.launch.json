@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-3ed78730707af13093f6",
+    "name": "dsh-wallpaper",
+    "author": "code-newbie-1",
+    "category": "theme",
+    "version": null,
+    "homepage": "https://github.com/code-newbie-1/dsh-wallpaper",
+    "firstObservedAt": "2026-08-19T01:55:30Z",
+    "lastChangedAt": "2026-08-19T01:55:30Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-3ed78730707af13093f6.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-3ed78730707af13093f6.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:code-newbie-1/dsh-wallpaper",
+    "command": "dsh plugin --profile web add github:code-newbie-1/dsh-wallpaper",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-3ed78730707af13093f6，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-3ed78730707af13093f6.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-3ed78730707af13093f6.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-wallpaper 已收录到 DeepSeek Harness Plugin Store。Wallpaper Engine 壁纸联动：把本机下载的 WE 壁纸（创意工坊 431960 + 本地 projects）设为 DSH Web GUI 页面背景（图片/视频/网页原样渲染，场景壁纸柔化为静态预览），侧边栏「壁纸设计」面板可调不透明度、作用范围、填充、模糊、暗角、帧率、视差、轮播与主题联动，附 wallpaper_scan/list/set/config 四个 agent 工具。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-3ed78730707af13093f6.html",
+    "en": "dsh-wallpaper is now listed on the DeepSeek Harness Plugin Store. Wallpaper Engine integration for the dsh web GUI: scan the local WE library (Steam workshop 431960 + local projects) and use its wallpapers as the page background — image/video/web rendered natively, scene wallpapers as softened static previews — with a wallpaper-design panel (opacity, scope, blur, vignette, fps, parallax, carousel, theme linkage) and agent tools wallpaper_scan/list/set/config.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-3ed78730707af13093f6.html"
+  }
+}

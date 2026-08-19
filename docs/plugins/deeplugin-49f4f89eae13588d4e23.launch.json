@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/chenyinrusi/dsh-llm-cost",
     "firstObservedAt": "2026-08-17T03:14:45Z",
-    "lastChangedAt": "2026-08-17T03:14:45Z"
+    "lastChangedAt": "2026-08-19T01:55:30Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-49f4f89eae13588d4e23.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-49f4f89eae13588d4e23.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-llm-cost 已收录到 DeepSeek Harness Plugin Store。每个 turn、每个 step 的 LLM 成本计量：costUsage 会话投影 + 消息下方成本行 + LLM 联网自动更新价格。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-49f4f89eae13588d4e23.html",
-    "en": "dsh-llm-cost is now listed on the DeepSeek Harness Plugin Store. Per-turn, per-step LLM cost metering: a costUsage session projection, a cost line under each message, and an LLM+web price auto-maintenance tool.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-49f4f89eae13588d4e23.html"
+    "zh": "dsh-llm-cost 已收录到 DeepSeek Harness Plugin Store。按轮次与会话统计 LLM 成本：每条消息下方显示美元成本、会话累计总额（悬停看分项），以及 LLM+联网的价格自动刷新工具。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-49f4f89eae13588d4e23.html",
+    "en": "dsh-llm-cost is now listed on the DeepSeek Harness Plugin Store. Per-turn and session-wide LLM cost metering: a dollar cost line under each message, a session cumulative total with hover breakdown, and an LLM+web price auto-refresh tool.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-49f4f89eae13588d4e23.html"
   }
 }

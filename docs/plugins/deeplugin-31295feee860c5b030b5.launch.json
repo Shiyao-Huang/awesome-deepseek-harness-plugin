@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/wanshichenguang/dsh-tool-vision",
     "firstObservedAt": "2026-08-18T03:11:15Z",
-    "lastChangedAt": "2026-08-18T03:11:15Z"
+    "lastChangedAt": "2026-08-19T01:55:30Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-31295feee860c5b030b5.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-31295feee860c5b030b5.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-tool-vision 已收录到 DeepSeek Harness Plugin Store。通过 DashScope OpenAI 兼容视觉接口提供 image_describe 识图工具；在纯文本模型会话中，将粘贴图片保存为模型可读取的本地路径，并在聊天记录中回显图片。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-31295feee860c5b030b5.html",
-    "en": "dsh-tool-vision is now listed on the DeepSeek Harness Plugin Store. Adds an image_describe tool backed by the DashScope OpenAI-compatible vision API; on text-only sessions, pasted images are stored as local paths for the model and rendered inline in the chat transcript.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-31295feee860c5b030b5.html"
+    "zh": "dsh-tool-vision 已收录到 DeepSeek Harness Plugin Store。面向模型的 image_describe（识图）工具（DashScope OpenAI 兼容接口，qwen3.7-flash）+ 粘贴桥：纯文本模型会话里粘贴的图片在发送时自动转为文件路径并在聊天记录中回显，不再触发图片准入拦截。自带 DASHSCOPE_API_KEY；端点/模型/预算可配置，重定向防护 HTTP 客户端，所有 Agent 预设均可用。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-31295feee860c5b030b5.html",
+    "en": "dsh-tool-vision is now listed on the DeepSeek Harness Plugin Store. Model-facing image_describe (识图) tool over the DashScope OpenAI-compatible API (qwen3.7-flash), plus a paste bridge: on text-only sessions, pasted images auto-convert to file paths at send time and render back in the transcript, so they never trip image admission. Bring your own DASHSCOPE_API_KEY; endpoint/model/budgets configurable, redirect-proof HTTP client, works in every agent preset.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-31295feee860c5b030b5.html"
   }
 }

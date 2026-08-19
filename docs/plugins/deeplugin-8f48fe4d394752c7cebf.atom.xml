@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-galgame-generator — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-8f48fe4d394752c7cebf.atom.xml</id>
+  <updated>2026-08-19T01:55:30Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-8f48fe4d394752c7cebf.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8f48fe4d394752c7cebf.html"/>
+  <entry>
+    <title>New: dsh-galgame-generator</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-8f48fe4d394752c7cebf/b02d9568b7c2fe39</id>
+    <updated>2026-08-19T01:55:30Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8f48fe4d394752c7cebf.html"/>
+    <author><name>baisama-cloud</name></author>
+    <category term="fun"/>
+    <summary>Galgame generator: give it a script document plus character/background/BGM/animation assets in the workspace (img_human/, img_bg/, audio/, img_cg/) and it builds a playable visual-novel web page with configurable save slots (`[存档 N]`, default 9), speaker-following sprites with multi-pose variant switching (`[表情]`), opening/ending/CG animations (`[op]`/`[ed]`/`[cg]`), BGM play/stop/volume control, and if-line branching. Exact install spec: github:baisama-cloud/dsh-galgame-generator. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>
