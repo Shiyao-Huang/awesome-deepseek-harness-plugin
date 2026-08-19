@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-1f7f8d4e399390ea626e",
+    "name": "dsh-conflict-guardian",
+    "author": "baisama-cloud",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/baisama-cloud/dsh-conflict-guardian",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-1f7f8d4e399390ea626e.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-1f7f8d4e399390ea626e.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:baisama-cloud/dsh-conflict-guardian",
+    "command": "dsh plugin --profile web add github:baisama-cloud/dsh-conflict-guardian",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-1f7f8d4e399390ea626e，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-1f7f8d4e399390ea626e.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-1f7f8d4e399390ea626e.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-conflict-guardian 已收录到 DeepSeek Harness Plugin Store。DSH 启动时扫描加载器中的插件冲突（重复挂载、启动失败、依赖缺失、配置行 id 重复），自动停用或恢复冲突插件，并在 Web 界面弹出冲突报告。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-1f7f8d4e399390ea626e.html",
+    "en": "dsh-conflict-guardian is now listed on the DeepSeek Harness Plugin Store. Scans the DSH loader tree at startup for plugin conflicts (duplicate mounts, failed or pending plugins, duplicate config row ids), auto-stops or restores the affected plugins, and shows a conflict report popup in the web UI.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-1f7f8d4e399390ea626e.html"
+  }
+}

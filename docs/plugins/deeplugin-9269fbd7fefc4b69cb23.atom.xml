@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-msg-rewind — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-9269fbd7fefc4b69cb23.atom.xml</id>
+  <updated>2026-08-19T18:56:48Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-9269fbd7fefc4b69cb23.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9269fbd7fefc4b69cb23.html"/>
+  <entry>
+    <title>New: dsh-msg-rewind</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-9269fbd7fefc4b69cb23/e830cca14e4b6adc</id>
+    <updated>2026-08-19T18:56:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9269fbd7fefc4b69cb23.html"/>
+    <author><name>flow2dream</name></author>
+    <category term="session"/>
+    <summary>Conversation rewind for dsh web: /undo rolls back one turn, /rewind cuts to a past message, and hovering a user bubble offers a visual undo. Exact install spec: github:flow2dream/dsh-msg-rewind. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

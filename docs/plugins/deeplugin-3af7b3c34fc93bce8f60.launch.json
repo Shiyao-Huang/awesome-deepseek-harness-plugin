@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-3af7b3c34fc93bce8f60",
+    "name": "dsh-scout",
+    "author": "MaxHou-infinity",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/MaxHou-infinity/dsh-scout",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-3af7b3c34fc93bce8f60.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-3af7b3c34fc93bce8f60.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:maxhou-infinity/dsh-scout",
+    "command": "dsh plugin --profile web add github:maxhou-infinity/dsh-scout",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-3af7b3c34fc93bce8f60，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-3af7b3c34fc93bce8f60.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-3af7b3c34fc93bce8f60.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-scout 已收录到 DeepSeek Harness Plugin Store。证据驱动的公司与岗位尽调插件：登记带证据等级的来源、添加受证据边界约束的结论、用官方登记信息核验公司主体，并生成推进/核验/停止三态报告，附核验清单与面试问题。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-3af7b3c34fc93bce8f60.html",
+    "en": "dsh-scout is now listed on the DeepSeek Harness Plugin Store. Evidence-driven company and job due-diligence for DSH: logs sources with evidence levels, adds evidence-bounded claims, verifies the legal entity against official registries, and renders a PROCEED/VERIFY/STOP report with a verification checklist and interview questions.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-3af7b3c34fc93bce8f60.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-798f27fbf7bcc864a46f",
+    "name": "dsh-dejaview",
+    "author": "jiang4wqy",
+    "category": "market",
+    "version": null,
+    "homepage": "https://github.com/jiang4wqy/dsh-dejaview",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-798f27fbf7bcc864a46f.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-798f27fbf7bcc864a46f.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:jiang4wqy/dsh-dejaview",
+    "command": "dsh plugin --profile web add github:jiang4wqy/dsh-dejaview",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-798f27fbf7bcc864a46f，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-798f27fbf7bcc864a46f.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-798f27fbf7bcc864a46f.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-dejaview 已收录到 DeepSeek Harness Plugin Store。在动手写 dsh 插件前，检索 awesome-dsh-plugin 注册表与 dsh-plugin GitHub topic，判断是否已有相似插件，并返回带证据的排序结果。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-798f27fbf7bcc864a46f.html",
+    "en": "dsh-dejaview is now listed on the DeepSeek Harness Plugin Store. Checks whether a similar dsh plugin already exists before you build one, searching the awesome-dsh-plugin registry and the dsh-plugin GitHub topic and returning ranked matches with evidence.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-798f27fbf7bcc864a46f.html"
+  }
+}

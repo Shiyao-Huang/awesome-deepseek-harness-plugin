@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-session-ref — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-c038f7c37515ac8f8ece.atom.xml</id>
+  <updated>2026-08-19T18:56:48Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-c038f7c37515ac8f8ece.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c038f7c37515ac8f8ece.html"/>
+  <entry>
+    <title>New: dsh-session-ref</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-c038f7c37515ac8f8ece/e830cca14e4b6adc</id>
+    <updated>2026-08-19T18:56:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c038f7c37515ac8f8ece.html"/>
+    <author><name>lacemou</name></author>
+    <category term="session"/>
+    <summary>Cross-session reference (mention) plugin — paste @[label](dsh-session:…) into any session, including one in another workspace, and the host injects the referenced session snapshot for the model to read; includes a one-click copy-reference button. Exact install spec: github:lacemou/dsh-session-ref. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

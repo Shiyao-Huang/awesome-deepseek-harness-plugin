@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-f60146621ac097f9e424",
+    "name": "dsh-client-auto-retry",
+    "author": "Frog755",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/Frog755/dsh-client-auto-retry",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-f60146621ac097f9e424.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-f60146621ac097f9e424.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:frog755/dsh-client-auto-retry",
+    "command": "dsh plugin --profile web add github:frog755/dsh-client-auto-retry",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-f60146621ac097f9e424，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-f60146621ac097f9e424.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-f60146621ac097f9e424.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-client-auto-retry 已收录到 DeepSeek Harness Plugin Store。回合中断自动续跑：turn/end 因 error / interrupted / max-tokens 结束时自动发送「继续」，支持宽限期、冷却、连续次数上限、启动扫描与设置卡片；不切换模型/provider。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-f60146621ac097f9e424.html",
+    "en": "dsh-client-auto-retry is now listed on the DeepSeek Harness Plugin Store. Auto-resumes interrupted DSH turns: sends a queued 「继续」 after turn/end with error, interrupted or max-tokens reasons, with a grace period, cooldown, a consecutive-attempts cap, boot-time scanning and a settings card; it never switches models or providers.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-f60146621ac097f9e424.html"
+  }
+}

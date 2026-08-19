@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-3372730edab1b597636d",
+    "name": "BigFish",
+    "author": "kobenfang",
+    "category": "skill",
+    "version": null,
+    "homepage": "https://github.com/kobenfang/BigFish",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-3372730edab1b597636d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-3372730edab1b597636d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:kobenfang/bigfish",
+    "command": "dsh plugin --profile web add github:kobenfang/bigfish",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-3372730edab1b597636d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-3372730edab1b597636d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-3372730edab1b597636d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "BigFish 已收录到 DeepSeek Harness Plugin Store。AI钓鱼助手技能：水面照片分析鱼情，结合天气气压推荐鱼种、钓法与饵料。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-3372730edab1b597636d.html",
+    "en": "BigFish is now listed on the DeepSeek Harness Plugin Store. Fishing assistant skill: spot analysis, fish activity and bait/lure recommendations from water photos and weather data.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-3372730edab1b597636d.html"
+  }
+}

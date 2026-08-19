@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-f2263bc221b5cd76415d",
+    "name": "dsh-punky-swarm#dsh-punky-swarm",
+    "author": "Punky971210",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/Punky971210/dsh-punky-swarm/tree/main/packages/dsh-punky-swarm",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-f2263bc221b5cd76415d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-f2263bc221b5cd76415d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:punky971210/dsh-punky-swarm#path:/packages/dsh-punky-swarm",
+    "command": "dsh plugin --profile web add github:punky971210/dsh-punky-swarm#path:/packages/dsh-punky-swarm",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-f2263bc221b5cd76415d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-f2263bc221b5cd76415d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-f2263bc221b5cd76415d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-punky-swarm#dsh-punky-swarm 已收录到 DeepSeek Harness Plugin Store。dsh 单机多子 Agent 集群治理引擎：wavePlan 三层 DAG + 引擎级门禁（Entry/L0/Exit/Complete）+ 状态机 + 锁/mailbox + 会话隔离，附蟛蜞模式预设与 jiufeng-team 角色指引。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-f2263bc221b5cd76415d.html",
+    "en": "dsh-punky-swarm#dsh-punky-swarm is now listed on the DeepSeek Harness Plugin Store. Single-machine multi-subagent swarm governance for DeepSeek Harness: fixed-semantics wavePlan (3-layer DAG), engine-enforced Tier3 gates (Entry/L0/Exit/Complete), state machine, locks/mailbox, session isolation, plus the Punky Mode preset and jiufeng-team role guide.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-f2263bc221b5cd76415d.html"
+  }
+}

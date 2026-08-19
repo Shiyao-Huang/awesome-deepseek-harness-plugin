@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-footer-order — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-45123fc04f43df2ff6ef.atom.xml</id>
+  <updated>2026-08-19T18:56:48Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-45123fc04f43df2ff6ef.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-45123fc04f43df2ff6ef.html"/>
+  <entry>
+    <title>New: dsh-footer-order</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-45123fc04f43df2ff6ef/e830cca14e4b6adc</id>
+    <updated>2026-08-19T18:56:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-45123fc04f43df2ff6ef.html"/>
+    <author><name>Choi-Peng</name></author>
+    <category term="ui"/>
+    <summary>DSH sidebar footer ordering: forces the sidebar.footer.action slot into a vertical stack and lets users configure the top-to-bottom order of its entries. Exact install spec: github:choi-peng/dsh-footer-order. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

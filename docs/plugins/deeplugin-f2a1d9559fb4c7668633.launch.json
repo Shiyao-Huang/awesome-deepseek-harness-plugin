@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-f2a1d9559fb4c7668633",
+    "name": "dsh-ultramath",
+    "author": "Andiii208",
+    "category": "skill",
+    "version": null,
+    "homepage": "https://github.com/Andiii208/dsh-ultramath",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-f2a1d9559fb4c7668633.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-f2a1d9559fb4c7668633.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:andiii208/dsh-ultramath",
+    "command": "dsh plugin --profile web add github:andiii208/dsh-ultramath",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-f2a1d9559fb4c7668633，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-f2a1d9559fb4c7668633.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-f2a1d9559fb4c7668633.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-ultramath 已收录到 DeepSeek Harness Plugin Store。数学建模竞赛多 Agent 求解工作流：「UltraMath」主控预设一个预设跑通 读题→框架→推导→编码→验算→论文→审稿 全流程，另有 数学家/工程师/作家/审稿人 4 个单阶段角色预设与 33 篇模型库技能文档。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-f2a1d9559fb4c7668633.html",
+    "en": "dsh-ultramath is now listed on the DeepSeek Harness Plugin Store. Multi-agent workflow for math-modeling contests: the \"UltraMath\" preset runs a problem from reading through framework, derivation, coding, verification, paper and review, plus 4 single-stage role presets (mathematician, engineer, writer, reviewer) and 33 model-library skill docs.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-f2a1d9559fb4c7668633.html"
+  }
+}

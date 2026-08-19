@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-c7fdcf5d92e8e979d1ff",
+    "name": "dsh-strata",
+    "author": "jsdvjx",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/jsdvjx/dsh-strata",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-c7fdcf5d92e8e979d1ff.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-c7fdcf5d92e8e979d1ff.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:jsdvjx/dsh-strata",
+    "command": "dsh plugin --profile web add github:jsdvjx/dsh-strata",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-c7fdcf5d92e8e979d1ff，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-c7fdcf5d92e8e979d1ff.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-c7fdcf5d92e8e979d1ff.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-strata 已收录到 DeepSeek Harness Plugin Store。滚动条槽位里的会话缩略图：按事件类型着色的等比色块、用户与失败锚点、滚到顶自动补载历史、悬停线索墙铺开全部发言，附近/中/全三档地图尺度切换。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c7fdcf5d92e8e979d1ff.html",
+    "en": "dsh-strata is now listed on the DeepSeek Harness Plugin Store. Session minimap in the scrollbar gutter: to-scale bands coloured by event kind, anchor dots for user messages and failures, auto-loading history at the top, a hover wall of every prompt in the session, and a three-step map scale switcher.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-c7fdcf5d92e8e979d1ff.html"
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-ci-co-pilot — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-a532dbc1119a6c98c8fe.atom.xml</id>
+  <updated>2026-08-19T18:56:48Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-a532dbc1119a6c98c8fe.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a532dbc1119a6c98c8fe.html"/>
+  <entry>
+    <title>New: dsh-ci-co-pilot</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-a532dbc1119a6c98c8fe/e830cca14e4b6adc</id>
+    <updated>2026-08-19T18:56:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a532dbc1119a6c98c8fe.html"/>
+    <author><name>temotee2103</name></author>
+    <category term="git"/>
+    <summary>GitHub CI co-pilot for DeepSeek Harness: PR review, CI failure fixing, issue triage and release notes. Exact install spec: github:temotee2103/dsh-ci-co-pilot. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

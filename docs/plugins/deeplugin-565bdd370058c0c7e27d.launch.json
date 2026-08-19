@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-565bdd370058c0c7e27d",
+    "name": "dsh-simple-wiki-memory",
+    "author": "rainow",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/rainow/dsh-simple-wiki-memory",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-565bdd370058c0c7e27d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-565bdd370058c0c7e27d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:rainow/dsh-simple-wiki-memory",
+    "command": "dsh plugin --profile web add github:rainow/dsh-simple-wiki-memory",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-565bdd370058c0c7e27d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-565bdd370058c0c7e27d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-565bdd370058c0c7e27d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-simple-wiki-memory 已收录到 DeepSeek Harness Plugin Store。超级简化版 llm-wiki 记忆插件：一个索引文档（自动加载）+ 每个主题一个 md 文件（需要时才读）——不会把所有东西塞进上下文烧 token。简单轻量，安装卸载无压力，想怎么改就怎么改。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-565bdd370058c0c7e27d.html",
+    "en": "dsh-simple-wiki-memory is now listed on the DeepSeek Harness Plugin Store. A super-simplified LLM-wiki memory plugin: one index document (auto-loaded) + one markdown file per topic (read only when needed) — no dumping everything into the context and burning tokens. Simple and lightweight, painless to install/uninstall, and freely editable however you like.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-565bdd370058c0c7e27d.html"
+  }
+}

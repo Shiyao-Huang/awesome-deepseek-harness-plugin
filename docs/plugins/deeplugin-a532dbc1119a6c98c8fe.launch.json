@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a532dbc1119a6c98c8fe",
+    "name": "dsh-ci-co-pilot",
+    "author": "temotee2103",
+    "category": "git",
+    "version": null,
+    "homepage": "https://github.com/temotee2103/dsh-ci-co-pilot",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a532dbc1119a6c98c8fe.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a532dbc1119a6c98c8fe.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:temotee2103/dsh-ci-co-pilot",
+    "command": "dsh plugin --profile web add github:temotee2103/dsh-ci-co-pilot",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a532dbc1119a6c98c8fe，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a532dbc1119a6c98c8fe.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a532dbc1119a6c98c8fe.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-ci-co-pilot 已收录到 DeepSeek Harness Plugin Store。让 DeepSeek Harness Agent 化身 GitHub 副驾：PR 审查、CI 失败修复、Issue 分类与自动发版说明。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a532dbc1119a6c98c8fe.html",
+    "en": "dsh-ci-co-pilot is now listed on the DeepSeek Harness Plugin Store. GitHub CI co-pilot for DeepSeek Harness: PR review, CI failure fixing, issue triage and release notes.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a532dbc1119a6c98c8fe.html"
+  }
+}

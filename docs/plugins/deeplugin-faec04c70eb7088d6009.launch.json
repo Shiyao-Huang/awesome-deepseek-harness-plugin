@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-faec04c70eb7088d6009",
+    "name": "new-project-init",
+    "author": "warm-flame-core",
+    "category": "skill",
+    "version": null,
+    "homepage": "https://github.com/warm-flame-core/new-project-init",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-faec04c70eb7088d6009.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-faec04c70eb7088d6009.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:warm-flame-core/new-project-init",
+    "command": "dsh plugin --profile web add github:warm-flame-core/new-project-init",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-faec04c70eb7088d6009，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-faec04c70eb7088d6009.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-faec04c70eb7088d6009.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "new-project-init 已收录到 DeepSeek Harness Plugin Store。项目文档体系初始化 skill：提问驱动落实文档规范、固化 AI 协作工作流，跨 DSH / Reasonix / Claude Code / Codex 可用。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-faec04c70eb7088d6009.html",
+    "en": "new-project-init is now listed on the DeepSeek Harness Plugin Store. Project documentation scaffolding skill: question-driven setup of project standards, AI-collaboration workflows, and memory discipline across DSH, Reasonix, Claude Code, and Codex.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-faec04c70eb7088d6009.html"
+  }
+}

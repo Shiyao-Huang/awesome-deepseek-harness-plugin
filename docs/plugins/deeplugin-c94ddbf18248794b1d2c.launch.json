@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-c94ddbf18248794b1d2c",
+    "name": "dsh-video-tools",
+    "author": "PiedPiper911",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/PiedPiper911/dsh-video-tools",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-c94ddbf18248794b1d2c.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-c94ddbf18248794b1d2c.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:piedpiper911/dsh-video-tools",
+    "command": "dsh plugin --profile web add github:piedpiper911/dsh-video-tools",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-c94ddbf18248794b1d2c，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-c94ddbf18248794b1d2c.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-c94ddbf18248794b1d2c.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-video-tools 已收录到 DeepSeek Harness Plugin Store。基于 FFmpeg.wasm 的浏览器端音视频工具集，支持抽帧、截图、图片压缩与视频转 GIF。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c94ddbf18248794b1d2c.html",
+    "en": "dsh-video-tools is now listed on the DeepSeek Harness Plugin Store. Browser-local audio/video toolkit for DSH — extract frames, capture thumbnails, compress images, and convert clips to GIF with FFmpeg.wasm.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-c94ddbf18248794b1d2c.html"
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-conflict-guardian — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-1f7f8d4e399390ea626e.atom.xml</id>
+  <updated>2026-08-19T18:56:48Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-1f7f8d4e399390ea626e.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1f7f8d4e399390ea626e.html"/>
+  <entry>
+    <title>New: dsh-conflict-guardian</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-1f7f8d4e399390ea626e/e830cca14e4b6adc</id>
+    <updated>2026-08-19T18:56:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1f7f8d4e399390ea626e.html"/>
+    <author><name>baisama-cloud</name></author>
+    <category term="dev"/>
+    <summary>Scans the DSH loader tree at startup for plugin conflicts (duplicate mounts, failed or pending plugins, duplicate config row ids), auto-stops or restores the affected plugins, and shows a conflict report popup in the web UI. Exact install spec: github:baisama-cloud/dsh-conflict-guardian. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

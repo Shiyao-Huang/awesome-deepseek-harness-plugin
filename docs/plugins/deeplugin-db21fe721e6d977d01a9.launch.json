@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-db21fe721e6d977d01a9",
+    "name": "dsh-WallpaperAndCost",
+    "author": "AppliedYuu",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/AppliedYuu/dsh-WallpaperAndCost",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-db21fe721e6d977d01a9.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-db21fe721e6d977d01a9.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:appliedyuu/dsh-wallpaperandcost",
+    "command": "dsh plugin --profile web add github:appliedyuu/dsh-wallpaperandcost",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-db21fe721e6d977d01a9，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-db21fe721e6d977d01a9.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-db21fe721e6d977d01a9.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-WallpaperAndCost 已收录到 DeepSeek Harness Plugin Store。合并插件：壁纸定制（原图不压缩、裁剪编辑器、左/中/右分区不透明度、MP4/WebM 动态壁纸）＋ Steam 创意工坊壁纸提取（内置 scripts/extract_scene_pkg.py 解析 scene.pkg/.tex，支持预览/下载）＋ DeepSeek 余额与用量小组件 ＋ OpenCode Go 套餐用量（会话顶部药丸按钮显示滚动/周/月用量百分比，点开展开进度条与重置倒计时）。各 API key 均由 host 从 DSH 凭据库读取，不入源码/浏览器。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-db21fe721e6d977d01a9.html",
+    "en": "dsh-WallpaperAndCost is now listed on the DeepSeek Harness Plugin Store. Merged plugin: wallpaper customization (original-resolution uploads, crop editor, per-area opacity, MP4/WebM dynamic wallpapers) + Steam Workshop wallpaper extraction (parses scene.pkg/.tex via a bundled Python script, preview/download) + DeepSeek balance & usage widget + OpenCode Go plan usage (rolling/weekly/monthly percents in a top header pill; expand for progress bars & reset countdowns). API keys are read from DSH's credential store by the host — never stored in source or the browser.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-db21fe721e6d977d01a9.html"
+  }
+}

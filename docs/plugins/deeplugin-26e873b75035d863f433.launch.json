@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-26e873b75035d863f433",
+    "name": "dsh-sidebar-balance",
+    "author": "zhouchengke2046",
+    "category": "usage",
+    "version": null,
+    "homepage": "https://github.com/zhouchengke2046/dsh-sidebar-balance",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-26e873b75035d863f433.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-26e873b75035d863f433.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:zhouchengke2046/dsh-sidebar-balance",
+    "command": "dsh plugin --profile web add github:zhouchengke2046/dsh-sidebar-balance",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-26e873b75035d863f433，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-26e873b75035d863f433.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-26e873b75035d863f433.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-sidebar-balance 已收录到 DeepSeek Harness Plugin Store。DSH Web 插件:在侧边栏底部显示 DeepSeek API 余额与 OpenCode Go 套餐用量(消耗圆环、悬浮详情),自适应轮询,支持中英文。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-26e873b75035d863f433.html",
+    "en": "dsh-sidebar-balance is now listed on the DeepSeek Harness Plugin Store. DeepSeek Harness plugin that shows the DeepSeek API account balance and OpenCode Go plan usage (consumption ring, hover details) in the sidebar footer, with adaptive polling and zh/en locale support.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-26e873b75035d863f433.html"
+  }
+}

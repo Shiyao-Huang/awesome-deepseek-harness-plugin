@@ -2,9 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>deeplugin.store — Updated plugins</title>
   <id>https://deeplugin.store/feeds/updated.atom.xml</id>
-  <updated>2026-08-19T16:50:01Z</updated>
+  <updated>2026-08-19T18:56:48Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/feeds/updated.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/market.html"/>
+  <entry>
+    <title>Updated: dsh-expert-mode</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-e413694ef21a213b8bdf/b7c89cf334e31318</id>
+    <updated>2026-08-19T18:56:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e413694ef21a213b8bdf.html"/>
+    <author><name>Asher-2000</name></author>
+    <category term="tools"/>
+    <summary>Expert-mode agent preset for DeepSeek Harness (v0.6.0, bilingual EN/ZH): a chief coordinator plus 11 domain-expert subagents with automatic task delegation. Features: Five-Anchor constraint (review/convergence/anti-drift/collaboration-check/resource-awareness per turn), Near-distance Guidance (identity/task/output template per expert), progressive disclosure (28% token savings), expert persistence, cross-expert communication protocol, cross review, experience pool, fast-track for simple tasks, fault recovery with auto-retry. Experts: data analyst, copywriter, legal review, product manager, frontend, UI/UX, architect, social media ops, growth hacker, quant finance, finance. Exact install spec: github:asher-2000/dsh-expert-mode. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
+  <entry>
+    <title>Updated: engramory#plugin</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-d53801f87f57b6cac209/8f1a49a99dcdbae5</id>
+    <updated>2026-08-19T18:56:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d53801f87f57b6cac209.html"/>
+    <author><name>tinqiao-oss</name></author>
+    <category term="memory"/>
+    <summary>Long-term memory for DeepSeek Harness kept as plain markdown, one fact per file, readable in any editor. The `MEMORY.md` index has a hard 200-line / 25 KB cap enforced by `ctx.tools.guard()`: a write that would grow an over-cap index is denied, while a rewrite that shrinks it always passes, so an oversized index can be compacted step by step. The plugin never writes memories on its own — what is kept is decided by you and the model. The same store is also used by Claude Code, Codex, Kiro and OpenClaw. Exact install spec: dsh-engramory. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: entry_name, description, description_i18n.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-sticky-notes</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-c7b35d8f84fb7c666e63/b7c89cf334e31318</id>
+    <updated>2026-08-19T18:56:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c7b35d8f84fb7c666e63.html"/>
+    <author><name>flyhigao</name></author>
+    <category term="ui"/>
+    <summary>Workspace sticky notes for DSH, saved as multiple Markdown files under the current workspace. Exact install spec: github:flyhigao/dsh-sticky-notes. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
   <entry>
     <title>Updated: sandbase-skills</title>
     <id>tag:deeplugin.store,2026-08-19:deeplugin-02418ac6819c8ed46f68/9348e4834846bfee</id>
@@ -708,15 +735,6 @@
     <summary>The `dsh pm` plugin manager: multi-source search (awesome list + GitHub + npm), install/remove/update per profile, and a doctor audit of manifests, bundle patches, and version drift. Exact install spec: github:jesse-njx/dsh-plugin-manager. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
   </entry>
   <entry>
-    <title>Updated: dsh-expert-mode</title>
-    <id>tag:deeplugin.store,2026-08-18:deeplugin-e413694ef21a213b8bdf/2f55afd7a0c11c72</id>
-    <updated>2026-08-18T14:55:11Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e413694ef21a213b8bdf.html"/>
-    <author><name>Asher-2000</name></author>
-    <category term="tools"/>
-    <summary>Expert-mode agent preset for DeepSeek Harness (v0.3.0, bilingual EN/ZH): a chief coordinator plus 11 domain-expert subagents with automatic task delegation. Features: Five-Anchor constraint (review/convergence/anti-drift/collaboration-check/resource-awareness per turn), Near-distance Guidance (identity/task/output template per expert), expert persistence, cross-expert communication protocol, cross review, and experience pool. Experts: data analyst, copywriter, legal review, product manager, frontend, UI/UX, architect, social media ops, growth hacker, quant finance, finance. Exact install spec: github:asher-2000/dsh-expert-mode. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
-  </entry>
-  <entry>
     <title>Updated: dsh-custom-theme-import</title>
     <id>tag:deeplugin.store,2026-08-18:deeplugin-1f078152c3befba2fd2f/cf093bf0fe85ed65</id>
     <updated>2026-08-18T14:55:11Z</updated>
@@ -886,23 +904,5 @@
     <author><name>lkdx0220</name></author>
     <category term="theme"/>
     <summary>A Genshin Impact "Odette" themed DSH UI skin: dark/light dual-mode background images, frosted-glass overrides for 13 theme tokens, and a chibi mascot sidebar toggle; install via npm. Exact install spec: github:lkdx0220/genshin-odette-skin-dsh. Source event: beancookie/awesome-dsh-plugin; changed: description_i18n.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-movein</title>
-    <id>tag:deeplugin.store,2026-08-18:deeplugin-9efe167816318f863fa0/2e30ed01cf3778a6</id>
-    <updated>2026-08-18T04:53:19Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9efe167816318f863fa0.html"/>
-    <author><name>sjh9714</name></author>
-    <category term="dev"/>
-    <summary>Migrate and import a whole Claude Code or Codex setup into DSH. Skills, slash commands, MCP servers, hooks, subagents and permission rules, with a dry-run moving estimate, a migration diff report and a post-move doctor; installs as a plugin exposing a movein_from_claude_code tool so the agent can do the move for you. Exact install spec: dsh-movein. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-expression</title>
-    <id>tag:deeplugin.store,2026-08-18:deeplugin-661ee2f894748c82a3f9/1e5372ab8df5d28f</id>
-    <updated>2026-08-18T04:53:19Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-661ee2f894748c82a3f9.html"/>
-    <author><name>yyh-001</name></author>
-    <category term="fun"/>
-    <summary>Meme search, the fun way: describe the vibe, and the agent finds and sends a real meme that actually fits. Exact install spec: dsh-expression. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
   </entry>
 </feed>

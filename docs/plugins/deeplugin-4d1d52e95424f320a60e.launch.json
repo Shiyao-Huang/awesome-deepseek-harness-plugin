@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-4d1d52e95424f320a60e",
+    "name": "dsh-task-worktree",
+    "author": "Letter2025",
+    "category": "git",
+    "version": null,
+    "homepage": "https://github.com/Letter2025/dsh-task-worktree",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-4d1d52e95424f320a60e.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-4d1d52e95424f320a60e.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:letter2025/dsh-task-worktree",
+    "command": "dsh plugin --profile web add github:letter2025/dsh-task-worktree",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-4d1d52e95424f320a60e，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-4d1d52e95424f320a60e.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-4d1d52e95424f320a60e.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-task-worktree 已收录到 DeepSeek Harness Plugin Store。完整的任务级 git worktree：per-repo manifest 永久保存、分支名即路径（支持斜杠如 refactor/logging）、带回主目录或直接提交两种收尾、可携带主工作区未提交改动。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-4d1d52e95424f320a60e.html",
+    "en": "dsh-task-worktree is now listed on the DeepSeek Harness Plugin Store. Complete task-scoped git worktrees for DSH: per-repo manifest for durable state, branch-and-path names (slashes allowed, e.g. refactor/logging), bring-back to main or direct commit, optional carry-over of uncommitted main changes.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-4d1d52e95424f320a60e.html"
+  }
+}

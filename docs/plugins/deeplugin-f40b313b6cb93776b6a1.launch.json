@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-f40b313b6cb93776b6a1",
+    "name": "dsh-deepseek-balance",
+    "author": "Bob-Bo1",
+    "category": "usage",
+    "version": null,
+    "homepage": "https://github.com/Bob-Bo1/dsh-deepseek-balance",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-f40b313b6cb93776b6a1.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-f40b313b6cb93776b6a1.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:bob-bo1/dsh-deepseek-balance",
+    "command": "dsh plugin --profile web add github:bob-bo1/dsh-deepseek-balance",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-f40b313b6cb93776b6a1，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-f40b313b6cb93776b6a1.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-f40b313b6cb93776b6a1.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-deepseek-balance 已收录到 DeepSeek Harness Plugin Store。在 DSH 中查看 DeepSeek API 余额及本机 Flash 和 Pro 消费统计。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-f40b313b6cb93776b6a1.html",
+    "en": "dsh-deepseek-balance is now listed on the DeepSeek Harness Plugin Store. Shows DeepSeek API balance and local DSH Flash and Pro usage costs.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-f40b313b6cb93776b6a1.html"
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-client-auto-retry — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-f60146621ac097f9e424.atom.xml</id>
+  <updated>2026-08-19T18:56:48Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-f60146621ac097f9e424.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f60146621ac097f9e424.html"/>
+  <entry>
+    <title>New: dsh-client-auto-retry</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-f60146621ac097f9e424/e830cca14e4b6adc</id>
+    <updated>2026-08-19T18:56:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f60146621ac097f9e424.html"/>
+    <author><name>Frog755</name></author>
+    <category term="session"/>
+    <summary>Auto-resumes interrupted DSH turns: sends a queued 「继续」 after turn/end with error, interrupted or max-tokens reasons, with a grace period, cooldown, a consecutive-attempts cap, boot-time scanning and a settings card; it never switches models or providers. Exact install spec: github:frog755/dsh-client-auto-retry. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

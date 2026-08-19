@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ListForm — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-e41716cad8203c9fe66e.atom.xml</id>
+  <updated>2026-08-19T18:56:48Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-e41716cad8203c9fe66e.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e41716cad8203c9fe66e.html"/>
+  <entry>
+    <title>New: ListForm</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-e41716cad8203c9fe66e/e830cca14e4b6adc</id>
+    <updated>2026-08-19T18:56:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e41716cad8203c9fe66e.html"/>
+    <author><name>kobenfang</name></author>
+    <category term="skill"/>
+    <summary>Smart form skill: structured record-keeping for bills, ledgers and logs with auto-categorization and periodic reports. Exact install spec: github:kobenfang/listform. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

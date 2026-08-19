@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-25dce452eca173d83dfc",
+    "name": "dsh-ui-tools",
+    "author": "xing-shuyin",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/xing-shuyin/dsh-ui-tools",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-25dce452eca173d83dfc.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-25dce452eca173d83dfc.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:xing-shuyin/dsh-ui-tools",
+    "command": "dsh plugin --profile web add github:xing-shuyin/dsh-ui-tools",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-25dce452eca173d83dfc，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-25dce452eca173d83dfc.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-25dce452eca173d83dfc.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-ui-tools 已收录到 DeepSeek Harness Plugin Store。dsh Web UI 开发者工具面板：文件浏览/预览/编辑与路径式文件提及、多终端（快捷命令）、Git 面板（提交/推送/拉取/分支）与后台任务管理。UI 移植自 pi-web-ui。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-25dce452eca173d83dfc.html",
+    "en": "dsh-ui-tools is now listed on the DeepSeek Harness Plugin Store. Developer tools panel for the DSH web UI: file browser with preview, edit, and path-only file mentions; multi-tab terminals with quick commands; Git panel with commit, push, pull, and branch switching; and background job management. UI ported from pi-web-ui.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-25dce452eca173d83dfc.html"
+  }
+}

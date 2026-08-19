@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-strata — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-c7fdcf5d92e8e979d1ff.atom.xml</id>
+  <updated>2026-08-19T18:56:48Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-c7fdcf5d92e8e979d1ff.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c7fdcf5d92e8e979d1ff.html"/>
+  <entry>
+    <title>New: dsh-strata</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-c7fdcf5d92e8e979d1ff/e830cca14e4b6adc</id>
+    <updated>2026-08-19T18:56:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c7fdcf5d92e8e979d1ff.html"/>
+    <author><name>jsdvjx</name></author>
+    <category term="ui"/>
+    <summary>Session minimap in the scrollbar gutter: to-scale bands coloured by event kind, anchor dots for user messages and failures, auto-loading history at the top, a hover wall of every prompt in the session, and a three-step map scale switcher. Exact install spec: github:jsdvjx/dsh-strata. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

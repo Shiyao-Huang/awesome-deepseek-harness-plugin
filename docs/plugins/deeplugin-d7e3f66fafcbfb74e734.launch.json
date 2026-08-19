@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-d7e3f66fafcbfb74e734",
+    "name": "dsh-plugin-video-player",
+    "author": "anitman",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/anitman/dsh-plugin-video-player",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-d7e3f66fafcbfb74e734.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-d7e3f66fafcbfb74e734.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:anitman/dsh-plugin-video-player",
+    "command": "dsh plugin --profile web add github:anitman/dsh-plugin-video-player",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-d7e3f66fafcbfb74e734，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-d7e3f66fafcbfb74e734.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-d7e3f66fafcbfb74e734.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-video-player 已收录到 DeepSeek Harness Plugin Store。侧栏浮动窗口里的抖音式刷视频：本地/SMB NAS 文件夹上下滑动，或粘贴在线视频地址（yt-dlp 解析，支持 bilibili/YouTube 与 cookies.txt 登录态）；窗口随视频宽高比自适应，支持全屏、拖动缩放、Range 流式播放，并提供 agent 视频推送队列端点。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-d7e3f66fafcbfb74e734.html",
+    "en": "dsh-plugin-video-player is now listed on the DeepSeek Harness Plugin Store. TikTok-style video feed in a floating sidebar window: swipe local or SMB-NAS folders, or paste online video URLs (yt-dlp, bilibili/YouTube, cookies.txt login state); the window auto-fits the video aspect ratio, with fullscreen, drag-resize, Range streaming and an agent video-queue endpoint.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-d7e3f66fafcbfb74e734.html"
+  }
+}

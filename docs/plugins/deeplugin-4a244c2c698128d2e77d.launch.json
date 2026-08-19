@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-4a244c2c698128d2e77d",
+    "name": "dsh-reference-anything",
+    "author": "Chael-Chael",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/Chael-Chael/dsh-reference-anything",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-4a244c2c698128d2e77d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-4a244c2c698128d2e77d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:chael-chael/dsh-reference-anything",
+    "command": "dsh plugin --profile web add github:chael-chael/dsh-reference-anything",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-4a244c2c698128d2e77d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-4a244c2c698128d2e77d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-4a244c2c698128d2e77d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-reference-anything 已收录到 DeepSeek Harness Plugin Store。从 DSH 统一的 @ 菜单中引用工作区文件、DSH 会话，以及 ChatGPT、Claude、Gemini、DeepSeek、Grok 和 Kimi 的历史对话。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-4a244c2c698128d2e77d.html",
+    "en": "dsh-reference-anything is now listed on the DeepSeek Harness Plugin Store. Reference workspace files, DSH sessions, and historical ChatGPT, Claude, Gemini, DeepSeek, Grok, and Kimi conversations from the unified DSH @ menu.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-4a244c2c698128d2e77d.html"
+  }
+}

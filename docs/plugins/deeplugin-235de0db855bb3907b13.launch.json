@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-235de0db855bb3907b13",
+    "name": "dsh-project-context",
+    "author": "buhuikongpan",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/buhuikongpan/dsh-project-context",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-235de0db855bb3907b13.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-235de0db855bb3907b13.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:buhuikongpan/dsh-project-context",
+    "command": "dsh plugin --profile web add github:buhuikongpan/dsh-project-context",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-235de0db855bb3907b13，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-235de0db855bb3907b13.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-235de0db855bb3907b13.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-project-context 已收录到 DeepSeek Harness Plugin Store。把 DSH 工作区文件夹变成项目：新会话自动注入精简的「项目工作区约定」上下文（先读代码、空目录即新建项目）；输入框旁每会话「项目」开关可将会话显式降级为普通工作区（状态渲染式注入，关时有提示，不整块消失），状态存于会话日志。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-235de0db855bb3907b13.html",
+    "en": "dsh-project-context is now listed on the DeepSeek Harness Plugin Store. Turns each DSH workspace into a project: every new session auto-injects a project-workspace convention (read code before acting, empty folder means a brand-new project); a per-session Project toggle in the composer downgrades the session to a plain workspace with an explicit notice, with the state kept in the session log.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-235de0db855bb3907b13.html"
+  }
+}

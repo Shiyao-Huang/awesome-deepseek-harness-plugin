@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-b3fe188e9d09dc2b4063",
+    "name": "dsh-attachments",
+    "author": "WJZ-P",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/WJZ-P/dsh-attachments",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-b3fe188e9d09dc2b4063.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-b3fe188e9d09dc2b4063.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:wjz-p/dsh-attachments",
+    "command": "dsh plugin --profile web add github:wjz-p/dsh-attachments",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-b3fe188e9d09dc2b4063，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-b3fe188e9d09dc2b4063.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b3fe188e9d09dc2b4063.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-attachments 已收录到 DeepSeek Harness Plugin Store。为 Web UI 添加文件与文件夹拖放附件，提供输入栏卡片、持久化历史记录与工作区路径。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b3fe188e9d09dc2b4063.html",
+    "en": "dsh-attachments is now listed on the DeepSeek Harness Plugin Store. Adds file and folder drag-and-drop attachments to the Web UI, with composer cards, persistent history, and workspace-backed paths.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b3fe188e9d09dc2b4063.html"
+  }
+}

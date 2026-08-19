@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-80896ac4a1fbaf970572",
+    "name": "dsh-web-startup-auth",
+    "author": "GDWhisper",
+    "category": "security",
+    "version": null,
+    "homepage": "https://github.com/GDWhisper/dsh-web-startup-auth",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-80896ac4a1fbaf970572.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-80896ac4a1fbaf970572.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:gdwhisper/dsh-web-startup-auth",
+    "command": "dsh plugin --profile web add github:gdwhisper/dsh-web-startup-auth",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-80896ac4a1fbaf970572，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-80896ac4a1fbaf970572.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-80896ac4a1fbaf970572.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-web-startup-auth 已收录到 DeepSeek Harness Plugin Store。替换 dsh web 启动器以允许绑定 0.0.0.0，并以账号密码登录为门槛：签名会话 cookie、/api 路由保护、设置面板认证标签页，以及轮换签名密钥使全部会话失效的重置 CLI。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-80896ac4a1fbaf970572.html",
+    "en": "dsh-web-startup-auth is now listed on the DeepSeek Harness Plugin Store. Replaces the dsh web startup to allow binding 0.0.0.0, gated by username/password login: signed session cookies, /api route protection, an auth tab in the settings panel, and a reset CLI that rotates the signing key to invalidate all sessions.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-80896ac4a1fbaf970572.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-f97c99bd06134357481d",
+    "name": "dsh-ears",
+    "author": "WizisCool",
+    "category": "voice",
+    "version": null,
+    "homepage": "https://github.com/WizisCool/dsh-ears",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-f97c99bd06134357481d.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-f97c99bd06134357481d.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:wiziscool/dsh-ears",
+    "command": "dsh plugin --profile web add github:wiziscool/dsh-ears",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-f97c99bd06134357481d，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-f97c99bd06134357481d.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-f97c99bd06134357481d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-ears 已收录到 DeepSeek Harness Plugin Store。面向 DeepSeek Harness (dsh) 的语音输入插件：输入框的麦克风按钮把语音转成草稿文本，支持多种语音识别后端，可选经 dsh 自有 LLM 路由润色，并带原生设置页。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-f97c99bd06134357481d.html",
+    "en": "dsh-ears is now listed on the DeepSeek Harness Plugin Store. Voice input plugin for DeepSeek Harness (dsh): a microphone button in the composer turns speech into a draft transcript, with a choice of speech-recognition backends, optional polish through dsh own LLM routes, and a native settings page.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-f97c99bd06134357481d.html"
+  }
+}

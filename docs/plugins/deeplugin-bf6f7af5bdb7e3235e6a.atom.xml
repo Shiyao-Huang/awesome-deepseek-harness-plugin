@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-memory-setup — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-bf6f7af5bdb7e3235e6a.atom.xml</id>
+  <updated>2026-08-19T18:56:48Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-bf6f7af5bdb7e3235e6a.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-bf6f7af5bdb7e3235e6a.html"/>
+  <entry>
+    <title>New: dsh-memory-setup</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-bf6f7af5bdb7e3235e6a/e830cca14e4b6adc</id>
+    <updated>2026-08-19T18:56:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-bf6f7af5bdb7e3235e6a.html"/>
+    <author><name>863683348</name></author>
+    <category term="memory"/>
+    <summary>Local, auditable personal memory for DeepSeek Harness: preferences, project conventions, workflows and error lessons persisted as a changelogged JSON file in the workspace, with onboarding, auto project-convention extraction and evidence-backed lessons. Exact install spec: github:863683348/dsh-memory-setup. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

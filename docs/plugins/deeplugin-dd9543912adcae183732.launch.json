@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-dd9543912adcae183732",
+    "name": "dsh-plugin-heartbeat",
+    "author": "LittleBlackTong",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/LittleBlackTong/dsh-plugin-heartbeat",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-dd9543912adcae183732.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-dd9543912adcae183732.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:littleblacktong/dsh-plugin-heartbeat",
+    "command": "dsh plugin --profile web add github:littleblacktong/dsh-plugin-heartbeat",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-dd9543912adcae183732，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-dd9543912adcae183732.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-dd9543912adcae183732.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-heartbeat 已收录到 DeepSeek Harness Plugin Store。定时心跳：用 followup 注入唤醒每个根 agent 主动汇报进展、风险与卡点——忙碌时排队不打断、最多保留一条、连续无人回应自动暂停，用户下一条消息即恢复。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-dd9543912adcae183732.html",
+    "en": "dsh-plugin-heartbeat is now listed on the DeepSeek Harness Plugin Store. Interval heartbeat that wakes each root agent itself (followup injection) to proactively report progress, risks or blockers: busy-safe queuing, no stacking, auto-pauses when no human replies, re-arms on the next user message.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-dd9543912adcae183732.html"
+  }
+}

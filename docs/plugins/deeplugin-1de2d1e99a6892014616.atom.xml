@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-task-runner — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-1de2d1e99a6892014616.atom.xml</id>
+  <updated>2026-08-19T18:56:48Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-1de2d1e99a6892014616.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1de2d1e99a6892014616.html"/>
+  <entry>
+    <title>New: dsh-task-runner</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-1de2d1e99a6892014616/e830cca14e4b6adc</id>
+    <updated>2026-08-19T18:56:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1de2d1e99a6892014616.html"/>
+    <author><name>jing-hy</name></author>
+    <category term="tools"/>
+    <summary>Project/task dual-mode workspaces for DSH: a task skips the workspace picker and gets a fresh scratch directory (D:\dsh_working\&lt;name&gt;-&lt;timestamp&gt;) per conversation, Codex-style; no-workspace sessions are grouped under a persistent Tasks section in the sidebar with empty states, and the new-session workspace picker gains a "no workspace (task)" option. Exact install spec: github:jing-hy/dsh-task-runner. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

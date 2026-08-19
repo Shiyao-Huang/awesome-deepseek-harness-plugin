@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-33dde90498b0f979d3ec",
+    "name": "agent-team",
+    "author": "limuyang2",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/limuyang2/agent-team",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-33dde90498b0f979d3ec.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-33dde90498b0f979d3ec.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:limuyang2/agent-team",
+    "command": "dsh plugin --profile web add github:limuyang2/agent-team",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-33dde90498b0f979d3ec，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-33dde90498b0f979d3ec.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-33dde90498b0f979d3ec.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "agent-team 已收录到 DeepSeek Harness Plugin Store。为 DeepSeek Harness 提供多 Agent 团队协作，支持助手独立模型、Skills、MCP 服务与上下文，以及共享工作区、任务协调和会话管理。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-33dde90498b0f979d3ec.html",
+    "en": "agent-team is now listed on the DeepSeek Harness Plugin Store. Multi-agent team collaboration for DeepSeek Harness with per-assistant models, skills, MCP servers, independent contexts, shared workspaces, task coordination, and conversation management.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-33dde90498b0f979d3ec.html"
+  }
+}

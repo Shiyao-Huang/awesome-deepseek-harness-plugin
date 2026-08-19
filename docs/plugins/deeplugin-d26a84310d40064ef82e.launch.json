@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-d26a84310d40064ef82e",
+    "name": "dsh-editor",
+    "author": "yangshen830-eng",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/yangshen830-eng/dsh-editor",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-d26a84310d40064ef82e.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-d26a84310d40064ef82e.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:yangshen830-eng/dsh-editor",
+    "command": "dsh plugin --profile web add github:yangshen830-eng/dsh-editor",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-d26a84310d40064ef82e，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-d26a84310d40064ef82e.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-d26a84310d40064ef82e.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-editor 已收录到 DeepSeek Harness Plugin Store。VS Code 风格代码编辑器：侧边栏文件树浏览工作区，Monaco 编辑，文件读写，Git 状态与差异，搜索与 Markdown 预览。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-d26a84310d40064ef82e.html",
+    "en": "dsh-editor is now listed on the DeepSeek Harness Plugin Store. VS Code-style code editor: sidebar file tree over the workspace, Monaco editing, file read/write, Git status and diff, search, and Markdown preview.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-d26a84310d40064ef82e.html"
+  }
+}

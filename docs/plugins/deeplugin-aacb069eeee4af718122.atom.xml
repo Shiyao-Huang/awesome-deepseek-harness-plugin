@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-image-gen — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-aacb069eeee4af718122.atom.xml</id>
+  <updated>2026-08-19T18:56:48Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-aacb069eeee4af718122.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-aacb069eeee4af718122.html"/>
+  <entry>
+    <title>New: dsh-image-gen</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-aacb069eeee4af718122/e830cca14e4b6adc</id>
+    <updated>2026-08-19T18:56:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-aacb069eeee4af718122.html"/>
+    <author><name>shanliuling</name></author>
+    <category term="workflow"/>
+    <summary>Native conversational image generation for DeepSeek Harness: ask the agent to create an image, and it handles generation and keeps the result directly in the conversation. Exact install spec: github:shanliuling/dsh-image-gen. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

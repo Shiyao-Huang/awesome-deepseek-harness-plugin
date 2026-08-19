@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-b41195f1a89887239e1c",
+    "name": "dsh-more-agent-presets",
+    "author": "R-LEI2536",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/R-LEI2536/dsh-more-agent-presets",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-b41195f1a89887239e1c.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-b41195f1a89887239e1c.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:r-lei2536/dsh-more-agent-presets",
+    "command": "dsh plugin --profile web add github:r-lei2536/dsh-more-agent-presets",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-b41195f1a89887239e1c，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-b41195f1a89887239e1c.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b41195f1a89887239e1c.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-more-agent-presets 已收录到 DeepSeek Harness Plugin Store。为 DSH 提供更多智能体预设，衍生自其他编程智能体（例如 Qwen Code、iFlow）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b41195f1a89887239e1c.html",
+    "en": "dsh-more-agent-presets is now listed on the DeepSeek Harness Plugin Store. More agent presets for DSH, derived from other coding agents such as Qwen Code and iFlow.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b41195f1a89887239e1c.html"
+  }
+}

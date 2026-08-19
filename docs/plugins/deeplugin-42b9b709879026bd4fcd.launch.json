@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-42b9b709879026bd4fcd",
+    "name": "dsh-firstrun",
+    "author": "zoahdev",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/zoahdev/dsh-firstrun",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-42b9b709879026bd4fcd.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-42b9b709879026bd4fcd.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:zoahdev/dsh-firstrun",
+    "command": "dsh plugin --profile web add github:zoahdev/dsh-firstrun",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-42b9b709879026bd4fcd，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-42b9b709879026bd4fcd.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-42b9b709879026bd4fcd.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-firstrun 已收录到 DeepSeek Harness Plugin Store。DeepSeek Harness 首次运行体检：检查 Node/pnpm/dsh 工具链、home、profile、API Key（只显示名称、绝不显示值）、工作区可写性与 npm 注册表，并给出可执行下一步——CLI + agent 可调用 quickstart 工具，dsh-firstrun/v1 报告，零运行时依赖。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-42b9b709879026bd4fcd.html",
+    "en": "dsh-firstrun is now listed on the DeepSeek Harness Plugin Store. First-run health check for DeepSeek Harness: verifies Node/pnpm/dsh toolchain, home, profile, API key (names only, never values), workspace writability and npm registry, then prints actionable next steps — CLI plus an agent-callable quickstart tool, dsh-firstrun/v1 reports, zero runtime deps.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-42b9b709879026bd4fcd.html"
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-crew — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-d083ad2b88ebcdaad0ed.atom.xml</id>
+  <updated>2026-08-19T18:56:48Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-d083ad2b88ebcdaad0ed.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d083ad2b88ebcdaad0ed.html"/>
+  <entry>
+    <title>New: dsh-crew</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-d083ad2b88ebcdaad0ed/e830cca14e4b6adc</id>
+    <updated>2026-08-19T18:56:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d083ad2b88ebcdaad0ed.html"/>
+    <author><name>ZSeven-W</name></author>
+    <category term="workflow"/>
+    <summary>Dispatch work to DSH agents from Claude Code or Codex: native subagent progress, in-host worker sessions with per-tier presets, and a multimodal bridge for vision and image generation. Exact install spec: github:zseven-w/dsh-crew. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

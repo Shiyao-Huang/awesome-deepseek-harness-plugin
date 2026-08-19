@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-scout — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-3af7b3c34fc93bce8f60.atom.xml</id>
+  <updated>2026-08-19T18:56:48Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-3af7b3c34fc93bce8f60.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-3af7b3c34fc93bce8f60.html"/>
+  <entry>
+    <title>New: dsh-scout</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-3af7b3c34fc93bce8f60/e830cca14e4b6adc</id>
+    <updated>2026-08-19T18:56:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-3af7b3c34fc93bce8f60.html"/>
+    <author><name>MaxHou-infinity</name></author>
+    <category term="tools"/>
+    <summary>Evidence-driven company and job due-diligence for DSH: logs sources with evidence levels, adds evidence-bounded claims, verifies the legal entity against official registries, and renders a PROCEED/VERIFY/STOP report with a verification checklist and interview questions. Exact install spec: github:maxhou-infinity/dsh-scout. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

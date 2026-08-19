@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-1de2d1e99a6892014616",
+    "name": "dsh-task-runner",
+    "author": "jing-hy",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/jing-hy/dsh-task-runner",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-1de2d1e99a6892014616.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-1de2d1e99a6892014616.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:jing-hy/dsh-task-runner",
+    "command": "dsh plugin --profile web add github:jing-hy/dsh-task-runner",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-1de2d1e99a6892014616，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-1de2d1e99a6892014616.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-1de2d1e99a6892014616.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-task-runner 已收录到 DeepSeek Harness Plugin Store。DSH 项目/任务双模式工作区：任务不绑定工作区，每次新对话在 D:\\dsh_working\\<名称>-<时间戳> 自动创建独立临时目录（类 Codex）；侧边栏\"任务\"分组常驻显示所有无工作区会话并带空状态提示，新建会话的工作区选择器增加\"无工作区（任务）\"选项。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-1de2d1e99a6892014616.html",
+    "en": "dsh-task-runner is now listed on the DeepSeek Harness Plugin Store. Project/task dual-mode workspaces for DSH: a task skips the workspace picker and gets a fresh scratch directory (D:\\dsh_working\\<name>-<timestamp>) per conversation, Codex-style; no-workspace sessions are grouped under a persistent Tasks section in the sidebar with empty states, and the new-session workspace picker gains a \"no workspace (task)\" option.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-1de2d1e99a6892014616.html"
+  }
+}

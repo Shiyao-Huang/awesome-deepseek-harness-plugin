@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-91303f8b0e799e911dd7",
+    "name": "dsh-quota",
+    "author": "Minokun",
+    "category": "usage",
+    "version": null,
+    "homepage": "https://github.com/Minokun/dsh-quota",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-91303f8b0e799e911dd7.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-91303f8b0e799e911dd7.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:minokun/dsh-quota",
+    "command": "dsh plugin --profile web add github:minokun/dsh-quota",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-91303f8b0e799e911dd7，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-91303f8b0e799e911dd7.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-91303f8b0e799e911dd7.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-quota 已收录到 DeepSeek Harness Plugin Store。右下角「会员额度」悬浮球与面板，聚合各 AI 平台套餐额度（Kimi Code、DeepSeek、智谱 Coding Plan、BigModel、通义千问、超算、TokenRouter、SupaWriter），API key 自动同步自 DSH 凭证域，彩色进度条展示用量。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-91303f8b0e799e911dd7.html",
+    "en": "dsh-quota is now listed on the DeepSeek Harness Plugin Store. Bottom-right quota pill and panel aggregating membership quotas across AI platforms (Kimi Code, DeepSeek, Zhipu Coding Plan, BigModel, Qwen, Scnet, TokenRouter, SupaWriter), auto-syncing API keys from the DSH credentials domain with colored usage bars.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-91303f8b0e799e911dd7.html"
+  }
+}

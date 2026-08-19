@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-c038f7c37515ac8f8ece",
+    "name": "dsh-session-ref",
+    "author": "lacemou",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/lacemou/dsh-session-ref",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-c038f7c37515ac8f8ece.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-c038f7c37515ac8f8ece.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:lacemou/dsh-session-ref",
+    "command": "dsh plugin --profile web add github:lacemou/dsh-session-ref",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-c038f7c37515ac8f8ece，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-c038f7c37515ac8f8ece.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-c038f7c37515ac8f8ece.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-session-ref 已收录到 DeepSeek Harness Plugin Store。跨会话引用插件：在任意会话（含其他工作区）粘贴 @[label](dsh-session:…) 引用，宿主注入被引用会话的快照供模型阅读，并提供一键复制引用按钮。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c038f7c37515ac8f8ece.html",
+    "en": "dsh-session-ref is now listed on the DeepSeek Harness Plugin Store. Cross-session reference (mention) plugin — paste @[label](dsh-session:…) into any session, including one in another workspace, and the host injects the referenced session snapshot for the model to read; includes a one-click copy-reference button.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-c038f7c37515ac8f8ece.html"
+  }
+}

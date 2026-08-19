@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-d083ad2b88ebcdaad0ed",
+    "name": "dsh-crew",
+    "author": "ZSeven-W",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/ZSeven-W/dsh-crew",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-d083ad2b88ebcdaad0ed.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-d083ad2b88ebcdaad0ed.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:zseven-w/dsh-crew",
+    "command": "dsh plugin --profile web add github:zseven-w/dsh-crew",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-d083ad2b88ebcdaad0ed，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-d083ad2b88ebcdaad0ed.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-d083ad2b88ebcdaad0ed.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-crew 已收录到 DeepSeek Harness Plugin Store。从 Claude Code / Codex 派发任务给 DSH Agent：原生子代理进度、按能力分层预设的宿主内工作会话，以及为纯文本 Harness 提供视觉与图像生成的多模态桥。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-d083ad2b88ebcdaad0ed.html",
+    "en": "dsh-crew is now listed on the DeepSeek Harness Plugin Store. Dispatch work to DSH agents from Claude Code or Codex: native subagent progress, in-host worker sessions with per-tier presets, and a multimodal bridge for vision and image generation.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-d083ad2b88ebcdaad0ed.html"
+  }
+}

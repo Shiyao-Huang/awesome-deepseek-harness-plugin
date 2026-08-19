@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-editor — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-d26a84310d40064ef82e.atom.xml</id>
+  <updated>2026-08-19T18:56:48Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-d26a84310d40064ef82e.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d26a84310d40064ef82e.html"/>
+  <entry>
+    <title>New: dsh-editor</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-d26a84310d40064ef82e/e830cca14e4b6adc</id>
+    <updated>2026-08-19T18:56:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d26a84310d40064ef82e.html"/>
+    <author><name>yangshen830-eng</name></author>
+    <category term="ui"/>
+    <summary>VS Code-style code editor: sidebar file tree over the workspace, Monaco editing, file read/write, Git status and diff, search, and Markdown preview. Exact install spec: github:yangshen830-eng/dsh-editor. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

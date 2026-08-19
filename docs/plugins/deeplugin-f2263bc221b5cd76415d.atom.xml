@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-punky-swarm#dsh-punky-swarm — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-f2263bc221b5cd76415d.atom.xml</id>
+  <updated>2026-08-19T18:56:48Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-f2263bc221b5cd76415d.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f2263bc221b5cd76415d.html"/>
+  <entry>
+    <title>New: dsh-punky-swarm#dsh-punky-swarm</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-f2263bc221b5cd76415d/e830cca14e4b6adc</id>
+    <updated>2026-08-19T18:56:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f2263bc221b5cd76415d.html"/>
+    <author><name>Punky971210</name></author>
+    <category term="workflow"/>
+    <summary>Single-machine multi-subagent swarm governance for DeepSeek Harness: fixed-semantics wavePlan (3-layer DAG), engine-enforced Tier3 gates (Entry/L0/Exit/Complete), state machine, locks/mailbox, session isolation, plus the Punky Mode preset and jiufeng-team role guide. Exact install spec: github:punky971210/dsh-punky-swarm#path:/packages/dsh-punky-swarm. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

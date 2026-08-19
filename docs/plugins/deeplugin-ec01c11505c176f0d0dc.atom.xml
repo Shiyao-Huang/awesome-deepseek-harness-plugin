@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>toolshrink — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-ec01c11505c176f0d0dc.atom.xml</id>
+  <updated>2026-08-19T18:56:48Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-ec01c11505c176f0d0dc.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ec01c11505c176f0d0dc.html"/>
+  <entry>
+    <title>New: toolshrink</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-ec01c11505c176f0d0dc/e830cca14e4b6adc</id>
+    <updated>2026-08-19T18:56:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ec01c11505c176f0d0dc.html"/>
+    <author><name>unclecode</name></author>
+    <category term="tools"/>
+    <summary>Content-aware tool-result reducer: 13 reducers cut oversized output by meaning at tools/post-execute (failing tests kept, diff context dropped, JSON and CSV sampled, lint problems grouped by rule, dependency stack frames collapsed, crowded directories counted), with full originals spilled to disk behind a locator. Exact install spec: github:unclecode/toolshrink. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

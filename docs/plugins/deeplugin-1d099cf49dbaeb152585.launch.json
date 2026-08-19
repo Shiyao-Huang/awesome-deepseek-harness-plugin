@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-1d099cf49dbaeb152585",
+    "name": "dsh-llm-retry-settings",
+    "author": "zeng6125-rgb",
+    "category": "model",
+    "version": null,
+    "homepage": "https://github.com/zeng6125-rgb/dsh-llm-retry-settings",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-1d099cf49dbaeb152585.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-1d099cf49dbaeb152585.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:zeng6125-rgb/dsh-llm-retry-settings",
+    "command": "dsh plugin --profile web add github:zeng6125-rgb/dsh-llm-retry-settings",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-1d099cf49dbaeb152585，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-1d099cf49dbaeb152585.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-1d099cf49dbaeb152585.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-llm-retry-settings 已收录到 DeepSeek Harness Plugin Store。在 DSH 设置里调整 LLM 自动重试的次数与退避时间并实时生效的设置卡片。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-1d099cf49dbaeb152585.html",
+    "en": "dsh-llm-retry-settings is now listed on the DeepSeek Harness Plugin Store. Settings card to tune the DSH LLM auto-retry policy (retry count, backoff, jitter) live from Settings → General.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-1d099cf49dbaeb152585.html"
+  }
+}

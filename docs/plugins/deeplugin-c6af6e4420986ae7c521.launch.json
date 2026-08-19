@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-c6af6e4420986ae7c521",
+    "name": "dsh-plugin-memory",
+    "author": "LittleBlackTong",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/LittleBlackTong/dsh-plugin-memory",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-c6af6e4420986ae7c521.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-c6af6e4420986ae7c521.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:littleblacktong/dsh-plugin-memory",
+    "command": "dsh plugin --profile web add github:littleblacktong/dsh-plugin-memory",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-c6af6e4420986ae7c521，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-c6af6e4420986ae7c521.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-c6af6e4420986ae7c521.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-memory 已收录到 DeepSeek Harness Plugin Store。带 LLM Wiki 结构与 SOUL 人格文件的长期 markdown 记忆库：会话启动强制注入 boot 块，含 remember/recall/consolidate/forget 工作流、内嵌 memory 技能与 pack/unpack 迁移工具。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c6af6e4420986ae7c521.html",
+    "en": "dsh-plugin-memory is now listed on the DeepSeek Harness Plugin Store. Long-term cross-session markdown memory with an LLM-Wiki structure and a SOUL.md persona, hard-injected at every session start, plus remember/recall/consolidate/forget workflows, an embedded memory skill and pack/unpack migration tooling.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-c6af6e4420986ae7c521.html"
+  }
+}

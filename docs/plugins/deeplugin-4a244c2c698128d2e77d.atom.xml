@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-reference-anything — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-4a244c2c698128d2e77d.atom.xml</id>
+  <updated>2026-08-19T18:56:48Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-4a244c2c698128d2e77d.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-4a244c2c698128d2e77d.html"/>
+  <entry>
+    <title>New: dsh-reference-anything</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-4a244c2c698128d2e77d/e830cca14e4b6adc</id>
+    <updated>2026-08-19T18:56:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-4a244c2c698128d2e77d.html"/>
+    <author><name>Chael-Chael</name></author>
+    <category term="session"/>
+    <summary>Reference workspace files, DSH sessions, and historical ChatGPT, Claude, Gemini, DeepSeek, Grok, and Kimi conversations from the unified DSH @ menu. Exact install spec: github:chael-chael/dsh-reference-anything. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

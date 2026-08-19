@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-ui-three-body — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-88ec63aef6ff846bc567.atom.xml</id>
+  <updated>2026-08-19T18:56:48Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-88ec63aef6ff846bc567.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-88ec63aef6ff846bc567.html"/>
+  <entry>
+    <title>New: dsh-ui-three-body</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-88ec63aef6ff846bc567/e830cca14e4b6adc</id>
+    <updated>2026-08-19T18:56:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-88ec63aef6ff846bc567.html"/>
+    <author><name>EternalNight996</name></author>
+    <category term="ui"/>
+    <summary>Adds a sentient floating eye to DeepSeek Harness — injects a taming kernel that makes the AI truly understand you, with 11 dynamic eye skins, ghost mode, and zero token cost when AI mode is off. Exact install spec: github:eternalnight996/dsh-ui-three-body. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

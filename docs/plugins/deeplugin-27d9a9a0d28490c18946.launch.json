@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-27d9a9a0d28490c18946",
+    "name": "bigA",
+    "author": "kobenfang",
+    "category": "skill",
+    "version": null,
+    "homepage": "https://github.com/kobenfang/bigA",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-27d9a9a0d28490c18946.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-27d9a9a0d28490c18946.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:kobenfang/biga",
+    "command": "dsh plugin --profile web add github:kobenfang/biga",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-27d9a9a0d28490c18946，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-27d9a9a0d28490c18946.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-27d9a9a0d28490c18946.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "bigA 已收录到 DeepSeek Harness Plugin Store。A股智能选股技能：实时行情、技术面择时分、买卖信号与动态股票池。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-27d9a9a0d28490c18946.html",
+    "en": "bigA is now listed on the DeepSeek Harness Plugin Store. A-share stock analysis and screening skill: real-time quotes, technical timing scores, buy/sell signals and a managed watchlist.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-27d9a9a0d28490c18946.html"
+  }
+}

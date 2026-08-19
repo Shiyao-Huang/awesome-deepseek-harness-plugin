@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-ec01c11505c176f0d0dc",
+    "name": "toolshrink",
+    "author": "unclecode",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/unclecode/toolshrink",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-ec01c11505c176f0d0dc.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-ec01c11505c176f0d0dc.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:unclecode/toolshrink",
+    "command": "dsh plugin --profile web add github:unclecode/toolshrink",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-ec01c11505c176f0d0dc，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-ec01c11505c176f0d0dc.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-ec01c11505c176f0d0dc.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "toolshrink 已收录到 DeepSeek Harness Plugin Store。按内容语义压缩工具结果：13 个 reducer 在 tools/post-execute 阶段按含义裁剪超长输出（保留失败的测试、丢弃 diff 上下文、对 JSON 与 CSV 抽样、lint 问题按规则归类、依赖库的调用栈帧折叠、文件过多的目录只给计数），完整原文落盘保存并留一个定位符可取回。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-ec01c11505c176f0d0dc.html",
+    "en": "toolshrink is now listed on the DeepSeek Harness Plugin Store. Content-aware tool-result reducer: 13 reducers cut oversized output by meaning at tools/post-execute (failing tests kept, diff context dropped, JSON and CSV sampled, lint problems grouped by rule, dependency stack frames collapsed, crowded directories counted), with full originals spilled to disk behind a locator.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-ec01c11505c176f0d0dc.html"
+  }
+}

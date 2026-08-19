@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-model-capabilities — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-2ada928c73cc698bf8e7.atom.xml</id>
+  <updated>2026-08-19T18:56:48Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-2ada928c73cc698bf8e7.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-2ada928c73cc698bf8e7.html"/>
+  <entry>
+    <title>New: dsh-model-capabilities</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-2ada928c73cc698bf8e7/e830cca14e4b6adc</id>
+    <updated>2026-08-19T18:56:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-2ada928c73cc698bf8e7.html"/>
+    <author><name>WJZ-P</name></author>
+    <category term="model"/>
+    <summary>Adds an input-modality selector to custom model settings in the DeepSeek Harness Web UI. Exact install spec: github:wjz-p/dsh-model-capabilities. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

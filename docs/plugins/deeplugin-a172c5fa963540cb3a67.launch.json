@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-a172c5fa963540cb3a67",
+    "name": "dsh-plugin-thinking-api",
+    "author": "qjf44",
+    "category": "model",
+    "version": null,
+    "homepage": "https://github.com/qjf44/dsh-plugin-thinking-api",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-a172c5fa963540cb3a67.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-a172c5fa963540cb3a67.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:qjf44/dsh-plugin-thinking-api",
+    "command": "dsh plugin --profile web add github:qjf44/dsh-plugin-thinking-api",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-a172c5fa963540cb3a67，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-a172c5fa963540cb3a67.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-a172c5fa963540cb3a67.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-plugin-thinking-api 已收录到 DeepSeek Harness Plugin Store。一键接入 OpenAI 兼容 API（CodeBuddy、vLLM、各类代理）并开启思考模式，绕开第三方端点以 content_filter 拒绝 developer 角色的问题。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-a172c5fa963540cb3a67.html",
+    "en": "dsh-plugin-thinking-api is now listed on the DeepSeek Harness Plugin Store. One-click OpenAI-compatible API (CodeBuddy/vLLM/proxies) with thinking mode, avoiding developer-role content_filter rejection.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-a172c5fa963540cb3a67.html"
+  }
+}

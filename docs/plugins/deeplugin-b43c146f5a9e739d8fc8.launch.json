@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-b43c146f5a9e739d8fc8",
+    "name": "dsh-shareone-plugin",
+    "author": "sudoprivacy",
+    "category": "docs",
+    "version": null,
+    "homepage": "https://github.com/sudoprivacy/dsh-shareone-plugin",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-b43c146f5a9e739d8fc8.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-b43c146f5a9e739d8fc8.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:sudoprivacy/dsh-shareone-plugin",
+    "command": "dsh plugin --profile web add github:sudoprivacy/dsh-shareone-plugin",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-b43c146f5a9e739d8fc8，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-b43c146f5a9e739d8fc8.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b43c146f5a9e739d8fc8.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-shareone-plugin 已收录到 DeepSeek Harness Plugin Store。将 TXT、Markdown、HTML、PDF、Word 和 PowerPoint 文件发布为 ShareOne 分享链接，支持访问密码、水印、文本页面更新和 TXT/Markdown/HTML 评论。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b43c146f5a9e739d8fc8.html",
+    "en": "dsh-shareone-plugin is now listed on the DeepSeek Harness Plugin Store. Publish TXT, Markdown, HTML, PDF, Word, and PowerPoint files as ShareOne links with passwords, watermarks, text-page updates, and TXT/Markdown/HTML comments.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b43c146f5a9e739d8fc8.html"
+  }
+}

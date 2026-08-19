@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-9108f21a21644cd742e0",
+    "name": "dsh-write-gate",
+    "author": "couldbeme",
+    "category": "security",
+    "version": null,
+    "homepage": "https://github.com/couldbeme/dsh-write-gate",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-9108f21a21644cd742e0.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-9108f21a21644cd742e0.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:couldbeme/dsh-write-gate",
+    "command": "dsh plugin --profile web add github:couldbeme/dsh-write-gate",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-9108f21a21644cd742e0，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-9108f21a21644cd742e0.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-9108f21a21644cd742e0.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-write-gate 已收录到 DeepSeek Harness Plugin Store。承诺写入闸门：由运营者编写的规则在工具调用执行前生效——先是一层确定性守卫，再是一层 LLM 裁判，默认失败即拒绝，每一次拦截都写进矛盾日志。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-9108f21a21644cd742e0.html",
+    "en": "dsh-write-gate is now listed on the DeepSeek Harness Plugin Store. Commitment write-gate: operator-authored rules enforced before a tool call runs — a deterministic guard tier plus an LLM-judge tier, fail-closed by default, every block written to a contradictions log.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-9108f21a21644cd742e0.html"
+  }
+}

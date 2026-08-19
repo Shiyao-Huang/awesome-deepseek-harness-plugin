@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-bf6f7af5bdb7e3235e6a",
+    "name": "dsh-memory-setup",
+    "author": "863683348",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/863683348/dsh-memory-setup",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-bf6f7af5bdb7e3235e6a.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-bf6f7af5bdb7e3235e6a.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:863683348/dsh-memory-setup",
+    "command": "dsh plugin --profile web add github:863683348/dsh-memory-setup",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-bf6f7af5bdb7e3235e6a，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-bf6f7af5bdb7e3235e6a.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-bf6f7af5bdb7e3235e6a.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-memory-setup 已收录到 DeepSeek Harness Plugin Store。解决 AI 金鱼脑：本地可审计的个人记忆层——偏好、项目约定、工作流与纠错教训，以带变更日志与完整性校验的 JSON 持久化在工作区，支持一次性设置、项目约定自动提取、证据化教训与快照恢复。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-bf6f7af5bdb7e3235e6a.html",
+    "en": "dsh-memory-setup is now listed on the DeepSeek Harness Plugin Store. Local, auditable personal memory for DeepSeek Harness: preferences, project conventions, workflows and error lessons persisted as a changelogged JSON file in the workspace, with onboarding, auto project-convention extraction and evidence-backed lessons.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-bf6f7af5bdb7e3235e6a.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-88ec63aef6ff846bc567",
+    "name": "dsh-ui-three-body",
+    "author": "EternalNight996",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/EternalNight996/dsh-ui-three-body",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-88ec63aef6ff846bc567.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-88ec63aef6ff846bc567.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:eternalnight996/dsh-ui-three-body",
+    "command": "dsh plugin --profile web add github:eternalnight996/dsh-ui-three-body",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-88ec63aef6ff846bc567，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-88ec63aef6ff846bc567.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-88ec63aef6ff846bc567.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-ui-three-body 已收录到 DeepSeek Harness Plugin Store。给 DeepSeek Harness 装上会开智的智子：注入驯兽内核让 AI 真正懂你，11 款动态皮肤、幽灵模式，关闭 AI 模式即零 token 消耗。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-88ec63aef6ff846bc567.html",
+    "en": "dsh-ui-three-body is now listed on the DeepSeek Harness Plugin Store. Adds a sentient floating eye to DeepSeek Harness — injects a taming kernel that makes the AI truly understand you, with 11 dynamic eye skins, ghost mode, and zero token cost when AI mode is off.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-88ec63aef6ff846bc567.html"
+  }
+}

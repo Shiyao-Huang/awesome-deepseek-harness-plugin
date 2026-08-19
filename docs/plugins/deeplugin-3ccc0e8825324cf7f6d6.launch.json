@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-3ccc0e8825324cf7f6d6",
+    "name": "dsh-at-any",
+    "author": "hatsuyuki0103",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/hatsuyuki0103/dsh-at-any",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-3ccc0e8825324cf7f6d6.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-3ccc0e8825324cf7f6d6.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:hatsuyuki0103/dsh-at-any",
+    "command": "dsh plugin --profile web add github:hatsuyuki0103/dsh-at-any",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-3ccc0e8825324cf7f6d6，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-3ccc0e8825324cf7f6d6.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-3ccc0e8825324cf7f6d6.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-at-any 已收录到 DeepSeek Harness Plugin Store。Codex 风格的 `@file` 文件引用：输入框里搜索并引用工作区所有格式的文件（.java、.vue、PDF、图片、无扩展名、隐藏文件），无索引上限。dsh-at-file 的替代品。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-3ccc0e8825324cf7f6d6.html",
+    "en": "dsh-at-any is now listed on the DeepSeek Harness Plugin Store. Codex-style `@file` mentions for the web GUI: search and reference workspace files of every format (.java, .vue, PDF, images, extension-less, hidden) with no index truncation. Replaces dsh-at-file.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-3ccc0e8825324cf7f6d6.html"
+  }
+}

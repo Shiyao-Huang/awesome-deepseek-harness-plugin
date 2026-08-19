@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-7f4c53596e3375d171cd",
+    "name": "dsh-AIR",
+    "author": "kaieye",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/kaieye/dsh-AIR",
+    "firstObservedAt": "2026-08-19T18:56:48Z",
+    "lastChangedAt": "2026-08-19T18:56:48Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-7f4c53596e3375d171cd.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-7f4c53596e3375d171cd.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:kaieye/dsh-air",
+    "command": "dsh plugin --profile web add github:kaieye/dsh-air",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-7f4c53596e3375d171cd，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-7f4c53596e3375d171cd.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-7f4c53596e3375d171cd.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-AIR 已收录到 DeepSeek Harness Plugin Store。DSH Web 输入框增强：跨会话召回已发送提示词、用 Ctrl+R 搜索并还原富草稿，以及提供停靠式 /btw 或 /side 旁路会话。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-7f4c53596e3375d171cd.html",
+    "en": "dsh-AIR is now listed on the DeepSeek Harness Plugin Store. Web composer enhancement: recalls sent prompts across sessions with ArrowUp/ArrowDown, searches them with Ctrl+R, restores rich drafts, and opens a docked /btw or /side conversation.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-7f4c53596e3375d171cd.html"
+  }
+}

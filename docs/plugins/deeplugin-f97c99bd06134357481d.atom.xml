@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-ears — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-f97c99bd06134357481d.atom.xml</id>
+  <updated>2026-08-19T18:56:48Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-f97c99bd06134357481d.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f97c99bd06134357481d.html"/>
+  <entry>
+    <title>New: dsh-ears</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-f97c99bd06134357481d/e830cca14e4b6adc</id>
+    <updated>2026-08-19T18:56:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f97c99bd06134357481d.html"/>
+    <author><name>WizisCool</name></author>
+    <category term="voice"/>
+    <summary>Voice input plugin for DeepSeek Harness (dsh): a microphone button in the composer turns speech into a draft transcript, with a choice of speech-recognition backends, optional polish through dsh own LLM routes, and a native settings page. Exact install spec: github:wiziscool/dsh-ears. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

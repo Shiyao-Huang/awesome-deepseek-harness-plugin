@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-simple-wiki-memory — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-565bdd370058c0c7e27d.atom.xml</id>
+  <updated>2026-08-19T18:56:48Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-565bdd370058c0c7e27d.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-565bdd370058c0c7e27d.html"/>
+  <entry>
+    <title>New: dsh-simple-wiki-memory</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-565bdd370058c0c7e27d/e830cca14e4b6adc</id>
+    <updated>2026-08-19T18:56:48Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-565bdd370058c0c7e27d.html"/>
+    <author><name>rainow</name></author>
+    <category term="memory"/>
+    <summary>A super-simplified LLM-wiki memory plugin: one index document (auto-loaded) + one markdown file per topic (read only when needed) — no dumping everything into the context and burning tokens. Simple and lightweight, painless to install/uninstall, and freely editable however you like. Exact install spec: github:rainow/dsh-simple-wiki-memory. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>
