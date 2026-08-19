@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>sandbase-skills — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-02418ac6819c8ed46f68.atom.xml</id>
-  <updated>2026-08-19T14:56:47Z</updated>
+  <updated>2026-08-19T16:50:01Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-02418ac6819c8ed46f68.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-02418ac6819c8ed46f68.html"/>
+  <entry>
+    <title>Updated: sandbase-skills</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-02418ac6819c8ed46f68/9348e4834846bfee</id>
+    <updated>2026-08-19T16:50:01Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-02418ac6819c8ed46f68.html"/>
+    <author><name>sandbaseai</name></author>
+    <category term="skill"/>
+    <summary>88 Agent Skills for research, social intelligence, marketing, and business workflows, mounted through a native DSH bundle with optional project-scoped installation of multi-source-search. Exact install spec: github:sandbaseai/sandbase-skills. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
   <entry>
     <title>New: sandbase-skills</title>
     <id>tag:deeplugin.store,2026-08-19:deeplugin-02418ac6819c8ed46f68/71476531b93f83d6</id>
@@ -12,6 +21,6 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-02418ac6819c8ed46f68.html"/>
     <author><name>sandbaseai</name></author>
     <category term="skill"/>
-    <summary>Mounts 88 packaged research, social-intelligence, marketing and business Agent Skills into dsh through the filesystem Skill provider. Exact install spec: github:sandbaseai/sandbase-skills. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+    <summary>88 Agent Skills for research, social intelligence, marketing, and business workflows, mounted through a native DSH bundle with optional project-scoped installation of multi-source-search. Exact install spec: github:sandbaseai/sandbase-skills. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

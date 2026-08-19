@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>deeplugin.store — Updated plugins</title>
   <id>https://deeplugin.store/feeds/updated.atom.xml</id>
-  <updated>2026-08-19T14:56:47Z</updated>
+  <updated>2026-08-19T16:50:01Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/feeds/updated.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/market.html"/>
+  <entry>
+    <title>Updated: sandbase-skills</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-02418ac6819c8ed46f68/9348e4834846bfee</id>
+    <updated>2026-08-19T16:50:01Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-02418ac6819c8ed46f68.html"/>
+    <author><name>sandbaseai</name></author>
+    <category term="skill"/>
+    <summary>88 Agent Skills for research, social intelligence, marketing, and business workflows, mounted through a native DSH bundle with optional project-scoped installation of multi-source-search. Exact install spec: github:sandbaseai/sandbase-skills. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
   <entry>
     <title>Updated: dsh-univer-office</title>
     <id>tag:deeplugin.store,2026-08-19:deeplugin-eeb21300b1e6737897cc/e113f3dd21be0046</id>
@@ -895,14 +904,5 @@
     <author><name>yyh-001</name></author>
     <category term="fun"/>
     <summary>Meme search, the fun way: describe the vibe, and the agent finds and sends a real meme that actually fits. Exact install spec: dsh-expression. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-harness-zh</title>
-    <id>tag:deeplugin.store,2026-08-18:deeplugin-3ca0dee24ab505438698/1e5372ab8df5d28f</id>
-    <updated>2026-08-18T04:53:19Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-3ca0dee24ab505438698.html"/>
-    <author><name>zjl1989-li</name></author>
-    <category term="tools"/>
-    <summary>Chinese localization for DeepSeek Harness: translates all system prompts, tool descriptions, and runtime contexts into Chinese at runtime via the system-prompt/assemble waterfall (1788 entries, zero source modification, uninstall restores English). Exact install spec: github:zjl1989-li/dsh-harness-zh. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
   </entry>
 </feed>

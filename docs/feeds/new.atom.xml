@@ -480,7 +480,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-02418ac6819c8ed46f68.html"/>
     <author><name>sandbaseai</name></author>
     <category term="skill"/>
-    <summary>Mounts 88 packaged research, social-intelligence, marketing and business Agent Skills into dsh through the filesystem Skill provider. Exact install spec: github:sandbaseai/sandbase-skills. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+    <summary>88 Agent Skills for research, social intelligence, marketing, and business workflows, mounted through a native DSH bundle with optional project-scoped installation of multi-source-search. Exact install spec: github:sandbaseai/sandbase-skills. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
   <entry>
     <title>New: dsh-design-qa</title>

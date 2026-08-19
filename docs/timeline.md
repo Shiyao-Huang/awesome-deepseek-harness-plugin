@@ -5,6 +5,14 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 2026-08-19T16:50:01Z | github | ecosystem-reference | [DshCockpit](https://github.com/Lxiayu/DshCockpit) | Lxiayu | core-and-ecosystem |
+| 2026-08-19T16:50:01Z | github | plugin | [dsh-approve-for-me](https://github.com/timeance/dsh-approve-for-me) | timeance | core-and-ecosystem |
+| 2026-08-19T16:50:01Z | github | plugin | [dsh-grafana](https://github.com/guhanfei-ai/dsh-grafana) | guhanfei-ai | core-and-ecosystem |
+| 2026-08-19T16:50:01Z | github | plugin | [dsh-harmony](https://github.com/memorax-ai/dsh-harmony) | memorax-ai | core-and-ecosystem |
+| 2026-08-19T16:50:01Z | github | plugin | [dsh-knowledge](https://github.com/Soren-ABT/dsh-knowledge) | Soren-ABT | core-and-ecosystem |
+| 2026-08-19T16:50:01Z | github | plugin | [dsh-nested-followups](https://github.com/sluminositys/dsh-nested-followups) | sluminositys | core-and-ecosystem |
+| 2026-08-19T16:50:01Z | github | plugin | [dsh-trading-toolkit](https://github.com/kentleenot/dsh-trading-toolkit) | kentleenot | core-and-ecosystem |
+| 2026-08-19T16:50:01Z | github | ecosystem-reference | [pptfast](https://github.com/liustack/pptfast) | liustack | core-and-ecosystem |
 | 2026-08-19 | github | plugin | [DSH-Balance-display](https://github.com/yoiizesdev-crypto/DSH-Balance-display) | yoiizesdev-crypto | index-and-marketplace |
 | 2026-08-19 | github | plugin | [DSH-dseyes](https://github.com/Okkay712/DSH-dseyes) | Okkay712 | multimedia-and-vision |
 | 2026-08-19 | github | plugin | [dsh-Almost_Full_Access](https://github.com/Alnita-M/dsh-Almost_Full_Access) | Alnita-M | core-and-ecosystem |
@@ -14564,7 +14572,7 @@
 | 2026-08-13T13:02:19Z | github | fork | [MinecraftSTL/deepseek-harness](https://github.com/MinecraftSTL/deepseek-harness) | MinecraftSTL | deepseek-harness-forks |
 | 2026-08-13T13:02:19Z | github | fork | [ye-zi-233/deepseek-harness](https://github.com/ye-zi-233/deepseek-harness) | ye-zi-233 | deepseek-harness-forks |
 | 2026-08-13T13:02:16Z | github | fork | [minqifeng/deepseek-harness](https://github.com/minqifeng/deepseek-harness) | minqifeng | deepseek-harness-forks |
-| 2026-08-16 | github | repository | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | Small-tailqwq | core-and-ecosystem |
+| 2026-08-16 | github | repository | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | Small-tailqwq | ui-and-desktop |
 | 2026-08-13T13:02:12Z | github | fork | [Andy-611/deepseek-harness](https://github.com/Andy-611/deepseek-harness) | Andy-611 | deepseek-harness-forks |
 | 2026-08-13T13:02:10Z | github | fork | [aleestardust233/my-dsh](https://github.com/aleestardust233/my-dsh) | aleestardust233 | deepseek-harness-forks |
 | 2026-08-13T13:02:10Z | github | fork | [nevin47/deepseek-harness](https://github.com/nevin47/deepseek-harness) | nevin47 | deepseek-harness-forks |
