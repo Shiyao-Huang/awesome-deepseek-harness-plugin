@@ -14883,6 +14883,7 @@
 | 2026-02-10T09:15:25Z | github | repository | [alaliqing/claude-paper](https://github.com/alaliqing/claude-paper) | alaliqing | docs-and-learning |
 | 2026-02-10T05:47:00Z | github | repository | [yogsoth-ai/de-anthropocentric-research-engine](https://github.com/yogsoth-ai/de-anthropocentric-research-engine) | yogsoth-ai | agents-and-orchestration |
 | 2026-02-10T03:53:07Z | hacker_news | story | [Show HN: Kore – Stack based language where compiler is the reward function](https://news.ycombinator.com/item?id=46955143) | processorx | operations-and-safety |
+| 2026-02-09T09:22:50Z | github | repository | [xintaofei/codeg](https://github.com/xintaofei/codeg) | xintaofei | ui-and-desktop |
 | 2026-02-05T10:51:17Z | github | repository | [mergisi/awesome-openclaw-agents](https://github.com/mergisi/awesome-openclaw-agents) | mergisi | index-and-marketplace |
 | 2026-02-05T07:48:16Z | github | repository | [labring/sealos-skills](https://github.com/labring/sealos-skills) | labring | multimedia-and-vision |
 | 2026-02-03T15:08:25Z | github | repository | [zhukunpenglinyutong/desktop-cc-gui](https://github.com/zhukunpenglinyutong/desktop-cc-gui) | zhukunpenglinyutong | ui-and-desktop |
