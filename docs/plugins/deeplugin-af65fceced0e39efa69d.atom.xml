@@ -2,13 +2,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>dsh-harmony — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-af65fceced0e39efa69d.atom.xml</id>
-  <updated>2026-08-19T04:53:59Z</updated>
+  <updated>2026-08-19T07:08:11Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-af65fceced0e39efa69d.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-af65fceced0e39efa69d.html"/>
   <entry>
     <title>New: dsh-harmony</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-af65fceced0e39efa69d/fcbeba65b8c724cd</id>
-    <updated>2026-08-19T04:53:59Z</updated>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-af65fceced0e39efa69d/14996366b6307d90</id>
+    <updated>2026-08-19T07:08:11Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-af65fceced0e39efa69d.html"/>
     <author><name>CH4ACKO3</name></author>
     <category term="dev"/>

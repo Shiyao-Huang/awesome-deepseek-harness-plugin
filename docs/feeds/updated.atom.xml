@@ -2,22 +2,58 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>deeplugin.store — Updated plugins</title>
   <id>https://deeplugin.store/feeds/updated.atom.xml</id>
-  <updated>2026-08-19T04:53:59Z</updated>
+  <updated>2026-08-19T07:08:11Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/feeds/updated.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/market.html"/>
   <entry>
     <title>Updated: dsh-skin-digital-arcade</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-d897bade6583029e942e/d1a5597c1bee58fe</id>
-    <updated>2026-08-19T04:53:59Z</updated>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-d897bade6583029e942e/e2c7d9bae90d89c1</id>
+    <updated>2026-08-19T07:08:11Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d897bade6583029e942e.html"/>
     <author><name>RizenHNT</name></author>
     <category term="theme"/>
     <summary>Digital arcade HUD skin: neon cyan/violet/magenta palette, Fusion Pixel fonts, animated sprites (city backdrop, data core, mascot), custom crosshair cursor; light and dark themes follow the system. Exact install spec: github:rizenhnt/dsh-skin-digital-arcade. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
   </entry>
   <entry>
+    <title>Updated: dsh-plugins#skin-gallery</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-c0815ef700c292c337f8/33390484d60da333</id>
+    <updated>2026-08-19T07:08:11Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c0815ef700c292c337f8.html"/>
+    <author><name>wsxwj123</name></author>
+    <category term="theme"/>
+    <summary>Nine complete dsh-web-ui skin replicas with custom skin-pack import, preview, apply, delete, restore-default, and readability fixes for bubbles and code blocks. Exact install spec: github:wsxwj123/dsh-plugins#path:/packages/skin-gallery. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-plugins#turn-scrubber</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-bbf28021e2e95aa2ab32/33390484d60da333</id>
+    <updated>2026-08-19T07:08:11Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-bbf28021e2e95aa2ab32.html"/>
+    <author><name>wsxwj123</name></author>
+    <category term="ui"/>
+    <summary>Compact right-edge turn rail with hover summaries and click-to-jump navigation. Exact install spec: github:wsxwj123/dsh-plugins#path:/packages/turn-scrubber. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-plugins#theme-gallery</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-a9cd0324c9336c2f41dc/33390484d60da333</id>
+    <updated>2026-08-19T07:08:11Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a9cd0324c9336c2f41dc.html"/>
+    <author><name>wsxwj123</name></author>
+    <category term="theme"/>
+    <summary>Fifteen curated theme families plus custom CSS-only themes with import, preview, apply, delete, and restore-default flows that follow the native Light, Dark, and Follow system modes. Exact install spec: github:wsxwj123/dsh-plugins#path:/packages/theme-gallery. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
+  </entry>
+  <entry>
+    <title>Updated: dsh-plugins#pet-bridge</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-a3214fabd7e249659a33/33390484d60da333</id>
+    <updated>2026-08-19T07:08:11Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a3214fabd7e249659a33.html"/>
+    <author><name>wsxwj123</name></author>
+    <category term="notify"/>
+    <summary>Bridge dsh session status to the cc-pet desktop pet bubble: thinking, tool calls, and completion in real time. Exact install spec: github:wsxwj123/dsh-plugins#path:/packages/pet-bridge. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
+  </entry>
+  <entry>
     <title>Updated: dsh-harmony</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-70a19132b0d0f2e18b18/3cfb383cce45a4d0</id>
-    <updated>2026-08-19T04:53:59Z</updated>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-70a19132b0d0f2e18b18/33390484d60da333</id>
+    <updated>2026-08-19T07:08:11Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-70a19132b0d0f2e18b18.html"/>
     <author><name>CH4ACKO3</name></author>
     <category term="dev"/>
@@ -25,8 +61,8 @@
   </entry>
   <entry>
     <title>Updated: dsh-whale-background</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-3759a624a60da6694e7e/d1a5597c1bee58fe</id>
-    <updated>2026-08-19T04:53:59Z</updated>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-3759a624a60da6694e7e/e2c7d9bae90d89c1</id>
+    <updated>2026-08-19T07:08:11Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-3759a624a60da6694e7e.html"/>
     <author><name>tuogusa</name></author>
     <category term="theme"/>
@@ -34,8 +70,8 @@
   </entry>
   <entry>
     <title>Updated: dsh-skill-manager</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-1e2beba1858182e1afe8/d1a5597c1bee58fe</id>
-    <updated>2026-08-19T04:53:59Z</updated>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-1e2beba1858182e1afe8/e2c7d9bae90d89c1</id>
+    <updated>2026-08-19T07:08:11Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1e2beba1858182e1afe8.html"/>
     <author><name>tuogusa</name></author>
     <category term="skill"/>
@@ -43,8 +79,8 @@
   </entry>
   <entry>
     <title>Updated: dsh-plugin-toggle</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-1833fee24d16ec09cfeb/d1a5597c1bee58fe</id>
-    <updated>2026-08-19T04:53:59Z</updated>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-1833fee24d16ec09cfeb/e2c7d9bae90d89c1</id>
+    <updated>2026-08-19T07:08:11Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1833fee24d16ec09cfeb.html"/>
     <author><name>tuogusa</name></author>
     <category term="market"/>
@@ -868,41 +904,5 @@
     <author><name>toolclub</name></author>
     <category term="workflow"/>
     <summary>Reusable agent squads with per-agent provider/model routes and tool policies, serial/parallel dispatch, spawn/fork/chain context modes, and a Web management panel. Exact install spec: github:toolclub/agent_team_gui. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: active.</summary>
-  </entry>
-  <entry>
-    <title>Updated: openpets#dsh</title>
-    <id>tag:deeplugin.store,2026-08-17:deeplugin-d0191dd430885853c6a6/cf3251a43a11c2a5</id>
-    <updated>2026-08-17T14:45:53Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d0191dd430885853c6a6.html"/>
-    <author><name>alvinunreal</name></author>
-    <category term="notify"/>
-    <summary>Bridges DeepSeek Harness lifecycle status, errors, and approval requests to a locally running OpenPets desktop companion. Exact install spec: @open-pets/dsh. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-dream-skin</title>
-    <id>tag:deeplugin.store,2026-08-17:deeplugin-bf426f1e2abe4bb98622/8001505a77a53ea6</id>
-    <updated>2026-08-17T14:45:53Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-bf426f1e2abe4bb98622.html"/>
-    <author><name>RevolutionLA</name></author>
-    <category term="theme"/>
-    <summary>One-command skin plugin: 8 original themes, translucent wallpaper with opacity/blur, per-user accent, and shareable theme-pack import/export, favorites and surprise-me — purely native on DSH's token system. Exact install spec: dsh-dream-skin. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
-  </entry>
-  <entry>
-    <title>Updated: dsh-vision-subagent</title>
-    <id>tag:deeplugin.store,2026-08-17:deeplugin-8c2864a50158a88324e0/cf3251a43a11c2a5</id>
-    <updated>2026-08-17T14:45:53Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8c2864a50158a88324e0.html"/>
-    <author><name>ruby1304</name></author>
-    <category term="vision"/>
-    <summary>Vision for any DSH route: paste images in the Web composer with intent-aware auto-analysis, delegate workspace image reads to a Kimi/MiniMax vision subagent, and materialize pasted originals for editing. Exact install spec: dsh-vision-subagent. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
-  </entry>
-  <entry>
-    <title>Updated: TokenLedger</title>
-    <id>tag:deeplugin.store,2026-08-17:deeplugin-2b39ccf707df309d872f/8001505a77a53ea6</id>
-    <updated>2026-08-17T14:45:53Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-2b39ccf707df309d872f.html"/>
-    <author><name>zh667</name></author>
-    <category term="ui"/>
-    <summary>Sidebar usage panel that attributes tokens to the relay site that served each request, read from your existing provider config: today/month/all-time totals, per-site and per-model breakdowns, a year activity heatmap, and New API / Sub2API / DeepSeek balances. Exact install spec: dsh-tokenledger. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
   </entry>
 </feed>

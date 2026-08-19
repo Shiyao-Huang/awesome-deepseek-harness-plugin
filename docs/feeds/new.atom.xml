@@ -2,13 +2,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>deeplugin.store — New plugins</title>
   <id>https://deeplugin.store/feeds/new.atom.xml</id>
-  <updated>2026-08-19T04:53:59Z</updated>
+  <updated>2026-08-19T07:08:11Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/feeds/new.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/market.html"/>
   <entry>
     <title>New: dsh-tui-pro</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-eebed56b4183f2ae5956/fcbeba65b8c724cd</id>
-    <updated>2026-08-19T04:53:59Z</updated>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-eebed56b4183f2ae5956/14996366b6307d90</id>
+    <updated>2026-08-19T07:08:11Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-eebed56b4183f2ae5956.html"/>
     <author><name>lk251066</name></author>
     <category term="ui"/>
@@ -16,8 +16,8 @@
   </entry>
   <entry>
     <title>New: dsh-orcana#dsh-bundle</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-e7408a01b3eefc88b836/fcbeba65b8c724cd</id>
-    <updated>2026-08-19T04:53:59Z</updated>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-e7408a01b3eefc88b836/14996366b6307d90</id>
+    <updated>2026-08-19T07:08:11Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e7408a01b3eefc88b836.html"/>
     <author><name>Leo-Ayh-Oday</name></author>
     <category term="dev"/>
@@ -25,8 +25,8 @@
   </entry>
   <entry>
     <title>New: dsh-worlds</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-e5f7437cf48c371df45d/fcbeba65b8c724cd</id>
-    <updated>2026-08-19T04:53:59Z</updated>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-e5f7437cf48c371df45d/14996366b6307d90</id>
+    <updated>2026-08-19T07:08:11Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e5f7437cf48c371df45d.html"/>
     <author><name>frozo-ai</name></author>
     <category term="dev"/>
@@ -34,8 +34,8 @@
   </entry>
   <entry>
     <title>New: dsh-scrape-webpage</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-e5c3665fa859b1a9e30b/fcbeba65b8c724cd</id>
-    <updated>2026-08-19T04:53:59Z</updated>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-e5c3665fa859b1a9e30b/14996366b6307d90</id>
+    <updated>2026-08-19T07:08:11Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e5c3665fa859b1a9e30b.html"/>
     <author><name>131CDA1</name></author>
     <category term="browser"/>
@@ -43,8 +43,8 @@
   </entry>
   <entry>
     <title>New: dsh-role-router</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-d89373954c85f4fc9871/fcbeba65b8c724cd</id>
-    <updated>2026-08-19T04:53:59Z</updated>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-d89373954c85f4fc9871/14996366b6307d90</id>
+    <updated>2026-08-19T07:08:11Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d89373954c85f4fc9871.html"/>
     <author><name>SnowAmberX</name></author>
     <category term="model"/>
@@ -52,8 +52,8 @@
   </entry>
   <entry>
     <title>New: zzy-dsh-prompt-optimizer</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-ce48ffaddbb1b48c66c8/fcbeba65b8c724cd</id>
-    <updated>2026-08-19T04:53:59Z</updated>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-ce48ffaddbb1b48c66c8/14996366b6307d90</id>
+    <updated>2026-08-19T07:08:11Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ce48ffaddbb1b48c66c8.html"/>
     <author><name>zhengzeyong9527-droid</name></author>
     <category term="ui"/>
@@ -61,8 +61,8 @@
   </entry>
   <entry>
     <title>New: dsh-md-preview</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-cb5291b99446a3bd3ba6/fcbeba65b8c724cd</id>
-    <updated>2026-08-19T04:53:59Z</updated>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-cb5291b99446a3bd3ba6/14996366b6307d90</id>
+    <updated>2026-08-19T07:08:11Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-cb5291b99446a3bd3ba6.html"/>
     <author><name>poiuyjie</name></author>
     <category term="docs"/>
@@ -70,8 +70,8 @@
   </entry>
   <entry>
     <title>New: qdd</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-be16f914ab8a59f36c81/fcbeba65b8c724cd</id>
-    <updated>2026-08-19T04:53:59Z</updated>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-be16f914ab8a59f36c81/14996366b6307d90</id>
+    <updated>2026-08-19T07:08:11Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-be16f914ab8a59f36c81.html"/>
     <author><name>BillyChen123</name></author>
     <category term="workflow"/>
@@ -79,8 +79,8 @@
   </entry>
   <entry>
     <title>New: dsh-aigc-radar</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-ba755ffd5703518eb1e8/fcbeba65b8c724cd</id>
-    <updated>2026-08-19T04:53:59Z</updated>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-ba755ffd5703518eb1e8/14996366b6307d90</id>
+    <updated>2026-08-19T07:08:11Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ba755ffd5703518eb1e8.html"/>
     <author><name>Kaixxrua</name></author>
     <category term="tools"/>
@@ -88,8 +88,8 @@
   </entry>
   <entry>
     <title>New: dsh-harmony</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-af65fceced0e39efa69d/fcbeba65b8c724cd</id>
-    <updated>2026-08-19T04:53:59Z</updated>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-af65fceced0e39efa69d/14996366b6307d90</id>
+    <updated>2026-08-19T07:08:11Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-af65fceced0e39efa69d.html"/>
     <author><name>CH4ACKO3</name></author>
     <category term="dev"/>
@@ -97,8 +97,8 @@
   </entry>
   <entry>
     <title>New: dsh-provenance</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-985d6ab27a825d1fa2e3/fcbeba65b8c724cd</id>
-    <updated>2026-08-19T04:53:59Z</updated>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-985d6ab27a825d1fa2e3/14996366b6307d90</id>
+    <updated>2026-08-19T07:08:11Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-985d6ab27a825d1fa2e3.html"/>
     <author><name>Darren-Tang</name></author>
     <category term="security"/>
@@ -106,8 +106,8 @@
   </entry>
   <entry>
     <title>New: dsh-auth</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-97899ab57e4f0f1ed541/fcbeba65b8c724cd</id>
-    <updated>2026-08-19T04:53:59Z</updated>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-97899ab57e4f0f1ed541/14996366b6307d90</id>
+    <updated>2026-08-19T07:08:11Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-97899ab57e4f0f1ed541.html"/>
     <author><name>hxy91819</name></author>
     <category term="security"/>
@@ -115,17 +115,35 @@
   </entry>
   <entry>
     <title>New: dsh-prompt-enhancer</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-8c4e7519016ad5663cc3/fcbeba65b8c724cd</id>
-    <updated>2026-08-19T04:53:59Z</updated>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-8c4e7519016ad5663cc3/14996366b6307d90</id>
+    <updated>2026-08-19T07:08:11Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8c4e7519016ad5663cc3.html"/>
     <author><name>LCQ-1024</name></author>
     <category term="ui"/>
     <summary>Adds a prompt-enhancement button to the DSH composer that rewrites drafts into agent-ready prompts. Exact install spec: github:lcq-1024/dsh-prompt-enhancer. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
   <entry>
+    <title>New: dsh-plugins#dsh-appearance-gallery</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-8884785b305864272fa1/14996366b6307d90</id>
+    <updated>2026-08-19T07:08:11Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8884785b305864272fa1.html"/>
+    <author><name>wsxwj123</name></author>
+    <category term="theme"/>
+    <summary>Fifteen curated theme families and nine complete dsh-web-ui skin replicas in one plugin behind a single settings entry, with CSS-only custom theme JSON, controlled custom skin-pack import via folder picker, preview, apply, delete and restore-default. Exact install spec: github:wsxwj123/dsh-plugins#path:/packages/dsh-appearance-gallery. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-plugins#dsh-pet-bridge</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-85532fb5e066604a4d7e/14996366b6307d90</id>
+    <updated>2026-08-19T07:08:11Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-85532fb5e066604a4d7e.html"/>
+    <author><name>wsxwj123</name></author>
+    <category term="notify"/>
+    <summary>Bridge dsh session status to the cc-pet desktop pet bubble: thinking, tool calls, and completion in real time. Exact install spec: github:wsxwj123/dsh-plugins#path:/packages/dsh-pet-bridge. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+  <entry>
     <title>New: dsh-live2d-pets</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-7d57e2390aa71cf3a1d6/fcbeba65b8c724cd</id>
-    <updated>2026-08-19T04:53:59Z</updated>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-7d57e2390aa71cf3a1d6/14996366b6307d90</id>
+    <updated>2026-08-19T07:08:11Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-7d57e2390aa71cf3a1d6.html"/>
     <author><name>cyanfish-x</name></author>
     <category term="fun"/>
@@ -133,8 +151,8 @@
   </entry>
   <entry>
     <title>New: deepseek-design#deepseek-ivideo</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-736970a460c4dacaa00e/fcbeba65b8c724cd</id>
-    <updated>2026-08-19T04:53:59Z</updated>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-736970a460c4dacaa00e/14996366b6307d90</id>
+    <updated>2026-08-19T07:08:11Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-736970a460c4dacaa00e.html"/>
     <author><name>Devin-AXIS</name></author>
     <category term="ui"/>
@@ -142,8 +160,8 @@
   </entry>
   <entry>
     <title>New: dph-taskboard</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-725235d7992757d4123a/fcbeba65b8c724cd</id>
-    <updated>2026-08-19T04:53:59Z</updated>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-725235d7992757d4123a/14996366b6307d90</id>
+    <updated>2026-08-19T07:08:11Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-725235d7992757d4123a.html"/>
     <author><name>1070296335-create</name></author>
     <category term="ui"/>
@@ -151,8 +169,8 @@
   </entry>
   <entry>
     <title>New: dsh-capability-index</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-5e6531fe17c78b46a890/fcbeba65b8c724cd</id>
-    <updated>2026-08-19T04:53:59Z</updated>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-5e6531fe17c78b46a890/14996366b6307d90</id>
+    <updated>2026-08-19T07:08:11Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-5e6531fe17c78b46a890.html"/>
     <author><name>777-Zen</name></author>
     <category term="dev"/>
@@ -160,8 +178,8 @@
   </entry>
   <entry>
     <title>New: dsh-keyboard-history</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-5c0a8fcdbfe08d03ecd3/fcbeba65b8c724cd</id>
-    <updated>2026-08-19T04:53:59Z</updated>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-5c0a8fcdbfe08d03ecd3/14996366b6307d90</id>
+    <updated>2026-08-19T07:08:11Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-5c0a8fcdbfe08d03ecd3.html"/>
     <author><name>NormanFxxkingRockwell</name></author>
     <category term="ui"/>
@@ -169,17 +187,26 @@
   </entry>
   <entry>
     <title>New: beautiCode#deepseek-harness</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-573aeef9560bdbf85d00/fcbeba65b8c724cd</id>
-    <updated>2026-08-19T04:53:59Z</updated>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-573aeef9560bdbf85d00/14996366b6307d90</id>
+    <updated>2026-08-19T07:08:11Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-573aeef9560bdbf85d00.html"/>
     <author><name>starsstreaming</name></author>
     <category term="theme"/>
     <summary>Local image and MP4 video backgrounds for DSH Web: a sidebar Background panel, saved themes including a built-in window-frame preset, mute toggle, last-background restore, plus /bg, /bg-theme and /bg-clear commands. Exact install spec: github:starsstreaming/beauticode#path:/integrations/deepseek-harness. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
   <entry>
+    <title>New: dsh-mobile</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-5403f3a04290007adcb3/14996366b6307d90</id>
+    <updated>2026-08-19T07:08:11Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-5403f3a04290007adcb3.html"/>
+    <author><name>saya-ch</name></author>
+    <category term="remote"/>
+    <summary>Use DeepSeek Harness from your phone over a protected LAN: a dedicated mobile UI, secure HTTPS pairing, and /mobile conversation customization. Exact install spec: dsh-mobile. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+  <entry>
     <title>New: dsh-plugin-console</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-523c0e12f60b3f96aadc/fcbeba65b8c724cd</id>
-    <updated>2026-08-19T04:53:59Z</updated>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-523c0e12f60b3f96aadc/14996366b6307d90</id>
+    <updated>2026-08-19T07:08:11Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-523c0e12f60b3f96aadc.html"/>
     <author><name>AlexYin-Tongji</name></author>
     <category term="market"/>
@@ -187,8 +214,8 @@
   </entry>
   <entry>
     <title>New: harmonyos-dev-mcp-for-dsh</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-4feedc13f7308addaaa4/fcbeba65b8c724cd</id>
-    <updated>2026-08-19T04:53:59Z</updated>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-4feedc13f7308addaaa4/14996366b6307d90</id>
+    <updated>2026-08-19T07:08:11Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-4feedc13f7308addaaa4.html"/>
     <author><name>NormanFxxkingRockwell</name></author>
     <category term="dev"/>
@@ -196,8 +223,8 @@
   </entry>
   <entry>
     <title>New: Awesome-DSH-Pet</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-48eff19b99d7c67886ee/fcbeba65b8c724cd</id>
-    <updated>2026-08-19T04:53:59Z</updated>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-48eff19b99d7c67886ee/14996366b6307d90</id>
+    <updated>2026-08-19T07:08:11Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-48eff19b99d7c67886ee.html"/>
     <author><name>Awesome-AI-Pedia</name></author>
     <category term="fun"/>
@@ -205,17 +232,26 @@
   </entry>
   <entry>
     <title>New: dsh-codex-ui</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-48cff247694601579d20/fcbeba65b8c724cd</id>
-    <updated>2026-08-19T04:53:59Z</updated>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-48cff247694601579d20/14996366b6307d90</id>
+    <updated>2026-08-19T07:08:11Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-48cff247694601579d20.html"/>
     <author><name>MichengAI</name></author>
     <category term="ui"/>
     <summary>Rebuilds the DeepSeek Harness web sidebar, workspace tree, search, and turn navigation in a Codex-style layout. Exact install spec: @michengai/dsh-codex-ui. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
   <entry>
+    <title>New: dsh-desk-pet</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-47d23fc0ce86f7e13c14/14996366b6307d90</id>
+    <updated>2026-08-19T07:08:11Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-47d23fc0ce86f7e13c14.html"/>
+    <author><name>anneheartrecord</name></author>
+    <category term="ui"/>
+    <summary>macOS desk pet that lives outside the DSH page: a real always-on-top window that clears fullscreen Spaces, six states driven by local DSH, a native right-click menu with quiet mode and a session list, and a bundled skill that turns one photo into a full eighteen-pose skin on your own image tool and credentials; system Python and ctypes, no Electron and no dependencies. Exact install spec: deepseek-desk-pet. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+  <entry>
     <title>New: dsh-mcp-lazy</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-410d5ab75bdd20272632/fcbeba65b8c724cd</id>
-    <updated>2026-08-19T04:53:59Z</updated>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-410d5ab75bdd20272632/14996366b6307d90</id>
+    <updated>2026-08-19T07:08:11Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-410d5ab75bdd20272632.html"/>
     <author><name>leaforbook</name></author>
     <category term="tools"/>
@@ -223,8 +259,8 @@
   </entry>
   <entry>
     <title>New: dsh-origin-plugin</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-3d22fb3f1f00b5a2b90b/fcbeba65b8c724cd</id>
-    <updated>2026-08-19T04:53:59Z</updated>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-3d22fb3f1f00b5a2b90b/14996366b6307d90</id>
+    <updated>2026-08-19T07:08:11Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-3d22fb3f1f00b5a2b90b.html"/>
     <author><name>Fantasality</name></author>
     <category term="tools"/>
@@ -232,21 +268,39 @@
   </entry>
   <entry>
     <title>New: redfox-community-dsh</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-34a4ef9cf8c59dc9c739/fcbeba65b8c724cd</id>
-    <updated>2026-08-19T04:53:59Z</updated>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-34a4ef9cf8c59dc9c739/14996366b6307d90</id>
+    <updated>2026-08-19T07:08:11Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-34a4ef9cf8c59dc9c739.html"/>
     <author><name>redfox-data</name></author>
     <category term="skill"/>
     <summary>100+ multi platform social-media data skills, plus 40 native MCP tools covering data APIs, AI search and AI generation — all installable with one command. Exact install spec: github:redfox-data/redfox-community-dsh. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
   <entry>
+    <title>New: dsh-plugins#dsh-turn-scrubber</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-2e67480cdf332a15e147/14996366b6307d90</id>
+    <updated>2026-08-19T07:08:11Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-2e67480cdf332a15e147.html"/>
+    <author><name>wsxwj123</name></author>
+    <category term="ui"/>
+    <summary>Compact right-edge turn rail with hover summaries and click-to-jump navigation. Exact install spec: github:wsxwj123/dsh-plugins#path:/packages/dsh-turn-scrubber. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+  <entry>
     <title>New: dsh-chat-history</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-124dada74576f89a5e34/fcbeba65b8c724cd</id>
-    <updated>2026-08-19T04:53:59Z</updated>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-124dada74576f89a5e34/14996366b6307d90</id>
+    <updated>2026-08-19T07:08:11Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-124dada74576f89a5e34.html"/>
     <author><name>Stylelinzzz</name></author>
     <category term="ui"/>
     <summary>Adds a "History" conversation view tab listing the session's user messages as a clickable directory, with auto-paging and click-to-jump back into the chat. Exact install spec: dsh-chat-history. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+  <entry>
+    <title>New: Kabutack</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-06d6198294e584417dae/ca5f290328ce5dc4</id>
+    <updated>2026-08-19T07:08:11Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-06d6198294e584417dae.html"/>
+    <author><name>SunQingyuan0</name></author>
+    <category term="dev"/>
+    <summary>Role-based manager for DSH plugins/Skills/MCP: bundle capabilities into “roles” and hot-switch them from the Web UI. Exact install spec: @galactus/kabutack. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
   <entry>
     <title>New: dsh-tool-lens</title>
@@ -850,59 +904,5 @@
     <author><name>Blank-not-black</name></author>
     <category term="remote"/>
     <summary>Mobile remote-control suite: bundle plugin with native sidebar entry and admin drawer, self-healing bearer-token gateway over LAN/Tailscale, Android app (sessions/approvals/questions/goals), /fs/* file transfer (Range resume, 2GB upload), latency-based multi-server auto-switch, offline chat cache. Exact install spec: dsh-remote-plugin. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: chrome-faithful#dsh-plugin-chrome-faithful</title>
-    <id>tag:deeplugin.store,2026-08-18:deeplugin-b397d8938349c21b2ee8/734e2388d02377c1</id>
-    <updated>2026-08-18T16:51:43Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b397d8938349c21b2ee8.html"/>
-    <author><name>bpc-oss</name></author>
-    <category term="browser"/>
-    <summary>Exact-profile control of your real logged-in Chrome browser: an MCP server plus MV3 extension and authenticated localhost bridge for tabs, locators, file injection, media export, and durable scroll capture, with no debug profile or remote-debugging port. Exact install spec: github:bpc-oss/chrome-faithful#path:/packages/dsh-plugin-chrome-faithful. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-human-task#dsh-human-task</title>
-    <id>tag:deeplugin.store,2026-08-18:deeplugin-ad11f81d52240313e2f2/734e2388d02377c1</id>
-    <updated>2026-08-18T16:51:43Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ad11f81d52240313e2f2.html"/>
-    <author><name>ywgATustcbbs</name></author>
-    <category term="tools"/>
-    <summary>Human-in-the-loop tools (`human_task` / `human_task_ready_check`): pause the agent until the user performs a real-world action or returns an observation (GUI operation, game testing, visual verification, hardware checks), gated by session consent and an AFK presence check, returning a structured JSON result via a web task dialog. Exact install spec: github:ywgatustcbbs/dsh-human-task#path:/packages/dsh-human-task. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-messaging#messaging-core</title>
-    <id>tag:deeplugin.store,2026-08-18:deeplugin-a6629168a1a384428e50/734e2388d02377c1</id>
-    <updated>2026-08-18T16:51:43Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a6629168a1a384428e50.html"/>
-    <author><name>534119219</name></author>
-    <category term="notify"/>
-    <summary>Unified messaging gateway for DeepSeek Harness: 27 IM platforms (Telegram, QQ, WeChat, Discord, WhatsApp, Feishu and more) in one plugin, with QR scan-to-authorize, per-platform workspaces, slash commands, and a web setup dialog. Exact install spec: github:534119219/dsh-messaging#path:/packages/messaging-core. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-excel-chat#bundle</title>
-    <id>tag:deeplugin.store,2026-08-18:deeplugin-a4538ca63012dc949faf/734e2388d02377c1</id>
-    <updated>2026-08-18T16:51:43Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a4538ca63012dc949faf.html"/>
-    <author><name>hccccc01333</name></author>
-    <category term="tools"/>
-    <summary>Talk to Excel in DeepSeek Harness: create, edit, repair, and verify spreadsheets by conversation, with automatic formula health checks after every edit. Exact install spec: dsh-excel-chat. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-icon-theme</title>
-    <id>tag:deeplugin.store,2026-08-18:deeplugin-a151b6b22035edea16c0/734e2388d02377c1</id>
-    <updated>2026-08-18T16:51:43Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a151b6b22035edea16c0.html"/>
-    <author><name>yzke</name></author>
-    <category term="theme"/>
-    <summary>Automatic and user-customizable Fluent-style icons for DSH Settings and sidebar actions, with offline SVG packs and original-icon preservation. Exact install spec: dsh-icon-theme. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-plugin-manager#cli</title>
-    <id>tag:deeplugin.store,2026-08-18:deeplugin-9fb868b37bc807d11001/734e2388d02377c1</id>
-    <updated>2026-08-18T16:51:43Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-9fb868b37bc807d11001.html"/>
-    <author><name>Jesse-njx</name></author>
-    <category term="market"/>
-    <summary>The `dsh pm` plugin manager: multi-source search (awesome list + GitHub + npm), install/remove/update per profile, and a doctor audit of manifests, bundle patches, and version drift. Exact install spec: github:jesse-njx/dsh-plugin-manager#path:/packages/cli. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

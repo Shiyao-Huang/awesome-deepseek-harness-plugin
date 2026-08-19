@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-06d6198294e584417dae",
+    "name": "Kabutack",
+    "author": "SunQingyuan0",
+    "category": "dev",
+    "version": null,
+    "homepage": "https://github.com/SunQingyuan0/Kabutack",
+    "firstObservedAt": "2026-08-19T07:08:11Z",
+    "lastChangedAt": "2026-08-19T07:08:11Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-06d6198294e584417dae.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-06d6198294e584417dae.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "@galactus/kabutack",
+    "command": "dsh plugin --profile web add @galactus/kabutack",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-06d6198294e584417dae，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-06d6198294e584417dae.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-06d6198294e584417dae.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "Kabutack 已收录到 DeepSeek Harness Plugin Store。基于角色的 DSH 插件 / Skill / MCP 管理器：把能力组合定义为“角色”，在 Web 设置页一键动态装载与切换。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-06d6198294e584417dae.html",
+    "en": "Kabutack is now listed on the DeepSeek Harness Plugin Store. Role-based manager for DSH plugins/Skills/MCP: bundle capabilities into “roles” and hot-switch them from the Web UI.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-06d6198294e584417dae.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-47d23fc0ce86f7e13c14",
+    "name": "dsh-desk-pet",
+    "author": "anneheartrecord",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/anneheartrecord/dsh-desk-pet",
+    "firstObservedAt": "2026-08-19T07:08:11Z",
+    "lastChangedAt": "2026-08-19T07:08:11Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-47d23fc0ce86f7e13c14.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-47d23fc0ce86f7e13c14.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "deepseek-desk-pet",
+    "command": "dsh plugin --profile web add deepseek-desk-pet",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-47d23fc0ce86f7e13c14，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-47d23fc0ce86f7e13c14.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-47d23fc0ce86f7e13c14.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-desk-pet 已收录到 DeepSeek Harness Plugin Store。装在 DSH 页面之外的 macOS 桌宠：一个真的置顶窗口，全屏 Space 也盖得住；六种状态跟着本地 DSH 走，原生右键菜单里有免打扰与会话清单；自带的 skill 用你自己的画图工具和额度，把一张照片变成整套十八个姿势的皮肤。跑系统自带的 Python 与 ctypes，不用 Electron，零依赖。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-47d23fc0ce86f7e13c14.html",
+    "en": "dsh-desk-pet is now listed on the DeepSeek Harness Plugin Store. macOS desk pet that lives outside the DSH page: a real always-on-top window that clears fullscreen Spaces, six states driven by local DSH, a native right-click menu with quiet mode and a session list, and a bundled skill that turns one photo into a full eighteen-pose skin on your own image tool and credentials; system Python and ctypes, no Electron and no dependencies.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-47d23fc0ce86f7e13c14.html"
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-desk-pet — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-47d23fc0ce86f7e13c14.atom.xml</id>
+  <updated>2026-08-19T07:08:11Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-47d23fc0ce86f7e13c14.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-47d23fc0ce86f7e13c14.html"/>
+  <entry>
+    <title>New: dsh-desk-pet</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-47d23fc0ce86f7e13c14/14996366b6307d90</id>
+    <updated>2026-08-19T07:08:11Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-47d23fc0ce86f7e13c14.html"/>
+    <author><name>anneheartrecord</name></author>
+    <category term="ui"/>
+    <summary>macOS desk pet that lives outside the DSH page: a real always-on-top window that clears fullscreen Spaces, six states driven by local DSH, a native right-click menu with quiet mode and a session list, and a bundled skill that turns one photo into a full eighteen-pose skin on your own image tool and credentials; system Python and ctypes, no Electron and no dependencies. Exact install spec: deepseek-desk-pet. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

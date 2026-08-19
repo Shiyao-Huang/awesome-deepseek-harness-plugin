@@ -4,9 +4,9 @@
 
 | 平台 | 采集方式 | 记录 | 观测 | raw 快照 | 最近观测 | 平台政策 |
 | --- | --- | ---: | ---: | ---: | --- | --- |
-| [GitHub](https://github.com) (`github`) | public REST API | 14,513 | 671 | 150 | 2026-08-19T04:57:14Z | [policy](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) |
+| [GitHub](https://github.com) (`github`) | public REST API | 14,516 | 683 | 152 | 2026-08-19T07:12:32Z | [policy](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) |
 | [小红书](https://www.xiaohongshu.com) (`xiaohongshu`) | ego-browser visible DOM | 157 | 12 | 12 | 2026-08-16T12:36:22Z | [policy](https://www.xiaohongshu.com/privacy_policy) |
-| [Hacker News](https://news.ycombinator.com) (`hacker_news`) | Algolia public search API | 114 | 180 | 63 | 2026-08-19T04:57:14Z | [policy](https://news.ycombinator.com/newsguidelines.html) |
+| [Hacker News](https://news.ycombinator.com) (`hacker_news`) | Algolia public search API | 114 | 183 | 64 | 2026-08-19T07:12:32Z | [policy](https://news.ycombinator.com/newsguidelines.html) |
 | [X](https://x.com) (`x`) | ego-browser visible DOM | 90 | 20 | 19 | 2026-08-16T13:56:00Z | [policy](https://x.com/en/tos) |
 | [Reddit](https://www.reddit.com) (`reddit`) | ego-browser visible DOM | 51 | 14 | 13 | 2026-08-16T13:56:00Z | [policy](https://www.redditinc.com/policies/user-agreement) |
 | [YouTube](https://www.youtube.com) (`youtube`) | ego-browser visible DOM | 29 | 7 | 7 | 2026-08-16T10:01:58Z | [policy](https://www.youtube.com/static?template=terms) |

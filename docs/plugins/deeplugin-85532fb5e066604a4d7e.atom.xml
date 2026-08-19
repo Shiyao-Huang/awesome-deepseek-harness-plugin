@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-plugins#dsh-pet-bridge — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-85532fb5e066604a4d7e.atom.xml</id>
+  <updated>2026-08-19T07:08:11Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-85532fb5e066604a4d7e.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-85532fb5e066604a4d7e.html"/>
+  <entry>
+    <title>New: dsh-plugins#dsh-pet-bridge</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-85532fb5e066604a4d7e/14996366b6307d90</id>
+    <updated>2026-08-19T07:08:11Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-85532fb5e066604a4d7e.html"/>
+    <author><name>wsxwj123</name></author>
+    <category term="notify"/>
+    <summary>Bridge dsh session status to the cc-pet desktop pet bubble: thinking, tool calls, and completion in real time. Exact install spec: github:wsxwj123/dsh-plugins#path:/packages/dsh-pet-bridge. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>
