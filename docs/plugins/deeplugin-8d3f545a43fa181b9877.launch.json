@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-8d3f545a43fa181b9877",
+    "name": "deepseek-desk-rsi",
+    "author": "huchunlinnk",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/huchunlinnk/deepseek-desk-rsi",
+    "firstObservedAt": "2026-08-19T08:57:17Z",
+    "lastChangedAt": "2026-08-19T08:57:17Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-8d3f545a43fa181b9877.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-8d3f545a43fa181b9877.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:huchunlinnk/deepseek-desk-rsi",
+    "command": "dsh plugin --profile web add github:huchunlinnk/deepseek-desk-rsi",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-8d3f545a43fa181b9877，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-8d3f545a43fa181b9877.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-8d3f545a43fa181b9877.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "deepseek-desk-rsi 已收录到 DeepSeek Harness Plugin Store。Recursive Self-Improvement engine: bounded perceive→integrate→verify→parity→repair→propose loop + 128-plugin 1:1 parity gate — DSH maintains DSH.\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-8d3f545a43fa181b9877.html",
+    "en": "deepseek-desk-rsi is now listed on the DeepSeek Harness Plugin Store. Recursive Self-Improvement engine: bounded perceive→integrate→verify→parity→repair→propose loop + 128-plugin 1:1 parity gate — DSH maintains DSH.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-8d3f545a43fa181b9877.html"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-4a7b742a548c702d49d5",
+    "name": "dsh-mask",
+    "author": "PerryLink",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/PerryLink/dsh-mask",
+    "firstObservedAt": "2026-08-19T08:57:17Z",
+    "lastChangedAt": "2026-08-19T08:57:17Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-4a7b742a548c702d49d5.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-4a7b742a548c702d49d5.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-mask",
+    "command": "dsh plugin --profile web add dsh-mask",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-4a7b742a548c702d49d5，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-4a7b742a548c702d49d5.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-4a7b742a548c702d49d5.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-mask 已收录到 DeepSeek Harness Plugin Store。PII 脱敏中间件：姓名/电话/身份证/银行卡等在到达模型前匿名化为占位符，展示层还原，绝不记录明文。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-4a7b742a548c702d49d5.html",
+    "en": "dsh-mask is now listed on the DeepSeek Harness Plugin Store. PII redaction middleware: names, phone numbers, ID cards, and bank cards are anonymized to placeholders before reaching the model and restored at the display layer; plaintext is never logged.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-4a7b742a548c702d49d5.html"
+  }
+}

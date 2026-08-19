@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>dsh-checkpoint-rewind — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-d15af894e01040abad22.atom.xml</id>
-  <updated>2026-08-16T08:41:44Z</updated>
+  <updated>2026-08-19T08:57:17Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-d15af894e01040abad22.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d15af894e01040abad22.html"/>
+  <entry>
+    <title>Updated: dsh-checkpoint-rewind</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-d15af894e01040abad22/dad117909afff4b0</id>
+    <updated>2026-08-19T08:57:17Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d15af894e01040abad22.html"/>
+    <author><name>PerryLink</name></author>
+    <category term="tools"/>
+    <summary>Claude Code /rewind for DeepSeek Harness: git-first workspace snapshots before every mutating tool execution, turn-boundary session forks, and a one-shot /rewind command that restores files and forks the session back to a checkpoint. Exact install spec: dsh-checkpoint-rewind. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
   <entry>
     <title>Updated: dsh-checkpoint-rewind</title>
     <id>tag:deeplugin.store,2026-08-16:deeplugin-d15af894e01040abad22/e1ab6d4a0ce81c55</id>

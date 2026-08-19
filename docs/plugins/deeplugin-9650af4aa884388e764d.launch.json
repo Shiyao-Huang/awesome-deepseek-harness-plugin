@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/PerryLink/dsh-library",
     "firstObservedAt": "2026-08-18T03:11:15Z",
-    "lastChangedAt": "2026-08-18T03:11:15Z"
+    "lastChangedAt": "2026-08-19T08:57:17Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-9650af4aa884388e764d.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-9650af4aa884388e764d.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-library 已收录到 DeepSeek Harness Plugin Store。将本地 Markdown 与文本文档转为可检索的知识库，支持语义与关键词混合搜索、引用校验与来源注入。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-9650af4aa884388e764d.html",
-    "en": "dsh-library is now listed on the DeepSeek Harness Plugin Store. Turns local markdown and text documents into a queryable knowledge base with hybrid semantic and keyword search, citation verification, and source injection.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-9650af4aa884388e764d.html"
+    "zh": "dsh-library 已收录到 DeepSeek Harness Plugin Store。本地文档知识库：语义+关键词混合检索、多样性重排、引用感知注入，SQLite 索引，零模型下载。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-9650af4aa884388e764d.html",
+    "en": "dsh-library is now listed on the DeepSeek Harness Plugin Store. Local document knowledge base: hybrid semantic + keyword retrieval, diversity reranking, citation-aware injection, SQLite index, zero model downloads.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-9650af4aa884388e764d.html"
   }
 }

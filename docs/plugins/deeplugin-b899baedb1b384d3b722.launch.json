@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-b899baedb1b384d3b722",
+    "name": "dsh-defend",
+    "author": "PerryLink",
+    "category": "memory",
+    "version": null,
+    "homepage": "https://github.com/PerryLink/dsh-defend",
+    "firstObservedAt": "2026-08-19T08:57:17Z",
+    "lastChangedAt": "2026-08-19T08:57:17Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-b899baedb1b384d3b722.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-b899baedb1b384d3b722.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-defend",
+    "command": "dsh plugin --profile web add dsh-defend",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-b899baedb1b384d3b722，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-b899baedb1b384d3b722.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b899baedb1b384d3b722.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-defend 已收录到 DeepSeek Harness Plugin Store。提示注入/越狱/密钥泄露检测：Aho-Corasick 引擎在用户消息、工具参数、工具结果三道缝上 allow/ask/block 拦截。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b899baedb1b384d3b722.html",
+    "en": "dsh-defend is now listed on the DeepSeek Harness Plugin Store. Prompt-injection, jailbreak, and secret-leak detection: an Aho-Corasick engine interposes allow/ask/block at three seams — user messages, tool arguments, and tool results.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b899baedb1b384d3b722.html"
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-score — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-17f2f63f16becfd08fe0.atom.xml</id>
+  <updated>2026-08-19T08:57:17Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-17f2f63f16becfd08fe0.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-17f2f63f16becfd08fe0.html"/>
+  <entry>
+    <title>New: dsh-score</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-17f2f63f16becfd08fe0/345b23a8670f473e</id>
+    <updated>2026-08-19T08:57:17Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-17f2f63f16becfd08fe0.html"/>
+    <author><name>PerryLink</name></author>
+    <category term="memory"/>
+    <summary>Multi-dimensional plugin quality scoring across five axes (install success, maintenance, docs, security, protocol compliance) with real CLI evidence, audit timestamps, and JSON/Markdown leaderboards. Exact install spec: dsh-score. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

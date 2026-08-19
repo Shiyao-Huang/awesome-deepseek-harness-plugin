@@ -2,16 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>dsh-test-drive — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-61b59904876cf4ff5e71.atom.xml</id>
-  <updated>2026-08-18T03:11:15Z</updated>
+  <updated>2026-08-19T08:57:17Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-61b59904876cf4ff5e71.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-61b59904876cf4ff5e71.html"/>
+  <entry>
+    <title>Updated: dsh-test-drive</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-61b59904876cf4ff5e71/dad117909afff4b0</id>
+    <updated>2026-08-19T08:57:17Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-61b59904876cf4ff5e71.html"/>
+    <author><name>PerryLink</name></author>
+    <category term="memory"/>
+    <summary>Isolated install-and-smoke-test for plugins: install, validate, and boot inside a throwaway DSH_HOME profile, producing a structured pass/fail matrix. Exact install spec: dsh-test-drive. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+  </entry>
   <entry>
     <title>New: dsh-test-drive</title>
     <id>tag:deeplugin.store,2026-08-18:deeplugin-61b59904876cf4ff5e71/cb80cd3c03250761</id>
     <updated>2026-08-18T03:11:15Z</updated>
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-61b59904876cf4ff5e71.html"/>
     <author><name>PerryLink</name></author>
-    <category term="dev"/>
-    <summary>Runs isolated install-and-smoke test drives for DSH plugins in throwaway profiles, returning structured pass/fail records and batch matrices without touching your real profile. Exact install spec: dsh-test-drive. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+    <category term="memory"/>
+    <summary>Isolated install-and-smoke-test for plugins: install, validate, and boot inside a throwaway DSH_HOME profile, producing a structured pass/fail matrix. Exact install spec: dsh-test-drive. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

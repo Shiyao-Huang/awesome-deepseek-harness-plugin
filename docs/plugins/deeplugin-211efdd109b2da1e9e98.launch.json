@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-211efdd109b2da1e9e98",
+    "name": "dsh-session-sync",
+    "author": "PerryLink",
+    "category": "theme",
+    "version": null,
+    "homepage": "https://github.com/PerryLink/dsh-session-sync",
+    "firstObservedAt": "2026-08-19T08:57:17Z",
+    "lastChangedAt": "2026-08-19T08:57:17Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-211efdd109b2da1e9e98.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-211efdd109b2da1e9e98.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-session-sync",
+    "command": "dsh plugin --profile web add dsh-session-sync",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-211efdd109b2da1e9e98，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-211efdd109b2da1e9e98.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-211efdd109b2da1e9e98.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-session-sync 已收录到 DeepSeek Harness Plugin Store。会话跨设备同步：专用 git 镜像 + append-only 三方合并（keep-both + fork 冲突解决），/sync 命令与自动推拉。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-211efdd109b2da1e9e98.html",
+    "en": "dsh-session-sync is now listed on the DeepSeek Harness Plugin Store. Cross-device session sync: a dedicated git mirror with append-only three-way merging (keep-both + fork conflict resolution), a /sync command, and automatic push/pull.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-211efdd109b2da1e9e98.html"
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-defend — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-b899baedb1b384d3b722.atom.xml</id>
+  <updated>2026-08-19T08:57:17Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-b899baedb1b384d3b722.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b899baedb1b384d3b722.html"/>
+  <entry>
+    <title>New: dsh-defend</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-b899baedb1b384d3b722/345b23a8670f473e</id>
+    <updated>2026-08-19T08:57:17Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b899baedb1b384d3b722.html"/>
+    <author><name>PerryLink</name></author>
+    <category term="memory"/>
+    <summary>Prompt-injection, jailbreak, and secret-leak detection: an Aho-Corasick engine interposes allow/ask/block at three seams — user messages, tool arguments, and tool results. Exact install spec: dsh-defend. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -5,11 +5,11 @@
     "id": "deeplugin-fcb5d21355d25770d5de",
     "name": "dsh-plugin-guide",
     "author": "PerryLink",
-    "category": "skill",
+    "category": "tools",
     "version": null,
     "homepage": "https://github.com/PerryLink/dsh-plugin-guide",
     "firstObservedAt": "2026-08-16T18:48:18Z",
-    "lastChangedAt": "2026-08-16T18:48:18Z"
+    "lastChangedAt": "2026-08-19T08:57:17Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-fcb5d21355d25770d5de.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-fcb5d21355d25770d5de.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-plugin-guide 已收录到 DeepSeek Harness Plugin Store。DSH 插件开发知识库，作为按需加载的 agent 技能随 bundle 安装：官方约束、任务工作流、API 参考与社区踩坑，写插件时让 DSH 自己查。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-fcb5d21355d25770d5de.html",
-    "en": "dsh-plugin-guide is now listed on the DeepSeek Harness Plugin Store. The DSH plugin-development knowledge base as an on-demand agent skill: official constraints, task workflows, API reference and community gotchas, installed with the bundle so the agent can look things up while building a plugin.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-fcb5d21355d25770d5de.html"
+    "zh": "dsh-plugin-guide 已收录到 DeepSeek Harness Plugin Store。插件开发知识库打包为按需加载的 agent 技能：官方约束、任务工作流、API 参考与社区踩坑。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-fcb5d21355d25770d5de.html",
+    "en": "dsh-plugin-guide is now listed on the DeepSeek Harness Plugin Store. A plugin-development knowledge base packaged as on-demand agent skills: official constraints, task workflows, API references, and community gotchas.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-fcb5d21355d25770d5de.html"
   }
 }

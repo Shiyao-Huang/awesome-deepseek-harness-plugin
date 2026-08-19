@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-f06c7d8691f1abca7211",
+    "name": "dsh-talk",
+    "author": "PerryLink",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/PerryLink/dsh-talk",
+    "firstObservedAt": "2026-08-19T08:57:17Z",
+    "lastChangedAt": "2026-08-19T08:57:17Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-f06c7d8691f1abca7211.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-f06c7d8691f1abca7211.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "dsh-talk",
+    "command": "dsh plugin --profile web add dsh-talk",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-f06c7d8691f1abca7211，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-f06c7d8691f1abca7211.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-f06c7d8691f1abca7211.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-talk 已收录到 DeepSeek Harness Plugin Store。语音优先会话回路：输入区麦克风（浏览器/本地语音识别），speak 工具语音播报，事件播报与说话打断。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-f06c7d8691f1abca7211.html",
+    "en": "dsh-talk is now listed on the DeepSeek Harness Plugin Store. Voice-first conversation loop: a composer microphone (browser/local speech recognition), a speak tool for spoken replies, event announcements, and barge-in.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-f06c7d8691f1abca7211.html"
+  }
+}

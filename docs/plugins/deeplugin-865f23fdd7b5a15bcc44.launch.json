@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/xiejianjun000/eco-dsh-plugins",
     "firstObservedAt": "2026-08-18T13:10:14Z",
-    "lastChangedAt": "2026-08-18T13:10:14Z"
+    "lastChangedAt": "2026-08-19T08:57:17Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-865f23fdd7b5a15bcc44.html",
@@ -28,6 +28,6 @@
   },
   "posts": {
     "zh": "eco-dsh-plugins 已收录到 DeepSeek Harness Plugin Store。评分制记忆树插件 eco-memory-tree：结构化长期记忆，BM25/中文检索，Obsidian 双向同步。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-865f23fdd7b5a15bcc44.html",
-    "en": "eco-dsh-plugins is now listed on the DeepSeek Harness Plugin Store. L1-L4 risk-tiered permission gate (eco-permission-gate) and SM3 tamper-proof audit chain (eco-audit-chain).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-865f23fdd7b5a15bcc44.html"
+    "en": "eco-dsh-plugins is now listed on the DeepSeek Harness Plugin Store. A scored memory-tree plugin (eco-memory-tree): structured long-term memory with BM25/Chinese retrieval and two-way Obsidian sync.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-865f23fdd7b5a15bcc44.html"
   }
 }

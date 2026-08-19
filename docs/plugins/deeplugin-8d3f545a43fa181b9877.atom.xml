@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>deepseek-desk-rsi — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-8d3f545a43fa181b9877.atom.xml</id>
+  <updated>2026-08-19T08:57:17Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-8d3f545a43fa181b9877.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8d3f545a43fa181b9877.html"/>
+  <entry>
+    <title>New: deepseek-desk-rsi</title>
+    <id>tag:deeplugin.store,2026-08-19:deeplugin-8d3f545a43fa181b9877/345b23a8670f473e</id>
+    <updated>2026-08-19T08:57:17Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-8d3f545a43fa181b9877.html"/>
+    <author><name>huchunlinnk</name></author>
+    <category term="workflow"/>
+    <summary>Recursive Self-Improvement engine: bounded perceive→integrate→verify→parity→repair→propose loop + 128-plugin 1:1 parity gate — DSH maintains DSH. Exact install spec: github:huchunlinnk/deepseek-desk-rsi. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

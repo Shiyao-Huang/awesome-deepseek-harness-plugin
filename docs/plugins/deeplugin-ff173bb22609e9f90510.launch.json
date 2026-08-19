@@ -5,11 +5,11 @@
     "id": "deeplugin-ff173bb22609e9f90510",
     "name": "dsh-observe",
     "author": "PerryLink",
-    "category": "dev",
+    "category": "notify",
     "version": null,
     "homepage": "https://github.com/PerryLink/dsh-observe",
     "firstObservedAt": "2026-08-18T03:11:15Z",
-    "lastChangedAt": "2026-08-18T03:11:15Z"
+    "lastChangedAt": "2026-08-19T08:57:17Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-ff173bb22609e9f90510.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-ff173bb22609e9f90510.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-observe 已收录到 DeepSeek Harness Plugin Store。将会话事件流导出为 OpenTelemetry OTLP 与 Langfuse 的脱敏、缓冲 traces 与指标，默认关闭。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-ff173bb22609e9f90510.html",
-    "en": "dsh-observe is now listed on the DeepSeek Harness Plugin Store. Exports the session event stream to OpenTelemetry OTLP and Langfuse as sanitized, buffered traces and metrics, off by default.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-ff173bb22609e9f90510.html"
+    "zh": "dsh-observe 已收录到 DeepSeek Harness Plugin Store。OpenTelemetry 与 Langfuse 可观测性导出：turn/step/tool/LLM span 与 token/成本指标，脱敏采集 + 离线缓冲重试。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-ff173bb22609e9f90510.html",
+    "en": "dsh-observe is now listed on the DeepSeek Harness Plugin Store. OpenTelemetry and Langfuse observability export: turn/step/tool/LLM spans plus token and cost metrics, with sanitized collection and offline buffering with retry.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-ff173bb22609e9f90510.html"
   }
 }
