@@ -13,9 +13,9 @@
 <text x="28" y="184" font-size="15">band C（avg value 52.9）</text>
 <rect x="300" y="166" width="600" height="22" rx="11" fill="#e8e2d6"/>
 <rect x="300" y="166" width="105" height="22" rx="11" fill="#5da399"/>
-<text x="912" y="184" text-anchor="end" font-size="15" font-weight="700">2,223</text>
+<text x="912" y="184" text-anchor="end" font-size="15" font-weight="700">2,221</text>
 <text x="28" y="230" font-size="15">band D（avg value 33.4）</text>
 <rect x="300" y="212" width="600" height="22" rx="11" fill="#e8e2d6"/>
 <rect x="300" y="212" width="600" height="22" rx="11" fill="#d4a373"/>
-<text x="912" y="230" text-anchor="end" font-size="15" font-weight="700">12,665</text>
+<text x="912" y="230" text-anchor="end" font-size="15" font-weight="700">12,668</text>
 </svg>
