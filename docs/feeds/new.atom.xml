@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>deeplugin.store — New plugins</title>
   <id>https://deeplugin.store/feeds/new.atom.xml</id>
-  <updated>2026-08-19T18:56:48Z</updated>
+  <updated>2026-08-20T01:51:23Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/feeds/new.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/market.html"/>
+  <entry>
+    <title>New: dsh-plugin-store</title>
+    <id>tag:deeplugin.store,2026-08-20:deeplugin-b72e5e3451eb5508dfdb/9864b9242676253c</id>
+    <updated>2026-08-20T01:51:23Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b72e5e3451eb5508dfdb.html"/>
+    <author><name>sandbaseai</name></author>
+    <category term="dev"/>
+    <summary>Native DSH Settings marketplace for community catalog search, tag filtering, plugin installation, and installed-package review. Exact install spec: github:sandbaseai/dsh-plugin-store. Source event: beancookie/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
   <entry>
     <title>New: dsh-ssh-hub</title>
     <id>tag:deeplugin.store,2026-08-19:deeplugin-ff35329b0f729ec64223/e830cca14e4b6adc</id>
@@ -895,14 +904,5 @@
     <author><name>winditer</name></author>
     <category term="ui"/>
     <summary>Polishes the draft in the composer into a clearer, better-structured prompt from the ✨ button or Alt+O; streams the result live over SSE with reasoning shown first, and follows the session's default model with zero configuration or any OpenAI-compatible endpoint. Exact install spec: dsh-prompt-optimizer. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-finreport</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-a7729d904ab980bbea0a/71476531b93f83d6</id>
-    <updated>2026-08-19T14:56:47Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a7729d904ab980bbea0a.html"/>
-    <author><name>SkyloveQiu</name></author>
-    <category term="notify"/>
-    <summary>Scheduled bilingual financial reports for DSH: market quotes, news and macro calendar, with per-target timezones and delivery through eight dsh-im channels. Exact install spec: github:skyloveqiu/dsh-finreport. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>
