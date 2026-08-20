@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-office-plugin — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-2cea9932d168691fd10c.atom.xml</id>
+  <updated>2026-08-20T03:10:43Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-2cea9932d168691fd10c.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-2cea9932d168691fd10c.html"/>
+  <entry>
+    <title>New: dsh-office-plugin</title>
+    <id>tag:deeplugin.store,2026-08-20:deeplugin-2cea9932d168691fd10c/efbba56869fd0fa2</id>
+    <updated>2026-08-20T03:10:43Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-2cea9932d168691fd10c.html"/>
+    <author><name>geguanming</name></author>
+    <category term="ui"/>
+    <summary>Renders live multi-agent session activity as a pixel-art office in a Web UI side panel - each session is an ox/horse worker typing at its desk when busy or wandering off when idle, with click-to-view work monitors and in-place approval cards. Exact install spec: github:geguanming/dsh-office-plugin. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

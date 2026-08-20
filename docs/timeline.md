@@ -5,6 +5,10 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 2026-08-20 | github | plugin | [dsh-antigravity](https://github.com/LiZhenNet/dsh-antigravity) | LiZhenNet | core-and-ecosystem |
+| 2026-08-20 | github | plugin | [dsh-effort-switcher](https://github.com/lemonorangeapple/dsh-effort-switcher) | lemonorangeapple | core-and-ecosystem |
+| 2026-08-20 | github | plugin | [dsh-hub-oauth-gateway](https://github.com/lninghaha/dsh-hub-oauth-gateway) | lninghaha | index-and-marketplace |
+| 2026-08-20 | github | plugin | [dsh-office-plugin](https://github.com/geguanming/dsh-office-plugin) | geguanming | ui-and-desktop |
 | 2026-08-20 | github | plugin | [dsh-plugin-store](https://github.com/sandbaseai/dsh-plugin-store) | sandbaseai | core-and-ecosystem |
 | 2026-08-19T19:25:27Z | hacker_news | story | [Show HN: LLM-as-a-Verifier Plugin for DeepSeek Harness](https://news.ycombinator.com/item?id=49366057) | gazebushka | core-and-ecosystem |
 | 2026-08-19 | github | plugin | [Big8](https://github.com/kobenfang/Big8) | kobenfang | core-and-ecosystem |

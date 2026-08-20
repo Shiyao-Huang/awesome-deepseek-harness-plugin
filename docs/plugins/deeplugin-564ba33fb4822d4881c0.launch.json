@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-564ba33fb4822d4881c0",
+    "name": "dsh-effort-switcher",
+    "author": "lemonorangeapple",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/lemonorangeapple/dsh-effort-switcher",
+    "firstObservedAt": "2026-08-20T03:10:43Z",
+    "lastChangedAt": "2026-08-20T03:10:43Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-564ba33fb4822d4881c0.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-564ba33fb4822d4881c0.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:lemonorangeapple/dsh-effort-switcher",
+    "command": "dsh plugin --profile web add github:lemonorangeapple/dsh-effort-switcher",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-564ba33fb4822d4881c0，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-564ba33fb4822d4881c0.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-564ba33fb4822d4881c0.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-effort-switcher 已收录到 DeepSeek Harness Plugin Store。为DSH添加一个类似于Codex的推理强度切换器。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-564ba33fb4822d4881c0.html",
+    "en": "dsh-effort-switcher is now listed on the DeepSeek Harness Plugin Store. A Codex-like effort switcher for Deepseek Harness.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-564ba33fb4822d4881c0.html"
+  }
+}
