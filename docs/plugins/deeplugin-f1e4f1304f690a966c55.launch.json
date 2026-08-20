@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-f1e4f1304f690a966c55",
+    "name": "SpecFusion",
+    "author": "wxkingstar",
+    "category": "tools",
+    "version": null,
+    "homepage": "https://github.com/wxkingstar/SpecFusion",
+    "firstObservedAt": "2026-08-20T04:52:29Z",
+    "lastChangedAt": "2026-08-20T04:52:29Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-f1e4f1304f690a966c55.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-f1e4f1304f690a966c55.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:wxkingstar/specfusion",
+    "command": "dsh plugin --profile web add github:wxkingstar/specfusion",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-f1e4f1304f690a966c55，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-f1e4f1304f690a966c55.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-f1e4f1304f690a966c55.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "SpecFusion 已收录到 DeepSeek Harness Plugin Store。通过五个只读工具和一个运行时 Skill，搜索 20 个中国开放平台的 65,600+ 篇 API 文档。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-f1e4f1304f690a966c55.html",
+    "en": "SpecFusion is now listed on the DeepSeek Harness Plugin Store. Search 65,600+ API docs from 20 Chinese open platforms through five read-only tools and a runtime skill.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-f1e4f1304f690a966c55.html"
+  }
+}

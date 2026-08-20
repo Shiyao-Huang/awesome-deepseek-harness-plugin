@@ -9,7 +9,7 @@
 <text x="28" y="124" font-size="14">core-and-ecosystem</text>
 <rect x="245" y="109" width="620" height="20" rx="10" fill="#e8e2d6"/>
 <rect x="245" y="109" width="99" height="20" rx="10" fill="#4f6d7a"/>
-<text x="878" y="124" text-anchor="end" font-size="14" font-weight="700">1,974</text>
+<text x="878" y="124" text-anchor="end" font-size="14" font-weight="700">1,989</text>
 <text x="28" y="166" font-size="14">ui-and-desktop</text>
 <rect x="245" y="151" width="620" height="20" rx="10" fill="#e8e2d6"/>
 <rect x="245" y="151" width="12" height="20" rx="10" fill="#5da399"/>
@@ -20,12 +20,12 @@
 <text x="878" y="208" text-anchor="end" font-size="14" font-weight="700">238</text>
 <text x="28" y="250" font-size="14">operations-and-safety</text>
 <rect x="245" y="235" width="620" height="20" rx="10" fill="#e8e2d6"/>
-<rect x="245" y="235" width="7" height="20" rx="10" fill="#7b6d8d"/>
-<text x="878" y="250" text-anchor="end" font-size="14" font-weight="700">156</text>
+<rect x="245" y="235" width="8" height="20" rx="10" fill="#7b6d8d"/>
+<text x="878" y="250" text-anchor="end" font-size="14" font-weight="700">160</text>
 <text x="28" y="292" font-size="14">multimedia-and-vision</text>
 <rect x="245" y="277" width="620" height="20" rx="10" fill="#e8e2d6"/>
 <rect x="245" y="277" width="6" height="20" rx="10" fill="#e07a5f"/>
-<text x="878" y="292" text-anchor="end" font-size="14" font-weight="700">124</text>
+<text x="878" y="292" text-anchor="end" font-size="14" font-weight="700">125</text>
 <text x="28" y="334" font-size="14">docs-and-learning</text>
 <rect x="245" y="319" width="620" height="20" rx="10" fill="#e8e2d6"/>
 <rect x="245" y="319" width="3" height="20" rx="10" fill="#3d5a80"/>

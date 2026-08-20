@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-3e759d3ff0e033c257c8",
+    "name": "dsh-token-viewer",
+    "author": "qwert702",
+    "category": "usage",
+    "version": null,
+    "homepage": "https://github.com/qwert702/dsh-token-viewer",
+    "firstObservedAt": "2026-08-20T04:52:29Z",
+    "lastChangedAt": "2026-08-20T04:52:29Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-3e759d3ff0e033c257c8.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-3e759d3ff0e033c257c8.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:qwert702/dsh-token-viewer",
+    "command": "dsh plugin --profile web add github:qwert702/dsh-token-viewer",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-3e759d3ff0e033c257c8，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-3e759d3ff0e033c257c8.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-3e759d3ff0e033c257c8.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-token-viewer 已收录到 DeepSeek Harness Plugin Store。dsh 网页端 CC Switch 风格 Token 消耗统计：按请求的用量日志、真实消耗 Hero、按请求提交时间分桶的趋势图、按模型峰谷牌价计费、项目/模型统计与账户余额。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-3e759d3ff0e033c257c8.html",
+    "en": "dsh-token-viewer is now listed on the DeepSeek Harness Plugin Store. CC Switch-style token consumption statistics for the dsh web GUI: per-request usage log, real-consumption hero, request-time-bucketed trend chart, per-model peak/off-peak list pricing, per-project and per-model stats, and account balance.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-3e759d3ff0e033c257c8.html"
+  }
+}

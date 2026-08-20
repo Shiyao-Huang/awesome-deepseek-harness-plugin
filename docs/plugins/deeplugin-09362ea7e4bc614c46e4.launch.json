@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-09362ea7e4bc614c46e4",
+    "name": "dsh-model-balance",
+    "author": "jacujay",
+    "category": "usage",
+    "version": null,
+    "homepage": "https://github.com/jacujay/dsh-model-balance",
+    "firstObservedAt": "2026-08-20T04:52:29Z",
+    "lastChangedAt": "2026-08-20T04:52:29Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-09362ea7e4bc614c46e4.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-09362ea7e4bc614c46e4.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:jacujay/dsh-model-balance",
+    "command": "dsh plugin --profile web add github:jacujay/dsh-model-balance",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-09362ea7e4bc614c46e4，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-09362ea7e4bc614c46e4.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-09362ea7e4bc614c46e4.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-model-balance 已收录到 DeepSeek Harness Plugin Store。自动识别当前模型厂商（内置 7 家），在输入框内显示余额或配额，未内置厂商可配置自定义接口。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-09362ea7e4bc614c46e4.html",
+    "en": "dsh-model-balance is now listed on the DeepSeek Harness Plugin Store. Auto-detect the current model vendor (7 built-in) and show its balance or quota in the composer input row, with custom endpoints for unsupported vendors.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-09362ea7e4bc614c46e4.html"
+  }
+}

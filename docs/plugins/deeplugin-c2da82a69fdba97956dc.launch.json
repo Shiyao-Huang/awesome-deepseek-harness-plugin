@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-c2da82a69fdba97956dc",
+    "name": "dsh-sentinel-scanner",
+    "author": "Eligahyu",
+    "category": "security",
+    "version": null,
+    "homepage": "https://github.com/Eligahyu/dsh-sentinel-scanner",
+    "firstObservedAt": "2026-08-20T04:52:29Z",
+    "lastChangedAt": "2026-08-20T04:52:29Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-c2da82a69fdba97956dc.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-c2da82a69fdba97956dc.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:eligahyu/dsh-sentinel-scanner",
+    "command": "dsh plugin --profile web add github:eligahyu/dsh-sentinel-scanner",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-c2da82a69fdba97956dc，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-c2da82a69fdba97956dc.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-c2da82a69fdba97956dc.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-sentinel-scanner 已收录到 DeepSeek Harness Plugin Store。DSH 插件安全扫描器：只读静态审计（执行、凭据、外传、混淆、安装脚本、bundle 清单），输出 0-100 风险分。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c2da82a69fdba97956dc.html",
+    "en": "dsh-sentinel-scanner is now listed on the DeepSeek Harness Plugin Store. Static security scanner for DSH plugins: read-only audit (exec, credentials, exfiltration, obfuscation, install scripts, bundle manifest) with a 0-100 risk score.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-c2da82a69fdba97956dc.html"
+  }
+}

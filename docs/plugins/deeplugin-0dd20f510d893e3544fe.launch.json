@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-0dd20f510d893e3544fe",
+    "name": "dsh-read-image-view",
+    "author": "Yu-tao-Li",
+    "category": "ui",
+    "version": null,
+    "homepage": "https://github.com/Yu-tao-Li/dsh-read-image-view",
+    "firstObservedAt": "2026-08-20T04:52:29Z",
+    "lastChangedAt": "2026-08-20T04:52:29Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-0dd20f510d893e3544fe.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-0dd20f510d893e3544fe.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:yu-tao-li/dsh-read-image-view",
+    "command": "dsh plugin --profile web add github:yu-tao-li/dsh-read-image-view",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-0dd20f510d893e3544fe，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-0dd20f510d893e3544fe.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-0dd20f510d893e3544fe.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-read-image-view 已收录到 DeepSeek Harness Plugin Store。用于展示对话中读取的图片（read_image 的结果）：在 DeepSeek Harness Web GUI 对话流中以专用 Read image 行呈现，默认缩略图 + 页面内全精度放大层（缩放按钮/滚轮/1:1 原始尺寸）+ 元数据信封。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-0dd20f510d893e3544fe.html",
+    "en": "dsh-read-image-view is now listed on the DeepSeek Harness Plugin Store. Displays the images read in the conversation (read_image results) in the DSH Web GUI: a dedicated Read image row with a default thumbnail and an in-page full-resolution lightbox (zoom buttons, mouse wheel, 1:1 original size), plus the metadata envelope.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-0dd20f510d893e3544fe.html"
+  }
+}

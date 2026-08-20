@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/xiaoyuyu6420/dsh-backup",
     "firstObservedAt": "2026-08-15T22:14:49Z",
-    "lastChangedAt": "2026-08-16T14:38:49Z"
+    "lastChangedAt": "2026-08-20T04:52:29Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-b1e9d41c30d9860d596a.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-b1e9d41c30d9860d596a.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-backup 已收录到 DeepSeek Harness Plugin Store。一键备份与恢复 DSH 用户数据：/backup 备份、完整性校验、恢复，定时自动备份（重启续跑），sha256 校验与自动轮换（macOS/Linux/Windows）。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b1e9d41c30d9860d596a.html",
-    "en": "dsh-backup is now listed on the DeepSeek Harness Plugin Store. One-command backup & restore of DSH user data: /backup, verify, restore, restart-surviving scheduled auto-backup, sha256 checksums and rotation (macOS/Linux/Windows).\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b1e9d41c30d9860d596a.html"
+    "zh": "dsh-backup 已收录到 DeepSeek Harness Plugin Store。一键备份与恢复 DSH 用户数据：/backup 命令族与 backup_dsh 工具、可视化 Settings 面板，sha256 完整性校验与加固恢复（拒绝路径穿越/软链），定时自动备份（重启续跑、绝对节奏）、可配置轮换、归档下载路由、GitHub 私有仓库同步；macOS/Linux/Windows。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-b1e9d41c30d9860d596a.html",
+    "en": "dsh-backup is now listed on the DeepSeek Harness Plugin Store. One-command backup & restore of DSH user data: /backup command family plus backup_dsh tool and a visual Settings panel, sha256 verify with hardened restore validation (path-traversal/symlink rejection), scheduled auto-backup that survives restarts on an absolute cadence, configurable rotation, archive download route, and GitHub sync to a private repo; macOS/Linux/Windows.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-b1e9d41c30d9860d596a.html"
   }
 }

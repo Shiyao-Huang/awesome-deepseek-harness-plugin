@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>dsh-backup — release evidence</title>
   <id>https://deeplugin.store/plugins/deeplugin-b1e9d41c30d9860d596a.atom.xml</id>
-  <updated>2026-08-16T14:38:49Z</updated>
+  <updated>2026-08-20T04:52:29Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-b1e9d41c30d9860d596a.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b1e9d41c30d9860d596a.html"/>
+  <entry>
+    <title>Updated: dsh-backup</title>
+    <id>tag:deeplugin.store,2026-08-20:deeplugin-b1e9d41c30d9860d596a/5469ef04ee1e66a6</id>
+    <updated>2026-08-20T04:52:29Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b1e9d41c30d9860d596a.html"/>
+    <author><name>xiaoyuyu6420</name></author>
+    <category term="tools"/>
+    <summary>One-command backup &amp; restore of DSH user data: /backup command family plus backup_dsh tool and a visual Settings panel, sha256 verify with hardened restore validation (path-traversal/symlink rejection), scheduled auto-backup that survives restarts on an absolute cadence, configurable rotation, archive download route, and GitHub sync to a private repo; macOS/Linux/Windows. Exact install spec: github:xiaoyuyu6420/dsh-backup. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description, description_i18n.</summary>
+  </entry>
   <entry>
     <title>Updated: dsh-backup</title>
     <id>tag:deeplugin.store,2026-08-16:deeplugin-b1e9d41c30d9860d596a/2730575b8e4da547</id>
@@ -12,7 +21,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b1e9d41c30d9860d596a.html"/>
     <author><name>xiaoyuyu6420</name></author>
     <category term="tools"/>
-    <summary>One-command backup &amp; restore of DSH user data: /backup, verify, restore, restart-surviving scheduled auto-backup, sha256 checksums and rotation (macOS/Linux/Windows). Exact install spec: github:xiaoyuyu6420/dsh-backup. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description_i18n.</summary>
+    <summary>One-command backup &amp; restore of DSH user data: /backup command family plus backup_dsh tool and a visual Settings panel, sha256 verify with hardened restore validation (path-traversal/symlink rejection), scheduled auto-backup that survives restarts on an absolute cadence, configurable rotation, archive download route, and GitHub sync to a private repo; macOS/Linux/Windows. Exact install spec: github:xiaoyuyu6420/dsh-backup. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: description_i18n.</summary>
   </entry>
   <entry>
     <title>Updated: dsh-backup</title>
@@ -21,7 +30,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b1e9d41c30d9860d596a.html"/>
     <author><name>xiaoyuyu6420</name></author>
     <category term="tools"/>
-    <summary>One-command backup &amp; restore of DSH user data: /backup, verify, restore, restart-surviving scheduled auto-backup, sha256 checksums and rotation (macOS/Linux/Windows). Exact install spec: github:xiaoyuyu6420/dsh-backup. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
+    <summary>One-command backup &amp; restore of DSH user data: /backup command family plus backup_dsh tool and a visual Settings panel, sha256 verify with hardened restore validation (path-traversal/symlink rejection), scheduled auto-backup that survives restarts on an absolute cadence, configurable rotation, archive download route, and GitHub sync to a private repo; macOS/Linux/Windows. Exact install spec: github:xiaoyuyu6420/dsh-backup. Source event: zoahdev/dsh-subscribe; changed: sources.</summary>
   </entry>
   <entry>
     <title>Updated: dsh-backup</title>
@@ -30,7 +39,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b1e9d41c30d9860d596a.html"/>
     <author><name>xiaoyuyu6420</name></author>
     <category term="tools"/>
-    <summary>One-command backup &amp; restore of DSH user data: /backup, verify, restore, restart-surviving scheduled auto-backup, sha256 checksums and rotation (macOS/Linux/Windows). Exact install spec: github:xiaoyuyu6420/dsh-backup. Source event: dsh-market/dsh-market; changed: sources.</summary>
+    <summary>One-command backup &amp; restore of DSH user data: /backup command family plus backup_dsh tool and a visual Settings panel, sha256 verify with hardened restore validation (path-traversal/symlink rejection), scheduled auto-backup that survives restarts on an absolute cadence, configurable rotation, archive download route, and GitHub sync to a private repo; macOS/Linux/Windows. Exact install spec: github:xiaoyuyu6420/dsh-backup. Source event: dsh-market/dsh-market; changed: sources.</summary>
   </entry>
   <entry>
     <title>Updated: dsh-backup</title>
@@ -39,7 +48,7 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b1e9d41c30d9860d596a.html"/>
     <author><name>xiaoyuyu6420</name></author>
     <category term="tools"/>
-    <summary>One-command backup &amp; restore of DSH user data: /backup, verify, restore, restart-surviving scheduled auto-backup, sha256 checksums and rotation (macOS/Linux/Windows). Exact install spec: github:xiaoyuyu6420/dsh-backup. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
+    <summary>One-command backup &amp; restore of DSH user data: /backup command family plus backup_dsh tool and a visual Settings panel, sha256 verify with hardened restore validation (path-traversal/symlink rejection), scheduled auto-backup that survives restarts on an absolute cadence, configurable rotation, archive download route, and GitHub sync to a private repo; macOS/Linux/Windows. Exact install spec: github:xiaoyuyu6420/dsh-backup. Source event: beancookie/awesome-dsh-plugin; changed: sources.</summary>
   </entry>
   <entry>
     <title>New: dsh-backup</title>
@@ -48,6 +57,6 @@
     <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b1e9d41c30d9860d596a.html"/>
     <author><name>xiaoyuyu6420</name></author>
     <category term="tools"/>
-    <summary>One-command backup &amp; restore of DSH user data: /backup, verify, restore, restart-surviving scheduled auto-backup, sha256 checksums and rotation (macOS/Linux/Windows). Exact install spec: github:xiaoyuyu6420/dsh-backup. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+    <summary>One-command backup &amp; restore of DSH user data: /backup command family plus backup_dsh tool and a visual Settings panel, sha256 verify with hardened restore validation (path-traversal/symlink rejection), scheduled auto-backup that survives restarts on an absolute cadence, configurable rotation, archive download route, and GitHub sync to a private repo; macOS/Linux/Windows. Exact install spec: github:xiaoyuyu6420/dsh-backup. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

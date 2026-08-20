@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-56f98bd02ca3fb9dd420",
+    "name": "dsh-usage-dashboard",
+    "author": "Hann428",
+    "category": "usage",
+    "version": null,
+    "homepage": "https://github.com/Hann428/dsh-usage-dashboard",
+    "firstObservedAt": "2026-08-20T04:52:29Z",
+    "lastChangedAt": "2026-08-20T04:52:29Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-56f98bd02ca3fb9dd420.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-56f98bd02ca3fb9dd420.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:hann428/dsh-usage-dashboard",
+    "command": "dsh plugin --profile web add github:hann428/dsh-usage-dashboard",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-56f98bd02ca3fb9dd420，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-56f98bd02ca3fb9dd420.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-56f98bd02ca3fb9dd420.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-usage-dashboard 已收录到 DeepSeek Harness Plugin Store。DeepSeek Harness 用量页签：展示 DeepSeek 账户余额、官方峰谷时段价格、动态倒计时、平台用量页入口和本地余额告警灯。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-56f98bd02ca3fb9dd420.html",
+    "en": "dsh-usage-dashboard is now listed on the DeepSeek Harness Plugin Store. DeepSeek Harness Usage tab for DeepSeek account balance, official peak/off-peak pricing, live countdown, platform usage link, and local balance warning light.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-56f98bd02ca3fb9dd420.html"
+  }
+}

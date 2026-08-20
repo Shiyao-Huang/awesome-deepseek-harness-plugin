@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-model-balance — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-09362ea7e4bc614c46e4.atom.xml</id>
+  <updated>2026-08-20T04:52:29Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-09362ea7e4bc614c46e4.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-09362ea7e4bc614c46e4.html"/>
+  <entry>
+    <title>New: dsh-model-balance</title>
+    <id>tag:deeplugin.store,2026-08-20:deeplugin-09362ea7e4bc614c46e4/eff4b5af01607048</id>
+    <updated>2026-08-20T04:52:29Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-09362ea7e4bc614c46e4.html"/>
+    <author><name>jacujay</name></author>
+    <category term="usage"/>
+    <summary>Auto-detect the current model vendor (7 built-in) and show its balance or quota in the composer input row, with custom endpoints for unsupported vendors. Exact install spec: github:jacujay/dsh-model-balance. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

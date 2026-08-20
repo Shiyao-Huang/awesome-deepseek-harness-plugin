@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-ac1fe78cdbe700e97045",
+    "name": "dsh-tailscale-gateway",
+    "author": "TiantianFlow",
+    "category": "remote",
+    "version": null,
+    "homepage": "https://github.com/TiantianFlow/dsh-tailscale-gateway",
+    "firstObservedAt": "2026-08-20T04:52:29Z",
+    "lastChangedAt": "2026-08-20T04:52:29Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-ac1fe78cdbe700e97045.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-ac1fe78cdbe700e97045.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:tiantianflow/dsh-tailscale-gateway",
+    "command": "dsh plugin --profile web add github:tiantianflow/dsh-tailscale-gateway",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-ac1fe78cdbe700e97045，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-ac1fe78cdbe700e97045.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-ac1fe78cdbe700e97045.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-tailscale-gateway 已收录到 DeepSeek Harness Plugin Store。为 DeepSeek Harness Web 提供私有 Tailscale 访问：用 Serve 注入的可信 Tailscale-User-Login 请求头做用户白名单，仅回环网关，受保护的 Serve 配置。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-ac1fe78cdbe700e97045.html",
+    "en": "dsh-tailscale-gateway is now listed on the DeepSeek Harness Plugin Store. Private Tailscale access for DeepSeek Harness Web that allowlists users from the trusted Tailscale-User-Login header that Serve injects, with a loopback-only gateway and guarded Serve setup.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-ac1fe78cdbe700e97045.html"
+  }
+}

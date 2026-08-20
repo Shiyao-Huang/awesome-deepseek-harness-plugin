@@ -5,6 +5,26 @@
 | 时间 | 平台 | 类型 | 标题 | 作者 | 分类 |
 | --- | --- | --- | --- | --- | --- |
 | 2026年8月15日 13:30 北京 | wechat | article | [DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了](https://mp.weixin.qq.com/s/O6u4JsV-cFl9mKF9t5SJqw) | 梦瑶 / 量子位 | index-and-marketplace |
+| 2026-08-20 | github | plugin | [cn-linebreak](https://github.com/chiang21fcb/cn-linebreak) | chiang21fcb | core-and-ecosystem |
+| 2026-08-20 | github | plugin | [dsh-ambiguity-handling](https://github.com/changlianxiya-139/dsh-ambiguity-handling) | changlianxiya-139 | core-and-ecosystem |
+| 2026-08-20 | github | plugin | [dsh-any-attachment](https://github.com/Zenjibad/dsh-any-attachment) | Zenjibad | core-and-ecosystem |
+| 2026-08-20 | github | plugin | [dsh-bot-mode](https://github.com/zenghaili0901/dsh-bot-mode) | zenghaili0901 | core-and-ecosystem |
+| 2026-08-20 | github | plugin | [dsh-brief-session-title](https://github.com/Relethe/dsh-brief-session-title) | Relethe | core-and-ecosystem |
+| 2026-08-20 | github | plugin | [dsh-cpa-status](https://github.com/xohmai/dsh-cpa-status) | xohmai | core-and-ecosystem |
+| 2026-08-20 | github | plugin | [dsh-model-balance](https://github.com/jacujay/dsh-model-balance) | jacujay | operations-and-safety |
+| 2026-08-20 | github | plugin | [dsh-network-proxy](https://github.com/kriskite/dsh-network-proxy) | kriskite | core-and-ecosystem |
+| 2026-08-20 | github | plugin | [dsh-outcome-loop](https://github.com/victorzhong0110/dsh-outcome-loop) | victorzhong0110 | operations-and-safety |
+| 2026-08-20 | github | plugin | [dsh-read-image-view](https://github.com/Yu-tao-Li/dsh-read-image-view) | Yu-tao-Li | multimedia-and-vision |
+| 2026-08-20 | github | plugin | [dsh-sentinel-scanner](https://github.com/Eligahyu/dsh-sentinel-scanner) | Eligahyu | core-and-ecosystem |
+| 2026-08-20 | github | plugin | [dsh-session-delete](https://github.com/xohmai/dsh-session-delete) | xohmai | core-and-ecosystem |
+| 2026-08-20 | github | plugin | [dsh-tailscale-gateway](https://github.com/TiantianFlow/dsh-tailscale-gateway) | TiantianFlow | core-and-ecosystem |
+| 2026-08-20 | github | plugin | [dsh-token-viewer](https://github.com/qwert702/dsh-token-viewer) | qwert702 | operations-and-safety |
+| 2026-08-20 | github | plugin | [dsh-usage-dashboard](https://github.com/Hann428/dsh-usage-dashboard) | Hann428 | core-and-ecosystem |
+| 2026-08-20 | github | plugin | [dsh-wending-git-workbench](https://github.com/dd2673/dsh-wending-git-workbench) | dd2673 | core-and-ecosystem |
+| 2026-08-20 | github | plugin | [dsh-word-complete](https://github.com/tuogusa/dsh-word-complete) | tuogusa | core-and-ecosystem |
+| 2026-08-20 | github | plugin | [headroom-stats-plugin](https://github.com/Zenjibad/headroom-stats-plugin) | Zenjibad | operations-and-safety |
+| 2026-08-20 | github | plugin | [skill-injector-plugin](https://github.com/Zenjibad/skill-injector-plugin) | Zenjibad | core-and-ecosystem |
+| 2026-08-20 | github | plugin | [wavespeed-dsh-skill](https://github.com/WaveSpeedAI/wavespeed-dsh-skill) | WaveSpeedAI | core-and-ecosystem |
 | 2026-08-20 | github | plugin | [dsh-antigravity](https://github.com/LiZhenNet/dsh-antigravity) | LiZhenNet | core-and-ecosystem |
 | 2026-08-20 | github | plugin | [dsh-effort-switcher](https://github.com/lemonorangeapple/dsh-effort-switcher) | lemonorangeapple | core-and-ecosystem |
 | 2026-08-20 | github | plugin | [dsh-hub-oauth-gateway](https://github.com/lninghaha/dsh-hub-oauth-gateway) | lninghaha | index-and-marketplace |

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-95d78c38bddeae34fbfd",
+    "name": "dsh-session-delete",
+    "author": "xohmai",
+    "category": "session",
+    "version": null,
+    "homepage": "https://github.com/xohmai/dsh-session-delete",
+    "firstObservedAt": "2026-08-20T04:52:29Z",
+    "lastChangedAt": "2026-08-20T04:52:29Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-95d78c38bddeae34fbfd.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-95d78c38bddeae34fbfd.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:xohmai/dsh-session-delete",
+    "command": "dsh plugin --profile web add github:xohmai/dsh-session-delete",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-95d78c38bddeae34fbfd，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-95d78c38bddeae34fbfd.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-95d78c38bddeae34fbfd.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-session-delete 已收录到 DeepSeek Harness Plugin Store。真正删除会话：回收站可还原、归档清理、设置页批量删除。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-95d78c38bddeae34fbfd.html",
+    "en": "dsh-session-delete is now listed on the DeepSeek Harness Plugin Store. Real session deletion with trash and restore, archived cleanup, and batch delete from settings.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-95d78c38bddeae34fbfd.html"
+  }
+}

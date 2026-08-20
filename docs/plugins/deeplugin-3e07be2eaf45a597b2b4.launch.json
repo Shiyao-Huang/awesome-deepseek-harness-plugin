@@ -9,7 +9,7 @@
     "version": null,
     "homepage": "https://github.com/feiertu/dsh-input-rewriter",
     "firstObservedAt": "2026-08-19T14:56:47Z",
-    "lastChangedAt": "2026-08-19T14:56:47Z"
+    "lastChangedAt": "2026-08-20T04:52:29Z"
   },
   "links": {
     "detail": "https://deeplugin.store/plugins/deeplugin-3e07be2eaf45a597b2b4.html",
@@ -27,7 +27,7 @@
     "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-3e07be2eaf45a597b2b4.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
   },
   "posts": {
-    "zh": "dsh-input-rewriter 已收录到 DeepSeek Harness Plugin Store。停止输入后自动把草稿改写为更清晰、更可执行的提示词：按场景套用 playbook、长附件逐字保留、多提问保留编号。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-3e07be2eaf45a597b2b4.html",
-    "en": "dsh-input-rewriter is now listed on the DeepSeek Harness Plugin Store. Auto-rewrites the composer draft into a clearer, more executable prompt after you stop typing, using scene-aware playbooks, preserving long attachments verbatim, and numbering multi-part questions.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-3e07be2eaf45a597b2b4.html"
+    "zh": "dsh-input-rewriter 已收录到 DeepSeek Harness Plugin Store。你只管正常打字，停下约两秒，它就把你刚写的话自动改写成更容易得到好答案的样子；贴进来的代码、网址、长文原样不动，一次问几件事也一件不漏、排好顺序。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-3e07be2eaf45a597b2b4.html",
+    "en": "dsh-input-rewriter is now listed on the DeepSeek Harness Plugin Store. Type normally; about two seconds after you pause, it rewrites your draft into a version more likely to get a good answer, leaving pasted code, links and long text untouched and keeping multi-part questions numbered.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-3e07be2eaf45a597b2b4.html"
   }
 }

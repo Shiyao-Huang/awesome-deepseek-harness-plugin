@@ -2,9 +2,189 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>deeplugin.store — New plugins</title>
   <id>https://deeplugin.store/feeds/new.atom.xml</id>
-  <updated>2026-08-20T03:10:43Z</updated>
+  <updated>2026-08-20T04:52:29Z</updated>
   <link rel="self" type="application/atom+xml" href="https://deeplugin.store/feeds/new.atom.xml"/>
   <link rel="alternate" href="https://deeplugin.store/market.html"/>
+  <entry>
+    <title>New: SpecFusion</title>
+    <id>tag:deeplugin.store,2026-08-20:deeplugin-f1e4f1304f690a966c55/eff4b5af01607048</id>
+    <updated>2026-08-20T04:52:29Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f1e4f1304f690a966c55.html"/>
+    <author><name>wxkingstar</name></author>
+    <category term="tools"/>
+    <summary>Search 65,600+ API docs from 20 Chinese open platforms through five read-only tools and a runtime skill. Exact install spec: github:wxkingstar/specfusion. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-ambiguity-handling</title>
+    <id>tag:deeplugin.store,2026-08-20:deeplugin-de6ac657efeae7aee32e/eff4b5af01607048</id>
+    <updated>2026-08-20T04:52:29Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-de6ac657efeae7aee32e.html"/>
+    <author><name>changlianxiya-139</name></author>
+    <category term="workflow"/>
+    <summary>Appends ambiguity-handling rules to the dsh system prompt so the agent asks clarifying options before guessing. Exact install spec: github:changlianxiya-139/dsh-ambiguity-handling. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-word-complete</title>
+    <id>tag:deeplugin.store,2026-08-20:deeplugin-d871d338355a2fee0ca4/eff4b5af01607048</id>
+    <updated>2026-08-20T04:52:29Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-d871d338355a2fee0ca4.html"/>
+    <author><name>tuogusa</name></author>
+    <category term="ui"/>
+    <summary>Word auto-completion in the Web composer: prefix-matched suggestions sorted by closeness, arrow-key selection and Enter to confirm. Exact install spec: github:tuogusa/dsh-word-complete. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-wending-git-workbench</title>
+    <id>tag:deeplugin.store,2026-08-20:deeplugin-cb9372328c420d8a3011/eff4b5af01607048</id>
+    <updated>2026-08-20T04:52:29Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-cb9372328c420d8a3011.html"/>
+    <author><name>dd2673</name></author>
+    <category term="git"/>
+    <summary>Codex-style Git workbench: workspace-scoped changes, diff, stage, commit, guarded branch operations, graph history, fetch, fast-forward pull, and upstream push through official plugin APIs. Exact install spec: github:dd2673/dsh-wending-git-workbench. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-bot-mode</title>
+    <id>tag:deeplugin.store,2026-08-20:deeplugin-c6b33696cf812a36c65b/eff4b5af01607048</id>
+    <updated>2026-08-20T04:52:29Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c6b33696cf812a36c65b.html"/>
+    <author><name>zenghaili0901</name></author>
+    <category term="workflow"/>
+    <summary>Bot Mode for DeepSeek Harness: a roster of named bots with avatars, personas and per-bot chats, each backed by one durable continuable subagent session that keeps memory across turns. Exact install spec: github:zenghaili0901/dsh-bot-mode. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-sentinel-scanner</title>
+    <id>tag:deeplugin.store,2026-08-20:deeplugin-c2da82a69fdba97956dc/eff4b5af01607048</id>
+    <updated>2026-08-20T04:52:29Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c2da82a69fdba97956dc.html"/>
+    <author><name>Eligahyu</name></author>
+    <category term="security"/>
+    <summary>Static security scanner for DSH plugins: read-only audit (exec, credentials, exfiltration, obfuscation, install scripts, bundle manifest) with a 0-100 risk score. Exact install spec: github:eligahyu/dsh-sentinel-scanner. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-any-attachment</title>
+    <id>tag:deeplugin.store,2026-08-20:deeplugin-b91275eb3c9bdcd3df3a/eff4b5af01607048</id>
+    <updated>2026-08-20T04:52:29Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-b91275eb3c9bdcd3df3a.html"/>
+    <author><name>Zenjibad</name></author>
+    <category term="ui"/>
+    <summary>Lets the DSH web UI attach files of any type as pathless @-mentions: pick a workspace file from the @ menu or drop one into the composer, and the agent reads it directly. Exact install spec: github:zenjibad/dsh-any-attachment. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-tailscale-gateway</title>
+    <id>tag:deeplugin.store,2026-08-20:deeplugin-ac1fe78cdbe700e97045/eff4b5af01607048</id>
+    <updated>2026-08-20T04:52:29Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ac1fe78cdbe700e97045.html"/>
+    <author><name>TiantianFlow</name></author>
+    <category term="remote"/>
+    <summary>Private Tailscale access for DeepSeek Harness Web that allowlists users from the trusted Tailscale-User-Login header that Serve injects, with a loopback-only gateway and guarded Serve setup. Exact install spec: github:tiantianflow/dsh-tailscale-gateway. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+  <entry>
+    <title>New: cn-linebreak</title>
+    <id>tag:deeplugin.store,2026-08-20:deeplugin-a0ce58a839126272976f/eff4b5af01607048</id>
+    <updated>2026-08-20T04:52:29Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-a0ce58a839126272976f.html"/>
+    <author><name>chiang21fcb</name></author>
+    <category term="tools"/>
+    <summary>Static HTML auditor for Chinese line-breaking: checks explicit-`&lt;br&gt;` orphan lines, keep-all CSS coverage, CJK line-start/line-end punctuation rules, and protected-phrase splits, then inserts &lt;wbr&gt; at natural breakpoints; exposes a cn_linebreak_audit tool for agents. Exact install spec: github:chiang21fcb/cn-linebreak. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-session-delete</title>
+    <id>tag:deeplugin.store,2026-08-20:deeplugin-95d78c38bddeae34fbfd/eff4b5af01607048</id>
+    <updated>2026-08-20T04:52:29Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-95d78c38bddeae34fbfd.html"/>
+    <author><name>xohmai</name></author>
+    <category term="session"/>
+    <summary>Real session deletion with trash and restore, archived cleanup, and batch delete from settings. Exact install spec: github:xohmai/dsh-session-delete. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-brief-session-title</title>
+    <id>tag:deeplugin.store,2026-08-20:deeplugin-831d0b65095340ac5799/eff4b5af01607048</id>
+    <updated>2026-08-20T04:52:29Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-831d0b65095340ac5799.html"/>
+    <author><name>Relethe</name></author>
+    <category term="session"/>
+    <summary>Condenses DSH session titles from a full sentence into a short verb-free phrase, aiming for under five words. Exact install spec: github:relethe/dsh-brief-session-title. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-cpa-status</title>
+    <id>tag:deeplugin.store,2026-08-20:deeplugin-73ec50cdec5b5cce7846/eff4b5af01607048</id>
+    <updated>2026-08-20T04:52:29Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-73ec50cdec5b5cce7846.html"/>
+    <author><name>xohmai</name></author>
+    <category term="usage"/>
+    <summary>CPA account-pool status panel: sidebar health light, quota bars, success-rate ticks, and gateway key endings. Exact install spec: github:xohmai/dsh-cpa-status. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+  <entry>
+    <title>New: headroom-stats-plugin</title>
+    <id>tag:deeplugin.store,2026-08-20:deeplugin-57d0df00be4f2e5e88ad/eff4b5af01607048</id>
+    <updated>2026-08-20T04:52:29Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-57d0df00be4f2e5e88ad.html"/>
+    <author><name>Zenjibad</name></author>
+    <category term="usage"/>
+    <summary>Shows real-time token and cost savings from the Headroom compression proxy in the DSH web UI: a Settings dashboard plus a persistent stats line under the composer. Exact install spec: github:zenjibad/headroom-stats-plugin. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-usage-dashboard</title>
+    <id>tag:deeplugin.store,2026-08-20:deeplugin-56f98bd02ca3fb9dd420/eff4b5af01607048</id>
+    <updated>2026-08-20T04:52:29Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-56f98bd02ca3fb9dd420.html"/>
+    <author><name>Hann428</name></author>
+    <category term="usage"/>
+    <summary>DeepSeek Harness Usage tab for DeepSeek account balance, official peak/off-peak pricing, live countdown, platform usage link, and local balance warning light. Exact install spec: github:hann428/dsh-usage-dashboard. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+  <entry>
+    <title>New: skill-injector-plugin</title>
+    <id>tag:deeplugin.store,2026-08-20:deeplugin-534ed9f9a9e704b238d7/eff4b5af01607048</id>
+    <updated>2026-08-20T04:52:29Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-534ed9f9a9e704b238d7.html"/>
+    <author><name>Zenjibad</name></author>
+    <category term="skill"/>
+    <summary>Auto-injects user-chosen skills into DSH sessions, either every prompt or once at session start, with a settings page and a composer indicator. Exact install spec: github:zenjibad/skill-injector-plugin. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+  <entry>
+    <title>New: wavespeed-dsh-skill</title>
+    <id>tag:deeplugin.store,2026-08-20:deeplugin-466aa34c69f52aa8c430/eff4b5af01607048</id>
+    <updated>2026-08-20T04:52:29Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-466aa34c69f52aa8c430.html"/>
+    <author><name>WaveSpeedAI</name></author>
+    <category term="skill"/>
+    <summary>Generate and edit AI media (image, video, audio, 3D) with WaveSpeed models via the open-source wavespeed CLI: live catalog search, per-model input-schema introspection, local-file upload with @path markers, and price checks before running. Exact install spec: github:wavespeedai/wavespeed-dsh-skill. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-token-viewer</title>
+    <id>tag:deeplugin.store,2026-08-20:deeplugin-3e759d3ff0e033c257c8/eff4b5af01607048</id>
+    <updated>2026-08-20T04:52:29Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-3e759d3ff0e033c257c8.html"/>
+    <author><name>qwert702</name></author>
+    <category term="usage"/>
+    <summary>CC Switch-style token consumption statistics for the dsh web GUI: per-request usage log, real-consumption hero, request-time-bucketed trend chart, per-model peak/off-peak list pricing, per-project and per-model stats, and account balance. Exact install spec: github:qwert702/dsh-token-viewer. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-network-proxy</title>
+    <id>tag:deeplugin.store,2026-08-20:deeplugin-39e1e8e83e47a0a86eb2/eff4b5af01607048</id>
+    <updated>2026-08-20T04:52:29Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-39e1e8e83e47a0a86eb2.html"/>
+    <author><name>kriskite</name></author>
+    <category term="dev"/>
+    <summary>Network proxy manager for DeepSeek Harness: switch between system, manual, and direct modes from a live settings UI, applied instantly. Exact install spec: github:kriskite/dsh-network-proxy. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-read-image-view</title>
+    <id>tag:deeplugin.store,2026-08-20:deeplugin-0dd20f510d893e3544fe/eff4b5af01607048</id>
+    <updated>2026-08-20T04:52:29Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-0dd20f510d893e3544fe.html"/>
+    <author><name>Yu-tao-Li</name></author>
+    <category term="ui"/>
+    <summary>Displays the images read in the conversation (read_image results) in the DSH Web GUI: a dedicated Read image row with a default thumbnail and an in-page full-resolution lightbox (zoom buttons, mouse wheel, 1:1 original size), plus the metadata envelope. Exact install spec: github:yu-tao-li/dsh-read-image-view. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+  <entry>
+    <title>New: dsh-model-balance</title>
+    <id>tag:deeplugin.store,2026-08-20:deeplugin-09362ea7e4bc614c46e4/eff4b5af01607048</id>
+    <updated>2026-08-20T04:52:29Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-09362ea7e4bc614c46e4.html"/>
+    <author><name>jacujay</name></author>
+    <category term="usage"/>
+    <summary>Auto-detect the current model vendor (7 built-in) and show its balance or quota in the composer input row, with custom endpoints for unsupported vendors. Exact install spec: github:jacujay/dsh-model-balance. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
   <entry>
     <title>New: dsh-antigravity</title>
     <id>tag:deeplugin.store,2026-08-20:deeplugin-823e94984718f0b627b0/efbba56869fd0fa2</id>
@@ -724,185 +904,5 @@
     <author><name>kobenfang</name></author>
     <category term="skill"/>
     <summary>A-share stock analysis and screening skill: real-time quotes, technical timing scores, buy/sell signals and a managed watchlist. Exact install spec: github:kobenfang/biga. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-sidebar-balance</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-26e873b75035d863f433/e830cca14e4b6adc</id>
-    <updated>2026-08-19T18:56:48Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-26e873b75035d863f433.html"/>
-    <author><name>zhouchengke2046</name></author>
-    <category term="usage"/>
-    <summary>DeepSeek Harness plugin that shows the DeepSeek API account balance and OpenCode Go plan usage (consumption ring, hover details) in the sidebar footer, with adaptive polling and zh/en locale support. Exact install spec: github:zhouchengke2046/dsh-sidebar-balance. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-ui-tools</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-25dce452eca173d83dfc/e830cca14e4b6adc</id>
-    <updated>2026-08-19T18:56:48Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-25dce452eca173d83dfc.html"/>
-    <author><name>xing-shuyin</name></author>
-    <category term="ui"/>
-    <summary>Developer tools panel for the DSH web UI: file browser with preview, edit, and path-only file mentions; multi-tab terminals with quick commands; Git panel with commit, push, pull, and branch switching; and background job management. UI ported from pi-web-ui. Exact install spec: github:xing-shuyin/dsh-ui-tools. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-project-context</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-235de0db855bb3907b13/e830cca14e4b6adc</id>
-    <updated>2026-08-19T18:56:48Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-235de0db855bb3907b13.html"/>
-    <author><name>buhuikongpan</name></author>
-    <category term="workflow"/>
-    <summary>Turns each DSH workspace into a project: every new session auto-injects a project-workspace convention (read code before acting, empty folder means a brand-new project); a per-session Project toggle in the composer downgrades the session to a plain workspace with an explicit notice, with the state kept in the session log. Exact install spec: github:buhuikongpan/dsh-project-context. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-conflict-guardian</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-1f7f8d4e399390ea626e/e830cca14e4b6adc</id>
-    <updated>2026-08-19T18:56:48Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1f7f8d4e399390ea626e.html"/>
-    <author><name>baisama-cloud</name></author>
-    <category term="dev"/>
-    <summary>Scans the DSH loader tree at startup for plugin conflicts (duplicate mounts, failed or pending plugins, duplicate config row ids), auto-stops or restores the affected plugins, and shows a conflict report popup in the web UI. Exact install spec: github:baisama-cloud/dsh-conflict-guardian. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-task-runner</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-1de2d1e99a6892014616/e830cca14e4b6adc</id>
-    <updated>2026-08-19T18:56:48Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1de2d1e99a6892014616.html"/>
-    <author><name>jing-hy</name></author>
-    <category term="tools"/>
-    <summary>Project/task dual-mode workspaces for DSH: a task skips the workspace picker and gets a fresh scratch directory (D:\dsh_working\&lt;name&gt;-&lt;timestamp&gt;) per conversation, Codex-style; no-workspace sessions are grouped under a persistent Tasks section in the sidebar with empty states, and the new-session workspace picker gains a "no workspace (task)" option. Exact install spec: github:jing-hy/dsh-task-runner. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-llm-retry-settings</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-1d099cf49dbaeb152585/e830cca14e4b6adc</id>
-    <updated>2026-08-19T18:56:48Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-1d099cf49dbaeb152585.html"/>
-    <author><name>zeng6125-rgb</name></author>
-    <category term="model"/>
-    <summary>Settings card to tune the DSH LLM auto-retry policy (retry count, backoff, jitter) live from Settings → General. Exact install spec: github:zeng6125-rgb/dsh-llm-retry-settings. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-desktop-tray</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-0054841d01f4cec368e8/e830cca14e4b6adc</id>
-    <updated>2026-08-19T18:56:48Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-0054841d01f4cec368e8.html"/>
-    <author><name>wodongx123</name></author>
-    <category term="ui"/>
-    <summary>Adds a system tray icon to DSH Desktop, with settings to hide the main window to the tray on minimize or close and self-healing after app updates. Exact install spec: github:wodongx123/dsh-desktop-tray. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-niao-quick-open</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-fd5b6d98b003bf1e833a/71476531b93f83d6</id>
-    <updated>2026-08-19T14:56:47Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-fd5b6d98b003bf1e833a.html"/>
-    <author><name>dsh-niao</name></author>
-    <category term="ui"/>
-    <summary>UI enhancement suite for DeepSeek Harness: one-click workspace open (copy path, reveal in Finder, open in an auto-discovered editor), DeepSeek-web-style user-message nav rail, session to-do marks, flat-list polish, and a hard-restart button. Exact install spec: dsh-niao-quick-open. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-workbuddy-connect</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-f64291c87f65e4df21c1/71476531b93f83d6</id>
-    <updated>2026-08-19T14:56:47Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f64291c87f65e4df21c1.html"/>
-    <author><name>corrinehu</name></author>
-    <category term="model"/>
-    <summary>Brings the models in the WorkBuddy desktop app straight into DeepSeek Harness — zero configuration in the DSH chat. Exact install spec: github:corrinehu/dsh-workbuddy-connect. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-noema</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-f5ab05724a18debd1c31/71476531b93f83d6</id>
-    <updated>2026-08-19T14:56:47Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-f5ab05724a18debd1c31.html"/>
-    <author><name>ZSeven-W</name></author>
-    <category term="memory"/>
-    <summary>Long-term memory for DSH agents — durable, inspectable memories with recall, search, browse and knowledge-graph tools, import from ten other AI coding tools, and a settings page. Exact install spec: @zseven-w/dsh-noema. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-plugin-project-management</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-ee6fb53f9c92838d95c6/71476531b93f83d6</id>
-    <updated>2026-08-19T14:56:47Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ee6fb53f9c92838d95c6.html"/>
-    <author><name>Luke-Yong</name></author>
-    <category term="tools"/>
-    <summary>A DeepSeek Harness plugin that interviews the user about a project, generates a project timeline / Gantt chart, and exports it as Word or Excel. . Exact install spec: github:luke-yong/dsh-plugin-project-management. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-plugins#dsh-web-search</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-ee0f45e4bfd4a00030e8/71476531b93f83d6</id>
-    <updated>2026-08-19T14:56:47Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ee0f45e4bfd4a00030e8.html"/>
-    <author><name>yugasun</name></author>
-    <category term="browser"/>
-    <summary>Registers Baidu, Doubao, Tavily, and Exa backends into ctx.web so official web_search can use them, and routes web_fetch through Tavily Extract or Exa Contents when that backend is active. Exact install spec: @yugasun/dsh-web-search. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-undo-savepoint</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-ed45aa002dd9b90075b6/71476531b93f83d6</id>
-    <updated>2026-08-19T14:56:47Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-ed45aa002dd9b90075b6.html"/>
-    <author><name>lire1131</name></author>
-    <category term="dev"/>
-    <summary>Undo/redo &amp; rollback system for DSH: every config change is auto-snapshotted; undo/redo/restore to any version from the WebUI or the offline CLI/GUI tools (works even when DSH fails to boot). Exact install spec: github:lire1131/dsh-undo-savepoint. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-mpkg-wallpaper</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-e92d01fd970494cc2d3c/71476531b93f83d6</id>
-    <updated>2026-08-19T14:56:47Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e92d01fd970494cc2d3c.html"/>
-    <author><name>XHR666</name></author>
-    <category term="ui"/>
-    <summary>Load Wallpaper Engine .mpkg files as the DSH web background: embedded video, time-of-day switching, unified frosted blur, local wallpaper library &amp; rotation. Exact install spec: dsh-mpkg-wallpaper. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-conversation-exporter</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-e7aa226a2e85e73c9e09/71476531b93f83d6</id>
-    <updated>2026-08-19T14:56:47Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-e7aa226a2e85e73c9e09.html"/>
-    <author><name>liuyuelintop</name></author>
-    <category term="session"/>
-    <summary>Export the current DSH conversation, or selected turns, as clean readable Markdown. Exact install spec: dsh-conversation-exporter. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-file-mention</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-dca3b6a9d402bd191f4f/71476531b93f83d6</id>
-    <updated>2026-08-19T14:56:47Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-dca3b6a9d402bd191f4f.html"/>
-    <author><name>tipoLi5890</name></author>
-    <category term="ui"/>
-    <summary>Session-scoped @file/@folder mentions in the composer with Git-aware indexing, drag-drop and paste managed uploads, and validated path markers. Exact install spec: github:tipoli5890/dsh-file-mention. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-memory</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-c27b8104fbc6f84a439c/71476531b93f83d6</id>
-    <updated>2026-08-19T14:56:47Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c27b8104fbc6f84a439c.html"/>
-    <author><name>aqsk-BLG</name></author>
-    <category term="memory"/>
-    <summary>Layered file memory for DeepSeek Harness with workspace-scoped USER/MEMORY notes, background consolidation, and hybrid session recall. Exact install spec: dsh-file-memory. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-niao-message</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-bd44d0a172a9af6da888/71476531b93f83d6</id>
-    <updated>2026-08-19T14:56:47Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-bd44d0a172a9af6da888.html"/>
-    <author><name>dsh-niao</name></author>
-    <category term="notify"/>
-    <summary>macOS system notifications for DeepSeek Harness: aborted, max-tokens, blocked, interrupted and error events, pending questions and approvals, and completion or subagent-end via terminal-notifier; clicking a banner opens a configured app and returning to the page auto-dismisses them. Exact install spec: dsh-niao-message. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-perm-guard</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-bbb3633bf32e61db05ed/71476531b93f83d6</id>
-    <updated>2026-08-19T14:56:47Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-bbb3633bf32e61db05ed.html"/>
-    <author><name>a903067276-rgb</name></author>
-    <category term="security"/>
-    <summary>Auto-approval permission guard: a middle tier between workspace-write and danger-full-access — auto-allows safe operations inside trust directories, always asks a human for destructive ones, with 11 per-category switches and an audit trail. Exact install spec: github:a903067276-rgb/dsh-perm-guard. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
-  </entry>
-  <entry>
-    <title>New: dsh-pelican</title>
-    <id>tag:deeplugin.store,2026-08-19:deeplugin-bb4c63c0d119fce87143/71476531b93f83d6</id>
-    <updated>2026-08-19T14:56:47Z</updated>
-    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-bb4c63c0d119fce87143.html"/>
-    <author><name>Little-Star888</name></author>
-    <category term="fun"/>
-    <summary>A pelican riding a bicycle along a seashore in the bottom-right corner: an SVG animation that reflects the agent working state (thinking/done), with a chime and an optional system notification when a reply finishes. Exact install spec: dsh-pelican. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
   </entry>
 </feed>

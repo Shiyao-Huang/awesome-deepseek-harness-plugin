@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-de6ac657efeae7aee32e",
+    "name": "dsh-ambiguity-handling",
+    "author": "changlianxiya-139",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/changlianxiya-139/dsh-ambiguity-handling",
+    "firstObservedAt": "2026-08-20T04:52:29Z",
+    "lastChangedAt": "2026-08-20T04:52:29Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-de6ac657efeae7aee32e.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-de6ac657efeae7aee32e.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:changlianxiya-139/dsh-ambiguity-handling",
+    "command": "dsh plugin --profile web add github:changlianxiya-139/dsh-ambiguity-handling",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-de6ac657efeae7aee32e，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-de6ac657efeae7aee32e.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-de6ac657efeae7aee32e.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-ambiguity-handling 已收录到 DeepSeek Harness Plugin Store。向 dsh system prompt 追加歧义处理规则，让 agent 在猜测前先列出 A/B/C/D 选项请求澄清。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-de6ac657efeae7aee32e.html",
+    "en": "dsh-ambiguity-handling is now listed on the DeepSeek Harness Plugin Store. Appends ambiguity-handling rules to the dsh system prompt so the agent asks clarifying options before guessing.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-de6ac657efeae7aee32e.html"
+  }
+}

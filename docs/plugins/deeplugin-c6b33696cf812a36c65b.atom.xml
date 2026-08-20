@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-bot-mode — release evidence</title>
+  <id>https://deeplugin.store/plugins/deeplugin-c6b33696cf812a36c65b.atom.xml</id>
+  <updated>2026-08-20T04:52:29Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://deeplugin.store/plugins/deeplugin-c6b33696cf812a36c65b.atom.xml"/>
+  <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c6b33696cf812a36c65b.html"/>
+  <entry>
+    <title>New: dsh-bot-mode</title>
+    <id>tag:deeplugin.store,2026-08-20:deeplugin-c6b33696cf812a36c65b/eff4b5af01607048</id>
+    <updated>2026-08-20T04:52:29Z</updated>
+    <link rel="alternate" href="https://deeplugin.store/plugins/deeplugin-c6b33696cf812a36c65b.html"/>
+    <author><name>zenghaili0901</name></author>
+    <category term="workflow"/>
+    <summary>Bot Mode for DeepSeek Harness: a roster of named bots with avatars, personas and per-bot chats, each backed by one durable continuable subagent session that keeps memory across turns. Exact install spec: github:zenghaili0901/dsh-bot-mode. Source event: awesome-dsh-plugin/awesome-dsh-plugin; changed: listed.</summary>
+  </entry>
+</feed>

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://deeplugin.store/data/launch-packet.schema.json",
+  "version": 1,
+  "plugin": {
+    "id": "deeplugin-c6b33696cf812a36c65b",
+    "name": "dsh-bot-mode",
+    "author": "zenghaili0901",
+    "category": "workflow",
+    "version": null,
+    "homepage": "https://github.com/zenghaili0901/dsh-bot-mode",
+    "firstObservedAt": "2026-08-20T04:52:29Z",
+    "lastChangedAt": "2026-08-20T04:52:29Z"
+  },
+  "links": {
+    "detail": "https://deeplugin.store/plugins/deeplugin-c6b33696cf812a36c65b.html",
+    "feed": "https://deeplugin.store/plugins/deeplugin-c6b33696cf812a36c65b.atom.xml",
+    "newFeed": "https://deeplugin.store/feeds/new.atom.xml",
+    "updatedFeed": "https://deeplugin.store/feeds/updated.atom.xml"
+  },
+  "install": {
+    "spec": "github:zenghaili0901/dsh-bot-mode",
+    "command": "dsh plugin --profile web add github:zenghaili0901/dsh-bot-mode",
+    "agentRequest": "请先在 deeplugin.store 中检索 Registry ID deeplugin-c6b33696cf812a36c65b，展示来源和精确安装 spec，为 web profile 生成安装计划；等我明确批准后再安装。"
+  },
+  "badge": {
+    "markdown": "[![Listed on deeplugin.store](https://deeplugin.store/assets/deeplugin-listed.svg)](https://deeplugin.store/plugins/deeplugin-c6b33696cf812a36c65b.html)",
+    "html": "<a href=\"https://deeplugin.store/plugins/deeplugin-c6b33696cf812a36c65b.html\"><img src=\"https://deeplugin.store/assets/deeplugin-listed.svg\" alt=\"Listed on deeplugin.store\"></a>"
+  },
+  "posts": {
+    "zh": "dsh-bot-mode 已收录到 DeepSeek Harness Plugin Store。DeepSeek Harness 的 Bot 模式：把子 Agent 变成一群有头像、有人格的 Bot，每个 Bot 拥有独立对话，由一个持久的 continuable 子 Agent 会话支撑，跨轮次保留记忆。\n\n查看来源与安装：https://deeplugin.store/plugins/deeplugin-c6b33696cf812a36c65b.html",
+    "en": "dsh-bot-mode is now listed on the DeepSeek Harness Plugin Store. Bot Mode for DeepSeek Harness: a roster of named bots with avatars, personas and per-bot chats, each backed by one durable continuable subagent session that keeps memory across turns.\n\nSource and install details: https://deeplugin.store/plugins/deeplugin-c6b33696cf812a36c65b.html"
+  }
+}
