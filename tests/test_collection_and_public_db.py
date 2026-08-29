@@ -410,6 +410,13 @@ class ItemSeenRangeTests(unittest.TestCase):
 
 
 class PublicDatabaseTests(unittest.TestCase):
+    def test_public_database_default_fits_release_asset_limit(self) -> None:
+        with mock.patch.object(sys, "argv", ["build_public_db.py"]):
+            args = build_public_db.parse_args()
+
+        self.assertEqual(args.max_mib, 2047.0)
+        self.assertLess(args.max_mib, 2048.0)
+
     @staticmethod
     def create_database(path: Path) -> None:
         connection = sqlite3.connect(path)
