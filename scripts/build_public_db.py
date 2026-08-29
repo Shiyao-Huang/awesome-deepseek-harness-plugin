@@ -17,6 +17,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DB = ROOT / "data" / "aggregator.sqlite3"
 DEFAULT_FULL_ARCHIVE = ROOT / "data" / "aggregator-full.sqlite3.zst"
+DEFAULT_MAX_MIB = 2047.0
 PROJECTION_VERSION = 4
 PUBLIC_DROPPED_INDEXES = ("idx_metrics_dedupe",)
 STRIPPED_JSON_COLUMNS = (
@@ -438,7 +439,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--source", type=Path, default=DEFAULT_DB)
     parser.add_argument("--output", type=Path, default=ROOT / "data" / "aggregator-public.sqlite3")
     parser.add_argument("--full-archive", type=Path, default=DEFAULT_FULL_ARCHIVE)
-    parser.add_argument("--max-mib", type=float, default=95.0)
+    parser.add_argument("--max-mib", type=float, default=DEFAULT_MAX_MIB)
     parser.add_argument("--replace", action="store_true")
     parser.add_argument("--in-place", action="store_true")
     return parser.parse_args()
